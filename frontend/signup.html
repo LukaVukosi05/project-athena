@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Create your account — Project Athena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+<div id="nav-mount"></div>
+
+<main class="container">
+  <div class="card auth-shell">
+    <div class="step-dots" id="step-dots"><span class="active"></span><span></span><span></span></div>
+    <div id="signup-root"></div>
+    <p style="text-align:center;margin-top:var(--space-5);font-size:var(--fs-sm);">Already have an account? <a href="login.html">Sign in</a></p>
+  </div>
+</main>
+
+<script src="js/data/curriculum-data.js"></script>
+<script src="js/engine/state.js?v=auth-v2"></script>
+<script src="js/engine/navigation.js?v=auth-v2"></script>
+<script>document.addEventListener("DOMContentLoaded", () => renderNav(""));</script>
+<script src="js/pages/signup.js"></script>
+</body>
+</html>

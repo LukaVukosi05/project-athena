@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dashboard — Project Athena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+<div id="nav-mount"></div>
+
+<main class="container section">
+  <h2 class="dash-greeting" id="greeting">Good morning 👋</h2>
+  <p class="dash-sub" id="grade-label">Grade 12 Mathematics</p>
+
+  <div class="dash-grid">
+    <div>
+      <div class="card" style="margin-bottom:var(--space-6);">
+        <div class="progress-label"><span>Your progress</span><span id="progress-pct">0%</span></div>
+        <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+      </div>
+
+      <div class="card" style="margin-bottom:var(--space-6);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+        <div>
+          <div class="topic-row__meta">Continue learning</div>
+          <strong id="continue-link-label">—</strong>
+        </div>
+        <a id="continue-link" href="#" class="btn btn-primary">Continue</a>
+      </div>
+
+      <h3>Topics</h3>
+      <div id="topics-list"></div>
+    </div>
+
+    <aside>
+      <div class="stat-row" style="grid-template-columns:1fr;">
+        <div class="card stat-card"><div class="big" id="stat-progress">0%</div><div class="label">Exam readiness</div></div>
+        <div class="card stat-card"><div class="big" id="stat-lessons">0</div><div class="label">Lessons completed</div></div>
+        <div class="card stat-card"><div class="big" id="stat-plan">Free</div><div class="label">Plan</div></div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-footer"><div class="container">Project Athena · Grade 8–12 Mathematics, aligned to CAPS.</div></footer>
+
+<script src="js/data/curriculum-data.js"></script>
+<script src="js/engine/state.js?v=auth-v2"></script>
+<script src="js/engine/navigation.js?v=auth-v2"></script>
+<script src="js/pages/dashboard.js?v=paper2-v5"></script>
+</body>
+</html>

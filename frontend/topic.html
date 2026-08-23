@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Topic — Project Athena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+<div id="nav-mount"></div>
+
+<main class="container section" id="topic-root">
+  <p class="lesson-crumbs"><a id="crumb-grade" href="dashboard.html">Grade</a> / Topic</p>
+
+  <div class="topic-hero">
+    <div>
+      <h2 id="topic-title">Topic</h2>
+      <p id="topic-caps-ref" style="margin:0;color:var(--color-text-secondary);font-size:var(--fs-sm);"></p>
+    </div>
+  </div>
+
+  <h4 style="margin-top:var(--space-6);">What you'll learn</h4>
+  <ul class="learn-list" id="learn-list"></ul>
+
+  <h3 style="margin-top:var(--space-7);">Lessons</h3>
+  <div id="lessons-list"></div>
+</main>
+
+<footer class="site-footer"><div class="container">Project Athena · Grade 8–12 Mathematics, aligned to CAPS.</div></footer>
+
+<script src="js/data/curriculum-data.js?v=20260822-2"></script>
+<script src="js/engine/state.js?v=auth-v2"></script>
+<script src="js/engine/navigation.js"></script>
+<script src="js/pages/topic.js?v=paper2-v2"></script>
+</body>
+</html>

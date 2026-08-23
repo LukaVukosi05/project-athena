@@ -1,0 +1,40 @@
+
+
+# ============================================================
+# Phase 1 target dependency set — NOT yet installed/used.
+# Pin exact versions once the backend build actually starts;
+# left unpinned here since this is a planning scaffold.
+# ============================================================
+
+# --- Web framework ---
+fastapi              # HTTP API layer (see app/main.py, app/api/v1/*)
+uvicorn[standard]     # ASGI server to run FastAPI in dev/prod
+
+# --- Database ---
+sqlalchemy            # ORM used by app/db/models/*
+alembic                # DB migrations (curriculum schema will change often)
+psycopg2-binary        # PostgreSQL driver
+
+# --- Auth & security ---
+python-jose[cryptography]   # JWT signing/verification (app/core/security.py)
+passlib[bcrypt]              # password hashing
+python-multipart              # form/file parsing (e.g. OCR image uploads)
+
+# --- Validation ---
+pydantic               # request/response schemas across app/api/v1/*
+
+# --- AI / ML (Phase 4+, added when the AI Tutor phase starts) ---
+# httpx                 # calling open-source model APIs / premium fallback
+# (OCR + math-verification libraries to be benchmarked individually
+#  per the "experiment -> proof of concept -> benchmark -> wrapper"
+#  principle in the brief, before being added here)
+
+# --- Payments (Phase 5) ---
+# stripe                # or a South African-compatible processor —
+#                          decision deferred to Phase 5 per the brief:
+#                          "Never handle sensitive card information ourselves."
+
+# --- Ops ---
+python-dotenv          # local env var loading
+pypdf>=6.16,<7         # metadata/indexing for locally supplied past papers
+PyMuPDF>=1.28,<2       # rendering scanned past-paper pages for review

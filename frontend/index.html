@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Project Athena — Master Mathematics, one concept at a time</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+<div id="nav-mount"></div>
+
+<main>
+  <section class="container hero">
+    <div>
+      <span class="hero__eyebrow">CAPS &amp; IEB · Grades 8–12</span>
+      <h1>Master Mathematics.<br>One concept at a time.</h1>
+      <p class="lead">Learn, practise and understand Mathematics with visual lessons and a personal tutor designed for South African learners.</p>
+      <div class="hero__ctas">
+        <a href="signup.html" class="btn btn-primary">Start Learning</a>
+        <a href="grade.html?grade=grade-12" class="btn btn-secondary">Explore Grade 12</a>
+      </div>
+      <div class="grade-strip">
+        <a class="grade-chip" href="grade.html?grade=grade-8">Grade 8</a>
+        <a class="grade-chip" href="grade.html?grade=grade-9">Grade 9</a>
+        <a class="grade-chip" href="grade.html?grade=grade-10">Grade 10</a>
+        <a class="grade-chip" href="grade.html?grade=grade-11">Grade 11</a>
+        <a class="grade-chip" href="grade.html?grade=grade-12">Grade 12</a>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="whiteboard" style="padding:var(--space-6);">
+        <p class="eq" style="font-size:1.6rem;color:var(--color-primary-deep);margin:0;">2x + 5 = 15</p>
+        <p style="margin:0;font-size:var(--fs-sm);color:var(--color-text-secondary);">− 5 from both sides ↓</p>
+        <p class="eq" style="font-size:1.6rem;color:var(--color-text);margin:0;">2x = 10</p>
+        <p style="margin:0;font-size:var(--fs-xs);color:var(--color-text-secondary);">A digital whiteboard, not a chatbot.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head">
+      <h2>Learn → Watch → Understand → Practice → Master</h2>
+      <p>The core of Project Athena is an AI-powered visual mathematics teacher that explains concepts through animated, step-by-step demonstrations — never just an answer.</p>
+    </div>
+    <div class="feature-grid">
+      <div class="card card-hover">
+        <h3>Animated whiteboard</h3>
+        <p>Every lesson shows the working, not just the result — pausable, replayable, and at your own pace.</p>
+      </div>
+      <div class="card card-hover">
+        <h3>Quiz to progress</h3>
+        <p>Each lesson ends with a short quiz. Pass it to unlock the next one, so mastery — not clicking through — is what moves you forward.</p>
+      </div>
+      <div class="card card-hover">
+        <h3>A tutor, not a chatbot</h3>
+        <p>Ask "why do we subtract 5?" and get an explanation, a hint, or a worked example — never just the answer on demand.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section" style="padding-top:0;">
+    <div class="card" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;background:var(--color-primary-deep);color:#fff;">
+      <div>
+        <h3 style="color:#fff;margin-bottom:4px;">Ready to start?</h3>
+        <p style="color:#C7D6FF;margin:0;">Your first two lessons in every topic are free.</p>
+      </div>
+      <a href="signup.html" class="btn" style="background:#fff;color:var(--color-primary-deep);">Create your account</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">Project Athena — a visual mathematics learning platform for South African Grade 8–12 learners, aligned to CAPS and supporting IEB preparation.</div>
+</footer>
+
+<script src="js/data/curriculum-data.js"></script>
+<script src="js/engine/state.js?v=auth-v2"></script>
+<script src="js/engine/navigation.js?v=auth-v2"></script>
+<script>document.addEventListener("DOMContentLoaded", async () => { await AthenaAuth.restoreSession(); renderNav("Learn"); });</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Welcome back — Project Athena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+<div id="nav-mount"></div>
+
+<main class="container">
+  <div class="card auth-shell">
+    <h2 style="text-align:center;">Welcome back</h2>
+    <form id="login-form">
+      <div class="field"><label for="email">Email</label><input id="email" type="email" required /></div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" type="password" required />
+      </div>
+      <p style="text-align:right;margin-top:-8px;"><a href="#" style="font-size:var(--fs-xs);">Forgot password?</a></p>
+      <button class="btn btn-primary btn-block" type="submit">Sign in</button>
+    </form>
+    <div class="divider">or</div>
+    <button class="btn btn-ghost btn-block" type="button">Continue with Google</button>
+    <p style="text-align:center;margin-top:var(--space-5);font-size:var(--fs-sm);">Don't have an account? <a href="signup.html">Create account</a></p>
+  </div>
+</main>
+
+<script src="js/data/curriculum-data.js"></script>
+<script src="js/engine/state.js?v=auth-v2"></script>
+<script src="js/engine/navigation.js?v=auth-v2"></script>
+<script>document.addEventListener("DOMContentLoaded", () => renderNav(""));</script>
+<script src="js/pages/login.js?v=auth-v2"></script>
+</body>
+</html>

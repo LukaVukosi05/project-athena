@@ -1,0 +1,54 @@
+/* ============================================================
+   DESIGN TOKENS — Project Athena
+   Education Blue system, refined from the product brief for
+   accessible contrast (WCAG AA) and a calm, academic feel.
+   Signature idea: headings in a serif "textbook" face (Lora),
+   body/UI in Inter, equations in a monospace-serif hybrid —
+   this pairing is what keeps the product reading as a printed
+   textbook brought to life, not a SaaS dashboard.
+   ============================================================ */
+:root {
+  --color-primary:        #2456CF;
+  --color-primary-deep:   #16306B;
+  --color-primary-light:  #EEF3FF;
+  --color-bg:             #F7F9FC;
+  --color-card:           #FFFFFF;
+  --color-text:           #101828;
+  --color-text-secondary: #5B6472;
+  --color-success:        #15803D;
+  --color-warning:        #B45309;
+  --color-error:          #B91C1C;
+  --color-border:         #E2E8F0;
+  --color-chalk:          #FDF6E3;
+
+  --font-display: "Lora", "Iowan Old Style", Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono-math: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  --fs-xs: 0.75rem; --fs-sm: 0.875rem; --fs-base: 1rem; --fs-md: 1.125rem;
+  --fs-lg: 1.375rem; --fs-xl: 1.75rem; --fs-2xl: 2.25rem; --fs-3xl: 3rem;
+
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 24px; --space-6: 32px; --space-7: 48px; --space-8: 64px;
+
+  --radius-sm: 8px; --radius-md: 14px; --radius-lg: 22px;
+  --shadow-card: 0 1px 2px rgba(16,24,40,0.04), 0 4px 16px rgba(16,24,40,0.06);
+  --shadow-raised: 0 8px 30px rgba(22,48,107,0.12);
+  --transition-standard: 180ms cubic-bezier(0.4,0,0.2,1);
+}
+
+/* Dark theme variables applied when the document root has data-theme="dark" */
+[data-theme="dark"] {
+  --color-primary:        #4DA3FF;
+  --color-primary-deep:   #66A3FF;
+  --color-primary-light:  #1A2A44;
+  --color-bg:             #0B1220;
+  --color-card:           #0F1724;
+  --color-text:           #E6EEF8;
+  --color-text-secondary: #9AA6B2;
+  --color-success:        #12B981;
+  --color-warning:        #F59E0B;
+  --color-error:          #F87171;
+  --color-border:         #162029;
+  --color-chalk:          #111827;
+}

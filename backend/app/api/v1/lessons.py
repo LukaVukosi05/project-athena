@@ -1,0 +1,21 @@
+"""Lesson content endpoint with server-side entitlement enforcement."""
+
+from fastapi import APIRouter, Depends, HTTPException
+
+from app.core.security import get_optional_user
+from app.curriculum.repository import curriculum_repository as repository
+from app.db.models.user import User
+from app.lessons.access import enforce_lesson_access
+
+router = APIRouter()
+
+
+@router.get("/{lesson_id}")
+def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -> dict:
+    result = repository.get_lesson(lesson_id)
+    if result is None:
+        raise HTTPException(status_code=404, detail="Lesson not found")
+    topic, subtopic, lesson = result
+    enforce_lesson_access(lesson, user)
+    return {"grade_id": "grade-12", "topic_id": topic.id,
+            "subtopic_id": subtopic.id, **lesson.model_dump()}
