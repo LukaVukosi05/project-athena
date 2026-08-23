@@ -2,7 +2,8 @@
 
 from app.curriculum.schemas import (
     AccessLevel, ContentStatus, Lesson, LessonBlock, MathematicalOperation,
-    StepExplanation, TeachingStep, WhiteboardBlock, WhiteboardQuestion,
+    StepExplanation, TeachingStep, VisualizationInstruction, VisualizationState,
+    WhiteboardBlock, WhiteboardQuestion,
 )
 
 
@@ -117,6 +118,50 @@ def trig_identity_questions() -> list[WhiteboardQuestion]:
         for index, spec in enumerate(TRIG_IDENTITY_SPECS)]
 
 
+def progressive_paper2_questions(topic_id: str, level: str,
+                                 rows: list[dict]) -> list[WhiteboardQuestion]:
+    """Turn the reviewed 12-item topic bank into a deterministic example set."""
+    difficulties = ["foundation"] * 2 + ["easy"] * 2 + ["standard"] * 3 + ["intermediate"] * 2 + ["exam"] * 2 + ["advanced"]
+    guidance = ["high"] * 3 + ["moderate"] * 4 + ["reduced"] * 3 + ["minimal"] * 2
+    return [WhiteboardQuestion(
+        id=f"{topic_id}-{level}-example-{index + 1:02}", order=index + 1,
+        difficulty=difficulties[index], estimated_minutes=4,
+        is_core_example=index == 0, guidance_level=guidance[index],
+        whiteboard=(central_angle_whiteboard(f"{topic_id}-{level}-{index + 1:02}", 100)
+                    if topic_id == "euclidean-geometry" and row["question"].startswith("An angle at the centre")
+                    else worked_whiteboard(topic_id, f"{level}-{index + 1:02}", row)),
+    ) for index, row in enumerate(rows)]
+
+
+def central_angle_whiteboard(identifier: str, angle: int) -> WhiteboardBlock:
+    target = angle // 2
+    initial = f"An angle at the centre is {angle}°. Find the angle at the circumference on the same arc."
+    common = "The two angles must stand on the same arc AB."
+    states = [
+      ("Build the circle", "build_geometry_scene", initial, initial,
+       explain("Construct the circle, centre, radii and chords.", "The diagram shows where each angle is formed.", "Build the geometric relationships before choosing a theorem.", "A central angle has its vertex at O."), None,
+       ["circle","points","radii","chords"], [], []),
+      ("Show the given angle", "highlight_geometry", initial, f"∠AOB = {angle}°",
+       explain("We are given the angle at the centre.", "We need to compare it with the angle standing on the same arc.", "This tells us which circle theorem applies.", "Always identify the arc both angles stand on."), common,
+       ["circle","points","radii","chords"], ["central_angle"], ["central_angle"]),
+      ("Identify the target and arc", "highlight_geometry", f"∠AOB = {angle}°", f"∠AOB = {angle}°; ∠ACB = x; same arc AB",
+       explain("Mark ∠ACB as x and highlight arc AB.", "Both angles are subtended by the same arc AB.", "This visual relationship justifies the theorem.", "Check the endpoints of the arc, not only the angle labels."), common,
+       ["circle","points","radii","chords","arc"], ["central_angle","target_angle","arc_ab"], ["central_angle","target_x"]),
+      ("Apply the central-angle theorem", "apply_geometry_theorem", f"∠AOB = {angle}°; ∠ACB = x; same arc AB", f"{angle}° = 2x",
+       explain("Use: angle at centre = 2 × angle at circumference.", "The angles stand on the same arc AB.", "The theorem converts the diagram into an equation.", "The angle at the centre is the larger angle."), common,
+       ["circle","points","radii","chords","arc"], ["central_angle","target_angle","arc_ab"], ["central_angle","target_x","theorem"]),
+      ("Solve for x", "solve_geometry", f"{angle}° = 2x", f"{angle}° / 2 = x; x = {target}°",
+       explain("Divide both sides by 2.", "The central angle is twice the circumference angle.", "This isolates the target angle x.", "Halve the central angle; do not double it."), common,
+       ["circle","points","radii","chords","arc"], ["target_angle","arc_ab"], ["central_angle","target_x","theorem","solution"]),
+      ("Complete the diagram", "complete_geometry", f"{angle}° / 2 = x; x = {target}°", f"∠ACB = {target}°",
+       explain("Label the target angle with its value.", "The completed diagram connects the theorem and result.", "Keep the final visual relationship visible.", "Centre angle equals twice the circumference angle on the same arc."), common,
+       ["circle","points","radii","chords","arc"], ["target_angle","arc_ab"], ["central_angle","target_x","answer","theorem","solution"]),
+    ]
+    return WhiteboardBlock(id=identifier, problem=initial, initial_expression=initial,
+      visualization=VisualizationInstruction(type="geometry", template="central_angle_theorem", parameters={"central_angle": angle, "target":"circumference_angle"}),
+      steps=[TeachingStep(step_number=index,title=s[0],before_expression=s[2],working_expression=s[3],operation=MathematicalOperation(type=s[1]),after_expression=s[3],explanation=s[4],common_mistake=s[5],animation_template={"build_geometry_scene":"geometry_scene","highlight_geometry":"geometry_highlight","apply_geometry_theorem":"geometry_theorem","solve_geometry":"geometry_solution","complete_geometry":"geometry_complete"}[s[1]],screen_reader_description=f"Geometry step {index + 1}: {s[3]}",visualization_state=VisualizationState(objects=s[6],highlights=s[7],annotations=s[8])) for index,s in enumerate(states)])
+
+
 BANKS = {
 "statistics": [
  item("Find the mean of 4, 7, 9, 10, 10.", "8", ["7", "8", "9", "10"], "The total is 40 and 40÷5=8."),
@@ -176,7 +221,8 @@ BANKS = {
 ]}
 
 
-def practice_lesson(topic_id: str, title: str, level: str, rows: list[dict], order: int) -> Lesson:
+def practice_lesson(topic_id: str, title: str, level: str, rows: list[dict],
+                    question_rows: list[dict], order: int) -> Lesson:
     display = "Foundation" if level == "foundation" else "Standard"
     return Lesson(id=f"g12-p2-{topic_id}-{level}", order=order,
         title=f"{display} worked-on-paper practice", objective=f"Solve six {display.lower()} {title} questions and justify each selected answer.",
@@ -185,6 +231,7 @@ def practice_lesson(topic_id: str, title: str, level: str, rows: list[dict], ord
         prerequisites=[], estimated_minutes=35 if level == "foundation" else 45,
         difficulty=level, access_level=AccessLevel.FREE,
         status=ContentStatus.TEACHER_REVIEW_REQUIRED, mastery_threshold=0.7,
+        whiteboard_questions=progressive_paper2_questions(topic_id, level, question_rows),
         blocks=[
             LessonBlock(type="concept", title="How to use this lesson", content="Do not guess from the options. Work every question on paper, circle your result, then select the matching answer."),
             worked_whiteboard(topic_id, level, rows[0]),
@@ -205,6 +252,7 @@ def mastery_lesson(topic_id: str, rows: list[dict]) -> Lesson:
         prerequisites=[f"g12-p2-{topic_id}-foundation", f"g12-p2-{topic_id}-standard"],
         estimated_minutes=50, difficulty="challenge", access_level=AccessLevel.FREE,
         status=ContentStatus.TEACHER_REVIEW_REQUIRED, mastery_threshold=0.75,
+        whiteboard_questions=progressive_paper2_questions(topic_id, "mastery", rows),
         blocks=[
             LessonBlock(type="concept", title="Quiz rules", content="Use paper. Show formulas, substitutions, reasons and units. Do not select an option until your written answer is complete."),
             worked_whiteboard(topic_id, "mastery", selected[0]),
@@ -226,7 +274,7 @@ def exam_lesson(topic_id: str, rows: list[dict]) -> Lesson:
         prerequisites=[f"g12-p2-{topic_id}-mastery"], estimated_minutes=75,
         difficulty="exam", access_level=AccessLevel.FREE,
         status=ContentStatus.TEACHER_REVIEW_REQUIRED, mastery_threshold=0.75,
-        whiteboard_questions=identity_questions,
+        whiteboard_questions=identity_questions or progressive_paper2_questions(topic_id, "exam", rows),
         blocks=[
             LessonBlock(type="concept", title="Exam strategy", content="The questions increase in complexity. Complete all written working on paper and reserve time to check every result."),
             core_whiteboard,
@@ -236,8 +284,8 @@ def exam_lesson(topic_id: str, rows: list[dict]) -> Lesson:
 
 
 PAPER2_PRACTICE = {topic: [
-    practice_lesson(topic, topic.replace("-", " ").title(), "foundation", rows[:6], 1),
-    practice_lesson(topic, topic.replace("-", " ").title(), "standard", rows[6:12], 2),
+    practice_lesson(topic, topic.replace("-", " ").title(), "foundation", rows[:6], rows, 1),
+    practice_lesson(topic, topic.replace("-", " ").title(), "standard", rows[6:12], rows, 2),
     mastery_lesson(topic, rows),
     exam_lesson(topic, rows),
 ] for topic, rows in BANKS.items()}

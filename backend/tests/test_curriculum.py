@@ -151,6 +151,19 @@ def test_free_calculus_lessons_are_detailed_and_exam_framed():
     assert "EXAM-STYLE QUESTION" in whiteboard.problem
     assert len(whiteboard.steps) == 5
     validate_whiteboard(whiteboard)
+    assert whiteboard.graph_spec
+    assert whiteboard.graph_spec["data"][0]["type"] == "scatter"
     practice = [block for block in first.blocks if block.type == "practice"]
     assert len(practice) == 2
     assert len(practice[1].data["questions"]) == 4
+
+
+def test_calculus_lessons_have_distinct_graph_first_example_sets():
+    for lesson_id in ("g12-calculus-average-rate", "g12-calculus-secant-to-tangent"):
+        _, _, lesson = curriculum_repository.get_lesson(lesson_id)
+        assert len(lesson.whiteboard_questions) == 8
+        problems = [question.whiteboard.problem for question in lesson.whiteboard_questions]
+        assert len(set(problems)) == 8
+        assert all(question.whiteboard.graph_spec for question in lesson.whiteboard_questions)
+        for question in lesson.whiteboard_questions:
+            validate_whiteboard(question.whiteboard)

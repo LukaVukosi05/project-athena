@@ -4,6 +4,7 @@ from app.curriculum.schemas import (
     AccessLevel, ContentStatus, Lesson, LessonBlock, MathematicalOperation,
     StepExplanation, TeachingStep, WhiteboardBlock,
 )
+from app.services.graphing import function_graph
 
 
 def explain(what: str, why: str, purpose: str, remember: str) -> StepExplanation:
@@ -26,6 +27,7 @@ AVERAGE_RATE = Lesson(
         WhiteboardBlock(id="tank-average-rate",
             problem="EXAM-STYLE QUESTION: The volume of water in a tank is V(t)=t²+4t+10 litres, where t is measured in minutes. Calculate the average rate at which the volume changes from t=2 to t=5. Interpret your answer.",
             initial_expression="V(t)=t²+4t+10; t₁=2; t₂=5",
+            graph_spec=function_graph(range(7), [10, 15, 22, 31, 42, 55, 70], title="V(t) = t² + 4t + 10", x_label="time (minutes)", y_label="volume (litres)", points=[(2, 22, "start"), (5, 55, "end")]),
             steps=[
                 TeachingStep(step_number=0, title="Identify what the question gives",
                     before_expression="V(t)=t²+4t+10; t₁=2; t₂=5", operation=MathematicalOperation(type="identify_interval", value="2 to 5"), after_expression="V(t)=t²+4t+10; t₁=2; t₂=5",
@@ -71,7 +73,7 @@ SECANT_TO_TANGENT = Lesson(
     status=ContentStatus.TEACHER_REVIEW_REQUIRED, mastery_threshold=0.8,
     blocks=[
         LessonBlock(type="concept", title="Exam language", content="An exam may ask for a gradient from first principles, the gradient at a point, or the equation of a tangent. All three depend on this secant-to-tangent idea."),
-        WhiteboardBlock(id="secant-to-tangent-x-squared", problem="CONCEPT-TO-EXAM QUESTION: For f(x)=x², explain why the gradient at x=2 is 4 by considering a second point at x=2+h.", initial_expression="P(2,4) and Q(2+h,(2+h)²)", steps=[
+        WhiteboardBlock(id="secant-to-tangent-x-squared", problem="CONCEPT-TO-EXAM QUESTION: For f(x)=x², explain why the gradient at x=2 is 4 by considering a second point at x=2+h.", initial_expression="P(2,4) and Q(2+h,(2+h)²)", graph_spec=function_graph([-2,-1,0,1,2,3,4], [4,1,0,1,4,9,16], title="f(x) = x²", points=[(2,4,"P"),(3,9,"Q")]), steps=[
             TeachingStep(step_number=0, title="Place two points on the curve", before_expression="P(2,4) and Q(2+h,(2+h)²)", operation=MathematicalOperation(type="draw_secant", value="P to Q"), after_expression="P(2,4) and Q(2+h,(2+h)²)", explanation=explain("Join P and Q with a secant.", "Two distinct points determine an average gradient.", "This creates a measurable gradient near x=2.", "Secant means two points; tangent touches at the target point."), animation_template="secant_line", screen_reader_description="A secant joins P at x equals 2 to Q at x equals 2 plus h."),
             TeachingStep(step_number=1, title="Calculate the secant gradient", before_expression="P(2,4) and Q(2+h,(2+h)²)", operation=MathematicalOperation(type="calculate_secant_gradient", value="h"), after_expression="mₛ=[(2+h)²−4]/h=4+h, h≠0", explanation=explain("Use change in y over change in x.", "The secant gradient is the average rate between P and Q.", "Simplifying exposes what happens as h gets smaller.", "Expand first, factor h, then cancel; never substitute h=0 before cancelling."), common_mistake="Putting h=0 into the original quotient causes division by zero.", animation_template="secant_gradient", screen_reader_description="The secant gradient simplifies to 4 plus h for non-zero h."),
             TeachingStep(step_number=2, title="Move Q toward P", before_expression="mₛ=[(2+h)²−4]/h=4+h, h≠0", operation=MathematicalOperation(type="approach_limit", value="h→0"), after_expression="As h→0, mₛ=4+h→4", explanation=explain("Let h approach zero.", "Q moves closer to P while remaining distinct during the calculation.", "The secant gradients approach the tangent gradient.", "A limit approaches zero; it does not divide by zero."), animation_template="secant_approaches_tangent", screen_reader_description="Point Q approaches P and the secant gradient approaches 4."),
@@ -84,3 +86,7 @@ SECANT_TO_TANGENT = Lesson(
         ]}),
         LessonBlock(type="summary", title="Lesson summary", content="A secant measures average change. As its second point approaches the first, its gradient approaches the tangent gradient—the derivative at that point."),
     ])
+
+from app.curriculum.grade12.lessons.calculus_question_sets import rate_questions, tangent_questions
+AVERAGE_RATE = AVERAGE_RATE.model_copy(update={"whiteboard_questions": rate_questions()})
+SECANT_TO_TANGENT = SECANT_TO_TANGENT.model_copy(update={"whiteboard_questions": tangent_questions()})

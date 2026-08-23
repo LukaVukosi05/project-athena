@@ -53,7 +53,13 @@ class StatefulWhiteboard {
       if (working && working !== history[history.length - 1]) history.push(working);
       if (previous.after_expression !== history[history.length - 1]) history.push(previous.after_expression);
     }
-    this.mount.querySelector(".whiteboard-stage").innerHTML = renderer.render(step, phase, { history });
+    let visualization = "";
+    const instruction = this.block.visualization || (this.block.graph_spec ? { type:"function_graph", template:"cartesian_function", parameters:{ spec:this.block.graph_spec } } : null);
+    if (instruction) {
+      try { visualization = AthenaVisualizationRegistry.render(instruction, step, phase); }
+      catch (error) { visualization = `<div class="visualization-fallback" role="note"><strong>Diagram unavailable.</strong><p>${escapeWhiteboardHtml(step.screen_reader_description)}</p></div>`; }
+    }
+    this.mount.querySelector(".whiteboard-stage").innerHTML = `${visualization}${renderer.render(step, phase, { history, hasVisualization:Boolean(instruction) })}`;
     this.mount.querySelector(".whiteboard-stage").setAttribute("aria-label", step.screen_reader_description);
     const showFullGuidance = this.guidanceLevel === "high";
     const showModerateGuidance = showFullGuidance || this.guidanceLevel === "moderate";

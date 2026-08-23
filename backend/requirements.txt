@@ -38,3 +38,4 @@ pydantic               # request/response schemas across app/api/v1/*
 python-dotenv          # local env var loading
 pypdf>=6.16,<7         # metadata/indexing for locally supplied past papers
 PyMuPDF>=1.28,<2       # rendering scanned past-paper pages for review
+plotly>=6.0,<7          # validated mathematical graph specifications

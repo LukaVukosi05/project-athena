@@ -41,6 +41,12 @@ def test_each_paper_2_module_has_progressive_practice_mastery_and_exam_lessons()
             "foundation", "standard", "challenge", "exam"
         }
         assert all(lesson.access_level == "free" for lesson in lessons)
+        assert all(len(lesson.whiteboard_questions) == 12 for lesson in lessons)
+        assert all(
+            lesson.whiteboard_questions[0].whiteboard.problem
+            != lesson.whiteboard_questions[1].whiteboard.problem
+            for lesson in lessons
+        )
         for lesson in [item for item in lessons if item.difficulty in {"foundation", "standard"}]:
             practice = next(block for block in lesson.blocks if block.type != "whiteboard" and block.data.get("assessment_mode") == "paper_multiple_choice")
             quiz = next(block for block in lesson.blocks if block.type != "whiteboard" and block.data.get("assessment_mode") == "scored_multiple_choice")
@@ -78,6 +84,7 @@ def test_whiteboard_frontend_renders_working_then_result_with_persistent_history
     assert "renderMathHistory" in source
     assert "math-fraction" in source
     assert "previous.working_expression" in state
+    assert "renderGraphSpec" in source
 
 
 def test_past_paper_api_lists_and_serves_allowlisted_pdfs():

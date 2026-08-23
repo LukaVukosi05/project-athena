@@ -33,6 +33,18 @@ class MathematicalOperation(BaseModel):
     value: int | float | str | None = None
 
 
+class VisualizationInstruction(BaseModel):
+    type: Literal["geometry", "coordinate_geometry", "function_graph", "trigonometry", "statistics", "probability", "calculus"]
+    template: str = Field(pattern=r"^[a-z][a-z0-9_]*$")
+    parameters: dict[str, int | float | str | bool] = Field(default_factory=dict)
+
+
+class VisualizationState(BaseModel):
+    objects: list[str] = Field(default_factory=list)
+    highlights: list[str] = Field(default_factory=list)
+    annotations: list[str] = Field(default_factory=list)
+
+
 class TeachingStep(BaseModel):
     step_number: int = Field(ge=0)
     title: str
@@ -44,6 +56,7 @@ class TeachingStep(BaseModel):
     common_mistake: str | None = None
     animation_template: str
     screen_reader_description: str
+    visualization_state: VisualizationState | None = None
 
 
 class WhiteboardBlock(BaseModel):
@@ -52,6 +65,8 @@ class WhiteboardBlock(BaseModel):
     problem: str
     initial_expression: str
     steps: list[TeachingStep] = Field(min_length=1)
+    graph_spec: dict[str, Any] | None = None
+    visualization: VisualizationInstruction | None = None
 
     @model_validator(mode="after")
     def validate_state_chain(self):

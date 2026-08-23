@@ -1,0 +1,12 @@
+const assert=require("assert"),fs=require("fs"),vm=require("vm"),path=require("path");
+vm.runInThisContext(fs.readFileSync(path.join(__dirname,"../js/visualization/visualization-registry.js"),"utf8"));
+const instruction={type:"geometry",template:"central_angle_theorem",parameters:{central_angle:100}};
+const base={objects:["circle","points","radii","chords"],highlights:[],annotations:[]};
+const first=AthenaVisualizationRegistry.render(instruction,{visualization_state:base},"result");
+assert.ok(first.includes('viewBox="0 0 420 290"'));
+assert.ok(first.includes("<circle")); assert.ok(first.includes(">O</text>"));
+assert.ok(!first.includes("x = 50°"));
+const final=AthenaVisualizationRegistry.render(instruction,{visualization_state:{...base,highlights:["target_angle","arc_ab"],annotations:["central_angle","target_x","answer","theorem","solution"]}},"result");
+assert.ok(final.includes("100° = 2x")); assert.ok(final.includes("x = 50°")); assert.ok(final.includes("50°"));
+assert.throws(()=>AthenaVisualizationRegistry.render({type:"geometry",template:"unknown",parameters:{}},{},"result"));
+console.log("visualization registry flow passed");
