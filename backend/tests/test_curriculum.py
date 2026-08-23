@@ -76,6 +76,69 @@ def test_linear_operations_are_mathematically_equivalent():
     assert not verify_linear_transition(invalid)
 
 
+def test_progressive_linear_whiteboard_question_set_is_valid_and_ordered():
+    _, _, lesson = curriculum_repository.get_lesson("g12-readiness-linear-equations")
+    questions = lesson.whiteboard_questions
+    assert len(questions) == 12
+    assert [question.order for question in questions] == list(range(1, 13))
+    assert questions[0].whiteboard.initial_expression == "2x + 5 = 15"
+    assert questions[7].whiteboard.initial_expression == "4(x - 2) = 2x + 10"
+    assert questions[-1].whiteboard.initial_expression == "(x - 2) / 3 + (x + 1) / 2 = 5"
+    assert [question.guidance_level for question in questions] == [
+        "high", "high", "high", "moderate", "moderate", "moderate",
+        "moderate", "reduced", "reduced", "reduced", "minimal", "minimal",
+    ]
+    for question in questions:
+        validate_whiteboard(question.whiteboard)
+
+
+def test_linear_practice_has_verified_expandable_solution_data():
+    _, _, lesson = curriculum_repository.get_lesson("g12-readiness-linear-equations")
+    practice = next(block for block in lesson.blocks if block.type == "practice")
+    question = practice.data["questions"][0]
+    assert question["question"] == "Solve 5x - 8 = 27"
+    assert question["answer"] == "x = 7"
+    assert question["solution_steps"][-1].endswith("✓")
+    assert len(question["solution_steps"]) == len(question["why_explanations"])
+
+
+def test_frontend_question_navigation_and_solution_are_semantic_and_stateful():
+    root = __import__("pathlib").Path(__file__).parents[2] / "frontend" / "js"
+    navigator = (root / "whiteboard" / "whiteboard-question-set.js").read_text(encoding="utf-8")
+    solution = (root / "lessons" / "worked-solution.js").read_text(encoding="utf-8")
+    assert "this.steps = new Array" in navigator
+    assert 'data-example-action="previous"' in navigator
+    assert "history.replaceState" in navigator
+    assert 'aria-expanded="false"' in solution
+    assert "<button" in solution
+    assert "<select" not in solution
+
+
+def test_trigonometry_exam_has_twelve_specific_identity_examples():
+    _, _, lesson = curriculum_repository.get_lesson("g12-p2-trigonometry-exam")
+    questions = lesson.whiteboard_questions
+    assert len(questions) == 12
+    assert questions[0].whiteboard.initial_expression == "sin²x + cos²x"
+    assert questions[1].whiteboard.initial_expression == "1 - sin²x"
+    first = questions[0].whiteboard
+    assert [step.operation.type for step in first.steps] == [
+        "present_expression", "identity_recognition", "state_simplified_result"
+    ]
+    assert first.steps[1].working_expression == "sin²x + cos²x = 1"
+    copy = " ".join(
+        value for step in first.steps
+        for value in (step.explanation.what, step.explanation.why,
+                      step.explanation.purpose, step.explanation.remember,
+                      step.common_mistake or "")
+    )
+    assert "Pythagorean identity" in copy
+    assert "sin x + cos x is not equal to 1" in copy
+    for irrelevant in ("units", "interpretation errors", "calculation is not complete"):
+        assert irrelevant not in copy.lower()
+    for question in questions:
+        validate_whiteboard(question.whiteboard)
+
+
 def test_free_calculus_lessons_are_detailed_and_exam_framed():
     topic = curriculum_repository.get_topic("grade-12", "differential-calculus")
     lessons = [lesson for subtopic in topic.subtopics for lesson in subtopic.lessons]

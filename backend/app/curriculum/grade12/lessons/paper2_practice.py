@@ -2,7 +2,7 @@
 
 from app.curriculum.schemas import (
     AccessLevel, ContentStatus, Lesson, LessonBlock, MathematicalOperation,
-    StepExplanation, TeachingStep, WhiteboardBlock,
+    StepExplanation, TeachingStep, WhiteboardBlock, WhiteboardQuestion,
 )
 
 
@@ -52,6 +52,69 @@ def worked_whiteboard(topic_id: str, level: str, row: dict) -> WhiteboardBlock:
             common_mistake=state[6], animation_template=state[7],
             screen_reader_description=f"Worked solution state {index + 1}: {state[4]}")
             for index, state in enumerate(states)])
+
+
+def identity_whiteboard(identifier: str, expression: str, identity: str,
+                        result: str, what: str, watch_out: str) -> WhiteboardBlock:
+    """A concise, mathematics-first plan for a curated identity example."""
+    specific = explain(
+        what,
+        f"{identity} is a standard identity that applies to this expression.",
+        "Using the identity replaces the matching expression immediately.",
+        "Sine squared plus cosine squared equals one.",
+    )
+    return WhiteboardBlock(
+        id=identifier, problem=f"Simplify: {expression}", initial_expression=expression,
+        steps=[
+            TeachingStep(step_number=0, title="Recognise the expression",
+                before_expression=expression, working_expression=expression,
+                operation=MathematicalOperation(type="present_expression", value=expression),
+                after_expression=expression, explanation=specific,
+                common_mistake=watch_out, animation_template="expression_presentation",
+                screen_reader_description=f"Simplify {expression}."),
+            TeachingStep(step_number=1, title="Use the identity",
+                before_expression=expression, working_expression=identity,
+                operation=MathematicalOperation(type="identity_recognition", value=identity),
+                after_expression=identity, explanation=specific,
+                common_mistake=watch_out, animation_template="identity_highlight",
+                screen_reader_description=f"Use {identity}. The expression simplifies to {result}."),
+            TeachingStep(step_number=2, title="Final answer",
+                before_expression=identity, working_expression=f"{expression}; = {result}",
+                operation=MathematicalOperation(type="state_simplified_result", value=result),
+                after_expression=f"∴ {result}",
+                explanation=explain("State the simplified expression.",
+                    "The matching identity has already justified the simplification.",
+                    "Present the result clearly without adding an irrelevant verification step.",
+                    "Use an identity only when the complete pattern matches."),
+                animation_template="simplified_result",
+                screen_reader_description=f"Therefore the simplified result is {result}."),
+        ])
+
+
+TRIG_IDENTITY_SPECS = [
+    ("sin²x + cos²x", "sin²x + cos²x = 1", "1", "Recognise the Pythagorean identity.", "The squares are essential: sin x + cos x is not equal to 1."),
+    ("1 - sin²x", "sin²x + cos²x = 1", "cos²x", "Rearrange the Pythagorean identity for cos²x.", "Do not drop the square on cos x."),
+    ("1 - cos²x", "sin²x + cos²x = 1", "sin²x", "Rearrange the Pythagorean identity for sin²x.", "The result is sin²x, not sin x."),
+    ("sin²x + cos²x + 3", "sin²x + cos²x = 1", "4", "Recognise the identity inside a larger sum.", "Replace only the matching identity, then combine constants."),
+    ("2sin²x + 2cos²x", "2(sin²x + cos²x) = 2(1)", "2", "Factor out the common factor before using the identity.", "Both terms must be included inside the bracket."),
+    ("(1 - cos²x) / sin²x", "1 - cos²x = sin²x", "1", "Replace the numerator using the rearranged identity.", "Cancellation requires sin x ≠ 0 in the original quotient."),
+    ("sin²x / (1 - cos²x)", "1 - cos²x = sin²x", "1", "Replace the denominator using the rearranged identity.", "Keep the denominator grouped while substituting."),
+    ("(1 - sin²x) / cos²x", "1 - sin²x = cos²x", "1", "Replace the numerator using the rearranged identity.", "Cancellation requires cos x ≠ 0 in the original quotient."),
+    ("3sin²x + 3cos²x - 1", "3(sin²x + cos²x) = 3(1)", "2", "Factor the identity pair, then simplify the constants.", "The minus one remains after applying the identity."),
+    ("sin²x + cos²x - tan²x", "sin²x + cos²x = 1", "1 - tan²x", "Replace the identity pair and retain the remaining term.", "There is no identity that makes 1 - tan²x equal to zero."),
+    ("(sin²x + cos²x) / 2", "sin²x + cos²x = 1", "1 / 2", "Use the identity in the numerator.", "The denominator 2 is not part of the identity."),
+    ("4 - 4sin²x", "1 - sin²x = cos²x", "4cos²x", "Factor out 4, then use the rearranged identity.", "Factor first: 4 - 4sin²x = 4(1 - sin²x)."),
+]
+
+
+def trig_identity_questions() -> list[WhiteboardQuestion]:
+    difficulties = ["foundation"] * 3 + ["easy"] * 2 + ["standard"] * 3 + ["intermediate"] * 2 + ["exam"] + ["advanced"]
+    guidance = ["high"] * 3 + ["moderate"] * 4 + ["reduced"] * 3 + ["minimal"] * 2
+    return [WhiteboardQuestion(id=f"trig-identity-{index + 1:02}", order=index + 1,
+        difficulty=difficulties[index], estimated_minutes=3, is_core_example=index == 0,
+        guidance_level=guidance[index], whiteboard=identity_whiteboard(
+            f"trig-identity-{index + 1:02}", *spec))
+        for index, spec in enumerate(TRIG_IDENTITY_SPECS)]
 
 
 BANKS = {
@@ -153,6 +216,8 @@ def mastery_lesson(topic_id: str, rows: list[dict]) -> Lesson:
 
 def exam_lesson(topic_id: str, rows: list[dict]) -> Lesson:
     selected = rows[2:12]
+    identity_questions = trig_identity_questions() if topic_id == "trigonometry" else []
+    core_whiteboard = identity_questions[0].whiteboard if identity_questions else worked_whiteboard(topic_id, "exam", selected[0])
     return Lesson(id=f"g12-p2-{topic_id}-exam", order=4,
         title="Native DBE-style exam course",
         objective="Complete a timed, comprehensive topic assessment using DBE Paper 2 questioning patterns.",
@@ -161,9 +226,10 @@ def exam_lesson(topic_id: str, rows: list[dict]) -> Lesson:
         prerequisites=[f"g12-p2-{topic_id}-mastery"], estimated_minutes=75,
         difficulty="exam", access_level=AccessLevel.FREE,
         status=ContentStatus.TEACHER_REVIEW_REQUIRED, mastery_threshold=0.75,
+        whiteboard_questions=identity_questions,
         blocks=[
             LessonBlock(type="concept", title="Exam strategy", content="The questions increase in complexity. Complete all written working on paper and reserve time to check every result."),
-            worked_whiteboard(topic_id, "exam", selected[0]),
+            core_whiteboard,
             LessonBlock(type="checkpoint", title="Comprehensive DBE-style quiz", content="Ten native questions based on the supplied Paper 2 topic and questioning styles.", data={"assessment_mode": "scored_multiple_choice", "questions": selected, "pass_mark": 0.75}),
             LessonBlock(type="summary", title="Review your script", content="For every error, find the first incorrect written line and revisit the matching learning lesson before trying again."),
         ])

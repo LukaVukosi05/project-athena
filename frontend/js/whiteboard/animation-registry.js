@@ -33,7 +33,17 @@ function registerEquationOperation(operation) {
   }});
 }
 
-["identify_objective", "subtract_both_sides", "divide_both_sides", "substitute_value"].forEach(registerEquationOperation);
+["identify_objective", "subtract_both_sides", "divide_both_sides", "substitute_value", "equivalent_transform"].forEach(registerEquationOperation);
+
+AthenaWhiteboardRegistry.register("present_expression", { render(step) {
+  return `<div class="equation-state identity-state"><p class="math-prompt">Simplify:</p>${renderMathExpression(step.before_expression, "working")}</div>`;
+}});
+AthenaWhiteboardRegistry.register("identity_recognition", { render(step, phase, context = {}) {
+  return `<div class="equation-state identity-state">${renderMathHistory(context.history || [])}<div class="identity-highlight">${renderMathExpression(step.before_expression, "working")}</div>${renderMathExpression(step.operation.value, "result")}</div>`;
+}});
+AthenaWhiteboardRegistry.register("state_simplified_result", { render(step, phase, context = {}) {
+  return `<div class="equation-state">${renderMathHistory(context.history || [])}${renderMathExpression(phase === "result" ? step.after_expression : step.working_expression, phase === "result" ? "result" : "working")}</div>`;
+}});
 
 function registerTeachingOperation(operation) {
   AthenaWhiteboardRegistry.register(operation, { render(step, phase, context = {}) {

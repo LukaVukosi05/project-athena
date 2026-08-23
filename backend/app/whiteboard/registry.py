@@ -2,7 +2,7 @@
 
 from collections.abc import Callable
 from app.curriculum.schemas import TeachingStep, WhiteboardBlock
-from app.whiteboard.linear_equations import verify_linear_transition
+from app.whiteboard.linear_equations import verify_equivalent_transition, verify_linear_transition
 
 StepValidator = Callable[[TeachingStep], bool]
 
@@ -32,6 +32,10 @@ registry = AnimationRegistry()
 registry.register("identify_objective", "identify_unknown", lambda step: step.before_expression == step.after_expression)
 registry.register("subtract_both_sides", "equation_balance_subtraction", verify_linear_transition)
 registry.register("divide_both_sides", "equation_balance_division", verify_linear_transition)
+registry.register("equivalent_transform", "equation_transformation", verify_equivalent_transition)
+registry.register("present_expression", "expression_presentation", lambda step: step.before_expression == step.after_expression)
+registry.register("identity_recognition", "identity_highlight", lambda step: bool(step.operation.value) and step.after_expression == step.operation.value)
+registry.register("state_simplified_result", "simplified_result", lambda step: step.after_expression.startswith("∴ "))
 registry.register("substitute_value", "substitution_verification", lambda step: "✓" in step.after_expression)
 registry.register("identify_interval", "rate_change_setup", lambda step: step.before_expression == step.after_expression)
 registry.register("substitute_function_value", "function_substitution", lambda step: step.operation.value is not None)

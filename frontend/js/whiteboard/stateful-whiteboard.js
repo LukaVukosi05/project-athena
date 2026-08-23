@@ -1,8 +1,10 @@
 class StatefulWhiteboard {
-  constructor(mount, block) {
+  constructor(mount, block, options = {}) {
     this.mount = mount;
     this.block = block;
-    this.index = 0;
+    this.index = Math.max(0, Math.min(options.initialStep || 0, block.steps.length - 1));
+    this.guidanceLevel = options.guidanceLevel || "high";
+    this.onStateChange = options.onStateChange || function () {};
     this.transitionToken = 0;
     this.reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
   }
@@ -36,6 +38,7 @@ class StatefulWhiteboard {
     if (index < 0 || index >= this.block.steps.length) return;
     this.transitionToken++;
     this.index = index;
+    this.onStateChange(index);
     if (animate && index > 0) this.animateCurrent();
     else this.render("result");
   }
@@ -52,13 +55,17 @@ class StatefulWhiteboard {
     }
     this.mount.querySelector(".whiteboard-stage").innerHTML = renderer.render(step, phase, { history });
     this.mount.querySelector(".whiteboard-stage").setAttribute("aria-label", step.screen_reader_description);
+    const showFullGuidance = this.guidanceLevel === "high";
+    const showModerateGuidance = showFullGuidance || this.guidanceLevel === "moderate";
     this.mount.querySelector('[data-role="explanation"]').innerHTML = `
       <h4>${escapeWhiteboardHtml(step.title)}</h4>
-      <dl><div><dt>WHAT</dt><dd>${escapeWhiteboardHtml(step.explanation.what)}</dd></div>
+      ${this.guidanceLevel === "reduced" && this.index > 0 ? '<p class="prediction-prompt">What do you think we should do next?</p>' : ""}
+      ${this.guidanceLevel === "minimal" ? `<button type="button" class="btn btn-ghost" data-action="reveal-help" aria-expanded="false">Explain this step</button><div data-role="minimal-help" hidden><p>${escapeWhiteboardHtml(step.explanation.why)}</p></div>` : `<dl>${showFullGuidance ? `<div><dt>WHAT</dt><dd>${escapeWhiteboardHtml(step.explanation.what)}</dd></div>` : ""}
       <div><dt>WHY</dt><dd>${escapeWhiteboardHtml(step.explanation.why)}</dd></div>
-      <div><dt>PURPOSE</dt><dd>${escapeWhiteboardHtml(step.explanation.purpose)}</dd></div>
-      <div><dt>REMEMBER</dt><dd>${escapeWhiteboardHtml(step.explanation.remember)}</dd></div></dl>
-      ${step.common_mistake ? `<p class="watch-out"><strong>WATCH OUT:</strong> ${escapeWhiteboardHtml(step.common_mistake)}</p>` : ""}`;
+      ${showFullGuidance ? `<div><dt>PURPOSE</dt><dd>${escapeWhiteboardHtml(step.explanation.purpose)}</dd></div><div><dt>REMEMBER</dt><dd>${escapeWhiteboardHtml(step.explanation.remember)}</dd></div>` : ""}</dl>
+      ${showModerateGuidance && step.common_mistake ? `<p class="watch-out"><strong>WATCH OUT:</strong> ${escapeWhiteboardHtml(step.common_mistake)}</p>` : ""}`}`;
+    const help = this.mount.querySelector('[data-action="reveal-help"]');
+    if (help) help.onclick = () => { const panel = this.mount.querySelector('[data-role="minimal-help"]'); panel.hidden = !panel.hidden; help.setAttribute("aria-expanded", String(!panel.hidden)); };
     this.mount.querySelector('[data-role="position"]').textContent = `State ${this.index} of ${this.block.steps.length - 1}`;
     this.mount.querySelector('[data-action="previous"]').disabled = this.index === 0;
     this.mount.querySelector('[data-action="next"]').disabled = this.index === this.block.steps.length - 1;

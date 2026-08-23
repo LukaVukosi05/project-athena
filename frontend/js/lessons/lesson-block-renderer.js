@@ -3,11 +3,19 @@ class LessonBlockRenderer {
   render() {
     this.mount.innerHTML = `<section class="lesson-introduction card"><h3>Learning objective</h3><p>${escapeWhiteboardHtml(this.lesson.objective)}</p><h4>Why this matters</h4><p>${escapeWhiteboardHtml(this.lesson.why_it_matters)}</p><h4>Intuition first</h4><p>${escapeWhiteboardHtml(this.lesson.intuition)}</p></section><div data-role="blocks"></div>`;
     const blocks = this.mount.querySelector('[data-role="blocks"]');
+    let questionSetMounted = false;
     this.lesson.blocks.forEach(block => {
       const host = document.createElement("div");
       host.className = `lesson-block lesson-block--${block.type}`;
       blocks.appendChild(host);
-      if (block.type === "whiteboard") new StatefulWhiteboard(host, block).mountBoard();
+      if (block.type === "whiteboard" && !questionSetMounted) {
+        questionSetMounted = true;
+        const questions = this.lesson.whiteboard_questions?.length ? this.lesson.whiteboard_questions : [{ id: block.id, order: 1, difficulty: this.lesson.difficulty || "foundation", guidance_level: "high", is_core_example: true, whiteboard: block }];
+        new WhiteboardQuestionSet(host, questions, { onPractice: () => {
+          const practice = this.mount.querySelector(".lesson-block--practice, .lesson-block--checkpoint");
+          if (practice) { practice.scrollIntoView({ behavior: "smooth", block: "start" }); practice.querySelector("button")?.focus(); }
+        }}).mountSet();
+      }
       else if (block.type === "past_paper_question") host.innerHTML = this.renderPastPaperBlock(block);
       else {
         host.innerHTML = this.renderContentBlock(block);
@@ -25,10 +33,13 @@ class LessonBlockRenderer {
       const question = typeof item === "string" ? item : item.question;
       const difficulty = typeof item === "string" ? "Practice" : item.difficulty;
       const answer = typeof item === "string" ? null : item.answer;
-      const textbookSolution = typeof item !== "string" && item.solution_steps ? `<details class="textbook-solution"><summary>Show textbook solution</summary><div class="solution-paper"><h4>Worked solution</h4><ol>${item.solution_steps.map(step => `<li>${escapeWhiteboardHtml(step)}</li>`).join("")}</ol><p><strong>Answer:</strong> ${escapeWhiteboardHtml(item.answer)}</p></div></details>` : "";
       const paperPractice = data.assessment_mode === "paper_multiple_choice";
+      const textbookSolution = typeof item !== "string" && item.solution_steps ? (paperPractice
+        ? `<details class="textbook-solution"><summary>Show textbook solution</summary><div class="solution-paper"><h4>Worked solution</h4><ol>${item.solution_steps.map(step => `<li>${escapeWhiteboardHtml(step)}</li>`).join("")}</ol><p><strong>Answer:</strong> ${escapeWhiteboardHtml(item.answer)}</p></div></details>`
+        : `<div class="worked-solution-mount" data-solution="${index}" hidden></div>`) : "";
       const options = typeof item !== "string" && item.options && !paperPractice ? `<p class="paper-instruction">${escapeWhiteboardHtml(item.instruction || "Work on paper first.")}</p><div class="question-options">${item.options.map((option, optionIndex) => `<button type="button" class="quiz-option" data-question-index="${index}" data-option-index="${optionIndex}">${escapeWhiteboardHtml(option)}</button>`).join("")}</div><p class="question-feedback" hidden></p>` : "";
-      return `<article class="practice-question" data-question="${index}"><span class="badge">${escapeWhiteboardHtml(difficulty)}</span><strong>Question ${index + 1}</strong><p>${escapeWhiteboardHtml(question)}</p>${paperPractice ? `<p class="paper-instruction">${escapeWhiteboardHtml(item.instruction)}</p>${textbookSolution}` : (options || textbookSolution || (answer ? `<details><summary>Check answer</summary><p>${escapeWhiteboardHtml(answer)}</p></details>` : ""))}</article>`;
+      const answerInput = typeof item !== "string" && item.input_type === "math" ? `<form class="math-answer" data-answer-form="${index}"><label for="answer-${index}">Your answer</label><input id="answer-${index}" inputmode="text" autocomplete="off" aria-describedby="feedback-${index}"><button class="btn btn-primary" type="submit">Submit</button></form><p id="feedback-${index}" class="question-feedback" hidden></p>` : "";
+      return `<article class="practice-question" data-question="${index}"><span class="badge">${escapeWhiteboardHtml(difficulty)}</span><strong>Question ${index + 1}</strong><p>${escapeWhiteboardHtml(question)}</p>${paperPractice ? `<p class="paper-instruction">${escapeWhiteboardHtml(item.instruction)}</p>${textbookSolution}` : (answerInput ? answerInput + textbookSolution : options ? options + textbookSolution : textbookSolution || (answer ? `<details><summary>Check answer</summary><p>${escapeWhiteboardHtml(answer)}</p></details>` : ""))}</article>`;
     }).join("")}</div>` : "";
     const markup = `<section class="card"><h3>${escapeWhiteboardHtml(block.title)}</h3><p>${escapeWhiteboardHtml(block.content)}</p>${choices}${hints}${worked}${questions}</section>`;
     return markup;
@@ -53,6 +64,34 @@ class LessonBlockRenderer {
         panel.className = `checkpoint-feedback quiz-feedback ${correct ? "correct" : "incorrect"}`;
     });
     const selected = new Map();
+    host.querySelectorAll("[data-answer-form]").forEach(form => form.onsubmit = event => {
+      event.preventDefault();
+      const questionIndex = Number(form.dataset.answerForm);
+      const question = data.questions[questionIndex];
+      const input = form.querySelector("input");
+      const normalise = value => String(value).toLowerCase().replace(/\s+/g, "").replace(/−/g, "-");
+      const accepted = question.accepted_answers || [question.answer];
+      const correct = accepted.some(answer => normalise(answer) === normalise(input.value));
+      selected.set(questionIndex, correct);
+      input.disabled = true; form.querySelector("button").disabled = true;
+      const feedback = form.parentElement.querySelector(".question-feedback");
+      feedback.hidden = false; feedback.className = `question-feedback quiz-feedback ${correct ? "correct" : "incorrect"}`;
+      feedback.textContent = correct ? "Correct ✓" : "Not quite.";
+      if (!correct) {
+        const actions = document.createElement("div"); actions.className = "productive-struggle";
+        const retry = document.createElement("button"); retry.type = "button"; retry.className = "btn btn-secondary"; retry.textContent = "Try Again";
+        retry.onclick = () => { selected.delete(questionIndex); input.disabled = false; input.value = ""; form.querySelector("button").disabled = false; feedback.hidden = true; actions.remove(); input.focus(); };
+        actions.appendChild(retry); feedback.after(actions);
+        if (question.hints?.length) {
+          const hint = document.createElement("button"); hint.type = "button"; hint.className = "btn btn-ghost"; hint.textContent = "Give Me a Hint"; hint.setAttribute("aria-expanded", "false");
+          const hintText = document.createElement("p"); hintText.hidden = true; hintText.textContent = question.hints[0];
+          hint.onclick = () => { hintText.hidden = false; hint.setAttribute("aria-expanded", "true"); };
+          actions.append(hint, hintText);
+        }
+      }
+      const solutionMount = form.parentElement.querySelector(".worked-solution-mount");
+      if (solutionMount) { solutionMount.hidden = false; new WorkedSolution(solutionMount, { steps: question.solution_steps, whyExplanations: question.why_explanations, answer: question.answer }).mountSolution(); }
+    });
     host.querySelectorAll("[data-option-index]").forEach(button => button.onclick = () => {
       const questionIndex = Number(button.dataset.questionIndex);
       if (selected.has(questionIndex)) return;
@@ -70,6 +109,20 @@ class LessonBlockRenderer {
       feedback.hidden = false;
       feedback.className = `question-feedback quiz-feedback ${correct ? "correct" : "incorrect"}`;
       feedback.textContent = `${correct ? "Correct." : "Not yet."} ${question.explanation}`;
+      if (!correct) {
+        const struggle = document.createElement("div");
+        struggle.className = "productive-struggle";
+        struggle.innerHTML = `<button type="button" class="btn btn-secondary" data-action="try-again">Try Again</button>${question.hints?.length ? '<button type="button" class="btn btn-ghost" data-action="hint" aria-expanded="false">Give Me a Hint</button><p data-role="question-hint" hidden></p>' : ""}`;
+        feedback.after(struggle);
+        struggle.querySelector('[data-action="try-again"]').onclick = () => { selected.delete(questionIndex); article.querySelectorAll("[data-option-index]").forEach(option => { option.disabled = false; option.classList.remove("correct", "incorrect"); }); feedback.hidden = true; struggle.remove(); const solution = article.querySelector(".worked-solution-mount"); if (solution) solution.hidden = true; };
+        const hintButton = struggle.querySelector('[data-action="hint"]');
+        if (hintButton) hintButton.onclick = () => { const hint = struggle.querySelector('[data-role="question-hint"]'); hint.hidden = false; hint.textContent = question.hints[0]; hintButton.setAttribute("aria-expanded", "true"); };
+      }
+      const solutionMount = article.querySelector(".worked-solution-mount");
+      if (solutionMount) {
+        solutionMount.hidden = false;
+        new WorkedSolution(solutionMount, { steps: question.solution_steps, whyExplanations: question.why_explanations, answer: question.answer }).mountSolution();
+      }
       if (data.assessment_mode === "scored_multiple_choice" && selected.size === data.questions.length) {
         const score = [...selected.values()].filter(Boolean).length;
         const passed = score / data.questions.length >= (data.pass_mark || 0.7);

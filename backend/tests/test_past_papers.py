@@ -65,7 +65,8 @@ def test_each_paper_2_module_has_progressive_practice_mastery_and_exam_lessons()
             boards = [block for block in lesson.blocks if block.type == "whiteboard"]
             assert len(boards) == 1
             whiteboard = boards[0]
-            assert len(whiteboard.steps) == 4
+            expected_steps = 3 if lesson.id == "g12-p2-trigonometry-exam" else 4
+            assert len(whiteboard.steps) == expected_steps
             assert all(step.working_expression for step in whiteboard.steps)
             validate_whiteboard(whiteboard)
 
