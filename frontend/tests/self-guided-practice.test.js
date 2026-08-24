@@ -1,0 +1,16 @@
+const assert=require("assert"),fs=require("fs"),path=require("path");
+const component=fs.readFileSync(path.join(__dirname,"../js/lessons/self-guided-practice.js"),"utf8");
+const solution=fs.readFileSync(path.join(__dirname,"../js/lessons/worked-solution.js"),"utf8");
+const css=fs.readFileSync(path.join(__dirname,"../css/practice.css"),"utf8");
+const lesson=fs.readFileSync(path.join(__dirname,"../lesson.html"),"utf8");
+assert(component.includes("Question ${question.question_number} of ${this.bank.questions.length}"));
+assert(component.includes('aria-live="polite"'));
+assert(component.includes('form.onsubmit=async'));
+assert(component.includes('submit.disabled=!answer.trim()'));
+assert(component.includes("Try Again")&&component.includes("Give Me a Hint")&&component.includes("Show Worked Solution"));
+assert(component.includes("this.answers")&&component.includes("this.states")&&component.includes("this.solutionCache"));
+assert(component.includes("first_attempt_accuracy")&&component.includes("mastery_threshold"));
+assert(solution.includes("aria-expanded")&&solution.includes("aria-controls")&&solution.includes("Why?"));
+assert(css.includes("@media(max-width:600px)")&&css.includes("@media(prefers-reduced-motion:reduce)"));
+assert(lesson.includes("self-guided-practice.js")&&lesson.includes("practice.css"));
+console.log("self-guided practice contract passed");

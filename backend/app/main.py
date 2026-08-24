@@ -5,16 +5,17 @@ from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.gzip import GZipMiddleware
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy import text
 
 from app.api.v1.auth import router as auth_router
 from app.api.v1.curriculum import router as curriculum_router
 from app.api.v1.lessons import router as lessons_router
-from app.api.v1.past_papers import router as past_papers_router
+from app.api.v1.practice import router as practice_router
 from app.core.config import get_settings
 from app.db.database import Base, engine
-from app.db.models import User  # noqa: F401 - registers models before table creation
+from app.db.models import PracticeSession, User  # noqa: F401 - registers models before table creation
 
 settings = get_settings()
 
@@ -42,10 +43,11 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PATCH", "OPTIONS"],
     allow_headers=["Authorization", "Content-Type"],
 )
+app.add_middleware(GZipMiddleware, minimum_size=1_000, compresslevel=5)
 app.include_router(auth_router, prefix="/api/v1/auth", tags=["auth"])
 app.include_router(curriculum_router, prefix="/api/v1/curriculum", tags=["curriculum"])
 app.include_router(lessons_router, prefix="/api/v1/lessons", tags=["lessons"])
-app.include_router(past_papers_router, prefix="/api/v1/past-papers", tags=["past-papers"])
+app.include_router(practice_router, prefix="/api/v1/practice", tags=["practice"])
 
 
 @app.middleware("http")

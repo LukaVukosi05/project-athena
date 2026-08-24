@@ -3,7 +3,7 @@ from types import SimpleNamespace
 import pytest
 from fastapi import HTTPException
 
-from app.curriculum.grade12.lessons.linear_equations import LINEAR_EQUATIONS
+from app.curriculum.grade12.lessons.sequences_series import LESSON_ONE
 from app.curriculum.schemas import AccessLevel
 from app.lessons.access import enforce_lesson_access
 
@@ -19,11 +19,11 @@ def production_entitlement_mode():
 
 
 def test_free_lesson_is_public():
-    enforce_lesson_access(LINEAR_EQUATIONS, None)
+    enforce_lesson_access(LESSON_ONE, None)
 
 
 def test_premium_lesson_requires_auth_and_entitlement():
-    premium = LINEAR_EQUATIONS.model_copy(update={"access_level": AccessLevel.PREMIUM})
+    premium = LESSON_ONE.model_copy(update={"access_level": AccessLevel.PREMIUM})
     with pytest.raises(HTTPException) as unauthenticated:
         enforce_lesson_access(premium, None)
     assert unauthenticated.value.status_code == 401

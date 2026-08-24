@@ -11,12 +11,13 @@ class LessonBlockRenderer {
       if (block.type === "whiteboard" && !questionSetMounted) {
         questionSetMounted = true;
         const questions = this.lesson.whiteboard_questions?.length ? this.lesson.whiteboard_questions : [{ id: block.id, order: 1, difficulty: this.lesson.difficulty || "foundation", guidance_level: "high", is_core_example: true, whiteboard: block }];
-        new WhiteboardQuestionSet(host, questions, { onPractice: () => {
+        new WhiteboardQuestionSet(host, questions, { lessonId: this.lesson.id, onPractice: () => {
           const practice = this.mount.querySelector(".lesson-block--practice, .lesson-block--checkpoint");
           if (practice) { practice.scrollIntoView({ behavior: "smooth", block: "start" }); practice.querySelector("button")?.focus(); }
         }}).mountSet();
       }
       else if (block.type === "past_paper_question") host.innerHTML = this.renderPastPaperBlock(block);
+      else if (block.type === "practice" && block.data?.practice_bank_id) new SelfGuidedPractice(host, block.data.practice_bank_id).mountPractice();
       else {
         host.innerHTML = this.renderContentBlock(block);
         this.wireContentBlock(host, block);

@@ -6,7 +6,7 @@
    state lives in exactly one place.
    ============================================================ */
 function renderNav(activeLabel) {
-  const links = ["Learn", "Practice", "AI Tutor", "Past Papers", "Progress"];
+  const links = ["Learn", "Progress"];
   const state = AthenaState.get();
   const user = state.user;
   const mount = document.getElementById("nav-mount");
@@ -20,7 +20,7 @@ function renderNav(activeLabel) {
           ${links.map(l => `<a href="${linkFor(l)}" class="${l === activeLabel ? "active" : ""}">${l}</a>`).join("")}
         </div>
         <div class="topnav__actions">
-          ${user ? `<span class="badge">${user.grade.replace("grade-", "Grade ")}</span>` : ""}
+          ${user ? '<span class="badge">Grade 12</span>' : ""}
           <button id="theme-toggle" class="btn btn-ghost" aria-label="Toggle theme" style="padding:8px 10px;">🌙</button>
           ${user ? `<a href="dashboard.html" class="btn btn-ghost" style="padding:8px 14px;">Hi, ${escapeHtml(user.firstName)}</a><button type="button" class="btn btn-ghost" id="logout-btn">Sign out</button>` : `<a href="login.html" class="btn btn-ghost">Sign in</a>`}
         </div>

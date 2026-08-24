@@ -6,7 +6,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   let step = 1;
   const total = 3;
-  const answers = { firstName: "", email: "", password: "", grade: "", mode: "CAPS", goal: "" };
+  const answers = { firstName: "", email: "", password: "", grade: "grade-12", mode: "CAPS", goal: "" };
   const root = document.getElementById("signup-root");
 
   render();
@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function step2() {
-    const grades = ["grade-8", "grade-9", "grade-10", "grade-11", "grade-12"];
-    const showMode = ["grade-10", "grade-11", "grade-12"].includes(answers.grade);
+    const grades = ["grade-12"];
+    const showMode = true;
     return `
       <h2>Tell us about your learning</h2>
       ${grades.map(g => `<button type="button" class="choice-tile ${answers.grade === g ? "selected" : ""}" data-grade="${g}">${g.replace("grade-", "Grade ")}</button>`).join("")}

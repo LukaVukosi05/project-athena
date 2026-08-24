@@ -57,6 +57,8 @@ function registerTeachingOperation(operation) {
 
 ["identify_interval", "substitute_function_value", "calculate_average_rate", "interpret_rate", "read_problem", "select_method", "show_working", "verify_result"].forEach(registerTeachingOperation);
 
+["timeline_orient", "timeline_inspect", "timeline_select", "timeline_verify", "timeline_summarize"].forEach(operation => AthenaWhiteboardRegistry.register(operation, { render() { return ""; } }));
+
 ["build_geometry_scene", "highlight_geometry", "apply_geometry_theorem", "solve_geometry", "complete_geometry"].forEach(operation => AthenaWhiteboardRegistry.register(operation, { render(step, phase) {
   if (step.before_expression === step.after_expression) return "";
   return `<div class="geometry-mathematics">${renderMathExpression(phase === "operation" ? step.working_expression || step.before_expression : step.after_expression, phase === "operation" ? "working" : "result")}</div>`;

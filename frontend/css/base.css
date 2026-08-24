@@ -2,12 +2,13 @@
    BASE — reset, typography, accessibility defaults
    ============================================================ */
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x:hidden; }
 body {
   margin: 0; background: var(--color-bg); color: var(--color-text);
   font-family: var(--font-body); font-size: var(--fs-base); line-height: 1.55;
   -webkit-font-smoothing: antialiased;
 }
+h1,h2,h3,h4,p,strong { overflow-wrap:anywhere; }
 h1, h2, h3, h4 {
   font-family: var(--font-display); color: var(--color-text);
   line-height: 1.2; margin: 0 0 var(--space-3); font-weight: 600;
@@ -34,4 +35,5 @@ img, svg { max-width: 100%; display: block; }
 }
 
 .container { max-width: 1120px; margin: 0 auto; padding: 0 var(--space-5); }
+@media(max-width:480px){.container{padding-left:var(--space-3);padding-right:var(--space-3)}h2{font-size:clamp(1.75rem,9vw,var(--fs-2xl))}}
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

@@ -17,5 +17,16 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
         raise HTTPException(status_code=404, detail="Lesson not found")
     topic, subtopic, lesson = result
     enforce_lesson_access(lesson, user)
+    payload = lesson.model_dump()
+    if lesson.id == "g12-sequences-series-01":
+        # The practice API is authoritative. Legacy embedded questions and
+        # answer keys must never be delivered with the lesson document.
+        payload["blocks"] = [
+            ({**block, "title": "Self-guided practice",
+              "content": "Solve, submit, then compare your method.",
+              "data": {"practice_bank_id": lesson.id}}
+             if block.get("type") == "practice" else block)
+            for block in payload["blocks"] if block.get("type") != "checkpoint"
+        ]
     return {"grade_id": "grade-12", "topic_id": topic.id,
-            "subtopic_id": subtopic.id, **lesson.model_dump()}
+            "subtopic_id": subtopic.id, **payload}
