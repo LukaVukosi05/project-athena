@@ -8,6 +8,8 @@ class BrowserNarrationProvider extends NarrationProvider {
     super(); this.muted=false; this.generation=0; this.active=null;
     this.setTimer=options.setTimer || setTimeout; this.clearTimer=options.clearTimer || clearTimeout;
     this.now=options.now || (()=>Date.now());
+    this.fallbackPollMs=Math.max(100,Number(options.fallbackPollMs)||500);
+    this.maxSpeechMs=Math.max(30000,Number(options.maxSpeechMs)||300000);
   }
   synthesis(){ return typeof globalThis !== "undefined" ? globalThis.speechSynthesis : undefined; }
   finish(generation, reason) {
@@ -16,9 +18,19 @@ class BrowserNarrationProvider extends NarrationProvider {
     if(active.timer!==undefined)this.clearTimer(active.timer);
     active.resolve(reason);
   }
+  handleFallback(generation) {
+    if (!this.active || this.active.generation !== generation) return;
+    const active=this.active,synthesis=this.synthesis(),now=this.now();
+    active.timer=undefined;
+    if (synthesis?.speaking && now < active.hardDeadlineAt) {
+      this.armFallback(active,Math.min(this.fallbackPollMs,Math.max(100,active.hardDeadlineAt-now)));
+      return;
+    }
+    this.finish(generation,now >= active.hardDeadlineAt ? "speech-timeout" : "fallback");
+  }
   armFallback(active, delay) {
-    active.remaining=Math.max(250,delay);active.timerStarted=this.now();
-    active.timer=this.setTimer(()=>this.finish(active.generation,"fallback"),active.remaining);
+    active.remaining=Math.max(100,delay);active.timerStarted=this.now();
+    active.timer=this.setTimer(()=>this.handleFallback(active.generation),active.remaining);
   }
   speak(text, rate=1) {
     this.stop();
@@ -27,7 +39,9 @@ class BrowserNarrationProvider extends NarrationProvider {
     const generation=++this.generation;
     return new Promise(resolve=>{
       const utterance=new SpeechSynthesisUtterance(text);utterance.lang="en-ZA";utterance.rate=rate;
-      const active={generation,resolve,utterance,timer:undefined,remaining:Math.min(30000,Math.max(5000,String(text).split(/\s+/).length*700/rate+2500))};
+      const estimated=Math.min(this.maxSpeechMs,Math.max(5000,String(text).trim().split(/\s+/).length*700/rate+2500));
+      const startedAt=this.now();
+      const active={generation,resolve,utterance,timer:undefined,remaining:estimated,startedAt,hardDeadlineAt:startedAt+this.maxSpeechMs};
       this.active=active;
       utterance.onend=()=>this.finish(generation,"ended");utterance.onerror=()=>this.finish(generation,"error");
       this.armFallback(active,active.remaining);

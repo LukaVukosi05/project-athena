@@ -68,13 +68,19 @@ test("stale narration cannot advance a replayed session", async () => {
 
 test("browser speech resolves on completion, pauses safely and has a bounded failure fallback", async () => {
   const originalUtterance=global.SpeechSynthesisUtterance,originalSynthesis=global.speechSynthesis;
-  const calls={speak:0,pause:0,resume:0,cancel:0};let utterance,timerCallback;
+  const calls={speak:0,pause:0,resume:0,cancel:0};let utterance;const timerCallbacks=[];
   global.SpeechSynthesisUtterance=class{constructor(text){this.text=text;}};
-  global.speechSynthesis={speak(value){calls.speak+=1;utterance=value;},pause(){calls.pause+=1;},resume(){calls.resume+=1;},cancel(){calls.cancel+=1;}};
-  const provider=new BrowserNarrationProvider({setTimer(callback){timerCallback=callback;return 7;},clearTimer(){},now:()=>0});
+  global.speechSynthesis={speaking:false,speak(value){calls.speak+=1;utterance=value;},pause(){calls.pause+=1;},resume(){calls.resume+=1;},cancel(){calls.cancel+=1;}};
+  const provider=new BrowserNarrationProvider({setTimer(callback){timerCallbacks.push(callback);return timerCallbacks.length;},clearTimer(){},now:()=>0,fallbackPollMs:100});
   const finished=provider.speak("Both sides remain equal.");provider.pause();provider.resume();utterance.onend();assert.equal(await finished,"ended");
   assert.deepEqual({speak:calls.speak,pause:calls.pause,resume:calls.resume},{speak:1,pause:1,resume:1});
-  const failed=provider.speak("Fallback keeps the lesson moving.");timerCallback();assert.equal(await failed,"fallback");
+  global.speechSynthesis.speaking=true;
+  let settled=false;
+  const guarded=provider.speak("A longer explanation must not be cut off while the browser is still speaking.");guarded.then(()=>{settled=true;});
+  timerCallbacks.at(-1)();await new Promise(resolve=>setImmediate(resolve));
+  assert.equal(settled,false,"the watchdog must not advance the timeline during active speech");
+  global.speechSynthesis.speaking=false;
+  timerCallbacks.at(-1)();assert.equal(await guarded,"fallback");
   provider.setMuted(true);assert.equal(await provider.speak("Muted narration."),"unavailable");
   global.SpeechSynthesisUtterance=originalUtterance;global.speechSynthesis=originalSynthesis;
 });
