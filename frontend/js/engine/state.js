@@ -9,9 +9,9 @@
    don't need to be rewritten.
    ============================================================ */
 const STORAGE_KEY = "athena_v1_state";
-// Temporary local curriculum-review override. Keep aligned with
-// ATHENA_UNLOCK_ALL_LESSONS in the backend environment.
-const ATHENA_UNLOCK_ALL_LESSONS = true;
+// Entitlement overrides are enforced by the backend. Never make the browser
+// an independent source of truth for a development or production paywall.
+const ATHENA_UNLOCK_ALL_LESSONS = false;
 
 function loadState() {
   try {

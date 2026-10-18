@@ -1,0 +1,26 @@
+id: algebra-equations-inequalities
+title: Algebra, Equations and Inequalities
+grade: 12
+paper: 1
+product_order: 5
+mastery_threshold: 80
+source_document: Project_Athena_Grade12_Topic5_Algebra_Equations_and_Inequalities_Approved_Lesson_Pack.docx
+lessons:
+  - {order: 1, id: g12-algebra-01, title: "Algebra readiness and equivalence", status: teacher_review_required}
+  - {order: 2, id: g12-algebra-02, title: "Factorisation and the zero-product principle", status: teacher_review_required}
+  - {order: 3, id: g12-algebra-03, title: "Quadratic equations by factorisation", status: teacher_review_required}
+  - {order: 4, id: g12-algebra-04, title: "Quadratic formula", status: teacher_review_required}
+  - {order: 5, id: g12-algebra-05, title: "Choosing a quadratic method and rounding", status: teacher_review_required}
+  - {order: 6, id: g12-algebra-06, title: "Surd equations and extraneous roots", status: teacher_review_required}
+  - {order: 7, id: g12-algebra-07, title: "Equations in quadratic form", status: teacher_review_required}
+  - {order: 8, id: g12-algebra-08, title: "Exponential equations and common bases", status: teacher_review_required}
+  - {order: 9, id: g12-algebra-09, title: "Linear simultaneous equations", status: teacher_review_required}
+  - {order: 10, id: g12-algebra-10, title: "Non-linear simultaneous equations", status: teacher_review_required}
+  - {order: 11, id: g12-algebra-11, title: "Quadratic inequalities", status: teacher_review_required}
+  - {order: 12, id: g12-algebra-12, title: "Discriminant and nature of roots", status: teacher_review_required}
+  - {order: 13, id: g12-algebra-13, title: "Parameter conditions for roots", status: teacher_review_required}
+  - {order: 14, id: g12-algebra-14, title: "Algebraic fractions and restrictions", status: teacher_review_required}
+  - {order: 15, id: g12-algebra-15, title: "Algebraic proof and reasoning", status: teacher_review_required}
+  - {order: 16, id: g12-algebra-16, title: "Contextual modelling", status: teacher_review_required}
+  - {order: 17, id: g12-algebra-17, title: "Integrated Paper 1 algebra", status: teacher_review_required}
+  - {order: 18, id: g12-algebra-18, title: "Paper 1 algebra mastery assessment", status: teacher_review_required}

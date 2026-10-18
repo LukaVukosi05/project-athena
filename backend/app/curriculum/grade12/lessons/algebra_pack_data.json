@@ -1,0 +1,2615 @@
+{
+  "source": "Project_Athena_Grade12_Topic5_Algebra_Equations_and_Inequalities_Approved_Lesson_Pack.docx",
+  "lessons": [
+    {
+      "number": 1,
+      "id": "g12-algebra-01",
+      "title": "Algebra readiness and equivalence",
+      "objective": "Transform equations while preserving equality and verify solutions.",
+      "misconception": "BALANCE/SIGN",
+      "teaching": "An equation is a balance. Every transformation must preserve the same solution set.",
+      "anchor": "Apply the same inverse operation to both sides; never teach “crossing over” as magic.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L01-W01",
+          "level": "Foundation",
+          "prompt": "Solve 3x + (7) = 22 and verify by substitution.",
+          "answer": "x = 5; substituting gives 22 = 22."
+        },
+        {
+          "id": "G12-ALG-L01-W02",
+          "level": "Foundation",
+          "prompt": "Solve 5x + (-4) = 11 and verify by substitution.",
+          "answer": "x = 3; substituting gives 11 = 11."
+        },
+        {
+          "id": "G12-ALG-L01-W03",
+          "level": "Routine",
+          "prompt": "Solve -2x + (6) = 18 and verify by substitution.",
+          "answer": "x = -6; substituting gives 18 = 18."
+        },
+        {
+          "id": "G12-ALG-L01-W04",
+          "level": "Routine",
+          "prompt": "Solve 4x + (9) = -3 and verify by substitution.",
+          "answer": "x = -3; substituting gives -3 = -3."
+        },
+        {
+          "id": "G12-ALG-L01-W05",
+          "level": "Routine",
+          "prompt": "Solve 7x + (-5) = 23 and verify by substitution.",
+          "answer": "x = 4; substituting gives 23 = 23."
+        },
+        {
+          "id": "G12-ALG-L01-W06",
+          "level": "Complex",
+          "prompt": "Solve 6x + (2) = 20 and verify by substitution.",
+          "answer": "x = 3; substituting gives 20 = 20."
+        },
+        {
+          "id": "G12-ALG-L01-W07",
+          "level": "Complex",
+          "prompt": "Solve -3x + (8) = -1 and verify by substitution.",
+          "answer": "x = 3; substituting gives -1 = -1."
+        },
+        {
+          "id": "G12-ALG-L01-W08",
+          "level": "Complex",
+          "prompt": "Solve 9x + (-7) = 11 and verify by substitution.",
+          "answer": "x = 2; substituting gives 11 = 11."
+        },
+        {
+          "id": "G12-ALG-L01-W09",
+          "level": "Exam-level",
+          "prompt": "Solve 2x + (11) = 1 and verify by substitution.",
+          "answer": "x = -5; substituting gives 1 = 1."
+        },
+        {
+          "id": "G12-ALG-L01-W10",
+          "level": "Exam-level",
+          "prompt": "Solve 8x + (3) = 27 and verify by substitution.",
+          "answer": "x = 3; substituting gives 27 = 27."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L01-P01",
+          "level": "Foundation",
+          "prompt": "Solve 5x + (6) = -14 and verify by substitution.",
+          "answer": "x = -4; substituting gives -14 = -14."
+        },
+        {
+          "id": "G12-ALG-L01-P02",
+          "level": "Foundation",
+          "prompt": "Solve -4x + (-9) = 13 and verify by substitution.",
+          "answer": "x = -5.50; substituting gives 13 = 13."
+        },
+        {
+          "id": "G12-ALG-L01-P03",
+          "level": "Routine",
+          "prompt": "Solve 10x + (-2) = 38 and verify by substitution.",
+          "answer": "x = 4; substituting gives 38 = 38."
+        },
+        {
+          "id": "G12-ALG-L01-P04",
+          "level": "Routine",
+          "prompt": "Solve 3x + (-8) = 25 and verify by substitution.",
+          "answer": "x = 11; substituting gives 25 = 25."
+        },
+        {
+          "id": "G12-ALG-L01-P05",
+          "level": "Routine",
+          "prompt": "Solve 7x + (4) = -9 and verify by substitution.",
+          "answer": "x = -1.86; substituting gives -9 = -9."
+        },
+        {
+          "id": "G12-ALG-L01-P06",
+          "level": "Routine",
+          "prompt": "Solve 6x + (-5) = 29 and verify by substitution.",
+          "answer": "x = 5.67; substituting gives 29 = 29."
+        },
+        {
+          "id": "G12-ALG-L01-P07",
+          "level": "Complex",
+          "prompt": "Solve -8x + (3) = -21 and verify by substitution.",
+          "answer": "x = 3; substituting gives -21 = -21."
+        },
+        {
+          "id": "G12-ALG-L01-P08",
+          "level": "Complex",
+          "prompt": "Solve 9x + (5) = 4 and verify by substitution.",
+          "answer": "x = -0.11; substituting gives 4 = 4."
+        },
+        {
+          "id": "G12-ALG-L01-P09",
+          "level": "Complex",
+          "prompt": "Solve 4x + (-11) = 30 and verify by substitution.",
+          "answer": "x = 10.25; substituting gives 30 = 30."
+        },
+        {
+          "id": "G12-ALG-L01-P10",
+          "level": "Complex",
+          "prompt": "Solve 2x + (-7) = -5 and verify by substitution.",
+          "answer": "x = 1; substituting gives -5 = -5."
+        },
+        {
+          "id": "G12-ALG-L01-P11",
+          "level": "Exam-level",
+          "prompt": "Solve 5x + (-3) = 17 and verify by substitution.",
+          "answer": "x = 4; substituting gives 17 = 17."
+        },
+        {
+          "id": "G12-ALG-L01-P12",
+          "level": "Exam-level",
+          "prompt": "Solve 7x + (-9) = 26 and verify by substitution.",
+          "answer": "x = 5; substituting gives 26 = 26."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "g12-algebra-02",
+      "title": "Factorisation and the zero-product principle",
+      "objective": "Factor expressions and explain when a product can be set equal to zero.",
+      "misconception": "FACTOR/ZERO-PRODUCT",
+      "teaching": "Factoring rewrites a sum as an equivalent product; the zero-product principle applies only when that product equals zero.",
+      "anchor": "Factor first; use AB=0 only when the product is equal to zero.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L02-W01",
+          "level": "Foundation",
+          "prompt": "Factorise x^2+3x-10 completely.",
+          "answer": "(x - (-5))(x - (2)); expanding returns x^2+3x-10."
+        },
+        {
+          "id": "G12-ALG-L02-W02",
+          "level": "Foundation",
+          "prompt": "Factorise x^2+x-12 completely.",
+          "answer": "(x - (-4))(x - (3)); expanding returns x^2+x-12."
+        },
+        {
+          "id": "G12-ALG-L02-W03",
+          "level": "Routine",
+          "prompt": "Factorise x^2+2x-3 completely.",
+          "answer": "(x - (-3))(x - (1)); expanding returns x^2+2x-3."
+        },
+        {
+          "id": "G12-ALG-L02-W04",
+          "level": "Routine",
+          "prompt": "Factorise x^2-4x-12 completely.",
+          "answer": "(x - (-2))(x - (6)); expanding returns x^2-4x-12."
+        },
+        {
+          "id": "G12-ALG-L02-W05",
+          "level": "Routine",
+          "prompt": "Factorise x^2-6x-7 completely.",
+          "answer": "(x - (-1))(x - (7)); expanding returns x^2-6x-7."
+        },
+        {
+          "id": "G12-ALG-L02-W06",
+          "level": "Complex",
+          "prompt": "Factorise x^2-5x completely.",
+          "answer": "(x - (0))(x - (5)); expanding returns x^2-5x."
+        },
+        {
+          "id": "G12-ALG-L02-W07",
+          "level": "Complex",
+          "prompt": "Factorise x^2-6x+8 completely.",
+          "answer": "(x - (2))(x - (4)); expanding returns x^2-6x+8."
+        },
+        {
+          "id": "G12-ALG-L02-W08",
+          "level": "Complex",
+          "prompt": "Factorise x^2-11x+24 completely.",
+          "answer": "(x - (3))(x - (8)); expanding returns x^2-11x+24."
+        },
+        {
+          "id": "G12-ALG-L02-W09",
+          "level": "Exam-level",
+          "prompt": "Factorise x^2+8x+12 completely.",
+          "answer": "(x - (-6))(x - (-2)); expanding returns x^2+8x+12."
+        },
+        {
+          "id": "G12-ALG-L02-W10",
+          "level": "Exam-level",
+          "prompt": "Factorise x^2-10x+9 completely.",
+          "answer": "(x - (1))(x - (9)); expanding returns x^2-10x+9."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L02-P01",
+          "level": "Foundation",
+          "prompt": "Factorise x^2-11x+28 completely.",
+          "answer": "(x - (4))(x - (7)); expanding returns x^2-11x+28."
+        },
+        {
+          "id": "G12-ALG-L02-P02",
+          "level": "Foundation",
+          "prompt": "Factorise x^2+5x-24 completely.",
+          "answer": "(x - (-8))(x - (3)); expanding returns x^2+5x-24."
+        },
+        {
+          "id": "G12-ALG-L02-P03",
+          "level": "Routine",
+          "prompt": "Factorise x^2-13x+22 completely.",
+          "answer": "(x - (2))(x - (11)); expanding returns x^2-13x+22."
+        },
+        {
+          "id": "G12-ALG-L02-P04",
+          "level": "Routine",
+          "prompt": "Factorise x^2+2x-35 completely.",
+          "answer": "(x - (-7))(x - (5)); expanding returns x^2+2x-35."
+        },
+        {
+          "id": "G12-ALG-L02-P05",
+          "level": "Routine",
+          "prompt": "Factorise x^2-15x+50 completely.",
+          "answer": "(x - (5))(x - (10)); expanding returns x^2-15x+50."
+        },
+        {
+          "id": "G12-ALG-L02-P06",
+          "level": "Routine",
+          "prompt": "Factorise x^2-7x+6 completely.",
+          "answer": "(x - (1))(x - (6)); expanding returns x^2-7x+6."
+        },
+        {
+          "id": "G12-ALG-L02-P07",
+          "level": "Complex",
+          "prompt": "Factorise x^2-15x+36 completely.",
+          "answer": "(x - (3))(x - (12)); expanding returns x^2-15x+36."
+        },
+        {
+          "id": "G12-ALG-L02-P08",
+          "level": "Complex",
+          "prompt": "Factorise x^2+10x+9 completely.",
+          "answer": "(x - (-9))(x - (-1)); expanding returns x^2+10x+9."
+        },
+        {
+          "id": "G12-ALG-L02-P09",
+          "level": "Complex",
+          "prompt": "Factorise x^2-17x+52 completely.",
+          "answer": "(x - (4))(x - (13)); expanding returns x^2-17x+52."
+        },
+        {
+          "id": "G12-ALG-L02-P10",
+          "level": "Complex",
+          "prompt": "Factorise x^2-16x+28 completely.",
+          "answer": "(x - (2))(x - (14)); expanding returns x^2-16x+28."
+        },
+        {
+          "id": "G12-ALG-L02-P11",
+          "level": "Exam-level",
+          "prompt": "Factorise x^2+8x-20 completely.",
+          "answer": "(x - (-10))(x - (2)); expanding returns x^2+8x-20."
+        },
+        {
+          "id": "G12-ALG-L02-P12",
+          "level": "Exam-level",
+          "prompt": "Factorise x^2-15x+54 completely.",
+          "answer": "(x - (6))(x - (9)); expanding returns x^2-15x+54."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "g12-algebra-03",
+      "title": "Quadratic equations by factorisation",
+      "objective": "Solve factorable quadratics and verify every root in the original equation.",
+      "misconception": "STANDARD-FORM/ROOT-LOSS",
+      "teaching": "Standard form reveals whether factorisation is efficient and keeps all terms on one side.",
+      "anchor": "ax^2+bx+c=0 -> factors -> zero product.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L03-W01",
+          "level": "Foundation",
+          "prompt": "Solve x^2+3x-10 = 0 by factorisation.",
+          "answer": "(x - (-5))(x - (2)) = 0; x = -5 or x = 2."
+        },
+        {
+          "id": "G12-ALG-L03-W02",
+          "level": "Foundation",
+          "prompt": "Solve x^2+x-12 = 0 by factorisation.",
+          "answer": "(x - (-4))(x - (3)) = 0; x = -4 or x = 3."
+        },
+        {
+          "id": "G12-ALG-L03-W03",
+          "level": "Routine",
+          "prompt": "Solve x^2+2x-3 = 0 by factorisation.",
+          "answer": "(x - (-3))(x - (1)) = 0; x = -3 or x = 1."
+        },
+        {
+          "id": "G12-ALG-L03-W04",
+          "level": "Routine",
+          "prompt": "Solve x^2-4x-12 = 0 by factorisation.",
+          "answer": "(x - (-2))(x - (6)) = 0; x = -2 or x = 6."
+        },
+        {
+          "id": "G12-ALG-L03-W05",
+          "level": "Routine",
+          "prompt": "Solve x^2-6x-7 = 0 by factorisation.",
+          "answer": "(x - (-1))(x - (7)) = 0; x = -1 or x = 7."
+        },
+        {
+          "id": "G12-ALG-L03-W06",
+          "level": "Complex",
+          "prompt": "Solve x^2-5x = 0 by factorisation.",
+          "answer": "(x - (0))(x - (5)) = 0; x = 0 or x = 5."
+        },
+        {
+          "id": "G12-ALG-L03-W07",
+          "level": "Complex",
+          "prompt": "Solve x^2-6x+8 = 0 by factorisation.",
+          "answer": "(x - (2))(x - (4)) = 0; x = 2 or x = 4."
+        },
+        {
+          "id": "G12-ALG-L03-W08",
+          "level": "Complex",
+          "prompt": "Solve x^2-11x+24 = 0 by factorisation.",
+          "answer": "(x - (3))(x - (8)) = 0; x = 3 or x = 8."
+        },
+        {
+          "id": "G12-ALG-L03-W09",
+          "level": "Exam-level",
+          "prompt": "Solve x^2+8x+12 = 0 by factorisation.",
+          "answer": "(x - (-6))(x - (-2)) = 0; x = -6 or x = -2."
+        },
+        {
+          "id": "G12-ALG-L03-W10",
+          "level": "Exam-level",
+          "prompt": "Solve x^2-10x+9 = 0 by factorisation.",
+          "answer": "(x - (1))(x - (9)) = 0; x = 1 or x = 9."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L03-P01",
+          "level": "Foundation",
+          "prompt": "Solve x^2-11x+28 = 0 by factorisation.",
+          "answer": "(x - (4))(x - (7)) = 0; x = 4 or x = 7."
+        },
+        {
+          "id": "G12-ALG-L03-P02",
+          "level": "Foundation",
+          "prompt": "Solve x^2+5x-24 = 0 by factorisation.",
+          "answer": "(x - (-8))(x - (3)) = 0; x = -8 or x = 3."
+        },
+        {
+          "id": "G12-ALG-L03-P03",
+          "level": "Routine",
+          "prompt": "Solve x^2-13x+22 = 0 by factorisation.",
+          "answer": "(x - (2))(x - (11)) = 0; x = 2 or x = 11."
+        },
+        {
+          "id": "G12-ALG-L03-P04",
+          "level": "Routine",
+          "prompt": "Solve x^2+2x-35 = 0 by factorisation.",
+          "answer": "(x - (-7))(x - (5)) = 0; x = -7 or x = 5."
+        },
+        {
+          "id": "G12-ALG-L03-P05",
+          "level": "Routine",
+          "prompt": "Solve x^2-15x+50 = 0 by factorisation.",
+          "answer": "(x - (5))(x - (10)) = 0; x = 5 or x = 10."
+        },
+        {
+          "id": "G12-ALG-L03-P06",
+          "level": "Routine",
+          "prompt": "Solve x^2-7x+6 = 0 by factorisation.",
+          "answer": "(x - (1))(x - (6)) = 0; x = 1 or x = 6."
+        },
+        {
+          "id": "G12-ALG-L03-P07",
+          "level": "Complex",
+          "prompt": "Solve x^2-15x+36 = 0 by factorisation.",
+          "answer": "(x - (3))(x - (12)) = 0; x = 3 or x = 12."
+        },
+        {
+          "id": "G12-ALG-L03-P08",
+          "level": "Complex",
+          "prompt": "Solve x^2+10x+9 = 0 by factorisation.",
+          "answer": "(x - (-9))(x - (-1)) = 0; x = -9 or x = -1."
+        },
+        {
+          "id": "G12-ALG-L03-P09",
+          "level": "Complex",
+          "prompt": "Solve x^2-17x+52 = 0 by factorisation.",
+          "answer": "(x - (4))(x - (13)) = 0; x = 4 or x = 13."
+        },
+        {
+          "id": "G12-ALG-L03-P10",
+          "level": "Complex",
+          "prompt": "Solve x^2-16x+28 = 0 by factorisation.",
+          "answer": "(x - (2))(x - (14)) = 0; x = 2 or x = 14."
+        },
+        {
+          "id": "G12-ALG-L03-P11",
+          "level": "Exam-level",
+          "prompt": "Solve x^2+8x-20 = 0 by factorisation.",
+          "answer": "(x - (-10))(x - (2)) = 0; x = -10 or x = 2."
+        },
+        {
+          "id": "G12-ALG-L03-P12",
+          "level": "Exam-level",
+          "prompt": "Solve x^2-15x+54 = 0 by factorisation.",
+          "answer": "(x - (6))(x - (9)) = 0; x = 6 or x = 9."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "g12-algebra-04",
+      "title": "Quadratic formula",
+      "objective": "Use the quadratic formula accurately when factorisation is unsuitable.",
+      "misconception": "FORMULA/SUBSTITUTION",
+      "teaching": "The formula is a general solution obtained from completing the square; signs and the denominator belong to one structure.",
+      "anchor": "x=(-b±sqrt(b^2-4ac))/(2a).",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L04-W01",
+          "level": "Foundation",
+          "prompt": "Solve 2x^2-5x-3 = 0; round non-integer answers to two decimals.",
+          "answer": "a=2, b=-5, c=-3, Delta=49; x = 3 or -0.50."
+        },
+        {
+          "id": "G12-ALG-L04-W02",
+          "level": "Foundation",
+          "prompt": "Solve 3x^2+2x-7 = 0; round non-integer answers to two decimals.",
+          "answer": "a=3, b=2, c=-7, Delta=88; x = 1.23 or -1.90."
+        },
+        {
+          "id": "G12-ALG-L04-W03",
+          "level": "Routine",
+          "prompt": "Solve 4x^2-x-6 = 0; round non-integer answers to two decimals.",
+          "answer": "a=4, b=-1, c=-6, Delta=97; x = 1.36 or -1.11."
+        },
+        {
+          "id": "G12-ALG-L04-W04",
+          "level": "Routine",
+          "prompt": "Solve 5x^2+3x-2 = 0; round non-integer answers to two decimals.",
+          "answer": "a=5, b=3, c=-2, Delta=49; x = 0.40 or -1."
+        },
+        {
+          "id": "G12-ALG-L04-W05",
+          "level": "Routine",
+          "prompt": "Solve 2x^2+7x-4 = 0; round non-integer answers to two decimals.",
+          "answer": "a=2, b=7, c=-4, Delta=81; x = 0.50 or -4."
+        },
+        {
+          "id": "G12-ALG-L04-W06",
+          "level": "Complex",
+          "prompt": "Solve 3x^2-8x+1 = 0; round non-integer answers to two decimals.",
+          "answer": "a=3, b=-8, c=1, Delta=52; x = 2.54 or 0.13."
+        },
+        {
+          "id": "G12-ALG-L04-W07",
+          "level": "Complex",
+          "prompt": "Solve 6x^2+5x-3 = 0; round non-integer answers to two decimals.",
+          "answer": "a=6, b=5, c=-3, Delta=97; x = 0.40 or -1.24."
+        },
+        {
+          "id": "G12-ALG-L04-W08",
+          "level": "Complex",
+          "prompt": "Solve 2x^2-3x-8 = 0; round non-integer answers to two decimals.",
+          "answer": "a=2, b=-3, c=-8, Delta=73; x = 2.89 or -1.39."
+        },
+        {
+          "id": "G12-ALG-L04-W09",
+          "level": "Exam-level",
+          "prompt": "Solve 7x^2-2x-5 = 0; round non-integer answers to two decimals.",
+          "answer": "a=7, b=-2, c=-5, Delta=144; x = 1 or -0.71."
+        },
+        {
+          "id": "G12-ALG-L04-W10",
+          "level": "Exam-level",
+          "prompt": "Solve 4x^2+9x+1 = 0; round non-integer answers to two decimals.",
+          "answer": "a=4, b=9, c=1, Delta=65; x = -0.12 or -2.13."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L04-P01",
+          "level": "Foundation",
+          "prompt": "Solve 5x^2-6x-4 = 0; round non-integer answers to two decimals.",
+          "answer": "a=5, b=-6, c=-4, Delta=116; x = 1.68 or -0.48."
+        },
+        {
+          "id": "G12-ALG-L04-P02",
+          "level": "Foundation",
+          "prompt": "Solve 3x^2+7x-9 = 0; round non-integer answers to two decimals.",
+          "answer": "a=3, b=7, c=-9, Delta=157; x = 0.92 or -3.25."
+        },
+        {
+          "id": "G12-ALG-L04-P03",
+          "level": "Routine",
+          "prompt": "Solve 8x^2-5x-2 = 0; round non-integer answers to two decimals.",
+          "answer": "a=8, b=-5, c=-2, Delta=89; x = 0.90 or -0.28."
+        },
+        {
+          "id": "G12-ALG-L04-P04",
+          "level": "Routine",
+          "prompt": "Solve 2x^2+9x+3 = 0; round non-integer answers to two decimals.",
+          "answer": "a=2, b=9, c=3, Delta=57; x = -0.36 or -4.14."
+        },
+        {
+          "id": "G12-ALG-L04-P05",
+          "level": "Routine",
+          "prompt": "Solve 6x^2-7x-1 = 0; round non-integer answers to two decimals.",
+          "answer": "a=6, b=-7, c=-1, Delta=73; x = 1.30 or -0.13."
+        },
+        {
+          "id": "G12-ALG-L04-P06",
+          "level": "Routine",
+          "prompt": "Solve 5x^2+2x-8 = 0; round non-integer answers to two decimals.",
+          "answer": "a=5, b=2, c=-8, Delta=164; x = 1.08 or -1.48."
+        },
+        {
+          "id": "G12-ALG-L04-P07",
+          "level": "Complex",
+          "prompt": "Solve 3x^2-4x-10 = 0; round non-integer answers to two decimals.",
+          "answer": "a=3, b=-4, c=-10, Delta=136; x = 2.61 or -1.28."
+        },
+        {
+          "id": "G12-ALG-L04-P08",
+          "level": "Complex",
+          "prompt": "Solve 7x^2+6x-2 = 0; round non-integer answers to two decimals.",
+          "answer": "a=7, b=6, c=-2, Delta=92; x = 0.26 or -1.11."
+        },
+        {
+          "id": "G12-ALG-L04-P09",
+          "level": "Complex",
+          "prompt": "Solve 4x^2-11x+5 = 0; round non-integer answers to two decimals.",
+          "answer": "a=4, b=-11, c=5, Delta=41; x = 2.18 or 0.57."
+        },
+        {
+          "id": "G12-ALG-L04-P10",
+          "level": "Complex",
+          "prompt": "Solve 9x^2-3x-4 = 0; round non-integer answers to two decimals.",
+          "answer": "a=9, b=-3, c=-4, Delta=153; x = 0.85 or -0.52."
+        },
+        {
+          "id": "G12-ALG-L04-P11",
+          "level": "Exam-level",
+          "prompt": "Solve 2x^2+5x-11 = 0; round non-integer answers to two decimals.",
+          "answer": "a=2, b=5, c=-11, Delta=113; x = 1.41 or -3.91."
+        },
+        {
+          "id": "G12-ALG-L04-P12",
+          "level": "Exam-level",
+          "prompt": "Solve 5x^2-9x+2 = 0; round non-integer answers to two decimals.",
+          "answer": "a=5, b=-9, c=2, Delta=41; x = 1.54 or 0.26."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "g12-algebra-05",
+      "title": "Choosing a quadratic method and rounding",
+      "objective": "Select factorisation or the quadratic formula and report exact or rounded roots appropriately.",
+      "misconception": "METHOD/ROUNDING",
+      "teaching": "Method choice is based on structure, not habit. Rounding belongs only in the final line unless instructed otherwise.",
+      "anchor": "Factor clean integer structures; use the formula for non-factorable forms.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L05-W01",
+          "level": "Foundation",
+          "prompt": "Solve x^2+3x-10 = 0 by factorisation.",
+          "answer": "(x - (-5))(x - (2)) = 0; x = -5 or x = 2."
+        },
+        {
+          "id": "G12-ALG-L05-W02",
+          "level": "Foundation",
+          "prompt": "Solve x^2+x-12 = 0 by factorisation.",
+          "answer": "(x - (-4))(x - (3)) = 0; x = -4 or x = 3."
+        },
+        {
+          "id": "G12-ALG-L05-W03",
+          "level": "Routine",
+          "prompt": "Solve x^2+2x-3 = 0 by factorisation.",
+          "answer": "(x - (-3))(x - (1)) = 0; x = -3 or x = 1."
+        },
+        {
+          "id": "G12-ALG-L05-W04",
+          "level": "Routine",
+          "prompt": "Solve x^2-4x-12 = 0 by factorisation.",
+          "answer": "(x - (-2))(x - (6)) = 0; x = -2 or x = 6."
+        },
+        {
+          "id": "G12-ALG-L05-W05",
+          "level": "Routine",
+          "prompt": "Solve x^2-6x-7 = 0 by factorisation.",
+          "answer": "(x - (-1))(x - (7)) = 0; x = -1 or x = 7."
+        },
+        {
+          "id": "G12-ALG-L05-W06",
+          "level": "Complex",
+          "prompt": "Solve x^2-5x = 0 by factorisation.",
+          "answer": "(x - (0))(x - (5)) = 0; x = 0 or x = 5."
+        },
+        {
+          "id": "G12-ALG-L05-W07",
+          "level": "Complex",
+          "prompt": "Solve x^2-6x+8 = 0 by factorisation.",
+          "answer": "(x - (2))(x - (4)) = 0; x = 2 or x = 4."
+        },
+        {
+          "id": "G12-ALG-L05-W08",
+          "level": "Complex",
+          "prompt": "Solve x^2-11x+24 = 0 by factorisation.",
+          "answer": "(x - (3))(x - (8)) = 0; x = 3 or x = 8."
+        },
+        {
+          "id": "G12-ALG-L05-W09",
+          "level": "Exam-level",
+          "prompt": "Solve x^2+8x+12 = 0 by factorisation.",
+          "answer": "(x - (-6))(x - (-2)) = 0; x = -6 or x = -2."
+        },
+        {
+          "id": "G12-ALG-L05-W10",
+          "level": "Exam-level",
+          "prompt": "Solve x^2-10x+9 = 0 by factorisation.",
+          "answer": "(x - (1))(x - (9)) = 0; x = 1 or x = 9."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L05-P01",
+          "level": "Foundation",
+          "prompt": "Solve x^2-11x+28 = 0 by factorisation.",
+          "answer": "(x - (4))(x - (7)) = 0; x = 4 or x = 7."
+        },
+        {
+          "id": "G12-ALG-L05-P02",
+          "level": "Foundation",
+          "prompt": "Solve 2x^2-5x-3 = 0; round non-integer answers to two decimals.",
+          "answer": "a=2, b=-5, c=-3, Delta=49; x = 3 or -0.50."
+        },
+        {
+          "id": "G12-ALG-L05-P03",
+          "level": "Routine",
+          "prompt": "Solve 3x^2+2x-7 = 0; round non-integer answers to two decimals.",
+          "answer": "a=3, b=2, c=-7, Delta=88; x = 1.23 or -1.90."
+        },
+        {
+          "id": "G12-ALG-L05-P04",
+          "level": "Routine",
+          "prompt": "Solve 4x^2-x-6 = 0; round non-integer answers to two decimals.",
+          "answer": "a=4, b=-1, c=-6, Delta=97; x = 1.36 or -1.11."
+        },
+        {
+          "id": "G12-ALG-L05-P05",
+          "level": "Routine",
+          "prompt": "Solve 5x^2+3x-2 = 0; round non-integer answers to two decimals.",
+          "answer": "a=5, b=3, c=-2, Delta=49; x = 0.40 or -1."
+        },
+        {
+          "id": "G12-ALG-L05-P06",
+          "level": "Routine",
+          "prompt": "Solve 2x^2+7x-4 = 0; round non-integer answers to two decimals.",
+          "answer": "a=2, b=7, c=-4, Delta=81; x = 0.50 or -4."
+        },
+        {
+          "id": "G12-ALG-L05-P07",
+          "level": "Complex",
+          "prompt": "Solve 3x^2-8x+1 = 0; round non-integer answers to two decimals.",
+          "answer": "a=3, b=-8, c=1, Delta=52; x = 2.54 or 0.13."
+        },
+        {
+          "id": "G12-ALG-L05-P08",
+          "level": "Complex",
+          "prompt": "Solve 6x^2+5x-3 = 0; round non-integer answers to two decimals.",
+          "answer": "a=6, b=5, c=-3, Delta=97; x = 0.40 or -1.24."
+        },
+        {
+          "id": "G12-ALG-L05-P09",
+          "level": "Complex",
+          "prompt": "Solve 2x^2-3x-8 = 0; round non-integer answers to two decimals.",
+          "answer": "a=2, b=-3, c=-8, Delta=73; x = 2.89 or -1.39."
+        },
+        {
+          "id": "G12-ALG-L05-P10",
+          "level": "Complex",
+          "prompt": "Solve 7x^2-2x-5 = 0; round non-integer answers to two decimals.",
+          "answer": "a=7, b=-2, c=-5, Delta=144; x = 1 or -0.71."
+        },
+        {
+          "id": "G12-ALG-L05-P11",
+          "level": "Exam-level",
+          "prompt": "Solve 4x^2+9x+1 = 0; round non-integer answers to two decimals.",
+          "answer": "a=4, b=9, c=1, Delta=65; x = -0.12 or -2.13."
+        },
+        {
+          "id": "G12-ALG-L05-P12",
+          "level": "Exam-level",
+          "prompt": "Solve 5x^2-6x-4 = 0; round non-integer answers to two decimals.",
+          "answer": "a=5, b=-6, c=-4, Delta=116; x = 1.68 or -0.48."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "g12-algebra-06",
+      "title": "Surd equations and extraneous roots",
+      "objective": "Solve surd equations and reject candidates that fail the original equation.",
+      "misconception": "SURD/EXTRANEOUS",
+      "teaching": "Squaring is not logically reversible without a check because it removes sign information.",
+      "anchor": "Isolate radical -> state domain -> square -> solve -> check.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L06-W01",
+          "level": "Foundation",
+          "prompt": "sqrt(x + 5) = x - 1",
+          "answer": "x = 4"
+        },
+        {
+          "id": "G12-ALG-L06-W02",
+          "level": "Foundation",
+          "prompt": "sqrt(2x + 3) = x",
+          "answer": "x = 3 or x = -1 is rejected"
+        },
+        {
+          "id": "G12-ALG-L06-W03",
+          "level": "Routine",
+          "prompt": "sqrt(x + 12) = 8 - x",
+          "answer": "x = 4"
+        },
+        {
+          "id": "G12-ALG-L06-W04",
+          "level": "Routine",
+          "prompt": "sqrt(3x + 4) = x + 2",
+          "answer": "x = -1 or x = 0"
+        },
+        {
+          "id": "G12-ALG-L06-W05",
+          "level": "Routine",
+          "prompt": "sqrt(5x + 9) = x + 3",
+          "answer": "x = 0 or x = -1"
+        },
+        {
+          "id": "G12-ALG-L06-W06",
+          "level": "Complex",
+          "prompt": "sqrt(x + 1) + 1 = x",
+          "answer": "x = 3"
+        },
+        {
+          "id": "G12-ALG-L06-W07",
+          "level": "Complex",
+          "prompt": "sqrt(2x - 1) = 5",
+          "answer": "x = 13"
+        },
+        {
+          "id": "G12-ALG-L06-W08",
+          "level": "Complex",
+          "prompt": "sqrt(4x + 1) = 2x - 1",
+          "answer": "x = 2"
+        },
+        {
+          "id": "G12-ALG-L06-W09",
+          "level": "Exam-level",
+          "prompt": "sqrt(x + 20) = x",
+          "answer": "x = 5"
+        },
+        {
+          "id": "G12-ALG-L06-W10",
+          "level": "Exam-level",
+          "prompt": "sqrt(6x + 1) = x + 1",
+          "answer": "x = 0 or x = 4"
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L06-P01",
+          "level": "Foundation",
+          "prompt": "sqrt(3x - 2) = 4",
+          "answer": "x = 6"
+        },
+        {
+          "id": "G12-ALG-L06-P02",
+          "level": "Foundation",
+          "prompt": "sqrt(x + 7) = 5 - x",
+          "answer": "x = 2"
+        },
+        {
+          "id": "G12-ALG-L06-P03",
+          "level": "Routine",
+          "prompt": "sqrt(2x + 4) = x + 2",
+          "answer": "x = 0 or x = -2"
+        },
+        {
+          "id": "G12-ALG-L06-P04",
+          "level": "Routine",
+          "prompt": "sqrt(7x + 1) = x + 1",
+          "answer": "x = 0 or x = 5"
+        },
+        {
+          "id": "G12-ALG-L06-P05",
+          "level": "Routine",
+          "prompt": "sqrt(x - 2) = x - 4",
+          "answer": "x = 6"
+        },
+        {
+          "id": "G12-ALG-L06-P06",
+          "level": "Routine",
+          "prompt": "sqrt(5 - x) = x + 1",
+          "answer": "x = 1"
+        },
+        {
+          "id": "G12-ALG-L06-P07",
+          "level": "Complex",
+          "prompt": "sqrt(2x + 11) = x + 4",
+          "answer": "x = -1; x = -5 is rejected"
+        },
+        {
+          "id": "G12-ALG-L06-P08",
+          "level": "Complex",
+          "prompt": "sqrt(9x + 4) = x + 2",
+          "answer": "x = 0 or x = 5"
+        },
+        {
+          "id": "G12-ALG-L06-P09",
+          "level": "Complex",
+          "prompt": "sqrt(x + 30) = x",
+          "answer": "x = 6"
+        },
+        {
+          "id": "G12-ALG-L06-P10",
+          "level": "Complex",
+          "prompt": "sqrt(3x + 16) = x + 4",
+          "answer": "x = 0; x = -5 is rejected"
+        },
+        {
+          "id": "G12-ALG-L06-P11",
+          "level": "Exam-level",
+          "prompt": "sqrt(3x + 10) = x + 2",
+          "answer": "x = 2; x = -3 is rejected"
+        },
+        {
+          "id": "G12-ALG-L06-P12",
+          "level": "Exam-level",
+          "prompt": "sqrt(8x + 1) = 2x + 1",
+          "answer": "x = 0 or x = 1"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "g12-algebra-07",
+      "title": "Equations in quadratic form",
+      "objective": "Use a substitution such as k=x^n, solve the quadratic in k and back-substitute completely.",
+      "misconception": "K-METHOD/BACK-SUBSTITUTION",
+      "teaching": "Repeated algebraic structures can be renamed without changing them; the final answers must return to x.",
+      "anchor": "Let k=x^n; solve in k; solve x^n=k with real-domain checks.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L07-W01",
+          "level": "Foundation",
+          "prompt": "Solve x^4 + (3)x^2 + (-10) = 0 using k=x^2.",
+          "answer": "k^2+(3)k+(-10)=0, so k=-5 or 2; retain only real x allowed by x^2=k."
+        },
+        {
+          "id": "G12-ALG-L07-W02",
+          "level": "Foundation",
+          "prompt": "Solve x^6 + (1)x^3 + (-12) = 0 using k=x^3.",
+          "answer": "k^2+(1)k+(-12)=0, so k=-4 or 3; retain only real x allowed by x^3=k."
+        },
+        {
+          "id": "G12-ALG-L07-W03",
+          "level": "Routine",
+          "prompt": "Solve x^8 + (2)x^4 + (-3) = 0 using k=x^4.",
+          "answer": "k^2+(2)k+(-3)=0, so k=-3 or 1; retain only real x allowed by x^4=k."
+        },
+        {
+          "id": "G12-ALG-L07-W04",
+          "level": "Routine",
+          "prompt": "Solve x^4 + (-4)x^2 + (-12) = 0 using k=x^2.",
+          "answer": "k^2+(-4)k+(-12)=0, so k=-2 or 6; retain only real x allowed by x^2=k."
+        },
+        {
+          "id": "G12-ALG-L07-W05",
+          "level": "Routine",
+          "prompt": "Solve x^6 + (-6)x^3 + (-7) = 0 using k=x^3.",
+          "answer": "k^2+(-6)k+(-7)=0, so k=-1 or 7; retain only real x allowed by x^3=k."
+        },
+        {
+          "id": "G12-ALG-L07-W06",
+          "level": "Complex",
+          "prompt": "Solve x^8 + (-5)x^4 + (0) = 0 using k=x^4.",
+          "answer": "k^2+(-5)k+(0)=0, so k=0 or 5; retain only real x allowed by x^4=k."
+        },
+        {
+          "id": "G12-ALG-L07-W07",
+          "level": "Complex",
+          "prompt": "Solve x^4 + (-6)x^2 + (8) = 0 using k=x^2.",
+          "answer": "k^2+(-6)k+(8)=0, so k=2 or 4; retain only real x allowed by x^2=k."
+        },
+        {
+          "id": "G12-ALG-L07-W08",
+          "level": "Complex",
+          "prompt": "Solve x^6 + (-11)x^3 + (24) = 0 using k=x^3.",
+          "answer": "k^2+(-11)k+(24)=0, so k=3 or 8; retain only real x allowed by x^3=k."
+        },
+        {
+          "id": "G12-ALG-L07-W09",
+          "level": "Exam-level",
+          "prompt": "Solve x^8 + (8)x^4 + (12) = 0 using k=x^4.",
+          "answer": "k^2+(8)k+(12)=0, so k=-6 or -2; retain only real x allowed by x^4=k."
+        },
+        {
+          "id": "G12-ALG-L07-W10",
+          "level": "Exam-level",
+          "prompt": "Solve x^4 + (-10)x^2 + (9) = 0 using k=x^2.",
+          "answer": "k^2+(-10)k+(9)=0, so k=1 or 9; retain only real x allowed by x^2=k."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L07-P01",
+          "level": "Foundation",
+          "prompt": "Solve x^6 + (-11)x^3 + (28) = 0 using k=x^3.",
+          "answer": "k^2+(-11)k+(28)=0, so k=4 or 7; retain only real x allowed by x^3=k."
+        },
+        {
+          "id": "G12-ALG-L07-P02",
+          "level": "Foundation",
+          "prompt": "Solve x^8 + (5)x^4 + (-24) = 0 using k=x^4.",
+          "answer": "k^2+(5)k+(-24)=0, so k=-8 or 3; retain only real x allowed by x^4=k."
+        },
+        {
+          "id": "G12-ALG-L07-P03",
+          "level": "Routine",
+          "prompt": "Solve x^4 + (-13)x^2 + (22) = 0 using k=x^2.",
+          "answer": "k^2+(-13)k+(22)=0, so k=2 or 11; retain only real x allowed by x^2=k."
+        },
+        {
+          "id": "G12-ALG-L07-P04",
+          "level": "Routine",
+          "prompt": "Solve x^6 + (2)x^3 + (-35) = 0 using k=x^3.",
+          "answer": "k^2+(2)k+(-35)=0, so k=-7 or 5; retain only real x allowed by x^3=k."
+        },
+        {
+          "id": "G12-ALG-L07-P05",
+          "level": "Routine",
+          "prompt": "Solve x^8 + (-15)x^4 + (50) = 0 using k=x^4.",
+          "answer": "k^2+(-15)k+(50)=0, so k=5 or 10; retain only real x allowed by x^4=k."
+        },
+        {
+          "id": "G12-ALG-L07-P06",
+          "level": "Routine",
+          "prompt": "Solve x^4 + (-7)x^2 + (6) = 0 using k=x^2.",
+          "answer": "k^2+(-7)k+(6)=0, so k=1 or 6; retain only real x allowed by x^2=k."
+        },
+        {
+          "id": "G12-ALG-L07-P07",
+          "level": "Complex",
+          "prompt": "Solve x^6 + (-15)x^3 + (36) = 0 using k=x^3.",
+          "answer": "k^2+(-15)k+(36)=0, so k=3 or 12; retain only real x allowed by x^3=k."
+        },
+        {
+          "id": "G12-ALG-L07-P08",
+          "level": "Complex",
+          "prompt": "Solve x^8 + (10)x^4 + (9) = 0 using k=x^4.",
+          "answer": "k^2+(10)k+(9)=0, so k=-9 or -1; retain only real x allowed by x^4=k."
+        },
+        {
+          "id": "G12-ALG-L07-P09",
+          "level": "Complex",
+          "prompt": "Solve x^4 + (-17)x^2 + (52) = 0 using k=x^2.",
+          "answer": "k^2+(-17)k+(52)=0, so k=4 or 13; retain only real x allowed by x^2=k."
+        },
+        {
+          "id": "G12-ALG-L07-P10",
+          "level": "Complex",
+          "prompt": "Solve x^6 + (-16)x^3 + (28) = 0 using k=x^3.",
+          "answer": "k^2+(-16)k+(28)=0, so k=2 or 14; retain only real x allowed by x^3=k."
+        },
+        {
+          "id": "G12-ALG-L07-P11",
+          "level": "Exam-level",
+          "prompt": "Solve x^8 + (8)x^4 + (-20) = 0 using k=x^4.",
+          "answer": "k^2+(8)k+(-20)=0, so k=-10 or 2; retain only real x allowed by x^4=k."
+        },
+        {
+          "id": "G12-ALG-L07-P12",
+          "level": "Exam-level",
+          "prompt": "Solve x^4 + (-15)x^2 + (54) = 0 using k=x^2.",
+          "answer": "k^2+(-15)k+(54)=0, so k=6 or 9; retain only real x allowed by x^2=k."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "g12-algebra-08",
+      "title": "Exponential equations and common bases",
+      "objective": "Solve exponential equations using exponent laws, equivalent bases and valid substitutions.",
+      "misconception": "EXPONENT/BASE",
+      "teaching": "For a positive base not equal to 1, equal powers have equal exponents. Negative right sides require scrutiny.",
+      "anchor": "a^u=a^v -> u=v for a>0, a!=1.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L08-W01",
+          "level": "Foundation",
+          "prompt": "Solve 2^(x + (1)) = 32.",
+          "answer": "Write 32 = 2^5; x + (1) = 5; x = 4."
+        },
+        {
+          "id": "G12-ALG-L08-W02",
+          "level": "Foundation",
+          "prompt": "Solve 3^(x + (-1)) = 27.",
+          "answer": "Write 27 = 3^3; x + (-1) = 3; x = 4."
+        },
+        {
+          "id": "G12-ALG-L08-W03",
+          "level": "Routine",
+          "prompt": "Solve 5^(x + (2)) = 15625.",
+          "answer": "Write 15625 = 5^6; x + (2) = 6; x = 4."
+        },
+        {
+          "id": "G12-ALG-L08-W04",
+          "level": "Routine",
+          "prompt": "Solve 2^(x + (-3)) = 16.",
+          "answer": "Write 16 = 2^4; x + (-3) = 4; x = 7."
+        },
+        {
+          "id": "G12-ALG-L08-W05",
+          "level": "Routine",
+          "prompt": "Solve 4^(x + (1)) = 1024.",
+          "answer": "Write 1024 = 4^5; x + (1) = 5; x = 4."
+        },
+        {
+          "id": "G12-ALG-L08-W06",
+          "level": "Complex",
+          "prompt": "Solve 3^(x + (2)) = 729.",
+          "answer": "Write 729 = 3^6; x + (2) = 6; x = 4."
+        },
+        {
+          "id": "G12-ALG-L08-W07",
+          "level": "Complex",
+          "prompt": "Solve 5^(x + (-1)) = 25.",
+          "answer": "Write 25 = 5^2; x + (-1) = 2; x = 3."
+        },
+        {
+          "id": "G12-ALG-L08-W08",
+          "level": "Complex",
+          "prompt": "Solve 2^(x + (4)) = 256.",
+          "answer": "Write 256 = 2^8; x + (4) = 8; x = 4."
+        },
+        {
+          "id": "G12-ALG-L08-W09",
+          "level": "Exam-level",
+          "prompt": "Solve 9^(x + (0)) = 729.",
+          "answer": "Write 729 = 9^3; x + (0) = 3; x = 3."
+        },
+        {
+          "id": "G12-ALG-L08-W10",
+          "level": "Exam-level",
+          "prompt": "Solve 4^(x + (-2)) = 16.",
+          "answer": "Write 16 = 4^2; x + (-2) = 2; x = 4."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L08-P01",
+          "level": "Foundation",
+          "prompt": "Solve 8^(x + (1)) = 2097152.",
+          "answer": "Write 2097152 = 8^7; x + (1) = 7; x = 6."
+        },
+        {
+          "id": "G12-ALG-L08-P02",
+          "level": "Foundation",
+          "prompt": "Solve 3^(x + (-2)) = 81.",
+          "answer": "Write 81 = 3^4; x + (-2) = 4; x = 6."
+        },
+        {
+          "id": "G12-ALG-L08-P03",
+          "level": "Routine",
+          "prompt": "Solve 5^(x + (3)) = 78125.",
+          "answer": "Write 78125 = 5^7; x + (3) = 7; x = 4."
+        },
+        {
+          "id": "G12-ALG-L08-P04",
+          "level": "Routine",
+          "prompt": "Solve 2^(x + (-1)) = 64.",
+          "answer": "Write 64 = 2^6; x + (-1) = 6; x = 7."
+        },
+        {
+          "id": "G12-ALG-L08-P05",
+          "level": "Routine",
+          "prompt": "Solve 4^(x + (2)) = 16384.",
+          "answer": "Write 16384 = 4^7; x + (2) = 7; x = 5."
+        },
+        {
+          "id": "G12-ALG-L08-P06",
+          "level": "Routine",
+          "prompt": "Solve 3^(x + (1)) = 6561.",
+          "answer": "Write 6561 = 3^8; x + (1) = 8; x = 7."
+        },
+        {
+          "id": "G12-ALG-L08-P07",
+          "level": "Complex",
+          "prompt": "Solve 7^(x + (-2)) = 343.",
+          "answer": "Write 343 = 7^3; x + (-2) = 3; x = 5."
+        },
+        {
+          "id": "G12-ALG-L08-P08",
+          "level": "Complex",
+          "prompt": "Solve 2^(x + (5)) = 1024.",
+          "answer": "Write 1024 = 2^10; x + (5) = 10; x = 5."
+        },
+        {
+          "id": "G12-ALG-L08-P09",
+          "level": "Complex",
+          "prompt": "Solve 9^(x + (-1)) = 81.",
+          "answer": "Write 81 = 9^2; x + (-1) = 2; x = 3."
+        },
+        {
+          "id": "G12-ALG-L08-P10",
+          "level": "Complex",
+          "prompt": "Solve 5^(x + (0)) = 625.",
+          "answer": "Write 625 = 5^4; x + (0) = 4; x = 4."
+        },
+        {
+          "id": "G12-ALG-L08-P11",
+          "level": "Exam-level",
+          "prompt": "Solve 4^(x + (3)) = 262144.",
+          "answer": "Write 262144 = 4^9; x + (3) = 9; x = 6."
+        },
+        {
+          "id": "G12-ALG-L08-P12",
+          "level": "Exam-level",
+          "prompt": "Solve 3^(x + (-3)) = 9.",
+          "answer": "Write 9 = 3^2; x + (-3) = 2; x = 5."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "id": "g12-algebra-09",
+      "title": "Linear simultaneous equations",
+      "objective": "Solve two linear equations and interpret the ordered pair as their intersection.",
+      "misconception": "SIMULTANEOUS/ORDERED-PAIR",
+      "teaching": "A solution must satisfy both equations at the same time; elimination and substitution preserve this shared condition.",
+      "anchor": "Eliminate or substitute, then check in both equations.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L09-W01",
+          "level": "Foundation",
+          "prompt": "Solve simultaneously: x + y = 5 and 2x - y = 1.",
+          "answer": "Add equations: 3x=6; x=2; then y=3."
+        },
+        {
+          "id": "G12-ALG-L09-W02",
+          "level": "Foundation",
+          "prompt": "Solve simultaneously: x + y = 3 and 2x - y = -6.",
+          "answer": "Add equations: 3x=-3; x=-1; then y=4."
+        },
+        {
+          "id": "G12-ALG-L09-W03",
+          "level": "Routine",
+          "prompt": "Solve simultaneously: x + y = 3 and 2x - y = 12.",
+          "answer": "Add equations: 3x=15; x=5; then y=-2."
+        },
+        {
+          "id": "G12-ALG-L09-W04",
+          "level": "Routine",
+          "prompt": "Solve simultaneously: x + y = 9 and 2x - y = 0.",
+          "answer": "Add equations: 3x=9; x=3; then y=6."
+        },
+        {
+          "id": "G12-ALG-L09-W05",
+          "level": "Routine",
+          "prompt": "Solve simultaneously: x + y = -5 and 2x - y = -7.",
+          "answer": "Add equations: 3x=-12; x=-4; then y=-1."
+        },
+        {
+          "id": "G12-ALG-L09-W06",
+          "level": "Complex",
+          "prompt": "Solve simultaneously: x + y = 9 and 2x - y = 12.",
+          "answer": "Add equations: 3x=21; x=7; then y=2."
+        },
+        {
+          "id": "G12-ALG-L09-W07",
+          "level": "Complex",
+          "prompt": "Solve simultaneously: x + y = -4 and 2x - y = 7.",
+          "answer": "Add equations: 3x=3; x=1; then y=-5."
+        },
+        {
+          "id": "G12-ALG-L09-W08",
+          "level": "Complex",
+          "prompt": "Solve simultaneously: x + y = 10 and 2x - y = 8.",
+          "answer": "Add equations: 3x=18; x=6; then y=4."
+        },
+        {
+          "id": "G12-ALG-L09-W09",
+          "level": "Exam-level",
+          "prompt": "Solve simultaneously: x + y = 2 and 2x - y = -11.",
+          "answer": "Add equations: 3x=-9; x=-3; then y=5."
+        },
+        {
+          "id": "G12-ALG-L09-W10",
+          "level": "Exam-level",
+          "prompt": "Solve simultaneously: x + y = 7 and 2x - y = 17.",
+          "answer": "Add equations: 3x=24; x=8; then y=-1."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L09-P01",
+          "level": "Foundation",
+          "prompt": "Solve simultaneously: x + y = -4 and 2x - y = 10.",
+          "answer": "Add equations: 3x=6; x=2; then y=-6."
+        },
+        {
+          "id": "G12-ALG-L09-P02",
+          "level": "Foundation",
+          "prompt": "Solve simultaneously: x + y = -2 and 2x - y = -13.",
+          "answer": "Add equations: 3x=-15; x=-5; then y=3."
+        },
+        {
+          "id": "G12-ALG-L09-P03",
+          "level": "Routine",
+          "prompt": "Solve simultaneously: x + y = 11 and 2x - y = 1.",
+          "answer": "Add equations: 3x=12; x=4; then y=7."
+        },
+        {
+          "id": "G12-ALG-L09-P04",
+          "level": "Routine",
+          "prompt": "Solve simultaneously: x + y = 10 and 2x - y = 17.",
+          "answer": "Add equations: 3x=27; x=9; then y=1."
+        },
+        {
+          "id": "G12-ALG-L09-P05",
+          "level": "Routine",
+          "prompt": "Solve simultaneously: x + y = -9 and 2x - y = 3.",
+          "answer": "Add equations: 3x=-6; x=-2; then y=-7."
+        },
+        {
+          "id": "G12-ALG-L09-P06",
+          "level": "Routine",
+          "prompt": "Solve simultaneously: x + y = 10 and 2x - y = 5.",
+          "answer": "Add equations: 3x=15; x=5; then y=5."
+        },
+        {
+          "id": "G12-ALG-L09-P07",
+          "level": "Complex",
+          "prompt": "Solve simultaneously: x + y = -1 and 2x - y = 10.",
+          "answer": "Add equations: 3x=9; x=3; then y=-4."
+        },
+        {
+          "id": "G12-ALG-L09-P08",
+          "level": "Complex",
+          "prompt": "Solve simultaneously: x + y = -4 and 2x - y = -14.",
+          "answer": "Add equations: 3x=-18; x=-6; then y=2."
+        },
+        {
+          "id": "G12-ALG-L09-P09",
+          "level": "Complex",
+          "prompt": "Solve simultaneously: x + y = 4 and 2x - y = 17.",
+          "answer": "Add equations: 3x=21; x=7; then y=-3."
+        },
+        {
+          "id": "G12-ALG-L09-P10",
+          "level": "Complex",
+          "prompt": "Solve simultaneously: x + y = 9 and 2x - y = -6.",
+          "answer": "Add equations: 3x=3; x=1; then y=8."
+        },
+        {
+          "id": "G12-ALG-L09-P11",
+          "level": "Exam-level",
+          "prompt": "Solve simultaneously: x + y = -1 and 2x - y = 13.",
+          "answer": "Add equations: 3x=12; x=4; then y=-5."
+        },
+        {
+          "id": "G12-ALG-L09-P12",
+          "level": "Exam-level",
+          "prompt": "Solve simultaneously: x + y = -9 and 2x - y = -12.",
+          "answer": "Add equations: 3x=-21; x=-7; then y=-2."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "id": "g12-algebra-10",
+      "title": "Non-linear simultaneous equations",
+      "objective": "Solve systems where substitution produces a quadratic or rational equation.",
+      "misconception": "NONLINEAR/PAIRING",
+      "teaching": "One relation is used to replace a variable in the other; each resulting root must be paired with its matching second coordinate.",
+      "anchor": "Isolate -> substitute -> standard form -> solve -> recover paired values.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L10-W01",
+          "level": "Foundation",
+          "prompt": "Solve x+y=-3 and xy=-10.",
+          "answer": "Ordered pairs (-5,2) and (2,-5)."
+        },
+        {
+          "id": "G12-ALG-L10-W02",
+          "level": "Foundation",
+          "prompt": "Solve x+y=-1 and xy=-12.",
+          "answer": "Ordered pairs (-4,3) and (3,-4)."
+        },
+        {
+          "id": "G12-ALG-L10-W03",
+          "level": "Routine",
+          "prompt": "Solve x+y=-2 and xy=-3.",
+          "answer": "Ordered pairs (-3,1) and (1,-3)."
+        },
+        {
+          "id": "G12-ALG-L10-W04",
+          "level": "Routine",
+          "prompt": "Solve x+y=4 and xy=-12.",
+          "answer": "Ordered pairs (-2,6) and (6,-2)."
+        },
+        {
+          "id": "G12-ALG-L10-W05",
+          "level": "Routine",
+          "prompt": "Solve x+y=6 and xy=-7.",
+          "answer": "Ordered pairs (-1,7) and (7,-1)."
+        },
+        {
+          "id": "G12-ALG-L10-W06",
+          "level": "Complex",
+          "prompt": "Solve x+y=5 and xy=0.",
+          "answer": "Ordered pairs (0,5) and (5,0)."
+        },
+        {
+          "id": "G12-ALG-L10-W07",
+          "level": "Complex",
+          "prompt": "Solve x+y=6 and xy=8.",
+          "answer": "Ordered pairs (2,4) and (4,2)."
+        },
+        {
+          "id": "G12-ALG-L10-W08",
+          "level": "Complex",
+          "prompt": "Solve x+y=11 and xy=24.",
+          "answer": "Ordered pairs (3,8) and (8,3)."
+        },
+        {
+          "id": "G12-ALG-L10-W09",
+          "level": "Exam-level",
+          "prompt": "Solve x+y=-8 and xy=12.",
+          "answer": "Ordered pairs (-6,-2) and (-2,-6)."
+        },
+        {
+          "id": "G12-ALG-L10-W10",
+          "level": "Exam-level",
+          "prompt": "Solve x+y=10 and xy=9.",
+          "answer": "Ordered pairs (1,9) and (9,1)."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L10-P01",
+          "level": "Foundation",
+          "prompt": "Solve x+y=11 and xy=28.",
+          "answer": "Ordered pairs (4,7) and (7,4)."
+        },
+        {
+          "id": "G12-ALG-L10-P02",
+          "level": "Foundation",
+          "prompt": "Solve x+y=-5 and xy=-24.",
+          "answer": "Ordered pairs (-8,3) and (3,-8)."
+        },
+        {
+          "id": "G12-ALG-L10-P03",
+          "level": "Routine",
+          "prompt": "Solve x+y=13 and xy=22.",
+          "answer": "Ordered pairs (2,11) and (11,2)."
+        },
+        {
+          "id": "G12-ALG-L10-P04",
+          "level": "Routine",
+          "prompt": "Solve x+y=-2 and xy=-35.",
+          "answer": "Ordered pairs (-7,5) and (5,-7)."
+        },
+        {
+          "id": "G12-ALG-L10-P05",
+          "level": "Routine",
+          "prompt": "Solve x+y=15 and xy=50.",
+          "answer": "Ordered pairs (5,10) and (10,5)."
+        },
+        {
+          "id": "G12-ALG-L10-P06",
+          "level": "Routine",
+          "prompt": "Solve x+y=7 and xy=6.",
+          "answer": "Ordered pairs (1,6) and (6,1)."
+        },
+        {
+          "id": "G12-ALG-L10-P07",
+          "level": "Complex",
+          "prompt": "Solve x+y=15 and xy=36.",
+          "answer": "Ordered pairs (3,12) and (12,3)."
+        },
+        {
+          "id": "G12-ALG-L10-P08",
+          "level": "Complex",
+          "prompt": "Solve x+y=-10 and xy=9.",
+          "answer": "Ordered pairs (-9,-1) and (-1,-9)."
+        },
+        {
+          "id": "G12-ALG-L10-P09",
+          "level": "Complex",
+          "prompt": "Solve x+y=17 and xy=52.",
+          "answer": "Ordered pairs (4,13) and (13,4)."
+        },
+        {
+          "id": "G12-ALG-L10-P10",
+          "level": "Complex",
+          "prompt": "Solve x+y=16 and xy=28.",
+          "answer": "Ordered pairs (2,14) and (14,2)."
+        },
+        {
+          "id": "G12-ALG-L10-P11",
+          "level": "Exam-level",
+          "prompt": "Solve x+y=-8 and xy=-20.",
+          "answer": "Ordered pairs (-10,2) and (2,-10)."
+        },
+        {
+          "id": "G12-ALG-L10-P12",
+          "level": "Exam-level",
+          "prompt": "Solve x+y=15 and xy=54.",
+          "answer": "Ordered pairs (6,9) and (9,6)."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": "g12-algebra-11",
+      "title": "Quadratic inequalities",
+      "objective": "Solve quadratic inequalities using critical values, sign regions and correct endpoint notation.",
+      "misconception": "INEQUALITY/INTERVAL",
+      "teaching": "A quadratic inequality asks where a graph is above, below or on the x-axis—not merely where it equals zero.",
+      "anchor": "Find roots -> sign chart/graph -> select intervals -> include endpoints only for <= or >=.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L11-W01",
+          "level": "Foundation",
+          "prompt": "Solve (x - (-5))(x - (2)) > 0 and show the solution on a number line.",
+          "answer": "Critical values -5, 2; x < -5 or x > 2."
+        },
+        {
+          "id": "G12-ALG-L11-W02",
+          "level": "Foundation",
+          "prompt": "Solve (x - (-4))(x - (3)) < 0 and show the solution on a number line.",
+          "answer": "Critical values -4, 3; -4 < x < 3."
+        },
+        {
+          "id": "G12-ALG-L11-W03",
+          "level": "Routine",
+          "prompt": "Solve (x - (-3))(x - (1)) >= 0 and show the solution on a number line.",
+          "answer": "Critical values -3, 1; x <= -3 or x >= 1."
+        },
+        {
+          "id": "G12-ALG-L11-W04",
+          "level": "Routine",
+          "prompt": "Solve (x - (-2))(x - (6)) <= 0 and show the solution on a number line.",
+          "answer": "Critical values -2, 6; -2 <= x <= 6."
+        },
+        {
+          "id": "G12-ALG-L11-W05",
+          "level": "Routine",
+          "prompt": "Solve (x - (-1))(x - (7)) > 0 and show the solution on a number line.",
+          "answer": "Critical values -1, 7; x < -1 or x > 7."
+        },
+        {
+          "id": "G12-ALG-L11-W06",
+          "level": "Complex",
+          "prompt": "Solve (x - (0))(x - (5)) < 0 and show the solution on a number line.",
+          "answer": "Critical values 0, 5; 0 < x < 5."
+        },
+        {
+          "id": "G12-ALG-L11-W07",
+          "level": "Complex",
+          "prompt": "Solve (x - (2))(x - (4)) >= 0 and show the solution on a number line.",
+          "answer": "Critical values 2, 4; x <= 2 or x >= 4."
+        },
+        {
+          "id": "G12-ALG-L11-W08",
+          "level": "Complex",
+          "prompt": "Solve (x - (3))(x - (8)) <= 0 and show the solution on a number line.",
+          "answer": "Critical values 3, 8; 3 <= x <= 8."
+        },
+        {
+          "id": "G12-ALG-L11-W09",
+          "level": "Exam-level",
+          "prompt": "Solve (x - (-6))(x - (-2)) > 0 and show the solution on a number line.",
+          "answer": "Critical values -6, -2; x < -6 or x > -2."
+        },
+        {
+          "id": "G12-ALG-L11-W10",
+          "level": "Exam-level",
+          "prompt": "Solve (x - (1))(x - (9)) < 0 and show the solution on a number line.",
+          "answer": "Critical values 1, 9; 1 < x < 9."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L11-P01",
+          "level": "Foundation",
+          "prompt": "Solve (x - (4))(x - (7)) >= 0 and show the solution on a number line.",
+          "answer": "Critical values 4, 7; x <= 4 or x >= 7."
+        },
+        {
+          "id": "G12-ALG-L11-P02",
+          "level": "Foundation",
+          "prompt": "Solve (x - (-8))(x - (3)) <= 0 and show the solution on a number line.",
+          "answer": "Critical values -8, 3; -8 <= x <= 3."
+        },
+        {
+          "id": "G12-ALG-L11-P03",
+          "level": "Routine",
+          "prompt": "Solve (x - (2))(x - (11)) > 0 and show the solution on a number line.",
+          "answer": "Critical values 2, 11; x < 2 or x > 11."
+        },
+        {
+          "id": "G12-ALG-L11-P04",
+          "level": "Routine",
+          "prompt": "Solve (x - (-7))(x - (5)) < 0 and show the solution on a number line.",
+          "answer": "Critical values -7, 5; -7 < x < 5."
+        },
+        {
+          "id": "G12-ALG-L11-P05",
+          "level": "Routine",
+          "prompt": "Solve (x - (5))(x - (10)) >= 0 and show the solution on a number line.",
+          "answer": "Critical values 5, 10; x <= 5 or x >= 10."
+        },
+        {
+          "id": "G12-ALG-L11-P06",
+          "level": "Routine",
+          "prompt": "Solve (x - (1))(x - (6)) <= 0 and show the solution on a number line.",
+          "answer": "Critical values 1, 6; 1 <= x <= 6."
+        },
+        {
+          "id": "G12-ALG-L11-P07",
+          "level": "Complex",
+          "prompt": "Solve (x - (3))(x - (12)) > 0 and show the solution on a number line.",
+          "answer": "Critical values 3, 12; x < 3 or x > 12."
+        },
+        {
+          "id": "G12-ALG-L11-P08",
+          "level": "Complex",
+          "prompt": "Solve (x - (-9))(x - (-1)) < 0 and show the solution on a number line.",
+          "answer": "Critical values -9, -1; -9 < x < -1."
+        },
+        {
+          "id": "G12-ALG-L11-P09",
+          "level": "Complex",
+          "prompt": "Solve (x - (4))(x - (13)) >= 0 and show the solution on a number line.",
+          "answer": "Critical values 4, 13; x <= 4 or x >= 13."
+        },
+        {
+          "id": "G12-ALG-L11-P10",
+          "level": "Complex",
+          "prompt": "Solve (x - (2))(x - (14)) <= 0 and show the solution on a number line.",
+          "answer": "Critical values 2, 14; 2 <= x <= 14."
+        },
+        {
+          "id": "G12-ALG-L11-P11",
+          "level": "Exam-level",
+          "prompt": "Solve (x - (-10))(x - (2)) > 0 and show the solution on a number line.",
+          "answer": "Critical values -10, 2; x < -10 or x > 2."
+        },
+        {
+          "id": "G12-ALG-L11-P12",
+          "level": "Exam-level",
+          "prompt": "Solve (x - (6))(x - (9)) < 0 and show the solution on a number line.",
+          "answer": "Critical values 6, 9; 6 < x < 9."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "g12-algebra-12",
+      "title": "Discriminant and nature of roots",
+      "objective": "Use the discriminant to predict the number and type of real roots without solving.",
+      "misconception": "DISCRIMINANT/NATURE",
+      "teaching": "The expression under the square root controls whether the quadratic formula produces two, one or no real values.",
+      "anchor": "Delta=b^2-4ac: >0 two real; =0 repeated; <0 no real roots.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L12-W01",
+          "level": "Foundation",
+          "prompt": "Without solving, describe the roots of x^2-5x+6 = 0.",
+          "answer": "Delta = 1; two distinct real roots."
+        },
+        {
+          "id": "G12-ALG-L12-W02",
+          "level": "Foundation",
+          "prompt": "Without solving, describe the roots of x^2+4x+4 = 0.",
+          "answer": "Delta = 0; one repeated real root."
+        },
+        {
+          "id": "G12-ALG-L12-W03",
+          "level": "Routine",
+          "prompt": "Without solving, describe the roots of 2x^2+x+5 = 0.",
+          "answer": "Delta = -39; no real roots."
+        },
+        {
+          "id": "G12-ALG-L12-W04",
+          "level": "Routine",
+          "prompt": "Without solving, describe the roots of 3x^2-7x+2 = 0.",
+          "answer": "Delta = 25; two distinct real roots."
+        },
+        {
+          "id": "G12-ALG-L12-W05",
+          "level": "Routine",
+          "prompt": "Without solving, describe the roots of 4x^2+4x+1 = 0.",
+          "answer": "Delta = 0; one repeated real root."
+        },
+        {
+          "id": "G12-ALG-L12-W06",
+          "level": "Complex",
+          "prompt": "Without solving, describe the roots of 2x^2-8x+8 = 0.",
+          "answer": "Delta = 0; one repeated real root."
+        },
+        {
+          "id": "G12-ALG-L12-W07",
+          "level": "Complex",
+          "prompt": "Without solving, describe the roots of 5x^2+x-1 = 0.",
+          "answer": "Delta = 21; two distinct real roots."
+        },
+        {
+          "id": "G12-ALG-L12-W08",
+          "level": "Complex",
+          "prompt": "Without solving, describe the roots of x^2-9 = 0.",
+          "answer": "Delta = 36; two distinct real roots."
+        },
+        {
+          "id": "G12-ALG-L12-W09",
+          "level": "Exam-level",
+          "prompt": "Without solving, describe the roots of 3x^2+6x+3 = 0.",
+          "answer": "Delta = 0; one repeated real root."
+        },
+        {
+          "id": "G12-ALG-L12-W10",
+          "level": "Exam-level",
+          "prompt": "Without solving, describe the roots of 2x^2+5x+7 = 0.",
+          "answer": "Delta = -31; no real roots."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L12-P01",
+          "level": "Foundation",
+          "prompt": "Without solving, describe the roots of 6x^2-x-2 = 0.",
+          "answer": "Delta = 49; two distinct real roots."
+        },
+        {
+          "id": "G12-ALG-L12-P02",
+          "level": "Foundation",
+          "prompt": "Without solving, describe the roots of 4x^2-12x+9 = 0.",
+          "answer": "Delta = 0; one repeated real root."
+        },
+        {
+          "id": "G12-ALG-L12-P03",
+          "level": "Routine",
+          "prompt": "Without solving, describe the roots of x^2+7x+12 = 0.",
+          "answer": "Delta = 1; two distinct real roots."
+        },
+        {
+          "id": "G12-ALG-L12-P04",
+          "level": "Routine",
+          "prompt": "Without solving, describe the roots of 2x^2+4x+2 = 0.",
+          "answer": "Delta = 0; one repeated real root."
+        },
+        {
+          "id": "G12-ALG-L12-P05",
+          "level": "Routine",
+          "prompt": "Without solving, describe the roots of 3x^2+2x+4 = 0.",
+          "answer": "Delta = -44; no real roots."
+        },
+        {
+          "id": "G12-ALG-L12-P06",
+          "level": "Routine",
+          "prompt": "Without solving, describe the roots of 5x^2-10x+5 = 0.",
+          "answer": "Delta = 0; one repeated real root."
+        },
+        {
+          "id": "G12-ALG-L12-P07",
+          "level": "Complex",
+          "prompt": "Without solving, describe the roots of x^2-2x-8 = 0.",
+          "answer": "Delta = 36; two distinct real roots."
+        },
+        {
+          "id": "G12-ALG-L12-P08",
+          "level": "Complex",
+          "prompt": "Without solving, describe the roots of 7x^2+1 = 0.",
+          "answer": "Delta = -28; no real roots."
+        },
+        {
+          "id": "G12-ALG-L12-P09",
+          "level": "Complex",
+          "prompt": "Without solving, describe the roots of 2x^2-x-3 = 0.",
+          "answer": "Delta = 25; two distinct real roots."
+        },
+        {
+          "id": "G12-ALG-L12-P10",
+          "level": "Complex",
+          "prompt": "Without solving, describe the roots of 4x^2+3x-2 = 0.",
+          "answer": "Delta = 41; two distinct real roots."
+        },
+        {
+          "id": "G12-ALG-L12-P11",
+          "level": "Exam-level",
+          "prompt": "Without solving, describe the roots of 3x^2-12x+12 = 0.",
+          "answer": "Delta = 0; one repeated real root."
+        },
+        {
+          "id": "G12-ALG-L12-P12",
+          "level": "Exam-level",
+          "prompt": "Without solving, describe the roots of 2x^2+10x+13 = 0.",
+          "answer": "Delta = -4; no real roots."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "g12-algebra-13",
+      "title": "Parameter conditions for roots",
+      "objective": "Translate root conditions into inequalities or equations involving a parameter.",
+      "misconception": "PARAMETER/ROOT-CONDITION",
+      "teaching": "Nature-of-roots questions are condition problems. Solve the discriminant condition for the parameter, not for x.",
+      "anchor": "Set Delta >0, =0 or <0 and retain the condition a!=0.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L13-W01",
+          "level": "Foundation",
+          "prompt": "For x^2+kx+9=0 to have equal roots, find k.",
+          "answer": "k=±6; set Delta=k^2-36=0."
+        },
+        {
+          "id": "G12-ALG-L13-W02",
+          "level": "Foundation",
+          "prompt": "For x^2-4x+k=0 to have two distinct real roots, state k.",
+          "answer": "k<4; Delta=16-4k>0."
+        },
+        {
+          "id": "G12-ALG-L13-W03",
+          "level": "Routine",
+          "prompt": "For 2x^2+kx+8=0 to have no real roots, state k.",
+          "answer": "-8<k<8; Delta=k^2-64<0."
+        },
+        {
+          "id": "G12-ALG-L13-W04",
+          "level": "Routine",
+          "prompt": "Find p if x^2+px+16=0 has equal roots.",
+          "answer": "p=±8."
+        },
+        {
+          "id": "G12-ALG-L13-W05",
+          "level": "Routine",
+          "prompt": "For 3x^2-6x+k=0 to have real roots, state k.",
+          "answer": "k<=3."
+        },
+        {
+          "id": "G12-ALG-L13-W06",
+          "level": "Complex",
+          "prompt": "For x^2+(k-1)x+4=0 to have equal roots, solve k.",
+          "answer": "k=5 or k=-3."
+        },
+        {
+          "id": "G12-ALG-L13-W07",
+          "level": "Complex",
+          "prompt": "For 2x^2+4x+k=0 to have no real roots, state k.",
+          "answer": "k>2."
+        },
+        {
+          "id": "G12-ALG-L13-W08",
+          "level": "Complex",
+          "prompt": "For kx^2+2x+1=0 to be quadratic and have equal roots, find k.",
+          "answer": "k=1."
+        },
+        {
+          "id": "G12-ALG-L13-W09",
+          "level": "Exam-level",
+          "prompt": "For x^2-2kx+k=0 to have equal roots, find k.",
+          "answer": "k=0 or k=1."
+        },
+        {
+          "id": "G12-ALG-L13-W10",
+          "level": "Exam-level",
+          "prompt": "For 4x^2+kx+1=0 to have distinct roots, state k.",
+          "answer": "k<-4 or k>4."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L13-P01",
+          "level": "Foundation",
+          "prompt": "For x^2+6x+k=0 to have no real roots, state k.",
+          "answer": "k>9."
+        },
+        {
+          "id": "G12-ALG-L13-P02",
+          "level": "Foundation",
+          "prompt": "For 5x^2+kx+5=0 to have equal roots, find k.",
+          "answer": "k=±10."
+        },
+        {
+          "id": "G12-ALG-L13-P03",
+          "level": "Routine",
+          "prompt": "For x^2+kx+k=0 to have real roots, state k.",
+          "answer": "k<=0 or k>=4."
+        },
+        {
+          "id": "G12-ALG-L13-P04",
+          "level": "Routine",
+          "prompt": "For 2x^2+(k+1)x+2=0 to have equal roots, find k.",
+          "answer": "k=-5 or k=3."
+        },
+        {
+          "id": "G12-ALG-L13-P05",
+          "level": "Routine",
+          "prompt": "For x^2-8x+k=0 to have roots of opposite signs, state k.",
+          "answer": "k<0."
+        },
+        {
+          "id": "G12-ALG-L13-P06",
+          "level": "Routine",
+          "prompt": "For 3x^2+kx-2=0, explain why roots are always real.",
+          "answer": "Delta=k^2+24>0 for all real k."
+        },
+        {
+          "id": "G12-ALG-L13-P07",
+          "level": "Complex",
+          "prompt": "For x^2+kx+1=0 to have no real roots, state k.",
+          "answer": "-2<k<2."
+        },
+        {
+          "id": "G12-ALG-L13-P08",
+          "level": "Complex",
+          "prompt": "For 2x^2-kx+3=0 to have equal roots, find k.",
+          "answer": "k=±2sqrt(6)."
+        },
+        {
+          "id": "G12-ALG-L13-P09",
+          "level": "Complex",
+          "prompt": "For x^2+(2k)x+k^2=0 describe roots.",
+          "answer": "One repeated root for every real k; expression=(x+k)^2."
+        },
+        {
+          "id": "G12-ALG-L13-P10",
+          "level": "Complex",
+          "prompt": "For kx^2+4x+1=0 to have two real roots, include the quadratic condition.",
+          "answer": "k<4 and k!=0."
+        },
+        {
+          "id": "G12-ALG-L13-P11",
+          "level": "Exam-level",
+          "prompt": "For x^2-(k+2)x+2k=0 to have equal roots, find k.",
+          "answer": "k=2."
+        },
+        {
+          "id": "G12-ALG-L13-P12",
+          "level": "Exam-level",
+          "prompt": "For 4x^2+4kx+9=0 to have no real roots, state k.",
+          "answer": "-3<k<3."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": "g12-algebra-14",
+      "title": "Algebraic fractions and restrictions",
+      "objective": "Simplify and solve rational expressions while preserving excluded values.",
+      "misconception": "RESTRICTION/DENOMINATOR",
+      "teaching": "Cancellation removes a factor from an expression, but it does not restore a value that made the original denominator zero.",
+      "anchor": "State restrictions before multiplying or cancelling.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L14-W01",
+          "level": "Foundation",
+          "prompt": "Solve 1/(x-2) = 3.",
+          "answer": "x=7/3; restriction x!=2."
+        },
+        {
+          "id": "G12-ALG-L14-W02",
+          "level": "Foundation",
+          "prompt": "Simplify (x^2-9)/(x-3).",
+          "answer": "x+3, x!=3."
+        },
+        {
+          "id": "G12-ALG-L14-W03",
+          "level": "Routine",
+          "prompt": "Solve 2/x + 1 = 5.",
+          "answer": "x=1/2; restriction x!=0."
+        },
+        {
+          "id": "G12-ALG-L14-W04",
+          "level": "Routine",
+          "prompt": "Solve (x+1)/(x-1)=2.",
+          "answer": "x=3; restriction x!=1."
+        },
+        {
+          "id": "G12-ALG-L14-W05",
+          "level": "Routine",
+          "prompt": "Simplify (x^2-4)/(x+2).",
+          "answer": "x-2, x!=-2."
+        },
+        {
+          "id": "G12-ALG-L14-W06",
+          "level": "Complex",
+          "prompt": "Solve 3/(x+1)=x.",
+          "answer": "x=(-1±sqrt(13))/2; x!=-1."
+        },
+        {
+          "id": "G12-ALG-L14-W07",
+          "level": "Complex",
+          "prompt": "Solve 1/x + 1/(x+1)=1.",
+          "answer": "x=(1±sqrt(5))/2; x!=0,-1."
+        },
+        {
+          "id": "G12-ALG-L14-W08",
+          "level": "Complex",
+          "prompt": "Simplify (2x^2-8)/(2x-4).",
+          "answer": "x+2, x!=2."
+        },
+        {
+          "id": "G12-ALG-L14-W09",
+          "level": "Exam-level",
+          "prompt": "Solve 4/(x-3)=2.",
+          "answer": "x=5; x!=3."
+        },
+        {
+          "id": "G12-ALG-L14-W10",
+          "level": "Exam-level",
+          "prompt": "Solve (x-2)/x=3.",
+          "answer": "x=-1; x!=0."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L14-P01",
+          "level": "Foundation",
+          "prompt": "Simplify (x^2+x-6)/(x+3).",
+          "answer": "x-2, x!=-3."
+        },
+        {
+          "id": "G12-ALG-L14-P02",
+          "level": "Foundation",
+          "prompt": "Solve 2/(x-1)+1=0.",
+          "answer": "x=-1; x!=1."
+        },
+        {
+          "id": "G12-ALG-L14-P03",
+          "level": "Routine",
+          "prompt": "Solve x/(x+2)=3/2.",
+          "answer": "x=-6; x!=-2."
+        },
+        {
+          "id": "G12-ALG-L14-P04",
+          "level": "Routine",
+          "prompt": "Simplify (x^2-16)/(x-4).",
+          "answer": "x+4, x!=4."
+        },
+        {
+          "id": "G12-ALG-L14-P05",
+          "level": "Routine",
+          "prompt": "Solve 5/x = x.",
+          "answer": "x=±sqrt(5); x!=0."
+        },
+        {
+          "id": "G12-ALG-L14-P06",
+          "level": "Routine",
+          "prompt": "Solve 1/(x-4)=1/(2x).",
+          "answer": "x=-4; x!=0,4."
+        },
+        {
+          "id": "G12-ALG-L14-P07",
+          "level": "Complex",
+          "prompt": "Simplify (3x^2-12x)/(3x).",
+          "answer": "x-4, x!=0."
+        },
+        {
+          "id": "G12-ALG-L14-P08",
+          "level": "Complex",
+          "prompt": "Solve (x+2)/(x-2)=0.",
+          "answer": "x=-2; x!=2."
+        },
+        {
+          "id": "G12-ALG-L14-P09",
+          "level": "Complex",
+          "prompt": "Solve 2/x - 3/(x+1)=0.",
+          "answer": "x=2; x!=0,-1."
+        },
+        {
+          "id": "G12-ALG-L14-P10",
+          "level": "Complex",
+          "prompt": "Simplify (x^2-1)/(1-x).",
+          "answer": "-(x+1), x!=1."
+        },
+        {
+          "id": "G12-ALG-L14-P11",
+          "level": "Exam-level",
+          "prompt": "Solve 6/(x+2)=x-1.",
+          "answer": "x=(-1+sqrt(33))/2 or x=(-1-sqrt(33))/2; x!=-2."
+        },
+        {
+          "id": "G12-ALG-L14-P12",
+          "level": "Exam-level",
+          "prompt": "Solve 1/(x-1)+1/(x+1)=1.",
+          "answer": "x=1±sqrt(2); x!=±1."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": "g12-algebra-15",
+      "title": "Algebraic proof and reasoning",
+      "objective": "Build concise algebraic arguments using definitions, parity, inequalities and identities.",
+      "misconception": "PROOF/JUSTIFICATION",
+      "teaching": "A proof explains why a statement holds for every allowed value; checking one example is evidence, not proof.",
+      "anchor": "Define a general integer or non-negative square, transform logically, conclude.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L15-W01",
+          "level": "Foundation",
+          "prompt": "Show that n(n+1) is even for integer n.",
+          "answer": "Consecutive integers: one is even, so the product is even."
+        },
+        {
+          "id": "G12-ALG-L15-W02",
+          "level": "Foundation",
+          "prompt": "Prove (a+b)^2-(a-b)^2=4ab.",
+          "answer": "Expand both squares and simplify."
+        },
+        {
+          "id": "G12-ALG-L15-W03",
+          "level": "Routine",
+          "prompt": "Show that the square of an odd integer is odd.",
+          "answer": "Let n=2k+1; n^2=2(2k^2+2k)+1."
+        },
+        {
+          "id": "G12-ALG-L15-W04",
+          "level": "Routine",
+          "prompt": "Prove x^2+y^2>=2xy.",
+          "answer": "(x-y)^2>=0 implies x^2-2xy+y^2>=0."
+        },
+        {
+          "id": "G12-ALG-L15-W05",
+          "level": "Routine",
+          "prompt": "Show that n^2+n+2 is even for integer n.",
+          "answer": "n(n+1) is even and adding 2 preserves evenness."
+        },
+        {
+          "id": "G12-ALG-L15-W06",
+          "level": "Complex",
+          "prompt": "Explain why 2^m cannot equal a negative number for real m.",
+          "answer": "A positive base raised to a real power is positive."
+        },
+        {
+          "id": "G12-ALG-L15-W07",
+          "level": "Complex",
+          "prompt": "Prove the product of two consecutive even integers is divisible by 8.",
+          "answer": "Let them be 2k and 2(k+1); product=4k(k+1), and k(k+1) is even."
+        },
+        {
+          "id": "G12-ALG-L15-W08",
+          "level": "Complex",
+          "prompt": "Show (x+1)(x-1)=x^2-1 geometrically or algebraically.",
+          "answer": "Distributive law gives x^2-x+x-1."
+        },
+        {
+          "id": "G12-ALG-L15-W09",
+          "level": "Exam-level",
+          "prompt": "Prove if x+y is odd, one of x,y is even and the other odd.",
+          "answer": "Same parity sums are even; therefore parities differ."
+        },
+        {
+          "id": "G12-ALG-L15-W10",
+          "level": "Exam-level",
+          "prompt": "Explain why squaring an equation can introduce an extraneous root.",
+          "answer": "Squaring removes sign information; A^2=B^2 allows A=±B."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L15-P01",
+          "level": "Foundation",
+          "prompt": "Show that x^2+4x+5 is always positive.",
+          "answer": "Complete square: (x+2)^2+1>0."
+        },
+        {
+          "id": "G12-ALG-L15-P02",
+          "level": "Foundation",
+          "prompt": "Prove the sum of three consecutive integers is divisible by 3.",
+          "answer": "(n-1)+n+(n+1)=3n."
+        },
+        {
+          "id": "G12-ALG-L15-P03",
+          "level": "Routine",
+          "prompt": "Show that if a quadratic has roots r and s then x^2-(r+s)x+rs=0.",
+          "answer": "Expand (x-r)(x-s)=0."
+        },
+        {
+          "id": "G12-ALG-L15-P04",
+          "level": "Routine",
+          "prompt": "Explain why division by an expression requires a restriction.",
+          "answer": "The divisor cannot equal zero."
+        },
+        {
+          "id": "G12-ALG-L15-P05",
+          "level": "Routine",
+          "prompt": "Show x+1/x>=2 for x>0.",
+          "answer": "(x-1)^2>=0; divide by positive x."
+        },
+        {
+          "id": "G12-ALG-L15-P06",
+          "level": "Routine",
+          "prompt": "Prove an integer divisible by 6 is divisible by both 2 and 3.",
+          "answer": "n=6k=2(3k)=3(2k)."
+        },
+        {
+          "id": "G12-ALG-L15-P07",
+          "level": "Complex",
+          "prompt": "Show the difference of consecutive squares is odd.",
+          "answer": "(n+1)^2-n^2=2n+1."
+        },
+        {
+          "id": "G12-ALG-L15-P08",
+          "level": "Complex",
+          "prompt": "Explain why a zero discriminant gives one repeated root.",
+          "answer": "The ±sqrt(Delta) part becomes zero."
+        },
+        {
+          "id": "G12-ALG-L15-P09",
+          "level": "Complex",
+          "prompt": "Prove (x-y)^2=(y-x)^2.",
+          "answer": "y-x=-(x-y); squaring removes the sign."
+        },
+        {
+          "id": "G12-ALG-L15-P10",
+          "level": "Complex",
+          "prompt": "Show x^2-x is even for integer x.",
+          "answer": "x(x-1) is a product of consecutive integers."
+        },
+        {
+          "id": "G12-ALG-L15-P11",
+          "level": "Exam-level",
+          "prompt": "Prove no real x satisfies x^2+1=0.",
+          "answer": "x^2>=0, so x^2+1>=1."
+        },
+        {
+          "id": "G12-ALG-L15-P12",
+          "level": "Exam-level",
+          "prompt": "Explain consistent accuracy in a multi-step solution.",
+          "answer": "A later correct method may earn method marks even after an earlier arithmetic error."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "g12-algebra-16",
+      "title": "Contextual modelling",
+      "objective": "Translate a context into equations, solve, apply restrictions and interpret the answer.",
+      "misconception": "MODELLING/INTERPRETATION",
+      "teaching": "A mathematical root is not automatically a valid contextual answer. Units, sign, domain and meaning decide validity.",
+      "anchor": "Define variable -> model -> solve -> reject invalid values -> answer in context.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L16-W01",
+          "level": "Foundation",
+          "prompt": "A rectangle has perimeter 34 and area 60. Find its dimensions.",
+          "answer": "Let sides x and 17-x; x(17-x)=60; dimensions 5 and 12."
+        },
+        {
+          "id": "G12-ALG-L16-W02",
+          "level": "Foundation",
+          "prompt": "Two numbers sum to 11 and multiply to 24. Find them.",
+          "answer": "3 and 8."
+        },
+        {
+          "id": "G12-ALG-L16-W03",
+          "level": "Routine",
+          "prompt": "A positive number plus its square is 72. Find it.",
+          "answer": "x^2+x-72=0; x=8."
+        },
+        {
+          "id": "G12-ALG-L16-W04",
+          "level": "Routine",
+          "prompt": "A garden is 3 m longer than wide and has area 54 m^2. Find dimensions.",
+          "answer": "x(x+3)=54; 6 m by 9 m."
+        },
+        {
+          "id": "G12-ALG-L16-W05",
+          "level": "Routine",
+          "prompt": "The product of two consecutive integers is 156. Find all pairs.",
+          "answer": "12 and 13; -13 and -12."
+        },
+        {
+          "id": "G12-ALG-L16-W06",
+          "level": "Complex",
+          "prompt": "A ball height is h=-5t^2+20t+1. When is h=16?",
+          "answer": "t=1 s or 3 s."
+        },
+        {
+          "id": "G12-ALG-L16-W07",
+          "level": "Complex",
+          "prompt": "A square area increases from x^2 to 144. Find positive x.",
+          "answer": "x=12."
+        },
+        {
+          "id": "G12-ALG-L16-W08",
+          "level": "Complex",
+          "prompt": "A taxi fare model gives 2x^2-7x-15=0 for break-even kilometres. Find valid x.",
+          "answer": "x=5; reject x=-1.5 in context."
+        },
+        {
+          "id": "G12-ALG-L16-W09",
+          "level": "Exam-level",
+          "prompt": "A right triangle has legs x and x+7 and hypotenuse 17. Find x.",
+          "answer": "x=8; legs 8 and 15."
+        },
+        {
+          "id": "G12-ALG-L16-W10",
+          "level": "Exam-level",
+          "prompt": "Two numbers differ by 4 and their product is 96. Find the positive pair.",
+          "answer": "8 and 12."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L16-P01",
+          "level": "Foundation",
+          "prompt": "A rectangle area is 96 and length is 4 more than width. Find dimensions.",
+          "answer": "8 by 12."
+        },
+        {
+          "id": "G12-ALG-L16-P02",
+          "level": "Foundation",
+          "prompt": "Revenue R=-2x^2+80x. For which positive x is R=600?",
+          "answer": "x=10 or 30."
+        },
+        {
+          "id": "G12-ALG-L16-P03",
+          "level": "Routine",
+          "prompt": "A number is 5 less than its square root relation sqrt(x)=x-6. Find x.",
+          "answer": "x=9; verify."
+        },
+        {
+          "id": "G12-ALG-L16-P04",
+          "level": "Routine",
+          "prompt": "A population doubles each period: 3*2^n=96. Find n.",
+          "answer": "n=5."
+        },
+        {
+          "id": "G12-ALG-L16-P05",
+          "level": "Routine",
+          "prompt": "A loan model reduces to x+12/x=7 with x>0. Find x.",
+          "answer": "x=3 or 4."
+        },
+        {
+          "id": "G12-ALG-L16-P06",
+          "level": "Routine",
+          "prompt": "A projectile height is h=-4t^2+16t. When is it on the ground?",
+          "answer": "t=0 or 4."
+        },
+        {
+          "id": "G12-ALG-L16-P07",
+          "level": "Complex",
+          "prompt": "A frame has outer dimensions x+2 by x+1 and area 56. Find positive x.",
+          "answer": "x=6."
+        },
+        {
+          "id": "G12-ALG-L16-P08",
+          "level": "Complex",
+          "prompt": "The sum of squares of two consecutive positive integers is 85. Find them.",
+          "answer": "6 and 7."
+        },
+        {
+          "id": "G12-ALG-L16-P09",
+          "level": "Complex",
+          "prompt": "A distance model is d=x^2-10x+29. Find when d=4.",
+          "answer": "x=5 only, repeated root."
+        },
+        {
+          "id": "G12-ALG-L16-P10",
+          "level": "Complex",
+          "prompt": "A ticket product model gives x(50-x)=600. Find x.",
+          "answer": "x=20 or 30; interpret both."
+        },
+        {
+          "id": "G12-ALG-L16-P11",
+          "level": "Exam-level",
+          "prompt": "A square diagonal condition gives 2x^2=98. Find side length.",
+          "answer": "x=7."
+        },
+        {
+          "id": "G12-ALG-L16-P12",
+          "level": "Exam-level",
+          "prompt": "A growth model gives 5^(x-1)=125. Find x.",
+          "answer": "x=4."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "id": "g12-algebra-17",
+      "title": "Integrated Paper 1 algebra",
+      "objective": "Solve unfamiliar multi-part algebra questions and protect method marks across linked steps.",
+      "misconception": "METHOD-SELECTION/INTEGRATION",
+      "teaching": "Paper 1 combines familiar tools in unfamiliar sequences. The learner must identify structure before selecting a method.",
+      "anchor": "Target -> standardise -> select method -> show marks-bearing steps -> verify.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L17-W01",
+          "level": "Foundation",
+          "prompt": "Solve x^2+3x-10 = 0 by factorisation.",
+          "answer": "(x - (-5))(x - (2)) = 0; x = -5 or x = 2."
+        },
+        {
+          "id": "G12-ALG-L17-W02",
+          "level": "Foundation",
+          "prompt": "Solve x^2+x-12 = 0 by factorisation.",
+          "answer": "(x - (-4))(x - (3)) = 0; x = -4 or x = 3."
+        },
+        {
+          "id": "G12-ALG-L17-W03",
+          "level": "Routine",
+          "prompt": "Solve x^2+2x-3 = 0 by factorisation.",
+          "answer": "(x - (-3))(x - (1)) = 0; x = -3 or x = 1."
+        },
+        {
+          "id": "G12-ALG-L17-W04",
+          "level": "Routine",
+          "prompt": "Solve x^2-4x-12 = 0 by factorisation.",
+          "answer": "(x - (-2))(x - (6)) = 0; x = -2 or x = 6."
+        },
+        {
+          "id": "G12-ALG-L17-W05",
+          "level": "Routine",
+          "prompt": "Solve x^2-6x-7 = 0 by factorisation.",
+          "answer": "(x - (-1))(x - (7)) = 0; x = -1 or x = 7."
+        },
+        {
+          "id": "G12-ALG-L17-W06",
+          "level": "Complex",
+          "prompt": "Solve 2x^2-5x-3 = 0; round non-integer answers to two decimals.",
+          "answer": "a=2, b=-5, c=-3, Delta=49; x = 3 or -0.50."
+        },
+        {
+          "id": "G12-ALG-L17-W07",
+          "level": "Complex",
+          "prompt": "Solve 3x^2+2x-7 = 0; round non-integer answers to two decimals.",
+          "answer": "a=3, b=2, c=-7, Delta=88; x = 1.23 or -1.90."
+        },
+        {
+          "id": "G12-ALG-L17-W08",
+          "level": "Complex",
+          "prompt": "Solve 4x^2-x-6 = 0; round non-integer answers to two decimals.",
+          "answer": "a=4, b=-1, c=-6, Delta=97; x = 1.36 or -1.11."
+        },
+        {
+          "id": "G12-ALG-L17-W09",
+          "level": "Exam-level",
+          "prompt": "Solve 5x^2+3x-2 = 0; round non-integer answers to two decimals.",
+          "answer": "a=5, b=3, c=-2, Delta=49; x = 0.40 or -1."
+        },
+        {
+          "id": "G12-ALG-L17-W10",
+          "level": "Exam-level",
+          "prompt": "Solve (x - (-5))(x - (2)) > 0 and show the solution on a number line.",
+          "answer": "Critical values -5, 2; x < -5 or x > 2."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L17-P01",
+          "level": "Foundation",
+          "prompt": "Solve (x - (-4))(x - (3)) < 0 and show the solution on a number line.",
+          "answer": "Critical values -4, 3; -4 < x < 3."
+        },
+        {
+          "id": "G12-ALG-L17-P02",
+          "level": "Foundation",
+          "prompt": "Solve (x - (-3))(x - (1)) >= 0 and show the solution on a number line.",
+          "answer": "Critical values -3, 1; x <= -3 or x >= 1."
+        },
+        {
+          "id": "G12-ALG-L17-P03",
+          "level": "Routine",
+          "prompt": "Solve (x - (-2))(x - (6)) <= 0 and show the solution on a number line.",
+          "answer": "Critical values -2, 6; -2 <= x <= 6."
+        },
+        {
+          "id": "G12-ALG-L17-P04",
+          "level": "Routine",
+          "prompt": "sqrt(x + 5) = x - 1",
+          "answer": "x = 4"
+        },
+        {
+          "id": "G12-ALG-L17-P05",
+          "level": "Routine",
+          "prompt": "sqrt(2x + 3) = x",
+          "answer": "x = 3 or x = -1 is rejected"
+        },
+        {
+          "id": "G12-ALG-L17-P06",
+          "level": "Routine",
+          "prompt": "sqrt(x + 12) = 8 - x",
+          "answer": "x = 4"
+        },
+        {
+          "id": "G12-ALG-L17-P07",
+          "level": "Complex",
+          "prompt": "Solve simultaneously: x + y = 5 and 2x - y = 1.",
+          "answer": "Add equations: 3x=6; x=2; then y=3."
+        },
+        {
+          "id": "G12-ALG-L17-P08",
+          "level": "Complex",
+          "prompt": "Solve simultaneously: x + y = 3 and 2x - y = -6.",
+          "answer": "Add equations: 3x=-3; x=-1; then y=4."
+        },
+        {
+          "id": "G12-ALG-L17-P09",
+          "level": "Complex",
+          "prompt": "Solve simultaneously: x + y = 3 and 2x - y = 12.",
+          "answer": "Add equations: 3x=15; x=5; then y=-2."
+        },
+        {
+          "id": "G12-ALG-L17-P10",
+          "level": "Complex",
+          "prompt": "Solve 2^(x + (1)) = 32.",
+          "answer": "Write 32 = 2^5; x + (1) = 5; x = 4."
+        },
+        {
+          "id": "G12-ALG-L17-P11",
+          "level": "Exam-level",
+          "prompt": "Solve 3^(x + (-1)) = 27.",
+          "answer": "Write 27 = 3^3; x + (-1) = 3; x = 4."
+        },
+        {
+          "id": "G12-ALG-L17-P12",
+          "level": "Exam-level",
+          "prompt": "Solve 5^(x + (2)) = 15625.",
+          "answer": "Write 15625 = 5^6; x + (2) = 6; x = 4."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "id": "g12-algebra-18",
+      "title": "Paper 1 algebra mastery assessment",
+      "objective": "Demonstrate independent mastery across the complete approximately 25-mark algebra demand.",
+      "misconception": "MASTERY/TRANSFER",
+      "teaching": "Mastery combines accuracy, method selection, restrictions, explanation and transfer to a fresh form.",
+      "anchor": "Timed attempt -> marked memo -> explain-back -> targeted repair -> parallel reassessment.",
+      "whiteboards": [
+        {
+          "id": "G12-ALG-L18-W01",
+          "level": "Foundation",
+          "prompt": "Solve 5^(x + (2)) = 15625.",
+          "answer": "Write 15625 = 5^6; x + (2) = 6; x = 4."
+        },
+        {
+          "id": "G12-ALG-L18-W02",
+          "level": "Foundation",
+          "prompt": "Solve 3^(x + (-1)) = 27.",
+          "answer": "Write 27 = 3^3; x + (-1) = 3; x = 4."
+        },
+        {
+          "id": "G12-ALG-L18-W03",
+          "level": "Routine",
+          "prompt": "Solve 2^(x + (1)) = 32.",
+          "answer": "Write 32 = 2^5; x + (1) = 5; x = 4."
+        },
+        {
+          "id": "G12-ALG-L18-W04",
+          "level": "Routine",
+          "prompt": "Solve simultaneously: x + y = 3 and 2x - y = 12.",
+          "answer": "Add equations: 3x=15; x=5; then y=-2."
+        },
+        {
+          "id": "G12-ALG-L18-W05",
+          "level": "Routine",
+          "prompt": "Solve simultaneously: x + y = 3 and 2x - y = -6.",
+          "answer": "Add equations: 3x=-3; x=-1; then y=4."
+        },
+        {
+          "id": "G12-ALG-L18-W06",
+          "level": "Complex",
+          "prompt": "Solve simultaneously: x + y = 5 and 2x - y = 1.",
+          "answer": "Add equations: 3x=6; x=2; then y=3."
+        },
+        {
+          "id": "G12-ALG-L18-W07",
+          "level": "Complex",
+          "prompt": "sqrt(x + 12) = 8 - x",
+          "answer": "x = 4"
+        },
+        {
+          "id": "G12-ALG-L18-W08",
+          "level": "Complex",
+          "prompt": "sqrt(2x + 3) = x",
+          "answer": "x = 3 or x = -1 is rejected"
+        },
+        {
+          "id": "G12-ALG-L18-W09",
+          "level": "Exam-level",
+          "prompt": "sqrt(x + 5) = x - 1",
+          "answer": "x = 4"
+        },
+        {
+          "id": "G12-ALG-L18-W10",
+          "level": "Exam-level",
+          "prompt": "Solve (x - (-2))(x - (6)) <= 0 and show the solution on a number line.",
+          "answer": "Critical values -2, 6; -2 <= x <= 6."
+        }
+      ],
+      "practice": [
+        {
+          "id": "G12-ALG-L18-P01",
+          "level": "Foundation",
+          "prompt": "Solve (x - (-3))(x - (1)) >= 0 and show the solution on a number line.",
+          "answer": "Critical values -3, 1; x <= -3 or x >= 1."
+        },
+        {
+          "id": "G12-ALG-L18-P02",
+          "level": "Foundation",
+          "prompt": "Solve (x - (-4))(x - (3)) < 0 and show the solution on a number line.",
+          "answer": "Critical values -4, 3; -4 < x < 3."
+        },
+        {
+          "id": "G12-ALG-L18-P03",
+          "level": "Routine",
+          "prompt": "Solve (x - (-5))(x - (2)) > 0 and show the solution on a number line.",
+          "answer": "Critical values -5, 2; x < -5 or x > 2."
+        },
+        {
+          "id": "G12-ALG-L18-P04",
+          "level": "Routine",
+          "prompt": "Solve 5x^2+3x-2 = 0; round non-integer answers to two decimals.",
+          "answer": "a=5, b=3, c=-2, Delta=49; x = 0.40 or -1."
+        },
+        {
+          "id": "G12-ALG-L18-P05",
+          "level": "Routine",
+          "prompt": "Solve 4x^2-x-6 = 0; round non-integer answers to two decimals.",
+          "answer": "a=4, b=-1, c=-6, Delta=97; x = 1.36 or -1.11."
+        },
+        {
+          "id": "G12-ALG-L18-P06",
+          "level": "Routine",
+          "prompt": "Solve 3x^2+2x-7 = 0; round non-integer answers to two decimals.",
+          "answer": "a=3, b=2, c=-7, Delta=88; x = 1.23 or -1.90."
+        },
+        {
+          "id": "G12-ALG-L18-P07",
+          "level": "Complex",
+          "prompt": "Solve 2x^2-5x-3 = 0; round non-integer answers to two decimals.",
+          "answer": "a=2, b=-5, c=-3, Delta=49; x = 3 or -0.50."
+        },
+        {
+          "id": "G12-ALG-L18-P08",
+          "level": "Complex",
+          "prompt": "Solve x^2-6x-7 = 0 by factorisation.",
+          "answer": "(x - (-1))(x - (7)) = 0; x = -1 or x = 7."
+        },
+        {
+          "id": "G12-ALG-L18-P09",
+          "level": "Complex",
+          "prompt": "Solve x^2-4x-12 = 0 by factorisation.",
+          "answer": "(x - (-2))(x - (6)) = 0; x = -2 or x = 6."
+        },
+        {
+          "id": "G12-ALG-L18-P10",
+          "level": "Complex",
+          "prompt": "Solve x^2+2x-3 = 0 by factorisation.",
+          "answer": "(x - (-3))(x - (1)) = 0; x = -3 or x = 1."
+        },
+        {
+          "id": "G12-ALG-L18-P11",
+          "level": "Exam-level",
+          "prompt": "Solve x^2+x-12 = 0 by factorisation.",
+          "answer": "(x - (-4))(x - (3)) = 0; x = -4 or x = 3."
+        },
+        {
+          "id": "G12-ALG-L18-P12",
+          "level": "Exam-level",
+          "prompt": "Solve x^2+3x-10 = 0 by factorisation.",
+          "answer": "(x - (-5))(x - (2)) = 0; x = -5 or x = 2."
+        }
+      ]
+    }
+  ]
+}

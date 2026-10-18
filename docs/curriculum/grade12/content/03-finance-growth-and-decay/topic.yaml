@@ -1,0 +1,25 @@
+id: finance-growth-decay
+title: Finance, Growth and Decay
+grade: 12
+paper: 1
+product_order: 3
+term: 1
+mastery_threshold: 80
+source_document: Project_Athena_Grade12_Topic3_Finance_Growth_and_Decay_Approved_Lesson_Pack.docx
+lessons:
+  - {order: 1, id: g12-finance-01, title: "Growth revision and financial language", status: teacher_review_required}
+  - {order: 2, id: g12-finance-02, title: "Compound interest and period matching", status: teacher_review_required}
+  - {order: 3, id: g12-finance-03, title: "Depreciation models", status: teacher_review_required}
+  - {order: 4, id: g12-finance-04, title: "Nominal and effective interest rates", status: coming_soon}
+  - {order: 5, id: g12-finance-05, title: "Future value of a single amount", status: coming_soon}
+  - {order: 6, id: g12-finance-06, title: "Present value of a single amount", status: coming_soon}
+  - {order: 7, id: g12-finance-07, title: "Annuities and payment timing", status: coming_soon}
+  - {order: 8, id: g12-finance-08, title: "Future-value annuities", status: coming_soon}
+  - {order: 9, id: g12-finance-09, title: "Present-value annuities", status: coming_soon}
+  - {order: 10, id: g12-finance-10, title: "Loans and instalments", status: coming_soon}
+  - {order: 11, id: g12-finance-11, title: "Outstanding loan balances", status: coming_soon}
+  - {order: 12, id: g12-finance-12, title: "Sinking funds", status: coming_soon}
+  - {order: 13, id: g12-finance-13, title: "Solving for time", status: coming_soon}
+  - {order: 14, id: g12-finance-14, title: "Timelines and changing conditions", status: coming_soon}
+  - {order: 15, id: g12-finance-15, title: "Comparing financial options", status: coming_soon}
+  - {order: 16, id: g12-finance-16, title: "Paper 1 finance mastery assessment", status: coming_soon}

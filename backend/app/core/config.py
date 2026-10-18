@@ -2,7 +2,7 @@
 
 from functools import lru_cache
 
-from pydantic import field_validator
+from pydantic import field_validator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -30,6 +30,12 @@ class Settings(BaseSettings):
         if isinstance(value, str):
             return [origin.strip() for origin in value.split(",") if origin.strip()]
         return value
+
+    @model_validator(mode="after")
+    def prevent_production_unlock_override(self):
+        if self.environment.casefold() == "production" and self.unlock_all_lessons:
+            raise ValueError("ATHENA_UNLOCK_ALL_LESSONS cannot be enabled in production")
+        return self
 
 
 @lru_cache

@@ -1,0 +1,1263 @@
+{
+  "schema_version": 1,
+  "source_documents": [
+    {
+      "document": "Project_Athena_Grade12_Topic1_Sequences_and_Series_Lesson_Pack.docx",
+      "sha256": "9d07b3deff99cc952775295abec26890fcaecd0e7282d463c75ec72943d9146f",
+      "paragraph_count": 876
+    },
+    {
+      "document": "Project_Athena_Grade12_Topic2_Functions_and_Graphs_Approved_Lesson_Pack.docx",
+      "sha256": "6198d532bb9201db83c7dc0626f7e5e429f10f89b9df80ac3c35df1d16a867bf",
+      "paragraph_count": 970
+    },
+    {
+      "document": "Project_Athena_Grade12_Topic3_Finance_Growth_and_Decay_Approved_Lesson_Pack.docx",
+      "sha256": "0521f40ac7a7860c2c8b18c31be6542a0ec768cc1e50114b46b5a741a62aa592",
+      "paragraph_count": 1164
+    },
+    {
+      "document": "Project_Athena_Grade12_Topic4_Differential_Calculus_Approved_Lesson_Pack.docx",
+      "sha256": "7389a0d54607923a3487ca5fbfacaa3c5a2b478aab432c6be776ba3e99a67666",
+      "paragraph_count": 2045
+    },
+    {
+      "document": "Project_Athena_Grade12_Topic5_Algebra_Equations_and_Inequalities_Approved_Lesson_Pack.docx",
+      "sha256": "84af54524143ac4731f02144d956bef7c4d3738311b7c0c00fd51fc510da29e9",
+      "paragraph_count": 2832
+    },
+    {
+      "document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx",
+      "sha256": "8e9e16ffc30ddb6e03beef548f677d5946631f6ae0cf72bc6716d318481be98a",
+      "paragraph_count": 3159
+    },
+    {
+      "document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx",
+      "sha256": "b48a2db12976d68bb50f1021c2d9da366181eae85523b49580dbaa9e449c43e2",
+      "paragraph_count": 2822
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
+      "sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
+      "paragraph_count": 7441
+    }
+  ],
+  "grades": [
+    {
+      "grade_id": "grade-8",
+      "title": "Grade 8 Mathematics",
+      "curriculum": "CAPS",
+      "topics": [
+        {
+          "topic_id": "algebraic-equations",
+          "topic_number": 1,
+          "title": "Algebraic Equations",
+          "paper": null,
+          "expected_lesson_count": 10,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-algebraic-equations-01",
+              "position": 1,
+              "title": "Meaning of equality",
+              "status": "published",
+              "duration_minutes": 55,
+              "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-equations-02",
+              "position": 2,
+              "title": "Equations by inspection",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-equations-03",
+              "position": 3,
+              "title": "Additive inverse equations",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-equations-04",
+              "position": 4,
+              "title": "Multiplicative inverse equations",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-equations-05",
+              "position": 5,
+              "title": "Two step equations",
+              "status": "authored",
+              "duration_minutes": 70,
+              "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-equations-06",
+              "position": 6,
+              "title": "Variables on both sides",
+              "status": "authored",
+              "duration_minutes": 75,
+              "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-equations-07",
+              "position": 7,
+              "title": "Bracket equations",
+              "status": "authored",
+              "duration_minutes": 80,
+              "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-equations-08",
+              "position": 8,
+              "title": "Fraction equations",
+              "status": "authored",
+              "duration_minutes": 85,
+              "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-equations-09",
+              "position": 9,
+              "title": "Forming equations from contexts",
+              "status": "authored",
+              "duration_minutes": 90,
+              "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-equations-10",
+              "position": 10,
+              "title": "Mastery diagnosis and repair",
+              "status": "authored",
+              "duration_minutes": 100,
+              "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade_id": "grade-9",
+      "title": "Grade 9 Mathematics",
+      "curriculum": "CAPS",
+      "topics": []
+    },
+    {
+      "grade_id": "grade-10",
+      "title": "Grade 10 Mathematics",
+      "curriculum": "CAPS",
+      "topics": []
+    },
+    {
+      "grade_id": "grade-11",
+      "title": "Grade 11 Mathematics",
+      "curriculum": "CAPS",
+      "topics": []
+    },
+    {
+      "grade_id": "grade-12",
+      "title": "Grade 12 Mathematics",
+      "curriculum": "CAPS",
+      "topics": [
+        {
+          "topic_id": "sequences-series",
+          "topic_number": 1,
+          "title": "Sequences and Series",
+          "paper": "Paper 1",
+          "expected_lesson_count": 18,
+          "status": "draft",
+          "lessons": [
+            {
+              "lesson_id": "g12-sequences-series-01",
+              "position": 1,
+              "title": "Recognising sequence structure",
+              "status": "published",
+              "duration_minutes": 50,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-02",
+              "position": 2,
+              "title": "Arithmetic sequences and the nth term",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-03",
+              "position": 3,
+              "title": "Solving arithmetic sequence problems",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-04",
+              "position": 4,
+              "title": "Arithmetic sequences in context",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-05",
+              "position": 5,
+              "title": "Geometric sequences and the nth term",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-06",
+              "position": 6,
+              "title": "Geometric parameters and applications",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-07",
+              "position": 7,
+              "title": "Quadratic number patterns",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-08",
+              "position": 8,
+              "title": "Sigma notation",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-09",
+              "position": 9,
+              "title": "Deriving the arithmetic-series formula",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-10",
+              "position": 10,
+              "title": "Arithmetic-series applications",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-11",
+              "position": 11,
+              "title": "Deriving the finite geometric-series formula",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-12",
+              "position": 12,
+              "title": "Finite geometric-series applications",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-13",
+              "position": 13,
+              "title": "Infinite geometric series and convergence",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-14",
+              "position": 14,
+              "title": "Infinite-series applications",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-15",
+              "position": 15,
+              "title": "Mixed sequence and series decisions",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-16",
+              "position": 16,
+              "title": "Algebraic and integrated exam problems",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-17",
+              "position": 17,
+              "title": "Error clinic and proof of understanding",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-sequences-series-18",
+              "position": 18,
+              "title": "Paper 1 mastery assessment",
+              "status": "verified",
+              "duration_minutes": 55,
+              "source_document": null
+            }
+          ]
+        },
+        {
+          "topic_id": "functions-graphs",
+          "topic_number": 2,
+          "title": "Functions and Graphs",
+          "paper": "Paper 1",
+          "expected_lesson_count": 18,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g12-functions-01",
+              "position": 1,
+              "title": "Function language, notation and representations",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-02",
+              "position": 2,
+              "title": "Domain, range, intercepts and key features",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-03",
+              "position": 3,
+              "title": "Linear functions and parameter meaning",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-04",
+              "position": 4,
+              "title": "Quadratic functions: forms and features",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-05",
+              "position": 5,
+              "title": "Quadratic graphs from limited information",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-06",
+              "position": 6,
+              "title": "Hyperbolic functions",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-07",
+              "position": 7,
+              "title": "Exponential functions",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-08",
+              "position": 8,
+              "title": "Logarithms as inverse exponentials",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-09",
+              "position": 9,
+              "title": "Inverse functions: concept and notation",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-10",
+              "position": 10,
+              "title": "Inverse quadratic functions",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-11",
+              "position": 11,
+              "title": "Transformations of functions",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-12",
+              "position": 12,
+              "title": "Intersections and simultaneous equations",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-13",
+              "position": 13,
+              "title": "Graphical equations and inequalities",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-14",
+              "position": 14,
+              "title": "Average gradient and rate of change",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-15",
+              "position": 15,
+              "title": "Parameters, restrictions and reconstruction",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-16",
+              "position": 16,
+              "title": "Integrated function interpretation",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-17",
+              "position": 17,
+              "title": "Functions error clinic",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-functions-18",
+              "position": 18,
+              "title": "Paper 1 functions mastery assessment",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            }
+          ]
+        },
+        {
+          "topic_id": "finance-growth-decay",
+          "topic_number": 3,
+          "title": "Finance, Growth and Decay",
+          "paper": "Paper 1",
+          "expected_lesson_count": 16,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g12-finance-01",
+              "position": 1,
+              "title": "Growth revision and financial language",
+              "status": "published",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-02",
+              "position": 2,
+              "title": "Compound interest and period matching",
+              "status": "verified",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-03",
+              "position": 3,
+              "title": "Depreciation models",
+              "status": "verified",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-04",
+              "position": 4,
+              "title": "Nominal and effective interest rates",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-05",
+              "position": 5,
+              "title": "Future value of a single amount",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-06",
+              "position": 6,
+              "title": "Present value of a single amount",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-07",
+              "position": 7,
+              "title": "Annuities and payment timing",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-08",
+              "position": 8,
+              "title": "Future-value annuities",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-09",
+              "position": 9,
+              "title": "Present-value annuities",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-10",
+              "position": 10,
+              "title": "Loans and instalments",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-11",
+              "position": 11,
+              "title": "Outstanding loan balances",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-12",
+              "position": 12,
+              "title": "Sinking funds",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-13",
+              "position": 13,
+              "title": "Solving for time",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-14",
+              "position": 14,
+              "title": "Timelines and changing conditions",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-15",
+              "position": 15,
+              "title": "Comparing financial options",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-finance-16",
+              "position": 16,
+              "title": "Paper 1 finance mastery assessment",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            }
+          ]
+        },
+        {
+          "topic_id": "differential-calculus",
+          "topic_number": 4,
+          "title": "Differential Calculus",
+          "paper": "Paper 1",
+          "expected_lesson_count": 24,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g12-calculus-01",
+              "position": 1,
+              "title": "Rate of change",
+              "status": "published",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-02",
+              "position": 2,
+              "title": "Average gradient",
+              "status": "verified",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-03",
+              "position": 3,
+              "title": "Secant lines",
+              "status": "verified",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-04",
+              "position": 4,
+              "title": "Secant to tangent",
+              "status": "verified",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-05",
+              "position": 5,
+              "title": "Intuitive limits",
+              "status": "verified",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-06",
+              "position": 6,
+              "title": "First principles",
+              "status": "verified",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-07",
+              "position": 7,
+              "title": "Derivative notation",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-08",
+              "position": 8,
+              "title": "First-principles differentiation",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-09",
+              "position": 9,
+              "title": "Power rule",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-10",
+              "position": 10,
+              "title": "Constant rule",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-11",
+              "position": 11,
+              "title": "Sum and difference rule",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-12",
+              "position": 12,
+              "title": "Tangents",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-13",
+              "position": 13,
+              "title": "Tangent equations",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-14",
+              "position": 14,
+              "title": "Stationary points",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-15",
+              "position": 15,
+              "title": "Local extrema",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-16",
+              "position": 16,
+              "title": "Second derivative",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-17",
+              "position": 17,
+              "title": "Concavity",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-18",
+              "position": 18,
+              "title": "Points of inflection",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-19",
+              "position": 19,
+              "title": "Cubic sketching",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-20",
+              "position": 20,
+              "title": "Optimisation",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-21",
+              "position": 21,
+              "title": "Rate applications",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-22",
+              "position": 22,
+              "title": "Motion",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-23",
+              "position": 23,
+              "title": "Exam questions",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-calculus-24",
+              "position": 24,
+              "title": "Paper 1 differential calculus mastery assessment",
+              "status": "authored",
+              "duration_minutes": 60,
+              "source_document": null
+            }
+          ]
+        },
+        {
+          "topic_id": "algebra-equations-inequalities",
+          "topic_number": 5,
+          "title": "Algebra, Equations and Inequalities",
+          "paper": "Paper 1",
+          "expected_lesson_count": 18,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g12-algebra-01",
+              "position": 1,
+              "title": "Algebra readiness and equivalence",
+              "status": "published",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-02",
+              "position": 2,
+              "title": "Factorisation and the zero-product principle",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-03",
+              "position": 3,
+              "title": "Quadratic equations by factorisation",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-04",
+              "position": 4,
+              "title": "Quadratic formula",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-05",
+              "position": 5,
+              "title": "Choosing a quadratic method and rounding",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-06",
+              "position": 6,
+              "title": "Surd equations and extraneous roots",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-07",
+              "position": 7,
+              "title": "Equations in quadratic form",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-08",
+              "position": 8,
+              "title": "Exponential equations and common bases",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-09",
+              "position": 9,
+              "title": "Linear simultaneous equations",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-10",
+              "position": 10,
+              "title": "Non-linear simultaneous equations",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-11",
+              "position": 11,
+              "title": "Quadratic inequalities",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-12",
+              "position": 12,
+              "title": "Discriminant and nature of roots",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-13",
+              "position": 13,
+              "title": "Parameter conditions for roots",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-14",
+              "position": 14,
+              "title": "Algebraic fractions and restrictions",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-15",
+              "position": 15,
+              "title": "Algebraic proof and reasoning",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-16",
+              "position": 16,
+              "title": "Contextual modelling",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-17",
+              "position": 17,
+              "title": "Integrated Paper 1 algebra",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            },
+            {
+              "lesson_id": "g12-algebra-18",
+              "position": 18,
+              "title": "Paper 1 algebra mastery assessment",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": null
+            }
+          ]
+        },
+        {
+          "topic_id": "statistics-regression",
+          "topic_number": 8,
+          "title": "Statistics and Regression",
+          "paper": "Paper 2",
+          "expected_lesson_count": 18,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g12-statistics-01",
+              "position": 1,
+              "title": "Data language, quality and displays",
+              "status": "published",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-02",
+              "position": 2,
+              "title": "Central tendency in context",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-03",
+              "position": 3,
+              "title": "Range and interquartile spread",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-04",
+              "position": 4,
+              "title": "Five-number summaries and percentiles",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-05",
+              "position": 5,
+              "title": "Cumulative frequency and ogives",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-06",
+              "position": 6,
+              "title": "Box-and-whisker plots",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-07",
+              "position": 7,
+              "title": "Outliers and IQR fences",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-08",
+              "position": 8,
+              "title": "Variance, standard deviation and calculator control",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-09",
+              "position": 9,
+              "title": "Comparing distributions",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-10",
+              "position": 10,
+              "title": "Scatter plots and bivariate structure",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-11",
+              "position": 11,
+              "title": "Correlation coefficient",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-12",
+              "position": 12,
+              "title": "Least-squares regression line",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-13",
+              "position": 13,
+              "title": "Regression calculator workflow",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-14",
+              "position": 14,
+              "title": "Interpolation",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-15",
+              "position": 15,
+              "title": "Extrapolation and model limits",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-16",
+              "position": 16,
+              "title": "Outlier influence on r and regression",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-17",
+              "position": 17,
+              "title": "Integrated Paper 2 data interpretation",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-statistics-18",
+              "position": 18,
+              "title": "Statistics and regression mastery assessment",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
+            }
+          ]
+        },
+        {
+          "topic_id": "analytical-geometry",
+          "topic_number": 9,
+          "title": "Analytical Geometry",
+          "paper": "Paper 2",
+          "expected_lesson_count": 16,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g12-analytical-geometry-01",
+              "position": 1,
+              "title": "Coordinate readiness and distance",
+              "status": "published",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-02",
+              "position": 2,
+              "title": "Midpoint and endpoint recovery",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-03",
+              "position": 3,
+              "title": "Gradient as rate and direction",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-04",
+              "position": 4,
+              "title": "Equations of straight lines",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-05",
+              "position": 5,
+              "title": "Parallel lines",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-06",
+              "position": 6,
+              "title": "Perpendicular lines",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-07",
+              "position": 7,
+              "title": "Inclination of a line",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-08",
+              "position": 8,
+              "title": "Circle equation from centre and radius",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-09",
+              "position": 9,
+              "title": "Centre and radius from expanded equations",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-10",
+              "position": 10,
+              "title": "Points, chords and line-circle intersections",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-11",
+              "position": 11,
+              "title": "Radius perpendicular to tangent",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-12",
+              "position": 12,
+              "title": "Equation of a tangent",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-13",
+              "position": 13,
+              "title": "Tangent length from an external point",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-14",
+              "position": 14,
+              "title": "Polygon proofs and collinearity",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-15",
+              "position": 15,
+              "title": "Integrated Analytical Geometry",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            },
+            {
+              "lesson_id": "g12-analytical-geometry-16",
+              "position": 16,
+              "title": "Analytical Geometry mastery assessment",
+              "status": "verified",
+              "duration_minutes": 65,
+              "source_document": "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

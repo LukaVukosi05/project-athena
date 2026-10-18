@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const submit = e.currentTarget.querySelector('button[type="submit"]');
     submit.disabled = true;
     submit.textContent = "Signing in...";
+    document.getElementById("login-feedback").textContent = "Checking your account…";
     try {
       await AthenaAuth.login({
         email: document.getElementById("email").value.trim(),
@@ -17,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const next = new URLSearchParams(location.search).get("next");
       location.href = next && next.startsWith("/") ? next : "dashboard.html";
     } catch (error) {
-      alert(error.message);
+      document.getElementById("login-feedback").textContent = error.message;
       submit.disabled = false;
       submit.textContent = "Sign in";
     }

@@ -26,3 +26,11 @@ Thumbs.db
 
 # Logs and generated files
 *.log
+
+# Local SQLite runtime database
+backend/athena.db
+artifacts/
+.edge-*/
+playwright-report/
+test-results/
+/*.png

@@ -1,0 +1,34 @@
+id: differential-calculus
+title: Differential Calculus
+grade: 12
+paper: 1
+product_order: 4
+term: 2
+mastery_threshold: 80
+target_marks: 35
+source_document: Project_Athena_Grade12_Topic4_Differential_Calculus_Approved_Lesson_Pack.docx
+lessons:
+  - {order: 1, id: g12-calculus-01, title: "Rate of change", status: teacher_review_required}
+  - {order: 2, id: g12-calculus-02, title: "Average gradient", status: teacher_review_required}
+  - {order: 3, id: g12-calculus-03, title: "Secant lines", status: teacher_review_required}
+  - {order: 4, id: g12-calculus-04, title: "Secant to tangent", status: teacher_review_required}
+  - {order: 5, id: g12-calculus-05, title: "Intuitive limits", status: teacher_review_required}
+  - {order: 6, id: g12-calculus-06, title: "First principles", status: teacher_review_required}
+  - {order: 7, id: g12-calculus-07, title: "Derivative notation", status: coming_soon}
+  - {order: 8, id: g12-calculus-08, title: "First-principles differentiation", status: coming_soon}
+  - {order: 9, id: g12-calculus-09, title: "Power rule", status: coming_soon}
+  - {order: 10, id: g12-calculus-10, title: "Constant rule", status: coming_soon}
+  - {order: 11, id: g12-calculus-11, title: "Sum and difference rule", status: coming_soon}
+  - {order: 12, id: g12-calculus-12, title: "Tangents", status: coming_soon}
+  - {order: 13, id: g12-calculus-13, title: "Tangent equations", status: coming_soon}
+  - {order: 14, id: g12-calculus-14, title: "Stationary points", status: coming_soon}
+  - {order: 15, id: g12-calculus-15, title: "Local extrema", status: coming_soon}
+  - {order: 16, id: g12-calculus-16, title: "Second derivative", status: coming_soon}
+  - {order: 17, id: g12-calculus-17, title: "Concavity", status: coming_soon}
+  - {order: 18, id: g12-calculus-18, title: "Points of inflection", status: coming_soon}
+  - {order: 19, id: g12-calculus-19, title: "Cubic sketching", status: coming_soon}
+  - {order: 20, id: g12-calculus-20, title: "Optimisation", status: coming_soon}
+  - {order: 21, id: g12-calculus-21, title: "Rate applications", status: coming_soon}
+  - {order: 22, id: g12-calculus-22, title: "Motion", status: coming_soon}
+  - {order: 23, id: g12-calculus-23, title: "Exam questions", status: coming_soon}
+  - {order: 24, id: g12-calculus-24, title: "Paper 1 differential calculus mastery assessment", status: coming_soon}

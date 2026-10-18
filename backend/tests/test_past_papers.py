@@ -8,11 +8,11 @@ def test_past_paper_content_api_is_inactive_during_curriculum_reset():
         assert client.get("/api/v1/past-papers").status_code == 404
 
 
-def test_development_frontend_assets_are_not_cached_and_show_only_sequences():
+def test_development_frontend_assets_are_not_cached_and_use_backend_catalogue():
     with TestClient(app) as client:
         dashboard = client.get("/dashboard.html")
         script = client.get("/js/pages/dashboard.js")
     assert "no-store" in dashboard.headers["cache-control"]
     assert "no-store" in script.headers["cache-control"]
-    assert "Sequences and Series" in script.text
-    assert "Paper 2 lessons" not in script.text
+    assert "/api/v1/curriculum/grades/" in script.text
+    assert "Paper 1" in script.text and "Paper 2" in script.text

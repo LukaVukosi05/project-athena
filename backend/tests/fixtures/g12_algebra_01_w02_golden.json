@@ -1,0 +1,17 @@
+{
+  "lesson_id": "g12-algebra-01",
+  "question_id": "G12-ALG-L01-W02",
+  "question": "Solve 5x + (-4) = 11 and verify by substitution.",
+  "answer": "x = 3; substituting gives 11 = 11.",
+  "steps": [
+    ["balance_focus_goal", "equation_focus", "5x - 4 = 11", "5x - 4 = 11", "5x - 4 = 11", 900, "We need to isolate x while preserving equality."],
+    ["balance_focus_constant", "equation_focus", "5x - 4 = 11", "5x - 4 = 11", "5x - 4 = 11", 900, "Four is subtracted from 5x, so addition by 4 is the inverse operation."],
+    ["apply_both_sides_display", "equation_balance_display", "5x - 4 = 11", "5x - 4 + 4 = 11 + 4", "5x - 4 + 4 = 11 + 4", 900, "We add 4 to both sides so the equation remains balanced."],
+    ["simplify_equation", "equation_simplification", "5x - 4 + 4 = 11 + 4", "5x = 15", "5x = 15", 900, "Negative 4 and positive 4 cancel, while 11 plus 4 is 15."],
+    ["divide_both_sides_display", "equation_division_display", "5x = 15", "5x / 5 = 15 / 5", "5x / 5 = 15 / 5", 900, "We divide both sides by 5 because x is multiplied by 5."],
+    ["simplify_equation", "equation_simplification", "5x / 5 = 15 / 5", "x = 3", "x = 3", 900, "Both sides simplify, giving x equals 3."],
+    ["verification_line", "equation_verification", "x = 3", "5(3) - 4 = 11", "5(3) - 4 = 11", 900, "Substitute 3 into the original equation to check the answer."],
+    ["verification_line", "equation_verification", "5(3) - 4 = 11", "15 - 4 = 11", "15 - 4 = 11", 900, "Five times 3 is 15, so simplify the original left side."],
+    ["verification_line", "equation_verification", "15 - 4 = 11", "11 = 11 ✓", "11 = 11 ✓", 900, "Both sides equal 11, so x equals 3 is verified."]
+  ]
+}

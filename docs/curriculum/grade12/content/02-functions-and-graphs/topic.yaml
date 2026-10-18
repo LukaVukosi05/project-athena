@@ -1,0 +1,27 @@
+id: functions-graphs
+title: Functions and Graphs
+grade: 12
+paper: 1
+product_order: 2
+term: 1
+mastery_threshold: 80
+source_document: Project_Athena_Grade12_Topic2_Functions_and_Graphs_Approved_Lesson_Pack.docx
+lessons:
+  - {order: 1, id: g12-functions-01, title: "Function language, notation and representations", status: teacher_review_required}
+  - {order: 2, id: g12-functions-02, title: "Domain, range, intercepts and key features", status: teacher_review_required}
+  - {order: 3, id: g12-functions-03, title: "Linear functions and parameter meaning", status: teacher_review_required}
+  - {order: 4, id: g12-functions-04, title: "Quadratic functions: forms and features", status: coming_soon}
+  - {order: 5, id: g12-functions-05, title: "Quadratic graphs from limited information", status: coming_soon}
+  - {order: 6, id: g12-functions-06, title: "Hyperbolic functions", status: coming_soon}
+  - {order: 7, id: g12-functions-07, title: "Exponential functions", status: coming_soon}
+  - {order: 8, id: g12-functions-08, title: "Logarithms as inverse exponentials", status: coming_soon}
+  - {order: 9, id: g12-functions-09, title: "Inverse functions: concept and notation", status: coming_soon}
+  - {order: 10, id: g12-functions-10, title: "Inverse quadratic functions", status: coming_soon}
+  - {order: 11, id: g12-functions-11, title: "Transformations of functions", status: coming_soon}
+  - {order: 12, id: g12-functions-12, title: "Intersections and simultaneous equations", status: coming_soon}
+  - {order: 13, id: g12-functions-13, title: "Graphical equations and inequalities", status: coming_soon}
+  - {order: 14, id: g12-functions-14, title: "Average gradient and rate of change", status: coming_soon}
+  - {order: 15, id: g12-functions-15, title: "Parameters, restrictions and reconstruction", status: coming_soon}
+  - {order: 16, id: g12-functions-16, title: "Integrated function interpretation", status: coming_soon}
+  - {order: 17, id: g12-functions-17, title: "Functions error clinic", status: coming_soon}
+  - {order: 18, id: g12-functions-18, title: "Paper 1 functions mastery assessment", status: coming_soon}

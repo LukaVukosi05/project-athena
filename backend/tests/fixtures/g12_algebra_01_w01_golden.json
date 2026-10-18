@@ -1,0 +1,17 @@
+{
+  "lesson_id": "g12-algebra-01",
+  "question_id": "G12-ALG-L01-W01",
+  "question": "Solve 3x + (7) = 22 and verify by substitution.",
+  "answer": "x = 5; substituting gives 22 = 22.",
+  "steps": [
+    ["balance_focus_goal", "equation_focus", "3x + 7 = 22", "3x + 7 = 22", "3x + 7 = 22", 900, "We need to isolate x while keeping both sides equal."],
+    ["balance_focus_constant", "equation_focus", "3x + 7 = 22", "3x + 7 = 22", "3x + 7 = 22", 900, "Seven is being added to 3x. We undo this by subtracting 7."],
+    ["apply_both_sides_display", "equation_balance_display", "3x + 7 = 22", "3x + 7 - 7 = 22 - 7", "3x + 7 - 7 = 22 - 7", 900, "We subtract 7 from both sides so that the equation remains balanced."],
+    ["simplify_equation", "equation_simplification", "3x + 7 - 7 = 22 - 7", "3x = 15", "3x = 15", 900, "Positive 7 and negative 7 cancel. Twenty-two minus 7 is 15."],
+    ["divide_both_sides_display", "equation_division_display", "3x = 15", "3x / 3 = 15 / 3", "3x / 3 = 15 / 3", 900, "We divide both sides by 3 because x is multiplied by 3."],
+    ["simplify_equation", "equation_simplification", "3x / 3 = 15 / 3", "x = 5", "x = 5", 900, "Both sides simplify, giving x equals 5."],
+    ["verification_line", "equation_verification", "x = 5", "3(5) + 7 = 22", "3(5) + 7 = 22", 900, "Substitute 5 into the original equation to check the answer."],
+    ["verification_line", "equation_verification", "3(5) + 7 = 22", "15 + 7 = 22", "15 + 7 = 22", 900, "Three times 5 is 15, so we continue simplifying the original left side."],
+    ["verification_line", "equation_verification", "15 + 7 = 22", "22 = 22 ✓", "22 = 22 ✓", 900, "Substituting 5 into the original equation makes both sides equal, so the answer is correct."]
+  ]
+}

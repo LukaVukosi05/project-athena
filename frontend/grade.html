@@ -15,12 +15,15 @@
 <div id="nav-mount"></div>
 
 <main class="container section" id="grade-root">
+  <p class="eyebrow">Curriculum catalogue</p>
   <h2 id="grade-title">Grade Mathematics</h2>
-  <p>Your progress: <strong id="grade-progress-pct">0%</strong></p>
+  <p><span id="grade-progress-pct">0%</span> progress from completed lessons on this device.</p>
+
+  <nav class="grade-strip" aria-label="Select grade"><a class="grade-chip" href="grade.html?grade=grade-8">Grade 8</a><a class="grade-chip" href="grade.html?grade=grade-9">Grade 9</a><a class="grade-chip" href="grade.html?grade=grade-10">Grade 10</a><a class="grade-chip" href="grade.html?grade=grade-11">Grade 11</a><a class="grade-chip" href="grade.html?grade=grade-12">Grade 12</a></nav>
 
   <div class="term-track" id="term-track"></div>
 
-  <h3>Topics</h3>
+  <nav class="paper-switcher" id="paper-switcher" aria-label="Grade 12 examination papers"><a class="btn btn-secondary" href="#paper-1">Paper 1</a><a class="btn btn-secondary" href="#paper-2">Paper 2</a></nav>
   <div id="topics-list"></div>
 </main>
 
@@ -28,6 +31,6 @@
 
 <script src="js/engine/state.js?v=auth-v2"></script>
 <script src="js/engine/navigation.js"></script>
-<script src="js/pages/grade.js?v=auth-v2"></script>
+<script src="js/pages/grade.js?v=layout-v1"></script>
 </body>
 </html>

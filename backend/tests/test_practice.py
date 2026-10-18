@@ -5,8 +5,35 @@ from sqlalchemy.orm import Session
 from sqlalchemy.pool import StaticPool
 
 from app.curriculum.grade12.lessons.sequences_practice import LESSON_ONE_PRACTICE
+from app.curriculum.grade12.lessons.sequences_practice_all import PRACTICE_BANKS
 from app.db.database import Base, get_db
 from app.main import app
+
+
+def test_functions_practice_is_backend_authoritative_and_mastery_is_eighty_percent():
+    with TestClient(app) as client:
+        bank = client.get("/api/v1/practice/g12-functions-01")
+        assert bank.status_code == 200
+        payload = bank.json()
+        assert payload["mastery_threshold"] == .8
+        assert len(payload["questions"]) == 4
+        assert "accepted_answers" not in payload["questions"][0]
+        session = client.post("/api/v1/practice/g12-functions-01/sessions").json()["session_id"]
+        correct = client.post(
+            f"/api/v1/practice/g12-functions-01/sessions/{session}/questions/g12-functions-l01-p01/submit",
+            json={"answer": "7"},
+        )
+        assert correct.status_code == 200 and correct.json()["correct"] is True
+
+
+def test_finance_practice_hides_answers_and_accepts_currency_format():
+    with TestClient(app) as client:
+        bank=client.get("/api/v1/practice/g12-finance-01")
+        assert bank.status_code==200 and len(bank.json()["questions"])==4
+        assert "accepted_answers" not in bank.text
+        session=client.post("/api/v1/practice/g12-finance-01/sessions").json()["session_id"]
+        result=client.post(f"/api/v1/practice/g12-finance-01/sessions/{session}/questions/g12-finance-l01-p01/submit",json={"answer":"R15,360"})
+        assert result.status_code==200 and result.json()["correct"] is True
 from app.practice.schemas import SOURCE_DOCUMENT
 from app.practice.service import check_answer, mastery_summary
 
@@ -31,6 +58,14 @@ def test_lesson_one_bank_is_valid_and_authorised():
     assert all(question.worked_solution and all(step.why!=step.explanation for step in question.worked_solution) for question in LESSON_ONE_PRACTICE)
     assert sum(question.type=="classification" for question in LESSON_ONE_PRACTICE)==3
     assert {"missing_term","numeric","multiple_choice","error_analysis"}.issubset({question.type for question in LESSON_ONE_PRACTICE})
+
+
+def test_every_scheduled_lesson_has_twelve_server_authoritative_practice_questions():
+    assert list(PRACTICE_BANKS)==[f"g12-sequences-series-{number:02}" for number in range(1,19)]
+    assert all(len(bank)==12 for bank in PRACTICE_BANKS.values())
+    ids=[question.id for bank in PRACTICE_BANKS.values() for question in bank]
+    assert len(ids)==216 and len(set(ids))==216
+    assert all(question.source==SOURCE_DOCUMENT for bank in PRACTICE_BANKS.values() for question in bank)
 
 
 def test_numeric_and_classification_normalisation():

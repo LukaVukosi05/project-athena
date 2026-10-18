@@ -28,6 +28,19 @@ checkpointController.play();clock=150;queued(150);assert.strictEqual(checkpoint.
 
 assert.doesNotThrow(()=>new BrowserNarrationProvider().speak("Fallback narration"));
 const reduced=new TimelineController(stage,{duration_ms:1200,events},{caption,narration,now:()=>0,requestFrame(){},cancelFrame(){}});const spokenBefore=narration.spoken.length;reduced.completeReducedMotion();assert.strictEqual(reduced.position,1200);assert.strictEqual(narration.spoken.length,spokenBefore);assert.strictEqual(caption.textContent,"The differences match.");
+const classSet=()=>({values:new Set(),add(...items){items.forEach(item=>this.values.add(item));},remove(...items){items.forEach(item=>this.values.delete(item));}});
+const left={classList:classSet()},right={classList:classSet()},leftOperation={classList:classSet()},rightOperation={classList:classSet()},cancelMark={classList:classSet()};
+const equationStage={querySelector(selector){return selector.includes("left-side")?left:selector.includes("right-side")?right:null;},querySelectorAll(selector){if(selector===".equation-operation span")return [leftOperation,rightOperation];if(selector===".cancellation-label")return [cancelMark];return [];}};
+const equationController=new TimelineController(equationStage,{duration_ms:600,events:[]},{caption,narration,now:()=>0,requestFrame(){},cancelFrame(){}});
+equationController.apply({type:"apply_both_sides",targets:[]});
+assert(left.classList.values.has("event-apply-both-sides")&&right.classList.values.has("event-apply-both-sides"));
+assert(leftOperation.classList.values.has("event-apply-both-sides")&&rightOperation.classList.values.has("event-apply-both-sides"));
+equationController.apply({type:"cancel",targets:[]});assert(cancelMark.classList.values.has("event-cancel"));
+const operationNode={classList:classSet()};
+const teachingStage={querySelector(){return null;},querySelectorAll(selector){return selector.includes('data-object-id="operation"')?[operationNode]:[];}};
+const teachingController=new TimelineController(teachingStage,{duration_ms:600,events:[]},{caption,narration,now:()=>0,requestFrame(){},cancelFrame(){}});
+teachingController.apply({type:"show_operation",targets:["operation"],label:"subtract five from both sides"});
+assert(operationNode.classList.values.has("is-visible")&&operationNode.classList.values.has("event-show-operation"));
 controller.destroy();assert.strictEqual(controller.destroyed,true);
 const css=fs.readFileSync(path.join(__dirname,"../css/components.css"),"utf8");assert.ok(css.includes("@media(max-width:640px)"));assert.ok(css.includes("@media(prefers-reduced-motion:reduce)"));
 console.log("semantic timeline controller passed");

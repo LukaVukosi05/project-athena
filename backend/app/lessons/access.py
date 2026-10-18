@@ -8,7 +8,8 @@ from app.db.models.user import User
 
 
 def enforce_lesson_access(lesson: Lesson, user: User | None) -> None:
-    if get_settings().unlock_all_lessons:
+    settings = get_settings()
+    if settings.environment.casefold() == "development" and settings.unlock_all_lessons:
         return
     if lesson.access_level == AccessLevel.FREE:
         return

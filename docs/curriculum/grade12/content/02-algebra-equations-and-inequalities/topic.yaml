@@ -1,0 +1,38 @@
+id: g12-algebra-equations-inequalities
+grade: 12
+subject: mathematics
+title: Algebra, Equations and Inequalities
+paper: 1
+target_examination_marks: "25 ± 3"
+mastery_threshold: 80
+authoring_status: partial
+active_in_application: false
+authority:
+  primary: DBE CAPS Mathematics Grades 10-12
+  examination_scope: DBE Grade 12 Mathematics Examination Guidelines
+  annual_teaching_plan: pending_current_official_document
+lessons:
+  - {number: 1, id: g12-aei-01, title: Algebra readiness diagnostic, status: authored}
+  - {number: 2, id: g12-aei-02, title: Factorisation toolkit, status: authored}
+  - {number: 3, id: g12-aei-03, title: Algebraic fractions and restrictions, status: authored}
+  - {number: 4, id: g12-aei-04, title: Linear and fractional equations, status: pending}
+  - {number: 5, id: g12-aei-05, title: Quadratic equations by factorisation, status: pending}
+  - {number: 6, id: g12-aei-06, title: Quadratic formula, status: pending}
+  - {number: 7, id: g12-aei-07, title: Choosing a quadratic method, status: pending}
+  - {number: 8, id: g12-aei-08, title: Quadratic equations using substitution, status: pending}
+  - {number: 9, id: g12-aei-09, title: Equations involving surds, status: pending}
+  - {number: 10, id: g12-aei-10, title: Exponential equations, status: pending}
+  - {number: 11, id: g12-aei-11, title: Linear inequalities, status: pending}
+  - {number: 12, id: g12-aei-12, title: Quadratic inequalities, status: pending}
+  - {number: 13, id: g12-aei-13, title: Simultaneous linear equations, status: pending}
+  - {number: 14, id: g12-aei-14, title: Linear–quadratic simultaneous equations, status: pending}
+  - {number: 15, id: g12-aei-15, title: Nature of quadratic roots, status: pending}
+  - {number: 16, id: g12-aei-16, title: Parameters and root conditions, status: pending}
+  - {number: 17, id: g12-aei-17, title: Mixed algebra problems and error clinic, status: pending}
+  - {number: 18, id: g12-aei-18, title: Paper 1 algebra mastery assessment, status: pending}
+examination_boundaries:
+  - Completing the square is not an examinable quadratic-solving method.
+  - Quadratic equations using substitution (the k-method) are examinable.
+  - Surd equations leading to quadratic equations are examinable.
+  - Non-quadratic inequalities connect to functions.
+  - Nature of roots connects to quadratic equations and prescribed functions.

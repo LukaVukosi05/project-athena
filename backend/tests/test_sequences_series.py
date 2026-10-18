@@ -38,8 +38,7 @@ def test_reset_lesson_contract_order_prerequisites_and_mastery():
     assert batch[1].prerequisites == [LESSON_IDS[0]]
     assert batch[2].prerequisites == [LESSON_IDS[1]]
     assert all(lesson.mastery_threshold == .8 for lesson in batch)
-    assert len(batch[0].whiteboard_questions) == 12
-    assert all(not lesson.whiteboard_questions for lesson in batch[1:])
+    assert all(len(lesson.whiteboard_questions) == 12 for lesson in batch)
     assert batch[0].access_level == AccessLevel.FREE
     assert all(lesson.access_level == AccessLevel.PREMIUM for lesson in batch[1:])
 
@@ -55,6 +54,21 @@ def test_every_lesson_one_example_has_a_valid_deterministic_timeline():
             assert step.events == sorted(step.events,key=lambda event:event.at_ms)
             assert step.duration_ms >= step.events[-1].at_ms
             assert " ".join(event.text for event in step.events if event.type=="narration") == " ".join(event.text for event in step.events if event.type=="caption")
+
+
+def test_lessons_two_to_eighteen_have_valid_independent_worked_examples():
+    all_ids=[]
+    for lesson in lessons()[1:]:
+        assert "awaiting" not in " ".join(block.content for block in lesson.blocks if hasattr(block,"content")).lower()
+        assert any(getattr(block,"type",None)=="practice" and block.data.get("practice_bank_id")==lesson.id for block in lesson.blocks)
+        prompts=set()
+        for question in lesson.whiteboard_questions:
+            validate_whiteboard(question.whiteboard)
+            prompts.add(question.whiteboard.problem);all_ids.append(question.id)
+            assert question.answer and question.full_memo and question.misconception_tags
+            assert question.whiteboard.steps[-1].after_expression.endswith("✓")
+        assert len(prompts)==12
+    assert len(all_ids)==17*12 and len(set(all_ids))==17*12
 
 
 def test_arithmetic_and_quadratic_prototypes_calculate_differences_correctly():

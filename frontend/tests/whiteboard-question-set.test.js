@@ -26,7 +26,7 @@ class Mount {
 global.StatefulWhiteboard = class {
   constructor(mount, block, options) { this.block = block; this.index = options.initialStep; this.options = options; this.destroyed = false; }
   mountBoard() { return this; }
-  complete() { this.index = this.block.steps.length - 1; this.options.onStateChange(this.index); }
+  complete() { this.index = this.block.steps.length - 1; this.options.onStateChange(this.index, "example_complete"); }
   destroy() { this.destroyed = true; global.destroyCount++; }
 };
 

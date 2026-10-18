@@ -16,6 +16,8 @@ from app.api.v1.practice import router as practice_router
 from app.core.config import get_settings
 from app.db.database import Base, engine
 from app.db.models import PracticeSession, User  # noqa: F401 - registers models before table creation
+from app.curriculum.content_manifest import readiness_for
+from app.curriculum.repository import curriculum_repository
 
 settings = get_settings()
 
@@ -27,6 +29,27 @@ async def lifespan(_: FastAPI):
         connection.execute(text("SELECT 1"))
     if settings.environment == "development":
         Base.metadata.create_all(bind=engine)
+    diagnostics = curriculum_repository.diagnostics()
+    lessons = [
+        lesson
+        for grade in curriculum_repository.list_grades()
+        for topic in grade.topics
+        for subtopic in topic.subtopics
+        for lesson in subtopic.lessons
+    ]
+    published = sum(readiness_for(lesson).value == "published" for lesson in lessons)
+    roadmap = sum(readiness_for(lesson).value in {"roadmap", "specified", "anchored"} for lesson in lessons)
+    print(
+        "Curriculum loaded: "
+        f"{diagnostics['grades']} grades, {diagnostics['topics']} topics, "
+        f"{diagnostics['expected_lessons']} expected lessons, "
+        f"{published} published lessons, {roadmap} roadmap lessons"
+    )
+    if diagnostics["empty_grades"]:
+        print(
+            "Curriculum source error: grades without topics: "
+            + ", ".join(diagnostics["empty_grades"])
+        )
     yield
 
 

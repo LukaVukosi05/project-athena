@@ -1,0 +1,8 @@
+status: evidence_mapping_from_approved_pack
+paper_files_present_locally: false
+warning: Page-level independent verification requires official Paper 1 papers and matching memoranda.
+evidence:
+  - {year: 2020, paper: 1, skills: [quadratic features, straight lines, transformations, intersections, graph area, exponential and inverse interpretation]}
+  - {year: 2022, paper: 1, skills: [parameters, ranges, inverse relationships, intercepts, graph distances]}
+  - {year: 2023, paper: 1, skills: [exponential transformations, inverse logarithms, parabola and hyperbola features, inequalities, tangency]}
+  - {year: 2024, paper: 1, skills: [exponential parameters and range, inverse coordinates, hyperbola transformations, interval solutions]}

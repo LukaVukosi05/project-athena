@@ -15,12 +15,14 @@
 <div id="nav-mount"></div>
 
 <main class="container section" id="topic-root">
-  <p class="lesson-crumbs"><a id="crumb-grade" href="dashboard.html">Grade</a> / Topic</p>
+  <p class="lesson-crumbs"><a id="crumb-grade" href="dashboard.html">Grade</a> / <span id="crumb-paper" class="badge">Paper</span> / Topic</p>
 
   <div class="topic-hero">
     <div>
       <h2 id="topic-title">Topic</h2>
+      <span id="topic-paper" class="badge">Paper</span>
       <p id="topic-caps-ref" style="margin:0;color:var(--color-text-secondary);font-size:var(--fs-sm);"></p>
+      <p id="topic-exam-relevance"></p>
     </div>
   </div>
 
@@ -28,6 +30,7 @@
   <ul class="learn-list" id="learn-list"></ul>
 
   <h3 style="margin-top:var(--space-7);">Lessons</h3>
+  <div class="card topic-evidence"><strong id="topic-counts">Loading lesson availability…</strong><p id="topic-weaknesses">Topic diagnostic not completed. No weaknesses have been inferred.</p><button class="btn btn-secondary" type="button" disabled>Topic diagnostic coming later</button></div>
   <div id="lessons-list"></div>
 </main>
 
@@ -35,6 +38,6 @@
 
 <script src="js/engine/state.js?v=auth-v2"></script>
 <script src="js/engine/navigation.js"></script>
-<script src="js/pages/topic.js?v=paper2-v2"></script>
+<script src="js/pages/topic.js?v=readiness-v1"></script>
 </body>
 </html>

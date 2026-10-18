@@ -33,6 +33,12 @@ registry.register("identify_objective", "identify_unknown", lambda step: step.be
 registry.register("subtract_both_sides", "equation_balance_subtraction", verify_linear_transition)
 registry.register("divide_both_sides", "equation_balance_division", verify_linear_transition)
 registry.register("equivalent_transform", "equation_transformation", verify_equivalent_transition)
+registry.register("apply_both_sides_display", "equation_balance_display", verify_equivalent_transition)
+registry.register("simplify_equation", "equation_simplification", verify_equivalent_transition)
+registry.register("divide_both_sides_display", "equation_division_display", verify_equivalent_transition)
+registry.register("verification_line", "equation_verification", lambda step: bool(step.after_expression.strip()))
+registry.register("balance_focus_goal", "equation_focus", lambda step: step.before_expression == step.after_expression)
+registry.register("balance_focus_constant", "equation_focus", lambda step: step.before_expression == step.after_expression)
 registry.register("present_expression", "expression_presentation", lambda step: step.before_expression == step.after_expression)
 registry.register("identity_recognition", "identity_highlight", lambda step: bool(step.operation.value) and step.after_expression == step.operation.value)
 registry.register("state_simplified_result", "simplified_result", lambda step: step.after_expression.startswith("∴ "))
@@ -52,6 +58,36 @@ registry.register("timeline_inspect", "semantic_timeline", lambda step: bool(ste
 registry.register("timeline_select", "semantic_timeline", lambda step: bool(step.events and step.state_after))
 registry.register("timeline_verify", "semantic_timeline", lambda step: bool(step.events and any(event.type == "verify" for event in step.events)))
 registry.register("timeline_summarize", "semantic_timeline", lambda step: bool(step.events and step.after_expression))
+for finance_operation in (
+    "place_cashflow", "set_focal_date", "match_rate_period", "accumulate", "discount",
+    "calculate", "verify_financial_sense", "label_period", "count_payments", "split_phase",
+    "mark_payment", "highlight_remaining_payments", "compare_options",
+):
+    registry.register(finance_operation, "finance_timeline_reasoning", lambda step: bool(step.events and step.visualization_state))
+for calculus_operation in (
+    "plot_function", "place_curve_point", "show_change_triangle", "move_point",
+    "differentiate_term", "substitute_derivative_value", "solve_derivative_zero",
+    "test_derivative_sign", "classify_stationary", "shade_concavity", "mark_inflection",
+    "build_objective", "mark_feasible_domain", "compare_boundaries",
+    "verify_calculus_sense", "factor_common", "substitute", "cancel",
+    "calculus_limit", "calculus_tangent",
+):
+    registry.register(calculus_operation, "calculus_timeline_reasoning", lambda step: bool(step.events and step.visualization_state))
+for algebra_operation in (
+    "algebra_orient", "algebra_inspect", "algebra_select", "algebra_transform",
+    "algebra_validate", "algebra_verify", "algebra_summarize",
+):
+    registry.register(algebra_operation, "algebra_timeline_reasoning", lambda step: bool(step.events and step.visualization_state))
+for grade8_template in (
+    "equality_balance", "additive_inverse", "multiplicative_inverse",
+    "two_step_balance", "variables_both_sides", "context_to_equation",
+    "distributive_equation",
+):
+    registry.register(
+        f"{grade8_template}_step",
+        grade8_template,
+        lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression),
+    )
 registry.register("select_method", "method_selection", lambda step: bool(step.after_expression))
 registry.register("show_working", "progressive_working", lambda step: "∴" in step.after_expression)
 registry.register("verify_result", "result_verification", lambda step: "✓" in step.after_expression)

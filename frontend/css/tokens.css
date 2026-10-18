@@ -8,17 +8,34 @@
    textbook brought to life, not a SaaS dashboard.
    ============================================================ */
 :root {
-  --color-primary:        #2456CF;
-  --color-primary-deep:   #16306B;
-  --color-primary-light:  #EEF3FF;
-  --color-bg:             #F7F9FC;
-  --color-card:           #FFFFFF;
-  --color-text:           #101828;
-  --color-text-secondary: #5B6472;
-  --color-success:        #15803D;
-  --color-warning:        #B45309;
-  --color-error:          #B91C1C;
-  --color-border:         #E2E8F0;
+  --athena-navy: #18324a;
+  --athena-navy-dark: #10283d;
+  --athena-teal: #167d87;
+  --athena-teal-light: #eaf4f5;
+  --athena-gold: #d7a62c;
+  --athena-background: #f5f8fa;
+  --athena-surface: #ffffff;
+  --athena-text: #172338;
+  --athena-muted: #64748b;
+  --athena-success: #248a68;
+  --athena-warning: #9a6810;
+  --athena-danger: #b33a3a;
+  --athena-border: #dce5ec;
+
+  --color-primary:        var(--athena-teal);
+  --color-primary-deep:   var(--athena-navy);
+  --color-primary-light:  var(--athena-teal-light);
+  --color-bg:             var(--athena-background);
+  --color-card:           var(--athena-surface);
+  --color-surface:        var(--athena-surface);
+  --color-surface-muted:  var(--athena-background);
+  --color-text:           var(--athena-text);
+  --color-text-primary:   var(--athena-text);
+  --color-text-secondary: var(--athena-muted);
+  --color-success:        var(--athena-success);
+  --color-warning:        var(--athena-warning);
+  --color-error:          var(--athena-danger);
+  --color-border:         var(--athena-border);
   --color-chalk:          #FDF6E3;
 
   --font-display: "Lora", "Iowan Old Style", Georgia, serif;

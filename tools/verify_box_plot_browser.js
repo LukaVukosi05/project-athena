@@ -1,0 +1,30 @@
+const fs=require("fs"),path=require("path");
+const root=path.resolve(__dirname,".."),out=path.join(root,"artifacts","curriculum-verification");
+fs.mkdirSync(out,{recursive:true});
+const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+async function main(){
+ const pages=await(await fetch("http://127.0.0.1:9225/json")).json(),page=pages.find(item=>item.type==="page");
+ const ws=new WebSocket(page.webSocketDebuggerUrl);let id=0;const pending=new Map();
+ ws.onmessage=e=>{const m=JSON.parse(e.data);if(m.id&&pending.has(m.id)){const p=pending.get(m.id);pending.delete(m.id);m.error?p.reject(m.error):p.resolve(m.result);}};
+ await new Promise(resolve=>ws.onopen=resolve);
+ const send=(method,params={})=>new Promise((resolve,reject)=>{const call=++id;pending.set(call,{resolve,reject});ws.send(JSON.stringify({id:call,method,params}));});
+ const evaluate=async expression=>(await send("Runtime.evaluate",{expression,returnByValue:true,awaitPromise:true})).result.value;
+ const navigate=async url=>{await send("Page.navigate",{url});for(let i=0;i<150;i++){if(await evaluate("document.readyState==='complete'&&Boolean(document.querySelector('.statistics-boxplot'))"))return await sleep(120);await sleep(100);}throw new Error("box plot did not mount");};
+ const shot=async name=>{const image=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false});fs.writeFileSync(path.join(out,name),Buffer.from(image.data,"base64"));};
+ const focusBoard=async()=>{await evaluate("document.querySelector('.stateful-whiteboard').scrollIntoView({block:'start'})");await sleep(120);};
+ await send("Page.enable");await send("Runtime.enable");
+ const base="http://127.0.0.1:8010/lesson.html?lesson=g12-statistics-06&example=1";
+ await send("Emulation.setDeviceMetricsOverride",{width:1365,height:900,deviceScaleFactor:1,mobile:false});
+ await navigate(base+"&step=0");await focusBoard();await shot("g12-statistics-06__G12-STAT-L06-W01__initial.png");
+ await navigate(base+"&step=7");await focusBoard();await evaluate("document.querySelector('[data-action=play]').click()");await sleep(450);await shot("g12-statistics-06__G12-STAT-L06-W01__operation.png");
+ await navigate(base+"&step=13");await focusBoard();await evaluate("document.querySelector('[data-action=play]').click()");await sleep(2750);await shot("g12-statistics-06__G12-STAT-L06-W01__result.png");
+ const desktop=await evaluate("(()=>{const box=document.querySelector('[data-object-id=boxplot-box]'),median=document.querySelector('.boxplot-median-line'),svg=document.querySelector('.statistics-boxplot svg');return {text:svg.textContent,box_x:box.getAttribute('x'),box_width:box.getAttribute('width'),median_x:median.getAttribute('x1'),missing:document.querySelector('.whiteboard-stage').dataset.missingTargets||'',diagnostic:document.querySelector('.whiteboard-stage').dataset.diagnostic||'',bars:svg.querySelectorAll('rect').length}})()");
+ await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:1,mobile:true});
+ await navigate(base+"&step=13");await focusBoard();await shot("g12-statistics-06__G12-STAT-L06-W01__result-mobile.png");
+ const mobile=await evaluate("(()=>{const board=document.querySelector('.statistics-boxplot'),stage=document.querySelector('.whiteboard-stage');return {document_clipped:document.documentElement.scrollWidth>document.documentElement.clientWidth,board_scrollable:board.scrollWidth>=board.clientWidth,stage_width:stage.getBoundingClientRect().width,caption:document.querySelector('[data-role=caption]').textContent}})()");
+ const required=["8","13","17","22","28"].every(value=>desktop.text.includes(value));
+ const result={question_id:"G12-STAT-L06-W01",template:"statistics:box_plot",required_values_visible:required,desktop,mobile,screenshots:4};
+ console.log(JSON.stringify(result,null,2));ws.close();
+ if(!required||desktop.box_x!=="175"||desktop.box_width!=="225"||desktop.median_x!=="275"||desktop.missing||desktop.diagnostic||desktop.bars!==1||mobile.document_clipped)process.exitCode=1;
+}
+main().catch(error=>{console.error(error);process.exit(1);});

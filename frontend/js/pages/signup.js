@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function step2() {
-    const grades = ["grade-12"];
+    const grades = ["grade-8", "grade-9", "grade-10", "grade-11", "grade-12"];
     const showMode = true;
     return `
       <h2>Tell us about your learning</h2>

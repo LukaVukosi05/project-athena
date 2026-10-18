@@ -1,12 +1,16 @@
 """Answer checking and state transitions for self-guided practice."""
 from fractions import Fraction
 import re
-from app.curriculum.grade12.lessons.sequences_practice import PRACTICE_BY_ID
+from app.practice.catalog import PRACTICE_BY_ID
 from app.practice.schemas import PracticeQuestion, PracticeState
 
 def normalise(value: str, question: PracticeQuestion) -> str:
     result = str(value).strip().casefold().replace("−", "-").replace("–", "-")
     result = re.sub(r"\s+", " ", result)
+    if question.type in {"numeric", "missing_term"}:
+        result = result.replace("r", "").replace(",", "").strip()
+    if question.lesson_id.startswith("g8-algebraic-equations-"):
+        result = result.replace(" ", "")
     return {"arithmetic sequence":"arithmetic","geometric sequence":"geometric","quadratic pattern":"quadratic","quadratic sequence":"quadratic"}.get(result, result)
 
 def equivalent(answer: str, accepted: str, question: PracticeQuestion) -> bool:
@@ -38,4 +42,8 @@ def mastery_summary(responses: dict, questions: list[PracticeQuestion], threshol
         if not status.get("correct") or status.get("attempts",0)>1:
             for tag in question.misconception_tags: tags[tag]=tags.get(tag,0)+1
     score=correct/len(questions) if questions else 0
-    return {"score":round(score*100),"questions_correct":correct,"total_questions":len(questions),"first_attempt_accuracy":round(first/len(questions)*100) if questions else 0,"hints_used":hints,"solution_viewed_without_success":solution_only,"misconception_areas":[k for k,_ in sorted(tags.items(),key=lambda x:(-x[1],x[0]))],"mastery_threshold":round(threshold*100),"mastered":score>=threshold,"recommended_review":"Review sequence classification tests and retry the practice." if score<threshold else "You are ready to continue to Lesson 2."}
+    algebra=bool(questions) and all(q.lesson_id.startswith("g12-algebra-") for q in questions)
+    exam_items_correct=all(bool(statuses[index-1].get("correct")) for index in (11,12)) if algebra and len(statuses)>=12 else True
+    mastered=score>=threshold and exam_items_correct
+    recommendation="Review the tagged teaching segment and retry the practice." if score<threshold else "Complete both exam-level items correctly before continuing." if not exam_items_correct else "You are ready for the explain-back checkpoint."
+    return {"score":round(score*100),"questions_correct":correct,"total_questions":len(questions),"first_attempt_accuracy":round(first/len(questions)*100) if questions else 0,"hints_used":hints,"solution_viewed_without_success":solution_only,"misconception_areas":[k for k,_ in sorted(tags.items(),key=lambda x:(-x[1],x[0]))],"mastery_threshold":round(threshold*100),"exam_items_correct":exam_items_correct,"explain_back_required":algebra,"mastered":mastered,"recommended_review":recommendation}

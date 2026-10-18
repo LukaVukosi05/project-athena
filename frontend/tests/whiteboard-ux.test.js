@@ -1,0 +1,35 @@
+const assert=require("assert"),fs=require("fs"),path=require("path");
+const root=path.join(__dirname,"..");
+const source=fs.readFileSync(path.join(root,"js/whiteboard/stateful-whiteboard.js"),"utf8");
+const questions=fs.readFileSync(path.join(root,"js/whiteboard/whiteboard-question-set.js"),"utf8");
+const css=fs.readFileSync(path.join(root,"css/components.css"),"utf8");
+const pages=fs.readFileSync(path.join(root,"css/pages.css"),"utf8");
+
+assert.strictEqual((source.match(/<button[^>]+data-action="primary"/g)||[]).length,1,"one primary action is rendered");
+for(const transition of ["startCurrent()","pauseCurrent()","continueCurrent()","nextStep()","previousStep()","replayStep()"]){assert(source.includes(transition),transition);}
+assert(source.includes('Step ${this.index + 1} of ${this.block.steps.length}'));
+assert(source.includes('aria-live="polite"')&&source.includes('aria-atomic="true"'));
+assert(source.includes('type="button"'));
+assert(source.includes('data-controller-state'));
+assert(source.includes('queueMicrotask(() => { this.actionLocked = false; })'),"one transition per click guard");
+assert(source.includes('this.timeline?.destroy()')&&source.includes('this.listeners?.abort()'),"example cleanup");
+assert(source.includes('this.reconstruct("result", "step_complete")'),"previous reconstructs deterministically");
+assert(source.includes('this.reconstruct("operation", "playing", false)'),"replay reconstructs deterministically");
+assert(source.includes('caption.textContent = event?.text'),"manual state reconstruction updates caption");
+assert(source.includes('<details class="whiteboard-teaching-notes">'),"teaching notes use disclosure");
+assert(!source.includes('data-action="play"')&&!source.includes('data-action="pause"'));
+assert.strictEqual((source.match(/<button[^>]+data-action="next"/g)||[]).length,1,"one dedicated mathematical Next control is rendered");
+assert(source.includes('status !== "step_complete" || this.isFinalStep()'),"Next is enabled only for a constructed non-terminal step");
+for(const label of ['idle:"Start lesson"','playing:"Pause"','paused:"Continue"','example_complete:"Replay lesson"'])assert(source.includes(label));
+assert(source.includes('event.code !== "Space"'),"Space activates the primary action outside form controls");
+assert(source.indexOf('class="whiteboard-control-bar"')>source.indexOf('class="whiteboard-workspace"')&&source.indexOf('class="whiteboard-control-bar"')<source.indexOf('class="whiteboard-teaching-notes"'),"controls are inside the whiteboard workspace");
+assert(questions.includes('this.syncUrl(step)')&&questions.includes('this.board.destroy?.()'),"restoration and cleanup remain wired");
+assert(css.includes('.whiteboard-workspace{display:block'));
+assert(css.includes('.whiteboard-stage{display:grid')&&css.includes('overflow:visible'));
+assert(css.includes('.whiteboard-primary-action{grid-column:1/-1;grid-row:1'));
+assert(css.includes('.whiteboard-control-bar .btn{min-height:44px}'));
+assert(css.includes('.whiteboard-teaching-notes'));
+assert(css.includes('min-height:44px'));
+assert(pages.includes('.lesson-layout{grid-template-columns:minmax(0,1fr)'));
+for(const width of [320,360,390,412])assert(width<=640,"required viewport is covered by the mobile rule");
+console.log("whiteboard-first responsive controller contract passed");

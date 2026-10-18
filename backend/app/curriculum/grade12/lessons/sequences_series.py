@@ -7,6 +7,7 @@ from app.curriculum.schemas import (
     VisualizationInstruction, VisualizationState, WhiteboardBlock,
     WhiteboardQuestion,
 )
+from app.curriculum.grade12.lessons.sequences_runtime import build_lesson
 
 
 def explanation(what: str, why: str, purpose: str, remember: str) -> StepExplanation:
@@ -171,17 +172,6 @@ LESSON_PACK_METADATA = [
 ]
 
 
-def lesson_pack_shell(number: int, title: str, objective: str, teaching: str) -> Lesson:
-    return Lesson(id=f"g12-sequences-series-{number:02}",order=number,title=title,objective=objective,
-        why_it_matters="This lesson is part of the approved CAPS Paper 1 Sequences and Series learning path.",
-        intuition=teaching,prerequisites=[] if number == 1 else [f"g12-sequences-series-{number-1:02}"],
-        estimated_minutes=55,difficulty="foundation" if number == 1 else "standard",access_level=AccessLevel.PREMIUM,
-        status=ContentStatus.DRAFT,mastery_threshold=.8,blocks=[
-            LessonBlock(type="concept",title="Teach the idea",content=teaching),
-            LessonBlock(type="summary",title="Authoring status",content="This DOCX-authored lesson is listed in sequence but its interactive whiteboard bank is awaiting the Lesson 1 experience review."),
-        ])
-
-
 _lesson_one_questions = lesson_one_questions()
 LESSON_ONE = Lesson(id="g12-sequences-series-01",order=1,title=LESSON_PACK_METADATA[0][1],
     objective=LESSON_PACK_METADATA[0][2],why_it_matters="A pattern must be tested before selecting a formula.",
@@ -204,4 +194,4 @@ LESSON_ONE = Lesson(id="g12-sequences-series-01",order=1,title=LESSON_PACK_METAD
         LessonBlock(type="summary",title="Key takeaway",content="Arithmetic means constant first difference; geometric means constant non-zero ratio; quadratic means constant second difference. Test before choosing a formula."),
     ])
 
-SEQUENCES_SERIES = [LESSON_ONE] + [lesson_pack_shell(*metadata) for metadata in LESSON_PACK_METADATA[1:]]
+SEQUENCES_SERIES = [LESSON_ONE] + [build_lesson(metadata) for metadata in LESSON_PACK_METADATA[1:]]

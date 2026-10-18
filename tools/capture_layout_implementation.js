@@ -1,0 +1,44 @@
+const fs=require("fs"),path=require("path");
+const OUT=path.resolve(__dirname,"../artifacts/layout-implementation"),BASE="http://127.0.0.1:8000";
+fs.mkdirSync(OUT,{recursive:true});
+const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+async function main(){
+  const pages=await (await fetch("http://127.0.0.1:9227/json")).json(),page=pages.find(item=>item.type==="page");
+  if(!page)throw new Error("No headless browser page is available");
+  const ws=new WebSocket(page.webSocketDebuggerUrl);let id=0;const pending=new Map(),inspected=[];
+  ws.onmessage=event=>{const message=JSON.parse(event.data);if(message.id&&pending.has(message.id)){const task=pending.get(message.id);pending.delete(message.id);message.error?task.reject(message.error):task.resolve(message.result);}};
+  await new Promise(resolve=>ws.onopen=resolve);
+  const send=(method,params={})=>new Promise((resolve,reject)=>{const call=++id;pending.set(call,{resolve,reject});ws.send(JSON.stringify({id:call,method,params}));});
+  const evaluate=async expression=>{const result=await send("Runtime.evaluate",{expression,returnByValue:true,awaitPromise:true});if(result.exceptionDetails)throw new Error(result.exceptionDetails.text);return result.result.value;};
+  const viewport=(width,height,mobile=false)=>send("Emulation.setDeviceMetricsOverride",{width,height,deviceScaleFactor:1,mobile});
+  const nav=async(relative,expect)=>{await send("Page.navigate",{url:BASE+relative});for(let attempt=0;attempt<120;attempt++){if(await evaluate("document.readyState==='complete'"))break;await sleep(50);}if(expect)for(let attempt=0;attempt<120;attempt++){if(await evaluate(`Boolean(document.querySelector(${JSON.stringify(expect)}))`))break;await sleep(100);}await sleep(250);await evaluate("window.scrollTo(0,0)");const horizontal=await evaluate("document.documentElement.scrollWidth<=document.documentElement.clientWidth+1");if(!horizontal)throw new Error(`Horizontal overflow at ${relative}`);inspected.push(relative);};
+  const shot=async name=>{const image=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false});fs.writeFileSync(path.join(OUT,name),Buffer.from(image.data,"base64"));};
+  const visibleShot=async(selector,name)=>{await evaluate(`(()=>{const node=document.querySelector(${JSON.stringify(selector)});if(node)window.scrollTo(0,node.getBoundingClientRect().top+window.scrollY-90);})()`);await sleep(180);await shot(name);};
+  await send("Page.enable");await send("Runtime.enable");await viewport(1440,1000);
+  await nav("/index.html",".hero");await evaluate("localStorage.clear();location.reload()");for(let attempt=0;attempt<120;attempt++){if(await evaluate("document.readyState==='complete'&&Boolean(document.querySelector('.hero'))"))break;await sleep(50);}await sleep(200);await evaluate("window.scrollTo(0,0)");await shot("landing-desktop.png");
+  await nav("/login.html","#login-form");
+  const email=`layout-${Date.now()}@example.com`;
+  await evaluate(`AthenaAuth.signup({firstName:'Layout',email:${JSON.stringify(email)},password:'secure-pass-123',grade:'grade-12',mode:'CAPS'})`);
+  await nav("/dashboard.html","#topics-list .topic-row");await shot("dashboard-desktop.png");
+  for(const grade of [8,9,10,11,12]){await nav(`/grade.html?grade=grade-${grade}`,grade===12?"#paper-2":".empty-state");}
+  await nav("/grade.html?grade=grade-12","#paper-2");await shot("grade12-catalogue-desktop.png");
+  await nav("/topic.html?grade=grade-12&topic=sequences-series","#lessons-list .topic-row");await shot("topic-page-desktop.png");
+  await nav("/lesson.html?grade=grade-12&topic=sequences-series&lesson=g12-sequences-series-01",".whiteboard-stage");
+  const initialText=await evaluate("document.querySelector('.whiteboard-stage').innerText");
+  const restoredTitle=await evaluate("document.getElementById('lesson-title')?.textContent");
+  if(!initialText||!restoredTitle||restoredTitle==='Lesson')throw new Error("Lesson did not restore directly");
+  await visibleShot(".whiteboard-stage","lesson-whiteboard-initial.png");
+  await evaluate("document.querySelector('.stateful-whiteboard [data-action=next]').click()");await sleep(350);await visibleShot(".whiteboard-stage","lesson-whiteboard-operation.png");
+  for(let step=0;step<12;step++){const disabled=await evaluate("document.querySelector('.stateful-whiteboard [data-action=next]').disabled");if(disabled)break;await evaluate("document.querySelector('.stateful-whiteboard [data-action=next]').click()");await sleep(80);}await sleep(900);await visibleShot(".whiteboard-stage","lesson-whiteboard-result.png");
+  const practiceReady=await evaluate("Boolean(document.querySelector('.self-guided-practice'))");if(!practiceReady)throw new Error("Independent practice did not mount");
+  const leaked=await evaluate("Boolean(document.querySelector('.self-guided-practice .worked-solution,.self-guided-practice [data-role=solution] li'))");if(leaked)throw new Error("Worked answer is present before submission");
+  await visibleShot(".self-guided-practice","independent-practice-before-submit.png");
+  await evaluate(`(()=>{const form=document.querySelector('.self-guided-practice form'),input=form.querySelector('input[type=text],input:not([type])');if(input){input.value='definitely wrong';input.dispatchEvent(new Event('input',{bubbles:true}));}else{const radio=form.querySelector('input[type=radio]');radio.checked=true;radio.dispatchEvent(new Event('change',{bubbles:true}));}form.requestSubmit();})()`);await sleep(650);await visibleShot(".self-guided-practice","independent-practice-diagnosis.png");
+  await nav("/progress.html","#progress-topics");await shot("progress-desktop.png");
+  await nav("/account.html",".pilot-card");await shot("subscription-desktop.png");
+  await nav("/past-papers.html",".empty-state");await nav("/topic.html?grade=grade-12&topic=not-a-topic","[role=alert]");
+  await viewport(390,844,true);await nav("/dashboard.html","#topics-list .topic-row");await shot("dashboard-mobile.png");await nav("/grade.html?grade=grade-12","#paper-2");await shot("grade12-catalogue-mobile.png");
+  fs.writeFileSync(path.join(OUT,"browser-verification.json"),JSON.stringify({base:BASE,email,inspected,horizontal_overflow:false,direct_lesson_restoration:true,initial_answer_hidden:true},null,2));
+  ws.close();console.log(JSON.stringify({screenshots:fs.readdirSync(OUT).filter(name=>name.endsWith('.png')).length,pages:inspected.length,output:OUT}));
+}
+main().catch(error=>{console.error(error);process.exit(1);});
