@@ -8,56 +8,64 @@ class WhiteboardQuestionSet {
     this.index = Math.max(0, Math.min(Number(params.get("example") || 1) - 1, questions.length - 1));
     this.requestedStep = Math.max(0, Number(params.get("step") || 0));
     this.steps[this.index] = Math.max(0, Math.min(this.requestedStep, questions[this.index].whiteboard.steps.length - 1));
+    if (this.steps[this.index]) this.statuses[this.index] = this.steps[this.index] === questions[this.index].whiteboard.steps.length - 1 ? "example_complete" : "step_complete";
+    this.destroyed = false;
   }
   mountSet() { this.render(); return this; }
   render() {
     if (this.board) { this.board.destroy?.(); this.board = null; }
     const question = this.questions[this.index];
     const difficulty = { foundation:"Foundation", easy:"Easy", standard:"Standard", intermediate:"Intermediate", exam:"Exam Level", advanced:"Advanced", expert:"Expert" }[question.difficulty] || question.difficulty;
-    const complete = !question.solution_gated && this.statuses[this.index] === "example_complete";
     this.mount.innerHTML = `<section class="whiteboard-question-set" aria-label="Worked example set">
-      <div class="example-progress"><strong>Example ${this.index + 1} of ${this.questions.length}</strong><span class="badge">${escapeWhiteboardHtml(difficulty)}</span></div>
-      <div class="example-dots" aria-hidden="true">${this.questions.map((_, i) => `<span class="${i <= this.index ? "complete" : ""}"></span>`).join("")}</div>
-      ${question.solution_gated ? '<div class="card worked-example-gate"><p>Try to predict the next legal operation before opening the teacher walkthrough.</p><button type="button" class="btn btn-primary" data-example-action="reveal">Start worked example</button></div>' : ""}
+      ${question.solution_gated ? `<div class="card worked-example-gate"><label>Worked example <select data-example-action="select" aria-label="Choose worked example">${this.questions.map((_, index) => `<option value="${index}" ${this.index === index ? "selected" : ""}>Example ${index + 1} of ${this.questions.length}</option>`).join("")}</select></label><span class="badge">${escapeWhiteboardHtml(difficulty)}</span><p>Predict the next legal operation, then open the explanation.</p><button type="button" class="btn btn-primary" data-example-action="reveal">Open explanation →</button></div>` : ""}
       <div data-role="current-whiteboard"></div>
-      <section class="example-completion" data-role="example-completion" ${complete ? "" : "hidden"} aria-live="polite">
-        <strong>${this.index === this.questions.length - 1 ? "✓ You've completed all worked examples" : "✓ Example complete"}</strong>
-        <p>${this.index === this.questions.length - 1 ? "You're ready to practise." : "Ready for a slightly harder one?"}</p>
-        <nav class="example-controls" aria-label="Worked example navigation">
-          ${this.index > 0 ? '<button type="button" class="btn btn-ghost" data-example-action="previous">← Previous Example</button>' : ""}
-          <button type="button" class="btn btn-ghost" data-example-action="practice">I'm Ready to Practise</button>
-          <button type="button" class="btn btn-primary" data-example-action="next">${this.index === this.questions.length - 1 || this.questions.length === 1 ? "Start Practice →" : "Next Example →"}</button>
-        </nav>
-      </section>
     </section>`;
-    this.board = new StatefulWhiteboard(this.mount.querySelector('[data-role="current-whiteboard"]'), question.whiteboard, {
-      initialStep: this.steps[this.index], guidanceLevel: question.guidance_level,
-      diagnosticContext: { lesson_id: this.lessonId, question_id: question.id }, teachingNotes: this.teachingNotes,
-      onStateChange: (step, status) => { this.steps[this.index] = step; this.statuses[this.index] = status; this.syncUrl(step); this.updateCompletion(); },
-      onNextExample: () => this.index === this.questions.length - 1 || this.questions.length === 1 ? this.onPractice() : this.move(1)
-    }).mountBoard();
+    if (!question.solution_gated) {
+      const currentIndex = this.index;
+      this.board = new StatefulWhiteboard(this.mount.querySelector('[data-role="current-whiteboard"]'), question.whiteboard, {
+        initialStep: this.steps[currentIndex], initialStatus:this.statuses[currentIndex],
+        exampleIndex:currentIndex, exampleCount:this.questions.length, guidanceLevel:question.guidance_level,
+        diagnosticContext:{ lesson_id:this.lessonId, question_id:question.id }, teachingNotes:this.teachingNotes,
+        onStateChange:(step, status) => { if (this.index !== currentIndex) return; this.steps[currentIndex] = step; this.statuses[currentIndex] = status; this.syncUrl(step); },
+        onNextExample:() => currentIndex === this.questions.length - 1 ? this.onPractice() : this.moveTo(currentIndex + 1),
+        onPreviousExample:() => this.moveTo(currentIndex - 1),
+        onSelectExample:index => this.moveTo(index)
+      }).mountBoard();
+    }
     const reveal = this.mount.querySelector('[data-example-action="reveal"]');
     if (reveal) reveal.onclick = async () => {
+      const requestedIndex = this.index;
       reveal.disabled = true;
       try {
         const full = await this.solutionLoader(question.id);
-        this.questions[this.index] = full;
-        this.steps[this.index] = Math.min(this.requestedStep, full.whiteboard.steps.length - 1);
-        this.render();
+        if (this.destroyed) return;
+        this.questions[requestedIndex] = full;
+        this.steps[requestedIndex] = Math.min(this.steps[requestedIndex], full.whiteboard.steps.length - 1);
+        if (this.index === requestedIndex) this.render();
       } catch (error) {
+        if (this.destroyed || this.index !== requestedIndex) return;
         reveal.disabled = false;
         reveal.insertAdjacentHTML("afterend", `<p role="alert">${escapeWhiteboardHtml(error.message)}</p>`);
       }
     };
-    const previous = this.mount.querySelector('[data-example-action="previous"]');
-    if (previous) previous.onclick = () => this.move(-1);
-    this.mount.querySelector('[data-example-action="next"]').onclick = () => this.index === this.questions.length - 1 || this.questions.length === 1 ? this.onPractice() : this.move(1);
-    this.mount.querySelector('[data-example-action="practice"]').onclick = () => this.onPractice();
+    const picker = this.mount.querySelector('[data-example-action="select"]');
+    if (picker) picker.onchange = event => this.moveTo(Number(event.target.value));
     this.syncUrl(this.steps[this.index]);
     if (reveal && this.requestedStep > 0) reveal.click();
+    this.requestedStep = 0;
   }
-  move(amount) { this.index = Math.max(0, Math.min(this.index + amount, this.questions.length - 1)); this.render(); this.mount.querySelector(".stateful-whiteboard header")?.focus(); }
-  destroy() { this.board?.destroy?.(); this.board = null; this.mount.replaceChildren(); }
-  updateCompletion() { const panel = this.mount.querySelector('[data-role="example-completion"]'); if (panel) panel.hidden = this.statuses[this.index] !== "example_complete"; }
+  moveTo(index) {
+    if (!Number.isInteger(index) || index < 0 || index >= this.questions.length || index === this.index) return;
+    if (["playing", "paused"].includes(this.statuses[this.index])) {
+      this.steps[this.index] = Math.max(0, this.steps[this.index] - 1);
+      this.statuses[this.index] = this.steps[this.index] ? "step_complete" : "idle";
+    }
+    this.index = index;
+    this.requestedStep = 0;
+    this.render();
+    this.mount.querySelector(".stateful-whiteboard header")?.focus();
+  }
+  move(amount) { this.moveTo(this.index + amount); }
+  destroy() { this.destroyed = true; this.board?.destroy?.(); this.board = null; this.mount.replaceChildren(); }
   syncUrl(step) { const url = new URL(location.href); url.searchParams.set("example", this.index + 1); url.searchParams.set("step", step); history.replaceState(null, "", url); }
 }

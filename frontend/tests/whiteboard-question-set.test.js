@@ -1,72 +1,83 @@
-const assert = require("assert");
-const fs = require("fs");
-const vm = require("vm");
+const test = require("node:test");
+const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const vm = require("node:vm");
+const path = require("node:path");
 
-global.location = { href: "https://athena.test/lesson.html?lesson=trig" };
-global.history = { replaceState() {} };
+global.location = { href: "https://athena.test/lesson.html?lesson=grade8" };
+global.history = { replaceState(_state, _title, url) { global.location.href = String(url); } };
 global.escapeWhiteboardHtml = value => String(value);
-
 class Element {
-  constructor() { this.hidden = false; this.disabled = false; this.onclick = null; }
+  constructor() { this.hidden = false; this.disabled = false; this.onclick = null; this.onchange = null; }
+  focus() { this.focused = true; }
+  insertAdjacentHTML() {}
 }
 class Mount {
   set innerHTML(value) {
-    this.html = value; this.nodes = { board: new Mount(), completion: new Element() };
-    for (const action of ["previous", "practice", "next"]) if (value.includes(`data-example-action="${action}"`)) this.nodes[action] = new Element();
-    this.nodes.completion.hidden = value.includes('data-role="example-completion" hidden');
+    this.html = value;
+    this.nodes = { board: new Mount(), header:new Element() };
+    for (const action of ["reveal", "select"]) if (value.includes(`data-example-action="${action}"`)) this.nodes[action] = new Element();
   }
   get innerHTML() { return this.html; }
   querySelector(selector) {
     if (selector === '[data-role="current-whiteboard"]') return this.nodes.board;
-    if (selector === '[data-role="example-completion"]') return this.nodes.completion;
-    if (selector === ".stateful-whiteboard header") return { focus() {} };
-    const match = selector.match(/data-example-action="([^"]+)/); return match ? this.nodes[match[1]] || null : null;
+    if (selector === ".stateful-whiteboard header") return this.nodes.header;
+    const match = selector.match(/data-example-action="([^"]+)/);
+    return match ? this.nodes[match[1]] || null : null;
   }
+  replaceChildren() { this.html = ""; }
 }
 global.StatefulWhiteboard = class {
-  constructor(mount, block, options) { this.block = block; this.index = options.initialStep; this.options = options; this.destroyed = false; }
+  constructor(mount, block, options) { this.block = block; this.index = options.initialStep; this.status = options.initialStatus; this.options = options; this.destroyed = false; }
   mountBoard() { return this; }
-  complete() { this.index = this.block.steps.length - 1; this.options.onStateChange(this.index, "example_complete"); }
-  destroy() { this.destroyed = true; global.destroyCount++; }
+  state(index, status) { this.index = index; this.status = status; this.options.onStateChange(index, status); }
+  destroy() { this.destroyed = true; }
 };
+vm.runInThisContext(fs.readFileSync(path.join(__dirname, "../js/whiteboard/whiteboard-question-set.js"), "utf8"));
+const makeQuestion = index => ({ id:`q${index+1}`, difficulty:"standard", guidance_level:"high", whiteboard:{ problem:`Problem ${index+1}`, steps:[{}, {}, {}] } });
 
-vm.runInThisContext(fs.readFileSync(require("path").join(__dirname, "../js/whiteboard/whiteboard-question-set.js"), "utf8"));
-global.destroyCount = 0;
-const makeQuestion = (index, count = 3) => ({ id:`question-${index + 1}`, difficulty: index ? "easy" : "foundation", guidance_level: "high", whiteboard: { problem: `Problem ${index + 1}`, visualization:{template:index===2?"cyclic_quadrilateral":"central_angle_theorem",parameters:{central_angle:index?84:100}}, steps: new Array(count).fill({}) } });
+test("jump from example 8 to 5 and back preserves the completed state", () => {
+  const set = new WhiteboardQuestionSet(new Mount(), Array.from({length:12}, (_, index) => makeQuestion(index))).mountSet();
+  set.moveTo(7);
+  assert.equal(set.board.block.problem, "Problem 8");
+  set.board.state(2, "example_complete");
+  const old = set.board;
+  set.board.options.onSelectExample(4);
+  assert.equal(old.destroyed, true);
+  assert.equal(set.board.block.problem, "Problem 5");
+  set.board.options.onSelectExample(7);
+  assert.equal(set.board.index, 2);
+  assert.equal(set.board.status, "example_complete");
+  assert.equal(new URL(global.location.href).searchParams.get("example"), "8");
+});
 
-const mount = new Mount();
-let practised = false;
-const set = new WhiteboardQuestionSet(mount, new Array(12).fill(null).map((_, index) => makeQuestion(index)), { onPractice: () => { practised = true; } }).mountSet();
-assert.strictEqual(set.board.block.problem, "Problem 1");
-assert.strictEqual(mount.nodes.completion.hidden, true);
-set.board.complete();
-assert.strictEqual(mount.nodes.completion.hidden, false);
-const firstBoard=set.board;
-mount.nodes.next.onclick();
-assert.strictEqual(firstBoard.destroyed,true);
-assert.strictEqual(set.board.block.problem, "Problem 2");
-assert.strictEqual(set.board.block.visualization.parameters.central_angle,84);
-assert.strictEqual(set.board.index, 0);
-set.board.complete();
-mount.nodes.next.onclick();
-assert.strictEqual(set.board.block.problem, "Problem 3");
-assert.strictEqual(set.board.block.visualization.template, "cyclic_quadrilateral");
-assert.strictEqual(set.board.index, 0);
-mount.nodes.previous.onclick();
-assert.strictEqual(set.board.block.problem, "Problem 2");
-assert.strictEqual(set.board.index, 2);
-mount.nodes.previous.onclick();
-assert.strictEqual(set.board.block.problem, "Problem 1");
-assert.strictEqual(set.board.index, 2);
-assert.ok(global.destroyCount>=2);
-set.index = 11; set.render(); set.board.complete();
-assert.ok(mount.innerHTML.includes("Start Practice"));
+test("leaving an interrupted step resumes at the last finished result", () => {
+  const set = new WhiteboardQuestionSet(new Mount(), [makeQuestion(0), makeQuestion(1)]).mountSet();
+  set.board.state(2, "playing");
+  set.moveTo(1);
+  set.moveTo(0);
+  assert.equal(set.board.index, 1);
+  assert.equal(set.board.status, "step_complete");
+});
 
-const singleMount = new Mount();
-const single = new WhiteboardQuestionSet(singleMount, [makeQuestion(0)], { onPractice: () => { practised = true; } }).mountSet();
-single.board.complete();
-assert.ok(singleMount.innerHTML.includes("Start Practice"));
-assert.ok(!singleMount.innerHTML.includes("Next Example →"));
-singleMount.nodes.next.onclick();
-assert.strictEqual(practised, true);
-console.log("whiteboard question-set flow passed");
+test("one final next-example action starts practice", () => {
+  let called = 0;
+  const set = new WhiteboardQuestionSet(new Mount(), [makeQuestion(0)], {onPractice:() => called++}).mountSet();
+  set.board.options.onNextExample();
+  assert.equal(called, 1);
+});
+
+test("late solution requests cannot switch the selected example", async () => {
+  let finish;
+  const deferred = new Promise(resolve => { finish = resolve; });
+  const first = {...makeQuestion(0), solution_gated:true};
+  const set = new WhiteboardQuestionSet(new Mount(), [first, makeQuestion(1)], {solutionLoader:() => deferred}).mountSet();
+  const pending = set.mount.nodes.reveal.onclick();
+  set.mount.nodes.select.onchange({target:{value:"1"}});
+  finish(makeQuestion(0));
+  await pending;
+  assert.equal(set.index, 1);
+  assert.equal(set.board.block.problem, "Problem 2");
+  set.moveTo(0);
+  assert.equal(set.board.block.problem, "Problem 1");
+});

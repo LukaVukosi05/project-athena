@@ -12,16 +12,16 @@ vm.runInThisContext(fs.readFileSync(path.join(__dirname, "../js/whiteboard/state
 test("the primary control has exactly one state-aware action", () => {
   const expected = {
     idle: ["start"],
-    playing: ["pause"],
+    playing: [],
     paused: ["continue"],
     step_complete: ["next", "start"],
-    example_complete: ["restart", "start"],
+    example_complete: ["next-example"],
   };
   for (const [status, callsExpected] of Object.entries(expected)) {
     const calls = [], board = Object.create(StatefulWhiteboard.prototype);
     Object.assign(board, { status,
       startCurrent(){calls.push("start");}, pauseCurrent(){calls.push("pause");}, continueCurrent(){calls.push("continue");},
-      nextStep(){calls.push("next");}, restartExample(){calls.push("restart");},
+      nextStep(){calls.push("next");}, restartExample(){calls.push("restart");}, onNextExample(){calls.push("next-example");},
     });
     board.primaryAction();
     assert.deepEqual(calls, callsExpected, status);
@@ -33,9 +33,19 @@ test("manual Next reconstructs one and only one mathematical state", () => {
   Object.assign(board, { status: "step_complete", index: 0, block: { steps: [{}, {}, {}] }, reconstruct(phase,status){calls.push([phase,status,this.index]);this.status=status;} });
   board.nextStep();
   assert.equal(board.index, 1);
-  assert.deepEqual(calls, [["ready", "paused", 1]]);
+  assert.deepEqual(calls, [["ready", "idle", 1]]);
   board.nextStep();
   assert.equal(board.index, 1, "Next cannot skip while the selected step is not complete");
+});
+
+test("Previous on step one returns to the previous example only when it exists", () => {
+  const calls = [], board = Object.create(StatefulWhiteboard.prototype);
+  Object.assign(board, {index:0, exampleIndex:5, onPreviousExample(){calls.push("previous-example");}});
+  board.previousStep();
+  assert.deepEqual(calls, ["previous-example"]);
+  board.exampleIndex = 0;
+  board.previousStep();
+  assert.deepEqual(calls, ["previous-example"]);
 });
 
 test("final Next is disabled by controller semantics", () => {
@@ -43,4 +53,28 @@ test("final Next is disabled by controller semantics", () => {
   Object.assign(board, { status: "step_complete", index: 1, block: { steps: [{}, {}] }, reconstruct(){throw new Error("must not reconstruct");} });
   board.nextStep();
   assert.equal(board.index, 1);
+});
+
+test("prior results remain on the board through ready, operation, and result", () => {
+  const stage = {innerHTML:"",setAttribute(){},querySelector(){return null;},dataset:{}};
+  global.CSS = {escape:value => value};
+  global.AthenaWhiteboardRegistry = {resolve(){return {render(){return "";}};}};
+  const board = Object.create(StatefulWhiteboard.prototype);
+  Object.assign(board, {
+    index:2, status:"idle", visualSession:{render(){return '<div data-object-id="operation">current</div>';}},
+    block:{initial_expression:"x + 2 = 8",visualization:{type:"algebra"},steps:[
+      {after_expression:"x + 2 − 2 = 8 − 2"},
+      {after_expression:"x = 6"},
+      {after_expression:"8 = 8",operation:{type:"test"},events:[],screen_reader_description:"Verify"},
+    ]},
+    mount:{querySelector(selector){if(selector===".whiteboard-stage")return stage;if(selector==='[data-role="checkpoint"]')return {hidden:false};return null;}},
+    stopTimeline(){},renderTeachingNotes(){},renderOpeningCaption(){},setStatus(){},
+  });
+  for (const phase of ["ready","operation","result"]) {
+    board.reconstruct(phase,"idle");
+    assert.match(stage.innerHTML,/x \+ 2 = 8/);
+    assert.match(stage.innerHTML,/x = 6/);
+    assert.equal((stage.innerHTML.match(/x = 6/g)||[]).length,1);
+    assert.ok(stage.innerHTML.indexOf("x = 6") < stage.innerHTML.indexOf("current"));
+  }
 });

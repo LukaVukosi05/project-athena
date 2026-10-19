@@ -99,11 +99,14 @@ test("audio-off and reduced-motion progression preserve every teaching event", a
 test("the integrated dock has one primary action and no duplicate replay at completion", () => {
   const source=fs.readFileSync(path.join(__dirname,"../js/whiteboard/stateful-whiteboard.js"),"utf8");
   const css=fs.readFileSync(path.join(__dirname,"../css/components.css"),"utf8");
-  assert.equal((source.match(/data-action="primary"/g)||[]).length,2, "one button plus one event binding");
+  assert.equal((source.match(/<button[^>]+data-action="primary"/g)||[]).length,1, "one primary button");
+  assert.ok(!source.includes('panel.querySelector("button")'), "checkpoint uses the primary Continue button");
   assert.ok(source.includes('replay.hidden = status === "example_complete"'));
-  assert.ok(source.includes('class="whiteboard-step-navigation"'));
-  assert.ok(source.includes('class="whiteboard-secondary-controls"'));
-  assert.ok(source.includes('class="whiteboard-solution-trail"'));
+  assert.ok(source.includes('data-action="example"'));
+  assert.ok(source.includes('data-action="previous"'));
+  assert.ok(source.includes('data-action="mute"'));
+  assert.ok(!source.includes('class="whiteboard-solution-trail"'), "history is visible on the board");
+  assert.ok(css.includes(".g8-completed-steps"));
   assert.ok(css.includes(".g8-action-slot{display:grid"));
   assert.ok(css.includes("grid-area:1/1"));
   assert.ok(css.includes("min-height:44px"));
