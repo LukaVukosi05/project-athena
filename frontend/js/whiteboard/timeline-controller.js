@@ -114,7 +114,7 @@ class TimelineController {
     if(["focus","focus_object"].includes(event.type))nodes.forEach(node=>{node.classList.remove("is-dimmed");node.classList.add("is-visible","is-focused","event-focus-object");});
     else if(event.type==="dim")nodes.forEach(node=>node.classList.add("is-dimmed"));
     else if(event.type==="reveal"){
-      this.stage.querySelectorAll('[data-object-id="operation"],[data-object-id="verification"]').forEach(node=>node.classList.add("is-hidden"));this.reveal(nodes,event.type);this.settleModel();
+      if(!this.stage.querySelector('.g8-equation-visual'))this.stage.querySelectorAll('[data-object-id="operation"],[data-object-id="verification"]').forEach(node=>node.classList.add("is-hidden"));this.reveal(nodes,event.type);this.settleModel();
     }
     else if(["write","replace","simplify","substitute","align","group","compare","complete","show_question","set_goal","factor_expression","split_zero_product","calculate_discriminant","branch_roots","mark_number_line","shade_interval","reject_candidate","back_substitute","pair_solutions","preserve_restriction"].includes(event.type))this.reveal(nodes,event.type);
     else if(event.type==="apply_both_sides"){
@@ -147,7 +147,7 @@ class TimelineController {
     else if(event.type==="verify_original")this.reveal(nodes,event.type);
     else if(event.type==="show_conclusion")this.reveal(nodes,event.type);
     else if(event.type==="verify"){
-      this.stage.querySelectorAll('[data-object-id="operation"],[data-object-id="result"]').forEach(node=>{node.classList.remove("is-visible");node.classList.add("is-hidden");});this.reveal(nodes,event.type);
+      if(!this.stage.querySelector('.g8-equation-visual'))this.stage.querySelectorAll('[data-object-id="operation"],[data-object-id="result"]').forEach(node=>{node.classList.remove("is-visible");node.classList.add("is-hidden");});this.reveal(nodes,event.type);
     }
     this.onStateChange(this,event);
   }

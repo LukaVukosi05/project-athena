@@ -102,7 +102,7 @@ test("the integrated dock has one primary action and no duplicate replay at comp
   assert.equal((source.match(/<button[^>]+data-action="primary"/g)||[]).length,1, "one primary button");
   assert.ok(!source.includes('panel.querySelector("button")'), "checkpoint uses the primary Continue button");
   assert.ok(source.includes('replay.hidden = status === "example_complete"'));
-  assert.ok(source.includes('data-action="example"'));
+  assert.ok(source.includes('data-example-index="${index}"'));
   assert.ok(source.includes('data-action="previous"'));
   assert.ok(source.includes('data-action="mute"'));
   assert.ok(!source.includes('class="whiteboard-solution-trail"'), "history is visible on the board");
@@ -112,4 +112,32 @@ test("the integrated dock has one primary action and no duplicate replay at comp
   assert.ok(css.includes("min-height:44px"));
   assert.ok(css.includes("@media(max-width:640px)"));
   assert.ok(css.includes("@media(prefers-reduced-motion:reduce)"));
+});
+
+test("Grade 8 reveal and verification keep the operation visible", () => {
+  const makeNode = () => ({
+    classes:new Set(["is-visible"]),
+    classList:{
+      add(...names) { for (const name of names) this.owner.classes.add(name); },
+      remove(...names) { for (const name of names) this.owner.classes.delete(name); },
+    }
+  });
+  const operation = makeNode(), result = makeNode(), verification = makeNode();
+  for (const node of [operation,result,verification]) node.classList.owner=node;
+  const stage = {
+    querySelector(selector) { return selector === ".g8-equation-visual" ? {} : null; },
+    querySelectorAll(selector) {
+      if (selector === '[data-object-id="operation"],[data-object-id="verification"]') return [operation,verification];
+      if (selector === '[data-object-id="operation"],[data-object-id="result"]') return [operation,result];
+      return [];
+    },
+  };
+  const controller = Object.create(TimelineController.prototype);
+  Object.assign(controller,{stage,nodes:event=>event.targets.map(id=>({operation,result,verification})[id]),reveal(nodes){nodes.forEach(node=>node.classes.add("is-visible"));},settleModel(){},onStateChange(){}});
+  controller.apply({type:"reveal",targets:["result"]});
+  controller.apply({type:"verify",targets:["verification"]});
+  assert.ok(operation.classes.has("is-visible"));
+  assert.ok(!operation.classes.has("is-hidden"));
+  assert.ok(result.classes.has("is-visible"));
+  assert.ok(verification.classes.has("is-visible"));
 });

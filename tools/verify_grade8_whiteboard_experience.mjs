@@ -48,7 +48,7 @@ try {
     throw new Error(`Timed out: ${expression}; page=${await evaluate("document.body?.innerText?.slice(0,800)")}`);
   };
   const click=selector=>evaluate(`(()=>{const node=document.querySelector(${JSON.stringify(selector)});if(!node)throw Error('Missing ${selector}');node.click();return true})()`);
-  const state=()=>evaluate(`(()=>{const board=document.querySelector('.stateful-whiteboard'),stage=document.querySelector('.whiteboard-stage');return {status:board?.dataset.controllerState,example:Number(document.querySelector('[data-action="example"],[data-example-action="select"]')?.value)+1,step:document.querySelector('[data-role="position"]')?.textContent,history:stage?.querySelectorAll('.g8-completed-steps li').length||0,text:stage?.innerText||'',missing:stage?.dataset.missingTargets||'',overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,stageOverflow:stage?.scrollWidth-stage?.clientWidth||0,primary:document.querySelector('[data-action="primary"]')?.textContent};})()`);
+  const state=()=>evaluate(`(()=>{const board=document.querySelector('.stateful-whiteboard'),stage=document.querySelector('.whiteboard-stage');return {status:board?.dataset.controllerState,example:Number(document.querySelector('[data-example-index][aria-current="step"]')?.dataset.exampleIndex)+1,step:document.querySelector('[data-role="position"]')?.textContent,history:stage?.querySelectorAll('.g8-completed-steps li').length||0,text:stage?.innerText||'',missing:stage?.dataset.missingTargets||'',overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,stageOverflow:stage?.scrollWidth-stage?.clientWidth||0,primary:document.querySelector('[data-action="primary"]')?.textContent};})()`);
   async function shot(name) {
     const data=(await cdp.send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false})).data;
     writeFileSync(path.join(output,name),Buffer.from(data,"base64"));
@@ -56,16 +56,11 @@ try {
   async function navigate(number,width=1440,height=1000) {
     await cdp.send("Emulation.setDeviceMetricsOverride",{width,height,deviceScaleFactor:1,mobile:width<700});
     await cdp.send("Page.navigate",{url:`${baseUrl}/lesson.html?grade=grade-8&topic=algebraic-equations&lesson=g8-algebraic-equations-01&example=${number}`});
-    await waitFor(`document.querySelector('[data-example-action="reveal"]')`);
-    await click('[data-example-action="reveal"]');
-    await waitFor(`document.querySelector('.stateful-whiteboard')`);
+    await waitFor(`document.querySelector('.stateful-whiteboard') && !document.querySelector('[data-action="primary"]')?.disabled`);
     await evaluate("document.querySelector('.stateful-whiteboard').scrollIntoView({block:'start'})");
   }
   const settings=(name,value)=>evaluate(`(()=>{const input=document.querySelector('[data-action="${name}"]');if(input.checked!==${value})input.click();return input.checked})()`);
-  const pick=number=>evaluate(`(()=>{const picker=document.querySelector('[data-action="example"],[data-example-action="select"]');picker.value=${number-1};picker.dispatchEvent(new Event('change',{bubbles:true}));return true})()`);
-  const revealIfGated=async()=>{if(await evaluate("!!document.querySelector('[data-example-action=\"reveal\"]')")) {
-    await click('[data-example-action="reveal"]'); await waitFor("!!document.querySelector('.stateful-whiteboard')");
-  }};
+  const pick=async number=>{await click(`[data-example-index="${number-1}"]`);await waitFor(`document.querySelector('[data-example-index="${number-1}"][aria-current="step"]') && !document.querySelector('[data-action="primary"]')?.disabled`);};
   const payload=number=>evaluate(`fetch('/api/v1/lessons/g8-algebraic-equations-01/questions/g8-ae-l01-w${String(number).padStart(2,"0")}/reveal',{method:'POST'}).then(r=>r.json())`);
   const results=[];
   for (let number=1; number<=15; number++) {
@@ -76,10 +71,11 @@ try {
     if (initial.history || initial.missing || initial.overflow>1 || initial.stageOverflow>1) throw Error(`Example ${number}: bad initial state ${JSON.stringify(initial)}`);
     for (let index=0; index<steps.length; index++) {
       const ready=await state();
-      if (ready.history!==Math.max(0,index-1) || ready.status!==(index===0?"idle":"step_complete")) throw Error(`Example ${number}: step ${index+1} not ready ${JSON.stringify(ready)}`);
+      if (ready.history!==index || ready.status!==(index===0?"idle":"step_complete")) throw Error(`Example ${number}: step ${index+1} not ready ${JSON.stringify(ready)}`);
       await click('[data-action="primary"]');
       const result=await state();
-      if (result.status!==(index===steps.length-1?"example_complete":"step_complete") || result.history!==index) throw Error(`Example ${number}: result not complete ${JSON.stringify(result)}`);
+      if (result.status!==(index===steps.length-1?"example_complete":"step_complete") || result.history!==index+1) throw Error(`Example ${number}: result not complete ${JSON.stringify(result)}`);
+      if (!result.text.includes(steps[index].after_expression)) throw Error(`Example ${number}: current written result is missing`);
       if (index>0 && !result.text.includes(steps[index-1].after_expression))
         throw Error(`Example ${number}: previous mathematics disappeared on step ${index+1}`);
     }
@@ -93,9 +89,9 @@ try {
   await settings("reduced-motion",true);
   await click('[data-action="primary"]');
   const saved=await state();
-  await pick(5); await revealIfGated();
+  await pick(5);
   if ((await state()).example!==5) throw Error("Example picker failed to jump from 8 to 5");
-  await pick(8); await revealIfGated();
+  await pick(8);
   const returned=await state();
   if (returned.step!==saved.step || returned.status!==saved.status) throw Error("Returning to example 8 lost its completed step");
   await shot("example-8-returned.png");
@@ -108,7 +104,7 @@ try {
   if ((await state()).status!=="paused") throw Error("Pause did not stop the explanation");
   await click('[data-action="primary"]');
   if ((await state()).status!=="playing") throw Error("Continue did not resume the explanation");
-  await pick(5); await revealIfGated(); await pick(2); await revealIfGated();
+  await pick(5); await pick(2);
   if ((await state()).status==="playing") throw Error("Switching examples left stale narration playing");
 
   await navigate(5,390,844);

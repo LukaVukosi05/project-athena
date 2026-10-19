@@ -10,6 +10,7 @@ class StatefulWhiteboard {
     this.onSelectExample = options.onSelectExample || function () {};
     this.exampleIndex = options.exampleIndex || 0;
     this.exampleCount = options.exampleCount || 1;
+    this.pending = Boolean(options.pending);
     this.teachingNotes = options.teachingNotes || {};
     this.diagnosticContext = options.diagnosticContext || {};
     this.visualSession = AthenaVisualizationResolver.resolve(block, this.diagnosticContext);
@@ -25,7 +26,7 @@ class StatefulWhiteboard {
 
   mountBoard() {
     this.mount.innerHTML = `<section class="stateful-whiteboard" aria-label="Interactive worked example" data-controller-state="${this.status}">
-      <header tabindex="-1"><div class="whiteboard-heading-row"><label class="whiteboard-example-picker">Worked example <select data-action="example" aria-label="Choose worked example">${Array.from({ length:this.exampleCount }, (_, index) => `<option value="${index}" ${index === this.exampleIndex ? "selected" : ""}>Example ${index + 1} of ${this.exampleCount}</option>`).join("")}</select></label><div class="whiteboard-utilities"><button type="button" class="btn btn-ghost whiteboard-icon-button" data-action="mute" aria-label="Mute audio" aria-pressed="false" title="Audio on">${this.speakerIcon(false)}</button><details class="whiteboard-settings"><summary class="btn btn-ghost whiteboard-icon-button" aria-label="More whiteboard settings" title="More settings">⋯</summary><div class="whiteboard-settings-panel"><button type="button" class="btn btn-ghost" data-action="replay">Replay step</button><button type="button" class="btn btn-ghost" data-action="restart">Restart example</button><button type="button" class="btn btn-ghost" data-action="captions" aria-pressed="true">Captions on</button><label class="playback-speed">Playback speed <select data-action="speed" aria-label="Playback speed"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><label class="reduced-motion-setting"><input type="checkbox" data-action="reduced-motion" ${this.reducedMotion ? "checked" : ""}> Reduced motion</label></div></details></div></div><strong>${escapeWhiteboardHtml(this.block.problem)}</strong></header>
+      <header tabindex="-1"><div class="whiteboard-heading-row"><span class="whiteboard-example-title">Worked example ${this.exampleIndex + 1} of ${this.exampleCount}</span><div class="whiteboard-utilities"><button type="button" class="btn btn-ghost whiteboard-icon-button" data-action="mute" aria-label="Mute audio" aria-pressed="false" title="Audio on">${this.speakerIcon(false)}</button><details class="whiteboard-settings"><summary class="btn btn-ghost whiteboard-icon-button" aria-label="More whiteboard settings" title="More settings">⋯</summary><div class="whiteboard-settings-panel"><button type="button" class="btn btn-ghost" data-action="replay">Replay step</button><button type="button" class="btn btn-ghost" data-action="restart">Restart example</button><button type="button" class="btn btn-ghost" data-action="captions" aria-pressed="true">Captions on</button><label class="playback-speed">Playback speed <select data-action="speed" aria-label="Playback speed"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><label class="reduced-motion-setting"><input type="checkbox" data-action="reduced-motion" ${this.reducedMotion ? "checked" : ""}> Reduced motion</label></div></details></div></div><strong>${escapeWhiteboardHtml(this.block.problem)}</strong><nav class="whiteboard-example-navigation" aria-label="Choose worked example">${Array.from({ length:this.exampleCount }, (_, index) => `<button type="button" class="whiteboard-example-number ${index === this.exampleIndex ? "is-current" : ""}" data-example-index="${index}" aria-label="Example ${index + 1} of ${this.exampleCount}" ${index === this.exampleIndex ? 'aria-current="step"' : ""}>${index + 1}</button>`).join("")}</nav></header>
       <div class="whiteboard-workspace"><div class="whiteboard-stage" role="region" aria-label="Mathematical whiteboard"></div>
       <div class="timeline-caption" data-role="caption" aria-live="polite" aria-atomic="true"></div>
       <div class="timeline-checkpoint" data-role="checkpoint" hidden></div>
@@ -43,7 +44,7 @@ class StatefulWhiteboard {
     bind("primary", "click", () => this.runAction(() => this.primaryAction()));
     bind("previous", "click", () => this.runAction(() => this.previousStep()));
     bind("pause", "click", () => this.runAction(() => this.pauseCurrent()));
-    bind("example", "change", event => this.onSelectExample(Number(event.target.value)));
+    this.mount.querySelectorAll("[data-example-index]").forEach(button => button.addEventListener("click", () => this.onSelectExample(Number(button.dataset.exampleIndex)), { signal:this.listeners.signal }));
     bind("replay", "click", () => this.runAction(() => this.replayStep()));
     bind("restart", "click", () => this.runAction(() => this.restartExample()));
     bind("speed", "change", event => { this.playbackSpeed = Number(event.target.value); this.timeline?.setSpeed(this.playbackSpeed); });
@@ -100,9 +101,9 @@ class StatefulWhiteboard {
       catch (error) { AthenaVisualizationDiagnostics.emit("VISUALIZATION_RENDER_FAILED", { ...this.diagnosticContext, block_id:this.block.id }); visualization = `<div class="visualization-fallback" role="note"><strong>Diagram unavailable.</strong><p>${escapeWhiteboardHtml(step.screen_reader_description)}</p></div>`; }
     }
     const stage = this.mount.querySelector(".whiteboard-stage");
-    const previousResults = this.block.steps.slice(0, this.index);
-    const trace = previousResults.length ? `<section class="g8-completed-steps" aria-label="Steps already completed"><p>From the original: ${escapeWhiteboardHtml(this.block.initial_expression)}</p><ol>${previousResults.map((prior, index) => `<li><span>Step ${index + 1}</span><strong>${escapeWhiteboardHtml(prior.after_expression)}</strong></li>`).join("")}</ol></section>` : "";
-    stage.innerHTML = `${this.visualSession?.type === "algebra" || this.block.visualization?.type === "algebra" ? trace : ""}${visualization}${renderer.render(step, phase, { history, hasVisualization:Boolean(this.visualSession) })}`;
+    const writtenSteps = this.block.steps.slice(0, this.index + (phase === "result" ? 1 : 0));
+    const trace = writtenSteps.length ? `<section class="g8-completed-steps" aria-label="Written solution so far"><h3>Written solution so far</h3><p>Original: ${escapeWhiteboardHtml(this.block.initial_expression)}</p><ol>${writtenSteps.map((prior, index) => `<li><span>Step ${index + 1}</span><div>${prior.working_expression ? `<small>Operation: ${escapeWhiteboardHtml(prior.working_expression)}</small>` : ""}<strong>${escapeWhiteboardHtml(prior.after_expression)}</strong></div></li>`).join("")}</ol></section>` : "";
+    stage.innerHTML = `${visualization}${renderer.render(step, phase, { history, hasVisualization:Boolean(this.visualSession) })}${this.visualSession?.type === "algebra" || this.block.visualization?.type === "algebra" ? trace : ""}`;
     stage.setAttribute("aria-label", step.screen_reader_description);
     const targets = [...new Set((step.events || []).flatMap(event => event.targets || []))];
     const missing = targets.filter(id => !stage.querySelector(`[data-object-id="${CSS.escape(id)}"]`));
@@ -147,7 +148,8 @@ class StatefulWhiteboard {
     this.status = status; this.mount.querySelector(".stateful-whiteboard").dataset.controllerState = status;
     const labels = { idle:this.index ? "Explain this step →" : "Start explanation →", playing:"Explaining…", paused:"Continue explanation →", step_complete:"Next step →", example_complete:this.exampleIndex + 1 < this.exampleCount ? "Next example →" : "Start practice →" };
     const primary = this.mount.querySelector('[data-action="primary"]'); primary.textContent = labels[status]; primary.setAttribute("aria-label", labels[status]);
-    primary.disabled = status === "playing";
+    primary.disabled = status === "playing" || this.pending;
+    if (this.pending) primary.textContent = "Loading example…";
     this.mount.querySelector('[data-action="previous"]').disabled = this.index === 0 && this.exampleIndex === 0;
     this.mount.querySelector('[data-action="pause"]').hidden = status !== "playing";
     const replay = this.mount.querySelector('[data-action="replay"]'); replay.disabled = status === "playing"; replay.hidden = status === "example_complete";

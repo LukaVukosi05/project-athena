@@ -75,6 +75,7 @@ test("prior results remain on the board through ready, operation, and result", (
     assert.match(stage.innerHTML,/x \+ 2 = 8/);
     assert.match(stage.innerHTML,/x = 6/);
     assert.equal((stage.innerHTML.match(/x = 6/g)||[]).length,1);
-    assert.ok(stage.innerHTML.indexOf("x = 6") < stage.innerHTML.indexOf("current"));
+    assert.ok(stage.innerHTML.indexOf("x = 6") > stage.innerHTML.indexOf("current"), "written working follows the active diagram");
+    if (phase === "result") assert.match(stage.innerHTML, /Step 3<\/span>.*8 = 8/, "the final written solution includes the current check");
   }
 });

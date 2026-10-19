@@ -26,11 +26,19 @@ test("Grade 8 equation families are native, question-specific and stateful",()=>
   const state={objects:["problem","left-expression","right-expression","operation","result","verification"],highlights:["left-expression"],annotations:["stage:2","action:evaluate_expression","phase:operation"],target:"left-expression",before_state:"7 + 5 = 9 + 3",working_state:"7 + 5 → 12",after_state:"12 = 9 + 3"};
   const ready=renderer.render(parameters,state,"ready"),working=renderer.render(parameters,state,"operation"),settled=renderer.render(parameters,state,"result");
   assert.notEqual(ready,working);assert.notEqual(working,settled);assert.match(settled,new RegExp(template.replaceAll("_","-")));assert.match(settled,/data-object-id="problem"/);for(const id of ["left-expression","right-expression","operation","result","verification"])assert.match(settled,new RegExp(`data-object-id="${id}"`));
-  assert.match(ready,/7 \+ 5/);assert.ok(working.includes("7 + 5")&&working.includes("12"));assert.match(settled,/12 = 9 \+ 3/);assert.match(ready,/g8-operation is-hidden/);assert.match(settled,/g8-result is-visible/);assert.match(settled,/g8-operation is-hidden/);
+  assert.match(ready,/7 \+ 5/);assert.ok(working.includes("7 + 5")&&working.includes("12"));assert.match(settled,/12 = 9 \+ 3/);assert.match(ready,/g8-operation is-hidden/);assert.match(settled,/g8-result is-visible/);assert.match(settled,/g8-operation is-visible/);
   assert.match(ready,/data-term-id="left-term-/,"individual mathematical terms are targetable");
   assert.match(working,/data-operation-action="evaluate_expression"/);
   assert.match(working,/g8-operation-path/,"the operation has targetable motion objects before its result");
   assert.match(settled,/data-action="evaluate_expression"/);
   assert.match(settled,/Result of this step/,"an intermediate state is not labelled as the final answer");
  }
+});
+
+test("additive equations do not show a permanent cancellation slogan or empty unknown slot",()=>{
+ const registry=registryFor("algebra/grade8-equation-renderers.js"),renderer=registry.get("algebra:additive_inverse");
+ const markup=renderer.render({prompt:"□ + 3 = 10",question_id:"g8-ae-l01-w03",source_data:""},{before_state:"□ + 3 = 10",working_state:"subtract 3 from both sides",after_state:"□ = 7",target:"left-expression",annotations:["stage:2","action:remove_from_both_sides"]},"result");
+ assert.doesNotMatch(markup,/inverse pairs cancel to zero/);
+ assert.match(markup,/data-object-id="variable-slot"[^>]* hidden/);
+ assert.match(markup,/subtract 3 from both sides/);
 });

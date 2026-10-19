@@ -8,20 +8,21 @@ global.location = { href: "https://athena.test/lesson.html?lesson=grade8" };
 global.history = { replaceState(_state, _title, url) { global.location.href = String(url); } };
 global.escapeWhiteboardHtml = value => String(value);
 class Element {
-  constructor() { this.hidden = false; this.disabled = false; this.onclick = null; this.onchange = null; }
+  constructor() { this.hidden = false; this.disabled = false; this.onclick = null; this.onchange = null; this.textContent = ""; this.innerHTML = ""; }
   focus() { this.focused = true; }
   insertAdjacentHTML() {}
+  querySelector(selector) { if (selector.includes('retry')) return this.retry || (this.retry = { addEventListener(_type, listener) { this.onclick = listener; } }); return null; }
 }
 class Mount {
   set innerHTML(value) {
     this.html = value;
-    this.nodes = { board: new Mount(), header:new Element() };
-    for (const action of ["reveal", "select"]) if (value.includes(`data-example-action="${action}"`)) this.nodes[action] = new Element();
+    this.nodes = { board: new Mount(), header:new Element(), loading:new Element() };
   }
   get innerHTML() { return this.html; }
   querySelector(selector) {
     if (selector === '[data-role="current-whiteboard"]') return this.nodes.board;
     if (selector === ".stateful-whiteboard header") return this.nodes.header;
+    if (selector === '[data-role="example-loading"]') return this.nodes.loading;
     const match = selector.match(/data-example-action="([^"]+)/);
     return match ? this.nodes[match[1]] || null : null;
   }
@@ -67,17 +68,19 @@ test("one final next-example action starts practice", () => {
   assert.equal(called, 1);
 });
 
-test("late solution requests cannot switch the selected example", async () => {
+test("the whiteboard appears immediately and loads teaching steps without an explanation gate", async () => {
   let finish;
   const deferred = new Promise(resolve => { finish = resolve; });
   const first = {...makeQuestion(0), solution_gated:true};
   const set = new WhiteboardQuestionSet(new Mount(), [first, makeQuestion(1)], {solutionLoader:() => deferred}).mountSet();
-  const pending = set.mount.nodes.reveal.onclick();
-  set.mount.nodes.select.onchange({target:{value:"1"}});
-  finish(makeQuestion(0));
-  await pending;
+  assert.equal(set.board.block.problem, "Problem 1");
+  assert.equal(set.board.options.pending, true);
+  assert.ok(!set.mount.html.includes("Open explanation"));
+  set.board.options.onSelectExample(1);
+  finish(makeQuestion(0)); await new Promise(resolve => setImmediate(resolve));
   assert.equal(set.index, 1);
   assert.equal(set.board.block.problem, "Problem 2");
   set.moveTo(0);
   assert.equal(set.board.block.problem, "Problem 1");
+  assert.equal(set.board.options.pending, false);
 });
