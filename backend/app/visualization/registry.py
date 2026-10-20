@@ -15,7 +15,7 @@ class TemplateDefinition:
     requires_step_states: bool = False
 
 def _reject_unsafe(parameters: dict) -> None:
-    for value in parameters.values():
+    for key, value in parameters.items():
         values = value if isinstance(value, list) else [value]
         if len(values) > 100:
             raise ValueError("Visualization parameter collection exceeds 100 values")
@@ -23,7 +23,8 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            if isinstance(item, str) and (len(item) > 160 or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
+            limit = 600 if key in {"source_data", "initial_state"} and re.fullmatch(r"g8-ae-l0[1-8]-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
 def _bounded_number(name: str, minimum: float, maximum: float) -> ParameterValidator:
@@ -110,7 +111,7 @@ def _grade8_equation_visual(parameters: dict) -> None:
     for name in ("prompt", "source_data", "initial_state", "family", "question_id"):
         if not isinstance(parameters[name], str) or not parameters[name].strip():
             raise ValueError(f"Grade 8 equation {name} must be non-empty")
-    if not re.fullmatch(r"g8-ae-l(?:01|02|03)-w\d{2}", parameters["question_id"]):
+    if not re.fullmatch(r"g8-ae-l(?:01|02|03|04|05|06|07|08)-w\d{2}", parameters["question_id"]):
         raise ValueError("Grade 8 equation question_id is invalid")
 
 def _semantic_workbench(parameters: dict) -> None:
@@ -216,6 +217,12 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
             "distributive_equation", "inspection_fact_family", "inspection_number_line",
             "inspection_substitution_table", "inspection_context",
             "additive_balance", "additive_number_line", "additive_context",
+            "equal_groups", "fraction_scale", "multiplicative_balance", "multiplicative_context",
+            "two_step_balance_native", "operation_machine", "two_step_number_line",
+            "two_step_fraction_scale", "two_step_context", "variables_both_sides_native", "expression_comparison",
+            "identity_contradiction", "dual_rate_timeline", "equal_sides_triangle",
+            "bracket_balance_native", "bracket_distribution_native", "bracket_paths_native", "bracket_area_native", "bracket_rectangle_native",
+            "fraction_bar_balance_native", "fraction_equivalence_native", "fraction_lcd_native", "fraction_error_native", "fraction_context_native",
         )
     },
     ("geometry", "central_angle_theorem"): TemplateDefinition(frozenset({"central_angle"}), frozenset({"target"}), _bounded_number("central_angle", 0, 180), True),

@@ -1,0 +1,925 @@
+{
+  "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
+  "source_sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
+  "id": "g8-algebraic-equations-08",
+  "title": "Fraction equations",
+  "estimated_minutes": 85,
+  "mastery_threshold": 0.8,
+  "objective": "Solve linear equations containing numerical denominators by interpreting fractions as division, selecting a lowest common denominator, clearing denominators on both complete sides, preserving equality and checking in the original fractional equation.",
+  "why_it_matters": "Fraction equations appear in rates, sharing, recipes, measurement and later algebra. Learners need to understand why multiplying by the lowest common denominator preserves equality instead of memorising the instruction to move or cancel denominators.",
+  "prerequisites": [
+    "Find lowest common multiples of positive integers",
+    "Generate equivalent fractions",
+    "Apply one operation to both sides of an equation",
+    "Expand a numerical factor over a bracket",
+    "Substitute rational values into expressions"
+  ],
+  "vocabulary": [
+    {
+      "term": "denominator",
+      "meaning": "The number below a fraction bar that states the number of equal parts in one whole."
+    },
+    {
+      "term": "lowest common denominator",
+      "meaning": "The least positive number divisible by every denominator in the equation."
+    },
+    {
+      "term": "clear denominators",
+      "meaning": "Multiply every term on both complete equation sides by a common denominator."
+    },
+    {
+      "term": "equivalent equation",
+      "meaning": "An equation with the same solution set as the original equation."
+    },
+    {
+      "term": "restriction",
+      "meaning": "A value excluded because it would make a denominator zero. In this Grade 8 lesson, denominators are numerical, so no variable restrictions are introduced."
+    }
+  ],
+  "concept_teaching": [
+    "A fraction bar is a division symbol: x/4 means x divided into four equal parts.",
+    "A simple equation such as x/4 = 6 can be solved by multiplying both complete sides by four.",
+    "When several numerical denominators occur, choose their lowest common multiple so every fraction becomes an integer term.",
+    "The multiplier applies to every term on both sides, including whole-number terms and terms inside grouped numerators.",
+    "Cancel only common factors in products. Never cancel across addition or subtraction.",
+    "After solving, substitute into the untouched fractional equation and compare the exact values of both sides."
+  ],
+  "entry_diagnostic": {
+    "prompt": "Find the lowest common multiple of 4 and 6, simplify 12/4 and 12/6, then solve 3x = 18.",
+    "answer": "12; 3; 2; x = 6.",
+    "failure_route": "Review multiples, equivalent fractions and one-step equations before clearing denominators."
+  },
+  "misconceptions": [
+    {
+      "tag": "multiplies-one-term-only",
+      "diagnosis": "The common denominator is applied to only one term.",
+      "repair": "Place an LCD multiplier card over every term before simplifying any product."
+    },
+    {
+      "tag": "adds-denominators",
+      "diagnosis": "Denominators are added when fractions are combined.",
+      "repair": "Use equal-width fraction bars and rename both fractions with one common denominator."
+    },
+    {
+      "tag": "false-cancellation-sum",
+      "diagnosis": "A denominator is cancelled across a sum or difference.",
+      "repair": "Box the complete numerator; cancellation is allowed only between factors in a product."
+    },
+    {
+      "tag": "wrong-lcd",
+      "diagnosis": "A number not divisible by every denominator is selected.",
+      "repair": "Build aligned multiple lists and choose the first shared value."
+    },
+    {
+      "tag": "one-side-operation",
+      "diagnosis": "Only one side is multiplied by the common denominator.",
+      "repair": "Show matching multiplier gates around both complete equation sides."
+    },
+    {
+      "tag": "sign-lost",
+      "diagnosis": "A subtraction sign is lost while denominators are cleared.",
+      "repair": "Bind each sign to its following term before applying the multiplier."
+    },
+    {
+      "tag": "whole-term-omitted",
+      "diagnosis": "A whole-number term is not multiplied by the LCD.",
+      "repair": "Rewrite the whole number over one and pass it through the same multiplier gate."
+    },
+    {
+      "tag": "verification-omitted",
+      "diagnosis": "The integer equation is checked instead of the original fraction equation.",
+      "repair": "Return to the untouched fractions and compare exact left and right values."
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "g8-ae-l08-w01",
+      "number": 1,
+      "prompt": "Solve x/5 = 7 using equal sharing.",
+      "difficulty": "foundation",
+      "cognitive_level": "knowledge",
+      "marks": 3,
+      "answer": "x = 35.",
+      "memo": [
+        "1. The left side is one fifth of x.",
+        "2. Multiply both sides by 5: x = 35.",
+        "3. Check: 35/5 = 7."
+      ],
+      "misconception_tags": [
+        "one-side-operation"
+      ],
+      "renderer": "algebra:fraction_bar_balance",
+      "question_data": "left_fraction = x/5; right_value = 7; groups = 5; solution = 35",
+      "initial_state": "Show five equal covered parts making one x-bar, with one part balanced against seven counters; hide the total and solution.",
+      "teaching_sequence": [
+        "1. Reveal that one covered part represents x divided by five.",
+        "2. Duplicate the seven-counter group into five equal positions.",
+        "3. Place a multiply-by-five card on both equation sides.",
+        "4. Collapse the five fifths into one whole x-bar.",
+        "5. Count thirty-five counters and reveal x = 35.",
+        "6. Rebuild one fifth of thirty-five and compare it with seven."
+      ],
+      "verification": "One fifth of thirty-five is seven.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w02",
+      "number": 2,
+      "prompt": "Solve y/4 + 3 = 8.",
+      "difficulty": "foundation",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "y = 20.",
+      "memo": [
+        "1. Subtract 3 from both sides: y/4 = 5.",
+        "2. Multiply both sides by 4: y = 20.",
+        "3. Check: 20/4 + 3 = 8."
+      ],
+      "misconception_tags": [
+        "one-side-operation",
+        "whole-term-omitted"
+      ],
+      "renderer": "algebra:fraction_bar_balance",
+      "question_data": "variable = y; denominator = 4; left_constant = 3; right_value = 8; solution = 20",
+      "initial_state": "Show a quarter-y block plus three unit tiles balanced against eight unit tiles; keep the full y-bar hidden.",
+      "teaching_sequence": [
+        "1. Remove three matching unit tiles from both pans.",
+        "2. Name the remaining block as one quarter of y.",
+        "3. Place multiply-by-four cards under both reduced sides.",
+        "4. Expand five counters into four identical groups.",
+        "5. Join four quarters into the full y-bar.",
+        "6. Reveal y = 20 and replay the original balance."
+      ],
+      "verification": "Twenty divided by four plus three equals eight.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w03",
+      "number": 3,
+      "prompt": "Solve (a + 2)/3 = 6 without cancelling across the sum.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "a = 16.",
+      "memo": [
+        "1. Treat a + 2 as one numerator group.",
+        "2. Multiply both sides by 3: a + 2 = 18.",
+        "3. Subtract 2: a = 16.",
+        "4. Check: (16 + 2)/3 = 6."
+      ],
+      "misconception_tags": [
+        "false-cancellation-sum"
+      ],
+      "renderer": "algebra:fraction_bar_balance",
+      "question_data": "numerator = a + 2; denominator = 3; right_value = 6; solution = 16",
+      "initial_state": "Show one sealed a-plus-two strip partitioned into three equal bands, with one band aligned to six counters.",
+      "teaching_sequence": [
+        "1. Outline the entire numerator to show that the bar divides the whole sum.",
+        "2. Replicate the six-counter band three times.",
+        "3. Multiply both complete sides by three.",
+        "4. Join the three bands to reveal a + 2 = 18.",
+        "5. Remove two counters from both sides to reveal a = 16.",
+        "6. Reseal eighteen, partition it into thirds and confirm six."
+      ],
+      "verification": "Eighteen divided by three is six.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w04",
+      "number": 4,
+      "prompt": "Solve 2m/3 = 10.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "m = 15.",
+      "memo": [
+        "1. Multiply both sides by 3: 2m = 30.",
+        "2. Divide both sides by 2: m = 15.",
+        "3. Check: 2(15)/3 = 10."
+      ],
+      "misconception_tags": [
+        "one-side-operation"
+      ],
+      "renderer": "algebra:equivalent_fraction_equation",
+      "question_data": "numerator = 2m; denominator = 3; right_value = 10; cleared_equation = 2m = 30; solution = 15",
+      "initial_state": "Show two m-bars spread across three equal denominator lanes opposite ten counters; hide all operations.",
+      "teaching_sequence": [
+        "1. Label the expression as two m-bars divided equally among three lanes.",
+        "2. Place multiply-by-three gates around both complete sides.",
+        "3. Cancel the factor three only as a product with the denominator.",
+        "4. Reveal two m-bars equal thirty counters.",
+        "5. Partition thirty equally between the two m-bars.",
+        "6. Reveal m = 15 and verify the original fraction."
+      ],
+      "verification": "Thirty thirds equals ten.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w05",
+      "number": 5,
+      "prompt": "Solve x/2 + x/3 = 10.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 5,
+      "answer": "x = 12.",
+      "memo": [
+        "1. The LCD of 2 and 3 is 6.",
+        "2. Multiply every term by 6: 3x + 2x = 60.",
+        "3. Combine: 5x = 60.",
+        "4. Divide by 5: x = 12.",
+        "5. Check: 12/2 + 12/3 = 6 + 4 = 10."
+      ],
+      "misconception_tags": [
+        "wrong-lcd",
+        "adds-denominators"
+      ],
+      "renderer": "algebra:denominator_lcm",
+      "question_data": "denominators = [2, 3]; lcd = 6; scaled_terms = ['3x', '2x', '60']; solution = 12",
+      "initial_state": "Show one x-bar split into halves and another equal x-bar split into thirds; keep the sixths grid and solution covered.",
+      "teaching_sequence": [
+        "1. Overlay a six-cell grid on both x-bars.",
+        "2. Rename one half as three sixths and one third as two sixths.",
+        "3. Place a multiply-by-six marker on all three equation terms.",
+        "4. Collapse the denominator products to reveal 3x + 2x = 60.",
+        "5. Combine five x-bars and partition sixty counters to reveal x = 12.",
+        "6. Return to halves and thirds to display six plus four equals ten."
+      ],
+      "verification": "Twelve halves plus twelve thirds equals ten.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w06",
+      "number": 6,
+      "prompt": "Solve p/4 - p/6 = 2.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 5,
+      "answer": "p = 24.",
+      "memo": [
+        "1. The LCD of 4 and 6 is 12.",
+        "2. Multiply every term by 12: 3p - 2p = 24.",
+        "3. Therefore p = 24.",
+        "4. Check: 24/4 - 24/6 = 6 - 4 = 2."
+      ],
+      "misconception_tags": [
+        "wrong-lcd",
+        "sign-lost"
+      ],
+      "renderer": "algebra:denominator_lcm",
+      "question_data": "denominators = [4, 6]; lcd = 12; operation = subtraction; scaled_terms = ['3p', '-2p', '24']; solution = 24",
+      "initial_state": "Show equal p-bars divided into fourths and sixths with a subtraction connector; hide the twelfths overlay.",
+      "teaching_sequence": [
+        "1. Build multiple lists for four and six and highlight twelve.",
+        "2. Overlay twelve equal cells on each p-bar.",
+        "3. Bind the minus sign to the p-over-six term.",
+        "4. Multiply every term by twelve to reveal 3p - 2p = 24.",
+        "5. Combine signed p-bars to reveal p = 24.",
+        "6. Evaluate six minus four on the original fraction bars."
+      ],
+      "verification": "Twenty-four quarters minus twenty-four sixths equals two.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w07",
+      "number": 7,
+      "prompt": "Solve (3q - 1)/5 = 4.",
+      "difficulty": "standard",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "q = 7.",
+      "memo": [
+        "1. Multiply both sides by 5: 3q - 1 = 20.",
+        "2. Add 1: 3q = 21.",
+        "3. Divide by 3: q = 7.",
+        "4. Check: (21 - 1)/5 = 4."
+      ],
+      "misconception_tags": [
+        "false-cancellation-sum",
+        "one-side-operation"
+      ],
+      "renderer": "algebra:fraction_bar_balance",
+      "question_data": "numerator = 3q - 1; denominator = 5; right_value = 4; solution = 7",
+      "initial_state": "Show a sealed three-q-minus-one numerator split into fifths, with one fifth balanced against four counters.",
+      "teaching_sequence": [
+        "1. Trace the fraction bar across the entire numerator.",
+        "2. Create five identical four-counter groups.",
+        "3. Multiply both complete sides by five to reveal 3q - 1 = 20.",
+        "4. Add one counter to both sides.",
+        "5. Partition twenty-one counters among three q-bars.",
+        "6. Reveal q = 7 and reconstruct the sealed numerator."
+      ],
+      "verification": "Three times seven minus one is twenty, and twenty fifths is four.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w08",
+      "number": 8,
+      "prompt": "Solve 3(r - 2)/4 = 9.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "r = 14.",
+      "memo": [
+        "1. Multiply both sides by 4: 3(r - 2) = 36.",
+        "2. Divide by 3: r - 2 = 12.",
+        "3. Add 2: r = 14.",
+        "4. Check: 3(14 - 2)/4 = 36/4 = 9."
+      ],
+      "misconception_tags": [
+        "false-cancellation-sum",
+        "whole-term-omitted"
+      ],
+      "renderer": "algebra:equivalent_fraction_equation",
+      "question_data": "numerator = 3(r - 2); denominator = 4; right_value = 9; cleared_equation = 3(r - 2) = 36; solution = 14",
+      "initial_state": "Show three sealed r-minus-two groups partitioned into four horizontal bands opposite nine counters.",
+      "teaching_sequence": [
+        "1. Identify the whole product 3(r - 2) as the numerator.",
+        "2. Multiply both complete sides by four.",
+        "3. Cancel four as a factor with the denominator and reveal 3(r - 2) = 36.",
+        "4. Partition thirty-six into three groups to reveal r - 2 = 12.",
+        "5. Add two on both sides and reveal r = 14.",
+        "6. Evaluate the untouched numerator and denominator."
+      ],
+      "verification": "Three groups of twelve divided by four equal nine.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w09",
+      "number": 9,
+      "prompt": "Solve x/3 + 2 = x/6 + 7.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "x = 30.",
+      "memo": [
+        "1. The LCD is 6.",
+        "2. Multiply every term by 6: 2x + 12 = x + 42.",
+        "3. Subtract x and 12: x = 30.",
+        "4. Check: 10 + 2 = 5 + 7 = 12."
+      ],
+      "misconception_tags": [
+        "multiplies-one-term-only",
+        "whole-term-omitted"
+      ],
+      "renderer": "algebra:denominator_lcm",
+      "question_data": "denominators = [3, 6]; lcd = 6; terms = ['x/3', '2', 'x/6', '7']; cleared_equation = 2x + 12 = x + 42; solution = 30",
+      "initial_state": "Show two balance rows containing one-third x plus two and one-sixth x plus seven; hide the sixths grid.",
+      "teaching_sequence": [
+        "1. Overlay sixths on both fraction terms and mark the whole numbers as over one.",
+        "2. Place multiply-by-six markers over all four terms.",
+        "3. Reveal 2x + 12 = x + 42 term by term.",
+        "4. Remove one x-bar from both sides.",
+        "5. Remove twelve counters from both sides to reveal x = 30.",
+        "6. Substitute thirty into both original sides and display twelve on each pan."
+      ],
+      "verification": "Thirty thirds plus two and thirty sixths plus seven both equal twelve.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w10",
+      "number": 10,
+      "prompt": "A learner solves x/2 + 3/4 = 5 by multiplying only x/2 by 4. Identify the first error and solve correctly.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "The factor 4 must multiply every term; x = 17/2 or 8.5.",
+      "memo": [
+        "1. The first error is applying 4 to only one term.",
+        "2. Multiply every term by 4: 2x + 3 = 20.",
+        "3. Subtract 3: 2x = 17.",
+        "4. Divide by 2: x = 17/2.",
+        "5. Check: 17/4 + 3/4 = 20/4 = 5."
+      ],
+      "misconception_tags": [
+        "multiplies-one-term-only"
+      ],
+      "renderer": "algebra:error_diagnosis_fraction",
+      "question_data": "original = x/2 + 3/4 = 5; learner_action = 4(x/2) + 3/4 = 20; correct_cleared = 2x + 3 = 20; solution = 17/2",
+      "initial_state": "Show the original equation and the learner line with multiplier arrows covered; no correctness marker or answer is visible.",
+      "teaching_sequence": [
+        "1. Reveal the arrow from four to x over two.",
+        "2. Expose the missing arrows to three over four and five.",
+        "3. Mark the first incomplete distribution as the error.",
+        "4. Apply four to all three terms and reveal 2x + 3 = 20.",
+        "5. Solve to reveal x = 17/2.",
+        "6. Combine seventeen quarters and three quarters on the original fraction strip to confirm five."
+      ],
+      "verification": "Seventeen quarters plus three quarters equals five.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w11",
+      "number": 11,
+      "prompt": "Three quarters of a number plus 5 is 26. Form an equation and find the number.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "n = 28.",
+      "memo": [
+        "1. Form 3n/4 + 5 = 26.",
+        "2. Subtract 5: 3n/4 = 21.",
+        "3. Multiply by 4: 3n = 84.",
+        "4. Divide by 3: n = 28.",
+        "5. Check: three quarters of 28 is 21; 21 + 5 = 26."
+      ],
+      "misconception_tags": [
+        "one-side-operation",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:fraction_context_model",
+      "question_data": "context = three quarters of a number plus five; equation = 3n/4 + 5 = 26; solution = 28",
+      "initial_state": "Show a covered whole-number bar split into four equal parts, three selected, followed by five counters and a total of twenty-six.",
+      "teaching_sequence": [
+        "1. Label the whole bar n and the selected region 3n/4.",
+        "2. Translate the picture into 3n/4 + 5 = 26.",
+        "3. Remove five counters from both the model and total.",
+        "4. Replicate the twenty-one selected counters to reconstruct four quarters.",
+        "5. Divide eighty-four among three selected-quarter groups to reveal n = 28.",
+        "6. Rebuild three quarters of twenty-eight plus five."
+      ],
+      "verification": "Twenty-one plus five equals twenty-six.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w12",
+      "number": 12,
+      "prompt": "One third of a taxi fare plus R12 equals one half of the fare. Find the fare.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 7,
+      "answer": "The fare is R72.",
+      "memo": [
+        "1. Let the fare be f: f/3 + 12 = f/2.",
+        "2. The LCD is 6.",
+        "3. Multiply every term by 6: 2f + 72 = 3f.",
+        "4. Subtract 2f: f = 72.",
+        "5. Check: 72/3 + 12 = 24 + 12 = 36, and 72/2 = 36."
+      ],
+      "misconception_tags": [
+        "whole-term-omitted",
+        "multiplies-one-term-only"
+      ],
+      "renderer": "algebra:fraction_context_model",
+      "question_data": "context = taxi fare; equation = f/3 + 12 = f/2; lcd = 6; cleared_equation = 2f + 72 = 3f; solution = 72",
+      "initial_state": "Show the same covered fare strip once in thirds and once in halves, with twelve rand added to the thirds side.",
+      "teaching_sequence": [
+        "1. Label the common whole fare f and write the context equation.",
+        "2. Overlay sixths on both fare strips.",
+        "3. Multiply every term, including twelve, by six.",
+        "4. Reveal 2f + 72 = 3f using two and three sixth-block groups.",
+        "5. Remove two f-bars to reveal f = 72.",
+        "6. Price the original thirds, added amount and half to confirm R36 on both sides."
+      ],
+      "verification": "R24 plus R12 equals R36, which is half of R72.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w13",
+      "number": 13,
+      "prompt": "Solve (2k + 1)/3 - (k - 2)/4 = 5.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 7,
+      "answer": "k = 10.",
+      "memo": [
+        "1. The LCD is 12.",
+        "2. Multiply every term by 12: 4(2k + 1) - 3(k - 2) = 60.",
+        "3. Expand: 8k + 4 - 3k + 6 = 60.",
+        "4. Combine: 5k + 10 = 60.",
+        "5. Solve: 5k = 50, so k = 10.",
+        "6. Check: 21/3 - 8/4 = 7 - 2 = 5."
+      ],
+      "misconception_tags": [
+        "sign-lost",
+        "false-cancellation-sum"
+      ],
+      "renderer": "algebra:denominator_lcm",
+      "question_data": "denominators = [3, 4]; lcd = 12; numerators = ['2k + 1', 'k - 2']; cleared_equation = 4(2k + 1) - 3(k - 2) = 60; solution = 10",
+      "initial_state": "Show two sealed numerator cards over denominators three and four with the subtraction sign bound to the second card.",
+      "teaching_sequence": [
+        "1. Build the common twelve-cell denominator grid.",
+        "2. Scale the first fraction by four and the second by three.",
+        "3. Carry the subtraction sign with the entire second product.",
+        "4. Reveal 4(2k + 1) - 3(k - 2) = 60.",
+        "5. Expand and combine in aligned rows to reveal k = 10.",
+        "6. Evaluate both original fractions as seven and two."
+      ],
+      "verification": "Seven minus two equals five.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w14",
+      "number": 14,
+      "prompt": "Solve (t - 1)/2 + (t + 3)/5 = (3t + 1)/10.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 8,
+      "answer": "t = 0.",
+      "memo": [
+        "1. The LCD is 10.",
+        "2. Multiply every term by 10: 5(t - 1) + 2(t + 3) = 3t + 1.",
+        "3. Expand: 5t - 5 + 2t + 6 = 3t + 1.",
+        "4. Simplify: 7t + 1 = 3t + 1.",
+        "5. Subtract 3t and 1: 4t = 0.",
+        "6. Therefore t = 0."
+      ],
+      "misconception_tags": [
+        "multiplies-one-term-only",
+        "sign-lost"
+      ],
+      "renderer": "algebra:equivalent_fraction_equation",
+      "question_data": "denominators = [2, 5, 10]; lcd = 10; cleared_equation = 5(t - 1) + 2(t + 3) = 3t + 1; solution = 0",
+      "initial_state": "Show three sealed numerator strips positioned over denominators two, five and ten; hide all scaling factors and the result.",
+      "teaching_sequence": [
+        "1. Align each denominator beneath a ten-cell common grid.",
+        "2. Reveal scaling factors five, two and one.",
+        "3. Multiply all three complete numerator groups.",
+        "4. Expand one legal product per row.",
+        "5. Collect terms on both sides to reveal 4t = 0 and t = 0.",
+        "6. Substitute zero into the untouched fractions and compare one tenth on both sides."
+      ],
+      "verification": "At t = 0, negative one half plus three fifths equals one tenth.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l08-w15",
+      "number": 15,
+      "prompt": "A water tank is 2/5 full. After 18 litres are added, it is 7/10 full. Find the tank capacity.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 8,
+      "answer": "The capacity is 60 litres.",
+      "memo": [
+        "1. Let capacity be c: 2c/5 + 18 = 7c/10.",
+        "2. The LCD is 10.",
+        "3. Multiply every term by 10: 4c + 180 = 7c.",
+        "4. Subtract 4c: 180 = 3c.",
+        "5. Divide by 3: c = 60.",
+        "6. Check: 2/5 of 60 is 24; 24 + 18 = 42; 7/10 of 60 is 42."
+      ],
+      "misconception_tags": [
+        "whole-term-omitted",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:fraction_context_model",
+      "question_data": "context = water tank; equation = 2c/5 + 18 = 7c/10; lcd = 10; solution = 60; units = litres",
+      "initial_state": "Show the same covered tank once divided into fifths with two parts filled and once into tenths with seven parts filled; place an eighteen-litre jug between them.",
+      "teaching_sequence": [
+        "1. Label total tank capacity c and translate both fill levels.",
+        "2. Overlay tenths so two fifths becomes four tenths.",
+        "3. Write 2c/5 + 18 = 7c/10 and apply ten to every term.",
+        "4. Reveal 4c + 180 = 7c using filled-cell groups.",
+        "5. Remove four c-groups and divide 180 among three c-groups to reveal c = 60.",
+        "6. Fill twenty-four litres, add eighteen and compare the resulting forty-two litres with seven tenths."
+      ],
+      "verification": "Both descriptions produce forty-two litres in a sixty-litre tank.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    }
+  ],
+  "practice_questions": [
+    {
+      "id": "g8-ae-l08-p01",
+      "number": 1,
+      "prompt": "Solve x/6 = 4.",
+      "marks": 3,
+      "answer": "x = 24.",
+      "solution": [
+        "1. Multiply both sides by 6: x = 24.",
+        "2. Check: 24/6 = 4."
+      ],
+      "misconception_tags": [
+        "one-side-operation"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p02",
+      "number": 2,
+      "prompt": "Solve y/5 - 2 = 7.",
+      "marks": 4,
+      "answer": "y = 45.",
+      "solution": [
+        "1. Add 2: y/5 = 9.",
+        "2. Multiply by 5: y = 45.",
+        "3. Check: 45/5 - 2 = 7."
+      ],
+      "misconception_tags": [
+        "one-side-operation"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p03",
+      "number": 3,
+      "prompt": "Solve (m + 4)/3 = 9.",
+      "marks": 4,
+      "answer": "m = 23.",
+      "solution": [
+        "1. Multiply by 3: m + 4 = 27.",
+        "2. Subtract 4: m = 23."
+      ],
+      "misconception_tags": [
+        "false-cancellation-sum"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p04",
+      "number": 4,
+      "prompt": "Solve 5p/2 = 20.",
+      "marks": 4,
+      "answer": "p = 8.",
+      "solution": [
+        "1. Multiply by 2: 5p = 40.",
+        "2. Divide by 5: p = 8."
+      ],
+      "misconception_tags": [
+        "one-side-operation"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p05",
+      "number": 5,
+      "prompt": "Solve q/2 + q/6 = 8.",
+      "marks": 5,
+      "answer": "q = 12.",
+      "solution": [
+        "1. LCD = 6.",
+        "2. Multiply every term by 6: 3q + q = 48.",
+        "3. 4q = 48, so q = 12."
+      ],
+      "misconception_tags": [
+        "adds-denominators",
+        "wrong-lcd"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p06",
+      "number": 6,
+      "prompt": "Solve r/3 - r/9 = 4.",
+      "marks": 5,
+      "answer": "r = 18.",
+      "solution": [
+        "1. LCD = 9.",
+        "2. Multiply every term by 9: 3r - r = 36.",
+        "3. 2r = 36, so r = 18."
+      ],
+      "misconception_tags": [
+        "sign-lost"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p07",
+      "number": 7,
+      "prompt": "Solve (2a - 3)/4 = 5.",
+      "marks": 5,
+      "answer": "a = 23/2 or 11.5.",
+      "solution": [
+        "1. Multiply by 4: 2a - 3 = 20.",
+        "2. Add 3: 2a = 23.",
+        "3. Divide by 2: a = 23/2."
+      ],
+      "misconception_tags": [
+        "false-cancellation-sum"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p08",
+      "number": 8,
+      "prompt": "Solve x/4 + 1 = x/8 + 5.",
+      "marks": 6,
+      "answer": "x = 32.",
+      "solution": [
+        "1. LCD = 8.",
+        "2. Multiply every term by 8: 2x + 8 = x + 40.",
+        "3. Therefore x = 32."
+      ],
+      "misconception_tags": [
+        "whole-term-omitted"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p09",
+      "number": 9,
+      "prompt": "Solve 2(n + 1)/3 = 10.",
+      "marks": 6,
+      "answer": "n = 14.",
+      "solution": [
+        "1. Multiply by 3: 2(n + 1) = 30.",
+        "2. Divide by 2: n + 1 = 15.",
+        "3. Subtract 1: n = 14."
+      ],
+      "misconception_tags": [
+        "false-cancellation-sum"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p10",
+      "number": 10,
+      "prompt": "Solve (3k + 2)/5 - 1 = 3.",
+      "marks": 6,
+      "answer": "k = 6.",
+      "solution": [
+        "1. Add 1: (3k + 2)/5 = 4.",
+        "2. Multiply by 5: 3k + 2 = 20.",
+        "3. Solve 3k = 18, so k = 6."
+      ],
+      "misconception_tags": [
+        "one-side-operation"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p11",
+      "number": 11,
+      "prompt": "Solve z/2 + z/5 = 21.",
+      "marks": 6,
+      "answer": "z = 30.",
+      "solution": [
+        "1. LCD = 10.",
+        "2. Multiply all terms by 10: 5z + 2z = 210.",
+        "3. 7z = 210, so z = 30."
+      ],
+      "misconception_tags": [
+        "wrong-lcd"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p12",
+      "number": 12,
+      "prompt": "Solve (u - 2)/3 + (u + 1)/6 = 5.",
+      "marks": 7,
+      "answer": "u = 11.",
+      "solution": [
+        "1. LCD = 6.",
+        "2. Multiply all terms by 6: 2(u - 2) + (u + 1) = 30.",
+        "3. Expand: 2u - 4 + u + 1 = 30.",
+        "4. 3u - 3 = 30, so u = 11."
+      ],
+      "misconception_tags": [
+        "multiplies-one-term-only"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p13",
+      "number": 13,
+      "prompt": "Half a number plus 9 equals two thirds of the number. Find the number.",
+      "marks": 7,
+      "answer": "54.",
+      "solution": [
+        "1. Form n/2 + 9 = 2n/3.",
+        "2. Multiply by 6: 3n + 54 = 4n.",
+        "3. Therefore n = 54."
+      ],
+      "misconception_tags": [
+        "whole-term-omitted"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p14",
+      "number": 14,
+      "prompt": "Three fifths of a ribbon remains after 24 cm is cut off. Find the original length.",
+      "marks": 7,
+      "answer": "60 cm.",
+      "solution": [
+        "1. If length is l, then l - 24 = 3l/5.",
+        "2. Multiply by 5: 5l - 120 = 3l.",
+        "3. 2l = 120, so l = 60 cm."
+      ],
+      "misconception_tags": [
+        "whole-term-omitted"
+      ]
+    },
+    {
+      "id": "g8-ae-l08-p15",
+      "number": 15,
+      "prompt": "Solve (2v - 1)/4 + (v + 2)/3 = 6.",
+      "marks": 8,
+      "answer": "v = 67/10 or 6.7.",
+      "solution": [
+        "1. LCD = 12.",
+        "2. Multiply all terms: 3(2v - 1) + 4(v + 2) = 72.",
+        "3. Expand: 6v - 3 + 4v + 8 = 72.",
+        "4. 10v + 5 = 72, so v = 67/10."
+      ],
+      "misconception_tags": [
+        "false-cancellation-sum",
+        "multiplies-one-term-only"
+      ]
+    }
+  ],
+  "mastery_questions": [
+    {
+      "id": "g8-ae-l08-m01",
+      "number": 1,
+      "prompt": "Solve x/7 + 2 = 6.",
+      "marks": 4,
+      "answer": "x = 28.",
+      "solution": [
+        "1. Subtract 2: x/7 = 4.",
+        "2. Multiply by 7: x = 28."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l08-m02",
+      "number": 2,
+      "prompt": "Solve p/3 + p/4 = 14.",
+      "marks": 5,
+      "answer": "p = 24.",
+      "solution": [
+        "1. Multiply by 12: 4p + 3p = 168.",
+        "2. 7p = 168, so p = 24."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l08-m03",
+      "number": 3,
+      "prompt": "Solve (2m + 5)/3 = 7.",
+      "marks": 5,
+      "answer": "m = 8.",
+      "solution": [
+        "1. Multiply by 3: 2m + 5 = 21.",
+        "2. 2m = 16, so m = 8."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l08-m04",
+      "number": 4,
+      "prompt": "Repair: multiplying x/2 + 3 = 9 by 2 gives x + 3 = 18.",
+      "marks": 6,
+      "answer": "The 3 must also be doubled; x = 12.",
+      "solution": [
+        "1. Correct cleared equation: x + 6 = 18.",
+        "2. Subtract 6: x = 12."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l08-m05",
+      "number": 5,
+      "prompt": "One quarter of a number plus 6 equals one half of the number. Find it.",
+      "marks": 7,
+      "answer": "24.",
+      "solution": [
+        "1. Form n/4 + 6 = n/2.",
+        "2. Multiply by 4: n + 24 = 2n.",
+        "3. Therefore n = 24."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "repair_rules": [
+    "Incorrect M1: Replay worked examples 1 and 2 using equal-share bars, then administer R1.",
+    "Incorrect M2: Replay worked examples 5 and 6 with aligned denominator grids and LCD multiple lists, then administer R2.",
+    "Incorrect M3: Replay worked examples 3 and 7 with sealed numerators and no cancellation across sums, then administer R1.",
+    "Incorrect M4: Replay worked examples 9 and 10 and require multiplier arrows to every term, then administer R2.",
+    "Incorrect M5: Replay worked examples 11 and 12 from context diagrams to equations and original-scenario checks, then administer R3.",
+    "Score below 80%: Reteach the two most frequent misconception tags and administer all three parallel questions."
+  ],
+  "reassessment_questions": [
+    {
+      "id": "g8-ae-l08-r01",
+      "number": 1,
+      "prompt": "Solve (a - 3)/4 = 5.",
+      "marks": 5,
+      "answer": "a = 23.",
+      "solution": [
+        "1. Multiply by 4: a - 3 = 20.",
+        "2. Add 3: a = 23."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l08-r02",
+      "number": 2,
+      "prompt": "Solve b/2 + b/6 = 16.",
+      "marks": 6,
+      "answer": "b = 24.",
+      "solution": [
+        "1. Multiply by 6: 3b + b = 96.",
+        "2. 4b = 96, so b = 24."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l08-r03",
+      "number": 3,
+      "prompt": "Two fifths of a number plus 12 equals three fifths of the number. Find it.",
+      "marks": 7,
+      "answer": "60.",
+      "solution": [
+        "1. Form 2n/5 + 12 = 3n/5.",
+        "2. Multiply by 5: 2n + 60 = 3n.",
+        "3. Therefore n = 60."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "summary": [
+    "A fraction bar divides the entire numerator.",
+    "Use the lowest common multiple of all numerical denominators.",
+    "Multiply every term on both complete sides by the common denominator.",
+    "Cancel only factors in products, never terms across addition or subtraction.",
+    "Carry subtraction signs with their terms while clearing denominators.",
+    "Verify in the original fractional equation using exact values."
+  ]
+}

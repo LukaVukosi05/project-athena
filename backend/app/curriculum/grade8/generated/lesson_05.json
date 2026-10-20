@@ -1,0 +1,918 @@
+{
+  "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
+  "source_sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
+  "id": "g8-algebraic-equations-05",
+  "title": "Two step equations",
+  "estimated_minutes": 70,
+  "mastery_threshold": 0.8,
+  "objective": "Solve two-step linear equations by undoing addition or subtraction before undoing multiplication or division, preserve equality at every step, connect inverse operations to visual models, and verify solutions in the original equation.",
+  "why_it_matters": "Most useful equations involve more than one operation. Two-step reasoning lets learners recover an unknown from a final result and prepares them for equations with variables on both sides, brackets, fractions, formulae and real-life rate problems.",
+  "prerequisites": [
+    "Preserve equality by applying the same operation to both sides",
+    "Solve one-step additive and multiplicative inverse equations",
+    "Use signed-number operation rules",
+    "Interpret coefficients, constants and simple fractions or decimals"
+  ],
+  "vocabulary": [
+    {
+      "term": "two-step equation",
+      "meaning": "An equation requiring two inverse-operation stages to isolate the variable."
+    },
+    {
+      "term": "constant term",
+      "meaning": "A number in an expression that is not attached to a variable."
+    },
+    {
+      "term": "operation order",
+      "meaning": "The sequence in which operations act on the variable."
+    },
+    {
+      "term": "reverse order",
+      "meaning": "Undoing operations from the last operation applied back to the first."
+    },
+    {
+      "term": "solution",
+      "meaning": "A value that makes the original left and right sides equal."
+    }
+  ],
+  "concept_teaching": [
+    "Read ax + b = c as an operation chain: start with x, multiply by a, then add b.",
+    "Solve by reversing that chain: subtract b first, then divide by the non-zero coefficient a.",
+    "For ax - b = c, add b to both sides before dividing by a.",
+    "When the variable term is subtracted, as in c - ax = d, remove the constant or isolate the negative variable term without losing its sign.",
+    "Write one legal equality transformation per line and keep the complete left and right sides visible.",
+    "Verify by substituting the solution into the untouched original equation and checking that both sides match."
+  ],
+  "entry_diagnostic": {
+    "prompt": "State the inverse operation and solve: x + 6 = 14; then 3x = 24.",
+    "answer": "Subtract 6 to get x = 8; divide by 3 to get x = 8.",
+    "failure_route": "Review additive and multiplicative inverse equations before combining the operations in one equation."
+  },
+  "misconceptions": [
+    {
+      "tag": "wrong-operation-order",
+      "diagnosis": "The learner divides before removing an outside constant in ax + b = c.",
+      "repair": "Animate the forward operation machine, then reverse its arrows so the last operation is undone first."
+    },
+    {
+      "tag": "one-side-operation",
+      "diagnosis": "The learner changes only one side of the equation.",
+      "repair": "Use a balance model and require matching operation cards beneath both pans."
+    },
+    {
+      "tag": "constant-sign-error",
+      "diagnosis": "The learner moves a constant but keeps the same sign without showing an inverse operation.",
+      "repair": "Keep the constant fixed and add its opposite visibly to both sides until a zero pair forms."
+    },
+    {
+      "tag": "coefficient-sign-error",
+      "diagnosis": "The learner divides by the magnitude but ignores a negative coefficient.",
+      "repair": "Bind the sign to the coefficient using one colour and divide by the complete signed number."
+    },
+    {
+      "tag": "variable-subtracted-error",
+      "diagnosis": "The learner treats c - ax as ax - c or loses the negative variable term.",
+      "repair": "Display c + (-ax) and preserve the negative variable tile through every state."
+    },
+    {
+      "tag": "fraction-decimal-error",
+      "diagnosis": "The learner mishandles a fractional or decimal coefficient or constant.",
+      "repair": "Use a scaled bar or number line and keep exact fraction equivalents visible before calculating."
+    },
+    {
+      "tag": "verification-omitted",
+      "diagnosis": "The learner stops after isolating the variable.",
+      "repair": "Return to the original equation and run the solution through the complete forward operation chain."
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "g8-ae-l05-w01",
+      "number": 1,
+      "prompt": "Solve 2x + 3 = 11 using a balance model.",
+      "difficulty": "foundation",
+      "cognitive_level": "knowledge",
+      "marks": 3,
+      "answer": "x = 4",
+      "memo": [
+        "1. Subtract 3 from both sides: 2x + 3 - 3 = 11 - 3.",
+        "2. This gives 2x = 8.",
+        "3. Divide both sides by 2 to get x = 4.",
+        "4. Check: 2(4) + 3 = 11."
+      ],
+      "misconception_tags": [
+        "wrong-operation-order",
+        "one-side-operation"
+      ],
+      "renderer": "algebra:two_step_balance",
+      "question_data": "coefficient = 2; constant = 3; right value = 11; solution = 4; variable tiles = 2; unit tiles = 3",
+      "initial_state": "Show two sealed x tiles and three positive unit tiles balanced against eleven unit tiles; keep x hidden.",
+      "teaching_sequence": [
+        "1. Reveal the complete equation above the balance.",
+        "2. Attach subtract-three cards beneath both pans.",
+        "3. Remove three unit tiles from each pan and display the zero pair on the left.",
+        "4. Show the remaining state 2x = 8.",
+        "5. Partition both pans into two equal groups.",
+        "6. Reveal four units opposite each x tile, then rebuild the original balance."
+      ],
+      "verification": "Two groups of four plus three units produce eleven units on both pans.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w02",
+      "number": 2,
+      "prompt": "Solve 3y - 5 = 16.",
+      "difficulty": "foundation",
+      "cognitive_level": "routine",
+      "marks": 3,
+      "answer": "y = 7",
+      "memo": [
+        "1. Add 5 to both sides: 3y - 5 + 5 = 16 + 5.",
+        "2. This gives 3y = 21.",
+        "3. Divide both sides by 3 to get y = 7.",
+        "4. Check: 3(7) - 5 = 16."
+      ],
+      "misconception_tags": [
+        "constant-sign-error",
+        "wrong-operation-order"
+      ],
+      "renderer": "algebra:two_step_balance",
+      "question_data": "coefficient = 3; constant = -5; right value = 16; solution = 7; inverse first = add 5; inverse second = divide by 3",
+      "initial_state": "Show three y groups with five negative counters on the left and sixteen positive counters on the right; hide each group value.",
+      "teaching_sequence": [
+        "1. Highlight subtraction of five as the last operation applied to 3y.",
+        "2. Add five positive counters to both pans.",
+        "3. Pair the five positive and five negative counters into zeros.",
+        "4. Display 3y = 21.",
+        "5. Split twenty-one counters equally among three y groups.",
+        "6. Reveal y = 7 and substitute seven into the original arrangement."
+      ],
+      "verification": "Three groups of seven minus five leaves sixteen.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w03",
+      "number": 3,
+      "prompt": "Solve x divided by 4 + 2 = 5.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 3,
+      "answer": "x = 12",
+      "memo": [
+        "1. Subtract 2 from both sides to get x/4 = 3.",
+        "2. Multiply both sides by 4 to get x = 12.",
+        "3. Check: 12/4 + 2 = 3 + 2 = 5."
+      ],
+      "misconception_tags": [
+        "wrong-operation-order",
+        "fraction-decimal-error"
+      ],
+      "renderer": "algebra:operation_machine",
+      "question_data": "input = x; forward operations = ['divide by 4', 'add 2']; output = 5; reverse operations = ['subtract 2', 'multiply by 4']; solution = 12",
+      "initial_state": "Show a covered input entering a divide-by-four box and an add-two box to produce five; hide the reverse path.",
+      "teaching_sequence": [
+        "1. Trace the forward arrows from x to five.",
+        "2. Reverse the final add-two box with subtract two and show five becoming three.",
+        "3. Reverse the divide-by-four box with multiply by four.",
+        "4. Show three becoming twelve at the input.",
+        "5. Reveal x = 12.",
+        "6. Send twelve forward through both boxes to verify output five."
+      ],
+      "verification": "Twelve divided by four is three, and three plus two is five.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w04",
+      "number": 4,
+      "prompt": "Solve 20 - 3a = 8 without losing the negative coefficient.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "a = 4",
+      "memo": [
+        "1. Subtract 20 from both sides: -3a = 8 - 20 = -12.",
+        "2. Divide both sides by -3 to get a = 4.",
+        "3. Check: 20 - 3(4) = 20 - 12 = 8."
+      ],
+      "misconception_tags": [
+        "variable-subtracted-error",
+        "coefficient-sign-error"
+      ],
+      "renderer": "algebra:two_step_balance",
+      "question_data": "left constant = 20; coefficient = -3; right value = 8; intermediate = -12; solution = 4",
+      "initial_state": "Show twenty positive counters together with three negative a groups balanced against eight counters; keep the negative sign attached to all a groups.",
+      "teaching_sequence": [
+        "1. Rewrite 20 - 3a as 20 + (-3a).",
+        "2. Subtract twenty from both pans.",
+        "3. Cancel the twenty positive counters on the left.",
+        "4. Display -3a = -12 with both negative signs visible.",
+        "5. Partition both sides by negative three.",
+        "6. Reveal a = 4 and reconstruct 20 - 12 = 8."
+      ],
+      "verification": "The original left side becomes eight when three groups of four are subtracted from twenty.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w05",
+      "number": 5,
+      "prompt": "Solve -2m + 7 = 19.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "m = -6",
+      "memo": [
+        "1. Subtract 7 from both sides to get -2m = 12.",
+        "2. Divide both sides by -2 to get m = -6.",
+        "3. Check: -2(-6) + 7 = 12 + 7 = 19."
+      ],
+      "misconception_tags": [
+        "coefficient-sign-error",
+        "constant-sign-error"
+      ],
+      "renderer": "algebra:operation_machine",
+      "question_data": "input = m; forward operations = ['multiply by -2', 'add 7']; output = 19; reverse operations = ['subtract 7', 'divide by -2']; solution = -6",
+      "initial_state": "Show an unknown input passing through multiply-by-negative-two and add-seven boxes to reach nineteen.",
+      "teaching_sequence": [
+        "1. Identify add seven as the last forward operation.",
+        "2. Reverse it so nineteen moves back to twelve.",
+        "3. Keep the negative sign joined to the coefficient two.",
+        "4. Reverse multiplication by negative two using division by negative two.",
+        "5. Reveal m = -6.",
+        "6. Run negative six forward to show twelve plus seven equals nineteen."
+      ],
+      "verification": "The complete forward machine maps -6 to 19.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w06",
+      "number": 6,
+      "prompt": "Solve 5 - n divided by 3 = 1.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "n = 12",
+      "memo": [
+        "1. Subtract 5 from both sides to get -n/3 = -4.",
+        "2. Multiply both sides by -3 to get n = 12.",
+        "3. Check: 5 - 12/3 = 5 - 4 = 1."
+      ],
+      "misconception_tags": [
+        "variable-subtracted-error",
+        "coefficient-sign-error"
+      ],
+      "renderer": "algebra:two_step_number_line",
+      "question_data": "start = 5; term = -n/3; end = 1; difference = -4; solution = 12",
+      "initial_state": "Show a number-line journey starting at five and ending at one with the jump labelled negative n divided by three; hide its length.",
+      "teaching_sequence": [
+        "1. Mark the start five and endpoint one.",
+        "2. Measure the signed jump from five to one as negative four.",
+        "3. Set -n/3 equal to -4.",
+        "4. Multiply both sides by negative three.",
+        "5. Reveal n = 12.",
+        "6. Replace n with twelve and replay the four-unit leftward jump."
+      ],
+      "verification": "Twelve divided by three is four, so five minus four lands at one.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w07",
+      "number": 7,
+      "prompt": "Solve 0.5p + 1.5 = 6.",
+      "difficulty": "standard",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "p = 9",
+      "memo": [
+        "1. Subtract 1.5 from both sides to get 0.5p = 4.5.",
+        "2. Divide by 0.5, or multiply by 2, to get p = 9.",
+        "3. Check: 0.5(9) + 1.5 = 4.5 + 1.5 = 6."
+      ],
+      "misconception_tags": [
+        "fraction-decimal-error",
+        "wrong-operation-order"
+      ],
+      "renderer": "algebra:two_step_balance",
+      "question_data": "coefficient = 0.5; constant = 1.5; right value = 6; intermediate = 4.5; solution = 9; scale unit = 0.5",
+      "initial_state": "Show half of a p bar plus a 1.5-unit block balanced against a 6-unit bar; keep the full p bar hidden.",
+      "teaching_sequence": [
+        "1. Remove a 1.5-unit block from both sides.",
+        "2. Show the remaining half-p bar equal to 4.5.",
+        "3. Apply a scale factor of two to both sides.",
+        "4. Extend the half-p bar into a full p bar.",
+        "5. Extend 4.5 to nine and reveal p = 9.",
+        "6. Halve nine and restore 1.5 to verify six."
+      ],
+      "verification": "Half of nine plus one and a half equals six.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w08",
+      "number": 8,
+      "prompt": "Solve (2/3)q - 4 = 10.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "q = 21",
+      "memo": [
+        "1. Add 4 to both sides to get (2/3)q = 14.",
+        "2. Multiply both sides by 3/2: q = 14 x 3/2 = 21.",
+        "3. Check: (2/3)(21) - 4 = 14 - 4 = 10."
+      ],
+      "misconception_tags": [
+        "fraction-decimal-error",
+        "constant-sign-error"
+      ],
+      "renderer": "algebra:fraction_scale",
+      "question_data": "coefficient = 2/3; constant = -4; right value = 10; intermediate = 14; reciprocal = 3/2; solution = 21",
+      "initial_state": "Show two of three equal q-bar sections with four units removed, leaving ten; hide the complete bar.",
+      "teaching_sequence": [
+        "1. Restore four units to the displayed two-section amount and to the result.",
+        "2. Show two q sections totalling fourteen.",
+        "3. Divide fourteen equally between the two visible sections.",
+        "4. Reveal seven units per section.",
+        "5. Add the third equal section to form q = 21.",
+        "6. Shade two sections and remove four to verify ten."
+      ],
+      "verification": "Two thirds of twenty-one is fourteen, and fourteen minus four is ten.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w09",
+      "number": 9,
+      "prompt": "A learner solves 4x + 6 = 22 by dividing both sides by 4 first and writes x + 6 = 5.5. Identify and repair the first error.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "Dividing the whole left side by 4 would also divide 6; undo +6 first. The correct solution is x = 4.",
+      "memo": [
+        "1. The learner divided 4x by 4 but did not divide the constant 6 by 4.",
+        "2. Reverse the operation chain by subtracting 6 from both sides: 4x = 16.",
+        "3. Divide both sides by 4 to get x = 4.",
+        "4. Check: 4(4) + 6 = 22."
+      ],
+      "misconception_tags": [
+        "wrong-operation-order",
+        "one-side-operation"
+      ],
+      "renderer": "algebra:operation_machine",
+      "question_data": "original = 4x + 6 = 22; incorrect state = x + 6 = 5.5; forward operations = ['multiply by 4', 'add 6']; reverse operations = ['subtract 6', 'divide by 4']; solution = 4",
+      "initial_state": "Show the original equation beside the learner's first line with no correctness marker; keep the operation machine covered.",
+      "teaching_sequence": [
+        "1. Compare the original and learner line term by term.",
+        "2. Highlight that four was removed from 4x but not applied to six.",
+        "3. Reveal the forward operation machine multiply-by-four then add-six.",
+        "4. Reverse add-six first so twenty-two becomes sixteen.",
+        "5. Reverse multiply-by-four so sixteen becomes four.",
+        "6. Run four forward and mark the output twenty-two."
+      ],
+      "verification": "The corrected value gives twenty-two, while the learner's altered line is not an equivalent transformation.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w10",
+      "number": 10,
+      "prompt": "Solve 7 - 2x = -9 and explain both negative signs.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "x = 8",
+      "memo": [
+        "1. Subtract 7 from both sides to get -2x = -16.",
+        "2. Divide both sides by -2 to get x = 8.",
+        "3. A negative divided by a negative is positive.",
+        "4. Check: 7 - 2(8) = 7 - 16 = -9."
+      ],
+      "misconception_tags": [
+        "variable-subtracted-error",
+        "coefficient-sign-error"
+      ],
+      "renderer": "algebra:two_step_number_line",
+      "question_data": "start = 7; coefficient = -2; unknown = x; end = -9; signed distance = -16; solution = 8",
+      "initial_state": "Show a number line from seven to negative nine with repeated leftward jumps of two concealed; hide the number of jumps.",
+      "teaching_sequence": [
+        "1. Mark seven and negative nine on the same line.",
+        "2. Measure the total signed change as negative sixteen.",
+        "3. Represent -2x as x leftward jumps of two.",
+        "4. Partition the sixteen-unit distance into two-unit jumps.",
+        "5. Count eight jumps and reveal x = 8.",
+        "6. Replay eight leftward jumps from seven to negative nine."
+      ],
+      "verification": "Eight jumps of negative two move seven by negative sixteen to negative nine.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w11",
+      "number": 11,
+      "prompt": "A rectangle has two equal unknown sides of length l cm and two known sides of 5 cm. Its perimeter is 34 cm. Form and solve an equation.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "l = 12 cm",
+      "memo": [
+        "1. The two known sides total 10 cm and the two unknown sides total 2l, so 2l + 10 = 34.",
+        "2. Subtract 10 from both sides to get 2l = 24.",
+        "3. Divide by 2 to get l = 12 cm.",
+        "4. Check: 12 + 5 + 12 + 5 = 34 cm."
+      ],
+      "misconception_tags": [
+        "wrong-operation-order",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:context_to_equation",
+      "question_data": "shape = rectangle; known side cm = 5; unknown side = l; perimeter cm = 34; equation = 2l + 10 = 34; solution cm = 12",
+      "initial_state": "Show a rectangle with the top and bottom labelled l, the left and right labelled 5 cm, and perimeter 34 cm; hide the value of l.",
+      "teaching_sequence": [
+        "1. Trace all four sides once to establish perimeter.",
+        "2. Combine the two l sides as 2l.",
+        "3. Combine the two five-centimetre sides as ten.",
+        "4. Write 2l + 10 = 34 beneath the diagram.",
+        "5. Remove ten, divide twenty-four between two l sides and reveal twelve.",
+        "6. Trace and total all four labelled sides for verification."
+      ],
+      "verification": "The rendered side labels total 12 + 5 + 12 + 5 = 34 cm.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w12",
+      "number": 12,
+      "prompt": "A taxi charges a fixed R18 plus R6 per kilometre. A trip costs R72. Form an equation and find the distance.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "9 km",
+      "memo": [
+        "1. Let the distance be d kilometres: 6d + 18 = 72.",
+        "2. Subtract 18 from both sides to get 6d = 54.",
+        "3. Divide by 6 to get d = 9 km.",
+        "4. Check: R18 + R6(9) = R72."
+      ],
+      "misconception_tags": [
+        "constant-sign-error",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:context_to_equation",
+      "question_data": "context = taxi fare; fixed fee rand = 18; rate rand per km = 6; total rand = 72; unknown distance km = d; solution km = 9",
+      "initial_state": "Show an R18 base-fare card followed by covered R6 kilometre blocks and a total receipt of R72; hide the block count.",
+      "teaching_sequence": [
+        "1. Label the number of kilometre blocks d.",
+        "2. Build the receipt equation 6d + 18 = 72.",
+        "3. Remove the fixed R18 from the total to leave R54 for distance.",
+        "4. Partition R54 into R6 blocks.",
+        "5. Count nine blocks and reveal d = 9 km.",
+        "6. Reassemble the base fee and nine distance blocks to verify R72."
+      ],
+      "verification": "The fare strip contains R18 plus nine R6 blocks, totalling R72.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w13",
+      "number": 13,
+      "prompt": "At 08:00 a temperature is 4 degrees Celsius. It rises by 3 degrees each hour and reaches 25 degrees Celsius. After how many hours does it reach 25 degrees?",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "7 hours",
+      "memo": [
+        "1. Let h be the number of hours: 4 + 3h = 25.",
+        "2. Subtract 4 from both sides to get 3h = 21.",
+        "3. Divide by 3 to get h = 7 hours.",
+        "4. Check: 4 + 3(7) = 25."
+      ],
+      "misconception_tags": [
+        "wrong-operation-order",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:two_step_number_line",
+      "question_data": "start temperature c = 4; increase per hour c = 3; end temperature c = 25; unknown hours = h; solution hours = 7",
+      "initial_state": "Show a thermometer-number-line beginning at 4 degrees and ending at 25 degrees with equal three-degree jumps; hide the jump count.",
+      "teaching_sequence": [
+        "1. Mark the starting and target temperatures.",
+        "2. Remove the starting four-degree offset to expose a twenty-one-degree increase.",
+        "3. Draw equal three-degree jumps toward the target.",
+        "4. Count seven jumps.",
+        "5. Label the elapsed time as seven hours.",
+        "6. Replay the hourly increases from 08:00 to 15:00 and verify 25 degrees."
+      ],
+      "verification": "Seven increases of three degrees added to four degrees produce twenty-five degrees.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w14",
+      "number": 14,
+      "prompt": "Solve x divided by 5 - 2.4 = 3.6 and verify using exact tenths.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 6,
+      "answer": "x = 30",
+      "memo": [
+        "1. Add 2.4 to both sides: x/5 = 6.0.",
+        "2. Multiply both sides by 5 to get x = 30.",
+        "3. In tenths, 30/5 - 24/10 = 6 - 2.4 = 3.6.",
+        "4. Check: 30/5 - 2.4 = 3.6."
+      ],
+      "misconception_tags": [
+        "fraction-decimal-error",
+        "wrong-operation-order"
+      ],
+      "renderer": "algebra:fraction_scale",
+      "question_data": "divisor = 5; constant = -2.4; right value = 3.6; intermediate = 6.0; solution = 30; unit = tenths",
+      "initial_state": "Show one fifth of an x bar with a 2.4-unit piece removed, leaving 3.6; display a tenths grid but hide x.",
+      "teaching_sequence": [
+        "1. Restore twenty-four tenths to the visible remainder and to the result.",
+        "2. Combine thirty-six and twenty-four tenths as sixty tenths, or six.",
+        "3. Show one fifth of x equal to six.",
+        "4. Duplicate the six-unit section five times.",
+        "5. Combine the five sections as thirty and reveal x = 30.",
+        "6. Select one section and remove 2.4 to verify 3.6."
+      ],
+      "verification": "One fifth of thirty is six, and six minus twenty-four tenths is thirty-six tenths.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l05-w15",
+      "number": 15,
+      "prompt": "Explain why ax + b = c has solution x = (c - b)/a only when a is not zero. Then solve -1.5x - 4 = 8.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 6,
+      "answer": "Division by a requires a not equal to zero; x = -8.",
+      "memo": [
+        "1. Subtract b from both sides of ax + b = c to get ax = c - b.",
+        "2. Divide both sides by a to get x = (c - b)/a; division requires a not equal to zero.",
+        "3. For -1.5x - 4 = 8, add 4 to get -1.5x = 12.",
+        "4. Divide by -1.5 to get x = -8.",
+        "5. Check: -1.5(-8) - 4 = 12 - 4 = 8."
+      ],
+      "misconception_tags": [
+        "wrong-operation-order",
+        "coefficient-sign-error"
+      ],
+      "renderer": "algebra:operation_machine",
+      "question_data": "general equation = ax + b = c; reverse rule = x = (c - b)/a; condition = a != 0; example a = -1.5; example b = -4; example c = 8; solution = -8",
+      "initial_state": "Show a symbolic machine multiplying x by a and adding b to produce c; leave the reverse-operation labels and restriction blank.",
+      "teaching_sequence": [
+        "1. Reverse add b with subtract b to produce c - b.",
+        "2. Reverse multiply by a with divide by a.",
+        "3. Attempt a = 0 and display division by zero as undefined.",
+        "4. Record the condition a is not zero beside the rule.",
+        "5. Substitute a = -1.5, b = -4 and c = 8 into the operation chain.",
+        "6. Run x = -8 forward and confirm the output eight."
+      ],
+      "verification": "The symbolic rule is restricted to non-zero a, and the example maps -8 to 8 through both forward operations.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    }
+  ],
+  "practice_questions": [
+    {
+      "id": "g8-ae-l05-p01",
+      "number": 1,
+      "prompt": "Solve 3x + 2 = 20.",
+      "marks": 3,
+      "answer": "x = 6",
+      "solution": [
+        "1. Subtract 2: 3x = 18.",
+        "2. Divide by 3: x = 6.",
+        "3. Check: 3(6) + 2 = 20."
+      ],
+      "misconception_tags": [
+        "wrong-operation-order"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p02",
+      "number": 2,
+      "prompt": "Solve 4y - 7 = 13.",
+      "marks": 3,
+      "answer": "y = 5",
+      "solution": [
+        "1. Add 7: 4y = 20.",
+        "2. Divide by 4: y = 5.",
+        "3. Check: 4(5) - 7 = 13."
+      ],
+      "misconception_tags": [
+        "constant-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p03",
+      "number": 3,
+      "prompt": "Solve z divided by 6 + 1 = 5.",
+      "marks": 3,
+      "answer": "z = 24",
+      "solution": [
+        "1. Subtract 1: z/6 = 4.",
+        "2. Multiply by 6: z = 24.",
+        "3. Check: 24/6 + 1 = 5."
+      ],
+      "misconception_tags": [
+        "wrong-operation-order"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p04",
+      "number": 4,
+      "prompt": "Solve 18 - 2a = 6.",
+      "marks": 4,
+      "answer": "a = 6",
+      "solution": [
+        "1. Subtract 18: -2a = -12.",
+        "2. Divide by -2: a = 6.",
+        "3. Check: 18 - 2(6) = 6."
+      ],
+      "misconception_tags": [
+        "variable-subtracted-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p05",
+      "number": 5,
+      "prompt": "Solve -3m + 5 = 26.",
+      "marks": 4,
+      "answer": "m = -7",
+      "solution": [
+        "1. Subtract 5: -3m = 21.",
+        "2. Divide by -3: m = -7.",
+        "3. Check: -3(-7) + 5 = 26."
+      ],
+      "misconception_tags": [
+        "coefficient-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p06",
+      "number": 6,
+      "prompt": "Solve 8 - n divided by 2 = 3.",
+      "marks": 4,
+      "answer": "n = 10",
+      "solution": [
+        "1. Subtract 8: -n/2 = -5.",
+        "2. Multiply by -2: n = 10.",
+        "3. Check: 8 - 10/2 = 3."
+      ],
+      "misconception_tags": [
+        "variable-subtracted-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p07",
+      "number": 7,
+      "prompt": "Solve 0.25p + 2 = 4.5.",
+      "marks": 4,
+      "answer": "p = 10",
+      "solution": [
+        "1. Subtract 2: 0.25p = 2.5.",
+        "2. Divide by 0.25: p = 10.",
+        "3. Check: 0.25(10) + 2 = 4.5."
+      ],
+      "misconception_tags": [
+        "fraction-decimal-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p08",
+      "number": 8,
+      "prompt": "Solve (3/4)q - 5 = 7.",
+      "marks": 5,
+      "answer": "q = 16",
+      "solution": [
+        "1. Add 5: (3/4)q = 12.",
+        "2. Multiply by 4/3: q = 16.",
+        "3. Check: (3/4)(16) - 5 = 7."
+      ],
+      "misconception_tags": [
+        "fraction-decimal-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p09",
+      "number": 9,
+      "prompt": "Repair the error: 5x + 10 = 35, so x + 10 = 7.",
+      "marks": 5,
+      "answer": "The learner divided only 5x and 35 by 5. Subtract 10 first; x = 5.",
+      "solution": [
+        "1. Subtract 10: 5x = 25.",
+        "2. Divide by 5: x = 5.",
+        "3. Check: 5(5) + 10 = 35."
+      ],
+      "misconception_tags": [
+        "wrong-operation-order",
+        "one-side-operation"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p10",
+      "number": 10,
+      "prompt": "Solve 11 - 4x = -17.",
+      "marks": 5,
+      "answer": "x = 7",
+      "solution": [
+        "1. Subtract 11: -4x = -28.",
+        "2. Divide by -4: x = 7.",
+        "3. Check: 11 - 4(7) = -17."
+      ],
+      "misconception_tags": [
+        "coefficient-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p11",
+      "number": 11,
+      "prompt": "A rectangle has two sides of 7 cm and two equal sides of l cm. Its perimeter is 46 cm. Find l.",
+      "marks": 5,
+      "answer": "l = 16 cm",
+      "solution": [
+        "1. Form 2l + 14 = 46.",
+        "2. Subtract 14: 2l = 32.",
+        "3. Divide by 2: l = 16 cm.",
+        "4. Check: 16 + 7 + 16 + 7 = 46."
+      ],
+      "misconception_tags": [
+        "verification-omitted"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p12",
+      "number": 12,
+      "prompt": "A delivery costs a fixed R25 plus R8 per kilometre. The total is R105. Find the distance.",
+      "marks": 5,
+      "answer": "10 km",
+      "solution": [
+        "1. Form 8d + 25 = 105.",
+        "2. Subtract 25: 8d = 80.",
+        "3. Divide by 8: d = 10 km.",
+        "4. Check: 25 + 8(10) = 105."
+      ],
+      "misconception_tags": [
+        "constant-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p13",
+      "number": 13,
+      "prompt": "A tank contains 12 litres and fills at 4 litres per minute. It reaches 48 litres. Find the filling time.",
+      "marks": 5,
+      "answer": "9 minutes",
+      "solution": [
+        "1. Form 12 + 4t = 48.",
+        "2. Subtract 12: 4t = 36.",
+        "3. Divide by 4: t = 9 minutes.",
+        "4. Check: 12 + 4(9) = 48."
+      ],
+      "misconception_tags": [
+        "wrong-operation-order"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p14",
+      "number": 14,
+      "prompt": "Solve r divided by 8 - 1.75 = 2.25.",
+      "marks": 6,
+      "answer": "r = 32",
+      "solution": [
+        "1. Add 1.75: r/8 = 4.",
+        "2. Multiply by 8: r = 32.",
+        "3. Check: 32/8 - 1.75 = 2.25."
+      ],
+      "misconception_tags": [
+        "fraction-decimal-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l05-p15",
+      "number": 15,
+      "prompt": "State the restriction in ax + b = c, then solve -2.5x + 3 = 23.",
+      "marks": 6,
+      "answer": "a must not be zero; x = -8.",
+      "solution": [
+        "1. The coefficient a must not be zero.",
+        "2. Subtract 3: -2.5x = 20.",
+        "3. Divide by -2.5: x = -8.",
+        "4. Check: -2.5(-8) + 3 = 23."
+      ],
+      "misconception_tags": [
+        "coefficient-sign-error"
+      ]
+    }
+  ],
+  "mastery_questions": [
+    {
+      "id": "g8-ae-l05-m01",
+      "number": 1,
+      "prompt": "Solve 6x + 5 = 35.",
+      "marks": 3,
+      "answer": "x = 5",
+      "solution": [
+        "1. Subtract 5: 6x = 30.",
+        "2. Divide by 6: x = 5."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l05-m02",
+      "number": 2,
+      "prompt": "Solve 9 - 3y = -12.",
+      "marks": 4,
+      "answer": "y = 7",
+      "solution": [
+        "1. Subtract 9: -3y = -21.",
+        "2. Divide by -3: y = 7."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l05-m03",
+      "number": 3,
+      "prompt": "Solve 0.4p - 1.2 = 2.8.",
+      "marks": 4,
+      "answer": "p = 10",
+      "solution": [
+        "1. Add 1.2: 0.4p = 4.",
+        "2. Divide by 0.4: p = 10."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l05-m04",
+      "number": 4,
+      "prompt": "Repair the error: 3x - 6 = 15, so x - 6 = 5.",
+      "marks": 5,
+      "answer": "The division did not apply to the entire left side. Add 6 first; x = 7.",
+      "solution": [
+        "1. Add 6: 3x = 21.",
+        "2. Divide by 3: x = 7.",
+        "3. Check: 3(7) - 6 = 15."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l05-m05",
+      "number": 5,
+      "prompt": "A service charges R40 plus R12 per hour. The total is R136. Find the number of hours.",
+      "marks": 5,
+      "answer": "8 hours",
+      "solution": [
+        "1. Form 12h + 40 = 136.",
+        "2. Subtract 40: 12h = 96.",
+        "3. Divide by 12: h = 8 hours."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "repair_rules": [
+    "Incorrect M1: Replay worked examples 1 and 2 with the balance model, then administer R1.",
+    "Incorrect M2: Replay worked examples 4 and 10 with signed variable terms and number-line verification, then administer R1.",
+    "Incorrect M3: Replay worked examples 7 and 14 with decimal bars and tenths, then administer R2.",
+    "Incorrect M4: Replay worked example 9 and require the learner to label the forward and reverse operation order, then administer R2.",
+    "Incorrect M5: Replay worked example 12 from context strip to equation to receipt verification, then administer R3.",
+    "Score below 80%: Reteach the two most frequent misconception tags and administer all three parallel questions."
+  ],
+  "reassessment_questions": [
+    {
+      "id": "g8-ae-l05-r01",
+      "number": 1,
+      "prompt": "Solve 15 - 5k = -20.",
+      "marks": 4,
+      "answer": "k = 7",
+      "solution": [
+        "1. Subtract 15: -5k = -35.",
+        "2. Divide by -5: k = 7.",
+        "3. Check: 15 - 5(7) = -20."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l05-r02",
+      "number": 2,
+      "prompt": "Solve 0.75m + 1.5 = 7.5.",
+      "marks": 4,
+      "answer": "m = 8",
+      "solution": [
+        "1. Subtract 1.5: 0.75m = 6.",
+        "2. Divide by 0.75: m = 8.",
+        "3. Check: 0.75(8) + 1.5 = 7.5."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l05-r03",
+      "number": 3,
+      "prompt": "A gym visit costs a fixed R30 plus R15 per hour. A customer pays R120. Find the number of hours.",
+      "marks": 5,
+      "answer": "6 hours",
+      "solution": [
+        "1. Form 15h + 30 = 120.",
+        "2. Subtract 30: 15h = 90.",
+        "3. Divide by 15: h = 6 hours.",
+        "4. Check: 30 + 15(6) = 120."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "summary": [
+    "Identify the forward operation chain acting on the variable.",
+    "Undo the last operation first and preserve equality on both sides.",
+    "Keep negative signs attached to complete coefficients and variable terms.",
+    "Use exact fraction or decimal reasoning before calculating.",
+    "Verify every solution by replaying the original forward operations."
+  ]
+}

@@ -58,7 +58,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                         field for field in source_data.split("; ")
                         if field.partition("=")[0].strip() not in concealed
                     )
-            if lesson.id == "g8-algebraic-equations-03":
+            if lesson.id in {"g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08"}:
                 preview = question["whiteboard"]["steps"][0]
                 preview["working_expression"] = preview["before_expression"]
                 preview["after_expression"] = preview["before_expression"]
@@ -74,12 +74,16 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                 preview["visualization_state"]["after_state"] = preview["before_expression"]
                 source = question["whiteboard"]["visualization"]["parameters"].get("source_data", "")
                 question["whiteboard"]["visualization"]["parameters"]["source_data"] = "; ".join(
-                    field for field in source.split("; ") if field.partition("=")[0].strip() not in {"solution", "landing"}
+                    field for field in source.split("; ")
+                    if not field.partition("=")[0].strip().startswith(("solution", "unit value", "whole litres", "landing", "intermediate", "reverse operations", "reverse rule", "signed distance", "difference", "condition", "break even input", "meeting week", "common length", "classification", "equal cost", "meeting amount", "test values", "expanded", "divide first state", "partial products", "correct products", "restriction", "lcd", "scaled terms", "cleared equation", "correct cleared"))
                 )
             question["whiteboard"]["semantic_objects"] = [
                 item for item in question["whiteboard"]["semantic_objects"]
                 if item["id"] in {"problem", "stage-01"}
             ]
+    if grade.id == "grade-8":
+        previews = {item["whiteboard"]["id"]:item["whiteboard"] for item in payload.get("whiteboard_questions", [])}
+        payload["blocks"] = [previews.get(block.get("id"),block) for block in payload.get("blocks", [])]
     payload["assessment_contract"] = {
         key: value for key, value in payload.get("assessment_contract", {}).items()
         if key in {"worked_example_count", "practice_count", "mastery_question_count", "parallel_reassessment_count", "answer_hidden_before_submission", "progression_threshold"}
@@ -104,7 +108,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
 @router.post("/{lesson_id}/questions/{question_id}/reveal")
 def reveal_worked_example(lesson_id: str, question_id: str, user: User | None = Depends(get_optional_user)) -> dict:
     grade, _, _, lesson = _lesson_context(lesson_id)
-    if grade.id != "grade-8" or lesson.id not in {"g8-algebraic-equations-01", "g8-algebraic-equations-02", "g8-algebraic-equations-03"}:
+    if grade.id != "grade-8" or lesson.id not in {"g8-algebraic-equations-01", "g8-algebraic-equations-02", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08"}:
         raise HTTPException(status_code=404, detail="Worked example not found")
     enforce_lesson_access(lesson, user)
     question = next((item for item in lesson.whiteboard_questions if item.id == question_id), None)

@@ -1,0 +1,937 @@
+{
+  "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
+  "source_sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
+  "id": "g8-algebraic-equations-06",
+  "title": "Variables on both sides",
+  "estimated_minutes": 75,
+  "mastery_threshold": 0.8,
+  "objective": "Solve linear equations with variable terms on both sides by removing one variable term, completing the resulting two-step equation, verifying the solution, and distinguishing equations with one solution, no solution or infinitely many solutions.",
+  "why_it_matters": "Comparing two changing quantities produces equations with variables on both sides. Learners need this structure for break-even problems, equal-cost plans, geometry, functions and later algebra, while identity and contradiction cases prevent the false belief that every equation has one numerical answer.",
+  "prerequisites": [
+    "Solve two-step equations and preserve equality",
+    "Combine signed coefficients and constants",
+    "Interpret a variable term as a collection of equal variable tiles",
+    "Substitute a value into both sides for verification"
+  ],
+  "vocabulary": [
+    {
+      "term": "variable terms on both sides",
+      "meaning": "An equation in which each side contains a term involving the same variable."
+    },
+    {
+      "term": "collect variable terms",
+      "meaning": "Use the same addition or subtraction on both sides so variable terms remain on one side."
+    },
+    {
+      "term": "identity",
+      "meaning": "An equation true for every permitted value of the variable."
+    },
+    {
+      "term": "contradiction",
+      "meaning": "A false numerical statement showing that the equation has no solution."
+    },
+    {
+      "term": "break-even point",
+      "meaning": "The input value at which two costs or quantities are equal."
+    }
+  ],
+  "concept_teaching": [
+    "Choose one variable term to remove by applying its additive inverse to both complete sides.",
+    "A useful first move leaves a positive variable coefficient when possible, but any legal equivalent transformation is valid.",
+    "After collecting variable terms, solve the remaining one-step or two-step equation in the usual reverse order.",
+    "If all variable and constant terms cancel to a true statement such as 0 = 0, every value is a solution.",
+    "If variable terms cancel to a false statement such as 5 = -2, no value can satisfy the equation.",
+    "Verification evaluates both untouched original sides, not only the transformed equation."
+  ],
+  "entry_diagnostic": {
+    "prompt": "Simplify 5x - 2x and solve 3x + 4 = 19.",
+    "answer": "5x - 2x = 3x; x = 5.",
+    "failure_route": "Review combining like terms and two-step equations before removing variable terms from both sides."
+  },
+  "misconceptions": [
+    {
+      "tag": "variable-one-side-only",
+      "diagnosis": "The learner removes a variable term from only one side.",
+      "repair": "Animate identical variable tiles leaving both balance pans at the same time."
+    },
+    {
+      "tag": "coefficient-subtraction-error",
+      "diagnosis": "The learner subtracts coefficients incorrectly or ignores their signs.",
+      "repair": "Separate positive and negative variable tiles, cancel zero pairs, then count the remaining signed tiles."
+    },
+    {
+      "tag": "constant-sign-error",
+      "diagnosis": "The learner changes a constant sign without displaying the inverse operation.",
+      "repair": "Keep the constant stationary and add its visible opposite to both sides."
+    },
+    {
+      "tag": "bad-side-choice",
+      "diagnosis": "The learner chooses a legal but unnecessarily difficult route and then loses a negative coefficient.",
+      "repair": "Compare both legal first moves and select the route that leaves a positive coefficient."
+    },
+    {
+      "tag": "identity-as-one-solution",
+      "diagnosis": "The learner treats a true identity as if it produced one value such as x = 0.",
+      "repair": "Test several different inputs and show both expressions match every time."
+    },
+    {
+      "tag": "contradiction-as-zero",
+      "diagnosis": "The learner reports x = 0 when the variable cancels and a false statement remains.",
+      "repair": "Display that no input can change unequal constant outputs after identical variable parts cancel."
+    },
+    {
+      "tag": "context-equality-missed",
+      "diagnosis": "The learner does not translate equal costs, lengths or totals into an equation.",
+      "repair": "Align the two contextual quantity strips at their shared total before writing the equation."
+    },
+    {
+      "tag": "verification-omitted",
+      "diagnosis": "The learner does not test the solution in both original expressions.",
+      "repair": "Evaluate the original left and right sides in parallel and compare their final values."
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "g8-ae-l06-w01",
+      "number": 1,
+      "prompt": "Solve 3x + 2 = x + 10 using variable tiles.",
+      "difficulty": "foundation",
+      "cognitive_level": "knowledge",
+      "marks": 4,
+      "answer": "x = 4",
+      "memo": [
+        "1. Subtract x from both sides: 3x + 2 - x = x + 10 - x.",
+        "2. This gives 2x + 2 = 10.",
+        "3. Subtract 2 from both sides to get 2x = 8.",
+        "4. Divide by 2 to get x = 4.",
+        "5. Check: 3(4) + 2 = 14 and 4 + 10 = 14."
+      ],
+      "misconception_tags": [
+        "variable-one-side-only",
+        "constant-sign-error"
+      ],
+      "renderer": "algebra:variables_both_sides",
+      "question_data": "left x tiles = 3; left units = 2; right x tiles = 1; right units = 10; remove x tiles = 1; solution = 4",
+      "initial_state": "Show three sealed x tiles and two unit tiles balanced against one sealed x tile and ten units; hide each x value.",
+      "teaching_sequence": [
+        "1. Reveal the complete equation above the balance.",
+        "2. Attach subtract-one-x cards beneath both pans.",
+        "3. Remove one x tile from both pans simultaneously.",
+        "4. Remove two units from both pans to leave 2x = 8.",
+        "5. Partition both pans into two equal groups.",
+        "6. Reveal four units per x tile and rebuild both original expressions."
+      ],
+      "verification": "Both original pans display fourteen units when x is four.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w02",
+      "number": 2,
+      "prompt": "Solve 5y - 7 = 2y + 8.",
+      "difficulty": "foundation",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "y = 5",
+      "memo": [
+        "1. Subtract 2y from both sides to get 3y - 7 = 8.",
+        "2. Add 7 to both sides to get 3y = 15.",
+        "3. Divide by 3 to get y = 5.",
+        "4. Check: 5(5) - 7 = 18 and 2(5) + 8 = 18."
+      ],
+      "misconception_tags": [
+        "coefficient-subtraction-error",
+        "constant-sign-error"
+      ],
+      "renderer": "algebra:variables_both_sides",
+      "question_data": "left coefficient = 5; left constant = -7; right coefficient = 2; right constant = 8; first operation = subtract 2y; solution = 5",
+      "initial_state": "Show five y tiles with seven negative units on the left and two y tiles with eight positive units on the right; keep tile values hidden.",
+      "teaching_sequence": [
+        "1. Circle the smaller positive variable group 2y.",
+        "2. Remove two y tiles from both sides.",
+        "3. Show three y tiles and seven negative units balanced against eight units.",
+        "4. Add seven positive units to both sides and cancel the left zero pairs.",
+        "5. Split fifteen units among three y tiles.",
+        "6. Reveal y = 5 and evaluate both original sides as eighteen."
+      ],
+      "verification": "The original left and right models each total eighteen.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w03",
+      "number": 3,
+      "prompt": "Solve 4a + 9 = 6a - 3 while keeping the variable coefficient positive.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "a = 6",
+      "memo": [
+        "1. Subtract 4a from both sides to get 9 = 2a - 3.",
+        "2. Add 3 to both sides to get 12 = 2a.",
+        "3. Divide by 2 to get a = 6.",
+        "4. Check: 4(6) + 9 = 33 and 6(6) - 3 = 33."
+      ],
+      "misconception_tags": [
+        "bad-side-choice",
+        "coefficient-subtraction-error"
+      ],
+      "renderer": "algebra:variables_both_sides",
+      "question_data": "left coefficient = 4; left constant = 9; right coefficient = 6; right constant = -3; preferred removal = subtract 4a; remaining coefficient = 2; solution = 6",
+      "initial_state": "Show four a tiles plus nine units balanced against six a tiles and three negative units; display two possible first-operation cards but select neither.",
+      "teaching_sequence": [
+        "1. Preview subtracting 6a and note that it creates negative 2a.",
+        "2. Preview subtracting 4a and note that it leaves positive 2a.",
+        "3. Select subtract 4a and remove four a tiles from both sides.",
+        "4. Add three units to both sides to form twelve against 2a.",
+        "5. Divide the twelve units between two a tiles.",
+        "6. Reveal a = 6 and verify both original totals as thirty-three."
+      ],
+      "verification": "Both original expressions evaluate to thirty-three for a = 6.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w04",
+      "number": 4,
+      "prompt": "Solve 7 - 2m = m - 8.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "m = 5",
+      "memo": [
+        "1. Add 2m to both sides to get 7 = 3m - 8.",
+        "2. Add 8 to both sides to get 15 = 3m.",
+        "3. Divide by 3 to get m = 5.",
+        "4. Check: 7 - 2(5) = -3 and 5 - 8 = -3."
+      ],
+      "misconception_tags": [
+        "coefficient-subtraction-error",
+        "bad-side-choice"
+      ],
+      "renderer": "algebra:variables_both_sides",
+      "question_data": "left constant = 7; left coefficient = -2; right coefficient = 1; right constant = -8; first operation = add 2m; solution = 5",
+      "initial_state": "Show seven positive units with two negative m tiles on the left and one positive m tile with eight negative units on the right; hide m.",
+      "teaching_sequence": [
+        "1. Keep each negative sign attached to its m tile.",
+        "2. Add two positive m tiles to both sides.",
+        "3. Cancel the two left-side variable zero pairs.",
+        "4. Add eight positive units to both sides.",
+        "5. Show fifteen units balanced against three m tiles and partition equally.",
+        "6. Reveal m = 5 and reconstruct both original sides as negative three."
+      ],
+      "verification": "Both untouched sides evaluate to negative three.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w05",
+      "number": 5,
+      "prompt": "Solve -3p + 4 = p - 12.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "p = 4",
+      "memo": [
+        "1. Add 3p to both sides to get 4 = 4p - 12.",
+        "2. Add 12 to both sides to get 16 = 4p.",
+        "3. Divide by 4 to get p = 4.",
+        "4. Check: -3(4) + 4 = -8 and 4 - 12 = -8."
+      ],
+      "misconception_tags": [
+        "coefficient-subtraction-error",
+        "constant-sign-error"
+      ],
+      "renderer": "algebra:variables_both_sides",
+      "question_data": "left coefficient = -3; left constant = 4; right coefficient = 1; right constant = -12; first operation = add 3p; solution = 4",
+      "initial_state": "Show three negative p tiles with four positive units balanced against one positive p tile and twelve negative units; keep signs and tiles separate.",
+      "teaching_sequence": [
+        "1. Add three positive p tiles to each side.",
+        "2. Cancel three variable zero pairs on the left.",
+        "3. Combine the right variable tiles as 4p.",
+        "4. Add twelve positive units to each side.",
+        "5. Partition sixteen units among four p tiles.",
+        "6. Reveal p = 4 and show both original sides equal negative eight."
+      ],
+      "verification": "Substitution produces negative eight on each original side.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w06",
+      "number": 6,
+      "prompt": "Solve 0.5q + 2 = 0.2q + 5.",
+      "difficulty": "standard",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "q = 10",
+      "memo": [
+        "1. Subtract 0.2q from both sides to get 0.3q + 2 = 5.",
+        "2. Subtract 2 from both sides to get 0.3q = 3.",
+        "3. Divide by 0.3 to get q = 10.",
+        "4. Check: 0.5(10) + 2 = 7 and 0.2(10) + 5 = 7."
+      ],
+      "misconception_tags": [
+        "coefficient-subtraction-error",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:expression_comparison",
+      "question_data": "left expression = 0.5q + 2; right expression = 0.2q + 5; scale = tenths; remaining coefficient = 0.3; solution = 10",
+      "initial_state": "Show five q-tenths and twenty unit-tenths on the left aligned with two q-tenths and fifty unit-tenths on the right; hide q.",
+      "teaching_sequence": [
+        "1. Rename both decimal coefficients in tenths.",
+        "2. Remove two q-tenths from both aligned rows.",
+        "3. Remove twenty unit-tenths from both rows.",
+        "4. Display three q-tenths equal to thirty unit-tenths.",
+        "5. Divide the rows by three tenths to reveal q = 10.",
+        "6. Evaluate both original comparison rows as seven."
+      ],
+      "verification": "Both original decimal expressions evaluate to seven.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w07",
+      "number": 7,
+      "prompt": "Solve (2/3)r + 1 = (1/3)r + 5.",
+      "difficulty": "standard",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "r = 12",
+      "memo": [
+        "1. Subtract (1/3)r from both sides to get (1/3)r + 1 = 5.",
+        "2. Subtract 1 from both sides to get (1/3)r = 4.",
+        "3. Multiply both sides by 3 to get r = 12.",
+        "4. Check: (2/3)(12) + 1 = 9 and (1/3)(12) + 5 = 9."
+      ],
+      "misconception_tags": [
+        "coefficient-subtraction-error",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:expression_comparison",
+      "question_data": "left fraction = 2/3 r; left constant = 1; right fraction = 1/3 r; right constant = 5; partition count = 3; solution = 12",
+      "initial_state": "Show two of three r sections plus one unit aligned with one of three r sections plus five units; keep each r section sealed.",
+      "teaching_sequence": [
+        "1. Remove one third-r section from both rows.",
+        "2. Remove one unit from both rows.",
+        "3. Show one third of r equal to four.",
+        "4. Duplicate the four-unit section three times.",
+        "5. Combine the sections as r = 12.",
+        "6. Rebuild both original rows and total each as nine."
+      ],
+      "verification": "Two thirds of twelve plus one and one third of twelve plus five both equal nine.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w08",
+      "number": 8,
+      "prompt": "Classify 5s + 6 = 5s + 6 and explain the solution set.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "Infinitely many solutions; the equation is true for every value of s.",
+      "memo": [
+        "1. Subtract 5s from both sides to get 6 = 6.",
+        "2. Subtract 6 from both sides to get 0 = 0.",
+        "3. The final statement is always true, so every value of s satisfies the original equation.",
+        "4. For example, s = 0 and s = 2 both make the sides equal."
+      ],
+      "misconception_tags": [
+        "identity-as-one-solution"
+      ],
+      "renderer": "algebra:identity_contradiction",
+      "question_data": "left expression = 5s + 6; right expression = 5s + 6; classification = identity; test values = [0, 2, -3]",
+      "initial_state": "Show identical covered expression strips on both sides and three untested value cards; hide the classification.",
+      "teaching_sequence": [
+        "1. Remove five s tiles from both identical strips.",
+        "2. Show the true statement 6 = 6.",
+        "3. Remove six from both sides and display 0 = 0.",
+        "4. Test s = 0 and show matching outputs.",
+        "5. Test s = 2 and s = -3 and show matching outputs again.",
+        "6. Reveal the identity label and the all-real-values solution set."
+      ],
+      "verification": "Several distinct inputs give equal outputs, and symbolic cancellation leaves a true statement.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w09",
+      "number": 9,
+      "prompt": "Classify 4t + 3 = 4t - 2 and explain the solution set.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "No solution; identical variable terms would require 3 = -2.",
+      "memo": [
+        "1. Subtract 4t from both sides to get 3 = -2.",
+        "2. This numerical statement is false.",
+        "3. Because the same 4t contribution appears on both sides, changing t cannot remove the five-unit gap.",
+        "4. Therefore the equation has no solution."
+      ],
+      "misconception_tags": [
+        "contradiction-as-zero"
+      ],
+      "renderer": "algebra:identity_contradiction",
+      "question_data": "left expression = 4t + 3; right expression = 4t - 2; classification = contradiction; constant gap = 5; test values = [0, 2]",
+      "initial_state": "Show two rows with identical covered 4t sections but constants three and negative two; hide the classification.",
+      "teaching_sequence": [
+        "1. Remove the matching 4t sections from both rows.",
+        "2. Display the remaining false statement 3 = -2.",
+        "3. Measure the constant gap as five units.",
+        "4. Test t = 0 and preserve the same gap.",
+        "5. Test t = 2 and preserve the same gap again.",
+        "6. Reveal the no-solution classification."
+      ],
+      "verification": "Every input adds the same 4t amount to unequal constants, so the outputs never match.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w10",
+      "number": 10,
+      "prompt": "A learner changes 6x - 4 = 2x + 12 into 4x - 4 = 12 but cannot explain the step. State the legal operation, finish the solution and verify it.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "Subtract 2x from both sides; x = 4.",
+      "memo": [
+        "1. The legal first operation is subtract 2x from both complete sides.",
+        "2. This gives 4x - 4 = 12.",
+        "3. Add 4 to both sides to get 4x = 16.",
+        "4. Divide by 4 to get x = 4.",
+        "5. Check: 6(4) - 4 = 20 and 2(4) + 12 = 20."
+      ],
+      "misconception_tags": [
+        "variable-one-side-only",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:variables_both_sides",
+      "question_data": "original = 6x - 4 = 2x + 12; learner line = 4x - 4 = 12; missing operation = subtract 2x from both sides; solution = 4",
+      "initial_state": "Show the original and learner lines with a blank operation label between them; do not mark the line correct or incorrect.",
+      "teaching_sequence": [
+        "1. Compare variable coefficients six and two across the two lines.",
+        "2. Place subtract-2x cards beneath both original sides.",
+        "3. Remove two x tiles from each side and reconstruct the learner line.",
+        "4. Label the transformation as legal.",
+        "5. Add four, divide by four and reveal x = 4.",
+        "6. Evaluate both original expressions as twenty."
+      ],
+      "verification": "Both untouched original sides evaluate to twenty for x = 4.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w11",
+      "number": 11,
+      "prompt": "Mobile Plan A costs R50 plus R8 per gigabyte. Plan B costs R20 plus R11 per gigabyte. At how many gigabytes do the plans cost the same?",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "10 GB",
+      "memo": [
+        "1. Let g be the number of gigabytes: 50 + 8g = 20 + 11g.",
+        "2. Subtract 8g from both sides to get 50 = 20 + 3g.",
+        "3. Subtract 20 to get 30 = 3g.",
+        "4. Divide by 3 to get g = 10 GB.",
+        "5. Check: Plan A costs R130 and Plan B costs R130."
+      ],
+      "misconception_tags": [
+        "context-equality-missed",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:dual_rate_timeline",
+      "question_data": "plan a base rand = 50; plan a rate rand = 8; plan b base rand = 20; plan b rate rand = 11; input unit = GB; break even input = 10; equal cost rand = 130",
+      "initial_state": "Show two cost strips beginning at R50 and R20 with covered per-gigabyte blocks; hide their meeting input and equal cost.",
+      "teaching_sequence": [
+        "1. Label Plan A with R8 blocks and Plan B with R11 blocks.",
+        "2. Write 50 + 8g = 20 + 11g when the strip totals align.",
+        "3. Remove eight g-blocks from both symbolic strips.",
+        "4. Remove the common R20 base amount.",
+        "5. Partition the R30 difference into R3 gaps to reveal ten gigabytes.",
+        "6. Build both ten-gigabyte strips and show their shared R130 endpoint."
+      ],
+      "verification": "Both rendered plan totals equal R130 at 10 GB.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w12",
+      "number": 12,
+      "prompt": "Thandi has R120 and saves R35 each week. Musa has R260 and saves R15 each week. After how many weeks will they have the same amount?",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "7 weeks",
+      "memo": [
+        "1. Let w be the number of weeks: 120 + 35w = 260 + 15w.",
+        "2. Subtract 15w from both sides to get 120 + 20w = 260.",
+        "3. Subtract 120 to get 20w = 140.",
+        "4. Divide by 20 to get w = 7 weeks.",
+        "5. Check: both have R365 after seven weeks."
+      ],
+      "misconception_tags": [
+        "context-equality-missed",
+        "coefficient-subtraction-error"
+      ],
+      "renderer": "algebra:dual_rate_timeline",
+      "question_data": "person a = Thandi; start a rand = 120; weekly a rand = 35; person b = Musa; start b rand = 260; weekly b rand = 15; meeting week = 7; meeting amount rand = 365",
+      "initial_state": "Show two savings timelines starting at R120 and R260 with different weekly step heights; conceal the intersection.",
+      "teaching_sequence": [
+        "1. Add labelled R35 steps to Thandi's timeline and R15 steps to Musa's.",
+        "2. Translate the equal-height point into 120 + 35w = 260 + 15w.",
+        "3. Remove the common R15-per-week growth from both expressions.",
+        "4. Compare the R140 starting gap with the remaining R20 weekly gain.",
+        "5. Partition R140 into seven R20 gains.",
+        "6. Reveal week seven and the shared amount R365 on both timelines."
+      ],
+      "verification": "Both savings timelines display R365 at week seven.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w13",
+      "number": 13,
+      "prompt": "Two equal sides of an isosceles triangle are labelled 3x + 2 cm and 5x - 10 cm. Find x and the common side length.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "x = 6; each equal side is 20 cm",
+      "memo": [
+        "1. Equal sides give 3x + 2 = 5x - 10.",
+        "2. Subtract 3x from both sides to get 2 = 2x - 10.",
+        "3. Add 10 to get 12 = 2x.",
+        "4. Divide by 2 to get x = 6.",
+        "5. Substitute: 3(6) + 2 = 20 cm and 5(6) - 10 = 20 cm."
+      ],
+      "misconception_tags": [
+        "context-equality-missed",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:context_to_equation",
+      "question_data": "shape = isosceles triangle; side a = 3x + 2 cm; side b = 5x - 10 cm; equation = 3x + 2 = 5x - 10; solution = 6; common length cm = 20",
+      "initial_state": "Show an isosceles triangle with matching side marks and the two different algebraic labels; hide x and the numerical side length.",
+      "teaching_sequence": [
+        "1. Highlight the matching side marks.",
+        "2. Align the two side labels and write their equality.",
+        "3. Remove three x units from both expression strips.",
+        "4. Add ten units to both sides and obtain 12 = 2x.",
+        "5. Divide by two and reveal x = 6.",
+        "6. Replace x in both side labels and display matching 20 cm lengths."
+      ],
+      "verification": "Both labelled triangle sides evaluate to twenty centimetres.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w14",
+      "number": 14,
+      "prompt": "Solve -0.5n + 6 = 0.25n - 3 using exact quarters.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 6,
+      "answer": "n = 12",
+      "memo": [
+        "1. Add 0.5n to both sides to get 6 = 0.75n - 3.",
+        "2. Add 3 to both sides to get 9 = 0.75n.",
+        "3. Since 0.75 = 3/4, multiply both sides by 4/3.",
+        "4. Therefore n = 12.",
+        "5. Check: -0.5(12) + 6 = 0 and 0.25(12) - 3 = 0."
+      ],
+      "misconception_tags": [
+        "coefficient-subtraction-error",
+        "bad-side-choice"
+      ],
+      "renderer": "algebra:expression_comparison",
+      "question_data": "left expression = -1/2 n + 6; right expression = 1/4 n - 3; common partition = 4; remaining coefficient = 3/4; solution = 12",
+      "initial_state": "Show negative two quarter-n sections plus six aligned against one positive quarter-n section and negative three; conceal the whole n bar.",
+      "teaching_sequence": [
+        "1. Rename negative one half as negative two quarters.",
+        "2. Add two positive quarter-n sections to both rows.",
+        "3. Show six equal to three quarter-n sections minus three.",
+        "4. Add three units to both rows to obtain nine equal to three quarters of n.",
+        "5. Divide nine across three visible quarters, then add the fourth equal quarter.",
+        "6. Reveal n = 12 and evaluate both original sides as zero."
+      ],
+      "verification": "Both original fractional expressions evaluate to zero for n = 12.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l06-w15",
+      "number": 15,
+      "prompt": "For ax + b = cx + d, explain how a and c determine the possible solution types. Then solve -1.5x + 7 = 0.5x - 9.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 7,
+      "answer": "If a differs from c there is one solution; if a = c, the constants determine identity or contradiction. For the example, x = 8.",
+      "memo": [
+        "1. Subtract cx and b to obtain (a - c)x = d - b.",
+        "2. If a differs from c, divide by a - c to get one solution.",
+        "3. If a = c and b = d, the equation is an identity with infinitely many solutions.",
+        "4. If a = c and b differs from d, the equation is a contradiction with no solution.",
+        "5. For -1.5x + 7 = 0.5x - 9, subtract 0.5x to get -2x + 7 = -9.",
+        "6. Subtract 7 to get -2x = -16, so x = 8.",
+        "7. Check: both original sides equal -5."
+      ],
+      "misconception_tags": [
+        "identity-as-one-solution",
+        "contradiction-as-zero",
+        "coefficient-subtraction-error"
+      ],
+      "renderer": "algebra:identity_contradiction",
+      "question_data": "general equation = ax + b = cx + d; coefficient difference = a - c; constant difference = d - b; example left = -1.5x + 7; example right = 0.5x - 9; solution = 8",
+      "initial_state": "Show the general equation feeding three covered classification branches and the numerical example below; reveal neither branch rules nor solution.",
+      "teaching_sequence": [
+        "1. Subtract cx and b symbolically to form (a - c)x = d - b.",
+        "2. Open the a not equal to c branch and show one solution by division.",
+        "3. Open the a = c and b = d branch and show the identity 0 = 0.",
+        "4. Open the a = c and b not equal to d branch and show a contradiction.",
+        "5. Apply the one-solution branch to the numerical example and reveal x = 8.",
+        "6. Evaluate both original example sides as negative five."
+      ],
+      "verification": "The branch conditions cover all coefficient cases, and the example gives equal original outputs of -5.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    }
+  ],
+  "practice_questions": [
+    {
+      "id": "g8-ae-l06-p01",
+      "number": 1,
+      "prompt": "Solve 4x + 1 = x + 13.",
+      "marks": 4,
+      "answer": "x = 4",
+      "solution": [
+        "1. Subtract x: 3x + 1 = 13.",
+        "2. Subtract 1: 3x = 12.",
+        "3. Divide by 3: x = 4.",
+        "4. Check: both sides equal 17."
+      ],
+      "misconception_tags": [
+        "variable-one-side-only"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p02",
+      "number": 2,
+      "prompt": "Solve 7y - 5 = 3y + 11.",
+      "marks": 4,
+      "answer": "y = 4",
+      "solution": [
+        "1. Subtract 3y: 4y - 5 = 11.",
+        "2. Add 5: 4y = 16.",
+        "3. Divide by 4: y = 4.",
+        "4. Check: both sides equal 23."
+      ],
+      "misconception_tags": [
+        "coefficient-subtraction-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p03",
+      "number": 3,
+      "prompt": "Solve 2a + 14 = 5a - 1.",
+      "marks": 4,
+      "answer": "a = 5",
+      "solution": [
+        "1. Subtract 2a: 14 = 3a - 1.",
+        "2. Add 1: 15 = 3a.",
+        "3. Divide by 3: a = 5."
+      ],
+      "misconception_tags": [
+        "bad-side-choice"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p04",
+      "number": 4,
+      "prompt": "Solve 10 - 3m = m - 6.",
+      "marks": 4,
+      "answer": "m = 4",
+      "solution": [
+        "1. Add 3m: 10 = 4m - 6.",
+        "2. Add 6: 16 = 4m.",
+        "3. Divide by 4: m = 4."
+      ],
+      "misconception_tags": [
+        "coefficient-subtraction-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p05",
+      "number": 5,
+      "prompt": "Solve -2p + 9 = p - 6.",
+      "marks": 4,
+      "answer": "p = 5",
+      "solution": [
+        "1. Add 2p: 9 = 3p - 6.",
+        "2. Add 6: 15 = 3p.",
+        "3. Divide by 3: p = 5."
+      ],
+      "misconception_tags": [
+        "constant-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p06",
+      "number": 6,
+      "prompt": "Solve 0.6q + 1 = 0.2q + 5.",
+      "marks": 5,
+      "answer": "q = 10",
+      "solution": [
+        "1. Subtract 0.2q: 0.4q + 1 = 5.",
+        "2. Subtract 1: 0.4q = 4.",
+        "3. Divide by 0.4: q = 10."
+      ],
+      "misconception_tags": [
+        "coefficient-subtraction-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p07",
+      "number": 7,
+      "prompt": "Solve (3/4)r + 2 = (1/4)r + 8.",
+      "marks": 5,
+      "answer": "r = 12",
+      "solution": [
+        "1. Subtract (1/4)r: (1/2)r + 2 = 8.",
+        "2. Subtract 2: (1/2)r = 6.",
+        "3. Multiply by 2: r = 12."
+      ],
+      "misconception_tags": [
+        "coefficient-subtraction-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p08",
+      "number": 8,
+      "prompt": "Classify 7s - 4 = 7s - 4.",
+      "marks": 5,
+      "answer": "Infinitely many solutions.",
+      "solution": [
+        "1. Subtract 7s: -4 = -4.",
+        "2. This is always true, so every value of s is a solution."
+      ],
+      "misconception_tags": [
+        "identity-as-one-solution"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p09",
+      "number": 9,
+      "prompt": "Classify 3t + 8 = 3t + 1.",
+      "marks": 5,
+      "answer": "No solution.",
+      "solution": [
+        "1. Subtract 3t: 8 = 1.",
+        "2. This is false, so there is no solution."
+      ],
+      "misconception_tags": [
+        "contradiction-as-zero"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p10",
+      "number": 10,
+      "prompt": "Repair the unexplained step: 8x + 3 = 5x + 18 becomes 3x + 3 = 18. State the operation and solve.",
+      "marks": 5,
+      "answer": "Subtract 5x from both sides; x = 5.",
+      "solution": [
+        "1. Subtract 5x from both complete sides.",
+        "2. Then 3x + 3 = 18.",
+        "3. Subtract 3 and divide by 3: x = 5.",
+        "4. Check: both original sides equal 43."
+      ],
+      "misconception_tags": [
+        "variable-one-side-only"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p11",
+      "number": 11,
+      "prompt": "Plan A costs R40 plus R9 per unit. Plan B costs R70 plus R6 per unit. At how many units are the costs equal?",
+      "marks": 6,
+      "answer": "10 units",
+      "solution": [
+        "1. Form 40 + 9u = 70 + 6u.",
+        "2. Subtract 6u and 40: 3u = 30.",
+        "3. u = 10.",
+        "4. Check: both plans cost R130."
+      ],
+      "misconception_tags": [
+        "context-equality-missed"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p12",
+      "number": 12,
+      "prompt": "Lebo has R80 and saves R30 weekly. Amina has R200 and saves R10 weekly. After how many weeks are their totals equal?",
+      "marks": 6,
+      "answer": "6 weeks",
+      "solution": [
+        "1. Form 80 + 30w = 200 + 10w.",
+        "2. Subtract 10w and 80: 20w = 120.",
+        "3. w = 6.",
+        "4. Check: both have R260."
+      ],
+      "misconception_tags": [
+        "context-equality-missed"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p13",
+      "number": 13,
+      "prompt": "Equal sides are labelled 4x + 1 cm and 6x - 9 cm. Find x and the common length.",
+      "marks": 6,
+      "answer": "x = 5; common length 21 cm",
+      "solution": [
+        "1. Set 4x + 1 = 6x - 9.",
+        "2. Subtract 4x and add 9: 10 = 2x.",
+        "3. x = 5.",
+        "4. Both lengths equal 21 cm."
+      ],
+      "misconception_tags": [
+        "context-equality-missed"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p14",
+      "number": 14,
+      "prompt": "Solve -0.25n + 5 = 0.5n - 4.",
+      "marks": 6,
+      "answer": "n = 12",
+      "solution": [
+        "1. Add 0.25n: 5 = 0.75n - 4.",
+        "2. Add 4: 9 = 0.75n.",
+        "3. Divide by 0.75: n = 12.",
+        "4. Check: both sides equal 2."
+      ],
+      "misconception_tags": [
+        "coefficient-subtraction-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l06-p15",
+      "number": 15,
+      "prompt": "State the three solution cases for ax + b = cx + d, then solve -2x + 11 = x - 4.",
+      "marks": 7,
+      "answer": "One solution if a differs from c; identity if a = c and b = d; no solution if a = c and b differs from d. Here x = 5.",
+      "solution": [
+        "1. Compare the variable coefficients and constants for the three cases.",
+        "2. For the example, add 2x: 11 = 3x - 4.",
+        "3. Add 4: 15 = 3x.",
+        "4. x = 5; both original sides equal 1."
+      ],
+      "misconception_tags": [
+        "identity-as-one-solution",
+        "contradiction-as-zero"
+      ]
+    }
+  ],
+  "mastery_questions": [
+    {
+      "id": "g8-ae-l06-m01",
+      "number": 1,
+      "prompt": "Solve 5x + 3 = 2x + 18.",
+      "marks": 4,
+      "answer": "x = 5",
+      "solution": [
+        "1. Subtract 2x: 3x + 3 = 18.",
+        "2. Subtract 3 and divide by 3: x = 5."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l06-m02",
+      "number": 2,
+      "prompt": "Solve 12 - 2y = y - 6.",
+      "marks": 4,
+      "answer": "y = 6",
+      "solution": [
+        "1. Add 2y and 6: 18 = 3y.",
+        "2. Divide by 3: y = 6."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l06-m03",
+      "number": 3,
+      "prompt": "Classify 4p + 7 = 4p + 7.",
+      "marks": 5,
+      "answer": "Infinitely many solutions.",
+      "solution": [
+        "1. Subtract 4p: 7 = 7.",
+        "2. The statement is always true."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l06-m04",
+      "number": 4,
+      "prompt": "Classify 6q - 2 = 6q + 5.",
+      "marks": 5,
+      "answer": "No solution.",
+      "solution": [
+        "1. Subtract 6q: -2 = 5.",
+        "2. The statement is false."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l06-m05",
+      "number": 5,
+      "prompt": "A club charges R100 plus R20 per visit. Another charges R40 plus R30 per visit. At how many visits are the costs equal?",
+      "marks": 6,
+      "answer": "6 visits",
+      "solution": [
+        "1. Form 100 + 20v = 40 + 30v.",
+        "2. Subtract 20v and 40: 60 = 10v.",
+        "3. v = 6; both totals are R220."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "repair_rules": [
+    "Incorrect M1: Replay worked examples 1 and 2 with simultaneous variable-tile removal, then administer R1.",
+    "Incorrect M2: Replay worked examples 4 and 5 with signed variable tiles and a positive-coefficient route, then administer R1.",
+    "Incorrect M3: Replay worked example 8 and require three different substitution tests, then administer R2.",
+    "Incorrect M4: Replay worked example 9 and track the fixed output gap across two inputs, then administer R2.",
+    "Incorrect M5: Replay worked example 11 from aligned cost strips to equation to break-even verification, then administer R3.",
+    "Score below 80%: Reteach the two most frequent misconception tags and administer all three parallel questions."
+  ],
+  "reassessment_questions": [
+    {
+      "id": "g8-ae-l06-r01",
+      "number": 1,
+      "prompt": "Solve 9 - 4h = 2h - 9.",
+      "marks": 4,
+      "answer": "h = 3",
+      "solution": [
+        "1. Add 4h and 9: 18 = 6h.",
+        "2. Divide by 6: h = 3.",
+        "3. Check: both original sides equal -3."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l06-r02",
+      "number": 2,
+      "prompt": "Classify 8j + 1 = 8j - 6.",
+      "marks": 5,
+      "answer": "No solution.",
+      "solution": [
+        "1. Subtract 8j: 1 = -6.",
+        "2. The remaining statement is false, so there is no solution."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l06-r03",
+      "number": 3,
+      "prompt": "Service A costs R75 plus R5 per use. Service B costs R30 plus R10 per use. At how many uses are the totals equal?",
+      "marks": 6,
+      "answer": "9 uses",
+      "solution": [
+        "1. Form 75 + 5u = 30 + 10u.",
+        "2. Subtract 5u and 30: 45 = 5u.",
+        "3. u = 9.",
+        "4. Check: both totals equal R120."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "summary": [
+    "Apply the same variable-term operation to both complete sides.",
+    "Choose a route that keeps the remaining coefficient positive when practical.",
+    "A true statement after cancellation indicates infinitely many solutions.",
+    "A false statement after cancellation indicates no solution.",
+    "Context comparisons become equations when the two changing totals are equal.",
+    "Verify one-solution cases in both original expressions."
+  ]
+}

@@ -49,7 +49,7 @@ class PracticeQuestion(BaseModel):
     question_number: int = Field(ge=1, le=15)
     difficulty: Literal["foundation", "easy", "standard", "intermediate", "exam", "advanced", "source_unspecified"]
     cognitive_level: Literal["knowledge", "routine", "complex", "problem_solving", "source_unspecified"]
-    marks: int = Field(ge=1, le=6)
+    marks: int = Field(ge=1, le=10)
     type: Literal["numeric", "short_text", "multiple_choice", "classification", "missing_term", "error_analysis"]
     prompt: str = Field(min_length=1, max_length=500)
     options: list[str] = Field(default_factory=list, max_length=8)

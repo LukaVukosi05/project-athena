@@ -1,0 +1,893 @@
+{
+  "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
+  "source_sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
+  "id": "g8-algebraic-equations-04",
+  "title": "Multiplicative inverse equations",
+  "estimated_minutes": 60,
+  "mastery_threshold": 0.8,
+  "objective": "Solve equations of the forms ax = b and x divided by a = b by applying a multiplicative inverse to both sides, interpret the operation visually, and verify the result in the original equation.",
+  "why_it_matters": "Multiplicative inverse reasoning explains why division isolates a multiplied variable and why multiplication isolates a divided variable. It prepares learners for multi-step equations, formula manipulation and proportional reasoning.",
+  "prerequisites": [
+    "Preserve equality using the same operation on both sides",
+    "Recall multiplication and division fact families",
+    "Multiply and divide signed numbers",
+    "Work with simple fractions and decimals"
+  ],
+  "vocabulary": [
+    {
+      "term": "coefficient",
+      "meaning": "The numerical factor multiplying a variable."
+    },
+    {
+      "term": "multiplicative inverse",
+      "meaning": "A factor that produces 1 when multiplied by the original non-zero factor."
+    },
+    {
+      "term": "reciprocal",
+      "meaning": "The multiplicative inverse of a non-zero fraction."
+    },
+    {
+      "term": "unit group",
+      "meaning": "One equal share after a total has been partitioned."
+    },
+    {
+      "term": "undefined division",
+      "meaning": "Division by zero, which is not permitted."
+    }
+  ],
+  "concept_teaching": [
+    "In ax = b, divide both complete sides by the non-zero coefficient a.",
+    "In x divided by a = b, multiply both complete sides by a.",
+    "The coefficient and its reciprocal multiply to 1, leaving one x.",
+    "A negative coefficient requires division by a negative number, so sign rules must remain visible.",
+    "Verification uses the original multiplication or division equation, not only the isolated result."
+  ],
+  "entry_diagnostic": {
+    "prompt": "Complete the fact family: 8 x □ = 56 and 56 divided by 8 = □.",
+    "answer": "7 in both spaces.",
+    "failure_route": "Review equal-group multiplication and division before solving coefficient equations."
+  },
+  "misconceptions": [
+    {
+      "tag": "divide-one-side",
+      "diagnosis": "The learner divides only the side containing the variable.",
+      "repair": "Show the balance tipping, restore it, and partition both pans by the same factor."
+    },
+    {
+      "tag": "divide-by-variable",
+      "diagnosis": "The learner divides by x instead of by the numerical coefficient.",
+      "repair": "Colour-code the coefficient as the factor that must become 1."
+    },
+    {
+      "tag": "multiply-instead-of-divide",
+      "diagnosis": "The learner multiplies again when the variable already has a coefficient.",
+      "repair": "Use equal groups to show that one group is found by division."
+    },
+    {
+      "tag": "negative-division-sign",
+      "diagnosis": "The learner ignores the sign of a negative coefficient.",
+      "repair": "Display the sign rule before calculating the quotient."
+    },
+    {
+      "tag": "fraction-reciprocal-error",
+      "diagnosis": "The learner inverts the wrong factor or does not multiply both sides by the reciprocal.",
+      "repair": "Animate the coefficient and reciprocal combining to one whole x."
+    },
+    {
+      "tag": "verification-omitted",
+      "diagnosis": "The learner does not check the original equation.",
+      "repair": "Reconstruct the original groups using the proposed value."
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "g8-ae-l04-w01",
+      "number": 1,
+      "prompt": "Solve 5x = 35 using a multiplicative inverse.",
+      "difficulty": "foundation",
+      "cognitive_level": "knowledge",
+      "marks": 2,
+      "answer": "x = 7",
+      "memo": [
+        "1. Divide both sides by 5: 5x divided by 5 = 35 divided by 5.",
+        "2. This leaves x = 7.",
+        "3. Check: 5(7) = 35."
+      ],
+      "misconception_tags": [
+        "divide-one-side",
+        "multiply-instead-of-divide"
+      ],
+      "renderer": "algebra:equal_groups",
+      "question_data": "groups = 5; total = 35; unit value = 7; equation = 5x = 35",
+      "initial_state": "Show five identical sealed x groups balanced against thirty-five counters; hide the group value.",
+      "teaching_sequence": [
+        "1. Reveal the complete equation.",
+        "2. Partition the right counters into five equal groups.",
+        "3. Apply the same divide-by-five operation to both equation sides.",
+        "4. Cancel five divided by five to leave one x.",
+        "5. Count seven counters in one group.",
+        "6. Rebuild five groups of seven for verification."
+      ],
+      "verification": "Five visible groups of seven contain thirty-five counters.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w02",
+      "number": 2,
+      "prompt": "Solve y divided by 4 = 6.",
+      "difficulty": "foundation",
+      "cognitive_level": "routine",
+      "marks": 2,
+      "answer": "y = 24",
+      "memo": [
+        "1. Multiply both sides by 4: 4(y divided by 4) = 4(6).",
+        "2. This leaves y = 24.",
+        "3. Check: 24 divided by 4 = 6."
+      ],
+      "misconception_tags": [
+        "multiply-instead-of-divide"
+      ],
+      "renderer": "algebra:equal_groups",
+      "question_data": "unknown total = y; groups = 4; unit value = 6; solution = 24",
+      "initial_state": "Show one of four equal y shares containing six counters; hide the total.",
+      "teaching_sequence": [
+        "1. Display y divided by four equals six.",
+        "2. Duplicate the visible six-counter share until four equal shares appear.",
+        "3. Multiply both sides by four.",
+        "4. Join the four shares into the whole y.",
+        "5. Count twenty-four counters in the whole.",
+        "6. Divide the whole back into four shares to verify."
+      ],
+      "verification": "Twenty-four counters shared into four equal groups gives six per group.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w03",
+      "number": 3,
+      "prompt": "Solve -3a = 21.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 2,
+      "answer": "a = -7",
+      "memo": [
+        "1. Divide both sides by -3.",
+        "2. A positive divided by a negative is negative, so a = -7.",
+        "3. Check: (-3)(-7) = 21."
+      ],
+      "misconception_tags": [
+        "negative-division-sign"
+      ],
+      "renderer": "algebra:multiplicative_inverse",
+      "question_data": "coefficient = -3; right value = 21; operation = divide by -3; solution = -7",
+      "initial_state": "Show -3a = 21 with the coefficient and its sign highlighted together; hide the quotient.",
+      "teaching_sequence": [
+        "1. Identify the complete coefficient as negative three.",
+        "2. Write divide by negative three beneath both sides.",
+        "3. Cancel negative three divided by negative three to one.",
+        "4. Reveal the sign rule positive divided by negative gives negative.",
+        "5. Calculate 21 divided by 3 as 7 and attach the negative sign.",
+        "6. Verify the product of two negative factors is positive 21."
+      ],
+      "verification": "The original left side becomes (-3)(-7) = 21.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w04",
+      "number": 4,
+      "prompt": "Solve b divided by -5 = 7.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 2,
+      "answer": "b = -35",
+      "memo": [
+        "1. Multiply both sides by -5.",
+        "2. This gives b = 7(-5) = -35.",
+        "3. Check: -35 divided by -5 = 7."
+      ],
+      "misconception_tags": [
+        "negative-division-sign"
+      ],
+      "renderer": "algebra:multiplicative_inverse",
+      "question_data": "divisor = -5; quotient = 7; operation = multiply by -5; solution = -35",
+      "initial_state": "Show b passing through a divide-by-negative-five gate to output seven.",
+      "teaching_sequence": [
+        "1. Highlight the divisor negative five.",
+        "2. Reverse division by multiplying both sides by negative five.",
+        "3. Cancel the inverse operations around b.",
+        "4. Multiply seven by negative five.",
+        "5. Reveal b = -35.",
+        "6. Send -35 through the original division gate to verify output seven."
+      ],
+      "verification": "Negative thirty-five divided by negative five produces positive seven.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w05",
+      "number": 5,
+      "prompt": "Solve 0.5m = 8.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 3,
+      "answer": "m = 16",
+      "memo": [
+        "1. Divide both sides by 0.5, or multiply both sides by 2.",
+        "2. Therefore m = 16.",
+        "3. Check: 0.5(16) = 8."
+      ],
+      "misconception_tags": [
+        "fraction-reciprocal-error"
+      ],
+      "renderer": "algebra:fraction_scale",
+      "question_data": "coefficient = 0.5; right value = 8; reciprocal = 2; solution = 16",
+      "initial_state": "Show half of an m bar labelled 8; keep the complete bar hidden.",
+      "teaching_sequence": [
+        "1. Shade one half of the unknown bar.",
+        "2. Label the shaded half as eight.",
+        "3. Apply the reciprocal factor two to both sides.",
+        "4. Duplicate the half-bar to form one whole bar.",
+        "5. Combine eight and eight as sixteen.",
+        "6. Take half of sixteen again to verify eight."
+      ],
+      "verification": "The highlighted half of the sixteen-unit bar has length eight.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w06",
+      "number": 6,
+      "prompt": "Solve (2/3)n = 10.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 3,
+      "answer": "n = 15",
+      "memo": [
+        "1. Multiply both sides by the reciprocal 3/2.",
+        "2. n = 10 x 3/2 = 15.",
+        "3. Check: (2/3)(15) = 10."
+      ],
+      "misconception_tags": [
+        "fraction-reciprocal-error"
+      ],
+      "renderer": "algebra:fraction_scale",
+      "question_data": "coefficient = 2/3; right value = 10; reciprocal = 3/2; solution = 15",
+      "initial_state": "Show two of three equal parts of an n bar with combined value ten; hide the whole.",
+      "teaching_sequence": [
+        "1. Partition the unknown bar into three equal parts.",
+        "2. Mark two parts as total ten.",
+        "3. Divide ten between the two visible parts to get five per part.",
+        "4. Reveal the third equal part of five.",
+        "5. Combine three parts as fifteen.",
+        "6. Shade two thirds of fifteen to verify ten."
+      ],
+      "verification": "Two of the three five-unit sections total ten.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w07",
+      "number": 7,
+      "prompt": "Solve -x = 12 and explain the coefficient.",
+      "difficulty": "standard",
+      "cognitive_level": "complex",
+      "marks": 3,
+      "answer": "x = -12",
+      "memo": [
+        "1. The coefficient of x is -1.",
+        "2. Divide both sides by -1 to get x = -12.",
+        "3. Check: -(-12) = 12."
+      ],
+      "misconception_tags": [
+        "negative-division-sign",
+        "divide-by-variable"
+      ],
+      "renderer": "algebra:multiplicative_inverse",
+      "question_data": "coefficient = -1; right value = 12; operation = divide by -1; solution = -12",
+      "initial_state": "Show a negative x tile equal to twelve positive counters; keep the coefficient -1 visible.",
+      "teaching_sequence": [
+        "1. Rewrite -x as (-1)x.",
+        "2. Divide both sides by negative one.",
+        "3. Cancel the left coefficient to one.",
+        "4. Apply the sign rule to twelve divided by negative one.",
+        "5. Reveal x = -12.",
+        "6. Negate -12 to verify positive twelve."
+      ],
+      "verification": "The opposite of negative twelve is positive twelve.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w08",
+      "number": 8,
+      "prompt": "Solve 4p = -18. Give the answer as a fraction and decimal.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "p = -9/2 = -4.5",
+      "memo": [
+        "1. Divide both sides by 4.",
+        "2. p = -18/4 = -9/2.",
+        "3. As a decimal, -9/2 = -4.5.",
+        "4. Check: 4(-4.5) = -18."
+      ],
+      "misconception_tags": [
+        "negative-division-sign",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:equal_groups",
+      "question_data": "groups = 4; total = -18; unit fraction = -18/4; solution fraction = -9/2; solution decimal = -4.5",
+      "initial_state": "Show eighteen negative unit counters to be shared into four equal p groups.",
+      "teaching_sequence": [
+        "1. Partition sixteen negative counters equally into four groups.",
+        "2. Show two negative counters remaining.",
+        "3. Split each remaining counter into four equal quarter pieces.",
+        "4. Place two quarters into each group.",
+        "5. Combine each group as negative four and a half.",
+        "6. Multiply four by negative four and a half to verify negative eighteen."
+      ],
+      "verification": "Four equal groups of -4.5 total -18.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w09",
+      "number": 9,
+      "prompt": "Solve q divided by 0.25 = 12.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "q = 3",
+      "memo": [
+        "1. Multiply both sides by 0.25.",
+        "2. q = 12 x 0.25 = 3.",
+        "3. Check: 3 divided by 0.25 = 12."
+      ],
+      "misconception_tags": [
+        "multiply-instead-of-divide",
+        "fraction-reciprocal-error"
+      ],
+      "renderer": "algebra:fraction_scale",
+      "question_data": "divisor = 0.25; quotient = 12; operation = multiply by 0.25; solution = 3",
+      "initial_state": "Show twelve quarter-unit blocks whose combined length q is hidden.",
+      "teaching_sequence": [
+        "1. Rename 0.25 as one quarter.",
+        "2. Interpret the quotient as twelve quarter-sized groups.",
+        "3. Lay twelve quarter blocks end to end.",
+        "4. Regroup every four quarters into one whole.",
+        "5. Count three wholes and reveal q = 3.",
+        "6. Count the number of quarters in three wholes to verify twelve."
+      ],
+      "verification": "Three wholes contain twelve quarters, so 3 divided by 0.25 is 12.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w10",
+      "number": 10,
+      "prompt": "A learner solves 6x = 42 by writing x = 42. Identify and repair the error.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "The learner did not divide both sides by 6; x = 7.",
+      "memo": [
+        "1. The coefficient 6 must become 1.",
+        "2. Divide both sides by 6: 6x/6 = 42/6.",
+        "3. Therefore x = 7; check: 6(7) = 42."
+      ],
+      "misconception_tags": [
+        "divide-one-side",
+        "divide-by-variable"
+      ],
+      "renderer": "algebra:multiplicative_inverse",
+      "question_data": "original = 6x = 42; incorrect result = x = 42; correct operation = divide both sides by 6; solution = 7",
+      "initial_state": "Show the original equation and learner result with no error marker.",
+      "teaching_sequence": [
+        "1. Compare 6x with x and highlight the removed coefficient.",
+        "2. Show that the right side was left unchanged.",
+        "3. Tip the balance to display the consequence.",
+        "4. Restore the original equation.",
+        "5. Partition both sides into six equal groups.",
+        "6. Reveal x = 7 and verify six groups total forty-two."
+      ],
+      "verification": "The learner's value gives 252, while seven gives the original right side 42.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w11",
+      "number": 11,
+      "prompt": "The area of a rectangle is 72 cm² and its width is 8 cm. Form an equation and find its length.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "9 cm",
+      "memo": [
+        "1. Let the length be l cm, so 8l = 72.",
+        "2. Divide both sides by 8 to get l = 9.",
+        "3. Check: 8 cm x 9 cm = 72 cm²."
+      ],
+      "misconception_tags": [
+        "divide-one-side",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:context_to_equation",
+      "question_data": "shape = rectangle; width cm = 8; area cm2 = 72; unknown = length; solution cm = 9",
+      "initial_state": "Show a rectangle with width eight centimetres and area seventy-two square centimetres; hide the length.",
+      "teaching_sequence": [
+        "1. Write area equals width times length.",
+        "2. Substitute the visible labels to form 8l = 72.",
+        "3. Partition the rectangle into eight equal width strips.",
+        "4. Divide the total area by eight.",
+        "5. Label each strip length as nine centimetres.",
+        "6. Multiply the dimensions to verify the area."
+      ],
+      "verification": "The rendered dimensions 8 cm and 9 cm produce 72 cm².",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w12",
+      "number": 12,
+      "prompt": "Seven identical data bundles cost R245. Form an equation and find the cost of one bundle.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "R35",
+      "memo": [
+        "1. Let one bundle cost c rand, so 7c = 245.",
+        "2. Divide both sides by 7: c = 35.",
+        "3. Check: 7 x R35 = R245."
+      ],
+      "misconception_tags": [
+        "divide-one-side",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:context_to_equation",
+      "question_data": "objects = 7; object = data bundle; total rand = 245; equation = 7c = 245; solution rand = 35",
+      "initial_state": "Show seven identical bundle icons and a total price R245; hide each price.",
+      "teaching_sequence": [
+        "1. Assign c rand to each bundle.",
+        "2. Construct 7c = 245 from the icons.",
+        "3. Partition R245 into seven equal columns.",
+        "4. Accumulate thirty-five rand in each column.",
+        "5. Reveal c = R35.",
+        "6. Recombine seven columns to verify R245."
+      ],
+      "verification": "Seven displayed prices of R35 sum to R245.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w13",
+      "number": 13,
+      "prompt": "A taxi travels 156 km in 3 equal stages. If each stage is d kilometres, form and solve an equation.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "d = 52 km",
+      "memo": [
+        "1. Three equal stages give 3d = 156.",
+        "2. Divide both sides by 3 to get d = 52.",
+        "3. Check: 3 x 52 km = 156 km."
+      ],
+      "misconception_tags": [
+        "divide-one-side",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:context_to_equation",
+      "question_data": "route km = 156; stages = 3; unknown stage = d; solution km = 52",
+      "initial_state": "Show a 156 km route split into three equal unlabelled segments.",
+      "teaching_sequence": [
+        "1. Label each segment d kilometres.",
+        "2. Form 3d = 156 beneath the route.",
+        "3. Divide both equation sides and the route into three.",
+        "4. Reveal fifty-two kilometres on each segment.",
+        "5. Trace the three segments in sequence.",
+        "6. Add their distances to verify 156 kilometres."
+      ],
+      "verification": "The three 52 km segments total 156 km.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w14",
+      "number": 14,
+      "prompt": "One quarter of a water tank's capacity is 7.5 litres. Find the full capacity.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 6,
+      "answer": "30 litres",
+      "memo": [
+        "1. Let the capacity be c litres, so (1/4)c = 7.5.",
+        "2. Multiply both sides by 4 to get c = 30.",
+        "3. Check: one quarter of 30 litres is 7.5 litres."
+      ],
+      "misconception_tags": [
+        "fraction-reciprocal-error",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:fraction_scale",
+      "question_data": "fraction = 1/4; part litres = 7.5; whole litres = 30; context = water tank",
+      "initial_state": "Show one of four equal tank sections filled and labelled 7.5 litres; hide the capacity.",
+      "teaching_sequence": [
+        "1. Identify the visible section as one quarter.",
+        "2. Write (1/4)c = 7.5.",
+        "3. Multiply both sides by four.",
+        "4. Copy the 7.5 litre amount into all four equal sections.",
+        "5. Accumulate 7.5, 15, 22.5 and 30 litres.",
+        "6. Reveal the capacity and reselect one quarter for verification."
+      ],
+      "verification": "The tank shows four equal 7.5 litre sections totalling 30 litres.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l04-w15",
+      "number": 15,
+      "prompt": "Explain why ax = b has solution x = b/a only when a is not zero. Then solve -2.5x = 15.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 6,
+      "answer": "Division by a requires a not equal to zero; x = -6.",
+      "memo": [
+        "1. To isolate x, divide both sides of ax = b by a.",
+        "2. Division by zero is undefined, so this step requires a not equal to zero.",
+        "3. For -2.5x = 15, divide both sides by -2.5 to get x = -6.",
+        "4. Check: (-2.5)(-6) = 15."
+      ],
+      "misconception_tags": [
+        "negative-division-sign",
+        "divide-by-variable"
+      ],
+      "renderer": "algebra:multiplicative_inverse",
+      "question_data": "general = ax = b; condition = a != 0; example coefficient = -2.5; right value = 15; solution = -6",
+      "initial_state": "Show ax = b and a divide-by-a operation card with the condition slot blank.",
+      "teaching_sequence": [
+        "1. Apply divide by a to both symbolic sides.",
+        "2. Cancel a divided by a to one when a is non-zero.",
+        "3. Attempt a = 0 and display division by zero as undefined.",
+        "4. Record the condition a is not zero.",
+        "5. Substitute a = -2.5 and b = 15.",
+        "6. Calculate and verify x = -6 in the original example."
+      ],
+      "verification": "The example product is 15 and the symbolic cancellation is shown only under the non-zero condition.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    }
+  ],
+  "practice_questions": [
+    {
+      "id": "g8-ae-l04-p01",
+      "number": 1,
+      "prompt": "Solve 6x = 48.",
+      "marks": 2,
+      "answer": "x = 8",
+      "solution": [
+        "1. Divide both sides by 6.",
+        "2. x = 8.",
+        "3. Check: 6(8) = 48."
+      ],
+      "misconception_tags": [
+        "divide-one-side"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p02",
+      "number": 2,
+      "prompt": "Solve y divided by 7 = 5.",
+      "marks": 2,
+      "answer": "y = 35",
+      "solution": [
+        "1. Multiply both sides by 7.",
+        "2. y = 35.",
+        "3. Check: 35 divided by 7 = 5."
+      ],
+      "misconception_tags": [
+        "multiply-instead-of-divide"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p03",
+      "number": 3,
+      "prompt": "Solve -4a = 32.",
+      "marks": 2,
+      "answer": "a = -8",
+      "solution": [
+        "1. Divide both sides by -4.",
+        "2. a = -8.",
+        "3. Check: (-4)(-8) = 32."
+      ],
+      "misconception_tags": [
+        "negative-division-sign"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p04",
+      "number": 4,
+      "prompt": "Solve b divided by -6 = 4.",
+      "marks": 2,
+      "answer": "b = -24",
+      "solution": [
+        "1. Multiply both sides by -6.",
+        "2. b = -24.",
+        "3. Check: -24 divided by -6 = 4."
+      ],
+      "misconception_tags": [
+        "negative-division-sign"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p05",
+      "number": 5,
+      "prompt": "Solve 0.2m = 7.",
+      "marks": 3,
+      "answer": "m = 35",
+      "solution": [
+        "1. Divide by 0.2, or multiply by 5.",
+        "2. m = 35.",
+        "3. Check: 0.2(35) = 7."
+      ],
+      "misconception_tags": [
+        "fraction-reciprocal-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p06",
+      "number": 6,
+      "prompt": "Solve (3/5)n = 18.",
+      "marks": 3,
+      "answer": "n = 30",
+      "solution": [
+        "1. Multiply both sides by 5/3.",
+        "2. n = 18 x 5/3 = 30.",
+        "3. Check: (3/5)(30) = 18."
+      ],
+      "misconception_tags": [
+        "fraction-reciprocal-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p07",
+      "number": 7,
+      "prompt": "Solve -p = -13.",
+      "marks": 3,
+      "answer": "p = 13",
+      "solution": [
+        "1. Divide both sides by -1.",
+        "2. p = 13.",
+        "3. Check: -(13) = -13."
+      ],
+      "misconception_tags": [
+        "negative-division-sign"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p08",
+      "number": 8,
+      "prompt": "Solve 8q = -30. Give a fraction and decimal.",
+      "marks": 4,
+      "answer": "q = -15/4 = -3.75",
+      "solution": [
+        "1. Divide both sides by 8.",
+        "2. q = -30/8 = -15/4 = -3.75.",
+        "3. Check: 8(-3.75) = -30."
+      ],
+      "misconception_tags": [
+        "negative-division-sign"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p09",
+      "number": 9,
+      "prompt": "Solve r divided by 0.5 = 18.",
+      "marks": 4,
+      "answer": "r = 9",
+      "solution": [
+        "1. Multiply both sides by 0.5.",
+        "2. r = 9.",
+        "3. Check: 9 divided by 0.5 = 18."
+      ],
+      "misconception_tags": [
+        "multiply-instead-of-divide"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p10",
+      "number": 10,
+      "prompt": "Repair the error: 9x = 63, therefore x = 63.",
+      "marks": 4,
+      "answer": "Divide both sides by 9; x = 7.",
+      "solution": [
+        "1. The coefficient was removed only on the left.",
+        "2. 9x/9 = 63/9.",
+        "3. x = 7."
+      ],
+      "misconception_tags": [
+        "divide-one-side"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p11",
+      "number": 11,
+      "prompt": "A rectangle has area 96 cm² and width 12 cm. Find its length.",
+      "marks": 4,
+      "answer": "8 cm",
+      "solution": [
+        "1. Let length be l: 12l = 96.",
+        "2. Divide by 12: l = 8 cm.",
+        "3. Check: 12 x 8 = 96."
+      ],
+      "misconception_tags": [
+        "verification-omitted"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p12",
+      "number": 12,
+      "prompt": "Nine identical notebooks cost R315. Find one notebook's cost.",
+      "marks": 5,
+      "answer": "R35",
+      "solution": [
+        "1. Let one cost c: 9c = 315.",
+        "2. Divide by 9: c = R35.",
+        "3. Check: 9 x 35 = 315."
+      ],
+      "misconception_tags": [
+        "divide-one-side"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p13",
+      "number": 13,
+      "prompt": "A 240 km trip is divided into 5 equal stages. Find one stage's distance.",
+      "marks": 5,
+      "answer": "48 km",
+      "solution": [
+        "1. Let one stage be d: 5d = 240.",
+        "2. Divide by 5: d = 48 km.",
+        "3. Check: 5 x 48 = 240."
+      ],
+      "misconception_tags": [
+        "verification-omitted"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p14",
+      "number": 14,
+      "prompt": "One fifth of a container is 6.4 litres. Find the capacity.",
+      "marks": 5,
+      "answer": "32 litres",
+      "solution": [
+        "1. Let capacity be c: (1/5)c = 6.4.",
+        "2. Multiply by 5: c = 32 litres.",
+        "3. Check: 32/5 = 6.4."
+      ],
+      "misconception_tags": [
+        "fraction-reciprocal-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l04-p15",
+      "number": 15,
+      "prompt": "State the restriction for solving ax = b by division, then solve -1.5x = 12.",
+      "marks": 6,
+      "answer": "a must not be zero; x = -8.",
+      "solution": [
+        "1. Division by a requires a not equal to zero.",
+        "2. Divide 12 by -1.5.",
+        "3. x = -8; check: (-1.5)(-8) = 12."
+      ],
+      "misconception_tags": [
+        "negative-division-sign"
+      ]
+    }
+  ],
+  "mastery_questions": [
+    {
+      "id": "g8-ae-l04-m01",
+      "number": 1,
+      "prompt": "Solve 7k = 63.",
+      "marks": 2,
+      "answer": "k = 9",
+      "solution": [
+        "1. Divide both sides by 7.",
+        "2. k = 9."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l04-m02",
+      "number": 2,
+      "prompt": "Solve t divided by -4 = 6.",
+      "marks": 3,
+      "answer": "t = -24",
+      "solution": [
+        "1. Multiply both sides by -4.",
+        "2. t = -24."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l04-m03",
+      "number": 3,
+      "prompt": "Solve (3/4)v = 15.",
+      "marks": 3,
+      "answer": "v = 20",
+      "solution": [
+        "1. Multiply both sides by 4/3.",
+        "2. v = 20."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l04-m04",
+      "number": 4,
+      "prompt": "Repair the error: -5p = 40, so p = 8.",
+      "marks": 4,
+      "answer": "The negative sign was ignored; p = -8.",
+      "solution": [
+        "1. Divide both sides by -5.",
+        "2. p = -8.",
+        "3. Check: (-5)(-8) = 40."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l04-m05",
+      "number": 5,
+      "prompt": "Six equal payments total R1 050. Find one payment.",
+      "marks": 5,
+      "answer": "R175",
+      "solution": [
+        "1. Let one payment be p: 6p = 1050.",
+        "2. Divide by 6: p = R175.",
+        "3. Check: 6 x 175 = 1050."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "repair_rules": [
+    "Incorrect M1: Replay worked example 1 with equal groups, then administer R1.",
+    "Incorrect M2: Replay worked examples 3 and 4 with visible sign rules, then administer R1.",
+    "Incorrect M3: Replay worked example 6 with a partitioned bar and reciprocal, then administer R2.",
+    "Incorrect M4: Replay worked examples 3 and 10, require the full coefficient to be circled, then administer R2.",
+    "Incorrect M5: Replay worked example 12 from objects to equation to verification, then administer R3.",
+    "Score below 80%: Reteach the two most frequent misconception tags and administer all three parallel questions."
+  ],
+  "reassessment_questions": [
+    {
+      "id": "g8-ae-l04-r01",
+      "number": 1,
+      "prompt": "Solve -8h = 56.",
+      "marks": 3,
+      "answer": "h = -7",
+      "solution": [
+        "1. Divide both sides by -8.",
+        "2. h = -7.",
+        "3. Check: (-8)(-7) = 56."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l04-r02",
+      "number": 2,
+      "prompt": "Solve (2/5)j = 14.",
+      "marks": 3,
+      "answer": "j = 35",
+      "solution": [
+        "1. Multiply both sides by 5/2.",
+        "2. j = 35.",
+        "3. Check: (2/5)(35) = 14."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l04-r03",
+      "number": 3,
+      "prompt": "Eight identical tickets cost R480. Find one ticket's cost.",
+      "marks": 5,
+      "answer": "R60",
+      "solution": [
+        "1. Let one ticket cost c: 8c = 480.",
+        "2. Divide by 8: c = R60.",
+        "3. Check: 8 x 60 = 480."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "summary": [
+    "Divide by a non-zero coefficient to isolate a multiplied variable.",
+    "Multiply by the divisor to isolate a divided variable.",
+    "A coefficient and its reciprocal combine to one.",
+    "Negative and fractional coefficients require their complete signs and reciprocals.",
+    "Verification reconstructs the original multiplication or division relationship."
+  ]
+}

@@ -107,6 +107,36 @@ def validate_curriculum(grades: list[GradeCurriculum]) -> list[ValidationFailure
                                 fail(*context, reason="release gate Lesson 3 assessment banks incomplete")
                             if not bank.MISCONCEPTION_REPAIRS:
                                 fail(*context, reason="release gate Lesson 3 has no targeted repair routes")
+                        if lesson.id == "g8-algebraic-equations-04":
+                            from app.curriculum.grade8 import assessment_lesson4 as bank
+                            if len(bank.PRACTICE_BANK) != 15 or len(bank.MASTERY_BANK) != 5 or len(bank.REASSESSMENT_BANK) != 3:
+                                fail(*context, reason="release gate Lesson 4 assessment banks incomplete")
+                            if not bank.MISCONCEPTION_REPAIRS:
+                                fail(*context, reason="release gate Lesson 4 has no targeted repair routes")
+                        if lesson.id == "g8-algebraic-equations-05":
+                            from app.curriculum.grade8 import assessment_lesson5 as bank
+                            if len(bank.PRACTICE_BANK) != 15 or len(bank.MASTERY_BANK) != 5 or len(bank.REASSESSMENT_BANK) != 3:
+                                fail(*context, reason="release gate Lesson 5 assessment banks incomplete")
+                            if not bank.MISCONCEPTION_REPAIRS:
+                                fail(*context, reason="release gate Lesson 5 has no targeted repair routes")
+                        if lesson.id == "g8-algebraic-equations-06":
+                            from app.curriculum.grade8 import assessment_lesson6 as bank
+                            if len(bank.PRACTICE_BANK) != 15 or len(bank.MASTERY_BANK) != 5 or len(bank.REASSESSMENT_BANK) != 3:
+                                fail(*context, reason="release gate Lesson 6 assessment banks incomplete")
+                            if not bank.MISCONCEPTION_REPAIRS:
+                                fail(*context, reason="release gate Lesson 6 has no targeted repair routes")
+                        if lesson.id == "g8-algebraic-equations-07":
+                            from app.curriculum.grade8 import assessment_lesson7 as bank
+                            if len(bank.PRACTICE_BANK) != 15 or len(bank.MASTERY_BANK) != 5 or len(bank.REASSESSMENT_BANK) != 3:
+                                fail(*context, reason="release gate Lesson 7 assessment banks incomplete")
+                            if not bank.MISCONCEPTION_REPAIRS:
+                                fail(*context, reason="release gate Lesson 7 has no targeted repair routes")
+                        if lesson.id == "g8-algebraic-equations-08":
+                            from app.curriculum.grade8 import assessment_lesson8 as bank
+                            if len(bank.PRACTICE_BANK) != 15 or len(bank.MASTERY_BANK) != 5 or len(bank.REASSESSMENT_BANK) != 3:
+                                fail(*context, reason="release gate Lesson 8 assessment banks incomplete")
+                            if not bank.MISCONCEPTION_REPAIRS:
+                                fail(*context, reason="release gate Lesson 8 has no targeted repair routes")
                     signatures: set[tuple[str, str, str, str]] = set()
                     for question in lesson.whiteboard_questions:
                         board = question.whiteboard

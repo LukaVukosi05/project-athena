@@ -1,0 +1,24 @@
+.two-visual { display:grid; gap:1rem; min-width:0; }
+.two-model { border:1px solid #a9c8d9; border-radius:1rem; padding:1rem; background:#f4faff; color:#143e59; display:grid; gap:.8rem; min-width:0; overflow-wrap:anywhere; }
+.two-balance { grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); align-items:center; }
+.two-pan { display:grid; gap:.5rem; min-height:5.5rem; border-bottom:.35rem solid #27809c; border-radius:.6rem; padding:.75rem; background:#fff; text-align:center; }
+.two-pan small { color:#527387; }
+.two-tiles,.two-part-row,.two-machine-row,.two-machine-reverse,.two-fare { display:flex; gap:.35rem; flex-wrap:wrap; align-items:center; }
+.two-tile { background:#d9ecf7; border:1px solid #27809c; border-radius:.4rem; padding:.35rem .55rem; }
+.two-constant { font-weight:700; }
+.two-constant.is-removed,.two-fraction .is-removed { text-decoration:line-through; opacity:.58; }
+.two-reverse { grid-column:1/-1; margin:0; }
+.two-node,.two-box { display:inline-block; padding:.55rem .7rem; border:1px solid #27809c; border-radius:.6rem; background:white; }
+.two-machine-row { margin:0; }
+.two-machine-reverse { background:#e2f4ed; padding:.6rem; border-radius:.6rem; }
+.two-machine-reverse strong { margin-right:.3rem; }
+.two-machine-reverse .is-pending { border-style:dashed; color:#647c89; background:transparent; }
+.two-machine-reverse .is-revealed { border-color:#25846e; background:#fff; }
+.two-line svg { display:block; width:100%; height:auto; max-height:10rem; }
+.two-line p,.two-fraction p,.two-context p { margin:0; }
+.two-part { display:grid; place-items:center; flex:1; min-width:2.6rem; min-height:3.4rem; border:2px solid #27809c; border-radius:.35rem; background:#fff; text-align:center; font-size:.75rem; }
+.two-part.is-known { background:#b6e7d5; }
+.two-rectangle { width:min(15rem,100%); min-height:8rem; border:2px solid #27809c; background:#fff; display:grid; place-content:center; text-align:center; }
+.two-fare span { padding:.55rem .7rem; border:1px solid #27809c; border-radius:.5rem; background:#fff; }
+.two-visual .g8-action-slot { min-width:0; overflow-wrap:anywhere; }
+@media(max-width:600px){ .two-model{padding:.65rem}.two-balance{gap:.25rem}.two-pan{padding:.4rem;font-size:.85rem}.two-machine-row{align-items:stretch}.two-box,.two-node{font-size:.85rem} }

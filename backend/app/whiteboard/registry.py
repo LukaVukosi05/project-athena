@@ -84,6 +84,12 @@ for grade8_template in (
     "distributive_equation", "inspection_fact_family", "inspection_number_line",
     "inspection_substitution_table", "inspection_context",
     "additive_balance", "additive_number_line", "additive_context",
+    "equal_groups", "fraction_scale", "multiplicative_balance", "multiplicative_context",
+    "two_step_balance_native", "operation_machine", "two_step_number_line",
+    "two_step_fraction_scale", "two_step_context", "variables_both_sides_native", "expression_comparison",
+    "identity_contradiction", "dual_rate_timeline", "equal_sides_triangle",
+    "bracket_balance_native", "bracket_distribution_native", "bracket_paths_native", "bracket_area_native", "bracket_rectangle_native",
+    "fraction_bar_balance_native", "fraction_equivalence_native", "fraction_lcd_native", "fraction_error_native", "fraction_context_native",
 ):
     registry.register(
         f"{grade8_template}_step",

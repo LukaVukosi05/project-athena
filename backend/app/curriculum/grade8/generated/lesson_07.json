@@ -1,0 +1,942 @@
+{
+  "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
+  "source_sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
+  "id": "g8-algebraic-equations-07",
+  "title": "Bracket equations",
+  "estimated_minutes": 80,
+  "mastery_threshold": 0.8,
+  "objective": "Solve linear equations containing brackets by interpreting the multiplier, distributing it to every term when expansion is useful, choosing between expansion and inverse operations, preserving equality, and verifying the result in the original bracketed equation.",
+  "why_it_matters": "Brackets describe grouped quantities in area, perimeter, pricing and repeated-package problems. Learners who understand the structure can solve efficiently without losing signs or terms, while learners who memorise a mechanical expansion rule often create equations that were never equivalent to the original.",
+  "prerequisites": [
+    "Use the distributive property to expand a numerical factor over two terms",
+    "Combine like terms with signed coefficients",
+    "Solve two-step equations and equations with variables on both sides",
+    "Substitute a value into an unexpanded expression"
+  ],
+  "vocabulary": [
+    {
+      "term": "bracketed expression",
+      "meaning": "A grouped expression treated as one quantity until an operation is applied to it."
+    },
+    {
+      "term": "distributive property",
+      "meaning": "Multiplying every term inside a bracket by the factor outside it."
+    },
+    {
+      "term": "outside factor",
+      "meaning": "The number or variable multiplying the entire bracketed expression."
+    },
+    {
+      "term": "expand",
+      "meaning": "Rewrite a product involving brackets as an equivalent sum or difference without brackets."
+    },
+    {
+      "term": "factorised form",
+      "meaning": "An expression written as a product, such as 3(x + 2), rather than its expanded equivalent."
+    }
+  ],
+  "concept_teaching": [
+    "Read a(b + c) as a equal groups, each containing b + c; the outside factor multiplies every term in the bracket.",
+    "Show distribution term by term before writing results: a(b + c) = ab + ac and a(b - c) = ab - ac.",
+    "Keep a negative outside factor attached to both products; for example, -2(x - 3) = -2x + 6.",
+    "When a whole bracket equals a number, dividing both sides by the outside factor before expanding may be shorter and remains legal.",
+    "When brackets occur with other terms or on both sides, expand only as needed, combine like terms, then use inverse operations.",
+    "Verification substitutes into the untouched bracketed equation so an expansion error cannot hide behind later algebra."
+  ],
+  "entry_diagnostic": {
+    "prompt": "Expand 3(x + 4) and -2(y - 5), then solve 2p + 6 = 18.",
+    "answer": "3x + 12; -2y + 10; p = 6.",
+    "failure_route": "Review area models, signed multiplication and two-step equations before solving bracket equations."
+  },
+  "misconceptions": [
+    {
+      "tag": "distributes-first-term-only",
+      "diagnosis": "Only the first bracket term is multiplied.",
+      "repair": "Draw an arrow to every term; continue only after every product exists."
+    },
+    {
+      "tag": "negative-distribution-error",
+      "diagnosis": "The outside negative is lost or reaches only one product.",
+      "repair": "Bind sign and magnitude, then reveal both signed products."
+    },
+    {
+      "tag": "bracket-operation-order",
+      "diagnosis": "An unjustified operation is performed inside the bracket.",
+      "repair": "Keep the bracket sealed: distribute, or divide both complete sides by the outside factor."
+    },
+    {
+      "tag": "combines-unlike-terms",
+      "diagnosis": "A variable term is combined with a constant.",
+      "repair": "Separate variable and unit tiles; combine only matching types."
+    },
+    {
+      "tag": "one-side-operation",
+      "diagnosis": "Only one equation side is changed.",
+      "repair": "Show matching operation cards under both complete sides before applying them."
+    },
+    {
+      "tag": "false-cancellation",
+      "diagnosis": "The outside factor is cancelled with one term in a sum.",
+      "repair": "Treat the bracket as one sealed group; cancel only the whole product."
+    },
+    {
+      "tag": "context-bracket-missed",
+      "diagnosis": "A repeated contextual total is not grouped.",
+      "repair": "Build one whole package or perimeter half, enclose it, then repeat the group."
+    },
+    {
+      "tag": "verification-omitted",
+      "diagnosis": "The original bracketed equation is not checked.",
+      "repair": "Evaluate the original bracket first, then apply the outside factor."
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "g8-ae-l07-w01",
+      "number": 1,
+      "prompt": "Solve 2(x + 3) = 14 using equal groups.",
+      "difficulty": "foundation",
+      "cognitive_level": "knowledge",
+      "marks": 4,
+      "answer": "x = 4",
+      "memo": [
+        "1. Divide both sides by 2 to get x + 3 = 7.",
+        "2. Subtract 3 from both sides to get x = 4.",
+        "3. Check in the original equation: 2(4 + 3) = 2(7) = 14."
+      ],
+      "misconception_tags": [
+        "false-cancellation",
+        "bracket-operation-order"
+      ],
+      "renderer": "algebra:bracket_balance",
+      "question_data": "outside factor = 2; inside variable = x; inside constant = 3; right value = 14; solution = 4; strategy = divide_group_first",
+      "initial_state": "Show two sealed identical x-plus-three groups balanced against fourteen unit tiles; keep the contents and x value hidden.",
+      "teaching_sequence": [
+        "1. Reveal the original equation above the balance.",
+        "2. Partition fourteen units into two equal sets opposite the two sealed groups.",
+        "3. Remove one matching group and one seven-unit set from view to focus on x + 3 = 7.",
+        "4. Open the remaining group to show x with three units.",
+        "5. Remove three units from both visible sides.",
+        "6. Reveal x = 4 and rebuild both original groups."
+      ],
+      "verification": "Two reconstructed groups of four plus three contain fourteen units.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w02",
+      "number": 2,
+      "prompt": "Solve 3(y - 2) = 15 by choosing an efficient first operation.",
+      "difficulty": "foundation",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "y = 7",
+      "memo": [
+        "1. Divide both sides by 3: y - 2 = 5.",
+        "2. Add 2 to both sides: y = 7.",
+        "3. Check: 3(7 - 2) = 3(5) = 15."
+      ],
+      "misconception_tags": [
+        "bracket-operation-order",
+        "false-cancellation"
+      ],
+      "renderer": "algebra:bracket_balance",
+      "question_data": "outside factor = 3; inside variable = y; inside constant = -2; right value = 15; solution = 7; strategy = divide_group_first",
+      "initial_state": "Show three sealed y-minus-two groups aligned with fifteen positive counters; hide the value within each group.",
+      "teaching_sequence": [
+        "1. Label all three groups as identical.",
+        "2. Partition fifteen counters into three five-counter columns.",
+        "3. Match one column to each sealed group and display y - 2 = 5.",
+        "4. Open one group and show the subtraction of two.",
+        "5. Add two units to both sides of the reduced equation.",
+        "6. Reveal y = 7 and replay all three groups."
+      ],
+      "verification": "Each seven-minus-two group equals five, and three groups total fifteen.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w03",
+      "number": 3,
+      "prompt": "Solve -2(a + 4) = 6 without losing the negative factor.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "a = -7",
+      "memo": [
+        "1. Divide both sides by -2 to get a + 4 = -3.",
+        "2. Subtract 4 from both sides: a = -7.",
+        "3. Check: -2(-7 + 4) = -2(-3) = 6."
+      ],
+      "misconception_tags": [
+        "negative-distribution-error",
+        "bracket-operation-order"
+      ],
+      "renderer": "algebra:bracket_balance",
+      "question_data": "outside factor = -2; inside variable = a; inside constant = 4; right value = 6; solution = -7; strategy = divide_by_negative_group",
+      "initial_state": "Show a sealed a-plus-four group passing through a multiply-by-negative-two gate to produce six; conceal the reverse operation.",
+      "teaching_sequence": [
+        "1. Highlight negative two as one complete signed factor.",
+        "2. Reverse multiplication by dividing the entire output by negative two.",
+        "3. Display the bracket value as negative three.",
+        "4. Open the bracket to show a plus four equals negative three.",
+        "5. Subtract four on both sides of the reduced equation.",
+        "6. Reveal a = -7 and send it through the original gate."
+      ],
+      "verification": "The original bracket becomes negative three and multiplication by negative two produces positive six.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w04",
+      "number": 4,
+      "prompt": "Solve 5 - 2(m - 3) = 13 by expanding carefully.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 5,
+      "answer": "m = -1",
+      "memo": [
+        "1. Distribute -2: 5 - 2m + 6 = 13.",
+        "2. Combine constants: 11 - 2m = 13.",
+        "3. Subtract 11: -2m = 2.",
+        "4. Divide by -2: m = -1.",
+        "5. Check: 5 - 2(-1 - 3) = 5 - 2(-4) = 13."
+      ],
+      "misconception_tags": [
+        "negative-distribution-error",
+        "combines-unlike-terms"
+      ],
+      "renderer": "algebra:distributive_equation",
+      "question_data": "outer constant = 5; outside factor = -2; inside variable = m; inside constant = -3; right value = 13; expanded terms = ['5', '-2m', '+6']; solution = -1",
+      "initial_state": "Show five units followed by a negative-two factor connected to a sealed m-minus-three bracket; hide all products and the solution.",
+      "teaching_sequence": [
+        "1. Bind the negative sign to the outside factor two.",
+        "2. Draw separate distribution arrows from negative two to m and negative three.",
+        "3. Reveal negative two m before revealing positive six.",
+        "4. Combine only the constant tiles five and six to form eleven.",
+        "5. Subtract eleven and divide by negative two on both sides.",
+        "6. Reveal m = -1 and evaluate the untouched bracket."
+      ],
+      "verification": "For m = -1, the bracket is -4 and 5 minus twice -4 equals 13.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w05",
+      "number": 5,
+      "prompt": "Solve 4(2p + 1) = 28 and compare two legal methods.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 5,
+      "answer": "p = 3",
+      "memo": [
+        "1. Method 1: divide by 4 to get 2p + 1 = 7, then solve 2p = 6 and p = 3.",
+        "2. Method 2: expand to 8p + 4 = 28, then solve 8p = 24 and p = 3.",
+        "3. Both methods are equivalent.",
+        "4. Check: 4(2(3) + 1) = 4(7) = 28."
+      ],
+      "misconception_tags": [
+        "false-cancellation",
+        "bracket-operation-order"
+      ],
+      "renderer": "algebra:factorised_comparison",
+      "question_data": "factorised = 4(2p + 1) = 28; expanded = 8p + 4 = 28; divide first state = 2p + 1 = 7; solution = 3",
+      "initial_state": "Show the original equation splitting into two covered legal pathways labelled divide first and expand first.",
+      "teaching_sequence": [
+        "1. Open the divide-first path and divide both complete sides by four.",
+        "2. Solve the reduced two-step equation to reach p = 3.",
+        "3. Return to the start and open the expansion path.",
+        "4. Distribute four to both internal terms to reveal 8p + 4 = 28.",
+        "5. Solve the expanded equation to reach the same value.",
+        "6. Merge both paths at p = 3 and substitute into the original."
+      ],
+      "verification": "Both legal paths converge at p = 3, which makes the original left side 28.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w06",
+      "number": 6,
+      "prompt": "Solve 3(x + 2) = 2x + 11.",
+      "difficulty": "standard",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "x = 5",
+      "memo": [
+        "1. Expand the left side: 3x + 6 = 2x + 11.",
+        "2. Subtract 2x from both sides: x + 6 = 11.",
+        "3. Subtract 6: x = 5.",
+        "4. Check: 3(5 + 2) = 21 and 2(5) + 11 = 21."
+      ],
+      "misconception_tags": [
+        "distributes-first-term-only",
+        "one-side-operation"
+      ],
+      "renderer": "algebra:distributive_equation",
+      "question_data": "outside factor = 3; inside terms = ['x', '+2']; right expression = 2x + 11; expanded left = 3x + 6; solution = 5",
+      "initial_state": "Show three covered x-plus-two groups on the left and two x tiles plus eleven units on the right; hide the contents of the left groups.",
+      "teaching_sequence": [
+        "1. Open the three groups in parallel.",
+        "2. Collect the three x tiles into 3x and the six unit tiles into 6.",
+        "3. Write 3x + 6 = 2x + 11 beneath the model.",
+        "4. Remove two x tiles from both sides.",
+        "5. Remove six units from both sides.",
+        "6. Reveal x = 5 and reconstruct both original sides."
+      ],
+      "verification": "The original grouped left side and ungrouped right side each total twenty-one.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w07",
+      "number": 7,
+      "prompt": "Solve 2(3n - 4) = 4(n + 1).",
+      "difficulty": "standard",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "n = 6",
+      "memo": [
+        "1. Expand both sides: 6n - 8 = 4n + 4.",
+        "2. Subtract 4n: 2n - 8 = 4.",
+        "3. Add 8: 2n = 12.",
+        "4. Divide by 2: n = 6.",
+        "5. Check: 2(18 - 4) = 28 and 4(6 + 1) = 28."
+      ],
+      "misconception_tags": [
+        "distributes-first-term-only",
+        "one-side-operation"
+      ],
+      "renderer": "algebra:factorised_comparison",
+      "question_data": "left factor = 2; left inside = 3n - 4; right factor = 4; right inside = n + 1; expanded left = 6n - 8; expanded right = 4n + 4; solution = 6",
+      "initial_state": "Show two sealed 3n-minus-four groups aligned with four sealed n-plus-one groups; reveal neither expansion.",
+      "teaching_sequence": [
+        "1. Open the two left groups and collect six n tiles and eight negative units.",
+        "2. Open the four right groups and collect four n tiles and four positive units.",
+        "3. Record the expanded equality 6n - 8 = 4n + 4.",
+        "4. Remove four n tiles from both sides.",
+        "5. Add eight units, then partition twelve units between two n tiles.",
+        "6. Reveal n = 6 and rebuild the four original groups."
+      ],
+      "verification": "Both original factorised expressions evaluate to twenty-eight when n is six.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w08",
+      "number": 8,
+      "prompt": "Solve 0.5(4q + 6) = 11 using tenths or halves.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "q = 4",
+      "memo": [
+        "1. Distribute 0.5: 2q + 3 = 11.",
+        "2. Subtract 3: 2q = 8.",
+        "3. Divide by 2: q = 4.",
+        "4. Check: 0.5(4(4) + 6) = 0.5(22) = 11."
+      ],
+      "misconception_tags": [
+        "distributes-first-term-only",
+        "combines-unlike-terms"
+      ],
+      "renderer": "algebra:area_model_equation",
+      "question_data": "outside factor = 0.5; inside variable term = 4q; inside constant = 6; partial products = ['2q', '3']; right value = 11; solution = 4",
+      "initial_state": "Show half of a covered rectangle whose full width is partitioned into 4q and 6; hide both half-area labels.",
+      "teaching_sequence": [
+        "1. Shade exactly one half of the 4q region and label it 2q.",
+        "2. Shade one half of the six-unit region and label it three.",
+        "3. Combine the shaded parts to form 2q + 3 = 11.",
+        "4. Remove three shaded units from both sides.",
+        "5. Partition eight units between two q regions.",
+        "6. Reveal q = 4 and recompute half of the original whole."
+      ],
+      "verification": "The full inside amount is twenty-two at q = 4, so its displayed half is eleven.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w09",
+      "number": 9,
+      "prompt": "Solve (2/3)(3r - 6) = 8 using exact fractions.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "r = 6",
+      "memo": [
+        "1. Distribute two thirds: 2r - 4 = 8.",
+        "2. Add 4: 2r = 12.",
+        "3. Divide by 2: r = 6.",
+        "4. Check: (2/3)(18 - 6) = (2/3)(12) = 8."
+      ],
+      "misconception_tags": [
+        "false-cancellation",
+        "distributes-first-term-only"
+      ],
+      "renderer": "algebra:area_model_equation",
+      "question_data": "outside fraction = 2/3; inside variable term = 3r; inside constant = -6; partial products = ['2r', '-4']; right value = 8; solution = 6",
+      "initial_state": "Show a 3r-minus-six strip divided into three equal horizontal bands with two bands selected; hide all selected values.",
+      "teaching_sequence": [
+        "1. Partition the 3r region into three r bands.",
+        "2. Select two of the three r bands to display 2r.",
+        "3. Partition negative six into three equal negative-two groups.",
+        "4. Select two groups to display negative four.",
+        "5. Solve the visible equation 2r - 4 = 8.",
+        "6. Reveal r = 6 and select two thirds of the original twelve-unit bracket value."
+      ],
+      "verification": "At r = 6 the bracket equals twelve, and two thirds of twelve equals eight.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w10",
+      "number": 10,
+      "prompt": "A learner expands -3(x - 5) as -3x - 15. Identify the first error and solve -3(x - 5) = 24.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "The second product must be +15; x = -3.",
+      "memo": [
+        "1. The factor -3 must multiply both x and -5.",
+        "2. The correct expansion is -3x + 15 = 24.",
+        "3. Subtract 15: -3x = 9.",
+        "4. Divide by -3: x = -3.",
+        "5. Check: -3(-3 - 5) = -3(-8) = 24."
+      ],
+      "misconception_tags": [
+        "negative-distribution-error",
+        "distributes-first-term-only"
+      ],
+      "renderer": "algebra:distributive_equation",
+      "question_data": "original = -3(x - 5) = 24; learner expansion = -3x - 15 = 24; correct products = ['-3x', '+15']; solution = -3",
+      "initial_state": "Display the original and learner expansion on separate rows with both distribution arrows covered and no correctness marker.",
+      "teaching_sequence": [
+        "1. Reveal the first arrow from negative three to x and confirm negative three x.",
+        "2. Reveal the second arrow from negative three to negative five.",
+        "3. Show the sign product negative times negative before displaying positive fifteen.",
+        "4. Cross only the incorrect negative-fifteen term and replace it with positive fifteen.",
+        "5. Solve the corrected equation to reveal x = -3.",
+        "6. Substitute into the untouched original bracket."
+      ],
+      "verification": "The original bracket is negative eight, whose product with negative three is positive twenty-four.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w11",
+      "number": 11,
+      "prompt": "A rectangle has length 3 cm and width (x + 2) cm. Its perimeter is 34 cm. Form a bracket equation and find x.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "x = 12; the width is 14 cm.",
+      "memo": [
+        "1. One length-plus-width group is 3 + (x + 2).",
+        "2. Perimeter gives 2[3 + (x + 2)] = 34.",
+        "3. Simplify inside or expand: 2(x + 5) = 34.",
+        "4. Divide by 2: x + 5 = 17, so x = 12.",
+        "5. Check: the dimensions are 3 cm and 14 cm, and 2(3 + 14) = 34 cm."
+      ],
+      "misconception_tags": [
+        "context-bracket-missed",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:context_to_equation",
+      "question_data": "shape = rectangle; length cm = 3; width expression = x + 2; perimeter cm = 34; equation = 2[3 + (x + 2)] = 34; solution = 12",
+      "initial_state": "Show a rectangle with opposite sides marked equal, lengths labelled three and widths labelled x plus two; hide the perimeter equation.",
+      "teaching_sequence": [
+        "1. Trace one adjacent length-and-width pair and enclose its sum in a bracket.",
+        "2. Duplicate that complete bracket for the opposite pair.",
+        "3. Write 2[3 + (x + 2)] = 34 beneath the diagram.",
+        "4. Combine three and two inside the nested sum to form 2(x + 5) = 34.",
+        "5. Divide by two and subtract five to reveal x = 12.",
+        "6. Relabel both widths as fourteen and trace the full perimeter."
+      ],
+      "verification": "The rendered sides 3, 14, 3 and 14 total thirty-four centimetres.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w12",
+      "number": 12,
+      "prompt": "Four learner packages each cost (x + R15). Three premium packages each cost (x + R30). The totals are equal. Find x.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "x = R30; both totals are R180.",
+      "memo": [
+        "1. Form 4(x + 15) = 3(x + 30).",
+        "2. Expand: 4x + 60 = 3x + 90.",
+        "3. Subtract 3x and 60: x = 30.",
+        "4. Check: 4(30 + 15) = R180 and 3(30 + 30) = R180."
+      ],
+      "misconception_tags": [
+        "context-bracket-missed",
+        "distributes-first-term-only"
+      ],
+      "renderer": "algebra:factorised_comparison",
+      "question_data": "left groups = 4; left group = x + 15; right groups = 3; right group = x + 30; expanded left = 4x + 60; expanded right = 3x + 90; solution rand = 30",
+      "initial_state": "Show four sealed learner-package cards aligned against three sealed premium-package cards at an equal-total marker; hide every package price.",
+      "teaching_sequence": [
+        "1. Open all four learner cards to display four x amounts and four R15 fees.",
+        "2. Open all three premium cards to display three x amounts and three R30 fees.",
+        "3. Accumulate the fixed fees as R60 and R90.",
+        "4. Remove three x amounts and R60 from both total strips.",
+        "5. Reveal one x amount equal to R30.",
+        "6. Price every package and rebuild the two R180 totals."
+      ],
+      "verification": "Four R45 learner packages and three R60 premium packages both total R180.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w13",
+      "number": 13,
+      "prompt": "Three identical taxi groups each contain (p + 4) passengers. After 6 passengers leave, 30 remain. Find p.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "p = 8 passengers per unknown part.",
+      "memo": [
+        "1. The original total is 3(p + 4).",
+        "2. After six leave: 3(p + 4) - 6 = 30.",
+        "3. Add 6: 3(p + 4) = 36.",
+        "4. Divide by 3: p + 4 = 12.",
+        "5. Subtract 4: p = 8.",
+        "6. Check: three groups of twelve contain 36; after six leave, 30 remain."
+      ],
+      "misconception_tags": [
+        "context-bracket-missed",
+        "bracket-operation-order"
+      ],
+      "renderer": "algebra:bracket_balance",
+      "question_data": "groups = 3; group expression = p + 4; outside change = -6; final total = 30; solution = 8",
+      "initial_state": "Show three identical taxi icons, each with a sealed p-plus-four passenger group, followed by six departing passenger icons and a final count of thirty.",
+      "teaching_sequence": [
+        "1. Join the three taxi groups into the expression 3(p + 4).",
+        "2. Show six passengers leaving outside the repeated groups.",
+        "3. Reverse the departure by adding six to the final thirty.",
+        "4. Partition thirty-six equally across the three taxis.",
+        "5. Open one twelve-passenger group and remove the four known passengers.",
+        "6. Reveal p = 8 and replay the full passenger count."
+      ],
+      "verification": "Three groups of eight plus four give thirty-six passengers, and removing six leaves thirty.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w14",
+      "number": 14,
+      "prompt": "Solve -2(3t - 5) = 4(t + 5) and verify both sides.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 7,
+      "answer": "t = -1",
+      "memo": [
+        "1. Expand both sides: -6t + 10 = 4t + 20.",
+        "2. Subtract 4t: -10t + 10 = 20.",
+        "3. Subtract 10: -10t = 10.",
+        "4. Divide by -10: t = -1.",
+        "5. Check: -2(3(-1) - 5) = 16 and 4(-1 + 5) = 16."
+      ],
+      "misconception_tags": [
+        "negative-distribution-error",
+        "one-side-operation"
+      ],
+      "renderer": "algebra:factorised_comparison",
+      "question_data": "left factor = -2; left inside = 3t - 5; right factor = 4; right inside = t + 5; expanded left = -6t + 10; expanded right = 4t + 20; solution = -1",
+      "initial_state": "Show the two factorised expressions on parallel rows with four covered distribution arrows and all product signs hidden.",
+      "teaching_sequence": [
+        "1. Distribute negative two to 3t and show negative six t.",
+        "2. Display negative times negative before revealing positive ten.",
+        "3. Distribute four to both right-hand terms.",
+        "4. Align the expanded rows and remove four t from both sides.",
+        "5. Subtract ten and divide by negative ten.",
+        "6. Reveal t = -1 and evaluate both original brackets in parallel."
+      ],
+      "verification": "Both untouched factorised expressions evaluate to sixteen when t is negative one.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l07-w15",
+      "number": 15,
+      "prompt": "For a(x + b) = c, explain when dividing before expanding is valid. Then solve -2.5(x - 1.2) = 7.5.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 7,
+      "answer": "Division by a is valid only when a is not zero; x = -1.8.",
+      "memo": [
+        "1. The entire bracket is multiplied by a, so dividing both complete sides by a isolates x + b when a is not zero.",
+        "2. If a = 0, division by a is undefined and the equation must be classified from 0 = c.",
+        "3. For -2.5(x - 1.2) = 7.5, divide by -2.5 to get x - 1.2 = -3.",
+        "4. Add 1.2 to obtain x = -1.8.",
+        "5. Expansion gives the equivalent equation -2.5x + 3 = 7.5 and the same solution.",
+        "6. Check: -2.5(-1.8 - 1.2) = -2.5(-3) = 7.5."
+      ],
+      "misconception_tags": [
+        "false-cancellation",
+        "bracket-operation-order",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:factorised_comparison",
+      "question_data": "general equation = a(x + b) = c; restriction = a != 0; example = -2.5(x - 1.2) = 7.5; divide first state = x - 1.2 = -3; expanded state = -2.5x + 3 = 7.5; solution = -1.8",
+      "initial_state": "Show the general equation above two covered strategy branches and the numerical example below; keep the restriction and both results hidden.",
+      "teaching_sequence": [
+        "1. Treat x + b as one sealed multiplicative group.",
+        "2. Open the divide-first branch and attach divide-by-a cards to both complete sides.",
+        "3. Attempt a = 0, show undefined division, and reveal the restriction a not equal to zero.",
+        "4. Apply the branch to divide the numerical equation by negative 2.5.",
+        "5. Open the expansion branch and show the equivalent decimal products.",
+        "6. Merge both paths at x = -1.8 and verify in the original."
+      ],
+      "verification": "Both methods preserve equivalence under the non-zero-factor condition, and the original example evaluates to 7.5.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    }
+  ],
+  "practice_questions": [
+    {
+      "id": "g8-ae-l07-p01",
+      "number": 1,
+      "prompt": "Solve 2(x + 5) = 18.",
+      "marks": 4,
+      "answer": "x = 4",
+      "solution": [
+        "1. Divide by 2: x + 5 = 9.",
+        "2. Subtract 5: x = 4.",
+        "3. Check: 2(4 + 5) = 18."
+      ],
+      "misconception_tags": [
+        "false-cancellation"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p02",
+      "number": 2,
+      "prompt": "Solve 4(y - 3) = 20.",
+      "marks": 4,
+      "answer": "y = 8",
+      "solution": [
+        "1. Divide by 4: y - 3 = 5.",
+        "2. Add 3: y = 8.",
+        "3. Check: 4(8 - 3) = 20."
+      ],
+      "misconception_tags": [
+        "bracket-operation-order"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p03",
+      "number": 3,
+      "prompt": "Solve -3(a + 2) = 12.",
+      "marks": 4,
+      "answer": "a = -6",
+      "solution": [
+        "1. Divide by -3: a + 2 = -4.",
+        "2. Subtract 2: a = -6.",
+        "3. Check: -3(-6 + 2) = 12."
+      ],
+      "misconception_tags": [
+        "negative-distribution-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p04",
+      "number": 4,
+      "prompt": "Solve 7(2p - 1) = 35.",
+      "marks": 5,
+      "answer": "p = 3",
+      "solution": [
+        "1. Divide by 7: 2p - 1 = 5.",
+        "2. Add 1: 2p = 6.",
+        "3. Divide by 2: p = 3."
+      ],
+      "misconception_tags": [
+        "false-cancellation"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p05",
+      "number": 5,
+      "prompt": "Solve 10 - 2(m + 1) = 4.",
+      "marks": 5,
+      "answer": "m = 2",
+      "solution": [
+        "1. Expand: 10 - 2m - 2 = 4.",
+        "2. Combine constants: 8 - 2m = 4.",
+        "3. Subtract 8: -2m = -4.",
+        "4. Divide by -2: m = 2."
+      ],
+      "misconception_tags": [
+        "negative-distribution-error",
+        "combines-unlike-terms"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p06",
+      "number": 6,
+      "prompt": "Solve 0.4(5q + 10) = 12.",
+      "marks": 5,
+      "answer": "q = 4",
+      "solution": [
+        "1. Distribute: 2q + 4 = 12.",
+        "2. Subtract 4: 2q = 8.",
+        "3. Divide by 2: q = 4."
+      ],
+      "misconception_tags": [
+        "distributes-first-term-only"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p07",
+      "number": 7,
+      "prompt": "Solve (1/2)(6r - 4) = 10.",
+      "marks": 5,
+      "answer": "r = 4",
+      "solution": [
+        "1. Distribute: 3r - 2 = 10.",
+        "2. Add 2: 3r = 12.",
+        "3. Divide by 3: r = 4."
+      ],
+      "misconception_tags": [
+        "distributes-first-term-only"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p08",
+      "number": 8,
+      "prompt": "Solve 3(x + 4) = x + 20.",
+      "marks": 5,
+      "answer": "x = 4",
+      "solution": [
+        "1. Expand: 3x + 12 = x + 20.",
+        "2. Subtract x and 12: 2x = 8.",
+        "3. Divide by 2: x = 4."
+      ],
+      "misconception_tags": [
+        "one-side-operation"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p09",
+      "number": 9,
+      "prompt": "Solve 5(2n - 1) = 3(n + 4).",
+      "marks": 6,
+      "answer": "n = 17/7",
+      "solution": [
+        "1. Expand: 10n - 5 = 3n + 12.",
+        "2. Subtract 3n and add 5: 7n = 17.",
+        "3. Divide by 7: n = 17/7.",
+        "4. Check both original sides equal 135/7."
+      ],
+      "misconception_tags": [
+        "distributes-first-term-only",
+        "one-side-operation"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p10",
+      "number": 10,
+      "prompt": "Classify 2(3s + 1) = 6s + 2.",
+      "marks": 5,
+      "answer": "Infinitely many solutions.",
+      "solution": [
+        "1. Expand the left side: 6s + 2 = 6s + 2.",
+        "2. Subtract matching terms to get 0 = 0.",
+        "3. The equation is true for every value of s."
+      ],
+      "misconception_tags": [
+        "distributes-first-term-only"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p11",
+      "number": 11,
+      "prompt": "Classify 4(t - 2) = 4t + 1.",
+      "marks": 5,
+      "answer": "No solution.",
+      "solution": [
+        "1. Expand: 4t - 8 = 4t + 1.",
+        "2. Subtract 4t: -8 = 1.",
+        "3. The remaining statement is false, so there is no solution."
+      ],
+      "misconception_tags": [
+        "negative-distribution-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p12",
+      "number": 12,
+      "prompt": "A rectangle has sides (x + 3) cm and (x + 1) cm. Its perimeter is 32 cm. Find x.",
+      "marks": 6,
+      "answer": "x = 6",
+      "solution": [
+        "1. Form 2[(x + 3) + (x + 1)] = 32.",
+        "2. Combine inside: 2(2x + 4) = 32.",
+        "3. Expand: 4x + 8 = 32.",
+        "4. Solve 4x = 24, so x = 6."
+      ],
+      "misconception_tags": [
+        "context-bracket-missed"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p13",
+      "number": 13,
+      "prompt": "Three identical event tickets each cost (x + R20). The total is R210. Find x.",
+      "marks": 6,
+      "answer": "x = R50",
+      "solution": [
+        "1. Form 3(x + 20) = 210.",
+        "2. Divide by 3: x + 20 = 70.",
+        "3. Subtract 20: x = R50.",
+        "4. Each ticket costs R70 and three cost R210."
+      ],
+      "misconception_tags": [
+        "context-bracket-missed"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p14",
+      "number": 14,
+      "prompt": "Solve -0.5(4k - 6) = 7.",
+      "marks": 6,
+      "answer": "k = -2",
+      "solution": [
+        "1. Expand: -2k + 3 = 7.",
+        "2. Subtract 3: -2k = 4.",
+        "3. Divide by -2: k = -2.",
+        "4. Check: -0.5(-8 - 6) = 7."
+      ],
+      "misconception_tags": [
+        "negative-distribution-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l07-p15",
+      "number": 15,
+      "prompt": "Explain why a(x + b) = c can be divided by a only when a is non-zero, then solve -4(x + 1.5) = 10.",
+      "marks": 7,
+      "answer": "Division by zero is undefined; x = -4.",
+      "solution": [
+        "1. For a not equal to zero, divide both sides by a to isolate x + b.",
+        "2. If a = 0, classify 0 = c instead of dividing.",
+        "3. Divide the example by -4: x + 1.5 = -2.5.",
+        "4. Subtract 1.5: x = -4.",
+        "5. Check: -4(-4 + 1.5) = 10."
+      ],
+      "misconception_tags": [
+        "false-cancellation",
+        "verification-omitted"
+      ]
+    }
+  ],
+  "mastery_questions": [
+    {
+      "id": "g8-ae-l07-m01",
+      "number": 1,
+      "prompt": "Solve 3(x + 4) = 27.",
+      "marks": 4,
+      "answer": "x = 5",
+      "solution": [
+        "1. Divide by 3: x + 4 = 9.",
+        "2. Subtract 4: x = 5."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l07-m02",
+      "number": 2,
+      "prompt": "Solve -2(y - 6) = 18.",
+      "marks": 5,
+      "answer": "y = -3",
+      "solution": [
+        "1. Divide by -2: y - 6 = -9.",
+        "2. Add 6: y = -3."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l07-m03",
+      "number": 3,
+      "prompt": "Solve 2(3p + 1) = 4p + 10.",
+      "marks": 5,
+      "answer": "p = 4",
+      "solution": [
+        "1. Expand: 6p + 2 = 4p + 10.",
+        "2. Subtract 4p and 2: 2p = 8.",
+        "3. p = 4."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l07-m04",
+      "number": 4,
+      "prompt": "Repair the expansion -4(a - 3) = -4a - 12, then state the correct expansion.",
+      "marks": 5,
+      "answer": "-4a + 12",
+      "solution": [
+        "1. Negative four times a is -4a.",
+        "2. Negative four times negative three is positive twelve.",
+        "3. Therefore -4(a - 3) = -4a + 12."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l07-m05",
+      "number": 5,
+      "prompt": "Five identical packs each contain (n + 2) items. There are 45 items altogether. Find n.",
+      "marks": 6,
+      "answer": "n = 7",
+      "solution": [
+        "1. Form 5(n + 2) = 45.",
+        "2. Divide by 5: n + 2 = 9.",
+        "3. Subtract 2: n = 7."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "repair_rules": [
+    "Incorrect M1: Replay worked examples 1 and 2 with sealed equal groups and divide-first reasoning, then administer R1.",
+    "Incorrect M2: Replay worked examples 3 and 4 with the outside negative factor colour-bound to both products, then administer R1.",
+    "Incorrect M3: Replay worked examples 6 and 7 with both expansion rows aligned before variable removal, then administer R2.",
+    "Incorrect M4: Replay worked example 10 and require the learner to state both signed products before any result appears, then administer R2.",
+    "Incorrect M5: Replay worked examples 11 and 13 from complete context groups to bracket equations and original-scenario verification, then administer R3.",
+    "Score below 80%: Reteach the two most frequent misconception tags and administer all three parallel questions."
+  ],
+  "reassessment_questions": [
+    {
+      "id": "g8-ae-l07-r01",
+      "number": 1,
+      "prompt": "Solve -3(x + 4) = 9.",
+      "marks": 5,
+      "answer": "x = -7",
+      "solution": [
+        "1. Divide by -3: x + 4 = -3.",
+        "2. Subtract 4: x = -7.",
+        "3. Check: -3(-7 + 4) = 9."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l07-r02",
+      "number": 2,
+      "prompt": "Solve 4(2m - 1) = 3m + 17.",
+      "marks": 6,
+      "answer": "m = 21/5",
+      "solution": [
+        "1. Expand: 8m - 4 = 3m + 17.",
+        "2. Subtract 3m and add 4: 5m = 21.",
+        "3. m = 21/5."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l07-r03",
+      "number": 3,
+      "prompt": "Four identical meal packs each cost (p + R10). The total is R200. Find p.",
+      "marks": 6,
+      "answer": "p = R40",
+      "solution": [
+        "1. Form 4(p + 10) = 200.",
+        "2. Divide by 4: p + 10 = 50.",
+        "3. Subtract 10: p = R40.",
+        "4. Check: each full pack costs R50."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "summary": [
+    "The outside factor multiplies every term inside a bracket.",
+    "A negative outside factor controls the sign of both products.",
+    "Dividing the whole equation by a non-zero outside factor can be more efficient than expanding.",
+    "After expansion, combine only like terms and preserve equality on both sides.",
+    "Contexts require the repeated complete quantity to be grouped before multiplying.",
+    "Verify solutions in the untouched bracketed equation."
+  ]
+}

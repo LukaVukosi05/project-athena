@@ -34,7 +34,7 @@ class MathematicalOperation(BaseModel):
     value: int | float | str | None = None
     action: Literal[
         "show_object", "highlight_expression", "evaluate_expression", "transform_expression",
-        "add_to_both_sides", "remove_from_both_sides", "divide_both_sides",
+        "add_to_both_sides", "remove_from_both_sides", "divide_both_sides", "multiply_both_sides",
         "substitute_value", "compare_values", "balance_scale", "verify_solution",
         "form_equation", "diagnose_error", "group_equal_terms",
     ] | None = None

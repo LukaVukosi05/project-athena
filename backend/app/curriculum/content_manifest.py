@@ -74,13 +74,24 @@ def release_gate_passes(lesson: Lesson) -> bool:
             and len(bank.REASSESSMENT_BANK) == contract.get("parallel_reassessment_count") == 3
             and bool(bank.MISCONCEPTION_REPAIRS)
         )
-    if lesson.id == "g8-algebraic-equations-03":
-        from app.curriculum.grade8.assessment_lesson3 import MASTERY_BANK, MISCONCEPTION_REPAIRS, PRACTICE_BANK, REASSESSMENT_BANK
+    if lesson.id in {"g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08"}:
+        if lesson.id.endswith("-03"):
+            from app.curriculum.grade8 import assessment_lesson3 as bank
+        elif lesson.id.endswith("-04"):
+            from app.curriculum.grade8 import assessment_lesson4 as bank
+        elif lesson.id.endswith("-05"):
+            from app.curriculum.grade8 import assessment_lesson5 as bank
+        elif lesson.id.endswith("-06"):
+            from app.curriculum.grade8 import assessment_lesson6 as bank
+        elif lesson.id.endswith("-07"):
+            from app.curriculum.grade8 import assessment_lesson7 as bank
+        else:
+            from app.curriculum.grade8 import assessment_lesson8 as bank
         return (
-            len(PRACTICE_BANK) == contract.get("practice_count") == 15
-            and len(MASTERY_BANK) == contract.get("mastery_question_count") == 5
-            and len(REASSESSMENT_BANK) == contract.get("parallel_reassessment_count") == 3
-            and bool(MISCONCEPTION_REPAIRS)
+            len(bank.PRACTICE_BANK) == contract.get("practice_count") == 15
+            and len(bank.MASTERY_BANK) == contract.get("mastery_question_count") == 5
+            and len(bank.REASSESSMENT_BANK) == contract.get("parallel_reassessment_count") == 3
+            and bool(bank.MISCONCEPTION_REPAIRS)
         )
     return True
 

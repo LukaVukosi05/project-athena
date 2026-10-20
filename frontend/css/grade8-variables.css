@@ -1,0 +1,15 @@
+.var-visual{display:grid;gap:1rem;min-width:0;overflow-wrap:anywhere}
+.var-visual .g8-action-slot{min-width:0;overflow-wrap:anywhere}
+.var-balance,.var-comparison,.var-classification,.var-rates,.var-triangle{border:1px solid #a9c8d9;border-radius:1rem;padding:1rem;background:#f4faff;color:#143e59;min-width:0}
+.var-balance{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:.6rem}
+.var-pan{display:grid;gap:.5rem;justify-items:center;min-height:6rem;border-bottom:.35rem solid #27809c;border-radius:.6rem;padding:.6rem;background:white;text-align:center}
+.var-tile-row,.var-branches,.var-rate-legend{display:flex;gap:.35rem;flex-wrap:wrap;align-items:center;justify-content:center}
+.var-tile{padding:.3rem .45rem;border:1px solid #27809c;border-radius:.3rem;background:#d4eaf4;font-weight:bold}
+.var-tile--negative{background:#ffe6d8;border-color:#b76b41}
+.var-model-note{grid-column:1/-1;margin:.25rem 0 0}
+.var-comparison-row{display:grid;grid-template-columns:4rem minmax(0,1fr) minmax(4rem,auto);gap:.5rem;align-items:center;margin:.4rem 0;padding:.5rem;background:white;border-radius:.5rem}
+.var-parts{display:flex;min-width:0;gap:2px}.var-part{flex:1;min-width:0;text-align:center;font-size:.62rem;background:#a5d7e8;padding:.45rem .12rem;border:1px solid #27809c;border-radius:.25rem}.var-part--removed{text-decoration:line-through;opacity:.38}
+.var-compare-pair{display:flex;align-items:center;justify-content:center;gap:.5rem;flex-wrap:wrap}.var-compare-pair span,.var-branch,.var-test-cards span{background:white;border:1px solid #a9c8d9;border-radius:.5rem;padding:.5rem}
+.var-branch{flex:1;min-width:8rem;border-style:dashed}.var-branch.is-open{border-style:solid;border-color:#257956;background:#e2f4ed}.var-classification-result{font-weight:bold}
+.var-rates svg,.var-triangle svg{width:100%;height:auto;max-height:16rem}.var-rate-legend{justify-content:space-between}.var-rate-legend span{padding:.4rem;background:white;border-radius:.35rem}.var-triangle{text-align:center}
+@media(max-width:600px){.var-balance,.var-comparison,.var-classification,.var-rates,.var-triangle{padding:.55rem}.var-pan{padding:.3rem}.var-comparison-row{grid-template-columns:1fr}.var-part{font-size:.55rem}}

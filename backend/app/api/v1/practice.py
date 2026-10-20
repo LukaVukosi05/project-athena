@@ -11,7 +11,7 @@ from app.db.models.user import User
 from app.practice.schemas import AssessmentSubmission,PracticeAnswerRequest,PracticeBankResponse,PracticePublicQuestion,PracticeState
 from app.practice.service import blank_response,check_answer,mastery_summary,public_status
 from app.curriculum.grade8.assessment import MASTERY_BANK,MISCONCEPTION_REPAIRS,REASSESSMENT_BANK,REPAIR_RULES
-from app.curriculum.grade8 import assessment_lesson2, assessment_lesson3
+from app.curriculum.grade8 import assessment_lesson2, assessment_lesson3, assessment_lesson4, assessment_lesson5, assessment_lesson6, assessment_lesson7, assessment_lesson8
 
 ASSESSMENT_BANKS={
     "g8-algebraic-equations-01":(MASTERY_BANK,REASSESSMENT_BANK,MISCONCEPTION_REPAIRS,REPAIR_RULES),
@@ -19,6 +19,16 @@ ASSESSMENT_BANKS={
                                   assessment_lesson2.MISCONCEPTION_REPAIRS,assessment_lesson2.REPAIR_RULES),
     "g8-algebraic-equations-03":(assessment_lesson3.MASTERY_BANK,assessment_lesson3.REASSESSMENT_BANK,
                                   assessment_lesson3.MISCONCEPTION_REPAIRS,assessment_lesson3.REPAIR_RULES),
+    "g8-algebraic-equations-04":(assessment_lesson4.MASTERY_BANK,assessment_lesson4.REASSESSMENT_BANK,
+                                  assessment_lesson4.MISCONCEPTION_REPAIRS,assessment_lesson4.REPAIR_RULES),
+    "g8-algebraic-equations-05":(assessment_lesson5.MASTERY_BANK,assessment_lesson5.REASSESSMENT_BANK,
+                                  assessment_lesson5.MISCONCEPTION_REPAIRS,assessment_lesson5.REPAIR_RULES),
+    "g8-algebraic-equations-06":(assessment_lesson6.MASTERY_BANK,assessment_lesson6.REASSESSMENT_BANK,
+                                  assessment_lesson6.MISCONCEPTION_REPAIRS,assessment_lesson6.REPAIR_RULES),
+    "g8-algebraic-equations-07":(assessment_lesson7.MASTERY_BANK,assessment_lesson7.REASSESSMENT_BANK,
+                                  assessment_lesson7.MISCONCEPTION_REPAIRS,assessment_lesson7.REPAIR_RULES),
+    "g8-algebraic-equations-08":(assessment_lesson8.MASTERY_BANK,assessment_lesson8.REASSESSMENT_BANK,
+                                  assessment_lesson8.MISCONCEPTION_REPAIRS,assessment_lesson8.REPAIR_RULES),
 }
 
 def assessment_or_404(lesson_id):

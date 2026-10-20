@@ -102,7 +102,7 @@ function registerTeachingOperation(operation) {
   }});
 }
 
-["equality_balance","additive_inverse","multiplicative_inverse","two_step_balance","variables_both_sides","context_to_equation","distributive_equation","inspection_fact_family","inspection_number_line","inspection_substitution_table","inspection_context","additive_balance","additive_number_line","additive_context"].forEach(template=>registerTeachingOperation(`${template}_step`));
+["equality_balance","additive_inverse","multiplicative_inverse","two_step_balance","variables_both_sides","context_to_equation","distributive_equation","inspection_fact_family","inspection_number_line","inspection_substitution_table","inspection_context","additive_balance","additive_number_line","additive_context","equal_groups","fraction_scale","multiplicative_balance","multiplicative_context","two_step_balance_native","operation_machine","two_step_number_line","two_step_fraction_scale","two_step_context","variables_both_sides_native","expression_comparison","identity_contradiction","dual_rate_timeline","equal_sides_triangle","bracket_balance_native","bracket_distribution_native","bracket_paths_native","bracket_area_native","bracket_rectangle_native","fraction_bar_balance_native","fraction_equivalence_native","fraction_lcd_native","fraction_error_native","fraction_context_native"].forEach(template=>registerTeachingOperation(`${template}_step`));
 
 ["identify_interval", "substitute_function_value", "calculate_average_rate", "interpret_rate", "read_problem", "select_method", "show_working", "verify_result"].forEach(registerTeachingOperation);
 
