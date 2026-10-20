@@ -34,6 +34,30 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
         if grade.id == "grade-8":
             question["solution_gated"] = True
             question["whiteboard"]["steps"] = question["whiteboard"]["steps"][:1]
+            if lesson.id == "g8-algebraic-equations-02":
+                preview = question["whiteboard"]["steps"][0]
+                preview["working_expression"] = preview["before_expression"]
+                preview["after_expression"] = preview["before_expression"]
+                preview["narration"] = ""
+                preview["events"] = []
+                preview["internal_instruction"] = None
+                preview["explanation"] = {key: "Start with the complete question."
+                                          for key in preview["explanation"]}
+                preview["operation"]["value"] = "Inspect the original relationship"
+                preview["instructional_goal"] = "Inspect the original relationship"
+                preview["screen_reader_description"] = question["whiteboard"]["problem"]
+                preview["state_after"] = {}
+                preview["visualization_state"]["working_state"] = preview["before_expression"]
+                preview["visualization_state"]["after_state"] = preview["before_expression"]
+                visual = question["whiteboard"].get("visualization")
+                if visual:
+                    source_data = visual["parameters"].get("source_data", "")
+                    concealed = {"candidate", "candidates", "outputs", "left outputs", "right outputs",
+                                 "smaller", "larger", "candidate cm", "intermediate", "group value"}
+                    visual["parameters"]["source_data"] = "; ".join(
+                        field for field in source_data.split("; ")
+                        if field.partition("=")[0].strip() not in concealed
+                    )
             question["whiteboard"]["semantic_objects"] = [
                 item for item in question["whiteboard"]["semantic_objects"]
                 if item["id"] in {"problem", "stage-01"}
@@ -62,7 +86,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
 @router.post("/{lesson_id}/questions/{question_id}/reveal")
 def reveal_worked_example(lesson_id: str, question_id: str, user: User | None = Depends(get_optional_user)) -> dict:
     grade, _, _, lesson = _lesson_context(lesson_id)
-    if grade.id != "grade-8" or lesson.id != "g8-algebraic-equations-01":
+    if grade.id != "grade-8" or lesson.id not in {"g8-algebraic-equations-01", "g8-algebraic-equations-02"}:
         raise HTTPException(status_code=404, detail="Worked example not found")
     enforce_lesson_access(lesson, user)
     question = next((item for item in lesson.whiteboard_questions if item.id == question_id), None)

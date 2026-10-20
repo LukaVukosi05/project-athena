@@ -265,8 +265,7 @@
   .whiteboard-settings-panel{position:absolute;right:0;top:100%;width:min(290px,calc(100vw - 2rem));box-shadow:var(--shadow-raised)}
 }
 
-/* Keep the explanation and its result in reading order. The written solution
-   grows beneath the live diagram, next to the teaching controls. */
+/* Keep the explanation and its result in reading order. */
 .whiteboard-example-title{font-size:.95rem;font-weight:800;color:var(--athena-navy)}
 .whiteboard-example-navigation{display:flex;gap:.35rem;width:100%;overflow-x:auto;padding:.2rem 0 .4rem;scrollbar-width:thin}
 .whiteboard-example-number{flex:0 0 44px;min-height:44px;border:1px solid var(--athena-border);border-radius:8px;background:#fff;color:var(--athena-navy);font-family:inherit;font-size:.9rem;font-weight:700;line-height:1;cursor:pointer}
@@ -284,3 +283,16 @@
 .whiteboard-question-set [data-role="example-loading"]:empty{display:none}
 .whiteboard-question-set [data-role="example-loading"]{max-width:900px;margin:.5rem auto;color:var(--athena-muted)}
 @media(max-width:640px){.whiteboard-example-navigation{gap:.25rem}.whiteboard-example-number{flex-basis:42px;min-height:44px}.g8-completed-steps{max-height:none}.g8-completed-steps li{align-items:start}}
+
+/* Algebra workspace: the animated mathematics and cumulative memo remain in
+   view together. Only the memo pane scrolls as the solution grows. */
+.whiteboard-stage[data-layout="split"]{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(300px,.9fr);align-items:start;gap:clamp(.65rem,1.5vw,1.25rem)}
+.whiteboard-visual-pane{min-width:0;width:100%}
+.whiteboard-visual-pane .g8-equation-visual{width:100%;max-width:none}
+.whiteboard-stage[data-layout="split"] .g8-completed-steps{width:100%;min-width:0;min-height:340px;max-height:min(58vh,590px);margin:0;overflow-y:auto;overflow-x:hidden;scrollbar-gutter:stable}
+.whiteboard-stage[data-layout="split"] .g8-completed-steps li{border-radius:7px;padding:.5rem .35rem}
+.whiteboard-stage[data-layout="split"] .g8-completed-steps li.is-latest{border-left:3px solid var(--athena-teal);background:var(--athena-teal-light);padding-left:.6rem}
+.whiteboard-stage[data-layout="split"] .g8-completed-steps li strong{overflow-wrap:anywhere}
+.g8-trace-empty{font-size:.85rem;color:var(--athena-muted)}
+@media(max-width:980px){.whiteboard-stage[data-layout="split"]{grid-template-columns:minmax(0,1fr)}.whiteboard-stage[data-layout="split"] .g8-completed-steps{min-height:0;max-height:230px}}
+@media(max-width:640px){.whiteboard-stage[data-layout="split"]{gap:.5rem}.whiteboard-stage[data-layout="split"] .g8-completed-steps{max-height:clamp(150px,25vh,220px);padding:.55rem .7rem}.whiteboard-stage[data-layout="split"] .g8-completed-steps li{font-size:.82rem}}

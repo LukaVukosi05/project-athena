@@ -22,7 +22,7 @@ def test_manifest_uses_the_six_required_readiness_states_and_stable_ids():
     assert len(lessons) == 138
     assert len({lesson["id"] for lesson in lessons}) == 138
     assert {lesson["readiness"] for lesson in lessons} <= set(ReadinessState)
-    assert sum(lesson["readiness"] == ReadinessState.PUBLISHED for lesson in lessons) == 7
+    assert sum(lesson["readiness"] == ReadinessState.PUBLISHED for lesson in lessons) == 8
 
 
 def test_missing_master_sources_are_explicit_and_never_reported_as_present():
@@ -77,7 +77,7 @@ def test_grade_list_api_exposes_frontend_catalogue_counts():
     assert rows[-1]["expected_lesson_count"] == 128
 
 
-def test_grade8_gold_pack_catalogue_exposes_only_released_lesson_one():
+def test_grade8_gold_pack_catalogue_exposes_released_lessons_one_and_two():
     with TestClient(app) as client:
         grade = client.get("/api/v1/curriculum/grades/grade-8")
         topic = client.get("/api/v1/curriculum/grades/grade-8/topics/algebraic-equations")
@@ -85,13 +85,14 @@ def test_grade8_gold_pack_catalogue_exposes_only_released_lesson_one():
     assert grade.status_code == 200
     topic_summary = grade.json()["topics"][0]
     assert topic_summary["lesson_count"] == 10
-    assert topic_summary["interactive_lesson_count"] == 1
-    assert topic_summary["published_interactive_lesson_count"] == 1
+    assert topic_summary["interactive_lesson_count"] == 2
+    assert topic_summary["published_interactive_lesson_count"] == 2
     assert topic_summary["availability"] == "available"
     lessons = topic.json()["subtopics"][0]["lessons"]
     assert [item["id"] for item in lessons] == [f"g8-algebraic-equations-{number:02}" for number in range(1, 11)]
     assert lessons[0]["readiness"] == "published" and lessons[0]["usable"]
-    assert all(item["readiness"] == "authored" and not item["usable"] for item in lessons[1:])
+    assert lessons[1]["readiness"] == "published" and lessons[1]["usable"]
+    assert all(item["readiness"] == "authored" and not item["usable"] for item in lessons[2:])
     assert all(item["worked_example_count"] == 15 for item in lessons)
     assert all(item["practice_count"] == 15 for item in lessons)
     assert lesson.status_code == 200

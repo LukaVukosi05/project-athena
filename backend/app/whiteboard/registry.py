@@ -81,7 +81,8 @@ for algebra_operation in (
 for grade8_template in (
     "equality_balance", "additive_inverse", "multiplicative_inverse",
     "two_step_balance", "variables_both_sides", "context_to_equation",
-    "distributive_equation",
+    "distributive_equation", "inspection_fact_family", "inspection_number_line",
+    "inspection_substitution_table", "inspection_context",
 ):
     registry.register(
         f"{grade8_template}_step",

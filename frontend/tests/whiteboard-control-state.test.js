@@ -56,15 +56,16 @@ test("final Next is disabled by controller semantics", () => {
 });
 
 test("prior results remain on the board through ready, operation, and result", () => {
-  const stage = {innerHTML:"",setAttribute(){},querySelector(){return null;},dataset:{}};
+  const tracePane = {scrollTop:0,scrollHeight:444};
+  const stage = {innerHTML:"",setAttribute(){},querySelector(selector){return selector === ".g8-completed-steps" ? tracePane : null;},dataset:{}};
   global.CSS = {escape:value => value};
   global.AthenaWhiteboardRegistry = {resolve(){return {render(){return "";}};}};
   const board = Object.create(StatefulWhiteboard.prototype);
   Object.assign(board, {
     index:2, status:"idle", visualSession:{render(){return '<div data-object-id="operation">current</div>';}},
     block:{initial_expression:"x + 2 = 8",visualization:{type:"algebra"},steps:[
-      {after_expression:"x + 2 − 2 = 8 − 2"},
-      {after_expression:"x = 6"},
+      {after_expression:"x + 2 − 2 = 8 − 2",operation:{type:"test"},events:[],screen_reader_description:"Subtract"},
+      {after_expression:"x = 6",operation:{type:"test"},events:[],screen_reader_description:"Simplify"},
       {after_expression:"8 = 8",operation:{type:"test"},events:[],screen_reader_description:"Verify"},
     ]},
     mount:{querySelector(selector){if(selector===".whiteboard-stage")return stage;if(selector==='[data-role="checkpoint"]')return {hidden:false};return null;}},
@@ -72,10 +73,18 @@ test("prior results remain on the board through ready, operation, and result", (
   });
   for (const phase of ["ready","operation","result"]) {
     board.reconstruct(phase,"idle");
+    assert.equal(stage.dataset.layout,"split");
+    assert.match(stage.innerHTML,/class="whiteboard-visual-pane"/);
+    assert.match(stage.innerHTML,/class="g8-completed-steps"/);
     assert.match(stage.innerHTML,/x \+ 2 = 8/);
     assert.match(stage.innerHTML,/x = 6/);
     assert.equal((stage.innerHTML.match(/x = 6/g)||[]).length,1);
     assert.ok(stage.innerHTML.indexOf("x = 6") > stage.innerHTML.indexOf("current"), "written working follows the active diagram");
     if (phase === "result") assert.match(stage.innerHTML, /Step 3<\/span>.*8 = 8/, "the final written solution includes the current check");
+    assert.equal(tracePane.scrollTop,444,"the newest written line remains visible in its pane");
   }
+  board.index=0;
+  board.reconstruct("ready","idle");
+  assert.match(stage.innerHTML,/Steps appear here as the explanation progresses/);
+  assert.doesNotMatch(stage.innerHTML,/class="is-latest"/);
 });

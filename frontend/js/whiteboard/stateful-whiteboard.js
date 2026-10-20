@@ -102,8 +102,13 @@ class StatefulWhiteboard {
     }
     const stage = this.mount.querySelector(".whiteboard-stage");
     const writtenSteps = this.block.steps.slice(0, this.index + (phase === "result" ? 1 : 0));
-    const trace = writtenSteps.length ? `<section class="g8-completed-steps" aria-label="Written solution so far"><h3>Written solution so far</h3><p>Original: ${escapeWhiteboardHtml(this.block.initial_expression)}</p><ol>${writtenSteps.map((prior, index) => `<li><span>Step ${index + 1}</span><div>${prior.working_expression ? `<small>Operation: ${escapeWhiteboardHtml(prior.working_expression)}</small>` : ""}<strong>${escapeWhiteboardHtml(prior.after_expression)}</strong></div></li>`).join("")}</ol></section>` : "";
-    stage.innerHTML = `${visualization}${renderer.render(step, phase, { history, hasVisualization:Boolean(this.visualSession) })}${this.visualSession?.type === "algebra" || this.block.visualization?.type === "algebra" ? trace : ""}`;
+    const algebraVisual = this.visualSession?.type === "algebra" || this.block.visualization?.type === "algebra";
+    const visualMarkup = `${visualization}${renderer.render(step, phase, { history, hasVisualization:Boolean(this.visualSession) })}`;
+    const trace = `<aside class="g8-completed-steps" role="region" aria-label="Written solution so far"><h3>Written solution so far</h3><p>Original: ${escapeWhiteboardHtml(this.block.initial_expression)}</p>${writtenSteps.length ? `<ol>${writtenSteps.map((prior, index) => `<li ${index === writtenSteps.length - 1 ? `class="is-latest" ${phase === "result" ? 'aria-current="step"' : ""}` : ""}><span>Step ${index + 1}</span><div>${prior.working_expression ? `<small>Operation: ${escapeWhiteboardHtml(prior.working_expression)}</small>` : ""}<strong>${escapeWhiteboardHtml(prior.after_expression)}</strong></div></li>`).join("")}</ol>` : '<p class="g8-trace-empty">Steps appear here as the explanation progresses.</p>'}</aside>`;
+    stage.dataset.layout = algebraVisual ? "split" : "single";
+    stage.innerHTML = algebraVisual ? `<div class="whiteboard-visual-pane">${visualMarkup}</div>${trace}` : visualMarkup;
+    const tracePane = algebraVisual ? stage.querySelector(".g8-completed-steps") : null;
+    if (tracePane) tracePane.scrollTop = tracePane.scrollHeight;
     stage.setAttribute("aria-label", step.screen_reader_description);
     const targets = [...new Set((step.events || []).flatMap(event => event.targets || []))];
     const missing = targets.filter(id => !stage.querySelector(`[data-object-id="${CSS.escape(id)}"]`));

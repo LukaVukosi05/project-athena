@@ -63,13 +63,16 @@ def release_gate_passes(lesson: Lesson) -> bool:
             if target
         ):
             return False
-    if lesson.id == "g8-algebraic-equations-01":
-        from app.curriculum.grade8.assessment import MASTERY_BANK, MISCONCEPTION_REPAIRS, PRACTICE_BANK, REASSESSMENT_BANK
+    if lesson.id in {"g8-algebraic-equations-01", "g8-algebraic-equations-02"}:
+        if lesson.id.endswith("-01"):
+            from app.curriculum.grade8 import assessment as bank
+        else:
+            from app.curriculum.grade8 import assessment_lesson2 as bank
         return (
-            len(PRACTICE_BANK) == contract.get("practice_count") == 15
-            and len(MASTERY_BANK) == contract.get("mastery_question_count") == 5
-            and len(REASSESSMENT_BANK) == contract.get("parallel_reassessment_count") == 3
-            and bool(MISCONCEPTION_REPAIRS)
+            len(bank.PRACTICE_BANK) == contract.get("practice_count") == 15
+            and len(bank.MASTERY_BANK) == contract.get("mastery_question_count") == 5
+            and len(bank.REASSESSMENT_BANK) == contract.get("parallel_reassessment_count") == 3
+            and bool(bank.MISCONCEPTION_REPAIRS)
         )
     return True
 

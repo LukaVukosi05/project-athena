@@ -1,0 +1,862 @@
+{
+  "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
+  "source_sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
+  "id": "g8-algebraic-equations-02",
+  "title": "Equations by inspection",
+  "estimated_minutes": 60,
+  "mastery_threshold": 0.8,
+  "objective": "Solve simple and structured equations by inspecting number relationships, test candidate values efficiently, and explain why the selected value makes the original equation true.",
+  "why_it_matters": "Inspection builds number sense before formal equation procedures. Learners learn to recognise a missing factor, undo a short operation chain mentally, and reject guesses using evidence instead of moving symbols mechanically.",
+  "prerequisites": [
+    "Interpret the equals sign as equal value",
+    "Recall multiplication and division facts",
+    "Work with integers, fractions and simple decimals",
+    "Substitute a value into an expression"
+  ],
+  "vocabulary": [
+    {
+      "term": "inspection",
+      "meaning": "Finding a solution by recognising a number relationship and checking it."
+    },
+    {
+      "term": "candidate",
+      "meaning": "A possible value considered as a solution."
+    },
+    {
+      "term": "input",
+      "meaning": "The value placed into an expression or operation machine."
+    },
+    {
+      "term": "output",
+      "meaning": "The value produced after the operations are applied."
+    },
+    {
+      "term": "counterexample",
+      "meaning": "A tested value that shows a claim is false."
+    }
+  ],
+  "concept_teaching": [
+    "Inspection is not unsupported guessing. It uses a known number fact or an inverse operation, followed by substitution into the original equation.",
+    "Read the whole side as an operation chain. Ask which input would produce the stated output.",
+    "Use multiplication and division as a fact family: if 7 multiplied by 6 is 42, then 42 divided by 7 is 6.",
+    "Negative coefficients and variables that are subtracted require careful attention to the sign of the variable term.",
+    "If a candidate does not make both original sides equal, it is not a solution, even if it looks close."
+  ],
+  "entry_diagnostic": {
+    "prompt": "Complete both facts: 6 x □ = 42 and 42 ÷ 6 = □.",
+    "answer": "7 in both boxes.",
+    "failure_route": "Review multiplication and division fact families before using inspection with equations."
+  },
+  "misconceptions": [
+    {
+      "tag": "inspection-means-guessing",
+      "diagnosis": "The learner offers an untested value.",
+      "repair": "Use a substitution table with candidate, left-side value and match status."
+    },
+    {
+      "tag": "ignores-operation-order",
+      "diagnosis": "The learner reverses operations in the wrong order.",
+      "repair": "Display the operation machine and trace from output to input one gate at a time."
+    },
+    {
+      "tag": "missing-negative-sign",
+      "diagnosis": "The learner finds the magnitude but loses the sign.",
+      "repair": "Use signed number-line jumps and compare positive and negative candidates."
+    },
+    {
+      "tag": "subtracts-variable-backwards",
+      "diagnosis": "In a - x = b, the learner treats the variable as positive x.",
+      "repair": "Use a decreasing number line from a to b and label the removed distance as x."
+    },
+    {
+      "tag": "checks-transformed-form-only",
+      "diagnosis": "The learner checks a mental shortcut instead of the original equation.",
+      "repair": "Return to the untouched original equation and evaluate both sides."
+    },
+    {
+      "tag": "unit-omitted",
+      "diagnosis": "The learner gives a number without the contextual unit.",
+      "repair": "Keep the unit attached to each context object and the final answer."
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "g8-ae-l02-w01",
+      "number": 1,
+      "prompt": "Solve x + 6 = 10 by inspection.",
+      "difficulty": "foundation",
+      "cognitive_level": "knowledge",
+      "marks": 1,
+      "answer": "x = 4",
+      "memo": [
+        "1. Ask which number plus 6 gives 10.",
+        "2. The known fact is 4 + 6 = 10.",
+        "3. Check in the original equation: 4 + 6 = 10, so x = 4."
+      ],
+      "misconception_tags": [
+        "inspection-means-guessing"
+      ],
+      "renderer": "algebra:inspection_fact_family",
+      "question_data": "unknown = x; operation = +6; target = 10; candidate = 4",
+      "initial_state": "Show x + 6 = 10 with the x tile closed and no candidate visible.",
+      "teaching_sequence": [
+        "1. Reveal the complete equation.",
+        "2. Highlight the gap between 6 and 10.",
+        "3. Show the related fact 4 + 6 = 10.",
+        "4. Place 4 inside the x tile.",
+        "5. Substitute 4 into the original equation and mark both sides equal."
+      ],
+      "verification": "Evaluate the original left side as 4 + 6 = 10 and compare with the original right side 10.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w02",
+      "number": 2,
+      "prompt": "Solve y - 7 = 5 by inspection.",
+      "difficulty": "foundation",
+      "cognitive_level": "knowledge",
+      "marks": 1,
+      "answer": "y = 12",
+      "memo": [
+        "1. Ask which number becomes 5 after 7 is subtracted.",
+        "2. Since 12 - 7 = 5, y = 12.",
+        "3. Check: the original left side is 5, equal to the right side."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order"
+      ],
+      "renderer": "algebra:inspection_number_line",
+      "question_data": "start unknown = y; jump = -7; landing = 5; candidate = 12",
+      "initial_state": "Show a number line ending at 5 with an unlabelled seven-unit backward jump.",
+      "teaching_sequence": [
+        "1. Display y - 7 = 5.",
+        "2. Trace the seven-unit jump backwards to 5.",
+        "3. Reverse the jump from 5 by moving seven units forward.",
+        "4. Land on 12 and label it y.",
+        "5. Replay 12 - 7 to return to 5."
+      ],
+      "verification": "The visible jump from 12 back seven units lands exactly on 5.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w03",
+      "number": 3,
+      "prompt": "Solve 7a = 42 by inspection.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 2,
+      "answer": "a = 6",
+      "memo": [
+        "1. Use the multiplication fact 7 x 6 = 42.",
+        "2. Therefore a = 6.",
+        "3. Check: 7(6) = 42."
+      ],
+      "misconception_tags": [
+        "inspection-means-guessing"
+      ],
+      "renderer": "algebra:inspection_fact_family",
+      "question_data": "factor = 7; unknown = a; product = 42; candidate = 6",
+      "initial_state": "Show seven equal a groups making a total of 42; hide each group value.",
+      "teaching_sequence": [
+        "1. Reveal 7a = 42.",
+        "2. Partition 42 counters into seven equal groups.",
+        "3. Count six counters in each group.",
+        "4. Replace each a group with 6.",
+        "5. Multiply 7 by 6 to verify 42."
+      ],
+      "verification": "Seven groups of six counters total 42.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w04",
+      "number": 4,
+      "prompt": "Solve b ÷ 5 = 7 by inspection.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 2,
+      "answer": "b = 35",
+      "memo": [
+        "1. Ask which number divided into five equal groups gives 7 in each group.",
+        "2. Five groups of 7 make 35, so b = 35.",
+        "3. Check: 35 ÷ 5 = 7."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order"
+      ],
+      "renderer": "algebra:inspection_fact_family",
+      "question_data": "unknown total = b; groups = 5; group size = 7; candidate = 35",
+      "initial_state": "Show five empty equal groups labelled total b and output 7 per group.",
+      "teaching_sequence": [
+        "1. Reveal b ÷ 5 = 7.",
+        "2. Place seven counters in each of the five groups.",
+        "3. Accumulate the counters as 7, 14, 21, 28, 35.",
+        "4. Label the total b = 35.",
+        "5. Divide the 35 counters back into five equal groups."
+      ],
+      "verification": "Each of the five groups contains 7 when 35 is shared equally.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w05",
+      "number": 5,
+      "prompt": "Solve 2x + 1 = 9 by inspection and show how you tested the value.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 3,
+      "answer": "x = 4",
+      "memo": [
+        "1. The doubled number must be 8 because 8 + 1 = 9.",
+        "2. Since 2 x 4 = 8, x = 4.",
+        "3. Check: 2(4) + 1 = 8 + 1 = 9."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order",
+        "checks-transformed-form-only"
+      ],
+      "renderer": "algebra:inspection_substitution_table",
+      "question_data": "expression = 2x + 1; target = 9; candidates = [3, 4]; outputs = [7, 9]",
+      "initial_state": "Show the equation and an empty candidate-output table; hide the successful candidate.",
+      "teaching_sequence": [
+        "1. Display the operation chain multiply by 2 then add 1.",
+        "2. Test candidate 3 and calculate output 7.",
+        "3. Mark 7 as below the target 9.",
+        "4. Test candidate 4 and calculate output 9.",
+        "5. Highlight the matching row and substitute 4 into the original equation."
+      ],
+      "verification": "The candidate table shows that only the displayed successful row gives original left side 9.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w06",
+      "number": 6,
+      "prompt": "Solve 3m - 4 = 11 by inspection.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 3,
+      "answer": "m = 5",
+      "memo": [
+        "1. Before subtracting 4, the value must be 15 because 15 - 4 = 11.",
+        "2. Three groups must total 15, so each group is 5.",
+        "3. Check: 3(5) - 4 = 15 - 4 = 11."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order"
+      ],
+      "renderer": "algebra:inspection_fact_family",
+      "question_data": "operation chain = ['multiply by 3', 'subtract 4']; target = 11; intermediate = 15; candidate = 5",
+      "initial_state": "Show a two-gate machine with input m hidden, then x3, then -4, producing 11.",
+      "teaching_sequence": [
+        "1. Start at output 11.",
+        "2. Reverse the final subtraction by identifying 15 - 4 = 11.",
+        "3. Show the intermediate value 15 between the gates.",
+        "4. Use 3 x 5 = 15 to reveal m = 5.",
+        "5. Run 5 forward through both gates to produce 11."
+      ],
+      "verification": "The forward machine displays 5 to 15 to 11, matching the original equation.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w07",
+      "number": 7,
+      "prompt": "Solve 2(n + 1) = 10 by inspection.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 3,
+      "answer": "n = 4",
+      "memo": [
+        "1. Two equal groups total 10, so each bracket must equal 5.",
+        "2. The number that gives n + 1 = 5 is n = 4.",
+        "3. Check: 2(4 + 1) = 2(5) = 10."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order"
+      ],
+      "renderer": "algebra:inspection_fact_family",
+      "question_data": "groups = 2; group expression = n + 1; total = 10; group value = 5; candidate = 4",
+      "initial_state": "Show two sealed identical n + 1 bags balancing ten counters.",
+      "teaching_sequence": [
+        "1. Partition ten counters equally between the two bags.",
+        "2. Reveal five counters assigned to each bag.",
+        "3. Open one bag as n plus one unit.",
+        "4. Identify the remaining n value as four.",
+        "5. Rebuild both bags and total ten."
+      ],
+      "verification": "Two groups of 4 + 1 visibly contain ten counters.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w08",
+      "number": 8,
+      "prompt": "Solve 18 - p = 11 by inspection.",
+      "difficulty": "standard",
+      "cognitive_level": "complex",
+      "marks": 3,
+      "answer": "p = 7",
+      "memo": [
+        "1. The equation asks how much must be removed from 18 to leave 11.",
+        "2. The difference between 18 and 11 is 7, so p = 7.",
+        "3. Check: 18 - 7 = 11."
+      ],
+      "misconception_tags": [
+        "subtracts-variable-backwards"
+      ],
+      "renderer": "algebra:inspection_number_line",
+      "question_data": "start = 18; landing = 11; removed distance = p; candidate = 7",
+      "initial_state": "Show 18 and 11 on a number line with the distance between them unlabelled.",
+      "teaching_sequence": [
+        "1. Display 18 - p = 11.",
+        "2. Animate a decreasing jump from 18 to 11.",
+        "3. Count the seven unit intervals crossed.",
+        "4. Label the removed distance p = 7.",
+        "5. Replay the subtraction 18 - 7."
+      ],
+      "verification": "The jump removes seven units from 18 and lands on 11, not on 25.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w09",
+      "number": 9,
+      "prompt": "Solve -3q = 18 by inspection.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 3,
+      "answer": "q = -6",
+      "memo": [
+        "1. A negative factor multiplied by q gives a positive product, so q must be negative.",
+        "2. Since 3 x 6 = 18, (-3)(-6) = 18.",
+        "3. Therefore q = -6."
+      ],
+      "misconception_tags": [
+        "missing-negative-sign"
+      ],
+      "renderer": "algebra:inspection_substitution_table",
+      "question_data": "expression = -3q; target = 18; candidates = [6, -6]; outputs = [-18, 18]",
+      "initial_state": "Show candidate cards 6 and -6 beside -3q = 18; do not mark either card.",
+      "teaching_sequence": [
+        "1. Test q = 6 and show (-3)(6) = -18.",
+        "2. Mark -18 as not equal to 18.",
+        "3. Test q = -6 and show two negative factors.",
+        "4. Reveal their positive product 18.",
+        "5. Select -6 and substitute it into the original equation."
+      ],
+      "verification": "The original left side becomes 18 only for the displayed candidate -6.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w10",
+      "number": 10,
+      "prompt": "Solve x ÷ 4 - 2 = 3 by inspection.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "x = 20",
+      "memo": [
+        "1. The value before subtracting 2 must be 5.",
+        "2. The number that gives 5 when divided by 4 is 20.",
+        "3. Check: 20 ÷ 4 - 2 = 5 - 2 = 3."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order",
+        "checks-transformed-form-only"
+      ],
+      "renderer": "algebra:inspection_fact_family",
+      "question_data": "operation chain = ['divide by 4', 'subtract 2']; target = 3; intermediate = 5; candidate = 20",
+      "initial_state": "Show a two-gate machine from x through divide by 4 and subtract 2 to output 3.",
+      "teaching_sequence": [
+        "1. Start at output 3 and reverse the subtract-two gate to reach 5.",
+        "2. Reverse the divide-by-four gate by identifying 20 divided by 4 as 5.",
+        "3. Reveal input x = 20.",
+        "4. Run 20 forward to 5 and then 3.",
+        "5. Compare the final output with the original target."
+      ],
+      "verification": "The complete forward chain is 20 to 5 to 3.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w11",
+      "number": 11,
+      "prompt": "A learner says x = 4 solves 3x + 2 = 13. Use inspection to test and correct the claim.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "The claim is false; x = 11/3.",
+      "memo": [
+        "1. Test the claim: 3(4) + 2 = 14, not 13.",
+        "2. The value before adding 2 must be 11.",
+        "3. Therefore 3x = 11, so x = 11/3.",
+        "4. Check: 3(11/3) + 2 = 11 + 2 = 13."
+      ],
+      "misconception_tags": [
+        "inspection-means-guessing",
+        "checks-transformed-form-only"
+      ],
+      "renderer": "algebra:inspection_substitution_table",
+      "question_data": "expression = 3x + 2; target = 13; candidates = [4, '11/3']; outputs = [14, 13]",
+      "initial_state": "Show the learner claim and an empty two-row test table.",
+      "teaching_sequence": [
+        "1. Insert candidate 4 and evaluate the original left side as 14.",
+        "2. Show 14 not equal to 13 and reject the claim.",
+        "3. Identify the required pre-addition value 11.",
+        "4. Reveal candidate 11/3 and evaluate 3 times 11/3 plus 2.",
+        "5. Mark the second row as an exact match."
+      ],
+      "verification": "The original equation displays 13 on both sides for x = 11/3.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w12",
+      "number": 12,
+      "prompt": "Solve 2x + 3 = x + 9 by inspection and verify the solution.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "x = 6",
+      "memo": [
+        "1. Compare the two sides as x changes.",
+        "2. For x = 6, the left side is 2(6) + 3 = 15.",
+        "3. The right side is 6 + 9 = 15.",
+        "4. Both sides match, so x = 6."
+      ],
+      "misconception_tags": [
+        "inspection-means-guessing",
+        "checks-transformed-form-only"
+      ],
+      "renderer": "algebra:inspection_substitution_table",
+      "question_data": "left expression = 2x + 3; right expression = x + 9; candidates = [4, 5, 6]; left outputs = [11, 13, 15]; right outputs = [13, 14, 15]",
+      "initial_state": "Show both expressions above an empty candidate comparison table.",
+      "teaching_sequence": [
+        "1. Test x = 4 and plot left 11 against right 13.",
+        "2. Test x = 5 and plot left 13 against right 14.",
+        "3. Observe that the gap is closing by one.",
+        "4. Test x = 6 and reveal 15 in both output columns.",
+        "5. Highlight the matching row and substitute into the original equation."
+      ],
+      "verification": "The original left and right sides both evaluate to 15 for x = 6.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w13",
+      "number": 13,
+      "prompt": "A rectangle has width 5 cm and area 60 cm². Form an equation and find its length by inspection.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "12 cm",
+      "memo": [
+        "1. Let the length be l centimetres.",
+        "2. Area equals length multiplied by width, so 5l = 60.",
+        "3. Since 5 x 12 = 60, l = 12.",
+        "4. Check the area: 12 cm x 5 cm = 60 cm²."
+      ],
+      "misconception_tags": [
+        "unit-omitted",
+        "inspection-means-guessing"
+      ],
+      "renderer": "algebra:inspection_context",
+      "question_data": "shape = rectangle; width cm = 5; area cm2 = 60; unknown dimension = length; candidate cm = 12",
+      "initial_state": "Show a rectangle labelled width 5 cm and area 60 cm²; leave its length blank.",
+      "teaching_sequence": [
+        "1. Highlight the five-centimetre width.",
+        "2. Write area = length x width beside the rectangle.",
+        "3. Build the equation 5l = 60 from the labels.",
+        "4. Partition the rectangle into five equal strips of area 12 cm².",
+        "5. Reveal length 12 cm and recalculate the complete area."
+      ],
+      "verification": "The rendered rectangle labels multiply as 12 cm x 5 cm = 60 cm².",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w14",
+      "number": 14,
+      "prompt": "Two consecutive whole numbers have a sum of 21. Form an equation and find the numbers by inspection.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 5,
+      "answer": "10 and 11",
+      "memo": [
+        "1. Let the smaller number be n, so the next number is n + 1.",
+        "2. The equation is n + (n + 1) = 21.",
+        "3. The two numbers near half of 21 are 10 and 11.",
+        "4. Check: 10 + 11 = 21, so n = 10."
+      ],
+      "misconception_tags": [
+        "inspection-means-guessing"
+      ],
+      "renderer": "algebra:inspection_context",
+      "question_data": "relationship = consecutive whole numbers; sum = 21; smaller = 10; larger = 11",
+      "initial_state": "Show two adjacent number cards labelled n and n + 1 with total 21 hidden behind a sum bracket.",
+      "teaching_sequence": [
+        "1. Reveal that the cards are consecutive and differ by one.",
+        "2. Show half of 21 between 10 and 11 on a number line.",
+        "3. Place 10 on the smaller card and 11 on the larger card.",
+        "4. Add the cards to reveal 21.",
+        "5. Link the cards to n + (n + 1) = 21."
+      ],
+      "verification": "The cards are one apart and their displayed sum is exactly 21.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l02-w15",
+      "number": 15,
+      "prompt": "Solve 0.5x + 3 = 8 by inspection. Explain why the solution is reasonable without using a formal balance method.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 6,
+      "answer": "x = 10",
+      "memo": [
+        "1. The half of x must be 5 because 5 + 3 = 8.",
+        "2. A number whose half is 5 is 10.",
+        "3. The answer is reasonable because halving 10 gives 5, which is three less than 8.",
+        "4. Check: 0.5(10) + 3 = 5 + 3 = 8."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order",
+        "checks-transformed-form-only"
+      ],
+      "renderer": "algebra:inspection_fact_family",
+      "question_data": "operation chain = ['take one half', 'add 3']; target = 8; intermediate = 5; candidate = 10",
+      "initial_state": "Show an input card x passing through a half gate and a plus-three gate to output 8.",
+      "teaching_sequence": [
+        "1. Reverse the plus-three gate to reveal required intermediate 5.",
+        "2. Display a whole bar split into two equal halves.",
+        "3. Set one half equal to 5 and reconstruct the whole as 10.",
+        "4. Send 10 forward through the half and plus-three gates.",
+        "5. Reveal output 8 and a reasonableness statement."
+      ],
+      "verification": "The visual whole is 10, its highlighted half is 5, and 5 + 3 matches 8.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    }
+  ],
+  "practice_questions": [
+    {
+      "id": "g8-ae-l02-p01",
+      "number": 1,
+      "prompt": "Solve x + 8 = 13 by inspection.",
+      "marks": 1,
+      "answer": "x = 5",
+      "solution": [
+        "1. 5 + 8 = 13.",
+        "2. Therefore x = 5."
+      ],
+      "misconception_tags": [
+        "inspection-means-guessing"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p02",
+      "number": 2,
+      "prompt": "Solve y - 9 = 4 by inspection.",
+      "marks": 1,
+      "answer": "y = 13",
+      "solution": [
+        "1. 13 - 9 = 4.",
+        "2. Therefore y = 13."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p03",
+      "number": 3,
+      "prompt": "Solve 8a = 56 by inspection.",
+      "marks": 2,
+      "answer": "a = 7",
+      "solution": [
+        "1. 8 x 7 = 56.",
+        "2. Therefore a = 7."
+      ],
+      "misconception_tags": [
+        "inspection-means-guessing"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p04",
+      "number": 4,
+      "prompt": "Solve b ÷ 6 = 9 by inspection.",
+      "marks": 2,
+      "answer": "b = 54",
+      "solution": [
+        "1. 6 groups of 9 total 54.",
+        "2. Check: 54 ÷ 6 = 9."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p05",
+      "number": 5,
+      "prompt": "Solve 2x + 5 = 17 by inspection.",
+      "marks": 3,
+      "answer": "x = 6",
+      "solution": [
+        "1. The doubled value is 12.",
+        "2. 2 x 6 = 12.",
+        "3. Check: 12 + 5 = 17."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p06",
+      "number": 6,
+      "prompt": "Solve 4m - 3 = 17 by inspection.",
+      "marks": 3,
+      "answer": "m = 5",
+      "solution": [
+        "1. Before subtracting 3 the value is 20.",
+        "2. 4 x 5 = 20.",
+        "3. Check: 20 - 3 = 17."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p07",
+      "number": 7,
+      "prompt": "Solve 3(n + 2) = 21 by inspection.",
+      "marks": 3,
+      "answer": "n = 5",
+      "solution": [
+        "1. Each bracket is 7 because 3 x 7 = 21.",
+        "2. n + 2 = 7, so n = 5."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p08",
+      "number": 8,
+      "prompt": "Solve 20 - p = 12 by inspection.",
+      "marks": 3,
+      "answer": "p = 8",
+      "solution": [
+        "1. Eight must be removed from 20 to leave 12.",
+        "2. Check: 20 - 8 = 12."
+      ],
+      "misconception_tags": [
+        "subtracts-variable-backwards"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p09",
+      "number": 9,
+      "prompt": "Solve -4q = 28 by inspection.",
+      "marks": 3,
+      "answer": "q = -7",
+      "solution": [
+        "1. A negative factor needs a negative value to produce positive 28.",
+        "2. (-4)(-7) = 28."
+      ],
+      "misconception_tags": [
+        "missing-negative-sign"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p10",
+      "number": 10,
+      "prompt": "Solve x ÷ 3 + 2 = 7 by inspection.",
+      "marks": 4,
+      "answer": "x = 15",
+      "solution": [
+        "1. Before adding 2 the value is 5.",
+        "2. 15 ÷ 3 = 5.",
+        "3. Check: 5 + 2 = 7."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p11",
+      "number": 11,
+      "prompt": "Test the claim that x = 5 solves 4x - 1 = 18 and correct it.",
+      "marks": 4,
+      "answer": "The claim is false; x = 19/4.",
+      "solution": [
+        "1. 4(5) - 1 = 19, not 18.",
+        "2. The required product is 19, so x = 19/4.",
+        "3. Check: 4(19/4) - 1 = 18."
+      ],
+      "misconception_tags": [
+        "inspection-means-guessing",
+        "checks-transformed-form-only"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p12",
+      "number": 12,
+      "prompt": "Solve 3x + 1 = x + 11 by inspection.",
+      "marks": 4,
+      "answer": "x = 5",
+      "solution": [
+        "1. For x = 5 the left side is 16.",
+        "2. The right side is also 16.",
+        "3. Therefore x = 5."
+      ],
+      "misconception_tags": [
+        "checks-transformed-form-only"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p13",
+      "number": 13,
+      "prompt": "A rectangle has width 7 cm and area 84 cm². Find its length by inspection.",
+      "marks": 5,
+      "answer": "12 cm",
+      "solution": [
+        "1. Let the length be l, so 7l = 84.",
+        "2. Since 7 x 12 = 84, l = 12 cm."
+      ],
+      "misconception_tags": [
+        "unit-omitted"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p14",
+      "number": 14,
+      "prompt": "Two consecutive whole numbers have a sum of 35. Find them by inspection.",
+      "marks": 5,
+      "answer": "17 and 18",
+      "solution": [
+        "1. The numbers on either side of half of 35 are 17 and 18.",
+        "2. They are consecutive and 17 + 18 = 35."
+      ],
+      "misconception_tags": [
+        "inspection-means-guessing"
+      ]
+    },
+    {
+      "id": "g8-ae-l02-p15",
+      "number": 15,
+      "prompt": "Solve 0.25x + 2 = 5 by inspection.",
+      "marks": 5,
+      "answer": "x = 12",
+      "solution": [
+        "1. One quarter of x must be 3.",
+        "2. The whole is four groups of 3, so x = 12.",
+        "3. Check: 0.25(12) + 2 = 3 + 2 = 5."
+      ],
+      "misconception_tags": [
+        "ignores-operation-order"
+      ]
+    }
+  ],
+  "mastery_questions": [
+    {
+      "id": "g8-ae-l02-m01",
+      "number": 1,
+      "prompt": "Solve k - 12 = 7 by inspection.",
+      "marks": 2,
+      "answer": "k = 19",
+      "solution": [
+        "1. 19 - 12 = 7."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l02-m02",
+      "number": 2,
+      "prompt": "Solve 5t + 2 = 32 by inspection.",
+      "marks": 3,
+      "answer": "t = 6",
+      "solution": [
+        "1. 5t must be 30.",
+        "2. 5 x 6 = 30.",
+        "3. Check: 30 + 2 = 32."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l02-m03",
+      "number": 3,
+      "prompt": "Solve 16 - r = 9 by inspection.",
+      "marks": 3,
+      "answer": "r = 7",
+      "solution": [
+        "1. Seven removed from 16 leaves 9."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l02-m04",
+      "number": 4,
+      "prompt": "Test whether x = -4 solves -5x = 20.",
+      "marks": 4,
+      "answer": "Yes",
+      "solution": [
+        "1. (-5)(-4) = 20, so the candidate is a solution."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l02-m05",
+      "number": 5,
+      "prompt": "Three identical data bundles cost R180. Form an equation and find one bundle's cost by inspection.",
+      "marks": 5,
+      "answer": "R60",
+      "solution": [
+        "1. Let one bundle cost c rand, so 3c = 180.",
+        "2. Since 3 x 60 = 180, c = R60."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "repair_rules": [
+    "Incorrect M1: Replay worked examples 1 and 2 with the fact-family or number-line renderer, then administer R1.",
+    "Incorrect M2: Replay worked examples 5 and 6 using the reverse operation machine, then administer R2.",
+    "Incorrect M3: Replay worked example 8 and require the learner to label the removed distance before administering R1.",
+    "Incorrect M4: Replay worked example 9 with both positive and negative candidates, then administer R2.",
+    "Incorrect M5: Replay worked example 13 from diagram to equation to unit-bearing answer, then administer R3.",
+    "Score below 80%: Route to the two most frequent misconception tags, reteach those examples, and use all three parallel questions."
+  ],
+  "reassessment_questions": [
+    {
+      "id": "g8-ae-l02-r01",
+      "number": 1,
+      "prompt": "Solve 19 - s = 13 by inspection.",
+      "marks": 2,
+      "answer": "s = 6",
+      "solution": [
+        "1. Six removed from 19 leaves 13.",
+        "2. Check: 19 - 6 = 13."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l02-r02",
+      "number": 2,
+      "prompt": "Solve -6p = 30 by inspection.",
+      "marks": 3,
+      "answer": "p = -5",
+      "solution": [
+        "1. A negative times a negative gives positive 30.",
+        "2. (-6)(-5) = 30."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l02-r03",
+      "number": 3,
+      "prompt": "Four identical transport tickets cost R96. Form an equation and find one ticket's cost.",
+      "marks": 5,
+      "answer": "R24",
+      "solution": [
+        "1. Let one ticket cost t rand, so 4t = 96.",
+        "2. Since 4 x 24 = 96, t = R24."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "summary": [
+    "Inspection uses number relationships, not unsupported guessing.",
+    "Read the complete operation chain and reason backward from the target.",
+    "Test a candidate in the untouched original equation.",
+    "Negative signs and subtracted variables change which candidate can work.",
+    "Context solutions must retain their units."
+  ]
+}

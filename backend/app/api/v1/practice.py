@@ -11,6 +11,18 @@ from app.db.models.user import User
 from app.practice.schemas import AssessmentSubmission,PracticeAnswerRequest,PracticeBankResponse,PracticePublicQuestion,PracticeState
 from app.practice.service import blank_response,check_answer,mastery_summary,public_status
 from app.curriculum.grade8.assessment import MASTERY_BANK,MISCONCEPTION_REPAIRS,REASSESSMENT_BANK,REPAIR_RULES
+from app.curriculum.grade8 import assessment_lesson2
+
+ASSESSMENT_BANKS={
+    "g8-algebraic-equations-01":(MASTERY_BANK,REASSESSMENT_BANK,MISCONCEPTION_REPAIRS,REPAIR_RULES),
+    "g8-algebraic-equations-02":(assessment_lesson2.MASTERY_BANK,assessment_lesson2.REASSESSMENT_BANK,
+                                  assessment_lesson2.MISCONCEPTION_REPAIRS,assessment_lesson2.REPAIR_RULES),
+}
+
+def assessment_or_404(lesson_id):
+    result=ASSESSMENT_BANKS.get(lesson_id)
+    if result is None:raise HTTPException(404,"Mastery bank not found")
+    return result
 
 router=APIRouter()
 def bank_or_404(lesson_id):
@@ -82,24 +94,25 @@ def _score_assessment(bank, answers: dict[str, str]) -> tuple[int, list, list[st
 
 @router.get("/{lesson_id}/mastery")
 def get_mastery(lesson_id:str):
-    if lesson_id!="g8-algebraic-equations-01":raise HTTPException(404,"Mastery bank not found")
-    return {"lesson_id":lesson_id,"mastery_threshold":.8,"questions":[item.public() for item in MASTERY_BANK]}
+    mastery,_,_,_=assessment_or_404(lesson_id)
+    return {"lesson_id":lesson_id,"mastery_threshold":.8,"questions":[item.public() for item in mastery]}
 
 
 @router.post("/{lesson_id}/sessions/{session_id}/mastery")
 def submit_mastery(lesson_id:str,session_id:str,payload:AssessmentSubmission,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):
-    if lesson_id!="g8-algebraic-equations-01":raise HTTPException(404,"Mastery bank not found")
-    session=session_or_404(lesson_id,session_id,db,user);correct,reviewed,tags=_score_assessment(MASTERY_BANK,payload.answers);mastered=correct>=4
+    mastery,_,repairs,_=assessment_or_404(lesson_id)
+    session=session_or_404(lesson_id,session_id,db,user);correct,reviewed,tags=_score_assessment(mastery,payload.answers);mastered=correct>=4
     updated=dict(session.responses or {});updated["__mastery__"]={"correct":correct,"mastered":mastered,"tags":tags};session.responses=updated;db.add(session);db.commit()
-    return {"questions_correct":correct,"total_questions":5,"score":correct*20,"mastered":mastered,"readiness_decision":"ready" if mastered else "targeted_repair_required","diagnosis":tags,"worked_review":reviewed,"repair_routes":[] if mastered else [{"tag":tag,**MISCONCEPTION_REPAIRS[tag]} for tag in tags if tag in MISCONCEPTION_REPAIRS]}
+    return {"questions_correct":correct,"total_questions":5,"score":correct*20,"mastered":mastered,"readiness_decision":"ready" if mastered else "targeted_repair_required","diagnosis":tags,"worked_review":reviewed,"repair_routes":[] if mastered else [{"tag":tag,**repairs[tag]} for tag in tags if tag in repairs]}
 
 
 @router.get("/{lesson_id}/sessions/{session_id}/repair")
 def get_repair(lesson_id:str,session_id:str,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):
+    _,_,repairs,rules=assessment_or_404(lesson_id)
     session=session_or_404(lesson_id,session_id,db,user);mastery=(session.responses or {}).get("__mastery__")
     if not mastery or mastery.get("mastered"):raise HTTPException(409,"Targeted repair is not required")
     tags=mastery.get("tags",[])
-    return {"diagnosis":tags,"routes":[{"tag":tag,**MISCONCEPTION_REPAIRS[tag]} for tag in tags if tag in MISCONCEPTION_REPAIRS],"source_rules":REPAIR_RULES}
+    return {"diagnosis":tags,"routes":[{"tag":tag,**repairs[tag]} for tag in tags if tag in repairs],"source_rules":rules}
 
 
 @router.post("/{lesson_id}/sessions/{session_id}/repair/complete")
@@ -111,15 +124,17 @@ def complete_repair(lesson_id:str,session_id:str,user:User|None=Depends(get_opti
 
 @router.get("/{lesson_id}/sessions/{session_id}/reassessment")
 def get_reassessment(lesson_id:str,session_id:str,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):
+    _,reassessment,_,_=assessment_or_404(lesson_id)
     session=session_or_404(lesson_id,session_id,db,user)
     if not (session.responses or {}).get("__repair__",{}).get("complete"):raise HTTPException(409,"Complete targeted repair first")
-    return {"lesson_id":lesson_id,"questions":[item.public() for item in REASSESSMENT_BANK]}
+    return {"lesson_id":lesson_id,"questions":[item.public() for item in reassessment]}
 
 
 @router.post("/{lesson_id}/sessions/{session_id}/reassessment")
 def submit_reassessment(lesson_id:str,session_id:str,payload:AssessmentSubmission,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):
+    _,reassessment,_,_=assessment_or_404(lesson_id)
     session=session_or_404(lesson_id,session_id,db,user)
     if not (session.responses or {}).get("__repair__",{}).get("complete"):raise HTTPException(409,"Complete targeted repair first")
-    correct,reviewed,tags=_score_assessment(REASSESSMENT_BANK,payload.answers);ready=correct/3>=.8
+    correct,reviewed,tags=_score_assessment(reassessment,payload.answers);ready=correct/3>=.8
     updated=dict(session.responses or {});updated["__reassessment__"]={"correct":correct,"ready":ready,"tags":tags};session.responses=updated;db.add(session);db.commit()
     return {"questions_correct":correct,"total_questions":3,"score":round(correct/3*100),"ready":ready,"readiness_decision":"ready" if ready else "more_repair_required","diagnosis":tags,"worked_review":reviewed}

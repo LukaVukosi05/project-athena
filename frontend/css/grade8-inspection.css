@@ -1,0 +1,15 @@
+/* Grade 8 inspection models: the mathematical action remains inside the board. */
+.inspection-visual{display:grid;gap:1rem;min-width:0}
+.inspection-model{min-height:9rem;border:1px solid var(--border-color,#cedbe8);border-radius:1rem;padding:1rem;background:var(--surface,#f9fcff);display:grid;align-content:center;justify-items:center;overflow-x:auto;max-width:100%}
+.inspection-chain,.inspection-groups,.inspection-cards{display:flex;align-items:center;justify-content:center;gap:.65rem;flex-wrap:wrap;font-size:clamp(1rem,2.4vw,1.5rem)}
+.inspection-input,.inspection-output,.inspection-gate,.inspection-group,.inspection-cards span{padding:.4rem .7rem;border:2px solid #1b6793;border-radius:.65rem;background:#fff;color:#123b60}
+.inspection-gate{border-style:dashed;background:#dff3fa}
+.inspection-intermediate{margin-top:.5rem;text-align:center;color:#23516f}
+.inspection-line{width:min(100%,560px);height:auto;overflow:visible;color:#124d78}
+.inspection-line text{font-size:17px;fill:currentColor}
+.inspection-table{width:min(100%,480px);display:grid;border:1px solid #b4d1e3;border-radius:.7rem;overflow:hidden}
+.inspection-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;padding:.5rem .8rem;border-bottom:1px solid #cce0eb}
+.inspection-row:last-child{border-bottom:0}.inspection-row.is-active{background:#dff3fa}.inspection-head{background:#eaf2f8}
+.inspection-rectangle{width:min(65%,240px);aspect-ratio:2 / 1;border:3px solid #1b6793;background:#ddf2ff;display:flex;align-items:center;justify-content:space-between;padding:.8rem;gap:.5rem}
+.inspection-visual [data-object-id="context"]{max-width:100%}
+@media(max-width:600px){.inspection-model{min-height:7rem;padding:.65rem}.inspection-row{font-size:.9rem}.inspection-rectangle{width:85%}}

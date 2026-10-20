@@ -49,6 +49,7 @@ try {
   };
   const click=selector=>evaluate(`(()=>{const node=document.querySelector(${JSON.stringify(selector)});if(!node)throw Error('Missing ${selector}');node.click();return true})()`);
   const state=()=>evaluate(`(()=>{const board=document.querySelector('.stateful-whiteboard'),stage=document.querySelector('.whiteboard-stage');return {status:board?.dataset.controllerState,example:Number(document.querySelector('[data-example-index][aria-current="step"]')?.dataset.exampleIndex)+1,step:document.querySelector('[data-role="position"]')?.textContent,history:stage?.querySelectorAll('.g8-completed-steps li').length||0,text:stage?.innerText||'',missing:stage?.dataset.missingTargets||'',overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,stageOverflow:stage?.scrollWidth-stage?.clientWidth||0,primary:document.querySelector('[data-action="primary"]')?.textContent};})()`);
+  const layout=()=>evaluate(`(()=>{const stage=document.querySelector('.whiteboard-stage'),visual=stage?.querySelector('.whiteboard-visual-pane'),written=stage?.querySelector('.g8-completed-steps');if(!stage||!visual||!written)return null;const a=visual.getBoundingClientRect(),b=written.getBoundingClientRect();return {mode:stage.dataset.layout,visual:{left:a.left,right:a.right,top:a.top,bottom:a.bottom},written:{left:b.left,top:b.top},latestVisible:written.scrollTop+written.clientHeight>=written.scrollHeight-3};})()`);
   async function shot(name) {
     const data=(await cdp.send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false})).data;
     writeFileSync(path.join(output,name),Buffer.from(data,"base64"));
@@ -65,6 +66,11 @@ try {
   const results=[];
   for (let number=1; number<=15; number++) {
     await navigate(number);
+    if (number===1) {
+      const desktop=await layout();
+      if (desktop?.mode!=="split" || desktop.visual.right>desktop.written.left+2 || Math.abs(desktop.visual.top-desktop.written.top)>20)
+        throw Error(`The active visual and written solution are not side by side: ${JSON.stringify(desktop)}`);
+    }
     await settings("reduced-motion",true);
     const data=await payload(number), steps=data.whiteboard.steps;
     const initial=await state();
@@ -80,6 +86,8 @@ try {
         throw Error(`Example ${number}: previous mathematics disappeared on step ${index+1}`);
     }
     const final=await state();
+    const finalLayout=await layout();
+    if (!finalLayout?.latestVisible) throw Error(`Example ${number}: latest written step is out of view`);
     if (final.missing || final.overflow>1 || final.stageOverflow>1) throw Error(`Example ${number}: missing targets or overflow`);
     results.push({example:number,steps:steps.length,retainedHistory:final.history});
     if ([1,8,15].includes(number)) await shot(`example-${String(number).padStart(2,"0")}-final.png`);
@@ -108,6 +116,9 @@ try {
   if ((await state()).status==="playing") throw Error("Switching examples left stale narration playing");
 
   await navigate(5,390,844);
+  const mobileLayout=await layout();
+  if (mobileLayout?.mode!=="split" || mobileLayout.visual.bottom>mobileLayout.written.top+2)
+    throw Error(`Mobile visual and solution do not stack in reading order: ${JSON.stringify(mobileLayout)}`);
   await shot("mobile-example-5.png");
   const mobile=await state();
   if (mobile.overflow>1 || mobile.stageOverflow>1) throw Error(`Mobile overflow: ${JSON.stringify(mobile)}`);

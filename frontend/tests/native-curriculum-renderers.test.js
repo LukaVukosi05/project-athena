@@ -20,7 +20,7 @@ test("data studio and geometry renderers use their current question parameters",
 
 test("Grade 8 equation families are native, question-specific and stateful",()=>{
  const registry=registryFor("algebra/grade8-equation-renderers.js"),templates=["equality_balance","additive_inverse","multiplicative_inverse","two_step_balance","variables_both_sides","context_to_equation","distributive_equation"];
- assert.deepEqual([...registry.keys()].sort(),templates.map(name=>`algebra:${name}`).sort());
+ for(const template of templates)assert.ok(registry.has(`algebra:${template}`));
  for(const template of templates){
  const renderer=registry.get(`algebra:${template}`),parameters={prompt:`${template} question`,source_data:`${template} exact values`,question_id:"g8-ae-l01-w01"},initial=renderer.render(parameters,{objects:["stage-00"],highlights:[],annotations:["stage:0"]},"ready"),operation=renderer.render(parameters,{objects:["stage-00","stage-01"],highlights:["stage-01"],annotations:["stage:1"]},"operation"),result=renderer.render(parameters,{objects:["stage-00","stage-01","stage-02"],highlights:["stage-02"],annotations:["stage:2"]},"result");
   const state={objects:["problem","left-expression","right-expression","operation","result","verification"],highlights:["left-expression"],annotations:["stage:2","action:evaluate_expression","phase:operation"],target:"left-expression",before_state:"7 + 5 = 9 + 3",working_state:"7 + 5 → 12",after_state:"12 = 9 + 3"};

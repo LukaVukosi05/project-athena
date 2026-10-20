@@ -4,6 +4,7 @@ from app.curriculum.schemas import (
     AccessLevel, ContentStatus, GradeCurriculum, Lesson, LessonBlock, Subtopic, Topic,
 )
 from app.curriculum.grade8.lesson1_runtime import LESSON_1
+from app.curriculum.grade8.lesson2_runtime import LESSON_2
 
 SOURCE = "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
 SOURCE_SHA256 = "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574"
@@ -89,7 +90,7 @@ def _lesson(number: int, row: tuple[str, str, int, str, str, str]) -> Lesson:
 
 
 ALGEBRAIC_EQUATION_LESSONS = [
-    LESSON_1 if number == 1 else _lesson(number, row)
+    LESSON_1 if number == 1 else LESSON_2 if number == 2 else _lesson(number, row)
     for number, row in enumerate(LESSON_METADATA, 1)
 ]
 
