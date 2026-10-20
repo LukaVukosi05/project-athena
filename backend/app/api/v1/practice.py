@@ -11,12 +11,14 @@ from app.db.models.user import User
 from app.practice.schemas import AssessmentSubmission,PracticeAnswerRequest,PracticeBankResponse,PracticePublicQuestion,PracticeState
 from app.practice.service import blank_response,check_answer,mastery_summary,public_status
 from app.curriculum.grade8.assessment import MASTERY_BANK,MISCONCEPTION_REPAIRS,REASSESSMENT_BANK,REPAIR_RULES
-from app.curriculum.grade8 import assessment_lesson2
+from app.curriculum.grade8 import assessment_lesson2, assessment_lesson3
 
 ASSESSMENT_BANKS={
     "g8-algebraic-equations-01":(MASTERY_BANK,REASSESSMENT_BANK,MISCONCEPTION_REPAIRS,REPAIR_RULES),
     "g8-algebraic-equations-02":(assessment_lesson2.MASTERY_BANK,assessment_lesson2.REASSESSMENT_BANK,
                                   assessment_lesson2.MISCONCEPTION_REPAIRS,assessment_lesson2.REPAIR_RULES),
+    "g8-algebraic-equations-03":(assessment_lesson3.MASTERY_BANK,assessment_lesson3.REASSESSMENT_BANK,
+                                  assessment_lesson3.MISCONCEPTION_REPAIRS,assessment_lesson3.REPAIR_RULES),
 }
 
 def assessment_or_404(lesson_id):

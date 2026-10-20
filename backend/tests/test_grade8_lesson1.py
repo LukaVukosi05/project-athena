@@ -54,8 +54,8 @@ def test_runtime_matches_source_and_release_gate():
     grade = curriculum_repository.get_grade("grade-8")
     lessons = grade.topics[0].subtopics[0].lessons
     assert len(lessons) == 10
-    assert lessons[1].release_approved and lessons[1].status.value == "published"
-    assert all(not item.release_approved and item.status.value == "coming_soon" for item in lessons[2:])
+    assert all(item.release_approved and item.status.value == "published" for item in lessons[:3])
+    assert all(not item.release_approved and item.status.value == "coming_soon" for item in lessons[3:])
     assert not [failure for failure in validate_curriculum([grade]) if failure.lesson_id == LESSON_1.id]
 
 
@@ -331,7 +331,7 @@ def test_public_payload_gates_answers_and_direct_urls_restore():
     with TestClient(app) as client:
         payload = client.get("/api/v1/lessons/g8-algebraic-equations-01").json()
         topic_payload = client.get("/api/v1/curriculum/grades/grade-8/topics/algebraic-equations").json()
-        blocked = client.get("/api/v1/lessons/g8-algebraic-equations-03")
+        blocked = client.get("/api/v1/lessons/g8-algebraic-equations-04")
         revealed = client.post("/api/v1/lessons/g8-algebraic-equations-01/questions/g8-ae-l01-w01/reveal")
     assert payload["grade_id"] == "grade-8"
     assert payload["topic_id"] == "algebraic-equations"

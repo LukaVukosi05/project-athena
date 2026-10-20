@@ -101,6 +101,12 @@ def validate_curriculum(grades: list[GradeCurriculum]) -> list[ValidationFailure
                                 fail(*context, reason="release gate Lesson 2 assessment banks incomplete")
                             if not bank.MISCONCEPTION_REPAIRS:
                                 fail(*context, reason="release gate Lesson 2 has no targeted repair routes")
+                        if lesson.id == "g8-algebraic-equations-03":
+                            from app.curriculum.grade8 import assessment_lesson3 as bank
+                            if len(bank.PRACTICE_BANK) != 15 or len(bank.MASTERY_BANK) != 5 or len(bank.REASSESSMENT_BANK) != 3:
+                                fail(*context, reason="release gate Lesson 3 assessment banks incomplete")
+                            if not bank.MISCONCEPTION_REPAIRS:
+                                fail(*context, reason="release gate Lesson 3 has no targeted repair routes")
                     signatures: set[tuple[str, str, str, str]] = set()
                     for question in lesson.whiteboard_questions:
                         board = question.whiteboard

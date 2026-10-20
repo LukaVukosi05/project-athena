@@ -102,7 +102,7 @@ function registerTeachingOperation(operation) {
   }});
 }
 
-["equality_balance","additive_inverse","multiplicative_inverse","two_step_balance","variables_both_sides","context_to_equation","distributive_equation","inspection_fact_family","inspection_number_line","inspection_substitution_table","inspection_context"].forEach(template=>registerTeachingOperation(`${template}_step`));
+["equality_balance","additive_inverse","multiplicative_inverse","two_step_balance","variables_both_sides","context_to_equation","distributive_equation","inspection_fact_family","inspection_number_line","inspection_substitution_table","inspection_context","additive_balance","additive_number_line","additive_context"].forEach(template=>registerTeachingOperation(`${template}_step`));
 
 ["identify_interval", "substitute_function_value", "calculate_average_rate", "interpret_rate", "read_problem", "select_method", "show_working", "verify_result"].forEach(registerTeachingOperation);
 

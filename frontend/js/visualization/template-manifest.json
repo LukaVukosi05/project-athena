@@ -1,5 +1,8 @@
 [
   "algebra:additive_inverse",
+  "algebra:additive_balance",
+  "algebra:additive_number_line",
+  "algebra:additive_context",
   "algebra:algebra_reasoning",
   "algebra:context_to_equation",
   "algebra:distributive_equation",

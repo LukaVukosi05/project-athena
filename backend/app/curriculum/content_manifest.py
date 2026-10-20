@@ -74,6 +74,14 @@ def release_gate_passes(lesson: Lesson) -> bool:
             and len(bank.REASSESSMENT_BANK) == contract.get("parallel_reassessment_count") == 3
             and bool(bank.MISCONCEPTION_REPAIRS)
         )
+    if lesson.id == "g8-algebraic-equations-03":
+        from app.curriculum.grade8.assessment_lesson3 import MASTERY_BANK, MISCONCEPTION_REPAIRS, PRACTICE_BANK, REASSESSMENT_BANK
+        return (
+            len(PRACTICE_BANK) == contract.get("practice_count") == 15
+            and len(MASTERY_BANK) == contract.get("mastery_question_count") == 5
+            and len(REASSESSMENT_BANK) == contract.get("parallel_reassessment_count") == 3
+            and bool(MISCONCEPTION_REPAIRS)
+        )
     return True
 
 SOURCE_INVENTORY = (

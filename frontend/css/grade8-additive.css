@@ -1,0 +1,15 @@
+.additive-visual { display: grid; gap: 1rem; min-width: 0; }
+.additive-model { border: 1px solid #b6cbd8; border-radius: 1rem; background: #f6fbff; padding: 1rem; min-height: 8rem; color: #113f60; }
+.additive-balance { display: grid; grid-template-columns: minmax(0,1fr) auto minmax(0,1fr); align-items: center; gap: .65rem; }
+.additive-pan { display: grid; gap: .4rem; text-align: center; overflow-wrap: anywhere; border-bottom: .35rem solid #2c7196; background: white; border-radius: .7rem; padding: .75rem .4rem; }
+.additive-pan strong { font-size: clamp(1rem,2vw,1.55rem); }
+.additive-pan span { color: #587688; font-size: .8rem; }
+.additive-balance-bar { font-size: 2rem; font-weight: 700; }
+.additive-pair { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; }
+.additive-pair span { border-radius: 2rem; background: #e3eef5; padding: .3rem .65rem; font-weight: 600; }
+.additive-pair.is-revealed span:first-child { background: #b5e8d7; }
+.additive-line { width: 100%; height: auto; max-height: 12rem; }
+.additive-context { display: grid; gap: .7rem; }
+.additive-thermometer,.additive-receipt { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-around; align-items: center; border-left: .45rem solid #29799b; padding: .7rem; background: white; }
+.additive-visual .g8-action-slot { min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 600px) { .additive-model { padding: .6rem; } .additive-balance { gap: .25rem; } .additive-pan { padding: .4rem .2rem; } .additive-thermometer,.additive-receipt { display: grid; } }

@@ -110,7 +110,7 @@ def _grade8_equation_visual(parameters: dict) -> None:
     for name in ("prompt", "source_data", "initial_state", "family", "question_id"):
         if not isinstance(parameters[name], str) or not parameters[name].strip():
             raise ValueError(f"Grade 8 equation {name} must be non-empty")
-    if not re.fullmatch(r"g8-ae-l0[12]-w\d{2}", parameters["question_id"]):
+    if not re.fullmatch(r"g8-ae-l(?:01|02|03)-w\d{2}", parameters["question_id"]):
         raise ValueError("Grade 8 equation question_id is invalid")
 
 def _semantic_workbench(parameters: dict) -> None:
@@ -215,6 +215,7 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
             "two_step_balance", "variables_both_sides", "context_to_equation",
             "distributive_equation", "inspection_fact_family", "inspection_number_line",
             "inspection_substitution_table", "inspection_context",
+            "additive_balance", "additive_number_line", "additive_context",
         )
     },
     ("geometry", "central_angle_theorem"): TemplateDefinition(frozenset({"central_angle"}), frozenset({"target"}), _bounded_number("central_angle", 0, 180), True),

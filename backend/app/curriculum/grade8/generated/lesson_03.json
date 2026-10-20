@@ -1,0 +1,905 @@
+{
+  "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
+  "source_sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
+  "id": "g8-algebraic-equations-03",
+  "title": "Additive inverse equations",
+  "estimated_minutes": 60,
+  "mastery_threshold": 0.8,
+  "objective": "Solve one-step equations by applying an additive inverse to both sides, represent each transformation on a balance or number line, and verify every solution in the original equation.",
+  "why_it_matters": "Additive inverse reasoning replaces the unreliable phrase move it across and change the sign. It gives learners a legal operation they can explain, animate and later extend to multi-step equations.",
+  "prerequisites": [
+    "Understand equality as a balance",
+    "Add and subtract positive and negative integers",
+    "Identify opposite numbers",
+    "Verify a value by substitution"
+  ],
+  "vocabulary": [
+    {
+      "term": "additive inverse",
+      "meaning": "A number that combines with another number to make zero."
+    },
+    {
+      "term": "opposite",
+      "meaning": "A number the same distance from zero but on the other side of zero."
+    },
+    {
+      "term": "isolate",
+      "meaning": "Leave the variable alone on one side of the equation."
+    },
+    {
+      "term": "equivalent equation",
+      "meaning": "An equation with the same solution as the original equation."
+    },
+    {
+      "term": "zero pair",
+      "meaning": "A positive and negative counter that cancel to zero."
+    }
+  ],
+  "concept_teaching": [
+    "The additive inverse of +a is -a, and the additive inverse of -a is +a.",
+    "Apply the same addition or subtraction to both complete sides of an equation.",
+    "The purpose of the inverse operation is to form a zero pair beside the variable.",
+    "Keep the original equation available for verification after the variable is isolated.",
+    "For decimal, fraction and contextual equations, the legal balance operation remains the same."
+  ],
+  "entry_diagnostic": {
+    "prompt": "Give the additive inverse of +7, -12 and 0.",
+    "answer": "-7, +12 and 0.",
+    "failure_route": "Review signed counters and opposite positions on a number line before solving equations."
+  },
+  "misconceptions": [
+    {
+      "tag": "change-side-change-sign",
+      "diagnosis": "The learner moves a term without showing a legal operation.",
+      "repair": "Keep the term stationary and write the inverse beneath both complete sides."
+    },
+    {
+      "tag": "one-side-operation",
+      "diagnosis": "The learner changes only one side.",
+      "repair": "Animate the balance tipping, reset it, and place the same counter change on both pans."
+    },
+    {
+      "tag": "wrong-inverse",
+      "diagnosis": "The learner adds when a positive constant must be removed or subtracts when a negative constant must be cancelled.",
+      "repair": "Build the constant with signed counters and select the counters required to form zero."
+    },
+    {
+      "tag": "integer-sign-error",
+      "diagnosis": "The learner mishandles subtraction or addition involving negative numbers.",
+      "repair": "Use number-line jumps and signed counters before simplifying the numeric side."
+    },
+    {
+      "tag": "variable-sign-ignored",
+      "diagnosis": "The learner treats -x as x.",
+      "repair": "Keep the negative sign attached to the variable tile and postpone division by -1 to a later lesson."
+    },
+    {
+      "tag": "verification-omitted",
+      "diagnosis": "The learner stops after isolating the variable.",
+      "repair": "Return to the original equation and compare the evaluated sides."
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "g8-ae-l03-w01",
+      "number": 1,
+      "prompt": "Solve x + 5 = 12 by applying an additive inverse.",
+      "difficulty": "foundation",
+      "cognitive_level": "knowledge",
+      "marks": 2,
+      "answer": "x = 7",
+      "memo": [
+        "1. Subtract 5 from both sides: x + 5 - 5 = 12 - 5.",
+        "2. The +5 and -5 form zero, so x = 7.",
+        "3. Check: 7 + 5 = 12."
+      ],
+      "misconception_tags": [
+        "change-side-change-sign",
+        "one-side-operation"
+      ],
+      "renderer": "algebra:additive_inverse",
+      "question_data": "left expression = x + 5; right value = 12; inverse operation = -5; solution = 7",
+      "initial_state": "Show one x tile and five positive counters balanced against twelve positive counters; hide the solution.",
+      "teaching_sequence": [
+        "1. Highlight the five counters attached to x.",
+        "2. Introduce five negative counters below both pans.",
+        "3. Place the negative counters on both pans simultaneously.",
+        "4. Pair the left positive and negative counters into five zero pairs.",
+        "5. Remove the zero pairs and count seven counters on the right.",
+        "6. Reveal x = 7 and substitute into the original balance."
+      ],
+      "verification": "The original left pan rebuilt as seven plus five contains twelve counters, equal to the right pan.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w02",
+      "number": 2,
+      "prompt": "Solve y - 4 = 9 using an additive inverse.",
+      "difficulty": "foundation",
+      "cognitive_level": "routine",
+      "marks": 2,
+      "answer": "y = 13",
+      "memo": [
+        "1. Add 4 to both sides: y - 4 + 4 = 9 + 4.",
+        "2. The -4 and +4 form zero, so y = 13.",
+        "3. Check: 13 - 4 = 9."
+      ],
+      "misconception_tags": [
+        "wrong-inverse",
+        "one-side-operation"
+      ],
+      "renderer": "algebra:additive_inverse",
+      "question_data": "left expression = y - 4; right value = 9; inverse operation = +4; solution = 13",
+      "initial_state": "Show y with four negative counters balanced against nine positive counters.",
+      "teaching_sequence": [
+        "1. Highlight the four negative counters beside y.",
+        "2. Select four positive counters as their additive inverses.",
+        "3. Add four positive counters to both pans.",
+        "4. Cancel four zero pairs on the left.",
+        "5. Combine nine and four as thirteen on the right.",
+        "6. Reveal y = 13 and verify in the original equation."
+      ],
+      "verification": "Thirteen with four removed leaves nine, matching the original right side.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w03",
+      "number": 3,
+      "prompt": "Solve a + 11 = 3.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 2,
+      "answer": "a = -8",
+      "memo": [
+        "1. Subtract 11 from both sides: a + 11 - 11 = 3 - 11.",
+        "2. Therefore a = -8.",
+        "3. Check: -8 + 11 = 3."
+      ],
+      "misconception_tags": [
+        "integer-sign-error",
+        "wrong-inverse"
+      ],
+      "renderer": "algebra:inspection_number_line",
+      "question_data": "start = 3; jump = -11; landing = -8; equation = a + 11 = 3",
+      "initial_state": "Show a number line from -10 to 12 with 3 highlighted and no jump drawn.",
+      "teaching_sequence": [
+        "1. Write -11 beneath both sides of the equation.",
+        "2. Cancel +11 and -11 beside a.",
+        "3. Start at 3 on the number line.",
+        "4. Animate eleven unit jumps left.",
+        "5. Land on -8 and label it a.",
+        "6. Verify by moving eleven units right from -8 to 3."
+      ],
+      "verification": "The verification jump shows -8 + 11 landing exactly on 3.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w04",
+      "number": 4,
+      "prompt": "Solve b - 7 = -2.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 2,
+      "answer": "b = 5",
+      "memo": [
+        "1. Add 7 to both sides: b - 7 + 7 = -2 + 7.",
+        "2. Therefore b = 5.",
+        "3. Check: 5 - 7 = -2."
+      ],
+      "misconception_tags": [
+        "integer-sign-error",
+        "wrong-inverse"
+      ],
+      "renderer": "algebra:inspection_number_line",
+      "question_data": "start = -2; jump = 7; landing = 5; equation = b - 7 = -2",
+      "initial_state": "Show -2 highlighted on a signed number line; keep the required reverse jump hidden.",
+      "teaching_sequence": [
+        "1. Add positive seven beneath both complete sides.",
+        "2. Cancel -7 and +7 beside b.",
+        "3. Begin at -2 on the numeric side.",
+        "4. Jump seven units right across zero.",
+        "5. Land on 5 and reveal b = 5.",
+        "6. Replay 5 - 7 to reach -2."
+      ],
+      "verification": "The original subtraction moves from 5 seven places left to -2.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w05",
+      "number": 5,
+      "prompt": "Solve m + 18 = -6 and verify the solution.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 3,
+      "answer": "m = -24",
+      "memo": [
+        "1. Subtract 18 from both sides: m + 18 - 18 = -6 - 18.",
+        "2. Simplify to m = -24.",
+        "3. Check: -24 + 18 = -6."
+      ],
+      "misconception_tags": [
+        "integer-sign-error",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:additive_inverse",
+      "question_data": "left expression = m + 18; right value = -6; inverse operation = -18; solution = -24",
+      "initial_state": "Show the symbolic equation above a signed-counter workspace; hide all inverse counters.",
+      "teaching_sequence": [
+        "1. Highlight positive eighteen as the attached constant.",
+        "2. Place negative eighteen beneath both equation sides.",
+        "3. Cancel the left zero pair.",
+        "4. Combine six negative counters with eighteen more negative counters.",
+        "5. Group the result as negative twenty-four.",
+        "6. Substitute -24 into the untouched original equation."
+      ],
+      "verification": "The original left side simplifies as -24 + 18 = -6.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w06",
+      "number": 6,
+      "prompt": "Solve n - 15 = -23 and verify the solution.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 3,
+      "answer": "n = -8",
+      "memo": [
+        "1. Add 15 to both sides: n - 15 + 15 = -23 + 15.",
+        "2. Simplify to n = -8.",
+        "3. Check: -8 - 15 = -23."
+      ],
+      "misconception_tags": [
+        "integer-sign-error",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:additive_inverse",
+      "question_data": "left expression = n - 15; right value = -23; inverse operation = +15; solution = -8",
+      "initial_state": "Show n with fifteen negative counters opposite twenty-three negative counters.",
+      "teaching_sequence": [
+        "1. Add fifteen positive counters to both pans.",
+        "2. Cancel fifteen left-side zero pairs.",
+        "3. Pair fifteen positive counters with fifteen of the twenty-three negative counters on the right.",
+        "4. Remove those right-side zero pairs.",
+        "5. Count eight remaining negative counters and reveal n = -8.",
+        "6. Rebuild -8 - 15 for verification."
+      ],
+      "verification": "Eight negative counters together with fifteen negative counters total twenty-three negative counters.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w07",
+      "number": 7,
+      "prompt": "A learner changes x - 9 = 14 into x = 14 - 9. Identify and repair the first error.",
+      "difficulty": "standard",
+      "cognitive_level": "complex",
+      "marks": 3,
+      "answer": "The learner used the wrong inverse; x = 23.",
+      "memo": [
+        "1. The attached constant is -9, so its additive inverse is +9.",
+        "2. Add 9 to both sides: x - 9 + 9 = 14 + 9.",
+        "3. Therefore x = 23; check: 23 - 9 = 14."
+      ],
+      "misconception_tags": [
+        "wrong-inverse",
+        "change-side-change-sign"
+      ],
+      "renderer": "algebra:additive_inverse",
+      "question_data": "original = x - 9 = 14; incorrect step = x = 14 - 9; correct operation = +9; solution = 23",
+      "initial_state": "Display the original equation and learner line without marking either line.",
+      "teaching_sequence": [
+        "1. Highlight the negative nine in the original equation.",
+        "2. Ask which number forms zero with negative nine.",
+        "3. Reveal positive nine and compare it with the learner's negative nine.",
+        "4. Cross out only the incorrect operation.",
+        "5. Add positive nine to both complete sides.",
+        "6. Reveal x = 23 and verify 23 - 9 = 14."
+      ],
+      "verification": "The corrected value makes the original equation true; the learner's value 5 does not.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w08",
+      "number": 8,
+      "prompt": "Solve 4 + p = -9. Explain why subtracting 4 from both sides is legal.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "p = -13",
+      "memo": [
+        "1. The order 4 + p is the same as p + 4 by the commutative property.",
+        "2. Subtract 4 from both sides: 4 + p - 4 = -9 - 4.",
+        "3. Therefore p = -13; check: 4 + (-13) = -9."
+      ],
+      "misconception_tags": [
+        "one-side-operation",
+        "integer-sign-error"
+      ],
+      "renderer": "algebra:additive_inverse",
+      "question_data": "left expression = 4 + p; right value = -9; inverse operation = -4; solution = -13; commutative reorder = p + 4",
+      "initial_state": "Show four positive counters before a p tile, balanced against nine negative counters.",
+      "teaching_sequence": [
+        "1. Swap the p tile and four counters without changing the total.",
+        "2. State that addition allows this reorder.",
+        "3. Add four negative counters to both pans.",
+        "4. Cancel four left-side zero pairs.",
+        "5. Combine the right counters as thirteen negatives.",
+        "6. Verify four plus negative thirteen equals negative nine."
+      ],
+      "verification": "The reordered and original left expressions both evaluate to -9 when p = -13.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w09",
+      "number": 9,
+      "prompt": "Solve q + 2.7 = 6.1.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "q = 3.4",
+      "memo": [
+        "1. Subtract 2.7 from both sides: q + 2.7 - 2.7 = 6.1 - 2.7.",
+        "2. Calculate 6.1 - 2.7 = 3.4.",
+        "3. Check: 3.4 + 2.7 = 6.1."
+      ],
+      "misconception_tags": [
+        "wrong-inverse",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:additive_inverse",
+      "question_data": "left expression = q + 2.7; right value = 6.1; inverse operation = -2.7; solution = 3.4; decimal scale = tenths",
+      "initial_state": "Show a q bar plus twenty-seven tenths balanced against sixty-one tenths.",
+      "teaching_sequence": [
+        "1. Rename 2.7 and 6.1 as twenty-seven and sixty-one tenths.",
+        "2. Remove twenty-seven tenths from both pans.",
+        "3. Cancel q's attached tenths.",
+        "4. Count thirty-four tenths remaining on the right.",
+        "5. Regroup thirty-four tenths as 3.4.",
+        "6. Check 3.4 + 2.7 on the same tenths model."
+      ],
+      "verification": "Thirty-four tenths plus twenty-seven tenths equals sixty-one tenths.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w10",
+      "number": 10,
+      "prompt": "Solve r - 3/4 = 2 1/2.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "r = 3 1/4",
+      "memo": [
+        "1. Add 3/4 to both sides: r - 3/4 + 3/4 = 2 1/2 + 3/4.",
+        "2. Write 2 1/2 as 2 2/4, then add 3/4 to get 3 1/4.",
+        "3. Check: 3 1/4 - 3/4 = 2 1/2."
+      ],
+      "misconception_tags": [
+        "wrong-inverse",
+        "integer-sign-error"
+      ],
+      "renderer": "algebra:additive_inverse",
+      "question_data": "left expression = r - 3/4; right value = 2 1/2; inverse operation = +3/4; solution = 3 1/4; fraction partition = 4",
+      "initial_state": "Show r with three quarter-pieces removed, balanced against two wholes and one half.",
+      "teaching_sequence": [
+        "1. Add three quarter-pieces to both pans.",
+        "2. Cancel the removed and added quarters beside r.",
+        "3. Repartition the right-side half into two quarters.",
+        "4. Combine two quarters and three quarters as five quarters.",
+        "5. Regroup five quarters as one whole and one quarter.",
+        "6. Reveal r = 3 1/4 and verify with the original fraction model."
+      ],
+      "verification": "Removing three quarters from 3 1/4 leaves exactly 2 1/2.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w11",
+      "number": 11,
+      "prompt": "Solve -x + 6 = 14 without losing the negative sign on x.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 4,
+      "answer": "x = -8",
+      "memo": [
+        "1. Subtract 6 from both sides: -x + 6 - 6 = 14 - 6.",
+        "2. This gives -x = 8.",
+        "3. The number whose opposite is 8 is x = -8.",
+        "4. Check: -(-8) + 6 = 8 + 6 = 14."
+      ],
+      "misconception_tags": [
+        "variable-sign-ignored",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:additive_inverse",
+      "question_data": "left expression = -x + 6; right value = 14; inverse operation = -6; intermediate = -x = 8; solution = -8",
+      "initial_state": "Show a negative x tile with six positive counters balanced against fourteen counters.",
+      "teaching_sequence": [
+        "1. Keep the negative sign attached to the x tile.",
+        "2. Remove six positive counters from both pans.",
+        "3. Reveal the intermediate balance -x = 8.",
+        "4. Flip both sides' signs to identify x as -8.",
+        "5. Substitute -8 while preserving the outer negative sign.",
+        "6. Simplify -(-8) + 6 to fourteen."
+      ],
+      "verification": "The original left side becomes 8 + 6 = 14, equal to the original right side.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w12",
+      "number": 12,
+      "prompt": "The temperature was t degrees Celsius. It fell by 13 degrees and became -4 degrees Celsius. Form and solve an equation.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "t = 9 degrees Celsius",
+      "memo": [
+        "1. A fall of 13 gives t - 13 = -4.",
+        "2. Add 13 to both sides: t = -4 + 13.",
+        "3. Therefore t = 9 degrees Celsius.",
+        "4. Check: 9 - 13 = -4."
+      ],
+      "misconception_tags": [
+        "wrong-inverse",
+        "integer-sign-error"
+      ],
+      "renderer": "algebra:inspection_context",
+      "question_data": "context = temperature; initial = t; change = -13; final = -4; solution = 9; unit = degrees Celsius",
+      "initial_state": "Show a thermometer ending at -4 with a thirteen-degree downward arrow whose starting point is hidden.",
+      "teaching_sequence": [
+        "1. Translate the fall into t - 13 = -4.",
+        "2. Reverse the fall by drawing a thirteen-degree upward arrow from -4.",
+        "3. Cross zero and land on 9.",
+        "4. Label the starting temperature t = 9 degrees Celsius.",
+        "5. Replay the original thirteen-degree fall.",
+        "6. Confirm the thermometer returns to -4."
+      ],
+      "verification": "The animated fall from 9 by thirteen degrees ends at -4.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w13",
+      "number": 13,
+      "prompt": "After a R35 delivery charge was added, an order cost R284. Form an equation and find the price before delivery.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 5,
+      "answer": "R249",
+      "memo": [
+        "1. Let the price before delivery be p rand, so p + 35 = 284.",
+        "2. Subtract 35 from both sides: p = 284 - 35.",
+        "3. Therefore p = R249.",
+        "4. Check: R249 + R35 = R284."
+      ],
+      "misconception_tags": [
+        "change-side-change-sign",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:inspection_context",
+      "question_data": "context = order total; unknown subtotal = p; delivery fee = 35; total = 284; solution = 249; unit = rand",
+      "initial_state": "Show a receipt with hidden subtotal, R35 delivery and R284 total; hide the equation.",
+      "teaching_sequence": [
+        "1. Map the receipt rows to p + 35 = 284.",
+        "2. Highlight the delivery fee as the attached constant.",
+        "3. Subtract R35 from both receipt totals simultaneously.",
+        "4. Cancel the delivery row on the left representation.",
+        "5. Calculate the remaining subtotal as R249.",
+        "6. Rebuild the receipt to verify R284."
+      ],
+      "verification": "The receipt recomputes R249 + R35 as R284.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w14",
+      "number": 14,
+      "prompt": "Solve z - (-6) = -10 and explain the double sign.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 6,
+      "answer": "z = -16",
+      "memo": [
+        "1. Subtracting -6 is equivalent to adding 6, so z + 6 = -10.",
+        "2. Subtract 6 from both sides: z = -16.",
+        "3. Check: -16 - (-6) = -16 + 6 = -10."
+      ],
+      "misconception_tags": [
+        "integer-sign-error",
+        "wrong-inverse"
+      ],
+      "renderer": "algebra:additive_inverse",
+      "question_data": "original = z - (-6) = -10; equivalent = z + 6 = -10; inverse operation = -6; solution = -16",
+      "initial_state": "Show z and a remove-negative-six action beside ten negative counters; keep the equivalent addition hidden.",
+      "teaching_sequence": [
+        "1. Represent negative six with six negative counters.",
+        "2. Animate removing those negative counters.",
+        "3. Show that removal of negatives has the same effect as adding six positives.",
+        "4. Rewrite the visible state as z + 6 = -10.",
+        "5. Subtract six from both sides to reveal z = -16.",
+        "6. Verify by removing six negative counters from sixteen negative counters."
+      ],
+      "verification": "Removing six negatives from -16 leaves -10, matching the original equation.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l03-w15",
+      "number": 15,
+      "prompt": "A learner solves x + c = d by writing x = d - c. Explain when this shortcut is valid and demonstrate it for x + (-7) = 5.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 6,
+      "answer": "The shortcut represents subtracting c from both sides; for c = -7, x = 12.",
+      "memo": [
+        "1. The shortcut is valid only when it represents subtracting the same c from both sides.",
+        "2. For x + (-7) = 5, subtract -7 from both sides.",
+        "3. Subtracting -7 is adding 7, so x = 5 + 7 = 12.",
+        "4. Check: 12 + (-7) = 5."
+      ],
+      "misconception_tags": [
+        "change-side-change-sign",
+        "integer-sign-error"
+      ],
+      "renderer": "algebra:additive_inverse",
+      "question_data": "general equation = x + c = d; legal operation = subtract c from both sides; example = x + (-7) = 5; inverse operation = -(-7); solution = 12",
+      "initial_state": "Show the general equation and the claimed shortcut on separate rows with no equivalence arrow.",
+      "teaching_sequence": [
+        "1. Write -c beneath both sides of x + c = d.",
+        "2. Cancel c and -c as a zero pair.",
+        "3. Reveal x = d - c and connect it to the legal operation.",
+        "4. Substitute c = -7 and d = 5.",
+        "5. Simplify 5 - (-7) as 5 + 7.",
+        "6. Reveal x = 12 and verify in the original example."
+      ],
+      "verification": "The general transformation shows the same operation on both sides, and 12 + (-7) equals 5.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous/Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    }
+  ],
+  "practice_questions": [
+    {
+      "id": "g8-ae-l03-p01",
+      "number": 1,
+      "prompt": "Solve x + 8 = 19 using an additive inverse.",
+      "marks": 2,
+      "answer": "x = 11",
+      "solution": [
+        "1. Subtract 8 from both sides.",
+        "2. x = 11.",
+        "3. Check: 11 + 8 = 19."
+      ],
+      "misconception_tags": [
+        "change-side-change-sign"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p02",
+      "number": 2,
+      "prompt": "Solve y - 6 = 17.",
+      "marks": 2,
+      "answer": "y = 23",
+      "solution": [
+        "1. Add 6 to both sides.",
+        "2. y = 23.",
+        "3. Check: 23 - 6 = 17."
+      ],
+      "misconception_tags": [
+        "wrong-inverse"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p03",
+      "number": 3,
+      "prompt": "Solve a + 14 = 5.",
+      "marks": 2,
+      "answer": "a = -9",
+      "solution": [
+        "1. Subtract 14 from both sides.",
+        "2. a = 5 - 14 = -9.",
+        "3. Check: -9 + 14 = 5."
+      ],
+      "misconception_tags": [
+        "integer-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p04",
+      "number": 4,
+      "prompt": "Solve b - 9 = -3.",
+      "marks": 2,
+      "answer": "b = 6",
+      "solution": [
+        "1. Add 9 to both sides.",
+        "2. b = -3 + 9 = 6.",
+        "3. Check: 6 - 9 = -3."
+      ],
+      "misconception_tags": [
+        "integer-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p05",
+      "number": 5,
+      "prompt": "Solve m + 21 = -8.",
+      "marks": 3,
+      "answer": "m = -29",
+      "solution": [
+        "1. Subtract 21 from both sides.",
+        "2. m = -8 - 21 = -29.",
+        "3. Check: -29 + 21 = -8."
+      ],
+      "misconception_tags": [
+        "integer-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p06",
+      "number": 6,
+      "prompt": "Solve n - 18 = -25.",
+      "marks": 3,
+      "answer": "n = -7",
+      "solution": [
+        "1. Add 18 to both sides.",
+        "2. n = -25 + 18 = -7.",
+        "3. Check: -7 - 18 = -25."
+      ],
+      "misconception_tags": [
+        "integer-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p07",
+      "number": 7,
+      "prompt": "Repair the error: x - 12 = 20, therefore x = 20 - 12.",
+      "marks": 3,
+      "answer": "The inverse must be +12; x = 32.",
+      "solution": [
+        "1. Add 12 to both sides.",
+        "2. x = 32.",
+        "3. Check: 32 - 12 = 20."
+      ],
+      "misconception_tags": [
+        "wrong-inverse",
+        "change-side-change-sign"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p08",
+      "number": 8,
+      "prompt": "Solve 5 + p = -12.",
+      "marks": 3,
+      "answer": "p = -17",
+      "solution": [
+        "1. Subtract 5 from both sides.",
+        "2. p = -17.",
+        "3. Check: 5 + (-17) = -12."
+      ],
+      "misconception_tags": [
+        "integer-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p09",
+      "number": 9,
+      "prompt": "Solve q + 4.8 = 9.3.",
+      "marks": 4,
+      "answer": "q = 4.5",
+      "solution": [
+        "1. Subtract 4.8 from both sides.",
+        "2. q = 9.3 - 4.8 = 4.5.",
+        "3. Check: 4.5 + 4.8 = 9.3."
+      ],
+      "misconception_tags": [
+        "wrong-inverse"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p10",
+      "number": 10,
+      "prompt": "Solve r - 2/3 = 1 1/6.",
+      "marks": 4,
+      "answer": "r = 1 5/6",
+      "solution": [
+        "1. Add 2/3 to both sides.",
+        "2. Use sixths: 1 1/6 + 4/6 = 1 5/6.",
+        "3. Check: 1 5/6 - 2/3 = 1 1/6."
+      ],
+      "misconception_tags": [
+        "integer-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p11",
+      "number": 11,
+      "prompt": "Solve -x + 9 = 16.",
+      "marks": 4,
+      "answer": "x = -7",
+      "solution": [
+        "1. Subtract 9 from both sides to get -x = 7.",
+        "2. Therefore x = -7.",
+        "3. Check: -(-7) + 9 = 16."
+      ],
+      "misconception_tags": [
+        "variable-sign-ignored"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p12",
+      "number": 12,
+      "prompt": "A temperature fell by 17 degrees and became -6 degrees Celsius. Find the starting temperature.",
+      "marks": 5,
+      "answer": "11 degrees Celsius",
+      "solution": [
+        "1. Let the start be t: t - 17 = -6.",
+        "2. Add 17 to both sides: t = 11.",
+        "3. Check: 11 - 17 = -6."
+      ],
+      "misconception_tags": [
+        "integer-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p13",
+      "number": 13,
+      "prompt": "A R49 service fee increased a bill to R326. Find the bill before the fee.",
+      "marks": 5,
+      "answer": "R277",
+      "solution": [
+        "1. Let the original bill be b: b + 49 = 326.",
+        "2. Subtract 49 from both sides: b = 277.",
+        "3. Check: 277 + 49 = 326."
+      ],
+      "misconception_tags": [
+        "verification-omitted"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p14",
+      "number": 14,
+      "prompt": "Solve z - (-9) = -4.",
+      "marks": 5,
+      "answer": "z = -13",
+      "solution": [
+        "1. Rewrite as z + 9 = -4.",
+        "2. Subtract 9 from both sides: z = -13.",
+        "3. Check: -13 - (-9) = -4."
+      ],
+      "misconception_tags": [
+        "integer-sign-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l03-p15",
+      "number": 15,
+      "prompt": "Explain why x = d - c follows from x + c = d, then solve x + (-12) = 7.",
+      "marks": 6,
+      "answer": "Subtract c from both sides; x = 19.",
+      "solution": [
+        "1. Subtract c from both complete sides to isolate x.",
+        "2. Here c = -12, so x = 7 - (-12).",
+        "3. Therefore x = 19; check: 19 + (-12) = 7."
+      ],
+      "misconception_tags": [
+        "change-side-change-sign",
+        "integer-sign-error"
+      ]
+    }
+  ],
+  "mastery_questions": [
+    {
+      "id": "g8-ae-l03-m01",
+      "number": 1,
+      "prompt": "Solve k + 13 = 21.",
+      "marks": 2,
+      "answer": "k = 8",
+      "solution": [
+        "1. Subtract 13 from both sides.",
+        "2. k = 8.",
+        "3. Check: 8 + 13 = 21."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l03-m02",
+      "number": 2,
+      "prompt": "Solve t - 16 = -5.",
+      "marks": 3,
+      "answer": "t = 11",
+      "solution": [
+        "1. Add 16 to both sides.",
+        "2. t = 11.",
+        "3. Check: 11 - 16 = -5."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l03-m03",
+      "number": 3,
+      "prompt": "Solve v + 9 = -14.",
+      "marks": 3,
+      "answer": "v = -23",
+      "solution": [
+        "1. Subtract 9 from both sides.",
+        "2. v = -23.",
+        "3. Check: -23 + 9 = -14."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l03-m04",
+      "number": 4,
+      "prompt": "Find and repair the error: p - 8 = 15, so p = 15 - 8.",
+      "marks": 4,
+      "answer": "The wrong inverse was used; p = 23.",
+      "solution": [
+        "1. Add 8 to both sides.",
+        "2. p = 23.",
+        "3. Check: 23 - 8 = 15."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l03-m05",
+      "number": 5,
+      "prompt": "After a R27 fee was added, a payment was R145. Find the payment before the fee.",
+      "marks": 5,
+      "answer": "R118",
+      "solution": [
+        "1. Let the original payment be p: p + 27 = 145.",
+        "2. Subtract 27 from both sides: p = 118.",
+        "3. Check: 118 + 27 = 145."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "repair_rules": [
+    "Incorrect M1: Replay worked example 1 with balance counters, then administer R1.",
+    "Incorrect M2: Replay worked examples 2 and 4 with positive counters added to both sides, then administer R1.",
+    "Incorrect M3: Replay worked examples 3 and 5 on the signed number line, then administer R2.",
+    "Incorrect M4: Replay worked example 7 and require the inverse operation to be written under both sides, then administer R2.",
+    "Incorrect M5: Replay worked example 13 from receipt to equation to verification, then administer R3.",
+    "Score below 80%: Reteach the two most frequent misconception tags and administer all three parallel questions."
+  ],
+  "reassessment_questions": [
+    {
+      "id": "g8-ae-l03-r01",
+      "number": 1,
+      "prompt": "Solve h - 11 = -7.",
+      "marks": 3,
+      "answer": "h = 4",
+      "solution": [
+        "1. Add 11 to both sides.",
+        "2. h = 4.",
+        "3. Check: 4 - 11 = -7."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l03-r02",
+      "number": 2,
+      "prompt": "Solve j + 17 = -2.",
+      "marks": 3,
+      "answer": "j = -19",
+      "solution": [
+        "1. Subtract 17 from both sides.",
+        "2. j = -19.",
+        "3. Check: -19 + 17 = -2."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l03-r03",
+      "number": 3,
+      "prompt": "A R32 booking fee increased a total to R210. Find the amount before the fee.",
+      "marks": 5,
+      "answer": "R178",
+      "solution": [
+        "1. Let the original amount be a: a + 32 = 210.",
+        "2. Subtract 32 from both sides: a = 178.",
+        "3. Check: 178 + 32 = 210."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "summary": [
+    "An additive inverse forms zero with the attached constant.",
+    "The same legal operation must be applied to both complete sides.",
+    "Signed counters and number lines make negative-number simplification visible.",
+    "Move it and change the sign is accepted only when rewritten as a valid operation on both sides.",
+    "Every solution must be checked in the original equation."
+  ]
+}

@@ -1,6 +1,22 @@
 const assert=require("assert"),fs=require("fs"),vm=require("vm"),path=require("path");
 vm.runInThisContext(fs.readFileSync(path.join(__dirname,"../js/whiteboard/animation-registry.js"),"utf8"));
 
+for (const template of ["additive_balance", "additive_number_line", "additive_context"]) {
+  const operation = `${template}_step`;
+  const renderer = AthenaWhiteboardRegistry.resolve(operation);
+  const step = {
+    before_expression: "x + 3 = 8",
+    working_expression: "x + 3 − 3 = 8 − 3",
+    after_expression: "x = 5",
+    operation: {type: operation, value: "Subtract three from both sides"},
+  };
+  assert.strictEqual(renderer.render(step, "ready", {hasVisualization: true}), "");
+  const plain = markup => markup.replace(/<[^>]+>/g, "").replace(/\s+/g, " ");
+  assert(plain(renderer.render(step, "operation", {history: []})).includes("x + 3 − 3"));
+  const result = renderer.render(step, "result", {history: []});
+  assert(result.includes('math-expression--result') && plain(result).includes("5"));
+}
+
 const step={
   before_expression:"2x − 8 = 10",
   working_expression:"2x − 8 + 8 = 10 + 8",
