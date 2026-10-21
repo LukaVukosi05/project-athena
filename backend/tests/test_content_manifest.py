@@ -87,14 +87,14 @@ def test_grade8_gold_pack_catalogue_exposes_released_lessons():
     assert grade.status_code == 200
     topic_summary = grade.json()["topics"][0]
     assert topic_summary["lesson_count"] == 10
-    assert topic_summary["interactive_lesson_count"] == 8
-    assert topic_summary["published_interactive_lesson_count"] == 8
+    assert topic_summary["interactive_lesson_count"] == 10
+    assert topic_summary["published_interactive_lesson_count"] == 10
     assert topic_summary["availability"] == "available"
     lessons = topic.json()["subtopics"][0]["lessons"]
     assert [item["id"] for item in lessons] == [f"g8-algebraic-equations-{number:02}" for number in range(1, 11)]
     assert lessons[0]["readiness"] == "published" and lessons[0]["usable"]
-    assert all(item["readiness"] == "published" and item["usable"] for item in lessons[:8])
-    assert all(item["readiness"] == "authored" and not item["usable"] for item in lessons[8:])
+    assert all(item["readiness"] == "published" and item["usable"] for item in lessons[:10])
+    assert all(item["readiness"] == "authored" and not item["usable"] for item in lessons[10:])
     assert all(item["worked_example_count"] == 15 for item in lessons)
     assert all(item["practice_count"] == 15 for item in lessons)
     assert lesson.status_code == 200

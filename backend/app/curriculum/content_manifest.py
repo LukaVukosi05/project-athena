@@ -74,7 +74,7 @@ def release_gate_passes(lesson: Lesson) -> bool:
             and len(bank.REASSESSMENT_BANK) == contract.get("parallel_reassessment_count") == 3
             and bool(bank.MISCONCEPTION_REPAIRS)
         )
-    if lesson.id in {"g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08"}:
+    if lesson.id in {"g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
         if lesson.id.endswith("-03"):
             from app.curriculum.grade8 import assessment_lesson3 as bank
         elif lesson.id.endswith("-04"):
@@ -85,8 +85,12 @@ def release_gate_passes(lesson: Lesson) -> bool:
             from app.curriculum.grade8 import assessment_lesson6 as bank
         elif lesson.id.endswith("-07"):
             from app.curriculum.grade8 import assessment_lesson7 as bank
-        else:
+        elif lesson.id.endswith("-08"):
             from app.curriculum.grade8 import assessment_lesson8 as bank
+        elif lesson.id.endswith("-09"):
+            from app.curriculum.grade8 import assessment_lesson9 as bank
+        else:
+            from app.curriculum.grade8 import assessment_lesson10 as bank
         return (
             len(bank.PRACTICE_BANK) == contract.get("practice_count") == 15
             and len(bank.MASTERY_BANK) == contract.get("mastery_question_count") == 5
@@ -105,8 +109,8 @@ SOURCE_INVENTORY = (
         "fully_authored_lessons": 10,
         "reference_questions": "15 worked examples, 15 independent questions, 5 mastery questions and 3 parallel reassessments per lesson",
         "whiteboard_specifications": "Question-specific algebra renderers and deterministic teaching sequences for every worked example",
-        "missing_content": "Runtime question conversion, renderer implementation and independent validation remain.",
-        "implementation_status": "catalogue_integrated_runtime_conversion_pending",
+        "missing_content": "Independent human acceptance and browser validation remain.",
+        "implementation_status": "runtime_integrated_teacher_review_required",
     },
     {
         "document": "Project_Athena_Grades_8_9_Master_Education_Pack.docx",

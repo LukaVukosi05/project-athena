@@ -1,6 +1,7 @@
 """Lesson content endpoint with server-side entitlement enforcement."""
 
 from fastapi import APIRouter, Depends, HTTPException
+from pydantic import BaseModel, Field
 
 from app.core.security import get_optional_user
 from app.curriculum.repository import curriculum_repository as repository
@@ -32,7 +33,10 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
         question.pop("full_memo", None)
         question.pop("expected_evidence", None)
         if grade.id == "grade-8":
+            question["total_step_count"] = len(question["whiteboard"]["steps"])
             question["solution_gated"] = True
+            if lesson.id == "g8-algebraic-equations-10":
+                question["diagnostic_submission_required"] = True
             question["whiteboard"]["steps"] = question["whiteboard"]["steps"][:1]
             if lesson.id == "g8-algebraic-equations-02":
                 preview = question["whiteboard"]["steps"][0]
@@ -58,7 +62,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                         field for field in source_data.split("; ")
                         if field.partition("=")[0].strip() not in concealed
                     )
-            if lesson.id in {"g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08"}:
+            if lesson.id in {"g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
                 preview = question["whiteboard"]["steps"][0]
                 preview["working_expression"] = preview["before_expression"]
                 preview["after_expression"] = preview["before_expression"]
@@ -75,7 +79,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                 source = question["whiteboard"]["visualization"]["parameters"].get("source_data", "")
                 question["whiteboard"]["visualization"]["parameters"]["source_data"] = "; ".join(
                     field for field in source.split("; ")
-                    if not field.partition("=")[0].strip().startswith(("solution", "unit value", "whole litres", "landing", "intermediate", "reverse operations", "reverse rule", "signed distance", "difference", "condition", "break even input", "meeting week", "common length", "classification", "equal cost", "meeting amount", "test values", "expanded", "divide first state", "partial products", "correct products", "restriction", "lcd", "scaled terms", "cleared equation", "correct cleared"))
+                    if not field.partition("=")[0].strip().replace("_", " ").startswith(("solution", "equation", "correct", "first error", "reduced statement", "final prices", "dimensions", "equal cost", "unit value", "whole litres", "landing", "intermediate", "reverse operations", "reverse rule", "signed distance", "difference", "condition", "break even input", "meeting week", "common length", "classification", "learner conclusion", "repair", "meeting amount", "test values", "expanded", "divide first state", "partial products", "restriction", "lcd", "scaled terms", "cleared equation"))
                 )
             question["whiteboard"]["semantic_objects"] = [
                 item for item in question["whiteboard"]["semantic_objects"]
@@ -108,12 +112,35 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
 @router.post("/{lesson_id}/questions/{question_id}/reveal")
 def reveal_worked_example(lesson_id: str, question_id: str, user: User | None = Depends(get_optional_user)) -> dict:
     grade, _, _, lesson = _lesson_context(lesson_id)
-    if grade.id != "grade-8" or lesson.id not in {"g8-algebraic-equations-01", "g8-algebraic-equations-02", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08"}:
+    if grade.id != "grade-8" or lesson.id not in {"g8-algebraic-equations-01", "g8-algebraic-equations-02", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
         raise HTTPException(status_code=404, detail="Worked example not found")
     enforce_lesson_access(lesson, user)
+    if lesson.id == "g8-algebraic-equations-10":
+        raise HTTPException(status_code=409, detail="Submit your first-error diagnosis before viewing the worked repair")
     question = next((item for item in lesson.whiteboard_questions if item.id == question_id), None)
     if question is None:
         raise HTTPException(status_code=404, detail="Worked example not found")
     # This explicit learner action is the solution gate. It returns only the
     # requested worked example and never exposes assessment answer keys.
+    return question.model_dump()
+
+
+class DiagnosticAttempt(BaseModel):
+    first_error_and_repair: str = Field(min_length=3, max_length=500)
+
+
+@router.post("/{lesson_id}/questions/{question_id}/diagnose")
+def diagnose_worked_example(lesson_id: str, question_id: str, attempt: DiagnosticAttempt,
+                            user: User | None = Depends(get_optional_user)) -> dict:
+    grade, _, _, lesson = _lesson_context(lesson_id)
+    if grade.id != "grade-8" or lesson.id != "g8-algebraic-equations-10":
+        raise HTTPException(status_code=404, detail="Diagnostic case not found")
+    enforce_lesson_access(lesson, user)
+    if not attempt.first_error_and_repair.strip():
+        raise HTTPException(status_code=422, detail="Describe the first error and your repair")
+    question = next((item for item in lesson.whiteboard_questions if item.id == question_id), None)
+    if question is None:
+        raise HTTPException(status_code=404, detail="Diagnostic case not found")
+    # Submission precedes the authored explanation; this is an attempt gate,
+    # not automated grading of mathematical prose.
     return question.model_dump()

@@ -11,7 +11,7 @@ from app.db.models.user import User
 from app.practice.schemas import AssessmentSubmission,PracticeAnswerRequest,PracticeBankResponse,PracticePublicQuestion,PracticeState
 from app.practice.service import blank_response,check_answer,mastery_summary,public_status
 from app.curriculum.grade8.assessment import MASTERY_BANK,MISCONCEPTION_REPAIRS,REASSESSMENT_BANK,REPAIR_RULES
-from app.curriculum.grade8 import assessment_lesson2, assessment_lesson3, assessment_lesson4, assessment_lesson5, assessment_lesson6, assessment_lesson7, assessment_lesson8
+from app.curriculum.grade8 import assessment_lesson2, assessment_lesson3, assessment_lesson4, assessment_lesson5, assessment_lesson6, assessment_lesson7, assessment_lesson8, assessment_lesson9, assessment_lesson10
 
 ASSESSMENT_BANKS={
     "g8-algebraic-equations-01":(MASTERY_BANK,REASSESSMENT_BANK,MISCONCEPTION_REPAIRS,REPAIR_RULES),
@@ -29,6 +29,10 @@ ASSESSMENT_BANKS={
                                   assessment_lesson7.MISCONCEPTION_REPAIRS,assessment_lesson7.REPAIR_RULES),
     "g8-algebraic-equations-08":(assessment_lesson8.MASTERY_BANK,assessment_lesson8.REASSESSMENT_BANK,
                                   assessment_lesson8.MISCONCEPTION_REPAIRS,assessment_lesson8.REPAIR_RULES),
+    "g8-algebraic-equations-09":(assessment_lesson9.MASTERY_BANK,assessment_lesson9.REASSESSMENT_BANK,
+                                  assessment_lesson9.MISCONCEPTION_REPAIRS,assessment_lesson9.REPAIR_RULES),
+    "g8-algebraic-equations-10":(assessment_lesson10.MASTERY_BANK,assessment_lesson10.REASSESSMENT_BANK,
+                                  assessment_lesson10.MISCONCEPTION_REPAIRS,assessment_lesson10.REPAIR_RULES),
 }
 
 def assessment_or_404(lesson_id):
@@ -97,7 +101,12 @@ def _score_assessment(bank, answers: dict[str, str]) -> tuple[int, list, list[st
     if set(answers) != expected:raise HTTPException(422,f"Answers must contain exactly: {', '.join(sorted(expected))}")
     reviewed=[];tags=[];correct=0
     for item in bank:
-        passed=_normalise_assessment(answers[item.id])==_normalise_assessment(item.answer)
+        # This item explicitly tests the fixed fee model AND verification.
+        # Its pack's short answer is a memo, not sufficient submission evidence.
+        accepted=([*getattr(item,"accepted_answers",[])]
+                  if item.id in {"g8-ae-l10-m05", "g8-ae-l10-r03"}
+                  else [item.answer,*getattr(item,"accepted_answers",[])])
+        passed=any(_normalise_assessment(answers[item.id]).rstrip(".")==_normalise_assessment(option).rstrip(".") for option in accepted)
         correct+=int(passed)
         if not passed:tags.extend(item.misconception_tags)
         reviewed.append({"id":item.id,"correct":passed,"answer":item.answer,"solution":item.solution,"verification":item.verification})
@@ -113,9 +122,12 @@ def get_mastery(lesson_id:str):
 @router.post("/{lesson_id}/sessions/{session_id}/mastery")
 def submit_mastery(lesson_id:str,session_id:str,payload:AssessmentSubmission,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):
     mastery,_,repairs,_=assessment_or_404(lesson_id)
-    session=session_or_404(lesson_id,session_id,db,user);correct,reviewed,tags=_score_assessment(mastery,payload.answers);mastered=correct>=4
-    updated=dict(session.responses or {});updated["__mastery__"]={"correct":correct,"mastered":mastered,"tags":tags};session.responses=updated;db.add(session);db.commit()
-    return {"questions_correct":correct,"total_questions":5,"score":correct*20,"mastered":mastered,"readiness_decision":"ready" if mastered else "targeted_repair_required","diagnosis":tags,"worked_review":reviewed,"repair_routes":[] if mastered else [{"tag":tag,**repairs[tag]} for tag in tags if tag in repairs]}
+    session=session_or_404(lesson_id,session_id,db,user);correct,reviewed,tags=_score_assessment(mastery,payload.answers)
+    context_verified=next((row["correct"] for row in reviewed if row["id"] == "g8-ae-l10-m05"),True)
+    mastered=correct>=4 and context_verified
+    decision=("ready" if mastered else "repeat_diagnostic_required" if lesson_id == "g8-algebraic-equations-10" and correct<=2 else "targeted_repair_required")
+    updated=dict(session.responses or {});updated["__mastery__"]={"correct":correct,"mastered":mastered,"tags":tags,"decision":decision,"context_verified":context_verified};session.responses=updated;db.add(session);db.commit()
+    return {"questions_correct":correct,"total_questions":5,"score":correct*20,"mastered":mastered,"readiness_decision":decision,"context_verified":context_verified,"diagnosis":tags,"worked_review":reviewed,"repair_routes":[] if mastered else [{"tag":tag,**repairs[tag]} for tag in tags if tag in repairs]}
 
 
 @router.get("/{lesson_id}/sessions/{session_id}/repair")
@@ -131,6 +143,8 @@ def get_repair(lesson_id:str,session_id:str,user:User|None=Depends(get_optional_
 def complete_repair(lesson_id:str,session_id:str,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):
     session=session_or_404(lesson_id,session_id,db,user);mastery=(session.responses or {}).get("__mastery__")
     if not mastery or mastery.get("mastered"):raise HTTPException(409,"Targeted repair is not required")
+    if lesson_id == "g8-algebraic-equations-10" and mastery.get("decision") == "repeat_diagnostic_required":
+        raise HTTPException(409,"Review prerequisites and use a fresh diagnostic form")
     updated=dict(session.responses or {});updated["__repair__"]={"complete":True,"tags":mastery.get("tags",[])};session.responses=updated;db.add(session);db.commit();return {"repair_complete":True,"reassessment_unlocked":True}
 
 
@@ -147,6 +161,13 @@ def submit_reassessment(lesson_id:str,session_id:str,payload:AssessmentSubmissio
     _,reassessment,_,_=assessment_or_404(lesson_id)
     session=session_or_404(lesson_id,session_id,db,user)
     if not (session.responses or {}).get("__repair__",{}).get("complete"):raise HTTPException(409,"Complete targeted repair first")
-    correct,reviewed,tags=_score_assessment(reassessment,payload.answers);ready=correct/3>=.8
+    correct,reviewed,tags=_score_assessment(reassessment,payload.answers)
+    mastery=(session.responses or {}).get("__mastery__",{})
+    if lesson_id == "g8-algebraic-equations-10":
+        essential={"distribution-error":"g8-ae-l10-r02","classification-error":"g8-ae-l10-r01","context-model-error":"g8-ae-l10-r03","fraction-structure-error":"g8-ae-l10-r03","inverse-direction":"g8-ae-l10-r01"}
+        failed_ids={row["id"] for row in reviewed if not row["correct"]}
+        repeated=any(essential.get(tag) in failed_ids for tag in mastery.get("tags",[]))
+        ready=correct==3 and not repeated and mastery.get("correct",0)>=4 and (mastery.get("context_verified",False) or "g8-ae-l10-r03" not in failed_ids)
+    else: ready=correct/3>=.8
     updated=dict(session.responses or {});updated["__reassessment__"]={"correct":correct,"ready":ready,"tags":tags};session.responses=updated;db.add(session);db.commit()
     return {"questions_correct":correct,"total_questions":3,"score":round(correct/3*100),"ready":ready,"readiness_decision":"ready" if ready else "more_repair_required","diagnosis":tags,"worked_review":reviewed}

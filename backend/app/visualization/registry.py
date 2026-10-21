@@ -23,7 +23,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = 600 if key in {"source_data", "initial_state"} and re.fullmatch(r"g8-ae-l0[1-8]-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -111,7 +111,7 @@ def _grade8_equation_visual(parameters: dict) -> None:
     for name in ("prompt", "source_data", "initial_state", "family", "question_id"):
         if not isinstance(parameters[name], str) or not parameters[name].strip():
             raise ValueError(f"Grade 8 equation {name} must be non-empty")
-    if not re.fullmatch(r"g8-ae-l(?:01|02|03|04|05|06|07|08)-w\d{2}", parameters["question_id"]):
+    if not re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", parameters["question_id"]):
         raise ValueError("Grade 8 equation question_id is invalid")
 
 def _semantic_workbench(parameters: dict) -> None:
@@ -223,6 +223,19 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
             "identity_contradiction", "dual_rate_timeline", "equal_sides_triangle",
             "bracket_balance_native", "bracket_distribution_native", "bracket_paths_native", "bracket_area_native", "bracket_rectangle_native",
             "fraction_bar_balance_native", "fraction_equivalence_native", "fraction_lcd_native", "fraction_error_native", "fraction_context_native",
+            "context_translation_strip_native", "number_relationship_native", "money_model_native", "perimeter_model_native", "sharing_bar_model_native", "age_timeline_native", "rate_table_native", "error_diagnosis_context_native",
+        )
+    },
+    **{
+        ("algebra", template): TemplateDefinition(
+            frozenset({"prompt", "source_data", "initial_state", "family", "question_id"}),
+            frozenset({"total_steps"}), _grade8_equation_visual, True,
+        ) for template in (
+            "diagnosis_first_error_replay_native", "diagnosis_balance_equation_native",
+            "diagnosis_signed_balance_native", "diagnosis_bracket_distribution_native",
+            "diagnosis_denominator_lcm_native", "diagnosis_error_diagnosis_context_native",
+            "diagnosis_perimeter_model_native", "diagnosis_identity_contradiction_native",
+            "diagnosis_rate_table_native", "diagnosis_mastery_map_native",
         )
     },
     ("geometry", "central_angle_theorem"): TemplateDefinition(frozenset({"central_angle"}), frozenset({"target"}), _bounded_number("central_angle", 0, 180), True),

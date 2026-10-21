@@ -77,7 +77,10 @@ app.include_router(practice_router, prefix="/api/v1/practice", tags=["practice"]
 async def disable_development_asset_cache(request, call_next):
     """Prevent stale prototype assets from hiding curriculum changes locally."""
     response = await call_next(request)
-    if settings.environment == "development" and request.url.path.endswith((".html", ".js", ".css")):
+    # HTML must always be revalidated: its versioned script URLs are the
+    # handoff between the current curriculum API and the matching UI code.
+    path = request.url.path
+    if path == "/" or path.endswith(".html") or (settings.environment == "development" and path.endswith((".js", ".css"))):
         response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate"
         response.headers["Pragma"] = "no-cache"
         response.headers["Expires"] = "0"

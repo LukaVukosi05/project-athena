@@ -1,0 +1,946 @@
+{
+  "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
+  "source_sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
+  "id": "g8-algebraic-equations-09",
+  "title": "Forming equations from contexts",
+  "estimated_minutes": 90,
+  "mastery_threshold": 0.8,
+  "objective": "Translate verbal, numerical and visual situations into one-variable linear equations, define the unknown precisely, solve the equation and verify the result against the original context with correct units.",
+  "why_it_matters": "Real problems rarely arrive as ready-made equations. Learners must decide what is unknown, identify fixed and changing quantities, represent relationships accurately and judge whether a calculated answer makes sense in the situation.",
+  "prerequisites": [
+    "Interpret the four operations and common comparison words",
+    "Simplify like terms and expand simple brackets",
+    "Solve one-step, two-step and variable-on-both-sides equations",
+    "Calculate perimeter and work with money and rates",
+    "Substitute a value into an expression"
+  ],
+  "vocabulary": [
+    {
+      "term": "unknown",
+      "meaning": "The quantity whose value is not yet known and is represented by a variable."
+    },
+    {
+      "term": "constant",
+      "meaning": "A fixed number that does not change in the situation."
+    },
+    {
+      "term": "rate",
+      "meaning": "A quantity measured per one unit, such as rand per kilometre."
+    },
+    {
+      "term": "relationship",
+      "meaning": "A mathematical statement describing how quantities are connected."
+    },
+    {
+      "term": "constraint",
+      "meaning": "A condition that the answer must satisfy, such as being a positive whole number."
+    },
+    {
+      "term": "verification",
+      "meaning": "Checking the answer in the original situation, including its units and practical meaning."
+    }
+  ],
+  "concept_teaching": [
+    "Read the complete situation before choosing a variable. Define the variable with a noun and unit, not only a letter.",
+    "Separate fixed quantities from changing quantities. A once-off fee is constant; a price per item is multiplied by the number of items.",
+    "Translate relationships, not isolated keywords. For example, five less than twice a number is 2x - 5, not 5 - 2x.",
+    "Use diagrams, tables or strips to preserve the structure of perimeter, sharing, age and rate situations before writing symbols.",
+    "Write one equality only when the two represented totals describe the same quantity.",
+    "Solve the equation and then return to the original context. Check arithmetic, units, constraints and whether the result answers the actual question."
+  ],
+  "entry_diagnostic": {
+    "prompt": "Translate these phrases: seven more than n; three times x; R20 plus R5 per ticket. Then solve 2m + 3 = 15.",
+    "answer": "n + 7; 3x; 20 + 5t; m = 6.",
+    "failure_route": "Review operation language, variable definitions and two-step equations before modelling contexts."
+  },
+  "misconceptions": [
+    {
+      "tag": "reversed-subtraction",
+      "diagnosis": "The order in phrases such as less than is reversed.",
+      "repair": "Build a start-then-change strip and read it from the referenced quantity outward."
+    },
+    {
+      "tag": "undefined-variable",
+      "diagnosis": "A letter is used without stating what it represents or its unit.",
+      "repair": "Complete the sentence Let ___ represent ___ before writing any equation."
+    },
+    {
+      "tag": "fixed-fee-multiplied",
+      "diagnosis": "A once-off amount is multiplied by the number of units.",
+      "repair": "Place fixed and per-unit amounts in separate columns before forming the total."
+    },
+    {
+      "tag": "rate-not-multiplied",
+      "diagnosis": "A per-unit rate is added once instead of multiplied by the number of units.",
+      "repair": "Repeat equal rate blocks, then compress them into rate times quantity."
+    },
+    {
+      "tag": "perimeter-pair-missed",
+      "diagnosis": "Only one length and one width are included in a rectangle perimeter.",
+      "repair": "Trace all four sides and pair equal opposite sides before writing the equation."
+    },
+    {
+      "tag": "comparison-direction",
+      "diagnosis": "More than, fewer than or older than is attached to the wrong person or quantity.",
+      "repair": "Anchor the smaller or base quantity first and draw the difference as a separate block."
+    },
+    {
+      "tag": "equation-without-equality",
+      "diagnosis": "An expression is written but no total or equal relationship is stated.",
+      "repair": "Label both quantities being compared and join them only when they represent the same total."
+    },
+    {
+      "tag": "context-check-omitted",
+      "diagnosis": "The algebraic result is not checked against units or practical constraints.",
+      "repair": "Substitute into the original story and state the verified answer in a complete sentence."
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "g8-ae-l09-w01",
+      "number": 1,
+      "prompt": "A number increased by 7 is 19. Form an equation and find the number.",
+      "difficulty": "foundation",
+      "cognitive_level": "knowledge",
+      "marks": 3,
+      "answer": "The number is 12.",
+      "memo": [
+        "1. Let the number be n.",
+        "2. Form n + 7 = 19.",
+        "3. Subtract 7 from both sides: n = 12.",
+        "4. Check: 12 + 7 = 19."
+      ],
+      "misconception_tags": [
+        "undefined-variable",
+        "equation-without-equality"
+      ],
+      "renderer": "algebra:context_translation_strip",
+      "question_data": "unknown = n; start = n; change = +7; total = 19; equation = n + 7 = 19; solution = 12",
+      "initial_state": "Show a covered number block followed by seven unit tiles and a separate total strip of nineteen; hide the variable label, equation and answer.",
+      "teaching_sequence": [
+        "1. Reveal that the covered block is the unknown number and label it n.",
+        "2. Highlight increased by seven and attach seven positive unit tiles.",
+        "3. Reveal the nineteen-unit total strip.",
+        "4. Join the model to form n + 7 = 19.",
+        "5. Remove seven units from both equal strips and reveal n = 12.",
+        "6. Rebuild twelve plus seven and compare it with nineteen."
+      ],
+      "verification": "Twelve increased by seven is nineteen.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w02",
+      "number": 2,
+      "prompt": "Five less than twice a number is 21. Form an equation and solve it.",
+      "difficulty": "foundation",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "The number is 13.",
+      "memo": [
+        "1. Let the number be x.",
+        "2. Twice the number is 2x; five less gives 2x - 5.",
+        "3. Form 2x - 5 = 21.",
+        "4. Add 5 and divide by 2: 2x = 26, so x = 13.",
+        "5. Check: 2(13) - 5 = 21."
+      ],
+      "misconception_tags": [
+        "reversed-subtraction",
+        "undefined-variable"
+      ],
+      "renderer": "algebra:number_relationship",
+      "question_data": "base = x; multiplier = 2; change = -5; result = 21; equation = 2x - 5 = 21; solution = 13",
+      "initial_state": "Show two identical covered number blocks with five unit tiles crossed out and a result card of twenty-one; keep all symbolic labels hidden.",
+      "teaching_sequence": [
+        "1. Label each covered block x and group them as twice x.",
+        "2. Bind the phrase five less to removal after the doubling step.",
+        "3. Reveal the model statement 2x - 5 = 21.",
+        "4. Restore five units on both sides to reveal 2x = 26.",
+        "5. Split twenty-six equally between two x-blocks and reveal x = 13.",
+        "6. Replay the order double thirteen, then subtract five."
+      ],
+      "verification": "Twice thirteen is twenty-six and five less is twenty-one.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w03",
+      "number": 3,
+      "prompt": "A stationery shop charges R18 delivery plus R12 per notebook. The total is R78. How many notebooks were bought?",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "5 notebooks were bought.",
+      "memo": [
+        "1. Let n be the number of notebooks.",
+        "2. Notebook cost is 12n and delivery is a fixed R18.",
+        "3. Form 12n + 18 = 78.",
+        "4. Subtract 18: 12n = 60.",
+        "5. Divide by 12: n = 5.",
+        "6. Check: 5(R12) + R18 = R78."
+      ],
+      "misconception_tags": [
+        "fixed-fee-multiplied",
+        "rate-not-multiplied"
+      ],
+      "renderer": "algebra:money_model",
+      "question_data": "fixed_fee = 18; unit_rate = 12; unit = notebook; total = 78; equation = 12n + 18 = 78; solution = 5; currency = R",
+      "initial_state": "Show one delivery card and a covered row of equal notebook price cards aligned with a R78 receipt; hide quantities and equation.",
+      "teaching_sequence": [
+        "1. Label the delivery card once-off R18.",
+        "2. Reveal one R12 tag per notebook and compress the repeated row into 12n.",
+        "3. Join the two cost parts to form 12n + 18 = 78.",
+        "4. Remove the R18 fixed fee from both totals.",
+        "5. Partition R60 into R12 groups and count five notebooks.",
+        "6. Rebuild the itemised receipt and confirm R78."
+      ],
+      "verification": "Five notebooks cost R60; adding R18 delivery gives R78.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w04",
+      "number": 4,
+      "prompt": "A rectangle has length (x + 3) cm and width (x - 1) cm. Its perimeter is 28 cm. Find x and the dimensions.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 5,
+      "answer": "x = 6; the rectangle is 9 cm by 5 cm.",
+      "memo": [
+        "1. Trace two lengths and two widths: 2(x + 3) + 2(x - 1) = 28.",
+        "2. Expand: 2x + 6 + 2x - 2 = 28.",
+        "3. Simplify: 4x + 4 = 28.",
+        "4. Solve: 4x = 24, so x = 6.",
+        "5. Dimensions: 9 cm and 5 cm.",
+        "6. Check: 2(9) + 2(5) = 28 cm."
+      ],
+      "misconception_tags": [
+        "perimeter-pair-missed",
+        "context-check-omitted"
+      ],
+      "renderer": "algebra:perimeter_model",
+      "question_data": "shape = rectangle; length = x + 3; width = x - 1; perimeter = 28; equation = 2(x + 3) + 2(x - 1) = 28; solution = 6; dimensions = [9, 5]",
+      "initial_state": "Show an unlabelled rectangle with opposite-side equality marks and a perimeter badge of twenty-eight centimetres; hide expressions and dimensions.",
+      "teaching_sequence": [
+        "1. Reveal x + 3 on both horizontal sides.",
+        "2. Reveal x - 1 on both vertical sides.",
+        "3. Trace all four edges and form 2(x + 3) + 2(x - 1) = 28.",
+        "4. Expand and combine the side strips to reveal 4x + 4 = 28.",
+        "5. Solve for x and substitute six into each side expression.",
+        "6. Display 9 cm by 5 cm and retrace the full perimeter."
+      ],
+      "verification": "Two nines plus two fives equal twenty-eight centimetres.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w05",
+      "number": 5,
+      "prompt": "R84 is shared between Ayanda and Ben. Ayanda receives R12 more than Ben. How much does each receive?",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 5,
+      "answer": "Ben receives R36 and Ayanda receives R48.",
+      "memo": [
+        "1. Let Ben's share be b rand.",
+        "2. Ayanda's share is b + 12.",
+        "3. Form b + (b + 12) = 84.",
+        "4. Simplify: 2b + 12 = 84.",
+        "5. Solve: 2b = 72, so b = 36.",
+        "6. Ayanda receives 36 + 12 = 48; check R36 + R48 = R84."
+      ],
+      "misconception_tags": [
+        "comparison-direction",
+        "undefined-variable"
+      ],
+      "renderer": "algebra:sharing_bar_model",
+      "question_data": "total = 84; base_person = Ben; base_share = b; other_person = Ayanda; difference = 12; equation = b + (b + 12) = 84; solution = {'Ben': 36, 'Ayanda': 48}; currency = R",
+      "initial_state": "Show one total R84 bar above two covered share bars, with the upper share visibly twelve rand longer; hide names and values.",
+      "teaching_sequence": [
+        "1. Label the shorter share Ben and define it as b.",
+        "2. Label the longer share Ayanda and isolate its extra R12 segment.",
+        "3. Join both bars to form b + (b + 12) = 84.",
+        "4. Remove the extra R12 from the total to leave R72 for two equal shares.",
+        "5. Split R72 into R36 and R36, then restore Ayanda's extra R12.",
+        "6. Reveal both names and recombine R36 plus R48."
+      ],
+      "verification": "Ayanda has twelve rand more than Ben and their shares total R84.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w06",
+      "number": 6,
+      "prompt": "Three consecutive integers have a sum of 57. Find the integers.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 5,
+      "answer": "The integers are 18, 19 and 20.",
+      "memo": [
+        "1. Let the first integer be n.",
+        "2. The next two are n + 1 and n + 2.",
+        "3. Form n + (n + 1) + (n + 2) = 57.",
+        "4. Simplify: 3n + 3 = 57.",
+        "5. Solve: 3n = 54, so n = 18.",
+        "6. The integers are 18, 19 and 20; their sum is 57."
+      ],
+      "misconception_tags": [
+        "comparison-direction",
+        "equation-without-equality"
+      ],
+      "renderer": "algebra:number_relationship",
+      "question_data": "relationship = consecutive integers; terms = ['n', 'n + 1', 'n + 2']; total = 57; equation = n + (n + 1) + (n + 2) = 57; solution = [18, 19, 20]",
+      "initial_state": "Show three adjacent covered number cards separated by one-step arrows and a combined total of fifty-seven; hide the algebraic labels.",
+      "teaching_sequence": [
+        "1. Label the first card n.",
+        "2. Follow the plus-one arrows to label the next cards n + 1 and n + 2.",
+        "3. Collect all three cards into the equation equal to fifty-seven.",
+        "4. Group the three n-blocks and three units to reveal 3n + 3 = 57.",
+        "5. Solve for n and reveal eighteen on the first card.",
+        "6. Advance the arrows to nineteen and twenty and add all three."
+      ],
+      "verification": "Eighteen, nineteen and twenty are consecutive and sum to fifty-seven.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w07",
+      "number": 7,
+      "prompt": "A parent is 4 years older than three times a child's age. Their ages total 44 years. Find both ages.",
+      "difficulty": "standard",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "The child is 10 years old and the parent is 34 years old.",
+      "memo": [
+        "1. Let the child's age be c years.",
+        "2. The parent's age is 3c + 4.",
+        "3. Form c + (3c + 4) = 44.",
+        "4. Simplify: 4c + 4 = 44.",
+        "5. Solve: 4c = 40, so c = 10.",
+        "6. Parent: 3(10) + 4 = 34; check 10 + 34 = 44."
+      ],
+      "misconception_tags": [
+        "comparison-direction",
+        "context-check-omitted"
+      ],
+      "renderer": "algebra:age_timeline",
+      "question_data": "child_age = c; parent_age = 3c + 4; total = 44; equation = c + (3c + 4) = 44; solution = {'child': 10, 'parent': 34}",
+      "initial_state": "Show aligned child and parent age bars at the present-time marker, with the parent's bar formed from three covered child-lengths plus four year tiles; hide all values.",
+      "teaching_sequence": [
+        "1. Define the child's present age as c.",
+        "2. Build the parent's present age from three c-bars and four extra years.",
+        "3. Combine both present ages to form c + (3c + 4) = 44.",
+        "4. Collect four c-bars plus four units and solve c = 10.",
+        "5. Replace each c-bar with ten years and reveal the parent's age as thirty-four.",
+        "6. Align both ages at the same present-time marker and total them."
+      ],
+      "verification": "The parent is four years older than three times ten, and the ages total forty-four.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w08",
+      "number": 8,
+      "prompt": "A taxi fare is R15 plus R6 per kilometre. A trip costs R57. How far was the trip?",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "The trip was 7 km.",
+      "memo": [
+        "1. Let d be the distance in kilometres.",
+        "2. The changing charge is 6d rand and the fixed charge is R15.",
+        "3. Form 15 + 6d = 57.",
+        "4. Subtract 15: 6d = 42.",
+        "5. Divide by 6: d = 7.",
+        "6. Check: R15 + 7(R6) = R57."
+      ],
+      "misconception_tags": [
+        "fixed-fee-multiplied",
+        "rate-not-multiplied"
+      ],
+      "renderer": "algebra:rate_table",
+      "question_data": "fixed_fee = 15; rate = 6; rate_unit = rand per kilometre; quantity = d kilometres; total = 57; equation = 15 + 6d = 57; solution = 7",
+      "initial_state": "Show a two-column fare table with a single start-fee row, a covered distance row and a R57 total receipt; hide the distance and equation.",
+      "teaching_sequence": [
+        "1. Reveal the fixed start fee of R15 in its own row.",
+        "2. Reveal R6 per kilometre and repeat equal R6 blocks along the route.",
+        "3. Compress the repeated blocks into 6d and form 15 + 6d = 57.",
+        "4. Remove the R15 start fee from the total.",
+        "5. Group R42 into seven R6 kilometre blocks.",
+        "6. Trace the seven-kilometre route and recompute the receipt."
+      ],
+      "verification": "Seven kilometres cost R42; adding the R15 start fee gives R57.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w09",
+      "number": 9,
+      "prompt": "A learner translates 'three less than twice a number is 17' as 3 - 2x = 17. Identify the first error and solve the correct equation.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "The subtraction order is reversed; the correct equation is 2x - 3 = 17 and x = 10.",
+      "memo": [
+        "1. Twice a number is 2x.",
+        "2. Three less than that means subtract 3 from 2x, giving 2x - 3.",
+        "3. Form 2x - 3 = 17.",
+        "4. Add 3: 2x = 20.",
+        "5. Divide by 2: x = 10.",
+        "6. Check: three less than twice ten is seventeen."
+      ],
+      "misconception_tags": [
+        "reversed-subtraction"
+      ],
+      "renderer": "algebra:error_diagnosis_context",
+      "question_data": "phrase = three less than twice a number; learner_equation = 3 - 2x = 17; correct_equation = 2x - 3 = 17; solution = 10",
+      "initial_state": "Show the phrase and learner equation on separate rows with relationship arrows covered; display no error marker or answer.",
+      "teaching_sequence": [
+        "1. Highlight twice a number and connect it to 2x.",
+        "2. Reveal that three less modifies the completed 2x quantity.",
+        "3. Expose the learner's reversed subtraction as the first mismatch.",
+        "4. Reorder the expression and form 2x - 3 = 17.",
+        "5. Solve the corrected equation to reveal x = 10.",
+        "6. Substitute ten and read the original phrase aloud in order."
+      ],
+      "verification": "Twice ten is twenty and three less is seventeen.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w10",
+      "number": 10,
+      "prompt": "Phone Plan A costs R80 plus R2 per minute. Plan B costs R20 plus R5 per minute. After how many minutes do they cost the same?",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "They cost the same after 20 minutes, when each costs R120.",
+      "memo": [
+        "1. Let m be the number of minutes.",
+        "2. Plan A costs 80 + 2m; Plan B costs 20 + 5m.",
+        "3. Form 80 + 2m = 20 + 5m.",
+        "4. Subtract 20 and 2m: 60 = 3m.",
+        "5. Therefore m = 20.",
+        "6. Check: 80 + 2(20) = 120 and 20 + 5(20) = 120."
+      ],
+      "misconception_tags": [
+        "fixed-fee-multiplied",
+        "equation-without-equality"
+      ],
+      "renderer": "algebra:rate_table",
+      "question_data": "plan_a = {'fixed': 80, 'rate': 2}; plan_b = {'fixed': 20, 'rate': 5}; quantity = m minutes; equation = 80 + 2m = 20 + 5m; solution = 20; equal_cost = 120",
+      "initial_state": "Show two plan rows with separate fixed-fee and per-minute columns leading to covered totals; hide the equality point.",
+      "teaching_sequence": [
+        "1. Reveal Plan A's fixed R80 and rate R2 per minute.",
+        "2. Reveal Plan B's fixed R20 and rate R5 per minute.",
+        "3. Join the total columns with an equality sign and form the equation.",
+        "4. Remove matching R20 and two-minute-rate strips from both sides.",
+        "5. Partition the remaining R60 difference into R3-per-minute gaps to reveal twenty minutes.",
+        "6. Evaluate both plan rows at twenty minutes and reveal R120 twice."
+      ],
+      "verification": "Both plans cost R120 after twenty minutes.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w11",
+      "number": 11,
+      "prompt": "A triangle has side lengths (x + 1) cm, (2x - 3) cm and (x + 4) cm. Its perimeter is 32 cm. Find x and all three side lengths.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 7,
+      "answer": "x = 7.5; the side lengths are 8.5 cm, 12 cm and 11.5 cm.",
+      "memo": [
+        "1. Add all three sides: (x + 1) + (2x - 3) + (x + 4) = 32.",
+        "2. Combine like terms: 4x + 2 = 32.",
+        "3. Subtract 2: 4x = 30.",
+        "4. Divide by 4: x = 7.5.",
+        "5. Sides: 8.5 cm, 12 cm and 11.5 cm.",
+        "6. Check: 8.5 + 12 + 11.5 = 32 cm."
+      ],
+      "misconception_tags": [
+        "perimeter-pair-missed",
+        "context-check-omitted"
+      ],
+      "renderer": "algebra:perimeter_model",
+      "question_data": "shape = triangle; sides = ['x + 1', '2x - 3', 'x + 4']; perimeter = 32; equation = (x + 1) + (2x - 3) + (x + 4) = 32; solution = 7.5; dimensions = [8.5, 12, 11.5]",
+      "initial_state": "Show a triangle with three differently styled covered side labels and a perimeter badge of thirty-two centimetres; hide the equation and numerical lengths.",
+      "teaching_sequence": [
+        "1. Reveal one expression on each matching triangle edge.",
+        "2. Trace the boundary once and join all three expressions into the perimeter equation.",
+        "3. Align like terms to reveal 4x + 2 = 32.",
+        "4. Solve to reveal x = 7.5.",
+        "5. Evaluate each original side expression independently.",
+        "6. Place the three numerical lengths back on the triangle and total the boundary."
+      ],
+      "verification": "The three positive side lengths add to thirty-two centimetres and form a valid triangle.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w12",
+      "number": 12,
+      "prompt": "Thandi has R150 saved and adds R25 each week. After how many weeks will she have R400?",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "She will have R400 after 10 weeks.",
+      "memo": [
+        "1. Let w be the number of weeks.",
+        "2. Her total is 150 + 25w.",
+        "3. Form 150 + 25w = 400.",
+        "4. Subtract 150: 25w = 250.",
+        "5. Divide by 25: w = 10.",
+        "6. Check: R150 + 10(R25) = R400."
+      ],
+      "misconception_tags": [
+        "fixed-fee-multiplied",
+        "rate-not-multiplied"
+      ],
+      "renderer": "algebra:money_model",
+      "question_data": "starting_amount = 150; weekly_amount = 25; target = 400; equation = 150 + 25w = 400; solution = 10; currency = R",
+      "initial_state": "Show a savings timeline beginning with a R150 block and covered equal weekly deposits leading to a R400 target; hide the week count.",
+      "teaching_sequence": [
+        "1. Reveal the starting balance as one fixed R150 block.",
+        "2. Reveal R25 on each equal weekly deposit marker.",
+        "3. Compress the deposits into 25w and form 150 + 25w = 400.",
+        "4. Remove the starting R150 from the target total.",
+        "5. Partition R250 into R25 deposits and count ten weeks.",
+        "6. Replay all ten deposits and confirm the R400 target."
+      ],
+      "verification": "Ten deposits contribute R250; with R150 already saved the total is R400.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w13",
+      "number": 13,
+      "prompt": "A 210 km journey has two stages. The second stage is 30 km longer than the first. Find the length of each stage.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 7,
+      "answer": "The stages are 90 km and 120 km.",
+      "memo": [
+        "1. Let the first stage be d kilometres.",
+        "2. The second stage is d + 30 kilometres.",
+        "3. Form d + (d + 30) = 210.",
+        "4. Simplify: 2d + 30 = 210.",
+        "5. Solve: 2d = 180, so d = 90.",
+        "6. Second stage: 120 km; check 90 + 120 = 210 km."
+      ],
+      "misconception_tags": [
+        "comparison-direction",
+        "undefined-variable"
+      ],
+      "renderer": "algebra:sharing_bar_model",
+      "question_data": "context = two-stage journey; total = 210; first_stage = d; second_stage = d + 30; equation = d + (d + 30) = 210; solution = [90, 120]; unit = km",
+      "initial_state": "Show a 210 km route split into two covered stage bars, with the second bar extending thirty kilometres beyond the first; hide values and equation.",
+      "teaching_sequence": [
+        "1. Define the shorter first stage as d kilometres.",
+        "2. Mark the second stage as one matching d-bar plus a 30 km extension.",
+        "3. Join both route stages to form d + (d + 30) = 210.",
+        "4. Remove the 30 km extension from the whole route.",
+        "5. Split the remaining 180 km equally to reveal ninety kilometres per matching bar.",
+        "6. Restore the extension and label the stages 90 km and 120 km."
+      ],
+      "verification": "The second stage is thirty kilometres longer and both stages total 210 km.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w14",
+      "number": 14,
+      "prompt": "At a school concert, an adult ticket costs R50 and a learner ticket costs R30. Three more adult tickets than learner tickets are sold for a total of R550. How many of each ticket are sold?",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 8,
+      "answer": "5 learner tickets and 8 adult tickets are sold.",
+      "memo": [
+        "1. Let l be the number of learner tickets.",
+        "2. Adult tickets sold: l + 3.",
+        "3. Form 30l + 50(l + 3) = 550.",
+        "4. Expand and simplify: 30l + 50l + 150 = 550, so 80l = 400.",
+        "5. Therefore l = 5 and adults = 8.",
+        "6. Check: 5(R30) + 8(R50) = R150 + R400 = R550."
+      ],
+      "misconception_tags": [
+        "comparison-direction",
+        "rate-not-multiplied"
+      ],
+      "renderer": "algebra:money_model",
+      "question_data": "learner_price = 30; adult_price = 50; adult_difference = 3; total = 550; equation = 30l + 50(l + 3) = 550; solution = {'learner': 5, 'adult': 8}; currency = R",
+      "initial_state": "Show parallel learner and adult ticket rows, with three extra covered adult tickets and a combined R550 sales card; hide counts and equation.",
+      "teaching_sequence": [
+        "1. Define the learner-ticket count as l and attach R30 to each learner ticket.",
+        "2. Build the adult count as l matching tickets plus three extra, each priced R50.",
+        "3. Form the complete revenue equation 30l + 50(l + 3) = 550.",
+        "4. Reveal the R150 revenue from the three extra adult tickets and remove it from the total.",
+        "5. Group the remaining R400 into combined R80 learner-adult pairs to reveal five pairs.",
+        "6. Restore the three adults and total five learner plus eight adult ticket revenues."
+      ],
+      "verification": "Five learner tickets and eight adult tickets differ by three and produce R550.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l09-w15",
+      "number": 15,
+      "prompt": "A school buys 4 learner packs costing (x + R15) each and 3 teacher packs costing (x + R35) each. The total is R515. Find x and the price of each type of pack.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 8,
+      "answer": "x = R50; a learner pack costs R65 and a teacher pack costs R85.",
+      "memo": [
+        "1. Form 4(x + 15) + 3(x + 35) = 515.",
+        "2. Expand: 4x + 60 + 3x + 105 = 515.",
+        "3. Simplify: 7x + 165 = 515.",
+        "4. Subtract 165: 7x = 350.",
+        "5. Divide by 7: x = 50.",
+        "6. Prices are R65 and R85; check 4(R65) + 3(R85) = R260 + R255 = R515."
+      ],
+      "misconception_tags": [
+        "rate-not-multiplied",
+        "context-check-omitted"
+      ],
+      "renderer": "algebra:money_model",
+      "question_data": "learner_groups = 4; learner_price = x + 15; teacher_groups = 3; teacher_price = x + 35; total = 515; equation = 4(x + 15) + 3(x + 35) = 515; solution = 50; final_prices = [65, 85]",
+      "initial_state": "Show four sealed learner-pack cards and three sealed teacher-pack cards beside a R515 invoice; display the R15 and R35 additions but hide the shared base price and totals.",
+      "teaching_sequence": [
+        "1. Label the common base price x on every pack.",
+        "2. Attach R15 to each learner pack and R35 to each teacher pack.",
+        "3. Group the cards to form 4(x + 15) + 3(x + 35) = 515.",
+        "4. Open every group to reveal seven x-blocks plus R165.",
+        "5. Remove R165 and partition R350 across seven x-blocks to reveal x = R50.",
+        "6. Price each pack as R65 or R85 and rebuild the R515 invoice."
+      ],
+      "verification": "Four packs at R65 and three packs at R85 cost R515.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    }
+  ],
+  "practice_questions": [
+    {
+      "id": "g8-ae-l09-p01",
+      "number": 1,
+      "prompt": "Nine more than a number is 25. Form an equation and solve.",
+      "marks": 3,
+      "answer": "n = 16.",
+      "solution": [
+        "1. Let the number be n: n + 9 = 25.",
+        "2. Subtract 9: n = 16."
+      ],
+      "misconception_tags": [
+        "undefined-variable"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p02",
+      "number": 2,
+      "prompt": "Four less than three times a number is 20. Find the number.",
+      "marks": 4,
+      "answer": "x = 8.",
+      "solution": [
+        "1. Form 3x - 4 = 20.",
+        "2. Add 4 and divide by 3: x = 8."
+      ],
+      "misconception_tags": [
+        "reversed-subtraction"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p03",
+      "number": 3,
+      "prompt": "A delivery costs R25 plus R8 per parcel. The total is R81. How many parcels are delivered?",
+      "marks": 4,
+      "answer": "7 parcels.",
+      "solution": [
+        "1. Form 25 + 8p = 81.",
+        "2. 8p = 56, so p = 7."
+      ],
+      "misconception_tags": [
+        "fixed-fee-multiplied",
+        "rate-not-multiplied"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p04",
+      "number": 4,
+      "prompt": "A rectangle has length (x + 4) cm and width x cm. Its perimeter is 32 cm. Find x and the dimensions.",
+      "marks": 5,
+      "answer": "x = 6; dimensions 10 cm by 6 cm.",
+      "solution": [
+        "1. Form 2(x + 4) + 2x = 32.",
+        "2. 4x + 8 = 32, so x = 6.",
+        "3. Dimensions are 10 cm and 6 cm."
+      ],
+      "misconception_tags": [
+        "perimeter-pair-missed"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p05",
+      "number": 5,
+      "prompt": "R96 is shared between two people. One receives R18 more than the other. Find both shares.",
+      "marks": 5,
+      "answer": "R39 and R57.",
+      "solution": [
+        "1. Let the smaller share be s: s + (s + 18) = 96.",
+        "2. 2s = 78, so s = 39.",
+        "3. The larger share is R57."
+      ],
+      "misconception_tags": [
+        "comparison-direction"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p06",
+      "number": 6,
+      "prompt": "Three consecutive integers total 72. Find them.",
+      "marks": 5,
+      "answer": "23, 24 and 25.",
+      "solution": [
+        "1. Form n + (n + 1) + (n + 2) = 72.",
+        "2. 3n + 3 = 72, so n = 23."
+      ],
+      "misconception_tags": [
+        "equation-without-equality"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p07",
+      "number": 7,
+      "prompt": "An aunt is twice a child's age plus 6 years. Their ages total 42 years. Find both ages.",
+      "marks": 6,
+      "answer": "The child is 12 and the aunt is 30.",
+      "solution": [
+        "1. Let the child's age be c: c + (2c + 6) = 42.",
+        "2. 3c = 36, so c = 12.",
+        "3. The aunt is 30."
+      ],
+      "misconception_tags": [
+        "comparison-direction"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p08",
+      "number": 8,
+      "prompt": "A bicycle rental costs R40 plus R15 per hour. The bill is R115. How many hours was the bicycle rented?",
+      "marks": 6,
+      "answer": "5 hours.",
+      "solution": [
+        "1. Form 40 + 15h = 115.",
+        "2. 15h = 75, so h = 5."
+      ],
+      "misconception_tags": [
+        "fixed-fee-multiplied"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p09",
+      "number": 9,
+      "prompt": "Correct the translation 'six less than four times y is 30' written as 6 - 4y = 30, then solve.",
+      "marks": 6,
+      "answer": "4y - 6 = 30; y = 9.",
+      "solution": [
+        "1. Six less than 4y is 4y - 6.",
+        "2. Solve 4y - 6 = 30: 4y = 36, so y = 9."
+      ],
+      "misconception_tags": [
+        "reversed-subtraction"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p10",
+      "number": 10,
+      "prompt": "Plan P costs R100 plus R3 per use. Plan Q costs R40 plus R6 per use. After how many uses do they cost the same?",
+      "marks": 6,
+      "answer": "20 uses.",
+      "solution": [
+        "1. Form 100 + 3u = 40 + 6u.",
+        "2. 60 = 3u, so u = 20."
+      ],
+      "misconception_tags": [
+        "equation-without-equality"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p11",
+      "number": 11,
+      "prompt": "A triangle has sides x cm, (x + 2) cm and (2x - 1) cm. Its perimeter is 29 cm. Find the sides.",
+      "marks": 7,
+      "answer": "7 cm, 9 cm and 13 cm.",
+      "solution": [
+        "1. Form x + (x + 2) + (2x - 1) = 29.",
+        "2. 4x + 1 = 29, so x = 7.",
+        "3. The sides are 7 cm, 9 cm and 13 cm."
+      ],
+      "misconception_tags": [
+        "context-check-omitted"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p12",
+      "number": 12,
+      "prompt": "Sipho has R90 and saves R30 each week. When will he have R300?",
+      "marks": 6,
+      "answer": "After 7 weeks.",
+      "solution": [
+        "1. Form 90 + 30w = 300.",
+        "2. 30w = 210, so w = 7."
+      ],
+      "misconception_tags": [
+        "rate-not-multiplied"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p13",
+      "number": 13,
+      "prompt": "A 164 km route has two sections. The second is 24 km longer than the first. Find both lengths.",
+      "marks": 7,
+      "answer": "70 km and 94 km.",
+      "solution": [
+        "1. Form d + (d + 24) = 164.",
+        "2. 2d = 140, so d = 70.",
+        "3. The second section is 94 km."
+      ],
+      "misconception_tags": [
+        "comparison-direction"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p14",
+      "number": 14,
+      "prompt": "Adult tickets cost R60 and learner tickets R35. Two more adult than learner tickets produce R595. Find each ticket count.",
+      "marks": 8,
+      "answer": "5 learner tickets and 7 adult tickets.",
+      "solution": [
+        "1. Let learner tickets be l; adults are l + 2.",
+        "2. Form 35l + 60(l + 2) = 595.",
+        "3. 95l + 120 = 595, so 95l = 475 and l = 5.",
+        "4. Therefore 5 learner and 7 adult tickets were sold."
+      ],
+      "misconception_tags": [
+        "comparison-direction",
+        "rate-not-multiplied"
+      ]
+    },
+    {
+      "id": "g8-ae-l09-p15",
+      "number": 15,
+      "prompt": "Five basic packs cost (x + R8) each and two premium packs cost (x + R28) each. The total is R446. Find x and both pack prices.",
+      "marks": 8,
+      "answer": "x = R50; prices are R58 and R78.",
+      "solution": [
+        "1. Form 5(x + 8) + 2(x + 28) = 446.",
+        "2. 7x + 96 = 446, so 7x = 350 and x = 50.",
+        "3. The prices are R58 and R78; check 5(R58) + 2(R78) = R446."
+      ],
+      "misconception_tags": [
+        "rate-not-multiplied",
+        "context-check-omitted"
+      ]
+    }
+  ],
+  "mastery_questions": [
+    {
+      "id": "g8-ae-l09-m01",
+      "number": 1,
+      "prompt": "Seven less than twice a number is 19. Find the number.",
+      "marks": 4,
+      "answer": "13.",
+      "solution": [
+        "1. Form 2x - 7 = 19.",
+        "2. 2x = 26, so x = 13."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l09-m02",
+      "number": 2,
+      "prompt": "A service costs R30 plus R10 per use. The total is R100. Find the number of uses.",
+      "marks": 5,
+      "answer": "7 uses.",
+      "solution": [
+        "1. Form 30 + 10u = 100.",
+        "2. 10u = 70, so u = 7."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l09-m03",
+      "number": 3,
+      "prompt": "R110 is shared so that one share is R20 more than the other. Find both shares.",
+      "marks": 6,
+      "answer": "R45 and R65.",
+      "solution": [
+        "1. Form s + (s + 20) = 110.",
+        "2. 2s = 90, so s = 45; the other share is R65."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l09-m04",
+      "number": 4,
+      "prompt": "A rectangle has length (x + 5) cm, width x cm and perimeter 38 cm. Find its dimensions.",
+      "marks": 6,
+      "answer": "12 cm by 7 cm.",
+      "solution": [
+        "1. Form 2(x + 5) + 2x = 38.",
+        "2. 4x + 10 = 38, so x = 7."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l09-m05",
+      "number": 5,
+      "prompt": "Plan A costs R70 plus R4 per session; Plan B costs R10 plus R7 per session. When are the costs equal?",
+      "marks": 7,
+      "answer": "After 20 sessions.",
+      "solution": [
+        "1. Form 70 + 4s = 10 + 7s.",
+        "2. 60 = 3s, so s = 20."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "repair_rules": [
+    "Incorrect M1: Replay worked examples 1, 2 and 9 with phrase chunks attached to ordered operation strips, then administer R1.",
+    "Incorrect M2: Replay worked examples 3 and 8 using separate fixed-fee and rate columns, then administer R2.",
+    "Incorrect M3: Replay worked examples 5 and 13 with matched base bars and visible difference blocks, then administer R1.",
+    "Incorrect M4: Replay worked examples 4 and 11 while tracing every perimeter edge before forming the equation, then administer R2.",
+    "Incorrect M5: Replay worked example 10 using two aligned rate tables and a single equality point, then administer R3.",
+    "Score below 80%: Reteach the two most frequent misconception tags and administer all three parallel questions."
+  ],
+  "reassessment_questions": [
+    {
+      "id": "g8-ae-l09-r01",
+      "number": 1,
+      "prompt": "R74 is shared so one person receives R10 more than the other. Find both shares.",
+      "marks": 5,
+      "answer": "R32 and R42.",
+      "solution": [
+        "1. Form s + (s + 10) = 74.",
+        "2. 2s = 64, so the shares are R32 and R42."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l09-r02",
+      "number": 2,
+      "prompt": "A rectangle has length (x + 2) cm, width x cm and perimeter 28 cm. Find the dimensions.",
+      "marks": 6,
+      "answer": "8 cm by 6 cm.",
+      "solution": [
+        "1. Form 2(x + 2) + 2x = 28.",
+        "2. 4x + 4 = 28, so x = 6.",
+        "3. The dimensions are 8 cm by 6 cm."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l09-r03",
+      "number": 3,
+      "prompt": "Plan X costs R90 plus R2 per visit; Plan Y costs R30 plus R5 per visit. When are they equal?",
+      "marks": 7,
+      "answer": "After 20 visits.",
+      "solution": [
+        "1. Form 90 + 2v = 30 + 5v.",
+        "2. 60 = 3v, so v = 20."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "summary": [
+    "Define the unknown with its meaning and unit before writing an equation.",
+    "Separate fixed quantities from per-unit rates.",
+    "Translate comparison language in the order stated by the relationship.",
+    "Use a diagram or table suited to the actual context.",
+    "Create an equality only when two totals represent the same quantity.",
+    "Verify the result in the original context and report a complete answer with units."
+  ]
+}

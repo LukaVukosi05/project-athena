@@ -1,0 +1,952 @@
+{
+  "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
+  "source_sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
+  "id": "g8-algebraic-equations-10",
+  "title": "Mastery diagnosis and repair",
+  "estimated_minutes": 100,
+  "mastery_threshold": 0.8,
+  "objective": "Diagnose the first incorrect step in one-variable linear-equation solutions, connect the error to a specific misconception, repair the missing concept, complete a fresh parallel problem and use evidence across skill clusters to decide readiness.",
+  "why_it_matters": "A final answer can be wrong for many different reasons. Effective revision identifies the first point where the reasoning becomes invalid, teaches that exact idea and checks whether the learner can transfer the repair to a new problem without copying a memo.",
+  "prerequisites": [
+    "Understand equality and equivalent equations",
+    "Solve additive, multiplicative, two-step, variable-on-both-sides, bracket and fraction equations",
+    "Translate common contexts into equations",
+    "Substitute solutions into original equations",
+    "Explain a mathematical operation in words"
+  ],
+  "vocabulary": [
+    {
+      "term": "first incorrect step",
+      "meaning": "The earliest line in a solution that is not mathematically equivalent to the line before it."
+    },
+    {
+      "term": "misconception tag",
+      "meaning": "A stable label describing the underlying misunderstanding that produced an error."
+    },
+    {
+      "term": "targeted repair",
+      "meaning": "Short teaching focused on the exact missing concept rather than repeating the whole lesson."
+    },
+    {
+      "term": "parallel reassessment",
+      "meaning": "A new question with the same mathematical structure but different values or context."
+    },
+    {
+      "term": "transfer",
+      "meaning": "Using a repaired idea successfully in a fresh problem without copying the original method."
+    },
+    {
+      "term": "readiness decision",
+      "meaning": "An evidence-based outcome stating whether to progress, repair one cluster or repeat the diagnostic."
+    }
+  ],
+  "concept_teaching": [
+    "Hide the memo until the learner has attempted and submitted the complete question.",
+    "Compare each learner line with the previous line. Stop at the first change that does not preserve equality.",
+    "Separate slips from misconceptions: a copied digit is different from repeatedly applying an operation to only one side.",
+    "Name one primary misconception tag and show the smallest visual repair that addresses it.",
+    "After repair, use a fresh parallel item. Repeating the original question can test memory instead of transfer.",
+    "Record results by cluster: equality, signed operations, multi-step equations, variables on both sides, brackets, fractions and modelling.",
+    "Progress only when overall performance reaches 80% and no essential cluster remains below its minimum evidence requirement."
+  ],
+  "entry_diagnostic": {
+    "prompt": "A learner solves 3x + 4 = 19 as 3x = 15, then x = 12. Identify the first incorrect step and give the correct solution.",
+    "answer": "The first step is correct. The error is dividing 15 incorrectly by 3; x = 5.",
+    "failure_route": "Review how diagnosis compares consecutive lines and distinguishes a correct operation from an arithmetic error."
+  },
+  "misconceptions": [
+    {
+      "tag": "inverse-direction",
+      "diagnosis": "The learner applies an operation that strengthens rather than undoes the existing operation.",
+      "repair": "Use paired operation and inverse-operation cards before changing the equation."
+    },
+    {
+      "tag": "one-side-operation",
+      "diagnosis": "An operation changes only one side of the equality.",
+      "repair": "Animate matching operation cards entering both pans before either result appears."
+    },
+    {
+      "tag": "division-by-coefficient-error",
+      "diagnosis": "The coefficient is subtracted, ignored or divided with the wrong sign.",
+      "repair": "Bind sign and magnitude into one coefficient tile and partition both complete sides by it."
+    },
+    {
+      "tag": "two-step-order-error",
+      "diagnosis": "Operations are undone in an order that does not isolate the variable legally.",
+      "repair": "Trace the operation machine backwards, undoing the outermost completed operation first."
+    },
+    {
+      "tag": "variable-term-not-combined",
+      "diagnosis": "Like variable terms on opposite sides are not removed consistently.",
+      "repair": "Align matching variable tiles and remove the same quantity from both sides."
+    },
+    {
+      "tag": "distribution-error",
+      "diagnosis": "An outside factor does not multiply every term in a bracket.",
+      "repair": "Draw one arrow from the factor to every bracket term before showing products."
+    },
+    {
+      "tag": "fraction-structure-error",
+      "diagnosis": "Denominators are added, cancelled across sums or cleared from only some terms.",
+      "repair": "Display the LCD above every term and simplify only complete products."
+    },
+    {
+      "tag": "classification-error",
+      "diagnosis": "An identity or contradiction is treated as an ordinary one-solution equation.",
+      "repair": "After variable cancellation, interpret the remaining true or false statement."
+    },
+    {
+      "tag": "context-model-error",
+      "diagnosis": "The equation does not match the quantities or relationships in the scenario.",
+      "repair": "Rebuild the scenario with a native diagram or table before writing symbols."
+    },
+    {
+      "tag": "verification-omitted",
+      "diagnosis": "The answer is accepted without checking the original equation or context.",
+      "repair": "Substitute into the untouched original and compare both sides with units."
+    }
+  ],
+  "readiness_protocol": [
+    "Outcome",
+    "Evidence",
+    "Required action",
+    "Ready",
+    "At least 4/5 mastery items correct; context verified; no essential misconception repeated in reassessment.",
+    "Record mastery and unlock the next topic.",
+    "Targeted repair",
+    "One or two clusters remain weak, or an essential misconception repeats.",
+    "Reteach only failed clusters and administer fresh parallel items.",
+    "Repeat diagnostic",
+    "Two or fewer mastery items correct, or errors span three or more clusters.",
+    "Return to prerequisite lessons, then use a new diagnostic form."
+  ],
+  "worked_examples": [
+    {
+      "id": "g8-ae-l10-w01",
+      "number": 1,
+      "prompt": "A learner solves x + 7 = 12 by writing x = 19. Identify the first error, repair it and solve.",
+      "difficulty": "foundation",
+      "cognitive_level": "knowledge",
+      "marks": 4,
+      "answer": "The learner added 7 instead of subtracting it; x = 5.",
+      "memo": [
+        "1. The first error is choosing addition instead of the inverse of plus 7.",
+        "2. Subtract 7 from both sides: x + 7 - 7 = 12 - 7.",
+        "3. Therefore x = 5.",
+        "4. Check: 5 + 7 = 12.",
+        "5. Repair tag: inverse-direction."
+      ],
+      "misconception_tags": [
+        "inverse-direction"
+      ],
+      "renderer": "diagnosis:first_error_replay",
+      "question_data": "original = x + 7 = 12; learner_step = x = 19; first_error = added 7; repair = subtract 7 from both sides; solution = 5; parallel_prompt = a + 6 = 15",
+      "initial_state": "Show the original equation and learner line with all diagnostic markers, corrections and answers hidden.",
+      "teaching_sequence": [
+        "1. Reveal the plus-seven operation attached to x.",
+        "2. Compare the learner's addition with the required inverse operation.",
+        "3. Freeze and mark x = 19 as the first incorrect line.",
+        "4. Place subtract-seven cards on both equation sides.",
+        "5. Reveal x = 5 and verify it in the untouched original.",
+        "6. Replace the values with a + 6 = 15 and leave the fresh answer hidden."
+      ],
+      "verification": "Five plus seven equals twelve; the parallel item requires the same inverse idea.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w02",
+      "number": 2,
+      "prompt": "A learner solves 4m = 28 by writing m = 24. Diagnose the operation error and solve correctly.",
+      "difficulty": "foundation",
+      "cognitive_level": "routine",
+      "marks": 4,
+      "answer": "The learner subtracted 4 instead of dividing by 4; m = 7.",
+      "memo": [
+        "1. The 4 is a multiplicative coefficient, not an added term.",
+        "2. Divide both sides by 4: m = 28/4.",
+        "3. Therefore m = 7.",
+        "4. Check: 4(7) = 28.",
+        "5. Repair tag: division-by-coefficient-error."
+      ],
+      "misconception_tags": [
+        "division-by-coefficient-error"
+      ],
+      "renderer": "algebra:balance_equation",
+      "question_data": "original = 4m = 28; learner_step = m = 24; coefficient = 4; solution = 7; parallel_prompt = 5p = 35",
+      "initial_state": "Show four joined m-tiles balanced against twenty-eight counters and the learner line below; hide partitions and the correction.",
+      "teaching_sequence": [
+        "1. Highlight that four multiplies m as a complete group.",
+        "2. Expose subtraction of four as incompatible with the multiplication structure.",
+        "3. Partition both balance sides into four equal groups.",
+        "4. Match one m-tile with seven counters.",
+        "5. Reveal m = 7 and rebuild all four groups.",
+        "6. Present five p-tiles balanced against thirty-five counters as the parallel check."
+      ],
+      "verification": "Four groups of seven equal twenty-eight.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w03",
+      "number": 3,
+      "prompt": "A learner solves 3x - 5 = 16 by writing 3x = 11. Find the first error and complete the repair.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 5,
+      "answer": "The learner subtracted 5 instead of adding it; x = 7.",
+      "memo": [
+        "1. To undo minus 5, add 5 to both sides.",
+        "2. Then 3x = 21.",
+        "3. Divide both sides by 3: x = 7.",
+        "4. Check: 3(7) - 5 = 16.",
+        "5. Repair tag: inverse-direction."
+      ],
+      "misconception_tags": [
+        "inverse-direction",
+        "two-step-order-error"
+      ],
+      "renderer": "algebra:balance_equation",
+      "question_data": "original = 3x - 5 = 16; learner_step = 3x = 11; correct_intermediate = 3x = 21; solution = 7; parallel_prompt = 2y - 4 = 10",
+      "initial_state": "Show three x-tiles with five negative units balanced against sixteen positive units; conceal all operation cards.",
+      "teaching_sequence": [
+        "1. Identify subtraction of five as the outer operation on the variable term.",
+        "2. Compare the learner's further subtraction with the required inverse.",
+        "3. Add five units to both sides and cancel the signed pair on the left.",
+        "4. Reveal 3x = 21 and divide both sides into three groups.",
+        "5. Reveal x = 7 and verify the original signed balance.",
+        "6. Load the parallel equation with its result hidden."
+      ],
+      "verification": "Twenty-one minus five equals sixteen.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w04",
+      "number": 4,
+      "prompt": "A learner solves -2y = 18 and reports y = 9. Identify the sign error and solve.",
+      "difficulty": "easy",
+      "cognitive_level": "routine",
+      "marks": 5,
+      "answer": "Both sides must be divided by -2; y = -9.",
+      "memo": [
+        "1. The coefficient is negative two, including its sign.",
+        "2. Divide both sides by -2: y = 18/(-2).",
+        "3. Therefore y = -9.",
+        "4. Check: -2(-9) = 18.",
+        "5. Repair tag: division-by-coefficient-error."
+      ],
+      "misconception_tags": [
+        "division-by-coefficient-error"
+      ],
+      "renderer": "algebra:signed_balance",
+      "question_data": "original = -2y = 18; learner_answer = 9; coefficient = -2; solution = -9; parallel_prompt = -3a = 24",
+      "initial_state": "Show a negative-two multiplier gate acting on a covered y-value to produce positive eighteen; hide the input and sign diagnosis.",
+      "teaching_sequence": [
+        "1. Bind the minus sign and two into one coefficient card.",
+        "2. Send the learner's positive nine through the gate and display negative eighteen.",
+        "3. Mark the sign mismatch as the first failure.",
+        "4. Reverse the gate by dividing positive eighteen by negative two.",
+        "5. Reveal y = -9 and replay the product to obtain positive eighteen.",
+        "6. Present the negative-three parallel gate with its input hidden."
+      ],
+      "verification": "Negative two times negative nine is positive eighteen.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w05",
+      "number": 5,
+      "prompt": "A learner reaches -2a = 12 from 5 - 2a = 17, then writes a = 6. Diagnose and repair the final step.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 6,
+      "answer": "The learner divided by +2 instead of -2; a = -6.",
+      "memo": [
+        "1. Subtracting 5 correctly gives -2a = 12.",
+        "2. The first incorrect step is dropping the negative sign during division.",
+        "3. Divide both sides by -2: a = -6.",
+        "4. Check: 5 - 2(-6) = 17.",
+        "5. Repair tag: division-by-coefficient-error."
+      ],
+      "misconception_tags": [
+        "division-by-coefficient-error"
+      ],
+      "renderer": "diagnosis:first_error_replay",
+      "question_data": "original = 5 - 2a = 17; correct_step = -2a = 12; learner_answer = 6; solution = -6; parallel_prompt = 7 - 3b = 19",
+      "initial_state": "Show the original and correct intermediate line followed by the learner answer; hide correctness markers and the repaired answer.",
+      "teaching_sequence": [
+        "1. Confirm that subtracting five from both sides produced a valid intermediate line.",
+        "2. Highlight negative two as the complete coefficient of a.",
+        "3. Reveal that division by positive two drops the sign illegally.",
+        "4. Divide both sides by negative two and reveal a = -6.",
+        "5. Substitute negative six into the untouched original equation.",
+        "6. Present the parallel equation and pause before its coefficient division."
+      ],
+      "verification": "Five minus negative twelve equals seventeen.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w06",
+      "number": 6,
+      "prompt": "A learner solves 4p + 3 = 2p + 15 as 2p + 3 = 15, then p = 12. Identify the first incorrect step and finish correctly.",
+      "difficulty": "standard",
+      "cognitive_level": "routine",
+      "marks": 6,
+      "answer": "The first line is correct; the error is failing to subtract 3 and divide by 2. The solution is p = 6.",
+      "memo": [
+        "1. Subtracting 2p from both sides correctly gives 2p + 3 = 15.",
+        "2. Subtract 3 from both sides: 2p = 12.",
+        "3. Divide by 2: p = 6.",
+        "4. Check: 4(6) + 3 = 27 and 2(6) + 15 = 27.",
+        "5. Repair tag: two-step-order-error."
+      ],
+      "misconception_tags": [
+        "two-step-order-error",
+        "variable-term-not-combined"
+      ],
+      "renderer": "diagnosis:first_error_replay",
+      "question_data": "original = 4p + 3 = 2p + 15; learner_steps = ['2p + 3 = 15', 'p = 12']; first_error_index = 2; solution = 6; parallel_prompt = 5q + 4 = 3q + 18",
+      "initial_state": "Show the original equation and both learner lines with no correctness symbols; keep the final solution hidden.",
+      "teaching_sequence": [
+        "1. Compare the first learner line to the original and remove two p-tiles from both sides.",
+        "2. Mark the first line as equivalent and continue rather than stopping early.",
+        "3. Compare 2p + 3 = 15 with p = 12 and freeze at the missing operations.",
+        "4. Subtract three from both sides, then divide both sides by two.",
+        "5. Reveal p = 6 and evaluate both original sides as twenty-seven.",
+        "6. Load the parallel variable-on-both-sides equation with all answers hidden."
+      ],
+      "verification": "Both original expressions equal twenty-seven when p is six.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w07",
+      "number": 7,
+      "prompt": "A learner expands 3(q - 2) = 15 as 3q - 2 = 15. Diagnose the first error and solve correctly.",
+      "difficulty": "standard",
+      "cognitive_level": "complex",
+      "marks": 6,
+      "answer": "The factor 3 must multiply both bracket terms; q = 7.",
+      "memo": [
+        "1. The first error is failing to multiply -2 by 3.",
+        "2. Correct expansion: 3q - 6 = 15.",
+        "3. Add 6: 3q = 21.",
+        "4. Divide by 3: q = 7.",
+        "5. Check: 3(7 - 2) = 15.",
+        "6. Repair tag: distribution-error."
+      ],
+      "misconception_tags": [
+        "distribution-error"
+      ],
+      "renderer": "algebra:bracket_distribution",
+      "question_data": "original = 3(q - 2) = 15; learner_expansion = 3q - 2 = 15; correct_expansion = 3q - 6 = 15; solution = 7; parallel_prompt = 4(r + 1) = 20",
+      "initial_state": "Show a sealed q-minus-two group repeated three times and the learner expansion below, with distribution arrows covered.",
+      "teaching_sequence": [
+        "1. Reveal the arrow from three to q and confirm the product 3q.",
+        "2. Reveal the missing arrow from three to negative two.",
+        "3. Mark the unchanged negative two as the first error.",
+        "4. Replace it with negative six and solve the corrected equation.",
+        "5. Reveal q = 7 and rebuild three groups of five.",
+        "6. Present four sealed r-plus-one groups as the parallel check."
+      ],
+      "verification": "Three groups of seven minus two equal fifteen.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w08",
+      "number": 8,
+      "prompt": "A learner solves x/3 + x/6 = 9 by combining the left side as 2x/9. Find the first error and solve correctly.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 7,
+      "answer": "The denominators cannot be added; using LCD 6 gives x = 18.",
+      "memo": [
+        "1. The first error is adding denominators when combining fractions.",
+        "2. The LCD of 3 and 6 is 6.",
+        "3. Multiply every term by 6: 2x + x = 54.",
+        "4. Then 3x = 54, so x = 18.",
+        "5. Check: 18/3 + 18/6 = 6 + 3 = 9.",
+        "6. Repair tag: fraction-structure-error."
+      ],
+      "misconception_tags": [
+        "fraction-structure-error"
+      ],
+      "renderer": "algebra:denominator_lcm",
+      "question_data": "original = x/3 + x/6 = 9; learner_expression = 2x/9; denominators = [3, 6]; lcd = 6; cleared_equation = 2x + x = 54; solution = 18; parallel_prompt = y/2 + y/4 = 12",
+      "initial_state": "Show equal x-bars divided into thirds and sixths beside the learner's 2x-over-nine result; hide the common grid and correction.",
+      "teaching_sequence": [
+        "1. Overlay sixths on both x-bars without altering their total lengths.",
+        "2. Show one third as two sixths and one sixth as one sixth.",
+        "3. Mark denominator addition as the first structural error.",
+        "4. Apply the LCD six to every equation term and reveal 2x + x = 54.",
+        "5. Solve x = 18 and evaluate the original fractions.",
+        "6. Load halves and fourths for the parallel item with the common grid hidden."
+      ],
+      "verification": "Six plus three equals nine when x is eighteen.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w09",
+      "number": 9,
+      "prompt": "A learner translates 'four less than twice a number is 18' as 4 - 2n = 18. Diagnose, repair and solve.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 7,
+      "answer": "The subtraction order is reversed; 2n - 4 = 18 and n = 11.",
+      "memo": [
+        "1. Twice the number is 2n.",
+        "2. Four less than that means 2n - 4, not 4 - 2n.",
+        "3. Form 2n - 4 = 18.",
+        "4. Add 4: 2n = 22.",
+        "5. Divide by 2: n = 11.",
+        "6. Repair tag: context-model-error."
+      ],
+      "misconception_tags": [
+        "context-model-error"
+      ],
+      "renderer": "algebra:error_diagnosis_context",
+      "question_data": "phrase = four less than twice a number; learner_equation = 4 - 2n = 18; correct_equation = 2n - 4 = 18; solution = 11; parallel_prompt = five less than three times a number is 19",
+      "initial_state": "Show the phrase and learner equation on aligned rows with all mapping arrows and corrections hidden.",
+      "teaching_sequence": [
+        "1. Highlight twice a number and map it to 2n.",
+        "2. Attach four less to the completed 2n quantity.",
+        "3. Reveal the learner's reversed order as the first mismatch.",
+        "4. Form and solve the corrected equation 2n - 4 = 18.",
+        "5. Reveal n = 11 and read the original phrase using the calculated value.",
+        "6. Present the parallel phrase without a symbolic equation."
+      ],
+      "verification": "Twice eleven is twenty-two and four less is eighteen.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w10",
+      "number": 10,
+      "prompt": "A rectangle has length (x + 2) cm, width x cm and perimeter 24 cm. A learner writes (x + 2) + x = 24. Diagnose and solve correctly.",
+      "difficulty": "intermediate",
+      "cognitive_level": "complex",
+      "marks": 7,
+      "answer": "The learner counted only two sides; x = 5 and the rectangle is 7 cm by 5 cm.",
+      "memo": [
+        "1. A rectangle perimeter includes two lengths and two widths.",
+        "2. Form 2(x + 2) + 2x = 24.",
+        "3. Expand: 4x + 4 = 24.",
+        "4. Solve: 4x = 20, so x = 5.",
+        "5. Dimensions are 7 cm and 5 cm.",
+        "6. Check: 2(7) + 2(5) = 24 cm."
+      ],
+      "misconception_tags": [
+        "context-model-error",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:perimeter_model",
+      "question_data": "shape = rectangle; length = x + 2; width = x; perimeter = 24; learner_equation = (x + 2) + x = 24; correct_equation = 2(x + 2) + 2x = 24; solution = 5; parallel_prompt = length x + 3, width x, perimeter 30",
+      "initial_state": "Show the rectangle and learner equation with only one horizontal and one vertical edge highlighted; hide the missing-side markers.",
+      "teaching_sequence": [
+        "1. Trace the two edges represented in the learner equation.",
+        "2. Reveal the uncounted opposite length and width as the first modelling error.",
+        "3. Label equal opposite edges and form the four-side equation.",
+        "4. Solve to reveal x = 5 and dimensions seven by five.",
+        "5. Retrace all four numerical sides and total twenty-four.",
+        "6. Display the parallel rectangle with all algebraic answers hidden."
+      ],
+      "verification": "Two sevens plus two fives equal twenty-four centimetres.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w11",
+      "number": 11,
+      "prompt": "A learner simplifies 5r + 2 = 5r + 2 to 2 = 2 and concludes r = 0. Classify the equation correctly.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 7,
+      "answer": "The equation is true for every real value of r, so it has infinitely many solutions.",
+      "memo": [
+        "1. Subtracting 5r from both sides gives 2 = 2.",
+        "2. This remaining statement is always true.",
+        "3. The learner's error is selecting one value instead of describing the complete solution set.",
+        "4. Therefore the equation has infinitely many solutions.",
+        "5. Check with at least two values, such as r = 0 and r = 3.",
+        "6. Repair tag: classification-error."
+      ],
+      "misconception_tags": [
+        "classification-error"
+      ],
+      "renderer": "algebra:identity_contradiction",
+      "question_data": "original = 5r + 2 = 5r + 2; reduced_statement = 2 = 2; learner_conclusion = r = 0; classification = infinitely many solutions; test_values = [0, 3]; parallel_prompt = 4a - 1 = 4a - 1",
+      "initial_state": "Show identical equation sides and the learner conclusion with the truth-state panel covered.",
+      "teaching_sequence": [
+        "1. Remove five r-tiles from both sides.",
+        "2. Reveal the true statement 2 = 2.",
+        "3. Test r = 0 and show the original equality holds.",
+        "4. Test r = 3 and show the equality also holds.",
+        "5. Replace the single-value conclusion with infinitely many solutions.",
+        "6. Present the parallel identity with its classification hidden."
+      ],
+      "verification": "Every substituted value produces identical original sides.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w12",
+      "number": 12,
+      "prompt": "A learner simplifies 3s + 7 = 3s - 1 to 7 = -1, then reports s = -8. Diagnose and classify.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 7,
+      "answer": "The statement 7 = -1 is false, so the equation has no solution.",
+      "memo": [
+        "1. Subtracting 3s from both sides correctly gives 7 = -1.",
+        "2. The remaining statement is false for every value of s.",
+        "3. The error is attempting to solve a contradiction as if a variable remained.",
+        "4. Therefore the equation has no solution.",
+        "5. Substitution cannot make constants 7 and -1 equal.",
+        "6. Repair tag: classification-error."
+      ],
+      "misconception_tags": [
+        "classification-error"
+      ],
+      "renderer": "algebra:identity_contradiction",
+      "question_data": "original = 3s + 7 = 3s - 1; reduced_statement = 7 = -1; learner_conclusion = s = -8; classification = no solution; parallel_prompt = 2b + 5 = 2b - 4",
+      "initial_state": "Show equal variable groups with unequal constant groups and the learner conclusion; hide the contradiction marker.",
+      "teaching_sequence": [
+        "1. Remove three s-tiles from both complete sides.",
+        "2. Reveal seven positive units opposite one negative unit.",
+        "3. Mark 7 = -1 as false without performing another inverse operation.",
+        "4. Explain that no variable remains to isolate.",
+        "5. Replace s = -8 with the classification no solution.",
+        "6. Load the parallel contradiction with its classification hidden."
+      ],
+      "verification": "No value of s can change the unequal constant difference between the original sides.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w13",
+      "number": 13,
+      "prompt": "A learner expands 2(3t - 1) + 4 = 20 as 6t - 1 + 4 = 20. Find the first error and solve correctly.",
+      "difficulty": "exam",
+      "cognitive_level": "complex",
+      "marks": 8,
+      "answer": "The -1 must also be multiplied by 2; t = 3.",
+      "memo": [
+        "1. The first error is leaving -1 unchanged during distribution.",
+        "2. Correct expansion: 6t - 2 + 4 = 20.",
+        "3. Simplify: 6t + 2 = 20.",
+        "4. Subtract 2: 6t = 18.",
+        "5. Divide by 6: t = 3.",
+        "6. Check: 2(9 - 1) + 4 = 20."
+      ],
+      "misconception_tags": [
+        "distribution-error",
+        "two-step-order-error"
+      ],
+      "renderer": "algebra:bracket_distribution",
+      "question_data": "original = 2(3t - 1) + 4 = 20; learner_expansion = 6t - 1 + 4 = 20; correct_expansion = 6t - 2 + 4 = 20; solution = 3; parallel_prompt = 3(2u + 1) - 2 = 19",
+      "initial_state": "Show two sealed three-t-minus-one groups plus four units and the learner line; hide distribution arrows and the solution.",
+      "teaching_sequence": [
+        "1. Reveal the factor-two arrow to 3t and confirm 6t.",
+        "2. Reveal the missing factor-two arrow to negative one.",
+        "3. Mark negative one as the first incorrect unchanged term.",
+        "4. Correct it to negative two and simplify to 6t + 2 = 20.",
+        "5. Solve and reveal t = 3, then rebuild the original grouped model.",
+        "6. Present the parallel bracket problem with all products hidden."
+      ],
+      "verification": "Two groups of eight plus four equal twenty.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w14",
+      "number": 14,
+      "prompt": "A taxi charges R20 plus R5 per kilometre. A learner writes 25d = 55 for a R55 trip. Diagnose the model and find the distance.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 8,
+      "answer": "The fixed R20 must not be multiplied by distance; 20 + 5d = 55 and d = 7 km.",
+      "memo": [
+        "1. The learner incorrectly combined the fixed fee and per-kilometre rate.",
+        "2. Let d be the distance in kilometres.",
+        "3. Correct model: 20 + 5d = 55.",
+        "4. Subtract 20: 5d = 35.",
+        "5. Divide by 5: d = 7.",
+        "6. Check: R20 + 7(R5) = R55."
+      ],
+      "misconception_tags": [
+        "context-model-error",
+        "verification-omitted"
+      ],
+      "renderer": "algebra:rate_table",
+      "question_data": "fixed_fee = 20; rate = 5; unit = kilometre; total = 55; learner_equation = 25d = 55; correct_equation = 20 + 5d = 55; solution = 7; parallel_prompt = R30 plus R4 per kilometre totals R62",
+      "initial_state": "Show a fare table with fixed-fee and distance-rate rows collapsed into the learner's single R25-per-distance block; hide the corrected separation.",
+      "teaching_sequence": [
+        "1. Reveal R20 as a one-time starting charge.",
+        "2. Reveal R5 repeated once per kilometre.",
+        "3. Mark multiplication of the fixed R20 by d as the first modelling error.",
+        "4. Separate the rows and form 20 + 5d = 55.",
+        "5. Solve d = 7 and count seven R5 route segments.",
+        "6. Present the parallel fare table with its distance hidden."
+      ],
+      "verification": "The fixed fee occurs once and seven kilometre charges produce the R55 total.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    },
+    {
+      "id": "g8-ae-l10-w15",
+      "number": 15,
+      "prompt": "A learner expands 4(x + 3) + 2 = 2x + 26 as 4x + 3 + 2 = 2x + 26. Identify the first error, solve correctly and state the repair route.",
+      "difficulty": "advanced",
+      "cognitive_level": "problem_solving",
+      "marks": 9,
+      "answer": "The 3 was not multiplied by 4; x = 6. Route to distribution repair, then a fresh bracket reassessment.",
+      "memo": [
+        "1. The first error is incomplete distribution: 4(x + 3) must become 4x + 12.",
+        "2. Correct equation: 4x + 12 + 2 = 2x + 26.",
+        "3. Simplify: 4x + 14 = 2x + 26.",
+        "4. Subtract 2x and 14: 2x = 12.",
+        "5. Therefore x = 6; check 4(9) + 2 = 38 and 12 + 26 = 38.",
+        "6. Primary tag: distribution-error. Repair with a bracket-arrow replay, then administer a new bracket equation."
+      ],
+      "misconception_tags": [
+        "distribution-error",
+        "variable-term-not-combined",
+        "verification-omitted"
+      ],
+      "renderer": "diagnosis:mastery_map",
+      "question_data": "original = 4(x + 3) + 2 = 2x + 26; learner_expansion = 4x + 3 + 2 = 2x + 26; first_error_tag = distribution-error; correct_equation = 4x + 14 = 2x + 26; solution = 6; repair_route = bracket-arrow replay then parallel bracket reassessment",
+      "initial_state": "Show the learner solution beside a covered skill-cluster map; hide the first-error marker, repaired line, solution and routing decision.",
+      "teaching_sequence": [
+        "1. Compare the original bracket with the learner expansion term by term.",
+        "2. Reveal the missing arrow from four to positive three and mark the first error.",
+        "3. Correct the expansion and solve one legal operation per line to x = 6.",
+        "4. Substitute six into both original sides and display thirty-eight twice.",
+        "5. Open the mastery map and record one distribution-error event without penalising later dependent lines separately.",
+        "6. Route the learner to a bracket-arrow repair followed by a fresh parallel reassessment."
+      ],
+      "verification": "The corrected solution satisfies both original sides and the repair route targets the first misconception.",
+      "runtime_rule": "The final answer remains hidden at initial load. Each event targets a real semantic object, captions equal narration, Previous and Next reconstruct exact states, and reduced-motion mode preserves the same teaching order."
+    }
+  ],
+  "practice_questions": [
+    {
+      "id": "g8-ae-l10-p01",
+      "number": 1,
+      "prompt": "A learner solves a - 8 = 13 as a = 5. Identify the first error and solve.",
+      "marks": 4,
+      "answer": "The learner subtracted 8 again; a = 21.",
+      "solution": [
+        "1. Add 8 to both sides: a = 21.",
+        "2. Check: 21 - 8 = 13."
+      ],
+      "misconception_tags": [
+        "inverse-direction"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p02",
+      "number": 2,
+      "prompt": "A learner solves 6b = 42 as b = 36. Diagnose and solve.",
+      "marks": 4,
+      "answer": "Divide by 6; b = 7.",
+      "solution": [
+        "1. The coefficient multiplies b.",
+        "2. 42 divided by 6 is 7."
+      ],
+      "misconception_tags": [
+        "division-by-coefficient-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p03",
+      "number": 3,
+      "prompt": "A learner solves 2c + 7 = 19 as 2c = 26. Identify the first error and solve.",
+      "marks": 5,
+      "answer": "Seven should be subtracted; c = 6.",
+      "solution": [
+        "1. 2c = 19 - 7 = 12.",
+        "2. Divide by 2: c = 6."
+      ],
+      "misconception_tags": [
+        "inverse-direction"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p04",
+      "number": 4,
+      "prompt": "A learner solves -4d = 28 as d = 7. Repair the sign error.",
+      "marks": 5,
+      "answer": "d = -7.",
+      "solution": [
+        "1. Divide both sides by -4.",
+        "2. d = 28/(-4) = -7."
+      ],
+      "misconception_tags": [
+        "division-by-coefficient-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p05",
+      "number": 5,
+      "prompt": "A learner changes 5e + 2 = 3e + 16 to 2e + 2 = 16, then writes e = 14. Find the first incorrect line and solve.",
+      "marks": 6,
+      "answer": "The first line is correct; subtract 2 and divide by 2, so e = 7.",
+      "solution": [
+        "1. 2e + 2 = 16 is equivalent.",
+        "2. 2e = 14, so e = 7."
+      ],
+      "misconception_tags": [
+        "two-step-order-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p06",
+      "number": 6,
+      "prompt": "A learner expands 2(f + 5) = 24 as 2f + 5 = 24. Diagnose and solve.",
+      "marks": 6,
+      "answer": "The 5 must also be doubled; f = 7.",
+      "solution": [
+        "1. Correct expansion: 2f + 10 = 24.",
+        "2. 2f = 14, so f = 7."
+      ],
+      "misconception_tags": [
+        "distribution-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p07",
+      "number": 7,
+      "prompt": "A learner combines g/2 + g/4 as 2g/6. Repair and solve g/2 + g/4 = 15.",
+      "marks": 6,
+      "answer": "Use LCD 4; g = 20.",
+      "solution": [
+        "1. Multiply every term by 4: 2g + g = 60.",
+        "2. 3g = 60, so g = 20."
+      ],
+      "misconception_tags": [
+        "fraction-structure-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p08",
+      "number": 8,
+      "prompt": "A learner translates 'six less than three times h is 24' as 6 - 3h = 24. Repair and solve.",
+      "marks": 6,
+      "answer": "3h - 6 = 24; h = 10.",
+      "solution": [
+        "1. Three times h is 3h; six less gives 3h - 6.",
+        "2. 3h = 30, so h = 10."
+      ],
+      "misconception_tags": [
+        "context-model-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p09",
+      "number": 9,
+      "prompt": "A rectangle has length (x + 1) cm, width x cm and perimeter 18 cm. A learner writes 2x + 1 = 18. Diagnose and solve.",
+      "marks": 6,
+      "answer": "All four sides are required; x = 4 and dimensions are 5 cm by 4 cm.",
+      "solution": [
+        "1. Form 2(x + 1) + 2x = 18.",
+        "2. 4x + 2 = 18, so x = 4."
+      ],
+      "misconception_tags": [
+        "context-model-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p10",
+      "number": 10,
+      "prompt": "Classify 4j + 9 = 4j + 9 after a learner concludes j = 0.",
+      "marks": 6,
+      "answer": "Infinitely many solutions.",
+      "solution": [
+        "1. Subtract 4j: 9 = 9.",
+        "2. The statement is always true."
+      ],
+      "misconception_tags": [
+        "classification-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p11",
+      "number": 11,
+      "prompt": "Classify 2k + 5 = 2k - 3 after a learner reports k = -8.",
+      "marks": 6,
+      "answer": "No solution.",
+      "solution": [
+        "1. Subtract 2k: 5 = -3.",
+        "2. The statement is false, so no value works."
+      ],
+      "misconception_tags": [
+        "classification-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p12",
+      "number": 12,
+      "prompt": "A learner expands 3(2m - 4) + 1 = 19 as 6m - 4 + 1 = 19. Diagnose and solve.",
+      "marks": 7,
+      "answer": "The -4 must be multiplied by 3; m = 5.",
+      "solution": [
+        "1. Correct expansion: 6m - 12 + 1 = 19.",
+        "2. 6m - 11 = 19, so 6m = 30 and m = 5."
+      ],
+      "misconception_tags": [
+        "distribution-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p13",
+      "number": 13,
+      "prompt": "A service costs R25 plus R7 per use. A learner models a R74 bill as 32u = 74. Repair and find u.",
+      "marks": 7,
+      "answer": "25 + 7u = 74; u = 7 uses.",
+      "solution": [
+        "1. Keep the fixed fee separate from the per-use rate.",
+        "2. 7u = 49, so u = 7."
+      ],
+      "misconception_tags": [
+        "context-model-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p14",
+      "number": 14,
+      "prompt": "A learner solves (n - 1)/3 + n/6 = 5 by adding denominators. Diagnose and solve correctly.",
+      "marks": 8,
+      "answer": "Use LCD 6; n = 32/3.",
+      "solution": [
+        "1. Multiply every term by 6: 2(n - 1) + n = 30.",
+        "2. 3n - 2 = 30, so 3n = 32 and n = 32/3."
+      ],
+      "misconception_tags": [
+        "fraction-structure-error"
+      ]
+    },
+    {
+      "id": "g8-ae-l10-p15",
+      "number": 15,
+      "prompt": "A learner expands 5(p - 2) + 3 = 3p + 17 as 5p - 2 + 3 = 3p + 17. Identify the first error and solve correctly.",
+      "marks": 8,
+      "answer": "The -2 must be multiplied by 5; p = 12.",
+      "solution": [
+        "1. Correct expansion: 5p - 10 + 3 = 3p + 17.",
+        "2. 5p - 7 = 3p + 17.",
+        "3. 2p = 24, so p = 12."
+      ],
+      "misconception_tags": [
+        "distribution-error",
+        "variable-term-not-combined"
+      ]
+    }
+  ],
+  "mastery_questions": [
+    {
+      "id": "g8-ae-l10-m01",
+      "number": 1,
+      "prompt": "Diagnose: 3x - 4 = 20 becomes 3x = 16. Solve correctly.",
+      "marks": 5,
+      "answer": "The inverse direction is wrong; x = 8.",
+      "solution": [
+        "1. Add 4: 3x = 24.",
+        "2. Divide by 3: x = 8."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l10-m02",
+      "number": 2,
+      "prompt": "Diagnose: 4(y + 2) = 32 becomes 4y + 2 = 32. Solve correctly.",
+      "marks": 6,
+      "answer": "Distribution is incomplete; y = 6.",
+      "solution": [
+        "1. Correct expansion: 4y + 8 = 32.",
+        "2. 4y = 24, so y = 6."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l10-m03",
+      "number": 3,
+      "prompt": "Diagnose and solve: z/2 + z/3 = 10 is combined as 2z/5 = 10.",
+      "marks": 6,
+      "answer": "The fractions need LCD 6; z = 12.",
+      "solution": [
+        "1. Multiply by 6: 3z + 2z = 60.",
+        "2. 5z = 60, so z = 12."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l10-m04",
+      "number": 4,
+      "prompt": "Classify 7a + 1 = 7a - 6.",
+      "marks": 6,
+      "answer": "No solution.",
+      "solution": [
+        "1. Subtract 7a: 1 = -6.",
+        "2. The contradiction means no value works."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l10-m05",
+      "number": 5,
+      "prompt": "A rental costs R35 plus R9 per hour. Repair the model 44h = 98 and find the hours for a R98 bill.",
+      "marks": 7,
+      "answer": "35 + 9h = 98; h = 7 hours.",
+      "solution": [
+        "1. The fixed fee occurs once.",
+        "2. 9h = 63, so h = 7."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "repair_rules": [
+    "Incorrect M1: Route to equality and inverse-operation repair using worked examples 1, 3 and 5, then administer R1.",
+    "Incorrect M2: Route to bracket distribution using worked examples 7, 13 and 15, then administer R2.",
+    "Incorrect M3: Route to fraction structure and LCD repair using worked example 8, then administer R3.",
+    "Incorrect M4: Route to identity-versus-contradiction classification using worked examples 11 and 12, then administer R1.",
+    "Incorrect M5: Route to fixed-versus-variable context modelling using worked example 14, then administer R3.",
+    "Readiness rule: Progress only with at least 4/5 correct, successful verification on the context item and no repeated essential misconception on its parallel reassessment.",
+    "If readiness is not met: Record Repair required, reteach only failed clusters and rerun fresh parallel items. Do not unlock by repeating the same questions."
+  ],
+  "reassessment_questions": [
+    {
+      "id": "g8-ae-l10-r01",
+      "number": 1,
+      "prompt": "Diagnose and classify: 5b + 4 = 5b + 4 is reported as b = 0.",
+      "marks": 6,
+      "answer": "Infinitely many solutions.",
+      "solution": [
+        "1. Subtract 5b: 4 = 4.",
+        "2. The true statement holds for every b."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l10-r02",
+      "number": 2,
+      "prompt": "Diagnose: 3(c - 4) = 18 becomes 3c - 4 = 18. Solve correctly.",
+      "marks": 6,
+      "answer": "Distribution is incomplete; c = 10.",
+      "solution": [
+        "1. Correct expansion: 3c - 12 = 18.",
+        "2. 3c = 30, so c = 10."
+      ],
+      "misconception_tags": []
+    },
+    {
+      "id": "g8-ae-l10-r03",
+      "number": 3,
+      "prompt": "A plan costs R40 plus R6 per visit. Repair 46v = 88 and find the visits for an R88 total.",
+      "marks": 7,
+      "answer": "40 + 6v = 88; v = 8 visits.",
+      "solution": [
+        "1. Keep the R40 fixed fee separate.",
+        "2. 6v = 48, so v = 8."
+      ],
+      "misconception_tags": []
+    }
+  ],
+  "summary": [
+    "Diagnose the earliest invalid change, not merely the final wrong answer.",
+    "Confirm correct learner steps before marking the first failure.",
+    "Attach one primary misconception tag to the first error.",
+    "Use the smallest visual repair that targets that misconception.",
+    "Require a fresh parallel reassessment to demonstrate transfer.",
+    "Base readiness on overall mastery, essential skill clusters, verification and successful repair evidence."
+  ]
+}

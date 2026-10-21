@@ -9,6 +9,8 @@ from app.curriculum.grade8.assessment_lesson5 import PRACTICE_BANK as GRADE8_LES
 from app.curriculum.grade8.assessment_lesson6 import PRACTICE_BANK as GRADE8_LESSON6_PRACTICE
 from app.curriculum.grade8.assessment_lesson7 import PRACTICE_BANK as GRADE8_LESSON7_PRACTICE
 from app.curriculum.grade8.assessment_lesson8 import PRACTICE_BANK as GRADE8_LESSON8_PRACTICE
+from app.curriculum.grade8.assessment_lesson9 import PRACTICE_BANK as GRADE8_LESSON9_PRACTICE
+from app.curriculum.grade8.assessment_lesson10 import PRACTICE_BANK as GRADE8_LESSON10_PRACTICE
 
 PRACTICE_BANKS = {
     **GRADE12_BANKS,
@@ -20,6 +22,8 @@ PRACTICE_BANKS = {
     "g8-algebraic-equations-06": GRADE8_LESSON6_PRACTICE,
     "g8-algebraic-equations-07": GRADE8_LESSON7_PRACTICE,
     "g8-algebraic-equations-08": GRADE8_LESSON8_PRACTICE,
+    "g8-algebraic-equations-09": GRADE8_LESSON9_PRACTICE,
+    "g8-algebraic-equations-10": GRADE8_LESSON10_PRACTICE,
 }
 PRACTICE_BY_ID = {
     question.id: question

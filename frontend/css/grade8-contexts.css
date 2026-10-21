@@ -1,0 +1,19 @@
+.context-visual [data-object-id="model"] { margin: .75rem 0; }
+.context-strips { display: flex; align-items: stretch; gap: .65rem; flex-wrap: wrap; }
+.context-strips--stacked { flex-direction: column; align-items: stretch; }
+.context-card { border: 2px solid #90b9d0; border-radius: .8rem; padding: .7rem .85rem; background: #f2f9fc; min-width: 7rem; display: flex; flex-direction: column; gap: .25rem; }
+.context-card > span { font-size: .8rem; color: #33546a; }
+.context-card strong { color: #143548; overflow-wrap: anywhere; }
+.context-join { display: grid; place-items: center; font-weight: 700; }
+.context-geometry { display: flex; align-items: center; gap: .7rem; flex-wrap: wrap; }
+.context-geometry svg { width: min(100%, 26rem); height: auto; color: #176689; overflow: visible; }
+.context-geometry svg text { fill: #143548; font-size: 15px; font-weight: 600; }
+.context-table { overflow-x: auto; }
+.context-table table { border-collapse: collapse; width: 100%; min-width: 21rem; }
+.context-table th, .context-table td { padding: .6rem; border: 1px solid #9dbaca; text-align: left; }
+.context-table thead { background: #e5f2f9; }
+@media (max-width: 600px) {
+  .context-strips:not(.context-strips--stacked) { gap: .4rem; }
+  .context-strips:not(.context-strips--stacked) .context-card { flex: 1 1 42%; min-width: 0; }
+  .context-geometry svg { width: min(100%, 20rem); }
+}

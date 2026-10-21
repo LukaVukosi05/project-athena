@@ -11,7 +11,11 @@ class Element {
   constructor() { this.hidden = false; this.disabled = false; this.onclick = null; this.onchange = null; this.textContent = ""; this.innerHTML = ""; }
   focus() { this.focused = true; }
   insertAdjacentHTML() {}
-  querySelector(selector) { if (selector.includes('retry')) return this.retry || (this.retry = { addEventListener(_type, listener) { this.onclick = listener; } }); return null; }
+  querySelector(selector) {
+    if (selector === 'form') return this.form || (this.form = new Element());
+    if (selector.includes('retry')) return this.retry || (this.retry = { addEventListener(_type, listener) { this.onclick = listener; } });
+    return null;
+  }
 }
 class Mount {
   set innerHTML(value) {
@@ -23,6 +27,7 @@ class Mount {
     if (selector === '[data-role="current-whiteboard"]') return this.nodes.board;
     if (selector === ".stateful-whiteboard header") return this.nodes.header;
     if (selector === '[data-role="example-loading"]') return this.nodes.loading;
+    if (selector === '.whiteboard-control-bar') return { before: node => { this.nodes.gateBeforeControls = node; } };
     const match = selector.match(/data-example-action="([^"]+)/);
     return match ? this.nodes[match[1]] || null : null;
   }
@@ -31,6 +36,7 @@ class Mount {
 global.StatefulWhiteboard = class {
   constructor(mount, block, options) { this.block = block; this.index = options.initialStep; this.status = options.initialStatus; this.options = options; this.destroyed = false; }
   mountBoard() { return this; }
+  setPendingError(failed) { this.pendingError = failed; }
   state(index, status) { this.index = index; this.status = status; this.options.onStateChange(index, status); }
   destroy() { this.destroyed = true; }
 };
@@ -83,4 +89,48 @@ test("the whiteboard appears immediately and loads teaching steps without an exp
   set.moveTo(0);
   assert.equal(set.board.block.problem, "Problem 1");
   assert.equal(set.board.options.pending, false);
+});
+
+test("a diagnostic preview places the required attempt inside the whiteboard controls", () => {
+  const preview = {...makeQuestion(0), solution_gated:true, diagnostic_submission_required:true, total_step_count:6};
+  preview.whiteboard.steps = [{}];
+  const set = new WhiteboardQuestionSet(new Mount(), [preview], {lessonId:"g8-algebraic-equations-10", solutionLoader:()=>Promise.resolve(makeQuestion(0))}).mountSet();
+  assert.equal(set.mount.nodes.gateBeforeControls, set.mount.nodes.loading);
+  assert.match(set.mount.nodes.loading.innerHTML, /Find the first incorrect change/i);
+  assert.equal(set.board.options.pendingLabel, "Submit your diagnosis below");
+  assert.equal(set.board.options.totalStepCount, 6, "the preview identifies the authored steps while keeping them gated");
+  assert.equal(set.loading.size, 0, "the request waits for the learner's diagnosis");
+});
+
+test("submitting the diagnosis replaces the locked preview with the worked example", async () => {
+  const preview = {...makeQuestion(0), solution_gated:true, diagnostic_submission_required:true};
+  const full = makeQuestion(0);
+  const attempts = [];
+  const set = new WhiteboardQuestionSet(new Mount(), [preview], {
+    solutionLoader:async (id, answer) => { attempts.push([id, answer]); return full; }
+  }).mountSet();
+  const form = set.mount.nodes.loading.querySelector('form');
+  form.querySelector = () => ({value:'The learner divided only one side; divide both sides.'});
+  form.onsubmit({preventDefault(){}, currentTarget:form});
+  await new Promise(resolve => setImmediate(resolve));
+  assert.deepEqual(attempts, [['q1', 'The learner divided only one side; divide both sides.']]);
+  assert.equal(set.board.options.pending, false);
+  assert.equal(set.questions[0], full);
+});
+
+test("a failed example load exposes a retry on the whiteboard", async () => {
+  const preview = {...makeQuestion(0), solution_gated:true};
+  let attempts = 0;
+  const full = makeQuestion(0);
+  const set = new WhiteboardQuestionSet(new Mount(), [preview], {
+    solutionLoader:async () => { if (++attempts === 1) throw new Error('Request failed'); return full; }
+  }).mountSet();
+  await new Promise(resolve => setImmediate(resolve));
+  assert.equal(set.board.pendingError, true);
+  assert.match(set.mount.nodes.loading.innerHTML, /Request failed/);
+  set.board.options.onRetryExample();
+  await new Promise(resolve => setImmediate(resolve));
+  assert.equal(attempts, 2);
+  assert.equal(set.board.options.pending, false);
+  assert.equal(set.questions[0], full);
 });

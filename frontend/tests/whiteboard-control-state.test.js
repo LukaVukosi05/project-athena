@@ -28,6 +28,17 @@ test("the primary control has exactly one state-aware action", () => {
   }
 });
 
+test("a failed preview lets the learner retry without playing the hidden solution", () => {
+  const calls = [], board = Object.create(StatefulWhiteboard.prototype);
+  Object.assign(board, {status:'idle', pending:true, pendingError:true,
+    onRetryExample(){calls.push('retry');}, startCurrent(){calls.push('start');}});
+  board.primaryAction();
+  assert.deepEqual(calls,['retry']);
+  board.pendingError=false;
+  board.primaryAction();
+  assert.deepEqual(calls,['retry']);
+});
+
 test("manual Next reconstructs one and only one mathematical state", () => {
   const calls = [], board = Object.create(StatefulWhiteboard.prototype);
   Object.assign(board, { status: "step_complete", index: 0, block: { steps: [{}, {}, {}] }, reconstruct(phase,status){calls.push([phase,status,this.index]);this.status=status;} });

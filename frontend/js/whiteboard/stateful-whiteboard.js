@@ -10,7 +10,11 @@ class StatefulWhiteboard {
     this.onSelectExample = options.onSelectExample || function () {};
     this.exampleIndex = options.exampleIndex || 0;
     this.exampleCount = options.exampleCount || 1;
+    this.totalStepCount = options.totalStepCount || block.steps.length;
     this.pending = Boolean(options.pending);
+    this.pendingLabel = options.pendingLabel || "Loading example…";
+    this.pendingError = false;
+    this.onRetryExample = options.onRetryExample || function () {};
     this.teachingNotes = options.teachingNotes || {};
     this.diagnosticContext = options.diagnosticContext || {};
     this.visualSession = AthenaVisualizationResolver.resolve(block, this.diagnosticContext);
@@ -63,6 +67,7 @@ class StatefulWhiteboard {
 
   runAction(action) { if (this.destroyed || this.actionLocked) return; this.actionLocked = true; try { action(); } finally { queueMicrotask(() => { this.actionLocked = false; }); } }
   primaryAction() {
+    if (this.pending) { if (this.pendingError) this.onRetryExample(); return; }
     if (this.status === "idle") this.startCurrent();
     else if (this.status === "playing") return;
     else if (this.status === "paused") this.continueCurrent();
@@ -153,13 +158,20 @@ class StatefulWhiteboard {
     this.status = status; this.mount.querySelector(".stateful-whiteboard").dataset.controllerState = status;
     const labels = { idle:this.index ? "Explain this step →" : "Start explanation →", playing:"Explaining…", paused:"Continue explanation →", step_complete:"Next step →", example_complete:this.exampleIndex + 1 < this.exampleCount ? "Next example →" : "Start practice →" };
     const primary = this.mount.querySelector('[data-action="primary"]'); primary.textContent = labels[status]; primary.setAttribute("aria-label", labels[status]);
-    primary.disabled = status === "playing" || this.pending;
-    if (this.pending) primary.textContent = "Loading example…";
+    primary.disabled = status === "playing" || (this.pending && !this.pendingError);
+    if (this.pending) {
+      const label = this.pendingError ? "Retry loading example →" : this.pendingLabel;
+      primary.textContent = label; primary.setAttribute("aria-label", label);
+    }
     this.mount.querySelector('[data-action="previous"]').disabled = this.index === 0 && this.exampleIndex === 0;
     this.mount.querySelector('[data-action="pause"]').hidden = status !== "playing";
     const replay = this.mount.querySelector('[data-action="replay"]'); replay.disabled = status === "playing"; replay.hidden = status === "example_complete";
-    this.mount.querySelector('[data-role="position"]').textContent = `Step ${this.index + 1} of ${this.block.steps.length}`;
+    this.mount.querySelector('[data-role="position"]').textContent = `Step ${this.index + 1} of ${this.totalStepCount}`;
     if (notify) this.onStateChange(this.index, status);
+  }
+  setPendingError(failed) {
+    this.pendingError = failed;
+    this.setStatus(this.status, false);
   }
   destroy() { if (this.destroyed) return; this.destroyed = true; this.listeners?.abort(); this.stopTimeline(); this.visualSession?.destroy(); if (this.visibilityHandler) document.removeEventListener("visibilitychange", this.visibilityHandler); this.mount.replaceChildren(); }
   showCheckpoint(event, controller) {

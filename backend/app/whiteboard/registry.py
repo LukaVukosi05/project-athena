@@ -90,6 +90,8 @@ for grade8_template in (
     "identity_contradiction", "dual_rate_timeline", "equal_sides_triangle",
     "bracket_balance_native", "bracket_distribution_native", "bracket_paths_native", "bracket_area_native", "bracket_rectangle_native",
     "fraction_bar_balance_native", "fraction_equivalence_native", "fraction_lcd_native", "fraction_error_native", "fraction_context_native",
+            "context_translation_strip_native", "number_relationship_native", "money_model_native", "perimeter_model_native", "sharing_bar_model_native", "age_timeline_native", "rate_table_native", "error_diagnosis_context_native",
+            "diagnosis_first_error_replay_native", "diagnosis_balance_equation_native", "diagnosis_signed_balance_native", "diagnosis_bracket_distribution_native", "diagnosis_denominator_lcm_native", "diagnosis_error_diagnosis_context_native", "diagnosis_perimeter_model_native", "diagnosis_identity_contradiction_native", "diagnosis_rate_table_native", "diagnosis_mastery_map_native",
 ):
     registry.register(
         f"{grade8_template}_step",

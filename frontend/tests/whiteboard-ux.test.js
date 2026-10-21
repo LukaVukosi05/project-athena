@@ -7,7 +7,7 @@ const pages=fs.readFileSync(path.join(root,"css/pages.css"),"utf8");
 
 assert.strictEqual((source.match(/<button[^>]+data-action="primary"/g)||[]).length,1,"one primary action is rendered");
 for(const transition of ["startCurrent()","pauseCurrent()","continueCurrent()","nextStep()","previousStep()","replayStep()"]){assert(source.includes(transition),transition);}
-assert(source.includes('Step ${this.index + 1} of ${this.block.steps.length}'));
+assert(source.includes('Step ${this.index + 1} of ${this.totalStepCount}'));
 assert(source.includes('aria-live="polite"')&&source.includes('aria-atomic="true"'));
 assert(source.includes('type="button"'));
 assert(source.includes('data-controller-state'));

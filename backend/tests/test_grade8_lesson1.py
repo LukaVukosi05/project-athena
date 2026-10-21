@@ -54,8 +54,8 @@ def test_runtime_matches_source_and_release_gate():
     grade = curriculum_repository.get_grade("grade-8")
     lessons = grade.topics[0].subtopics[0].lessons
     assert len(lessons) == 10
-    assert all(item.release_approved and item.status.value == "published" for item in lessons[:8])
-    assert all(not item.release_approved and item.status.value == "coming_soon" for item in lessons[8:])
+    assert all(item.release_approved and item.status.value == "published" for item in lessons[:10])
+    assert all(not item.release_approved and item.status.value == "coming_soon" for item in lessons[10:])
     assert not [failure for failure in validate_curriculum([grade]) if failure.lesson_id == LESSON_1.id]
 
 
@@ -327,7 +327,11 @@ def test_published_timeline_validation_reports_all_teaching_failures():
     assert all(item.grade_id == "grade-8" and item.topic_id == "algebraic-equations" and item.lesson_id == LESSON_1.id for item in failures)
 
 
-def test_public_payload_gates_answers_and_direct_urls_restore():
+def test_public_payload_gates_answers_and_direct_urls_restore(monkeypatch):
+    # Exercise the entitlement contract independently of a developer's local
+    # ATHENA_UNLOCK_ALL_LESSONS setting used for manual curriculum inspection.
+    from app.core.config import get_settings
+    monkeypatch.setattr(get_settings(), "unlock_all_lessons", False)
     with TestClient(app) as client:
         payload = client.get("/api/v1/lessons/g8-algebraic-equations-01").json()
         topic_payload = client.get("/api/v1/curriculum/grades/grade-8/topics/algebraic-equations").json()
@@ -338,6 +342,7 @@ def test_public_payload_gates_answers_and_direct_urls_restore():
     assert payload["paper"] is None
     assert all("answer" not in item and "full_memo" not in item for item in payload["whiteboard_questions"])
     assert all(item["solution_gated"] and len(item["whiteboard"]["steps"]) == 1 for item in payload["whiteboard_questions"])
+    assert [item["total_step_count"] for item in payload["whiteboard_questions"]] == [len(item.whiteboard.steps) for item in LESSON_1.whiteboard_questions]
     assert "whiteboard_questions" not in topic_payload["subtopics"][0]["lessons"][0]
     assert "assessment_contract" not in topic_payload["subtopics"][0]["lessons"][0]
     assert blocked.status_code == 401
@@ -345,6 +350,17 @@ def test_public_payload_gates_answers_and_direct_urls_restore():
     assert revealed.json()["id"] == "g8-ae-l01-w01"
     assert "internal_instruction" not in json.dumps(revealed.json())
     assert "Reveal the complete equation" not in json.dumps(revealed.json())
+
+
+def test_development_unlock_all_lessons_allows_premium_preview(monkeypatch):
+    from app.core.config import get_settings
+    settings = get_settings()
+    monkeypatch.setattr(settings, "environment", "development")
+    monkeypatch.setattr(settings, "unlock_all_lessons", True)
+    with TestClient(app) as client:
+        preview = client.get("/api/v1/lessons/g8-algebraic-equations-07")
+    assert preview.status_code == 200
+    assert all("answer" not in item for item in preview.json()["whiteboard_questions"])
 
 
 def test_server_authoritative_practice_mastery_repair_and_reassessment():

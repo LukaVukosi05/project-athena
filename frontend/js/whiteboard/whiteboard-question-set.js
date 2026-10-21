@@ -12,6 +12,7 @@ class WhiteboardQuestionSet {
     this.destroyed = false;
     this.loading = new Set();
     this.loadErrors = new Map();
+    this.diagnosticAnswers = new Map();
   }
   mountSet() { this.render(); return this; }
   render() {
@@ -24,41 +25,60 @@ class WhiteboardQuestionSet {
     const currentIndex = this.index;
     this.board = new StatefulWhiteboard(this.mount.querySelector('[data-role="current-whiteboard"]'), question.whiteboard, {
         initialStep: this.steps[currentIndex], initialStatus:this.statuses[currentIndex],
-        exampleIndex:currentIndex, exampleCount:this.questions.length, pending:Boolean(question.solution_gated), guidanceLevel:question.guidance_level,
+        exampleIndex:currentIndex, exampleCount:this.questions.length, pending:Boolean(question.solution_gated),
+        totalStepCount:question.total_step_count || question.whiteboard.steps.length,
+        pendingLabel:question.diagnostic_submission_required ? "Submit your diagnosis below" : "Loading teaching steps…", guidanceLevel:question.guidance_level,
         diagnosticContext:{ lesson_id:this.lessonId, question_id:question.id }, teachingNotes:this.teachingNotes,
         onStateChange:(step, status) => { if (this.index !== currentIndex) return; this.steps[currentIndex] = step; this.statuses[currentIndex] = status; this.syncUrl(step); },
         onNextExample:() => currentIndex === this.questions.length - 1 ? this.onPractice() : this.moveTo(currentIndex + 1),
         onPreviousExample:() => this.moveTo(currentIndex - 1),
-        onSelectExample:index => this.moveTo(index)
+        onSelectExample:index => this.moveTo(index),
+        onRetryExample:() => this.loadExample(currentIndex)
       }).mountBoard();
+    const gate=this.mount.querySelector('[data-role="example-loading"]');
+    const controlBar=this.mount.querySelector('.whiteboard-control-bar');
+    if (gate && controlBar) controlBar.before(gate);
     this.syncUrl(this.steps[this.index]);
     if (question.solution_gated) {
-      this.mount.querySelector('[data-role="example-loading"]').textContent = "Loading the teaching steps…";
-      this.loadExample(currentIndex);
+      if (question.diagnostic_submission_required) {
+        gate.innerHTML = `<form data-role="diagnostic-attempt" class="diagnostic-attempt"><label for="diagnostic-${currentIndex}">Before the worked steps: find the first incorrect change in the learner attempt above. How would you repair it?</label><textarea id="diagnostic-${currentIndex}" required minlength="3" maxlength="500" rows="2" placeholder="Describe the first error and a correction"></textarea><button type="submit" class="btn btn-primary">Submit diagnosis and view teaching</button></form>`;
+        gate.querySelector('form').onsubmit=event=>{event.preventDefault();const answer=event.currentTarget.querySelector('textarea').value.trim();if(answer.length<3)return;this.diagnosticAnswers.set(currentIndex,answer);this.loadExample(currentIndex,answer);};
+      } else {
+        gate.textContent = "Loading the teaching steps…";
+        this.loadExample(currentIndex);
+      }
     }
     this.requestedStep = 0;
   }
-  async loadExample(index) {
+  async loadExample(index, diagnosticAnswer = this.diagnosticAnswers.get(index)) {
     if (this.loading.has(index) || !this.questions[index]?.solution_gated) return;
     this.loading.add(index);
+    if (this.index === index) this.board?.setPendingError?.(false);
     const message = this.mount.querySelector('[data-role="example-loading"]');
     if (this.index === index && message) message.textContent = "Loading the teaching steps…";
+    let timer;
+    const controller = new AbortController();
     try {
       if (!this.solutionLoader) throw new Error("Teaching steps are unavailable.");
-      const full = await this.solutionLoader(this.questions[index].id);
+      const full = await Promise.race([
+        this.solutionLoader(this.questions[index].id, diagnosticAnswer, controller.signal),
+        new Promise((_, reject) => { timer = setTimeout(() => reject(new Error("The teaching steps took too long to load. Please try again.")), 15000); })
+      ]);
       if (this.destroyed) return;
       this.questions[index] = full;
       this.steps[index] = Math.min(this.steps[index], full.whiteboard.steps.length - 1);
       this.loadErrors.delete(index);
       if (this.index === index) this.render();
     } catch (error) {
+      controller.abort();
       if (this.destroyed) return;
       this.loadErrors.set(index, error);
-      if (this.index === index && message) {
-        message.innerHTML = `<p role="alert">${escapeWhiteboardHtml(error.message)}</p><button type="button" class="btn btn-ghost" data-example-action="retry">Retry loading example</button>`;
-        message.querySelector('[data-example-action="retry"]')?.addEventListener('click', () => this.loadExample(index));
+      const currentMessage = this.index === index ? this.mount.querySelector('[data-role="example-loading"]') : null;
+      if (currentMessage) {
+        currentMessage.innerHTML = `<p role="alert">${escapeWhiteboardHtml(error.message || "The teaching steps could not be loaded.")}</p>`;
+        this.board?.setPendingError?.(true);
       }
-    } finally { this.loading.delete(index); }
+    } finally { clearTimeout(timer); this.loading.delete(index); }
   }
   moveTo(index) {
     if (!Number.isInteger(index) || index < 0 || index >= this.questions.length || index === this.index) return;
