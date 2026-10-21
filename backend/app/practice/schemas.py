@@ -13,6 +13,7 @@ ALGEBRA_SOURCE = "Project_Athena_Grade12_Topic5_Algebra_Equations_and_Inequaliti
 STATISTICS_SOURCE = "Project_Athena_Grade12_Topic8_Statistics_and_Regression_Paper2_Approved_Lesson_Pack.docx"
 ANALYTICAL_GEOMETRY_SOURCE = "Project_Athena_Grade12_Topic9_Analytical_Geometry_Paper2_Approved_Lesson_Pack.docx"
 GRADE8_ALGEBRA_SOURCE = "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+GRADE8_EXPRESSIONS_SOURCE = "Project_Athena_Grade8_Algebraic_Expressions_Lesson1_Source_Pack_v1.docx"
 SOURCE_DOCUMENT = SEQUENCES_SOURCE
 
 
@@ -44,8 +45,8 @@ class WorkedSolutionStep(BaseModel):
 
 
 class PracticeQuestion(BaseModel):
-    id: str = Field(pattern=r"^(?:g8-ae-l\d{2}-p\d{2}|g12-(?:seq|functions|finance|calculus)-l\d{2}-p\d{2}|G12-(?:ALG|STAT|AG)-L\d{2}-P\d{2})$")
-    lesson_id: str = Field(pattern=r"^(?:g8-algebraic-equations|g12-(?:sequences-series|functions|finance|calculus|algebra|statistics|analytical-geometry))-\d{2}$")
+    id: str = Field(pattern=r"^(?:g8-(?:ae|ex)-l\d{2}-p\d{2}|g12-(?:seq|functions|finance|calculus)-l\d{2}-p\d{2}|G12-(?:ALG|STAT|AG)-L\d{2}-P\d{2})$")
+    lesson_id: str = Field(pattern=r"^(?:g8-algebraic-(?:equations|expressions)|g12-(?:sequences-series|functions|finance|calculus|algebra|statistics|analytical-geometry))-\d{2}$")
     question_number: int = Field(ge=1, le=15)
     difficulty: Literal["foundation", "easy", "standard", "intermediate", "exam", "advanced", "source_unspecified"]
     cognitive_level: Literal["knowledge", "routine", "complex", "problem_solving", "source_unspecified"]
@@ -60,7 +61,7 @@ class PracticeQuestion(BaseModel):
     misconception_tags: list[str] = Field(default_factory=list, max_length=8)
     verification: dict[str, str] = Field(min_length=1, max_length=4)
     correct_feedback: str = Field(min_length=1, max_length=500)
-    source: Literal[SEQUENCES_SOURCE, FUNCTIONS_SOURCE, FINANCE_SOURCE, CALCULUS_SOURCE, ALGEBRA_SOURCE, STATISTICS_SOURCE, ANALYTICAL_GEOMETRY_SOURCE, GRADE8_ALGEBRA_SOURCE] = SEQUENCES_SOURCE
+    source: Literal[SEQUENCES_SOURCE, FUNCTIONS_SOURCE, FINANCE_SOURCE, CALCULUS_SOURCE, ALGEBRA_SOURCE, STATISTICS_SOURCE, ANALYTICAL_GEOMETRY_SOURCE, GRADE8_ALGEBRA_SOURCE, GRADE8_EXPRESSIONS_SOURCE] = SEQUENCES_SOURCE
     expected_evidence: str | None = None
     feedback_route: str | None = None
     operation_signature: list[str] = Field(default_factory=list)

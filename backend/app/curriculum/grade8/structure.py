@@ -13,6 +13,7 @@ from app.curriculum.grade8.lesson7_runtime import LESSON_7
 from app.curriculum.grade8.lesson8_runtime import LESSON_8
 from app.curriculum.grade8.lesson9_runtime import LESSON_9
 from app.curriculum.grade8.lesson10_runtime import LESSON_10
+from app.curriculum.grade8.algebraic_expressions import LESSON as EXPRESSIONS_LESSON
 
 SOURCE = "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
 SOURCE_SHA256 = "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574"
@@ -125,9 +126,21 @@ ALGEBRAIC_EQUATIONS_TOPIC = Topic(
     )],
 )
 
+ALGEBRAIC_EXPRESSIONS_TOPIC = Topic(
+    id="algebraic-expressions", product_order=2, title="Algebraic Expressions",
+    official_caps_topic="Algebraic expressions", caps_sequence=2, term=2,
+    expected_duration="First lesson authored; remaining lesson plan awaiting review",
+    paper=None, caps_reference="CAPS Grade 8 Mathematics — Algebraic expressions",
+    curriculum="CAPS", ieb_relevant=True,
+    exam_relevance="Grade 8 classroom and formal assessment",
+    status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+    subtopics=[Subtopic(id="algebraic-expressions-learning-path", order=1,
+        title="Algebraic language and expressions", prerequisites=[], lessons=[EXPRESSIONS_LESSON])],
+)
+
 GRADE_8 = GradeCurriculum(
     id="grade-8",
     grade=8,
     status=ContentStatus.DRAFT,
-    topics=[ALGEBRAIC_EQUATIONS_TOPIC],
+    topics=[ALGEBRAIC_EQUATIONS_TOPIC, ALGEBRAIC_EXPRESSIONS_TOPIC],
 )

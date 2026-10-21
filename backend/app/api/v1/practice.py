@@ -12,8 +12,11 @@ from app.practice.schemas import AssessmentSubmission,PracticeAnswerRequest,Prac
 from app.practice.service import blank_response,check_answer,mastery_summary,public_status
 from app.curriculum.grade8.assessment import MASTERY_BANK,MISCONCEPTION_REPAIRS,REASSESSMENT_BANK,REPAIR_RULES
 from app.curriculum.grade8 import assessment_lesson2, assessment_lesson3, assessment_lesson4, assessment_lesson5, assessment_lesson6, assessment_lesson7, assessment_lesson8, assessment_lesson9, assessment_lesson10
+from app.curriculum.grade8 import assessment_expressions
 
 ASSESSMENT_BANKS={
+    "g8-algebraic-expressions-01":(assessment_expressions.MASTERY_BANK, assessment_expressions.REASSESSMENT_BANK,
+                                    assessment_expressions.MISCONCEPTION_REPAIRS, assessment_expressions.REPAIR_RULES),
     "g8-algebraic-equations-01":(MASTERY_BANK,REASSESSMENT_BANK,MISCONCEPTION_REPAIRS,REPAIR_RULES),
     "g8-algebraic-equations-02":(assessment_lesson2.MASTERY_BANK,assessment_lesson2.REASSESSMENT_BANK,
                                   assessment_lesson2.MISCONCEPTION_REPAIRS,assessment_lesson2.REPAIR_RULES),
@@ -124,10 +127,12 @@ def submit_mastery(lesson_id:str,session_id:str,payload:AssessmentSubmission,use
     mastery,_,repairs,_=assessment_or_404(lesson_id)
     session=session_or_404(lesson_id,session_id,db,user);correct,reviewed,tags=_score_assessment(mastery,payload.answers)
     context_verified=next((row["correct"] for row in reviewed if row["id"] == "g8-ae-l10-m05"),True)
-    mastered=correct>=4 and context_verified
+    earned_marks = sum((question.marks or 0) for question, row in zip(mastery, reviewed) if row['correct'])
+    mastered=(earned_marks >= 16 if lesson_id == 'g8-algebraic-expressions-01' else correct>=4) and context_verified
     decision=("ready" if mastered else "repeat_diagnostic_required" if lesson_id == "g8-algebraic-equations-10" and correct<=2 else "targeted_repair_required")
     updated=dict(session.responses or {});updated["__mastery__"]={"correct":correct,"mastered":mastered,"tags":tags,"decision":decision,"context_verified":context_verified};session.responses=updated;db.add(session);db.commit()
-    return {"questions_correct":correct,"total_questions":5,"score":correct*20,"mastered":mastered,"readiness_decision":decision,"context_verified":context_verified,"diagnosis":tags,"worked_review":reviewed,"repair_routes":[] if mastered else [{"tag":tag,**repairs[tag]} for tag in tags if tag in repairs]}
+    score=(earned_marks * 5 if lesson_id == 'g8-algebraic-expressions-01' else correct*20)
+    return {"questions_correct":correct,"total_questions":5,"score":score,"mastered":mastered,"readiness_decision":decision,"context_verified":context_verified,"diagnosis":tags,"worked_review":reviewed,"repair_routes":[] if mastered else [{"tag":tag,**repairs[tag]} for tag in tags if tag in repairs]}
 
 
 @router.get("/{lesson_id}/sessions/{session_id}/repair")

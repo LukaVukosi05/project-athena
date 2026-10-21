@@ -62,7 +62,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                         field for field in source_data.split("; ")
                         if field.partition("=")[0].strip() not in concealed
                     )
-            if lesson.id in {"g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
+            if lesson.id in {"g8-algebraic-expressions-01", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
                 preview = question["whiteboard"]["steps"][0]
                 preview["working_expression"] = preview["before_expression"]
                 preview["after_expression"] = preview["before_expression"]
@@ -112,7 +112,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
 @router.post("/{lesson_id}/questions/{question_id}/reveal")
 def reveal_worked_example(lesson_id: str, question_id: str, user: User | None = Depends(get_optional_user)) -> dict:
     grade, _, _, lesson = _lesson_context(lesson_id)
-    if grade.id != "grade-8" or lesson.id not in {"g8-algebraic-equations-01", "g8-algebraic-equations-02", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
+    if grade.id != "grade-8" or lesson.id not in {"g8-algebraic-expressions-01", "g8-algebraic-equations-01", "g8-algebraic-equations-02", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
         raise HTTPException(status_code=404, detail="Worked example not found")
     enforce_lesson_access(lesson, user)
     if lesson.id == "g8-algebraic-equations-10":

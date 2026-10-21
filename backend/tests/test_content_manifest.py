@@ -10,7 +10,7 @@ from app.main import app
 def test_grades_eight_to_twelve_are_registered_from_available_sources():
     grades = curriculum_repository.list_grades()
     assert [grade.id for grade in grades] == [f"grade-{number}" for number in range(8, 13)]
-    assert [topic.id for topic in grades[0].topics] == ["algebraic-equations"]
+    assert [topic.id for topic in grades[0].topics] == ["algebraic-equations", "algebraic-expressions"]
     assert all(not grade.topics for grade in grades[1:4])
     assert len(grades[-1].topics) == 7
 
@@ -19,8 +19,8 @@ def test_manifest_uses_the_six_required_readiness_states_and_stable_ids():
     manifest = manifest_for(curriculum_repository.list_grades())
     assert manifest["states"] == [state.value for state in ReadinessState]
     lessons = [lesson for grade in manifest["grades"] for topic in grade["topics"] for lesson in topic["lessons"]]
-    assert len(lessons) == 138
-    assert len({lesson["id"] for lesson in lessons}) == 138
+    assert len(lessons) == 139
+    assert len({lesson["id"] for lesson in lessons}) == 139
     assert {lesson["readiness"] for lesson in lessons} <= set(ReadinessState)
     grade8 = curriculum_repository.get_grade("grade-8")
     released_grade8 = sum(item.release_approved for topic in grade8.topics for subtopic in topic.subtopics for item in subtopic.lessons)
@@ -38,7 +38,7 @@ def test_catalogue_counts_only_usable_runtime_lessons_as_interactive():
         grade = client.get("/api/v1/curriculum/grades/grade-12").json()
         grade8 = client.get("/api/v1/curriculum/grades/grade-8").json()
         blocked = client.get("/api/v1/curriculum/grades/grade-9").json()
-    assert len(grade8["topics"]) == 1
+    assert len(grade8["topics"]) == 2
     assert blocked["topics"] == []
     assert all(topic["interactive_lesson_count"] == topic["verified_lesson_count"] + topic["published_interactive_lesson_count"] for topic in grade["topics"])
     counts = {topic["id"]: topic["published_interactive_lesson_count"] for topic in grade["topics"]}
@@ -58,7 +58,7 @@ def test_generated_catalogue_is_deterministic_and_reports_absent_master_sources(
     assert first == second
     assert first_discrepancies == second_discrepancies
     assert [grade["grade_id"] for grade in first["grades"]] == [f"grade-{number}" for number in range(8, 13)]
-    assert len(first["grades"][0]["topics"]) == 1
+    assert len(first["grades"][0]["topics"]) == 2
     assert len(first["grades"][-1]["topics"]) == 7
     assert first_discrepancies == [
         "missing required source: grades-8-9",

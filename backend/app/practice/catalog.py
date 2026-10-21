@@ -11,8 +11,10 @@ from app.curriculum.grade8.assessment_lesson7 import PRACTICE_BANK as GRADE8_LES
 from app.curriculum.grade8.assessment_lesson8 import PRACTICE_BANK as GRADE8_LESSON8_PRACTICE
 from app.curriculum.grade8.assessment_lesson9 import PRACTICE_BANK as GRADE8_LESSON9_PRACTICE
 from app.curriculum.grade8.assessment_lesson10 import PRACTICE_BANK as GRADE8_LESSON10_PRACTICE
+from app.curriculum.grade8.assessment_expressions import PRACTICE_BANK as GRADE8_EXPRESSIONS_PRACTICE
 
 PRACTICE_BANKS = {
+    "g8-algebraic-expressions-01": GRADE8_EXPRESSIONS_PRACTICE,
     **GRADE12_BANKS,
     "g8-algebraic-equations-01": GRADE8_LESSON1_PRACTICE,
     "g8-algebraic-equations-02": GRADE8_LESSON2_PRACTICE,

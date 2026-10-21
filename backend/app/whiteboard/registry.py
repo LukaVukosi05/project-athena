@@ -79,6 +79,8 @@ for algebra_operation in (
 ):
     registry.register(algebra_operation, "algebra_timeline_reasoning", lambda step: bool(step.events and step.visualization_state))
 for grade8_template in (
+    "expression_tiles", "signed_terms", "grouped_terms", "fraction_bar",
+    "square_comparison", "like_term_sort", "unlike_term_sort", "receipt", "rectangle",
     "equality_balance", "additive_inverse", "multiplicative_inverse",
     "two_step_balance", "variables_both_sides", "context_to_equation",
     "distributive_equation", "inspection_fact_family", "inspection_number_line",

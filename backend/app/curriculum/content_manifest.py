@@ -101,6 +101,16 @@ def release_gate_passes(lesson: Lesson) -> bool:
 
 SOURCE_INVENTORY = (
     {
+        "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson1_Source_Pack_v1.docx",
+        "grade": "8", "present": True,
+        "topics_described": ["Algebraic Expressions"], "lessons_expected": 1,
+        "fully_authored_lessons": 1,
+        "reference_questions": "15 original worked examples, 15 practice questions, five mastery questions and three reassessments",
+        "whiteboard_specifications": "Question-specific expression, signed-term, grid, receipt and geometry objects",
+        "missing_content": "Teacher review and real browser acceptance remain; this is the first lesson, not a full topic pack.",
+        "implementation_status": "runtime_integrated_teacher_review_required",
+    },
+    {
         "document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
         "grade": "8",
         "present": True,

@@ -40,6 +40,11 @@
       "document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
       "sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
       "paragraph_count": 7441
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson1_Source_Pack_v1.docx",
+      "sha256": "d40014372e8f64855b6012a666c6d7b46bcfa8195722784fc9a9c16a080555a5",
+      "paragraph_count": 347
     }
   ],
   "grades": [
@@ -135,6 +140,24 @@
               "status": "published",
               "duration_minutes": 100,
               "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            }
+          ]
+        },
+        {
+          "topic_id": "algebraic-expressions",
+          "topic_number": 2,
+          "title": "Algebraic Expressions",
+          "paper": null,
+          "expected_lesson_count": 1,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-algebraic-expressions-01",
+              "position": 1,
+              "title": "Reading and building algebraic expressions",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson1_Source_Pack_v1.docx"
             }
           ]
         }

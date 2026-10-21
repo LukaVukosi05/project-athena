@@ -121,5 +121,14 @@
   "statistics:spread_number_line",
   "trigonometry:oblique_triangle",
   "trigonometry:right_triangle",
-  "trigonometry:unit_circle"
+  "trigonometry:unit_circle",
+  "algebra:expression_tiles",
+  "algebra:signed_terms",
+  "algebra:grouped_terms",
+  "algebra:fraction_bar",
+  "algebra:square_comparison",
+  "algebra:like_term_sort",
+  "algebra:unlike_term_sort",
+  "algebra:receipt",
+  "algebra:rectangle"
 ]

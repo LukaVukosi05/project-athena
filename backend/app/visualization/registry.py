@@ -114,6 +114,17 @@ def _grade8_equation_visual(parameters: dict) -> None:
     if not re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", parameters["question_id"]):
         raise ValueError("Grade 8 equation question_id is invalid")
 
+def _grade8_expression_visual(parameters: dict) -> None:
+    if not re.fullmatch(r"g8-ex-l01-w(?:0[1-9]|1[0-5])", str(parameters["question_id"])):
+        raise ValueError("Grade 8 expression question_id is invalid")
+    if not isinstance(parameters["prompt"], str) or not parameters["prompt"].strip():
+        raise ValueError("Expression prompt is required")
+    tokens = parameters["model_tokens"]
+    if not isinstance(tokens, list) or not 2 <= len(tokens) <= 8 or any(not isinstance(t, str) or not t.strip() for t in tokens):
+        raise ValueError("Expression model needs 2–8 mathematical objects")
+    if not isinstance(parameters["total_steps"], int) or not 3 <= parameters["total_steps"] <= 12:
+        raise ValueError("Expression lesson needs progressive teaching steps")
+
 def _semantic_workbench(parameters: dict) -> None:
     for name in ("prompt", "answer", "family"):
         if not isinstance(parameters[name], str) or not parameters[name].strip():
@@ -204,6 +215,12 @@ def _coordinate_scene(parameters: dict) -> None:
     _semantic_workbench({**parameters, "prompt":"coordinate scene", "answer":"coordinate result", "family":"coordinate_scene"})
 
 CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
+    **{("algebra", template): TemplateDefinition(
+        frozenset({"prompt", "question_id", "model_tokens", "model_description", "total_steps"}),
+        frozenset(), _grade8_expression_visual, True)
+        for template in ("expression_tiles", "signed_terms", "grouped_terms",
+            "fraction_bar", "square_comparison", "like_term_sort", "unlike_term_sort",
+            "receipt", "rectangle")},
     **{
         ("algebra", template): TemplateDefinition(
             frozenset({"prompt", "source_data", "initial_state", "family", "question_id"}),
