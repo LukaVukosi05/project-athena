@@ -35,7 +35,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
         if grade.id == "grade-8":
             question["total_step_count"] = len(question["whiteboard"]["steps"])
             question["solution_gated"] = True
-            if lesson.id == "g8-algebraic-equations-10":
+            if lesson.id in {"g8-algebraic-equations-10", "g8-algebraic-expressions-10"}:
                 question["diagnostic_submission_required"] = True
             question["whiteboard"]["steps"] = question["whiteboard"]["steps"][:1]
             if lesson.id == "g8-algebraic-equations-02":
@@ -62,7 +62,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                         field for field in source_data.split("; ")
                         if field.partition("=")[0].strip() not in concealed
                     )
-            if lesson.id in {"g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
+            if lesson.id in {"g8-algebraic-expressions-01", "g8-algebraic-expressions-02", "g8-algebraic-expressions-03", "g8-algebraic-expressions-04", "g8-algebraic-expressions-05", "g8-algebraic-expressions-06", "g8-algebraic-expressions-07", "g8-algebraic-expressions-08", "g8-algebraic-expressions-09", "g8-algebraic-expressions-10", "g8-functions-relationships-01", "g8-functions-relationships-02", "g8-functions-relationships-03", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
                 preview = question["whiteboard"]["steps"][0]
                 preview["working_expression"] = preview["before_expression"]
                 preview["after_expression"] = preview["before_expression"]
@@ -112,10 +112,10 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
 @router.post("/{lesson_id}/questions/{question_id}/reveal")
 def reveal_worked_example(lesson_id: str, question_id: str, user: User | None = Depends(get_optional_user)) -> dict:
     grade, _, _, lesson = _lesson_context(lesson_id)
-    if grade.id != "grade-8" or lesson.id not in {"g8-algebraic-equations-01", "g8-algebraic-equations-02", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
+    if grade.id != "grade-8" or lesson.id not in {"g8-algebraic-expressions-01", "g8-algebraic-expressions-02", "g8-algebraic-expressions-03", "g8-algebraic-expressions-04", "g8-algebraic-expressions-05", "g8-algebraic-expressions-06", "g8-algebraic-expressions-07", "g8-algebraic-expressions-08", "g8-algebraic-expressions-09", "g8-algebraic-expressions-10", "g8-functions-relationships-01", "g8-functions-relationships-02", "g8-functions-relationships-03", "g8-algebraic-equations-01", "g8-algebraic-equations-02", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
         raise HTTPException(status_code=404, detail="Worked example not found")
     enforce_lesson_access(lesson, user)
-    if lesson.id == "g8-algebraic-equations-10":
+    if lesson.id in {"g8-algebraic-equations-10", "g8-algebraic-expressions-10"}:
         raise HTTPException(status_code=409, detail="Submit your first-error diagnosis before viewing the worked repair")
     question = next((item for item in lesson.whiteboard_questions if item.id == question_id), None)
     if question is None:
@@ -133,7 +133,7 @@ class DiagnosticAttempt(BaseModel):
 def diagnose_worked_example(lesson_id: str, question_id: str, attempt: DiagnosticAttempt,
                             user: User | None = Depends(get_optional_user)) -> dict:
     grade, _, _, lesson = _lesson_context(lesson_id)
-    if grade.id != "grade-8" or lesson.id != "g8-algebraic-equations-10":
+    if grade.id != "grade-8" or lesson.id not in {"g8-algebraic-equations-10", "g8-algebraic-expressions-10"}:
         raise HTTPException(status_code=404, detail="Diagnostic case not found")
     enforce_lesson_access(lesson, user)
     if not attempt.first_error_and_repair.strip():

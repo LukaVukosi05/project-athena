@@ -1,0 +1,1379 @@
+{
+  "id": "g8-functions-relationships-03",
+  "title": "Finding and testing rules from tables",
+  "source_document": "Project_Athena_Grade8_Functions_Relationships_Lesson3_Source_Pack_v1.docx",
+  "source_sha256": "42c2c35f474f1e8740c6ade0ea8832bd53da47a7d46cd4d48134d52fee383a57",
+  "worked_examples": [
+    {
+      "id": "g8-fr-l03-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Follow a constant difference",
+      "q": "Table: x=0,1,2; y=2,3,4. Give a simple matching rule and output at x=3.",
+      "answer": "A matching rule is y=x+2; at x=3, y=5.",
+      "model": {
+        "family": "rule_difference",
+        "inputs": [
+          "0→2",
+          "1→3",
+          "2→4"
+        ],
+        "outputs": [
+          "change +1",
+          "rule x+2",
+          "3→5"
+        ],
+        "rows": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            null
+          ]
+        ],
+        "description": "Follow a constant difference",
+        "resolved_outputs": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "output_reveal_steps": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "states": [
+        "Each input step is one",
+        "Output rises by one each row",
+        "At input zero, output is two",
+        "Use y=x+2 to get five at x=3"
+      ],
+      "steps": [
+        {
+          "title": "Compare adjacent rows",
+          "action": "Mark plus one between both adjacent input and output rows.",
+          "narration": "The input and output change at the same rate."
+        },
+        {
+          "title": "Find the starting value",
+          "action": "Circle the row at input zero.",
+          "narration": "Two is the constant amount added."
+        },
+        {
+          "title": "Extend the rule",
+          "action": "Send three through add two.",
+          "narration": "The next output is five."
+        }
+      ],
+      "verify": "x+2 gives 2,3,4,5 on inputs 0,1,2,3.",
+      "misconception": "Copying an output without relating it to input.",
+      "repair": "Highlight changes between successive rows."
+    },
+    {
+      "id": "g8-fr-l03-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Recognise a decreasing rule",
+      "q": "Table: x=0,1,2,3; y=10,7,4,1. Give a simple matching rule.",
+      "answer": "A matching rule is y=10−3x.",
+      "model": {
+        "family": "rule_difference",
+        "inputs": [
+          "0→10",
+          "1→7",
+          "2→4",
+          "3→1"
+        ],
+        "outputs": [
+          "change −3",
+          "rule 10−3x"
+        ],
+        "rows": [
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "description": "Recognise a decreasing rule"
+      },
+      "states": [
+        "Outputs 10,7,4,1",
+        "Every input plus one changes output by minus three",
+        "At zero, output is ten",
+        "Rule y=10−3x"
+      ],
+      "steps": [
+        {
+          "title": "Follow down the table",
+          "action": "Record a decrease of three for each unit input increase.",
+          "narration": "The rate is negative three."
+        },
+        {
+          "title": "Mark input zero",
+          "action": "Ten is the output before any input steps.",
+          "narration": "This is the starting value."
+        },
+        {
+          "title": "Write and test",
+          "action": "Start at ten and subtract three x.",
+          "narration": "At x=3 the result is one."
+        }
+      ],
+      "verify": "At x=0,1,2,3 the proposed rule gives 10,7,4,1.",
+      "misconception": "Writing 10+3x even though outputs decrease.",
+      "repair": "Use directed minus-three arrows."
+    },
+    {
+      "id": "g8-fr-l03-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Handle a negative input",
+      "q": "Rule y=2x+5 has x=−2,0,2. Complete its table.",
+      "answer": "Outputs are 1,5,9 respectively.",
+      "model": {
+        "family": "rule_signed",
+        "inputs": [
+          "x=−2",
+          "x=0",
+          "x=2",
+          "y=2x+5"
+        ],
+        "outputs": [
+          "−2→1",
+          "0→5",
+          "2→9"
+        ],
+        "rows": [
+          [
+            -2,
+            null
+          ],
+          [
+            0,
+            null
+          ],
+          [
+            2,
+            null
+          ]
+        ],
+        "description": "Handle a negative input",
+        "resolved_outputs": [
+          1,
+          5,
+          9
+        ],
+        "output_reveal_steps": [
+          1,
+          2,
+          3
+        ]
+      },
+      "states": [
+        "Evaluate y=2x+5 on three inputs",
+        "At negative two: 2(−2)+5=1",
+        "At zero: 0+5=5",
+        "At two: 4+5=9"
+      ],
+      "steps": [
+        {
+          "title": "Keep the sign",
+          "action": "Insert negative two inside brackets.",
+          "narration": "Twice negative two is negative four."
+        },
+        {
+          "title": "Use zero",
+          "action": "The multiplier term becomes zero.",
+          "narration": "This reveals the starting value five."
+        },
+        {
+          "title": "Use positive two",
+          "action": "Twice two is four, then add five.",
+          "narration": "Nine completes the third row."
+        }
+      ],
+      "verify": "2(−2)+5=1; 2(0)+5=5; 2(2)+5=9.",
+      "misconception": "Treating negative input as positive.",
+      "repair": "Keep the signed input in a visible substitution slot."
+    },
+    {
+      "id": "g8-fr-l03-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Recover the zero row",
+      "q": "A table shows x=1→7, 2→10, 3→13. Find a simple linear rule and its output at x=0.",
+      "answer": "A matching linear rule is y=3x+4; at zero y=4.",
+      "model": {
+        "family": "rule_zero",
+        "inputs": [
+          "1→7",
+          "2→10",
+          "3→13"
+        ],
+        "outputs": [
+          "per step +3",
+          "zero row 4",
+          "rule 3x+4"
+        ],
+        "rows": [
+          [
+            0,
+            null
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            13
+          ]
+        ],
+        "description": "Recover the zero row",
+        "resolved_outputs": [
+          4,
+          7,
+          10,
+          13
+        ],
+        "output_reveal_steps": [
+          2,
+          0,
+          0,
+          0
+        ]
+      },
+      "states": [
+        "The shown rows have equal input gaps of one",
+        "Both known output gaps are three for one input step",
+        "Undo one step from x=1: 7−3=4 at x=0",
+        "A matching linear rule is y=3x+4"
+      ],
+      "steps": [
+        {
+          "title": "Measure the step",
+          "action": "Compare seven and ten, then ten and thirteen.",
+          "narration": "Both gaps are plus three."
+        },
+        {
+          "title": "Step backwards",
+          "action": "Subtract three from seven for the previous input zero.",
+          "narration": "The fixed part is four."
+        },
+        {
+          "title": "Check the rule",
+          "action": "At x=1,2,3 formula gives 7,10,13.",
+          "narration": "All stated rows agree."
+        }
+      ],
+      "verify": "3(0)+4=4 and x=1,2,3 produce 7,10,13.",
+      "misconception": "Assuming the first shown output is the intercept.",
+      "repair": "Insert the missing zero row explicitly."
+    },
+    {
+      "id": "g8-fr-l03-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Account for unequal input spacing",
+      "q": "Table: 0→3, 2→11, 4→19. Find a simple linear rule and output at x=3.",
+      "answer": "A matching linear rule is y=4x+3; at x=3, y=15.",
+      "model": {
+        "family": "rule_difference",
+        "inputs": [
+          "0→3",
+          "2→11",
+          "4→19"
+        ],
+        "outputs": [
+          "2 input steps→8 output",
+          "per step +4",
+          "rule 4x+3",
+          "3→15"
+        ],
+        "rows": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            null
+          ],
+          [
+            4,
+            19
+          ]
+        ],
+        "description": "Account for unequal input spacing",
+        "resolved_outputs": [
+          3,
+          11,
+          15,
+          19
+        ],
+        "output_reveal_steps": [
+          0,
+          0,
+          4,
+          0
+        ]
+      },
+      "states": [
+        "Inputs jump by two; outputs jump by eight",
+        "One input step changes output by four",
+        "At zero the output is three",
+        "A matching rule is y=4x+3",
+        "At x=3 output is fifteen"
+      ],
+      "steps": [
+        {
+          "title": "Compare both intervals",
+          "action": "Each two-input gap adds eight output units.",
+          "narration": "Do not mistake eight for the per-one rate."
+        },
+        {
+          "title": "Divide by step width",
+          "action": "Eight over two gives four per one input.",
+          "narration": "That is the rate."
+        },
+        {
+          "title": "Read the starting row",
+          "action": "At zero output is three.",
+          "narration": "Add three after four times x."
+        },
+        {
+          "title": "Fill the missing row",
+          "action": "At three, twelve plus three is fifteen.",
+          "narration": "It lies between outputs eleven and nineteen."
+        }
+      ],
+      "verify": "At x=0,2,3,4 the rule gives 3,11,15,19.",
+      "misconception": "Treating an eight-output jump over two input units as slope eight.",
+      "repair": "Label both Δx and Δy arrows."
+    },
+    {
+      "id": "g8-fr-l03-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Distinguish a proportional rule",
+      "q": "Table: x=0,1,2,3; y=0,4,8,12. Give a simple rule and explain the zero row.",
+      "answer": "A matching rule is y=4x; zero input gives zero output.",
+      "model": {
+        "family": "rule_zero",
+        "inputs": [
+          "0→0",
+          "1→4",
+          "2→8",
+          "3→12"
+        ],
+        "outputs": [
+          "per step +4",
+          "zero part 0",
+          "rule 4x"
+        ],
+        "rows": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            12
+          ]
+        ],
+        "description": "Distinguish a proportional rule"
+      },
+      "states": [
+        "Output grows by four for every unit input",
+        "At zero output is zero",
+        "A matching rule is y=4x",
+        "At three, four times three is twelve"
+      ],
+      "steps": [
+        {
+          "title": "Find unit groups",
+          "action": "One input adds four output units.",
+          "narration": "Each input contributes one group of four."
+        },
+        {
+          "title": "Check zero",
+          "action": "No input groups give zero output.",
+          "narration": "There is no fixed extra amount."
+        },
+        {
+          "title": "Name the rule",
+          "action": "Multiply any input by four.",
+          "narration": "Check all supplied rows."
+        }
+      ],
+      "verify": "4(0)=0,4(1)=4,4(2)=8,4(3)=12.",
+      "misconception": "Adding four to every input instead of multiplying by four.",
+      "repair": "Represent input as a count of four-blocks."
+    },
+    {
+      "id": "g8-fr-l03-w07",
+      "number": 7,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Identify square outputs",
+      "q": "Table: x=0,1,2,3; y=0,1,4,9. Find a matching square rule and output at x=4.",
+      "answer": "A matching rule is y=x²; at x=4 output 16.",
+      "model": {
+        "family": "rule_nonlinear",
+        "inputs": [
+          "0→0",
+          "1→1",
+          "2→4",
+          "3→9"
+        ],
+        "outputs": [
+          "square blocks 0,1,4,9",
+          "rule x²",
+          "4→16"
+        ],
+        "rows": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            null
+          ]
+        ],
+        "description": "Identify square outputs",
+        "resolved_outputs": [
+          0,
+          1,
+          4,
+          9,
+          16
+        ],
+        "output_reveal_steps": [
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "states": [
+        "Outputs are 0,1,4,9",
+        "These are square arrays of side x",
+        "A matching rule is y=x²",
+        "Four-by-four array has sixteen cells"
+      ],
+      "steps": [
+        {
+          "title": "Build square arrays",
+          "action": "Place a square array for each shown nonnegative x.",
+          "narration": "The counted cells are zero, one, four and nine."
+        },
+        {
+          "title": "Read the pattern",
+          "action": "Each output is x multiplied by itself.",
+          "narration": "That gives a candidate square rule."
+        },
+        {
+          "title": "Extend to four",
+          "action": "Count four rows of four cells.",
+          "narration": "The next output is sixteen."
+        }
+      ],
+      "verify": "x² at x=0,1,2,3,4 gives 0,1,4,9,16.",
+      "misconception": "Assuming every table grows by a constant output step.",
+      "repair": "Compare square arrays and unequal differences."
+    },
+    {
+      "id": "g8-fr-l03-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Identify a shifted square",
+      "q": "Table: x=0,1,2,3; y=1,2,5,10. Suggest a simple rule and output at x=4.",
+      "answer": "A matching rule is y=x²+1; at x=4 output 17.",
+      "model": {
+        "family": "rule_nonlinear",
+        "inputs": [
+          "0→1",
+          "1→2",
+          "2→5",
+          "3→10"
+        ],
+        "outputs": [
+          "square counts 0,1,4,9",
+          "add one",
+          "rule x²+1",
+          "4→17"
+        ],
+        "rows": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            null
+          ]
+        ],
+        "description": "Identify a shifted square",
+        "resolved_outputs": [
+          1,
+          2,
+          5,
+          10,
+          17
+        ],
+        "output_reveal_steps": [
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      },
+      "states": [
+        "Given outputs 1,2,5,10",
+        "Subtract one from each output: 0,1,4,9",
+        "These are square counts",
+        "Add one back: y=x²+1",
+        "At four: 16+1=17"
+      ],
+      "steps": [
+        {
+          "title": "Peel off one",
+          "action": "Remove a single fixed tile from each displayed output.",
+          "narration": "The remainders are zero, one, four and nine."
+        },
+        {
+          "title": "Recognise the squares",
+          "action": "The remainders are input squared.",
+          "narration": "This is not a constant-step linear rule."
+        },
+        {
+          "title": "Restore the fixed tile",
+          "action": "Add one to each square count.",
+          "narration": "The candidate rule is x squared plus one."
+        },
+        {
+          "title": "Extend",
+          "action": "Four squared plus one is seventeen.",
+          "narration": "Verify the given rows too."
+        }
+      ],
+      "verify": "At x=0,1,2,3,4, x²+1 gives 1,2,5,10,17.",
+      "misconception": "Taking the changing differences as a constant rate.",
+      "repair": "Show square blocks plus one separate fixed tile."
+    },
+    {
+      "id": "g8-fr-l03-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Recognise underdetermination",
+      "q": "Only 0→0 and 2→4 are shown. Both y=2x and y=x² fit. Are they necessarily the same rule?",
+      "answer": "No; at x=1, 2x=2 while x²=1.",
+      "model": {
+        "family": "rule_choice",
+        "inputs": [
+          "0→0",
+          "2→4",
+          "A=2x",
+          "B=x²"
+        ],
+        "outputs": [
+          "A(1)=2",
+          "B(1)=1",
+          "not the same"
+        ],
+        "rows": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            null
+          ]
+        ],
+        "description": "Recognise underdetermination",
+        "resolved_outputs": [
+          0,
+          4,
+          "?"
+        ],
+        "output_reveal_steps": [
+          0,
+          0,
+          -1
+        ]
+      },
+      "states": [
+        "Two shown rows agree with two candidates",
+        "At x=1, A gives two",
+        "At x=1, B gives one",
+        "The rules differ on an unshown input"
+      ],
+      "steps": [
+        {
+          "title": "Choose a fresh input",
+          "action": "Use one between the displayed zero and two.",
+          "narration": "Rows alone do not establish a unique general rule."
+        },
+        {
+          "title": "Test first candidate",
+          "action": "Twice one is two.",
+          "narration": "Keep the same input for both candidates."
+        },
+        {
+          "title": "Test second candidate",
+          "action": "One squared is one.",
+          "narration": "Different outputs are a counterexample."
+        }
+      ],
+      "verify": "At x=0,2 both agree; at x=1, 2≠1.",
+      "misconception": "Claiming a short table uniquely proves a general formula.",
+      "repair": "Test another input or use the actual rule statement."
+    },
+    {
+      "id": "g8-fr-l03-w10",
+      "number": 10,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Model a fixed fee table",
+      "q": "A plan charges R12 once plus R3 per visit. Make a table for 0,2,5 visits and give C(n).",
+      "answer": "C(n)=12+3n rand; costs R12,R18,R27.",
+      "model": {
+        "family": "rule_context",
+        "inputs": [
+          "fixed R12",
+          "R3 per visit",
+          "n=0,2,5"
+        ],
+        "outputs": [
+          "C=12+3n",
+          "0→12",
+          "2→18",
+          "5→27"
+        ],
+        "rows": [
+          [
+            0,
+            null
+          ],
+          [
+            2,
+            null
+          ],
+          [
+            5,
+            null
+          ]
+        ],
+        "description": "Model a fixed fee table",
+        "resolved_outputs": [
+          12,
+          18,
+          27
+        ],
+        "output_reveal_steps": [
+          2,
+          3,
+          4
+        ]
+      },
+      "states": [
+        "One fee of twelve plus three per visit",
+        "C(n)=12+3n",
+        "At zero cost twelve",
+        "At two cost eighteen",
+        "At five cost twenty seven"
+      ],
+      "steps": [
+        {
+          "title": "Separate the charges",
+          "action": "Show twelve once and three for each visit.",
+          "narration": "The fixed charge does not repeat."
+        },
+        {
+          "title": "Write the formula",
+          "action": "Add three n to twelve.",
+          "narration": "n counts visits."
+        },
+        {
+          "title": "Fill zero row",
+          "action": "With no visits only the fixed fee remains.",
+          "narration": "Cost is twelve rand."
+        },
+        {
+          "title": "Fill two and five",
+          "action": "Add six or fifteen rand to the fixed fee.",
+          "narration": "Costs are eighteen and twenty seven."
+        }
+      ],
+      "verify": "12+3(0)=12; 12+3(2)=18; 12+3(5)=27 rand.",
+      "misconception": "Multiplying the fixed fee by visit count.",
+      "repair": "Keep fixed and repeated charges in separate lanes."
+    },
+    {
+      "id": "g8-fr-l03-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Interpret a negative rate",
+      "q": "The rule y=9−2x gives outputs at x=0,1,3. Fill the table and find y at x=5.",
+      "answer": "Outputs at 0,1,3 are 9,7,3; at x=5, y=−1.",
+      "model": {
+        "family": "rule_signed",
+        "inputs": [
+          "rule 9−2x",
+          "x=0,1,3,5"
+        ],
+        "outputs": [
+          "outputs 9,7,3",
+          "5→−1"
+        ],
+        "rows": [
+          [
+            0,
+            null
+          ],
+          [
+            1,
+            null
+          ],
+          [
+            3,
+            null
+          ],
+          [
+            5,
+            null
+          ]
+        ],
+        "description": "Interpret a negative rate",
+        "resolved_outputs": [
+          9,
+          7,
+          3,
+          -1
+        ],
+        "output_reveal_steps": [
+          2,
+          2,
+          3,
+          4
+        ]
+      },
+      "states": [
+        "The given formula is y=9−2x",
+        "Start nine; subtract two per unit input",
+        "At zero and one: 9 and 7",
+        "At three: 9−6=3",
+        "At five: 9−10=−1"
+      ],
+      "steps": [
+        {
+          "title": "Show starting value",
+          "action": "At zero the two x term is zero.",
+          "narration": "The output begins at nine."
+        },
+        {
+          "title": "Use one input step",
+          "action": "Subtract two for x=1.",
+          "narration": "Output seven is lower than nine."
+        },
+        {
+          "title": "Jump three units",
+          "action": "Three input units remove six from nine.",
+          "narration": "At three output is three."
+        },
+        {
+          "title": "Evaluate five",
+          "action": "Five steps remove ten.",
+          "narration": "The mathematical output is negative one; no physical restriction was stated."
+        }
+      ],
+      "verify": "y(0)=9,y(1)=7,y(3)=3,y(5)=−1.",
+      "misconception": "Rejecting a negative output despite no restricted context.",
+      "repair": "Follow the signed number line through zero."
+    },
+    {
+      "id": "g8-fr-l03-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Reverse a formula row",
+      "q": "For y=4x−3, what input produces output 17? Fill rows at x=0,2 and this input.",
+      "answer": "x=5; rows 0→−3,2→5,5→17.",
+      "model": {
+        "family": "rule_zero",
+        "inputs": [
+          "rule 4x−3",
+          "0→?",
+          "2→?",
+          "?→17"
+        ],
+        "outputs": [
+          "0→−3",
+          "2→5",
+          "17+3=20",
+          "x=5"
+        ],
+        "rows": [
+          [
+            0,
+            null
+          ],
+          [
+            2,
+            null
+          ],
+          [
+            5,
+            17
+          ]
+        ],
+        "description": "Reverse a formula row",
+        "resolved_outputs": [
+          -3,
+          5,
+          17
+        ],
+        "output_reveal_steps": [
+          2,
+          3,
+          0
+        ]
+      },
+      "states": [
+        "Given y=4x−3 with output seventeen",
+        "Reverse equation 4x−3=17",
+        "At zero output minus three",
+        "At two output five",
+        "Undo minus three: twenty",
+        "Undo multiply four: x=5"
+      ],
+      "steps": [
+        {
+          "title": "Set up backward row",
+          "action": "Write four x minus three equals seventeen.",
+          "narration": "The unknown is the input, not the output."
+        },
+        {
+          "title": "Fill zero",
+          "action": "Four times zero minus three is negative three.",
+          "narration": "This reveals the starting row."
+        },
+        {
+          "title": "Fill two",
+          "action": "Eight minus three is five.",
+          "narration": "The row is separate from the inverse task."
+        },
+        {
+          "title": "Undo subtraction",
+          "action": "Add three to seventeen to get twenty.",
+          "narration": "Reverse the final flow arrow first."
+        },
+        {
+          "title": "Undo multiplication",
+          "action": "Twenty divided by four is five.",
+          "narration": "Five is the input because four times five minus three equals seventeen."
+        }
+      ],
+      "verify": "4(5)−3=17; 4(0)−3=−3; 4(2)−3=5.",
+      "misconception": "Dividing seventeen by four before undoing minus three.",
+      "repair": "Reverse the operation boxes right to left."
+    },
+    {
+      "id": "g8-fr-l03-w13",
+      "number": 13,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Reject a linear claim",
+      "q": "Table: x=0,1,2,3; y=0,1,4,9. A learner says y=3x. Find the first mismatch and a better matching rule.",
+      "answer": "At x=1 the claim predicts 3 but table says 1; a matching rule is y=x².",
+      "model": {
+        "family": "rule_nonlinear",
+        "inputs": [
+          "table 0,1,4,9",
+          "claim 3x"
+        ],
+        "outputs": [
+          "claim fails x=1",
+          "differences 1,3,5",
+          "rule x²"
+        ],
+        "rows": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "description": "Reject a linear claim"
+      },
+      "states": [
+        "Given outputs zero, one, four, nine; claim 3x",
+        "At zero, both candidate and table give zero",
+        "At one, proposed 3x gives three, table gives one",
+        "Output gaps are one, three, five",
+        "Squares of inputs match each shown row"
+      ],
+      "steps": [
+        {
+          "title": "Do not trust the first row alone",
+          "action": "Zero makes many different rules appear to agree.",
+          "narration": "Test the next row."
+        },
+        {
+          "title": "Find first mismatch",
+          "action": "At x=1, three x equals three, not one.",
+          "narration": "The proposed rule is false."
+        },
+        {
+          "title": "Inspect changing gaps",
+          "action": "Output differences are one, then three, then five.",
+          "narration": "A constant rate does not fit this table."
+        },
+        {
+          "title": "Test squares",
+          "action": "Zero, one, four, nine are the displayed squares.",
+          "narration": "State a matching rule without claiming uniqueness from only four rows."
+        }
+      ],
+      "verify": "3(1)=3≠1; x² at 0,1,2,3 gives 0,1,4,9.",
+      "misconception": "Accepting a rule because it matches at zero.",
+      "repair": "Check each row and name the first mismatch."
+    },
+    {
+      "id": "g8-fr-l03-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Find rate with nonunit gaps",
+      "q": "Table: 0→2, 3→11, 5→17. Assuming a linear rule, find it and fill x=2.",
+      "answer": "The linear rule is y=3x+2; at x=2 output 8.",
+      "model": {
+        "family": "rule_difference",
+        "inputs": [
+          "0→2",
+          "3→11",
+          "5→17"
+        ],
+        "outputs": [
+          "Δx=3,Δy=9",
+          "rate 3",
+          "zero value 2",
+          "2→8"
+        ],
+        "rows": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            null
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            5,
+            17
+          ]
+        ],
+        "description": "Find rate with nonunit gaps",
+        "resolved_outputs": [
+          2,
+          8,
+          11,
+          17
+        ],
+        "output_reveal_steps": [
+          0,
+          4,
+          0,
+          0
+        ]
+      },
+      "states": [
+        "From zero to three, output rises nine",
+        "Nine divided by three is three per input",
+        "From three to five, six over two also gives three",
+        "At zero fixed part is two",
+        "At x=2, output is eight"
+      ],
+      "steps": [
+        {
+          "title": "Compare first gap",
+          "action": "Mark three input steps and nine output steps.",
+          "narration": "The per-input rate is not nine."
+        },
+        {
+          "title": "Confirm with another gap",
+          "action": "Six output units over two input units again give three.",
+          "narration": "Both gaps support a linear rule."
+        },
+        {
+          "title": "Use zero row",
+          "action": "At x=0, output two is the fixed part.",
+          "narration": "Rule is three x plus two."
+        },
+        {
+          "title": "Fill x=2",
+          "action": "Three times two plus two is eight.",
+          "narration": "Check it lies between two and eleven."
+        }
+      ],
+      "verify": "3(0)+2=2; 3(3)+2=11; 3(5)+2=17; 3(2)+2=8.",
+      "misconception": "Dividing only one output jump by no input width.",
+      "repair": "Draw matching input and output jump arrows."
+    },
+    {
+      "id": "g8-fr-l03-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 8,
+      "skill": "Integrate signed and inverse rows",
+      "q": "Assume a linear rule. Table 0→4,2→10,4→16. Find the rule, output at x=−1 and input for output 22.",
+      "answer": "The linear rule is y=3x+4; −1→1; input 6 gives 22.",
+      "model": {
+        "family": "rule_choice",
+        "inputs": [
+          "0→4",
+          "2→10",
+          "4→16",
+          "missing x=−1"
+        ],
+        "outputs": [
+          "rate 3",
+          "rule 3x+4",
+          "−1→1",
+          "22→6"
+        ],
+        "rows": [
+          [
+            -1,
+            null
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            4,
+            16
+          ]
+        ],
+        "description": "Integrate signed and inverse rows",
+        "resolved_outputs": [
+          1,
+          4,
+          10,
+          16
+        ],
+        "output_reveal_steps": [
+          4,
+          0,
+          0,
+          0
+        ]
+      },
+      "states": [
+        "Given rows 0→4, 2→10, 4→16",
+        "From zero to two, output changes by six",
+        "Six over two gives rate three",
+        "At zero fixed part is four",
+        "At negative one: minus three plus four is one",
+        "For output 22: 22−4=18, divide by three gives six"
+      ],
+      "steps": [
+        {
+          "title": "Measure both jumps",
+          "action": "Every two-input step adds six output units.",
+          "narration": "Rate is three per unit input."
+        },
+        {
+          "title": "Read the zero row",
+          "action": "Four is the value at input zero.",
+          "narration": "The linear rule is three x plus four."
+        },
+        {
+          "title": "Use signed substitution",
+          "action": "Three times negative one plus four is one.",
+          "narration": "Protect the negative input in brackets."
+        },
+        {
+          "title": "Reverse the output",
+          "action": "Subtract four from twenty two to get eighteen.",
+          "narration": "Undo the final addition first."
+        },
+        {
+          "title": "Recover input",
+          "action": "Eighteen divided by three gives six.",
+          "narration": "Run six forward and get twenty two."
+        }
+      ],
+      "verify": "3(−1)+4=1; 3(6)+4=22; given rows also fit.",
+      "misconception": "Using the output jump six as the per-one rate.",
+      "repair": "Label step width before calculating and verify both requested rows."
+    }
+  ],
+  "practice_questions": [
+    [
+      "p01",
+      "Table x=0,1,2 gives y=1,2,3. Give a simple fitting rule.",
+      "y=x+1.",
+      "Compare adjacent rows.",
+      "Each input step adds one; at zero output is one."
+    ],
+    [
+      "p02",
+      "Table x=0,1,2 gives y=9,7,5. Give a simple fitting rule.",
+      "y=9−2x.",
+      "Outputs decrease by two.",
+      "At zero output nine; one step subtracts two."
+    ],
+    [
+      "p03",
+      "For y=3x+2, give outputs at x=−1,0,1.",
+      "−1,2,5.",
+      "Substitute each signed input.",
+      "3(−1)+2=−1; 3(0)+2=2; 3(1)+2=5."
+    ],
+    [
+      "p04",
+      "Table 1→8,2→11,3→14. Assuming linear, find the rule and zero row.",
+      "y=3x+5; zero→5.",
+      "Step backward once.",
+      "The output rises three per input and at zero is five."
+    ],
+    [
+      "p05",
+      "Table 0→1,2→11,4→21. Assuming linear, find the rule.",
+      "y=5x+1.",
+      "Divide output gap by input gap.",
+      "Ten over two gives five per input; at zero output one."
+    ],
+    [
+      "p06",
+      "Table 0→0,1→6,2→12. Give a simple proportional rule.",
+      "y=6x.",
+      "Read group size.",
+      "Each input contributes six, and zero contributes zero."
+    ],
+    [
+      "p07",
+      "Table 0→0,1→1,2→4,3→9. Give a matching square rule and output at four.",
+      "y=x²; output 16.",
+      "Visualise square arrays.",
+      "Four groups of four give sixteen."
+    ],
+    [
+      "p08",
+      "Table 0→2,1→3,2→6,3→11. Give a simple matching rule.",
+      "y=x²+2.",
+      "Remove the fixed two.",
+      "The remaining outputs 0,1,4,9 are squares."
+    ],
+    [
+      "p09",
+      "The rows 0→0,3→9 fit y=3x and y=x². Show these are not the same rule.",
+      "At x=1, outputs 3 and 1 differ.",
+      "Use a new shared input.",
+      "3(1)=3 but 1²=1."
+    ],
+    [
+      "p10",
+      "Club fee R5 once plus R4 per visit. Give C(n) and table at n=0,2,4.",
+      "C(n)=5+4n; 5,13,21 rand.",
+      "Separate fixed and repeated charges.",
+      "5+4(0)=5,5+4(2)=13,5+4(4)=21."
+    ],
+    [
+      "p11",
+      "For y=6−3x, fill outputs at 0,2,3.",
+      "6,0,−3.",
+      "The output may be negative.",
+      "At x=0,2,3 the rule yields six, zero, minus three."
+    ],
+    [
+      "p12",
+      "For y=5x−2, what input produces output 18?",
+      "x=4.",
+      "Undo minus two first.",
+      "18+2=20; 20÷5=4; 5(4)−2=18."
+    ],
+    [
+      "p13",
+      "Table 0→1,1→2,2→5,3→10. Reject y=2x+1 using the first mismatch and suggest a better matching rule.",
+      "At x=2, claim gives 5 (matches); at x=1, claim gives 3 but table says 2; y=x²+1 fits.",
+      "Check the first nonzero row.",
+      "At one claim three differs from two; squares plus one match all rows."
+    ],
+    [
+      "p14",
+      "Table 0→5,3→11,5→15. Assuming linear, find rule and output at x=2.",
+      "y=2x+5; output 9.",
+      "Use both jump widths.",
+      "Six over three and four over two both give rate two."
+    ],
+    [
+      "p15",
+      "Assume linear: 0→3,2→9,4→15. Find rule, output at x=−2, and input for output 24.",
+      "y=3x+3; −2→−3; output 24 comes from input 7.",
+      "Divide six by two, then reverse.",
+      "3(−2)+3=−3; (24−3)÷3=7."
+    ]
+  ],
+  "mastery_questions": [
+    [
+      "m01",
+      2,
+      "Table 0→4,1→6,2→8. Give a simple matching rule.",
+      "y=2x+4.",
+      "Two output units per one input; starting output four."
+    ],
+    [
+      "m02",
+      3,
+      "Table 1→9,2→13,3→17. Assuming linear, find rule and zero row.",
+      "y=4x+5; zero→5.",
+      "Four per input; step back from nine to five."
+    ],
+    [
+      "m03",
+      4,
+      "Table 0→2,2→10,4→18. Assuming linear, give rule and output at x=3.",
+      "y=4x+2; at x=3 output 14.",
+      "Eight output units over two input units gives four per input."
+    ],
+    [
+      "m04",
+      5,
+      "Table 0→1,1→2,2→5,3→10. Find a square-based rule, give output at x=4 and reject y=3x+1 at the first mismatch.",
+      "y=x²+1; at x=4 output 17; y=3x+1 fails at x=1, predicting 4 rather than 2.",
+      "Subtract one and recognise squares; test first positive input."
+    ],
+    [
+      "m05",
+      6,
+      "Assuming linear, table 0→6,2→12,4→18. Find rule, output at −1, input for output 27, and check all given rows.",
+      "y=3x+6; −1→3; output 27 comes from input 7; rows 6,12,18 agree.",
+      "Rate six over two is three; subtract six and divide three to reverse 27."
+    ]
+  ],
+  "reassessment_questions": [
+    [
+      "r01",
+      "Table 0→7,1→9,2→11. Give a simple fitting rule.",
+      "y=2x+7.",
+      "Two per input and starting value seven."
+    ],
+    [
+      "r02",
+      "Assuming linear: table 0→1,3→10,5→16. Find rule and output at x=2.",
+      "y=3x+1; at x=2 output 7.",
+      "Nine over three and six over two give rate three."
+    ],
+    [
+      "r03",
+      "For y=4x−5, find output at x=−1 and input for output 15.",
+      "−9 and input 5.",
+      "4(−1)−5=−9; undo minus five then multiply four: (15+5)÷4=5."
+    ]
+  ]
+}

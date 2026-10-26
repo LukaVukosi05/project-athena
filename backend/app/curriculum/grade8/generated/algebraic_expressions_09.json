@@ -1,0 +1,923 @@
+{
+  "id": "g8-algebraic-expressions-09",
+  "title": "Representations and contextual expressions",
+  "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson9_Source_Pack_v1.docx",
+  "source_sha256": "ab79ce498e8e5489e538aaef8a97c4fa4f57caa0d9745211b1144bc611d933c0",
+  "worked_examples": [
+    {
+      "id": "g8-ex-l09-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Turn words into a rule",
+      "q": "A library charges R4 per printed page. Write the cost for n pages.",
+      "answer": "C=4n rand.",
+      "model": {
+        "family": "unit_receipt",
+        "tokens": [
+          "n pages",
+          "R4 each",
+          "C=4n"
+        ],
+        "description": "Turn words into a rule",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "n pages at R4 each",
+        "n equal groups of R4",
+        "C=4n rand"
+      ],
+      "steps": [
+        {
+          "title": "Count equal groups",
+          "action": "Place one four-rand tile under each page.",
+          "narration": "The number of pages tells us how many copies of four rand to use."
+        },
+        {
+          "title": "Name the cost",
+          "action": "Multiply four by n.",
+          "narration": "The answer is a cost in rand, not a page count."
+        }
+      ],
+      "verify": "For n=3, three pages cost R12; 4(3)=12.",
+      "misconception": "Writing 4+n instead of four per page.",
+      "repair": "Draw one price tile for every page."
+    },
+    {
+      "id": "g8-ex-l09-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Add a fixed charge once",
+      "q": "A delivery costs R10 plus R3 per kilometre. Write the cost for k kilometres.",
+      "answer": "C=10+3k rand.",
+      "model": {
+        "family": "fixed_variable_receipt",
+        "tokens": [
+          "fixed R10",
+          "k km",
+          "R3 each km",
+          "C=10+3k"
+        ],
+        "description": "Add a fixed charge once",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "Fixed R10; R3 for each of k km",
+        "Variable part is 3k",
+        "C=10+3k rand"
+      ],
+      "steps": [
+        {
+          "title": "Build the distance part",
+          "action": "Give every kilometre its three-rand tile.",
+          "narration": "Three times k varies with distance."
+        },
+        {
+          "title": "Attach the one fixed charge",
+          "action": "Add ten rand once to the variable total.",
+          "narration": "The starting fee does not repeat for every kilometre."
+        }
+      ],
+      "verify": "For k=2, R10+R6=R16 and 10+3(2)=16.",
+      "misconception": "Multiplying the fixed R10 by k.",
+      "repair": "Place the fixed tile outside the repeated kilometres."
+    },
+    {
+      "id": "g8-ex-l09-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Read a two-operation flow diagram",
+      "q": "A flow machine doubles x, then adds 5. Write its output rule and find the output for x=3.",
+      "answer": "y=2x+5; at x=3, y=11.",
+      "model": {
+        "family": "flow_rule",
+        "tokens": [
+          "input x",
+          "×2",
+          "+5",
+          "y=2x+5",
+          "x=3 → 11"
+        ],
+        "description": "Read a two-operation flow diagram",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "x → double → add 5",
+        "x → 2x → 2x+5",
+        "y=2x+5",
+        "At x=3: y=11"
+      ],
+      "steps": [
+        {
+          "title": "Follow the first arrow",
+          "action": "Doubling x gives two x.",
+          "narration": "The first action is multiplication."
+        },
+        {
+          "title": "Follow the second arrow",
+          "action": "Add five after doubling.",
+          "narration": "Operation order matters; add five only at the end."
+        },
+        {
+          "title": "Try a concrete input",
+          "action": "Three doubles to six, then plus five is eleven.",
+          "narration": "The rule and diagram agree for this input."
+        }
+      ],
+      "verify": "x=3: 3→6→11; 2(3)+5=11.",
+      "misconception": "Writing 2(x+5) despite add being second.",
+      "repair": "Trace the arrows in their stated order."
+    },
+    {
+      "id": "g8-ex-l09-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Infer a rule from a table",
+      "q": "A table pairs x=1,2,3 with y=5,8,11. Write a linear rule and test x=4.",
+      "answer": "y=3x+2; y=14 at x=4.",
+      "model": {
+        "family": "input_table",
+        "tokens": [
+          "1 → 5",
+          "2 → 8",
+          "3 → 11",
+          "increase +3",
+          "y=3x+2",
+          "4 → 14"
+        ],
+        "description": "Infer a rule from a table",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "(1,5), (2,8), (3,11)",
+        "Each input +1 raises output by 3",
+        "At x=1: 3(1)+2=5",
+        "y=3x+2",
+        "At x=4: y=14"
+      ],
+      "steps": [
+        {
+          "title": "Compare successive rows",
+          "action": "Each next output rises by three when x rises by one.",
+          "narration": "The variable contribution is three per input unit."
+        },
+        {
+          "title": "Find the fixed offset",
+          "action": "At x one, three plus two makes five.",
+          "narration": "The offset is two, not five."
+        },
+        {
+          "title": "Write the complete rule",
+          "action": "Combine three x with the two-unit start.",
+          "narration": "Check all three given rows."
+        },
+        {
+          "title": "Extend one row",
+          "action": "At four the output is twelve plus two.",
+          "narration": "The new row tests the proposed rule."
+        }
+      ],
+      "verify": "x=1,2,3,4 gives 5,8,11,14 under y=3x+2.",
+      "misconception": "Taking 5 as the starting amount at x=0.",
+      "repair": "Run the three-times part backward to zero."
+    },
+    {
+      "id": "g8-ex-l09-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Match words to a table",
+      "q": "Tickets cost R6 each plus one booking fee of R4. Write C(t), then fill costs for t=1,2,3.",
+      "answer": "C(t)=6t+4; costs R10, R16, R22.",
+      "model": {
+        "family": "fare_table",
+        "tokens": [
+          "R6 per ticket",
+          "booking fee R4",
+          "t=1",
+          "t=2",
+          "t=3",
+          "C=6t+4; 10,16,22"
+        ],
+        "description": "Match words to a table",
+        "scene": {
+          "input_count": 5
+        }
+      },
+      "states": [
+        "t tickets; R6 each plus R4 once",
+        "Variable ticket cost: 6t",
+        "C(t)=6t+4",
+        "C(1)=10; C(2)=16",
+        "C(3)=22"
+      ],
+      "steps": [
+        {
+          "title": "Model each ticket",
+          "action": "Six times t gives the changing ticket total.",
+          "narration": "The number of tickets controls only this part."
+        },
+        {
+          "title": "Attach the booking fee",
+          "action": "Add four once after ticket cost.",
+          "narration": "It is charged for the whole booking."
+        },
+        {
+          "title": "Fill first two table rows",
+          "action": "At one ticket pay ten; at two pay sixteen.",
+          "narration": "Each additional ticket raises the bill by six."
+        },
+        {
+          "title": "Fill the third row",
+          "action": "Eighteen plus four is twenty two.",
+          "narration": "Check the six-rand increase continues."
+        }
+      ],
+      "verify": "For t=3, three R6 tickets cost R18 plus R4 fee = R22.",
+      "misconception": "Adding R4 to every ticket.",
+      "repair": "Keep the fee tile separate from ticket columns."
+    },
+    {
+      "id": "g8-ex-l09-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Describe a decreasing rule",
+      "q": "A tank starts with 30 L and loses 2 L each minute. Write V(m) and find V(5). State a sensible domain.",
+      "answer": "V=30-2m litres; V(5)=20 L; 0≤m≤15.",
+      "model": {
+        "family": "decrease_timeline",
+        "tokens": [
+          "start 30 L",
+          "lose 2 L per min",
+          "m minutes",
+          "V=30-2m",
+          "m=5 → 20 L",
+          "0≤m≤15"
+        ],
+        "description": "Describe a decreasing rule",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "Tank 30 L; lose 2 L/min",
+        "Total loss after m minutes is 2m L",
+        "V(m)=30-2m L",
+        "At m=5: V=20 L",
+        "Empty at m=15; 0≤m≤15"
+      ],
+      "steps": [
+        {
+          "title": "Accumulate the loss",
+          "action": "Two litres leave in each minute, for m minutes.",
+          "narration": "The loss is two m litres."
+        },
+        {
+          "title": "Subtract loss from the start",
+          "action": "Thirty minus two m is the remaining volume.",
+          "narration": "A loss lowers the total."
+        },
+        {
+          "title": "Substitute five minutes",
+          "action": "Thirty minus ten leaves twenty litres.",
+          "narration": "Units remain litres."
+        },
+        {
+          "title": "Bound the time",
+          "action": "After fifteen minutes the model reaches zero.",
+          "narration": "Negative time or negative physical volume is outside this scenario."
+        }
+      ],
+      "verify": "Five losses of 2 L give 30−10=20 L; 15 losses give 0 L.",
+      "misconception": "Adding a loss or accepting a negative tank volume.",
+      "repair": "Animate each two-litre loss from the starting bar."
+    },
+    {
+      "id": "g8-ex-l09-w07",
+      "number": 7,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Model repeated groups with an extra",
+      "q": "A school buys p packs of 6 pencils and 4 loose pencils. Write the total and find it for p=3.",
+      "answer": "N=6p+4 pencils; N(3)=22 pencils.",
+      "model": {
+        "family": "packs_plus_loose",
+        "tokens": [
+          "p packs",
+          "6 in each",
+          "4 loose",
+          "N=6p+4",
+          "p=3 → 22"
+        ],
+        "description": "Model repeated groups with an extra",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "p groups of 6 and four loose",
+        "Pack count gives 6p pencils",
+        "N=6p+4 pencils",
+        "At p=3: N=22 pencils"
+      ],
+      "steps": [
+        {
+          "title": "Count pack pencils",
+          "action": "Each of p packs contains six pencils.",
+          "narration": "Multiply six by the pack count."
+        },
+        {
+          "title": "Add loose pencils once",
+          "action": "The four loose pencils are outside the packs.",
+          "narration": "They are not four in each pack."
+        },
+        {
+          "title": "Try three packs",
+          "action": "Eighteen packed plus four loose is twenty two.",
+          "narration": "Count the diagram independently."
+        }
+      ],
+      "verify": "3 packs ×6=18; 18+4=22 pencils.",
+      "misconception": "Multiplying the four loose pencils by p.",
+      "repair": "Keep loose pencils visually outside the pack boundaries."
+    },
+    {
+      "id": "g8-ex-l09-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Build a perimeter expression",
+      "q": "A rectangle has length (x+3) cm and width x cm. Write a simplified perimeter rule and find P at x=4.",
+      "answer": "P=4x+6 cm; P(4)=22 cm.",
+      "model": {
+        "family": "context_perimeter",
+        "tokens": [
+          "top x+3 cm",
+          "right x cm",
+          "bottom x+3 cm",
+          "left x cm",
+          "P=4x+6 cm",
+          "x=4 → 22 cm"
+        ],
+        "description": "Build a perimeter expression",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "Rectangle sides x+3, x, x+3, x",
+        "P=(x+3)+x+(x+3)+x",
+        "P=4x+6 cm",
+        "At x=4: P=22 cm"
+      ],
+      "steps": [
+        {
+          "title": "Trace each side",
+          "action": "Two sides are x plus three and two sides are x.",
+          "narration": "Perimeter follows the whole boundary."
+        },
+        {
+          "title": "Collect like terms",
+          "action": "Four x pieces and two threes give four x plus six.",
+          "narration": "Do not leave out the opposite side."
+        },
+        {
+          "title": "Measure at four",
+          "action": "Two sevens and two fours total twenty two centimetres.",
+          "narration": "Check the simplified rule gives the same length."
+        }
+      ],
+      "verify": "At x=4 sides are 7,4,7,4 cm; total 22 cm; 4(4)+6=22.",
+      "misconception": "Using area or only two sides.",
+      "repair": "Trace four edges with distinct markers."
+    },
+    {
+      "id": "g8-ex-l09-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Compare two prices without solving",
+      "q": "Plan A costs R20 plus R5 per visit; Plan B costs R8 per visit. Write both rules and compare for 4 visits.",
+      "answer": "A(v)=20+5v, B(v)=8v; at v=4, A=R40 and B=R32, so B costs R8 less.",
+      "model": {
+        "family": "plan_comparison",
+        "tokens": [
+          "A fixed R20",
+          "A R5 per visit",
+          "B R8 per visit",
+          "v=4",
+          "A=20+5v; B=8v",
+          "A R40; B R32"
+        ],
+        "description": "Compare two prices without solving",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "Plan A fixed 20 + 5v; B=8v",
+        "A(v)=20+5v; B(v)=8v",
+        "At v=4: A=20+20=40",
+        "At v=4: B=32; B costs R8 less"
+      ],
+      "steps": [
+        {
+          "title": "Build each plan separately",
+          "action": "A has a start fee plus visit fees; B has only visit fees.",
+          "narration": "Do not mix charges from different plans."
+        },
+        {
+          "title": "Calculate A for four",
+          "action": "Four visits add twenty rand to the twenty-rand fee.",
+          "narration": "Plan A is forty rand."
+        },
+        {
+          "title": "Calculate B and compare",
+          "action": "Four times eight is thirty two; the difference is eight rand.",
+          "narration": "This comparison is for four visits only."
+        }
+      ],
+      "verify": "At 4 visits, A=20+4×5=40 and B=4×8=32; 40−32=8.",
+      "misconception": "Claiming one plan is always cheaper from one input.",
+      "repair": "Keep parallel plan lanes and label the input."
+    },
+    {
+      "id": "g8-ex-l09-w10",
+      "number": 10,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Diagnose a repeated fee",
+      "q": "A taxi charges R12 once and R4 per kilometre. A learner writes T(d)=16d. Find the first mistake and write the correct rule.",
+      "answer": "The learner repeated the R12 fixed fee; T(d)=12+4d.",
+      "model": {
+        "family": "fee_error",
+        "tokens": [
+          "once R12",
+          "R4 per km",
+          "claim T=16d",
+          "T=12+4d"
+        ],
+        "description": "Diagnose a repeated fee",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "Taxi R12 once + R4/km; claim 16d",
+        "R12 is one fixed tile, not d tiles",
+        "Distance part is 4d",
+        "Correct T(d)=12+4d"
+      ],
+      "steps": [
+        {
+          "title": "Inspect the learner rule",
+          "action": "Sixteen d multiplies both fee and distance by d.",
+          "narration": "The R12 start charge does not repeat."
+        },
+        {
+          "title": "Rebuild the changing part",
+          "action": "Only four rand per kilometre becomes four d.",
+          "narration": "Distance controls the variable part."
+        },
+        {
+          "title": "Place the one-off fee",
+          "action": "Attach twelve once to four d.",
+          "narration": "The corrected expression is twelve plus four d."
+        }
+      ],
+      "verify": "At d=2, taxi costs R12+R8=R20; claim 16(2)=R32.",
+      "misconception": "Combining fixed and per-unit prices before multiplying.",
+      "repair": "Move the fixed tile outside the distance row."
+    },
+    {
+      "id": "g8-ex-l09-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Compare equivalent verbal and formula rules",
+      "q": "A savings rule says “start with R7 and add R5 each week”. Another says S(w)=5(w+1)+2. Are the rules equivalent for every w?",
+      "answer": "Yes; both give S(w)=5w+7.",
+      "model": {
+        "family": "equivalence_models",
+        "tokens": [
+          "start R7",
+          "R5 per week",
+          "5(w+1)+2",
+          "5w+7"
+        ],
+        "description": "Compare equivalent verbal and formula rules",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "Words: start 7, add 5 weekly; formula 5(w+1)+2",
+        "Verbal path: 7+5w; formula: 5(w+1)+2",
+        "Distribute formula: 5w+5+2",
+        "Both simplify to 5w+7"
+      ],
+      "steps": [
+        {
+          "title": "Build the verbal path",
+          "action": "The start is seven and each week adds five.",
+          "narration": "Seven is a fixed amount."
+        },
+        {
+          "title": "Expand the formula path",
+          "action": "Five multiplies w and one, then two remains.",
+          "narration": "Five multiplies both w and one, so the formula becomes five w plus five plus two."
+        },
+        {
+          "title": "Compare general expressions",
+          "action": "Five w plus seven appears in both paths.",
+          "narration": "The rules agree for every permitted week count."
+        }
+      ],
+      "verify": "At w=2 both give R17; distribution proves equality for every w.",
+      "misconception": "Treating one matching week as proof for all weeks.",
+      "repair": "Show the symbolic expansion before a numerical check."
+    },
+    {
+      "id": "g8-ex-l09-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Translate a table with a missing input",
+      "q": "A shop charges R9 once plus R3 per item. Complete the total for 2, 4 and n items, then find the total for n=7.",
+      "answer": "2 items R15; 4 items R21; n items R(9+3n); 7 items R30.",
+      "model": {
+        "family": "general_table",
+        "tokens": [
+          "R9 once",
+          "R3 each",
+          "2 items",
+          "4 items",
+          "n items",
+          "15,21,9+3n,30"
+        ],
+        "description": "Translate a table with a missing input",
+        "scene": {
+          "input_count": 5
+        }
+      },
+      "states": [
+        "Start 9; add 3 for each item",
+        "T(n)=9+3n",
+        "T(2)=15; T(4)=21",
+        "T(7)=30"
+      ],
+      "steps": [
+        {
+          "title": "Make the general rule",
+          "action": "The one-off nine stays outside the three-per-item term.",
+          "narration": "A letter can stand for any item count."
+        },
+        {
+          "title": "Fill two concrete rows",
+          "action": "Two items add six, four items add twelve.",
+          "narration": "Each row applies the same rule."
+        },
+        {
+          "title": "Test seven items",
+          "action": "Nine plus twenty one equals thirty.",
+          "narration": "Check the three-rand steps from the table."
+        }
+      ],
+      "verify": "T(2)=9+6=15; T(4)=9+12=21; T(7)=9+21=30.",
+      "misconception": "Mistaking the R9 for a per-item price.",
+      "repair": "Keep the fixed-fee column separate."
+    },
+    {
+      "id": "g8-ex-l09-w13",
+      "number": 13,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Model area without confusing units",
+      "q": "A rectangular garden has length (x+2) m and width 3 m. Write and simplify its area; find area when x=4.",
+      "answer": "A=3(x+2)=3x+6 m²; A(4)=18 m².",
+      "model": {
+        "family": "split_area_context",
+        "tokens": [
+          "length x+2 m",
+          "width 3 m",
+          "3×x region",
+          "3×2 region",
+          "A=3x+6 m²",
+          "x=4 → 18 m²"
+        ],
+        "description": "Model area without confusing units",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "Length x+2 m, width 3 m",
+        "Split area into 3×x and 3×2",
+        "A=3x+6 m²",
+        "At x=4: A=18 m²"
+      ],
+      "steps": [
+        {
+          "title": "Split the length",
+          "action": "Partition the rectangle into x metres and two metres.",
+          "narration": "Both regions share the three-metre width."
+        },
+        {
+          "title": "Calculate both regions",
+          "action": "Areas are three x and six square metres.",
+          "narration": "Area units are square metres, not metres."
+        },
+        {
+          "title": "Test at four",
+          "action": "Length is six metres, so three times six is eighteen square metres.",
+          "narration": "The split regions give twelve plus six."
+        }
+      ],
+      "verify": "At x=4, full rectangle 6×3=18 m²; split 12+6=18 m².",
+      "misconception": "Using perimeter or writing 3x+2.",
+      "repair": "Shade both 3×x and 3×2 regions."
+    },
+    {
+      "id": "g8-ex-l09-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Distinguish two flows with the same inputs",
+      "q": "Machine A adds 4 then doubles; Machine B doubles then adds 4. Write both rules and compare outputs at x=5.",
+      "answer": "A(x)=2(x+4)=2x+8, B(x)=2x+4; A(5)=18, B(5)=14.",
+      "model": {
+        "family": "parallel_flows",
+        "tokens": [
+          "A +4 then ×2",
+          "B ×2 then +4",
+          "input x=5",
+          "A=2x+8",
+          "B=2x+4",
+          "18 vs 14"
+        ],
+        "description": "Distinguish two flows with the same inputs",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "A: x→+4→×2; B: x→×2→+4",
+        "A(x)=2(x+4); B(x)=2x+4",
+        "A(x)=2x+8; B(x)=2x+4",
+        "At x=5: A=18 and B=14"
+      ],
+      "steps": [
+        {
+          "title": "Trace each arrow order",
+          "action": "A doubles the whole x plus four; B adds four after doubling.",
+          "narration": "Operations in different orders give different rules."
+        },
+        {
+          "title": "Expand A only",
+          "action": "Two multiplies x and four, producing two x plus eight.",
+          "narration": "B stays two x plus four."
+        },
+        {
+          "title": "Compare at five",
+          "action": "A: five plus four, doubled, is eighteen; B: ten plus four is fourteen.",
+          "narration": "The outputs differ by four for this input."
+        }
+      ],
+      "verify": "At x=5 A=2(9)=18; B=2(5)+4=14.",
+      "misconception": "Assuming addition and doubling commute.",
+      "repair": "Keep two labelled machines side by side."
+    },
+    {
+      "id": "g8-ex-l09-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 8,
+      "skill": "Integrate table, context and representation",
+      "q": "A fundraiser sells b booklets at R6 each, plus one R15 donation. Give F(b), fill totals for b=0,2,5, and check the claim F(b)=6(b+15).",
+      "answer": "F(b)=6b+15; table totals R15, R27, R45; claim invalid.",
+      "model": {
+        "family": "fundraiser_audit",
+        "tokens": [
+          "booklets b at R6",
+          "one donation R15",
+          "b=0,2,5",
+          "claim 6(b+15)",
+          "F=6b+15",
+          "15,27,45"
+        ],
+        "description": "Integrate table, context and representation",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "R6 per booklet plus one R15 gift",
+        "F(b)=6b+15",
+        "F(0)=15; F(2)=27; F(5)=45",
+        "Claim 6(b+15)=6b+90",
+        "Claim invalid; fixed gift is R15 once"
+      ],
+      "steps": [
+        {
+          "title": "Separate variable and fixed parts",
+          "action": "Six times the booklet count changes; the fifteen-rand donation stays once.",
+          "narration": "The donation is not in every booklet."
+        },
+        {
+          "title": "Fill the three input rows",
+          "action": "Zero booklets still leaves fifteen rand; two yield twenty seven, five yield forty five.",
+          "narration": "Use the same rule each time."
+        },
+        {
+          "title": "Inspect the proposed bracket",
+          "action": "Six times fifteen would count ninety rand of donation.",
+          "narration": "This is the first mismatch with the context."
+        },
+        {
+          "title": "State the corrected conclusion",
+          "action": "Six b plus fifteen fits all three rows and the original story.",
+          "narration": "A contextual reason and table both reject the claim."
+        }
+      ],
+      "verify": "At b=0 true total R15 while claim gives R90; at b=5 true total R45.",
+      "misconception": "Multiplying the one donation by every booklet.",
+      "repair": "Place the gift as one separate tile before forming the rule."
+    }
+  ],
+  "practice_questions": [
+    [
+      "p01",
+      "R7 per badge: write cost for n badges.",
+      "7n rand",
+      "Repeat the R7 unit price.",
+      "n badges at R7 each cost R7n."
+    ],
+    [
+      "p02",
+      "A van costs R15 to start and R2 per kilometre. Write C(k).",
+      "15+2k rand",
+      "Keep the start fee once.",
+      "C(k)=15+2k rand."
+    ],
+    [
+      "p03",
+      "A machine triples x then adds 2. Give the rule and output for x=4.",
+      "3x+2; output 14",
+      "Trace arrows in order.",
+      "x→3x→3x+2; at x=4, y=14."
+    ],
+    [
+      "p04",
+      "A table has (1,6),(2,10),(3,14). Give y(x) and y(4).",
+      "y=4x+2; y(4)=18",
+      "Outputs rise by four.",
+      "At x=1, 4+2=6; y=4x+2 and y(4)=18."
+    ],
+    [
+      "p05",
+      "R5 per snack plus a single R3 bag fee. Give C(s) and C(2).",
+      "C=5s+3; C(2)=R13",
+      "Bag fee stays outside repetitions.",
+      "C(s)=5s+3; C(2)=10+3=13."
+    ],
+    [
+      "p06",
+      "A bottle starts with 24 L and loses 3 L each hour. Give V(h), V(2), and sensible h-domain.",
+      "V=24-3h L; V(2)=18 L; 0≤h≤8",
+      "Find when it reaches zero.",
+      "24-3(2)=18; 24-3(8)=0."
+    ],
+    [
+      "p07",
+      "There are q packs of 4 pens and 3 loose pens. Give N(q), N(5).",
+      "N=4q+3; N(5)=23",
+      "Count loose pens once.",
+      "4(5)+3=23."
+    ],
+    [
+      "p08",
+      "A rectangle length x+2 cm, width x cm. Give perimeter P(x), P(3).",
+      "P=4x+4 cm; P(3)=16 cm",
+      "Trace all four sides.",
+      "(x+2)+x+(x+2)+x=4x+4; at x=3, 16 cm."
+    ],
+    [
+      "p09",
+      "Plan A is R12+R4 per visit; B is R7 per visit. Give both costs at 3 visits.",
+      "A=R24; B=R21",
+      "Keep plans in separate lanes.",
+      "A(3)=12+4(3)=24; B(3)=7(3)=21."
+    ],
+    [
+      "p10",
+      "R9 once and R5 per km; learner writes 14d. Correct the rule.",
+      "9+5d rand",
+      "Only the per-km cost repeats.",
+      "R9 once plus R5d; at d=2 correct R19, claim R28."
+    ],
+    [
+      "p11",
+      "Compare “R8 start and R3 a week” with 3(w+2)+2. Equivalent?",
+      "Yes; both equal 3w+8",
+      "Expand both paths.",
+      "3(w+2)+2=3w+6+2=3w+8."
+    ],
+    [
+      "p12",
+      "R6 once plus R4 per item. Find totals for 1,3,n,5 items.",
+      "R10, R18, R(6+4n), R26",
+      "Keep one fixed fee.",
+      "T(n)=6+4n; T(1)=10,T(3)=18,T(5)=26."
+    ],
+    [
+      "p13",
+      "Rectangle length x+3 m and width 2 m. Give area and value at x=5.",
+      "A=2x+6 m²; at x=5, 16 m²",
+      "Split into two regions.",
+      "2(x+3)=2x+6; at 5, 2(8)=16 m²."
+    ],
+    [
+      "p14",
+      "A adds 3 then triples; B triples then adds 3. Give A(2),B(2).",
+      "A(2)=15; B(2)=9",
+      "Keep operation order.",
+      "A=3(x+3)=3x+9, B=3x+3; at 2, 15 and 9."
+    ],
+    [
+      "p15",
+      "Fundraiser sells n cards at R8 each plus one R10 gift. Give totals at n=0,2,4; reject 8(n+10).",
+      "R10,R26,R42; claim invalid",
+      "Separate the gift from cards.",
+      "F(n)=8n+10; at 0,2,4 totals 10,26,42; 8(n+10) gives 80 at n=0."
+    ]
+  ],
+  "mastery_questions": [
+    [
+      "m01",
+      2,
+      "R5 per item: write price for n items.",
+      "5n rand",
+      "Cost is five repeated n times."
+    ],
+    [
+      "m02",
+      3,
+      "A flow doubles x then subtracts 3. Give rule and y at x=5.",
+      "y=2x-3; y(5)=7",
+      "x→2x→2x−3; at five, ten minus three equals seven."
+    ],
+    [
+      "m03",
+      4,
+      "Table inputs 1,2,3 give outputs 7,11,15. Give rule and output at 4.",
+      "y=4x+3; y(4)=19",
+      "Difference four; at x=1 offset three; outputs 7,11,15,19."
+    ],
+    [
+      "m04",
+      5,
+      "A rectangle has length x+4 cm and width 2 cm. Give simplified area and perimeter at x=3.",
+      "A=2x+8 cm²; P=2x+12 cm; at x=3, A=14 cm² and P=18 cm",
+      "A=2(x+4)=2x+8; P=2[(x+4)+2]=2x+12; at x=3, length 7, area 14 and perimeter 18."
+    ],
+    [
+      "m05",
+      6,
+      "Plan A charges R18 once plus R3 per visit. Plan B charges R6 per visit. Write both rules and compare at 4 visits. Explain why one input does not show the cheaper plan for every visit count.",
+      "A(v)=18+3v; B(v)=6v; at 4, A=R30, B=R24, B is R6 cheaper; one input is not a universal comparison.",
+      "At 4: A=18+12=30, B=24; at 10: A=48, B=60, so the relative price changes."
+    ]
+  ],
+  "reassessment_questions": [
+    [
+      "r01",
+      "R4 per pencil and one R2 fee: give cost for n pencils and for n=3.",
+      "4n+2 rand; R14 at n=3",
+      "Each pencil costs four; add the single fee two: 4(3)+2=14."
+    ],
+    [
+      "r02",
+      "Flow subtracts 2 from x then triples. Give rule and output at x=6.",
+      "3(x-2)=3x-6; output 12",
+      "x→x−2→3(x−2); at six, 3(4)=12."
+    ],
+    [
+      "r03",
+      "R7 per booklet and one R9 gift: fill fundraiser totals for b=0,2,4; reject 7(b+9).",
+      "R9,R23,R37; claim invalid",
+      "F(b)=7b+9; at 0,2,4 gives 9,23,37; wrong claim gives R63 at b=0."
+    ]
+  ]
+}

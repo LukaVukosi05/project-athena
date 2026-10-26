@@ -1,0 +1,890 @@
+{
+  "id": "g8-algebraic-expressions-06",
+  "title": "Substitution and numerical value of algebraic expressions",
+  "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson7_Source_Pack_v1.docx",
+  "source_sha256": "1b7774758ecdee6f34aa268752b1b5fb519592d38352c058178d78e2e4a869c2",
+  "worked_examples": [
+    {
+      "id": "g8-ex-l07-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Replace one variable",
+      "q": "Evaluate x+4 when x=3.",
+      "answer": "7.",
+      "model": {
+        "family": "value_machine",
+        "tokens": [
+          "x+4",
+          "x=3",
+          "7"
+        ],
+        "description": "Replace one variable",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "x+4; x=3",
+        "3+4",
+        "7"
+      ],
+      "steps": [
+        {
+          "title": "Move the value into the slot",
+          "action": "Put three where the x appears.",
+          "narration": "The variable is a place for a given number."
+        },
+        {
+          "title": "Calculate the output",
+          "action": "Three plus four equals seven.",
+          "narration": "The expression has numerical value seven."
+        }
+      ],
+      "verify": "Original x+4 at x=3 gives 3+4=7.",
+      "misconception": "Keeping x in the calculation after substitution.",
+      "repair": "Point to x, cover it and replace it with 3."
+    },
+    {
+      "id": "g8-ex-l07-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 2,
+      "skill": "Keep a signed input in brackets",
+      "q": "Evaluate 3a when a=-2.",
+      "answer": "-6.",
+      "model": {
+        "family": "signed_slot",
+        "tokens": [
+          "3a",
+          "a=-2",
+          "-6"
+        ],
+        "description": "Keep a signed input in brackets",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "3a; a=-2",
+        "3(-2)",
+        "-6"
+      ],
+      "steps": [
+        {
+          "title": "Place negative two in the a slot",
+          "action": "Write 3(-2), keeping the minus inside brackets.",
+          "narration": "Juxtaposition means multiplication, not addition."
+        },
+        {
+          "title": "Multiply with signs",
+          "action": "Positive three times negative two is negative six.",
+          "narration": "The negative input stays attached to its value."
+        }
+      ],
+      "verify": "At a=-2, 3a=3(-2)=-6.",
+      "misconception": "Reading 3a as 3+a or dropping the negative.",
+      "repair": "Show the multiplication dot and the signed chip."
+    },
+    {
+      "id": "g8-ex-l07-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Square a negative substitution",
+      "q": "Evaluate t² when t=-3.",
+      "answer": "9.",
+      "model": {
+        "family": "exponent_scope",
+        "tokens": [
+          "t²",
+          "t=-3",
+          "9"
+        ],
+        "description": "Square a negative substitution",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "t²; t=-3",
+        "(-3)²",
+        "(-3)(-3)",
+        "9"
+      ],
+      "steps": [
+        {
+          "title": "Put the full signed value in the base",
+          "action": "Use (-3)², not -3².",
+          "narration": "Brackets tell the square to act on the negative value."
+        },
+        {
+          "title": "Open the square",
+          "action": "Write two factors of negative three.",
+          "narration": "The exponent two makes two complete copies."
+        },
+        {
+          "title": "Multiply both negatives",
+          "action": "Negative three times negative three is positive nine.",
+          "narration": "An even number of negative factors is positive."
+        }
+      ],
+      "verify": "Substitute -3 in t²: (-3)(-3)=9.",
+      "misconception": "Squaring three but leaving a minus outside.",
+      "repair": "Circle the base and duplicate its brackets."
+    },
+    {
+      "id": "g8-ex-l07-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Distinguish a negative outside the square",
+      "q": "Evaluate -x² and (-x)² when x=-2.",
+      "answer": "-4 and 4 respectively.",
+      "model": {
+        "family": "compare_scope",
+        "tokens": [
+          "-x²",
+          "(-x)²",
+          "x=-2",
+          "-4",
+          "4"
+        ],
+        "description": "Distinguish a negative outside the square",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "-x² ; (-x)² ; x=-2",
+        "-(-2)² ; (-(-2))²",
+        "-(4) ; (2)²",
+        "-4 ; 4"
+      ],
+      "steps": [
+        {
+          "title": "Mark the base of each power",
+          "action": "For -x² the minus is outside x²; for (-x)² it is inside.",
+          "narration": "Exponent scope controls the sign."
+        },
+        {
+          "title": "Square the two bases",
+          "action": "Negative two squared is four; negative of negative two is positive two.",
+          "narration": "The outside minus has not been squared."
+        },
+        {
+          "title": "Complete both branches",
+          "action": "Take negative four in the first branch and positive four in the second.",
+          "narration": "The two numerical values differ."
+        }
+      ],
+      "verify": "Direct check: -(−2·−2)=−4, while (−(−2))·(−(−2))=4.",
+      "misconception": "Treating -x² and (-x)² as equivalent.",
+      "repair": "Put a bracket boundary around each base first."
+    },
+    {
+      "id": "g8-ex-l07-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Respect multiplication before addition",
+      "q": "Evaluate 2x+5 when x=-4.",
+      "answer": "-3.",
+      "model": {
+        "family": "value_machine",
+        "tokens": [
+          "2x+5",
+          "x=-4",
+          "-3"
+        ],
+        "description": "Respect multiplication before addition",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "2x+5; x=-4",
+        "2(-4)+5",
+        "-8+5",
+        "-3"
+      ],
+      "steps": [
+        {
+          "title": "Substitute with brackets",
+          "action": "Put negative four into the x slot while retaining plus five.",
+          "narration": "The coefficient two multiplies the input first."
+        },
+        {
+          "title": "Multiply before adding",
+          "action": "Two times negative four is negative eight.",
+          "narration": "The addition remains visible for the next action."
+        },
+        {
+          "title": "Add the constant",
+          "action": "Negative eight plus five is negative three.",
+          "narration": "Follow the order of operations."
+        }
+      ],
+      "verify": "Original 2(-4)+5=-8+5=-3.",
+      "misconception": "Adding five to negative four before multiplying.",
+      "repair": "Point to multiplication first, then addition."
+    },
+    {
+      "id": "g8-ex-l07-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Use two distinct input values",
+      "q": "Evaluate 4a-3b when a=2 and b=-1.",
+      "answer": "11.",
+      "model": {
+        "family": "two_input",
+        "tokens": [
+          "4a-3b",
+          "a=2",
+          "b=-1",
+          "11"
+        ],
+        "description": "Use two distinct input values",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "4a-3b; a=2,b=-1",
+        "4(2)-3(-1)",
+        "8-(-3)",
+        "11"
+      ],
+      "steps": [
+        {
+          "title": "Fill both named slots",
+          "action": "Put two for a and negative one for b; do not swap them.",
+          "narration": "Each variable has its own colour and value."
+        },
+        {
+          "title": "Multiply each term",
+          "action": "Four times two is eight; three times negative one is negative three.",
+          "narration": "Keep subtraction of the negative product visible."
+        },
+        {
+          "title": "Resolve double negative",
+          "action": "Eight minus negative three equals eleven.",
+          "narration": "Subtracting a negative adds three."
+        }
+      ],
+      "verify": "At (a,b)=(2,-1), original 4a-3b=8-(-3)=11.",
+      "misconception": "Replacing both a and b with the same number.",
+      "repair": "Use separate value chips for a and b."
+    },
+    {
+      "id": "g8-ex-l07-w07",
+      "number": 7,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Keep a bracketed difference together",
+      "q": "Evaluate 2(x-3) when x=-2.",
+      "answer": "-10.",
+      "model": {
+        "family": "bracket_input",
+        "tokens": [
+          "2(x-3)",
+          "x=-2",
+          "-10"
+        ],
+        "description": "Keep a bracketed difference together",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "2(x-3); x=-2",
+        "2((-2)-3)",
+        "2(-5)",
+        "-10"
+      ],
+      "steps": [
+        {
+          "title": "Replace only x inside the bracket",
+          "action": "Write negative two in its own brackets; leave the outer two outside.",
+          "narration": "The outside two multiplies the whole difference."
+        },
+        {
+          "title": "Calculate inside first",
+          "action": "Negative two minus three is negative five.",
+          "narration": "Close the inside operation before multiplying."
+        },
+        {
+          "title": "Multiply the group",
+          "action": "Two times negative five is negative ten.",
+          "narration": "The whole group is one signed factor."
+        }
+      ],
+      "verify": "Original at x=-2 is 2(-2-3)=2(-5)=-10.",
+      "misconception": "Distributing two to x but not the constant, or skipping the inner subtraction.",
+      "repair": "Keep a border around the bracket until its value is known."
+    },
+    {
+      "id": "g8-ex-l07-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Square before subtracting a product",
+      "q": "Evaluate x²-2x when x=-3.",
+      "answer": "15.",
+      "model": {
+        "family": "layered_order",
+        "tokens": [
+          "x²-2x",
+          "x=-3",
+          "15"
+        ],
+        "description": "Square before subtracting a product",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "x²-2x; x=-3",
+        "(-3)²-2(-3)",
+        "9-(-6)",
+        "15"
+      ],
+      "steps": [
+        {
+          "title": "Substitute into both x slots",
+          "action": "Put (-3) in the square and in the linear term.",
+          "narration": "One given value fills every occurrence of x."
+        },
+        {
+          "title": "Do powers and products",
+          "action": "Negative three squared is nine; two times negative three is negative six.",
+          "narration": "Subtract the entire negative product."
+        },
+        {
+          "title": "Finish the signed subtraction",
+          "action": "Nine minus negative six is fifteen.",
+          "narration": "The result is positive fifteen."
+        }
+      ],
+      "verify": "At x=-3 the original is 9+6=15.",
+      "misconception": "Interpreting -2x as -2+x or (-3)² as -9.",
+      "repair": "Show both occurrences and settle powers and products first."
+    },
+    {
+      "id": "g8-ex-l07-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Evaluate a fraction and a constant",
+      "q": "Evaluate x/2+3 when x=-4.",
+      "answer": "1.",
+      "model": {
+        "family": "fraction_gate",
+        "tokens": [
+          "x/2+3",
+          "x=-4",
+          "1"
+        ],
+        "description": "Evaluate a fraction and a constant",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "x/2+3; x=-4",
+        "(-4)/2+3",
+        "-2+3",
+        "1"
+      ],
+      "steps": [
+        {
+          "title": "Place the input in the numerator",
+          "action": "Write negative four over two, keeping plus three outside the fraction bar.",
+          "narration": "Only x is divided by two."
+        },
+        {
+          "title": "Divide before adding",
+          "action": "Negative four divided by two is negative two.",
+          "narration": "The outside three is unchanged."
+        },
+        {
+          "title": "Add at the end",
+          "action": "Negative two plus three is one.",
+          "narration": "The fraction bar has a limited scope."
+        }
+      ],
+      "verify": "Original (-4)/2+3=-2+3=1.",
+      "misconception": "Dividing x+3 by two instead of only x.",
+      "repair": "Draw the fraction bar boundary before substituting."
+    },
+    {
+      "id": "g8-ex-l07-w10",
+      "number": 10,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Reject a zero denominator",
+      "q": "Evaluate 5/(x-1) at x=3 and at x=1.",
+      "answer": "At x=3 the value is 5/2; at x=1 it is undefined.",
+      "model": {
+        "family": "fraction_gate",
+        "tokens": [
+          "5/(x-1)",
+          "x=3",
+          "x=1",
+          "5/2",
+          "undefined"
+        ],
+        "description": "Reject a zero denominator",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "5/(x-1); x=3 or 1",
+        "At x=3: 5/(3-1); at x=1: 5/(1-1)",
+        "At x=3: 5/2; at x=1: 5/0",
+        "5/2; undefined for x=1"
+      ],
+      "steps": [
+        {
+          "title": "Substitute separately",
+          "action": "Use a distinct denominator lane for three and for one.",
+          "narration": "The denominator is the complete x minus one group."
+        },
+        {
+          "title": "Calculate denominators",
+          "action": "Three minus one is two; one minus one is zero.",
+          "narration": "A zero denominator signals an invalid input."
+        },
+        {
+          "title": "Report both outcomes",
+          "action": "Five over two is valid; five over zero is undefined.",
+          "narration": "Do not cancel or invent a value for the invalid branch."
+        }
+      ],
+      "verify": "At x=3, 5/(3-1)=5/2; at x=1, 5/(1-1)=5/0 is undefined.",
+      "misconception": "Treating 5/0 as zero or allowing x=1.",
+      "repair": "Calculate the whole denominator before dividing."
+    },
+    {
+      "id": "g8-ex-l07-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Evaluate a three-term expression with two inputs",
+      "q": "Evaluate 2a²-3ab+b² when a=-2 and b=3.",
+      "answer": "35.",
+      "model": {
+        "family": "two_input",
+        "tokens": [
+          "2a²-3ab+b²",
+          "a=-2",
+          "b=3",
+          "35"
+        ],
+        "description": "Evaluate a three-term expression with two inputs",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "2a²-3ab+b²; a=-2,b=3",
+        "2(-2)²-3(-2)(3)+(3)²",
+        "2(4)-3(-6)+9",
+        "8+18+9",
+        "35"
+      ],
+      "steps": [
+        {
+          "title": "Fill every named occurrence",
+          "action": "Replace both a slots with negative two and both b slots with three.",
+          "narration": "Retain a bracket around each signed input."
+        },
+        {
+          "title": "Calculate powers and inner product",
+          "action": "Negative two squared is four; negative two times three is negative six; three squared is nine.",
+          "narration": "Do these multiplications before adding terms."
+        },
+        {
+          "title": "Resolve the signed middle term",
+          "action": "Negative three times negative six is positive eighteen.",
+          "narration": "The middle result increases the total."
+        },
+        {
+          "title": "Add the three values",
+          "action": "Eight plus eighteen plus nine is thirty five.",
+          "narration": "All three original terms have contributed."
+        }
+      ],
+      "verify": "At (a,b)=(-2,3): 2·4-3(-6)+9=35.",
+      "misconception": "Dropping the sign of a in one of its occurrences.",
+      "repair": "Colour every a slot the same before inserting (-2)."
+    },
+    {
+      "id": "g8-ex-l07-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Evaluate two equivalent forms",
+      "q": "At x=-2, compare 3(x+4) and 3x+12.",
+      "answer": "Both equal 6.",
+      "model": {
+        "family": "equivalent_value_paths",
+        "tokens": [
+          "3(x+4)",
+          "3x+12",
+          "x=-2",
+          "6",
+          "6"
+        ],
+        "description": "Evaluate two equivalent forms",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "3(x+4) ; 3x+12 ; x=-2",
+        "3((-2)+4) ; 3(-2)+12",
+        "3(2) ; -6+12",
+        "6 ; 6"
+      ],
+      "steps": [
+        {
+          "title": "Fill both pathways",
+          "action": "Put negative two in each complete expression.",
+          "narration": "Equivalent forms should give the same result at the same input."
+        },
+        {
+          "title": "Evaluate inside each path",
+          "action": "First bracket gives two; second expression gives negative six plus twelve.",
+          "narration": "Keep two independent calculations visible."
+        },
+        {
+          "title": "Compare numerical outputs",
+          "action": "Both paths end at six.",
+          "narration": "This input confirms agreement here; a single test alone is not proof for all x."
+        }
+      ],
+      "verify": "At x=-2, 3(2)=6 and -6+12=6; distribution also shows 3(x+4)=3x+12 for all x.",
+      "misconception": "Claiming equal outputs at one input proves equivalence generally.",
+      "repair": "Verify this input, then show the distribution identity."
+    },
+    {
+      "id": "g8-ex-l07-w13",
+      "number": 13,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Diagnose a missing signed bracket",
+      "q": "A learner evaluates 2x² at x=-3 as -18. Find the first error and correct it.",
+      "answer": "They used -3² instead of (-3)²; the value is 18.",
+      "model": {
+        "family": "error_substitution",
+        "tokens": [
+          "2x²",
+          "x=-3",
+          "claim: -18",
+          "18"
+        ],
+        "description": "Diagnose a missing signed bracket",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "Claim: 2x² at x=-3 is -18",
+        "Correct substitution: 2(-3)²",
+        "Square the complete input: 2(9)",
+        "Correct value: 18"
+      ],
+      "steps": [
+        {
+          "title": "Find the substitution slot",
+          "action": "The learner wrote a minus without grouping the value negative three.",
+          "narration": "The exponent applies to the whole substituted value."
+        },
+        {
+          "title": "Show the first correct mathematical action",
+          "action": "Write two times negative three in parentheses squared.",
+          "narration": "The two negative factors make positive nine."
+        },
+        {
+          "title": "Repair the calculation",
+          "action": "Two times nine is eighteen.",
+          "narration": "The learner claim negative eighteen fails the original expression."
+        }
+      ],
+      "verify": "Original 2(-3)(-3)=18, not -18.",
+      "misconception": "Treating (-3)² as -(3²).",
+      "repair": "Draw the exponent scope around both parentheses."
+    },
+    {
+      "id": "g8-ex-l07-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Evaluate a contextual perimeter rule",
+      "q": "A rectangle has length 4 cm and width (x+1) cm. Its perimeter is P=2(l+w). Find P when x=3.",
+      "answer": "16 cm.",
+      "model": {
+        "family": "context_measure",
+        "tokens": [
+          "length=4 cm",
+          "width=x+1 cm",
+          "x=3",
+          "P=2(l+w)",
+          "16 cm"
+        ],
+        "description": "Evaluate a contextual perimeter rule",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "l=4, w=x+1, x=3; P=2(l+w)",
+        "w=3+1=4 cm; P=2(4+4)",
+        "P=2(8) cm",
+        "P=16 cm"
+      ],
+      "steps": [
+        {
+          "title": "Calculate the width first",
+          "action": "Substitute three in x plus one to get four centimetres.",
+          "narration": "The width depends on x; length is already known."
+        },
+        {
+          "title": "Put both dimensions into perimeter",
+          "action": "Two groups of length plus width gives two times eight.",
+          "narration": "Every side is counted: four, four, four and four."
+        },
+        {
+          "title": "Multiply and keep the unit",
+          "action": "Two times eight is sixteen centimetres.",
+          "narration": "Perimeter uses a length unit, not square centimetres."
+        }
+      ],
+      "verify": "Four sides 4+4+4+4=16 cm, matching 2(4+4).",
+      "misconception": "Using area units or only one pair of sides.",
+      "repair": "Trace all four boundary sides on the rectangle."
+    },
+    {
+      "id": "g8-ex-l07-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Evaluate with mixed operations and a denominator",
+      "q": "Evaluate 3x²-2(x-4)+6/x when x=-2.",
+      "answer": "21.",
+      "model": {
+        "family": "layered_order",
+        "tokens": [
+          "3x²",
+          "-2(x-4)",
+          "+6/x",
+          "x=-2",
+          "21"
+        ],
+        "description": "Evaluate with mixed operations and a denominator",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "3x²-2(x-4)+6/x; x=-2",
+        "3(-2)²-2((-2)-4)+6/(-2)",
+        "3(4)-2(-6)-3",
+        "12+12-3",
+        "21"
+      ],
+      "steps": [
+        {
+          "title": "Insert the signed input everywhere",
+          "action": "All three x positions receive negative two with brackets.",
+          "narration": "The denominator is nonzero at negative two."
+        },
+        {
+          "title": "Resolve powers, brackets and quotient",
+          "action": "The square is four, inner bracket negative six, six over negative two is negative three.",
+          "narration": "Respect the boundaries of each operation."
+        },
+        {
+          "title": "Multiply the remaining factors",
+          "action": "Three times four is twelve; negative two times negative six is positive twelve.",
+          "narration": "Keep the negative three fraction result visible."
+        },
+        {
+          "title": "Add the three terms",
+          "action": "Twelve plus twelve minus three is twenty one.",
+          "narration": "Each branch contributes once to the total."
+        }
+      ],
+      "verify": "At x=-2, original 3·4-2(-6)+6/(-2)=12+12-3=21.",
+      "misconception": "Cancelling the negative denominator or dropping the bracket sign.",
+      "repair": "Build three parallel calculation lanes before combining."
+    }
+  ],
+  "practice_questions": [
+    [
+      "p01",
+      "Evaluate y+6 when y=2.",
+      "8",
+      "Replace y by two.",
+      "2+6=8."
+    ],
+    [
+      "p02",
+      "Evaluate 5m when m=-3.",
+      "-15",
+      "Bracket the signed input.",
+      "5(-3)=-15."
+    ],
+    [
+      "p03",
+      "Evaluate a² when a=-4.",
+      "16",
+      "Put -4 inside the squared base.",
+      "(-4)²=16."
+    ],
+    [
+      "p04",
+      "Evaluate -x² and (-x)² when x=-3.",
+      "-9 and 9 respectively",
+      "Mark where the exponent starts.",
+      "-(-3)²=-9; (-(-3))²=9."
+    ],
+    [
+      "p05",
+      "Evaluate 3x+2 when x=-2.",
+      "-4",
+      "Multiply before adding.",
+      "3(-2)+2=-6+2=-4."
+    ],
+    [
+      "p06",
+      "Evaluate 2a-4b when a=3 and b=-2.",
+      "14",
+      "Keep distinct signed value chips.",
+      "2(3)-4(-2)=6+8=14."
+    ],
+    [
+      "p07",
+      "Evaluate 3(x-2) when x=-1.",
+      "-9",
+      "Calculate inside the bracket first.",
+      "3(-1-2)=3(-3)=-9."
+    ],
+    [
+      "p08",
+      "Evaluate x²-3x when x=-2.",
+      "10",
+      "Square the signed input.",
+      "(-2)²-3(-2)=4+6=10."
+    ],
+    [
+      "p09",
+      "Evaluate a/3+2 when a=-6.",
+      "0",
+      "Only a is over three.",
+      "(-6)/3+2=-2+2=0."
+    ],
+    [
+      "p10",
+      "Evaluate 8/(x-2) at x=4 and x=2.",
+      "4 at x=4; undefined at x=2",
+      "Check both denominators.",
+      "8/(4-2)=4; 8/(2-2)=8/0 is undefined."
+    ],
+    [
+      "p11",
+      "Evaluate a²-2ab+b² when a=-1 and b=2.",
+      "9",
+      "Substitute twice for each variable.",
+      "(-1)²-2(-1)(2)+2²=1+4+4=9."
+    ],
+    [
+      "p12",
+      "At x=-1 compare 2(x+3) and 2x+6.",
+      "Both equal 4",
+      "Compute each lane separately.",
+      "2(-1+3)=4 and 2(-1)+6=4."
+    ],
+    [
+      "p13",
+      "Correct a learner who reports x²=-16 when x=-4.",
+      "16",
+      "Bracket the negative four before squaring.",
+      "(-4)(-4)=16."
+    ],
+    [
+      "p14",
+      "A rectangle has length 5 cm and width x+2 cm. Find P=2(l+w) at x=1.",
+      "16 cm",
+      "Calculate width, then trace four sides.",
+      "w=3 cm; P=2(5+3)=16 cm."
+    ],
+    [
+      "p15",
+      "Evaluate 2x²-3(x-1)+4/x at x=-2.",
+      "15",
+      "Use three branches.",
+      "2(4)-3(-3)+4/(-2)=8+9-2=15."
+    ]
+  ],
+  "mastery_questions": [
+    [
+      "m01",
+      2,
+      "Evaluate 4x+1 at x=-3.",
+      "-11",
+      "4(-3)+1=-12+1=-11."
+    ],
+    [
+      "m02",
+      3,
+      "Evaluate -a² and (-a)² when a=-2.",
+      "-4 and 4 respectively",
+      "-(-2)²=-4; (-(-2))²=4."
+    ],
+    [
+      "m03",
+      4,
+      "Evaluate 3a²-2b when a=-2 and b=-3.",
+      "18",
+      "3(-2)²-2(-3)=12+6=18."
+    ],
+    [
+      "m04",
+      5,
+      "Evaluate 9/(x-1) at x=4 and x=1.",
+      "3 at x=4; undefined at x=1",
+      "9/(4-1)=3, while 9/(1-1)=9/0 undefined."
+    ],
+    [
+      "m05",
+      6,
+      "A rectangle has length x+2 cm and width 2x-1 cm. Find P=2(l+w) at x=3 and verify four sides.",
+      "20 cm",
+      "At x=3, l=5 and w=5; P=2(5+5)=20 cm; four sides total 5+5+5+5=20 cm."
+    ]
+  ],
+  "reassessment_questions": [
+    [
+      "r01",
+      "Evaluate 3x-4 at x=-2.",
+      "-10",
+      "3(-2)-4=-10."
+    ],
+    [
+      "r02",
+      "Evaluate 2a²-b when a=-3 and b=-4.",
+      "22",
+      "2(-3)²-(-4)=18+4=22."
+    ],
+    [
+      "r03",
+      "Evaluate 6/(x-2) at x=5 and x=2.",
+      "2 at x=5; undefined at x=2",
+      "6/(5-2)=2; 6/(2-2) is undefined."
+    ]
+  ]
+}

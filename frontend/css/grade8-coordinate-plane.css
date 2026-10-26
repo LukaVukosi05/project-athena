@@ -1,0 +1,9 @@
+.grade8-coordinate-plane{display:block;width:100%;height:auto;max-width:640px;background:#f5fafc;border:1px solid #c5dce5;border-radius:.8rem}
+.grade8-coordinate-plane line{stroke:#244b5b;stroke-width:1.5}
+.grade8-coordinate-plane text{fill:#173c4b;font:14px system-ui,sans-serif}
+.grade8-coordinate-plane .coord-ticks line{stroke:#9dbcc9}
+.grade8-coordinate-plane .coord-point circle{fill:#316d8d}
+.grade8-coordinate-plane .coord-point.is-error circle{fill:#b55931}
+.grade8-coordinate-plane .coord-guide{stroke:#188780;stroke-width:3;stroke-dasharray:6 5}
+.grade8-coordinate-plane .coord-result{fill:#0b8776;stroke:white;stroke-width:2}
+@media(max-width:700px){.grade8-coordinate-plane text{font-size:13px}}

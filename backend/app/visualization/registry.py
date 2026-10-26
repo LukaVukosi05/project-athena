@@ -114,6 +114,70 @@ def _grade8_equation_visual(parameters: dict) -> None:
     if not re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", parameters["question_id"]):
         raise ValueError("Grade 8 equation question_id is invalid")
 
+def _grade8_function_visual(parameters: dict) -> None:
+    if not re.fullmatch(r"g8-fr-l0[123]-w(?:0[1-9]|1[0-5])", str(parameters["question_id"])):
+        raise ValueError("Grade 8 functions question ID is invalid")
+    if not isinstance(parameters["prompt"], str) or not parameters["prompt"].strip():
+        raise ValueError("Functions problem text is required")
+    for field, minimum, maximum in (("given_objects",2,5),("derived_objects",1,4)):
+        values=parameters[field]
+        if not isinstance(values,list) or not minimum<=len(values)<=maximum or any(not isinstance(v,str) or not v.strip() for v in values):
+            raise ValueError(f"Functions {field} must contain {minimum}–{maximum} meaningful objects")
+    if not isinstance(parameters["total_steps"],int) or not 3<=parameters["total_steps"]<=12:
+        raise ValueError("Functions require complete progressive teaching steps")
+    if parameters["question_id"].startswith("g8-fr-l03-"):
+        xs=parameters.get("input_values")
+        ys=parameters.get("output_values")
+        if not isinstance(xs,list) or not isinstance(ys,list) or not 2<=len(xs)==len(ys)<=5 or any(
+            not isinstance(x,int) or isinstance(x,bool) or not -100<=x<=100 for x in xs) or any(
+            y!='?' and (not isinstance(y,int) or isinstance(y,bool) or not -10000<=y<=10000) for y in ys):
+            raise ValueError("Grade 8 table requires bounded, aligned input/output values")
+        if len(set(xs))!=len(xs):
+            raise ValueError("Grade 8 table inputs must be unique")
+        if "resolved_outputs" in parameters:
+            resolved, reveal = parameters["resolved_outputs"], parameters.get("output_reveal_steps")
+            if not isinstance(resolved, list) or len(resolved) != len(xs) or not isinstance(reveal, list) or len(reveal) != len(xs):
+                raise ValueError("Resolved outputs and reveal steps must align with the table")
+            if any(not isinstance(value, (str, int, float)) or isinstance(value, bool) for value in resolved):
+                raise ValueError("Resolved outputs must be mathematical labels")
+            if any(step is not None and (not isinstance(step, int) or isinstance(step, bool) or not -1 <= step <= parameters["total_steps"]) for step in reveal):
+                raise ValueError("Output reveal steps must refer to valid teaching steps")
+
+
+def _grade8_expression_visual(parameters: dict) -> None:
+    if not re.fullmatch(r"g8-ex-l(?:0[1-9]|10)-w(?:0[1-9]|1[0-5])", str(parameters["question_id"])):
+        raise ValueError("Grade 8 expression question_id is invalid")
+    if not isinstance(parameters["prompt"], str) or not parameters["prompt"].strip():
+        raise ValueError("Expression prompt is required")
+    tokens = parameters["model_tokens"]
+    if not isinstance(tokens, list) or not 2 <= len(tokens) <= 8 or any(not isinstance(t, str) or not t.strip() for t in tokens):
+        raise ValueError("Expression model needs 2–8 mathematical objects")
+    if not isinstance(parameters["total_steps"], int) or not 3 <= parameters["total_steps"] <= 12:
+        raise ValueError("Expression lesson needs progressive teaching steps")
+    lanes = parameters.get('model_lanes')
+    if lanes is not None and (not isinstance(lanes,list) or len(lanes)!=len(tokens) or any(not isinstance(lane,str) or not lane.strip() or len(lane)>24 for lane in lanes)):
+        raise ValueError("Expression lanes must label each given object exactly once")
+    scene=parameters.get('model_scene')
+    if scene is not None:
+        allowed={'rows','columns','unit','share','unit_price','square_rows','square_columns','rectangle_rows','rectangle_columns','side','segments','input_count'}
+        if not isinstance(scene,dict) or not set(scene)<=allowed:
+            raise ValueError("Expression scene has unsupported fields")
+        if any(not isinstance(value,int) or isinstance(value,bool) or not 0<=value<=12 for key,value in scene.items() if key not in {'unit','share','side','segments'}):
+            raise ValueError("Expression scene counts must be small non-negative integers")
+        if 'input_count' in scene and not 1<=scene['input_count']<len(tokens):
+            raise ValueError("Expression scene needs given factors and separately revealed results")
+        if 'share' in scene and (not isinstance(scene['share'],(int,float)) or isinstance(scene['share'],bool) or not 0<scene['share']<=1):
+            raise ValueError("Expression scene share must be between zero and one")
+        if 'unit' in scene and (not isinstance(scene['unit'],str) or not scene['unit'].strip() or len(scene['unit'])>24):
+            raise ValueError("Expression scene unit must be a short mathematical label")
+        if 'side' in scene and (not isinstance(scene['side'],str) or not scene['side'].strip() or len(scene['side'])>24):
+            raise ValueError("Expression scene side must be a short mathematical label")
+        if 'segments' in scene and (not isinstance(scene['segments'],str) or len(scene['segments'].split('|'))!=2 or any(not part.strip() or len(part)>24 for part in scene['segments'].split('|'))):
+            raise ValueError("Expression scene must describe two separate bracket widths")
+        for first, second in (('rows','columns'),('square_rows','square_columns'),('rectangle_rows','rectangle_columns')):
+            if first in scene and second in scene and scene[first]*scene[second]>48:
+                raise ValueError("Expression scene grid exceeds 48 visible cells")
+
 def _semantic_workbench(parameters: dict) -> None:
     for name in ("prompt", "answer", "family"):
         if not isinstance(parameters[name], str) or not parameters[name].strip():
@@ -204,6 +268,26 @@ def _coordinate_scene(parameters: dict) -> None:
     _semantic_workbench({**parameters, "prompt":"coordinate scene", "answer":"coordinate result", "family":"coordinate_scene"})
 
 CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
+    **{("algebra", template): TemplateDefinition(
+        frozenset({"prompt", "question_id", "given_objects", "derived_objects", "total_steps"}),
+        frozenset(), _grade8_function_visual, True)
+        for template in ("function_flow", "function_table", "function_reverse", "function_context", "function_compare",
+                         "equivalence_translation", "equivalence_flow_table", "equivalence_counterexample",
+                         "equivalence_context", "equivalence_domain", "equivalence_algebra")},
+    **{("algebra", template): TemplateDefinition(
+        frozenset({"prompt", "question_id", "given_objects", "derived_objects", "total_steps", "input_values", "output_values"}),
+        frozenset({"resolved_outputs", "output_reveal_steps"}), _grade8_function_visual, True)
+        for template in ("rule_difference", "rule_zero", "rule_signed", "rule_nonlinear", "rule_context", "rule_choice")},
+    **{("algebra", template): TemplateDefinition(
+        frozenset({"prompt", "question_id", "model_tokens", "model_description", "total_steps"}),
+        frozenset({"model_lanes", "model_scene"}), _grade8_expression_visual, True)
+        for template in ("expression_tiles", "signed_terms", "grouped_terms",
+            "fraction_bar", "square_comparison", "like_term_sort", "unlike_term_sort",
+            "receipt", "rectangle", "bracket_negation", "grouped_polynomials",
+            "factor_array", "sign_grid", "area_product", "power_stack", "area_comparison",
+            "distribute_strip", "signed_distribute", "trinomial_branches", "area_distribute", "compare_paths",
+            "equal_share", "signed_quotient", "factor_cancel", "term_share", "three_term_share",
+            "exponent_lanes", "context_packs", "error_division", "two_quotients", "square_grid", "signed_square", "cube_stack", "signed_cube", "sign_scope", "power_factor_stack", "root_pairs", "absolute_root", "cube_root", "fraction_cube", "error_root", "compare_powers", "compare_roots", "value_machine", "signed_slot", "exponent_scope", "compare_scope", "two_input", "bracket_input", "layered_order", "fraction_gate", "equivalent_value_paths", "error_substitution", "context_measure", "term_bins", "distribute_collect", "signed_distribution_collect", "quotient_collect", "dual_distribution_collect", "negative_bracket", "variable_quotient_collect", "power_bins", "distribution_error", "perimeter_mixed", "equivalent_mixed", "layered_mixed", "layered_quotient_mixed", "unit_receipt", "fixed_variable_receipt", "flow_rule", "input_table", "fare_table", "decrease_timeline", "packs_plus_loose", "context_perimeter", "plan_comparison", "fee_error", "equivalence_models", "general_table", "split_area_context", "parallel_flows", "fundraiser_audit", "diagnostic_term_sort", "diagnostic_signed_terms", "diagnostic_factor_array", "diagnostic_distribution_paths", "diagnostic_signed_distribution", "diagnostic_quotient_lanes", "diagnostic_exponent_scope", "diagnostic_root_pairs", "diagnostic_parallel_paths", "diagnostic_mixed_trace", "diagnostic_restricted_quotient", "diagnostic_context_receipt", "diagnostic_area_split", "diagnostic_parallel_flows", "diagnostic_integrated_trace")},
     **{
         ("algebra", template): TemplateDefinition(
             frozenset({"prompt", "source_data", "initial_state", "family", "question_id"}),

@@ -1,0 +1,863 @@
+{
+  "id": "g8-algebraic-expressions-06",
+  "title": "Powers and roots of algebraic terms",
+  "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson6_Source_Pack_v1.docx",
+  "source_sha256": "f0fcde3880b2f91dae2a525b69b117970acc48f13edf9421f75a0c339d543e03",
+  "worked_examples": [
+    {
+      "id": "g8-ex-l06-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Square a positive monomial",
+      "q": "Find (3x)².",
+      "answer": "9x².",
+      "model": {
+        "family": "square_grid",
+        "tokens": [
+          "3x",
+          "3x",
+          "9x²"
+        ],
+        "description": "Square a positive monomial",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "(3x)²",
+        "(3x)(3x)",
+        "9x²"
+      ],
+      "steps": [
+        {
+          "title": "Open the square",
+          "action": "Make two identical factors of the complete term 3x.",
+          "narration": "The exponent two applies to both three and x."
+        },
+        {
+          "title": "Multiply the two factors",
+          "action": "Three times three is nine; x times x is x squared.",
+          "narration": "The area of the three x by three x square is nine x squared."
+        }
+      ],
+      "verify": "At x=2: (3·2)²=36 and 9·2²=36.",
+      "misconception": "Squaring x but leaving the coefficient at three.",
+      "repair": "Draw two 3x sides; multiply coefficient by coefficient and x by x."
+    },
+    {
+      "id": "g8-ex-l06-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Square a negative monomial",
+      "q": "Find (-2a)².",
+      "answer": "4a².",
+      "model": {
+        "family": "signed_square",
+        "tokens": [
+          "-2a",
+          "-2a",
+          "+4a²"
+        ],
+        "description": "Square a negative monomial",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "(-2a)²",
+        "(-2a)(-2a)",
+        "4a²"
+      ],
+      "steps": [
+        {
+          "title": "Duplicate the signed factor",
+          "action": "Place two full negative 2a factors, including both parentheses.",
+          "narration": "The negative sign is inside the squared group."
+        },
+        {
+          "title": "Resolve sign and factors",
+          "action": "Negative times negative is positive; two times two is four.",
+          "narration": "Multiplying the a factors gives a squared."
+        }
+      ],
+      "verify": "At a=3: (-6)²=36 and 4·3²=36.",
+      "misconception": "Keeping a negative sign after squaring the entire term.",
+      "repair": "Use a two-sign grid before multiplying magnitudes."
+    },
+    {
+      "id": "g8-ex-l06-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Cube a positive monomial",
+      "q": "Find (2y)³.",
+      "answer": "8y³.",
+      "model": {
+        "family": "cube_stack",
+        "tokens": [
+          "2y",
+          "2y",
+          "2y",
+          "8y³"
+        ],
+        "description": "Cube a positive monomial",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "(2y)³",
+        "(2y)(2y)(2y)",
+        "4y²(2y)",
+        "8y³"
+      ],
+      "steps": [
+        {
+          "title": "Open the cube",
+          "action": "Build three identical complete factors of 2y.",
+          "narration": "A cube uses three factors, not two."
+        },
+        {
+          "title": "Multiply the first pair",
+          "action": "Two times two is four; y times y is y squared.",
+          "narration": "Keep the third 2y factor ready."
+        },
+        {
+          "title": "Multiply the third factor",
+          "action": "Four times two is eight; y squared times y is y cubed.",
+          "narration": "The complete product is eight y cubed."
+        }
+      ],
+      "verify": "At y=2: (4)³=64 and 8·2³=64.",
+      "misconception": "Cubing only the variable.",
+      "repair": "Stack all three coefficient and variable factors."
+    },
+    {
+      "id": "g8-ex-l06-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Cube a negative monomial",
+      "q": "Find (-3t)³.",
+      "answer": "-27t³.",
+      "model": {
+        "family": "signed_cube",
+        "tokens": [
+          "-3t",
+          "-3t",
+          "-3t",
+          "-27t³"
+        ],
+        "description": "Cube a negative monomial",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "(-3t)³",
+        "(-3t)(-3t)(-3t)",
+        "9t²(-3t)",
+        "-27t³"
+      ],
+      "steps": [
+        {
+          "title": "Show three signed factors",
+          "action": "The whole negative 3t term appears three times.",
+          "narration": "An odd number of negative factors produces a negative result."
+        },
+        {
+          "title": "Pair two negatives",
+          "action": "The first pair makes positive nine t squared.",
+          "narration": "A third negative factor remains."
+        },
+        {
+          "title": "Multiply the last negative",
+          "action": "Positive nine times negative three is negative twenty seven.",
+          "narration": "The three t factors make t cubed."
+        }
+      ],
+      "verify": "At t=1: (-3)³=-27 and -27·1³=-27.",
+      "misconception": "Assuming all powers erase the minus sign.",
+      "repair": "Count negative factors: odd leaves negative."
+    },
+    {
+      "id": "g8-ex-l06-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Distinguish an outside minus",
+      "q": "Compare (-4x)² and -(4x)².",
+      "answer": "16x² and -16x² respectively.",
+      "model": {
+        "family": "sign_scope",
+        "tokens": [
+          "(-4x)²",
+          "-(4x)²",
+          "+16x²",
+          "-16x²"
+        ],
+        "description": "Distinguish an outside minus",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "Two expressions: (-4x)² ; -(4x)²",
+        "(-4x)(-4x) ; -[(4x)(4x)]",
+        "16x² ; -16x²"
+      ],
+      "steps": [
+        {
+          "title": "Mark exponent scope",
+          "action": "In the first expression the minus is inside both factors; in the second it is outside the square.",
+          "narration": "Parentheses decide whether the minus is squared."
+        },
+        {
+          "title": "Resolve both paths",
+          "action": "The first two negatives multiply to positive; the outside minus remains on the second.",
+          "narration": "These expressions differ by a sign for nonzero x."
+        }
+      ],
+      "verify": "At x=1: (-4)²=16 whereas -(4)²=-16.",
+      "misconception": "Reading -(4x)² as (-4x)².",
+      "repair": "Draw a boundary around the base before multiplying."
+    },
+    {
+      "id": "g8-ex-l06-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Square a product with two letters",
+      "q": "Find (-2ab)².",
+      "answer": "4a²b².",
+      "model": {
+        "family": "square_grid",
+        "tokens": [
+          "-2ab",
+          "-2ab",
+          "4a²b²"
+        ],
+        "description": "Square a product with two letters",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "(-2ab)²",
+        "(-2ab)(-2ab)",
+        "4(a·a)(b·b)",
+        "4a²b²"
+      ],
+      "steps": [
+        {
+          "title": "Duplicate every factor",
+          "action": "Both negative 2ab factors contain a and b.",
+          "narration": "The exponent reaches the coefficient and both letters."
+        },
+        {
+          "title": "Resolve the coefficient and signs",
+          "action": "Negative two times negative two is positive four.",
+          "narration": "Keep both letter pairs visible."
+        },
+        {
+          "title": "Group matching letters",
+          "action": "Two a factors give a squared; two b factors give b squared.",
+          "narration": "The result has two separate square powers."
+        }
+      ],
+      "verify": "At a=2,b=3: (-12)²=144 and 4·4·9=144.",
+      "misconception": "Applying the square only to b.",
+      "repair": "List the factor copies for both a and b."
+    },
+    {
+      "id": "g8-ex-l06-w07",
+      "number": 7,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Square an existing power",
+      "q": "Find (3x²)².",
+      "answer": "9x⁴.",
+      "model": {
+        "family": "power_factor_stack",
+        "tokens": [
+          "3",
+          "x·x",
+          "3",
+          "x·x",
+          "9x⁴"
+        ],
+        "description": "Square an existing power",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "(3x²)²",
+        "(3x²)(3x²)",
+        "(3·3)(x·x·x·x)",
+        "9x⁴"
+      ],
+      "steps": [
+        {
+          "title": "Write two copies",
+          "action": "Two complete 3x squared factors are multiplied.",
+          "narration": "An outer exponent counts copies of the entire base."
+        },
+        {
+          "title": "Collect coefficient and x factors",
+          "action": "Three times three is nine and there are four x factors.",
+          "narration": "The inner two and outer two make four x factors."
+        },
+        {
+          "title": "Write one power",
+          "action": "Four copies of x are x to the fourth.",
+          "narration": "The coefficient nine remains outside the variable power."
+        }
+      ],
+      "verify": "At x=2: (3·4)²=144 and 9·16=144.",
+      "misconception": "Adding the exponents 2+2 incorrectly to the coefficient too.",
+      "repair": "Count variable factors, then handle coefficients separately."
+    },
+    {
+      "id": "g8-ex-l06-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Take a principal square root",
+      "q": "For x ≥ 0, simplify √(25x²).",
+      "answer": "5x for x ≥ 0.",
+      "model": {
+        "family": "root_pairs",
+        "tokens": [
+          "25",
+          "x·x",
+          "5",
+          "x"
+        ],
+        "description": "Take a principal square root",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "√(25x²), x ≥ 0",
+        "√[(5·5)(x·x)], x ≥ 0",
+        "5x, x ≥ 0"
+      ],
+      "steps": [
+        {
+          "title": "Pair the factors",
+          "action": "Twenty five is five times five; x squared is x times x.",
+          "narration": "Each matching pair contributes one factor outside the square root."
+        },
+        {
+          "title": "Take the nonnegative root",
+          "action": "Choose positive five and nonnegative x.",
+          "narration": "The principal square root is nonnegative under the stated condition."
+        }
+      ],
+      "verify": "At x=3: √(25·9)=15 and 5·3=15; x is nonnegative.",
+      "misconception": "Assuming a square root returns both plus and minus.",
+      "repair": "The principal √ symbol selects the nonnegative value."
+    },
+    {
+      "id": "g8-ex-l06-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Root without a sign assumption",
+      "q": "Simplify √(9a²) for any real a.",
+      "answer": "3|a|.",
+      "model": {
+        "family": "absolute_root",
+        "tokens": [
+          "9",
+          "a·a",
+          "3",
+          "|a|"
+        ],
+        "description": "Root without a sign assumption",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "√(9a²), a any real",
+        "√[(3·3)(a·a)]",
+        "3|a|"
+      ],
+      "steps": [
+        {
+          "title": "Find matched factors",
+          "action": "Three times three makes nine, while a times a makes a squared.",
+          "narration": "The coefficient contributes positive three."
+        },
+        {
+          "title": "Respect principal-root sign",
+          "action": "The nonnegative number whose square is a squared is absolute a.",
+          "narration": "Use absolute a because a might be negative."
+        }
+      ],
+      "verify": "At a=-2: √(9·4)=6 and 3|-2|=6; writing 3a would give -6.",
+      "misconception": "Replacing √(a²) by a for negative a.",
+      "repair": "Test a negative input and choose the nonnegative magnitude."
+    },
+    {
+      "id": "g8-ex-l06-w10",
+      "number": 10,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Take a cube root with a negative",
+      "q": "Find ∛(-8m³).",
+      "answer": "-2m.",
+      "model": {
+        "family": "cube_root",
+        "tokens": [
+          "-8",
+          "m·m·m",
+          "-2",
+          "m"
+        ],
+        "description": "Take a cube root with a negative",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "∛(-8m³)",
+        "∛[(-2)(-2)(-2)(m·m·m)]",
+        "-2m"
+      ],
+      "steps": [
+        {
+          "title": "Build three equal factors",
+          "action": "Negative eight is three copies of negative two; m cubed is three m factors.",
+          "narration": "An odd root can take a negative input."
+        },
+        {
+          "title": "Take one from each triple",
+          "action": "One negative two and one m leave the cube root.",
+          "narration": "Cubing negative two m reconstructs negative eight m cubed."
+        }
+      ],
+      "verify": "At m=3: ∛(-216)=-6 and -2·3=-6.",
+      "misconception": "Rejecting a negative cube root.",
+      "repair": "A negative times negative times negative stays negative."
+    },
+    {
+      "id": "g8-ex-l06-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Cube a signed fraction",
+      "q": "Find (-a/2)³.",
+      "answer": "-a³/8.",
+      "model": {
+        "family": "fraction_cube",
+        "tokens": [
+          "-a/2",
+          "-a/2",
+          "-a/2",
+          "-a³/8"
+        ],
+        "description": "Cube a signed fraction",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "(-a/2)³",
+        "(-a/2)(-a/2)(-a/2)",
+        "(-a·-a·-a)/(2·2·2)",
+        "-a³/8"
+      ],
+      "steps": [
+        {
+          "title": "Copy the fraction three times",
+          "action": "Both numerator and denominator occur in each full factor.",
+          "narration": "The cube applies to the whole fraction."
+        },
+        {
+          "title": "Multiply top and bottom",
+          "action": "Three negative a factors make negative a cubed; three twos make eight.",
+          "narration": "An odd number of negatives remains negative."
+        },
+        {
+          "title": "Reduce to one fraction",
+          "action": "Keep the negative numerator over positive eight.",
+          "narration": "The final quotient is negative a cubed over eight."
+        }
+      ],
+      "verify": "At a=2: (-1)³=-1 and -8/8=-1.",
+      "misconception": "Cubing the numerator but leaving denominator as two.",
+      "repair": "Make three complete fraction cards before multiplying."
+    },
+    {
+      "id": "g8-ex-l06-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Diagnose a square-root error",
+      "q": "A learner writes √(16x²) = 4x for every real x. Locate the error and repair it.",
+      "answer": "The sign condition was ignored; √(16x²)=4|x|.",
+      "model": {
+        "family": "error_root",
+        "tokens": [
+          "√(16x²)",
+          "claim: 4x",
+          "x=-2",
+          "4|x|"
+        ],
+        "description": "Diagnose a square-root error",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "Claim: √(16x²)=4x for every real x",
+        "At x=-2: √(16·4)=8 but 4(-2)=-8",
+        "The first error is assuming √(x²)=x for negative x",
+        "Correct: √(16x²)=4|x|"
+      ],
+      "steps": [
+        {
+          "title": "Test a negative input",
+          "action": "Substitute negative two in both the original and the learner claim.",
+          "narration": "The two values disagree, exposing the sign error."
+        },
+        {
+          "title": "Locate the first invalid step",
+          "action": "Four is correct, but x is negative when x is negative.",
+          "narration": "The principal root cannot be negative."
+        },
+        {
+          "title": "Repair with magnitude",
+          "action": "Replace x by absolute x so the answer is nonnegative.",
+          "narration": "The repaired rule works on either side of zero."
+        }
+      ],
+      "verify": "At x=-2: original 8 and repaired 4|-2|=8; at x=2 both are 8.",
+      "misconception": "Accepting a single positive test as a proof for every real input.",
+      "repair": "Test both signs and restore the principal-root condition."
+    },
+    {
+      "id": "g8-ex-l06-w13",
+      "number": 13,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Cube root of multiple factor groups",
+      "q": "Simplify ∛(-27a³b³).",
+      "answer": "-3ab.",
+      "model": {
+        "family": "cube_root",
+        "tokens": [
+          "-27",
+          "a·a·a",
+          "b·b·b",
+          "-3ab"
+        ],
+        "description": "Cube root of multiple factor groups",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "∛(-27a³b³)",
+        "∛[(-3)³(a³)(b³)]",
+        "-3ab"
+      ],
+      "steps": [
+        {
+          "title": "Group the triples",
+          "action": "Make three negative threes, three a factors and three b factors.",
+          "narration": "Each cube-root group has three matching factors."
+        },
+        {
+          "title": "Take one factor from every triple",
+          "action": "One negative three, one a and one b remain.",
+          "narration": "An odd root does not need absolute-value bars."
+        }
+      ],
+      "verify": "At a=-2,b=1: ∛216=6 and -3(-2)(1)=6.",
+      "misconception": "Adding absolute bars to cube-root variables.",
+      "repair": "Cube a negative test value to see the original sign is preserved."
+    },
+    {
+      "id": "g8-ex-l06-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Simplify before evaluating a square",
+      "q": "Simplify (2x)² + (x)², then evaluate at x=-3.",
+      "answer": "5x²; at x=-3 the value is 45.",
+      "model": {
+        "family": "compare_powers",
+        "tokens": [
+          "(2x)²",
+          "x²",
+          "4x²",
+          "x²",
+          "5x²",
+          "x=-3"
+        ],
+        "description": "Simplify before evaluating a square",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "(2x)² + x²; x=-3",
+        "4x² + x²; x=-3",
+        "5x²; x=-3",
+        "5(-3)²",
+        "45"
+      ],
+      "steps": [
+        {
+          "title": "Square the first whole term",
+          "action": "Two x times two x makes four x squared.",
+          "narration": "The second x squared stays visible."
+        },
+        {
+          "title": "Combine like powers",
+          "action": "Four x squared plus one x squared makes five x squared.",
+          "narration": "Both terms have the same variable power."
+        },
+        {
+          "title": "Substitute the signed input",
+          "action": "Put negative three inside parentheses before squaring.",
+          "narration": "The square is positive nine, not negative nine."
+        },
+        {
+          "title": "Multiply the coefficient",
+          "action": "Five multiplied by nine equals forty five.",
+          "narration": "The numerical value is forty five."
+        }
+      ],
+      "verify": "Original at x=-3: (2·-3)²+(-3)²=36+9=45.",
+      "misconception": "Treating (-3)² as -9 or (2x)² as 2x².",
+      "repair": "Square complete bases, combine like terms, then substitute."
+    },
+    {
+      "id": "g8-ex-l06-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Compare square and cube roots",
+      "q": "For x ≥ 0, simplify √(36x²) + ∛(-8x³), then evaluate at x=4.",
+      "answer": "4x; at x=4 the value is 16.",
+      "model": {
+        "family": "compare_roots",
+        "tokens": [
+          "√(36x²)",
+          "∛(-8x³)",
+          "6x",
+          "-2x",
+          "x=4"
+        ],
+        "description": "Compare square and cube roots",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "√(36x²)+∛(-8x³), x ≥ 0",
+        "6x + ∛(-8x³), x ≥ 0",
+        "6x - 2x, x ≥ 0",
+        "4x, x ≥ 0",
+        "16 at x=4"
+      ],
+      "steps": [
+        {
+          "title": "Pair square-root factors",
+          "action": "Six times six is thirty six and x times x is x squared.",
+          "narration": "Because x is nonnegative the principal square root is six x."
+        },
+        {
+          "title": "Group cube-root triples",
+          "action": "Negative two cubed is negative eight, while x cubed gives x.",
+          "narration": "The cube root is negative two x."
+        },
+        {
+          "title": "Collect like terms",
+          "action": "Six x minus two x equals four x.",
+          "narration": "Retain the original x at least zero condition."
+        },
+        {
+          "title": "Evaluate the chosen input",
+          "action": "Four times four is sixteen.",
+          "narration": "This is the value at x equal to four."
+        }
+      ],
+      "verify": "Original at x=4: √576 + ∛(-512)=24-8=16.",
+      "misconception": "Forgetting the negative cube-root term or the square-root condition.",
+      "repair": "Place a sign and root badge on each independent branch."
+    }
+  ],
+  "practice_questions": [
+    [
+      "p01",
+      "Find (4x)².",
+      "16x²",
+      "Duplicate 4x as a whole factor.",
+      "(4x)(4x)=16x²."
+    ],
+    [
+      "p02",
+      "Find (-5a)².",
+      "25a²",
+      "Two negative factors make a positive.",
+      "(-5a)(-5a)=25a²."
+    ],
+    [
+      "p03",
+      "Find (3t)³.",
+      "27t³",
+      "Use three complete 3t factors.",
+      "(3t)(3t)(3t)=27t³."
+    ],
+    [
+      "p04",
+      "Find (-2m)³.",
+      "-8m³",
+      "Count three negative factors.",
+      "(-2m)(-2m)(-2m)=-8m³."
+    ],
+    [
+      "p05",
+      "Compare (-3y)² and -(3y)².",
+      "9y² and -9y² respectively",
+      "Mark the scope of each minus.",
+      "(-3y)²=9y²; -(3y)²=-9y²."
+    ],
+    [
+      "p06",
+      "Find (-3ab)².",
+      "9a²b²",
+      "Square the coefficient and both letters.",
+      "(-3ab)(-3ab)=9a²b²."
+    ],
+    [
+      "p07",
+      "Find (2p²)².",
+      "4p⁴",
+      "Count four copies of p.",
+      "(2p²)(2p²)=4p⁴."
+    ],
+    [
+      "p08",
+      "For x ≥ 0, simplify √(49x²).",
+      "7x for x ≥ 0",
+      "Pair sevens and x factors.",
+      "√[(7·7)(x·x)]=7x for x ≥ 0."
+    ],
+    [
+      "p09",
+      "Simplify √(16a²) for any real a.",
+      "4|a|",
+      "Test a negative a.",
+      "√(16a²)=4|a|; the principal root is nonnegative."
+    ],
+    [
+      "p10",
+      "Find ∛(-64q³).",
+      "-4q",
+      "Group three negative fours.",
+      "∛[(-4q)³]=-4q."
+    ],
+    [
+      "p11",
+      "Find (-b/3)³.",
+      "-b³/27",
+      "Cube both numerator and denominator.",
+      "(-b/3)³=(-b)³/3³=-b³/27."
+    ],
+    [
+      "p12",
+      "A learner claims √(25n²)=5n for every real n. Correct it.",
+      "5|n|",
+      "Test n=-1.",
+      "At n=-1 the left is 5, not -5; correct form is 5|n|."
+    ],
+    [
+      "p13",
+      "Simplify ∛(-8a³b³).",
+      "-2ab",
+      "One factor from every triple.",
+      "∛[(-2ab)³]=-2ab."
+    ],
+    [
+      "p14",
+      "Simplify (3x)²+x², then evaluate at x=-2.",
+      "10x²; 40 at x=-2",
+      "Square the whole 3x first.",
+      "9x²+x²=10x²; 10(-2)²=40."
+    ],
+    [
+      "p15",
+      "For x ≥ 0, simplify √(25x²)+∛(-x³), then evaluate at x=3.",
+      "4x for x ≥ 0; 12 at x=3",
+      "Use separate square and cube-root branches.",
+      "5x-x=4x; at x=3: 15-3=12."
+    ]
+  ],
+  "mastery_questions": [
+    [
+      "m01",
+      2,
+      "Find (-6u)².",
+      "36u²",
+      "(-6u)(-6u)=36u²."
+    ],
+    [
+      "m02",
+      3,
+      "Find (-2a)³.",
+      "-8a³",
+      "Three negative 2a factors give -8a³."
+    ],
+    [
+      "m03",
+      4,
+      "Simplify √(49x²) for any real x and check x=-2.",
+      "7|x|; at x=-2 the value is 14.",
+      "√(49x²)=7|x|; √(49·4)=14."
+    ],
+    [
+      "m04",
+      5,
+      "Simplify ∛(-64p³q³).",
+      "-4pq",
+      "Three copies of -4, p and q give -4pq."
+    ],
+    [
+      "m05",
+      6,
+      "For x ≥ 0 simplify √(9x²)+∛(-8x³)+(2x)², then evaluate at x=2.",
+      "4x²+x for x ≥ 0; 18 at x=2.",
+      "3x-2x+4x²=4x²+x; original at x=2 is 6-4+16=18."
+    ]
+  ],
+  "reassessment_questions": [
+    [
+      "r01",
+      "Find (-4t)³.",
+      "-64t³",
+      "(-4t)(-4t)(-4t)=-64t³."
+    ],
+    [
+      "r02",
+      "Simplify √(36a²) for any real a.",
+      "6|a|",
+      "At a=-2, √144=12=6|-2|."
+    ],
+    [
+      "r03",
+      "For x ≥ 0 simplify √(16x²)+∛(-27x³), then evaluate at x=5.",
+      "x for x ≥ 0; 5 at x=5.",
+      "4x-3x=x; at x=5 original is 20-15=5."
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+.equiv-board{display:grid;gap:1rem;min-width:0}.equiv-scene{display:grid;gap:.8rem;padding:1rem;background:linear-gradient(135deg,#eaf6fc,#fff);border-radius:1rem;min-width:0}
+.equiv-flow,.equiv-lanes,.equiv-context,.equiv-domain,.equiv-table,.equiv-results{display:flex;flex-wrap:wrap;align-items:stretch;gap:.55rem;min-width:0}
+.equiv-table-row,.equiv-lane,.equiv-derived{display:grid;gap:.3rem;min-width:7rem;padding:.6rem .75rem;background:white;border:1px solid #aac8df;border-radius:.7rem;color:#123856}
+.equiv-given{display:inline-flex;align-items:center;padding:.55rem .75rem;background:white;border:1px solid #94bee0;border-radius:.6rem;overflow-wrap:anywhere}
+.equiv-table-row .equiv-given,.equiv-lane .equiv-given{border:0;padding:0}.equiv-derived.is-concealed strong{opacity:.55}.equiv-derived.is-visible{border-color:#168681;background:#ebf9f4}
+.equiv-arrow{display:inline-flex;align-items:center;color:#167b8a;font-weight:700}.equiv-board small{color:#476b85}
+@media(max-width:700px){.equiv-scene{padding:.7rem}.equiv-table-row,.equiv-lane,.equiv-derived{min-width:min(100%,9rem);flex:1 1 9rem}.equiv-given{max-width:100%}}

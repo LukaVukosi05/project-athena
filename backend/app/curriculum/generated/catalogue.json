@@ -40,6 +40,71 @@
       "document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx",
       "sha256": "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574",
       "paragraph_count": 7441
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson10_Source_Pack_v1.docx",
+      "sha256": "8c68c627ba913379da6c1adac4faf8e857e554e91f02d0e316d35721707ee2ac",
+      "paragraph_count": 272
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson1_Source_Pack_v1.docx",
+      "sha256": "d40014372e8f64855b6012a666c6d7b46bcfa8195722784fc9a9c16a080555a5",
+      "paragraph_count": 347
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson2_Source_Pack_v1.docx",
+      "sha256": "18065cb629dbf787a270937ce86de79fe22260aba52a8f4d7a9f30c9d4fc87d0",
+      "paragraph_count": 287
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson3_Source_Pack_v1.docx",
+      "sha256": "dbc89ec8f3c34613f8cdbfe060dada5f32b08645d38c7334cf6299ce6bb13db0",
+      "paragraph_count": 257
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson4_Source_Pack_v1.docx",
+      "sha256": "dc520c8054dc07d0e615a541803d8b61378e5ab00673673ab07cd561894c8498",
+      "paragraph_count": 268
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson5_Source_Pack_v1.docx",
+      "sha256": "0af2d0487b388a280a5104791101eb90b4bf52b787524c702d82a1f52a7c8584",
+      "paragraph_count": 273
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson6_Source_Pack_v1.docx",
+      "sha256": "f0fcde3880b2f91dae2a525b69b117970acc48f13edf9421f75a0c339d543e03",
+      "paragraph_count": 266
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson7_Source_Pack_v1.docx",
+      "sha256": "1b7774758ecdee6f34aa268752b1b5fb519592d38352c058178d78e2e4a869c2",
+      "paragraph_count": 271
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson8_Source_Pack_v1.docx",
+      "sha256": "505e4e9be65e6950ddba260fadd67184ee35d2801d0aeafe3c95766945ad5356",
+      "paragraph_count": 274
+    },
+    {
+      "document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson9_Source_Pack_v1.docx",
+      "sha256": "ab79ce498e8e5489e538aaef8a97c4fa4f57caa0d9745211b1144bc611d933c0",
+      "paragraph_count": 273
+    },
+    {
+      "document": "Project_Athena_Grade8_Functions_Relationships_Lesson1_Source_Pack_v1.docx",
+      "sha256": "2e658b8222d9db59714d8bdb96a82a23dfcb0e19c61e124e1cf389b6d2c72449",
+      "paragraph_count": 265
+    },
+    {
+      "document": "Project_Athena_Grade8_Functions_Relationships_Lesson2_Source_Pack_v1.docx",
+      "sha256": "b0e8d45d0ae0d5c243032935b4a81ff1898415eb5812421999edcd966c1a7f78",
+      "paragraph_count": 294
+    },
+    {
+      "document": "Project_Athena_Grade8_Functions_Relationships_Lesson3_Source_Pack_v1.docx",
+      "sha256": "42c2c35f474f1e8740c6ade0ea8832bd53da47a7d46cd4d48134d52fee383a57",
+      "paragraph_count": 311
     }
   ],
   "grades": [
@@ -135,6 +200,130 @@
               "status": "published",
               "duration_minutes": 100,
               "source_document": "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
+            }
+          ]
+        },
+        {
+          "topic_id": "algebraic-expressions",
+          "topic_number": 2,
+          "title": "Algebraic Expressions",
+          "paper": null,
+          "expected_lesson_count": 10,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-algebraic-expressions-01",
+              "position": 1,
+              "title": "Reading and building algebraic expressions",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson1_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-expressions-02",
+              "position": 2,
+              "title": "Adding and subtracting like terms",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson2_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-expressions-03",
+              "position": 3,
+              "title": "Multiplying monomials",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson3_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-expressions-04",
+              "position": 4,
+              "title": "Distributing a monomial",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson4_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-expressions-05",
+              "position": 5,
+              "title": "Dividing algebraic expressions",
+              "status": "verified",
+              "duration_minutes": 85,
+              "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson5_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-expressions-06",
+              "position": 6,
+              "title": "Powers and roots of algebraic terms",
+              "status": "verified",
+              "duration_minutes": 85,
+              "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson6_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-expressions-07",
+              "position": 7,
+              "title": "Evaluating expressions by substitution",
+              "status": "verified",
+              "duration_minutes": 85,
+              "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson7_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-expressions-08",
+              "position": 8,
+              "title": "Mixed simplification and verification",
+              "status": "verified",
+              "duration_minutes": 95,
+              "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson8_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-expressions-09",
+              "position": 9,
+              "title": "Representations and contextual expressions",
+              "status": "verified",
+              "duration_minutes": 100,
+              "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson9_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-algebraic-expressions-10",
+              "position": 10,
+              "title": "Diagnosis and transfer of expressions",
+              "status": "verified",
+              "duration_minutes": 110,
+              "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson10_Source_Pack_v1.docx"
+            }
+          ]
+        },
+        {
+          "topic_id": "functions-relationships",
+          "topic_number": 3,
+          "title": "Functions and Relationships",
+          "paper": null,
+          "expected_lesson_count": 3,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-functions-relationships-01",
+              "position": 1,
+              "title": "Input output values and rules",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "Project_Athena_Grade8_Functions_Relationships_Lesson1_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-functions-relationships-02",
+              "position": 2,
+              "title": "Equivalent forms of a relationship",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "Project_Athena_Grade8_Functions_Relationships_Lesson2_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-functions-relationships-03",
+              "position": 3,
+              "title": "Finding and testing rules from tables",
+              "status": "verified",
+              "duration_minutes": 95,
+              "source_document": "Project_Athena_Grade8_Functions_Relationships_Lesson3_Source_Pack_v1.docx"
             }
           ]
         }

@@ -1,0 +1,916 @@
+{
+  "id": "g8-algebraic-expressions-08",
+  "title": "Mixed algebraic simplification and verification",
+  "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson8_Source_Pack_v1.docx",
+  "source_sha256": "505e4e9be65e6950ddba260fadd67184ee35d2801d0aeafe3c95766945ad5356",
+  "worked_examples": [
+    {
+      "id": "g8-ex-l08-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Sort like terms",
+      "q": "Simplify 3x+5x.",
+      "answer": "8x.",
+      "model": {
+        "family": "term_bins",
+        "tokens": [
+          "3x",
+          "+5x",
+          "8x"
+        ],
+        "description": "Sort like terms",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "3x+5x",
+        "(3+5)x",
+        "8x"
+      ],
+      "steps": [
+        {
+          "title": "Sort the matching tiles",
+          "action": "Place both x terms in one bin.",
+          "narration": "Both tiles contain one x, so add their coefficients."
+        },
+        {
+          "title": "Combine coefficients",
+          "action": "Add three and five, then keep x.",
+          "narration": "Three x units and five x units make eight x units."
+        }
+      ],
+      "verify": "At x=2: 3(2)+5(2)=16 and 8(2)=16.",
+      "misconception": "Adding x to its coefficient.",
+      "repair": "Count the x tiles and keep the x label."
+    },
+    {
+      "id": "g8-ex-l08-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Keep the signed constant",
+      "q": "Simplify 4a+2-a.",
+      "answer": "3a+2.",
+      "model": {
+        "family": "term_bins",
+        "tokens": [
+          "4a",
+          "+2",
+          "-a",
+          "3a+2"
+        ],
+        "description": "Keep the signed constant",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "4a+2-a",
+        "(4a-a)+2",
+        "(4-1)a+2",
+        "3a+2"
+      ],
+      "steps": [
+        {
+          "title": "Separate kinds",
+          "action": "Move positive two to the constant bin and minus a beside four a.",
+          "narration": "A constant cannot join an a term."
+        },
+        {
+          "title": "Read the hidden coefficient",
+          "action": "Write minus a as minus one a.",
+          "narration": "The sign belongs to the a term."
+        },
+        {
+          "title": "Collect the a terms",
+          "action": "Four minus one is three.",
+          "narration": "Leave the constant two unchanged."
+        }
+      ],
+      "verify": "At a=2: 8+2-2=8 and 3(2)+2=8.",
+      "misconception": "Combining two with a or losing the minus.",
+      "repair": "Place different powers and constants in separate bins."
+    },
+    {
+      "id": "g8-ex-l08-w03",
+      "number": 3,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Distribute then collect",
+      "q": "Simplify 2(x+3)+x.",
+      "answer": "3x+6.",
+      "model": {
+        "family": "distribute_collect",
+        "tokens": [
+          "2(x+3)",
+          "+x",
+          "2x+6",
+          "3x+6"
+        ],
+        "description": "Distribute then collect",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "2(x+3)+x",
+        "2x+6+x",
+        "(2x+x)+6",
+        "3x+6"
+      ],
+      "steps": [
+        {
+          "title": "Draw both distribution arrows",
+          "action": "Multiply two by x and by positive three.",
+          "narration": "The outside factor belongs to every term inside the bracket."
+        },
+        {
+          "title": "Find the matching x terms",
+          "action": "Group two x and one x; six stays a constant.",
+          "narration": "Only like terms share a bin."
+        },
+        {
+          "title": "Combine the x count",
+          "action": "Two x plus one x equals three x.",
+          "narration": "The final constant is still six."
+        }
+      ],
+      "verify": "At x=2: 2(5)+2=12 and 3(2)+6=12.",
+      "misconception": "Multiplying only the x inside the bracket.",
+      "repair": "Trace both arrows before collecting terms."
+    },
+    {
+      "id": "g8-ex-l08-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Distribute a subtraction",
+      "q": "Simplify 5(y-2)-2y.",
+      "answer": "3y-10.",
+      "model": {
+        "family": "distribute_collect",
+        "tokens": [
+          "5(y-2)",
+          "-2y",
+          "5y-10",
+          "3y-10"
+        ],
+        "description": "Distribute a subtraction",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "5(y-2)-2y",
+        "5y-10-2y",
+        "(5y-2y)-10",
+        "3y-10"
+      ],
+      "steps": [
+        {
+          "title": "Multiply both bracket terms",
+          "action": "Five times y is five y; five times negative two is negative ten.",
+          "narration": "The negative constant keeps its sign."
+        },
+        {
+          "title": "Sort matching y terms",
+          "action": "Five y and negative two y belong together.",
+          "narration": "Negative ten is not a y term."
+        },
+        {
+          "title": "Combine y counts",
+          "action": "Five minus two is three.",
+          "narration": "Three y minus ten is the simplified expression."
+        }
+      ],
+      "verify": "At y=3: 5(1)-6=-1 and 9-10=-1.",
+      "misconception": "Writing +10 after distributing a negative term.",
+      "repair": "Attach a minus card to the two before multiplying."
+    },
+    {
+      "id": "g8-ex-l08-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Distribute a negative multiplier",
+      "q": "Simplify -3(t-4)+t.",
+      "answer": "-2t+12.",
+      "model": {
+        "family": "signed_distribution_collect",
+        "tokens": [
+          "-3(t-4)",
+          "+t",
+          "-3t+12",
+          "-2t+12"
+        ],
+        "description": "Distribute a negative multiplier",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "-3(t-4)+t",
+        "-3t+12+t",
+        "(-3t+t)+12",
+        "-2t+12"
+      ],
+      "steps": [
+        {
+          "title": "Keep the signed multiplier together",
+          "action": "Negative three times t is negative three t; negative three times negative four is plus twelve.",
+          "narration": "Two negative factors make a positive constant."
+        },
+        {
+          "title": "Place the remaining t beside negative three t",
+          "action": "The extra t is positive one t.",
+          "narration": "Collect only like variable terms."
+        },
+        {
+          "title": "Add signed coefficients",
+          "action": "Negative three plus one is negative two.",
+          "narration": "The plus twelve survives unchanged."
+        }
+      ],
+      "verify": "At t=2: -3(-2)+2=8 and -4+12=8.",
+      "misconception": "Turning the bracket constant into negative twelve.",
+      "repair": "Show the two negative chips multiplying before writing plus twelve."
+    },
+    {
+      "id": "g8-ex-l08-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Divide each term then collect",
+      "q": "Simplify (12x+8)÷4+3x.",
+      "answer": "6x+2.",
+      "model": {
+        "family": "quotient_collect",
+        "tokens": [
+          "(12x+8)÷4",
+          "+3x",
+          "3x+2",
+          "6x+2"
+        ],
+        "description": "Divide each term then collect",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "(12x+8)÷4+3x",
+        "12x÷4+8÷4+3x",
+        "3x+2+3x",
+        "6x+2"
+      ],
+      "steps": [
+        {
+          "title": "Split the complete numerator",
+          "action": "Divide both twelve x and eight by four.",
+          "narration": "The division bar covers the two-term numerator."
+        },
+        {
+          "title": "Calculate both quotients",
+          "action": "Twelve x over four is three x; eight over four is two.",
+          "narration": "Keep the additional three x outside the quotient."
+        },
+        {
+          "title": "Combine like terms",
+          "action": "Three x plus three x gives six x.",
+          "narration": "Two is a constant and remains separate."
+        }
+      ],
+      "verify": "At x=2: (24+8)/4+6=14 and 12+2=14.",
+      "misconception": "Dividing twelve x but not eight.",
+      "repair": "Draw one quotient lane for each numerator term."
+    },
+    {
+      "id": "g8-ex-l08-w07",
+      "number": 7,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Expand two brackets independently",
+      "q": "Simplify 2(3a-2)+3(a+1).",
+      "answer": "9a-1.",
+      "model": {
+        "family": "dual_distribution_collect",
+        "tokens": [
+          "2(3a-2)",
+          "+3(a+1)",
+          "6a-4",
+          "3a+3",
+          "9a-1"
+        ],
+        "description": "Expand two brackets independently",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "2(3a-2)+3(a+1)",
+        "6a-4+3a+3",
+        "(6a+3a)+(-4+3)",
+        "9a-1"
+      ],
+      "steps": [
+        {
+          "title": "Expand both independent groups",
+          "action": "First group becomes six a minus four; second becomes three a plus three.",
+          "narration": "Keep the two arrow pairs visible."
+        },
+        {
+          "title": "Build variable and constant bins",
+          "action": "Put six a with three a, and negative four with positive three.",
+          "narration": "Do not combine unlike kinds."
+        },
+        {
+          "title": "Total both bins",
+          "action": "Nine a and negative one remain.",
+          "narration": "The simplified result is nine a minus one."
+        }
+      ],
+      "verify": "At a=2: 2(4)+3(3)=17 and 18-1=17.",
+      "misconception": "Distributing only the first bracket.",
+      "repair": "Complete and colour both bracket paths before sorting."
+    },
+    {
+      "id": "g8-ex-l08-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Subtract a whole bracket",
+      "q": "Simplify 4x-(2x-3).",
+      "answer": "2x+3.",
+      "model": {
+        "family": "negative_bracket",
+        "tokens": [
+          "4x",
+          "-(2x-3)",
+          "-2x+3",
+          "2x+3"
+        ],
+        "description": "Subtract a whole bracket",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "4x-(2x-3)",
+        "4x-2x+3",
+        "(4x-2x)+3",
+        "2x+3"
+      ],
+      "steps": [
+        {
+          "title": "Distribute minus one",
+          "action": "Subtract two x and subtract negative three, which becomes plus three.",
+          "narration": "The minus belongs to every bracket term."
+        },
+        {
+          "title": "Group the x terms",
+          "action": "Four x minus two x leaves two x.",
+          "narration": "Positive three remains outside the group."
+        },
+        {
+          "title": "State the result",
+          "action": "Write two x plus three.",
+          "narration": "Check the flipped sign on the former negative three."
+        }
+      ],
+      "verify": "At x=2: 8-(4-3)=7 and 4+3=7.",
+      "misconception": "Changing only the first bracket sign.",
+      "repair": "Mark a negative-one arrow to each term."
+    },
+    {
+      "id": "g8-ex-l08-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Preserve a nonzero divisor",
+      "q": "Simplify (18p²+12p)÷6p+2p, where p≠0.",
+      "answer": "5p+2, for p≠0.",
+      "model": {
+        "family": "variable_quotient_collect",
+        "tokens": [
+          "(18p²+12p)÷6p",
+          "+2p",
+          "p≠0",
+          "3p+2",
+          "5p+2"
+        ],
+        "description": "Preserve a nonzero divisor",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "(18p²+12p)÷6p+2p; p≠0",
+        "18p²÷6p+12p÷6p+2p",
+        "3p+2+2p; p≠0",
+        "5p+2; p≠0"
+      ],
+      "steps": [
+        {
+          "title": "Divide each numerator term",
+          "action": "Eighteen p squared divided by six p is three p; twelve p divided by six p is two.",
+          "narration": "Cancellation needs p to be nonzero."
+        },
+        {
+          "title": "Expose the constant and extra p",
+          "action": "Keep two as a constant while adding the outside two p.",
+          "narration": "The divisor restriction remains attached."
+        },
+        {
+          "title": "Collect p terms",
+          "action": "Three p plus two p is five p.",
+          "narration": "The original expression is undefined at zero, even though the simplified form is defined there."
+        }
+      ],
+      "verify": "At p=2: (72+24)/12+4=12 and 10+2=12; p=0 is excluded.",
+      "misconception": "Cancelling p at zero or turning 12p÷6p into 2p.",
+      "repair": "Cancel one p only after stating p≠0."
+    },
+    {
+      "id": "g8-ex-l08-w10",
+      "number": 10,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Do not combine unlike powers",
+      "q": "Simplify 3x²+2x-x²+4x.",
+      "answer": "2x²+6x.",
+      "model": {
+        "family": "power_bins",
+        "tokens": [
+          "3x²",
+          "+2x",
+          "-x²",
+          "+4x",
+          "2x²+6x"
+        ],
+        "description": "Do not combine unlike powers",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "3x²+2x-x²+4x",
+        "(3x²-x²)+(2x+4x)",
+        "(3-1)x²+(2+4)x",
+        "2x²+6x"
+      ],
+      "steps": [
+        {
+          "title": "Separate powers",
+          "action": "Place x squared terms in one row and x terms in another.",
+          "narration": "One x and x squared are unlike term types."
+        },
+        {
+          "title": "Read the signs in each row",
+          "action": "Three minus one square units; two plus four linear units.",
+          "narration": "Only the coefficients in the same row combine."
+        },
+        {
+          "title": "Complete both rows",
+          "action": "Two x squared plus six x.",
+          "narration": "Do not invent an x cubed term."
+        }
+      ],
+      "verify": "At x=2: 12+4-4+8=20 and 8+12=20.",
+      "misconception": "Combining x and x² as x³.",
+      "repair": "Use separate x and x² tiles, never multiply while adding."
+    },
+    {
+      "id": "g8-ex-l08-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Diagnose the first missed distribution",
+      "q": "A learner writes 2(x+4)+3x=2x+4+3x=5x+4. Find the first error and simplify correctly.",
+      "answer": "The 4 was not multiplied by 2; 5x+8.",
+      "model": {
+        "family": "distribution_error",
+        "tokens": [
+          "2(x+4)+3x",
+          "claim: 2x+4+3x",
+          "2x+8+3x",
+          "5x+8"
+        ],
+        "description": "Diagnose the first missed distribution",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "Original: 2(x+4)+3x; learner: 2x+4+3x",
+        "First error: 2×4 was written 4, not 8",
+        "Repair: 2x+8+3x",
+        "Correct: 5x+8"
+      ],
+      "steps": [
+        {
+          "title": "Compare the first changed line",
+          "action": "The arrow from two to positive four was missed.",
+          "narration": "The first error appears before like terms are collected."
+        },
+        {
+          "title": "Repair the bracket expansion",
+          "action": "Multiply two by x and by four.",
+          "narration": "The correct expanded form is two x plus eight plus three x."
+        },
+        {
+          "title": "Collect x terms",
+          "action": "Two x and three x make five x; eight stays.",
+          "narration": "The repaired answer is five x plus eight."
+        }
+      ],
+      "verify": "At x=1: original 2(5)+3=13; 5(1)+8=13; learner 5(1)+4=9.",
+      "misconception": "Trusting a later line after the first incorrect arrow.",
+      "repair": "Replay only the missing 2×4 arrow then retry."
+    },
+    {
+      "id": "g8-ex-l08-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Simplify a contextual perimeter",
+      "q": "A rectangle has length (x+4) cm and width (2x-1) cm. Write a simplified expression for its perimeter and find it at x=3.",
+      "answer": "P=6x+6 cm; at x=3, P=24 cm.",
+      "model": {
+        "family": "perimeter_mixed",
+        "tokens": [
+          "length: x+4 cm",
+          "width: 2x-1 cm",
+          "P=2(l+w)",
+          "6x+6 cm",
+          "24 cm"
+        ],
+        "description": "Simplify a contextual perimeter",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "l=x+4 cm; w=2x-1 cm; P=2(l+w)",
+        "P=2[(x+4)+(2x-1)] cm",
+        "P=2(3x+3) cm",
+        "P=6x+6 cm",
+        "At x=3: P=24 cm"
+      ],
+      "steps": [
+        {
+          "title": "Trace all four sides",
+          "action": "Place both different dimensions into two copies each.",
+          "narration": "Perimeter counts two lengths and two widths."
+        },
+        {
+          "title": "Combine inside the grouped sum",
+          "action": "One x plus two x makes three x; four minus one gives three.",
+          "narration": "Simplify the inner length-plus-width before doubling."
+        },
+        {
+          "title": "Double the complete group",
+          "action": "Two times three x plus three gives six x plus six centimetres.",
+          "narration": "Distribute two to both parts."
+        },
+        {
+          "title": "Use the given value",
+          "action": "At three the perimeter is eighteen plus six, or twenty four centimetres.",
+          "narration": "Verify with four concrete sides."
+        }
+      ],
+      "verify": "At x=3: length 7 cm, width 5 cm; 7+5+7+5=24 cm.",
+      "misconception": "Using area units or forgetting two sides.",
+      "repair": "Trace each of the four boundaries before substituting."
+    },
+    {
+      "id": "g8-ex-l08-w13",
+      "number": 13,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Prove two forms equivalent",
+      "q": "Show that 3(x-2)+2(x+1) simplifies to 5x-4. Check at x=2.",
+      "answer": "5x-4; both forms give 6 at x=2.",
+      "model": {
+        "family": "equivalent_mixed",
+        "tokens": [
+          "3(x-2)",
+          "+2(x+1)",
+          "claimed: 5x-4",
+          "3x-6+2x+2",
+          "5x-4"
+        ],
+        "description": "Prove two forms equivalent",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "3(x-2)+2(x+1) compared with 5x-4",
+        "3x-6+2x+2",
+        "(3x+2x)+(-6+2)",
+        "5x-4",
+        "At x=2: both equal 6"
+      ],
+      "steps": [
+        {
+          "title": "Expand both sides of the sum",
+          "action": "Three multiplies both first terms; two multiplies both second terms.",
+          "narration": "Distribution is an identity for every x."
+        },
+        {
+          "title": "Sort like terms",
+          "action": "Put x terms together and signed constants together.",
+          "narration": "The brackets are no longer needed after their products are shown."
+        },
+        {
+          "title": "Compute the general simplified form",
+          "action": "Five x minus four matches the claim.",
+          "narration": "This algebra shows equivalence for every x."
+        },
+        {
+          "title": "Check one numerical case",
+          "action": "At x=2 both forms give six.",
+          "narration": "A single input illustrates rather than proves the general identity."
+        }
+      ],
+      "verify": "For all x distribution gives 5x-4; at x=2 original 3(0)+2(3)=6 and 5(2)-4=6.",
+      "misconception": "Treating one matching input as the proof.",
+      "repair": "Derive the identity before substituting the check value."
+    },
+    {
+      "id": "g8-ex-l08-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Choose order across three operations",
+      "q": "Simplify 2(3x-4)-(x+5)+(12x+6)÷3.",
+      "answer": "9x-11.",
+      "model": {
+        "family": "layered_mixed",
+        "tokens": [
+          "2(3x-4)",
+          "-(x+5)",
+          "(12x+6)÷3",
+          "6x-8 -x-5 +4x+2",
+          "9x-11"
+        ],
+        "description": "Choose order across three operations",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "2(3x-4)-(x+5)+(12x+6)÷3",
+        "6x-8-(x+5)+(12x+6)÷3",
+        "6x-8-x-5+4x+2",
+        "(6x-x+4x)+(-8-5+2)",
+        "9x-11"
+      ],
+      "steps": [
+        {
+          "title": "Expand the first bracket",
+          "action": "Two times three x is six x and two times negative four is negative eight.",
+          "narration": "Leave the other two groups intact for now."
+        },
+        {
+          "title": "Finish the remaining paths",
+          "action": "Distribute minus one and divide both numerator terms by three.",
+          "narration": "Keep the sign switch and quotient in separate lanes."
+        },
+        {
+          "title": "Sort matching term types",
+          "action": "Collect six x, negative x and four x; group the three signed constants.",
+          "narration": "An x term cannot combine with a constant."
+        },
+        {
+          "title": "Add each signed group",
+          "action": "Six minus one plus four is nine; negative eight minus five plus two is negative eleven.",
+          "narration": "The result is nine x minus eleven."
+        }
+      ],
+      "verify": "At x=2: 2(2)-7+(24+6)/3=7 and 18-11=7.",
+      "misconception": "Losing the negative bracket or dividing only one numerator term.",
+      "repair": "Finish each operation lane before merging them."
+    },
+    {
+      "id": "g8-ex-l08-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 8,
+      "skill": "Simplify with a restricted variable divisor",
+      "q": "Simplify (18x²-12x)÷6x-2(x-3)+x, where x≠0.",
+      "answer": "2x+4, where x≠0.",
+      "model": {
+        "family": "layered_quotient_mixed",
+        "tokens": [
+          "(18x²-12x)÷6x",
+          "-2(x-3)",
+          "+x",
+          "x≠0",
+          "2x+4"
+        ],
+        "description": "Simplify with a restricted variable divisor",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "(18x²-12x)÷6x-2(x-3)+x; x≠0",
+        "3x-2-2(x-3)+x",
+        "3x-2-2x+6+x",
+        "(3x-2x+x)+(-2+6)",
+        "2x+4; x≠0"
+      ],
+      "steps": [
+        {
+          "title": "Split and divide the numerator",
+          "action": "Eighteen x squared divided by six x is three x; negative twelve x over six x is negative two.",
+          "narration": "x cannot be zero in the original denominator."
+        },
+        {
+          "title": "Distribute negative two",
+          "action": "Negative two times x is negative two x; negative two times negative three is plus six.",
+          "narration": "Both bracket terms receive the factor."
+        },
+        {
+          "title": "Sort terms and constants",
+          "action": "Three x, negative two x and positive x form one bin; negative two and positive six form another.",
+          "narration": "Do not merge the two term types."
+        },
+        {
+          "title": "Calculate both bins",
+          "action": "The variable bin gives two x and the constant bin gives four.",
+          "narration": "Keep the restriction from the original expression."
+        }
+      ],
+      "verify": "At x=2: (72-24)/12-2(-1)+2=4+2+2=8; 2(2)+4=8; x=0 excluded.",
+      "misconception": "Cancelling at zero or losing the positive six.",
+      "repair": "Mark the domain first, then make quotient and bracket paths independently."
+    }
+  ],
+  "practice_questions": [
+    [
+      "p01",
+      "Simplify 6n+2n.",
+      "8n",
+      "Put both n terms together.",
+      "(6+2)n=8n."
+    ],
+    [
+      "p02",
+      "Simplify 5a+3-2a.",
+      "3a+3",
+      "Separate a terms from constants.",
+      "(5-2)a+3=3a+3."
+    ],
+    [
+      "p03",
+      "Simplify 3(x+2)+x.",
+      "4x+6",
+      "Distribute three to both terms.",
+      "3x+6+x=4x+6."
+    ],
+    [
+      "p04",
+      "Simplify 4(y-3)-y.",
+      "3y-12",
+      "Keep the negative twelve.",
+      "4y-12-y=3y-12."
+    ],
+    [
+      "p05",
+      "Simplify -2(t-5)+3t.",
+      "t+10",
+      "Negative two times negative five is positive ten.",
+      "-2t+10+3t=t+10."
+    ],
+    [
+      "p06",
+      "Simplify (15x+10)÷5+2x.",
+      "5x+2",
+      "Divide both numerator terms.",
+      "3x+2+2x=5x+2."
+    ],
+    [
+      "p07",
+      "Simplify 3(2a-1)+2(a+4).",
+      "8a+5",
+      "Expand each bracket separately.",
+      "6a-3+2a+8=8a+5."
+    ],
+    [
+      "p08",
+      "Simplify 5x-(3x-4).",
+      "2x+4",
+      "Subtract both bracket terms.",
+      "5x-3x+4=2x+4."
+    ],
+    [
+      "p09",
+      "Simplify (12p²+6p)÷3p+p, p≠0.",
+      "5p+2, p≠0",
+      "Divide termwise and keep the restriction.",
+      "4p+2+p=5p+2, p≠0."
+    ],
+    [
+      "p10",
+      "Simplify 4x²+x-2x²+3x.",
+      "2x²+4x",
+      "Separate squared and linear terms.",
+      "(4-2)x²+(1+3)x=2x²+4x."
+    ],
+    [
+      "p11",
+      "Correct 3(x+2)+x=3x+2+x. Give the first error and correct simplified form.",
+      "The 2 was not multiplied by 3; 4x+6",
+      "Find the missed arrow.",
+      "3(x+2)+x=3x+6+x=4x+6."
+    ],
+    [
+      "p12",
+      "A rectangle has length (x+3) cm and width (x+1) cm. Simplify P=2(l+w) and find P at x=2.",
+      "P=4x+8 cm; at x=2, 16 cm",
+      "Count each side twice.",
+      "P=2[(x+3)+(x+1)]=2(2x+4)=4x+8 cm; at x=2, P=16 cm."
+    ],
+    [
+      "p13",
+      "Show 2(x-3)+3(x+2) simplifies to 5x. Check at x=1.",
+      "5x; both forms give 5 at x=1",
+      "Expand generally before testing a value.",
+      "2x-6+3x+6=5x; at x=1, 2(-2)+3(3)=5."
+    ],
+    [
+      "p14",
+      "Simplify 3(2x-1)-(x+4)+(9x+6)÷3.",
+      "8x-5",
+      "Finish three separate operation lanes.",
+      "6x-3-x-4+3x+2=8x-5."
+    ],
+    [
+      "p15",
+      "Simplify (12x²-6x)÷3x-3(x-2)+x for x≠0.",
+      "2x+4, x≠0",
+      "Keep x nonzero and divide both terms.",
+      "4x-2-3x+6+x=2x+4, x≠0."
+    ]
+  ],
+  "mastery_questions": [
+    [
+      "m01",
+      2,
+      "Simplify 7a+2-a.",
+      "6a+2",
+      "7a-a+2=6a+2."
+    ],
+    [
+      "m02",
+      3,
+      "Simplify 3(x-4)+2x.",
+      "5x-12",
+      "3x-12+2x=5x-12."
+    ],
+    [
+      "m03",
+      4,
+      "Simplify 2(2y-3)-(y-5).",
+      "3y-1",
+      "4y-6-y+5=3y-1."
+    ],
+    [
+      "m04",
+      5,
+      "Simplify (15p²+10p)÷5p+2p, p≠0.",
+      "5p+2, p≠0",
+      "3p+2+2p=5p+2; p=0 is excluded."
+    ],
+    [
+      "m05",
+      6,
+      "A rectangle has length (2x+1) cm and width (x+2) cm. Simplify its perimeter and find it at x=2.",
+      "P=6x+6 cm; at x=2, P=18 cm",
+      "P=2[(2x+1)+(x+2)]=2(3x+3)=6x+6 cm; x=2 gives length 5 cm, width 4 cm, perimeter 18 cm."
+    ]
+  ],
+  "reassessment_questions": [
+    [
+      "r01",
+      "Simplify 2(x+5)+3x.",
+      "5x+10",
+      "2x+10+3x=5x+10."
+    ],
+    [
+      "r02",
+      "Simplify 6x-(4x-3).",
+      "2x+3",
+      "6x-4x+3=2x+3."
+    ],
+    [
+      "r03",
+      "Simplify (8t²-4t)÷4t-2(t-1)+t, t≠0.",
+      "t+1, t≠0",
+      "2t-1-2t+2+t=t+1, t≠0."
+    ]
+  ]
+}

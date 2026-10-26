@@ -30,7 +30,8 @@
   <ul class="learn-list" id="learn-list"></ul>
 
   <h3 style="margin-top:var(--space-7);">Lessons</h3>
-  <div class="card topic-evidence"><strong id="topic-counts">Loading lesson availability…</strong><p id="topic-weaknesses">Topic diagnostic not completed. No weaknesses have been inferred.</p><button class="btn btn-secondary" type="button" disabled>Topic diagnostic coming later</button></div>
+  <div class="card topic-evidence"><strong id="topic-counts">Loading lesson availability…</strong><p id="topic-weaknesses">No topic check completed. No weaknesses have been inferred.</p><button id="topic-diagnostic-button" class="btn btn-secondary" type="button" disabled>Topic check unavailable</button></div>
+  <section id="topic-diagnostic" class="card topic-diagnostic" aria-live="polite" hidden></section>
   <div id="lessons-list"></div>
 </main>
 
@@ -39,5 +40,6 @@
 <script src="js/engine/state.js?v=auth-v2"></script>
 <script src="js/engine/navigation.js"></script>
 <script src="js/pages/topic.js?v=readiness-v1"></script>
+<script src="js/pages/topic-diagnostic.js?v=g8-fr-topic-v1"></script>
 </body>
 </html>

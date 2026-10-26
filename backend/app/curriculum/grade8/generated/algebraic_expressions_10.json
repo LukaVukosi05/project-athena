@@ -1,0 +1,900 @@
+{
+  "id": "g8-algebraic-expressions-10",
+  "title": "Diagnosis and transfer of expressions",
+  "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson10_Source_Pack_v1.docx",
+  "source_sha256": "8c68c627ba913379da6c1adac4faf8e857e554e91f02d0e316d35721707ee2ac",
+  "worked_examples": [
+    {
+      "id": "g8-ex-l10-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Keep unlike terms separate",
+      "q": "A learner writes 3x+2y=5xy. Identify the first error and give the correct expression.",
+      "answer": "3x+2y; unlike terms cannot combine.",
+      "model": {
+        "family": "diagnostic_term_sort",
+        "tokens": [
+          "3x",
+          "+2y",
+          "claim 5xy",
+          "correct 3x+2y"
+        ],
+        "description": "Keep unlike terms separate",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "3x+2y; learner claims 5xy",
+        "3x and 2y have different variable labels",
+        "3x+2y remains unchanged"
+      ],
+      "steps": [
+        {
+          "title": "Compare variable labels",
+          "action": "Move x and y terms into separate lanes.",
+          "narration": "An x tile cannot be counted as a y tile."
+        },
+        {
+          "title": "Repair the first error",
+          "action": "Keep the two unlike groups separate.",
+          "narration": "Adding the coefficients does not multiply the variables."
+        }
+      ],
+      "verify": "At x=1,y=2, original is 7 while claimed 5xy is 10.",
+      "misconception": "The learner treats unlike terms as like terms.",
+      "repair": "Use two labelled lanes, then test one input."
+    },
+    {
+      "id": "g8-ex-l10-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Repair a lost negative sign",
+      "q": "A learner simplifies 7a-3a as 10a. Identify the first error and simplify.",
+      "answer": "4a; the signed coefficient is −3.",
+      "model": {
+        "family": "diagnostic_signed_terms",
+        "tokens": [
+          "+7a",
+          "−3a",
+          "claim +10a",
+          "result +4a"
+        ],
+        "description": "Repair a lost negative sign",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "7a−3a; learner claims 10a",
+        "Coefficients are +7 and −3",
+        "7a−3a=4a"
+      ],
+      "steps": [
+        {
+          "title": "Carry the sign",
+          "action": "Put plus seven and minus three on the a lane.",
+          "narration": "The minus sign belongs to three a."
+        },
+        {
+          "title": "Combine signed counts",
+          "action": "Seven minus three copies leaves four copies.",
+          "narration": "Only the a coefficients change."
+        }
+      ],
+      "verify": "At a=2 the original gives 14−6=8, and 4a=8.",
+      "misconception": "The learner changes subtraction into addition.",
+      "repair": "Attach the sign to each term before moving tiles."
+    },
+    {
+      "id": "g8-ex-l10-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Separate multiplication from powers",
+      "q": "A learner writes (2x)(3x)=6x. Find the first error and correct the product.",
+      "answer": "6x²; multiply both coefficients and both x factors.",
+      "model": {
+        "family": "diagnostic_factor_array",
+        "tokens": [
+          "2",
+          "x",
+          "3",
+          "x",
+          "claim 6x",
+          "result 6x²"
+        ],
+        "description": "Separate multiplication from powers",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "(2x)(3x); learner claims 6x",
+        "Coefficient factors 2×3 give 6",
+        "Variable factors x×x give x²",
+        "(2x)(3x)=6x²"
+      ],
+      "steps": [
+        {
+          "title": "Multiply numbers",
+          "action": "Group the two numeric factors into six.",
+          "narration": "The variable factors still have to be multiplied."
+        },
+        {
+          "title": "Multiply variables",
+          "action": "Two copies of x produce x squared.",
+          "narration": "One x factor must not disappear."
+        },
+        {
+          "title": "Join both products",
+          "action": "Place six beside x squared.",
+          "narration": "Every factor in the original is represented."
+        }
+      ],
+      "verify": "For x=2 original 4×6=24; 6x²=6×4=24.",
+      "misconception": "The learner drops one variable factor.",
+      "repair": "Use separate number and variable factor rows."
+    },
+    {
+      "id": "g8-ex-l10-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Diagnose a missed distribution branch",
+      "q": "A learner writes 3(x+4)=3x+4. Mark the first invalid move and expand correctly.",
+      "answer": "3x+12; multiply both bracket terms by 3.",
+      "model": {
+        "family": "diagnostic_distribution_paths",
+        "tokens": [
+          "outer 3",
+          "x",
+          "+4",
+          "claim 3x+4",
+          "result 3x+12"
+        ],
+        "description": "Diagnose a missed distribution branch",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "3(x+4); learner claims 3x+4",
+        "First branch: 3×x=3x",
+        "Second branch: 3×4=12",
+        "3(x+4)=3x+12"
+      ],
+      "steps": [
+        {
+          "title": "Trace first arrow",
+          "action": "Connect three to x.",
+          "narration": "The first product is three x."
+        },
+        {
+          "title": "Trace missing arrow",
+          "action": "Connect the same three to four.",
+          "narration": "The outside factor multiplies every bracket term."
+        },
+        {
+          "title": "Combine two paths",
+          "action": "Write both products with their signs.",
+          "narration": "The original sum is preserved."
+        }
+      ],
+      "verify": "At x=2 original 3(6)=18; 3x+12=18.",
+      "misconception": "The learner multiplies only the first bracket term.",
+      "repair": "Draw one arrow from the outside factor to each term."
+    },
+    {
+      "id": "g8-ex-l10-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Repair a sign after bracket subtraction",
+      "q": "A learner simplifies 5p-(2p-3) to 3p-3. Locate the first wrong sign and simplify.",
+      "answer": "3p+3; subtract both bracket terms.",
+      "model": {
+        "family": "diagnostic_signed_distribution",
+        "tokens": [
+          "+5p",
+          "outside −",
+          "+2p",
+          "−3",
+          "claim 3p−3",
+          "result 3p+3"
+        ],
+        "description": "Repair a sign after bracket subtraction",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "5p−(2p−3); learner claims 3p−3",
+        "−(2p−3) becomes −2p+3",
+        "5p−2p+3",
+        "3p+3"
+      ],
+      "steps": [
+        {
+          "title": "Reverse both signs",
+          "action": "Apply minus one to two p and minus three.",
+          "narration": "Subtracting negative three adds three."
+        },
+        {
+          "title": "Rewrite all signed terms",
+          "action": "Keep five p and the converted bracket.",
+          "narration": "Do not change the earlier five p."
+        },
+        {
+          "title": "Collect like terms",
+          "action": "Five p minus two p gives three p.",
+          "narration": "The constant plus three remains."
+        }
+      ],
+      "verify": "At p=2 original 10−(4−3)=9; 3p+3=9.",
+      "misconception": "The learner leaves the inner negative three unchanged.",
+      "repair": "Show the minus-one arrows to both bracket terms."
+    },
+    {
+      "id": "g8-ex-l10-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Divide every numerator term",
+      "q": "A learner claims (12m+8)/4=3m+8. Locate the first missed division and correct it.",
+      "answer": "3m+2; divide both terms by 4.",
+      "model": {
+        "family": "diagnostic_quotient_lanes",
+        "tokens": [
+          "12m",
+          "+8",
+          "÷4",
+          "claim 3m+8",
+          "result 3m+2"
+        ],
+        "description": "Divide every numerator term",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "(12m+8)/4; learner claims 3m+8",
+        "12m÷4=3m",
+        "8÷4=2",
+        "(12m+8)/4=3m+2"
+      ],
+      "steps": [
+        {
+          "title": "Split the numerator",
+          "action": "Place the common divisor under each numerator term.",
+          "narration": "A denominator divides the entire numerator."
+        },
+        {
+          "title": "Divide the constant",
+          "action": "Eight shared in four equal groups gives two.",
+          "narration": "The original eight is not carried through unchanged."
+        },
+        {
+          "title": "Join the quotients",
+          "action": "Keep the plus sign between three m and two.",
+          "narration": "Each original term has a matching quotient."
+        }
+      ],
+      "verify": "At m=2 original (24+8)/4=8; 3m+2=8.",
+      "misconception": "The learner divides only the variable term.",
+      "repair": "Use separate quotient lanes for each numerator term."
+    },
+    {
+      "id": "g8-ex-l10-w07",
+      "number": 7,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Check exponent scope with a negative input",
+      "q": "A learner substitutes x=−3 into 2x² and writes (2×−3)²=36. Find the first error and evaluate.",
+      "answer": "18; only x is squared.",
+      "model": {
+        "family": "diagnostic_exponent_scope",
+        "tokens": [
+          "coefficient 2",
+          "x=−3",
+          "square x only",
+          "claim 36",
+          "result 18"
+        ],
+        "description": "Check exponent scope with a negative input",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "2x² with x=−3; learner claims 36",
+        "Substitute 2(−3)²",
+        "(−3)²=9",
+        "2×9=18"
+      ],
+      "steps": [
+        {
+          "title": "Mark the exponent base",
+          "action": "The exponent belongs to x, not to two x.",
+          "narration": "The coefficient stays outside the square."
+        },
+        {
+          "title": "Square the signed input",
+          "action": "Negative three times negative three gives positive nine.",
+          "narration": "Brackets keep the negative input together."
+        },
+        {
+          "title": "Multiply by two",
+          "action": "Two groups of nine give eighteen.",
+          "narration": "Squaring the whole product would be a different expression."
+        }
+      ],
+      "verify": "At x=−3, 2x²=2(9)=18; (2x)²=36 belongs to a different rule.",
+      "misconception": "The learner squares the coefficient as well as x.",
+      "repair": "Circle just the exponent base before substituting."
+    },
+    {
+      "id": "g8-ex-l10-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Repair a root shortcut",
+      "q": "A learner says √(t²)=t for every real t. Diagnose the first false claim and write the correct result.",
+      "answer": "|t|, the nonnegative magnitude of t.",
+      "model": {
+        "family": "diagnostic_root_pairs",
+        "tokens": [
+          "t²",
+          "principal √",
+          "t=−5 counterexample",
+          "claim t",
+          "result |t|"
+        ],
+        "description": "Repair a root shortcut",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "Claim √(t²)=t for every real t",
+        "Square −5 to obtain 25",
+        "Principal √25 is 5, not −5",
+        "Therefore √(t²)=|t|"
+      ],
+      "steps": [
+        {
+          "title": "Choose a negative test",
+          "action": "Negative five is allowed as an input.",
+          "narration": "A universal claim must work for negative values too."
+        },
+        {
+          "title": "Square then root",
+          "action": "The square is twenty five; its principal square root is five.",
+          "narration": "The square root symbol selects a nonnegative output."
+        },
+        {
+          "title": "Repair the universal rule",
+          "action": "Absolute value produces five for negative five.",
+          "narration": "The output is magnitude for either sign."
+        }
+      ],
+      "verify": "t=−5 gives √((-5)²)=√25=5 and |−5|=5.",
+      "misconception": "The learner assumes the principal root preserves a negative sign.",
+      "repair": "Show paired +5 and −5 inputs mapping to the same square."
+    },
+    {
+      "id": "g8-ex-l10-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Check two paths for equivalence",
+      "q": "A learner claims 2(x+5) and 2x+5 are equivalent. Find a counterexample and the correct expansion.",
+      "answer": "Not equivalent; 2(x+5)=2x+10.",
+      "model": {
+        "family": "diagnostic_parallel_paths",
+        "tokens": [
+          "path A: 2(x+5)",
+          "path B: 2x+5",
+          "x=1",
+          "claim equal",
+          "correct 2x+10"
+        ],
+        "description": "Check two paths for equivalence",
+        "scene": {
+          "input_count": 2
+        }
+      },
+      "states": [
+        "Claim 2(x+5)=2x+5",
+        "At x=1, first path is 12",
+        "At x=1, second path is 7",
+        "Distribute: 2(x+5)=2x+10"
+      ],
+      "steps": [
+        {
+          "title": "Test the first path",
+          "action": "One plus five gives six, then times two gives twelve.",
+          "narration": "Apply the bracket before the outside factor."
+        },
+        {
+          "title": "Test the second path",
+          "action": "Two times one plus five gives seven.",
+          "narration": "The two stated forms disagree."
+        },
+        {
+          "title": "Repair the expansion",
+          "action": "The outside two also multiplies five.",
+          "narration": "A correct equivalent form gives twelve for this test."
+        }
+      ],
+      "verify": "At x=1 original 2(6)=12; 2x+10=12, while 2x+5=7.",
+      "misconception": "The learner omits the second distribution branch.",
+      "repair": "Keep two paths visible and compare the same input."
+    },
+    {
+      "id": "g8-ex-l10-w10",
+      "number": 10,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Find the first bad line in mixed algebra",
+      "q": "A learner writes 4(2y−1)−3y → 8y−1−3y → 5y−1. Identify the first invalid arrow and simplify.",
+      "answer": "First arrow is invalid: 4(−1)=−4; result 5y−4.",
+      "model": {
+        "family": "diagnostic_mixed_trace",
+        "tokens": [
+          "4(2y−1)−3y",
+          "claimed 8y−1−3y",
+          "outer 4",
+          "−1 in bracket",
+          "correct 5y−4"
+        ],
+        "description": "Find the first bad line in mixed algebra",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "4(2y−1)−3y; first claimed line 8y−1−3y",
+        "Distribute 4: 8y−4−3y",
+        "Collect y terms: 5y−4",
+        "First invalid arrow was the missed 4×(−1)"
+      ],
+      "steps": [
+        {
+          "title": "Repair the first arrow",
+          "action": "Four times two y is eight y; four times minus one is minus four.",
+          "narration": "The claimed line forgot the second product."
+        },
+        {
+          "title": "Collect after repair",
+          "action": "Eight y minus three y leaves five y.",
+          "narration": "Keep the repaired constant minus four."
+        },
+        {
+          "title": "Name the error location",
+          "action": "The initial expansion is where the work first diverges.",
+          "narration": "A later line cannot repair an earlier wrong constant by itself."
+        }
+      ],
+      "verify": "At y=2 original 4(3)−6=6; 5y−4=6.",
+      "misconception": "The learner notices the last line but misses the first illegal distribution.",
+      "repair": "Compare consecutive lines and stop at the earliest invalid arrow."
+    },
+    {
+      "id": "g8-ex-l10-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Protect a zero divisor while simplifying",
+      "q": "A learner simplifies (6a²+9a)/(3a) to 2a+3 and says it works at a=0. Identify the first false domain claim.",
+      "answer": "2a+3 for a≠0; the original is undefined at a=0.",
+      "model": {
+        "family": "diagnostic_restricted_quotient",
+        "tokens": [
+          "numerator 6a²+9a",
+          "divisor 3a",
+          "claim a=0 allowed",
+          "result 2a+3 for a≠0"
+        ],
+        "description": "Protect a zero divisor while simplifying",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "(6a²+9a)/(3a); learner allows a=0",
+        "Original denominator 3a=0 when a=0",
+        "For a≠0 split: 6a²/3a+9a/3a",
+        "Simplify to 2a+3, with a≠0"
+      ],
+      "steps": [
+        {
+          "title": "Inspect the original denominator",
+          "action": "Three a cannot equal zero.",
+          "narration": "At zero the original quotient does not exist."
+        },
+        {
+          "title": "Separate two legal quotients",
+          "action": "Only after excluding zero divide each numerator term.",
+          "narration": "Cancellation requires the divisor to be nonzero."
+        },
+        {
+          "title": "Carry the restriction",
+          "action": "The shortened expression is valid only for nonzero a.",
+          "narration": "A simplified formula does not restore the removed input."
+        }
+      ],
+      "verify": "At a=2 original (24+18)/6=7; 2a+3=7; at zero original has denominator zero.",
+      "misconception": "The learner cancels a then admits a forbidden input.",
+      "repair": "Mark the domain gate before cancelling any factor."
+    },
+    {
+      "id": "g8-ex-l10-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Audit units and a fixed fee",
+      "q": "A courier charges R12 once plus R4 per kilometre. A learner writes C(k)=16k. Find the first modelling error and cost for 5 km.",
+      "answer": "C(k)=12+4k rand; C(5)=R32.",
+      "model": {
+        "family": "diagnostic_context_receipt",
+        "tokens": [
+          "fixed R12 once",
+          "R4 per km",
+          "5 km",
+          "claim 16k",
+          "correct 12+4k; R32"
+        ],
+        "description": "Audit units and a fixed fee",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "Fixed R12 and R4 per kilometre; learner writes 16k",
+        "Variable portion after k km is 4k",
+        "One fixed fee gives C(k)=12+4k",
+        "At 5 km: C=12+20=R32"
+      ],
+      "steps": [
+        {
+          "title": "Count repeated charges",
+          "action": "Four rand repeats for every kilometre.",
+          "narration": "The twelve-rand fee is not a price per kilometre."
+        },
+        {
+          "title": "Add the fixed fee once",
+          "action": "Keep the fixed tile outside the kilometre groups.",
+          "narration": "The total cost is twelve plus four k."
+        },
+        {
+          "title": "Check five kilometres",
+          "action": "Five kilometre tiles total twenty rand; add twelve.",
+          "narration": "Thirty two rand follows from the original charges."
+        }
+      ],
+      "verify": "For zero kilometres cost is R12, not R0; for five kilometres cost is R32.",
+      "misconception": "The learner repeats a once-only charge.",
+      "repair": "Build separate fixed and repeating rows, labelled rand and kilometre."
+    },
+    {
+      "id": "g8-ex-l10-w13",
+      "number": 13,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Diagnose an area model after substitution",
+      "q": "A rectangle has sides (x+2) cm and 3 cm. A learner writes area 3x+2 cm² and gets 14 cm² at x=4. Find the first error and correct both.",
+      "answer": "Area 3x+6 cm²; at x=4 it is 18 cm².",
+      "model": {
+        "family": "diagnostic_area_split",
+        "tokens": [
+          "length x+2 cm",
+          "width 3 cm",
+          "x=4",
+          "claim 3x+2; 14 cm²",
+          "result 3x+6; 18 cm²"
+        ],
+        "description": "Diagnose an area model after substitution",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "Area is 3(x+2); learner claims 3x+2",
+        "Split length into x and 2; both share width 3",
+        "Area parts 3x and 6: total 3x+6 cm²",
+        "At x=4, sides 6 cm and 3 cm give 18 cm²"
+      ],
+      "steps": [
+        {
+          "title": "Draw the split rectangle",
+          "action": "Split the x-plus-two side into x and two.",
+          "narration": "Both regions still have width three."
+        },
+        {
+          "title": "Calculate both regions",
+          "action": "Areas are three x and six.",
+          "narration": "The second region is three times two, not two."
+        },
+        {
+          "title": "Verify with the given input",
+          "action": "At four the whole rectangle measures six by three.",
+          "narration": "Its area is eighteen square centimetres."
+        }
+      ],
+      "verify": "At x=4 area 3(4+2)=18 and 3(4)+6=18; claimed 14 is wrong.",
+      "misconception": "The learner forgets to multiply the extra length by the width.",
+      "repair": "Highlight both rectangles with a shared height of three."
+    },
+    {
+      "id": "g8-ex-l10-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Audit two orderings of a flow",
+      "q": "Rule A triples n then subtracts 2; Rule B subtracts 2 then triples. A learner says both rules give the same output. Test n=4 and write both rules.",
+      "answer": "A(n)=3n−2 gives 10; B(n)=3(n−2) gives 6; they differ.",
+      "model": {
+        "family": "diagnostic_parallel_flows",
+        "tokens": [
+          "A: ×3 then −2",
+          "B: −2 then ×3",
+          "n=4",
+          "claim same",
+          "A=10; B=6"
+        ],
+        "description": "Audit two orderings of a flow",
+        "scene": {
+          "input_count": 3
+        }
+      },
+      "states": [
+        "Two flow rules; learner claims equality",
+        "A at 4: 4→12→10",
+        "B at 4: 4→2→6",
+        "A(n)=3n−2; B(n)=3(n−2); not equal"
+      ],
+      "steps": [
+        {
+          "title": "Trace A in order",
+          "action": "Triple four to twelve then subtract two to ten.",
+          "narration": "The subtraction happens after multiplying."
+        },
+        {
+          "title": "Trace B in order",
+          "action": "Subtract two first to get two then triple to six.",
+          "narration": "The bracket groups the subtraction before multiplying."
+        },
+        {
+          "title": "Compare one shared input",
+          "action": "Ten differs from six, so the universal claim fails.",
+          "narration": "A single counterexample is sufficient."
+        }
+      ],
+      "verify": "At n=4 A=10 and B=6; 3(n−2)=3n−6, not 3n−2.",
+      "misconception": "The learner ignores the order of flow operations.",
+      "repair": "Place both flows in parallel lanes and track the same input."
+    },
+    {
+      "id": "g8-ex-l10-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 8,
+      "skill": "Integrated first-error diagnosis and reassessment",
+      "q": "A learner writes 2(3z−4)−(z+1) → 6z−4−z+1 → 5z−3. Name the first incorrect operation, simplify, and check at z=2.",
+      "answer": "First error: 2(−4) should be −8. Correct result 5z−9; at z=2 both original and result equal 1.",
+      "model": {
+        "family": "diagnostic_integrated_trace",
+        "tokens": [
+          "2(3z−4)−(z+1)",
+          "claimed 6z−4−z+1",
+          "outer 2",
+          "outside − before z+1",
+          "correct 5z−9"
+        ],
+        "description": "Integrated first-error diagnosis and reassessment",
+        "scene": {
+          "input_count": 4
+        }
+      },
+      "states": [
+        "2(3z−4)−(z+1); claimed 6z−4−z+1",
+        "First distribution: 6z−8−(z+1)",
+        "Subtract second bracket: 6z−8−z−1",
+        "Collect: 5z−9",
+        "At z=2 both forms give 1"
+      ],
+      "steps": [
+        {
+          "title": "Find the first illegal product",
+          "action": "Two times minus four is minus eight, not minus four.",
+          "narration": "Stop at the earliest incorrect arrow."
+        },
+        {
+          "title": "Expand the second bracket",
+          "action": "Subtract z and also subtract one.",
+          "narration": "The minus sign applies to both terms."
+        },
+        {
+          "title": "Collect after both repairs",
+          "action": "Six z minus z is five z; minus eight minus one is minus nine.",
+          "narration": "Keep variable and constant lanes separate."
+        },
+        {
+          "title": "Check the original at two",
+          "action": "Original is two times two minus three, which equals one.",
+          "narration": "Five times two minus nine also equals one."
+        }
+      ],
+      "verify": "At z=2, original 2(6−4)−(2+1)=4−3=1 and result 10−9=1.",
+      "misconception": "The learner misses two distribution signs; the first is 2×(−4).",
+      "repair": "Repair the first illegal arrow, then continue every bracket term."
+    }
+  ],
+  "practice_questions": [
+    [
+      "p01",
+      "Is 4a+3b=7ab valid? Give the simplest correct expression.",
+      "4a+3b.",
+      "Sort by variable label first.",
+      "Unlike a and b terms remain separate."
+    ],
+    [
+      "p02",
+      "Simplify 9q−5q.",
+      "4q.",
+      "Carry the negative sign.",
+      "The signed coefficients are +9 and −5; their sum is 4."
+    ],
+    [
+      "p03",
+      "Multiply (4x)(2x).",
+      "8x².",
+      "Count both x factors.",
+      "4×2=8 and x×x=x²."
+    ],
+    [
+      "p04",
+      "Expand 5(y+2).",
+      "5y+10.",
+      "Two distribution arrows.",
+      "5×y+5×2=5y+10."
+    ],
+    [
+      "p05",
+      "Simplify 6t−(t−4).",
+      "5t+4.",
+      "The outside minus changes both terms.",
+      "6t−t+4=5t+4."
+    ],
+    [
+      "p06",
+      "Simplify (15k+10)/5.",
+      "3k+2.",
+      "Divide both numerator terms.",
+      "15k/5+10/5=3k+2."
+    ],
+    [
+      "p07",
+      "Evaluate 3v² at v=−2.",
+      "12.",
+      "Square only the variable in brackets.",
+      "3(−2)²=3×4=12."
+    ],
+    [
+      "p08",
+      "Write √(u²) valid for every real u.",
+      "|u|.",
+      "The principal root is nonnegative.",
+      "For u=−4, √16=4, which equals |−4|."
+    ],
+    [
+      "p09",
+      "Is 4(x+1) equivalent to 4x+1? Give the correct expansion.",
+      "4x+4.",
+      "Distribute four to each bracket term.",
+      "At x=1 original 8; correct 4x+4 also 8."
+    ],
+    [
+      "p10",
+      "A learner expands 3(2w−5) as 6w−5. Correct the first error.",
+      "6w−15.",
+      "Trace the missing negative branch.",
+      "3×(−5)=−15, so the true expansion is 6w−15."
+    ],
+    [
+      "p11",
+      "Simplify (8r²+12r)/(4r) and state the excluded value.",
+      "2r+3; r≠0.",
+      "Check the original denominator before dividing.",
+      "For r≠0 the two quotient terms are 2r and 3; r=0 is undefined."
+    ],
+    [
+      "p12",
+      "A taxi costs R9 once and R6 per kilometre. Give C(d) and C(3).",
+      "C(d)=9+6d; C(3)=R27.",
+      "The fee occurs once.",
+      "For three kilometres cost is R9+R18=R27."
+    ],
+    [
+      "p13",
+      "A rectangle has sides (s+4) cm and 2 cm. Find area and evaluate at s=3.",
+      "2s+8 cm²; 14 cm².",
+      "Split the length into s and four.",
+      "2(s+4)=2s+8; at three the area is 2×7=14."
+    ],
+    [
+      "p14",
+      "Flow A doubles t then adds 3. Flow B adds 3 then doubles. Give both outputs at t=2.",
+      "A=7; B=10.",
+      "Follow each arrow in its own lane.",
+      "A: 2→4→7; B: 2→5→10."
+    ],
+    [
+      "p15",
+      "Simplify 3(2h−3)−(h−2); verify at h=1.",
+      "5h−7; at h=1 both give −2.",
+      "Distribute three and negative one separately.",
+      "6h−9−h+2=5h−7; original 3(−1)−(−1)=−2."
+    ]
+  ],
+  "mastery_questions": [
+    [
+      "m01",
+      2,
+      "Simplify 8x−3x+2y.",
+      "5x+2y.",
+      "Eight x minus three x gives five x; y stays separate."
+    ],
+    [
+      "m02",
+      3,
+      "Expand and simplify 4(a−3)−a.",
+      "3a−12.",
+      "4a−12−a=3a−12."
+    ],
+    [
+      "m03",
+      4,
+      "Simplify (10b²+15b)/(5b); state the restriction.",
+      "2b+3; b≠0.",
+      "The original denominator is zero at b=0; for b≠0 the quotients are 2b and 3."
+    ],
+    [
+      "m04",
+      5,
+      "A booking costs R11 once plus R7 per seat. Give C(n) and cost for 4 seats.",
+      "C(n)=11+7n; C(4)=R39.",
+      "Seven repeats four times: 28; add the one eleven-rand charge to get 39."
+    ],
+    [
+      "m05",
+      6,
+      "A learner writes 2(4p−3)−(p−5) → 8p−3−p+5. Identify first error; simplify and check at p=1.",
+      "First error: 2(−3)=−6; result 7p−1; at p=1 both equal 6.",
+      "Correctly distribute two then minus one: 8p−6−p+5=7p−1; original at one is 2(1)−(−4)=6."
+    ]
+  ],
+  "reassessment_questions": [
+    [
+      "r01",
+      "A learner says 5(2q+1)=10q+1. Diagnose and repair.",
+      "10q+5.",
+      "Five multiplies two q and one; at q=1 both correct forms equal 15."
+    ],
+    [
+      "r02",
+      "Simplify (12c²+8c)/(4c), including a domain restriction.",
+      "3c+2; c≠0.",
+      "The original denominator 4c excludes zero. Divide both numerator terms by 4c."
+    ],
+    [
+      "r03",
+      "A ticket costs R8 plus R3 per bag. Give C(b) and its value for 4 bags.",
+      "C(b)=8+3b; C(4)=R20.",
+      "Four bag charges cost R12; add the one R8 ticket fee."
+    ]
+  ]
+}

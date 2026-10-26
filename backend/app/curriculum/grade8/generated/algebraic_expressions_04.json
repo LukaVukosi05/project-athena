@@ -1,0 +1,916 @@
+{
+  "id": "g8-algebraic-expressions-04",
+  "title": "Distributing a monomial",
+  "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson4_Source_Pack_v1.docx",
+  "source_sha256": "dc520c8054dc07d0e615a541803d8b61378e5ab00673673ab07cd561894c8498",
+  "worked_examples": [
+    {
+      "id": "g8-ex-l04-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Share a positive multiplier",
+      "q": "Expand 2(x + 3).",
+      "answer": "2x + 6.",
+      "misconception": "Multiplying x but leaving the 3 unchanged.",
+      "repair": "Show two copies of both x and 3, then regroup matching parts.",
+      "model": {
+        "family": "distribute_strip",
+        "tokens": [
+          "2",
+          "x",
+          "+3"
+        ],
+        "lanes": [
+          "multiplier",
+          "first bracket term",
+          "second bracket term"
+        ]
+      },
+      "states": [
+        "2(x + 3)",
+        "2·x + 2·3",
+        "2x + 6"
+      ],
+      "steps": [
+        {
+          "title": "Reach both terms",
+          "action": "Draw one arrow from 2 to x and another from 2 to 3.",
+          "narration": "Both parts inside the bracket are doubled."
+        },
+        {
+          "title": "Calculate both products",
+          "action": "Evaluate 2 times x and 2 times 3 separately.",
+          "narration": "Two x terms and six units give two x plus six."
+        }
+      ],
+      "verify": "At x=4: 2(4+3)=14 and 2(4)+6=14."
+    },
+    {
+      "id": "g8-ex-l04-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 2,
+      "skill": "Preserve subtraction in a bracket",
+      "q": "Expand 3(a - 4).",
+      "answer": "3a - 12.",
+      "misconception": "Treating -4 as +4.",
+      "repair": "Keep the minus sign attached to 4 while each arrow lands.",
+      "model": {
+        "family": "signed_distribute",
+        "tokens": [
+          "3",
+          "a",
+          "-4"
+        ],
+        "lanes": [
+          "multiplier",
+          "first bracket term",
+          "signed second term"
+        ]
+      },
+      "states": [
+        "3(a - 4)",
+        "3·a + 3·(-4)",
+        "3a - 12"
+      ],
+      "steps": [
+        {
+          "title": "Attach the signed term",
+          "action": "Multiply 3 by a and by the whole signed value -4.",
+          "narration": "The minus belongs to four, so the second product is negative."
+        },
+        {
+          "title": "Resolve the products",
+          "action": "Simplify 3a and 3 times negative 4.",
+          "narration": "The result is three a minus twelve."
+        }
+      ],
+      "verify": "At a=6: 3(6-4)=6 and 3(6)-12=6."
+    },
+    {
+      "id": "g8-ex-l04-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Distribute a negative integer",
+      "q": "Expand -2(x + 5).",
+      "answer": "-2x - 10.",
+      "misconception": "Applying the minus only to x.",
+      "repair": "Put a negative badge on each of the two arrows.",
+      "model": {
+        "family": "signed_distribute",
+        "tokens": [
+          "-2",
+          "x",
+          "+5"
+        ],
+        "lanes": [
+          "negative multiplier",
+          "first bracket term",
+          "second bracket term"
+        ]
+      },
+      "states": [
+        "-2(x + 5)",
+        "(-2)·x + (-2)·5",
+        "-2x - 10"
+      ],
+      "steps": [
+        {
+          "title": "Send the negative to both terms",
+          "action": "Place negative two at x and at positive five.",
+          "narration": "Both terms are multiplied by negative two."
+        },
+        {
+          "title": "Read each signed product",
+          "action": "Calculate negative two x and negative ten.",
+          "narration": "A negative multiplier makes both positive bracket terms negative."
+        }
+      ],
+      "verify": "At x=3: -2(3+5)=-16 and -2(3)-10=-16."
+    },
+    {
+      "id": "g8-ex-l04-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Multiply x across a bracket",
+      "q": "Expand x(x + 4).",
+      "answer": "x² + 4x.",
+      "misconception": "Writing x for x times x.",
+      "repair": "Use an x-by-x square and an x-by-four rectangle.",
+      "model": {
+        "family": "area_distribute",
+        "tokens": [
+          "x width",
+          "x length",
+          "+4 length"
+        ],
+        "lanes": [
+          "shared side",
+          "square segment",
+          "rectangle segment"
+        ],
+        "scene": {
+          "segments": "x|4",
+          "side": "x"
+        }
+      },
+      "states": [
+        "x(x + 4)",
+        "x·x + x·4",
+        "x² + 4x"
+      ],
+      "steps": [
+        {
+          "title": "Partition the area",
+          "action": "Show the square x by x beside the rectangle x by 4.",
+          "narration": "Each piece shares the x height."
+        },
+        {
+          "title": "Name both area units",
+          "action": "Convert x times x to x squared and x times four to four x.",
+          "narration": "The two areas have different powers and cannot be merged."
+        }
+      ],
+      "verify": "At x=2: 2(2+4)=12 and 2²+4(2)=12."
+    },
+    {
+      "id": "g8-ex-l04-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Multiply coefficient and variable",
+      "q": "Expand 2x(3x + 5).",
+      "answer": "6x² + 10x.",
+      "misconception": "Multiplying coefficients but dropping one x in the first product.",
+      "repair": "Separate coefficient pairs and x factors on the two arrows.",
+      "model": {
+        "family": "area_distribute",
+        "tokens": [
+          "2x",
+          "3x",
+          "+5"
+        ],
+        "lanes": [
+          "shared height",
+          "first width",
+          "second width"
+        ],
+        "scene": {
+          "segments": "3x|5",
+          "side": "2x"
+        }
+      },
+      "states": [
+        "2x(3x + 5)",
+        "(2x)(3x) + (2x)(5)",
+        "(2·3)(x·x) + (2·5)x",
+        "6x² + 10x"
+      ],
+      "steps": [
+        {
+          "title": "Split the rectangle",
+          "action": "Make a 2x by 3x piece and a 2x by 5 piece.",
+          "narration": "The common height reaches each width."
+        },
+        {
+          "title": "Expand each factor pair",
+          "action": "Separate two times three and x times x; then two times five and x.",
+          "narration": "Only the first region contains two x factors."
+        },
+        {
+          "title": "Name the areas",
+          "action": "Finish six x squared and ten x.",
+          "narration": "Different powers describe different area pieces."
+        }
+      ],
+      "verify": "At x=2: 4(6+5)=44 and 6(4)+10(2)=44."
+    },
+    {
+      "id": "g8-ex-l04-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Negative variable multiplier",
+      "q": "Expand -3a(2a - 4).",
+      "answer": "-6a² + 12a.",
+      "misconception": "Making the second product negative instead of positive.",
+      "repair": "Reveal sign badges for (-3a)(2a) and (-3a)(-4).",
+      "model": {
+        "family": "signed_distribute",
+        "tokens": [
+          "-3a",
+          "2a",
+          "-4"
+        ],
+        "lanes": [
+          "signed multiplier",
+          "first term",
+          "negative second term"
+        ]
+      },
+      "states": [
+        "-3a(2a - 4)",
+        "(-3a)(2a) + (-3a)(-4)",
+        "-6a² + 12a"
+      ],
+      "steps": [
+        {
+          "title": "Attach both signed terms",
+          "action": "Keep the negative on -3a and on -4 as they pair.",
+          "narration": "One negative product and one positive product will appear."
+        },
+        {
+          "title": "Multiply the pairs",
+          "action": "Calculate each sign, coefficient and variable separately.",
+          "narration": "Negative six a squared plus twelve a remains."
+        }
+      ],
+      "verify": "At a=2: -6(4-4)=0 and -6(4)+12(2)=0."
+    },
+    {
+      "id": "g8-ex-l04-w07",
+      "number": 7,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Three-term bracket",
+      "q": "Expand 4(2m - 3n + 1).",
+      "answer": "8m - 12n + 4.",
+      "misconception": "Missing the middle negative term or the constant.",
+      "repair": "Use three persistent arrows, one per signed term.",
+      "model": {
+        "family": "trinomial_branches",
+        "tokens": [
+          "4",
+          "2m",
+          "-3n",
+          "+1"
+        ],
+        "lanes": [
+          "multiplier",
+          "term 1",
+          "term 2",
+          "term 3"
+        ]
+      },
+      "states": [
+        "4(2m - 3n + 1)",
+        "4(2m) + 4(-3n) + 4(1)",
+        "8m + 4(-3n) + 4(1)",
+        "8m - 12n + 4(1)",
+        "8m - 12n + 4"
+      ],
+      "steps": [
+        {
+          "title": "Create three paths",
+          "action": "Connect 4 to 2m, negative 3n and positive 1.",
+          "narration": "A trinomial has three terms, so the multiplier travels three times."
+        },
+        {
+          "title": "Finish the first path",
+          "action": "Calculate four times two m.",
+          "narration": "The first product is eight m."
+        },
+        {
+          "title": "Finish the signed path",
+          "action": "Multiply four by negative three n.",
+          "narration": "The second product is negative twelve n."
+        },
+        {
+          "title": "Finish the constant path",
+          "action": "Multiply four by one.",
+          "narration": "The last product is positive four."
+        }
+      ],
+      "verify": "At m=2,n=1: 4(4-3+1)=8 and 16-12+4=8."
+    },
+    {
+      "id": "g8-ex-l04-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Exponent across a trinomial",
+      "q": "Expand x(2x² - 3x + 5).",
+      "answer": "2x³ - 3x² + 5x.",
+      "misconception": "Adding exponents to the constant or dropping an x factor.",
+      "repair": "Count the x factors in each of three paths.",
+      "model": {
+        "family": "trinomial_branches",
+        "tokens": [
+          "x",
+          "2x²",
+          "-3x",
+          "+5"
+        ],
+        "lanes": [
+          "multiplier",
+          "cubic path",
+          "square path",
+          "linear path"
+        ]
+      },
+      "states": [
+        "x(2x² - 3x + 5)",
+        "x(2x²) + x(-3x) + x(5)",
+        "2x³ + x(-3x) + x(5)",
+        "2x³ - 3x² + x(5)",
+        "2x³ - 3x² + 5x"
+      ],
+      "steps": [
+        {
+          "title": "Separate the three terms",
+          "action": "Show an x arrow to every signed bracket term.",
+          "narration": "None of the three terms can be skipped."
+        },
+        {
+          "title": "Count cubic factors",
+          "action": "Multiply x by x squared.",
+          "narration": "One x and two x factors give x cubed."
+        },
+        {
+          "title": "Count square factors",
+          "action": "Multiply x by negative three x.",
+          "narration": "Two x factors give negative three x squared."
+        },
+        {
+          "title": "Finish the linear term",
+          "action": "Multiply x by five.",
+          "narration": "The constant becomes five x."
+        }
+      ],
+      "verify": "At x=2: 2(8-6+5)=14 and 16-12+10=14."
+    },
+    {
+      "id": "g8-ex-l04-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Negative trinomial distribution",
+      "q": "Expand -2y(3y² - 4y + 1).",
+      "answer": "-6y³ + 8y² - 2y.",
+      "misconception": "Changing the first sign but leaving the other signs unchanged.",
+      "repair": "Attach -2y to all three terms and resolve each sign independently.",
+      "model": {
+        "family": "signed_distribute",
+        "tokens": [
+          "-2y",
+          "3y²",
+          "-4y",
+          "+1"
+        ],
+        "lanes": [
+          "multiplier",
+          "term 1",
+          "term 2",
+          "term 3"
+        ]
+      },
+      "states": [
+        "-2y(3y² - 4y + 1)",
+        "(-2y)(3y²) + (-2y)(-4y) + (-2y)(1)",
+        "-6y³ + (-2y)(-4y) + (-2y)(1)",
+        "-6y³ + 8y² + (-2y)(1)",
+        "-6y³ + 8y² - 2y"
+      ],
+      "steps": [
+        {
+          "title": "Reach each signed term",
+          "action": "Draw three arrows from negative two y.",
+          "narration": "The negative multiplier acts on every term."
+        },
+        {
+          "title": "Resolve the first path",
+          "action": "Multiply negative two y by positive three y squared.",
+          "narration": "The first product is negative six y cubed."
+        },
+        {
+          "title": "Resolve the double negative",
+          "action": "Multiply negative two y by negative four y.",
+          "narration": "Two negative factors make positive eight y squared."
+        },
+        {
+          "title": "Resolve the last path",
+          "action": "Multiply negative two y by positive one.",
+          "narration": "The final product is negative two y."
+        }
+      ],
+      "verify": "At y=1: -2(3-4+1)=0 and -6+8-2=0."
+    },
+    {
+      "id": "g8-ex-l04-w10",
+      "number": 10,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Fractional coefficient",
+      "q": "Expand (1/2)x(6x + 8).",
+      "answer": "3x² + 4x.",
+      "misconception": "Multiplying six by two rather than halving it.",
+      "repair": "Show half of each width in a two-part area model.",
+      "model": {
+        "family": "area_distribute",
+        "tokens": [
+          "(1/2)x",
+          "6x",
+          "+8"
+        ],
+        "lanes": [
+          "half-height",
+          "first width",
+          "second width"
+        ],
+        "scene": {
+          "segments": "6x|8",
+          "side": "(1/2)x"
+        }
+      },
+      "states": [
+        "(1/2)x(6x + 8)",
+        "((1/2)x)(6x) + ((1/2)x)(8)",
+        "((1/2)·6)x² + ((1/2)·8)x",
+        "3x² + 4x"
+      ],
+      "steps": [
+        {
+          "title": "Split both regions",
+          "action": "Send one half x to six x and eight.",
+          "narration": "Halving applies to both bracket terms."
+        },
+        {
+          "title": "Calculate coefficients",
+          "action": "Take half of six and half of eight.",
+          "narration": "The coefficients become three and four."
+        },
+        {
+          "title": "Keep the correct powers",
+          "action": "Place x squared on the first product and x on the second.",
+          "narration": "Only one region multiplies x by x."
+        }
+      ],
+      "verify": "At x=2: 1(12+8)=20 and 3(4)+4(2)=20."
+    },
+    {
+      "id": "g8-ex-l04-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Interpret a rectangular garden",
+      "q": "A garden is x m wide and (x + 5) m long. Expand an expression for its area.",
+      "answer": "x² + 5x m².",
+      "misconception": "Adding side lengths instead of multiplying for area.",
+      "repair": "Draw an x by x square and x by 5 extension with square-metre units.",
+      "model": {
+        "family": "area_distribute",
+        "tokens": [
+          "x m width",
+          "x m length",
+          "+5 m length"
+        ],
+        "lanes": [
+          "height",
+          "first width",
+          "extra width"
+        ],
+        "scene": {
+          "segments": "x|5",
+          "side": "x"
+        }
+      },
+      "states": [
+        "Area = x(x + 5) m²",
+        "Area = x·x + x·5 m²",
+        "Area = x² + 5x m²"
+      ],
+      "steps": [
+        {
+          "title": "Partition the garden",
+          "action": "Divide the long side into x metres and five metres.",
+          "narration": "The common width x is multiplied by both pieces."
+        },
+        {
+          "title": "Count square metres",
+          "action": "Add the two region areas.",
+          "narration": "The square has area x squared and the extension has area five x."
+        }
+      ],
+      "verify": "At x=3 m: original area 3·8=24 m² and 3²+5·3=24 m²."
+    },
+    {
+      "id": "g8-ex-l04-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Distribute and collect like terms",
+      "q": "Simplify 3(x + 2) + 2x.",
+      "answer": "5x + 6.",
+      "misconception": "Multiplying 2x by three although it lies outside the bracket.",
+      "repair": "Draw a boundary around the bracket; the outside 2x remains untouched.",
+      "model": {
+        "family": "compare_paths",
+        "tokens": [
+          "3",
+          "x",
+          "+2",
+          "+2x outside"
+        ],
+        "lanes": [
+          "multiplier",
+          "term 1",
+          "term 2",
+          "separate addend"
+        ]
+      },
+      "states": [
+        "3(x + 2) + 2x",
+        "3x + 3(2) + 2x",
+        "3x + 6 + 2x",
+        "5x + 6"
+      ],
+      "steps": [
+        {
+          "title": "Respect bracket boundary",
+          "action": "Send three only to x and two inside the bracket.",
+          "narration": "The separate plus two x stays outside the distribution."
+        },
+        {
+          "title": "Finish the constant",
+          "action": "Evaluate three times two.",
+          "narration": "The constant contribution is six."
+        },
+        {
+          "title": "Collect matching x terms",
+          "action": "Join three x and two x.",
+          "narration": "Five x and six are unlike terms, so keep both."
+        }
+      ],
+      "verify": "At x=4: 3(4+2)+2(4)=26 and 5(4)+6=26."
+    },
+    {
+      "id": "g8-ex-l04-w13",
+      "number": 13,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Unlike variable trinomial",
+      "q": "Expand -2(3a - 4b + 5).",
+      "answer": "-6a + 8b - 10.",
+      "misconception": "Treating -4b as positive inside the bracket.",
+      "repair": "Show the signed term cards before the three arrows land.",
+      "model": {
+        "family": "trinomial_branches",
+        "tokens": [
+          "-2",
+          "3a",
+          "-4b",
+          "+5"
+        ],
+        "lanes": [
+          "negative multiplier",
+          "term 1",
+          "term 2",
+          "term 3"
+        ]
+      },
+      "states": [
+        "-2(3a - 4b + 5)",
+        "(-2)(3a) + (-2)(-4b) + (-2)(5)",
+        "-6a + (-2)(-4b) + (-2)(5)",
+        "-6a + 8b + (-2)(5)",
+        "-6a + 8b - 10"
+      ],
+      "steps": [
+        {
+          "title": "Separate every signed term",
+          "action": "Draw a path to 3a, -4b and +5.",
+          "narration": "The sign stays attached to its own term."
+        },
+        {
+          "title": "Finish a path",
+          "action": "Calculate negative two times three a.",
+          "narration": "The first term is negative six a."
+        },
+        {
+          "title": "Use the double negative",
+          "action": "Calculate negative two times negative four b.",
+          "narration": "The second term is positive eight b."
+        },
+        {
+          "title": "Finish the constant",
+          "action": "Calculate negative two times five.",
+          "narration": "The last term is negative ten."
+        }
+      ],
+      "verify": "At a=2,b=1: -2(6-4+5)=-14 and -12+8-10=-14."
+    },
+    {
+      "id": "g8-ex-l04-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 6,
+      "skill": "Find a false distribution",
+      "q": "A learner claims 2(x + 3) = 2x + 3. Find the first wrong step and repair it.",
+      "answer": "The 3 was not doubled; 2x + 6.",
+      "misconception": "Checking only the x part of a claimed expansion.",
+      "repair": "Compare the claimed route and two correct arrows with the undoubled 3 marked.",
+      "model": {
+        "family": "compare_paths",
+        "tokens": [
+          "2",
+          "x",
+          "+3",
+          "claim: 2x+3"
+        ],
+        "lanes": [
+          "multiplier",
+          "term 1",
+          "term 2",
+          "learner claim"
+        ]
+      },
+      "states": [
+        "Claim: 2(x + 3) = 2x + 3",
+        "2·x + 2·3 must both appear",
+        "The learner wrote 2x + 3 instead of 2x + 6",
+        "Correct expansion: 2x + 6"
+      ],
+      "steps": [
+        {
+          "title": "Compare both routes",
+          "action": "Put the learner claim beside an arrow for each bracket term.",
+          "narration": "The claimed route has only one completed multiplication."
+        },
+        {
+          "title": "Locate the first mistake",
+          "action": "Highlight the second path, where three was copied unchanged.",
+          "narration": "Two must multiply three as well as x."
+        },
+        {
+          "title": "Repair and check",
+          "action": "Replace the incorrect constant by six.",
+          "narration": "The correct expansion is two x plus six."
+        }
+      ],
+      "verify": "At x=1: original 2(1+3)=8, wrong claim 2(1)+3=5, repair 2(1)+6=8."
+    },
+    {
+      "id": "g8-ex-l04-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Two distributions and simplification",
+      "q": "Simplify 2x(x + 3) - x(x - 2).",
+      "answer": "x² + 8x.",
+      "misconception": "Failing to subtract both terms from the second product.",
+      "repair": "Keep two bracket strips separate, then place negative badges on both second-strip products.",
+      "model": {
+        "family": "compare_paths",
+        "tokens": [
+          "2x",
+          "x",
+          "+3",
+          "−",
+          "x",
+          "x",
+          "-2"
+        ],
+        "lanes": [
+          "first multiplier",
+          "first term",
+          "first extra",
+          "difference",
+          "second multiplier",
+          "second term",
+          "second extra"
+        ]
+      },
+      "states": [
+        "2x(x + 3) - x(x - 2)",
+        "2x² + 6x - (x² - 2x)",
+        "2x² + 6x - x² + 2x",
+        "x² + 8x"
+      ],
+      "steps": [
+        {
+          "title": "Expand each bracket independently",
+          "action": "Draw two arrows from 2x and two arrows from x.",
+          "narration": "Each multiplier acts only within its own bracket."
+        },
+        {
+          "title": "Subtract the whole second expansion",
+          "action": "Distribute the minus to x squared and to negative two x.",
+          "narration": "The minus reverses both signs in the second group."
+        },
+        {
+          "title": "Collect like powers",
+          "action": "Combine two x squared minus x squared, and six x plus two x.",
+          "narration": "The simplified result is x squared plus eight x."
+        }
+      ],
+      "verify": "At x=2: 4(5)-2(0)=20 and 2²+8(2)=20."
+    }
+  ],
+  "practice_questions": [
+    [
+      "p01",
+      "Expand 5(t + 2).",
+      "5t + 10",
+      "Double-check that 5 reaches the constant.",
+      "5(t+2)=5t+5·2=5t+10."
+    ],
+    [
+      "p02",
+      "Expand 4(b - 3).",
+      "4b - 12",
+      "Keep the negative with 3.",
+      "4(b-3)=4b+4(-3)=4b-12."
+    ],
+    [
+      "p03",
+      "Expand -3(k + 2).",
+      "-3k - 6",
+      "A negative factor reaches both terms.",
+      "-3(k+2)=(-3)k+(-3)2=-3k-6."
+    ],
+    [
+      "p04",
+      "Expand y(y + 6).",
+      "y² + 6y",
+      "y multiplied by y gives y squared.",
+      "y(y+6)=y·y+y·6=y²+6y."
+    ],
+    [
+      "p05",
+      "Expand 3z(2z + 4).",
+      "6z² + 12z",
+      "Separate coefficients and variable factors.",
+      "3z(2z+4)=6z²+12z."
+    ],
+    [
+      "p06",
+      "Expand -2c(3c - 5).",
+      "-6c² + 10c",
+      "Two negative factors give a positive second product.",
+      "-2c(3c-5)=-6c²+10c."
+    ],
+    [
+      "p07",
+      "Expand 2(4m - 3n + 7).",
+      "8m - 6n + 14",
+      "Count three signed terms.",
+      "2·4m+2(-3n)+2·7=8m-6n+14."
+    ],
+    [
+      "p08",
+      "Expand a(3a² - 2a + 4).",
+      "3a³ - 2a² + 4a",
+      "Count factors of a on each path.",
+      "a(3a²-2a+4)=3a³-2a²+4a."
+    ],
+    [
+      "p09",
+      "Expand -3q(2q² - q + 2).",
+      "-6q³ + 3q² - 6q",
+      "Track each product sign.",
+      "-3q(2q²-q+2)=-6q³+3q²-6q."
+    ],
+    [
+      "p10",
+      "Expand (1/2)p(4p + 6).",
+      "2p² + 3p",
+      "Take half of each coefficient.",
+      "(1/2)p(4p+6)=2p²+3p."
+    ],
+    [
+      "p11",
+      "A rectangle is r m wide and (r + 7) m long. Express its area after expansion.",
+      "r² + 7r m²",
+      "Multiply the width by both parts of the length.",
+      "r(r+7)=r²+7r square metres."
+    ],
+    [
+      "p12",
+      "Simplify 4(x + 1) + 3x.",
+      "7x + 4",
+      "Three x lies outside the bracket.",
+      "4x+4+3x=7x+4."
+    ],
+    [
+      "p13",
+      "Expand -3(2u - 5v + 4).",
+      "-6u + 15v - 12",
+      "Keep the sign of each bracket term.",
+      "-6u+15v-12."
+    ],
+    [
+      "p14",
+      "A learner says 5(n - 2)=5n - 2. Correct the expansion.",
+      "5n - 10",
+      "Five must multiply negative two.",
+      "5(n-2)=5n+5(-2)=5n-10."
+    ],
+    [
+      "p15",
+      "Simplify 3x(x + 2) - x(x - 4).",
+      "2x² + 10x",
+      "Subtract the complete second expansion.",
+      "3x²+6x-(x²-4x)=2x²+10x."
+    ]
+  ],
+  "mastery_questions": [
+    [
+      "m01",
+      2,
+      "Expand 6(a + 2).",
+      "6a + 12",
+      "Six reaches a and two: 6a+12."
+    ],
+    [
+      "m02",
+      3,
+      "Expand -4(y - 3).",
+      "-4y + 12",
+      "Negative four times negative three is positive twelve."
+    ],
+    [
+      "m03",
+      4,
+      "Expand 2x(3x + 4).",
+      "6x² + 8x",
+      "First term contains x·x; second contains one x."
+    ],
+    [
+      "m04",
+      5,
+      "Expand 3(2p - q + 5).",
+      "6p - 3q + 15",
+      "Three arrows produce three signed products."
+    ],
+    [
+      "m05",
+      6,
+      "Simplify 2x(x + 4) - x(x - 1), then check x=2.",
+      "x² + 9x; at x=2 both forms equal 22.",
+      "2x²+8x-(x²-x)=x²+9x; x=2: 2·2·6-2·1=22 and 4+18=22."
+    ]
+  ],
+  "reassessment_questions": [
+    [
+      "r01",
+      "Expand -5(t - 2).",
+      "-5t + 10",
+      "Negative five times negative two is positive ten."
+    ],
+    [
+      "r02",
+      "Expand 4a(a + 3).",
+      "4a² + 12a",
+      "Four a times a is four a squared; four a times three is twelve a."
+    ],
+    [
+      "r03",
+      "Simplify 2x(x + 5) - x(x - 3), then check x=2.",
+      "x² + 13x; at x=2 both forms equal 30.",
+      "2x²+10x-(x²-3x)=x²+13x; x=2: 4·7-2(-1)=30 and 4+26=30."
+    ]
+  ]
+}

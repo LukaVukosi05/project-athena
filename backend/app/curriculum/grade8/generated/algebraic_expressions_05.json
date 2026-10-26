@@ -1,0 +1,922 @@
+{
+  "id": "g8-algebraic-expressions-05",
+  "title": "Dividing algebraic expressions",
+  "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson5_Source_Pack_v1.docx",
+  "source_sha256": "0af2d0487b388a280a5104791101eb90b4bf52b787524c702d82a1f52a7c8584",
+  "worked_examples": [
+    {
+      "id": "g8-ex-l05-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Share a coefficient",
+      "q": "Simplify 12x ÷ 3.",
+      "answer": "4x.",
+      "model": {
+        "family": "equal_share",
+        "tokens": [
+          "12",
+          "x",
+          "3"
+        ],
+        "lanes": [
+          "coefficient",
+          "variable",
+          "groups"
+        ]
+      },
+      "states": [
+        "12x ÷ 3",
+        "(12 ÷ 3)x",
+        "4x"
+      ],
+      "steps": [
+        {
+          "title": "Separate coefficient and variable",
+          "action": "Make three equal groups of the twelve coefficient units; keep x in each group.",
+          "narration": "Only the coefficient is shared into three groups."
+        },
+        {
+          "title": "Count one group",
+          "action": "Twelve divided by three is four.",
+          "narration": "Each group contains four x, so the quotient is four x."
+        }
+      ],
+      "verify": "At x=2: 12(2) ÷ 3=8 and 4(2)=8.",
+      "misconception": "Dropping x while dividing twelve.",
+      "repair": "Keep the variable attached to each equal group."
+    },
+    {
+      "id": "g8-ex-l05-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 2,
+      "skill": "Preserve a negative dividend",
+      "q": "Simplify -15a ÷ 5.",
+      "answer": "-3a.",
+      "model": {
+        "family": "signed_quotient",
+        "tokens": [
+          "-15",
+          "a",
+          "+5"
+        ],
+        "lanes": [
+          "signed coefficient",
+          "variable",
+          "positive divisor"
+        ]
+      },
+      "states": [
+        "-15a ÷ 5",
+        "(-15 ÷ 5)a",
+        "-3a"
+      ],
+      "steps": [
+        {
+          "title": "Carry the sign",
+          "action": "Place negative fifteen over positive five without changing the sign.",
+          "narration": "A negative dividend divided by a positive number stays negative."
+        },
+        {
+          "title": "Share the magnitude",
+          "action": "Divide fifteen by five and retain a.",
+          "narration": "Three a remains negative."
+        }
+      ],
+      "verify": "At a=2: -30 ÷ 5=-6 and -3(2)=-6.",
+      "misconception": "Discarding the negative sign.",
+      "repair": "Check the signs before sharing the coefficient."
+    },
+    {
+      "id": "g8-ex-l05-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Cancel a common variable factor",
+      "q": "Simplify 18x² ÷ 6x for x ≠ 0.",
+      "answer": "3x, where x ≠ 0.",
+      "model": {
+        "family": "factor_cancel",
+        "tokens": [
+          "18",
+          "x·x",
+          "6",
+          "x"
+        ],
+        "lanes": [
+          "numerator coefficient",
+          "two x factors",
+          "divisor coefficient",
+          "divisor x"
+        ]
+      },
+      "states": [
+        "18x² ÷ 6x",
+        "(18 ÷ 6)·(x·x ÷ x)",
+        "3x"
+      ],
+      "steps": [
+        {
+          "title": "Split factors",
+          "action": "Divide eighteen by six and cancel exactly one x from x times x, provided x is nonzero.",
+          "narration": "The divisor contains x, so zero is excluded."
+        },
+        {
+          "title": "Count factors left",
+          "action": "Three remains with one x.",
+          "narration": "One x factor survives, giving three x."
+        }
+      ],
+      "verify": "At x=2: 72 ÷ 12=6 and 3(2)=6; x=0 is excluded.",
+      "misconception": "Cancelling both x factors.",
+      "repair": "Cross out only one numerator x for the one divisor x."
+    },
+    {
+      "id": "g8-ex-l05-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Divide both terms by an integer",
+      "q": "Simplify (8x + 12) ÷ 4.",
+      "answer": "2x + 3.",
+      "model": {
+        "family": "term_share",
+        "tokens": [
+          "8x",
+          "+12",
+          "4"
+        ],
+        "lanes": [
+          "first signed term",
+          "second signed term",
+          "common divisor"
+        ]
+      },
+      "states": [
+        "(8x + 12) ÷ 4",
+        "8x ÷ 4 + 12 ÷ 4",
+        "2x + 12 ÷ 4",
+        "2x + 3"
+      ],
+      "steps": [
+        {
+          "title": "Create two quotient lanes",
+          "action": "Copy the divisor four under eight x and under twelve.",
+          "narration": "Each signed term needs its own division path."
+        },
+        {
+          "title": "Divide the variable term",
+          "action": "Eight x divided by four is two x.",
+          "narration": "Keep the second quotient visible for the next step."
+        },
+        {
+          "title": "Divide the constant",
+          "action": "Twelve divided by four is three.",
+          "narration": "Two x plus three is the complete answer."
+        }
+      ],
+      "verify": "At x=2: (16+12) ÷ 4=7 and 2(2)+3=7.",
+      "misconception": "Dividing only the first term.",
+      "repair": "Draw a separate path from four to each bracket term."
+    },
+    {
+      "id": "g8-ex-l05-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Divide a binomial by a monomial",
+      "q": "Simplify (12x² + 18x) ÷ 6x for x ≠ 0.",
+      "answer": "2x + 3, where x ≠ 0.",
+      "model": {
+        "family": "factor_cancel",
+        "tokens": [
+          "12x²",
+          "+18x",
+          "6x"
+        ],
+        "lanes": [
+          "first numerator term",
+          "second numerator term",
+          "common divisor"
+        ]
+      },
+      "states": [
+        "(12x² + 18x) ÷ 6x",
+        "12x² ÷ 6x + 18x ÷ 6x",
+        "2x + 18x ÷ 6x",
+        "2x + 3"
+      ],
+      "steps": [
+        {
+          "title": "Split the numerator",
+          "action": "Place six x under both signed terms, with x nonzero.",
+          "narration": "The denominator acts on both terms."
+        },
+        {
+          "title": "Cancel the first term",
+          "action": "Twelve divided by six is two; x squared divided by x leaves x.",
+          "narration": "The first quotient is two x."
+        },
+        {
+          "title": "Cancel the second term",
+          "action": "Eighteen divided by six is three; x divided by x is one.",
+          "narration": "The second quotient is three, not three x."
+        }
+      ],
+      "verify": "At x=2: (48+36) ÷ 12=7 and 2(2)+3=7.",
+      "misconception": "Leaving an x on the second quotient.",
+      "repair": "Match each numerator x with one divisor x."
+    },
+    {
+      "id": "g8-ex-l05-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Divide signed terms by a negative",
+      "q": "Simplify (-16a + 24) ÷ (-8).",
+      "answer": "2a - 3.",
+      "model": {
+        "family": "signed_quotient",
+        "tokens": [
+          "-16a",
+          "+24",
+          "-8"
+        ],
+        "lanes": [
+          "negative first term",
+          "positive second term",
+          "negative divisor"
+        ]
+      },
+      "states": [
+        "(-16a + 24) ÷ (-8)",
+        "(-16a) ÷ (-8) + 24 ÷ (-8)",
+        "2a + 24 ÷ (-8)",
+        "2a - 3"
+      ],
+      "steps": [
+        {
+          "title": "Preserve term signs",
+          "action": "Copy negative eight beneath negative sixteen a and positive twenty four.",
+          "narration": "Each quotient has its own sign pair."
+        },
+        {
+          "title": "Resolve double negative",
+          "action": "Negative sixteen a divided by negative eight is positive two a.",
+          "narration": "Two negatives make a positive first result."
+        },
+        {
+          "title": "Resolve positive over negative",
+          "action": "Positive twenty four divided by negative eight is negative three.",
+          "narration": "The second result is negative three."
+        }
+      ],
+      "verify": "At a=2: (-32+24) ÷ (-8)=1 and 2(2)-3=1.",
+      "misconception": "Treating both resulting signs as positive.",
+      "repair": "Check each dividend and divisor pair separately."
+    },
+    {
+      "id": "g8-ex-l05-w07",
+      "number": 7,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Three-term integer divisor",
+      "q": "Simplify (15x² - 10x + 5) ÷ 5.",
+      "answer": "3x² - 2x + 1.",
+      "model": {
+        "family": "three_term_share",
+        "tokens": [
+          "15x²",
+          "-10x",
+          "+5",
+          "5"
+        ],
+        "lanes": [
+          "square term",
+          "negative linear term",
+          "constant",
+          "divisor"
+        ]
+      },
+      "states": [
+        "(15x² - 10x + 5) ÷ 5",
+        "15x² ÷ 5 - 10x ÷ 5 + 5 ÷ 5",
+        "3x² - 10x ÷ 5 + 5 ÷ 5",
+        "3x² - 2x + 5 ÷ 5",
+        "3x² - 2x + 1"
+      ],
+      "steps": [
+        {
+          "title": "Make three quotient lanes",
+          "action": "Send five to the square, linear and constant terms.",
+          "narration": "A trinomial needs three division paths."
+        },
+        {
+          "title": "Divide the square term",
+          "action": "Fifteen x squared divided by five is three x squared.",
+          "narration": "The x squared factor remains."
+        },
+        {
+          "title": "Divide the negative term",
+          "action": "Negative ten x divided by five is negative two x.",
+          "narration": "The second signed result stays negative."
+        },
+        {
+          "title": "Divide the constant",
+          "action": "Five divided by five is one.",
+          "narration": "The complete result has three unlike terms."
+        }
+      ],
+      "verify": "At x=2: (60-20+5) ÷ 5=9 and 12-4+1=9.",
+      "misconception": "Forgetting to divide the constant.",
+      "repair": "Count three input terms and three separate quotients."
+    },
+    {
+      "id": "g8-ex-l05-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Cancel powers across three terms",
+      "q": "Simplify (24p³ - 12p² + 6p) ÷ 6p for p ≠ 0.",
+      "answer": "4p² - 2p + 1, where p ≠ 0.",
+      "model": {
+        "family": "exponent_lanes",
+        "tokens": [
+          "24p³",
+          "-12p²",
+          "+6p",
+          "6p"
+        ],
+        "lanes": [
+          "cubic term",
+          "square term",
+          "linear term",
+          "divisor"
+        ]
+      },
+      "states": [
+        "(24p³ - 12p² + 6p) ÷ 6p",
+        "24p³ ÷ 6p - 12p² ÷ 6p + 6p ÷ 6p",
+        "4p² - 12p² ÷ 6p + 6p ÷ 6p",
+        "4p² - 2p + 6p ÷ 6p",
+        "4p² - 2p + 1"
+      ],
+      "steps": [
+        {
+          "title": "Separate every quotient",
+          "action": "Write one six p divisor for each signed term, provided p is nonzero.",
+          "narration": "The shared divisor does not disappear from later terms."
+        },
+        {
+          "title": "Reduce cubic term",
+          "action": "Twenty four over six is four; three p factors over one leave two.",
+          "narration": "The first quotient is four p squared."
+        },
+        {
+          "title": "Reduce square term",
+          "action": "Negative twelve over six is negative two; two p factors over one leave one.",
+          "narration": "The second quotient is negative two p."
+        },
+        {
+          "title": "Reduce last term",
+          "action": "Six p divided by six p is one.",
+          "narration": "The last quotient is one, not p."
+        }
+      ],
+      "verify": "At p=2: (192-48+12) ÷ 12=13 and 16-4+1=13.",
+      "misconception": "Subtracting exponents from only the first term.",
+      "repair": "Make a factor cancellation lane for every term."
+    },
+    {
+      "id": "g8-ex-l05-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Cancel a shared letter, retain another",
+      "q": "Simplify (18ab - 12a) ÷ 6a for a ≠ 0.",
+      "answer": "3b - 2, where a ≠ 0.",
+      "model": {
+        "family": "factor_cancel",
+        "tokens": [
+          "18ab",
+          "-12a",
+          "6a"
+        ],
+        "lanes": [
+          "term with a and b",
+          "term with a",
+          "divisor with a"
+        ]
+      },
+      "states": [
+        "(18ab - 12a) ÷ 6a",
+        "18ab ÷ 6a - 12a ÷ 6a",
+        "3b - 12a ÷ 6a",
+        "3b - 2"
+      ],
+      "steps": [
+        {
+          "title": "Give each term a divisor",
+          "action": "Place six a under eighteen a b and under negative twelve a.",
+          "narration": "A is cancelled only because it is a nonzero common factor."
+        },
+        {
+          "title": "Keep b in first result",
+          "action": "Eighteen over six is three; the a pair cancels, leaving b.",
+          "narration": "The first quotient is three b."
+        },
+        {
+          "title": "Resolve the signed constant",
+          "action": "Negative twelve over six is negative two; cancel the a pair.",
+          "narration": "The second quotient is negative two."
+        }
+      ],
+      "verify": "At a=2,b=3: (108-24) ÷ 12=7 and 9-2=7.",
+      "misconception": "Cancelling b even though it is absent from the divisor.",
+      "repair": "Only matching factors cancel."
+    },
+    {
+      "id": "g8-ex-l05-w10",
+      "number": 10,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Recognize zero exclusion",
+      "q": "Simplify (x² + 5x) ÷ x. State any restriction.",
+      "answer": "x + 5, where x ≠ 0.",
+      "model": {
+        "family": "factor_cancel",
+        "tokens": [
+          "x²",
+          "+5x",
+          "x"
+        ],
+        "lanes": [
+          "square term",
+          "linear term",
+          "variable divisor"
+        ]
+      },
+      "states": [
+        "(x² + 5x) ÷ x; x ≠ 0",
+        "x² ÷ x + 5x ÷ x; x ≠ 0",
+        "x + 5x ÷ x; x ≠ 0",
+        "x + 5; x ≠ 0"
+      ],
+      "steps": [
+        {
+          "title": "Mark the excluded input",
+          "action": "Since x is the divisor, x cannot equal zero; split the two terms.",
+          "narration": "A quotient cannot have a zero denominator."
+        },
+        {
+          "title": "Cancel the square term",
+          "action": "One x factor cancels from x times x.",
+          "narration": "One x survives in the first quotient."
+        },
+        {
+          "title": "Cancel the second term",
+          "action": "Five x over x leaves five.",
+          "narration": "The result x plus five retains the original exclusion."
+        }
+      ],
+      "verify": "At x=2: (4+10) ÷ 2=7 and 2+5=7; x=0 is undefined in the original.",
+      "misconception": "Claiming x=0 is allowed because the simplified form has no fraction.",
+      "repair": "Carry the original domain restriction into the answer."
+    },
+    {
+      "id": "g8-ex-l05-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Share a contextual total",
+      "q": "Six identical packs contain 24x + 12 counters altogether. Write an expression for the counters in one pack.",
+      "answer": "4x + 2 counters.",
+      "model": {
+        "family": "context_packs",
+        "tokens": [
+          "24x",
+          "+12",
+          "6 packs"
+        ],
+        "lanes": [
+          "variable counters",
+          "loose counters",
+          "equal packs"
+        ]
+      },
+      "states": [
+        "One pack = (24x + 12) ÷ 6",
+        "One pack = 24x ÷ 6 + 12 ÷ 6",
+        "One pack = 4x + 12 ÷ 6",
+        "One pack = 4x + 2 counters"
+      ],
+      "steps": [
+        {
+          "title": "Draw six equal packs",
+          "action": "Split both twenty four x and twelve across the six packs.",
+          "narration": "Each pack receives a share of both kinds of counters."
+        },
+        {
+          "title": "Share the x counters",
+          "action": "Twenty four x divided into six packs is four x per pack.",
+          "narration": "Each pack gets four x counters."
+        },
+        {
+          "title": "Share the loose counters",
+          "action": "Twelve divided by six is two.",
+          "narration": "Each pack contains four x plus two counters."
+        }
+      ],
+      "verify": "At x=1: total 36, each pack 6; 6·(4+2)=36.",
+      "misconception": "Dividing only the loose counters.",
+      "repair": "Show both types repeated in each of six packs."
+    },
+    {
+      "id": "g8-ex-l05-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Diagnose a missed quotient",
+      "q": "A learner writes (12x + 8) ÷ 4 = 3x + 8. Find the first mistake and correct it.",
+      "answer": "Eight was not divided; 3x + 2.",
+      "model": {
+        "family": "error_division",
+        "tokens": [
+          "12x",
+          "+8",
+          "4",
+          "claim: 3x+8"
+        ],
+        "lanes": [
+          "first term",
+          "second term",
+          "divisor",
+          "learner claim"
+        ]
+      },
+      "states": [
+        "Claim: (12x + 8) ÷ 4 = 3x + 8",
+        "Both 12x and 8 must be divided by 4",
+        "First quotient: 12x ÷ 4 = 3x",
+        "Second quotient: 8 ÷ 4 = 2",
+        "Correct: (12x + 8) ÷ 4 = 3x + 2"
+      ],
+      "steps": [
+        {
+          "title": "Trace both paths",
+          "action": "Inspect the written three x and eight against the two required quotient lanes.",
+          "narration": "The first term is divided; the second is merely copied."
+        },
+        {
+          "title": "Check first quotient",
+          "action": "Twelve x over four is three x.",
+          "narration": "The first part of the learner answer is correct."
+        },
+        {
+          "title": "Find the first error",
+          "action": "Eight over four is two, not eight.",
+          "narration": "The error begins at the unchanged constant."
+        },
+        {
+          "title": "Replace the wrong constant",
+          "action": "Keep three x and replace eight by two.",
+          "narration": "The repaired result is three x plus two."
+        }
+      ],
+      "verify": "At x=1: original 20 ÷ 4=5, wrong claim 11, corrected 3+2=5.",
+      "misconception": "Accepting the first correct term as proof of the whole answer.",
+      "repair": "Check each signed term against its own denominator."
+    },
+    {
+      "id": "g8-ex-l05-w13",
+      "number": 13,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Negative monomial divisor",
+      "q": "Simplify (6x² - 9x) ÷ (-3x) for x ≠ 0.",
+      "answer": "-2x + 3, where x ≠ 0.",
+      "model": {
+        "family": "signed_quotient",
+        "tokens": [
+          "6x²",
+          "-9x",
+          "-3x"
+        ],
+        "lanes": [
+          "positive square term",
+          "negative linear term",
+          "negative divisor"
+        ]
+      },
+      "states": [
+        "(6x² - 9x) ÷ (-3x)",
+        "6x² ÷ (-3x) + (-9x) ÷ (-3x)",
+        "-2x + (-9x) ÷ (-3x)",
+        "-2x + 3"
+      ],
+      "steps": [
+        {
+          "title": "Give both terms the signed divisor",
+          "action": "Write negative three x under each signed numerator term; x is nonzero.",
+          "narration": "The same negative divisor changes each quotient sign separately."
+        },
+        {
+          "title": "Reduce positive over negative",
+          "action": "Six over negative three is negative two; x squared over x is x.",
+          "narration": "The first result is negative two x."
+        },
+        {
+          "title": "Reduce negative over negative",
+          "action": "Negative nine x over negative three x is positive three.",
+          "narration": "The second result is positive three."
+        }
+      ],
+      "verify": "At x=2: (24-18) ÷ (-6)=-1 and -4+3=-1.",
+      "misconception": "Making the second quotient negative.",
+      "repair": "Use a sign pair for each term, then cancel factors."
+    },
+    {
+      "id": "g8-ex-l05-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Two quotients and subtraction",
+      "q": "Simplify (18x² + 12x) ÷ 6x - (8x + 4) ÷ 4 for x ≠ 0.",
+      "answer": "x + 1, where x ≠ 0.",
+      "model": {
+        "family": "two_quotients",
+        "tokens": [
+          "18x²",
+          "+12x",
+          "6x",
+          "−",
+          "8x",
+          "+4",
+          "4"
+        ],
+        "lanes": [
+          "first term",
+          "second term",
+          "first divisor",
+          "subtraction",
+          "third term",
+          "fourth term",
+          "second divisor"
+        ]
+      },
+      "states": [
+        "(18x² + 12x) ÷ 6x - (8x + 4) ÷ 4",
+        "(3x + 2) - (8x + 4) ÷ 4",
+        "(3x + 2) - (2x + 1)",
+        "3x + 2 - 2x - 1",
+        "x + 1"
+      ],
+      "steps": [
+        {
+          "title": "Finish first quotient",
+          "action": "Divide both eighteen x squared and twelve x by six x.",
+          "narration": "The first bracket becomes three x plus two."
+        },
+        {
+          "title": "Finish second quotient",
+          "action": "Divide both eight x and four by four.",
+          "narration": "The second bracket becomes two x plus one."
+        },
+        {
+          "title": "Subtract the whole second result",
+          "action": "Change both signs in the second bracket before collecting.",
+          "narration": "Subtracting two x plus one means subtracting two x and one."
+        },
+        {
+          "title": "Collect like terms",
+          "action": "Three x minus two x is x; two minus one is one.",
+          "narration": "The result is x plus one with x still nonzero."
+        }
+      ],
+      "verify": "At x=2: (72+24) ÷ 12 - (16+4) ÷ 4=8-5=3 and 2+1=3.",
+      "misconception": "Subtracting only 2x and retaining positive one.",
+      "repair": "Put a subtraction badge on both terms of the second quotient."
+    },
+    {
+      "id": "g8-ex-l05-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 6,
+      "skill": "Three powers over a common monomial",
+      "q": "Simplify (12x³ - 18x² + 6x) ÷ 6x for x ≠ 0.",
+      "answer": "2x² - 3x + 1, where x ≠ 0.",
+      "model": {
+        "family": "exponent_lanes",
+        "tokens": [
+          "12x³",
+          "-18x²",
+          "+6x",
+          "6x"
+        ],
+        "lanes": [
+          "cubic term",
+          "square term",
+          "linear term",
+          "monomial divisor"
+        ]
+      },
+      "states": [
+        "(12x³ - 18x² + 6x) ÷ 6x",
+        "12x³ ÷ 6x - 18x² ÷ 6x + 6x ÷ 6x",
+        "2x² - 18x² ÷ 6x + 6x ÷ 6x",
+        "2x² - 3x + 6x ÷ 6x",
+        "2x² - 3x + 1"
+      ],
+      "steps": [
+        {
+          "title": "Make three factor lanes",
+          "action": "Put six x beneath every signed numerator term, excluding x=0.",
+          "narration": "The shared denominator reaches all three terms."
+        },
+        {
+          "title": "Cancel a cubic factor",
+          "action": "Twelve over six is two; three x factors over one leave two.",
+          "narration": "The first quotient is two x squared."
+        },
+        {
+          "title": "Cancel a square factor",
+          "action": "Negative eighteen over six is negative three; two x factors over one leave one.",
+          "narration": "The second quotient is negative three x."
+        },
+        {
+          "title": "Reduce the final term",
+          "action": "Six x divided by six x is one.",
+          "narration": "The final constant is one, while x=0 stays excluded."
+        }
+      ],
+      "verify": "At x=2: (96-72+12) ÷ 12=3 and 8-6+1=3.",
+      "misconception": "Keeping x on the last quotient or losing the restriction.",
+      "repair": "Cancel equal factors one lane at a time and preserve the original domain."
+    }
+  ],
+  "practice_questions": [
+    [
+      "p01",
+      "Simplify 20a ÷ 5.",
+      "4a",
+      "Divide the coefficient; keep a.",
+      "20a ÷ 5=(20 ÷ 5)a=4a."
+    ],
+    [
+      "p02",
+      "Simplify -24t ÷ 6.",
+      "-4t",
+      "Track the negative dividend.",
+      "-24t ÷ 6=(-24 ÷ 6)t=-4t."
+    ],
+    [
+      "p03",
+      "Simplify 21y² ÷ 7y for y ≠ 0.",
+      "3y, where y ≠ 0",
+      "Cancel one matching y factor.",
+      "21y² ÷ 7y=3y; y cannot be zero."
+    ],
+    [
+      "p04",
+      "Simplify (10x + 15) ÷ 5.",
+      "2x + 3",
+      "Divide both terms by five.",
+      "10x ÷ 5+15 ÷ 5=2x+3."
+    ],
+    [
+      "p05",
+      "Simplify (15a² + 10a) ÷ 5a for a ≠ 0.",
+      "3a + 2, where a ≠ 0",
+      "Give each term a 5a divisor.",
+      "15a² ÷ 5a+10a ÷ 5a=3a+2; a ≠ 0."
+    ],
+    [
+      "p06",
+      "Simplify (-18b + 12) ÷ (-6).",
+      "3b - 2",
+      "Check two separate sign pairs.",
+      "(-18b) ÷ (-6)+12 ÷ (-6)=3b-2."
+    ],
+    [
+      "p07",
+      "Simplify (12m² - 8m + 4) ÷ 4.",
+      "3m² - 2m + 1",
+      "Count three signed terms.",
+      "12m² ÷ 4-8m ÷ 4+4 ÷ 4=3m²-2m+1."
+    ],
+    [
+      "p08",
+      "Simplify (18p³ - 12p² + 6p) ÷ 6p for p ≠ 0.",
+      "3p² - 2p + 1, where p ≠ 0",
+      "Subtract one exponent in each lane.",
+      "18p³ ÷ 6p-12p² ÷ 6p+6p ÷ 6p=3p²-2p+1; p ≠ 0."
+    ],
+    [
+      "p09",
+      "Simplify (20ab - 15a) ÷ 5a for a ≠ 0.",
+      "4b - 3, where a ≠ 0",
+      "Only a cancels, not b.",
+      "20ab ÷ 5a-15a ÷ 5a=4b-3; a ≠ 0."
+    ],
+    [
+      "p10",
+      "Simplify (y² + 7y) ÷ y. Give the restriction.",
+      "y + 7, where y ≠ 0",
+      "The original denominator excludes zero.",
+      "y² ÷ y+7y ÷ y=y+7, y ≠ 0."
+    ],
+    [
+      "p11",
+      "Five identical packs contain 15x + 10 counters. Express one pack.",
+      "3x + 2 counters",
+      "Share both types among five packs.",
+      "(15x+10) ÷ 5=3x+2 counters."
+    ],
+    [
+      "p12",
+      "A learner writes (16x + 12) ÷ 4 = 4x + 12. Correct it.",
+      "4x + 3",
+      "Divide the copied constant too.",
+      "16x ÷ 4+12 ÷ 4=4x+3."
+    ],
+    [
+      "p13",
+      "Simplify (8x² - 12x) ÷ (-4x) for x ≠ 0.",
+      "-2x + 3, where x ≠ 0",
+      "Check each quotient sign separately.",
+      "8x² ÷ (-4x)+(-12x) ÷ (-4x)=-2x+3; x ≠ 0."
+    ],
+    [
+      "p14",
+      "Simplify (12x² + 6x) ÷ 6x - (4x + 8) ÷ 4 for x ≠ 0.",
+      "x - 1, where x ≠ 0",
+      "Subtract both terms of the second quotient.",
+      "(2x+1)-(x+2)=x-1; x ≠ 0."
+    ],
+    [
+      "p15",
+      "Simplify (18x³ - 12x² + 6x) ÷ 6x for x ≠ 0.",
+      "3x² - 2x + 1, where x ≠ 0",
+      "Keep the term signs and zero exclusion.",
+      "18x³ ÷ 6x-12x² ÷ 6x+6x ÷ 6x=3x²-2x+1; x ≠ 0."
+    ]
+  ],
+  "mastery_questions": [
+    [
+      "m01",
+      2,
+      "Simplify 28c ÷ 7.",
+      "4c",
+      "28c ÷ 7=4c."
+    ],
+    [
+      "m02",
+      3,
+      "Simplify (-20a + 15) ÷ (-5).",
+      "4a - 3",
+      "-20a ÷ -5=4a and 15 ÷ -5=-3."
+    ],
+    [
+      "m03",
+      4,
+      "Simplify (18x² + 12x) ÷ 6x, x ≠ 0.",
+      "3x + 2, where x ≠ 0",
+      "18x² ÷ 6x=3x; 12x ÷ 6x=2; x ≠ 0."
+    ],
+    [
+      "m04",
+      5,
+      "Simplify (12p³ - 8p² + 4p) ÷ 4p, p ≠ 0.",
+      "3p² - 2p + 1, where p ≠ 0",
+      "Three quotients are 3p², -2p and 1; p ≠ 0."
+    ],
+    [
+      "m05",
+      6,
+      "Simplify (12x² + 6x) ÷ 6x - (4x + 8) ÷ 4, x ≠ 0; check x=2.",
+      "x - 1, where x ≠ 0; at x=2 both forms equal 1.",
+      "(2x+1)-(x+2)=x-1; x=2: (48+12) ÷ 12-(8+8) ÷ 4=5-4=1."
+    ]
+  ],
+  "reassessment_questions": [
+    [
+      "r01",
+      "Simplify (-21t + 14) ÷ (-7).",
+      "3t - 2",
+      "-21t ÷ -7=3t; 14 ÷ -7=-2."
+    ],
+    [
+      "r02",
+      "Simplify (20q² + 15q) ÷ 5q for q ≠ 0.",
+      "4q + 3, where q ≠ 0",
+      "20q² ÷ 5q=4q and 15q ÷ 5q=3; q ≠ 0."
+    ],
+    [
+      "r03",
+      "Simplify (18x² + 6x) ÷ 6x - (8x + 4) ÷ 4 for x ≠ 0; check x=2.",
+      "x, where x ≠ 0; at x=2 both forms equal 2.",
+      "(3x+1)-(2x+1)=x; x=2: (72+12) ÷ 12-(16+4) ÷ 4=7-5=2."
+    ]
+  ]
+}

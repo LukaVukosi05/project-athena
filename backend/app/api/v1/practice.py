@@ -12,8 +12,37 @@ from app.practice.schemas import AssessmentSubmission,PracticeAnswerRequest,Prac
 from app.practice.service import blank_response,check_answer,mastery_summary,public_status
 from app.curriculum.grade8.assessment import MASTERY_BANK,MISCONCEPTION_REPAIRS,REASSESSMENT_BANK,REPAIR_RULES
 from app.curriculum.grade8 import assessment_lesson2, assessment_lesson3, assessment_lesson4, assessment_lesson5, assessment_lesson6, assessment_lesson7, assessment_lesson8, assessment_lesson9, assessment_lesson10
+from app.curriculum.grade8 import assessment_functions_lesson1, assessment_functions_lesson2, assessment_functions_lesson3
+from app.curriculum.grade8.functions_topic_diagnostic import public_items as topic3_items, score as topic3_score
+from app.curriculum.grade8 import assessment_expressions, assessment_expressions_lesson2, assessment_expressions_lesson3, assessment_expressions_lesson4, assessment_expressions_lesson5, assessment_expressions_lesson6, assessment_expressions_lesson7, assessment_expressions_lesson8, assessment_expressions_lesson9, assessment_expressions_lesson10
 
 ASSESSMENT_BANKS={
+    "g8-algebraic-expressions-01":(assessment_expressions.MASTERY_BANK, assessment_expressions.REASSESSMENT_BANK,
+                                    assessment_expressions.MISCONCEPTION_REPAIRS, assessment_expressions.REPAIR_RULES),
+    "g8-algebraic-expressions-02":(assessment_expressions_lesson2.MASTERY_BANK, assessment_expressions_lesson2.REASSESSMENT_BANK,
+                                    assessment_expressions_lesson2.MISCONCEPTION_REPAIRS, assessment_expressions_lesson2.REPAIR_RULES),
+    "g8-algebraic-expressions-03":(assessment_expressions_lesson3.MASTERY_BANK, assessment_expressions_lesson3.REASSESSMENT_BANK,
+                                    assessment_expressions_lesson3.MISCONCEPTION_REPAIRS, assessment_expressions_lesson3.REPAIR_RULES),
+    "g8-algebraic-expressions-04":(assessment_expressions_lesson4.MASTERY_BANK, assessment_expressions_lesson4.REASSESSMENT_BANK,
+                                    assessment_expressions_lesson4.MISCONCEPTION_REPAIRS, assessment_expressions_lesson4.REPAIR_RULES),
+    "g8-algebraic-expressions-05":(assessment_expressions_lesson5.MASTERY_BANK, assessment_expressions_lesson5.REASSESSMENT_BANK,
+                                    assessment_expressions_lesson5.MISCONCEPTION_REPAIRS, assessment_expressions_lesson5.REPAIR_RULES),
+    "g8-algebraic-expressions-06":(assessment_expressions_lesson6.MASTERY_BANK, assessment_expressions_lesson6.REASSESSMENT_BANK,
+                                    assessment_expressions_lesson6.MISCONCEPTION_REPAIRS, assessment_expressions_lesson6.REPAIR_RULES),
+    "g8-algebraic-expressions-07":(assessment_expressions_lesson7.MASTERY_BANK, assessment_expressions_lesson7.REASSESSMENT_BANK,
+                                    assessment_expressions_lesson7.MISCONCEPTION_REPAIRS, assessment_expressions_lesson7.REPAIR_RULES),
+    "g8-algebraic-expressions-08":(assessment_expressions_lesson8.MASTERY_BANK, assessment_expressions_lesson8.REASSESSMENT_BANK,
+                                    assessment_expressions_lesson8.MISCONCEPTION_REPAIRS, assessment_expressions_lesson8.REPAIR_RULES),
+    "g8-algebraic-expressions-09":(assessment_expressions_lesson9.MASTERY_BANK, assessment_expressions_lesson9.REASSESSMENT_BANK,
+                                    assessment_expressions_lesson9.MISCONCEPTION_REPAIRS, assessment_expressions_lesson9.REPAIR_RULES),
+    "g8-algebraic-expressions-10":(assessment_expressions_lesson10.MASTERY_BANK, assessment_expressions_lesson10.REASSESSMENT_BANK,
+                                    assessment_expressions_lesson10.MISCONCEPTION_REPAIRS, assessment_expressions_lesson10.REPAIR_RULES),
+    "g8-functions-relationships-01":(assessment_functions_lesson1.MASTERY_BANK, assessment_functions_lesson1.REASSESSMENT_BANK,
+                                    assessment_functions_lesson1.MISCONCEPTION_REPAIRS, assessment_functions_lesson1.REPAIR_RULES),
+    "g8-functions-relationships-02":(assessment_functions_lesson2.MASTERY_BANK, assessment_functions_lesson2.REASSESSMENT_BANK,
+                                    assessment_functions_lesson2.MISCONCEPTION_REPAIRS, assessment_functions_lesson2.REPAIR_RULES),
+    "g8-functions-relationships-03":(assessment_functions_lesson3.MASTERY_BANK, assessment_functions_lesson3.REASSESSMENT_BANK,
+                                    assessment_functions_lesson3.MISCONCEPTION_REPAIRS, assessment_functions_lesson3.REPAIR_RULES),
     "g8-algebraic-equations-01":(MASTERY_BANK,REASSESSMENT_BANK,MISCONCEPTION_REPAIRS,REPAIR_RULES),
     "g8-algebraic-equations-02":(assessment_lesson2.MASTERY_BANK,assessment_lesson2.REASSESSMENT_BANK,
                                   assessment_lesson2.MISCONCEPTION_REPAIRS,assessment_lesson2.REPAIR_RULES),
@@ -41,6 +70,19 @@ def assessment_or_404(lesson_id):
     return result
 
 router=APIRouter()
+@router.get("/topics/grade-8/functions-relationships/diagnostic")
+def get_functions_topic_diagnostic():
+    return {"topic_id": "functions-relationships", "questions": topic3_items(),
+            "note": "This short check recommends where to revise; it does not replace lesson mastery."}
+
+
+@router.post("/topics/grade-8/functions-relationships/diagnostic")
+def submit_functions_topic_diagnostic(payload: AssessmentSubmission):
+    try:
+        return topic3_score(payload.answers)
+    except ValueError as error:
+        raise HTTPException(422, str(error)) from error
+
 def bank_or_404(lesson_id):
     bank=PRACTICE_BANKS.get(lesson_id)
     if bank is None:raise HTTPException(404,"Practice bank not found")
@@ -124,10 +166,12 @@ def submit_mastery(lesson_id:str,session_id:str,payload:AssessmentSubmission,use
     mastery,_,repairs,_=assessment_or_404(lesson_id)
     session=session_or_404(lesson_id,session_id,db,user);correct,reviewed,tags=_score_assessment(mastery,payload.answers)
     context_verified=next((row["correct"] for row in reviewed if row["id"] == "g8-ae-l10-m05"),True)
-    mastered=correct>=4 and context_verified
+    earned_marks = sum((question.marks or 0) for question, row in zip(mastery, reviewed) if row['correct'])
+    mastered=(earned_marks >= 16 if lesson_id.startswith('g8-algebraic-expressions-') else correct>=4) and context_verified
     decision=("ready" if mastered else "repeat_diagnostic_required" if lesson_id == "g8-algebraic-equations-10" and correct<=2 else "targeted_repair_required")
     updated=dict(session.responses or {});updated["__mastery__"]={"correct":correct,"mastered":mastered,"tags":tags,"decision":decision,"context_verified":context_verified};session.responses=updated;db.add(session);db.commit()
-    return {"questions_correct":correct,"total_questions":5,"score":correct*20,"mastered":mastered,"readiness_decision":decision,"context_verified":context_verified,"diagnosis":tags,"worked_review":reviewed,"repair_routes":[] if mastered else [{"tag":tag,**repairs[tag]} for tag in tags if tag in repairs]}
+    score=(earned_marks * 5 if lesson_id.startswith('g8-algebraic-expressions-') else correct*20)
+    return {"questions_correct":correct,"total_questions":5,"score":score,"mastered":mastered,"readiness_decision":decision,"context_verified":context_verified,"diagnosis":tags,"worked_review":reviewed,"repair_routes":[] if mastered else [{"tag":tag,**repairs[tag]} for tag in tags if tag in repairs]}
 
 
 @router.get("/{lesson_id}/sessions/{session_id}/repair")

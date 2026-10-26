@@ -43,7 +43,7 @@ class MathematicalOperation(BaseModel):
 class VisualizationInstruction(BaseModel):
     type: Literal["geometry", "coordinate_geometry", "function_graph", "trigonometry", "statistics", "probability", "calculus", "sequences", "finance", "algebra"]
     template: str = Field(pattern=r"^[a-z][a-z0-9_]*$")
-    parameters: dict[str, int | float | str | bool | list[int | float | str | bool]] = Field(default_factory=dict)
+    parameters: dict[str, int | float | str | bool | list[int | float | str | bool] | dict[str, int | float | str | bool]] = Field(default_factory=dict)
 
 
 class VisualizationState(BaseModel):

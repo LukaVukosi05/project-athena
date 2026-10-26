@@ -1,0 +1,906 @@
+{
+  "id": "g8-algebraic-expressions-02",
+  "title": "Adding and subtracting like terms",
+  "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson2_Source_Pack_v1.docx",
+  "source_sha256": "18065cb629dbf787a270937ce86de79fe22260aba52a8f4d7a9f30c9d4fc87d0",
+  "worked_examples": [
+    {
+      "id": "g8-ex-l02-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Add one kind of term",
+      "q": "Simplify 3x + 2x.",
+      "answer": "5x.",
+      "misconception": "Writing 5x² or adding x to the coefficients as a number.",
+      "repair": "Make five identical x bars and count bars, not powers.",
+      "model": {
+        "family": "like_term_sort",
+        "tokens": [
+          "3x",
+          "+2x"
+        ],
+        "lanes": [
+          "x",
+          "x"
+        ]
+      },
+      "states": [
+        "3x + 2x",
+        "3 x-bars beside 2 x-bars",
+        "(3 + 2)x",
+        "5x"
+      ],
+      "steps": [
+        {
+          "title": "Name the shared unit",
+          "action": "Select the x part of both terms.",
+          "narration": "Both groups contain the same x unit, so their counts can be added."
+        },
+        {
+          "title": "Join the groups",
+          "action": "Move the two x bars beside the three x bars.",
+          "narration": "Three copies and two copies make five copies of x."
+        },
+        {
+          "title": "Write the result",
+          "action": "Calculate 3 + 2, then retain x.",
+          "narration": "The coefficient becomes five; x is unchanged."
+        }
+      ],
+      "verify": "At x = 4, the original is 12 + 8 = 20 and 5x = 20."
+    },
+    {
+      "id": "g8-ex-l02-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 2,
+      "skill": "Subtract one kind of term",
+      "q": "Simplify 8a - 3a.",
+      "answer": "5a.",
+      "misconception": "Changing the sign of the remaining a term or subtracting exponents.",
+      "repair": "Keep all eight a bars, remove three, and count five remaining bars.",
+      "model": {
+        "family": "like_term_sort",
+        "tokens": [
+          "8a",
+          "-3a"
+        ],
+        "lanes": [
+          "a",
+          "a"
+        ]
+      },
+      "states": [
+        "8a - 3a",
+        "8 a-bars with 3 marked for removal",
+        "(8 - 3)a",
+        "5a"
+      ],
+      "steps": [
+        {
+          "title": "Identify matching units",
+          "action": "Highlight a in both signed terms.",
+          "narration": "Both terms measure the same unknown a."
+        },
+        {
+          "title": "Remove three copies",
+          "action": "Mark three a bars for subtraction from eight.",
+          "narration": "Removing three of eight a bars leaves five."
+        },
+        {
+          "title": "Write the coefficient",
+          "action": "Evaluate 8 - 3 and retain the variable.",
+          "narration": "The simplified expression is five a."
+        }
+      ],
+      "verify": "At a = 2, 16 - 6 = 10 and 5a = 10."
+    },
+    {
+      "id": "g8-ex-l02-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Signed coefficients",
+      "q": "Simplify -4m + 7m.",
+      "answer": "3m.",
+      "misconception": "Treating -4 as +4, or assuming a negative first term makes the total negative.",
+      "repair": "Show four negative m counters and seven positive m counters, then remove zero pairs.",
+      "model": {
+        "family": "signed_terms",
+        "tokens": [
+          "-4m",
+          "+7m"
+        ],
+        "lanes": [
+          "m",
+          "m"
+        ]
+      },
+      "states": [
+        "-4m + 7m",
+        "4 negative m and 7 positive m counters",
+        "4 zero pairs removed; 3 positive m remain",
+        "3m"
+      ],
+      "steps": [
+        {
+          "title": "Keep each sign",
+          "action": "Attach the minus to 4m and plus to 7m.",
+          "narration": "The first group is negative four m, not positive four m."
+        },
+        {
+          "title": "Make zero pairs",
+          "action": "Pair each negative m with one positive m.",
+          "narration": "Each negative and positive m cancels to zero."
+        },
+        {
+          "title": "Count remaining terms",
+          "action": "Count the three unpaired positive m counters.",
+          "narration": "Three positive m remain."
+        }
+      ],
+      "verify": "At m = 2, -8 + 14 = 6 and 3m = 6."
+    },
+    {
+      "id": "g8-ex-l02-w04",
+      "number": 4,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Recognize unlike terms",
+      "q": "Simplify 4x + 3y + 2x.",
+      "answer": "6x + 3y.",
+      "misconception": "Joining the y count with the x count to produce 9xy.",
+      "repair": "Sort x and y counters into separate lanes before combining the two x groups.",
+      "model": {
+        "family": "like_term_sort",
+        "tokens": [
+          "4x",
+          "+3y",
+          "+2x"
+        ],
+        "lanes": [
+          "x",
+          "y",
+          "x"
+        ]
+      },
+      "states": [
+        "4x + 3y + 2x",
+        "x lane: 4x, 2x; y lane: 3y",
+        "(4 + 2)x + 3y",
+        "6x + 3y"
+      ],
+      "steps": [
+        {
+          "title": "Sort by variable",
+          "action": "Move both x groups into one lane and y into another.",
+          "narration": "x and y are different units; only matching units can combine."
+        },
+        {
+          "title": "Add the x groups",
+          "action": "Put two x bars beside the four x bars.",
+          "narration": "Four plus two copies give six x."
+        },
+        {
+          "title": "Retain the y group",
+          "action": "Leave the three y bars as a separate sum.",
+          "narration": "The y term remains three y."
+        }
+      ],
+      "verify": "At x = 1 and y = 2, both forms equal 12."
+    },
+    {
+      "id": "g8-ex-l02-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Constants and variable terms",
+      "q": "Simplify 5p - 4 + 3p + 9.",
+      "answer": "8p + 5.",
+      "misconception": "Joining constants to p terms, or ignoring the negative sign on four.",
+      "repair": "Sort p-bars from constant counters; add 5p+3p and -4+9 independently.",
+      "model": {
+        "family": "like_term_sort",
+        "tokens": [
+          "5p",
+          "-4",
+          "+3p",
+          "+9"
+        ],
+        "lanes": [
+          "p",
+          "constant",
+          "p",
+          "constant"
+        ]
+      },
+      "states": [
+        "5p - 4 + 3p + 9",
+        "p lane: 5p + 3p; constant lane: -4 + 9",
+        "p lane: 8p; constant lane: +5",
+        "8p + 5"
+      ],
+      "steps": [
+        {
+          "title": "Sort signed terms",
+          "action": "Put both p terms in one lane and both constants in another.",
+          "narration": "The negative four stays attached to its constant card."
+        },
+        {
+          "title": "Combine each lane",
+          "action": "Evaluate 5 + 3 and -4 + 9 separately.",
+          "narration": "The p lane gives eight p; the constants give positive five."
+        },
+        {
+          "title": "Write the expression",
+          "action": "Join the two simplified lanes without an equals sign.",
+          "narration": "Eight p plus five has the same value as the original."
+        }
+      ],
+      "verify": "At p = 2, the original is 10 - 4 + 6 + 9 = 21; 8p + 5 = 21."
+    },
+    {
+      "id": "g8-ex-l02-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Negative resulting coefficient",
+      "q": "Simplify 2q - 7q + 4.",
+      "answer": "-5q + 4.",
+      "misconception": "Dropping the minus sign or changing the separate constant.",
+      "repair": "Use two positive q and seven negative q counters; five negative q remain.",
+      "model": {
+        "family": "signed_terms",
+        "tokens": [
+          "2q",
+          "-7q",
+          "+4"
+        ],
+        "lanes": [
+          "q",
+          "q",
+          "constant"
+        ]
+      },
+      "states": [
+        "2q - 7q + 4",
+        "2 positive q, 7 negative q, and 4 units",
+        "(2 - 7)q + 4",
+        "-5q + 4"
+      ],
+      "steps": [
+        {
+          "title": "Separate units",
+          "action": "Keep the four units outside the q-counter lane.",
+          "narration": "Four is a constant and does not cancel with q."
+        },
+        {
+          "title": "Remove zero pairs",
+          "action": "Pair two positive q with two of seven negative q.",
+          "narration": "Five negative q counters remain."
+        },
+        {
+          "title": "Carry the constant",
+          "action": "Write -5q and the untouched +4.",
+          "narration": "The q coefficient is negative five, while the constant stays positive four."
+        }
+      ],
+      "verify": "At q = 2, 4 - 14 + 4 = -6 and -10 + 4 = -6."
+    },
+    {
+      "id": "g8-ex-l02-w07",
+      "number": 7,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Powers define term type",
+      "q": "Simplify 3x² + 2x + 5x² - x.",
+      "answer": "8x² + x.",
+      "misconception": "Combining x and x² or adding their exponents when terms are only being added.",
+      "repair": "Use square tiles for x² and length bars for x; sort each type separately.",
+      "model": {
+        "family": "like_term_sort",
+        "tokens": [
+          "3x²",
+          "+2x",
+          "+5x²",
+          "-x"
+        ],
+        "lanes": [
+          "x²",
+          "x",
+          "x²",
+          "x"
+        ]
+      },
+      "states": [
+        "3x² + 2x + 5x² - x",
+        "square lane: 3x² + 5x²; bar lane: 2x - x",
+        "8x² + (2 - 1)x",
+        "8x² + x"
+      ],
+      "steps": [
+        {
+          "title": "Sort by variable and power",
+          "action": "Place square x² tiles apart from length x bars.",
+          "narration": "x squared and x are unlike units."
+        },
+        {
+          "title": "Count each type",
+          "action": "Add three and five squares; remove one of two x bars.",
+          "narration": "The square lane gives eight and the bar lane gives one."
+        },
+        {
+          "title": "Write both terms",
+          "action": "Keep the square on x² and a single x bar.",
+          "narration": "The answer contains eight x squared plus x."
+        }
+      ],
+      "verify": "At x = 2, 12 + 4 + 20 - 2 = 34 and 8(4) + 2 = 34."
+    },
+    {
+      "id": "g8-ex-l02-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Subtract a whole group",
+      "q": "Simplify (5a + 3) - (2a - 4).",
+      "answer": "3a + 7.",
+      "misconception": "Subtracting 2a but leaving -4 unchanged, or treating -(-4) as -4.",
+      "repair": "Show two intact bracket trays and a minus badge over the entire second tray.",
+      "model": {
+        "family": "bracket_negation",
+        "tokens": [
+          "5a",
+          "+3",
+          "-",
+          "2a",
+          "-4"
+        ],
+        "lanes": [
+          "a",
+          "constant",
+          "operator",
+          "a",
+          "constant"
+        ]
+      },
+      "states": [
+        "(5a + 3) - (2a - 4)",
+        "5a + 3 - 2a + 4",
+        "(5 - 2)a + (3 + 4)",
+        "3a + 7"
+      ],
+      "steps": [
+        {
+          "title": "Apply subtraction to the bracket",
+          "action": "Place a negative sign in front of both terms in the second group.",
+          "narration": "Subtracting the whole tray changes both signed terms inside it."
+        },
+        {
+          "title": "Sort like terms",
+          "action": "Place 5a and -2a together, then +3 and +4.",
+          "narration": "Keep the new positive four after subtracting negative four."
+        },
+        {
+          "title": "Combine each lane",
+          "action": "Evaluate 5 - 2 and 3 + 4.",
+          "narration": "Three a and seven units remain."
+        }
+      ],
+      "verify": "At a = 2, (10 + 3) - (4 - 4) = 13 and 3(2) + 7 = 13."
+    },
+    {
+      "id": "g8-ex-l02-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Mixed signed variables",
+      "q": "Simplify 2r - 3s - 5r + 4s.",
+      "answer": "-3r + s.",
+      "misconception": "Adding every coefficient despite different variables, or losing the minus on 5r.",
+      "repair": "Sort signed r and s cards into two lanes and cancel oppositely signed copies.",
+      "model": {
+        "family": "like_term_sort",
+        "tokens": [
+          "2r",
+          "-3s",
+          "-5r",
+          "+4s"
+        ],
+        "lanes": [
+          "r",
+          "s",
+          "r",
+          "s"
+        ]
+      },
+      "states": [
+        "2r - 3s - 5r + 4s",
+        "r lane: 2r - 5r; s lane: -3s + 4s",
+        "(2 - 5)r + (-3 + 4)s",
+        "-3r + s"
+      ],
+      "steps": [
+        {
+          "title": "Keep the signs while sorting",
+          "action": "Move two r cards and negative five r together; group s cards separately.",
+          "narration": "The sign travels with each complete term."
+        },
+        {
+          "title": "Count zero pairs per lane",
+          "action": "Cancel two r pairs and three s pairs.",
+          "narration": "Three negative r and one positive s remain."
+        },
+        {
+          "title": "Write the two-term result",
+          "action": "Combine the remaining signed counters.",
+          "narration": "Negative three r plus one s is -3r + s."
+        }
+      ],
+      "verify": "At r = 2 and s = 3, 4 - 9 - 10 + 12 = -3 and -6 + 3 = -3."
+    },
+    {
+      "id": "g8-ex-l02-w10",
+      "number": 10,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Subtract a binomial",
+      "q": "Simplify 8t - (3t + 2) + t.",
+      "answer": "6t - 2.",
+      "misconception": "Applying subtraction only to 3t and retaining a positive two.",
+      "repair": "Subtract both cards under the bracket, then collect all t terms.",
+      "model": {
+        "family": "bracket_negation",
+        "tokens": [
+          "8t",
+          "-",
+          "3t",
+          "+2",
+          "+t"
+        ],
+        "lanes": [
+          "t",
+          "operator",
+          "t",
+          "constant",
+          "t"
+        ]
+      },
+      "states": [
+        "8t - (3t + 2) + t",
+        "8t - 3t - 2 + t",
+        "(8 - 3 + 1)t - 2",
+        "6t - 2"
+      ],
+      "steps": [
+        {
+          "title": "Distribute the outer minus",
+          "action": "Change the signs of both 3t and +2.",
+          "narration": "The minus applies to the complete bracket, including its constant."
+        },
+        {
+          "title": "Gather t terms",
+          "action": "Move 8t, -3t and +t into one lane.",
+          "narration": "All three terms have one t factor."
+        },
+        {
+          "title": "Calculate the t coefficient",
+          "action": "Evaluate 8 - 3 + 1 and retain -2.",
+          "narration": "Six t minus two is the simplified expression."
+        }
+      ],
+      "verify": "At t = 2, 16 - (6 + 2) + 2 = 10 and 6(2) - 2 = 10."
+    },
+    {
+      "id": "g8-ex-l02-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Perimeter with expressions",
+      "q": "A rectangle has length x + 4 cm and width 2x - 1 cm. Find a simplified perimeter expression.",
+      "answer": "6x + 6 cm.",
+      "misconception": "Adding only adjacent sides or dropping the two constants from the second length.",
+      "repair": "Trace each of four labelled edges; sort x lengths and constant lengths into separate lanes.",
+      "model": {
+        "family": "rectangle",
+        "tokens": [
+          "x + 4 cm",
+          "2x - 1 cm",
+          "x + 4 cm",
+          "2x - 1 cm"
+        ],
+        "lanes": [
+          "side",
+          "side",
+          "side",
+          "side"
+        ]
+      },
+      "states": [
+        "P = (x + 4) + (2x - 1) + (x + 4) + (2x - 1)",
+        "P = x + 4 + 2x - 1 + x + 4 + 2x - 1",
+        "P = (1 + 2 + 1 + 2)x + (4 - 1 + 4 - 1)",
+        "P = 6x + 6 cm"
+      ],
+      "steps": [
+        {
+          "title": "Trace the full boundary",
+          "action": "Highlight the top, right, bottom and left labels in turn.",
+          "narration": "A perimeter uses both lengths and both widths."
+        },
+        {
+          "title": "Separate four complete side expressions",
+          "action": "Remove brackets around additions without changing any signs.",
+          "narration": "Every term from each side remains present."
+        },
+        {
+          "title": "Combine the two lanes",
+          "action": "Add four x coefficients and the four signed constants.",
+          "narration": "Six x plus six centimetres measures the entire boundary."
+        }
+      ],
+      "verify": "At x = 2 cm, the sides are 6, 3, 6 and 3 cm: total 18 cm; 6(2) + 6 = 18 cm."
+    },
+    {
+      "id": "g8-ex-l02-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Totals from two groups",
+      "q": "A club sells x learner tickets and 2x adult tickets, then cancels 3 learner and 2 adult tickets. Write and simplify the number of valid tickets.",
+      "answer": "3x - 5 tickets.",
+      "misconception": "Subtracting five from each group or counting cancelled tickets twice.",
+      "repair": "Use two labelled ticket lanes; add both original groups then remove three and two physical tickets once.",
+      "model": {
+        "family": "like_term_sort",
+        "tokens": [
+          "x learner",
+          "2x adult",
+          "-3 learner",
+          "-2 adult"
+        ],
+        "lanes": [
+          "x",
+          "x",
+          "constant",
+          "constant"
+        ]
+      },
+      "states": [
+        "x + 2x - 3 - 2",
+        "ticket lane: x + 2x; cancelled lane: -3 - 2",
+        "(1 + 2)x + (-3 - 2)",
+        "3x - 5 tickets"
+      ],
+      "steps": [
+        {
+          "title": "Count issued tickets",
+          "action": "Place one x group and two x groups in the issued lane.",
+          "narration": "All tickets count as one ticket each, although their types differ."
+        },
+        {
+          "title": "Account for cancellations",
+          "action": "Remove three learner tickets and two adult tickets once.",
+          "narration": "Five total tickets no longer count."
+        },
+        {
+          "title": "Write the valid total",
+          "action": "Combine the x groups and the cancelled count.",
+          "narration": "Three x minus five tickets remain."
+        }
+      ],
+      "verify": "For x = 4, twelve tickets are issued and five cancelled, leaving seven; 3(4) - 5 = 7."
+    },
+    {
+      "id": "g8-ex-l02-w13",
+      "number": 13,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Spot unlike-power error",
+      "q": "A learner claims 5u + 3u² = 8u³. Identify the first invalid operation and give the correct simplest form.",
+      "answer": "The terms are unlike; 5u + 3u² is already simplest.",
+      "misconception": "Adding the coefficients and powers of terms that are only joined by addition.",
+      "repair": "Represent u bars and u-by-u square tiles in two different shapes; mark the proposed merge invalid.",
+      "model": {
+        "family": "unlike_term_sort",
+        "tokens": [
+          "5u",
+          "+3u²",
+          "claim: 8u³"
+        ],
+        "lanes": [
+          "u",
+          "u²",
+          "claim"
+        ]
+      },
+      "states": [
+        "5u + 3u²; learner claim 8u³",
+        "u bars separate from u² squares",
+        "5u and 3u² cannot merge by addition",
+        "5u + 3u² remains"
+      ],
+      "steps": [
+        {
+          "title": "Model both term types",
+          "action": "Place five u bars beside three u² squares.",
+          "narration": "Length units and square units are different mathematical objects."
+        },
+        {
+          "title": "Find the invalid arrow",
+          "action": "Compare the learner merge with the unchanged two groups.",
+          "narration": "Adding terms never multiplies their variable parts."
+        },
+        {
+          "title": "State the valid form",
+          "action": "Keep the two signed groups as a sum.",
+          "narration": "The original expression is already simplified."
+        }
+      ],
+      "verify": "At u = 2, the original is 10 + 12 = 22, whereas 8u³ = 64."
+    },
+    {
+      "id": "g8-ex-l02-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 6,
+      "skill": "Prove equivalence with unlike terms",
+      "q": "Are 2x + 3y - 5x + y and -3x + 4y equivalent for all x and y? Explain and check at x = -2, y = 3.",
+      "answer": "Yes; both simplify to -3x + 4y. At (-2, 3), both equal 18.",
+      "misconception": "Treating one numerical check as a proof for every pair x,y.",
+      "repair": "Sort x and y groups symbolically, then perform a separate numerical check after the identity is established.",
+      "model": {
+        "family": "like_term_sort",
+        "tokens": [
+          "2x",
+          "+3y",
+          "-5x",
+          "+y"
+        ],
+        "lanes": [
+          "x",
+          "y",
+          "x",
+          "y"
+        ]
+      },
+      "states": [
+        "2x + 3y - 5x + y",
+        "x lane: 2x - 5x; y lane: 3y + y",
+        "(2 - 5)x + (3 + 1)y",
+        "-3x + 4y for all x,y"
+      ],
+      "steps": [
+        {
+          "title": "Partition the types",
+          "action": "Group x terms and y terms independently.",
+          "narration": "The algebraic grouping is legal for every value of the variables."
+        },
+        {
+          "title": "Simplify the coefficients",
+          "action": "Compute 2 - 5 = -3 and 3 + 1 = 4.",
+          "narration": "The first expression becomes exactly the second for all x and y."
+        },
+        {
+          "title": "Check the given pair",
+          "action": "Substitute x = -2 and y = 3 in each expression.",
+          "narration": "Each side evaluates to eighteen; the numeric check supports the symbolic proof."
+        }
+      ],
+      "verify": "At x = -2, y = 3, original -4 + 9 + 10 + 3 = 18; target 6 + 12 = 18. Symbolic grouping proves all pairs."
+    },
+    {
+      "id": "g8-ex-l02-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Integrated polynomial grouping",
+      "q": "Simplify (4x² - 3x + 2) + (2x² + 5x - 7) - (x² - x + 1), then check x = -2.",
+      "answer": "5x² + 3x - 6; at x = -2 the value is 8.",
+      "misconception": "Negating only the first term in the third bracket, or merging x² and x.",
+      "repair": "Preserve all three polynomial trays; reverse each sign of the subtracted tray and sort square, bar and constant lanes.",
+      "model": {
+        "family": "grouped_polynomials",
+        "tokens": [
+          "4x² - 3x + 2",
+          "2x² + 5x - 7",
+          "- (x² - x + 1)"
+        ],
+        "lanes": [
+          "group",
+          "group",
+          "subtracted group"
+        ]
+      },
+      "states": [
+        "(4x² - 3x + 2) + (2x² + 5x - 7) - (x² - x + 1)",
+        "4x² - 3x + 2 + 2x² + 5x - 7 - x² + x - 1",
+        "(4 + 2 - 1)x² + (-3 + 5 + 1)x + (2 - 7 - 1)",
+        "5x² + 3x - 6"
+      ],
+      "steps": [
+        {
+          "title": "Reverse the last tray",
+          "action": "Remove all brackets and reverse every signed term in the subtracted group.",
+          "narration": "The minus applies to x², -x and +1."
+        },
+        {
+          "title": "Sort three kinds of term",
+          "action": "Group x² squares, x bars and constants in their own lanes.",
+          "narration": "A square term cannot be joined with a linear term."
+        },
+        {
+          "title": "Finish the three coefficients",
+          "action": "Compute 4+2-1, -3+5+1, and 2-7-1.",
+          "narration": "The simplified expression is five x squared plus three x minus six."
+        }
+      ],
+      "verify": "At x = -2, the original groups evaluate to 24, -9 and 7; 24 - 9 - 7 = 8. The simplified form gives 20 - 6 - 6 = 8."
+    }
+  ],
+  "practice_questions": [
+    [
+      "p01",
+      "Simplify 6x + x.",
+      "7x.",
+      "Seven x tiles remain.",
+      "Recognise x as one x; add 6 + 1 while retaining x."
+    ],
+    [
+      "p02",
+      "Simplify 9a - 5a.",
+      "4a.",
+      "Count four a tiles after removing five.",
+      "Subtract 9 - 5, then retain a."
+    ],
+    [
+      "p03",
+      "Simplify -2m + 8m.",
+      "6m.",
+      "Pair two negative m with two positive m.",
+      "The six unpaired positive m make 6m."
+    ],
+    [
+      "p04",
+      "Simplify 3x + 4y + 2x.",
+      "5x + 4y.",
+      "Sort x and y separately.",
+      "3x + 2x = 5x; retain +4y."
+    ],
+    [
+      "p05",
+      "Simplify 4p - 6 + 3p + 2.",
+      "7p - 4.",
+      "Keep -6 in the constant lane.",
+      "4p + 3p = 7p and -6 + 2 = -4."
+    ],
+    [
+      "p06",
+      "Simplify 3q - 8q + 5.",
+      "-5q + 5.",
+      "Use signed q counters.",
+      "3 - 8 = -5; the +5 constant remains."
+    ],
+    [
+      "p07",
+      "Simplify 2x² + 4x + 6x² - x.",
+      "8x² + 3x.",
+      "Square tiles cannot mix with x bars.",
+      "2x² + 6x² = 8x²; 4x - x = 3x."
+    ],
+    [
+      "p08",
+      "Simplify (6a + 2) - (3a - 5).",
+      "3a + 7.",
+      "Reverse both signs in the subtracted bracket.",
+      "6a + 2 - 3a + 5 = 3a + 7."
+    ],
+    [
+      "p09",
+      "Simplify 4r - 2s - 7r + 5s.",
+      "-3r + 3s.",
+      "Sort signed r and s separately.",
+      "4r - 7r = -3r; -2s + 5s = 3s."
+    ],
+    [
+      "p10",
+      "Simplify 7t - (2t + 4) + t.",
+      "6t - 4.",
+      "Subtract the entire bracket.",
+      "7t - 2t - 4 + t = 6t - 4."
+    ],
+    [
+      "p11",
+      "A rectangle has sides a + 2 cm and 2a + 3 cm. Simplify its perimeter.",
+      "6a + 10 cm.",
+      "Count four sides.",
+      "(a+2)+(2a+3)+(a+2)+(2a+3)=6a+10 cm."
+    ],
+    [
+      "p12",
+      "A box contains n blue and 3n red counters. Remove four blue and two red. Write the remaining count.",
+      "4n - 6 counters.",
+      "Add the initial counts, then subtract six.",
+      "n + 3n - 4 - 2 = 4n - 6 counters."
+    ],
+    [
+      "p13",
+      "Explain the first error in 3v + 2v² = 5v³ and state the simplest correct form.",
+      "Unlike terms; 3v + 2v² remains.",
+      "Separate bars from squares.",
+      "At v=2, 6+8=14 but 5v³=40; the terms cannot combine."
+    ],
+    [
+      "p14",
+      "Simplify 4x - y - 6x + 3y and check at x=1, y=2.",
+      "-2x + 2y; value 2.",
+      "Group signed x and y terms before substituting.",
+      "4x-6x=-2x and -y+3y=2y; at (1,2) both sides equal 2."
+    ],
+    [
+      "p15",
+      "Simplify (3x² + x - 4) - (x² - 2x + 1), then check x=2.",
+      "2x² + 3x - 5; value 9.",
+      "Reverse all signs in the second bracket.",
+      "3x²+x-4-x²+2x-1=2x²+3x-5; at x=2 both forms equal 9."
+    ]
+  ],
+  "mastery_questions": [
+    [
+      "m01",
+      2,
+      "Simplify 5a + 4a and explain why the exponent stays one.",
+      "9a.",
+      "Add coefficients 5+4; the unit is a, so no exponent is created."
+    ],
+    [
+      "m02",
+      3,
+      "Simplify 3p - 8p + 2.",
+      "-5p + 2.",
+      "Signed coefficient 3-8=-5; retain the constant."
+    ],
+    [
+      "m03",
+      4,
+      "Simplify 4x² + 3x - x² - 5x.",
+      "3x² - 2x.",
+      "Sort square terms and linear terms; 4-1=3, 3-5=-2."
+    ],
+    [
+      "m04",
+      5,
+      "Diagnose the first error in (4n + 2) - (n - 5) = 4n + 2 - n - 5. Repair and simplify.",
+      "The last -5 must become +5; simplified form 3n + 7.",
+      "Subtract every term in the second bracket: 4n+2-n+5=3n+7."
+    ],
+    [
+      "m05",
+      6,
+      "A rectangle has length 2x+1 cm and width x+3 cm. Simplify its perimeter and check x=2 cm.",
+      "6x + 8 cm; at x=2, perimeter 20 cm.",
+      "All four sides sum to (2x+1)+(x+3)+(2x+1)+(x+3)=6x+8; x=2 gives 5+5+5+5=20."
+    ]
+  ],
+  "reassessment_questions": [
+    [
+      "r01",
+      "After a sign error, simplify -6k + 2k + 5.",
+      "-4k + 5.",
+      "Pair positive and negative k counters; keep five units."
+    ],
+    [
+      "r02",
+      "After a bracket sign error, simplify (5a - 2) - (2a + 4).",
+      "3a - 6.",
+      "Subtract both terms in the second bracket, then group matching terms."
+    ],
+    [
+      "r03",
+      "After an unlike term error, simplify 2y² + 5y - 4y² + y and check y=2.",
+      "-2y² + 6y; at y=2 the value is 4.",
+      "Sort square and linear terms separately; substitute to check both forms."
+    ]
+  ]
+}

@@ -1,0 +1,929 @@
+{
+  "id": "g8-algebraic-expressions-03",
+  "title": "Multiplying monomials",
+  "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson3_Source_Pack_v1.docx",
+  "source_sha256": "dbc89ec8f3c34613f8cdbfe060dada5f32b08645d38c7334cf6299ce6bb13db0",
+  "worked_examples": [
+    {
+      "id": "g8-ex-l03-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Count repeated x groups",
+      "q": "Simplify 3 × 2x.",
+      "answer": "6x.",
+      "misconception": "Adding 3 and 2 instead of finding three groups of 2x.",
+      "repair": "Draw three rows of two x tiles and count six.",
+      "model": {
+        "family": "factor_array",
+        "tokens": [
+          "3 groups",
+          "2x each"
+        ],
+        "lanes": [
+          "rows",
+          "columns"
+        ],
+        "scene": {
+          "rows": 3,
+          "columns": 2,
+          "unit": "x"
+        }
+      },
+      "states": [
+        "3 × 2x",
+        "2x + 2x + 2x",
+        "(3 × 2)x",
+        "6x"
+      ],
+      "steps": [
+        {
+          "title": "Build groups",
+          "action": "Place two x tiles in each of three rows.",
+          "narration": "Three groups each hold two copies of x."
+        },
+        {
+          "title": "Count coefficients",
+          "action": "Count the six x tiles without changing their unit.",
+          "narration": "Three multiplied by two gives six copies of x."
+        },
+        {
+          "title": "Write one term",
+          "action": "Write the total coefficient beside the x unit.",
+          "narration": "The product is six x, with x to the first power."
+        }
+      ],
+      "verify": "At x=4, 3×(2×4)=24 and 6×4=24."
+    },
+    {
+      "id": "g8-ex-l03-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 2,
+      "skill": "Carry a negative factor",
+      "q": "Simplify -2 × 3a.",
+      "answer": "-6a.",
+      "misconception": "Dropping the negative on -2.",
+      "repair": "Represent two negative rows of three a tiles.",
+      "model": {
+        "family": "sign_grid",
+        "tokens": [
+          "-2",
+          "3a"
+        ],
+        "lanes": [
+          "first factor",
+          "second factor"
+        ]
+      },
+      "states": [
+        "-2 × 3a",
+        "negative × positive a-groups",
+        "-(2 × 3)a",
+        "-6a"
+      ],
+      "steps": [
+        {
+          "title": "Read the signs",
+          "action": "Highlight the negative first factor and positive second factor.",
+          "narration": "One negative factor makes the product negative."
+        },
+        {
+          "title": "Multiply magnitudes",
+          "action": "Count two groups of three a.",
+          "narration": "Two times three is six copies of a."
+        },
+        {
+          "title": "Attach the sign",
+          "action": "Write the minus in front of 6a.",
+          "narration": "The signed answer is negative six a."
+        }
+      ],
+      "verify": "At a=2, -2×6=-12 and -6×2=-12."
+    },
+    {
+      "id": "g8-ex-l03-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 2,
+      "skill": "Multiply constants and a variable",
+      "q": "Simplify 4x × 3.",
+      "answer": "12x.",
+      "misconception": "Turning x into x² although the other factor contains no x.",
+      "repair": "Count three lots of four x; keep one variable factor.",
+      "model": {
+        "family": "factor_array",
+        "tokens": [
+          "4x",
+          "3"
+        ],
+        "lanes": [
+          "group",
+          "repetitions"
+        ],
+        "scene": {
+          "rows": 3,
+          "columns": 4,
+          "unit": "x"
+        }
+      },
+      "states": [
+        "4x × 3",
+        "4x + 4x + 4x",
+        "(4 × 3)x",
+        "12x"
+      ],
+      "steps": [
+        {
+          "title": "Repeat the x group",
+          "action": "Show three groups of four x tiles.",
+          "narration": "The plain number repeats the existing x group three times."
+        },
+        {
+          "title": "Multiply numbers",
+          "action": "Multiply four by three.",
+          "narration": "Twelve x tiles appear in all."
+        },
+        {
+          "title": "Retain the variable",
+          "action": "Write twelve times x, with no new x factor.",
+          "narration": "The answer has x to the first power."
+        }
+      ],
+      "verify": "At x=2, (4×2)×3=24 and 12×2=24."
+    },
+    {
+      "id": "g8-ex-l03-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Square the same variable",
+      "q": "Simplify 2x × 3x.",
+      "answer": "6x².",
+      "misconception": "Writing 6x because the second x factor was ignored.",
+      "repair": "Construct a 2x by 3x rectangle; count square x-by-x tiles.",
+      "model": {
+        "family": "area_product",
+        "tokens": [
+          "2x width",
+          "3x length"
+        ],
+        "lanes": [
+          "height",
+          "width"
+        ],
+        "scene": {
+          "rows": 2,
+          "columns": 3,
+          "unit": "x²"
+        }
+      },
+      "states": [
+        "2x × 3x",
+        "(2 × 3)(x × x)",
+        "6 × x²",
+        "6x²"
+      ],
+      "steps": [
+        {
+          "title": "Multiply each kind",
+          "action": "Pair the coefficients and pair the variable factors.",
+          "narration": "Two times three determines the number of x-by-x tiles."
+        },
+        {
+          "title": "Name the area unit",
+          "action": "Show x times x as one x² square.",
+          "narration": "Two copies of x multiply to x squared, rather than x."
+        },
+        {
+          "title": "Write area term",
+          "action": "Combine six squares into one algebraic term.",
+          "narration": "Six x-squared units give six x squared."
+        }
+      ],
+      "verify": "At x=2, (4)(6)=24 and 6(2²)=24."
+    },
+    {
+      "id": "g8-ex-l03-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Multiply unlike variables",
+      "q": "Simplify 4a × 2b.",
+      "answer": "8ab.",
+      "misconception": "Combining a and b as though they were like terms.",
+      "repair": "Use a-length and b-width; each unit square has area ab.",
+      "model": {
+        "family": "area_product",
+        "tokens": [
+          "4a",
+          "2b"
+        ],
+        "lanes": [
+          "height",
+          "width"
+        ],
+        "scene": {
+          "rows": 4,
+          "columns": 2,
+          "unit": "ab"
+        }
+      },
+      "states": [
+        "4a × 2b",
+        "(4 × 2)(a × b)",
+        "8 × ab",
+        "8ab"
+      ],
+      "steps": [
+        {
+          "title": "Separate factors",
+          "action": "Select 4 and 2, then a and b.",
+          "narration": "Numbers multiply together; the different variable factors both remain."
+        },
+        {
+          "title": "Count area tiles",
+          "action": "Show eight rectangles, each with sides a and b.",
+          "narration": "Each rectangle has area ab, and there are eight."
+        },
+        {
+          "title": "Write product",
+          "action": "Combine the count and unit ab.",
+          "narration": "The product is eight ab, not eight a plus b."
+        }
+      ],
+      "verify": "At a=2,b=3, (8)(6)=48 and 8ab=48."
+    },
+    {
+      "id": "g8-ex-l03-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Two negatives give a positive product",
+      "q": "Simplify (-3m)(-2m).",
+      "answer": "6m².",
+      "misconception": "Keeping a negative sign or omitting one m factor.",
+      "repair": "Pair sign badges first, then join two m lengths into square tiles.",
+      "model": {
+        "family": "sign_grid",
+        "tokens": [
+          "-3m",
+          "-2m"
+        ],
+        "lanes": [
+          "first factor",
+          "second factor"
+        ]
+      },
+      "states": [
+        "(-3m)(-2m)",
+        "(-3 × -2)(m × m)",
+        "+6 × m²",
+        "6m²"
+      ],
+      "steps": [
+        {
+          "title": "Resolve signs",
+          "action": "Highlight both negative factors.",
+          "narration": "A negative times a negative produces a positive product."
+        },
+        {
+          "title": "Multiply variable factors",
+          "action": "Form m-by-m squares from the two m factors.",
+          "narration": "Each m times m becomes m squared."
+        },
+        {
+          "title": "Finish coefficients",
+          "action": "Multiply three by two and retain the positive sign.",
+          "narration": "Six positive m-squared units remain."
+        }
+      ],
+      "verify": "At m=2, (-6)(-4)=24 and 6(2²)=24."
+    },
+    {
+      "id": "g8-ex-l03-w07",
+      "number": 7,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Powers add in multiplication",
+      "q": "Simplify 3x² × 2x.",
+      "answer": "6x³.",
+      "misconception": "Adding coefficients but also adding variables as x²+x.",
+      "repair": "Show two x factors from x² and one more from x.",
+      "model": {
+        "family": "power_stack",
+        "tokens": [
+          "3",
+          "x",
+          "x",
+          "2",
+          "x"
+        ],
+        "lanes": [
+          "coefficient",
+          "x factor",
+          "x factor",
+          "coefficient",
+          "x factor"
+        ]
+      },
+      "states": [
+        "3x² × 2x",
+        "(3 × 2)(x × x × x)",
+        "6 × x³",
+        "6x³"
+      ],
+      "steps": [
+        {
+          "title": "Expand variable factors",
+          "action": "Show x² as x times x, then one more x.",
+          "narration": "The exponent tells us there are already two x factors."
+        },
+        {
+          "title": "Count factors",
+          "action": "Stack all three x factors together.",
+          "narration": "Multiplication combines two x factors and one x factor into x cubed."
+        },
+        {
+          "title": "Multiply coefficients",
+          "action": "Multiply three by two and keep the three x factors.",
+          "narration": "The coefficient is six and the power is three."
+        }
+      ],
+      "verify": "At x=2, 3(4)×2(2)=48 and 6(8)=48."
+    },
+    {
+      "id": "g8-ex-l03-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Zero factor stays zero",
+      "q": "Simplify 0 × (-5q²).",
+      "answer": "0.",
+      "misconception": "Reporting -5q² after ignoring the zero factor.",
+      "repair": "Show an empty set of rows; no product tiles can appear.",
+      "model": {
+        "family": "factor_array",
+        "tokens": [
+          "0 groups",
+          "-5q² each"
+        ],
+        "lanes": [
+          "rows",
+          "columns"
+        ],
+        "scene": {
+          "rows": 0,
+          "columns": 5,
+          "unit": "q²"
+        }
+      },
+      "states": [
+        "0 × (-5q²)",
+        "zero groups of -5q²",
+        "0 × any expression",
+        "0"
+      ],
+      "steps": [
+        {
+          "title": "Show zero groups",
+          "action": "Remove every repeated row.",
+          "narration": "Zero groups means there are no tiles to count."
+        },
+        {
+          "title": "Apply the zero rule",
+          "action": "Observe that any second factor still gives no groups.",
+          "narration": "Multiplication by zero has value zero for every q."
+        },
+        {
+          "title": "Write numeric result",
+          "action": "Write zero without a variable part.",
+          "narration": "The product is zero, rather than a signed q term."
+        }
+      ],
+      "verify": "At q=3, 0×(-45)=0 and the answer is 0."
+    },
+    {
+      "id": "g8-ex-l03-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Fraction coefficient and a square",
+      "q": "Simplify (1/2)x × 6x.",
+      "answer": "3x².",
+      "misconception": "Multiplying by two instead of by one half, or leaving x to the first power.",
+      "repair": "Partition six x-length columns into two halves; each tile has x×x area.",
+      "model": {
+        "family": "area_product",
+        "tokens": [
+          "(1/2)x",
+          "6x"
+        ],
+        "lanes": [
+          "height",
+          "width"
+        ],
+        "scene": {
+          "rows": 1,
+          "columns": 6,
+          "unit": "x²",
+          "share": 0.5
+        }
+      },
+      "states": [
+        "(1/2)x × 6x",
+        "(1/2 × 6)(x × x)",
+        "3 × x²",
+        "3x²"
+      ],
+      "steps": [
+        {
+          "title": "Split the coefficient",
+          "action": "Take half of six, keeping the variable factors aside.",
+          "narration": "One half of six is three."
+        },
+        {
+          "title": "Pair variable factors",
+          "action": "Join one x from each factor into an x² square.",
+          "narration": "The x factors multiply into x squared."
+        },
+        {
+          "title": "Write product",
+          "action": "Combine three with x squared.",
+          "narration": "There are three x-squared tiles."
+        }
+      ],
+      "verify": "At x=4, (2)(24)=48 and 3(16)=48."
+    },
+    {
+      "id": "g8-ex-l03-w10",
+      "number": 10,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Three factors including unlike variables",
+      "q": "Simplify (-2a)(3b)(-a).",
+      "answer": "6a²b.",
+      "misconception": "Dropping a negative factor or changing b into a.",
+      "repair": "Pair both negative signs; stack two a factors and retain b.",
+      "model": {
+        "family": "sign_grid",
+        "tokens": [
+          "-2a",
+          "3b",
+          "-a"
+        ],
+        "lanes": [
+          "factor 1",
+          "factor 2",
+          "factor 3"
+        ]
+      },
+      "states": [
+        "(-2a)(3b)(-a)",
+        "(-2 × 3 × -1)(a × b × a)",
+        "+6(a × a)b",
+        "6a²b"
+      ],
+      "steps": [
+        {
+          "title": "Resolve three signs",
+          "action": "Pair the negative signs in first and third factors.",
+          "narration": "Two negatives cancel to make this product positive."
+        },
+        {
+          "title": "Sort variable factors",
+          "action": "Place both a factors together and b apart.",
+          "narration": "a times a is a squared; b is a separate factor."
+        },
+        {
+          "title": "Multiply numbers",
+          "action": "Multiply two, three and one, then attach a²b.",
+          "narration": "The complete product is positive six a squared b."
+        }
+      ],
+      "verify": "At a=2,b=3, (-4)(9)(-2)=72 and 6(4)(3)=72."
+    },
+    {
+      "id": "g8-ex-l03-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Rectangle area from algebraic sides",
+      "q": "A tile has sides 3t cm and 4t cm. Find its area in cm² and evaluate at t=2.",
+      "answer": "12t² cm²; at t=2 area 48 cm².",
+      "misconception": "Adding sides as a perimeter or reporting a linear unit.",
+      "repair": "Grow a 3-by-4 area grid whose little square side is t cm.",
+      "model": {
+        "family": "area_product",
+        "tokens": [
+          "3t cm",
+          "4t cm"
+        ],
+        "lanes": [
+          "height",
+          "width"
+        ],
+        "scene": {
+          "rows": 3,
+          "columns": 4,
+          "unit": "t²"
+        }
+      },
+      "states": [
+        "A=(3t cm)(4t cm)",
+        "(3×4)(t×t) cm²",
+        "A=12t² cm²",
+        "At t=2, A=48 cm²"
+      ],
+      "steps": [
+        {
+          "title": "Construct area grid",
+          "action": "Mark three rows and four columns of t-by-t squares.",
+          "narration": "Area counts square units: each small square is t centimetres by t centimetres."
+        },
+        {
+          "title": "Multiply symbolic sides",
+          "action": "Count twelve squares and label each t squared.",
+          "narration": "Three times four gives twelve, while t times t gives t squared."
+        },
+        {
+          "title": "Evaluate given value",
+          "action": "Substitute two into the completed area formula.",
+          "narration": "Twelve times four is forty-eight square centimetres."
+        }
+      ],
+      "verify": "Direct sides at t=2 are 6 cm and 8 cm; 6×8=48 cm²."
+    },
+    {
+      "id": "g8-ex-l03-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Detect an exponent error",
+      "q": "A learner wrote (2x²)(3x)=6x². Identify the missing operation and correct the result.",
+      "answer": "They omitted the second factor of x; the product is 6x³.",
+      "misconception": "Treating an exponent as a decoration rather than a count of factors.",
+      "repair": "Expose three x chips: x×x from x² and one x from the second term.",
+      "model": {
+        "family": "power_stack",
+        "tokens": [
+          "2",
+          "x",
+          "x",
+          "3",
+          "x"
+        ],
+        "lanes": [
+          "coefficient",
+          "x factor",
+          "x factor",
+          "coefficient",
+          "x factor"
+        ]
+      },
+      "states": [
+        "(2x²)(3x) → learner: 6x²",
+        "(2×3)(x×x×x)",
+        "6 × x³",
+        "Correct result: 6x³"
+      ],
+      "steps": [
+        {
+          "title": "Find omitted factor",
+          "action": "Compare the learner line with the three x chips in the original.",
+          "narration": "The second factor contributes a third x that cannot disappear."
+        },
+        {
+          "title": "Recount powers",
+          "action": "Count two x factors plus one x factor.",
+          "narration": "There are three x factors, so the exponent is three."
+        },
+        {
+          "title": "Repair the line",
+          "action": "Keep six as coefficient and replace x² with x³.",
+          "narration": "The repaired answer is six x cubed."
+        }
+      ],
+      "verify": "At x=2, original 8×6=48, wrong 6x²=24, and corrected 6x³=48."
+    },
+    {
+      "id": "g8-ex-l03-w13",
+      "number": 13,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Cost per learner in grouped packs",
+      "q": "A school buys 4 packs of 3n notebooks at R2 each. Express the total cost in rand and check n=5.",
+      "answer": "R24n; at n=5 cost R120.",
+      "misconception": "Multiplying only four by three and forgetting the price factor.",
+      "repair": "Show four pack trays, three n notebooks per tray, and a R2 badge on each notebook.",
+      "model": {
+        "family": "factor_array",
+        "tokens": [
+          "4 packs",
+          "3n notebooks each",
+          "R2 each"
+        ],
+        "lanes": [
+          "packs",
+          "notebooks",
+          "price"
+        ],
+        "scene": {
+          "rows": 4,
+          "columns": 3,
+          "unit": "n notebooks",
+          "unit_price": 2
+        }
+      },
+      "states": [
+        "4 × 3n × R2",
+        "(4 × 3 × 2)n rand",
+        "24n rand",
+        "At n=5, cost R120"
+      ],
+      "steps": [
+        {
+          "title": "Count notebooks",
+          "action": "Show four groups of three n notebooks.",
+          "narration": "Four groups of three n make twelve n notebooks."
+        },
+        {
+          "title": "Apply unit price",
+          "action": "Attach the two-rand badge to each notebook.",
+          "narration": "Each of the twelve n notebooks costs two rand."
+        },
+        {
+          "title": "Substitute n",
+          "action": "Multiply twenty-four by five.",
+          "narration": "The total is one hundred and twenty rand when n is five."
+        }
+      ],
+      "verify": "At n=5: four packs ×15 notebooks ×R2=R120; 24×5=120."
+    },
+    {
+      "id": "g8-ex-l03-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 6,
+      "skill": "Square a negative monomial",
+      "q": "Simplify (-2p)² and explain why the result is positive.",
+      "answer": "4p².",
+      "misconception": "Squaring only p or keeping a negative result after multiplying two negatives.",
+      "repair": "Show two complete copies of the bracket, with two negative badges.",
+      "model": {
+        "family": "power_stack",
+        "tokens": [
+          "(-2p) first",
+          "(-2p) second"
+        ],
+        "lanes": [
+          "factor 1",
+          "factor 2"
+        ]
+      },
+      "states": [
+        "(-2p)²",
+        "(-2p)(-2p)",
+        "(-2×-2)(p×p)",
+        "4p²"
+      ],
+      "steps": [
+        {
+          "title": "Expand the square",
+          "action": "Replace the exponent 2 with two complete (-2p) factors.",
+          "narration": "The square applies to the signed coefficient and to p."
+        },
+        {
+          "title": "Resolve signs and powers",
+          "action": "Pair negative badges and join the two p factors.",
+          "narration": "Two negatives give a positive; p times p gives p squared."
+        },
+        {
+          "title": "Multiply magnitudes",
+          "action": "Multiply two by two after resolving the signs.",
+          "narration": "The result is positive four p squared."
+        }
+      ],
+      "verify": "At p=3, (-6)²=36 and 4(9)=36."
+    },
+    {
+      "id": "g8-ex-l03-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Compare area expressions across two tiles",
+      "q": "One square has side 2x cm. A rectangle has sides x cm and 3x cm. Find both areas, then the difference square minus rectangle.",
+      "answer": "Square: 4x² cm²; rectangle: 3x² cm²; difference x² cm².",
+      "misconception": "Adding side lengths or treating x² and x as interchangeable.",
+      "repair": "Build two scaled area grids: four x² squares beside three x² squares.",
+      "model": {
+        "family": "area_comparison",
+        "tokens": [
+          "square side 2x",
+          "rectangle width x",
+          "rectangle length 3x"
+        ],
+        "lanes": [
+          "square",
+          "rectangle height",
+          "rectangle width"
+        ],
+        "scene": {
+          "square_rows": 2,
+          "square_columns": 2,
+          "rectangle_rows": 1,
+          "rectangle_columns": 3,
+          "unit": "x²"
+        }
+      },
+      "states": [
+        "Square (2x)²; rectangle (x)(3x)",
+        "Square 4(x×x); rectangle 3(x×x)",
+        "4x² - 3x²",
+        "Difference: x² cm²"
+      ],
+      "steps": [
+        {
+          "title": "Build both grids",
+          "action": "Draw a 2-by-2 square grid and a 1-by-3 rectangle grid.",
+          "narration": "The first area has four x-squared tiles; the second has three."
+        },
+        {
+          "title": "Compare like area units",
+          "action": "Align the x-squared tiles and subtract three from four.",
+          "narration": "Both are areas, so subtract only their counts of identical x-squared tiles."
+        },
+        {
+          "title": "Write the difference",
+          "action": "Show one unmatched x² tile with square-centimetre units.",
+          "narration": "The square exceeds the rectangle by x squared square centimetres."
+        }
+      ],
+      "verify": "At x=2, square 16 cm², rectangle 12 cm²; difference 4 cm² equals x² cm²."
+    }
+  ],
+  "practice_questions": [
+    [
+      "p01",
+      "Simplify 5 × 2a.",
+      "10a.",
+      "Make five groups of 2a.",
+      "5×2=10; retain a."
+    ],
+    [
+      "p02",
+      "Simplify -3 × 4q.",
+      "-12q.",
+      "One factor is negative.",
+      "-3×4=-12 and q remains."
+    ],
+    [
+      "p03",
+      "Simplify 6x × 2.",
+      "12x.",
+      "Only one factor contains x.",
+      "6×2=12, so there is still one x factor."
+    ],
+    [
+      "p04",
+      "Simplify 3m × 5m.",
+      "15m².",
+      "Two m factors form an m-by-m square.",
+      "3×5=15; m×m=m²."
+    ],
+    [
+      "p05",
+      "Simplify 2a × 7b.",
+      "14ab.",
+      "Keep both unlike factors.",
+      "2×7=14 and a×b=ab."
+    ],
+    [
+      "p06",
+      "Simplify (-4r)(-3r).",
+      "12r².",
+      "Pair the two negatives.",
+      "-4×-3=12; r×r=r²."
+    ],
+    [
+      "p07",
+      "Simplify 2y² × 4y.",
+      "8y³.",
+      "Count all y factors.",
+      "2×4=8 and y²×y=y³."
+    ],
+    [
+      "p08",
+      "Simplify 0 × (7s²).",
+      "0.",
+      "Zero groups contain no tiles.",
+      "Zero times any expression equals zero."
+    ],
+    [
+      "p09",
+      "Simplify (1/3)t × 9t.",
+      "3t².",
+      "One third of nine is three.",
+      "(1/3)×9=3 and t×t=t²."
+    ],
+    [
+      "p10",
+      "Simplify (-2a)(5b)(-3a).",
+      "30a²b.",
+      "Pair the two minus signs.",
+      "(-2)×5×(-3)=30; a×b×a=a²b."
+    ],
+    [
+      "p11",
+      "A rectangle has sides 2k cm and 7k cm. Find its area.",
+      "14k² cm².",
+      "Multiply lengths and use square units.",
+      "2×7=14 and k×k=k², so area is 14k² cm²."
+    ],
+    [
+      "p12",
+      "A learner says 4x² × 2x = 8x². Give the correct product.",
+      "8x³.",
+      "Count x×x and the additional x.",
+      "4×2=8; x²×x=x³."
+    ],
+    [
+      "p13",
+      "Three crates each hold 4n pencils at R2 per pencil. Write the total cost.",
+      "R24n.",
+      "Multiply crates, pencils and rand per pencil.",
+      "3×4n×R2=R24n."
+    ],
+    [
+      "p14",
+      "Simplify (-3u)².",
+      "9u².",
+      "Square the whole signed term.",
+      "(-3u)(-3u)=9u²."
+    ],
+    [
+      "p15",
+      "A square has side 3z cm and a rectangle sides z cm and 5z cm. How much larger is the square area?",
+      "4z² cm².",
+      "Compare square-unit tiles.",
+      "Square area 9z²; rectangle 5z²; difference 4z² cm²."
+    ]
+  ],
+  "mastery_questions": [
+    [
+      "m01",
+      2,
+      "Simplify 7 × 2n.",
+      "14n.",
+      "Seven groups of 2n give fourteen n."
+    ],
+    [
+      "m02",
+      3,
+      "Simplify (-2x)(-5x).",
+      "10x².",
+      "The two signs give positive; 2×5=10 and x×x=x²."
+    ],
+    [
+      "m03",
+      4,
+      "Simplify 3a² × 4a and verify at a=2.",
+      "12a³; at a=2 the value is 96.",
+      "3×4=12, a²×a=a³; original 12×8=96."
+    ],
+    [
+      "m04",
+      5,
+      "A learner writes (-3p)²=-9p². Identify the first wrong action and correct it.",
+      "The square applies to the whole signed term; the result is 9p².",
+      "(-3p)(-3p)=9p²; two negatives give a positive product."
+    ],
+    [
+      "m05",
+      6,
+      "A rectangle has sides 2x cm and 3x cm; a square has side x cm. Find their area difference and verify at x=2.",
+      "5x² cm²; at x=2 the difference is 20 cm².",
+      "Rectangle area 6x²; square x²; difference 5x²; at x=2, 24-4=20."
+    ]
+  ],
+  "reassessment_questions": [
+    [
+      "r01",
+      "After a sign mistake, simplify (-4t)(-2t).",
+      "8t².",
+      "Two negatives make a positive and t×t=t²."
+    ],
+    [
+      "r02",
+      "After an exponent mistake, simplify 5y² × 2y.",
+      "10y³.",
+      "Multiply coefficients; count three y factors."
+    ],
+    [
+      "r03",
+      "A square has side 3p cm; a rectangle has sides 2p cm and 4p cm. Find area difference and verify p=2.",
+      "p² cm²; at p=2 the difference is 4 cm².",
+      "Square area 9p²; rectangle 8p²; at p=2, 36-32=4."
+    ]
+  ]
+}

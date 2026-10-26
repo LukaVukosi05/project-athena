@@ -1,6 +1,16 @@
 const assert=require("assert"),fs=require("fs"),vm=require("vm"),path=require("path");
 vm.runInThisContext(fs.readFileSync(path.join(__dirname,"../js/whiteboard/animation-registry.js"),"utf8"));
 
+const lessonPage=fs.readFileSync(path.join(__dirname,"../lesson.html"),"utf8");
+assert(lessonPage.includes('js/whiteboard/animation-registry.js?v=math-whiteboard-v17'),"Lesson page must request the registry version containing table-rule operations");
+for (const template of ["factor_array","sign_grid","area_product","power_stack","area_comparison"]) {
+  const operation=`${template}_step`;
+  const renderer=AthenaWhiteboardRegistry.resolve(operation);
+  const step={before_expression:"2x × 3x",working_expression:"(2 × 3)(x × x)",after_expression:"6x²",operation:{type:operation,value:"Multiply coefficients and variables"}};
+  assert.strictEqual(renderer.render(step,"ready",{hasVisualization:true}),"");
+  assert.strictEqual(renderer.render(step,"result",{hasVisualization:true}),"");
+}
+
 for (const template of ["additive_balance", "additive_number_line", "additive_context"]) {
   const operation = `${template}_step`;
   const renderer = AthenaWhiteboardRegistry.resolve(operation);

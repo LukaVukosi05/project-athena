@@ -1,0 +1,959 @@
+{
+  "id": "g8-functions-relationships-02",
+  "title": "Equivalent forms of a relationship",
+  "source_document": "Project_Athena_Grade8_Functions_Relationships_Lesson2_Source_Pack_v1.docx",
+  "source_sha256": "b0e8d45d0ae0d5c243032935b4a81ff1898415eb5812421999edcd966c1a7f78",
+  "worked_examples": [
+    {
+      "id": "g8-fr-l02-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Words into a rule",
+      "q": "Double an input, then add 3. Write the rule and find the output at x=4.",
+      "answer": "y=2x+3; at x=4, y=11.",
+      "model": {
+        "family": "equivalence_translation",
+        "inputs": [
+          "input x",
+          "double",
+          "add 3"
+        ],
+        "outputs": [
+          "rule 2x+3",
+          "4→11"
+        ],
+        "description": "Words into a rule"
+      },
+      "states": [
+        "The input is doubled then three is added",
+        "Doubling x gives 2x",
+        "Add three to get y=2x+3",
+        "At x=4: 8+3=11"
+      ],
+      "steps": [
+        {
+          "title": "Trace the first verb",
+          "action": "Attach times two to the input x.",
+          "narration": "Double the input before adding anything."
+        },
+        {
+          "title": "Trace the second verb",
+          "action": "Attach plus three to the doubled input.",
+          "narration": "The full output is two x plus three."
+        },
+        {
+          "title": "Test the rule",
+          "action": "Substitute four and evaluate.",
+          "narration": "Four becomes eight then eleven."
+        }
+      ],
+      "verify": "Flow 4→8→11 and formula 2(4)+3=11.",
+      "misconception": "Writing 2(x+3) changes the operation order.",
+      "repair": "Place a value between the double and add arrows."
+    },
+    {
+      "id": "g8-fr-l02-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Table and flow",
+      "q": "A table has 0→5, 1→6, 2→7. State a rule that fits and show its flow for input 2.",
+      "answer": "A fitting rule is y=x+5; 2→add 5→7.",
+      "model": {
+        "family": "equivalence_flow_table",
+        "inputs": [
+          "0→5",
+          "1→6",
+          "2→7"
+        ],
+        "outputs": [
+          "rule x+5",
+          "flow 2→7"
+        ],
+        "description": "Table and flow"
+      },
+      "states": [
+        "Three given rows rise by one per input step",
+        "At zero the output is five",
+        "A fitting rule is y=x+5",
+        "Input two plus five gives seven"
+      ],
+      "steps": [
+        {
+          "title": "Compare equal input steps",
+          "action": "Each input increase of one matches an output increase of one.",
+          "narration": "A simple add-five rule is a candidate."
+        },
+        {
+          "title": "Use input zero",
+          "action": "Five is the output when input is zero.",
+          "narration": "This is the fixed part of the candidate rule."
+        },
+        {
+          "title": "Draw a flow",
+          "action": "Send two through plus five to get seven.",
+          "narration": "The flow reproduces the stated row."
+        }
+      ],
+      "verify": "The candidate gives 5,6,7 on all stated inputs; other rules may fit only these rows.",
+      "misconception": "Claiming the three rows uniquely prove a rule for every input.",
+      "repair": "Call it a fitting rule and check every given row."
+    },
+    {
+      "id": "g8-fr-l02-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Brackets in a flow",
+      "q": "The flow adds 2 then triples. Write its formula and output at x=1.",
+      "answer": "y=3(x+2)=3x+6; at x=1, y=9.",
+      "model": {
+        "family": "equivalence_algebra",
+        "inputs": [
+          "input x",
+          "add 2",
+          "triple"
+        ],
+        "outputs": [
+          "3(x+2)",
+          "3x+6",
+          "1→9"
+        ],
+        "description": "Brackets in a flow"
+      },
+      "states": [
+        "Flow x→add 2→times 3",
+        "The intermediate value is x+2",
+        "Triple the complete bracket: 3(x+2)",
+        "Distribute to 3x+6",
+        "At one: 3(1+2)=9"
+      ],
+      "steps": [
+        {
+          "title": "Preserve the intermediate",
+          "action": "Write x plus two in a single bracket.",
+          "narration": "The second arrow acts on the complete result."
+        },
+        {
+          "title": "Build formula",
+          "action": "Multiply the complete bracket by three.",
+          "narration": "The flow is three times the quantity x plus two."
+        },
+        {
+          "title": "Show equivalent expression",
+          "action": "Multiply each term inside the bracket by three.",
+          "narration": "This gives three x plus six."
+        },
+        {
+          "title": "Check with an input",
+          "action": "At one the bracket is three, then triples to nine.",
+          "narration": "Both formula forms agree."
+        }
+      ],
+      "verify": "3(1+2)=9 and 3(1)+6=9.",
+      "misconception": "Writing 3x+2 applies the triple to x alone.",
+      "repair": "Keep the entire intermediate result inside brackets."
+    },
+    {
+      "id": "g8-fr-l02-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Distinguish operation order",
+      "q": "Rule A doubles x then adds 3. Rule B adds 3 then doubles. Are they equivalent? Use x=2.",
+      "answer": "No. A(2)=7 while B(2)=10.",
+      "model": {
+        "family": "equivalence_counterexample",
+        "inputs": [
+          "A: ×2 then +3",
+          "B: +3 then ×2",
+          "input 2"
+        ],
+        "outputs": [
+          "A=7",
+          "B=10",
+          "not equivalent"
+        ],
+        "description": "Distinguish operation order"
+      },
+      "states": [
+        "Two flows start at the same input two",
+        "A: 2→4→7",
+        "B: 2→5→10",
+        "Seven differs from ten, so the rules differ"
+      ],
+      "steps": [
+        {
+          "title": "Follow A in order",
+          "action": "Double two then add three to get seven.",
+          "narration": "Keep A in its own lane."
+        },
+        {
+          "title": "Follow B in order",
+          "action": "Add three then double to get ten.",
+          "narration": "Do not use A’s intermediate value."
+        },
+        {
+          "title": "Compare shared input",
+          "action": "Seven is different from ten.",
+          "narration": "One counterexample proves that the rules are not equivalent."
+        }
+      ],
+      "verify": "A(2)=2(2)+3=7; B(2)=2(2+3)=10.",
+      "misconception": "Treating addition and multiplication as interchangeable in a flow.",
+      "repair": "Use one common input in two separate lanes."
+    },
+    {
+      "id": "g8-fr-l02-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Choose a formula from a table",
+      "q": "The rows are 0→4,1→6,2→8. Which fits: A: y=2x+4 or B: y=4x+2? Check all rows.",
+      "answer": "A fits every row; B fails already at x=0.",
+      "model": {
+        "family": "equivalence_flow_table",
+        "inputs": [
+          "0→4",
+          "1→6",
+          "2→8",
+          "A=2x+4",
+          "B=4x+2"
+        ],
+        "outputs": [
+          "A: 4,6,8",
+          "B(0)=2",
+          "A fits"
+        ],
+        "description": "Choose a formula from a table"
+      },
+      "states": [
+        "Given outputs are 4,6,8",
+        "A predicts 4,6,8",
+        "B predicts 2 at input zero",
+        "A fits; B does not"
+      ],
+      "steps": [
+        {
+          "title": "Evaluate A row by row",
+          "action": "Compute two x plus four at zero, one and two.",
+          "narration": "Each calculated output matches the stated row."
+        },
+        {
+          "title": "Find B’s first mismatch",
+          "action": "At zero, four times zero plus two is two.",
+          "narration": "The table says four, so B is ruled out."
+        },
+        {
+          "title": "State the conclusion",
+          "action": "A matches every supplied row while B fails one.",
+          "narration": "The comparison concerns these two candidates on the given rows."
+        }
+      ],
+      "verify": "A(0,1,2)=(4,6,8); B(0)=2≠4.",
+      "misconception": "Comparing only the multiplier without testing the fixed value.",
+      "repair": "Test the input-zero row first."
+    },
+    {
+      "id": "g8-fr-l02-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Subtraction in words and formula",
+      "q": "“Start at 5 and subtract twice the input.” Write a formula and find its output at x=−1.",
+      "answer": "y=5−2x; when x=−1, y=7.",
+      "model": {
+        "family": "equivalence_translation",
+        "inputs": [
+          "start 5",
+          "subtract twice x",
+          "input −1"
+        ],
+        "outputs": [
+          "5−2x",
+          "output 7"
+        ],
+        "description": "Subtraction in words and formula"
+      },
+      "states": [
+        "The start is five; twice x is subtracted",
+        "Twice the input is 2x",
+        "The rule is y=5−2x",
+        "At −1: 5−2(−1)=7"
+      ],
+      "steps": [
+        {
+          "title": "Name the repeated quantity",
+          "action": "Twice x means two multiplied by x.",
+          "narration": "Keep the factor with the variable."
+        },
+        {
+          "title": "Write the full rule",
+          "action": "Subtract the whole two x from five.",
+          "narration": "The order is five minus two x."
+        },
+        {
+          "title": "Substitute with brackets",
+          "action": "Twice negative one is negative two; subtracting it gives seven.",
+          "narration": "Check the sign before simplifying."
+        }
+      ],
+      "verify": "5−2(−1)=5+2=7.",
+      "misconception": "Reading the words as 2(5−x).",
+      "repair": "Place the five before the subtraction arrow."
+    },
+    {
+      "id": "g8-fr-l02-w07",
+      "number": 7,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Prove algebraic equivalence",
+      "q": "A flow gives y=3(x−2). A classmate writes y=3x−6. Show why these are the same rule for every x.",
+      "answer": "3(x−2)=3x−6 by distribution, so they agree for every x.",
+      "model": {
+        "family": "equivalence_algebra",
+        "inputs": [
+          "3(x−2)",
+          "3x−6",
+          "any input x"
+        ],
+        "outputs": [
+          "3x−6",
+          "same rule for all x"
+        ],
+        "description": "Prove algebraic equivalence"
+      },
+      "states": [
+        "Compare the two symbolic descriptions",
+        "Distribute 3 to x: 3×x=3x",
+        "Distribute 3 to −2: 3×(−2)=−6",
+        "Both descriptions equal 3x−6"
+      ],
+      "steps": [
+        {
+          "title": "Mark the first product",
+          "action": "Three multiplies x to produce three x.",
+          "narration": "The outside factor applies to every bracket term."
+        },
+        {
+          "title": "Mark the signed product",
+          "action": "Three times negative two is negative six.",
+          "narration": "Keep the negative sign in the second product."
+        },
+        {
+          "title": "Compare expressions",
+          "action": "The expanded form is exactly the second expression.",
+          "narration": "An identity proves equivalence for all inputs in the common domain."
+        }
+      ],
+      "verify": "At any x, distribution gives 3x−6; both have the same domain.",
+      "misconception": "Expanding only the first bracket term.",
+      "repair": "Draw a multiplication arrow from three to each term."
+    },
+    {
+      "id": "g8-fr-l02-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Locate the half",
+      "q": "Compare “half the input then add 4” with “add 4 then halve”. Are they equivalent? Use x=8.",
+      "answer": "No. First: 8; second: 6 at x=8.",
+      "model": {
+        "family": "equivalence_counterexample",
+        "inputs": [
+          "A: x÷2 then +4",
+          "B: x+4 then ÷2",
+          "input 8"
+        ],
+        "outputs": [
+          "A=8",
+          "B=6",
+          "not equivalent"
+        ],
+        "description": "Locate the half"
+      },
+      "states": [
+        "Use input eight in both flows",
+        "A: 8÷2=4, then 4+4=8",
+        "B: 8+4=12, then 12÷2=6",
+        "Different outputs disprove equivalence"
+      ],
+      "steps": [
+        {
+          "title": "Trace the first wording",
+          "action": "Half eight to four and then add four.",
+          "narration": "A gives eight."
+        },
+        {
+          "title": "Trace the second wording",
+          "action": "Add four to eight first and halve twelve.",
+          "narration": "B gives six."
+        },
+        {
+          "title": "Compare the outputs",
+          "action": "Eight and six are different.",
+          "narration": "The bracket placement changes which total is halved."
+        }
+      ],
+      "verify": "8÷2+4=8; (8+4)÷2=6.",
+      "misconception": "Assuming both descriptions halve only x.",
+      "repair": "Draw each operation order and bracket the intermediate total."
+    },
+    {
+      "id": "g8-fr-l02-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 5,
+      "skill": "Money story, table and domain",
+      "q": "An activity charges R15 once plus R4 per ticket. Give C(n), a table at n=0,1,3, and sensible inputs.",
+      "answer": "C(n)=15+4n rand; 0→R15,1→R19,3→R27; n a whole number ≥0.",
+      "model": {
+        "family": "equivalence_context",
+        "inputs": [
+          "fixed R15",
+          "R4 per ticket",
+          "n=0,1,3"
+        ],
+        "outputs": [
+          "C(n)=15+4n",
+          "15,19,27",
+          "n whole ≥0"
+        ],
+        "description": "Money story, table and domain"
+      },
+      "states": [
+        "Fixed fifteen plus four per ticket",
+        "The repeated charge is 4n",
+        "Formula C(n)=15+4n",
+        "Table: 15,19,27 rand",
+        "Ticket counts are nonnegative whole numbers"
+      ],
+      "steps": [
+        {
+          "title": "Build the repeated part",
+          "action": "Count four rand once for each ticket.",
+          "narration": "Four n changes when n changes."
+        },
+        {
+          "title": "Add the once-only charge",
+          "action": "Keep fifteen outside the repeated amount.",
+          "narration": "The formula is fifteen plus four n."
+        },
+        {
+          "title": "Fill each row",
+          "action": "Evaluate zero, one and three tickets.",
+          "narration": "Each table output follows the same rule."
+        },
+        {
+          "title": "Check the context domain",
+          "action": "A ticket count cannot be fractional or negative.",
+          "narration": "Domain affects which symbolic inputs make sense."
+        }
+      ],
+      "verify": "C(0)=15, C(1)=19, C(3)=27 with n∈{0,1,2,…}.",
+      "misconception": "Charging R15 per ticket or allowing negative ticket counts.",
+      "repair": "Separate once-only and per-ticket tiles."
+    },
+    {
+      "id": "g8-fr-l02-w10",
+      "number": 10,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Area as flow and expanded formula",
+      "q": "A rectangle has width 3 cm and length (x+2) cm. Write area as a flow and two equivalent formulas. Find area at x=5.",
+      "answer": "A=3(x+2)=3x+6 cm²; when x=5, A=21 cm².",
+      "model": {
+        "family": "equivalence_algebra",
+        "inputs": [
+          "length x+2",
+          "width 3",
+          "area length × width"
+        ],
+        "outputs": [
+          "3(x+2)",
+          "3x+6",
+          "21 cm²"
+        ],
+        "description": "Area as flow and expanded formula"
+      },
+      "states": [
+        "Length x+2 and width 3",
+        "Flow: add 2 to x, then multiply by 3",
+        "Area A=3(x+2)",
+        "Distribute: A=3x+6",
+        "At five: 3(7)=21 square centimetres"
+      ],
+      "steps": [
+        {
+          "title": "Follow the length first",
+          "action": "Add two to x to obtain the whole length.",
+          "narration": "The width does not add to the length."
+        },
+        {
+          "title": "Build area product",
+          "action": "Multiply the whole length by width three.",
+          "narration": "Area is width times length."
+        },
+        {
+          "title": "Split the area",
+          "action": "Three multiplies x and two, giving three x plus six.",
+          "narration": "The two forms represent the same rectangle."
+        },
+        {
+          "title": "Check dimension",
+          "action": "At five, length is seven and width three.",
+          "narration": "Area twenty one has square centimetre units."
+        }
+      ],
+      "verify": "3(5+2)=21 and 3×5+6=21 cm².",
+      "misconception": "Adding 3 and x+2 rather than multiplying side lengths.",
+      "repair": "Show the full rectangle as two adjoining regions."
+    },
+    {
+      "id": "g8-fr-l02-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Limits of a short table",
+      "q": "A table contains 0→0 and 2→4. Both y=2x and y=x² fit. Show they are not the same rule.",
+      "answer": "At x=1, 2x=2 but x²=1, so they are not equivalent.",
+      "model": {
+        "family": "equivalence_counterexample",
+        "inputs": [
+          "0→0",
+          "2→4",
+          "A=2x",
+          "B=x²"
+        ],
+        "outputs": [
+          "A(1)=2",
+          "B(1)=1",
+          "not equivalent"
+        ],
+        "description": "Limits of a short table"
+      },
+      "states": [
+        "Two rows agree with both proposed rules",
+        "At x=1, A gives 2",
+        "At x=1, B gives 1",
+        "One differs from the other"
+      ],
+      "steps": [
+        {
+          "title": "Choose a fresh input",
+          "action": "Test one, which the table does not show.",
+          "narration": "Agreement at finitely many rows alone cannot prove equivalence."
+        },
+        {
+          "title": "Evaluate both rules",
+          "action": "Twice one is two; one squared is one.",
+          "narration": "The candidates differ on the same input."
+        },
+        {
+          "title": "Use the counterexample",
+          "action": "Two differs from one.",
+          "narration": "The rules are not identical, even though both fit the displayed rows."
+        }
+      ],
+      "verify": "Both fit x=0,2; at x=1 outputs 2 and 1 differ.",
+      "misconception": "Claiming a few matched table rows prove two formulas identical.",
+      "repair": "Look for a fresh input or prove an identity."
+    },
+    {
+      "id": "g8-fr-l02-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 6,
+      "skill": "Units and restricted inputs",
+      "q": "A complete carton contains 6 eggs. Are “six times the number of cartons” and E(c)=6c equivalent for c=0,1,2,…? Could c=−1 describe the situation?",
+      "answer": "Yes on nonnegative whole-number c; c=−1 is outside the context.",
+      "model": {
+        "family": "equivalence_domain",
+        "inputs": [
+          "6 eggs/carton",
+          "c complete cartons",
+          "c whole ≥0"
+        ],
+        "outputs": [
+          "E(c)=6c eggs",
+          "same rule on domain",
+          "−1 excluded"
+        ],
+        "description": "Units and restricted inputs"
+      },
+      "states": [
+        "Each complete carton contributes six eggs",
+        "Words translate to E(c)=6c",
+        "At zero, one, two: 0,6,12 eggs",
+        "The descriptions agree for every valid whole c",
+        "A negative carton count is invalid here"
+      ],
+      "steps": [
+        {
+          "title": "Build the equal groups",
+          "action": "Multiply the number of cartons by six eggs each.",
+          "narration": "This translates the words into a formula."
+        },
+        {
+          "title": "Test sample rows",
+          "action": "At zero, one and two cartons count zero, six and twelve eggs.",
+          "narration": "The samples illustrate the translation."
+        },
+        {
+          "title": "State the identity",
+          "action": "For each valid carton count, both descriptions mean six c.",
+          "narration": "The same operation, not just the samples, justifies equivalence."
+        },
+        {
+          "title": "Restrict the domain",
+          "action": "A negative complete-carton count is not a situation in this question.",
+          "narration": "Keep the context with the algebra."
+        }
+      ],
+      "verify": "Both descriptions are 6c eggs for c∈{0,1,2,…}; −1 is not a valid count.",
+      "misconception": "Declaring every algebraic input a possible physical count.",
+      "repair": "Mark the allowed carton inputs on a number line."
+    },
+    {
+      "id": "g8-fr-l02-w13",
+      "number": 13,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Reject a misleading fare formula",
+      "q": "A plan charges R8 once and R3 per visit. Compare A(n)=8+3n with B(n)=3(n+8) using n=0 and n=4. Which represents the plan?",
+      "answer": "A represents it: A(0)=R8,A(4)=R20. B(0)=R24,B(4)=R36, so B does not.",
+      "model": {
+        "family": "equivalence_context",
+        "inputs": [
+          "fixed R8",
+          "R3 per visit",
+          "n=0,4",
+          "B=3(n+8)"
+        ],
+        "outputs": [
+          "A(0)=8,B(0)=24",
+          "A(4)=20,B(4)=36",
+          "choose A"
+        ],
+        "description": "Reject a misleading fare formula"
+      },
+      "states": [
+        "A once-only eight-rand charge plus three per visit",
+        "At zero visits, actual cost is eight",
+        "A(0)=8 while B(0)=24",
+        "At four visits, A(4)=20",
+        "B(4)=36; only A models this plan"
+      ],
+      "steps": [
+        {
+          "title": "Read the starting amount",
+          "action": "With no visits, the only cost is eight rand.",
+          "narration": "Zero is a powerful test for a fixed fee."
+        },
+        {
+          "title": "Test zero in both formulas",
+          "action": "A gives eight while B incorrectly gives twenty four.",
+          "narration": "The bracket multiplies the fixed charge."
+        },
+        {
+          "title": "Check the first candidate again",
+          "action": "At four visits, eight plus twelve is twenty rand.",
+          "narration": "A repeats only the per-visit charge."
+        },
+        {
+          "title": "Check the other candidate",
+          "action": "B makes three times twelve equal thirty six.",
+          "narration": "The extra amount confirms that B models a different arrangement."
+        }
+      ],
+      "verify": "The words imply 8+3n; at n=0 and n=4 A gives 8,20, while B gives 24,36.",
+      "misconception": "Multiplying a once-only fee by the number of visits.",
+      "repair": "Put the fixed fee outside the multiplication bracket."
+    },
+    {
+      "id": "g8-fr-l02-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Reject a plausible table rule",
+      "q": "Outputs 3,5,7 correspond to inputs 0,1,2. Compare A(x)=2x+3 and B(x)=3x+2; give the matching candidate and explain.",
+      "answer": "A matches all three rows; B(0)=2≠3 and B(2)=8≠7.",
+      "model": {
+        "family": "equivalence_flow_table",
+        "inputs": [
+          "0→3",
+          "1→5",
+          "2→7",
+          "A=2x+3",
+          "B=3x+2"
+        ],
+        "outputs": [
+          "A: 3,5,7",
+          "B: 2,5,8",
+          "A fits"
+        ],
+        "description": "Reject a plausible table rule"
+      },
+      "states": [
+        "Given pairs (0,3),(1,5),(2,7)",
+        "A at 0,1,2 gives 3,5,7",
+        "B at zero gives two",
+        "B at two gives eight",
+        "Only A matches every stated row"
+      ],
+      "steps": [
+        {
+          "title": "Evaluate A at each input",
+          "action": "Calculate two x plus three at zero, one and two.",
+          "narration": "All outputs agree with the table."
+        },
+        {
+          "title": "Test B at zero",
+          "action": "Three times zero plus two is two, not three.",
+          "narration": "One mismatch rules B out."
+        },
+        {
+          "title": "Test B at two",
+          "action": "Three times two plus two is eight, not seven.",
+          "narration": "The middle row alone was misleading."
+        },
+        {
+          "title": "Conclude precisely",
+          "action": "A is the matching candidate among the two proposed rules.",
+          "narration": "A short table does not establish uniqueness among all possible formulas."
+        }
+      ],
+      "verify": "A(0,1,2)=(3,5,7); B(0,1,2)=(2,5,8).",
+      "misconception": "Trusting one matching row instead of checking every row.",
+      "repair": "Highlight the first and third mismatches."
+    },
+    {
+      "id": "g8-fr-l02-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 8,
+      "skill": "Identity versus counterexample in one scene",
+      "q": "Compare A(x)=2(x+5), B(x)=2x+10, C(x)=2x+5. Which are equivalent for every x? Show outputs at x=0 and x=3.",
+      "answer": "A and B are equivalent for every x; C differs. At x=0: 10,10,5; x=3: 16,16,11.",
+      "model": {
+        "family": "equivalence_algebra",
+        "inputs": [
+          "A=2(x+5)",
+          "B=2x+10",
+          "C=2x+5",
+          "x=0,3"
+        ],
+        "outputs": [
+          "A=B for all x",
+          "C differs",
+          "10,10,5",
+          "16,16,11"
+        ],
+        "description": "Identity versus counterexample in one scene"
+      },
+      "states": [
+        "Three proposed rules A,B,C",
+        "Expand A: 2×x+2×5",
+        "A=2x+10, identical to B",
+        "At zero: A=10,B=10,C=5",
+        "At three: A=16,B=16,C=11",
+        "A and B agree for all x; C fails"
+      ],
+      "steps": [
+        {
+          "title": "Expand both bracket parts",
+          "action": "Distribute two to x and five.",
+          "narration": "The whole bracket is doubled."
+        },
+        {
+          "title": "Compare symbolic forms",
+          "action": "Expanded A is exactly B.",
+          "narration": "An identity proves these two agree for all x."
+        },
+        {
+          "title": "Test a counterexample",
+          "action": "At zero A and B give ten; C gives five.",
+          "narration": "One input disproves equivalence with C."
+        },
+        {
+          "title": "Check another input",
+          "action": "At three A and B give sixteen; C gives eleven.",
+          "narration": "The two results stay distinct."
+        },
+        {
+          "title": "State the exact conclusion",
+          "action": "A and B are equivalent, while C is not.",
+          "narration": "Sample checks illustrate the algebraic identity and counterexample."
+        }
+      ],
+      "verify": "2(x+5)=2x+10 identically; at zero and three C differs.",
+      "misconception": "Assuming 2(x+5)=2x+5 by distributing to only x.",
+      "repair": "Draw one distribution arrow to each bracket term."
+    }
+  ],
+  "practice_questions": [
+    [
+      "p01",
+      "“Triple x then subtract 1.” Write a formula.",
+      "y=3x−1.",
+      "Triple first, then subtract.",
+      "Three times x less one is 3x−1."
+    ],
+    [
+      "p02",
+      "Table 0→2,1→3,2→4. Give one fitting simple rule.",
+      "y=x+2.",
+      "Use input zero.",
+      "x+2 agrees with every listed row; it is a fitting candidate."
+    ],
+    [
+      "p03",
+      "Flow adds 4 then doubles. Give a formula.",
+      "y=2(x+4).",
+      "Keep the intermediate value bracketed.",
+      "Double the whole x+4."
+    ],
+    [
+      "p04",
+      "Is 2(x+3) equivalent to 2x+6?",
+      "Yes, for all x.",
+      "Distribute to both terms.",
+      "2×x+2×3=2x+6."
+    ],
+    [
+      "p05",
+      "At x=2 compare 3x+1 with 3(x+1). Are they equivalent?",
+      "No; at x=2 they give 7 and 9.",
+      "Try the same input in both.",
+      "3(2)+1=7; 3(2+1)=9."
+    ],
+    [
+      "p06",
+      "Table 0→6,1→8,2→10. Which fits: 2x+6 or 6x+2?",
+      "2x+6 fits; 6x+2 fails.",
+      "Test zero first.",
+      "At zero the expected output is six, not two."
+    ],
+    [
+      "p07",
+      "“Start at 7 and subtract twice x.” Formula and output at x=−1?",
+      "y=7−2x; output 9.",
+      "Protect the negative input.",
+      "7−2(−1)=9."
+    ],
+    [
+      "p08",
+      "Are 4(x−3) and 4x−12 equivalent for all x?",
+      "Yes, for all x.",
+      "Distribute four to both terms.",
+      "4×x+4×(−3)=4x−12."
+    ],
+    [
+      "p09",
+      "Half x then add 3 versus add 3 then halve. Compare at x=6.",
+      "First gives 6; second gives 4.5; not equivalent.",
+      "Draw two operation orders.",
+      "6÷2+3=6, while (6+3)÷2=4.5."
+    ],
+    [
+      "p10",
+      "R12 once plus R5 per ticket. Give C(n), C(0), C(2), and sensible n.",
+      "C(n)=12+5n; C(0)=R12; C(2)=R22; n a whole number ≥0.",
+      "Fixed fee is added once.",
+      "12+5(2)=22 rand; n counts tickets."
+    ],
+    [
+      "p11",
+      "The table 0→0,2→8 fits y=4x and y=2x². Find an input where they disagree.",
+      "At x=1, outputs are 4 and 2.",
+      "Choose an input not in the table.",
+      "4(1)=4 but 2(1²)=2, so the rules differ."
+    ],
+    [
+      "p12",
+      "Rectangle width 4, length x+3. Give equivalent area formulas and area at x=2.",
+      "A=4(x+3)=4x+12; at x=2, A=20 square units.",
+      "Multiply the complete length.",
+      "4(2+3)=20 and 4(2)+12=20."
+    ],
+    [
+      "p13",
+      "A=R5+R4 per visit; B=R4(n+5). Which reflects the stated fixed R5 at zero visits?",
+      "A(n)=5+4n; A(0)=R5; B(0)=R20 does not.",
+      "Test zero visits.",
+      "The once-only five is not multiplied by four."
+    ],
+    [
+      "p14",
+      "Table 0→2,1→5,2→8. Compare 3x+2 and 2x+3 on all rows.",
+      "3x+2 matches; 2x+3 does not.",
+      "Test zero and two.",
+      "3x+2 gives 2,5,8; 2x+3 gives 3,5,7."
+    ],
+    [
+      "p15",
+      "Compare 3(x+2), 3x+6 and 3x+2 for all x; give outputs at x=0.",
+      "First two equivalent for all x; at zero they give 6 and 6, while third gives 2.",
+      "Distribute to both terms.",
+      "3(x+2)=3x+6 identically; 3x+2 fails at zero."
+    ]
+  ],
+  "mastery_questions": [
+    [
+      "m01",
+      2,
+      "“Double x, then subtract five.” Give a formula and output at x=4.",
+      "y=2x−5; output 3.",
+      "Two times four minus five equals three."
+    ],
+    [
+      "m02",
+      3,
+      "Table 0→3,1→7,2→11. Compare y=4x+3 and y=3x+4. Which fits?",
+      "y=4x+3 fits; y=3x+4 fails at x=0 and x=2.",
+      "First gives 3,7,11; second gives 4,7,10."
+    ],
+    [
+      "m03",
+      4,
+      "Are 5(x−2) and 5x−10 equivalent for every x? Explain and evaluate both at x=3.",
+      "Yes; 5(x−2)=5x−10, and both give 5 at x=3.",
+      "Distribute five to x and negative two; x=3 gives five."
+    ],
+    [
+      "m04",
+      5,
+      "A workshop charges R20 once plus R3 per item. Give C(n), costs at zero and four, sensible n, and reject 3(n+20).",
+      "C(n)=20+3n; C(0)=R20; C(4)=R32; n whole ≥0; 3(n+20) gives R60 at zero, so it is wrong.",
+      "The fixed fee occurs once and the per-item fee repeats."
+    ],
+    [
+      "m05",
+      6,
+      "A=2(x+4), B=2x+8 and C=2x+4. Identify the equivalent pair for all x, use x=0 to reject the third, and give outputs at x=3.",
+      "A and B equivalent for all x; at x=0 A=B=8 but C=4; at x=3 A=B=14 and C=10.",
+      "Distribute two to x and four to prove A=B. The counterexample at zero rejects C."
+    ]
+  ],
+  "reassessment_questions": [
+    [
+      "r01",
+      "“Triple x then add five” and “add five then triple”. At x=2 compare outputs.",
+      "First 11; second 21; not equivalent.",
+      "3(2)+5=11, while 3(2+5)=21."
+    ],
+    [
+      "r02",
+      "Are 4(x−2) and 4x−8 equivalent for every x? Give a reason.",
+      "Yes; 4(x−2)=4x−8 by distribution.",
+      "Four multiplies both x and negative two."
+    ],
+    [
+      "r03",
+      "A booking costs R9 once plus R2 per seat. Give the formula, table for zero and three seats, and sensible seat counts.",
+      "C(n)=9+2n; C(0)=R9; C(3)=R15; n whole ≥0.",
+      "Count the fixed R9 once; three seats add R6."
+    ]
+  ]
+}

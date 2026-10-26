@@ -1,0 +1,697 @@
+{
+  "examples": [
+    {
+      "id": "g8-ex-l01-w01",
+      "level": "Foundation",
+      "marks": 2,
+      "skill": "Variable and constant",
+      "q": "In 4x + 7, identify the variable and the constant term.",
+      "answer": "Variable: x. Constant term: 7.",
+      "misconception": "Calling 4 a constant because it is a number; 4 is the coefficient attached to x.",
+      "visual": "Expression tiles labelled 4, x and 7; the 4 and x form one 4x term. Targets: variable-x, coefficient-four, constant-seven.",
+      "steps": [
+        [
+          "Show the expression",
+          "Write 4x + 7 with 4 attached to x and 7 separate.",
+          "Read the whole expression first: one part depends on x and one part is fixed."
+        ],
+        [
+          "Identify what changes",
+          "Highlight x inside the 4x term; leave 4 and 7 unhighlighted.",
+          "The letter x can take different values, so x is the variable."
+        ],
+        [
+          "Identify what stays fixed",
+          "Highlight the separate +7 tile, then label variable x and constant 7.",
+          "Seven is added regardless of the value of x, so seven is the constant."
+        ]
+      ],
+      "verify": "With x = 2 the expression is 15; with x = 3 it is 19. The 7 stays fixed.",
+      "states": [
+        "4x + 7, no labels",
+        "4x | +7, term boundary visible",
+        "x marked as variable",
+        "7 marked as constant; 4 remains coefficient"
+      ],
+      "repair": "Vary x while holding +7 fixed; ask which symbol changed and why 4 is attached to x."
+    },
+    {
+      "id": "g8-ex-l01-w02",
+      "level": "Easy",
+      "marks": 2,
+      "skill": "Signed coefficient",
+      "q": "What is the coefficient of a in -3a + 5?",
+      "answer": "-3.",
+      "misconception": "Dropping the minus sign and reporting 3.",
+      "visual": "A signed term card -3a, partitioned into multiplier -3 and variable a, plus a separate +5 card. Targets: signed-term, coefficient-minus-three, variable-a.",
+      "steps": [
+        [
+          "Isolate the term",
+          "Box -3a as one term, with its minus sign attached.",
+          "The sign belongs to this term; we cannot leave it behind."
+        ],
+        [
+          "Expose its factors",
+          "Separate -3 × a without changing its value.",
+          "The number multiplying a is negative three."
+        ],
+        [
+          "Name the coefficient",
+          "Label -3 and leave +5 outside the term box.",
+          "The coefficient of a is negative three, not positive three."
+        ]
+      ],
+      "verify": "For a = 2, -3a = -6. Using +3 would produce +6 and fail.",
+      "states": [
+        "-3a + 5, no labels",
+        "-3a boxed with sign",
+        "-3 × a shown",
+        "coefficient -3 labelled"
+      ],
+      "repair": "Replace a with 1 and -1 to show that the multiplier remains -3; reselect the whole signed term."
+    },
+    {
+      "id": "g8-ex-l01-w03",
+      "level": "Easy",
+      "marks": 3,
+      "skill": "Signed terms",
+      "q": "List the terms in 2x - 4y + 9.",
+      "answer": "2x, -4y and 9.",
+      "misconception": "Listing 4y without its minus sign or treating x and y as separate terms.",
+      "visual": "A horizontal expression ribbon with boundaries before -4y and +9; each sign travels with its term. Targets: term-2x, term-minus-4y, term-9.",
+      "steps": [
+        [
+          "Find operation boundaries",
+          "Place dividers at the subtraction and addition boundaries.",
+          "Terms are the pieces joined by addition or subtraction."
+        ],
+        [
+          "Carry each sign",
+          "Move the minus into the -4y card; retain +9 as a positive constant.",
+          "The middle term is negative four y, including its sign."
+        ],
+        [
+          "Count and list",
+          "Number the three intact cards in reading order.",
+          "There are three terms: two x, negative four y and nine."
+        ]
+      ],
+      "verify": "Rejoining the three cards gives 2x + (-4y) + 9, the original expression.",
+      "states": [
+        "2x - 4y + 9 intact",
+        "2x | -4y | +9",
+        "middle card reads -4y",
+        "three signed terms numbered"
+      ],
+      "repair": "Rebuild the expression from signed cards, then ask which card must carry the minus to preserve the original."
+    },
+    {
+      "id": "g8-ex-l01-w04",
+      "level": "Easy",
+      "marks": 2,
+      "skill": "Phrase to expression",
+      "q": "Write an expression for five more than three times n.",
+      "answer": "3n + 5.",
+      "misconception": "Writing 5n + 3 by translating words in reading order.",
+      "visual": "Three n tiles grouped as 3n; five unit tiles join afterwards. Targets: three-n-groups, plus-five, composed-expression.",
+      "steps": [
+        [
+          "Make three times n",
+          "Duplicate the n tile into three equal copies and group them.",
+          "Three times n means three copies of the same unknown: three n."
+        ],
+        [
+          "Add five",
+          "Introduce five unit tiles to the right of the group.",
+          "Five more than that total means add five after the multiplication."
+        ],
+        [
+          "Write the expression",
+          "Replace the groups with 3n + 5; do not show an equals sign.",
+          "The expression is three n plus five."
+        ]
+      ],
+      "verify": "For n = 2, three times two plus five is 11; 3n + 5 also gives 11.",
+      "states": [
+        "three times n; five more, as words",
+        "n + n + n",
+        "three n tiles plus five unit tiles",
+        "3n + 5"
+      ],
+      "repair": "Make three n groups before showing the five units; compare the incorrect 5n + 3 at n = 2."
+    },
+    {
+      "id": "g8-ex-l01-w05",
+      "level": "Standard",
+      "marks": 2,
+      "skill": "Order in subtraction",
+      "q": "Write an expression for five less than three times n.",
+      "answer": "3n - 5.",
+      "misconception": "Writing 5 - 3n because “five” is spoken first.",
+      "visual": "Start with three n tiles, then remove five units from a numeric offset lane; a comparison chip contrasts 3n - 5 and 5 - 3n. Targets: base-3n, remove-five, order-check.",
+      "steps": [
+        [
+          "Set the reference amount",
+          "Construct the three n group before showing any subtraction.",
+          "Three times n is the amount we are reducing."
+        ],
+        [
+          "Reduce by five",
+          "Animate a -5 operation after that group.",
+          "Five less than an amount means subtract five from that amount."
+        ],
+        [
+          "Check order",
+          "At n = 4, display 12 - 5 = 7 alongside 5 - 12 = -7.",
+          "These expressions differ. The wording gives three n minus five."
+        ]
+      ],
+      "verify": "At n = 4, the phrase is five below 12, namely 7; 3n - 5 = 7.",
+      "states": [
+        "five less than three times n, as words",
+        "3n constructed",
+        "3n - 5 constructed",
+        "at n = 4: 12 - 5 = 7, not -7"
+      ],
+      "repair": "Anchor the starting amount at 3n, physically remove five, and test both subtraction orders at n = 4."
+    },
+    {
+      "id": "g8-ex-l01-w06",
+      "level": "Standard",
+      "marks": 3,
+      "skill": "Grouping and half",
+      "q": "Write an expression for half of p, increased by seven.",
+      "answer": "p/2 + 7.",
+      "misconception": "Writing (p + 7)/2 and accidentally halving the seven as well.",
+      "visual": "Split a p length bar into two equal halves; add seven unit squares outside that divided bar. Targets: p-bar, half-p, outside-plus-seven.",
+      "steps": [
+        [
+          "Halve p",
+          "Cut the p bar into two equal segments and select one.",
+          "Half of p is p divided by two."
+        ],
+        [
+          "Increase the half",
+          "Attach seven independent unit squares after the half bar.",
+          "We increase the half by seven; the seven is not inside the division."
+        ],
+        [
+          "Write and contrast",
+          "Show p/2 + 7, then briefly compare it with (p + 7)/2 at p = 10.",
+          "At p equals ten, the intended result is 12, while halving the whole sum gives 8.5."
+        ]
+      ],
+      "verify": "For p = 10, half is 5 and five increased by seven is 12.",
+      "states": [
+        "half of p, then seven, as words",
+        "p/2 bar",
+        "p/2 bar plus seven outside",
+        "p/2 + 7; at p = 10 result 12"
+      ],
+      "repair": "Draw the division bar around p only, place +7 outside it, and compare the two candidate expressions at p = 10."
+    },
+    {
+      "id": "g8-ex-l01-w07",
+      "level": "Standard",
+      "marks": 3,
+      "skill": "Multiplier versus exponent",
+      "q": "For x = 3, evaluate 2x and x². Are they the same operation?",
+      "answer": "2x = 6; x² = 9. They are different operations.",
+      "misconception": "Interpreting x² as 2x.",
+      "visual": "Two x bars of length 3 beside a 3-by-3 square grid. Targets: two-x-bars, square-three-by-three, values-six-nine.",
+      "steps": [
+        [
+          "Model 2x",
+          "Display two separate bars of length three and count six cells.",
+          "Two x is two copies of x, which gives six when x is three."
+        ],
+        [
+          "Model x squared",
+          "Build a square with three rows and three columns.",
+          "x squared multiplies x by itself, giving nine when x is three."
+        ],
+        [
+          "Compare",
+          "Place 6 and 9 below their respective models, with distinct operation labels.",
+          "The answers differ because multiplication by two is not squaring."
+        ]
+      ],
+      "verify": "2 × 3 = 6 and 3 × 3 = 9.",
+      "states": [
+        "x = 3; 2x and x² unresolved",
+        "two three-cell bars: 6",
+        "three-by-three grid: 9",
+        "2x = 6, x² = 9"
+      ],
+      "repair": "Count two bars of length three separately from a three-by-three array; ask what each superscript means."
+    },
+    {
+      "id": "g8-ex-l01-w08",
+      "level": "Standard",
+      "marks": 3,
+      "skill": "Combine like terms",
+      "q": "Simplify 4x + 2x - 3.",
+      "answer": "6x - 3.",
+      "misconception": "Combining all three terms into 3x or 6x - 3x.",
+      "visual": "Four x tiles plus two x tiles and a separate negative-three counter lane. Targets: group-four-x, group-two-x, constant-minus-three, six-x.",
+      "steps": [
+        [
+          "Classify terms",
+          "Colour both x groups together; place -3 in a separate constant lane.",
+          "Only the x groups are like terms here."
+        ],
+        [
+          "Join like groups",
+          "Move the two x tiles beside the four x tiles and recount six x tiles.",
+          "Four x plus two x equals six x."
+        ],
+        [
+          "Retain the constant",
+          "Carry the untouched -3 lane into the simplified result.",
+          "The negative three remains, so the expression is six x minus three."
+        ]
+      ],
+      "verify": "At x = 2, the original is 8 + 4 - 3 = 9 and 6x - 3 is 12 - 3 = 9.",
+      "states": [
+        "4x + 2x - 3 untouched",
+        "x terms grouped; -3 separate",
+        "six x tiles and -3 lane",
+        "6x - 3"
+      ],
+      "repair": "Sort x tiles and constant counters into different lanes; combine only objects in the same lane."
+    },
+    {
+      "id": "g8-ex-l01-w09",
+      "level": "Intermediate",
+      "marks": 3,
+      "skill": "Unlike terms",
+      "q": "A learner writes 2a + 3b = 5ab. Explain the error and give the correct simplified form.",
+      "answer": "a and b are unlike terms; 2a + 3b cannot be combined further.",
+      "misconception": "Adding coefficients while multiplying the variables.",
+      "visual": "Two a-length bars and three b-length bars with separate shape codes; a crossed invalid 5ab card appears only after learner inspection. Targets: a-group, b-group, invalid-card, unchanged-result.",
+      "steps": [
+        [
+          "Represent each group",
+          "Show two a bars and three differently shaped b bars.",
+          "The groups measure different unknowns, so their counts cannot be joined as one kind of tile."
+        ],
+        [
+          "Locate the invalid move",
+          "Highlight the proposed arrow from 2a + 3b to 5ab.",
+          "Adding the coefficients does not create a product ab."
+        ],
+        [
+          "Preserve valid form",
+          "Keep the two groups separate and display 2a + 3b.",
+          "These are unlike terms; the original sum is already simplified."
+        ]
+      ],
+      "verify": "At a = 1 and b = 2, the sum is 8 but 5ab is 10; they cannot be equivalent.",
+      "states": [
+        "2a + 3b and a learner claim 5ab",
+        "two a bars and three b bars",
+        "5ab claim marked invalid",
+        "2a + 3b remains"
+      ],
+      "repair": "Use a = 1 and b = 2 to falsify 5ab, then retain the two unlike groups as a sum."
+    },
+    {
+      "id": "g8-ex-l01-w10",
+      "level": "Intermediate",
+      "marks": 3,
+      "skill": "Coefficient and exponent",
+      "q": "For -2x², identify the coefficient, variable and exponent, then evaluate it at x = -3.",
+      "answer": "Coefficient -2; variable x; exponent 2; value -18.",
+      "misconception": "Squaring the negative coefficient, or treating -2x² as (-2x)².",
+      "visual": "Expression tree with -2 outside an x-by-x area grid; -3 substitutes into both x factors. Targets: coefficient-negative-two, exponent-two, square-nine, product-negative-eighteen.",
+      "steps": [
+        [
+          "Parse the structure",
+          "Target -2 as the outside multiplier and the superscript 2 on x.",
+          "The square belongs to x; negative two is a separate multiplier."
+        ],
+        [
+          "Substitute",
+          "Replace each x factor with -3, yielding -2 × (-3) × (-3).",
+          "Squaring negative three produces positive nine."
+        ],
+        [
+          "Finish multiplication",
+          "Group the two negative-three factors, then multiply -2 × 9.",
+          "The value is negative eighteen."
+        ]
+      ],
+      "verify": "-2(-3)² = -2 × 9 = -18; (-2 × -3)² would incorrectly give 36.",
+      "states": [
+        "-2x² and x = -3",
+        "(-2) × x² parsed",
+        "-2 × (-3) × (-3)",
+        "-2 × 9 = -18"
+      ],
+      "repair": "Place parentheses only around the substituted x, not around -2x; square -3 before multiplying by -2."
+    },
+    {
+      "id": "g8-ex-l01-w11",
+      "level": "Exam",
+      "marks": 3,
+      "skill": "Fixed fee and variable rate",
+      "q": "A trip costs R12 per passenger plus one R8 booking fee. Write a cost expression for t passengers.",
+      "answer": "C = 12t + 8 (rand).",
+      "misconception": "Multiplying the one booking fee by the number of passengers.",
+      "visual": "A receipt model with t passenger rows each priced R12 and one fixed R8 footer. Targets: passenger-rows, per-person-twelve, one-booking-fee, total-cost.",
+      "steps": [
+        [
+          "Count the repeated charge",
+          "Duplicate an R12 passenger row t times, then compress to 12t.",
+          "The passenger charge repeats once per passenger."
+        ],
+        [
+          "Add the once-off charge",
+          "Append exactly one R8 booking-fee row outside the repeated group.",
+          "The booking fee appears once for the entire trip."
+        ],
+        [
+          "Write the rule",
+          "Place the repeated and fixed costs in a single total.",
+          "The total cost in rand is twelve t plus eight."
+        ]
+      ],
+      "verify": "For two passengers, the receipt is R12 + R12 + R8 = R32; the rule gives R32.",
+      "states": [
+        "R12 each; R8 once",
+        "t passenger rows = 12t",
+        "one extra R8 row",
+        "C = 12t + 8 rand"
+      ],
+      "repair": "Show a two-passenger receipt with exactly one booking fee; ask whether the fee appears per passenger."
+    },
+    {
+      "id": "g8-ex-l01-w12",
+      "level": "Exam",
+      "marks": 3,
+      "skill": "Substitution with units",
+      "q": "Use C = 12t + 8 to find the cost for five passengers.",
+      "answer": "R68.",
+      "misconception": "Adding 12 and 8 before multiplying by five.",
+      "visual": "Five R12 receipt rows and a single R8 footer; the formula panel substitutes t = 5 beside the receipt. Targets: five-ticket-rows, product-sixty, fee-eight, total-sixty-eight.",
+      "steps": [
+        [
+          "Substitute the count",
+          "Point from five passenger icons to t = 5 in C = 12t + 8.",
+          "Five replaces t because t counts passengers."
+        ],
+        [
+          "Calculate repeated cost",
+          "Accumulate five R12 rows to R60; display 12 × 5 = 60.",
+          "The repeated passenger cost is sixty rand."
+        ],
+        [
+          "Add the fixed fee",
+          "Join the one R8 footer to R60.",
+          "Sixty rand plus the booking fee of eight rand is sixty-eight rand."
+        ]
+      ],
+      "verify": "Five charges of R12 total R60; adding exactly one R8 gives R68.",
+      "states": [
+        "C = 12t + 8; t = 5",
+        "C = 12(5) + 8",
+        "R60 + R8",
+        "C = R68"
+      ],
+      "repair": "Count five R12 rows before appending one R8 row; compare R68 with the incorrect 5(12 + 8)."
+    },
+    {
+      "id": "g8-ex-l01-w13",
+      "level": "Exam",
+      "marks": 4,
+      "skill": "Diagnose distribution",
+      "q": "A learner writes 2(x + 3) = 2x + 3. Find the first error and repair it.",
+      "answer": "The multiplier 2 must reach both terms: 2(x + 3) = 2x + 6.",
+      "misconception": "Multiplying x but failing to multiply the 3.",
+      "visual": "Two separate complete (x + 3) groups; highlight the missing second set of three unit tiles in the learner claim. Targets: group-one, group-two, first-x, first-three, second-x, second-three, missing-three.",
+      "steps": [
+        [
+          "Expand the physical groups",
+          "Show two full groups, each containing one x bar and three units.",
+          "The two outside the brackets counts two copies of everything inside."
+        ],
+        [
+          "Inspect the learner line",
+          "Match both x bars to 2x; match only one set of three to the learner’s +3.",
+          "The learner has not counted the three from the second group."
+        ],
+        [
+          "Repair and verify",
+          "Move both sets of three into a six-unit group, producing 2x + 6.",
+          "Two complete groups contain two x and six units, so the repaired expression is two x plus six."
+        ]
+      ],
+      "verify": "At x = 4, left side 2(4 + 3) = 14; repaired right side 8 + 6 = 14, whereas 2x + 3 = 11.",
+      "states": [
+        "2(x + 3) and flawed 2x + 3",
+        "(x + 3) + (x + 3)",
+        "two x bars and six units; missing three highlighted",
+        "2(x + 3) = 2x + 6"
+      ],
+      "repair": "Show the missing second set of three tiles in the learner model; repair the earliest wrong arrow."
+    },
+    {
+      "id": "g8-ex-l01-w14",
+      "level": "Advanced",
+      "marks": 5,
+      "skill": "Perimeter model",
+      "q": "A rectangle has length x + 3 cm and width x cm. Write and simplify its perimeter.",
+      "answer": "P = 4x + 6 cm.",
+      "misconception": "Adding only adjacent sides or doubling just the x part of x + 3.",
+      "visual": "A rectangle with all four sides separately labelled x + 3, x, x + 3, x; opposing side highlights precede term grouping. Targets: top, right, bottom, left, four-x, six-units.",
+      "steps": [
+        [
+          "Label the full boundary",
+          "Reveal each of the four side labels in turn, including both copies of x + 3.",
+          "Perimeter measures the whole boundary, so we must count all four sides."
+        ],
+        [
+          "Write the sum",
+          "Trace the boundary and accumulate (x + 3) + x + (x + 3) + x.",
+          "The two lengths and two widths are all included."
+        ],
+        [
+          "Group like parts",
+          "Bring four x portions together and the two threes together.",
+          "Four x parts plus six centimetres gives four x plus six centimetres."
+        ]
+      ],
+      "verify": "For x = 2 cm, sides are 5, 2, 5 and 2 cm; perimeter 14 cm, and 4(2) + 6 = 14 cm.",
+      "states": [
+        "rectangle sides x + 3 and x",
+        "all four sides labelled",
+        "(x + 3) + x + (x + 3) + x",
+        "P = 4x + 6 cm"
+      ],
+      "repair": "Trace and label all four sides before simplifying; count both copies of the +3 length extension."
+    },
+    {
+      "id": "g8-ex-l01-w15",
+      "level": "Advanced",
+      "marks": 5,
+      "skill": "Equivalent expressions",
+      "q": "Are 3(n + 2) and 3n + 6 equivalent for every n? Explain and check at n = 4.",
+      "answer": "Yes. Both equal 3n + 6; at n = 4 both equal 18.",
+      "misconception": "Checking one value and claiming that alone proves equivalence for every n.",
+      "visual": "Three separate (n + 2) rows; regroup their n bars and six units without changing total; then a separate n = 4 check. Targets: row-one, row-two, row-three, three-n, six-units, substitution-check.",
+      "steps": [
+        [
+          "Show every group",
+          "Create three rows, each with one n bar and two unit tiles.",
+          "The outside three means three identical copies of the entire bracket."
+        ],
+        [
+          "Rearrange without changing the total",
+          "Group the three n bars as 3n and all six units as +6.",
+          "Regrouping the same pieces shows the expressions match for any value of n."
+        ],
+        [
+          "Check a concrete value",
+          "Substitute n = 4 into both expressions and show 3(6) = 18 and 12 + 6 = 18.",
+          "The numeric check confirms our transformation at four, while the grouping explains why it holds in general."
+        ]
+      ],
+      "verify": "For every n, 3(n + 2) = n + 2 + n + 2 + n + 2 = 3n + 6; at n = 4 both are 18.",
+      "states": [
+        "3(n + 2) versus 3n + 6",
+        "three complete n + 2 rows",
+        "three n bars plus six units",
+        "3(n + 2) = 3n + 6; at n = 4 both 18"
+      ],
+      "repair": "Regroup three complete bracket rows symbolically; use n = 4 only as a check, not the general proof."
+    }
+  ],
+  "practice": [
+    [
+      "P01",
+      "Identify the variable and constant term in 5m + 11.",
+      "m; 11.",
+      "The m part varies; 11 stays fixed."
+    ],
+    [
+      "P02",
+      "Give the coefficient of q in -7q + 2.",
+      "-7.",
+      "Keep the minus with the q term."
+    ],
+    [
+      "P03",
+      "List the signed terms of 3a - 2b - 6.",
+      "3a, -2b, -6.",
+      "A subtraction sign belongs to the following term."
+    ],
+    [
+      "P04",
+      "Write four times k, increased by nine.",
+      "4k + 9.",
+      "Form four copies of k, then add nine."
+    ],
+    [
+      "P05",
+      "Write nine less than four times k.",
+      "4k - 9.",
+      "Reduce the four-k amount by nine."
+    ],
+    [
+      "P06",
+      "Write one third of r, then add four.",
+      "r/3 + 4.",
+      "Divide r by three before adding four."
+    ],
+    [
+      "P07",
+      "At x = 4, find 3x and x².",
+      "12 and 16.",
+      "3 × 4 = 12; 4 × 4 = 16."
+    ],
+    [
+      "P08",
+      "Simplify 5p + 3p - 2.",
+      "8p - 2.",
+      "Join like p terms; retain -2."
+    ],
+    [
+      "P09",
+      "Explain why 4a + 2b is not 6ab.",
+      "a and b are unlike terms; 4a + 2b stays as written.",
+      "At a=1,b=2, the sum is 8 while 6ab is 12."
+    ],
+    [
+      "P10",
+      "State the coefficient and exponent in -5y³.",
+      "-5 and 3.",
+      "The minus belongs to the multiplier; 3 is on y."
+    ],
+    [
+      "P11",
+      "A club charges R9 per entry plus one R15 registration fee. Write a rule for n entries.",
+      "C = 9n + 15 rand.",
+      "Only the R9 repeats n times."
+    ],
+    [
+      "P12",
+      "Use C = 9n + 15 for n = 4.",
+      "R51.",
+      "9 × 4 + 15 = 36 + 15 = 51."
+    ],
+    [
+      "P13",
+      "Repair 4(z + 2) = 4z + 2.",
+      "4(z + 2) = 4z + 8.",
+      "Four groups contain four copies of 2."
+    ],
+    [
+      "P14",
+      "A rectangle has length a + 2 cm and width a cm. Find its perimeter.",
+      "4a + 4 cm.",
+      "(a+2)+a+(a+2)+a = 4a+4."
+    ],
+    [
+      "P15",
+      "Show 2(t + 5) and 2t + 10 are equivalent; check t = 3.",
+      "Both equal 2t + 10; both equal 16 at t=3.",
+      "Two groups each contain t and five units."
+    ]
+  ],
+  "mastery": [
+    [
+      "M01",
+      3,
+      "In -6z + 14, name the variable, signed coefficient and constant term.",
+      "z; -6; 14.",
+      "1 mark for each correct identification."
+    ],
+    [
+      "M02",
+      3,
+      "Write an expression for eight less than half of p, then evaluate it at p = 20.",
+      "p/2 - 8; 2.",
+      "1 mark for p/2, 1 for -8 placement, 1 for value 2."
+    ],
+    [
+      "M03",
+      4,
+      "Simplify 7x - 2y - 3x + 5y, explaining which terms can be joined.",
+      "4x + 3y.",
+      "1 for grouping x, 1 for grouping y, 1 for 4x, 1 for 3y."
+    ],
+    [
+      "M04",
+      4,
+      "A learner claims 3(a + 4) = 3a + 4. Identify the first error, correct it and verify at a = 2.",
+      "3a + 12; both sides 18 when a = 2.",
+      "1 for first error, 1 for distributing to 4, 1 for corrected expression, 1 for numeric check."
+    ],
+    [
+      "M05",
+      6,
+      "A rectangle has length 2x + 1 cm and width x + 2 cm. Write and simplify its perimeter; check at x = 3 cm.",
+      "P = 6x + 6 cm; P = 24 cm at x = 3.",
+      "2 for all four sides, 2 for simplifying, 1 for substitution, 1 for unit and check."
+    ]
+  ],
+  "parallel": [
+    [
+      "R01",
+      "After a signed-coefficient error: identify the coefficient in -9u² + 4.",
+      "-9.",
+      "Highlight the whole signed term before naming the multiplier."
+    ],
+    [
+      "R02",
+      "After an operation-order error: write six less than twice v, then test v = 5.",
+      "2v - 6; value 4.",
+      "Build twice v first, then subtract six."
+    ],
+    [
+      "R03",
+      "After a distribution error: repair 5(w + 3) = 5w + 3; check w = 2.",
+      "5w + 15; both sides 25.",
+      "Show five complete bracket groups, including all five threes."
+    ]
+  ],
+  "practice_memos": [
+    "In 5m + 11, m is the symbol allowed to vary. The 11 is a separate term unaffected by m; the 5 is attached to m as its coefficient.",
+    "Write the q term as (-7) × q. Its signed multiplier is -7. The separate +2 does not multiply q.",
+    "Read subtraction as addition of a negative term: 3a + (-2b) + (-6). The complete terms are 3a, -2b and -6; recombining them restores the question.",
+    "Four copies of k make k + k + k + k = 4k. “Increased by nine” adds nine afterwards, giving 4k + 9.",
+    "The base amount is four k, or 4k. Nine less than this is 4k - 9; at k = 5 the expression gives 20 - 9 = 11.",
+    "One third of r is r ÷ 3. The additional four sits outside the division: r/3 + 4; at r = 12 this gives 8.",
+    "Substitute x = 4 separately: 3x = 3 × 4 = 12, and x² = x × x = 4 × 4 = 16. These operations have different values.",
+    "Group the two p terms: 5p + 3p = 8p. Carry the unrelated -2 through, producing 8p - 2; at p = 1 both forms equal 6.",
+    "The a and b terms describe different unknowns, so 4a + 2b stays as a sum. At a = 1 and b = 2 it is 4 + 4 = 8, while 6ab = 12.",
+    "Separate the signed multiplier and the power: -5y³ means (-5) × y × y × y. The coefficient is -5 and the exponent on y is 3.",
+    "Each entry adds R9, producing R9n for n entries. Add the R15 registration fee once to obtain C = 9n + 15 rand; two entries would cost R33.",
+    "Replace n with 4 in the given rule: C = 9(4) + 15 = 36 + 15 = R51. The R15 charge appears only once.",
+    "Four copies of z + 2 contain four z terms and four copies of 2: 4(z + 2) = 4z + 8. At z = 3 both sides are 20; 4z + 2 would be 14.",
+    "The four sides are a + 2, a, a + 2 and a centimetres. Their sum is (a + 2) + a + (a + 2) + a = 4a + 4 cm.",
+    "Two full copies of t + 5 give t + 5 + t + 5 = 2t + 10 for every t. At t = 3 both forms equal 16; the rearrangement proves the general case."
+  ],
+  "source_document": "Project_Athena_Grade8_Algebraic_Expressions_Lesson1_Source_Pack_v1.docx",
+  "source_sha256": "d40014372e8f64855b6012a666c6d7b46bcfa8195722784fc9a9c16a080555a5"
+}

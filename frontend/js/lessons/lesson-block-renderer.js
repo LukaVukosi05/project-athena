@@ -13,7 +13,7 @@ class LessonBlockRenderer {
         const questions = this.lesson.whiteboard_questions?.length ? this.lesson.whiteboard_questions : [{ id: block.id, order: 1, difficulty: this.lesson.difficulty || "foundation", guidance_level: "high", is_core_example: true, whiteboard: block }];
         new WhiteboardQuestionSet(host, questions, { lessonId: this.lesson.id, teachingNotes: { why:this.lesson.why_it_matters, review:this.lesson.intuition }, solutionLoader: async (questionId, diagnosticAnswer, signal) => {
           const token = typeof AthenaState !== "undefined" ? AthenaState.accessToken() : null;
-          const diagnosis = this.lesson.id === "g8-algebraic-equations-10";
+          const diagnosis = ["g8-algebraic-equations-10", "g8-algebraic-expressions-10"].includes(this.lesson.id);
           const response = await fetch(`/api/v1/lessons/${encodeURIComponent(this.lesson.id)}/questions/${encodeURIComponent(questionId)}/${diagnosis?'diagnose':'reveal'}`, { method: "POST", signal, headers: { ...(token ? { Authorization: `Bearer ${token}` } : {}), ...(diagnosis ? { "Content-Type": "application/json" } : {}) }, ...(diagnosis ? { body: JSON.stringify({ first_error_and_repair: diagnosticAnswer }) } : {}) });
           if (!response.ok) throw new Error(response.status === 401 ? "Please sign in again to load this example." : response.status === 403 ? "This lesson requires access to the full course." : `The worked example could not be loaded (HTTP ${response.status}).`);
           return response.json();

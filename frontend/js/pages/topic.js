@@ -15,6 +15,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("topic-caps-ref").textContent = topic.caps_reference || "CAPS curriculum";
   document.getElementById("topic-exam-relevance").textContent = topic.exam_relevance || "Examination relevance is not specified in the available source.";
   document.getElementById("topic-counts").textContent = `${lessons.length} expected lessons · ${published} published · ${verified} verified previews`;
+  if (gradeId === "grade-8" && topicId === "functions-relationships") {
+    AthenaTopicDiagnostic.init();
+  }
   document.getElementById("learn-list").innerHTML = lessons.slice(0, 6).map(lesson => `<li>${escapeHtml(lesson.title)}</li>`).join("");
   document.getElementById("lessons-list").innerHTML = lessons.map(lesson => {
     const usable = Boolean(lesson.usable), status = lesson.status === "coming_soon" ? "coming soon" : lesson.readiness.replace("_", " ");
