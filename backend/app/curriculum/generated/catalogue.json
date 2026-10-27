@@ -298,7 +298,7 @@
           "topic_number": 3,
           "title": "Functions and Relationships",
           "paper": null,
-          "expected_lesson_count": 3,
+          "expected_lesson_count": 4,
           "status": "teacher_review_required",
           "lessons": [
             {
@@ -324,6 +324,32 @@
               "status": "verified",
               "duration_minutes": 95,
               "source_document": "Project_Athena_Grade8_Functions_Relationships_Lesson3_Source_Pack_v1.docx"
+            },
+            {
+              "lesson_id": "g8-functions-relationships-04",
+              "position": 4,
+              "title": "Formulas in context and reverse calculations",
+              "status": "verified",
+              "duration_minutes": 95,
+              "source_document": "lesson-04-formulas-in-context.md"
+            }
+          ]
+        },
+        {
+          "topic_id": "graphs",
+          "topic_number": 4,
+          "title": "Graphs",
+          "paper": null,
+          "expected_lesson_count": 1,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-graphs-01",
+              "position": 1,
+              "title": "Cartesian coordinates and ordered pairs",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-01-cartesian-plane-draft.md"
             }
           ]
         }

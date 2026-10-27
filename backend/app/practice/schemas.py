@@ -24,6 +24,8 @@ GRADE8_EXPRESSIONS_10_SOURCE = "Project_Athena_Grade8_Algebraic_Expressions_Less
 GRADE8_FUNCTIONS_1_SOURCE = "Project_Athena_Grade8_Functions_Relationships_Lesson1_Source_Pack_v1.docx"
 GRADE8_FUNCTIONS_2_SOURCE = "Project_Athena_Grade8_Functions_Relationships_Lesson2_Source_Pack_v1.docx"
 GRADE8_FUNCTIONS_3_SOURCE = "Project_Athena_Grade8_Functions_Relationships_Lesson3_Source_Pack_v1.docx"
+GRADE8_FUNCTIONS_4_SOURCE = "lesson-04-formulas-in-context.md"
+GRADE8_GRAPHS_1_SOURCE = "lesson-01-cartesian-plane-draft.md"
 GRADE8_EXPRESSIONS_8_SOURCE = "Project_Athena_Grade8_Algebraic_Expressions_Lesson8_Source_Pack_v1.docx"
 GRADE8_EXPRESSIONS_7_SOURCE = "Project_Athena_Grade8_Algebraic_Expressions_Lesson7_Source_Pack_v1.docx"
 SOURCE_DOCUMENT = SEQUENCES_SOURCE
@@ -57,8 +59,8 @@ class WorkedSolutionStep(BaseModel):
 
 
 class PracticeQuestion(BaseModel):
-    id: str = Field(pattern=r"^(?:g8-(?:ae|ex|fr)-l\d{2}-p\d{2}|g12-(?:seq|functions|finance|calculus)-l\d{2}-p\d{2}|G12-(?:ALG|STAT|AG)-L\d{2}-P\d{2})$")
-    lesson_id: str = Field(pattern=r"^(?:g8-(?:algebraic-(?:equations|expressions)|functions-relationships)|g12-(?:sequences-series|functions|finance|calculus|algebra|statistics|analytical-geometry))-\d{2}$")
+    id: str = Field(pattern=r"^(?:g8-(?:ae|ex|fr|graphs)-l\d{2}-p\d{2}|g12-(?:seq|functions|finance|calculus)-l\d{2}-p\d{2}|G12-(?:ALG|STAT|AG)-L\d{2}-P\d{2})$")
+    lesson_id: str = Field(pattern=r"^(?:g8-(?:algebraic-(?:equations|expressions)|functions-relationships|graphs)|g12-(?:sequences-series|functions|finance|calculus|algebra|statistics|analytical-geometry))-\d{2}$")
     question_number: int = Field(ge=1, le=15)
     difficulty: Literal["foundation", "easy", "standard", "intermediate", "exam", "advanced", "source_unspecified"]
     cognitive_level: Literal["knowledge", "routine", "complex", "problem_solving", "source_unspecified"]
@@ -73,7 +75,7 @@ class PracticeQuestion(BaseModel):
     misconception_tags: list[str] = Field(default_factory=list, max_length=8)
     verification: dict[str, str] = Field(min_length=1, max_length=4)
     correct_feedback: str = Field(min_length=1, max_length=500)
-    source: Literal[SEQUENCES_SOURCE, FUNCTIONS_SOURCE, FINANCE_SOURCE, CALCULUS_SOURCE, ALGEBRA_SOURCE, STATISTICS_SOURCE, ANALYTICAL_GEOMETRY_SOURCE, GRADE8_ALGEBRA_SOURCE, GRADE8_EXPRESSIONS_SOURCE, GRADE8_EXPRESSIONS_2_SOURCE, GRADE8_EXPRESSIONS_3_SOURCE, GRADE8_EXPRESSIONS_4_SOURCE, GRADE8_EXPRESSIONS_5_SOURCE, GRADE8_EXPRESSIONS_6_SOURCE, GRADE8_EXPRESSIONS_7_SOURCE, GRADE8_EXPRESSIONS_8_SOURCE, GRADE8_EXPRESSIONS_9_SOURCE, GRADE8_EXPRESSIONS_10_SOURCE, GRADE8_FUNCTIONS_1_SOURCE, GRADE8_FUNCTIONS_2_SOURCE, GRADE8_FUNCTIONS_3_SOURCE] = SEQUENCES_SOURCE
+    source: Literal[SEQUENCES_SOURCE, FUNCTIONS_SOURCE, FINANCE_SOURCE, CALCULUS_SOURCE, ALGEBRA_SOURCE, STATISTICS_SOURCE, ANALYTICAL_GEOMETRY_SOURCE, GRADE8_ALGEBRA_SOURCE, GRADE8_EXPRESSIONS_SOURCE, GRADE8_EXPRESSIONS_2_SOURCE, GRADE8_EXPRESSIONS_3_SOURCE, GRADE8_EXPRESSIONS_4_SOURCE, GRADE8_EXPRESSIONS_5_SOURCE, GRADE8_EXPRESSIONS_6_SOURCE, GRADE8_EXPRESSIONS_7_SOURCE, GRADE8_EXPRESSIONS_8_SOURCE, GRADE8_EXPRESSIONS_9_SOURCE, GRADE8_EXPRESSIONS_10_SOURCE, GRADE8_FUNCTIONS_1_SOURCE, GRADE8_FUNCTIONS_2_SOURCE, GRADE8_FUNCTIONS_3_SOURCE, GRADE8_FUNCTIONS_4_SOURCE, GRADE8_GRAPHS_1_SOURCE] = SEQUENCES_SOURCE
     expected_evidence: str | None = None
     feedback_route: str | None = None
     operation_signature: list[str] = Field(default_factory=list)

@@ -1,0 +1,11 @@
+.formula-scenes{display:flex;flex-wrap:wrap;gap:1rem;align-items:flex-end;margin:.8rem 0}
+.formula-rectangle{margin:0;max-width:min(100%,410px)}
+.formula-rectangle svg{display:block;width:100%;min-width:220px;height:auto;overflow:visible}
+.formula-rectangle rect{fill:#e5f4f5;stroke:#087b85;stroke-width:2}
+.formula-rectangle .formula-tile{stroke:#78b8bc;stroke-width:.8}
+.formula-rectangle text{fill:#15324a;font-size:14px;font-weight:600}
+.formula-rectangle figcaption{font-size:.9rem;font-weight:600}
+@media(max-width:600px){.formula-scenes{display:block}.formula-rectangle{max-width:100%}.formula-rectangle svg{min-width:0}}
+.formula-semantic{display:flex;gap:.4rem;flex-wrap:wrap;margin:.5rem 0}
+.formula-semantic span{border:1px solid var(--color-border);border-radius:.4rem;padding:.2rem .45rem}
+.formula-semantic .is-concealed{color:transparent;text-shadow:none;user-select:none;min-width:2rem;background:#f3f6f7}

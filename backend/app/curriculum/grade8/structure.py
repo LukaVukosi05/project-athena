@@ -26,6 +26,8 @@ from app.curriculum.grade8.algebraic_expressions_lesson10 import LESSON as EXPRE
 from app.curriculum.grade8.functions_relationships_lesson1 import LESSON as FUNCTIONS_LESSON_1
 from app.curriculum.grade8.functions_relationships_lesson2 import LESSON as FUNCTIONS_LESSON_2
 from app.curriculum.grade8.functions_relationships_lesson3 import LESSON as FUNCTIONS_LESSON_3
+from app.curriculum.grade8.functions_relationships_lesson4 import LESSON as FUNCTIONS_LESSON_4
+from app.curriculum.grade8.graphs_lesson1 import LESSON as GRAPHS_LESSON_1
 
 SOURCE = "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
 SOURCE_SHA256 = "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574"
@@ -153,18 +155,31 @@ ALGEBRAIC_EXPRESSIONS_TOPIC = Topic(
 FUNCTIONS_RELATIONSHIPS_TOPIC = Topic(
     id="functions-relationships", product_order=3, title="Functions and Relationships",
     official_caps_topic="Functions and relationships", caps_sequence=3, term=2,
-    expected_duration="Three table and representation lessons authored; remaining scope awaits review",
+    expected_duration="Four lessons authored; teacher review and browser acceptance pending",
     paper=None, caps_reference="CAPS Grade 8 Mathematics — Functions and relationships",
     curriculum="CAPS", ieb_relevant=True,
     exam_relevance="Grade 8 classroom and formal assessment",
     status=ContentStatus.TEACHER_REVIEW_REQUIRED,
     subtopics=[Subtopic(id="functions-relationships-learning-path",order=1,
-        title="Input-output values and rules",prerequisites=[],lessons=[FUNCTIONS_LESSON_1,FUNCTIONS_LESSON_2,FUNCTIONS_LESSON_3])],
+        title="Input-output values, equivalence and formula contexts",prerequisites=[],lessons=[FUNCTIONS_LESSON_1,FUNCTIONS_LESSON_2,FUNCTIONS_LESSON_3,FUNCTIONS_LESSON_4])],
+)
+
+GRAPHS_TOPIC = Topic(
+    id="graphs", product_order=4, title="Graphs",
+    official_caps_topic="Graphs", caps_sequence=4, term=2,
+    expected_duration="Cartesian coordinates lesson authored; further graph lessons pending",
+    paper=None, caps_reference="CAPS Grade 8 Mathematics — Graphs",
+    curriculum="CAPS", ieb_relevant=True,
+    exam_relevance="Grade 8 classroom and formal assessment",
+    status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+    subtopics=[Subtopic(id="graphs-learning-path", order=1,
+        title="Cartesian plane and ordered pairs", prerequisites=["functions-relationships"],
+        lessons=[GRAPHS_LESSON_1])],
 )
 
 GRADE_8 = GradeCurriculum(
     id="grade-8",
     grade=8,
     status=ContentStatus.DRAFT,
-    topics=[ALGEBRAIC_EQUATIONS_TOPIC, ALGEBRAIC_EXPRESSIONS_TOPIC, FUNCTIONS_RELATIONSHIPS_TOPIC],
+    topics=[ALGEBRAIC_EQUATIONS_TOPIC, ALGEBRAIC_EXPRESSIONS_TOPIC, FUNCTIONS_RELATIONSHIPS_TOPIC, GRAPHS_TOPIC],
 )

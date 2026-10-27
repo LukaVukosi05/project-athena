@@ -38,10 +38,16 @@
     }).join('');
     return `<svg class="grade8-coordinate-plane" viewBox="0 0 ${W} ${H}" role="img" aria-label="Coordinate plane for ${esc(scene.id)}"><title>Coordinate plane for ${esc(scene.id)}</title><desc>Tick labels match this question's horizontal and vertical scales. Plotted points appear as the explanation progresses.</desc><line data-object-id="x-axis" x1="${left}" y1="${fmt(oy)}" x2="${right}" y2="${fmt(oy)}"/><line data-object-id="y-axis" x1="${fmt(ox)}" y1="${top}" x2="${fmt(ox)}" y2="${bottom}"/><g class="coord-ticks">${xTicks}${yTicks}</g><text data-object-id="origin" x="${fmt(ox+8)}" y="${fmt(oy+17)}">0</text><text x="${right-20}" y="${fmt(oy-13)}">x${a.x_unit?` (${esc(a.x_unit)})`:''}</text><text x="${fmt(ox+13)}" y="${top+15}">y${a.y_unit?` (${esc(a.y_unit)})`:''}</text>${given}${derived}</svg>`;
   }
-  AthenaVisualizationRegistry.register('graphs','coordinate_plane',{
+  const renderer={
     render(parameters,state,phase){
       const stage=Number(((state.annotations||[]).find(item=>item.startsWith('stage:'))||'stage:0').slice(6));
-      return renderScene(parameters.scene,stage,phase);
+      const scene=parameters.scene||JSON.parse(parameters.scene_json);
+      const final=phase==='result'&&stage>=Number(parameters.total_steps||0);
+      const action=phase==='ready'?'':esc(state.working_state||'');
+      const result=phase==='result'?esc(state.after_state||''):'';
+      return `<section class="grade8-coordinate-board" data-managed-visibility="true" data-question-id="${esc(parameters.question_id)}" data-phase="${esc(phase)}"><p class="g8-original" data-object-id="problem">${esc(parameters.prompt)}</p><div data-object-id="model">${renderScene(scene,stage,phase)}</div><div class="g8-mathematical-transition"><div class="g8-state g8-state--before">${esc(state.before_state||'')}</div><div class="g8-action-slot"><div data-object-id="operation" class="g8-timeline-object g8-operation ${phase==='ready'?'is-hidden':'is-visible'}"><span>Coordinate action</span><strong>${action}</strong></div><div data-object-id="result" class="g8-timeline-object g8-result ${phase==='result'&&!final?'is-visible':'is-hidden'}"><span>Result of this step</span><strong>${result}</strong></div><div data-object-id="verification" class="g8-timeline-object g8-verification ${final?'is-visible':'is-hidden'}"><span>Check the original point</span><strong>${final?result:''}</strong></div></div></div></section>`;
     },destroy(){}
-  });
+  };
+  AthenaVisualizationRegistry.register('graphs','coordinate_plane',renderer);
+  AthenaVisualizationRegistry.register('coordinate_geometry','grade8_coordinate_plane',renderer);
 })();

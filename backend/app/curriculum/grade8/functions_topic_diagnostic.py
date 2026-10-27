@@ -1,4 +1,4 @@
-"""Short topic check across the three authored Functions and Relationships lessons.
+"""Short topic check across the four authored Functions and Relationships lessons.
 
 Fresh values and compact responses make automatic scoring fairer than using
 the multi-part lesson mastery memos as literal answer strings.
@@ -26,12 +26,16 @@ ITEMS = (
     Item("fr-t07", "g8-functions-relationships-03", "A table pairs x = 0, 1, 2 with y = 3, 6, 9. What output fits x = 3 using the simplest linear rule?", ("12",), "Each step of one in x adds three in y; the next output is 12."),
     Item("fr-t08", "g8-functions-relationships-03", "A table pairs x = 0, 2, 4 with y = 5, 11, 17. What output fits x = 3 using a linear rule?", ("14",), "Two input units add six output units, so one input adds three; 5 + 3 × 3 = 14."),
     Item("fr-t09", "g8-functions-relationships-03", "The table 0→1, 1→2, 2→5 follows y = x² + 1. What is the output for x = 3?", ("10",), "3² + 1 = 10; check the formula against every given row."),
+    Item("fr-t10", "g8-functions-relationships-04", "A rectangle has area 42 cm² and width 6 cm. What is its length in centimetres?", ("7",), "Area divided by width gives length: 42 ÷ 6 = 7 cm."),
+    Item("fr-t11", "g8-functions-relationships-04", "A rectangle is 8 cm long and 3 cm wide. What is its perimeter in centimetres?", ("22",), "Add two lengths and two widths: 2(8 + 3) = 22 cm."),
+    Item("fr-t12", "g8-functions-relationships-04", "A rectangle has area 30 m². Tiles cost R40 per m². What is the total cost in rand?", ("1200", "r1200"), "Multiply the square-metre area by the price per square metre: 30 × 40 = R1200."),
 )
 
 LABELS = {
     "g8-functions-relationships-01": "Input and output rules",
     "g8-functions-relationships-02": "Equivalent forms and operation order",
     "g8-functions-relationships-03": "Finding rules from tables",
+    "g8-functions-relationships-04": "Formula contexts and missing dimensions",
 }
 
 
@@ -41,7 +45,7 @@ def public_items():
 
 def score(answers: dict[str, str]):
     if set(answers) != {item.id for item in ITEMS}:
-        raise ValueError("Submit one answer for each of the nine questions")
+        raise ValueError("Submit one answer for each of the twelve questions")
     groups = {lesson_id: {"lesson_id": lesson_id, "title": title, "correct": 0, "total": 3}
               for lesson_id, title in LABELS.items()}
     review = []

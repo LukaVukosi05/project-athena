@@ -23,7 +23,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l01|g8-fr-l04)-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -115,7 +115,7 @@ def _grade8_equation_visual(parameters: dict) -> None:
         raise ValueError("Grade 8 equation question_id is invalid")
 
 def _grade8_function_visual(parameters: dict) -> None:
-    if not re.fullmatch(r"g8-fr-l0[123]-w(?:0[1-9]|1[0-5])", str(parameters["question_id"])):
+    if not re.fullmatch(r"g8-fr-l0[1-4]-w(?:0[1-9]|1[0-5])", str(parameters["question_id"])):
         raise ValueError("Grade 8 functions question ID is invalid")
     if not isinstance(parameters["prompt"], str) or not parameters["prompt"].strip():
         raise ValueError("Functions problem text is required")
@@ -135,7 +135,8 @@ def _grade8_function_visual(parameters: dict) -> None:
         if len(set(xs))!=len(xs):
             raise ValueError("Grade 8 table inputs must be unique")
         if "resolved_outputs" in parameters:
-            resolved, reveal = parameters["resolved_outputs"], parameters.get("output_reveal_steps")
+            resolved = parameters["resolved_outputs"]
+            reveal = parameters.get("output_reveal_steps")
             if not isinstance(resolved, list) or len(resolved) != len(xs) or not isinstance(reveal, list) or len(reveal) != len(xs):
                 raise ValueError("Resolved outputs and reveal steps must align with the table")
             if any(not isinstance(value, (str, int, float)) or isinstance(value, bool) for value in resolved):
@@ -267,7 +268,68 @@ def _coordinate_scene(parameters: dict) -> None:
         raise ValueError("Coordinate scene values must be a non-empty bounded numeric array")
     _semantic_workbench({**parameters, "prompt":"coordinate scene", "answer":"coordinate result", "family":"coordinate_scene"})
 
+
+def _grade8_coordinate_plane(parameters: dict) -> None:
+    import json
+    try:
+        scene = json.loads(parameters["scene_json"])
+    except (TypeError, ValueError) as error:
+        raise ValueError("Grade 8 coordinate scene must be valid JSON") from error
+    if not isinstance(scene, dict) or not isinstance(scene.get("id"), str):
+        raise ValueError("Grade 8 coordinate scene needs a stable ID")
+    if parameters["question_id"] != scene["id"]:
+        raise ValueError("Grade 8 coordinate scene must match the question ID")
+    axis = scene.get("axis")
+    if not isinstance(axis, dict):
+        raise ValueError("Grade 8 coordinate scene needs axes")
+    for key in ("x_min", "x_max", "y_min", "y_max", "x_tick", "y_tick"):
+        value = axis.get(key)
+        if not isinstance(value, (int, float)) or isinstance(value, bool) or not -1000 <= value <= 1000:
+            raise ValueError(f"Grade 8 coordinate {key} must be a bounded number")
+    if not axis["x_min"] <= 0 < axis["x_max"] or not axis["y_min"] <= 0 < axis["y_max"]:
+        raise ValueError("Grade 8 coordinate axes must contain the origin")
+    if axis["x_tick"] <= 0 or axis["y_tick"] <= 0:
+        raise ValueError("Grade 8 coordinate ticks must be positive")
+    labels = set()
+    for point in [*scene.get("given", []), *scene.get("derived", [])]:
+        if not isinstance(point, dict) or not isinstance(point.get("label"), str):
+            raise ValueError("Grade 8 coordinate point needs a label")
+        if point["label"] in labels:
+            raise ValueError("Grade 8 coordinate point labels must be unique")
+        labels.add(point["label"])
+        for coordinate, lower, upper in (("x", axis["x_min"], axis["x_max"]), ("y", axis["y_min"], axis["y_max"])):
+            value = point.get(coordinate)
+            if not isinstance(value, (int, float)) or isinstance(value, bool) or not lower <= value <= upper:
+                raise ValueError(f"Grade 8 coordinate {coordinate} is outside the plotted axes")
+        if point in scene.get("derived", []):
+            step = point.get("reveal_step")
+            if not isinstance(step, int) or isinstance(step, bool) or not 1 <= step <= parameters["total_steps"]:
+                raise ValueError("Grade 8 derived point needs a valid reveal step")
+
+def _grade8_formula_rectangle(parameters: dict) -> None:
+    import json
+    _grade8_function_visual(parameters)
+    try:
+        scene = json.loads(parameters["scene_json"])
+    except (TypeError, ValueError) as error:
+        raise ValueError("Rectangle scene must be valid JSON") from error
+    if not isinstance(scene, dict) or scene.get("units") not in {"cm", "m"}:
+        raise ValueError("Rectangle requires labelled units")
+    for key in ("length", "width", "area"):
+        value=scene.get(key)
+        if not isinstance(value,(int,float)) or isinstance(value,bool) or not 0<value<=1000:
+            raise ValueError(f"Rectangle {key} must be positive and bounded")
+    if abs(scene["length"]*scene["width"]-scene["area"])>1e-8:
+        raise ValueError("Rectangle area disagrees with its side lengths")
+    if "perimeter" in scene and abs(2*(scene["length"]+scene["width"])-scene["perimeter"])>1e-8:
+        raise ValueError("Rectangle perimeter disagrees with its side lengths")
+    if "symbolic_length" in scene and (not isinstance(scene["symbolic_length"],str) or len(scene["symbolic_length"])>24):
+        raise ValueError("Symbolic length must be a short label")
+
 CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
+    ("algebra", "formula_rectangle"): TemplateDefinition(
+        frozenset({"prompt", "question_id", "given_objects", "derived_objects", "total_steps", "scene_json"}),
+        frozenset(), _grade8_formula_rectangle, True),
     **{("algebra", template): TemplateDefinition(
         frozenset({"prompt", "question_id", "given_objects", "derived_objects", "total_steps"}),
         frozenset(), _grade8_function_visual, True)
@@ -330,6 +392,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
     ("geometry", "equal_tangents"): TemplateDefinition(frozenset({"length"}), frozenset(), _bounded_number("length", 0, 10000), True),
     ("geometry", "similar_triangles"): TemplateDefinition(frozenset(), frozenset({"scale_factor"}), _noop, True),
     ("coordinate_geometry", "coordinate_plane"): TemplateDefinition(frozenset({"x_values","y_values"}), frozenset({"title","show_line","show_circle"}), _numeric_lists("x_values","y_values"), True),
+    ("coordinate_geometry", "grade8_coordinate_plane"): TemplateDefinition(
+        frozenset({"scene_json", "question_id", "prompt", "total_steps"}), frozenset(), _grade8_coordinate_plane, True),
+    ("graphs", "coordinate_plane"): TemplateDefinition(
+        frozenset({"scene_json", "question_id", "prompt", "total_steps"}), frozenset(), _grade8_coordinate_plane, True),
     ("coordinate_geometry", "coordinate_distance_lab"): TemplateDefinition(frozenset({"x_values","y_values","labels","objects"}), frozenset({"title","delta_x","delta_y"}), lambda p: (_coordinate_distance(p), _semantic_workbench({**p,"prompt":"distance","answer":"distance","family":"coordinate_distance_lab"})), True),
     ("coordinate_geometry", "circle_construction"): TemplateDefinition(frozenset({"centre_x","centre_y","radius","objects"}), frozenset({"title"}), lambda p: (_circle_construction(p), _semantic_workbench({**p,"prompt":"circle","answer":"circle","family":"circle_construction"})), True),
     ("function_graph", "cartesian_function"): TemplateDefinition(frozenset({"graph_spec_id"}), frozenset(), _noop),

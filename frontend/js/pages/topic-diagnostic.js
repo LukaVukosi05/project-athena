@@ -13,7 +13,7 @@ const AthenaTopicDiagnostic = (() => {
       const response = await fetch(url);
       if (!response.ok) throw Error('The topic check is unavailable. Please try again.');
       const data = await response.json();
-      panel.innerHTML = `<h3>Check your understanding</h3><p>Try all nine questions independently. You will see the worked review after submitting.</p><form id="topic-diagnostic-form">${data.questions.map((q, i) => `<label class="topic-diagnostic__question"><span>${i + 1}. ${safe(q.prompt)}</span><input name="${safe(q.id)}" type="text" autocomplete="off" maxlength="100" required aria-label="Answer to question ${i + 1}"></label>`).join('')}<button class="btn btn-primary" type="submit">Submit all nine answers</button></form><p class="topic-diagnostic__error" role="alert" hidden></p>`;
+      panel.innerHTML = `<h3>Check your understanding</h3><p>Try all twelve questions independently. You will see the worked review after submitting.</p><form id="topic-diagnostic-form">${data.questions.map((q, i) => `<label class="topic-diagnostic__question"><span>${i + 1}. ${safe(q.prompt)}</span><input name="${safe(q.id)}" type="text" autocomplete="off" maxlength="100" required aria-label="Answer to question ${i + 1}"></label>`).join('')}<button class="btn btn-primary" type="submit">Submit all nine answers</button></form><p class="topic-diagnostic__error" role="alert" hidden></p>`;
       panel.querySelector('form').addEventListener('submit', event => submit(event, data.questions));
       panel.scrollIntoView({behavior: 'smooth', block: 'start'});
     } catch (error) {

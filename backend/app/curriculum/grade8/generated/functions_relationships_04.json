@@ -1,0 +1,815 @@
+{
+  "id": "g8-functions-relationships-04",
+  "title": "Formulas in context and reverse calculations",
+  "source_document": "lesson-04-formulas-in-context.md",
+  "source_sha256": "724947772e2c5d089fc20028dcfb33b67ef90db4640a5575906425854c2fb883",
+  "worked_examples": [
+    {
+      "id": "g8-fr-l04-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangle is 4 cm long and 3 cm wide. Use A = l × w to find its area.",
+      "answer": "12 cm²",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "length 4 cm",
+          "width 3 cm"
+        ],
+        "outputs": [
+          "area 12 cm²"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 4,
+          "width": 3,
+          "area": 12,
+          "units": "cm"
+        }
+      },
+      "states": [
+        "A = l × w",
+        "A = 4 × w",
+        "A = 4 × 3",
+        "A = 12 cm²"
+      ],
+      "steps": [
+        {
+          "title": "Identify the given length and width.",
+          "action": "Identify the given length and width.",
+          "narration": "Identify the given length and width. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Substitute both values into the formula.",
+          "action": "Substitute both values into the formula.",
+          "narration": "Substitute both values into the formula. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Multiply four by three and attach square-centimetre units.",
+          "action": "Multiply four by three and attach square-centimetre units.",
+          "narration": "Multiply four by three and attach square-centimetre units. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "4 cm × 3 cm = 12 cm², matching the rectangle.",
+      "misconception": "Adding sides instead of multiplying for area.",
+      "repair": "Cover a 4-by-3 grid with twelve unit squares."
+    },
+    {
+      "id": "g8-fr-l04-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 2,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangle is 7 cm long and 2 cm wide. Find its area using A = l × w.",
+      "answer": "14 cm²",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "length 7 cm",
+          "width 2 cm"
+        ],
+        "outputs": [
+          "area 14 cm²"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 7,
+          "width": 2,
+          "area": 14,
+          "units": "cm"
+        }
+      },
+      "states": [
+        "A = l × w",
+        "A = 7 × w",
+        "A = 7 × 2",
+        "A = 14 cm²"
+      ],
+      "steps": [
+        {
+          "title": "Locate the seven-centimetre length.",
+          "action": "Locate the seven-centimetre length.",
+          "narration": "Locate the seven-centimetre length. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Replace width with two centimetres.",
+          "action": "Replace width with two centimetres.",
+          "narration": "Replace width with two centimetres. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Count fourteen square centimetres in seven rows of two.",
+          "action": "Count fourteen square centimetres in seven rows of two.",
+          "narration": "Count fourteen square centimetres in seven rows of two. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "7 × 2 = 14 cm².",
+      "misconception": "Reporting 14 cm instead of square centimetres.",
+      "repair": "Count the squares; area has square units."
+    },
+    {
+      "id": "g8-fr-l04-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangle has area 24 cm² and width 4 cm. Find its length.",
+      "answer": "6 cm",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "area 24 cm²",
+          "width 4 cm"
+        ],
+        "outputs": [
+          "length 6 cm"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 6,
+          "width": 4,
+          "area": 24,
+          "units": "cm"
+        }
+      },
+      "states": [
+        "A = l × w",
+        "24 = l × 4",
+        "l = 24 ÷ 4",
+        "l = 6 cm"
+      ],
+      "steps": [
+        {
+          "title": "Write the area formula before choosing a calculation.",
+          "action": "Write the area formula before choosing a calculation.",
+          "narration": "Write the area formula before choosing a calculation. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Replace the known area and width.",
+          "action": "Replace the known area and width.",
+          "narration": "Replace the known area and width. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Undo multiplication by four: twenty-four divided by four is six.",
+          "action": "Undo multiplication by four: twenty-four divided by four is six.",
+          "narration": "Undo multiplication by four: twenty-four divided by four is six. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "6 cm × 4 cm = 24 cm².",
+      "misconception": "Multiplying 24 by four to recover a side.",
+      "repair": "The unknown length multiplied by width gives the area; divide to undo."
+    },
+    {
+      "id": "g8-fr-l04-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangle has area 35 cm² and length 7 cm. Find its width.",
+      "answer": "5 cm",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "area 35 cm²",
+          "length 7 cm"
+        ],
+        "outputs": [
+          "width 5 cm"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 7,
+          "width": 5,
+          "area": 35,
+          "units": "cm"
+        }
+      },
+      "states": [
+        "A = l × w",
+        "35 = 7 × w",
+        "w = 35 ÷ 7",
+        "w = 5 cm"
+      ],
+      "steps": [
+        {
+          "title": "Start with the same rectangle area formula.",
+          "action": "Start with the same rectangle area formula.",
+          "narration": "Start with the same rectangle area formula. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Put the known thirty-five and seven into their places.",
+          "action": "Put the known thirty-five and seven into their places.",
+          "narration": "Put the known thirty-five and seven into their places. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Divide the area by seven to isolate the width.",
+          "action": "Divide the area by seven to isolate the width.",
+          "narration": "Divide the area by seven to isolate the width. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "7 cm × 5 cm = 35 cm².",
+      "misconception": "Confusing the given length with the unknown width.",
+      "repair": "Label the formula slots first, then calculate."
+    },
+    {
+      "id": "g8-fr-l04-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 3,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangle has area 54 m² and width 6 m. Find its length.",
+      "answer": "9 m",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "area 54 m²",
+          "width 6 m"
+        ],
+        "outputs": [
+          "length 9 m"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 9,
+          "width": 6,
+          "area": 54,
+          "units": "m"
+        }
+      },
+      "states": [
+        "A = l × w",
+        "54 = l × 6",
+        "l = 54 ÷ 6",
+        "l = 9 m"
+      ],
+      "steps": [
+        {
+          "title": "Identify that metres squared describe area.",
+          "action": "Identify that metres squared describe area.",
+          "narration": "Identify that metres squared describe area. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Substitute the given area and width.",
+          "action": "Substitute the given area and width.",
+          "narration": "Substitute the given area and width. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Divide by six metres to recover nine metres of length.",
+          "action": "Divide by six metres to recover nine metres of length.",
+          "narration": "Divide by six metres to recover nine metres of length. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "9 m × 6 m = 54 m².",
+      "misconception": "Keeping m² as the unit of a one-dimensional side.",
+      "repair": "Area divided by a length leaves metres."
+    },
+    {
+      "id": "g8-fr-l04-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 4,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangular field is 8 m wide and 12 m long. Give its area and perimeter.",
+      "answer": "Area 96 m²; perimeter 40 m",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "length 12 m",
+          "width 8 m"
+        ],
+        "outputs": [
+          "area 96 m²",
+          "perimeter 40 m"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 12,
+          "width": 8,
+          "area": 96,
+          "perimeter": 40,
+          "units": "m"
+        }
+      },
+      "states": [
+        "A = l × w; P = 2(l + w)",
+        "A = 12 × 8 = 96 m²",
+        "P = 2(12 + 8)",
+        "P = 40 m"
+      ],
+      "steps": [
+        {
+          "title": "Use the interior grid for area and the boundary for perimeter.",
+          "action": "Use the interior grid for area and the boundary for perimeter.",
+          "narration": "Use the interior grid for area and the boundary for perimeter. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Multiply twelve by eight for square metres.",
+          "action": "Multiply twelve by eight for square metres.",
+          "narration": "Multiply twelve by eight for square metres. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Add length and width, then double for the outside boundary.",
+          "action": "Add length and width, then double for the outside boundary.",
+          "narration": "Add length and width, then double for the outside boundary. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "Area is 96 m² and boundary length is 40 m.",
+      "misconception": "Using one formula for both area and perimeter.",
+      "repair": "Shade the interior separately from tracing the four sides."
+    },
+    {
+      "id": "g8-fr-l04-w07",
+      "number": 7,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangular garden has area 48 m² and width 6 m. Find its length and perimeter.",
+      "answer": "Length 8 m; perimeter 28 m",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "area 48 m²",
+          "width 6 m"
+        ],
+        "outputs": [
+          "length 8 m",
+          "perimeter 28 m"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 8,
+          "width": 6,
+          "area": 48,
+          "perimeter": 28,
+          "units": "m"
+        }
+      },
+      "states": [
+        "A = l × w; P = 2(l + w)",
+        "48 = l × 6, so l = 8 m",
+        "P = 2(8 + 6)",
+        "P = 28 m"
+      ],
+      "steps": [
+        {
+          "title": "First recover the missing dimension from the area.",
+          "action": "First recover the missing dimension from the area.",
+          "narration": "First recover the missing dimension from the area. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Forty-eight divided by six gives eight metres.",
+          "action": "Forty-eight divided by six gives eight metres.",
+          "narration": "Forty-eight divided by six gives eight metres. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Only now use both side lengths in the perimeter formula.",
+          "action": "Only now use both side lengths in the perimeter formula.",
+          "narration": "Only now use both side lengths in the perimeter formula. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "8 × 6 = 48 m²; 2(8 + 6) = 28 m.",
+      "misconception": "Using area in place of length inside the perimeter formula.",
+      "repair": "Label sides on the rectangle before tracing its boundary."
+    },
+    {
+      "id": "g8-fr-l04-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangle has area 7.5 m² and width 2.5 m. Find its length.",
+      "answer": "3 m",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "area 7.5 m²",
+          "width 2.5 m"
+        ],
+        "outputs": [
+          "length 3 m"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 3,
+          "width": 2.5,
+          "area": 7.5,
+          "units": "m"
+        }
+      },
+      "states": [
+        "A = l × w",
+        "7.5 = l × 2.5",
+        "l = 7.5 ÷ 2.5",
+        "l = 3 m"
+      ],
+      "steps": [
+        {
+          "title": "Keep decimals in their correct formula places.",
+          "action": "Keep decimals in their correct formula places.",
+          "narration": "Keep decimals in their correct formula places. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "The unknown length times two and a half is seven and a half.",
+          "action": "The unknown length times two and a half is seven and a half.",
+          "narration": "The unknown length times two and a half is seven and a half. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Divide seven and a half by two and a half to get three.",
+          "action": "Divide seven and a half by two and a half to get three.",
+          "narration": "Divide seven and a half by two and a half to get three. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "3 × 2.5 = 7.5 m².",
+      "misconception": "Rounding 2.5 before the inverse calculation.",
+      "repair": "Estimate first: three groups of 2.5 give 7.5 exactly."
+    },
+    {
+      "id": "g8-fr-l04-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 4,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangle is (x + 2) cm long and 3 cm wide. Write its area in two equivalent forms and find it when x = 4.",
+      "answer": "3(x + 2) = 3x + 6; area 18 cm²",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "length (x + 2) cm",
+          "width 3 cm"
+        ],
+        "outputs": [
+          "area 3(x + 2)",
+          "area 3x + 6",
+          "area at x=4 is 18 cm²"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 6,
+          "width": 3,
+          "area": 18,
+          "units": "cm",
+          "symbolic_length": "x+2"
+        }
+      },
+      "states": [
+        "A = l × w",
+        "A = 3(x + 2)",
+        "A = 3x + 6",
+        "A(4) = 18 cm²"
+      ],
+      "steps": [
+        {
+          "title": "The entire length is x plus two.",
+          "action": "The entire length is x plus two.",
+          "narration": "The entire length is x plus two. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Multiply the entire bracket by the width three.",
+          "action": "Multiply the entire bracket by the width three.",
+          "narration": "Multiply the entire bracket by the width three. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Distribute three, then substitute four into either form.",
+          "action": "Distribute three, then substitute four into either form.",
+          "narration": "Distribute three, then substitute four into either form. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "3(4 + 2) = 18 and 3×4 + 6 = 18.",
+      "misconception": "Multiplying only x and forgetting the two.",
+      "repair": "Show three rows of x-and-two tiles before distributing."
+    },
+    {
+      "id": "g8-fr-l04-w10",
+      "number": 10,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A floor has area 60 m². Its width is 5 m. Tiles cost R80 per square metre. Find the length and total tile cost.",
+      "answer": "Length 12 m; cost R4800",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "area 60 m²",
+          "width 5 m",
+          "R80 per m²"
+        ],
+        "outputs": [
+          "length 12 m",
+          "tile cost R4800"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 12,
+          "width": 5,
+          "area": 60,
+          "units": "m"
+        }
+      },
+      "states": [
+        "60 = l × 5",
+        "l = 60 ÷ 5 = 12 m",
+        "cost = 60 × 80",
+        "cost = R4800"
+      ],
+      "steps": [
+        {
+          "title": "Use area and width to find the missing side.",
+          "action": "Use area and width to find the missing side.",
+          "narration": "Use area and width to find the missing side. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Divide sixty by five and check the area.",
+          "action": "Divide sixty by five and check the area.",
+          "narration": "Divide sixty by five and check the area. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Tile price is per square metre, so multiply by area, not by perimeter.",
+          "action": "Tile price is per square metre, so multiply by area, not by perimeter.",
+          "narration": "Tile price is per square metre, so multiply by area, not by perimeter. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "12 × 5 = 60 m²; 60 × R80 = R4800.",
+      "misconception": "Charging by boundary length instead of floor area.",
+      "repair": "Highlight the square-metre unit in the rate and in the area."
+    },
+    {
+      "id": "g8-fr-l04-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangle has perimeter 30 cm and length 9 cm. Find its width and area.",
+      "answer": "Width 6 cm; area 54 cm²",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "perimeter 30 cm",
+          "length 9 cm"
+        ],
+        "outputs": [
+          "width 6 cm",
+          "area 54 cm²"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 9,
+          "width": 6,
+          "area": 54,
+          "perimeter": 30,
+          "units": "cm"
+        }
+      },
+      "states": [
+        "P = 2(l + w)",
+        "30 = 2(9 + w)",
+        "15 = 9 + w, so w = 6 cm",
+        "A = 9 × 6 = 54 cm²"
+      ],
+      "steps": [
+        {
+          "title": "Half the perimeter to obtain one length plus one width.",
+          "action": "Half the perimeter to obtain one length plus one width.",
+          "narration": "Half the perimeter to obtain one length plus one width. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Fifteen equals nine plus the unknown width.",
+          "action": "Fifteen equals nine plus the unknown width.",
+          "narration": "Fifteen equals nine plus the unknown width. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Subtract nine, then multiply length and width for area.",
+          "action": "Subtract nine, then multiply length and width for area.",
+          "narration": "Subtract nine, then multiply length and width for area. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "2(9 + 6) = 30 cm; 9 × 6 = 54 cm².",
+      "misconception": "Treating 30 as one length plus one width.",
+      "repair": "Trace all four sides, then group equal sides in pairs."
+    },
+    {
+      "id": "g8-fr-l04-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 5,
+      "skill": "Formula in context and reverse calculation",
+      "q": "Two rectangles both have area 36 cm². A is 9 cm long; B is 6 cm wide. Find the missing sides and compare their perimeters.",
+      "answer": "A width 4 cm; B length 6 cm; perimeters 26 cm and 24 cm",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "both areas 36 cm²",
+          "A length 9 cm",
+          "B width 6 cm"
+        ],
+        "outputs": [
+          "A width 4 cm",
+          "B length 6 cm",
+          "perimeters 26 cm and 24 cm"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 9,
+          "width": 4,
+          "area": 36,
+          "perimeter": 26,
+          "units": "cm",
+          "comparison": {
+            "length": 6,
+            "width": 6,
+            "area": 36,
+            "perimeter": 24
+          }
+        }
+      },
+      "states": [
+        "A width = 36 ÷ 9",
+        "A width = 4 cm; B length = 36 ÷ 6 = 6 cm",
+        "P(A) = 2(9 + 4) = 26 cm",
+        "P(B) = 2(6 + 6) = 24 cm"
+      ],
+      "steps": [
+        {
+          "title": "Each rectangle has its own known dimension.",
+          "action": "Each rectangle has its own known dimension.",
+          "narration": "Each rectangle has its own known dimension. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Divide area by its matching side separately for A and B.",
+          "action": "Divide area by its matching side separately for A and B.",
+          "narration": "Divide area by its matching side separately for A and B. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Use each pair of side lengths to compare boundaries.",
+          "action": "Use each pair of side lengths to compare boundaries.",
+          "narration": "Use each pair of side lengths to compare boundaries. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "Both products are 36 cm² but their perimeters differ by 2 cm.",
+      "misconception": "Assuming equal areas mean equal perimeters.",
+      "repair": "Draw both rectangles with actual side labels, then trace boundaries."
+    },
+    {
+      "id": "g8-fr-l04-w13",
+      "number": 13,
+      "level": "advanced",
+      "marks": 6,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangle has area 72 cm² and its length is twice its width. Find both dimensions.",
+      "answer": "Width 6 cm; length 12 cm",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "area 72 cm²",
+          "length twice width"
+        ],
+        "outputs": [
+          "width 6 cm",
+          "length 12 cm"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 12,
+          "width": 6,
+          "area": 72,
+          "units": "cm"
+        }
+      },
+      "states": [
+        "A = l × w; l = 2w",
+        "72 = (2w) × w",
+        "w² = 36",
+        "w = 6 cm; l = 12 cm"
+      ],
+      "steps": [
+        {
+          "title": "Replace the length with twice the width in the area formula.",
+          "action": "Replace the length with twice the width in the area formula.",
+          "narration": "Replace the length with twice the width in the area formula. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Two times width squared is seventy-two.",
+          "action": "Two times width squared is seventy-two.",
+          "narration": "Two times width squared is seventy-two. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Width is positive, so its square of thirty-six gives six.",
+          "action": "Width is positive, so its square of thirty-six gives six.",
+          "narration": "Width is positive, so its square of thirty-six gives six. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "12 × 6 = 72 cm² and 12 is twice 6.",
+      "misconception": "Accepting a negative dimension or dividing 72 by two only.",
+      "repair": "Sketch two equal width segments along the longer side."
+    },
+    {
+      "id": "g8-fr-l04-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 6,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangular board has area 84 cm² and length (x + 5) cm, width x cm. If x = 7, verify the area and give the perimeter.",
+      "answer": "Area 84 cm²; perimeter 38 cm",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "length (x+5) cm",
+          "width x cm",
+          "x = 7"
+        ],
+        "outputs": [
+          "length 12 cm",
+          "area 84 cm²",
+          "perimeter 38 cm"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 12,
+          "width": 7,
+          "area": 84,
+          "perimeter": 38,
+          "units": "cm"
+        }
+      },
+      "states": [
+        "l = x + 5, w = x",
+        "l = 12 cm, w = 7 cm",
+        "A = 12 × 7 = 84 cm²",
+        "P = 2(12 + 7) = 38 cm"
+      ],
+      "steps": [
+        {
+          "title": "Use seven to determine the two separate side lengths.",
+          "action": "Use seven to determine the two separate side lengths.",
+          "narration": "Use seven to determine the two separate side lengths. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "The longer side is seven plus five, or twelve.",
+          "action": "The longer side is seven plus five, or twelve.",
+          "narration": "The longer side is seven plus five, or twelve. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Multiply for area, then add both sides and double for perimeter.",
+          "action": "Multiply for area, then add both sides and double for perimeter.",
+          "narration": "Multiply for area, then add both sides and double for perimeter. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "84 agrees with the stated area and four sides total 38 cm.",
+      "misconception": "Using x + 5 as the perimeter without counting all sides.",
+      "repair": "Trace two lengths and two widths after verifying area."
+    },
+    {
+      "id": "g8-fr-l04-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 7,
+      "skill": "Formula in context and reverse calculation",
+      "q": "A rectangle has area 96 m². Its width is 4 m less than its length. Find whole-number dimensions and check the area.",
+      "answer": "Length 12 m; width 8 m",
+      "model": {
+        "family": "formula_rectangle",
+        "inputs": [
+          "area 96 m²",
+          "width 4 m less than length"
+        ],
+        "outputs": [
+          "length 12 m",
+          "width 8 m"
+        ],
+        "description": "Rectangle formula with question-specific dimensions",
+        "scene": {
+          "length": 12,
+          "width": 8,
+          "area": 96,
+          "units": "m"
+        }
+      },
+      "states": [
+        "A = l(l − 4)",
+        "96 = l(l − 4)",
+        "12 × 8 = 96",
+        "l = 12 m, w = 8 m"
+      ],
+      "steps": [
+        {
+          "title": "The width is four less than the length.",
+          "action": "The width is four less than the length.",
+          "narration": "The width is four less than the length. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Find positive whole-number factors of ninety-six differing by four.",
+          "action": "Find positive whole-number factors of ninety-six differing by four.",
+          "narration": "Find positive whole-number factors of ninety-six differing by four. This follows from the labelled values and the original formula."
+        },
+        {
+          "title": "Twelve and eight satisfy both the area and side difference.",
+          "action": "Twelve and eight satisfy both the area and side difference.",
+          "narration": "Twelve and eight satisfy both the area and side difference. This follows from the labelled values and the original formula."
+        }
+      ],
+      "verify": "12 × 8 = 96 m² and 12 − 8 = 4 m.",
+      "misconception": "Choosing factor pairs without checking the difference.",
+      "repair": "Arrange factor-pair rectangles and label both dimensions."
+    }
+  ]
+}

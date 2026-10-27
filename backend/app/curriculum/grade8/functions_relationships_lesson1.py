@@ -61,7 +61,9 @@ def question(item,index):
                    if 'rows' in model else {}),
                 **({'resolved_outputs':model['resolved_outputs'],
                     'output_reveal_steps':model['output_reveal_steps']}
-                   if 'resolved_outputs' in model else {})}),
+                   if 'resolved_outputs' in model else {}),
+                **({'scene_json':json.dumps(model['scene'],ensure_ascii=False)}
+                   if 'scene' in model else {})}),
         semantic_objects=objects)
     return WhiteboardQuestion(id=item['id'],order=index+1,difficulty=item['level'],
         is_core_example=index==0,guidance_level='high' if index<5 else 'moderate' if index<10 else 'reduced',

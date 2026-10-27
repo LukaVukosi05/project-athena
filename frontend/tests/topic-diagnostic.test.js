@@ -21,10 +21,10 @@ test('topic check is shown only after requested, conceals answers and routes a w
     getItem: k => storage.get(k) || null, setItem: (k, v) => storage.set(k, v)},
     fetch: async (_url, init) => {
       calls++;
-      return {ok:true, json: async () => init ? {score:7,total:9, note:'Revise',
+      return {ok:true, json: async () => init ? {score:10,total:12, note:'Revise',
         areas:[{lesson_id:'g8-functions-relationships-02',title:'Equivalent forms',correct:1,total:3,needs_review:true}],
-        review: Array.from({length:9},(_,i)=>({correct:i<7,answer:'7',explanation:'Check the rule.'}))}
-        : {questions:Array.from({length:9},(_,i)=>({id:`fr-t0${i+1}`,prompt:`Question ${i+1}`}))}};
+        review: Array.from({length:12},(_,i)=>({correct:i<10,answer:'7',explanation:'Check the rule.'}))}
+        : {questions:Array.from({length:12},(_,i)=>({id:`fr-t0${i+1}`,prompt:`Question ${i+1}`}))}};
     }};
   vm.runInNewContext(source + '\nthis.diagnostic = AthenaTopicDiagnostic;', context);
   context.diagnostic.init();
@@ -33,13 +33,13 @@ test('topic check is shown only after requested, conceals answers and routes a w
   await button.onclick();
   assert.equal(calls, 1);
   assert.equal(panel.hidden, false);
-  assert.equal((panel.innerHTML.match(/<input /g)||[]).length, 9);
+  assert.equal((panel.innerHTML.match(/<input /g)||[]).length, 12);
   assert.doesNotMatch(panel.innerHTML,/Answer: 7/);
   const form = {querySelector:()=>({disabled:false}), elements:{namedItem:()=>({value:'7'})}};
   await listeners.submit({preventDefault(){},currentTarget:form});
   assert.match(summary.innerHTML,/functions-relationships-02/);
   assert.match(panel.innerHTML,/Worked review/);
   assert.equal(calls, 2);
-  assert.equal(JSON.parse(storage.values().next().value).score, 7);
+  assert.equal(JSON.parse(storage.values().next().value).score, 10);
   assert.doesNotMatch(storage.values().next().value,/Check the rule/);
 });

@@ -13,10 +13,16 @@ from app.practice.service import blank_response,check_answer,mastery_summary,pub
 from app.curriculum.grade8.assessment import MASTERY_BANK,MISCONCEPTION_REPAIRS,REASSESSMENT_BANK,REPAIR_RULES
 from app.curriculum.grade8 import assessment_lesson2, assessment_lesson3, assessment_lesson4, assessment_lesson5, assessment_lesson6, assessment_lesson7, assessment_lesson8, assessment_lesson9, assessment_lesson10
 from app.curriculum.grade8 import assessment_functions_lesson1, assessment_functions_lesson2, assessment_functions_lesson3
+from app.curriculum.grade8 import assessment_functions_lesson4
 from app.curriculum.grade8.functions_topic_diagnostic import public_items as topic3_items, score as topic3_score
+from app.curriculum.grade8 import assessment_graphs_lesson1
 from app.curriculum.grade8 import assessment_expressions, assessment_expressions_lesson2, assessment_expressions_lesson3, assessment_expressions_lesson4, assessment_expressions_lesson5, assessment_expressions_lesson6, assessment_expressions_lesson7, assessment_expressions_lesson8, assessment_expressions_lesson9, assessment_expressions_lesson10
 
 ASSESSMENT_BANKS={
+    "g8-functions-relationships-04":(assessment_functions_lesson4.MASTERY_BANK, assessment_functions_lesson4.REASSESSMENT_BANK,
+                                     assessment_functions_lesson4.MISCONCEPTION_REPAIRS, assessment_functions_lesson4.REPAIR_RULES),
+    "g8-graphs-01":(assessment_graphs_lesson1.MASTERY_BANK, assessment_graphs_lesson1.REASSESSMENT_BANK,
+                    assessment_graphs_lesson1.MISCONCEPTION_REPAIRS, assessment_graphs_lesson1.REPAIR_RULES),
     "g8-algebraic-expressions-01":(assessment_expressions.MASTERY_BANK, assessment_expressions.REASSESSMENT_BANK,
                                     assessment_expressions.MISCONCEPTION_REPAIRS, assessment_expressions.REPAIR_RULES),
     "g8-algebraic-expressions-02":(assessment_expressions_lesson2.MASTERY_BANK, assessment_expressions_lesson2.REASSESSMENT_BANK,

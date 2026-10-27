@@ -41,7 +41,7 @@ def test_public_preview_and_practice_keep_answers_private():
         topic = client.get('/api/v1/curriculum/grades/grade-8/topics/functions-relationships')
         assert topic.status_code == 200
         assert [row['id'] for part in topic.json()['subtopics'] for row in part['lessons']] == [
-            LESSON.id, 'g8-functions-relationships-02', 'g8-functions-relationships-03']
+            LESSON.id, 'g8-functions-relationships-02', 'g8-functions-relationships-03', 'g8-functions-relationships-04']
         assert 'grade8-functions-renderers.js' in client.get('/lesson.html').text
         lesson = client.get('/api/v1/lessons/' + LESSON.id)
         assert lesson.status_code == 200, lesson.text

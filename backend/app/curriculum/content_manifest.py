@@ -101,6 +101,24 @@ def release_gate_passes(lesson: Lesson) -> bool:
 
 SOURCE_INVENTORY = (
     {
+        "document": "lesson-04-formulas-in-context.md",
+        "grade": "8", "present": True, "topics_described": ["Functions and Relationships"],
+        "lessons_expected": 1, "fully_authored_lessons": 1,
+        "reference_questions": "15 worked examples, 15 practice questions, five mastery questions and three parallel reassessments",
+        "whiteboard_specifications": "Per-question rectangle dimensions, area grid, reverse calculations, units and final checks",
+        "missing_content": "Teacher mathematical review and browser acceptance pending.",
+        "implementation_status": "runtime_integrated_teacher_review_required",
+    },
+    {
+        "document": "lesson-01-cartesian-plane-draft.md",
+        "grade": "8", "present": True, "topics_described": ["Graphs"],
+        "lessons_expected": 1, "fully_authored_lessons": 1,
+        "reference_questions": "15 worked examples, 15 practice questions, five mastery questions and three reassessments",
+        "whiteboard_specifications": "Question-specific coordinate scenes and four teaching actions per example",
+        "missing_content": "Teacher review and browser acceptance pending; further Graphs lessons not yet authored.",
+        "implementation_status": "runtime_integrated_teacher_review_required",
+    },
+    {
         "document": "Project_Athena_Grade8_Functions_Relationships_Lesson3_Source_Pack_v1.docx",
         "grade": "8", "present": True, "topics_described": ["Functions and Relationships"],
         "lessons_expected": 1, "fully_authored_lessons": 1,
