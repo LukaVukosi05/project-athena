@@ -1,0 +1,10 @@
+.g8-shape-stage{display:grid;grid-template-columns:minmax(220px,1fr) minmax(220px,1fr);gap:.5rem 1.1rem;align-items:start;padding:1rem;border-radius:1rem;background:linear-gradient(140deg,#eef9f7,#f5f8ff);color:#143b45}
+.g8-shape-stage svg{grid-row:span 5;width:100%;max-height:250px;overflow:visible}
+.g8-shape-lines polygon{fill:#fff;stroke:#176f74;stroke-width:2.5;vector-effect:non-scaling-stroke}
+.g8-shape-lines circle{fill:#176f74}.g8-shape-lines text{fill:#163f54;font-weight:700;font-size:14px;stroke:none}
+.g8-shape-lines .g8-shape-tick,.g8-shape-lines .g8-shape-right{fill:none;stroke:#a04626;stroke-width:2;vector-effect:non-scaling-stroke}
+.g8-shape-lines .g8-shape-parallel{fill:none;stroke:#2c5390;stroke-width:2;vector-effect:non-scaling-stroke}
+.g8-shape-lines .g8-shape-given,.g8-shape-lines .g8-shape-angle{fill:#006c63}
+.g8-shape-lines .g8-shape-markers{font-size:11px;fill:#21486e}
+.g8-shape-stage p{margin:.15rem 0;overflow-wrap:anywhere}.g8-shape-stage [data-object-id="result"]{font-weight:700}
+@media(max-width:700px){.g8-shape-stage{grid-template-columns:1fr}.g8-shape-stage svg{grid-row:auto;max-height:230px}}

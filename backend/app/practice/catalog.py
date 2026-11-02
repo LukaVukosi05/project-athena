@@ -2,6 +2,7 @@
 
 from app.curriculum.grade12.lessons.practice_catalog import PRACTICE_BANKS as GRADE12_BANKS
 from app.curriculum.grade8.assessment_straight_lines import PRACTICE_1 as LINES_1, PRACTICE_2 as LINES_2
+from app.curriculum.grade8 import assessment_shapes
 from app.curriculum.grade8.assessment import PRACTICE_BANK as GRADE8_LESSON1_PRACTICE
 from app.curriculum.grade8.assessment_lesson2 import PRACTICE_BANK as GRADE8_LESSON2_PRACTICE
 from app.curriculum.grade8.assessment_lesson3 import PRACTICE_BANK as GRADE8_LESSON3_PRACTICE
@@ -54,6 +55,7 @@ from app.curriculum.grade8 import assessment_exponents
 from app.curriculum.grade8.assessment_exponents import PRACTICE_1 as EXPONENT_1_PRACTICE, PRACTICE_2 as EXPONENT_2_PRACTICE
 
 PRACTICE_BANKS = {
+    **{f"g8-shapes-{n:02}": assessment_shapes.PRACTICE[n] for n in range(1,6)},
     "g8-straight-lines-01": LINES_1,
     "g8-straight-lines-02": LINES_2,
     "g8-patterns-03": PATTERNS_3_PRACTICE,

@@ -766,6 +766,56 @@
               "source_document": "lesson-02.md"
             }
           ]
+        },
+        {
+          "topic_id": "geometry-of-2d-shapes",
+          "topic_number": 12,
+          "title": "Geometry of 2D Shapes",
+          "paper": null,
+          "expected_lesson_count": 5,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-shapes-01",
+              "position": 1,
+              "title": "Classify triangles by their sides",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g8-shapes-02",
+              "position": 2,
+              "title": "Interior angles of triangles",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g8-shapes-03",
+              "position": 3,
+              "title": "Equilateral and isosceles triangles",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g8-shapes-04",
+              "position": 4,
+              "title": "Classify quadrilaterals from evidence",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g8-shapes-05",
+              "position": 5,
+              "title": "Quadrilateral and parallelogram angles",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-05.md"
+            }
+          ]
         }
       ]
     },

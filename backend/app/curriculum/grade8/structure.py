@@ -270,9 +270,23 @@ STRAIGHT_LINES_TOPIC = Topic(
         lessons=[STRAIGHT_LINES_LESSON_1, STRAIGHT_LINES_LESSON_2])],
 )
 
+from app.curriculum.grade8.shapes_runtime import LESSONS_RUNTIME as SHAPE_LESSONS
+
+SHAPES_TOPIC = Topic(
+    id="geometry-of-2d-shapes", product_order=12, title="Geometry of 2D Shapes",
+    official_caps_topic="Geometry of 2D shapes", caps_sequence=12, term=3,
+    expected_duration="Five authored lessons; mathematical teacher review required",
+    paper=None, caps_reference="DBE 2026 Grade 8 Mathematics ATP, Term 3: Geometry of 2D Shapes",
+    curriculum="CAPS", ieb_relevant=True, exam_relevance="Grade 8 classroom and formal assessment",
+    status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+    subtopics=[Subtopic(id="shapes-learning-path",order=1,
+        title="Triangle and quadrilateral properties",prerequisites=["g8-straight-lines-02"],
+        lessons=[SHAPE_LESSONS[n] for n in range(1,6)])],
+)
+
 GRADE_8 = GradeCurriculum(
     id="grade-8",
     grade=8,
     status=ContentStatus.DRAFT,
-    topics=[ALGEBRAIC_EQUATIONS_TOPIC, ALGEBRAIC_EXPRESSIONS_TOPIC, FUNCTIONS_RELATIONSHIPS_TOPIC, GRAPHS_TOPIC, PATTERNS_TOPIC, WHOLE_NUMBERS_TOPIC, INTEGERS_TOPIC, FRACTIONS_TOPIC, DECIMALS_TOPIC, EXPONENTS_TOPIC, STRAIGHT_LINES_TOPIC],
+    topics=[ALGEBRAIC_EQUATIONS_TOPIC, ALGEBRAIC_EXPRESSIONS_TOPIC, FUNCTIONS_RELATIONSHIPS_TOPIC, GRAPHS_TOPIC, PATTERNS_TOPIC, WHOLE_NUMBERS_TOPIC, INTEGERS_TOPIC, FRACTIONS_TOPIC, DECIMALS_TOPIC, EXPONENTS_TOPIC, STRAIGHT_LINES_TOPIC, SHAPES_TOPIC],
 )

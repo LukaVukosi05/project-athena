@@ -101,6 +101,13 @@ def release_gate_passes(lesson: Lesson) -> bool:
 
 SOURCE_INVENTORY = (
     *({"document":f"lesson-{n:02}.md", "grade":"8", "present":True,
+        "topics_described":["Geometry of 2D Shapes"], "lessons_expected":1,
+        "fully_authored_lessons":1,
+        "reference_questions":"15 worked, 15 independent practice, five mastery, three parallel reassessments",
+        "whiteboard_specifications":"Native question-specific triangle or quadrilateral SVG with staged givens, property, calculation and original-figure check",
+        "missing_content":"Teacher mathematical review and desktop/mobile browser acceptance pending.",
+        "implementation_status":"runtime_integrated_teacher_review_required"} for n in range(1,6)),
+    *({"document":f"lesson-{n:02}.md", "grade":"8", "present":True,
         "topics_described":["Geometry of Straight Lines"], "lessons_expected":1,
         "fully_authored_lessons":1,
         "reference_questions":"15 worked, 15 independent practice, five mastery and three parallel reassessments",
