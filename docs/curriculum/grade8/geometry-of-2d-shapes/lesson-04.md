@@ -24,7 +24,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has four right angles and four equal sides; AB is marked 4 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[90, 180], [250, 180], [250, 20], [90, 20]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[90, 180], [250, 180], [250, 20], [90, 20]], labels {'AB': '4'}.
 
 **Whiteboard sequence:**
 
@@ -44,7 +44,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has four right angles and unequal adjacent side lengths; AB is marked 5 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[65, 175], [295, 175], [295, 65], [65, 65]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[65, 175], [295, 175], [295, 65], [65, 65]], labels {'AB': '5'}.
 
 **Whiteboard sequence:**
 
@@ -64,7 +64,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has four equal sides, with no right angle; AB is marked 6 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[65, 105], [170, 25], [275, 105], [170, 185]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[65, 105], [170, 25], [275, 105], [170, 185]], labels {'AB': '6'}.
 
 **Whiteboard sequence:**
 
@@ -84,7 +84,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has both pairs of opposite sides parallel, with no right-angle or four-equal-side marking; AB is marked 7 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[80, 175], [260, 175], [305, 55], [125, 55]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[80, 175], [260, 175], [305, 55], [125, 55]], labels {'AB': '7'}.
 
 **Whiteboard sequence:**
 
@@ -104,7 +104,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has exactly one pair of opposite sides parallel; AB is marked 8 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[65, 175], [295, 175], [245, 65], [100, 65]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[65, 175], [295, 175], [245, 65], [100, 65]], labels {'AB': '8'}.
 
 **Whiteboard sequence:**
 
@@ -124,7 +124,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has two pairs of equal adjacent sides, with no opposite parallel pair; AB is marked 9 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[60, 125], [170, 20], [280, 125], [170, 190]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[60, 125], [170, 20], [280, 125], [170, 190]], labels {'AB': '9'}.
 
 **Whiteboard sequence:**
 
@@ -144,7 +144,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has four right angles and unequal adjacent side lengths; AB is marked 10 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[65, 175], [295, 175], [295, 65], [65, 65]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[65, 175], [295, 175], [295, 65], [65, 65]], labels {'AB': '10'}.
 
 **Whiteboard sequence:**
 
@@ -164,7 +164,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has four right angles and four equal sides; AB is marked 11 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[90, 180], [250, 180], [250, 20], [90, 20]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[90, 180], [250, 180], [250, 20], [90, 20]], labels {'AB': '11'}.
 
 **Whiteboard sequence:**
 
@@ -184,7 +184,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has two pairs of equal adjacent sides, with no opposite parallel pair; AB is marked 12 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[60, 125], [170, 20], [280, 125], [170, 190]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[60, 125], [170, 20], [280, 125], [170, 190]], labels {'AB': '12'}.
 
 **Whiteboard sequence:**
 
@@ -204,7 +204,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has four equal sides, with no right angle; AB is marked 13 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[65, 105], [170, 25], [275, 105], [170, 185]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[65, 105], [170, 25], [275, 105], [170, 185]], labels {'AB': '13'}.
 
 **Whiteboard sequence:**
 
@@ -224,7 +224,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has both pairs of opposite sides parallel, with no right-angle or four-equal-side marking; AB is marked 14 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[80, 175], [260, 175], [305, 55], [125, 55]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[80, 175], [260, 175], [305, 55], [125, 55]], labels {'AB': '14'}.
 
 **Whiteboard sequence:**
 
@@ -244,7 +244,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has exactly one pair of opposite sides parallel; AB is marked 15 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[65, 175], [295, 175], [245, 65], [100, 65]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[65, 175], [295, 175], [245, 65], [100, 65]], labels {'AB': '15'}.
 
 **Whiteboard sequence:**
 
@@ -264,7 +264,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has four right angles and four equal sides; AB is marked 16 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[90, 180], [250, 180], [250, 20], [90, 20]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[90, 180], [250, 180], [250, 20], [90, 20]], labels {'AB': '16'}.
 
 **Whiteboard sequence:**
 
@@ -284,7 +284,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has four right angles and unequal adjacent side lengths; AB is marked 17 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[65, 175], [295, 175], [295, 65], [65, 65]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[65, 175], [295, 175], [295, 65], [65, 65]], labels {'AB': '17'}.
 
 **Whiteboard sequence:**
 
@@ -304,7 +304,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Quadrilateral ABCD has four equal sides, with no right angle; AB is marked 18 cm. Give its most specific name and justify it.
 
-**Visual:** quadrilateral with question-specific vertices [[65, 105], [170, 25], [275, 105], [170, 185]], labels {}.
+**Visual:** quadrilateral with question-specific vertices [[65, 105], [170, 25], [275, 105], [170, 185]], labels {'AB': '18'}.
 
 **Whiteboard sequence:**
 

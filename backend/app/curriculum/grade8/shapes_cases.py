@@ -85,7 +85,8 @@ def equal_triangle(n, kind, known, target):
             'C':'x' if kind=='equilateral' else ''}
     return ShapeCase(f'g8-shapes-03-w{n:02}',3,'equal_triangle',(known,),f'{answer}°',problem,working,check,
         'Equal sides imply equal opposite angles; an isosceles triangle does not necessarily have three equal angles.',
-        {'shape':'triangle','points':points,'angles':angles,'ticks':kind,'result_angle':'C' if kind=='equilateral' else target})
+        {'shape':'triangle','points':points,'angles':angles,'ticks':kind,'result_angle':'C' if kind=='equilateral' else target,
+         **({'labels':{'AB':str(side),'BC':str(side),'AC':str(side)}} if kind=='equilateral' else {})})
 
 QUADS={
  'parallelogram':([[80,175],[260,175],[305,55],[125,55]],'both pairs of opposite sides parallel, with no right-angle or four-equal-side marking'),
@@ -105,7 +106,7 @@ def classify_quad(n,kind):
          f'The most specific matching name is {kind}.'),
         f'{kind} satisfies the explicitly stated side and angle markings.',
         'Do not decide from a slanted drawing alone; use the stated markings and the most specific definition.',
-        {'shape':'quadrilateral','points':points,'properties':properties})
+        {'shape':'quadrilateral','points':points,'properties':properties,'labels':{'AB':str(n+3)}})
 
 
 def _normalise_polygon(points):
@@ -184,14 +185,15 @@ def variant(case,shift):
             c=equal_triangle(n,kind,60,'angle')
             from dataclasses import replace
             side=5+shift+n
-            return replace(c,problem=f'Triangle ABC has AB = BC = CA = {side} cm. Find angle C and justify its size.',given=(side,))
+            return replace(c,problem=f'Triangle ABC has AB = BC = CA = {side} cm. Find angle C and justify its size.',given=(side,),
+                           scene={**c.scene,'labels':{'AB':str(side),'BC':str(side),'AC':str(side)}})
         target=case.scene['result_angle'];return equal_triangle(n,kind,known+2*shift,target)
     if family=='quad_classify':
         c=classify_quad(n,case.answer)
         from dataclasses import replace
         # New given drawing orientation is an independent instance of the same class.
         return replace(c,problem=f'A new quadrilateral EFGH has {QUADS[case.answer][1]}. Name its most specific class and justify it.',
-                       scene={**c.scene,'rotation':shift*7,'vertices':'EFGH'})
+                       scene={**c.scene,'rotation':shift*7,'vertices':'EFGH','labels':{'EF':str(n+3)}})
     k=case.scene['kind'];base=case.given
     return quad_angle(n,k,tuple(v+shift for v in base))
 

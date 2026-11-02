@@ -24,7 +24,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Triangle ABC has AB = BC = CA = 5 cm. Find angle C and justify its size.
 
-**Visual:** triangle with question-specific vertices [[180, 11.794919243112275], [80, 185], [280, 185]], labels {'A': '60°', 'B': '60°', 'C': 'x'}.
+**Visual:** triangle with question-specific vertices [[180, 11.794919243112275], [80, 185], [280, 185]], labels {'AB': '5', 'BC': '5', 'AC': '5'}.
 
 **Whiteboard sequence:**
 
@@ -124,7 +124,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Triangle ABC has AB = BC = CA = 10 cm. Find angle C and justify its size.
 
-**Visual:** triangle with question-specific vertices [[180, 11.794919243112275], [80, 185], [280, 185]], labels {'A': '60°', 'B': '60°', 'C': 'x'}.
+**Visual:** triangle with question-specific vertices [[180, 11.794919243112275], [80, 185], [280, 185]], labels {'AB': '10', 'BC': '10', 'AC': '10'}.
 
 **Whiteboard sequence:**
 
@@ -224,7 +224,7 @@ Duration: about 90 minutes. Fifteen worked examples, fifteen independent practic
 
 **Problem:** Triangle ABC has AB = BC = CA = 15 cm. Find angle C and justify its size.
 
-**Visual:** triangle with question-specific vertices [[180, 11.794919243112275], [80, 185], [280, 185]], labels {'A': '60°', 'B': '60°', 'C': 'x'}.
+**Visual:** triangle with question-specific vertices [[180, 11.794919243112275], [80, 185], [280, 185]], labels {'AB': '15', 'BC': '15', 'AC': '15'}.
 
 **Whiteboard sequence:**
 
