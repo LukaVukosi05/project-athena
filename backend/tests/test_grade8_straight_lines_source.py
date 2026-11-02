@@ -8,6 +8,7 @@ from app.whiteboard.registry import registry
 from app.curriculum.grade8 import assessment_straight_lines as assessment
 from fastapi.testclient import TestClient
 from app.main import app
+from app.practice.service import check_answer
 
 
 def test_thirty_distinct_diagram_cases_have_checked_angle_answers():
@@ -49,6 +50,7 @@ def test_unseen_banks_and_public_lesson_gate():
         assert (len(practice),len(mastery),len(reassess)) == (15,5,3)
         assert repairs and rules
         assert {q.prompt for q in practice}.isdisjoint({q.problem for q in (LESSON_1,LESSON_2)[number-1]})
+        assert check_answer(practice[0].id, str(practice[0].accepted_answers[0]).rstrip('°'))
         lesson_id=f'g8-straight-lines-{number:02}'
         with TestClient(app) as client:
             response=client.get(f'/api/v1/lessons/{lesson_id}')
