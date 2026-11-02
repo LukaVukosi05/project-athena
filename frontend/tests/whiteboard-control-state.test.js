@@ -99,3 +99,32 @@ test("prior results remain on the board through ready, operation, and result", (
   assert.match(stage.innerHTML,/Steps appear here as the explanation progresses/);
   assert.doesNotMatch(stage.innerHTML,/class="is-latest"/);
 });
+
+test("coordinate graphs show the cumulative written solution beside the plotted diagram", () => {
+  const tracePane = {scrollTop:0,scrollHeight:300};
+  const stage = {innerHTML:"",dataset:{},setAttribute(){},querySelector(selector){return selector === ".g8-completed-steps" ? tracePane : null;}};
+  global.CSS = {escape:value => value};
+  global.AthenaWhiteboardRegistry = {resolve(){return {render(){return "";}};}};
+  const board = Object.create(StatefulWhiteboard.prototype);
+  Object.assign(board, {
+    index:1, visualSession:{render(){return '<svg data-object-id="model"><circle cx="2" cy="3"/></svg>'; }},
+    block:{initial_expression:"Read the labelled axes",visualization:{type:"coordinate_geometry"},steps:[
+      {working_expression:"Move two units right",after_expression:"x = 2",operation:{type:"test"},events:[],screen_reader_description:"Horizontal position"},
+      {working_expression:"Move three units up",after_expression:"A = (2, 3)",operation:{type:"test"},events:[],screen_reader_description:"Plot A"},
+    ]},
+    mount:{querySelector(selector){if(selector===".whiteboard-stage")return stage;if(selector==='[data-role="checkpoint"]')return {hidden:false};return null;}},
+    stopTimeline(){},renderTeachingNotes(){},renderOpeningCaption(){},setStatus(){},
+  });
+  board.reconstruct("ready","idle");
+  assert.equal(stage.dataset.layout,"graph");
+  assert.match(stage.innerHTML,/data-object-id="model"/);
+  assert.match(stage.innerHTML,/Written solution so far/);
+  assert.match(stage.innerHTML,/x = 2/);
+  assert.doesNotMatch(stage.innerHTML,/A = \(2, 3\)/);
+  board.reconstruct("operation","playing");
+  assert.match(stage.innerHTML,/x = 2/);
+  assert.doesNotMatch(stage.innerHTML,/A = \(2, 3\)/);
+  board.reconstruct("result","example_complete");
+  assert.match(stage.innerHTML,/Step 2<\/span>.*A = \(2, 3\)/);
+  assert.equal(tracePane.scrollTop,300);
+});

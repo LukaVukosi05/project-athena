@@ -1,0 +1,531 @@
+{
+  "scenes": [
+    {
+      "id": "g8-whole-l02-w01",
+      "title": "largest prime factor of 84",
+      "problem": "Find the largest prime factor of 84. Show its prime factorisation.",
+      "model": "factor_tree",
+      "kind": "largest_prime",
+      "numbers": [
+        84
+      ],
+      "factors": [
+        [
+          2,
+          2,
+          3,
+          7
+        ]
+      ],
+      "answer": 7,
+      "actions": [
+        "Place 84 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 84 = 2 × 42. Keep every earlier branch visible.",
+        "Split the next composite node: 42 = 2 × 21. Keep every earlier branch visible.",
+        "Split the next composite node: 21 = 3 × 7. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 84 = 2 × 2 × 3 × 7.",
+        "Select the largest prime leaf. The largest prime factor is 7. 7 divides 84 and is prime."
+      ],
+      "memo": "84 = 2 × 2 × 3 × 7. Select the largest prime leaf in the factor tree. largest prime factor = 7. 7 is prime and divides 84.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w02",
+      "title": "largest prime factor of 135",
+      "problem": "Find the largest prime factor of 135. Show its prime factorisation.",
+      "model": "factor_tree",
+      "kind": "largest_prime",
+      "numbers": [
+        135
+      ],
+      "factors": [
+        [
+          3,
+          3,
+          3,
+          5
+        ]
+      ],
+      "answer": 5,
+      "actions": [
+        "Place 135 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 135 = 3 × 45. Keep every earlier branch visible.",
+        "Split the next composite node: 45 = 3 × 15. Keep every earlier branch visible.",
+        "Split the next composite node: 15 = 3 × 5. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 135 = 3 × 3 × 3 × 5.",
+        "Select the largest prime leaf. The largest prime factor is 5. 5 divides 135 and is prime."
+      ],
+      "memo": "135 = 3 × 3 × 3 × 5. Select the largest prime leaf in the factor tree. largest prime factor = 5. 5 is prime and divides 135.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w03",
+      "title": "largest prime factor of 221",
+      "problem": "Find the largest prime factor of 221. Show its prime factorisation.",
+      "model": "factor_tree",
+      "kind": "largest_prime",
+      "numbers": [
+        221
+      ],
+      "factors": [
+        [
+          13,
+          17
+        ]
+      ],
+      "answer": 17,
+      "actions": [
+        "Place 221 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 221 = 13 × 17. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 221 = 13 × 17.",
+        "Select the largest prime leaf. The largest prime factor is 17. 17 divides 221 and is prime."
+      ],
+      "memo": "221 = 13 × 17. Select the largest prime leaf in the factor tree. largest prime factor = 17. 17 is prime and divides 221.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w04",
+      "title": "HCF of 36, 60",
+      "problem": "Find the HCF of 36, 60 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "hcf",
+      "numbers": [
+        36,
+        60
+      ],
+      "factors": [
+        [
+          2,
+          2,
+          3,
+          3
+        ],
+        [
+          2,
+          2,
+          3,
+          5
+        ]
+      ],
+      "answer": 12,
+      "actions": [
+        "Place 36, 60 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 36 = 2 × 18; 60 = 2 × 30. Keep every earlier branch visible.",
+        "Split the next composite node: 18 = 2 × 9; 30 = 2 × 15. Keep every earlier branch visible.",
+        "Split the next composite node: 9 = 3 × 3; 15 = 3 × 5. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 36 = 2 × 2 × 3 × 3, 60 = 2 × 2 × 3 × 5.",
+        "Select the lowest shared prime powers. The HCF is 12. 12 divides each original root."
+      ],
+      "memo": "36 = 2 × 2 × 3 × 3, 60 = 2 × 2 × 3 × 5. Take only shared prime powers at their smallest counts. HCF = 12. 12 divides every original number.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w05",
+      "title": "LCM of 12, 18",
+      "problem": "Find the LCM of 12, 18 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "lcm",
+      "numbers": [
+        12,
+        18
+      ],
+      "factors": [
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          3
+        ]
+      ],
+      "answer": 36,
+      "actions": [
+        "Place 12, 18 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 12 = 2 × 6; 18 = 2 × 9. Keep every earlier branch visible.",
+        "Split the next composite node: 6 = 2 × 3; 9 = 3 × 3. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 12 = 2 × 2 × 3, 18 = 2 × 3 × 3.",
+        "Select all highest powers needed. The LCM is 36. Each original root divides 36."
+      ],
+      "memo": "12 = 2 × 2 × 3, 18 = 2 × 3 × 3. Take every prime power at its largest count. LCM = 36. Each original number divides 36 exactly.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w06",
+      "title": "HCF of 72, 90",
+      "problem": "Find the HCF of 72, 90 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "hcf",
+      "numbers": [
+        72,
+        90
+      ],
+      "factors": [
+        [
+          2,
+          2,
+          2,
+          3,
+          3
+        ],
+        [
+          2,
+          3,
+          3,
+          5
+        ]
+      ],
+      "answer": 18,
+      "actions": [
+        "Place 72, 90 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 72 = 2 × 36; 90 = 2 × 45. Keep every earlier branch visible.",
+        "Split the next composite node: 36 = 2 × 18; 45 = 3 × 15. Keep every earlier branch visible.",
+        "Split the next composite node: 18 = 2 × 9; 15 = 3 × 5. Keep every earlier branch visible.",
+        "Split the next composite node: 9 = 3 × 3. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 72 = 2 × 2 × 2 × 3 × 3, 90 = 2 × 3 × 3 × 5.",
+        "Select the lowest shared prime powers. The HCF is 18. 18 divides each original root."
+      ],
+      "memo": "72 = 2 × 2 × 2 × 3 × 3, 90 = 2 × 3 × 3 × 5. Take only shared prime powers at their smallest counts. HCF = 18. 18 divides every original number.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w07",
+      "title": "LCM of 24, 40",
+      "problem": "Find the LCM of 24, 40 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "lcm",
+      "numbers": [
+        24,
+        40
+      ],
+      "factors": [
+        [
+          2,
+          2,
+          2,
+          3
+        ],
+        [
+          2,
+          2,
+          2,
+          5
+        ]
+      ],
+      "answer": 120,
+      "actions": [
+        "Place 24, 40 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 24 = 2 × 12; 40 = 2 × 20. Keep every earlier branch visible.",
+        "Split the next composite node: 12 = 2 × 6; 20 = 2 × 10. Keep every earlier branch visible.",
+        "Split the next composite node: 6 = 2 × 3; 10 = 2 × 5. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 24 = 2 × 2 × 2 × 3, 40 = 2 × 2 × 2 × 5.",
+        "Select all highest powers needed. The LCM is 120. Each original root divides 120."
+      ],
+      "memo": "24 = 2 × 2 × 2 × 3, 40 = 2 × 2 × 2 × 5. Take every prime power at its largest count. LCM = 120. Each original number divides 120 exactly.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w08",
+      "title": "HCF of 84, 126",
+      "problem": "Find the HCF of 84, 126 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "hcf",
+      "numbers": [
+        84,
+        126
+      ],
+      "factors": [
+        [
+          2,
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          3,
+          3,
+          7
+        ]
+      ],
+      "answer": 42,
+      "actions": [
+        "Place 84, 126 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 84 = 2 × 42; 126 = 2 × 63. Keep every earlier branch visible.",
+        "Split the next composite node: 42 = 2 × 21; 63 = 3 × 21. Keep every earlier branch visible.",
+        "Split the next composite node: 21 = 3 × 7; 21 = 3 × 7. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 84 = 2 × 2 × 3 × 7, 126 = 2 × 3 × 3 × 7.",
+        "Select the lowest shared prime powers. The HCF is 42. 42 divides each original root."
+      ],
+      "memo": "84 = 2 × 2 × 3 × 7, 126 = 2 × 3 × 3 × 7. Take only shared prime powers at their smallest counts. HCF = 42. 42 divides every original number.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w09",
+      "title": "LCM of 18, 30",
+      "problem": "Find the LCM of 18, 30 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "lcm",
+      "numbers": [
+        18,
+        30
+      ],
+      "factors": [
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ],
+      "answer": 90,
+      "actions": [
+        "Place 18, 30 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 18 = 2 × 9; 30 = 2 × 15. Keep every earlier branch visible.",
+        "Split the next composite node: 9 = 3 × 3; 15 = 3 × 5. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 18 = 2 × 3 × 3, 30 = 2 × 3 × 5.",
+        "Select all highest powers needed. The LCM is 90. Each original root divides 90."
+      ],
+      "memo": "18 = 2 × 3 × 3, 30 = 2 × 3 × 5. Take every prime power at its largest count. LCM = 90. Each original number divides 90 exactly.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w10",
+      "title": "HCF of 96, 144",
+      "problem": "Find the HCF of 96, 144 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "hcf",
+      "numbers": [
+        96,
+        144
+      ],
+      "factors": [
+        [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "answer": 48,
+      "actions": [
+        "Place 96, 144 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 96 = 2 × 48; 144 = 2 × 72. Keep every earlier branch visible.",
+        "Split the next composite node: 48 = 2 × 24; 72 = 2 × 36. Keep every earlier branch visible.",
+        "Split the next composite node: 24 = 2 × 12; 36 = 2 × 18. Keep every earlier branch visible.",
+        "Split the next composite node: 12 = 2 × 6; 18 = 2 × 9. Keep every earlier branch visible.",
+        "Split the next composite node: 6 = 2 × 3; 9 = 3 × 3. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 96 = 2 × 2 × 2 × 2 × 2 × 3, 144 = 2 × 2 × 2 × 2 × 3 × 3.",
+        "Select the lowest shared prime powers. The HCF is 48. 48 divides each original root."
+      ],
+      "memo": "96 = 2 × 2 × 2 × 2 × 2 × 3, 144 = 2 × 2 × 2 × 2 × 3 × 3. Take only shared prime powers at their smallest counts. HCF = 48. 48 divides every original number.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w11",
+      "title": "LCM of 28, 42",
+      "problem": "Find the LCM of 28, 42 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "lcm",
+      "numbers": [
+        28,
+        42
+      ],
+      "factors": [
+        [
+          2,
+          2,
+          7
+        ],
+        [
+          2,
+          3,
+          7
+        ]
+      ],
+      "answer": 84,
+      "actions": [
+        "Place 28, 42 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 28 = 2 × 14; 42 = 2 × 21. Keep every earlier branch visible.",
+        "Split the next composite node: 14 = 2 × 7; 21 = 3 × 7. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 28 = 2 × 2 × 7, 42 = 2 × 3 × 7.",
+        "Select all highest powers needed. The LCM is 84. Each original root divides 84."
+      ],
+      "memo": "28 = 2 × 2 × 7, 42 = 2 × 3 × 7. Take every prime power at its largest count. LCM = 84. Each original number divides 84 exactly.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w12",
+      "title": "HCF of 105, 175",
+      "problem": "Find the HCF of 105, 175 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "hcf",
+      "numbers": [
+        105,
+        175
+      ],
+      "factors": [
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          5,
+          5,
+          7
+        ]
+      ],
+      "answer": 35,
+      "actions": [
+        "Place 105, 175 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 105 = 3 × 35; 175 = 5 × 35. Keep every earlier branch visible.",
+        "Split the next composite node: 35 = 5 × 7; 35 = 5 × 7. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 105 = 3 × 5 × 7, 175 = 5 × 5 × 7.",
+        "Select the lowest shared prime powers. The HCF is 35. 35 divides each original root."
+      ],
+      "memo": "105 = 3 × 5 × 7, 175 = 5 × 5 × 7. Take only shared prime powers at their smallest counts. HCF = 35. 35 divides every original number.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w13",
+      "title": "LCM of 32, 48",
+      "problem": "Find the LCM of 32, 48 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "lcm",
+      "numbers": [
+        32,
+        48
+      ],
+      "factors": [
+        [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          3
+        ]
+      ],
+      "answer": 96,
+      "actions": [
+        "Place 32, 48 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 32 = 2 × 16; 48 = 2 × 24. Keep every earlier branch visible.",
+        "Split the next composite node: 16 = 2 × 8; 24 = 2 × 12. Keep every earlier branch visible.",
+        "Split the next composite node: 8 = 2 × 4; 12 = 2 × 6. Keep every earlier branch visible.",
+        "Split the next composite node: 4 = 2 × 2; 6 = 2 × 3. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 32 = 2 × 2 × 2 × 2 × 2, 48 = 2 × 2 × 2 × 2 × 3.",
+        "Select all highest powers needed. The LCM is 96. Each original root divides 96."
+      ],
+      "memo": "32 = 2 × 2 × 2 × 2 × 2, 48 = 2 × 2 × 2 × 2 × 3. Take every prime power at its largest count. LCM = 96. Each original number divides 96 exactly.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w14",
+      "title": "HCF of 72, 108, 180",
+      "problem": "Find the HCF of 72, 108, 180 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "hcf",
+      "numbers": [
+        72,
+        108,
+        180
+      ],
+      "factors": [
+        [
+          2,
+          2,
+          2,
+          3,
+          3
+        ],
+        [
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        [
+          2,
+          2,
+          3,
+          3,
+          5
+        ]
+      ],
+      "answer": 36,
+      "actions": [
+        "Place 72, 108, 180 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 72 = 2 × 36; 108 = 2 × 54; 180 = 2 × 90. Keep every earlier branch visible.",
+        "Split the next composite node: 36 = 2 × 18; 54 = 2 × 27; 90 = 2 × 45. Keep every earlier branch visible.",
+        "Split the next composite node: 18 = 2 × 9; 27 = 3 × 9; 45 = 3 × 15. Keep every earlier branch visible.",
+        "Split the next composite node: 9 = 3 × 3; 9 = 3 × 3; 15 = 3 × 5. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 72 = 2 × 2 × 2 × 3 × 3, 108 = 2 × 2 × 3 × 3 × 3, 180 = 2 × 2 × 3 × 3 × 5.",
+        "Select the lowest shared prime powers. The HCF is 36. 36 divides each original root."
+      ],
+      "memo": "72 = 2 × 2 × 2 × 3 × 3, 108 = 2 × 2 × 3 × 3 × 3, 180 = 2 × 2 × 3 × 3 × 5. Take only shared prime powers at their smallest counts. HCF = 36. 36 divides every original number.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    },
+    {
+      "id": "g8-whole-l02-w15",
+      "title": "LCM of 8, 12, 15",
+      "problem": "Find the LCM of 8, 12, 15 by prime factorisation. Show the factor trees and check your result.",
+      "model": "factor_tree",
+      "kind": "lcm",
+      "numbers": [
+        8,
+        12,
+        15
+      ],
+      "factors": [
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "answer": 120,
+      "actions": [
+        "Place 8, 12, 15 as the factor-tree roots. A prime leaf has no smaller factors except one.",
+        "Split the next composite node: 8 = 2 × 4; 12 = 2 × 6; 15 = 3 × 5. Keep every earlier branch visible.",
+        "Split the next composite node: 4 = 2 × 2; 6 = 2 × 3. Keep every earlier branch visible.",
+        "Read all prime leaves and multiply them back to the roots: 8 = 2 × 2 × 2, 12 = 2 × 2 × 3, 15 = 3 × 5.",
+        "Select all highest powers needed. The LCM is 120. Each original root divides 120."
+      ],
+      "memo": "8 = 2 × 2 × 2, 12 = 2 × 2 × 3, 15 = 3 × 5. Take every prime power at its largest count. LCM = 120. Each original number divides 120 exactly.",
+      "misconception": "Confusing common minimum powers for HCF with maximum powers for LCM, or treating 1 as prime."
+    }
+  ]
+}

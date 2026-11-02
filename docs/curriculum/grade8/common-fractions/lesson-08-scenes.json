@@ -1,0 +1,274 @@
+{
+  "scenes": [
+    {
+      "id": "g8-frac-l08-w01",
+      "kind": "increase",
+      "values": [
+        "10",
+        "80"
+      ],
+      "problem": "Increase 80 by 10%. What is the new amount?",
+      "answer": "88",
+      "rows": [
+        "The original amount is 80; it represents 100%.",
+        "Calculate 10% of 80: 80 × 10/100 = 8.",
+        "Add the change: 80 + 8 = 88."
+      ],
+      "memo": "The original amount is 80; it represents 100%. Calculate 10% of 80: 80 × 10/100 = 8. Add the change: 80 + 8 = 88. Reverse check using the original whole 80.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w02",
+      "kind": "decrease",
+      "values": [
+        "25",
+        "60"
+      ],
+      "problem": "Decrease 60 by 25%. What is the new amount?",
+      "answer": "45",
+      "rows": [
+        "The original amount is 60; it represents 100%.",
+        "Calculate 25% of 60: 60 × 25/100 = 15.",
+        "Subtract the change: 60 − 15 = 45."
+      ],
+      "memo": "The original amount is 60; it represents 100%. Calculate 25% of 60: 60 × 25/100 = 15. Subtract the change: 60 − 15 = 45. Reverse check using the original whole 60.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w03",
+      "kind": "increase",
+      "values": [
+        "15",
+        "200"
+      ],
+      "problem": "Increase 200 by 15%. What is the new amount?",
+      "answer": "230",
+      "rows": [
+        "The original amount is 200; it represents 100%.",
+        "Calculate 15% of 200: 200 × 15/100 = 30.",
+        "Add the change: 200 + 30 = 230."
+      ],
+      "memo": "The original amount is 200; it represents 100%. Calculate 15% of 200: 200 × 15/100 = 30. Add the change: 200 + 30 = 230. Reverse check using the original whole 200.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w04",
+      "kind": "decrease",
+      "values": [
+        "20",
+        "150"
+      ],
+      "problem": "Decrease 150 by 20%. What is the new amount?",
+      "answer": "120",
+      "rows": [
+        "The original amount is 150; it represents 100%.",
+        "Calculate 20% of 150: 150 × 20/100 = 30.",
+        "Subtract the change: 150 − 30 = 120."
+      ],
+      "memo": "The original amount is 150; it represents 100%. Calculate 20% of 150: 150 × 20/100 = 30. Subtract the change: 150 − 30 = 120. Reverse check using the original whole 150.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w05",
+      "kind": "change",
+      "values": [
+        "120",
+        "100"
+      ],
+      "problem": "The value changes from 100 to 120. Find the percentage change and state its direction.",
+      "answer": "20% increase",
+      "rows": [
+        "The ORIGINAL amount is 100, the new amount is 120.",
+        "The increase is |120 − 100| = 20.",
+        "Divide change by ORIGINAL amount: 20 ÷ 100 × 100% = 20% increase."
+      ],
+      "memo": "The ORIGINAL amount is 100, the new amount is 120. The increase is |120 − 100| = 20. Divide change by ORIGINAL amount: 20 ÷ 100 × 100% = 20% increase. Reverse check using the original whole 100.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w06",
+      "kind": "increase",
+      "values": [
+        "12.5",
+        "320"
+      ],
+      "problem": "Increase 320 by 12.5%. What is the new amount?",
+      "answer": "360",
+      "rows": [
+        "The original amount is 320; it represents 100%.",
+        "Calculate 12.5% of 320: 320 × 12.5/100 = 40.",
+        "Add the change: 320 + 40 = 360."
+      ],
+      "memo": "The original amount is 320; it represents 100%. Calculate 12.5% of 320: 320 × 12.5/100 = 40. Add the change: 320 + 40 = 360. Reverse check using the original whole 320.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w07",
+      "kind": "decrease",
+      "values": [
+        "37.5",
+        "80"
+      ],
+      "problem": "Decrease 80 by 37.5%. What is the new amount?",
+      "answer": "50",
+      "rows": [
+        "The original amount is 80; it represents 100%.",
+        "Calculate 37.5% of 80: 80 × 37.5/100 = 30.",
+        "Subtract the change: 80 − 30 = 50."
+      ],
+      "memo": "The original amount is 80; it represents 100%. Calculate 37.5% of 80: 80 × 37.5/100 = 30. Subtract the change: 80 − 30 = 50. Reverse check using the original whole 80.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w08",
+      "kind": "change",
+      "values": [
+        "81",
+        "90"
+      ],
+      "problem": "The value changes from 90 to 81. Find the percentage change and state its direction.",
+      "answer": "10% decrease",
+      "rows": [
+        "The ORIGINAL amount is 90, the new amount is 81.",
+        "The decrease is |81 − 90| = 9.",
+        "Divide change by ORIGINAL amount: 9 ÷ 90 × 100% = 10% decrease."
+      ],
+      "memo": "The ORIGINAL amount is 90, the new amount is 81. The decrease is |81 − 90| = 9. Divide change by ORIGINAL amount: 9 ÷ 90 × 100% = 10% decrease. Reverse check using the original whole 90.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w09",
+      "kind": "increase",
+      "values": [
+        "7.5",
+        "240"
+      ],
+      "problem": "Increase 240 by 7.5%. What is the new amount?",
+      "answer": "258",
+      "rows": [
+        "The original amount is 240; it represents 100%.",
+        "Calculate 7.5% of 240: 240 × 7.5/100 = 18.",
+        "Add the change: 240 + 18 = 258."
+      ],
+      "memo": "The original amount is 240; it represents 100%. Calculate 7.5% of 240: 240 × 7.5/100 = 18. Add the change: 240 + 18 = 258. Reverse check using the original whole 240.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w10",
+      "kind": "decrease",
+      "values": [
+        "15",
+        "480"
+      ],
+      "problem": "Decrease 480 by 15%. What is the new amount?",
+      "answer": "408",
+      "rows": [
+        "The original amount is 480; it represents 100%.",
+        "Calculate 15% of 480: 480 × 15/100 = 72.",
+        "Subtract the change: 480 − 72 = 408."
+      ],
+      "memo": "The original amount is 480; it represents 100%. Calculate 15% of 480: 480 × 15/100 = 72. Subtract the change: 480 − 72 = 408. Reverse check using the original whole 480.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w11",
+      "kind": "change",
+      "values": [
+        "72",
+        "60"
+      ],
+      "problem": "The value changes from 60 to 72. Find the percentage change and state its direction.",
+      "answer": "20% increase",
+      "rows": [
+        "The ORIGINAL amount is 60, the new amount is 72.",
+        "The increase is |72 − 60| = 12.",
+        "Divide change by ORIGINAL amount: 12 ÷ 60 × 100% = 20% increase."
+      ],
+      "memo": "The ORIGINAL amount is 60, the new amount is 72. The increase is |72 − 60| = 12. Divide change by ORIGINAL amount: 12 ÷ 60 × 100% = 20% increase. Reverse check using the original whole 60.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w12",
+      "kind": "decrease",
+      "values": [
+        "12.5",
+        "560"
+      ],
+      "problem": "Decrease 560 by 12.5%. What is the new amount?",
+      "answer": "490",
+      "rows": [
+        "The original amount is 560; it represents 100%.",
+        "Calculate 12.5% of 560: 560 × 12.5/100 = 70.",
+        "Subtract the change: 560 − 70 = 490."
+      ],
+      "memo": "The original amount is 560; it represents 100%. Calculate 12.5% of 560: 560 × 12.5/100 = 70. Subtract the change: 560 − 70 = 490. Reverse check using the original whole 560.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w13",
+      "kind": "increase",
+      "values": [
+        "35",
+        "160"
+      ],
+      "problem": "Increase 160 by 35%. What is the new amount?",
+      "answer": "216",
+      "rows": [
+        "The original amount is 160; it represents 100%.",
+        "Calculate 35% of 160: 160 × 35/100 = 56.",
+        "Add the change: 160 + 56 = 216."
+      ],
+      "memo": "The original amount is 160; it represents 100%. Calculate 35% of 160: 160 × 35/100 = 56. Add the change: 160 + 56 = 216. Reverse check using the original whole 160.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w14",
+      "kind": "change",
+      "values": [
+        "105",
+        "140"
+      ],
+      "problem": "The value changes from 140 to 105. Find the percentage change and state its direction.",
+      "answer": "25% decrease",
+      "rows": [
+        "The ORIGINAL amount is 140, the new amount is 105.",
+        "The decrease is |105 − 140| = 35.",
+        "Divide change by ORIGINAL amount: 35 ÷ 140 × 100% = 25% decrease."
+      ],
+      "memo": "The ORIGINAL amount is 140, the new amount is 105. The decrease is |105 − 140| = 35. Divide change by ORIGINAL amount: 35 ÷ 140 × 100% = 25% decrease. Reverse check using the original whole 140.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l08-w15",
+      "kind": "decrease",
+      "values": [
+        "17.5",
+        "800"
+      ],
+      "problem": "Decrease 800 by 17.5%. What is the new amount?",
+      "answer": "660",
+      "rows": [
+        "The original amount is 800; it represents 100%.",
+        "Calculate 17.5% of 800: 800 × 17.5/100 = 140.",
+        "Subtract the change: 800 − 140 = 660."
+      ],
+      "memo": "The original amount is 800; it represents 100%. Calculate 17.5% of 800: 800 × 17.5/100 = 140. Subtract the change: 800 − 140 = 660. Reverse check using the original whole 800.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "scenes": [
+    {
+      "id": "g8-int-l05-w01",
+      "title": "Order of signed addends",
+      "problem": "Calculate both sides and decide whether 7+(-3) = (-3)+7. Explain the rule or the first error.",
+      "expression": "7+(-3) = (-3)+7",
+      "source_expression": "7+(-3)",
+      "comparison_expression": "(-3)+7",
+      "claim_true": true,
+      "model": "commutative_add",
+      "answer": "true",
+      "rows": [
+        "Add the left side: 7 + (−3) = 4.",
+        "Swap addends and add the right side: (−3) + 7 = 4.",
+        "The results match; addition is commutative even with a negative addend."
+      ],
+      "memo": "Left = 4; right = 4. The equality is true. The results match; addition is commutative even with a negative addend.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "Add the left side: 7 + (−3) = 4.",
+        "Swap addends and add the right side: (−3) + 7 = 4.",
+        "The results match; addition is commutative even with a negative addend.",
+        "Verify against the original equality: Left = 4; right = 4. The equality is true. The results match; addition is commutative even with a negative addend."
+      ],
+      "left_value": 4
+    },
+    {
+      "id": "g8-int-l05-w02",
+      "title": "Order of signed factors",
+      "problem": "Calculate both sides and decide whether (-4)*5 = 5*(-4). Explain the rule or the first error.",
+      "expression": "(-4)*5 = 5*(-4)",
+      "source_expression": "(-4)*5",
+      "comparison_expression": "5*(-4)",
+      "claim_true": true,
+      "model": "commutative_mul",
+      "answer": "true",
+      "rows": [
+        "Multiply −4 × 5 to obtain −20.",
+        "Reverse the factors: 5 × (−4) is still −20.",
+        "Products match; multiplication is commutative."
+      ],
+      "memo": "Left = -20; right = -20. The equality is true. Products match; multiplication is commutative.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "Multiply −4 × 5 to obtain −20.",
+        "Reverse the factors: 5 × (−4) is still −20.",
+        "Products match; multiplication is commutative.",
+        "Verify against the original equality: Left = -20; right = -20. The equality is true. Products match; multiplication is commutative."
+      ],
+      "left_value": -20
+    },
+    {
+      "id": "g8-int-l05-w03",
+      "title": "Swapping subtraction terms",
+      "problem": "Calculate both sides and decide whether 9-(-2) = (-2)-9. Explain the rule or the first error.",
+      "expression": "9-(-2) = (-2)-9",
+      "source_expression": "9-(-2)",
+      "comparison_expression": "(-2)-9",
+      "claim_true": false,
+      "model": "noncommutative_sub",
+      "answer": "false",
+      "rows": [
+        "Calculate 9 − (−2) = 11.",
+        "Swap the terms: −2 − 9 = −11.",
+        "The values differ; subtraction is not commutative."
+      ],
+      "memo": "Left = 11; right = -11. The equality is false. The values differ; subtraction is not commutative.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "Calculate 9 − (−2) = 11.",
+        "Swap the terms: −2 − 9 = −11.",
+        "The values differ; subtraction is not commutative.",
+        "Verify against the original equality: Left = 11; right = -11. The equality is false. The values differ; subtraction is not commutative."
+      ],
+      "left_value": 11
+    },
+    {
+      "id": "g8-int-l05-w04",
+      "title": "Regrouping three addends",
+      "problem": "Calculate both sides and decide whether ((-6)+4)+(-1) = (-6)+(4+(-1)). Explain the rule or the first error.",
+      "expression": "((-6)+4)+(-1) = (-6)+(4+(-1))",
+      "source_expression": "((-6)+4)+(-1)",
+      "comparison_expression": "(-6)+(4+(-1))",
+      "claim_true": true,
+      "model": "associative_add",
+      "answer": "true",
+      "rows": [
+        "Calculate the first grouping: −6 + 4 = −2, then −2 + (−1) = −3.",
+        "Calculate the second grouping: 4 + (−1) = 3, then −6 + 3 = −3.",
+        "The sums agree because regrouping addition is legal."
+      ],
+      "memo": "Left = -3; right = -3. The equality is true. The sums agree because regrouping addition is legal.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "Calculate the first grouping: −6 + 4 = −2, then −2 + (−1) = −3.",
+        "Calculate the second grouping: 4 + (−1) = 3, then −6 + 3 = −3.",
+        "The sums agree because regrouping addition is legal.",
+        "Verify against the original equality: Left = -3; right = -3. The equality is true. The sums agree because regrouping addition is legal."
+      ],
+      "left_value": -3
+    },
+    {
+      "id": "g8-int-l05-w05",
+      "title": "Regrouping signed products",
+      "problem": "Calculate both sides and decide whether ((-2)*3)*(-4) = (-2)*(3*(-4)). Explain the rule or the first error.",
+      "expression": "((-2)*3)*(-4) = (-2)*(3*(-4))",
+      "source_expression": "((-2)*3)*(-4)",
+      "comparison_expression": "(-2)*(3*(-4))",
+      "claim_true": true,
+      "model": "associative_mul",
+      "answer": "true",
+      "rows": [
+        "Left grouping gives −6 × (−4) = 24.",
+        "Right grouping gives −2 × (−12) = 24.",
+        "The product stays 24; regrouping factors does not change it."
+      ],
+      "memo": "Left = 24; right = 24. The equality is true. The product stays 24; regrouping factors does not change it.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "Left grouping gives −6 × (−4) = 24.",
+        "Right grouping gives −2 × (−12) = 24.",
+        "The product stays 24; regrouping factors does not change it.",
+        "Verify against the original equality: Left = 24; right = 24. The equality is true. The product stays 24; regrouping factors does not change it."
+      ],
+      "left_value": 24
+    },
+    {
+      "id": "g8-int-l05-w06",
+      "title": "Subtraction brackets matter",
+      "problem": "Calculate both sides and decide whether ((-8)-3)-2 = (-8)-(3-2). Explain the rule or the first error.",
+      "expression": "((-8)-3)-2 = (-8)-(3-2)",
+      "source_expression": "((-8)-3)-2",
+      "comparison_expression": "(-8)-(3-2)",
+      "claim_true": false,
+      "model": "nonassociative_sub",
+      "answer": "false",
+      "rows": [
+        "Left grouping: −8 − 3 = −11; then −11 − 2 = −13.",
+        "Right grouping: 3 − 2 = 1; then −8 − 1 = −9.",
+        "The results differ; subtraction is not associative."
+      ],
+      "memo": "Left = -13; right = -9. The equality is false. The results differ; subtraction is not associative.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "Left grouping: −8 − 3 = −11; then −11 − 2 = −13.",
+        "Right grouping: 3 − 2 = 1; then −8 − 1 = −9.",
+        "The results differ; subtraction is not associative.",
+        "Verify against the original equality: Left = -13; right = -9. The equality is false. The results differ; subtraction is not associative."
+      ],
+      "left_value": -13
+    },
+    {
+      "id": "g8-int-l05-w07",
+      "title": "Distribute across a sum",
+      "problem": "Calculate both sides and decide whether (-3)*(4+(-2)) = (-3)*4+(-3)*(-2). Explain the rule or the first error.",
+      "expression": "(-3)*(4+(-2)) = (-3)*4+(-3)*(-2)",
+      "source_expression": "(-3)*(4+(-2))",
+      "comparison_expression": "(-3)*4+(-3)*(-2)",
+      "claim_true": true,
+      "model": "distributive",
+      "answer": "true",
+      "rows": [
+        "Inside the bracket 4 + (−2) = 2; −3 × 2 = −6.",
+        "Distribute to both terms: −12 + 6 = −6.",
+        "Both ways agree; each bracket term received the multiplier."
+      ],
+      "memo": "Left = -6; right = -6. The equality is true. Both ways agree; each bracket term received the multiplier.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "Inside the bracket 4 + (−2) = 2; −3 × 2 = −6.",
+        "Distribute to both terms: −12 + 6 = −6.",
+        "Both ways agree; each bracket term received the multiplier.",
+        "Verify against the original equality: Left = -6; right = -6. The equality is true. Both ways agree; each bracket term received the multiplier."
+      ],
+      "left_value": -6
+    },
+    {
+      "id": "g8-int-l05-w08",
+      "title": "Distribute across a difference",
+      "problem": "Calculate both sides and decide whether 5*(7-10) = 5*7-5*10. Explain the rule or the first error.",
+      "expression": "5*(7-10) = 5*7-5*10",
+      "source_expression": "5*(7-10)",
+      "comparison_expression": "5*7-5*10",
+      "claim_true": true,
+      "model": "distributive",
+      "answer": "true",
+      "rows": [
+        "First compute 7 − 10 = −3; five times −3 is −15.",
+        "Distribute five: 35 − 50 = −15.",
+        "The signed values agree."
+      ],
+      "memo": "Left = -15; right = -15. The equality is true. The signed values agree.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "First compute 7 − 10 = −3; five times −3 is −15.",
+        "Distribute five: 35 − 50 = −15.",
+        "The signed values agree.",
+        "Verify against the original equality: Left = -15; right = -15. The equality is true. The signed values agree."
+      ],
+      "left_value": -15
+    },
+    {
+      "id": "g8-int-l05-w09",
+      "title": "Missing a product in a claim",
+      "problem": "Calculate both sides and decide whether (-4)*(2+(-5)) = (-4)*2+(-5). Explain the rule or the first error.",
+      "expression": "(-4)*(2+(-5)) = (-4)*2+(-5)",
+      "source_expression": "(-4)*(2+(-5))",
+      "comparison_expression": "(-4)*2+(-5)",
+      "claim_true": false,
+      "model": "false_distribution",
+      "answer": "false",
+      "rows": [
+        "The left bracket is −3; −4 × (−3) = 12.",
+        "The proposed right side is −8 + (−5) = −13.",
+        "These differ because −4 was not multiplied by both terms."
+      ],
+      "memo": "Left = 12; right = -13. The equality is false. These differ because −4 was not multiplied by both terms.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "The left bracket is −3; −4 × (−3) = 12.",
+        "The proposed right side is −8 + (−5) = −13.",
+        "These differ because −4 was not multiplied by both terms.",
+        "Verify against the original equality: Left = 12; right = -13. The equality is false. These differ because −4 was not multiplied by both terms."
+      ],
+      "left_value": 12
+    },
+    {
+      "id": "g8-int-l05-w10",
+      "title": "A signed zero pair",
+      "problem": "Calculate both sides and decide whether (-9)+9 = 0. Explain the rule or the first error.",
+      "expression": "(-9)+9 = 0",
+      "source_expression": "(-9)+9",
+      "comparison_expression": "0",
+      "claim_true": true,
+      "model": "additive_inverse",
+      "answer": "true",
+      "rows": [
+        "Start at −9 and move nine units right.",
+        "The path reaches zero; the opposite of −9 is 9.",
+        "The left side equals zero, confirming the additive inverse."
+      ],
+      "memo": "Left = 0; right = 0. The equality is true. The left side equals zero, confirming the additive inverse.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "Start at −9 and move nine units right.",
+        "The path reaches zero; the opposite of −9 is 9.",
+        "The left side equals zero, confirming the additive inverse.",
+        "Verify against the original equality: Left = 0; right = 0. The equality is true. The left side equals zero, confirming the additive inverse."
+      ],
+      "left_value": 0
+    },
+    {
+      "id": "g8-int-l05-w11",
+      "title": "Adding zero to a negative",
+      "problem": "Calculate both sides and decide whether (-12)+0 = (-12). Explain the rule or the first error.",
+      "expression": "(-12)+0 = (-12)",
+      "source_expression": "(-12)+0",
+      "comparison_expression": "(-12)",
+      "claim_true": true,
+      "model": "additive_identity",
+      "answer": "true",
+      "rows": [
+        "Adding zero makes no movement from −12.",
+        "The left side remains −12.",
+        "This is the additive identity, not an inverse."
+      ],
+      "memo": "Left = -12; right = -12. The equality is true. This is the additive identity, not an inverse.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "Adding zero makes no movement from −12.",
+        "The left side remains −12.",
+        "This is the additive identity, not an inverse.",
+        "Verify against the original equality: Left = -12; right = -12. The equality is true. This is the additive identity, not an inverse."
+      ],
+      "left_value": -12
+    },
+    {
+      "id": "g8-int-l05-w12",
+      "title": "Multiply by one",
+      "problem": "Calculate both sides and decide whether (-7)*1 = (-7). Explain the rule or the first error.",
+      "expression": "(-7)*1 = (-7)",
+      "source_expression": "(-7)*1",
+      "comparison_expression": "(-7)",
+      "claim_true": true,
+      "model": "multiplicative_identity",
+      "answer": "true",
+      "rows": [
+        "One copy of −7 is −7.",
+        "The product stays −7.",
+        "One is the multiplicative identity."
+      ],
+      "memo": "Left = -7; right = -7. The equality is true. One is the multiplicative identity.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "One copy of −7 is −7.",
+        "The product stays −7.",
+        "One is the multiplicative identity.",
+        "Verify against the original equality: Left = -7; right = -7. The equality is true. One is the multiplicative identity."
+      ],
+      "left_value": -7
+    },
+    {
+      "id": "g8-int-l05-w13",
+      "title": "Zero groups of a signed value",
+      "problem": "Calculate both sides and decide whether (-7)*0 = 0. Explain the rule or the first error.",
+      "expression": "(-7)*0 = 0",
+      "source_expression": "(-7)*0",
+      "comparison_expression": "0",
+      "claim_true": true,
+      "model": "zero_product",
+      "answer": "true",
+      "rows": [
+        "Zero groups of −7 contain no signed counters.",
+        "The product is zero.",
+        "Zero is not the multiplicative inverse of −7."
+      ],
+      "memo": "Left = 0; right = 0. The equality is true. Zero is not the multiplicative inverse of −7.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "Zero groups of −7 contain no signed counters.",
+        "The product is zero.",
+        "Zero is not the multiplicative inverse of −7.",
+        "Verify against the original equality: Left = 0; right = 0. The equality is true. Zero is not the multiplicative inverse of −7."
+      ],
+      "left_value": 0
+    },
+    {
+      "id": "g8-int-l05-w14",
+      "title": "Two signed products in distribution",
+      "problem": "Calculate both sides and decide whether (-6)*(3+(-8)) = (-6)*3+(-6)*(-8). Explain the rule or the first error.",
+      "expression": "(-6)*(3+(-8)) = (-6)*3+(-6)*(-8)",
+      "source_expression": "(-6)*(3+(-8))",
+      "comparison_expression": "(-6)*3+(-6)*(-8)",
+      "claim_true": true,
+      "model": "distributive",
+      "answer": "true",
+      "rows": [
+        "Inside the bracket 3 + (−8) = −5, so the left value is 30.",
+        "Distribute −6: −18 + 48 = 30.",
+        "The equality holds; sign and multiplication both matter."
+      ],
+      "memo": "Left = 30; right = 30. The equality is true. The equality holds; sign and multiplication both matter.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "Inside the bracket 3 + (−8) = −5, so the left value is 30.",
+        "Distribute −6: −18 + 48 = 30.",
+        "The equality holds; sign and multiplication both matter.",
+        "Verify against the original equality: Left = 30; right = 30. The equality is true. The equality holds; sign and multiplication both matter."
+      ],
+      "left_value": 30
+    },
+    {
+      "id": "g8-int-l05-w15",
+      "title": "Use a zero pair before adding",
+      "problem": "Calculate both sides and decide whether (-15)+(8+(-8)) = ((-15)+8)+(-8). Explain the rule or the first error.",
+      "expression": "(-15)+(8+(-8)) = ((-15)+8)+(-8)",
+      "source_expression": "(-15)+(8+(-8))",
+      "comparison_expression": "((-15)+8)+(-8)",
+      "claim_true": true,
+      "model": "inverse_associative",
+      "answer": "true",
+      "rows": [
+        "The inner pair 8 + (−8) equals zero; −15 + 0 = −15.",
+        "The regrouped sum −7 + (−8) also gives −15.",
+        "Use associativity to choose the easier grouping without changing the order of subtraction."
+      ],
+      "memo": "Left = -15; right = -15. The equality is true. Use associativity to choose the easier grouping without changing the order of subtraction.",
+      "misconception": "Do not swap subtraction or divide; distribute to every bracket term; distinguish an inverse from an identity.",
+      "actions": [
+        "Read the complete claim and identify the given signed quantities.",
+        "The inner pair 8 + (−8) equals zero; −15 + 0 = −15.",
+        "The regrouped sum −7 + (−8) also gives −15.",
+        "Use associativity to choose the easier grouping without changing the order of subtraction.",
+        "Verify against the original equality: Left = -15; right = -15. The equality is true. Use associativity to choose the easier grouping without changing the order of subtraction."
+      ],
+      "left_value": -15
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "scenes": [
+    {
+      "id": "g8-dec-l06-w01",
+      "kind": "root",
+      "values": [
+        "0.09",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal square root of 0.09.",
+      "answer": "0.3",
+      "rows": [
+        "Identify the square root: find the non-negative decimal that gives 0.09 when multiplied 2 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 0.09.",
+        "Test 0.3 as a candidate; write it as 3 ÷ 10^1.",
+        "Expand the check: 0.3 × 0.3.",
+        "The integer factors give 9, and 2 × 1 = 2 decimal places give 0.09.",
+        "Since the candidate is non-negative and its square is 0.09, the principal root is 0.3."
+      ],
+      "memo": "0.3^2 = 0.09; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w02",
+      "kind": "root",
+      "values": [
+        "0.25",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal square root of 0.25.",
+      "answer": "0.5",
+      "rows": [
+        "Identify the square root: find the non-negative decimal that gives 0.25 when multiplied 2 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 0.25.",
+        "Test 0.5 as a candidate; write it as 5 ÷ 10^1.",
+        "Expand the check: 0.5 × 0.5.",
+        "The integer factors give 25, and 2 × 1 = 2 decimal places give 0.25.",
+        "Since the candidate is non-negative and its square is 0.25, the principal root is 0.5."
+      ],
+      "memo": "0.5^2 = 0.25; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w03",
+      "kind": "root",
+      "values": [
+        "1.96",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal square root of 1.96.",
+      "answer": "1.4",
+      "rows": [
+        "Identify the square root: find the non-negative decimal that gives 1.96 when multiplied 2 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 1.96.",
+        "Test 1.4 as a candidate; write it as 14 ÷ 10^1.",
+        "Expand the check: 1.4 × 1.4.",
+        "The integer factors give 196, and 2 × 1 = 2 decimal places give 1.96.",
+        "Since the candidate is non-negative and its square is 1.96, the principal root is 1.4."
+      ],
+      "memo": "1.4^2 = 1.96; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w04",
+      "kind": "root",
+      "values": [
+        "0.008",
+        "3"
+      ],
+      "degree": 3,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal 3rd root of 0.008.",
+      "answer": "0.2",
+      "rows": [
+        "Identify the cube root: find the non-negative decimal that gives 0.008 when multiplied 3 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 0.008.",
+        "Test 0.2 as a candidate; write it as 2 ÷ 10^1.",
+        "Expand the check: 0.2 × 0.2 × 0.2.",
+        "The integer factors give 8, and 3 × 1 = 3 decimal places give 0.008.",
+        "Since the candidate is non-negative and its cube is 0.008, the principal root is 0.2."
+      ],
+      "memo": "0.2^3 = 0.008; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w05",
+      "kind": "root",
+      "values": [
+        "2.25",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal square root of 2.25.",
+      "answer": "1.5",
+      "rows": [
+        "Identify the square root: find the non-negative decimal that gives 2.25 when multiplied 2 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 2.25.",
+        "Test 1.5 as a candidate; write it as 15 ÷ 10^1.",
+        "Expand the check: 1.5 × 1.5.",
+        "The integer factors give 225, and 2 × 1 = 2 decimal places give 2.25.",
+        "Since the candidate is non-negative and its square is 2.25, the principal root is 1.5."
+      ],
+      "memo": "1.5^2 = 2.25; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w06",
+      "kind": "root",
+      "values": [
+        "0.216",
+        "3"
+      ],
+      "degree": 3,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal 3rd root of 0.216.",
+      "answer": "0.6",
+      "rows": [
+        "Identify the cube root: find the non-negative decimal that gives 0.216 when multiplied 3 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 0.216.",
+        "Test 0.6 as a candidate; write it as 6 ÷ 10^1.",
+        "Expand the check: 0.6 × 0.6 × 0.6.",
+        "The integer factors give 216, and 3 × 1 = 3 decimal places give 0.216.",
+        "Since the candidate is non-negative and its cube is 0.216, the principal root is 0.6."
+      ],
+      "memo": "0.6^3 = 0.216; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w07",
+      "kind": "root",
+      "values": [
+        "5.0625",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal square root of 5.0625.",
+      "answer": "2.25",
+      "rows": [
+        "Identify the square root: find the non-negative decimal that gives 5.0625 when multiplied 2 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 5.0625.",
+        "Test 2.25 as a candidate; write it as 225 ÷ 10^2.",
+        "Expand the check: 2.25 × 2.25.",
+        "The integer factors give 50625, and 2 × 2 = 4 decimal places give 5.0625.",
+        "Since the candidate is non-negative and its square is 5.0625, the principal root is 2.25."
+      ],
+      "memo": "2.25^2 = 5.0625; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w08",
+      "kind": "root",
+      "values": [
+        "0.512",
+        "3"
+      ],
+      "degree": 3,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal 3rd root of 0.512.",
+      "answer": "0.8",
+      "rows": [
+        "Identify the cube root: find the non-negative decimal that gives 0.512 when multiplied 3 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 0.512.",
+        "Test 0.8 as a candidate; write it as 8 ÷ 10^1.",
+        "Expand the check: 0.8 × 0.8 × 0.8.",
+        "The integer factors give 512, and 3 × 1 = 3 decimal places give 0.512.",
+        "Since the candidate is non-negative and its cube is 0.512, the principal root is 0.8."
+      ],
+      "memo": "0.8^3 = 0.512; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w09",
+      "kind": "root",
+      "values": [
+        "10.24",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal square root of 10.24.",
+      "answer": "3.2",
+      "rows": [
+        "Identify the square root: find the non-negative decimal that gives 10.24 when multiplied 2 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 10.24.",
+        "Test 3.2 as a candidate; write it as 32 ÷ 10^1.",
+        "Expand the check: 3.2 × 3.2.",
+        "The integer factors give 1024, and 2 × 1 = 2 decimal places give 10.24.",
+        "Since the candidate is non-negative and its square is 10.24, the principal root is 3.2."
+      ],
+      "memo": "3.2^2 = 10.24; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w10",
+      "kind": "root",
+      "values": [
+        "1.728",
+        "3"
+      ],
+      "degree": 3,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal 3rd root of 1.728.",
+      "answer": "1.2",
+      "rows": [
+        "Identify the cube root: find the non-negative decimal that gives 1.728 when multiplied 3 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 1.728.",
+        "Test 1.2 as a candidate; write it as 12 ÷ 10^1.",
+        "Expand the check: 1.2 × 1.2 × 1.2.",
+        "The integer factors give 1728, and 3 × 1 = 3 decimal places give 1.728.",
+        "Since the candidate is non-negative and its cube is 1.728, the principal root is 1.2."
+      ],
+      "memo": "1.2^3 = 1.728; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w11",
+      "kind": "root",
+      "values": [
+        "0.0225",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal square root of 0.0225.",
+      "answer": "0.15",
+      "rows": [
+        "Identify the square root: find the non-negative decimal that gives 0.0225 when multiplied 2 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 0.0225.",
+        "Test 0.15 as a candidate; write it as 15 ÷ 10^2.",
+        "Expand the check: 0.15 × 0.15.",
+        "The integer factors give 225, and 2 × 2 = 4 decimal places give 0.0225.",
+        "Since the candidate is non-negative and its square is 0.0225, the principal root is 0.15."
+      ],
+      "memo": "0.15^2 = 0.0225; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w12",
+      "kind": "root",
+      "values": [
+        "13.824",
+        "3"
+      ],
+      "degree": 3,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal 3rd root of 13.824.",
+      "answer": "2.4",
+      "rows": [
+        "Identify the cube root: find the non-negative decimal that gives 13.824 when multiplied 3 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 13.824.",
+        "Test 2.4 as a candidate; write it as 24 ÷ 10^1.",
+        "Expand the check: 2.4 × 2.4 × 2.4.",
+        "The integer factors give 13824, and 3 × 1 = 3 decimal places give 13.824.",
+        "Since the candidate is non-negative and its cube is 13.824, the principal root is 2.4."
+      ],
+      "memo": "2.4^3 = 13.824; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w13",
+      "kind": "root",
+      "values": [
+        "20.25",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal square root of 20.25.",
+      "answer": "4.5",
+      "rows": [
+        "Identify the square root: find the non-negative decimal that gives 20.25 when multiplied 2 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 20.25.",
+        "Test 4.5 as a candidate; write it as 45 ÷ 10^1.",
+        "Expand the check: 4.5 × 4.5.",
+        "The integer factors give 2025, and 2 × 1 = 2 decimal places give 20.25.",
+        "Since the candidate is non-negative and its square is 20.25, the principal root is 4.5."
+      ],
+      "memo": "4.5^2 = 20.25; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w14",
+      "kind": "root",
+      "values": [
+        "2.197",
+        "3"
+      ],
+      "degree": 3,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal 3rd root of 2.197.",
+      "answer": "1.3",
+      "rows": [
+        "Identify the cube root: find the non-negative decimal that gives 2.197 when multiplied 3 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 2.197.",
+        "Test 1.3 as a candidate; write it as 13 ÷ 10^1.",
+        "Expand the check: 1.3 × 1.3 × 1.3.",
+        "The integer factors give 2197, and 3 × 1 = 3 decimal places give 2.197.",
+        "Since the candidate is non-negative and its cube is 2.197, the principal root is 1.3."
+      ],
+      "memo": "1.3^3 = 2.197; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    },
+    {
+      "id": "g8-dec-l06-w15",
+      "kind": "root",
+      "values": [
+        "56.25",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_root",
+      "problem": "Find the principal square root of 56.25.",
+      "answer": "7.5",
+      "rows": [
+        "Identify the square root: find the non-negative decimal that gives 56.25 when multiplied 2 times.",
+        "Estimate between neighbouring whole numbers, then look at the decimal places of 56.25.",
+        "Test 7.5 as a candidate; write it as 75 ÷ 10^1.",
+        "Expand the check: 7.5 × 7.5.",
+        "The integer factors give 5625, and 2 × 1 = 2 decimal places give 56.25.",
+        "Since the candidate is non-negative and its square is 56.25, the principal root is 7.5."
+      ],
+      "memo": "7.5^2 = 56.25; this returns the original radicand.",
+      "misconception": "The principal square root is non-negative; verify the candidate by powering it."
+    }
+  ]
+}

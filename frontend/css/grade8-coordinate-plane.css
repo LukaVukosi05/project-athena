@@ -1,5 +1,7 @@
 .grade8-coordinate-plane{display:block;width:100%;height:auto;max-width:640px;background:#f5fafc;border:1px solid #c5dce5;border-radius:.8rem}
 .grade8-coordinate-board{display:grid;gap:1rem;min-width:0}
+.grade8-coordinate-board .g8-original,.grade8-coordinate-board .g8-state--before{display:none}
+.grade8-coordinate-board .g8-action-slot{min-height:58px}
 .grade8-coordinate-board>div[data-object-id="model"]{min-width:0;overflow-x:auto}
 .grade8-coordinate-plane line{stroke:#244b5b;stroke-width:1.5}
 .grade8-coordinate-plane text{fill:#173c4b;font:14px system-ui,sans-serif}
@@ -8,4 +10,23 @@
 .grade8-coordinate-plane .coord-point.is-error circle{fill:#b55931}
 .grade8-coordinate-plane .coord-guide{stroke:#188780;stroke-width:3;stroke-dasharray:6 5}
 .grade8-coordinate-plane .coord-result{fill:#0b8776;stroke:white;stroke-width:2}
+.grade8-coordinate-plane .coord-waypoint{fill:#fff;stroke:#0b8776;stroke-width:2.5}
+.grade8-coordinate-plane .coord-zero-highlight{fill:none;stroke:#c38b24;stroke-width:3;animation:coord-zero-pulse 1.4s ease-in-out infinite}
+@keyframes coord-zero-pulse{50%{opacity:.3;stroke-width:5}}
+.grade8-coordinate-plane .coord-preview{fill:#0b8776;stroke:#fff;stroke-width:2;opacity:0;animation:coord-appear .45s 2s forwards}
+.grade8-coordinate-plane .coord-waypoint--fresh{opacity:0;animation:coord-appear .3s 1.45s forwards}
+.grade8-coordinate-plane .coord-guide--fresh-x{stroke-dasharray:700;stroke-dashoffset:700;animation:coord-draw .75s .75s forwards}
+.grade8-coordinate-plane .coord-guide--fresh-y{stroke-dasharray:700;stroke-dashoffset:700;animation:coord-draw .75s 1.5s forwards}
+@keyframes coord-draw{to{stroke-dashoffset:0}}
+@keyframes coord-appear{to{opacity:1}}
+.stateful-whiteboard[data-controller-state="paused"] .coord-preview,.stateful-whiteboard[data-controller-state="paused"] .coord-waypoint--fresh,.stateful-whiteboard[data-controller-state="paused"] .coord-guide--fresh-x,.stateful-whiteboard[data-controller-state="paused"] .coord-guide--fresh-y,.stateful-whiteboard[data-controller-state="paused"] .coord-graph-line--drawing,.stateful-whiteboard[data-controller-state="paused"] .coord-zero-highlight{animation-play-state:paused}
 @media(max-width:700px){.grade8-coordinate-plane text{font-size:13px}}
+.grade8-coordinate-plane .coord-graph-line {
+  fill: none;
+  stroke: #35d4b0;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.grade8-coordinate-plane .coord-graph-line--drawing{stroke-dasharray:1200;stroke-dashoffset:1200;animation:coord-draw 1s 2.5s forwards}
+@media(prefers-reduced-motion:reduce){.grade8-coordinate-plane .coord-preview,.grade8-coordinate-plane .coord-waypoint--fresh,.grade8-coordinate-plane .coord-guide--fresh-x,.grade8-coordinate-plane .coord-guide--fresh-y,.grade8-coordinate-plane .coord-graph-line--drawing,.grade8-coordinate-plane .coord-zero-highlight{animation:none;opacity:1;stroke-dashoffset:0}}

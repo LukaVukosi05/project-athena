@@ -1,0 +1,364 @@
+{
+  "scenes": [
+    {
+      "id": "g8-whole-l01-w01",
+      "title": "Commutative property of addition",
+      "problem": "Compare 18 + 27 and 27 + 18. Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "comm_add",
+      "values": [
+        18,
+        27,
+        0
+      ],
+      "left": "18 + 27",
+      "right": "27 + 18",
+      "property": "commutative property of addition",
+      "answer": 45,
+      "actions": [
+        "Write 18 + 27 and identify the complete groups and operation.",
+        "Swap the two addends; their sum stays the same. Represent 18 + 27 with its numbers, not an unrelated picture.",
+        "Apply commutative property of addition: 18 + 27 corresponds to 27 + 18.",
+        "Calculate both sides: 18 + 27 = 45 and 27 + 18 = 45. Verify against the original question."
+      ],
+      "memo": "18 + 27 = 27 + 18 = 45. This is commutative property of addition; the original expression gives 45.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w02",
+      "title": "Commutative property of multiplication",
+      "problem": "Compare 7 × 12 and 12 × 7. Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "comm_mul",
+      "values": [
+        7,
+        12,
+        0
+      ],
+      "left": "7 × 12",
+      "right": "12 × 7",
+      "property": "commutative property of multiplication",
+      "answer": 84,
+      "actions": [
+        "Write 7 × 12 and identify the complete groups and operation.",
+        "Swap the factors; their product stays the same. Represent 7 × 12 with its numbers, not an unrelated picture.",
+        "Apply commutative property of multiplication: 7 × 12 corresponds to 12 × 7.",
+        "Calculate both sides: 7 × 12 = 84 and 12 × 7 = 84. Verify against the original question."
+      ],
+      "memo": "7 × 12 = 12 × 7 = 84. This is commutative property of multiplication; the original expression gives 84.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w03",
+      "title": "Associative property of addition",
+      "problem": "Compare (12 + 19) + 8 and 12 + (19 + 8). Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "assoc_add",
+      "values": [
+        12,
+        19,
+        8
+      ],
+      "left": "(12 + 19) + 8",
+      "right": "12 + (19 + 8)",
+      "property": "associative property of addition",
+      "answer": 39,
+      "actions": [
+        "Write (12 + 19) + 8 and identify the complete groups and operation.",
+        "Change only the grouping, not the order of the three addends. Represent (12 + 19) + 8 with its numbers, not an unrelated picture.",
+        "Apply associative property of addition: (12 + 19) + 8 corresponds to 12 + (19 + 8).",
+        "Calculate both sides: (12 + 19) + 8 = 39 and 12 + (19 + 8) = 39. Verify against the original question."
+      ],
+      "memo": "(12 + 19) + 8 = 12 + (19 + 8) = 39. This is associative property of addition; the original expression gives 39.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w04",
+      "title": "Associative property of multiplication",
+      "problem": "Compare (4 × 5) × 3 and 4 × (5 × 3). Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "assoc_mul",
+      "values": [
+        4,
+        5,
+        3
+      ],
+      "left": "(4 × 5) × 3",
+      "right": "4 × (5 × 3)",
+      "property": "associative property of multiplication",
+      "answer": 60,
+      "actions": [
+        "Write (4 × 5) × 3 and identify the complete groups and operation.",
+        "Change only the grouping, not the order of the three factors. Represent (4 × 5) × 3 with its numbers, not an unrelated picture.",
+        "Apply associative property of multiplication: (4 × 5) × 3 corresponds to 4 × (5 × 3).",
+        "Calculate both sides: (4 × 5) × 3 = 60 and 4 × (5 × 3) = 60. Verify against the original question."
+      ],
+      "memo": "(4 × 5) × 3 = 4 × (5 × 3) = 60. This is associative property of multiplication; the original expression gives 60.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w05",
+      "title": "Distributive property",
+      "problem": "Compare 6 × (14 + 3) and (6 × 14) + (6 × 3). Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "dist",
+      "values": [
+        6,
+        14,
+        3
+      ],
+      "left": "6 × (14 + 3)",
+      "right": "(6 × 14) + (6 × 3)",
+      "property": "distributive property",
+      "answer": 102,
+      "actions": [
+        "Write 6 × (14 + 3) and identify the complete groups and operation.",
+        "Partition each of the 6 rows into 14 and 3 tiles. Represent 6 × (14 + 3) with its numbers, not an unrelated picture.",
+        "Apply distributive property: 6 × (14 + 3) corresponds to (6 × 14) + (6 × 3).",
+        "Calculate both sides: 6 × (14 + 3) = 102 and (6 × 14) + (6 × 3) = 102. Verify against the original question."
+      ],
+      "memo": "6 × (14 + 3) = (6 × 14) + (6 × 3) = 102. This is distributive property; the original expression gives 102.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w06",
+      "title": "Additive identity",
+      "problem": "Compare 243 + 0 and 243. Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "add_identity",
+      "values": [
+        243,
+        0,
+        0
+      ],
+      "left": "243 + 0",
+      "right": "243",
+      "property": "additive identity",
+      "answer": 243,
+      "actions": [
+        "Write 243 + 0 and identify the complete groups and operation.",
+        "Adding zero changes no counters. Represent 243 + 0 with its numbers, not an unrelated picture.",
+        "Apply additive identity: 243 + 0 corresponds to 243.",
+        "Calculate both sides: 243 + 0 = 243 and 243 = 243. Verify against the original question."
+      ],
+      "memo": "243 + 0 = 243 = 243. This is additive identity; the original expression gives 243.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w07",
+      "title": "Multiplicative identity",
+      "problem": "Compare 57 × 1 and 57. Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "mul_identity",
+      "values": [
+        57,
+        1,
+        0
+      ],
+      "left": "57 × 1",
+      "right": "57",
+      "property": "multiplicative identity",
+      "answer": 57,
+      "actions": [
+        "Write 57 × 1 and identify the complete groups and operation.",
+        "One group of 57 remains 57. Represent 57 × 1 with its numbers, not an unrelated picture.",
+        "Apply multiplicative identity: 57 × 1 corresponds to 57.",
+        "Calculate both sides: 57 × 1 = 57 and 57 = 57. Verify against the original question."
+      ],
+      "memo": "57 × 1 = 57 = 57. This is multiplicative identity; the original expression gives 57.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w08",
+      "title": "Division by zero is undefined",
+      "problem": "Is 29 ÷ 0 defined? Explain why a quotient cannot be formed.",
+      "model": "property",
+      "kind": "zero_div",
+      "values": [
+        29,
+        0,
+        0
+      ],
+      "left": "29 ÷ 0",
+      "right": "no whole-number quotient",
+      "property": "division by zero is undefined",
+      "answer": "undefined",
+      "actions": [
+        "Write 29 ÷ 0 and identify the complete groups and operation.",
+        "No number of zero-sized groups can make the original dividend. Represent 29 ÷ 0 with its numbers, not an unrelated picture.",
+        "Apply division by zero is undefined: 29 ÷ 0 corresponds to no whole-number quotient.",
+        "No quotient exists. Verify against the original question."
+      ],
+      "memo": "29 ÷ 0 is undefined: division by zero is not a valid whole-number operation.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w09",
+      "title": "Commutative property of addition",
+      "problem": "Compare 105 + 68 and 68 + 105. Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "comm_add",
+      "values": [
+        105,
+        68,
+        0
+      ],
+      "left": "105 + 68",
+      "right": "68 + 105",
+      "property": "commutative property of addition",
+      "answer": 173,
+      "actions": [
+        "Write 105 + 68 and identify the complete groups and operation.",
+        "Swap the two addends; their sum stays the same. Represent 105 + 68 with its numbers, not an unrelated picture.",
+        "Apply commutative property of addition: 105 + 68 corresponds to 68 + 105.",
+        "Calculate both sides: 105 + 68 = 173 and 68 + 105 = 173. Verify against the original question."
+      ],
+      "memo": "105 + 68 = 68 + 105 = 173. This is commutative property of addition; the original expression gives 173.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w10",
+      "title": "Associative property of addition",
+      "problem": "Compare (75 + 36) + 25 and 75 + (36 + 25). Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "assoc_add",
+      "values": [
+        75,
+        36,
+        25
+      ],
+      "left": "(75 + 36) + 25",
+      "right": "75 + (36 + 25)",
+      "property": "associative property of addition",
+      "answer": 136,
+      "actions": [
+        "Write (75 + 36) + 25 and identify the complete groups and operation.",
+        "Change only the grouping, not the order of the three addends. Represent (75 + 36) + 25 with its numbers, not an unrelated picture.",
+        "Apply associative property of addition: (75 + 36) + 25 corresponds to 75 + (36 + 25).",
+        "Calculate both sides: (75 + 36) + 25 = 136 and 75 + (36 + 25) = 136. Verify against the original question."
+      ],
+      "memo": "(75 + 36) + 25 = 75 + (36 + 25) = 136. This is associative property of addition; the original expression gives 136.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w11",
+      "title": "Distributive property",
+      "problem": "Compare 12 × (25 + 4) and (12 × 25) + (12 × 4). Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "dist",
+      "values": [
+        12,
+        25,
+        4
+      ],
+      "left": "12 × (25 + 4)",
+      "right": "(12 × 25) + (12 × 4)",
+      "property": "distributive property",
+      "answer": 348,
+      "actions": [
+        "Write 12 × (25 + 4) and identify the complete groups and operation.",
+        "Partition each of the 12 rows into 25 and 4 tiles. Represent 12 × (25 + 4) with its numbers, not an unrelated picture.",
+        "Apply distributive property: 12 × (25 + 4) corresponds to (12 × 25) + (12 × 4).",
+        "Calculate both sides: 12 × (25 + 4) = 348 and (12 × 25) + (12 × 4) = 348. Verify against the original question."
+      ],
+      "memo": "12 × (25 + 4) = (12 × 25) + (12 × 4) = 348. This is distributive property; the original expression gives 348.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w12",
+      "title": "Associative property of multiplication",
+      "problem": "Compare (8 × 25) × 5 and 8 × (25 × 5). Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "assoc_mul",
+      "values": [
+        8,
+        25,
+        5
+      ],
+      "left": "(8 × 25) × 5",
+      "right": "8 × (25 × 5)",
+      "property": "associative property of multiplication",
+      "answer": 1000,
+      "actions": [
+        "Write (8 × 25) × 5 and identify the complete groups and operation.",
+        "Change only the grouping, not the order of the three factors. Represent (8 × 25) × 5 with its numbers, not an unrelated picture.",
+        "Apply associative property of multiplication: (8 × 25) × 5 corresponds to 8 × (25 × 5).",
+        "Calculate both sides: (8 × 25) × 5 = 1000 and 8 × (25 × 5) = 1000. Verify against the original question."
+      ],
+      "memo": "(8 × 25) × 5 = 8 × (25 × 5) = 1000. This is associative property of multiplication; the original expression gives 1000.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w13",
+      "title": "Division by zero is undefined",
+      "problem": "Is 0 ÷ 0 defined? Explain why a quotient cannot be formed.",
+      "model": "property",
+      "kind": "zero_div",
+      "values": [
+        0,
+        0,
+        0
+      ],
+      "left": "0 ÷ 0",
+      "right": "no whole-number quotient",
+      "property": "division by zero is undefined",
+      "answer": "undefined",
+      "actions": [
+        "Write 0 ÷ 0 and identify the complete groups and operation.",
+        "No number of zero-sized groups can make the original dividend. Represent 0 ÷ 0 with its numbers, not an unrelated picture.",
+        "Apply division by zero is undefined: 0 ÷ 0 corresponds to no whole-number quotient.",
+        "No quotient exists. Verify against the original question."
+      ],
+      "memo": "0 ÷ 0 is undefined: division by zero is not a valid whole-number operation.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w14",
+      "title": "Distributive property",
+      "problem": "Compare 15 × (98 + 2) and (15 × 98) + (15 × 2). Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "dist",
+      "values": [
+        15,
+        98,
+        2
+      ],
+      "left": "15 × (98 + 2)",
+      "right": "(15 × 98) + (15 × 2)",
+      "property": "distributive property",
+      "answer": 1500,
+      "actions": [
+        "Write 15 × (98 + 2) and identify the complete groups and operation.",
+        "Partition each of the 15 rows into 98 and 2 tiles. Represent 15 × (98 + 2) with its numbers, not an unrelated picture.",
+        "Apply distributive property: 15 × (98 + 2) corresponds to (15 × 98) + (15 × 2).",
+        "Calculate both sides: 15 × (98 + 2) = 1500 and (15 × 98) + (15 × 2) = 1500. Verify against the original question."
+      ],
+      "memo": "15 × (98 + 2) = (15 × 98) + (15 × 2) = 1500. This is distributive property; the original expression gives 1500.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    },
+    {
+      "id": "g8-whole-l01-w15",
+      "title": "Commutative property of multiplication",
+      "problem": "Compare 32 × 125 and 125 × 32. Calculate and name the property that justifies the comparison.",
+      "model": "property",
+      "kind": "comm_mul",
+      "values": [
+        32,
+        125,
+        0
+      ],
+      "left": "32 × 125",
+      "right": "125 × 32",
+      "property": "commutative property of multiplication",
+      "answer": 4000,
+      "actions": [
+        "Write 32 × 125 and identify the complete groups and operation.",
+        "Swap the factors; their product stays the same. Represent 32 × 125 with its numbers, not an unrelated picture.",
+        "Apply commutative property of multiplication: 32 × 125 corresponds to 125 × 32.",
+        "Calculate both sides: 32 × 125 = 4000 and 125 × 32 = 4000. Verify against the original question."
+      ],
+      "memo": "32 × 125 = 125 × 32 = 4000. This is commutative property of multiplication; the original expression gives 4000.",
+      "misconception": "Do not change the operation, drop a factor, or treat division by zero as zero."
+    }
+  ]
+}

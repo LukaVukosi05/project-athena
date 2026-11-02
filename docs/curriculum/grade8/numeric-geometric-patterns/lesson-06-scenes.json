@@ -1,0 +1,439 @@
+{
+  "scenes": [
+    {
+      "id": "g8-patterns-l06-w01",
+      "title": "Five added daily",
+      "problem": "Five added daily: the first four outputs are 7, 12, 17, 22. A learner predicts 27 at position 6. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        7,
+        12,
+        17,
+        22
+      ],
+      "family": "linear",
+      "a": 5,
+      "b": 2,
+      "rule": "5n + 2",
+      "target_position": 6,
+      "claimed": 27,
+      "error_type": "off_by_one",
+      "answer": 32,
+      "actions": [
+        "Align the first four outputs 7, 12, 17, 22 with positions 1–4. The learner claims T(6) = 27.",
+        "Compare the changes 5, 5, 5. The claim assumes the previous position.",
+        "Rebuild the pattern rule T(n) = 5n + 2. Test it at positions 1 and 4, where it returns 7 and 22.",
+        "Now substitute n=6: T(6) = 32, not 27. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 27 misuses the position index. T(n)=5n + 2 gives T(6)=32. It returns 7 and 22 at positions 1 and 4.",
+      "misconception": "The learner used off by one instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w02",
+      "title": "Square tiles",
+      "problem": "Square tiles: the first four outputs are 2, 5, 10, 17. A learner predicts 24 at position 5. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        2,
+        5,
+        10,
+        17
+      ],
+      "family": "square_offset",
+      "a": 1,
+      "b": 1,
+      "rule": "1n² + 1",
+      "target_position": 5,
+      "claimed": 24,
+      "error_type": "copy_difference",
+      "answer": 26,
+      "actions": [
+        "Align the first four outputs 2, 5, 10, 17 with positions 1–4. The learner claims T(5) = 24.",
+        "Compare the changes 3, 5, 7. The claim assumes a fixed last difference.",
+        "Rebuild the pattern rule T(n) = 1n² + 1. Test it at positions 1 and 4, where it returns 2 and 17.",
+        "Now substitute n=5: T(5) = 26, not 24. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 24 misuses the final difference. T(n)=1n² + 1 gives T(5)=26. It returns 2 and 17 at positions 1 and 4.",
+      "misconception": "The learner used copy difference instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w03",
+      "title": "Triangular stack",
+      "problem": "Triangular stack: the first four outputs are 1, 3, 6, 10. A learner predicts 18 at position 6. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        1,
+        3,
+        6,
+        10
+      ],
+      "family": "triangular",
+      "a": 1,
+      "b": 0,
+      "rule": "1 × n(n+1)/2",
+      "target_position": 6,
+      "claimed": 18,
+      "error_type": "copy_difference",
+      "answer": 21,
+      "actions": [
+        "Align the first four outputs 1, 3, 6, 10 with positions 1–4. The learner claims T(6) = 18.",
+        "Compare the changes 2, 3, 4. The claim assumes a fixed last difference.",
+        "Rebuild the pattern rule T(n) = 1 × n(n+1)/2. Test it at positions 1 and 4, where it returns 1 and 10.",
+        "Now substitute n=6: T(6) = 21, not 18. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 18 misuses the final difference. T(n)=1 × n(n+1)/2 gives T(6)=21. It returns 1 and 10 at positions 1 and 4.",
+      "misconception": "The learner used copy difference instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w04",
+      "title": "Doubling seeds",
+      "problem": "Doubling seeds: the first four outputs are 2, 4, 8, 16. A learner predicts 24 at position 5. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "family": "geometric",
+      "a": 2,
+      "b": 2,
+      "rule": "2 × 2^(n−1)",
+      "target_position": 5,
+      "claimed": 24,
+      "error_type": "copy_difference",
+      "answer": 32,
+      "actions": [
+        "Align the first four outputs 2, 4, 8, 16 with positions 1–4. The learner claims T(5) = 24.",
+        "Compare the changes 2, 4, 8. The claim assumes a fixed last difference.",
+        "Rebuild the pattern rule T(n) = 2 × 2^(n−1). Test it at positions 1 and 4, where it returns 2 and 16.",
+        "Now substitute n=5: T(5) = 32, not 24. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 24 misuses the final difference. T(n)=2 × 2^(n−1) gives T(5)=32. It returns 2 and 16 at positions 1 and 4.",
+      "misconception": "The learner used copy difference instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w05",
+      "title": "Decreasing balance",
+      "problem": "Decreasing balance: the first four outputs are 16, 13, 10, 7. A learner predicts 10 at position 5. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        16,
+        13,
+        10,
+        7
+      ],
+      "family": "linear",
+      "a": -3,
+      "b": 19,
+      "rule": "-3n + 19",
+      "target_position": 5,
+      "claimed": 10,
+      "error_type": "reverse_sign",
+      "answer": 4,
+      "actions": [
+        "Align the first four outputs 16, 13, 10, 7 with positions 1–4. The learner claims T(5) = 10.",
+        "Compare the changes -3, -3, -3. The claim assumes an increase instead of a decrease.",
+        "Rebuild the pattern rule T(n) = -3n + 19. Test it at positions 1 and 4, where it returns 16 and 7.",
+        "Now substitute n=5: T(5) = 4, not 10. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 10 misuses the direction. T(n)=-3n + 19 gives T(5)=4. It returns 16 and 7 at positions 1 and 4.",
+      "misconception": "The learner used reverse sign instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w06",
+      "title": "Rectangle floor",
+      "problem": "Rectangle floor: the first four outputs are 2, 6, 12, 20. A learner predicts 36 at position 6. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        2,
+        6,
+        12,
+        20
+      ],
+      "family": "rectangle",
+      "a": 1,
+      "b": 0,
+      "rule": "1n(n+1)",
+      "target_position": 6,
+      "claimed": 36,
+      "error_type": "copy_difference",
+      "answer": 42,
+      "actions": [
+        "Align the first four outputs 2, 6, 12, 20 with positions 1–4. The learner claims T(6) = 36.",
+        "Compare the changes 4, 6, 8. The claim assumes a fixed last difference.",
+        "Rebuild the pattern rule T(n) = 1n(n+1). Test it at positions 1 and 4, where it returns 2 and 20.",
+        "Now substitute n=6: T(6) = 42, not 36. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 36 misuses the final difference. T(n)=1n(n+1) gives T(6)=42. It returns 2 and 20 at positions 1 and 4.",
+      "misconception": "The learner used copy difference instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w07",
+      "title": "Two squares",
+      "problem": "Two squares: the first four outputs are 2, 8, 18, 32. A learner predicts 46 at position 5. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        2,
+        8,
+        18,
+        32
+      ],
+      "family": "square_offset",
+      "a": 2,
+      "b": 0,
+      "rule": "2n²",
+      "target_position": 5,
+      "claimed": 46,
+      "error_type": "copy_difference",
+      "answer": 50,
+      "actions": [
+        "Align the first four outputs 2, 8, 18, 32 with positions 1–4. The learner claims T(5) = 46.",
+        "Compare the changes 6, 10, 14. The claim assumes a fixed last difference.",
+        "Rebuild the pattern rule T(n) = 2n². Test it at positions 1 and 4, where it returns 2 and 32.",
+        "Now substitute n=5: T(5) = 50, not 46. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 46 misuses the final difference. T(n)=2n² gives T(5)=50. It returns 2 and 32 at positions 1 and 4.",
+      "misconception": "The learner used copy difference instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w08",
+      "title": "Triple blocks",
+      "problem": "Triple blocks: the first four outputs are 1, 3, 9, 27. A learner predicts 45 at position 5. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        1,
+        3,
+        9,
+        27
+      ],
+      "family": "geometric",
+      "a": 1,
+      "b": 3,
+      "rule": "1 × 3^(n−1)",
+      "target_position": 5,
+      "claimed": 45,
+      "error_type": "copy_difference",
+      "answer": 81,
+      "actions": [
+        "Align the first four outputs 1, 3, 9, 27 with positions 1–4. The learner claims T(5) = 45.",
+        "Compare the changes 2, 6, 18. The claim assumes a fixed last difference.",
+        "Rebuild the pattern rule T(n) = 1 × 3^(n−1). Test it at positions 1 and 4, where it returns 1 and 27.",
+        "Now substitute n=5: T(5) = 81, not 45. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 45 misuses the final difference. T(n)=1 × 3^(n−1) gives T(5)=81. It returns 1 and 27 at positions 1 and 4.",
+      "misconception": "The learner used copy difference instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w09",
+      "title": "Four times triangular",
+      "problem": "Four times triangular: the first four outputs are 4, 12, 24, 40. A learner predicts 72 at position 6. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        4,
+        12,
+        24,
+        40
+      ],
+      "family": "triangular",
+      "a": 4,
+      "b": 0,
+      "rule": "4 × n(n+1)/2",
+      "target_position": 6,
+      "claimed": 72,
+      "error_type": "copy_difference",
+      "answer": 84,
+      "actions": [
+        "Align the first four outputs 4, 12, 24, 40 with positions 1–4. The learner claims T(6) = 72.",
+        "Compare the changes 8, 12, 16. The claim assumes a fixed last difference.",
+        "Rebuild the pattern rule T(n) = 4 × n(n+1)/2. Test it at positions 1 and 4, where it returns 4 and 40.",
+        "Now substitute n=6: T(6) = 84, not 72. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 72 misuses the final difference. T(n)=4 × n(n+1)/2 gives T(6)=84. It returns 4 and 40 at positions 1 and 4.",
+      "misconception": "The learner used copy difference instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w10",
+      "title": "Rectangle plus one",
+      "problem": "Rectangle plus one: the first four outputs are 3, 7, 13, 21. A learner predicts 29 at position 5. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        3,
+        7,
+        13,
+        21
+      ],
+      "family": "rectangle",
+      "a": 1,
+      "b": 1,
+      "rule": "1n(n+1) + 1",
+      "target_position": 5,
+      "claimed": 29,
+      "error_type": "copy_difference",
+      "answer": 31,
+      "actions": [
+        "Align the first four outputs 3, 7, 13, 21 with positions 1–4. The learner claims T(5) = 29.",
+        "Compare the changes 4, 6, 8. The claim assumes a fixed last difference.",
+        "Rebuild the pattern rule T(n) = 1n(n+1) + 1. Test it at positions 1 and 4, where it returns 3 and 21.",
+        "Now substitute n=5: T(5) = 31, not 29. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 29 misuses the final difference. T(n)=1n(n+1) + 1 gives T(5)=31. It returns 3 and 21 at positions 1 and 4.",
+      "misconception": "The learner used copy difference instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w11",
+      "title": "Cooling by four",
+      "problem": "Cooling by four: the first four outputs are 21, 17, 13, 9. A learner predicts 17 at position 6. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        21,
+        17,
+        13,
+        9
+      ],
+      "family": "linear",
+      "a": -4,
+      "b": 25,
+      "rule": "-4n + 25",
+      "target_position": 6,
+      "claimed": 17,
+      "error_type": "reverse_sign",
+      "answer": 1,
+      "actions": [
+        "Align the first four outputs 21, 17, 13, 9 with positions 1–4. The learner claims T(6) = 17.",
+        "Compare the changes -4, -4, -4. The claim assumes an increase instead of a decrease.",
+        "Rebuild the pattern rule T(n) = -4n + 25. Test it at positions 1 and 4, where it returns 21 and 9.",
+        "Now substitute n=6: T(6) = 1, not 17. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 17 misuses the direction. T(n)=-4n + 25 gives T(6)=1. It returns 21 and 9 at positions 1 and 4.",
+      "misconception": "The learner used reverse sign instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w12",
+      "title": "Square minus two",
+      "problem": "Square minus two: the first four outputs are 1, 10, 25, 46. A learner predicts 67 at position 5. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        1,
+        10,
+        25,
+        46
+      ],
+      "family": "square_offset",
+      "a": 3,
+      "b": -2,
+      "rule": "3n² − 2",
+      "target_position": 5,
+      "claimed": 67,
+      "error_type": "copy_difference",
+      "answer": 73,
+      "actions": [
+        "Align the first four outputs 1, 10, 25, 46 with positions 1–4. The learner claims T(5) = 67.",
+        "Compare the changes 9, 15, 21. The claim assumes a fixed last difference.",
+        "Rebuild the pattern rule T(n) = 3n² − 2. Test it at positions 1 and 4, where it returns 1 and 46.",
+        "Now substitute n=5: T(5) = 73, not 67. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 67 misuses the final difference. T(n)=3n² − 2 gives T(5)=73. It returns 1 and 46 at positions 1 and 4.",
+      "misconception": "The learner used copy difference instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w13",
+      "title": "Five times position",
+      "problem": "Five times position: the first four outputs are 5, 10, 15, 20. A learner predicts 30 at position 7. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "family": "linear",
+      "a": 5,
+      "b": 0,
+      "rule": "5n",
+      "target_position": 7,
+      "claimed": 30,
+      "error_type": "off_by_one",
+      "answer": 35,
+      "actions": [
+        "Align the first four outputs 5, 10, 15, 20 with positions 1–4. The learner claims T(7) = 30.",
+        "Compare the changes 5, 5, 5. The claim assumes the previous position.",
+        "Rebuild the pattern rule T(n) = 5n. Test it at positions 1 and 4, where it returns 5 and 20.",
+        "Now substitute n=7: T(7) = 35, not 30. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 30 misuses the position index. T(n)=5n gives T(7)=35. It returns 5 and 20 at positions 1 and 4.",
+      "misconception": "The learner used off by one instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w14",
+      "title": "Twice triangular plus three",
+      "problem": "Twice triangular plus three: the first four outputs are 5, 9, 15, 23. A learner predicts 39 at position 6. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        5,
+        9,
+        15,
+        23
+      ],
+      "family": "triangular",
+      "a": 2,
+      "b": 3,
+      "rule": "2 × n(n+1)/2 + 3",
+      "target_position": 6,
+      "claimed": 39,
+      "error_type": "copy_difference",
+      "answer": 45,
+      "actions": [
+        "Align the first four outputs 5, 9, 15, 23 with positions 1–4. The learner claims T(6) = 39.",
+        "Compare the changes 4, 6, 8. The claim assumes a fixed last difference.",
+        "Rebuild the pattern rule T(n) = 2 × n(n+1)/2 + 3. Test it at positions 1 and 4, where it returns 5 and 23.",
+        "Now substitute n=6: T(6) = 45, not 39. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 39 misuses the final difference. T(n)=2 × n(n+1)/2 + 3 gives T(6)=45. It returns 5 and 23 at positions 1 and 4.",
+      "misconception": "The learner used copy difference instead of testing the pattern at the requested position."
+    },
+    {
+      "id": "g8-patterns-l06-w15",
+      "title": "Twofold compound",
+      "problem": "Twofold compound: the first four outputs are 3, 6, 12, 24. A learner predicts 48 at position 6. Find the first error and repair the prediction.",
+      "model": "repair_claim",
+      "kind": null,
+      "terms": [
+        3,
+        6,
+        12,
+        24
+      ],
+      "family": "geometric",
+      "a": 3,
+      "b": 2,
+      "rule": "3 × 2^(n−1)",
+      "target_position": 6,
+      "claimed": 48,
+      "error_type": "off_by_one",
+      "answer": 96,
+      "actions": [
+        "Align the first four outputs 3, 6, 12, 24 with positions 1–4. The learner claims T(6) = 48.",
+        "Compare the changes 3, 6, 12. The claim assumes the previous position.",
+        "Rebuild the pattern rule T(n) = 3 × 2^(n−1). Test it at positions 1 and 4, where it returns 3 and 24.",
+        "Now substitute n=6: T(6) = 96, not 48. Check the repaired value against the rule and the direction of change."
+      ],
+      "memo": "The claim 48 misuses the position index. T(n)=3 × 2^(n−1) gives T(6)=96. It returns 3 and 24 at positions 1 and 4.",
+      "misconception": "The learner used off by one instead of testing the pattern at the requested position."
+    }
+  ]
+}

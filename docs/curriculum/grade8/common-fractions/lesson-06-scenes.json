@@ -1,0 +1,319 @@
+{
+  "scenes": [
+    {
+      "id": "g8-frac-l06-w01",
+      "kind": "context",
+      "operation": "multiply",
+      "unit": "learners",
+      "answer_unit": "learners",
+      "values": [
+        "3/4",
+        "24"
+      ],
+      "problem": "Three quarters of 24 learners joined the maths club. How many joined?",
+      "answer": "18",
+      "rows": [
+        "Name the original unit (learners) and identify the two amounts: 3/4 and 24.",
+        "Select 3/4 of 24; divide the whole into equal parts and count the selected groups.",
+        "Calculate 3/4 × 24 = 18; give the result in learners and simplify."
+      ],
+      "memo": "Check the original learners situation: 3/4 × 24 = 18 learners. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w02",
+      "kind": "context",
+      "operation": "multiply",
+      "unit": "books",
+      "answer_unit": "books",
+      "values": [
+        "2/5",
+        "35"
+      ],
+      "problem": "A shelf holds 35 books; 2/5 are maths books. How many maths books?",
+      "answer": "14",
+      "rows": [
+        "Name the original unit (books) and identify the two amounts: 2/5 and 35.",
+        "Select 2/5 of 35; divide the whole into equal parts and count the selected groups.",
+        "Calculate 2/5 × 35 = 14; give the result in books and simplify."
+      ],
+      "memo": "Check the original books situation: 2/5 × 35 = 14 books. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w03",
+      "kind": "context",
+      "operation": "multiply",
+      "unit": "metres",
+      "answer_unit": "metres",
+      "values": [
+        "3/4",
+        "12"
+      ],
+      "problem": "A 12 metre roll is cut so that 3/4 is used. How many metres are used?",
+      "answer": "9",
+      "rows": [
+        "Name the original unit (metres) and identify the two amounts: 3/4 and 12.",
+        "Select 3/4 of 12; divide the whole into equal parts and count the selected groups.",
+        "Calculate 3/4 × 12 = 9; give the result in metres and simplify."
+      ],
+      "memo": "Check the original metres situation: 3/4 × 12 = 9 metres. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w04",
+      "kind": "context",
+      "operation": "divide",
+      "unit": "litres",
+      "answer_unit": "litres per learner",
+      "values": [
+        "2 1/4",
+        "3"
+      ],
+      "problem": "Share 2 1/4 litres equally among 3 learners. How many litres does each receive?",
+      "answer": "3/4",
+      "rows": [
+        "Name the original unit (litres) and identify the two amounts: 2 1/4 and 3.",
+        "Ask how many groups of size 3 fit in 2 1/4; include partial groups.",
+        "Calculate 2 1/4 ÷ 3 = 3/4; give the result in litres per learner and simplify."
+      ],
+      "memo": "Check the original litres situation: 2 1/4 ÷ 3 = 3/4 litres per learner. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w05",
+      "kind": "context",
+      "operation": "multiply",
+      "unit": "cups",
+      "answer_unit": "cups",
+      "values": [
+        "3/4",
+        "1 1/2"
+      ],
+      "problem": "A recipe uses 3/4 cup per batch. How many cups for 1 1/2 batches?",
+      "answer": "1 1/8",
+      "rows": [
+        "Name the original unit (cups) and identify the two amounts: 3/4 and 1 1/2.",
+        "Select 3/4 of 1 1/2; divide the whole into equal parts and count the selected groups.",
+        "Calculate 3/4 × 1 1/2 = 1 1/8; give the result in cups and simplify."
+      ],
+      "memo": "Check the original cups situation: 3/4 × 1 1/2 = 1 1/8 cups. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w06",
+      "kind": "context",
+      "operation": "subtract",
+      "unit": "litres",
+      "answer_unit": "litres",
+      "values": [
+        "5/6",
+        "1/4"
+      ],
+      "problem": "A jug holds 5/6 litre. After pouring out 1/4 litre, how much remains?",
+      "answer": "7/12",
+      "rows": [
+        "Name the original unit (litres) and identify the two amounts: 5/6 and 1/4.",
+        "Start with 5/6 and remove 1/4; partition both into equally sized pieces.",
+        "Calculate 5/6 − 1/4 = 7/12; give the result in litres and simplify."
+      ],
+      "memo": "Check the original litres situation: 5/6 − 1/4 = 7/12 litres. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w07",
+      "kind": "context",
+      "operation": "divide",
+      "unit": "metres",
+      "answer_unit": "ribbons",
+      "values": [
+        "3",
+        "3/8"
+      ],
+      "problem": "How many 3/8 metre ribbons can be cut from 3 metres?",
+      "answer": "8",
+      "rows": [
+        "Name the original unit (metres) and identify the two amounts: 3 and 3/8.",
+        "Ask how many groups of size 3/8 fit in 3; include partial groups.",
+        "Calculate 3 ÷ 3/8 = 8; give the result in ribbons and simplify."
+      ],
+      "memo": "Check the original metres situation: 3 ÷ 3/8 = 8 ribbons. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w08",
+      "kind": "context",
+      "operation": "multiply",
+      "unit": "kilograms",
+      "answer_unit": "kilograms",
+      "values": [
+        "2/3",
+        "18"
+      ],
+      "problem": "A bag holds 18 kilograms. How many kilograms are 2/3 of the bag?",
+      "answer": "12",
+      "rows": [
+        "Name the original unit (kilograms) and identify the two amounts: 2/3 and 18.",
+        "Select 2/3 of 18; divide the whole into equal parts and count the selected groups.",
+        "Calculate 2/3 × 18 = 12; give the result in kilograms and simplify."
+      ],
+      "memo": "Check the original kilograms situation: 2/3 × 18 = 12 kilograms. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w09",
+      "kind": "context",
+      "operation": "divide",
+      "unit": "litres",
+      "answer_unit": "bottles",
+      "values": [
+        "1 1/2",
+        "3/4"
+      ],
+      "problem": "How many 3/4 litre bottles can be filled from 1 1/2 litres?",
+      "answer": "2",
+      "rows": [
+        "Name the original unit (litres) and identify the two amounts: 1 1/2 and 3/4.",
+        "Ask how many groups of size 3/4 fit in 1 1/2; include partial groups.",
+        "Calculate 1 1/2 ÷ 3/4 = 2; give the result in bottles and simplify."
+      ],
+      "memo": "Check the original litres situation: 1 1/2 ÷ 3/4 = 2 bottles. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w10",
+      "kind": "context",
+      "operation": "subtract",
+      "unit": "metres",
+      "answer_unit": "metres",
+      "values": [
+        "7/8",
+        "3/16"
+      ],
+      "problem": "A 7/8 metre strip loses 3/16 metre. How much strip remains?",
+      "answer": "11/16",
+      "rows": [
+        "Name the original unit (metres) and identify the two amounts: 7/8 and 3/16.",
+        "Start with 7/8 and remove 3/16; partition both into equally sized pieces.",
+        "Calculate 7/8 − 3/16 = 11/16; give the result in metres and simplify."
+      ],
+      "memo": "Check the original metres situation: 7/8 − 3/16 = 11/16 metres. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w11",
+      "kind": "context",
+      "operation": "multiply",
+      "unit": "hectares",
+      "answer_unit": "hectares",
+      "values": [
+        "2/5",
+        "1/3"
+      ],
+      "problem": "Find 2/5 of a 1/3 hectare plot. What area is used?",
+      "answer": "2/15",
+      "rows": [
+        "Name the original unit (hectares) and identify the two amounts: 2/5 and 1/3.",
+        "Select 2/5 of 1/3; divide the whole into equal parts and count the selected groups.",
+        "Calculate 2/5 × 1/3 = 2/15; give the result in hectares and simplify."
+      ],
+      "memo": "Check the original hectares situation: 2/5 × 1/3 = 2/15 hectares. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w12",
+      "kind": "context",
+      "operation": "divide",
+      "unit": "litres",
+      "answer_unit": "servings",
+      "values": [
+        "4 1/2",
+        "3/4"
+      ],
+      "problem": "A pot has 4 1/2 litres; each serving is 3/4 litre. How many servings?",
+      "answer": "6",
+      "rows": [
+        "Name the original unit (litres) and identify the two amounts: 4 1/2 and 3/4.",
+        "Ask how many groups of size 3/4 fit in 4 1/2; include partial groups.",
+        "Calculate 4 1/2 ÷ 3/4 = 6; give the result in servings and simplify."
+      ],
+      "memo": "Check the original litres situation: 4 1/2 ÷ 3/4 = 6 servings. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w13",
+      "kind": "context",
+      "operation": "add",
+      "unit": "kilograms",
+      "answer_unit": "kilograms",
+      "values": [
+        "3/8",
+        "5/12"
+      ],
+      "problem": "A parcel has 3/8 kilogram of one item and 5/12 kilogram of another. What is the combined mass?",
+      "answer": "19/24",
+      "rows": [
+        "Name the original unit (kilograms) and identify the two amounts: 3/8 and 5/12.",
+        "Combine 3/8 and 5/12 as like-sized pieces, then simplify.",
+        "Calculate 3/8 + 5/12 = 19/24; give the result in kilograms and simplify."
+      ],
+      "memo": "Check the original kilograms situation: 3/8 + 5/12 = 19/24 kilograms. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w14",
+      "kind": "context",
+      "operation": "multiply",
+      "unit": "litres",
+      "answer_unit": "litres",
+      "values": [
+        "5/6",
+        "2 2/5"
+      ],
+      "problem": "Use 5/6 of 2 2/5 litres of paint. How much paint is used?",
+      "answer": "2",
+      "rows": [
+        "Name the original unit (litres) and identify the two amounts: 5/6 and 2 2/5.",
+        "Select 5/6 of 2 2/5; divide the whole into equal parts and count the selected groups.",
+        "Calculate 5/6 × 2 2/5 = 2; give the result in litres and simplify."
+      ],
+      "memo": "Check the original litres situation: 5/6 × 2 2/5 = 2 litres. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    },
+    {
+      "id": "g8-frac-l06-w15",
+      "kind": "context",
+      "operation": "subtract",
+      "unit": "metres",
+      "answer_unit": "metres",
+      "values": [
+        "3 1/4",
+        "1 2/3"
+      ],
+      "problem": "A 3 1/4 metre rope has 1 2/3 metres removed. What length remains?",
+      "answer": "1 7/12",
+      "rows": [
+        "Name the original unit (metres) and identify the two amounts: 3 1/4 and 1 2/3.",
+        "Start with 3 1/4 and remove 1 2/3; partition both into equally sized pieces.",
+        "Calculate 3 1/4 − 1 2/3 = 1 7/12; give the result in metres and simplify."
+      ],
+      "memo": "Check the original metres situation: 3 1/4 − 1 2/3 = 1 7/12 metres. Confirm by a reverse operation or recombining the parts.",
+      "misconception": "Do not lose track of the whole or its unit. Match piece sizes before counting and include partial groups.",
+      "visual_family": "fraction_context"
+    }
+  ]
+}

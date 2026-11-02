@@ -1,0 +1,5 @@
+.g8-int-board{display:grid;gap:.8rem;padding:1rem;border:1px solid var(--border,#cbd5e0);border-radius:1rem;background:var(--surface,#fff);min-width:0}
+.g8-int-stage{min-width:0;overflow-x:auto;padding:.35rem;background:#f7fbff;border:1px solid #d1e0ef;border-radius:.7rem}
+.g8-int-stage svg{display:block;width:100%;min-width:32rem;height:auto;font-family:inherit;font-size:11px;fill:#1d3450}
+.g8-int-stage [data-object-id="selected-answer"]{margin:.45rem .2rem;font-weight:700;color:#155a64}
+@media(max-width:640px){.g8-int-board{padding:.55rem}.g8-int-stage svg{min-width:30rem}}

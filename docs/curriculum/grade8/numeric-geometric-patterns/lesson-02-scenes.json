@@ -1,0 +1,334 @@
+{
+  "scenes": [
+    {
+      "id": "g8-patterns-l02-w01",
+      "title": "Matchstick squares",
+      "problem": "Matchstick squares: Figures 1–4 contain 4, 7, 10, 13 matchsticks. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        4,
+        7,
+        10,
+        13
+      ],
+      "kind": "joined_squares",
+      "detail": "A row of joined squares uses 4 then 3 new sticks for each additional square.",
+      "answer": 16,
+      "actions": [
+        "Read the given values 4, 7, 10, 13 in order; do not treat the next term as given.",
+        "Mark each successive difference 3, 3, 3.",
+        "Build the next figure one group at a time; A row of joined squares uses 4 then 3 new sticks for each additional square.",
+        "Check against the original four values; the next value is 16."
+      ],
+      "memo": "A row of joined squares uses 4 then 3 new sticks for each additional square.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w02",
+      "title": "Separated squares",
+      "problem": "Separated squares: Figures 1–4 contain 4, 8, 12, 16 matchsticks. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        4,
+        8,
+        12,
+        16
+      ],
+      "kind": "separate_squares",
+      "detail": "Each separate square contributes four sticks.",
+      "answer": 20,
+      "actions": [
+        "Read the given values 4, 8, 12, 16 in order; do not treat the next term as given.",
+        "Mark each successive difference 4, 4, 4.",
+        "Build the next figure one group at a time; Each separate square contributes four sticks.",
+        "Check against the original four values; the next value is 20."
+      ],
+      "memo": "Each separate square contributes four sticks.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w03",
+      "title": "Dot squares",
+      "problem": "Dot squares: Figures 1–4 contain 1, 4, 9, 16 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        1,
+        4,
+        9,
+        16
+      ],
+      "kind": "square_dots",
+      "detail": "Each new figure is an n by n square; Figure 5 has 5×5 dots.",
+      "answer": 25,
+      "actions": [
+        "Read the given values 1, 4, 9, 16 in order; do not treat the next term as given.",
+        "Mark each successive difference 3, 5, 7.",
+        "Build the next figure one group at a time; Each new figure is an n by n square; Figure 5 has 5×5 dots.",
+        "Check against the original four values; the next value is 25."
+      ],
+      "memo": "Each new figure is an n by n square; Figure 5 has 5×5 dots.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w04",
+      "title": "Staircase dots",
+      "problem": "Staircase dots: Figures 1–4 contain 1, 3, 6, 10 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        1,
+        3,
+        6,
+        10
+      ],
+      "kind": "staircase",
+      "detail": "Add a row with one more dot each time: 1+2+3+4+5=15.",
+      "answer": 15,
+      "actions": [
+        "Read the given values 1, 3, 6, 10 in order; do not treat the next term as given.",
+        "Mark each successive difference 2, 3, 4.",
+        "Build the next figure one group at a time; Add a row with one more dot each time: 1+2+3+4+5=15.",
+        "Check against the original four values; the next value is 15."
+      ],
+      "memo": "Add a row with one more dot each time: 1+2+3+4+5=15.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w05",
+      "title": "Growing border",
+      "problem": "Growing border: Figures 1–4 contain 4, 8, 12, 16 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        4,
+        8,
+        12,
+        16
+      ],
+      "kind": "border",
+      "detail": "A square border has four sides of n dots with corners counted once; 4n dots.",
+      "answer": 20,
+      "actions": [
+        "Read the given values 4, 8, 12, 16 in order; do not treat the next term as given.",
+        "Mark each successive difference 4, 4, 4.",
+        "Build the next figure one group at a time; A square border has four sides of n dots with corners counted once; 4n dots.",
+        "Check against the original four values; the next value is 20."
+      ],
+      "memo": "A square border has four sides of n dots with corners counted once; 4n dots.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w06",
+      "title": "L-shaped dots",
+      "problem": "L-shaped dots: Figures 1–4 contain 3, 5, 7, 9 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        3,
+        5,
+        7,
+        9
+      ],
+      "kind": "l_shape",
+      "detail": "A new arm dot on each branch adds two each time; Figure n has 2n+1 dots.",
+      "answer": 11,
+      "actions": [
+        "Read the given values 3, 5, 7, 9 in order; do not treat the next term as given.",
+        "Mark each successive difference 2, 2, 2.",
+        "Build the next figure one group at a time; A new arm dot on each branch adds two each time; Figure n has 2n+1 dots.",
+        "Check against the original four values; the next value is 11."
+      ],
+      "memo": "A new arm dot on each branch adds two each time; Figure n has 2n+1 dots.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w07",
+      "title": "Triangle edges",
+      "problem": "Triangle edges: Figures 1–4 contain 3, 6, 9, 12 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "kind": "triangle_edges",
+      "detail": "The three sides each gain one segment; Figure 5 uses 3×5 segments.",
+      "answer": 15,
+      "actions": [
+        "Read the given values 3, 6, 9, 12 in order; do not treat the next term as given.",
+        "Mark each successive difference 3, 3, 3.",
+        "Build the next figure one group at a time; The three sides each gain one segment; Figure 5 uses 3×5 segments.",
+        "Check against the original four values; the next value is 15."
+      ],
+      "memo": "The three sides each gain one segment; Figure 5 uses 3×5 segments.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w08",
+      "title": "Two rows",
+      "problem": "Two rows: Figures 1–4 contain 2, 4, 6, 8 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "kind": "two_rows",
+      "detail": "Two rows of n tiles give 2n.",
+      "answer": 10,
+      "actions": [
+        "Read the given values 2, 4, 6, 8 in order; do not treat the next term as given.",
+        "Mark each successive difference 2, 2, 2.",
+        "Build the next figure one group at a time; Two rows of n tiles give 2n.",
+        "Check against the original four values; the next value is 10."
+      ],
+      "memo": "Two rows of n tiles give 2n.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w09",
+      "title": "Rectangle next to square",
+      "problem": "Rectangle next to square: Figures 1–4 contain 2, 6, 12, 20 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        2,
+        6,
+        12,
+        20
+      ],
+      "kind": "rectangle",
+      "detail": "Figure n is an n by (n+1) rectangle, so Figure 5 has 5×6 tiles.",
+      "answer": 30,
+      "actions": [
+        "Read the given values 2, 6, 12, 20 in order; do not treat the next term as given.",
+        "Mark each successive difference 4, 6, 8.",
+        "Build the next figure one group at a time; Figure n is an n by (n+1) rectangle, so Figure 5 has 5×6 tiles.",
+        "Check against the original four values; the next value is 30."
+      ],
+      "memo": "Figure n is an n by (n+1) rectangle, so Figure 5 has 5×6 tiles.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w10",
+      "title": "Square with fixed centre",
+      "problem": "Square with fixed centre: Figures 1–4 contain 5, 8, 13, 20 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        5,
+        8,
+        13,
+        20
+      ],
+      "kind": "square_plus",
+      "detail": "The square grows to n² tiles while four corner markers remain: 5²+4=29.",
+      "answer": 29,
+      "actions": [
+        "Read the given values 5, 8, 13, 20 in order; do not treat the next term as given.",
+        "Mark each successive difference 3, 5, 7.",
+        "Build the next figure one group at a time; The square grows to n² tiles while four corner markers remain: 5²+4=29.",
+        "Check against the original four values; the next value is 29."
+      ],
+      "memo": "The square grows to n² tiles while four corner markers remain: 5²+4=29.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w11",
+      "title": "Perimeter fence",
+      "problem": "Perimeter fence: Figures 1–4 contain 8, 12, 16, 20 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        8,
+        12,
+        16,
+        20
+      ],
+      "kind": "fence",
+      "detail": "For side lengths 2,3,4,5, the perimeter is 4n; next side 6 gives 24 units.",
+      "answer": 24,
+      "actions": [
+        "Read the given values 8, 12, 16, 20 in order; do not treat the next term as given.",
+        "Mark each successive difference 4, 4, 4.",
+        "Build the next figure one group at a time; For side lengths 2,3,4,5, the perimeter is 4n; next side 6 gives 24 units.",
+        "Check against the original four values; the next value is 24."
+      ],
+      "memo": "For side lengths 2,3,4,5, the perimeter is 4n; next side 6 gives 24 units.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w12",
+      "title": "Three branches",
+      "problem": "Three branches: Figures 1–4 contain 4, 7, 10, 13 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        4,
+        7,
+        10,
+        13
+      ],
+      "kind": "three_arms",
+      "detail": "One centre plus three arms of length n gives 3n+1 dots.",
+      "answer": 16,
+      "actions": [
+        "Read the given values 4, 7, 10, 13 in order; do not treat the next term as given.",
+        "Mark each successive difference 3, 3, 3.",
+        "Build the next figure one group at a time; One centre plus three arms of length n gives 3n+1 dots.",
+        "Check against the original four values; the next value is 16."
+      ],
+      "memo": "One centre plus three arms of length n gives 3n+1 dots.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w13",
+      "title": "Opposite tile columns",
+      "problem": "Opposite tile columns: Figures 1–4 contain 6, 10, 14, 18 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        6,
+        10,
+        14,
+        18
+      ],
+      "kind": "columns",
+      "detail": "Two opposite columns of height 2n+1 give 4n+2 tiles; Figure 5 has 22.",
+      "answer": 22,
+      "actions": [
+        "Read the given values 6, 10, 14, 18 in order; do not treat the next term as given.",
+        "Mark each successive difference 4, 4, 4.",
+        "Build the next figure one group at a time; Two opposite columns of height 2n+1 give 4n+2 tiles; Figure 5 has 22.",
+        "Check against the original four values; the next value is 22."
+      ],
+      "memo": "Two opposite columns of height 2n+1 give 4n+2 tiles; Figure 5 has 22.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w14",
+      "title": "Growing blocks and marker",
+      "problem": "Growing blocks and marker: Figures 1–4 contain 3, 6, 11, 18 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        3,
+        6,
+        11,
+        18
+      ],
+      "kind": "square_plus_two",
+      "detail": "An n×n block plus two fixed tiles gives n²+2; Figure 5 has 27.",
+      "answer": 27,
+      "actions": [
+        "Read the given values 3, 6, 11, 18 in order; do not treat the next term as given.",
+        "Mark each successive difference 3, 5, 7.",
+        "Build the next figure one group at a time; An n×n block plus two fixed tiles gives n²+2; Figure 5 has 27.",
+        "Check against the original four values; the next value is 27."
+      ],
+      "memo": "An n×n block plus two fixed tiles gives n²+2; Figure 5 has 27.",
+      "model": "geometric"
+    },
+    {
+      "id": "g8-patterns-l02-w15",
+      "title": "Adjacent rectangular stages",
+      "problem": "Adjacent rectangular stages: Figures 1–4 contain 3, 8, 15, 24 dots or tiles. Find the number in Figure 5 and justify the model.",
+      "terms": [
+        3,
+        8,
+        15,
+        24
+      ],
+      "kind": "rectangle_two",
+      "detail": "An n by (n+2) array gives 3,8,15,24, then 5×7=35.",
+      "answer": 35,
+      "actions": [
+        "Read the given values 3, 8, 15, 24 in order; do not treat the next term as given.",
+        "Mark each successive difference 5, 7, 9.",
+        "Build the next figure one group at a time; An n by (n+2) array gives 3,8,15,24, then 5×7=35.",
+        "Check against the original four values; the next value is 35."
+      ],
+      "memo": "An n by (n+2) array gives 3,8,15,24, then 5×7=35.",
+      "model": "geometric"
+    }
+  ]
+}

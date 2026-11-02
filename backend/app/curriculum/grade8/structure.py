@@ -27,7 +27,22 @@ from app.curriculum.grade8.functions_relationships_lesson1 import LESSON as FUNC
 from app.curriculum.grade8.functions_relationships_lesson2 import LESSON as FUNCTIONS_LESSON_2
 from app.curriculum.grade8.functions_relationships_lesson3 import LESSON as FUNCTIONS_LESSON_3
 from app.curriculum.grade8.functions_relationships_lesson4 import LESSON as FUNCTIONS_LESSON_4
+from app.curriculum.grade8.functions_relationships_lesson5 import LESSON as FUNCTIONS_LESSON_5
+from app.curriculum.grade8.functions_relationships_lesson6 import LESSON as FUNCTIONS_LESSON_6
 from app.curriculum.grade8.graphs_lesson1 import LESSON as GRAPHS_LESSON_1
+from app.curriculum.grade8.graphs_lesson2 import LESSON as GRAPHS_LESSON_2
+from app.curriculum.grade8.graphs_lesson3 import LESSON as GRAPHS_LESSON_3
+from app.curriculum.grade8.graphs_lesson4 import LESSON as GRAPHS_LESSON_4
+from app.curriculum.grade8.graphs_lesson5 import LESSON as GRAPHS_LESSON_5
+from app.curriculum.grade8.graphs_lesson6 import LESSON as GRAPHS_LESSON_6
+
+from app.curriculum.grade8.patterns_runtime import LESSON_1 as PATTERNS_LESSON_1, LESSON_2 as PATTERNS_LESSON_2, LESSON_3 as PATTERNS_LESSON_3, LESSON_4 as PATTERNS_LESSON_4, LESSON_5 as PATTERNS_LESSON_5, LESSON_6 as PATTERNS_LESSON_6
+
+from app.curriculum.grade8.whole_numbers_runtime import LESSON_1 as WHOLE_LESSON_1, LESSON_2 as WHOLE_LESSON_2
+
+from app.curriculum.grade8.integers_runtime import LESSON_1 as INTEGER_LESSON_1, LESSON_2 as INTEGER_LESSON_2
+from app.curriculum.grade8.fractions_runtime import LESSON_1 as FRACTIONS_LESSON_1, LESSON_2 as FRACTIONS_LESSON_2, LESSON_3 as FRACTIONS_LESSON_3, LESSON_4 as FRACTIONS_LESSON_4, LESSON_5 as FRACTIONS_LESSON_5, LESSON_6 as FRACTIONS_LESSON_6, LESSON_7 as FRACTIONS_LESSON_7, LESSON_8 as FRACTIONS_LESSON_8
+from app.curriculum.grade8.integers_advanced_runtime import LESSON_3 as INTEGER_LESSON_3, LESSON_4 as INTEGER_LESSON_4, LESSON_5 as INTEGER_LESSON_5, LESSON_6 as INTEGER_LESSON_6
 
 SOURCE = "Project_Athena_Grade8_Algebraic_Equations_Gold_Pack_v1_0.docx"
 SOURCE_SHA256 = "69b97ae1d9f85d0f9fb41aad170f6cbc777f2e39844dd6b8d6235bee6c093574"
@@ -155,31 +170,95 @@ ALGEBRAIC_EXPRESSIONS_TOPIC = Topic(
 FUNCTIONS_RELATIONSHIPS_TOPIC = Topic(
     id="functions-relationships", product_order=3, title="Functions and Relationships",
     official_caps_topic="Functions and relationships", caps_sequence=3, term=2,
-    expected_duration="Four lessons authored; teacher review and browser acceptance pending",
+    expected_duration="Six lessons authored; teacher review and browser acceptance pending",
     paper=None, caps_reference="CAPS Grade 8 Mathematics — Functions and relationships",
     curriculum="CAPS", ieb_relevant=True,
     exam_relevance="Grade 8 classroom and formal assessment",
     status=ContentStatus.TEACHER_REVIEW_REQUIRED,
     subtopics=[Subtopic(id="functions-relationships-learning-path",order=1,
-        title="Input-output values, equivalence and formula contexts",prerequisites=[],lessons=[FUNCTIONS_LESSON_1,FUNCTIONS_LESSON_2,FUNCTIONS_LESSON_3,FUNCTIONS_LESSON_4])],
+        title="Input-output values, equivalence and formula contexts",prerequisites=[],lessons=[FUNCTIONS_LESSON_1,FUNCTIONS_LESSON_2,FUNCTIONS_LESSON_3,FUNCTIONS_LESSON_4,FUNCTIONS_LESSON_5,FUNCTIONS_LESSON_6])],
 )
 
 GRAPHS_TOPIC = Topic(
     id="graphs", product_order=4, title="Graphs",
     official_caps_topic="Graphs", caps_sequence=4, term=2,
-    expected_duration="Cartesian coordinates lesson authored; further graph lessons pending",
+    expected_duration="Six graph lessons authored; teacher review and browser acceptance pending",
     paper=None, caps_reference="CAPS Grade 8 Mathematics — Graphs",
     curriculum="CAPS", ieb_relevant=True,
     exam_relevance="Grade 8 classroom and formal assessment",
     status=ContentStatus.TEACHER_REVIEW_REQUIRED,
     subtopics=[Subtopic(id="graphs-learning-path", order=1,
-        title="Cartesian plane and ordered pairs", prerequisites=["functions-relationships"],
-        lessons=[GRAPHS_LESSON_1])],
+        title="Coordinates, graph reading and graph drawing", prerequisites=["functions-relationships"],
+        lessons=[GRAPHS_LESSON_1, GRAPHS_LESSON_2, GRAPHS_LESSON_3, GRAPHS_LESSON_4, GRAPHS_LESSON_5, GRAPHS_LESSON_6])],
+)
+
+PATTERNS_TOPIC = Topic(
+    id="numeric-geometric-patterns", product_order=5, title="Numeric and Geometric Patterns",
+    official_caps_topic="Numeric and geometric patterns", caps_sequence=5, term=1,
+    expected_duration="Six lessons authored; teacher review and browser acceptance pending",
+    paper=None, caps_reference="2026 CAPS Grade 8 Mathematics ATP — Patterns",
+    curriculum="CAPS", ieb_relevant=True, exam_relevance="Grade 8 classroom and formal assessment",
+    status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+    subtopics=[Subtopic(id="patterns-learning-path",order=1,title="Numeric rules and geometric models",
+        prerequisites=[],lessons=[PATTERNS_LESSON_1,PATTERNS_LESSON_2,PATTERNS_LESSON_3,PATTERNS_LESSON_4,PATTERNS_LESSON_5,PATTERNS_LESSON_6])],
+)
+
+WHOLE_NUMBERS_TOPIC = Topic(
+    id="whole-numbers", product_order=6, title="Whole Numbers",
+    official_caps_topic="Whole numbers", caps_sequence=1, term=1,
+    expected_duration="Two lessons authored; remaining whole-number scope and teacher review pending",
+    paper=None, caps_reference="2026 DBE Grade 8 Mathematics ATP — Term 1 Whole Numbers",
+    curriculum="CAPS", ieb_relevant=True, exam_relevance="Grade 8 classroom and formal assessment",
+    status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+    subtopics=[Subtopic(id="whole-numbers-learning-path",order=1,
+        title="Properties, factors and multiples",prerequisites=[],lessons=[WHOLE_LESSON_1,WHOLE_LESSON_2])],
+)
+
+INTEGERS_TOPIC = Topic(
+    id="integers",product_order=7,title="Integers",official_caps_topic="Integers",
+    caps_sequence=2,term=1,expected_duration="Six lessons authored; review and enrichment still pending",
+    paper=None,caps_reference="2026 DBE Grade 8 Mathematics ATP — Term 1 Integers",
+    curriculum="CAPS",ieb_relevant=True,exam_relevance="Grade 8 classroom and formal assessment",
+    status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+    subtopics=[Subtopic(id="integers-learning-path",order=1,title="Signed order and directed operations",
+        prerequisites=[],lessons=[INTEGER_LESSON_1,INTEGER_LESSON_2,INTEGER_LESSON_3,INTEGER_LESSON_4,INTEGER_LESSON_5,INTEGER_LESSON_6])],
+)
+
+from app.curriculum.grade8.decimals_runtime import LESSON_1 as DECIMAL_LESSON_1, LESSON_2 as DECIMAL_LESSON_2, LESSON_3 as DECIMAL_LESSON_3, LESSON_4 as DECIMAL_LESSON_4, LESSON_5 as DECIMAL_LESSON_5, LESSON_6 as DECIMAL_LESSON_6
+
+DECIMALS_TOPIC = Topic(
+    id="decimal-fractions",product_order=9,title="Decimal Fractions",official_caps_topic="Decimal Fractions",
+    caps_sequence=4,term=1,expected_duration="Six decimal lessons authored; teacher review and browser acceptance pending",
+    paper=None,caps_reference="2026 DBE Grade 8 Mathematics ATP — Term 1 Decimal Fractions",
+    curriculum="CAPS",ieb_relevant=True,exam_relevance="Grade 8 classroom and formal assessment",
+    status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+    subtopics=[Subtopic(id="decimal-learning-path",order=1,title="Decimal positions and rounding",prerequisites=["g8-common-fractions-08"],lessons=[DECIMAL_LESSON_1,DECIMAL_LESSON_2,DECIMAL_LESSON_3,DECIMAL_LESSON_4,DECIMAL_LESSON_5,DECIMAL_LESSON_6])],
+)
+
+FRACTIONS_TOPIC = Topic(
+    id="common-fractions",product_order=8,title="Common Fractions",official_caps_topic="Common Fractions",
+    caps_sequence=3,term=1,expected_duration="Eight foundational lessons authored; teacher review and browser acceptance pending",
+    paper=None,caps_reference="2026 DBE Grade 8 Mathematics ATP — Common Fractions",
+    curriculum="CAPS",ieb_relevant=True,exam_relevance="Grade 8 classroom and formal assessment",
+    status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+    subtopics=[Subtopic(id="fractions-learning-path",order=1,title="Equivalent forms and fraction calculations",
+        prerequisites=[],lessons=[FRACTIONS_LESSON_1,FRACTIONS_LESSON_2,FRACTIONS_LESSON_3,FRACTIONS_LESSON_4,FRACTIONS_LESSON_5,FRACTIONS_LESSON_6,FRACTIONS_LESSON_7,FRACTIONS_LESSON_8])],
+)
+
+from app.curriculum.grade8.exponents_runtime import LESSON_1 as EXPONENT_LESSON_1, LESSON_2 as EXPONENT_LESSON_2, LESSON_3 as EXPONENT_LESSON_3, LESSON_4 as EXPONENT_LESSON_4, LESSON_5 as EXPONENT_LESSON_5, LESSON_6 as EXPONENT_LESSON_6
+EXPONENTS_TOPIC = Topic(
+    id="exponents",product_order=10,title="Exponents",official_caps_topic="Exponents",
+    caps_sequence=6,term=2,expected_duration="Six lessons authored; teacher review and browser acceptance pending",
+    paper=None,caps_reference="2026 DBE Grade 8 Mathematics ATP — Term 2 Exponents",
+    curriculum="CAPS",ieb_relevant=True,exam_relevance="Grade 8 classroom and formal assessment",
+    status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+    subtopics=[Subtopic(id="exponents-learning-path",order=1,title="Power representation and laws",
+        prerequisites=["g8-decimal-fractions-06"],lessons=[EXPONENT_LESSON_1,EXPONENT_LESSON_2,EXPONENT_LESSON_3,EXPONENT_LESSON_4,EXPONENT_LESSON_5,EXPONENT_LESSON_6])],
 )
 
 GRADE_8 = GradeCurriculum(
     id="grade-8",
     grade=8,
     status=ContentStatus.DRAFT,
-    topics=[ALGEBRAIC_EQUATIONS_TOPIC, ALGEBRAIC_EXPRESSIONS_TOPIC, FUNCTIONS_RELATIONSHIPS_TOPIC, GRAPHS_TOPIC],
+    topics=[ALGEBRAIC_EQUATIONS_TOPIC, ALGEBRAIC_EXPRESSIONS_TOPIC, FUNCTIONS_RELATIONSHIPS_TOPIC, GRAPHS_TOPIC, PATTERNS_TOPIC, WHOLE_NUMBERS_TOPIC, INTEGERS_TOPIC, FRACTIONS_TOPIC, DECIMALS_TOPIC, EXPONENTS_TOPIC],
 )

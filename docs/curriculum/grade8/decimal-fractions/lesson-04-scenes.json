@@ -1,0 +1,325 @@
+{
+  "scenes": [
+    {
+      "id": "g8-dec-l04-w01",
+      "kind": "divide",
+      "values": [
+        "1.2",
+        "0.3"
+      ],
+      "problem": "Divide 1.2 by 0.3. Show the equal scaling and quotient digits.",
+      "answer": "4",
+      "rows": [
+        "Choose 10^1 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 1.2 ÷ 0.3 = 12 ÷ 3. The quotient is unchanged.",
+        "Bring down 1: 1 ÷ 3 gives digit 0; subtract 0 × 3 to leave remainder 1.",
+        "Bring down 2: 12 ÷ 3 gives digit 4; subtract 4 × 3 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 4."
+      ],
+      "memo": "4 × 0.3 = 1.2, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w02",
+      "kind": "divide",
+      "values": [
+        "2.4",
+        "0.6"
+      ],
+      "problem": "Divide 2.4 by 0.6. Show the equal scaling and quotient digits.",
+      "answer": "4",
+      "rows": [
+        "Choose 10^1 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 2.4 ÷ 0.6 = 24 ÷ 6. The quotient is unchanged.",
+        "Bring down 2: 2 ÷ 6 gives digit 0; subtract 0 × 6 to leave remainder 2.",
+        "Bring down 4: 24 ÷ 6 gives digit 4; subtract 4 × 6 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 4."
+      ],
+      "memo": "4 × 0.6 = 2.4, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w03",
+      "kind": "divide",
+      "values": [
+        "0.75",
+        "0.25"
+      ],
+      "problem": "Divide 0.75 by 0.25. Show the equal scaling and quotient digits.",
+      "answer": "3",
+      "rows": [
+        "Choose 10^2 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 0.75 ÷ 0.25 = 75 ÷ 25. The quotient is unchanged.",
+        "Bring down 7: 7 ÷ 25 gives digit 0; subtract 0 × 25 to leave remainder 7.",
+        "Bring down 5: 75 ÷ 25 gives digit 3; subtract 3 × 25 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 3."
+      ],
+      "memo": "3 × 0.25 = 0.75, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w04",
+      "kind": "divide",
+      "values": [
+        "3.6",
+        "0.12"
+      ],
+      "problem": "Divide 3.6 by 0.12. Show the equal scaling and quotient digits.",
+      "answer": "30",
+      "rows": [
+        "Choose 10^2 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 3.6 ÷ 0.12 = 360 ÷ 12. The quotient is unchanged.",
+        "Bring down 3: 3 ÷ 12 gives digit 0; subtract 0 × 12 to leave remainder 3.",
+        "Bring down 6: 36 ÷ 12 gives digit 3; subtract 3 × 12 to leave remainder 0.",
+        "Bring down 0: 0 ÷ 12 gives digit 0; subtract 0 × 12 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 30."
+      ],
+      "memo": "30 × 0.12 = 3.6, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w05",
+      "kind": "divide",
+      "values": [
+        "0.84",
+        "0.07"
+      ],
+      "problem": "Divide 0.84 by 0.07. Show the equal scaling and quotient digits.",
+      "answer": "12",
+      "rows": [
+        "Choose 10^2 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 0.84 ÷ 0.07 = 84 ÷ 7. The quotient is unchanged.",
+        "Bring down 8: 8 ÷ 7 gives digit 1; subtract 1 × 7 to leave remainder 1.",
+        "Bring down 4: 14 ÷ 7 gives digit 2; subtract 2 × 7 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 12."
+      ],
+      "memo": "12 × 0.07 = 0.84, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w06",
+      "kind": "divide",
+      "values": [
+        "4.5",
+        "0.15"
+      ],
+      "problem": "Divide 4.5 by 0.15. Show the equal scaling and quotient digits.",
+      "answer": "30",
+      "rows": [
+        "Choose 10^2 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 4.5 ÷ 0.15 = 450 ÷ 15. The quotient is unchanged.",
+        "Bring down 4: 4 ÷ 15 gives digit 0; subtract 0 × 15 to leave remainder 4.",
+        "Bring down 5: 45 ÷ 15 gives digit 3; subtract 3 × 15 to leave remainder 0.",
+        "Bring down 0: 0 ÷ 15 gives digit 0; subtract 0 × 15 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 30."
+      ],
+      "memo": "30 × 0.15 = 4.5, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w07",
+      "kind": "divide",
+      "values": [
+        "0.096",
+        "0.008"
+      ],
+      "problem": "Divide 0.096 by 0.008. Show the equal scaling and quotient digits.",
+      "answer": "12",
+      "rows": [
+        "Choose 10^3 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 0.096 ÷ 0.008 = 96 ÷ 8. The quotient is unchanged.",
+        "Bring down 9: 9 ÷ 8 gives digit 1; subtract 1 × 8 to leave remainder 1.",
+        "Bring down 6: 16 ÷ 8 gives digit 2; subtract 2 × 8 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 12."
+      ],
+      "memo": "12 × 0.008 = 0.096, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w08",
+      "kind": "divide",
+      "values": [
+        "7.875",
+        "0.35"
+      ],
+      "problem": "Divide 7.875 by 0.35. Show the equal scaling and quotient digits.",
+      "answer": "22.5",
+      "rows": [
+        "Choose 10^3 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 7.875 ÷ 0.35 = 7875 ÷ 350. The quotient is unchanged.",
+        "Bring down 7: 7 ÷ 350 gives digit 0; subtract 0 × 350 to leave remainder 7.",
+        "Bring down 8: 78 ÷ 350 gives digit 0; subtract 0 × 350 to leave remainder 78.",
+        "Bring down 7: 787 ÷ 350 gives digit 2; subtract 2 × 350 to leave remainder 87.",
+        "Bring down 5: 875 ÷ 350 gives digit 2; subtract 2 × 350 to leave remainder 175.",
+        "Add a decimal zero: 1750 ÷ 350 gives digit 5; subtract 5 × 350 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 22.5."
+      ],
+      "memo": "22.5 × 0.35 = 7.875, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w09",
+      "kind": "divide",
+      "values": [
+        "12.48",
+        "0.16"
+      ],
+      "problem": "Divide 12.48 by 0.16. Show the equal scaling and quotient digits.",
+      "answer": "78",
+      "rows": [
+        "Choose 10^2 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 12.48 ÷ 0.16 = 1248 ÷ 16. The quotient is unchanged.",
+        "Bring down 1: 1 ÷ 16 gives digit 0; subtract 0 × 16 to leave remainder 1.",
+        "Bring down 2: 12 ÷ 16 gives digit 0; subtract 0 × 16 to leave remainder 12.",
+        "Bring down 4: 124 ÷ 16 gives digit 7; subtract 7 × 16 to leave remainder 12.",
+        "Bring down 8: 128 ÷ 16 gives digit 8; subtract 8 × 16 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 78."
+      ],
+      "memo": "78 × 0.16 = 12.48, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w10",
+      "kind": "divide",
+      "values": [
+        "0.525",
+        "0.075"
+      ],
+      "problem": "Divide 0.525 by 0.075. Show the equal scaling and quotient digits.",
+      "answer": "7",
+      "rows": [
+        "Choose 10^3 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 0.525 ÷ 0.075 = 525 ÷ 75. The quotient is unchanged.",
+        "Bring down 5: 5 ÷ 75 gives digit 0; subtract 0 × 75 to leave remainder 5.",
+        "Bring down 2: 52 ÷ 75 gives digit 0; subtract 0 × 75 to leave remainder 52.",
+        "Bring down 5: 525 ÷ 75 gives digit 7; subtract 7 × 75 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 7."
+      ],
+      "memo": "7 × 0.075 = 0.525, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w11",
+      "kind": "divide",
+      "values": [
+        "18.9",
+        "0.045"
+      ],
+      "problem": "Divide 18.9 by 0.045. Show the equal scaling and quotient digits.",
+      "answer": "420",
+      "rows": [
+        "Choose 10^3 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 18.9 ÷ 0.045 = 18900 ÷ 45. The quotient is unchanged.",
+        "Bring down 1: 1 ÷ 45 gives digit 0; subtract 0 × 45 to leave remainder 1.",
+        "Bring down 8: 18 ÷ 45 gives digit 0; subtract 0 × 45 to leave remainder 18.",
+        "Bring down 9: 189 ÷ 45 gives digit 4; subtract 4 × 45 to leave remainder 9.",
+        "Bring down 0: 90 ÷ 45 gives digit 2; subtract 2 × 45 to leave remainder 0.",
+        "Bring down 0: 0 ÷ 45 gives digit 0; subtract 0 × 45 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 420."
+      ],
+      "memo": "420 × 0.045 = 18.9, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w12",
+      "kind": "divide",
+      "values": [
+        "1.152",
+        "0.024"
+      ],
+      "problem": "Divide 1.152 by 0.024. Show the equal scaling and quotient digits.",
+      "answer": "48",
+      "rows": [
+        "Choose 10^3 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 1.152 ÷ 0.024 = 1152 ÷ 24. The quotient is unchanged.",
+        "Bring down 1: 1 ÷ 24 gives digit 0; subtract 0 × 24 to leave remainder 1.",
+        "Bring down 1: 11 ÷ 24 gives digit 0; subtract 0 × 24 to leave remainder 11.",
+        "Bring down 5: 115 ÷ 24 gives digit 4; subtract 4 × 24 to leave remainder 19.",
+        "Bring down 2: 192 ÷ 24 gives digit 8; subtract 8 × 24 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 48."
+      ],
+      "memo": "48 × 0.024 = 1.152, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w13",
+      "kind": "divide",
+      "values": [
+        "23.625",
+        "1.25"
+      ],
+      "problem": "Divide 23.625 by 1.25. Show the equal scaling and quotient digits.",
+      "answer": "18.9",
+      "rows": [
+        "Choose 10^3 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 23.625 ÷ 1.25 = 23625 ÷ 1250. The quotient is unchanged.",
+        "Bring down 2: 2 ÷ 1250 gives digit 0; subtract 0 × 1250 to leave remainder 2.",
+        "Bring down 3: 23 ÷ 1250 gives digit 0; subtract 0 × 1250 to leave remainder 23.",
+        "Bring down 6: 236 ÷ 1250 gives digit 0; subtract 0 × 1250 to leave remainder 236.",
+        "Bring down 2: 2362 ÷ 1250 gives digit 1; subtract 1 × 1250 to leave remainder 1112.",
+        "Bring down 5: 11125 ÷ 1250 gives digit 8; subtract 8 × 1250 to leave remainder 1125.",
+        "Add a decimal zero: 11250 ÷ 1250 gives digit 9; subtract 9 × 1250 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 18.9."
+      ],
+      "memo": "18.9 × 1.25 = 23.625, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w14",
+      "kind": "divide",
+      "values": [
+        "0.468",
+        "0.012"
+      ],
+      "problem": "Divide 0.468 by 0.012. Show the equal scaling and quotient digits.",
+      "answer": "39",
+      "rows": [
+        "Choose 10^3 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 0.468 ÷ 0.012 = 468 ÷ 12. The quotient is unchanged.",
+        "Bring down 4: 4 ÷ 12 gives digit 0; subtract 0 × 12 to leave remainder 4.",
+        "Bring down 6: 46 ÷ 12 gives digit 3; subtract 3 × 12 to leave remainder 10.",
+        "Bring down 8: 108 ÷ 12 gives digit 9; subtract 9 × 12 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 39."
+      ],
+      "memo": "39 × 0.012 = 0.468, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    },
+    {
+      "id": "g8-dec-l04-w15",
+      "kind": "divide",
+      "values": [
+        "45.12",
+        "0.048"
+      ],
+      "problem": "Divide 45.12 by 0.048. Show the equal scaling and quotient digits.",
+      "answer": "940",
+      "rows": [
+        "Choose 10^3 so multiplying BOTH original operands clears both decimal points.",
+        "Apply the same factor: 45.12 ÷ 0.048 = 45120 ÷ 48. The quotient is unchanged.",
+        "Bring down 4: 4 ÷ 48 gives digit 0; subtract 0 × 48 to leave remainder 4.",
+        "Bring down 5: 45 ÷ 48 gives digit 0; subtract 0 × 48 to leave remainder 45.",
+        "Bring down 1: 451 ÷ 48 gives digit 9; subtract 9 × 48 to leave remainder 19.",
+        "Bring down 2: 192 ÷ 48 gives digit 4; subtract 4 × 48 to leave remainder 0.",
+        "Bring down 0: 0 ÷ 48 gives digit 0; subtract 0 × 48 to leave remainder 0.",
+        "Read the quotient digits with the decimal point: 940."
+      ],
+      "memo": "940 × 0.048 = 45.12, so division reverses to the original dividend.",
+      "misconception": "Multiply dividend and divisor by the SAME power of ten; track every quotient digit and remainder.",
+      "visual_family": "decimal_quotient"
+    }
+  ]
+}

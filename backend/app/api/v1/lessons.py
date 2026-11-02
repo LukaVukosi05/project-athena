@@ -62,7 +62,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                         field for field in source_data.split("; ")
                         if field.partition("=")[0].strip() not in concealed
                     )
-            if lesson.id in {"g8-graphs-01", "g8-algebraic-expressions-01", "g8-algebraic-expressions-02", "g8-algebraic-expressions-03", "g8-algebraic-expressions-04", "g8-algebraic-expressions-05", "g8-algebraic-expressions-06", "g8-algebraic-expressions-07", "g8-algebraic-expressions-08", "g8-algebraic-expressions-09", "g8-algebraic-expressions-10", "g8-functions-relationships-01", "g8-functions-relationships-02", "g8-functions-relationships-03", "g8-functions-relationships-04", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
+            if lesson.id in {"g8-graphs-01", "g8-graphs-02", "g8-graphs-03", "g8-graphs-04", "g8-graphs-05", "g8-graphs-06", "g8-patterns-01", "g8-patterns-02", "g8-patterns-03", "g8-patterns-04", "g8-patterns-05", "g8-patterns-06", "g8-whole-numbers-01", "g8-whole-numbers-02", "g8-integers-01", "g8-integers-02", "g8-integers-03", "g8-integers-04", "g8-integers-05", "g8-integers-06", "g8-common-fractions-01", "g8-common-fractions-02", "g8-common-fractions-03", "g8-common-fractions-04", "g8-common-fractions-05", "g8-common-fractions-06", "g8-common-fractions-07", "g8-common-fractions-08", "g8-decimal-fractions-01", "g8-decimal-fractions-02", "g8-decimal-fractions-03", "g8-decimal-fractions-04", "g8-decimal-fractions-05", "g8-decimal-fractions-06", "g8-exponents-01", "g8-exponents-02", "g8-exponents-03", "g8-exponents-04", "g8-exponents-05", "g8-exponents-06", "g8-algebraic-expressions-01", "g8-algebraic-expressions-02", "g8-algebraic-expressions-03", "g8-algebraic-expressions-04", "g8-algebraic-expressions-05", "g8-algebraic-expressions-06", "g8-algebraic-expressions-07", "g8-algebraic-expressions-08", "g8-algebraic-expressions-09", "g8-algebraic-expressions-10", "g8-functions-relationships-01", "g8-functions-relationships-02", "g8-functions-relationships-03", "g8-functions-relationships-04", "g8-functions-relationships-05", "g8-functions-relationships-06", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
                 preview = question["whiteboard"]["steps"][0]
                 preview["working_expression"] = preview["before_expression"]
                 preview["after_expression"] = preview["before_expression"]
@@ -81,6 +81,57 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     field for field in source.split("; ")
                     if not field.partition("=")[0].strip().replace("_", " ").startswith(("solution", "equation", "correct", "first error", "reduced statement", "final prices", "dimensions", "equal cost", "unit value", "whole litres", "landing", "intermediate", "reverse operations", "reverse rule", "signed distance", "difference", "condition", "break even input", "meeting week", "common length", "classification", "learner conclusion", "repair", "meeting amount", "test values", "expanded", "divide first state", "partial products", "restriction", "lcd", "scaled terms", "cleared equation"))
                 )
+            if lesson.id in {"g8-common-fractions-01", "g8-common-fractions-02", "g8-common-fractions-03", "g8-common-fractions-04", "g8-common-fractions-05", "g8-common-fractions-06", "g8-common-fractions-07", "g8-common-fractions-08", "g8-decimal-fractions-01", "g8-decimal-fractions-02", "g8-decimal-fractions-03", "g8-decimal-fractions-04", "g8-decimal-fractions-05", "g8-decimal-fractions-06", "g8-exponents-01", "g8-exponents-02", "g8-exponents-03", "g8-exponents-04", "g8-exponents-05", "g8-exponents-06"}:
+                import json
+                params=question["whiteboard"]["visualization"]["parameters"]
+                scene=json.loads(params["scene_json"])
+                for key in ("answer","memo","rows","misconception"):
+                    scene.pop(key,None)
+                params["scene_json"]=json.dumps(scene,ensure_ascii=False)
+            if lesson.id in {"g8-integers-03", "g8-integers-04", "g8-integers-05", "g8-integers-06"}:
+                import json
+                params=question["whiteboard"]["visualization"]["parameters"]
+                scene=json.loads(params["scene_json"])
+                for key in ("answer","memo","actions","rows","misconception","left_value","claim_true"):
+                    scene.pop(key,None)
+                params["scene_json"]=json.dumps(scene,ensure_ascii=False)
+            if lesson.id in {"g8-integers-01", "g8-integers-02"}:
+                import json
+                params=question["whiteboard"]["visualization"]["parameters"]
+                scene=json.loads(params["scene_json"])
+                for key in ("answer","memo","actions","path"):
+                    scene.pop(key,None)
+                params["scene_json"]=json.dumps(scene,ensure_ascii=False)
+            if lesson.id in {"g8-whole-numbers-01", "g8-whole-numbers-02"}:
+                import json
+                params=question["whiteboard"]["visualization"]["parameters"]
+                scene=json.loads(params["scene_json"])
+                for key in ("answer","memo","actions","factors","property"):
+                    scene.pop(key,None)
+                params["scene_json"]=json.dumps(scene,ensure_ascii=False)
+            if lesson.id in {"g8-graphs-03", "g8-graphs-04", "g8-graphs-05", "g8-graphs-06", "g8-patterns-01", "g8-patterns-02", "g8-patterns-03", "g8-patterns-04", "g8-patterns-05", "g8-patterns-06", "g8-whole-numbers-01", "g8-whole-numbers-02", "g8-integers-01", "g8-integers-02"}:
+                import json
+                params = question["whiteboard"]["visualization"]["parameters"]
+                scene = json.loads(params["scene_json"])
+                for private_key in (("answer", "memo", "actions", "repair", "misconception", "rule", "a", "b")
+                                    if lesson.id == "g8-patterns-03" else
+                                    ("answer", "memo", "actions", "repair", "misconception", "correct_label", "wrong_index", "rule", "a", "b", "family")
+                                    if lesson.id in {"g8-patterns-05", "g8-patterns-06", "g8-whole-numbers-01", "g8-whole-numbers-02", "g8-integers-01", "g8-integers-02"} else
+                                    ("answer", "memo", "actions", "repair", "misconception")):
+                    scene.pop(private_key, None)
+                params["scene_json"] = json.dumps(scene, ensure_ascii=False)
+            if lesson.id in {"g8-functions-relationships-05", "g8-functions-relationships-06"}:
+                import json
+                visual=question["whiteboard"]["visualization"]
+                params=visual["parameters"]
+                params["derived_objects"]=["?" for _ in params["derived_objects"]]
+                scene=json.loads(params["scene_json"])
+                scene.pop("chosen",None)
+                for path in scene["candidates"]:
+                    path.pop("value",None)
+                    if scene["mode"]=="repair" and path is scene["candidates"][1]:
+                        path["label"]="Repair path"
+                params["scene_json"]=json.dumps(scene,ensure_ascii=False)
             question["whiteboard"]["semantic_objects"] = [
                 item for item in question["whiteboard"]["semantic_objects"]
                 if item["id"] in {"problem", "stage-01"}
@@ -112,7 +163,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
 @router.post("/{lesson_id}/questions/{question_id}/reveal")
 def reveal_worked_example(lesson_id: str, question_id: str, user: User | None = Depends(get_optional_user)) -> dict:
     grade, _, _, lesson = _lesson_context(lesson_id)
-    if grade.id != "grade-8" or lesson.id not in {"g8-graphs-01", "g8-algebraic-expressions-01", "g8-algebraic-expressions-02", "g8-algebraic-expressions-03", "g8-algebraic-expressions-04", "g8-algebraic-expressions-05", "g8-algebraic-expressions-06", "g8-algebraic-expressions-07", "g8-algebraic-expressions-08", "g8-algebraic-expressions-09", "g8-algebraic-expressions-10", "g8-functions-relationships-01", "g8-functions-relationships-02", "g8-functions-relationships-03", "g8-functions-relationships-04", "g8-algebraic-equations-01", "g8-algebraic-equations-02", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
+    if grade.id != "grade-8" or lesson.id not in {"g8-graphs-01", "g8-graphs-02", "g8-graphs-03", "g8-graphs-04", "g8-graphs-05", "g8-graphs-06", "g8-patterns-01", "g8-patterns-02", "g8-patterns-03", "g8-patterns-04", "g8-patterns-05", "g8-patterns-06", "g8-whole-numbers-01", "g8-whole-numbers-02", "g8-integers-01", "g8-integers-02", "g8-integers-03", "g8-integers-04", "g8-integers-05", "g8-integers-06", "g8-common-fractions-01", "g8-common-fractions-02", "g8-common-fractions-03", "g8-common-fractions-04", "g8-common-fractions-05", "g8-common-fractions-06", "g8-common-fractions-07", "g8-common-fractions-08", "g8-decimal-fractions-01", "g8-decimal-fractions-02", "g8-decimal-fractions-03", "g8-decimal-fractions-04", "g8-decimal-fractions-05", "g8-decimal-fractions-06", "g8-exponents-01", "g8-exponents-02", "g8-exponents-03", "g8-exponents-04", "g8-exponents-05", "g8-exponents-06", "g8-algebraic-expressions-01", "g8-algebraic-expressions-02", "g8-algebraic-expressions-03", "g8-algebraic-expressions-04", "g8-algebraic-expressions-05", "g8-algebraic-expressions-06", "g8-algebraic-expressions-07", "g8-algebraic-expressions-08", "g8-algebraic-expressions-09", "g8-algebraic-expressions-10", "g8-functions-relationships-01", "g8-functions-relationships-02", "g8-functions-relationships-03", "g8-functions-relationships-04", "g8-functions-relationships-05", "g8-functions-relationships-06", "g8-algebraic-equations-01", "g8-algebraic-equations-02", "g8-algebraic-equations-03", "g8-algebraic-equations-04", "g8-algebraic-equations-05", "g8-algebraic-equations-06", "g8-algebraic-equations-07", "g8-algebraic-equations-08", "g8-algebraic-equations-09", "g8-algebraic-equations-10"}:
         raise HTTPException(status_code=404, detail="Worked example not found")
     enforce_lesson_access(lesson, user)
     if lesson.id in {"g8-algebraic-equations-10", "g8-algebraic-expressions-10"}:

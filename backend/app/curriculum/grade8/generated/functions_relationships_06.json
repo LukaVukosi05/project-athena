@@ -1,0 +1,1079 @@
+{
+  "id": "g8-functions-relationships-06",
+  "title": "First-error diagnosis and relationship repair",
+  "source_document": "lesson-06-relationship-repair.md",
+  "source_sha256": "2c2e3e1c0286daa258cb42a3abde99f704e28b8c5a9502766846f32b20f1ee80",
+  "worked_examples": [
+    {
+      "id": "g8-fr-l06-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "q": "A learner claims double x then add 3 is 2(x+3). Find the first error and repair for x=2.",
+      "answer": "Correct: 2x+3, so x=2 gives 7; learner gives 10",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "double x → add 3",
+          "learner 2(x+3)"
+        ],
+        "outputs": [
+          "correct evaluated at 2",
+          "Correct: 2x+3, so x=2 gives 7; learner gives 10"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 2,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 10,
+              "a": 0,
+              "b": 2,
+              "c": 6
+            },
+            {
+              "label": "correct",
+              "value": 7,
+              "a": 0,
+              "b": 2,
+              "c": 3
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "double x → add 3",
+            "learner 2(x+3)"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 2",
+        "Learner path → 10; repair path → 7",
+        "Correct: 2x+3, so x=2 gives 7; learner gives 10"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. The learner grouped the addition inside doubling."
+        },
+        {
+          "title": "Compare at input 2.",
+          "action": "Compare at input 2.",
+          "narration": "The learner path gives 10; the repaired path gives 7. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Double x first; add three once afterwards. Correct: 2x+3, so x=2 gives 7; learner gives 10"
+        }
+      ],
+      "verify": "At input 2, correct gives 7; recheck against the original words, rows or formula.",
+      "misconception": "The learner grouped the addition inside doubling.",
+      "repair": "Double x first; add three once afterwards."
+    },
+    {
+      "id": "g8-fr-l06-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 2,
+      "q": "A learner claims the table 0→4,1→7 follows y=4x+3. Diagnose with x=0.",
+      "answer": "Correct: 3x+4; x=0 must output 4",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "0→4; 1→7",
+          "learner 4x+3"
+        ],
+        "outputs": [
+          "correct evaluated at 0",
+          "Correct: 3x+4; x=0 must output 4"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 0,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 3,
+              "a": 0,
+              "b": 4,
+              "c": 3
+            },
+            {
+              "label": "correct",
+              "value": 4,
+              "a": 0,
+              "b": 3,
+              "c": 4
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "0→4; 1→7",
+            "learner 4x+3"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 0",
+        "Learner path → 3; repair path → 4",
+        "Correct: 3x+4; x=0 must output 4"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. The zero input output was used as the coefficient."
+        },
+        {
+          "title": "Compare at input 0.",
+          "action": "Compare at input 0.",
+          "narration": "The learner path gives 3; the repaired path gives 4. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Set x to zero to locate the constant. Correct: 3x+4; x=0 must output 4"
+        }
+      ],
+      "verify": "At input 0, correct gives 4; recheck against the original words, rows or formula.",
+      "misconception": "The zero input output was used as the coefficient.",
+      "repair": "Set x to zero to locate the constant."
+    },
+    {
+      "id": "g8-fr-l06-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "q": "A learner writes add 2 then triple as 3x+2. Find the first missed operation and test x=1.",
+      "answer": "Correct: 3(x+2); at x=1 the output is 9",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "x → +2 → ×3",
+          "learner 3x+2"
+        ],
+        "outputs": [
+          "correct evaluated at 1",
+          "Correct: 3(x+2); at x=1 the output is 9"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 1,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 5,
+              "a": 0,
+              "b": 3,
+              "c": 2
+            },
+            {
+              "label": "correct",
+              "value": 9,
+              "a": 0,
+              "b": 3,
+              "c": 6
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "x → +2 → ×3",
+            "learner 3x+2"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 1",
+        "Learner path → 5; repair path → 9",
+        "Correct: 3(x+2); at x=1 the output is 9"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. The triple did not act on the entire previous result."
+        },
+        {
+          "title": "Compare at input 1.",
+          "action": "Compare at input 1.",
+          "narration": "The learner path gives 5; the repaired path gives 9. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Keep x+2 together when tripling. Correct: 3(x+2); at x=1 the output is 9"
+        }
+      ],
+      "verify": "At input 1, correct gives 9; recheck against the original words, rows or formula.",
+      "misconception": "The triple did not act on the entire previous result.",
+      "repair": "Keep x+2 together when tripling."
+    },
+    {
+      "id": "g8-fr-l06-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 3,
+      "q": "From pairs 0→6,2→12 a learner writes y=6x+6. Identify the wrong rate and predict y at x=4.",
+      "answer": "Correct: y=3x+6; at x=4, y=18",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "0→6; 2→12",
+          "learner y=6x+6"
+        ],
+        "outputs": [
+          "correct evaluated at 4",
+          "Correct: y=3x+6; at x=4, y=18"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 4,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 30,
+              "a": 0,
+              "b": 6,
+              "c": 6
+            },
+            {
+              "label": "correct",
+              "value": 18,
+              "a": 0,
+              "b": 3,
+              "c": 6
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "0→6; 2→12",
+            "learner y=6x+6"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 4",
+        "Learner path → 30; repair path → 18",
+        "Correct: y=3x+6; at x=4, y=18"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. Six output units were counted per one input unit."
+        },
+        {
+          "title": "Compare at input 4.",
+          "action": "Compare at input 4.",
+          "narration": "The learner path gives 30; the repaired path gives 18. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Divide Δy=6 by Δx=2. Correct: y=3x+6; at x=4, y=18"
+        }
+      ],
+      "verify": "At input 4, correct gives 18; recheck against the original words, rows or formula.",
+      "misconception": "Six output units were counted per one input unit.",
+      "repair": "Divide Δy=6 by Δx=2."
+    },
+    {
+      "id": "g8-fr-l06-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 3,
+      "q": "For a R8 joining fee plus R5 per visit, a learner writes C=8v+5. Correct the swapped fee and find cost at v=3.",
+      "answer": "Correct: C=8+5v, C(3)=R23",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "R8 once",
+          "R5 each visit",
+          "learner 8v+5"
+        ],
+        "outputs": [
+          "correct evaluated at 3",
+          "Correct: C=8+5v, C(3)=R23"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 3,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 29,
+              "a": 0,
+              "b": 8,
+              "c": 5
+            },
+            {
+              "label": "correct",
+              "value": 23,
+              "a": 0,
+              "b": 5,
+              "c": 8
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "R8 once",
+            "R5 each visit",
+            "learner 8v+5"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 3",
+        "Learner path → 29; repair path → 23",
+        "Correct: C=8+5v, C(3)=R23"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. The once-off charge was multiplied by visits."
+        },
+        {
+          "title": "Compare at input 3.",
+          "action": "Compare at input 3.",
+          "narration": "The learner path gives 29; the repaired path gives 23. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Place the visit fee beside v and joining fee separately. Correct: C=8+5v, C(3)=R23"
+        }
+      ],
+      "verify": "At input 3, correct gives 23; recheck against the original words, rows or formula.",
+      "misconception": "The once-off charge was multiplied by visits.",
+      "repair": "Place the visit fee beside v and joining fee separately."
+    },
+    {
+      "id": "g8-fr-l06-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 4,
+      "q": "A learner sees −2→−3,0→1,2→5 and proposes y=2x−1. Find the first counterexample and predict x=3.",
+      "answer": "Correct: y=2x+1; at x=3, y=7",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "−2→−3; 0→1; 2→5",
+          "learner 2x−1"
+        ],
+        "outputs": [
+          "correct evaluated at 3",
+          "Correct: y=2x+1; at x=3, y=7"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 3,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 5,
+              "a": 0,
+              "b": 2,
+              "c": -1
+            },
+            {
+              "label": "correct",
+              "value": 7,
+              "a": 0,
+              "b": 2,
+              "c": 1
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "−2→−3; 0→1; 2→5",
+            "learner 2x−1"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 3",
+        "Learner path → 5; repair path → 7",
+        "Correct: y=2x+1; at x=3, y=7"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. The zero-row intercept sign was copied incorrectly."
+        },
+        {
+          "title": "Compare at input 3.",
+          "action": "Compare at input 3.",
+          "narration": "The learner path gives 5; the repaired path gives 7. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Substitute x=0 into the candidate before forecasting. Correct: y=2x+1; at x=3, y=7"
+        }
+      ],
+      "verify": "At input 3, correct gives 7; recheck against the original words, rows or formula.",
+      "misconception": "The zero-row intercept sign was copied incorrectly.",
+      "repair": "Substitute x=0 into the candidate before forecasting."
+    },
+    {
+      "id": "g8-fr-l06-w07",
+      "number": 7,
+      "level": "intermediate",
+      "marks": 4,
+      "q": "A learner says y=x²+1 has constant differences for x=0,1,2,3. Show the first change that disproves this.",
+      "answer": "Outputs 1,2,5,10; differences 1,3,5 are not constant",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "x=0,1,2,3",
+          "learner says constant changes"
+        ],
+        "outputs": [
+          "square rule evaluated at 3",
+          "Outputs 1,2,5,10; differences 1,3,5 are not constant"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 3,
+          "candidates": [
+            {
+              "label": "linear claim",
+              "value": 7,
+              "a": 0,
+              "b": 2,
+              "c": 1
+            },
+            {
+              "label": "square rule",
+              "value": 10,
+              "a": 1,
+              "b": 0,
+              "c": 1
+            }
+          ],
+          "chosen": "square rule",
+          "given": [
+            "x=0,1,2,3",
+            "learner says constant changes"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 3",
+        "Learner path → 7; repair path → 10",
+        "Outputs 1,2,5,10; differences 1,3,5 are not constant"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. Comparing two outputs without checking later differences."
+        },
+        {
+          "title": "Compare at input 3.",
+          "action": "Compare at input 3.",
+          "narration": "The learner path gives 7; the repaired path gives 10. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Compute all successive changes. Outputs 1,2,5,10; differences 1,3,5 are not constant"
+        }
+      ],
+      "verify": "At input 3, square rule gives 10; recheck against the original words, rows or formula.",
+      "misconception": "Comparing two outputs without checking later differences.",
+      "repair": "Compute all successive changes."
+    },
+    {
+      "id": "g8-fr-l06-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 4,
+      "q": "A learner says 2(x+4) and 2x+4 are equivalent. Give one counterexample at x=1 and repair.",
+      "answer": "At x=1: 10 versus 6; correct expansion is 2x+8",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "2(x+4)",
+          "learner 2x+4"
+        ],
+        "outputs": [
+          "correct evaluated at 1",
+          "At x=1: 10 versus 6; correct expansion is 2x+8"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 1,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 6,
+              "a": 0,
+              "b": 2,
+              "c": 4
+            },
+            {
+              "label": "correct",
+              "value": 10,
+              "a": 0,
+              "b": 2,
+              "c": 8
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "2(x+4)",
+            "learner 2x+4"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 1",
+        "Learner path → 6; repair path → 10",
+        "At x=1: 10 versus 6; correct expansion is 2x+8"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. The outside factor was not applied to four."
+        },
+        {
+          "title": "Compare at input 1.",
+          "action": "Compare at input 1.",
+          "narration": "The learner path gives 6; the repaired path gives 10. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Distribute two to both terms. At x=1: 10 versus 6; correct expansion is 2x+8"
+        }
+      ],
+      "verify": "At input 1, correct gives 10; recheck against the original words, rows or formula.",
+      "misconception": "The outside factor was not applied to four.",
+      "repair": "Distribute two to both terms."
+    },
+    {
+      "id": "g8-fr-l06-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 4,
+      "q": "For y=−2x+3 a learner says a negative input makes the output negative. At x=−4 find the first sign error and the correct output.",
+      "answer": "At x=−4, two negative factors give +8, so y=11",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "rule y=−2x+3",
+          "learner treats −2×−4 as −8"
+        ],
+        "outputs": [
+          "correct evaluated at -4",
+          "At x=−4, two negative factors give +8, so y=11"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": -4,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": -5,
+              "a": 0,
+              "b": 2,
+              "c": 3
+            },
+            {
+              "label": "correct",
+              "value": 11,
+              "a": 0,
+              "b": -2,
+              "c": 3
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "rule y=−2x+3",
+            "learner treats −2×−4 as −8"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input -4",
+        "Learner path → -5; repair path → 11",
+        "At x=−4, two negative factors give +8, so y=11"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. A negative times a negative was treated as negative."
+        },
+        {
+          "title": "Compare at input -4.",
+          "action": "Compare at input -4.",
+          "narration": "The learner path gives -5; the repaired path gives 11. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Keep the two signs visible before adding three. At x=−4, two negative factors give +8, so y=11"
+        }
+      ],
+      "verify": "At input -4, correct gives 11; recheck against the original words, rows or formula.",
+      "misconception": "A negative times a negative was treated as negative.",
+      "repair": "Keep the two signs visible before adding three."
+    },
+    {
+      "id": "g8-fr-l06-w10",
+      "number": 10,
+      "level": "exam",
+      "marks": 5,
+      "q": "Pairs 0→2,1→3,2→6 follow x²+2. A learner fits x+2 from the first two rows. Locate the counterexample.",
+      "answer": "At x=2, learner predicts 4 but given output is 6",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "0→2; 1→3; 2→6",
+          "learner x+2"
+        ],
+        "outputs": [
+          "correct evaluated at 2",
+          "At x=2, learner predicts 4 but given output is 6"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 2,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 4,
+              "a": 0,
+              "b": 1,
+              "c": 2
+            },
+            {
+              "label": "correct",
+              "value": 6,
+              "a": 1,
+              "b": 0,
+              "c": 2
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "0→2; 1→3; 2→6",
+            "learner x+2"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 2",
+        "Learner path → 4; repair path → 6",
+        "At x=2, learner predicts 4 but given output is 6"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. Two rows cannot prove a unique rule."
+        },
+        {
+          "title": "Compare at input 2.",
+          "action": "Compare at input 2.",
+          "narration": "The learner path gives 4; the repaired path gives 6. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Check every supplied pair before accepting the rule. At x=2, learner predicts 4 but given output is 6"
+        }
+      ],
+      "verify": "At input 2, correct gives 6; recheck against the original words, rows or formula.",
+      "misconception": "Two rows cannot prove a unique rule.",
+      "repair": "Check every supplied pair before accepting the rule."
+    },
+    {
+      "id": "g8-fr-l06-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 5,
+      "q": "A square tile array has side n; learner uses y=4n for area. At n=3 locate and repair the mix-up.",
+      "answer": "Area is n²=9 tiles; 4n=12 counts boundary edges",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "square side n",
+          "learner area 4n"
+        ],
+        "outputs": [
+          "correct evaluated at 3",
+          "Area is n²=9 tiles; 4n=12 counts boundary edges"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 3,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 12,
+              "a": 0,
+              "b": 4,
+              "c": 0
+            },
+            {
+              "label": "correct",
+              "value": 9,
+              "a": 1,
+              "b": 0,
+              "c": 0
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "square side n",
+            "learner area 4n"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 3",
+        "Learner path → 12; repair path → 9",
+        "Area is n²=9 tiles; 4n=12 counts boundary edges"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. The learner used perimeter for area."
+        },
+        {
+          "title": "Compare at input 3.",
+          "action": "Compare at input 3.",
+          "narration": "The learner path gives 12; the repaired path gives 9. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Count rows times columns for the interior. Area is n²=9 tiles; 4n=12 counts boundary edges"
+        }
+      ],
+      "verify": "At input 3, correct gives 9; recheck against the original words, rows or formula.",
+      "misconception": "The learner used perimeter for area.",
+      "repair": "Count rows times columns for the interior."
+    },
+    {
+      "id": "g8-fr-l06-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 5,
+      "q": "A learner reverses y=3x+5 at y=20 by dividing 20 by 3, then subtracting 5. Diagnose and recover x.",
+      "answer": "Subtract 5 first, then divide by 3: x=5; check 3·5+5=20",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "x → ×3 → +5",
+          "output 20",
+          "learner divide then subtract"
+        ],
+        "outputs": [
+          "correct evaluated at 20",
+          "Subtract 5 first, then divide by 3: x=5; check 3·5+5=20"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 20,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 1.66666667,
+              "a": 0,
+              "b": 0.3333333333333333,
+              "c": -5
+            },
+            {
+              "label": "correct",
+              "value": 5.0,
+              "a": 0,
+              "b": 0.3333333333333333,
+              "c": -1.6666666666666667
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "x → ×3 → +5",
+            "output 20",
+            "learner divide then subtract"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 20",
+        "Learner path → 1.66666667; repair path → 5.0",
+        "Subtract 5 first, then divide by 3: x=5; check 3·5+5=20"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. The inverse operations were applied in forward order."
+        },
+        {
+          "title": "Compare at input 20.",
+          "action": "Compare at input 20.",
+          "narration": "The learner path gives 1.66666667; the repaired path gives 5.0. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Undo the last +5 before the earlier ×3. Subtract 5 first, then divide by 3: x=5; check 3·5+5=20"
+        }
+      ],
+      "verify": "At input 20, correct gives 5.0; recheck against the original words, rows or formula.",
+      "misconception": "The inverse operations were applied in forward order.",
+      "repair": "Undo the last +5 before the earlier ×3."
+    },
+    {
+      "id": "g8-fr-l06-w13",
+      "number": 13,
+      "level": "advanced",
+      "marks": 6,
+      "q": "The rows −1→0,0→1,1→4 agree with x²+2x+1. A learner claims x²+1 from nonnegative rows. Identify a counterexample.",
+      "answer": "At x=1, learner gives 2 instead of 4; correct rule gives 4",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "−1→0; 0→1; 1→4",
+          "learner x²+1"
+        ],
+        "outputs": [
+          "correct evaluated at 1",
+          "At x=1, learner gives 2 instead of 4; correct rule gives 4"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 1,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 2,
+              "a": 1,
+              "b": 0,
+              "c": 1
+            },
+            {
+              "label": "correct",
+              "value": 4,
+              "a": 1,
+              "b": 2,
+              "c": 1
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "−1→0; 0→1; 1→4",
+            "learner x²+1"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 1",
+        "Learner path → 2; repair path → 4",
+        "At x=1, learner gives 2 instead of 4; correct rule gives 4"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. One matching zero row does not determine a rule."
+        },
+        {
+          "title": "Compare at input 1.",
+          "action": "Compare at input 1.",
+          "narration": "The learner path gives 2; the repaired path gives 4. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Check the signed and positive rows. At x=1, learner gives 2 instead of 4; correct rule gives 4"
+        }
+      ],
+      "verify": "At input 1, correct gives 4; recheck against the original words, rows or formula.",
+      "misconception": "One matching zero row does not determine a rule.",
+      "repair": "Check the signed and positive rows."
+    },
+    {
+      "id": "g8-fr-l06-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 6,
+      "q": "A service charges R15 fixed and R4 per unit. Learner sees 0→15,3→27 but uses 15x+4. Find first wrong row and repair at x=5.",
+      "answer": "At x=0 learner gives 4 instead of 15; correct cost at 5 is R35",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "0→15; 3→27",
+          "learner 15x+4"
+        ],
+        "outputs": [
+          "correct evaluated at 5",
+          "At x=0 learner gives 4 instead of 15; correct cost at 5 is R35"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 5,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 79,
+              "a": 0,
+              "b": 15,
+              "c": 4
+            },
+            {
+              "label": "correct",
+              "value": 35,
+              "a": 0,
+              "b": 4,
+              "c": 15
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "0→15; 3→27",
+            "learner 15x+4"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 5",
+        "Learner path → 79; repair path → 35",
+        "At x=0 learner gives 4 instead of 15; correct cost at 5 is R35"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. The fixed charge and variable rate were reversed."
+        },
+        {
+          "title": "Compare at input 5.",
+          "action": "Compare at input 5.",
+          "narration": "The learner path gives 79; the repaired path gives 35. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Start at zero, then compute Δcost/Δunits=12/3. At x=0 learner gives 4 instead of 15; correct cost at 5 is R35"
+        }
+      ],
+      "verify": "At input 5, correct gives 35; recheck against the original words, rows or formula.",
+      "misconception": "The fixed charge and variable rate were reversed.",
+      "repair": "Start at zero, then compute Δcost/Δunits=12/3."
+    },
+    {
+      "id": "g8-fr-l06-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 7,
+      "q": "A learner claims 3(x−2)=3x−2 and that y=3x−2 fits 0→−6,2→0. Find first invalid step and show a fresh check at x=4.",
+      "answer": "Distribute −2 as −6: 3x−6; at x=4, y=6",
+      "model": {
+        "family": "relationship_repair",
+        "inputs": [
+          "3(x−2)",
+          "0→−6; 2→0",
+          "learner 3x−2"
+        ],
+        "outputs": [
+          "correct evaluated at 4",
+          "Distribute −2 as −6: 3x−6; at x=4, y=6"
+        ],
+        "description": "First-error diagnosis and relationship repair",
+        "scene": {
+          "input": 4,
+          "candidates": [
+            {
+              "label": "learner",
+              "value": 10,
+              "a": 0,
+              "b": 3,
+              "c": -2
+            },
+            {
+              "label": "correct",
+              "value": 6,
+              "a": 0,
+              "b": 3,
+              "c": -6
+            }
+          ],
+          "chosen": "correct",
+          "given": [
+            "3(x−2)",
+            "0→−6; 2→0",
+            "learner 3x−2"
+          ],
+          "mode": "repair"
+        }
+      },
+      "states": [
+        "Read the learner claim and original evidence",
+        "Test the claim at input 4",
+        "Learner path → 10; repair path → 6",
+        "Distribute −2 as −6: 3x−6; at x=4, y=6"
+      ],
+      "steps": [
+        {
+          "title": "Locate the first unsupported claim.",
+          "action": "Locate the first unsupported claim.",
+          "narration": "Check the given statement or pair before accepting the learner move. The three was not multiplied by −2."
+        },
+        {
+          "title": "Compare at input 4.",
+          "action": "Compare at input 4.",
+          "narration": "The learner path gives 10; the repaired path gives 6. The difference identifies the error."
+        },
+        {
+          "title": "Repair and verify with the original.",
+          "action": "Repair and verify with the original.",
+          "narration": "Build three copies of (x−2) and test both given rows. Distribute −2 as −6: 3x−6; at x=4, y=6"
+        }
+      ],
+      "verify": "At input 4, correct gives 6; recheck against the original words, rows or formula.",
+      "misconception": "The three was not multiplied by −2.",
+      "repair": "Build three copies of (x−2) and test both given rows."
+    }
+  ]
+}

@@ -298,7 +298,7 @@
           "topic_number": 3,
           "title": "Functions and Relationships",
           "paper": null,
-          "expected_lesson_count": 4,
+          "expected_lesson_count": 6,
           "status": "teacher_review_required",
           "lessons": [
             {
@@ -332,6 +332,22 @@
               "status": "verified",
               "duration_minutes": 95,
               "source_document": "lesson-04-formulas-in-context.md"
+            },
+            {
+              "lesson_id": "g8-functions-relationships-05",
+              "position": 5,
+              "title": "Matching representations and evaluating rules",
+              "status": "verified",
+              "duration_minutes": 95,
+              "source_document": "lesson-05-matching-representations.md"
+            },
+            {
+              "lesson_id": "g8-functions-relationships-06",
+              "position": 6,
+              "title": "First-error diagnosis and relationship repair",
+              "status": "verified",
+              "duration_minutes": 100,
+              "source_document": "lesson-06-relationship-repair.md"
             }
           ]
         },
@@ -340,7 +356,7 @@
           "topic_number": 4,
           "title": "Graphs",
           "paper": null,
-          "expected_lesson_count": 1,
+          "expected_lesson_count": 6,
           "status": "teacher_review_required",
           "lessons": [
             {
@@ -350,6 +366,378 @@
               "status": "verified",
               "duration_minutes": 80,
               "source_document": "lesson-01-cartesian-plane-draft.md"
+            },
+            {
+              "lesson_id": "g8-graphs-02",
+              "position": 2,
+              "title": "Plotting graphs from tables",
+              "status": "verified",
+              "duration_minutes": 85,
+              "source_document": "lesson-02-tables-to-graphs.md"
+            },
+            {
+              "lesson_id": "g8-graphs-03",
+              "position": 3,
+              "title": "Reading global graphs",
+              "status": "verified",
+              "duration_minutes": 85,
+              "source_document": "lesson-03-reading-global-graphs.md"
+            },
+            {
+              "lesson_id": "g8-graphs-04",
+              "position": 4,
+              "title": "Drawing global graphs from descriptions",
+              "status": "verified",
+              "duration_minutes": 85,
+              "source_document": "lesson-04-drawing-global-graphs.md"
+            },
+            {
+              "lesson_id": "g8-graphs-05",
+              "position": 5,
+              "title": "Comparing global graphs",
+              "status": "verified",
+              "duration_minutes": 85,
+              "source_document": "lesson-05-comparing-global-graphs.md"
+            },
+            {
+              "lesson_id": "g8-graphs-06",
+              "position": 6,
+              "title": "Diagnosing graph claims",
+              "status": "verified",
+              "duration_minutes": 85,
+              "source_document": "lesson-06-diagnosing-graph-claims.md"
+            }
+          ]
+        },
+        {
+          "topic_id": "numeric-geometric-patterns",
+          "topic_number": 5,
+          "title": "Numeric and Geometric Patterns",
+          "paper": null,
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-patterns-01",
+              "position": 1,
+              "title": "Numeric pattern rules",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-01-numeric-rules.md"
+            },
+            {
+              "lesson_id": "g8-patterns-02",
+              "position": 2,
+              "title": "Geometric pattern models",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02-geometric-models.md"
+            },
+            {
+              "lesson_id": "g8-patterns-03",
+              "position": 3,
+              "title": "Writing an algebraic rule",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03-algebraic-rules.md"
+            },
+            {
+              "lesson_id": "g8-patterns-04",
+              "position": 4,
+              "title": "Finding and checking missing values",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04-missing-values.md"
+            },
+            {
+              "lesson_id": "g8-patterns-05",
+              "position": 5,
+              "title": "Testing competing rules",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05-competing-rules.md"
+            },
+            {
+              "lesson_id": "g8-patterns-06",
+              "position": 6,
+              "title": "Diagnosing and repairing pattern claims",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-06-repair-pattern-claims.md"
+            }
+          ]
+        },
+        {
+          "topic_id": "whole-numbers",
+          "topic_number": 6,
+          "title": "Whole Numbers",
+          "paper": null,
+          "expected_lesson_count": 2,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-whole-numbers-01",
+              "position": 1,
+              "title": "Whole-number properties and zero",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "lesson-01-properties.md"
+            },
+            {
+              "lesson_id": "g8-whole-numbers-02",
+              "position": 2,
+              "title": "Prime factors, HCF and LCM",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-02-factors.md"
+            }
+          ]
+        },
+        {
+          "topic_id": "integers",
+          "topic_number": 7,
+          "title": "Integers",
+          "paper": null,
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-integers-01",
+              "position": 1,
+              "title": "Ordering and comparing integers",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "lesson-01-order-and-compare.md"
+            },
+            {
+              "lesson_id": "g8-integers-02",
+              "position": 2,
+              "title": "Adding and subtracting signed integers",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-02-addition-and-subtraction.md"
+            },
+            {
+              "lesson_id": "g8-integers-03",
+              "position": 3,
+              "title": "Multiplying and dividing signed integers",
+              "status": "verified",
+              "duration_minutes": 85,
+              "source_document": "lesson-03-multiplication-division.md"
+            },
+            {
+              "lesson_id": "g8-integers-04",
+              "position": 4,
+              "title": "Powers, roots and mixed integer operations",
+              "status": "verified",
+              "duration_minutes": 95,
+              "source_document": "lesson-04-powers-roots.md"
+            },
+            {
+              "lesson_id": "g8-integers-05",
+              "position": 5,
+              "title": "Properties of integer operations",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-05-integer-properties.md"
+            },
+            {
+              "lesson_id": "g8-integers-06",
+              "position": 6,
+              "title": "Solving contextual integer problems",
+              "status": "verified",
+              "duration_minutes": 100,
+              "source_document": "lesson-06-integer-contexts.md"
+            }
+          ]
+        },
+        {
+          "topic_id": "common-fractions",
+          "topic_number": 8,
+          "title": "Common Fractions",
+          "paper": null,
+          "expected_lesson_count": 8,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-common-fractions-01",
+              "position": 1,
+              "title": "Equivalent fractions and comparison",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-01-equivalent-and-comparing.md"
+            },
+            {
+              "lesson_id": "g8-common-fractions-02",
+              "position": 2,
+              "title": "Adding and subtracting common fractions",
+              "status": "verified",
+              "duration_minutes": 100,
+              "source_document": "lesson-02-adding-and-subtracting.md"
+            },
+            {
+              "lesson_id": "g8-common-fractions-03",
+              "position": 3,
+              "title": "Multiplying fractions and finding a fraction of a whole",
+              "status": "verified",
+              "duration_minutes": 100,
+              "source_document": "lesson-03-multiplying-fractions.md"
+            },
+            {
+              "lesson_id": "g8-common-fractions-04",
+              "position": 4,
+              "title": "Dividing whole numbers and fractions by fractions",
+              "status": "verified",
+              "duration_minutes": 100,
+              "source_document": "lesson-04-dividing-fractions.md"
+            },
+            {
+              "lesson_id": "g8-common-fractions-05",
+              "position": 5,
+              "title": "Powers and roots of common fractions",
+              "status": "verified",
+              "duration_minutes": 100,
+              "source_document": "lesson-05-powers-and-roots.md"
+            },
+            {
+              "lesson_id": "g8-common-fractions-06",
+              "position": 6,
+              "title": "Fraction problems in context",
+              "status": "verified",
+              "duration_minutes": 100,
+              "source_document": "lesson-06-fraction-contexts.md"
+            },
+            {
+              "lesson_id": "g8-common-fractions-07",
+              "position": 7,
+              "title": "Percentage of a whole and part",
+              "status": "verified",
+              "duration_minutes": 100,
+              "source_document": "lesson-07-percentage-of-a-whole.md"
+            },
+            {
+              "lesson_id": "g8-common-fractions-08",
+              "position": 8,
+              "title": "Percentage increase and decrease",
+              "status": "verified",
+              "duration_minutes": 100,
+              "source_document": "lesson-08-percentage-change.md"
+            }
+          ]
+        },
+        {
+          "topic_id": "decimal-fractions",
+          "topic_number": 9,
+          "title": "Decimal Fractions",
+          "paper": null,
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-decimal-fractions-01",
+              "position": 1,
+              "title": "Decimal place value, comparison and order",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-01-place-value-comparison.md"
+            },
+            {
+              "lesson_id": "g8-decimal-fractions-02",
+              "position": 2,
+              "title": "Rounding and estimating decimals",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-02-rounding-estimating.md"
+            },
+            {
+              "lesson_id": "g8-decimal-fractions-03",
+              "position": 3,
+              "title": "Multiplying decimal fractions",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-03-multiplying-decimals.md"
+            },
+            {
+              "lesson_id": "g8-decimal-fractions-04",
+              "position": 4,
+              "title": "Dividing decimal fractions",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-04-dividing-decimals.md"
+            },
+            {
+              "lesson_id": "g8-decimal-fractions-05",
+              "position": 5,
+              "title": "Squares and cubes of decimal fractions",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-05-powers-of-decimals.md"
+            },
+            {
+              "lesson_id": "g8-decimal-fractions-06",
+              "position": 6,
+              "title": "Square and cube roots of decimal fractions",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-06-roots-of-decimals.md"
+            }
+          ]
+        },
+        {
+          "topic_id": "exponents",
+          "topic_number": 10,
+          "title": "Exponents",
+          "paper": null,
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-exponents-01",
+              "position": 1,
+              "title": "Representing and comparing powers",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-01-representing-and-comparing-powers.md"
+            },
+            {
+              "lesson_id": "g8-exponents-02",
+              "position": 2,
+              "title": "Laws of exponents",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-02-laws-of-exponents.md"
+            },
+            {
+              "lesson_id": "g8-exponents-03",
+              "position": 3,
+              "title": "Square and cube roots",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-03-square-and-cube-roots.md"
+            },
+            {
+              "lesson_id": "g8-exponents-04",
+              "position": 4,
+              "title": "Powers and roots in context",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-04-powers-and-roots-in-context.md"
+            },
+            {
+              "lesson_id": "g8-exponents-05",
+              "position": 5,
+              "title": "Diagnosing exponent errors",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-05-diagnosing-exponent-errors.md"
+            },
+            {
+              "lesson_id": "g8-exponents-06",
+              "position": 6,
+              "title": "Integrated powers and roots",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-06-integrated-exponents-readiness.md"
             }
           ]
         }

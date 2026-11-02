@@ -1,0 +1,349 @@
+{
+  "scenes": [
+    {
+      "id": "g8-int-l03-w01",
+      "title": "Four groups of negative three",
+      "problem": "Calculate 4 × (−3) and explain the sign.",
+      "expression": "4 × (−3)",
+      "source_expression": "4 * (-3)",
+      "model": "groups",
+      "answer": -12,
+      "rows": [
+        "Draw four equal groups with three negative counters in each group.",
+        "Count the twelve negative counters: 4 × (−3) = −12.",
+        "Check the inverse: −12 ÷ 4 = −3."
+      ],
+      "actions": [
+        "Identify the operands and required operation in 4 × (−3).",
+        "Draw four equal groups with three negative counters in each group.",
+        "Count the twelve negative counters: 4 × (−3) = −12.",
+        "Check the inverse: −12 ÷ 4 = −3.",
+        "Conclude that 4 × (−3) = -12; check the preceding operations against the question."
+      ],
+      "memo": "4 × (−3) = -12. Check the inverse: −12 ÷ 4 = −3.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w02",
+      "title": "A negative number doubled",
+      "problem": "Calculate −5 × 2 and explain the sign.",
+      "expression": "−5 × 2",
+      "source_expression": "-5 * 2",
+      "model": "pattern",
+      "answer": -10,
+      "rows": [
+        "Two groups of −5 give −5 + (−5).",
+        "Add the groups to obtain −10; a negative times a positive is negative.",
+        "Check −10 ÷ 2 = −5."
+      ],
+      "actions": [
+        "Identify the operands and required operation in −5 × 2.",
+        "Two groups of −5 give −5 + (−5).",
+        "Add the groups to obtain −10; a negative times a positive is negative.",
+        "Check −10 ÷ 2 = −5.",
+        "Conclude that −5 × 2 = -10; check the preceding operations against the question."
+      ],
+      "memo": "−5 × 2 = -10. Check −10 ÷ 2 = −5.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w03",
+      "title": "Extend a multiplication pattern",
+      "problem": "Calculate −4 × (−3) and explain the sign.",
+      "expression": "−4 × (−3)",
+      "source_expression": "-4 * (-3)",
+      "model": "sign_pattern",
+      "answer": 12,
+      "rows": [
+        "Write −4 × 2 = −8, then −4 × 1 = −4, then −4 × 0 = 0.",
+        "Decreasing the second factor by one raises the product by four: −4 × (−1) = 4, then −4 × (−3) = 12.",
+        "Check 12 ÷ (−4) = −3."
+      ],
+      "actions": [
+        "Identify the operands and required operation in −4 × (−3).",
+        "Write −4 × 2 = −8, then −4 × 1 = −4, then −4 × 0 = 0.",
+        "Decreasing the second factor by one raises the product by four: −4 × (−1) = 4, then −4 × (−3) = 12.",
+        "Check 12 ÷ (−4) = −3.",
+        "Conclude that −4 × (−3) = 12; check the preceding operations against the question."
+      ],
+      "memo": "−4 × (−3) = 12. Check 12 ÷ (−4) = −3.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w04",
+      "title": "Division as a missing factor",
+      "problem": "Calculate 18 ÷ (−3) and explain the sign.",
+      "expression": "18 ÷ (−3)",
+      "source_expression": "18 // (-3)",
+      "model": "inverse",
+      "answer": -6,
+      "rows": [
+        "Ask which integer multiplied by −3 gives positive 18.",
+        "The magnitude is 18 ÷ 3 = 6 and the factors must have opposite signs, so the quotient is −6.",
+        "Check (−6) × (−3) = 18."
+      ],
+      "actions": [
+        "Identify the operands and required operation in 18 ÷ (−3).",
+        "Ask which integer multiplied by −3 gives positive 18.",
+        "The magnitude is 18 ÷ 3 = 6 and the factors must have opposite signs, so the quotient is −6.",
+        "Check (−6) × (−3) = 18.",
+        "Conclude that 18 ÷ (−3) = -6; check the preceding operations against the question."
+      ],
+      "memo": "18 ÷ (−3) = -6. Check (−6) × (−3) = 18.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w05",
+      "title": "Share a signed balance",
+      "problem": "Calculate −24 ÷ 6 and explain the sign.",
+      "expression": "−24 ÷ 6",
+      "source_expression": "-24 // 6",
+      "model": "groups",
+      "answer": -4,
+      "rows": [
+        "Partition 24 negative counters into six equal groups.",
+        "Each group has four negative counters, giving −4.",
+        "Check 6 × (−4) = −24."
+      ],
+      "actions": [
+        "Identify the operands and required operation in −24 ÷ 6.",
+        "Partition 24 negative counters into six equal groups.",
+        "Each group has four negative counters, giving −4.",
+        "Check 6 × (−4) = −24.",
+        "Conclude that −24 ÷ 6 = -4; check the preceding operations against the question."
+      ],
+      "memo": "−24 ÷ 6 = -4. Check 6 × (−4) = −24.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w06",
+      "title": "Dividing two negatives",
+      "problem": "Calculate −35 ÷ (−7) and explain the sign.",
+      "expression": "−35 ÷ (−7)",
+      "source_expression": "-35 // (-7)",
+      "model": "inverse",
+      "answer": 5,
+      "rows": [
+        "Find the factor that multiplies −7 to make −35.",
+        "Seven times five is 35 and matching negative signs make a positive quotient: 5.",
+        "Check (−7) × 5 = −35."
+      ],
+      "actions": [
+        "Identify the operands and required operation in −35 ÷ (−7).",
+        "Find the factor that multiplies −7 to make −35.",
+        "Seven times five is 35 and matching negative signs make a positive quotient: 5.",
+        "Check (−7) × 5 = −35.",
+        "Conclude that −35 ÷ (−7) = 5; check the preceding operations against the question."
+      ],
+      "memo": "−35 ÷ (−7) = 5. Check (−7) × 5 = −35.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w07",
+      "title": "Zero equal groups",
+      "problem": "Calculate 0 × (−18) and explain the sign.",
+      "expression": "0 × (−18)",
+      "source_expression": "0 * (-18)",
+      "model": "zero",
+      "answer": 0,
+      "rows": [
+        "Represent zero groups of −18, so no counters appear.",
+        "The total is 0 regardless of the signed factor.",
+        "Check 0 ÷ (−18) = 0; division by zero would be undefined."
+      ],
+      "actions": [
+        "Identify the operands and required operation in 0 × (−18).",
+        "Represent zero groups of −18, so no counters appear.",
+        "The total is 0 regardless of the signed factor.",
+        "Check 0 ÷ (−18) = 0; division by zero would be undefined.",
+        "Conclude that 0 × (−18) = 0; check the preceding operations against the question."
+      ],
+      "memo": "0 × (−18) = 0. Check 0 ÷ (−18) = 0; division by zero would be undefined.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w08",
+      "title": "Seven repeated negative eights",
+      "problem": "Calculate −8 × 7 and explain the sign.",
+      "expression": "−8 × 7",
+      "source_expression": "-8 * 7",
+      "model": "groups",
+      "answer": -56,
+      "rows": [
+        "Sketch seven groups of eight negative counters.",
+        "There are 56 negative counters; the product is −56.",
+        "Check −56 ÷ 7 = −8."
+      ],
+      "actions": [
+        "Identify the operands and required operation in −8 × 7.",
+        "Sketch seven groups of eight negative counters.",
+        "There are 56 negative counters; the product is −56.",
+        "Check −56 ÷ 7 = −8.",
+        "Conclude that −8 × 7 = -56; check the preceding operations against the question."
+      ],
+      "memo": "−8 × 7 = -56. Check −56 ÷ 7 = −8.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w09",
+      "title": "A larger signed quotient",
+      "problem": "Calculate −63 ÷ 9 and explain the sign.",
+      "expression": "−63 ÷ 9",
+      "source_expression": "-63 // 9",
+      "model": "inverse",
+      "answer": -7,
+      "rows": [
+        "Find an integer whose product with 9 is −63.",
+        "63 ÷ 9 = 7; unlike signs give −7.",
+        "Check 9 × (−7) = −63."
+      ],
+      "actions": [
+        "Identify the operands and required operation in −63 ÷ 9.",
+        "Find an integer whose product with 9 is −63.",
+        "63 ÷ 9 = 7; unlike signs give −7.",
+        "Check 9 × (−7) = −63.",
+        "Conclude that −63 ÷ 9 = -7; check the preceding operations against the question."
+      ],
+      "memo": "−63 ÷ 9 = -7. Check 9 × (−7) = −63.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w10",
+      "title": "Two negative factors",
+      "problem": "Calculate −12 × (−5) and explain the sign.",
+      "expression": "−12 × (−5)",
+      "source_expression": "-12 * (-5)",
+      "model": "sign_pattern",
+      "answer": 60,
+      "rows": [
+        "Compare −12 × 0 = 0 and −12 × (−1) = 12; extend the pattern to −5.",
+        "Five positive twelves total 60.",
+        "Check 60 ÷ (−5) = −12."
+      ],
+      "actions": [
+        "Identify the operands and required operation in −12 × (−5).",
+        "Compare −12 × 0 = 0 and −12 × (−1) = 12; extend the pattern to −5.",
+        "Five positive twelves total 60.",
+        "Check 60 ÷ (−5) = −12.",
+        "Conclude that −12 × (−5) = 60; check the preceding operations against the question."
+      ],
+      "memo": "−12 × (−5) = 60. Check 60 ÷ (−5) = −12.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w11",
+      "title": "Two-digit quotient",
+      "problem": "Calculate −144 ÷ (−12) and explain the sign.",
+      "expression": "−144 ÷ (−12)",
+      "source_expression": "-144 // (-12)",
+      "model": "inverse",
+      "answer": 12,
+      "rows": [
+        "Check that 12 × 12 = 144.",
+        "The signs of dividend and divisor match, so the quotient is positive 12.",
+        "Check (−12) × 12 = −144."
+      ],
+      "actions": [
+        "Identify the operands and required operation in −144 ÷ (−12).",
+        "Check that 12 × 12 = 144.",
+        "The signs of dividend and divisor match, so the quotient is positive 12.",
+        "Check (−12) × 12 = −144.",
+        "Conclude that −144 ÷ (−12) = 12; check the preceding operations against the question."
+      ],
+      "memo": "−144 ÷ (−12) = 12. Check (−12) × 12 = −144.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w12",
+      "title": "Keep an intermediate product",
+      "problem": "Calculate −6 × (−4) × (−2) and explain the sign.",
+      "expression": "−6 × (−4) × (−2)",
+      "source_expression": "-6 * (-4) * (-2)",
+      "model": "factor_chain",
+      "answer": -48,
+      "rows": [
+        "First multiply −6 and −4: two negatives make positive 24.",
+        "Now multiply 24 by −2 to obtain −48; preserve the first result.",
+        "Check the factor signs: three negatives give a negative product."
+      ],
+      "actions": [
+        "Identify the operands and required operation in −6 × (−4) × (−2).",
+        "First multiply −6 and −4: two negatives make positive 24.",
+        "Now multiply 24 by −2 to obtain −48; preserve the first result.",
+        "Check the factor signs: three negatives give a negative product.",
+        "Conclude that −6 × (−4) × (−2) = -48; check the preceding operations against the question."
+      ],
+      "memo": "−6 × (−4) × (−2) = -48. Check the factor signs: three negatives give a negative product.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w13",
+      "title": "Divide, then multiply",
+      "problem": "Calculate (−72 ÷ 8) × (−3) and explain the sign.",
+      "expression": "(−72 ÷ 8) × (−3)",
+      "source_expression": "(-72 // 8) * (-3)",
+      "model": "factor_chain",
+      "answer": 27,
+      "rows": [
+        "Evaluate the bracket first: −72 ÷ 8 = −9.",
+        "Multiply −9 by −3 to get positive 27.",
+        "Check 27 ÷ (−3) = −9, the bracket value."
+      ],
+      "actions": [
+        "Identify the operands and required operation in (−72 ÷ 8) × (−3).",
+        "Evaluate the bracket first: −72 ÷ 8 = −9.",
+        "Multiply −9 by −3 to get positive 27.",
+        "Check 27 ÷ (−3) = −9, the bracket value.",
+        "Conclude that (−72 ÷ 8) × (−3) = 27; check the preceding operations against the question."
+      ],
+      "memo": "(−72 ÷ 8) × (−3) = 27. Check 27 ÷ (−3) = −9, the bracket value.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w14",
+      "title": "Division associates left to right",
+      "problem": "Calculate −96 ÷ (−4) ÷ 3 and explain the sign.",
+      "expression": "−96 ÷ (−4) ÷ 3",
+      "source_expression": "-96 // (-4) // 3",
+      "model": "factor_chain",
+      "answer": 8,
+      "rows": [
+        "Start from the left: −96 ÷ (−4) = 24.",
+        "Then 24 ÷ 3 = 8; do not combine the last two divisors first.",
+        "Check 8 × 3 × (−4) = −96."
+      ],
+      "actions": [
+        "Identify the operands and required operation in −96 ÷ (−4) ÷ 3.",
+        "Start from the left: −96 ÷ (−4) = 24.",
+        "Then 24 ÷ 3 = 8; do not combine the last two divisors first.",
+        "Check 8 × 3 × (−4) = −96.",
+        "Conclude that −96 ÷ (−4) ÷ 3 = 8; check the preceding operations against the question."
+      ],
+      "memo": "−96 ÷ (−4) ÷ 3 = 8. Check 8 × 3 × (−4) = −96.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    },
+    {
+      "id": "g8-int-l03-w15",
+      "title": "Track four sign changes",
+      "problem": "Calculate −3 × (−2) × (−5) × (−4) and explain the sign.",
+      "expression": "−3 × (−2) × (−5) × (−4)",
+      "source_expression": "-3 * (-2) * (-5) * (-4)",
+      "model": "factor_chain",
+      "answer": 120,
+      "rows": [
+        "Multiply the first pair: (−3) × (−2) = 6.",
+        "Multiply 6 × (−5) = −30 and keep it visible.",
+        "Multiply −30 × (−4) = 120; check the even number of negative factors."
+      ],
+      "actions": [
+        "Identify the operands and required operation in −3 × (−2) × (−5) × (−4).",
+        "Multiply the first pair: (−3) × (−2) = 6.",
+        "Multiply 6 × (−5) = −30 and keep it visible.",
+        "Multiply −30 × (−4) = 120; check the even number of negative factors.",
+        "Conclude that −3 × (−2) × (−5) × (−4) = 120; check the preceding operations against the question."
+      ],
+      "memo": "−3 × (−2) × (−5) × (−4) = 120. Multiply −30 × (−4) = 120; check the even number of negative factors.",
+      "misconception": "A sign pattern must be justified with grouping or inverse multiplication."
+    }
+  ]
+}

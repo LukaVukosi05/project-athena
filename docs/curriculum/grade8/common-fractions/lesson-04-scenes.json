@@ -1,0 +1,274 @@
+{
+  "scenes": [
+    {
+      "id": "g8-frac-l04-w01",
+      "kind": "divide",
+      "values": [
+        "3",
+        "1/2"
+      ],
+      "problem": "How many halves are in 3 wholes?",
+      "common_denominator": 2,
+      "answer": "6",
+      "rows": [
+        "Ask how many groups of size 1/2 fit in 3; draw the original amount and the group size.",
+        "Partition both amounts into 2ths: 3 is 6/2 and 1/2 is 1/2.",
+        "Count groups: (6/2) ÷ (1/2) = 6/1 = 6. A remainder can be part of a group."
+      ],
+      "memo": "3 ÷ 1/2 = 6. Check that 6 × 1/2 = 3.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w02",
+      "kind": "divide",
+      "values": [
+        "2",
+        "1/4"
+      ],
+      "problem": "How many quarters are in 2 wholes?",
+      "common_denominator": 4,
+      "answer": "8",
+      "rows": [
+        "Ask how many groups of size 1/4 fit in 2; draw the original amount and the group size.",
+        "Partition both amounts into 4ths: 2 is 8/4 and 1/4 is 1/4.",
+        "Count groups: (8/4) ÷ (1/4) = 8/1 = 8. A remainder can be part of a group."
+      ],
+      "memo": "2 ÷ 1/4 = 8. Check that 8 × 1/4 = 2.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w03",
+      "kind": "divide",
+      "values": [
+        "3/4",
+        "1/4"
+      ],
+      "problem": "How many quarters fit in 3/4?",
+      "common_denominator": 4,
+      "answer": "3",
+      "rows": [
+        "Ask how many groups of size 1/4 fit in 3/4; draw the original amount and the group size.",
+        "Partition both amounts into 4ths: 3/4 is 3/4 and 1/4 is 1/4.",
+        "Count groups: (3/4) ÷ (1/4) = 3/1 = 3. A remainder can be part of a group."
+      ],
+      "memo": "3/4 ÷ 1/4 = 3. Check that 3 × 1/4 = 3/4.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w04",
+      "kind": "divide",
+      "values": [
+        "5/6",
+        "1/6"
+      ],
+      "problem": "How many sixths fit in 5/6?",
+      "common_denominator": 6,
+      "answer": "5",
+      "rows": [
+        "Ask how many groups of size 1/6 fit in 5/6; draw the original amount and the group size.",
+        "Partition both amounts into 6ths: 5/6 is 5/6 and 1/6 is 1/6.",
+        "Count groups: (5/6) ÷ (1/6) = 5/1 = 5. A remainder can be part of a group."
+      ],
+      "memo": "5/6 ÷ 1/6 = 5. Check that 5 × 1/6 = 5/6.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w05",
+      "kind": "divide",
+      "values": [
+        "3/4",
+        "1/2"
+      ],
+      "problem": "How many halves fit in 3/4? Give an exact answer.",
+      "common_denominator": 4,
+      "answer": "1 1/2",
+      "rows": [
+        "Ask how many groups of size 1/2 fit in 3/4; draw the original amount and the group size.",
+        "Partition both amounts into 4ths: 3/4 is 3/4 and 1/2 is 2/4.",
+        "Count groups: (3/4) ÷ (2/4) = 3/2 = 1 1/2. A remainder can be part of a group."
+      ],
+      "memo": "3/4 ÷ 1/2 = 1 1/2. Check that 1 1/2 × 1/2 = 3/4.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w06",
+      "kind": "divide",
+      "values": [
+        "2/3",
+        "1/6"
+      ],
+      "problem": "Divide 2/3 by 1/6 by making equal sized parts.",
+      "common_denominator": 6,
+      "answer": "4",
+      "rows": [
+        "Ask how many groups of size 1/6 fit in 2/3; draw the original amount and the group size.",
+        "Partition both amounts into 6ths: 2/3 is 4/6 and 1/6 is 1/6.",
+        "Count groups: (4/6) ÷ (1/6) = 4/1 = 4. A remainder can be part of a group."
+      ],
+      "memo": "2/3 ÷ 1/6 = 4. Check that 4 × 1/6 = 2/3.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w07",
+      "kind": "divide",
+      "values": [
+        "1 1/2",
+        "1/4"
+      ],
+      "problem": "A 1 1/2 litre bottle fills how many quarter litre cups?",
+      "common_denominator": 4,
+      "answer": "6",
+      "rows": [
+        "Ask how many groups of size 1/4 fit in 1 1/2; draw the original amount and the group size.",
+        "Partition both amounts into 4ths: 1 1/2 is 6/4 and 1/4 is 1/4.",
+        "Count groups: (6/4) ÷ (1/4) = 6/1 = 6. A remainder can be part of a group."
+      ],
+      "memo": "1 1/2 ÷ 1/4 = 6. Check that 6 × 1/4 = 1 1/2.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w08",
+      "kind": "divide",
+      "values": [
+        "2 1/4",
+        "3/4"
+      ],
+      "problem": "How many 3/4 litre cups can 2 1/4 litres fill?",
+      "common_denominator": 4,
+      "answer": "3",
+      "rows": [
+        "Ask how many groups of size 3/4 fit in 2 1/4; draw the original amount and the group size.",
+        "Partition both amounts into 4ths: 2 1/4 is 9/4 and 3/4 is 3/4.",
+        "Count groups: (9/4) ÷ (3/4) = 9/3 = 3. A remainder can be part of a group."
+      ],
+      "memo": "2 1/4 ÷ 3/4 = 3. Check that 3 × 3/4 = 2 1/4.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w09",
+      "kind": "divide",
+      "values": [
+        "4",
+        "2/3"
+      ],
+      "problem": "How many 2/3 metre pieces can be cut from 4 metres?",
+      "common_denominator": 3,
+      "answer": "6",
+      "rows": [
+        "Ask how many groups of size 2/3 fit in 4; draw the original amount and the group size.",
+        "Partition both amounts into 3ths: 4 is 12/3 and 2/3 is 2/3.",
+        "Count groups: (12/3) ÷ (2/3) = 12/2 = 6. A remainder can be part of a group."
+      ],
+      "memo": "4 ÷ 2/3 = 6. Check that 6 × 2/3 = 4.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w10",
+      "kind": "divide",
+      "values": [
+        "5/8",
+        "1/4"
+      ],
+      "problem": "How many quarter units fit into 5/8?",
+      "common_denominator": 8,
+      "answer": "2 1/2",
+      "rows": [
+        "Ask how many groups of size 1/4 fit in 5/8; draw the original amount and the group size.",
+        "Partition both amounts into 8ths: 5/8 is 5/8 and 1/4 is 2/8.",
+        "Count groups: (5/8) ÷ (2/8) = 5/2 = 2 1/2. A remainder can be part of a group."
+      ],
+      "memo": "5/8 ÷ 1/4 = 2 1/2. Check that 2 1/2 × 1/4 = 5/8.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w11",
+      "kind": "divide",
+      "values": [
+        "2/5",
+        "3/10"
+      ],
+      "problem": "Calculate 2/5 ÷ 3/10, counting partial groups.",
+      "common_denominator": 10,
+      "answer": "1 1/3",
+      "rows": [
+        "Ask how many groups of size 3/10 fit in 2/5; draw the original amount and the group size.",
+        "Partition both amounts into 10ths: 2/5 is 4/10 and 3/10 is 3/10.",
+        "Count groups: (4/10) ÷ (3/10) = 4/3 = 1 1/3. A remainder can be part of a group."
+      ],
+      "memo": "2/5 ÷ 3/10 = 1 1/3. Check that 1 1/3 × 3/10 = 2/5.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w12",
+      "kind": "divide",
+      "values": [
+        "1 2/3",
+        "5/6"
+      ],
+      "problem": "Calculate 1 2/3 ÷ 5/6 by converting units.",
+      "common_denominator": 6,
+      "answer": "2",
+      "rows": [
+        "Ask how many groups of size 5/6 fit in 1 2/3; draw the original amount and the group size.",
+        "Partition both amounts into 6ths: 1 2/3 is 10/6 and 5/6 is 5/6.",
+        "Count groups: (10/6) ÷ (5/6) = 10/5 = 2. A remainder can be part of a group."
+      ],
+      "memo": "1 2/3 ÷ 5/6 = 2. Check that 2 × 5/6 = 1 2/3.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w13",
+      "kind": "divide",
+      "values": [
+        "3/4",
+        "2"
+      ],
+      "problem": "Share 3/4 litre equally between 2 people. How much each?",
+      "common_denominator": 4,
+      "answer": "3/8",
+      "rows": [
+        "Ask how many groups of size 2 fit in 3/4; draw the original amount and the group size.",
+        "Partition both amounts into 4ths: 3/4 is 3/4 and 2 is 8/4.",
+        "Count groups: (3/4) ÷ (8/4) = 3/8 = 3/8. A remainder can be part of a group."
+      ],
+      "memo": "3/4 ÷ 2 = 3/8. Check that 3/8 × 2 = 3/4.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w14",
+      "kind": "divide",
+      "values": [
+        "2 1/2",
+        "5/8"
+      ],
+      "problem": "How many 5/8 metre strips come from 2 1/2 metres?",
+      "common_denominator": 8,
+      "answer": "4",
+      "rows": [
+        "Ask how many groups of size 5/8 fit in 2 1/2; draw the original amount and the group size.",
+        "Partition both amounts into 8ths: 2 1/2 is 20/8 and 5/8 is 5/8.",
+        "Count groups: (20/8) ÷ (5/8) = 20/5 = 4. A remainder can be part of a group."
+      ],
+      "memo": "2 1/2 ÷ 5/8 = 4. Check that 4 × 5/8 = 2 1/2.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    },
+    {
+      "id": "g8-frac-l04-w15",
+      "kind": "divide",
+      "values": [
+        "2/3",
+        "4/9"
+      ],
+      "problem": "Calculate 2/3 ÷ 4/9, and check by multiplication.",
+      "common_denominator": 9,
+      "answer": "1 1/2",
+      "rows": [
+        "Ask how many groups of size 4/9 fit in 2/3; draw the original amount and the group size.",
+        "Partition both amounts into 9ths: 2/3 is 6/9 and 4/9 is 4/9.",
+        "Count groups: (6/9) ÷ (4/9) = 6/4 = 1 1/2. A remainder can be part of a group."
+      ],
+      "memo": "2/3 ÷ 4/9 = 1 1/2. Check that 1 1/2 × 4/9 = 2/3.",
+      "misconception": "Divide equal-sized parts; a partial group is a fraction, not an ignored remainder. Zero cannot be a divisor."
+    }
+  ]
+}

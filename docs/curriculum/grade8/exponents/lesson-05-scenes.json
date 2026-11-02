@@ -1,0 +1,317 @@
+{
+  "scenes": [
+    {
+      "id": "g8-exp-l05-w01",
+      "kind": "sign_audit",
+      "values": [
+        "3",
+        "2"
+      ],
+      "problem": "A learner says (−3)² = −9. Locate the first sign error and find the correct value.",
+      "answer": "9",
+      "rows": [
+        "The brackets include −3 in every one of the 2 factors.",
+        "Expand (−3)² into (−3) × (−3).",
+        "Pair the 2 negative signs: every pair produces a positive sign.",
+        "Multiply the magnitudes: 3² = 9.",
+        "The first error is treating a bracketed negative base as an outside minus; the correct value is 9."
+      ],
+      "memo": "(−3) × (−3) = 9; the learner’s −9 is not equal.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "Include the minus sign in every bracketed factor; even negative factor counts give a positive value."
+    },
+    {
+      "id": "g8-exp-l05-w02",
+      "kind": "root_audit",
+      "values": [
+        "64"
+      ],
+      "problem": "A learner claims √64 gives both a positive and a negative answer. What single value does √64 represent?",
+      "answer": "8",
+      "rows": [
+        "The symbol √64 means the principal, nonnegative square root.",
+        "Draw 64 unit squares as a 8 by 8 square.",
+        "8² = 64; this verifies the side length 8.",
+        "Although (−8)² = 64, the symbol √ chooses the nonnegative value.",
+        "So √64 = 8, not a two-value answer."
+      ],
+      "memo": "8² = 64 and 8 ≥ 0; √64 = 8.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "The √ symbol denotes the nonnegative principal root; solving x²=n is a different question."
+    },
+    {
+      "id": "g8-exp-l05-w03",
+      "kind": "quotient_audit",
+      "values": [
+        "5",
+        "4",
+        "2"
+      ],
+      "problem": "A learner uses addition of exponents for 5⁴ ÷ 5². Show the first incorrect law and give the correct value.",
+      "answer": "25",
+      "rows": [
+        "Identify the nonzero common base 5 and the division sign.",
+        "Write 4 factors of 5 in the numerator and 2 in the denominator.",
+        "Cancel 2 equal nonzero pairs, leaving 2 numerator factors.",
+        "Division requires subtracting exponents: 4 − 2 = 2.",
+        "Evaluate 5² = 25; adding exponents was the first wrong law."
+      ],
+      "memo": "625 ÷ 25 = 25; direct division confirms the quotient.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "Division of powers with the same nonzero base subtracts exponents after factor cancellation."
+    },
+    {
+      "id": "g8-exp-l05-w04",
+      "kind": "root_sum_audit",
+      "values": [
+        "25",
+        "49"
+      ],
+      "problem": "A learner replaces √25 + √49 with √(25 + 49). Find the first incorrect step and evaluate the original expression.",
+      "answer": "12",
+      "rows": [
+        "A plus sign separates two roots. Keep √25 and √49 as separate terms.",
+        "Build a square from 25 tiles: √25 = 5.",
+        "Build a second square from 49 tiles: √49 = 7.",
+        "Now add their side values: 5 + 7 = 12.",
+        "The first error was moving addition inside one square root; the original expression equals 12."
+      ],
+      "memo": "5² = 25, 7² = 49, and 5 + 7 = 12.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "The square root does not distribute across addition; find each exact root separately."
+    },
+    {
+      "id": "g8-exp-l05-w05",
+      "kind": "mixed_audit",
+      "values": [
+        "2",
+        "2",
+        "3",
+        "81"
+      ],
+      "problem": "A learner multiplies the exponents in 2² × 2³ + √81. Locate the first error and evaluate the expression.",
+      "answer": "41",
+      "rows": [
+        "Keep the multiplication of the two powers separate from the added root.",
+        "The powers have common base 2: write 2 factors and another 3 factors.",
+        "Count 2+3=5 equal factors, so the product is 2⁵.",
+        "Evaluate 2⁵ = 32.",
+        "Evaluate √81 = 9, because 9² = 81.",
+        "Add 32 + 9 = 41. Multiplying the exponents was the first error."
+      ],
+      "memo": "(4 × 8) + 9 = 41; direct values agree.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "The product law adds exponents for the same base; then evaluate the separate root."
+    },
+    {
+      "id": "g8-exp-l05-w06",
+      "kind": "sign_audit",
+      "values": [
+        "4",
+        "2"
+      ],
+      "problem": "A learner says (−4)² = −16. Locate the first sign error and find the correct value.",
+      "answer": "16",
+      "rows": [
+        "The brackets include −4 in every one of the 2 factors.",
+        "Expand (−4)² into (−4) × (−4).",
+        "Pair the 2 negative signs: every pair produces a positive sign.",
+        "Multiply the magnitudes: 4² = 16.",
+        "The first error is treating a bracketed negative base as an outside minus; the correct value is 16."
+      ],
+      "memo": "(−4) × (−4) = 16; the learner’s −16 is not equal.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "Include the minus sign in every bracketed factor; even negative factor counts give a positive value."
+    },
+    {
+      "id": "g8-exp-l05-w07",
+      "kind": "root_audit",
+      "values": [
+        "144"
+      ],
+      "problem": "A learner claims √144 gives both a positive and a negative answer. What single value does √144 represent?",
+      "answer": "12",
+      "rows": [
+        "The symbol √144 means the principal, nonnegative square root.",
+        "Draw 144 unit squares as a 12 by 12 square.",
+        "12² = 144; this verifies the side length 12.",
+        "Although (−12)² = 144, the symbol √ chooses the nonnegative value.",
+        "So √144 = 12, not a two-value answer."
+      ],
+      "memo": "12² = 144 and 12 ≥ 0; √144 = 12.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "The √ symbol denotes the nonnegative principal root; solving x²=n is a different question."
+    },
+    {
+      "id": "g8-exp-l05-w08",
+      "kind": "quotient_audit",
+      "values": [
+        "3",
+        "5",
+        "2"
+      ],
+      "problem": "A learner uses addition of exponents for 3⁵ ÷ 3². Show the first incorrect law and give the correct value.",
+      "answer": "27",
+      "rows": [
+        "Identify the nonzero common base 3 and the division sign.",
+        "Write 5 factors of 3 in the numerator and 2 in the denominator.",
+        "Cancel 2 equal nonzero pairs, leaving 3 numerator factors.",
+        "Division requires subtracting exponents: 5 − 2 = 3.",
+        "Evaluate 3³ = 27; adding exponents was the first wrong law."
+      ],
+      "memo": "243 ÷ 9 = 27; direct division confirms the quotient.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "Division of powers with the same nonzero base subtracts exponents after factor cancellation."
+    },
+    {
+      "id": "g8-exp-l05-w09",
+      "kind": "root_sum_audit",
+      "values": [
+        "100",
+        "64"
+      ],
+      "problem": "A learner replaces √100 + √64 with √(100 + 64). Find the first incorrect step and evaluate the original expression.",
+      "answer": "18",
+      "rows": [
+        "A plus sign separates two roots. Keep √100 and √64 as separate terms.",
+        "Build a square from 100 tiles: √100 = 10.",
+        "Build a second square from 64 tiles: √64 = 8.",
+        "Now add their side values: 10 + 8 = 18.",
+        "The first error was moving addition inside one square root; the original expression equals 18."
+      ],
+      "memo": "10² = 100, 8² = 64, and 10 + 8 = 18.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "The square root does not distribute across addition; find each exact root separately."
+    },
+    {
+      "id": "g8-exp-l05-w10",
+      "kind": "mixed_audit",
+      "values": [
+        "3",
+        "3",
+        "2",
+        "121"
+      ],
+      "problem": "A learner multiplies the exponents in 3³ × 3² + √121. Locate the first error and evaluate the expression.",
+      "answer": "254",
+      "rows": [
+        "Keep the multiplication of the two powers separate from the added root.",
+        "The powers have common base 3: write 3 factors and another 2 factors.",
+        "Count 3+2=5 equal factors, so the product is 3⁵.",
+        "Evaluate 3⁵ = 243.",
+        "Evaluate √121 = 11, because 11² = 121.",
+        "Add 243 + 11 = 254. Multiplying the exponents was the first error."
+      ],
+      "memo": "(27 × 9) + 11 = 254; direct values agree.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "The product law adds exponents for the same base; then evaluate the separate root."
+    },
+    {
+      "id": "g8-exp-l05-w11",
+      "kind": "sign_audit",
+      "values": [
+        "7",
+        "4"
+      ],
+      "problem": "A learner says (−7)⁴ = −2401. Locate the first sign error and find the correct value.",
+      "answer": "2401",
+      "rows": [
+        "The brackets include −7 in every one of the 4 factors.",
+        "Expand (−7)⁴ into (−7) × (−7) × (−7) × (−7).",
+        "Pair the 4 negative signs: every pair produces a positive sign.",
+        "Multiply the magnitudes: 7⁴ = 2401.",
+        "The first error is treating a bracketed negative base as an outside minus; the correct value is 2401."
+      ],
+      "memo": "(−7) × (−7) × (−7) × (−7) = 2401; the learner’s −2401 is not equal.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "Include the minus sign in every bracketed factor; even negative factor counts give a positive value."
+    },
+    {
+      "id": "g8-exp-l05-w12",
+      "kind": "quotient_audit",
+      "values": [
+        "7",
+        "5",
+        "2"
+      ],
+      "problem": "A learner uses addition of exponents for 7⁵ ÷ 7². Show the first incorrect law and give the correct value.",
+      "answer": "343",
+      "rows": [
+        "Identify the nonzero common base 7 and the division sign.",
+        "Write 5 factors of 7 in the numerator and 2 in the denominator.",
+        "Cancel 2 equal nonzero pairs, leaving 3 numerator factors.",
+        "Division requires subtracting exponents: 5 − 2 = 3.",
+        "Evaluate 7³ = 343; adding exponents was the first wrong law."
+      ],
+      "memo": "16807 ÷ 49 = 343; direct division confirms the quotient.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "Division of powers with the same nonzero base subtracts exponents after factor cancellation."
+    },
+    {
+      "id": "g8-exp-l05-w13",
+      "kind": "root_sum_audit",
+      "values": [
+        "169",
+        "225"
+      ],
+      "problem": "A learner replaces √169 + √225 with √(169 + 225). Find the first incorrect step and evaluate the original expression.",
+      "answer": "28",
+      "rows": [
+        "A plus sign separates two roots. Keep √169 and √225 as separate terms.",
+        "Build a square from 169 tiles: √169 = 13.",
+        "Build a second square from 225 tiles: √225 = 15.",
+        "Now add their side values: 13 + 15 = 28.",
+        "The first error was moving addition inside one square root; the original expression equals 28."
+      ],
+      "memo": "13² = 169, 15² = 225, and 13 + 15 = 28.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "The square root does not distribute across addition; find each exact root separately."
+    },
+    {
+      "id": "g8-exp-l05-w14",
+      "kind": "mixed_audit",
+      "values": [
+        "4",
+        "2",
+        "3",
+        "196"
+      ],
+      "problem": "A learner multiplies the exponents in 4² × 4³ + √196. Locate the first error and evaluate the expression.",
+      "answer": "1038",
+      "rows": [
+        "Keep the multiplication of the two powers separate from the added root.",
+        "The powers have common base 4: write 2 factors and another 3 factors.",
+        "Count 2+3=5 equal factors, so the product is 4⁵.",
+        "Evaluate 4⁵ = 1024.",
+        "Evaluate √196 = 14, because 14² = 196.",
+        "Add 1024 + 14 = 1038. Multiplying the exponents was the first error."
+      ],
+      "memo": "(16 × 64) + 14 = 1038; direct values agree.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "The product law adds exponents for the same base; then evaluate the separate root."
+    },
+    {
+      "id": "g8-exp-l05-w15",
+      "kind": "mixed_audit",
+      "values": [
+        "5",
+        "2",
+        "3",
+        "256"
+      ],
+      "problem": "A learner multiplies the exponents in 5² × 5³ + √256. Locate the first error and evaluate the expression.",
+      "answer": "3141",
+      "rows": [
+        "Keep the multiplication of the two powers separate from the added root.",
+        "The powers have common base 5: write 2 factors and another 3 factors.",
+        "Count 2+3=5 equal factors, so the product is 5⁵.",
+        "Evaluate 5⁵ = 3125.",
+        "Evaluate √256 = 16, because 16² = 256.",
+        "Add 3125 + 16 = 3141. Multiplying the exponents was the first error."
+      ],
+      "memo": "(25 × 125) + 16 = 3141; direct values agree.",
+      "visual_family": "exponent_error_trace",
+      "misconception": "The product law adds exponents for the same base; then evaluate the separate root."
+    }
+  ]
+}

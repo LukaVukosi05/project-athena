@@ -1,0 +1,313 @@
+{
+  "scenes": [
+    {
+      "id": "g8-exp-l04-w01",
+      "kind": "mixed",
+      "values": [
+        "2",
+        "3",
+        "36",
+        "8"
+      ],
+      "problem": "Evaluate 2³ + √36 × ∛8. Show the order of operations.",
+      "answer": "20",
+      "rows": [
+        "Identify the power 2³ and the two roots before multiplying or adding.",
+        "Evaluate the power: 2³ = 8.",
+        "Evaluate the square root: √36 = 6 because 6² = 36.",
+        "Evaluate the cube root: ∛8 = 2 because 2³ = 8.",
+        "Multiply before adding: 6 × 2 = 12.",
+        "Add the two terms: 8 + 12 = 20."
+      ],
+      "memo": "8 + 6 × 2 = 20; both roots recover 36 and 8.",
+      "visual_family": "root_application",
+      "misconception": "Work through powers and roots, then multiplication, then addition."
+    },
+    {
+      "id": "g8-exp-l04-w02",
+      "kind": "square_area",
+      "values": [
+        "64"
+      ],
+      "problem": "A square has area 64 cm². Find its side length and perimeter.",
+      "answer": "8 cm; 32 cm",
+      "rows": [
+        "Label the equal sides s. Area = s × s = 64 cm².",
+        "Take the nonnegative square root: s = √64.",
+        "Arrange 64 square centimetres in a 8 by 8 square.",
+        "So the side length is 8 cm.",
+        "The perimeter is four sides: 4 × 8 = 32 cm."
+      ],
+      "memo": "8 × 8 = 64 cm², and four sides total 32 cm.",
+      "visual_family": "root_application",
+      "misconception": "Area has square units, perimeter has linear units; a square has four equal sides."
+    },
+    {
+      "id": "g8-exp-l04-w03",
+      "kind": "cube_volume",
+      "values": [
+        "125"
+      ],
+      "problem": "A cube has volume 125 cm³. Find one edge length.",
+      "answer": "5 cm",
+      "rows": [
+        "Label all three equal edges s; volume = s × s × s.",
+        "Therefore s³ = 125 cm³.",
+        "Take the cube root: s = ∛125.",
+        "Build 5 equal layers, each 5 by 5 unit cubes.",
+        "The edge is 5 cm."
+      ],
+      "memo": "5 × 5 × 5 = 125 cm³; the volume is restored.",
+      "visual_family": "root_application",
+      "misconception": "Volume counts three equal dimensions; an edge uses linear units."
+    },
+    {
+      "id": "g8-exp-l04-w04",
+      "kind": "mixed",
+      "values": [
+        "3",
+        "3",
+        "49",
+        "27"
+      ],
+      "problem": "Evaluate 3³ + √49 × ∛27. Show the order of operations.",
+      "answer": "48",
+      "rows": [
+        "Identify the power 3³ and the two roots before multiplying or adding.",
+        "Evaluate the power: 3³ = 27.",
+        "Evaluate the square root: √49 = 7 because 7² = 49.",
+        "Evaluate the cube root: ∛27 = 3 because 3³ = 27.",
+        "Multiply before adding: 7 × 3 = 21.",
+        "Add the two terms: 27 + 21 = 48."
+      ],
+      "memo": "27 + 7 × 3 = 48; both roots recover 49 and 27.",
+      "visual_family": "root_application",
+      "misconception": "Work through powers and roots, then multiplication, then addition."
+    },
+    {
+      "id": "g8-exp-l04-w05",
+      "kind": "square_area",
+      "values": [
+        "121"
+      ],
+      "problem": "A square has area 121 cm². Find its side length and perimeter.",
+      "answer": "11 cm; 44 cm",
+      "rows": [
+        "Label the equal sides s. Area = s × s = 121 cm².",
+        "Take the nonnegative square root: s = √121.",
+        "Arrange 121 square centimetres in a 11 by 11 square.",
+        "So the side length is 11 cm.",
+        "The perimeter is four sides: 4 × 11 = 44 cm."
+      ],
+      "memo": "11 × 11 = 121 cm², and four sides total 44 cm.",
+      "visual_family": "root_application",
+      "misconception": "Area has square units, perimeter has linear units; a square has four equal sides."
+    },
+    {
+      "id": "g8-exp-l04-w06",
+      "kind": "cube_volume",
+      "values": [
+        "216"
+      ],
+      "problem": "A cube has volume 216 cm³. Find one edge length.",
+      "answer": "6 cm",
+      "rows": [
+        "Label all three equal edges s; volume = s × s × s.",
+        "Therefore s³ = 216 cm³.",
+        "Take the cube root: s = ∛216.",
+        "Build 6 equal layers, each 6 by 6 unit cubes.",
+        "The edge is 6 cm."
+      ],
+      "memo": "6 × 6 × 6 = 216 cm³; the volume is restored.",
+      "visual_family": "root_application",
+      "misconception": "Volume counts three equal dimensions; an edge uses linear units."
+    },
+    {
+      "id": "g8-exp-l04-w07",
+      "kind": "mixed",
+      "values": [
+        "4",
+        "3",
+        "144",
+        "64"
+      ],
+      "problem": "Evaluate 4³ + √144 × ∛64. Show the order of operations.",
+      "answer": "112",
+      "rows": [
+        "Identify the power 4³ and the two roots before multiplying or adding.",
+        "Evaluate the power: 4³ = 64.",
+        "Evaluate the square root: √144 = 12 because 12² = 144.",
+        "Evaluate the cube root: ∛64 = 4 because 4³ = 64.",
+        "Multiply before adding: 12 × 4 = 48.",
+        "Add the two terms: 64 + 48 = 112."
+      ],
+      "memo": "64 + 12 × 4 = 112; both roots recover 144 and 64.",
+      "visual_family": "root_application",
+      "misconception": "Work through powers and roots, then multiplication, then addition."
+    },
+    {
+      "id": "g8-exp-l04-w08",
+      "kind": "square_area",
+      "values": [
+        "196"
+      ],
+      "problem": "A square has area 196 cm². Find its side length and perimeter.",
+      "answer": "14 cm; 56 cm",
+      "rows": [
+        "Label the equal sides s. Area = s × s = 196 cm².",
+        "Take the nonnegative square root: s = √196.",
+        "Arrange 196 square centimetres in a 14 by 14 square.",
+        "So the side length is 14 cm.",
+        "The perimeter is four sides: 4 × 14 = 56 cm."
+      ],
+      "memo": "14 × 14 = 196 cm², and four sides total 56 cm.",
+      "visual_family": "root_application",
+      "misconception": "Area has square units, perimeter has linear units; a square has four equal sides."
+    },
+    {
+      "id": "g8-exp-l04-w09",
+      "kind": "cube_volume",
+      "values": [
+        "343"
+      ],
+      "problem": "A cube has volume 343 cm³. Find one edge length.",
+      "answer": "7 cm",
+      "rows": [
+        "Label all three equal edges s; volume = s × s × s.",
+        "Therefore s³ = 343 cm³.",
+        "Take the cube root: s = ∛343.",
+        "Build 7 equal layers, each 7 by 7 unit cubes.",
+        "The edge is 7 cm."
+      ],
+      "memo": "7 × 7 × 7 = 343 cm³; the volume is restored.",
+      "visual_family": "root_application",
+      "misconception": "Volume counts three equal dimensions; an edge uses linear units."
+    },
+    {
+      "id": "g8-exp-l04-w10",
+      "kind": "mixed",
+      "values": [
+        "5",
+        "3",
+        "169",
+        "125"
+      ],
+      "problem": "Evaluate 5³ + √169 × ∛125. Show the order of operations.",
+      "answer": "190",
+      "rows": [
+        "Identify the power 5³ and the two roots before multiplying or adding.",
+        "Evaluate the power: 5³ = 125.",
+        "Evaluate the square root: √169 = 13 because 13² = 169.",
+        "Evaluate the cube root: ∛125 = 5 because 5³ = 125.",
+        "Multiply before adding: 13 × 5 = 65.",
+        "Add the two terms: 125 + 65 = 190."
+      ],
+      "memo": "125 + 13 × 5 = 190; both roots recover 169 and 125.",
+      "visual_family": "root_application",
+      "misconception": "Work through powers and roots, then multiplication, then addition."
+    },
+    {
+      "id": "g8-exp-l04-w11",
+      "kind": "square_area",
+      "values": [
+        "256"
+      ],
+      "problem": "A square has area 256 cm². Find its side length and perimeter.",
+      "answer": "16 cm; 64 cm",
+      "rows": [
+        "Label the equal sides s. Area = s × s = 256 cm².",
+        "Take the nonnegative square root: s = √256.",
+        "Arrange 256 square centimetres in a 16 by 16 square.",
+        "So the side length is 16 cm.",
+        "The perimeter is four sides: 4 × 16 = 64 cm."
+      ],
+      "memo": "16 × 16 = 256 cm², and four sides total 64 cm.",
+      "visual_family": "root_application",
+      "misconception": "Area has square units, perimeter has linear units; a square has four equal sides."
+    },
+    {
+      "id": "g8-exp-l04-w12",
+      "kind": "cube_volume",
+      "values": [
+        "512"
+      ],
+      "problem": "A cube has volume 512 cm³. Find one edge length.",
+      "answer": "8 cm",
+      "rows": [
+        "Label all three equal edges s; volume = s × s × s.",
+        "Therefore s³ = 512 cm³.",
+        "Take the cube root: s = ∛512.",
+        "Build 8 equal layers, each 8 by 8 unit cubes.",
+        "The edge is 8 cm."
+      ],
+      "memo": "8 × 8 × 8 = 512 cm³; the volume is restored.",
+      "visual_family": "root_application",
+      "misconception": "Volume counts three equal dimensions; an edge uses linear units."
+    },
+    {
+      "id": "g8-exp-l04-w13",
+      "kind": "mixed",
+      "values": [
+        "6",
+        "3",
+        "225",
+        "216"
+      ],
+      "problem": "Evaluate 6³ + √225 × ∛216. Show the order of operations.",
+      "answer": "306",
+      "rows": [
+        "Identify the power 6³ and the two roots before multiplying or adding.",
+        "Evaluate the power: 6³ = 216.",
+        "Evaluate the square root: √225 = 15 because 15² = 225.",
+        "Evaluate the cube root: ∛216 = 6 because 6³ = 216.",
+        "Multiply before adding: 15 × 6 = 90.",
+        "Add the two terms: 216 + 90 = 306."
+      ],
+      "memo": "216 + 15 × 6 = 306; both roots recover 225 and 216.",
+      "visual_family": "root_application",
+      "misconception": "Work through powers and roots, then multiplication, then addition."
+    },
+    {
+      "id": "g8-exp-l04-w14",
+      "kind": "square_area",
+      "values": [
+        "324"
+      ],
+      "problem": "A square has area 324 cm². Find its side length and perimeter.",
+      "answer": "18 cm; 72 cm",
+      "rows": [
+        "Label the equal sides s. Area = s × s = 324 cm².",
+        "Take the nonnegative square root: s = √324.",
+        "Arrange 324 square centimetres in a 18 by 18 square.",
+        "So the side length is 18 cm.",
+        "The perimeter is four sides: 4 × 18 = 72 cm."
+      ],
+      "memo": "18 × 18 = 324 cm², and four sides total 72 cm.",
+      "visual_family": "root_application",
+      "misconception": "Area has square units, perimeter has linear units; a square has four equal sides."
+    },
+    {
+      "id": "g8-exp-l04-w15",
+      "kind": "mixed",
+      "values": [
+        "7",
+        "3",
+        "289",
+        "343"
+      ],
+      "problem": "Evaluate 7³ + √289 × ∛343. Show the order of operations.",
+      "answer": "462",
+      "rows": [
+        "Identify the power 7³ and the two roots before multiplying or adding.",
+        "Evaluate the power: 7³ = 343.",
+        "Evaluate the square root: √289 = 17 because 17² = 289.",
+        "Evaluate the cube root: ∛343 = 7 because 7³ = 343.",
+        "Multiply before adding: 17 × 7 = 119.",
+        "Add the two terms: 343 + 119 = 462."
+      ],
+      "memo": "343 + 17 × 7 = 462; both roots recover 289 and 343.",
+      "visual_family": "root_application",
+      "misconception": "Work through powers and roots, then multiplication, then addition."
+    }
+  ]
+}

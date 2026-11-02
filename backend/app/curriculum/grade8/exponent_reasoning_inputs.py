@@ -1,0 +1,42 @@
+"""Original question matrices for exponent diagnosis and integrated readiness."""
+WORKED={
+ 5:[('sign_audit',['3','2']),('root_audit',['64']),('quotient_audit',['5','4','2']),
+    ('root_sum_audit',['25','49']),('mixed_audit',['2','2','3','81']),
+    ('sign_audit',['4','2']),('root_audit',['144']),('quotient_audit',['3','5','2']),
+    ('root_sum_audit',['100','64']),('mixed_audit',['3','3','2','121']),
+    ('sign_audit',['7','4']),('quotient_audit',['7','5','2']),
+    ('root_sum_audit',['169','225']),('mixed_audit',['4','2','3','196']),
+    ('mixed_audit',['5','2','3','256'])],
+ 6:[('square_perimeter_gap',['36','64']),('cube_edge_gap',['27','125']),
+    ('side_area_gap',['2','3','100']),('root_power_compare',['2','4','81','8']),
+    ('combined_perimeter',['36','64','27']),('square_perimeter_gap',['81','196']),
+    ('cube_edge_gap',['64','343']),('side_area_gap',['3','2','144']),
+    ('root_power_compare',['3','3','64','27']),('combined_perimeter',['100','169','64']),
+    ('square_perimeter_gap',['144','289']),('cube_edge_gap',['125','729']),
+    ('side_area_gap',['2','4','361']),('root_power_compare',['5','3','144','125']),
+    ('combined_perimeter',['196','324','216'])]
+}
+PRACTICE={
+ 5:[('sign_audit',['2','2']),('root_audit',['49']),('quotient_audit',['4','5','3']),
+    ('root_sum_audit',['36','81']),('mixed_audit',['2','3','2','64']),
+    ('sign_audit',['5','2']),('root_audit',['196']),('quotient_audit',['6','4','2']),
+    ('root_sum_audit',['121','169']),('mixed_audit',['3','2','3','144']),
+    ('sign_audit',['6','4']),('root_audit',['225']),('quotient_audit',['8','5','3']),
+    ('root_sum_audit',['144','256']),('mixed_audit',['4','3','2','225'])],
+ 6:[('square_perimeter_gap',['49','121']),('cube_edge_gap',['8','216']),
+    ('side_area_gap',['2','4','81']),('root_power_compare',['2','3','49','27']),
+    ('combined_perimeter',['49','81','8']),('square_perimeter_gap',['100','225']),
+    ('cube_edge_gap',['27','343']),('side_area_gap',['3','3','400']),
+    ('root_power_compare',['3','4','100','64']),('combined_perimeter',['121','196','125']),
+    ('square_perimeter_gap',['169','361']),('cube_edge_gap',['64','512']),
+    ('side_area_gap',['4','2','324']),('root_power_compare',['5','3','196','216']),
+    ('combined_perimeter',['225','400','343'])]
+}
+MASTERY={
+ 5:[('sign_audit',['8','2']),('root_audit',['324']),('quotient_audit',['9','5','3']),('root_sum_audit',['196','289']),('mixed_audit',['6','2','3','361'])],
+ 6:[('square_perimeter_gap',['64','225']),('cube_edge_gap',['125','1000']),('side_area_gap',['4','3','400']),('root_power_compare',['6','3','225','125']),('combined_perimeter',['256','361','512'])]
+}
+REASSESS={
+ 5:[('sign_audit',['9','4']),('root_sum_audit',['225','361']),('mixed_audit',['7','2','3','400'])],
+ 6:[('cube_edge_gap',['216','1000']),('root_power_compare',['7','3','289','343']),('combined_perimeter',['289','400','729'])]
+}

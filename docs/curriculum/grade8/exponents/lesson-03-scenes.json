@@ -1,0 +1,293 @@
+{
+  "scenes": [
+    {
+      "id": "g8-exp-l03-w01",
+      "kind": "square_root",
+      "values": [
+        "36"
+      ],
+      "problem": "Find √36. Show why your answer is the principal square root.",
+      "answer": "6",
+      "rows": [
+        "Read √36 as the nonnegative number whose square is 36.",
+        "Build a square with 36 equal unit tiles.",
+        "Arrange the tiles into 6 rows of 6 tiles.",
+        "The side count is 6; 6 × 6 = 36.",
+        "Therefore √36 = 6; the √ sign asks for the nonnegative root."
+      ],
+      "memo": "6² = 36; this reconstructs the original number.",
+      "visual_family": "root_square_cube",
+      "misconception": "The principal √ is nonnegative; check by squaring the proposed side."
+    },
+    {
+      "id": "g8-exp-l03-w02",
+      "kind": "cube_root",
+      "values": [
+        "64"
+      ],
+      "problem": "Find ∛64. Show the three equal dimensions.",
+      "answer": "4",
+      "rows": [
+        "Read ∛64 as the number that gives 64 when cubed.",
+        "Build a cube from 64 equal unit cubes.",
+        "Count 4 unit cubes along each of the three edges.",
+        "Check 4 × 4 × 4 = 64.",
+        "Therefore ∛64 = 4."
+      ],
+      "memo": "4³ = 64; this restores the original cube.",
+      "visual_family": "root_square_cube",
+      "misconception": "Cube root asks for three equal factors, not division by three."
+    },
+    {
+      "id": "g8-exp-l03-w03",
+      "kind": "square_root",
+      "values": [
+        "144"
+      ],
+      "problem": "Find √144. Show why your answer is the principal square root.",
+      "answer": "12",
+      "rows": [
+        "Read √144 as the nonnegative number whose square is 144.",
+        "Build a square with 144 equal unit tiles.",
+        "Arrange the tiles into 12 rows of 12 tiles.",
+        "The side count is 12; 12 × 12 = 144.",
+        "Therefore √144 = 12; the √ sign asks for the nonnegative root."
+      ],
+      "memo": "12² = 144; this reconstructs the original number.",
+      "visual_family": "root_square_cube",
+      "misconception": "The principal √ is nonnegative; check by squaring the proposed side."
+    },
+    {
+      "id": "g8-exp-l03-w04",
+      "kind": "cube_root",
+      "values": [
+        "216"
+      ],
+      "problem": "Find ∛216. Show the three equal dimensions.",
+      "answer": "6",
+      "rows": [
+        "Read ∛216 as the number that gives 216 when cubed.",
+        "Build a cube from 216 equal unit cubes.",
+        "Count 6 unit cubes along each of the three edges.",
+        "Check 6 × 6 × 6 = 216.",
+        "Therefore ∛216 = 6."
+      ],
+      "memo": "6³ = 216; this restores the original cube.",
+      "visual_family": "root_square_cube",
+      "misconception": "Cube root asks for three equal factors, not division by three."
+    },
+    {
+      "id": "g8-exp-l03-w05",
+      "kind": "root_pair",
+      "values": [
+        "81",
+        "125"
+      ],
+      "problem": "Evaluate √81 + ∛125. Show the two roots separately.",
+      "answer": "14",
+      "rows": [
+        "Keep √81 and ∛125 separate: their indices describe different shapes.",
+        "Arrange 81 tiles into a 9 by 9 square, so √81 = 9.",
+        "Arrange 125 cubes into a 5 by 5 by 5 cube, so ∛125 = 5.",
+        "Substitute the two root values: 9 + 5.",
+        "Add to obtain 14."
+      ],
+      "memo": "9² = 81 and 5³ = 125; 9 + 5 = 14.",
+      "visual_family": "root_square_cube",
+      "misconception": "Evaluate each root with its own index before adding."
+    },
+    {
+      "id": "g8-exp-l03-w06",
+      "kind": "square_root",
+      "values": [
+        "196"
+      ],
+      "problem": "Find √196. Show why your answer is the principal square root.",
+      "answer": "14",
+      "rows": [
+        "Read √196 as the nonnegative number whose square is 196.",
+        "Build a square with 196 equal unit tiles.",
+        "Arrange the tiles into 14 rows of 14 tiles.",
+        "The side count is 14; 14 × 14 = 196.",
+        "Therefore √196 = 14; the √ sign asks for the nonnegative root."
+      ],
+      "memo": "14² = 196; this reconstructs the original number.",
+      "visual_family": "root_square_cube",
+      "misconception": "The principal √ is nonnegative; check by squaring the proposed side."
+    },
+    {
+      "id": "g8-exp-l03-w07",
+      "kind": "cube_root",
+      "values": [
+        "512"
+      ],
+      "problem": "Find ∛512. Show the three equal dimensions.",
+      "answer": "8",
+      "rows": [
+        "Read ∛512 as the number that gives 512 when cubed.",
+        "Build a cube from 512 equal unit cubes.",
+        "Count 8 unit cubes along each of the three edges.",
+        "Check 8 × 8 × 8 = 512.",
+        "Therefore ∛512 = 8."
+      ],
+      "memo": "8³ = 512; this restores the original cube.",
+      "visual_family": "root_square_cube",
+      "misconception": "Cube root asks for three equal factors, not division by three."
+    },
+    {
+      "id": "g8-exp-l03-w08",
+      "kind": "root_pair",
+      "values": [
+        "144",
+        "216"
+      ],
+      "problem": "Evaluate √144 + ∛216. Show the two roots separately.",
+      "answer": "18",
+      "rows": [
+        "Keep √144 and ∛216 separate: their indices describe different shapes.",
+        "Arrange 144 tiles into a 12 by 12 square, so √144 = 12.",
+        "Arrange 216 cubes into a 6 by 6 by 6 cube, so ∛216 = 6.",
+        "Substitute the two root values: 12 + 6.",
+        "Add to obtain 18."
+      ],
+      "memo": "12² = 144 and 6³ = 216; 12 + 6 = 18.",
+      "visual_family": "root_square_cube",
+      "misconception": "Evaluate each root with its own index before adding."
+    },
+    {
+      "id": "g8-exp-l03-w09",
+      "kind": "square_area",
+      "values": [
+        "169"
+      ],
+      "problem": "A square has area 169 cm². Find its side length and perimeter.",
+      "answer": "13 cm; 52 cm",
+      "rows": [
+        "Label the equal sides s. Area = s × s = 169 cm².",
+        "Take the nonnegative square root: s = √169.",
+        "Arrange 169 square centimetres in a 13 by 13 square.",
+        "So the side length is 13 cm.",
+        "The perimeter is four sides: 4 × 13 = 52 cm."
+      ],
+      "memo": "13 × 13 = 169 cm², and four sides total 52 cm.",
+      "visual_family": "root_square_cube",
+      "misconception": "Area has square units, perimeter has linear units; a square has four equal sides."
+    },
+    {
+      "id": "g8-exp-l03-w10",
+      "kind": "cube_volume",
+      "values": [
+        "343"
+      ],
+      "problem": "A cube has volume 343 cm³. Find one edge length.",
+      "answer": "7 cm",
+      "rows": [
+        "Label all three equal edges s; volume = s × s × s.",
+        "Therefore s³ = 343 cm³.",
+        "Take the cube root: s = ∛343.",
+        "Build 7 equal layers, each 7 by 7 unit cubes.",
+        "The edge is 7 cm."
+      ],
+      "memo": "7 × 7 × 7 = 343 cm³; the volume is restored.",
+      "visual_family": "root_square_cube",
+      "misconception": "Volume counts three equal dimensions; an edge uses linear units."
+    },
+    {
+      "id": "g8-exp-l03-w11",
+      "kind": "root_pair",
+      "values": [
+        "225",
+        "512"
+      ],
+      "problem": "Evaluate √225 + ∛512. Show the two roots separately.",
+      "answer": "23",
+      "rows": [
+        "Keep √225 and ∛512 separate: their indices describe different shapes.",
+        "Arrange 225 tiles into a 15 by 15 square, so √225 = 15.",
+        "Arrange 512 cubes into a 8 by 8 by 8 cube, so ∛512 = 8.",
+        "Substitute the two root values: 15 + 8.",
+        "Add to obtain 23."
+      ],
+      "memo": "15² = 225 and 8³ = 512; 15 + 8 = 23.",
+      "visual_family": "root_square_cube",
+      "misconception": "Evaluate each root with its own index before adding."
+    },
+    {
+      "id": "g8-exp-l03-w12",
+      "kind": "square_area",
+      "values": [
+        "256"
+      ],
+      "problem": "A square has area 256 cm². Find its side length and perimeter.",
+      "answer": "16 cm; 64 cm",
+      "rows": [
+        "Label the equal sides s. Area = s × s = 256 cm².",
+        "Take the nonnegative square root: s = √256.",
+        "Arrange 256 square centimetres in a 16 by 16 square.",
+        "So the side length is 16 cm.",
+        "The perimeter is four sides: 4 × 16 = 64 cm."
+      ],
+      "memo": "16 × 16 = 256 cm², and four sides total 64 cm.",
+      "visual_family": "root_square_cube",
+      "misconception": "Area has square units, perimeter has linear units; a square has four equal sides."
+    },
+    {
+      "id": "g8-exp-l03-w13",
+      "kind": "cube_volume",
+      "values": [
+        "729"
+      ],
+      "problem": "A cube has volume 729 cm³. Find one edge length.",
+      "answer": "9 cm",
+      "rows": [
+        "Label all three equal edges s; volume = s × s × s.",
+        "Therefore s³ = 729 cm³.",
+        "Take the cube root: s = ∛729.",
+        "Build 9 equal layers, each 9 by 9 unit cubes.",
+        "The edge is 9 cm."
+      ],
+      "memo": "9 × 9 × 9 = 729 cm³; the volume is restored.",
+      "visual_family": "root_square_cube",
+      "misconception": "Volume counts three equal dimensions; an edge uses linear units."
+    },
+    {
+      "id": "g8-exp-l03-w14",
+      "kind": "root_pair",
+      "values": [
+        "324",
+        "1000"
+      ],
+      "problem": "Evaluate √324 + ∛1000. Show the two roots separately.",
+      "answer": "28",
+      "rows": [
+        "Keep √324 and ∛1000 separate: their indices describe different shapes.",
+        "Arrange 324 tiles into a 18 by 18 square, so √324 = 18.",
+        "Arrange 1000 cubes into a 10 by 10 by 10 cube, so ∛1000 = 10.",
+        "Substitute the two root values: 18 + 10.",
+        "Add to obtain 28."
+      ],
+      "memo": "18² = 324 and 10³ = 1000; 18 + 10 = 28.",
+      "visual_family": "root_square_cube",
+      "misconception": "Evaluate each root with its own index before adding."
+    },
+    {
+      "id": "g8-exp-l03-w15",
+      "kind": "square_area",
+      "values": [
+        "361"
+      ],
+      "problem": "A square has area 361 cm². Find its side length and perimeter.",
+      "answer": "19 cm; 76 cm",
+      "rows": [
+        "Label the equal sides s. Area = s × s = 361 cm².",
+        "Take the nonnegative square root: s = √361.",
+        "Arrange 361 square centimetres in a 19 by 19 square.",
+        "So the side length is 19 cm.",
+        "The perimeter is four sides: 4 × 19 = 76 cm."
+      ],
+      "memo": "19 × 19 = 361 cm², and four sides total 76 cm.",
+      "visual_family": "root_square_cube",
+      "misconception": "Area has square units, perimeter has linear units; a square has four equal sides."
+    }
+  ]
+}

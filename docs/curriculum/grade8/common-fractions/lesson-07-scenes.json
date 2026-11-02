@@ -1,0 +1,269 @@
+{
+  "scenes": [
+    {
+      "id": "g8-frac-l07-w01",
+      "kind": "convert",
+      "values": [
+        "1/4"
+      ],
+      "problem": "Express 1/4 as a percentage.",
+      "answer": "25%",
+      "rows": [
+        "The whole is one, or 100%. Keep the fraction 1/4 of that whole.",
+        "Multiply 1/4 by 100%: 1/4 × 100% = 25%.",
+        "Check: 25 ÷ 100 = 1/4."
+      ],
+      "memo": "The whole is one, or 100%. Keep the fraction 1/4 of that whole. Multiply 1/4 by 100%: 1/4 × 100% = 25%. Check: 25 ÷ 100 = 1/4. Reverse check using the original whole 1.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w02",
+      "kind": "convert",
+      "values": [
+        "3/5"
+      ],
+      "problem": "Express 3/5 as a percentage.",
+      "answer": "60%",
+      "rows": [
+        "The whole is one, or 100%. Keep the fraction 3/5 of that whole.",
+        "Multiply 3/5 by 100%: 3/5 × 100% = 60%.",
+        "Check: 60 ÷ 100 = 3/5."
+      ],
+      "memo": "The whole is one, or 100%. Keep the fraction 3/5 of that whole. Multiply 3/5 by 100%: 3/5 × 100% = 60%. Check: 60 ÷ 100 = 3/5. Reverse check using the original whole 1.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w03",
+      "kind": "convert",
+      "values": [
+        "7/20"
+      ],
+      "problem": "Express 7/20 as a percentage.",
+      "answer": "35%",
+      "rows": [
+        "The whole is one, or 100%. Keep the fraction 7/20 of that whole.",
+        "Multiply 7/20 by 100%: 7/20 × 100% = 35%.",
+        "Check: 35 ÷ 100 = 7/20."
+      ],
+      "memo": "The whole is one, or 100%. Keep the fraction 7/20 of that whole. Multiply 7/20 by 100%: 7/20 × 100% = 35%. Check: 35 ÷ 100 = 7/20. Reverse check using the original whole 1.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w04",
+      "kind": "of",
+      "values": [
+        "25",
+        "80"
+      ],
+      "problem": "Find 25% of 80.",
+      "answer": "20",
+      "rows": [
+        "The whole is 80; 100% represents 80.",
+        "Find 1%: 80 ÷ 100 = 4/5.",
+        "Find 25%: 4/5 × 25 = 20."
+      ],
+      "memo": "The whole is 80; 100% represents 80. Find 1%: 80 ÷ 100 = 4/5. Find 25%: 4/5 × 25 = 20. Reverse check using the original whole 80.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w05",
+      "kind": "of",
+      "values": [
+        "15",
+        "240"
+      ],
+      "problem": "Find 15% of 240.",
+      "answer": "36",
+      "rows": [
+        "The whole is 240; 100% represents 240.",
+        "Find 1%: 240 ÷ 100 = 12/5.",
+        "Find 15%: 12/5 × 15 = 36."
+      ],
+      "memo": "The whole is 240; 100% represents 240. Find 1%: 240 ÷ 100 = 12/5. Find 15%: 12/5 × 15 = 36. Reverse check using the original whole 240.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w06",
+      "kind": "part",
+      "values": [
+        "18",
+        "60"
+      ],
+      "problem": "18 of 60 learners completed the task. What percentage completed it?",
+      "answer": "30%",
+      "rows": [
+        "The original whole is 60; the selected part is 18.",
+        "Divide part by whole: 18 ÷ 60 = 3/10.",
+        "Convert to percent: 3/10 × 100% = 30%."
+      ],
+      "memo": "The original whole is 60; the selected part is 18. Divide part by whole: 18 ÷ 60 = 3/10. Convert to percent: 3/10 × 100% = 30%. Reverse check using the original whole 60.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w07",
+      "kind": "convert",
+      "values": [
+        "9/40"
+      ],
+      "problem": "Express 9/40 as a percentage.",
+      "answer": "22.5%",
+      "rows": [
+        "The whole is one, or 100%. Keep the fraction 9/40 of that whole.",
+        "Multiply 9/40 by 100%: 9/40 × 100% = 22.5%.",
+        "Check: 45/2 ÷ 100 = 9/40."
+      ],
+      "memo": "The whole is one, or 100%. Keep the fraction 9/40 of that whole. Multiply 9/40 by 100%: 9/40 × 100% = 22.5%. Check: 45/2 ÷ 100 = 9/40. Reverse check using the original whole 1.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w08",
+      "kind": "of",
+      "values": [
+        "12.5",
+        "48"
+      ],
+      "problem": "Find 12.5% of 48.",
+      "answer": "6",
+      "rows": [
+        "The whole is 48; 100% represents 48.",
+        "Find 1%: 48 ÷ 100 = 12/25.",
+        "Find 12.5%: 12/25 × 12.5 = 6."
+      ],
+      "memo": "The whole is 48; 100% represents 48. Find 1%: 48 ÷ 100 = 12/25. Find 12.5%: 12/25 × 12.5 = 6. Reverse check using the original whole 48.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w09",
+      "kind": "part",
+      "values": [
+        "27",
+        "45"
+      ],
+      "problem": "27 of 45 learners completed the task. What percentage completed it?",
+      "answer": "60%",
+      "rows": [
+        "The original whole is 45; the selected part is 27.",
+        "Divide part by whole: 27 ÷ 45 = 3/5.",
+        "Convert to percent: 3/5 × 100% = 60%."
+      ],
+      "memo": "The original whole is 45; the selected part is 27. Divide part by whole: 27 ÷ 45 = 3/5. Convert to percent: 3/5 × 100% = 60%. Reverse check using the original whole 45.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w10",
+      "kind": "of",
+      "values": [
+        "37.5",
+        "64"
+      ],
+      "problem": "Find 37.5% of 64.",
+      "answer": "24",
+      "rows": [
+        "The whole is 64; 100% represents 64.",
+        "Find 1%: 64 ÷ 100 = 16/25.",
+        "Find 37.5%: 16/25 × 37.5 = 24."
+      ],
+      "memo": "The whole is 64; 100% represents 64. Find 1%: 64 ÷ 100 = 16/25. Find 37.5%: 16/25 × 37.5 = 24. Reverse check using the original whole 64.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w11",
+      "kind": "part",
+      "values": [
+        "54",
+        "72"
+      ],
+      "problem": "54 of 72 learners completed the task. What percentage completed it?",
+      "answer": "75%",
+      "rows": [
+        "The original whole is 72; the selected part is 54.",
+        "Divide part by whole: 54 ÷ 72 = 3/4.",
+        "Convert to percent: 3/4 × 100% = 75%."
+      ],
+      "memo": "The original whole is 72; the selected part is 54. Divide part by whole: 54 ÷ 72 = 3/4. Convert to percent: 3/4 × 100% = 75%. Reverse check using the original whole 72.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w12",
+      "kind": "convert",
+      "values": [
+        "17/8"
+      ],
+      "problem": "Express 17/8 as a percentage.",
+      "answer": "212.5%",
+      "rows": [
+        "The whole is one, or 100%. Keep the fraction 17/8 of that whole.",
+        "Multiply 17/8 by 100%: 17/8 × 100% = 212.5%.",
+        "Check: 425/2 ÷ 100 = 17/8."
+      ],
+      "memo": "The whole is one, or 100%. Keep the fraction 17/8 of that whole. Multiply 17/8 by 100%: 17/8 × 100% = 212.5%. Check: 425/2 ÷ 100 = 17/8. Reverse check using the original whole 1.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w13",
+      "kind": "of",
+      "values": [
+        "62.5",
+        "176"
+      ],
+      "problem": "Find 62.5% of 176.",
+      "answer": "110",
+      "rows": [
+        "The whole is 176; 100% represents 176.",
+        "Find 1%: 176 ÷ 100 = 44/25.",
+        "Find 62.5%: 44/25 × 62.5 = 110."
+      ],
+      "memo": "The whole is 176; 100% represents 176. Find 1%: 176 ÷ 100 = 44/25. Find 62.5%: 44/25 × 62.5 = 110. Reverse check using the original whole 176.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w14",
+      "kind": "part",
+      "values": [
+        "135",
+        "90"
+      ],
+      "problem": "135 of 90 learners completed the task. What percentage completed it?",
+      "answer": "150%",
+      "rows": [
+        "The original whole is 90; the selected part is 135.",
+        "Divide part by whole: 135 ÷ 90 = 3/2.",
+        "Convert to percent: 3/2 × 100% = 150%."
+      ],
+      "memo": "The original whole is 90; the selected part is 135. Divide part by whole: 135 ÷ 90 = 3/2. Convert to percent: 3/2 × 100% = 150%. Reverse check using the original whole 90.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    },
+    {
+      "id": "g8-frac-l07-w15",
+      "kind": "of",
+      "values": [
+        "87.5",
+        "144"
+      ],
+      "problem": "Find 87.5% of 144.",
+      "answer": "126",
+      "rows": [
+        "The whole is 144; 100% represents 144.",
+        "Find 1%: 144 ÷ 100 = 36/25.",
+        "Find 87.5%: 36/25 × 87.5 = 126."
+      ],
+      "memo": "The whole is 144; 100% represents 144. Find 1%: 144 ÷ 100 = 36/25. Find 87.5%: 36/25 × 87.5 = 126. Reverse check using the original whole 144.",
+      "misconception": "Always divide by the original whole; a percentage is measured against 100 parts.",
+      "visual_family": "percentage_grid"
+    }
+  ]
+}

@@ -1,0 +1,1103 @@
+{
+  "id": "g8-functions-relationships-05",
+  "title": "Matching representations and evaluating rules",
+  "source_document": "lesson-05-matching-representations.md",
+  "source_sha256": "b9e162a32ab80d3581c2250967db94492119709ade62853263d31f0b347ffc97",
+  "worked_examples": [
+    {
+      "id": "g8-fr-l05-w01",
+      "number": 1,
+      "level": "foundation",
+      "marks": 2,
+      "q": "Words say double an input then add 1. Does y=2x+1 or y=2(x+1) match? Test x=2.",
+      "answer": "2x+1; at x=2, y=5",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "double, then add 1",
+          "y=2x+1",
+          "y=2(x+1)"
+        ],
+        "outputs": [
+          "2x+1 evaluated at 2",
+          "2x+1; at x=2, y=5"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 2,
+          "candidates": [
+            {
+              "label": "2x+1",
+              "value": 5,
+              "a": 0,
+              "b": 2,
+              "c": 1
+            },
+            {
+              "label": "2(x+1)",
+              "value": 6,
+              "a": 0,
+              "b": 2,
+              "c": 2
+            }
+          ],
+          "chosen": "2x+1",
+          "given": [
+            "double, then add 1",
+            "y=2x+1",
+            "y=2(x+1)"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 2 in both rules",
+        "2x+1 → 5; 2(x+1) → 6",
+        "2x+1; at x=2, y=5"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 2, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 2.",
+          "action": "Evaluate both candidates at input 2.",
+          "narration": "The candidates give 5 and 6. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 2x+1 and state the output.",
+          "action": "Choose 2x+1 and state the output.",
+          "narration": "2x+1; at x=2, y=5. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 2, 2x+1 gives 5; recheck against the original words, rows or formula.",
+      "misconception": "Grouping the +1 inside the doubling.",
+      "repair": "Perform the operations in the spoken order."
+    },
+    {
+      "id": "g8-fr-l05-w02",
+      "number": 2,
+      "level": "easy",
+      "marks": 2,
+      "q": "A flow adds 3 then doubles. Which rule, 2(x+3) or 2x+3, fits input 1?",
+      "answer": "2(x+3); at x=1, y=8",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "x → +3 → ×2",
+          "2(x+3)",
+          "2x+3"
+        ],
+        "outputs": [
+          "2(x+3) evaluated at 1",
+          "2(x+3); at x=1, y=8"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 1,
+          "candidates": [
+            {
+              "label": "2(x+3)",
+              "value": 8,
+              "a": 0,
+              "b": 2,
+              "c": 6
+            },
+            {
+              "label": "2x+3",
+              "value": 5,
+              "a": 0,
+              "b": 2,
+              "c": 3
+            }
+          ],
+          "chosen": "2(x+3)",
+          "given": [
+            "x → +3 → ×2",
+            "2(x+3)",
+            "2x+3"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 1 in both rules",
+        "2(x+3) → 8; 2x+3 → 5",
+        "2(x+3); at x=1, y=8"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 1, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 1.",
+          "action": "Evaluate both candidates at input 1.",
+          "narration": "The candidates give 8 and 5. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 2(x+3) and state the output.",
+          "action": "Choose 2(x+3) and state the output.",
+          "narration": "2(x+3); at x=1, y=8. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 1, 2(x+3) gives 8; recheck against the original words, rows or formula.",
+      "misconception": "Reversing the flow order.",
+      "repair": "Record the intermediate value four before doubling."
+    },
+    {
+      "id": "g8-fr-l05-w03",
+      "number": 3,
+      "level": "easy",
+      "marks": 3,
+      "q": "The pairs are (0,4),(1,7),(2,10). Match y=3x+4 or y=4x+3; test x=2.",
+      "answer": "y=3x+4; at x=2, y=10",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "0→4; 1→7; 2→10",
+          "y=3x+4",
+          "y=4x+3"
+        ],
+        "outputs": [
+          "3x+4 evaluated at 2",
+          "y=3x+4; at x=2, y=10"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 2,
+          "candidates": [
+            {
+              "label": "3x+4",
+              "value": 10,
+              "a": 0,
+              "b": 3,
+              "c": 4
+            },
+            {
+              "label": "4x+3",
+              "value": 11,
+              "a": 0,
+              "b": 4,
+              "c": 3
+            }
+          ],
+          "chosen": "3x+4",
+          "given": [
+            "0→4; 1→7; 2→10",
+            "y=3x+4",
+            "y=4x+3"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 2 in both rules",
+        "3x+4 → 10; 4x+3 → 11",
+        "y=3x+4; at x=2, y=10"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 2, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 2.",
+          "action": "Evaluate both candidates at input 2.",
+          "narration": "The candidates give 10 and 11. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 3x+4 and state the output.",
+          "action": "Choose 3x+4 and state the output.",
+          "narration": "y=3x+4; at x=2, y=10. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 2, 3x+4 gives 10; recheck against the original words, rows or formula.",
+      "misconception": "Mistaking the zero output for the rate.",
+      "repair": "At x=0 the fixed amount is four."
+    },
+    {
+      "id": "g8-fr-l05-w04",
+      "number": 4,
+      "level": "standard",
+      "marks": 3,
+      "q": "A table gives 0→2, 2→8, 4→14. Which rule fits, y=3x+2 or y=2x+3? Check x=4.",
+      "answer": "y=3x+2; at x=4, y=14",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "0→2; 2→8; 4→14",
+          "y=3x+2",
+          "y=2x+3"
+        ],
+        "outputs": [
+          "3x+2 evaluated at 4",
+          "y=3x+2; at x=4, y=14"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 4,
+          "candidates": [
+            {
+              "label": "3x+2",
+              "value": 14,
+              "a": 0,
+              "b": 3,
+              "c": 2
+            },
+            {
+              "label": "2x+3",
+              "value": 11,
+              "a": 0,
+              "b": 2,
+              "c": 3
+            }
+          ],
+          "chosen": "3x+2",
+          "given": [
+            "0→2; 2→8; 4→14",
+            "y=3x+2",
+            "y=2x+3"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 4 in both rules",
+        "3x+2 → 14; 2x+3 → 11",
+        "y=3x+2; at x=4, y=14"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 4, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 4.",
+          "action": "Evaluate both candidates at input 4.",
+          "narration": "The candidates give 14 and 11. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 3x+2 and state the output.",
+          "action": "Choose 3x+2 and state the output.",
+          "narration": "y=3x+2; at x=4, y=14. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 4, 3x+2 gives 14; recheck against the original words, rows or formula.",
+      "misconception": "Counting a two-unit input step as one.",
+      "repair": "Divide output change six by input change two."
+    },
+    {
+      "id": "g8-fr-l05-w05",
+      "number": 5,
+      "level": "standard",
+      "marks": 3,
+      "q": "A taxi costs R12 once plus R5 per kilometre. Choose C=12+5k or C=5+12k and find C at k=3.",
+      "answer": "C=12+5k; C(3)=R27",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "R12 once",
+          "R5 per km",
+          "C=12+5k or 5+12k"
+        ],
+        "outputs": [
+          "12+5k evaluated at 3",
+          "C=12+5k; C(3)=R27"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 3,
+          "candidates": [
+            {
+              "label": "12+5k",
+              "value": 27,
+              "a": 0,
+              "b": 5,
+              "c": 12
+            },
+            {
+              "label": "5+12k",
+              "value": 41,
+              "a": 0,
+              "b": 12,
+              "c": 5
+            }
+          ],
+          "chosen": "12+5k",
+          "given": [
+            "R12 once",
+            "R5 per km",
+            "C=12+5k or 5+12k"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 3 in both rules",
+        "12+5k → 27; 5+12k → 41",
+        "C=12+5k; C(3)=R27"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 3, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 3.",
+          "action": "Evaluate both candidates at input 3.",
+          "narration": "The candidates give 27 and 41. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 12+5k and state the output.",
+          "action": "Choose 12+5k and state the output.",
+          "narration": "C=12+5k; C(3)=R27. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 3, 12+5k gives 27; recheck against the original words, rows or formula.",
+      "misconception": "Charging the fixed amount for each kilometre.",
+      "repair": "Label fixed and repeated costs separately."
+    },
+    {
+      "id": "g8-fr-l05-w06",
+      "number": 6,
+      "level": "standard",
+      "marks": 4,
+      "q": "The number of tiles for a square of side n is n². Does y=n² or y=2n fit n=3?",
+      "answer": "y=n²; at n=3, y=9",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "square with side n",
+          "y=n²",
+          "y=2n"
+        ],
+        "outputs": [
+          "n² evaluated at 3",
+          "y=n²; at n=3, y=9"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 3,
+          "candidates": [
+            {
+              "label": "n²",
+              "value": 9,
+              "a": 1,
+              "b": 0,
+              "c": 0
+            },
+            {
+              "label": "2n",
+              "value": 6,
+              "a": 0,
+              "b": 2,
+              "c": 0
+            }
+          ],
+          "chosen": "n²",
+          "given": [
+            "square with side n",
+            "y=n²",
+            "y=2n"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 3 in both rules",
+        "n² → 9; 2n → 6",
+        "y=n²; at n=3, y=9"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 3, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 3.",
+          "action": "Evaluate both candidates at input 3.",
+          "narration": "The candidates give 9 and 6. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose n² and state the output.",
+          "action": "Choose n² and state the output.",
+          "narration": "y=n²; at n=3, y=9. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 3, n² gives 9; recheck against the original words, rows or formula.",
+      "misconception": "Confusing area with doubling a side.",
+      "repair": "Build three rows of three tiles."
+    },
+    {
+      "id": "g8-fr-l05-w07",
+      "number": 7,
+      "level": "intermediate",
+      "marks": 4,
+      "q": "A machine subtracts 4 and then triples. Which expression, 3(x−4) or 3x−4, matches input 7?",
+      "answer": "3(x−4); at x=7, y=9",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "x → −4 → ×3",
+          "3(x−4)",
+          "3x−4"
+        ],
+        "outputs": [
+          "3(x−4) evaluated at 7",
+          "3(x−4); at x=7, y=9"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 7,
+          "candidates": [
+            {
+              "label": "3(x−4)",
+              "value": 9,
+              "a": 0,
+              "b": 3,
+              "c": -12
+            },
+            {
+              "label": "3x−4",
+              "value": 17,
+              "a": 0,
+              "b": 3,
+              "c": -4
+            }
+          ],
+          "chosen": "3(x−4)",
+          "given": [
+            "x → −4 → ×3",
+            "3(x−4)",
+            "3x−4"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 7 in both rules",
+        "3(x−4) → 9; 3x−4 → 17",
+        "3(x−4); at x=7, y=9"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 7, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 7.",
+          "action": "Evaluate both candidates at input 7.",
+          "narration": "The candidates give 9 and 17. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 3(x−4) and state the output.",
+          "action": "Choose 3(x−4) and state the output.",
+          "narration": "3(x−4); at x=7, y=9. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 7, 3(x−4) gives 9; recheck against the original words, rows or formula.",
+      "misconception": "Multiplying only x.",
+      "repair": "The whole result of subtracting four is tripled."
+    },
+    {
+      "id": "g8-fr-l05-w08",
+      "number": 8,
+      "level": "intermediate",
+      "marks": 4,
+      "q": "A subscription costs R20 plus R6 for each class. For 5 classes, choose 20+6n or 20n+6.",
+      "answer": "20+6n; for 5 classes, R50",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "R20 fixed",
+          "R6 per class",
+          "n=5"
+        ],
+        "outputs": [
+          "20+6n evaluated at 5",
+          "20+6n; for 5 classes, R50"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 5,
+          "candidates": [
+            {
+              "label": "20+6n",
+              "value": 50,
+              "a": 0,
+              "b": 6,
+              "c": 20
+            },
+            {
+              "label": "20n+6",
+              "value": 106,
+              "a": 0,
+              "b": 20,
+              "c": 6
+            }
+          ],
+          "chosen": "20+6n",
+          "given": [
+            "R20 fixed",
+            "R6 per class",
+            "n=5"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 5 in both rules",
+        "20+6n → 50; 20n+6 → 106",
+        "20+6n; for 5 classes, R50"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 5, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 5.",
+          "action": "Evaluate both candidates at input 5.",
+          "narration": "The candidates give 50 and 106. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 20+6n and state the output.",
+          "action": "Choose 20+6n and state the output.",
+          "narration": "20+6n; for 5 classes, R50. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 5, 20+6n gives 50; recheck against the original words, rows or formula.",
+      "misconception": "Multiplying the once-off amount.",
+      "repair": "Pay twenty once, then add five groups of six."
+    },
+    {
+      "id": "g8-fr-l05-w09",
+      "number": 9,
+      "level": "intermediate",
+      "marks": 4,
+      "q": "The rows −1→1, 0→2, 1→3 are given. Does y=x+2 or y=x²+2 fit every row?",
+      "answer": "y=x+2; at x=−1, y=1",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "−1→1; 0→2; 1→3",
+          "y=x+2",
+          "y=x²+2"
+        ],
+        "outputs": [
+          "x+2 evaluated at -1",
+          "y=x+2; at x=−1, y=1"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": -1,
+          "candidates": [
+            {
+              "label": "x+2",
+              "value": 1,
+              "a": 0,
+              "b": 1,
+              "c": 2
+            },
+            {
+              "label": "x²+2",
+              "value": 3,
+              "a": 1,
+              "b": 0,
+              "c": 2
+            }
+          ],
+          "chosen": "x+2",
+          "given": [
+            "−1→1; 0→2; 1→3",
+            "y=x+2",
+            "y=x²+2"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input -1 in both rules",
+        "x+2 → 1; x²+2 → 3",
+        "y=x+2; at x=−1, y=1"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input -1, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input -1.",
+          "action": "Evaluate both candidates at input -1.",
+          "narration": "The candidates give 1 and 3. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose x+2 and state the output.",
+          "action": "Choose x+2 and state the output.",
+          "narration": "y=x+2; at x=−1, y=1. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input -1, x+2 gives 1; recheck against the original words, rows or formula.",
+      "misconception": "Checking positive inputs only.",
+      "repair": "Test a signed input to separate the candidates."
+    },
+    {
+      "id": "g8-fr-l05-w10",
+      "number": 10,
+      "level": "exam",
+      "marks": 5,
+      "q": "The pairs 0→5, 1→8, 3→14 represent a fixed fee and a rate. Which is correct: 5+3x or 3+5x? Find y(4).",
+      "answer": "5+3x; y(4)=17",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "0→5; 1→8; 3→14",
+          "5+3x",
+          "3+5x"
+        ],
+        "outputs": [
+          "5+3x evaluated at 4",
+          "5+3x; y(4)=17"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 4,
+          "candidates": [
+            {
+              "label": "5+3x",
+              "value": 17,
+              "a": 0,
+              "b": 3,
+              "c": 5
+            },
+            {
+              "label": "3+5x",
+              "value": 23,
+              "a": 0,
+              "b": 5,
+              "c": 3
+            }
+          ],
+          "chosen": "5+3x",
+          "given": [
+            "0→5; 1→8; 3→14",
+            "5+3x",
+            "3+5x"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 4 in both rules",
+        "5+3x → 17; 3+5x → 23",
+        "5+3x; y(4)=17"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 4, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 4.",
+          "action": "Evaluate both candidates at input 4.",
+          "narration": "The candidates give 17 and 23. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 5+3x and state the output.",
+          "action": "Choose 5+3x and state the output.",
+          "narration": "5+3x; y(4)=17. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 4, 5+3x gives 17; recheck against the original words, rows or formula.",
+      "misconception": "Using the larger number as the rate.",
+      "repair": "The zero row determines the fixed fee."
+    },
+    {
+      "id": "g8-fr-l05-w11",
+      "number": 11,
+      "level": "exam",
+      "marks": 5,
+      "q": "A rule outputs −2,1,4 for inputs −1,0,1. Choose 3x+1 or x+3; predict input 2.",
+      "answer": "3x+1; input 2 gives 7",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "−1→−2; 0→1; 1→4",
+          "3x+1",
+          "x+3"
+        ],
+        "outputs": [
+          "3x+1 evaluated at 2",
+          "3x+1; input 2 gives 7"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 2,
+          "candidates": [
+            {
+              "label": "3x+1",
+              "value": 7,
+              "a": 0,
+              "b": 3,
+              "c": 1
+            },
+            {
+              "label": "x+3",
+              "value": 5,
+              "a": 0,
+              "b": 1,
+              "c": 3
+            }
+          ],
+          "chosen": "3x+1",
+          "given": [
+            "−1→−2; 0→1; 1→4",
+            "3x+1",
+            "x+3"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 2 in both rules",
+        "3x+1 → 7; x+3 → 5",
+        "3x+1; input 2 gives 7"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 2, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 2.",
+          "action": "Evaluate both candidates at input 2.",
+          "narration": "The candidates give 7 and 5. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 3x+1 and state the output.",
+          "action": "Choose 3x+1 and state the output.",
+          "narration": "3x+1; input 2 gives 7. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 2, 3x+1 gives 7; recheck against the original words, rows or formula.",
+      "misconception": "Ignoring the negative pair.",
+      "repair": "Check every original row before predicting."
+    },
+    {
+      "id": "g8-fr-l05-w12",
+      "number": 12,
+      "level": "exam",
+      "marks": 5,
+      "q": "A square border has 4n unit edges. A square area has n² unit squares. For n=5, which rule gives area?",
+      "answer": "n²; area at n=5 is 25 square units",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "side n",
+          "border 4n",
+          "area n²"
+        ],
+        "outputs": [
+          "n² evaluated at 5",
+          "n²; area at n=5 is 25 square units"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 5,
+          "candidates": [
+            {
+              "label": "n²",
+              "value": 25,
+              "a": 1,
+              "b": 0,
+              "c": 0
+            },
+            {
+              "label": "4n",
+              "value": 20,
+              "a": 0,
+              "b": 4,
+              "c": 0
+            }
+          ],
+          "chosen": "n²",
+          "given": [
+            "side n",
+            "border 4n",
+            "area n²"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 5 in both rules",
+        "n² → 25; 4n → 20",
+        "n²; area at n=5 is 25 square units"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 5, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 5.",
+          "action": "Evaluate both candidates at input 5.",
+          "narration": "The candidates give 25 and 20. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose n² and state the output.",
+          "action": "Choose n² and state the output.",
+          "narration": "n²; area at n=5 is 25 square units. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 5, n² gives 25; recheck against the original words, rows or formula.",
+      "misconception": "Mixing boundary length with area.",
+      "repair": "Shade the 5-by-5 interior, not the 20 edges."
+    },
+    {
+      "id": "g8-fr-l05-w13",
+      "number": 13,
+      "level": "advanced",
+      "marks": 6,
+      "q": "The flow doubles then adds 6; a table gives 0→6, 2→10. Does y=2(x+3) agree with both? Test x=−3.",
+      "answer": "Yes: 2(x+3)=2x+6; at x=−3, y=0",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "×2 → +6",
+          "0→6; 2→10",
+          "y=2(x+3)"
+        ],
+        "outputs": [
+          "2(x+3) evaluated at -3",
+          "Yes: 2(x+3)=2x+6; at x=−3, y=0"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": -3,
+          "candidates": [
+            {
+              "label": "2(x+3)",
+              "value": 0,
+              "a": 0,
+              "b": 2,
+              "c": 6
+            },
+            {
+              "label": "2x+3",
+              "value": -3,
+              "a": 0,
+              "b": 2,
+              "c": 3
+            }
+          ],
+          "chosen": "2(x+3)",
+          "given": [
+            "×2 → +6",
+            "0→6; 2→10",
+            "y=2(x+3)"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input -3 in both rules",
+        "2(x+3) → 0; 2x+3 → -3",
+        "Yes: 2(x+3)=2x+6; at x=−3, y=0"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input -3, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input -3.",
+          "action": "Evaluate both candidates at input -3.",
+          "narration": "The candidates give 0 and -3. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 2(x+3) and state the output.",
+          "action": "Choose 2(x+3) and state the output.",
+          "narration": "Yes: 2(x+3)=2x+6; at x=−3, y=0. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input -3, 2(x+3) gives 0; recheck against the original words, rows or formula.",
+      "misconception": "Assuming equivalent expressions look identical.",
+      "repair": "Distribute, then compare two table rows and a signed value."
+    },
+    {
+      "id": "g8-fr-l05-w14",
+      "number": 14,
+      "level": "advanced",
+      "marks": 6,
+      "q": "Two descriptions are 4(x−2) and 4x−8. Which is equivalent to “subtract 2 then quadruple”? Evaluate x=−1.",
+      "answer": "4(x−2)=4x−8; at x=−1, y=−12",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "subtract 2, then quadruple",
+          "4(x−2)",
+          "4x−8"
+        ],
+        "outputs": [
+          "4(x−2) evaluated at -1",
+          "4(x−2)=4x−8; at x=−1, y=−12"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": -1,
+          "candidates": [
+            {
+              "label": "4(x−2)",
+              "value": -12,
+              "a": 0,
+              "b": 4,
+              "c": -8
+            },
+            {
+              "label": "4x−2",
+              "value": -6,
+              "a": 0,
+              "b": 4,
+              "c": -2
+            }
+          ],
+          "chosen": "4(x−2)",
+          "given": [
+            "subtract 2, then quadruple",
+            "4(x−2)",
+            "4x−8"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input -1 in both rules",
+        "4(x−2) → -12; 4x−2 → -6",
+        "4(x−2)=4x−8; at x=−1, y=−12"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input -1, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input -1.",
+          "action": "Evaluate both candidates at input -1.",
+          "narration": "The candidates give -12 and -6. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 4(x−2) and state the output.",
+          "action": "Choose 4(x−2) and state the output.",
+          "narration": "4(x−2)=4x−8; at x=−1, y=−12. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input -1, 4(x−2) gives -12; recheck against the original words, rows or formula.",
+      "misconception": "Failing to multiply the negative constant.",
+      "repair": "Show four copies of x−2 before collecting."
+    },
+    {
+      "id": "g8-fr-l05-w15",
+      "number": 15,
+      "level": "advanced",
+      "marks": 7,
+      "q": "A delivery company offers A=10+4d or B=4+10d. The bill for 0 km is R10 and for 2 km R18. Identify the rule and give the bill for 5 km.",
+      "answer": "A=10+4d; at 5 km, R30",
+      "model": {
+        "family": "relationship_match",
+        "inputs": [
+          "0 km→R10; 2 km→R18",
+          "A=10+4d",
+          "B=4+10d"
+        ],
+        "outputs": [
+          "10+4d evaluated at 5",
+          "A=10+4d; at 5 km, R30"
+        ],
+        "description": "Matching representations and evaluating rules",
+        "scene": {
+          "input": 5,
+          "candidates": [
+            {
+              "label": "10+4d",
+              "value": 30,
+              "a": 0,
+              "b": 4,
+              "c": 10
+            },
+            {
+              "label": "4+10d",
+              "value": 54,
+              "a": 0,
+              "b": 10,
+              "c": 4
+            }
+          ],
+          "chosen": "10+4d",
+          "given": [
+            "0 km→R10; 2 km→R18",
+            "A=10+4d",
+            "B=4+10d"
+          ],
+          "mode": "match"
+        }
+      },
+      "states": [
+        "Read the given representations",
+        "Test input 5 in both rules",
+        "10+4d → 30; 4+10d → 54",
+        "A=10+4d; at 5 km, R30"
+      ],
+      "steps": [
+        {
+          "title": "Identify what is fixed and what changes.",
+          "action": "Identify what is fixed and what changes.",
+          "narration": "At input 5, substitute in each candidate, keeping the original operation order."
+        },
+        {
+          "title": "Evaluate both candidates at input 5.",
+          "action": "Evaluate both candidates at input 5.",
+          "narration": "The candidates give 30 and 54. Compare with the stated relationship."
+        },
+        {
+          "title": "Choose 10+4d and state the output.",
+          "action": "Choose 10+4d and state the output.",
+          "narration": "A=10+4d; at 5 km, R30. Read the input and output with the context units, if any."
+        }
+      ],
+      "verify": "At input 5, 10+4d gives 30; recheck against the original words, rows or formula.",
+      "misconception": "Swapping the fixed fee and per-kilometre rate.",
+      "repair": "Use zero kilometres for fixed fee and divide the change by two."
+    }
+  ]
+}

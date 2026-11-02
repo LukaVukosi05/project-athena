@@ -1,0 +1,27 @@
+.grade8-global-board{display:grid;gap:.8rem;min-width:0}
+.grade8-global-board .g8-original,.grade8-global-board .g8-state--before{display:none}
+.grade8-global-board>div[data-object-id="model"]{min-width:0}
+.grade8-global-board .g8-action-slot{min-height:58px}
+.grade8-global-claim{margin:.4rem 0 0;padding:.55rem .7rem;border-left:3px solid #8ea6b1;background:#eef5f7;color:#173c4b}
+.grade8-global-claim span{font-weight:700}
+.grade8-global-claim.is-disputed{border-color:#c57b2b}
+.grade8-global-claim.is-corrected{border-color:#bc4939;text-decoration:line-through;text-decoration-color:#bc4939;text-decoration-thickness:2px}
+.grade8-global-graph{display:block;width:100%;max-width:620px;height:auto;background:#f5fafc;border:1px solid #c5dce5;border-radius:.8rem}
+.grade8-global-graph text{fill:#173c4b;font:12px system-ui,sans-serif}
+.grade8-global-graph .g8-global-axis{stroke:#244b5b;stroke-width:2}
+.grade8-global-graph .g8-global-ticks line{stroke:#9dbcc9}
+.grade8-global-graph .g8-global-given{fill:none;stroke:#316d8d;stroke-width:3}
+.grade8-global-graph .g8-global-secondary{fill:none;stroke:#b65e32;stroke-width:3;stroke-dasharray:8 4}
+.grade8-global-graph .g8-global-dot--secondary circle{fill:#b65e32}
+.grade8-global-graph .g8-global-legend{font-weight:700;fill:#173c4b}
+.grade8-global-graph .g8-global-dot circle{fill:#316d8d;stroke:white;stroke-width:2}
+.grade8-global-graph .g8-global-dot.is-current circle{fill:#0b8776}
+.grade8-global-graph .g8-global-segment,.grade8-global-graph .g8-global-highlight{stroke:#0b8776;stroke-width:4;stroke-linecap:round}
+.grade8-global-graph .g8-global-highlight{stroke:#cf7724;stroke-width:6}
+.grade8-global-graph .g8-global-highlight--secondary{stroke:#b65e32;stroke-dasharray:8 4}
+.grade8-global-graph .g8-global-projection{stroke:#cf7724;stroke-dasharray:4 4}
+.grade8-global-graph .is-animating{stroke-dasharray:900;stroke-dashoffset:900;animation:g8-global-draw 1.1s .5s forwards}
+@keyframes g8-global-draw{to{stroke-dashoffset:0}}
+.stateful-whiteboard[data-controller-state="paused"] .grade8-global-graph .is-animating{animation-play-state:paused}
+@media(max-width:700px){.grade8-global-graph text{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.grade8-global-graph .is-animating{animation:none;stroke-dashoffset:0}}

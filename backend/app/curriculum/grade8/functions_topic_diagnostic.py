@@ -1,4 +1,4 @@
-"""Short topic check across the four authored Functions and Relationships lessons.
+"""Short topic check across the six authored Functions and Relationships lessons.
 
 Fresh values and compact responses make automatic scoring fairer than using
 the multi-part lesson mastery memos as literal answer strings.
@@ -29,6 +29,12 @@ ITEMS = (
     Item("fr-t10", "g8-functions-relationships-04", "A rectangle has area 42 cm² and width 6 cm. What is its length in centimetres?", ("7",), "Area divided by width gives length: 42 ÷ 6 = 7 cm."),
     Item("fr-t11", "g8-functions-relationships-04", "A rectangle is 8 cm long and 3 cm wide. What is its perimeter in centimetres?", ("22",), "Add two lengths and two widths: 2(8 + 3) = 22 cm."),
     Item("fr-t12", "g8-functions-relationships-04", "A rectangle has area 30 m². Tiles cost R40 per m². What is the total cost in rand?", ("1200", "r1200"), "Multiply the square-metre area by the price per square metre: 30 × 40 = R1200."),
+    Item("fr-t13", "g8-functions-relationships-05", "Double x then add 4: what is the output at x = 3?", ("10",), "2×3 + 4 = 10; operation order matters."),
+    Item("fr-t14", "g8-functions-relationships-05", "A R7 fixed fee plus R2 per item gives what cost for five items, in rand?", ("17", "r17"), "7 + 2×5 = R17."),
+    Item("fr-t15", "g8-functions-relationships-05", "Are 3(x + 2) and 3x + 6 equivalent for all inputs? Answer yes or no.", ("yes", "y"), "Distribute three to both terms."),
+    Item("fr-t16", "g8-functions-relationships-06", "A learner expands 2(x + 4) as 2x + 4. What is the correct constant term?", ("8",), "Two multiplies both x and four."),
+    Item("fr-t17", "g8-functions-relationships-06", "From 0→5 and 2→11 a learner calls the rate six per input. What is the correct rate?", ("3",), "The output changes by six over two input units."),
+    Item("fr-t18", "g8-functions-relationships-06", "A learner claims a square of side 4 has area 4×4 boundary edges. What is its area in unit squares?", ("16",), "Four rows of four unit squares give area 16."),
 )
 
 LABELS = {
@@ -36,6 +42,8 @@ LABELS = {
     "g8-functions-relationships-02": "Equivalent forms and operation order",
     "g8-functions-relationships-03": "Finding rules from tables",
     "g8-functions-relationships-04": "Formula contexts and missing dimensions",
+    "g8-functions-relationships-05": "Matching relationship representations",
+    "g8-functions-relationships-06": "First-error relationship repair",
 }
 
 
@@ -45,7 +53,7 @@ def public_items():
 
 def score(answers: dict[str, str]):
     if set(answers) != {item.id for item in ITEMS}:
-        raise ValueError("Submit one answer for each of the twelve questions")
+        raise ValueError("Submit one answer for each of the eighteen questions")
     groups = {lesson_id: {"lesson_id": lesson_id, "title": title, "correct": 0, "total": 3}
               for lesson_id, title in LABELS.items()}
     review = []

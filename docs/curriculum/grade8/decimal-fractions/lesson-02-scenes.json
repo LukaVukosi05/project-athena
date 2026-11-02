@@ -1,0 +1,279 @@
+{
+  "scenes": [
+    {
+      "id": "g8-dec-l02-w01",
+      "kind": "round",
+      "values": [
+        "3.476",
+        "2"
+      ],
+      "problem": "Round 3.476 to 2 decimal places.",
+      "answer": "3.48",
+      "rows": [
+        "Neighbouring marks at 2 decimal place(s) are 3.47 and 3.48.",
+        "The midpoint is 3.475. Place 3.476 relative to it; a midpoint rounds upward.",
+        "Round to 3.48, retaining 2 decimal place(s)."
+      ],
+      "memo": "3.476 is at or beyond the midpoint 3.475",
+      "misconception": "Look at the NEXT digit, including when a carry changes the whole number.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w02",
+      "kind": "round",
+      "values": [
+        "5.263",
+        "2"
+      ],
+      "problem": "Round 5.263 to 2 decimal places.",
+      "answer": "5.26",
+      "rows": [
+        "Neighbouring marks at 2 decimal place(s) are 5.26 and 5.27.",
+        "The midpoint is 5.265. Place 5.263 relative to it; a midpoint rounds upward.",
+        "Round to 5.26, retaining 2 decimal place(s)."
+      ],
+      "memo": "5.263 is below the midpoint 5.265",
+      "misconception": "Look at the NEXT digit, including when a carry changes the whole number.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w03",
+      "kind": "round",
+      "values": [
+        "0.985",
+        "2"
+      ],
+      "problem": "Round 0.985 to 2 decimal places.",
+      "answer": "0.99",
+      "rows": [
+        "Neighbouring marks at 2 decimal place(s) are 0.98 and 0.99.",
+        "The midpoint is 0.985. Place 0.985 relative to it; a midpoint rounds upward.",
+        "Round to 0.99, retaining 2 decimal place(s)."
+      ],
+      "memo": "0.985 is at or beyond the midpoint 0.985",
+      "misconception": "Look at the NEXT digit, including when a carry changes the whole number.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w04",
+      "kind": "round",
+      "values": [
+        "12.345",
+        "2"
+      ],
+      "problem": "Round 12.345 to 2 decimal places.",
+      "answer": "12.35",
+      "rows": [
+        "Neighbouring marks at 2 decimal place(s) are 12.34 and 12.35.",
+        "The midpoint is 12.345. Place 12.345 relative to it; a midpoint rounds upward.",
+        "Round to 12.35, retaining 2 decimal place(s)."
+      ],
+      "memo": "12.345 is at or beyond the midpoint 12.345",
+      "misconception": "Look at the NEXT digit, including when a carry changes the whole number.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w05",
+      "kind": "round",
+      "values": [
+        "7.849",
+        "1"
+      ],
+      "problem": "Round 7.849 to 1 decimal place.",
+      "answer": "7.8",
+      "rows": [
+        "Neighbouring marks at 1 decimal place(s) are 7.8 and 7.9.",
+        "The midpoint is 7.85. Place 7.849 relative to it; a midpoint rounds upward.",
+        "Round to 7.8, retaining 1 decimal place(s)."
+      ],
+      "memo": "7.849 is below the midpoint 7.85",
+      "misconception": "Look at the NEXT digit, including when a carry changes the whole number.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w06",
+      "kind": "round",
+      "values": [
+        "0.0995",
+        "3"
+      ],
+      "problem": "Round 0.0995 to 3 decimal places.",
+      "answer": "0.100",
+      "rows": [
+        "Neighbouring marks at 3 decimal place(s) are 0.099 and 0.100.",
+        "The midpoint is 0.0995. Place 0.0995 relative to it; a midpoint rounds upward.",
+        "Round to 0.100, retaining 3 decimal place(s)."
+      ],
+      "memo": "0.0995 is at or beyond the midpoint 0.0995",
+      "misconception": "Look at the NEXT digit, including when a carry changes the whole number.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w07",
+      "kind": "round",
+      "values": [
+        "19.995",
+        "2"
+      ],
+      "problem": "Round 19.995 to 2 decimal places.",
+      "answer": "20.00",
+      "rows": [
+        "Neighbouring marks at 2 decimal place(s) are 19.99 and 20.00.",
+        "The midpoint is 19.995. Place 19.995 relative to it; a midpoint rounds upward.",
+        "Round to 20.00, retaining 2 decimal place(s)."
+      ],
+      "memo": "19.995 is at or beyond the midpoint 19.995",
+      "misconception": "Look at the NEXT digit, including when a carry changes the whole number.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w08",
+      "kind": "round",
+      "values": [
+        "2.445",
+        "2"
+      ],
+      "problem": "Round 2.445 to 2 decimal places.",
+      "answer": "2.45",
+      "rows": [
+        "Neighbouring marks at 2 decimal place(s) are 2.44 and 2.45.",
+        "The midpoint is 2.445. Place 2.445 relative to it; a midpoint rounds upward.",
+        "Round to 2.45, retaining 2 decimal place(s)."
+      ],
+      "memo": "2.445 is at or beyond the midpoint 2.445",
+      "misconception": "Look at the NEXT digit, including when a carry changes the whole number.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w09",
+      "kind": "round",
+      "values": [
+        "99.999",
+        "2"
+      ],
+      "problem": "Round 99.999 to 2 decimal places.",
+      "answer": "100.00",
+      "rows": [
+        "Neighbouring marks at 2 decimal place(s) are 99.99 and 100.00.",
+        "The midpoint is 99.995. Place 99.999 relative to it; a midpoint rounds upward.",
+        "Round to 100.00, retaining 2 decimal place(s)."
+      ],
+      "memo": "99.999 is at or beyond the midpoint 99.995",
+      "misconception": "Look at the NEXT digit, including when a carry changes the whole number.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w10",
+      "kind": "round",
+      "values": [
+        "0.045",
+        "2"
+      ],
+      "problem": "Round 0.045 to 2 decimal places.",
+      "answer": "0.05",
+      "rows": [
+        "Neighbouring marks at 2 decimal place(s) are 0.04 and 0.05.",
+        "The midpoint is 0.045. Place 0.045 relative to it; a midpoint rounds upward.",
+        "Round to 0.05, retaining 2 decimal place(s)."
+      ],
+      "memo": "0.045 is at or beyond the midpoint 0.045",
+      "misconception": "Look at the NEXT digit, including when a carry changes the whole number.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w11",
+      "kind": "estimate",
+      "values": [
+        "2.47",
+        "3.62",
+        "1"
+      ],
+      "problem": "Estimate 2.47 + 3.62 by first rounding each number to 1 decimal place.",
+      "answer": "6.1",
+      "rows": [
+        "Round the first number: 2.47 → 2.5.",
+        "Round the second number: 3.62 → 3.6.",
+        "Add rounded quantities: 2.5 + 3.6 = 6.1."
+      ],
+      "memo": "Exact sum is 6.09; the estimate 6.1 uses separately rounded inputs.",
+      "misconception": "Round each original quantity to the specified place BEFORE calculating.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w12",
+      "kind": "estimate",
+      "values": [
+        "12.346",
+        "8.574",
+        "2"
+      ],
+      "problem": "Estimate 12.346 + 8.574 by first rounding each number to 2 decimal places.",
+      "answer": "20.92",
+      "rows": [
+        "Round the first number: 12.346 → 12.35.",
+        "Round the second number: 8.574 → 8.57.",
+        "Add rounded quantities: 12.35 + 8.57 = 20.92."
+      ],
+      "memo": "Exact sum is 20.92; the estimate 20.92 uses separately rounded inputs.",
+      "misconception": "Round each original quantity to the specified place BEFORE calculating.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w13",
+      "kind": "estimate",
+      "values": [
+        "0.995",
+        "0.486",
+        "2"
+      ],
+      "problem": "Estimate 0.995 + 0.486 by first rounding each number to 2 decimal places.",
+      "answer": "1.49",
+      "rows": [
+        "Round the first number: 0.995 → 1.00.",
+        "Round the second number: 0.486 → 0.49.",
+        "Add rounded quantities: 1.00 + 0.49 = 1.49."
+      ],
+      "memo": "Exact sum is 1.481; the estimate 1.49 uses separately rounded inputs.",
+      "misconception": "Round each original quantity to the specified place BEFORE calculating.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w14",
+      "kind": "estimate",
+      "values": [
+        "49.995",
+        "2.885",
+        "2"
+      ],
+      "problem": "Estimate 49.995 + 2.885 by first rounding each number to 2 decimal places.",
+      "answer": "52.89",
+      "rows": [
+        "Round the first number: 49.995 → 50.00.",
+        "Round the second number: 2.885 → 2.89.",
+        "Add rounded quantities: 50.00 + 2.89 = 52.89."
+      ],
+      "memo": "Exact sum is 52.88; the estimate 52.89 uses separately rounded inputs.",
+      "misconception": "Round each original quantity to the specified place BEFORE calculating.",
+      "visual_family": "decimal_rounding"
+    },
+    {
+      "id": "g8-dec-l02-w15",
+      "kind": "estimate",
+      "values": [
+        "7.995",
+        "0.049",
+        "2"
+      ],
+      "problem": "Estimate 7.995 + 0.049 by first rounding each number to 2 decimal places.",
+      "answer": "8.05",
+      "rows": [
+        "Round the first number: 7.995 → 8.00.",
+        "Round the second number: 0.049 → 0.05.",
+        "Add rounded quantities: 8.00 + 0.05 = 8.05."
+      ],
+      "memo": "Exact sum is 8.044; the estimate 8.05 uses separately rounded inputs.",
+      "misconception": "Round each original quantity to the specified place BEFORE calculating.",
+      "visual_family": "decimal_rounding"
+    }
+  ]
+}

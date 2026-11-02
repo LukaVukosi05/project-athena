@@ -1,0 +1,387 @@
+{
+  "scenes": [
+    {
+      "id": "g8-int-l01-w01",
+      "title": "Larger: -3, 4",
+      "problem": "Which is greater, −3 or 4?",
+      "model": "integer_line",
+      "kind": "compare",
+      "decision": "larger",
+      "values": [
+        -3,
+        4
+      ],
+      "axis": [
+        -5,
+        6
+      ],
+      "answer": 4,
+      "actions": [
+        "Draw a signed axis from -5 to 6; mark zero before placing any given value.",
+        "The given values -3, 4 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "A larger integer lies farther right; a smaller integer lies farther left. Identify the position relevant to “larger” without hiding the original markers.",
+        "The answer is 4. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "4. A larger integer lies farther right; a smaller integer lies farther left. On the original axis the marked values are -3, 4.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w02",
+      "title": "Larger: -7, -2",
+      "problem": "Which is greater, −7 or −2?",
+      "model": "integer_line",
+      "kind": "compare",
+      "decision": "larger",
+      "values": [
+        -7,
+        -2
+      ],
+      "axis": [
+        -9,
+        2
+      ],
+      "answer": -2,
+      "actions": [
+        "Draw a signed axis from -9 to 2; mark zero before placing any given value.",
+        "The given values -7, -2 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "A larger integer lies farther right; a smaller integer lies farther left. Identify the position relevant to “larger” without hiding the original markers.",
+        "The answer is -2. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "-2. A larger integer lies farther right; a smaller integer lies farther left. On the original axis the marked values are -7, -2.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w03",
+      "title": "Smaller: 0, -9",
+      "problem": "Which is smaller, 0 or −9?",
+      "model": "integer_line",
+      "kind": "compare",
+      "decision": "smaller",
+      "values": [
+        0,
+        -9
+      ],
+      "axis": [
+        -11,
+        2
+      ],
+      "answer": -9,
+      "actions": [
+        "Draw a signed axis from -11 to 2; mark zero before placing any given value.",
+        "The given values 0, -9 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "A larger integer lies farther right; a smaller integer lies farther left. Identify the position relevant to “smaller” without hiding the original markers.",
+        "The answer is -9. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "-9. A larger integer lies farther right; a smaller integer lies farther left. On the original axis the marked values are 0, -9.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w04",
+      "title": "Least: -4, 1, -1",
+      "problem": "Find the least of −4, 1 and −1.",
+      "model": "integer_line",
+      "kind": "order",
+      "decision": "least",
+      "values": [
+        -4,
+        1,
+        -1
+      ],
+      "axis": [
+        -6,
+        3
+      ],
+      "answer": -4,
+      "actions": [
+        "Draw a signed axis from -6 to 3; mark zero before placing any given value.",
+        "The given values -4, 1, -1 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "A larger integer lies farther right; a smaller integer lies farther left. Identify the position relevant to “least” without hiding the original markers.",
+        "The answer is -4. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "-4. A larger integer lies farther right; a smaller integer lies farther left. On the original axis the marked values are -4, 1, -1.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w05",
+      "title": "Greatest: -6, -2, 3, 0",
+      "problem": "Find the greatest of −6, −2, 3 and 0.",
+      "model": "integer_line",
+      "kind": "order",
+      "decision": "greatest",
+      "values": [
+        -6,
+        -2,
+        3,
+        0
+      ],
+      "axis": [
+        -8,
+        5
+      ],
+      "answer": 3,
+      "actions": [
+        "Draw a signed axis from -8 to 5; mark zero before placing any given value.",
+        "The given values -6, -2, 3, 0 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "A larger integer lies farther right; a smaller integer lies farther left. Identify the position relevant to “greatest” without hiding the original markers.",
+        "The answer is 3. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "3. A larger integer lies farther right; a smaller integer lies farther left. On the original axis the marked values are -6, -2, 3, 0.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w06",
+      "title": "Opposite: -8",
+      "problem": "What integer is opposite −8 on a number line?",
+      "model": "integer_line",
+      "kind": "opposite",
+      "decision": "opposite",
+      "values": [
+        -8
+      ],
+      "axis": [
+        -10,
+        10
+      ],
+      "answer": 8,
+      "actions": [
+        "Draw a signed axis from -10 to 10; mark zero before placing any given value.",
+        "The given value -8 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "Opposites are equal distances on different sides of zero. Identify the position relevant to “opposite” without hiding the original markers.",
+        "The answer is 8. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "8. Opposites are equal distances on different sides of zero. On the original axis the marked values are -8.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w07",
+      "title": "Opposite: 13",
+      "problem": "What integer is opposite 13 on a number line?",
+      "model": "integer_line",
+      "kind": "opposite",
+      "decision": "opposite",
+      "values": [
+        13
+      ],
+      "axis": [
+        -15,
+        15
+      ],
+      "answer": -13,
+      "actions": [
+        "Draw a signed axis from -15 to 15; mark zero before placing any given value.",
+        "The given value 13 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "Opposites are equal distances on different sides of zero. Identify the position relevant to “opposite” without hiding the original markers.",
+        "The answer is -13. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "-13. Opposites are equal distances on different sides of zero. On the original axis the marked values are 13.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w08",
+      "title": "Distance: -5, 2",
+      "problem": "How many units separate −5 and 2?",
+      "model": "integer_line",
+      "kind": "distance",
+      "decision": "distance",
+      "values": [
+        -5,
+        2
+      ],
+      "axis": [
+        -7,
+        9
+      ],
+      "answer": 7,
+      "actions": [
+        "Draw a signed axis from -7 to 9; mark zero before placing any given value.",
+        "The given values -5, 2 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "Count the whole unit intervals between the two endpoints, crossing zero if needed. Identify the position relevant to “distance” without hiding the original markers.",
+        "The answer is 7. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "7. Count the whole unit intervals between the two endpoints, crossing zero if needed. On the original axis the marked values are -5, 2.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w09",
+      "title": "Smaller: -12, -15",
+      "problem": "At dawn two towns are −12°C and −15°C. Which temperature is lower?",
+      "model": "integer_line",
+      "kind": "compare",
+      "decision": "smaller",
+      "values": [
+        -12,
+        -15
+      ],
+      "axis": [
+        -17,
+        2
+      ],
+      "answer": -15,
+      "actions": [
+        "Draw a signed axis from -17 to 2; mark zero before placing any given value.",
+        "The given values -12, -15 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "A larger integer lies farther right; a smaller integer lies farther left. Identify the position relevant to “smaller” without hiding the original markers.",
+        "The answer is -15. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "-15. A larger integer lies farther right; a smaller integer lies farther left. On the original axis the marked values are -12, -15.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w10",
+      "title": "Least: -9, -3, -11, 2",
+      "problem": "Order elevations −9, −3, −11 and 2 m mentally. Which is lowest?",
+      "model": "integer_line",
+      "kind": "order",
+      "decision": "least",
+      "values": [
+        -9,
+        -3,
+        -11,
+        2
+      ],
+      "axis": [
+        -13,
+        4
+      ],
+      "answer": -11,
+      "actions": [
+        "Draw a signed axis from -13 to 4; mark zero before placing any given value.",
+        "The given values -9, -3, -11, 2 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "A larger integer lies farther right; a smaller integer lies farther left. Identify the position relevant to “least” without hiding the original markers.",
+        "The answer is -11. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "-11. A larger integer lies farther right; a smaller integer lies farther left. On the original axis the marked values are -9, -3, -11, 2.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w11",
+      "title": "Distance: -14, -4",
+      "problem": "How many degrees separate −14°C and −4°C?",
+      "model": "integer_line",
+      "kind": "distance",
+      "decision": "distance",
+      "values": [
+        -14,
+        -4
+      ],
+      "axis": [
+        -16,
+        12
+      ],
+      "answer": 10,
+      "actions": [
+        "Draw a signed axis from -16 to 12; mark zero before placing any given value.",
+        "The given values -14, -4 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "Count the whole unit intervals between the two endpoints, crossing zero if needed. Identify the position relevant to “distance” without hiding the original markers.",
+        "The answer is 10. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "10. Count the whole unit intervals between the two endpoints, crossing zero if needed. On the original axis the marked values are -14, -4.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w12",
+      "title": "Larger: -18, 0",
+      "problem": "Compare a debt of −18 and a balance of 0. Which integer is greater?",
+      "model": "integer_line",
+      "kind": "compare",
+      "decision": "larger",
+      "values": [
+        -18,
+        0
+      ],
+      "axis": [
+        -20,
+        2
+      ],
+      "answer": 0,
+      "actions": [
+        "Draw a signed axis from -20 to 2; mark zero before placing any given value.",
+        "The given values -18, 0 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "A larger integer lies farther right; a smaller integer lies farther left. Identify the position relevant to “larger” without hiding the original markers.",
+        "The answer is 0. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "0. A larger integer lies farther right; a smaller integer lies farther left. On the original axis the marked values are -18, 0.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w13",
+      "title": "Greatest: 8, -8, 0, -12, 12",
+      "problem": "Of 8, −8, 0, −12 and 12, what is greatest?",
+      "model": "integer_line",
+      "kind": "order",
+      "decision": "greatest",
+      "values": [
+        8,
+        -8,
+        0,
+        -12,
+        12
+      ],
+      "axis": [
+        -14,
+        14
+      ],
+      "answer": 12,
+      "actions": [
+        "Draw a signed axis from -14 to 14; mark zero before placing any given value.",
+        "The given values 8, -8, 0, -12, 12 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "A larger integer lies farther right; a smaller integer lies farther left. Identify the position relevant to “greatest” without hiding the original markers.",
+        "The answer is 12. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "12. A larger integer lies farther right; a smaller integer lies farther left. On the original axis the marked values are 8, -8, 0, -12, 12.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w14",
+      "title": "Distance: -21, 7",
+      "problem": "What is the distance from −21 to 7 on the integer line?",
+      "model": "integer_line",
+      "kind": "distance",
+      "decision": "distance",
+      "values": [
+        -21,
+        7
+      ],
+      "axis": [
+        -23,
+        30
+      ],
+      "answer": 28,
+      "actions": [
+        "Draw a signed axis from -23 to 30; mark zero before placing any given value.",
+        "The given values -21, 7 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "Count the whole unit intervals between the two endpoints, crossing zero if needed. Identify the position relevant to “distance” without hiding the original markers.",
+        "The answer is 28. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "28. Count the whole unit intervals between the two endpoints, crossing zero if needed. On the original axis the marked values are -21, 7.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    },
+    {
+      "id": "g8-int-l01-w15",
+      "title": "Least: -19, -20, -18, -17",
+      "problem": "Which is least among −19, −20, −18 and −17?",
+      "model": "integer_line",
+      "kind": "order",
+      "decision": "least",
+      "values": [
+        -19,
+        -20,
+        -18,
+        -17
+      ],
+      "axis": [
+        -22,
+        2
+      ],
+      "answer": -20,
+      "actions": [
+        "Draw a signed axis from -22 to 2; mark zero before placing any given value.",
+        "The given values -19, -20, -18, -17 sit at their signed tick positions relative to zero; each marker belongs to the original question.",
+        "A larger integer lies farther right; a smaller integer lies farther left. Identify the position relevant to “least” without hiding the original markers.",
+        "The answer is -20. Verify it using the original signed values and their positions relative to zero."
+      ],
+      "memo": "-20. A larger integer lies farther right; a smaller integer lies farther left. On the original axis the marked values are -19, -20, -18, -17.",
+      "misconception": "Negative values farther from zero lie further left, so their order reverses the magnitude order."
+    }
+  ]
+}

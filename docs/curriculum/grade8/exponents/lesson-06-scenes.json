@@ -1,0 +1,325 @@
+{
+  "scenes": [
+    {
+      "id": "g8-exp-l06-w01",
+      "kind": "square_perimeter_gap",
+      "values": [
+        "36",
+        "64"
+      ],
+      "problem": "Two square picture frames have areas 36 cm² and 64 cm². How many centimetres longer is the larger perimeter?",
+      "answer": "8 cm",
+      "rows": [
+        "Each area is the side multiplied by itself: s₁²=36, s₂²=64.",
+        "Find the first side: √36=6 cm; a 6 by 6 square has area 36.",
+        "Find the second side: √64=8 cm; a 8 by 8 square has area 64.",
+        "The first perimeter is 4 × 6 = 24 cm.",
+        "The second perimeter is 4 × 8 = 32 cm.",
+        "Subtract perimeters: 32 − 24 = 8 cm."
+      ],
+      "memo": "6²=36, 8²=64, and 32−24=8 cm.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Find both sides from their areas, then compare linear perimeters, not areas."
+    },
+    {
+      "id": "g8-exp-l06-w02",
+      "kind": "cube_edge_gap",
+      "values": [
+        "27",
+        "125"
+      ],
+      "problem": "Two cubic boxes have volumes 27 cm³ and 125 cm³. How much longer is one edge of the larger box?",
+      "answer": "2 cm",
+      "rows": [
+        "A cube has three equal edges; V=s³.",
+        "Take ∛27=3 cm, because 3 × 3 × 3 = 27.",
+        "Take ∛125=5 cm, because 5 × 5 × 5 = 125.",
+        "Compare edge lengths rather than subtracting volumes.",
+        "Subtract 5 − 3 = 2 cm."
+      ],
+      "memo": "3³=27, 5³=125; the edge difference is 2 cm.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Find both cube roots before comparing edge lengths; keep cubic and linear units separate."
+    },
+    {
+      "id": "g8-exp-l06-w03",
+      "kind": "side_area_gap",
+      "values": [
+        "2",
+        "3",
+        "100"
+      ],
+      "problem": "One square display has side 2³ cm; another has area 100 cm². Find the difference between their areas.",
+      "answer": "36 cm²",
+      "rows": [
+        "First evaluate the given side: 2³=8 cm.",
+        "Square that side to get the first area: 8 × 8=64 cm².",
+        "The other display already has area 100 cm².",
+        "Its side would be √100=10 cm; check 10²=100.",
+        "Subtract the smaller area from the larger: 100−64=36 cm²."
+      ],
+      "memo": "2³=8; 8²=64, and |64−100|=36 cm².",
+      "visual_family": "exponent_context_measure",
+      "misconception": "A side written as a power must be evaluated, then squared to obtain its area."
+    },
+    {
+      "id": "g8-exp-l06-w04",
+      "kind": "root_power_compare",
+      "values": [
+        "2",
+        "4",
+        "81",
+        "8"
+      ],
+      "problem": "Compare 2⁴ with √81 × ∛8. By how much do the two values differ?",
+      "answer": "2",
+      "rows": [
+        "Keep the power on the left and product of roots on the right.",
+        "Evaluate the left: 2⁴ = 16.",
+        "Evaluate √81 = 9; 9² = 81.",
+        "Evaluate ∛8 = 2; 2³ = 8.",
+        "Multiply the right: 9 × 2 = 18.",
+        "Compare 16 and 18; difference = 18 − 16 = 2."
+      ],
+      "memo": "16 and 9 × 2 = 18; the absolute difference is 2.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Evaluate each power and root before comparing the two complete sides."
+    },
+    {
+      "id": "g8-exp-l06-w05",
+      "kind": "combined_perimeter",
+      "values": [
+        "36",
+        "64",
+        "27"
+      ],
+      "problem": "Two square garden beds have areas 36 m² and 64 m². A cubic planter has volume 27 m³. Find the sum of both bed perimeters and one planter edge, in metres.",
+      "answer": "59 m",
+      "rows": [
+        "Label the first bed side √36 and the second √64.",
+        "Find √36 = 6 m, since 6² = 36.",
+        "Find √64 = 8 m, since 8² = 64.",
+        "Find the planter edge ∛27 = 3 m, since 3³ = 27.",
+        "The bed perimeters are 4 × 6 = 24 m and 4 × 8 = 32 m.",
+        "Add lengths only: 24 + 32 + 3 = 59 m."
+      ],
+      "memo": "6²=36, 8²=64, 3³=27; 24+32+3=59 m.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Convert two areas and one volume into lengths before adding; never add unlike units."
+    },
+    {
+      "id": "g8-exp-l06-w06",
+      "kind": "square_perimeter_gap",
+      "values": [
+        "81",
+        "196"
+      ],
+      "problem": "Two square picture frames have areas 81 cm² and 196 cm². How many centimetres longer is the larger perimeter?",
+      "answer": "20 cm",
+      "rows": [
+        "Each area is the side multiplied by itself: s₁²=81, s₂²=196.",
+        "Find the first side: √81=9 cm; a 9 by 9 square has area 81.",
+        "Find the second side: √196=14 cm; a 14 by 14 square has area 196.",
+        "The first perimeter is 4 × 9 = 36 cm.",
+        "The second perimeter is 4 × 14 = 56 cm.",
+        "Subtract perimeters: 56 − 36 = 20 cm."
+      ],
+      "memo": "9²=81, 14²=196, and 56−36=20 cm.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Find both sides from their areas, then compare linear perimeters, not areas."
+    },
+    {
+      "id": "g8-exp-l06-w07",
+      "kind": "cube_edge_gap",
+      "values": [
+        "64",
+        "343"
+      ],
+      "problem": "Two cubic boxes have volumes 64 cm³ and 343 cm³. How much longer is one edge of the larger box?",
+      "answer": "3 cm",
+      "rows": [
+        "A cube has three equal edges; V=s³.",
+        "Take ∛64=4 cm, because 4 × 4 × 4 = 64.",
+        "Take ∛343=7 cm, because 7 × 7 × 7 = 343.",
+        "Compare edge lengths rather than subtracting volumes.",
+        "Subtract 7 − 4 = 3 cm."
+      ],
+      "memo": "4³=64, 7³=343; the edge difference is 3 cm.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Find both cube roots before comparing edge lengths; keep cubic and linear units separate."
+    },
+    {
+      "id": "g8-exp-l06-w08",
+      "kind": "side_area_gap",
+      "values": [
+        "3",
+        "2",
+        "144"
+      ],
+      "problem": "One square display has side 3² cm; another has area 144 cm². Find the difference between their areas.",
+      "answer": "63 cm²",
+      "rows": [
+        "First evaluate the given side: 3²=9 cm.",
+        "Square that side to get the first area: 9 × 9=81 cm².",
+        "The other display already has area 144 cm².",
+        "Its side would be √144=12 cm; check 12²=144.",
+        "Subtract the smaller area from the larger: 144−81=63 cm²."
+      ],
+      "memo": "3²=9; 9²=81, and |81−144|=63 cm².",
+      "visual_family": "exponent_context_measure",
+      "misconception": "A side written as a power must be evaluated, then squared to obtain its area."
+    },
+    {
+      "id": "g8-exp-l06-w09",
+      "kind": "root_power_compare",
+      "values": [
+        "3",
+        "3",
+        "64",
+        "27"
+      ],
+      "problem": "Compare 3³ with √64 × ∛27. By how much do the two values differ?",
+      "answer": "3",
+      "rows": [
+        "Keep the power on the left and product of roots on the right.",
+        "Evaluate the left: 3³ = 27.",
+        "Evaluate √64 = 8; 8² = 64.",
+        "Evaluate ∛27 = 3; 3³ = 27.",
+        "Multiply the right: 8 × 3 = 24.",
+        "Compare 27 and 24; difference = 27 − 24 = 3."
+      ],
+      "memo": "27 and 8 × 3 = 24; the absolute difference is 3.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Evaluate each power and root before comparing the two complete sides."
+    },
+    {
+      "id": "g8-exp-l06-w10",
+      "kind": "combined_perimeter",
+      "values": [
+        "100",
+        "169",
+        "64"
+      ],
+      "problem": "Two square garden beds have areas 100 m² and 169 m². A cubic planter has volume 64 m³. Find the sum of both bed perimeters and one planter edge, in metres.",
+      "answer": "96 m",
+      "rows": [
+        "Label the first bed side √100 and the second √169.",
+        "Find √100 = 10 m, since 10² = 100.",
+        "Find √169 = 13 m, since 13² = 169.",
+        "Find the planter edge ∛64 = 4 m, since 4³ = 64.",
+        "The bed perimeters are 4 × 10 = 40 m and 4 × 13 = 52 m.",
+        "Add lengths only: 40 + 52 + 4 = 96 m."
+      ],
+      "memo": "10²=100, 13²=169, 4³=64; 40+52+4=96 m.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Convert two areas and one volume into lengths before adding; never add unlike units."
+    },
+    {
+      "id": "g8-exp-l06-w11",
+      "kind": "square_perimeter_gap",
+      "values": [
+        "144",
+        "289"
+      ],
+      "problem": "Two square picture frames have areas 144 cm² and 289 cm². How many centimetres longer is the larger perimeter?",
+      "answer": "20 cm",
+      "rows": [
+        "Each area is the side multiplied by itself: s₁²=144, s₂²=289.",
+        "Find the first side: √144=12 cm; a 12 by 12 square has area 144.",
+        "Find the second side: √289=17 cm; a 17 by 17 square has area 289.",
+        "The first perimeter is 4 × 12 = 48 cm.",
+        "The second perimeter is 4 × 17 = 68 cm.",
+        "Subtract perimeters: 68 − 48 = 20 cm."
+      ],
+      "memo": "12²=144, 17²=289, and 68−48=20 cm.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Find both sides from their areas, then compare linear perimeters, not areas."
+    },
+    {
+      "id": "g8-exp-l06-w12",
+      "kind": "cube_edge_gap",
+      "values": [
+        "125",
+        "729"
+      ],
+      "problem": "Two cubic boxes have volumes 125 cm³ and 729 cm³. How much longer is one edge of the larger box?",
+      "answer": "4 cm",
+      "rows": [
+        "A cube has three equal edges; V=s³.",
+        "Take ∛125=5 cm, because 5 × 5 × 5 = 125.",
+        "Take ∛729=9 cm, because 9 × 9 × 9 = 729.",
+        "Compare edge lengths rather than subtracting volumes.",
+        "Subtract 9 − 5 = 4 cm."
+      ],
+      "memo": "5³=125, 9³=729; the edge difference is 4 cm.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Find both cube roots before comparing edge lengths; keep cubic and linear units separate."
+    },
+    {
+      "id": "g8-exp-l06-w13",
+      "kind": "side_area_gap",
+      "values": [
+        "2",
+        "4",
+        "361"
+      ],
+      "problem": "One square display has side 2⁴ cm; another has area 361 cm². Find the difference between their areas.",
+      "answer": "105 cm²",
+      "rows": [
+        "First evaluate the given side: 2⁴=16 cm.",
+        "Square that side to get the first area: 16 × 16=256 cm².",
+        "The other display already has area 361 cm².",
+        "Its side would be √361=19 cm; check 19²=361.",
+        "Subtract the smaller area from the larger: 361−256=105 cm²."
+      ],
+      "memo": "2⁴=16; 16²=256, and |256−361|=105 cm².",
+      "visual_family": "exponent_context_measure",
+      "misconception": "A side written as a power must be evaluated, then squared to obtain its area."
+    },
+    {
+      "id": "g8-exp-l06-w14",
+      "kind": "root_power_compare",
+      "values": [
+        "5",
+        "3",
+        "144",
+        "125"
+      ],
+      "problem": "Compare 5³ with √144 × ∛125. By how much do the two values differ?",
+      "answer": "65",
+      "rows": [
+        "Keep the power on the left and product of roots on the right.",
+        "Evaluate the left: 5³ = 125.",
+        "Evaluate √144 = 12; 12² = 144.",
+        "Evaluate ∛125 = 5; 5³ = 125.",
+        "Multiply the right: 12 × 5 = 60.",
+        "Compare 125 and 60; difference = 125 − 60 = 65."
+      ],
+      "memo": "125 and 12 × 5 = 60; the absolute difference is 65.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Evaluate each power and root before comparing the two complete sides."
+    },
+    {
+      "id": "g8-exp-l06-w15",
+      "kind": "combined_perimeter",
+      "values": [
+        "196",
+        "324",
+        "216"
+      ],
+      "problem": "Two square garden beds have areas 196 m² and 324 m². A cubic planter has volume 216 m³. Find the sum of both bed perimeters and one planter edge, in metres.",
+      "answer": "134 m",
+      "rows": [
+        "Label the first bed side √196 and the second √324.",
+        "Find √196 = 14 m, since 14² = 196.",
+        "Find √324 = 18 m, since 18² = 324.",
+        "Find the planter edge ∛216 = 6 m, since 6³ = 216.",
+        "The bed perimeters are 4 × 14 = 56 m and 4 × 18 = 72 m.",
+        "Add lengths only: 56 + 72 + 6 = 134 m."
+      ],
+      "memo": "14²=196, 18²=324, 6³=216; 56+72+6=134 m.",
+      "visual_family": "exponent_context_measure",
+      "misconception": "Convert two areas and one volume into lengths before adding; never add unlike units."
+    }
+  ]
+}

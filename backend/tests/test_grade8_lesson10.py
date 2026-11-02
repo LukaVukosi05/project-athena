@@ -45,7 +45,7 @@ def test_api_preview_and_transfer_gate():
     with TestClient(app) as client:
         page = client.get('/lesson.html')
         assert 'no-store' in page.headers['cache-control']
-        assert 'lesson-block-renderer.js?v=whiteboard-v10' in page.text
+        assert 'lesson-block-renderer.js?v=math-fractions-v11' in page.text
         lesson=client.get(f'/api/v1/lessons/{LESSON_10.id}')
         if lesson.status_code==200:
             for question in lesson.json()['whiteboard_questions']:

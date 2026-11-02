@@ -25,7 +25,48 @@ GRADE8_FUNCTIONS_1_SOURCE = "Project_Athena_Grade8_Functions_Relationships_Lesso
 GRADE8_FUNCTIONS_2_SOURCE = "Project_Athena_Grade8_Functions_Relationships_Lesson2_Source_Pack_v1.docx"
 GRADE8_FUNCTIONS_3_SOURCE = "Project_Athena_Grade8_Functions_Relationships_Lesson3_Source_Pack_v1.docx"
 GRADE8_FUNCTIONS_4_SOURCE = "lesson-04-formulas-in-context.md"
+GRADE8_FUNCTIONS_5_SOURCE = "lesson-05-matching-representations.md"
+GRADE8_FUNCTIONS_6_SOURCE = "lesson-06-relationship-repair.md"
 GRADE8_GRAPHS_1_SOURCE = "lesson-01-cartesian-plane-draft.md"
+GRADE8_GRAPHS_2_SOURCE = "lesson-02-tables-to-graphs.md"
+GRADE8_GRAPHS_3_SOURCE = "lesson-03-reading-global-graphs.md"
+GRADE8_GRAPHS_4_SOURCE = "lesson-04-drawing-global-graphs.md"
+GRADE8_GRAPHS_5_SOURCE = "lesson-05-comparing-global-graphs.md"
+GRADE8_GRAPHS_6_SOURCE = "lesson-06-diagnosing-graph-claims.md"
+GRADE8_PATTERNS_1_SOURCE = "lesson-01-numeric-rules.md"
+GRADE8_PATTERNS_2_SOURCE = "lesson-02-geometric-models.md"
+GRADE8_PATTERNS_3_SOURCE = "lesson-03-algebraic-rules.md"
+GRADE8_PATTERNS_4_SOURCE = "lesson-04-missing-values.md"
+GRADE8_PATTERNS_5_SOURCE = "lesson-05-competing-rules.md"
+GRADE8_PATTERNS_6_SOURCE = "lesson-06-repair-pattern-claims.md"
+GRADE8_WHOLE_1_SOURCE = "lesson-01-properties.md"
+GRADE8_WHOLE_2_SOURCE = "lesson-02-factors.md"
+GRADE8_INTEGER_1_SOURCE = "lesson-01-order-and-compare.md"
+GRADE8_INTEGER_2_SOURCE = "lesson-02-addition-and-subtraction.md"
+GRADE8_INTEGER_3_SOURCE = "lesson-03-multiplication-division.md"
+GRADE8_INTEGER_4_SOURCE = "lesson-04-powers-roots.md"
+GRADE8_INTEGER_5_SOURCE = "lesson-05-integer-properties.md"
+GRADE8_INTEGER_6_SOURCE = "lesson-06-integer-contexts.md"
+GRADE8_FRACTIONS_1_SOURCE = "lesson-01-equivalent-and-comparing.md"
+GRADE8_FRACTIONS_2_SOURCE = "lesson-02-adding-and-subtracting.md"
+GRADE8_FRACTIONS_3_SOURCE = "lesson-03-multiplying-fractions.md"
+GRADE8_FRACTIONS_4_SOURCE = "lesson-04-dividing-fractions.md"
+GRADE8_FRACTIONS_5_SOURCE = "lesson-05-powers-and-roots.md"
+GRADE8_FRACTIONS_6_SOURCE = "lesson-06-fraction-contexts.md"
+GRADE8_FRACTIONS_7_SOURCE = "lesson-07-percentage-of-a-whole.md"
+GRADE8_FRACTIONS_8_SOURCE = "lesson-08-percentage-change.md"
+GRADE8_DECIMALS_1_SOURCE = "lesson-01-place-value-comparison.md"
+GRADE8_DECIMALS_2_SOURCE = "lesson-02-rounding-estimating.md"
+GRADE8_DECIMALS_3_SOURCE = "lesson-03-multiplying-decimals.md"
+GRADE8_DECIMALS_4_SOURCE = "lesson-04-dividing-decimals.md"
+GRADE8_DECIMALS_5_SOURCE = "lesson-05-powers-of-decimals.md"
+GRADE8_DECIMALS_6_SOURCE = "lesson-06-roots-of-decimals.md"
+GRADE8_EXPONENTS_1_SOURCE = "lesson-01-representing-and-comparing-powers.md"
+GRADE8_EXPONENTS_2_SOURCE = "lesson-02-laws-of-exponents.md"
+GRADE8_EXPONENTS_3_SOURCE = "lesson-03-square-and-cube-roots.md"
+GRADE8_EXPONENTS_4_SOURCE = "lesson-04-powers-and-roots-in-context.md"
+GRADE8_EXPONENTS_5_SOURCE = "lesson-05-diagnosing-exponent-errors.md"
+GRADE8_EXPONENTS_6_SOURCE = "lesson-06-integrated-exponents-readiness.md"
 GRADE8_EXPRESSIONS_8_SOURCE = "Project_Athena_Grade8_Algebraic_Expressions_Lesson8_Source_Pack_v1.docx"
 GRADE8_EXPRESSIONS_7_SOURCE = "Project_Athena_Grade8_Algebraic_Expressions_Lesson7_Source_Pack_v1.docx"
 SOURCE_DOCUMENT = SEQUENCES_SOURCE
@@ -59,8 +100,8 @@ class WorkedSolutionStep(BaseModel):
 
 
 class PracticeQuestion(BaseModel):
-    id: str = Field(pattern=r"^(?:g8-(?:ae|ex|fr|graphs)-l\d{2}-p\d{2}|g12-(?:seq|functions|finance|calculus)-l\d{2}-p\d{2}|G12-(?:ALG|STAT|AG)-L\d{2}-P\d{2})$")
-    lesson_id: str = Field(pattern=r"^(?:g8-(?:algebraic-(?:equations|expressions)|functions-relationships|graphs)|g12-(?:sequences-series|functions|finance|calculus|algebra|statistics|analytical-geometry))-\d{2}$")
+    id: str = Field(pattern=r"^(?:g8-(?:ae|ex|fr|graphs|patterns|whole|int|frac|dec|exp)-l\d{2}-p\d{2}|g12-(?:seq|functions|finance|calculus)-l\d{2}-p\d{2}|G12-(?:ALG|STAT|AG)-L\d{2}-P\d{2})$")
+    lesson_id: str = Field(pattern=r"^(?:g8-(?:algebraic-(?:equations|expressions)|functions-relationships|graphs|patterns|whole-numbers|integers|common-fractions|decimal-fractions|exponents)|g12-(?:sequences-series|functions|finance|calculus|algebra|statistics|analytical-geometry))-\d{2}$")
     question_number: int = Field(ge=1, le=15)
     difficulty: Literal["foundation", "easy", "standard", "intermediate", "exam", "advanced", "source_unspecified"]
     cognitive_level: Literal["knowledge", "routine", "complex", "problem_solving", "source_unspecified"]
@@ -75,7 +116,7 @@ class PracticeQuestion(BaseModel):
     misconception_tags: list[str] = Field(default_factory=list, max_length=8)
     verification: dict[str, str] = Field(min_length=1, max_length=4)
     correct_feedback: str = Field(min_length=1, max_length=500)
-    source: Literal[SEQUENCES_SOURCE, FUNCTIONS_SOURCE, FINANCE_SOURCE, CALCULUS_SOURCE, ALGEBRA_SOURCE, STATISTICS_SOURCE, ANALYTICAL_GEOMETRY_SOURCE, GRADE8_ALGEBRA_SOURCE, GRADE8_EXPRESSIONS_SOURCE, GRADE8_EXPRESSIONS_2_SOURCE, GRADE8_EXPRESSIONS_3_SOURCE, GRADE8_EXPRESSIONS_4_SOURCE, GRADE8_EXPRESSIONS_5_SOURCE, GRADE8_EXPRESSIONS_6_SOURCE, GRADE8_EXPRESSIONS_7_SOURCE, GRADE8_EXPRESSIONS_8_SOURCE, GRADE8_EXPRESSIONS_9_SOURCE, GRADE8_EXPRESSIONS_10_SOURCE, GRADE8_FUNCTIONS_1_SOURCE, GRADE8_FUNCTIONS_2_SOURCE, GRADE8_FUNCTIONS_3_SOURCE, GRADE8_FUNCTIONS_4_SOURCE, GRADE8_GRAPHS_1_SOURCE] = SEQUENCES_SOURCE
+    source: Literal[SEQUENCES_SOURCE, FUNCTIONS_SOURCE, FINANCE_SOURCE, CALCULUS_SOURCE, ALGEBRA_SOURCE, STATISTICS_SOURCE, ANALYTICAL_GEOMETRY_SOURCE, GRADE8_ALGEBRA_SOURCE, GRADE8_EXPRESSIONS_SOURCE, GRADE8_EXPRESSIONS_2_SOURCE, GRADE8_EXPRESSIONS_3_SOURCE, GRADE8_EXPRESSIONS_4_SOURCE, GRADE8_EXPRESSIONS_5_SOURCE, GRADE8_EXPRESSIONS_6_SOURCE, GRADE8_EXPRESSIONS_7_SOURCE, GRADE8_EXPRESSIONS_8_SOURCE, GRADE8_EXPRESSIONS_9_SOURCE, GRADE8_EXPRESSIONS_10_SOURCE, GRADE8_FUNCTIONS_1_SOURCE, GRADE8_FUNCTIONS_2_SOURCE, GRADE8_FUNCTIONS_3_SOURCE, GRADE8_FUNCTIONS_4_SOURCE, GRADE8_FUNCTIONS_5_SOURCE, GRADE8_FUNCTIONS_6_SOURCE, GRADE8_GRAPHS_1_SOURCE, GRADE8_GRAPHS_2_SOURCE, GRADE8_GRAPHS_3_SOURCE, GRADE8_GRAPHS_4_SOURCE, GRADE8_GRAPHS_5_SOURCE, GRADE8_GRAPHS_6_SOURCE, GRADE8_PATTERNS_1_SOURCE, GRADE8_PATTERNS_2_SOURCE, GRADE8_PATTERNS_3_SOURCE, GRADE8_PATTERNS_4_SOURCE, GRADE8_PATTERNS_5_SOURCE, GRADE8_PATTERNS_6_SOURCE, GRADE8_WHOLE_1_SOURCE, GRADE8_WHOLE_2_SOURCE, GRADE8_INTEGER_1_SOURCE, GRADE8_INTEGER_2_SOURCE, GRADE8_INTEGER_3_SOURCE, GRADE8_INTEGER_4_SOURCE, GRADE8_INTEGER_5_SOURCE, GRADE8_INTEGER_6_SOURCE, GRADE8_FRACTIONS_1_SOURCE, GRADE8_FRACTIONS_2_SOURCE, GRADE8_FRACTIONS_3_SOURCE, GRADE8_FRACTIONS_4_SOURCE, GRADE8_FRACTIONS_5_SOURCE, GRADE8_FRACTIONS_6_SOURCE, GRADE8_FRACTIONS_7_SOURCE, GRADE8_FRACTIONS_8_SOURCE, GRADE8_DECIMALS_1_SOURCE, GRADE8_DECIMALS_2_SOURCE, GRADE8_DECIMALS_3_SOURCE, GRADE8_DECIMALS_4_SOURCE, GRADE8_DECIMALS_5_SOURCE, GRADE8_DECIMALS_6_SOURCE, GRADE8_EXPONENTS_1_SOURCE, GRADE8_EXPONENTS_2_SOURCE, GRADE8_EXPONENTS_3_SOURCE, GRADE8_EXPONENTS_4_SOURCE, GRADE8_EXPONENTS_5_SOURCE, GRADE8_EXPONENTS_6_SOURCE] = SEQUENCES_SOURCE
     expected_evidence: str | None = None
     feedback_route: str | None = None
     operation_signature: list[str] = Field(default_factory=list)

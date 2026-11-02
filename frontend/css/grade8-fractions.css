@@ -1,1 +1,19 @@
-.fraction-visual{display:grid;gap:1rem;min-width:0}.fraction-visual [data-object-id="model"]{padding:1rem;border:1px solid #acd0db;border-radius:1rem;background:#f5fafc;min-width:0;overflow-wrap:anywhere}.fraction-visual [data-object-id="model"]>p{margin:.6rem 0}.fraction-grid{display:flex;min-height:3.25rem;width:100%;max-width:34rem;margin:.5rem auto;overflow:hidden;border:2px solid #296f87;border-radius:.6rem;background:#fff}.fraction-cell{flex:1;min-width:0;border-right:1px solid #5195ab}.fraction-cell:last-child{border-right:0}.fraction-cell.is-selected{background:#70b8aa}.fraction-lanes{display:grid;gap:.6rem}.fraction-lane{display:grid;grid-template-columns:minmax(7rem,1fr) minmax(8rem,3fr);align-items:center;gap:.5rem}.fraction-wrong{padding:.7rem;background:#fdf0e6;border-left:4px solid #c37334}@media(max-width:560px){.fraction-lane{grid-template-columns:1fr}.fraction-visual [data-object-id="model"]{padding:.65rem}.fraction-grid{min-height:2.5rem}}
+.g8-fraction-board{display:grid;gap:.65rem;min-width:0}
+.g8-fraction-visual{min-width:0;overflow-x:auto;padding:.65rem;border:1px solid #c4d8e6;border-radius:.85rem;background:#edf5fb}
+.g8-fraction-visual svg{display:block;width:100%;height:auto;min-width:360px;max-height:360px}
+.g8-fraction-board ol{margin:0;padding-left:1.5rem;max-height:13rem;overflow:auto}
+.g8-fraction-board li{margin:.35rem 0}
+.g8-fraction-board [data-object-id="verification"]{font-weight:700;color:#176552}
+@media(max-width:600px){.g8-fraction-visual svg{min-width:330px}.g8-fraction-board ol{max-height:11rem}}
+
+/* Native MathML keeps fractions readable in the question and step history. */
+.g8-fraction-math{display:inline-block;vertical-align:-.36em;margin:0 .1em;font-size:1.08em;line-height:1;white-space:nowrap}
+.stateful-whiteboard header .g8-fraction-math{font-size:1.16em}
+.g8-fraction-board .g8-fraction-math{font-size:1.1em}
+
+.g8-fraction-operands{display:flex;align-items:center;gap:.55rem;font-size:1.12rem;font-weight:700;margin-bottom:.45rem;color:#163f64}
+.g8-fraction-operations svg{width:100%;min-width:400px;max-height:280px}
+@media(max-width:600px){.g8-fraction-operations svg{min-width:340px}}
+
+.g8-fraction-operations .g8-fraction-visual svg{max-height:340px;min-width:350px}
+@media(max-width:600px){.g8-fraction-operations .g8-fraction-visual svg{min-width:350px}}

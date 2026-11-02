@@ -1,0 +1,275 @@
+{
+  "scenes": [
+    {
+      "id": "g8-frac-l01-w01",
+      "kind": "equivalent",
+      "values": [
+        "2/3",
+        "6/9"
+      ],
+      "problem": "Do 2/3 and 6/9 name the same part of a whole?",
+      "common_denominator": 3,
+      "answer": "yes",
+      "rows": [
+        "Split both same-sized wholes into 3 equal pieces.",
+        "Rewrite 2/3 as 2/3 and 6/9 as 2/3.",
+        "The numerators 2 and 2 match; the claim is yes."
+      ],
+      "memo": "Do 2/3 and 6/9 name the same part of a whole? The common unit is 3; scaled counts are [2, 2]. Answer: yes.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w02",
+      "kind": "equivalent",
+      "values": [
+        "3/4",
+        "6/8"
+      ],
+      "problem": "Are 3/4 and 6/8 equivalent?",
+      "common_denominator": 4,
+      "answer": "yes",
+      "rows": [
+        "Split both same-sized wholes into 4 equal pieces.",
+        "Rewrite 3/4 as 3/4 and 6/8 as 3/4.",
+        "The numerators 3 and 3 match; the claim is yes."
+      ],
+      "memo": "Are 3/4 and 6/8 equivalent? The common unit is 4; scaled counts are [3, 3]. Answer: yes.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w03",
+      "kind": "equivalent",
+      "values": [
+        "4/5",
+        "12/20"
+      ],
+      "problem": "A learner claims 4/5 = 12/20. Test the claim.",
+      "common_denominator": 5,
+      "answer": "no",
+      "rows": [
+        "Split both same-sized wholes into 5 equal pieces.",
+        "Rewrite 4/5 as 4/5 and 12/20 as 3/5.",
+        "The numerators 4 and 3 differ; the claim is no."
+      ],
+      "memo": "A learner claims 4/5 = 12/20. Test the claim. The common unit is 5; scaled counts are [4, 3]. Answer: no.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w04",
+      "kind": "equivalent",
+      "values": [
+        "5/6",
+        "15/18"
+      ],
+      "problem": "Does multiplying numerator and denominator of 5/6 by 3 give 15/18?",
+      "common_denominator": 6,
+      "answer": "yes",
+      "rows": [
+        "Split both same-sized wholes into 6 equal pieces.",
+        "Rewrite 5/6 as 5/6 and 15/18 as 5/6.",
+        "The numerators 5 and 5 match; the claim is yes."
+      ],
+      "memo": "Does multiplying numerator and denominator of 5/6 by 3 give 15/18? The common unit is 6; scaled counts are [5, 5]. Answer: yes.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w05",
+      "kind": "compare",
+      "values": [
+        "1/2",
+        "2/3"
+      ],
+      "problem": "Compare 1/2 and 2/3 using equal-sized fraction strips.",
+      "common_denominator": 6,
+      "answer": "<",
+      "rows": [
+        "Choose 6 equal parts for the two fraction strips.",
+        "Express 1/2 = 3/6 and 2/3 = 4/6.",
+        "Compare 3 and 4 equal parts: 1/2 < 2/3."
+      ],
+      "memo": "Compare 1/2 and 2/3 using equal-sized fraction strips. The common unit is 6; scaled counts are [3, 4]. Answer: <.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w06",
+      "kind": "compare",
+      "values": [
+        "3/4",
+        "5/8"
+      ],
+      "problem": "Which is greater, 3/4 or 5/8?",
+      "common_denominator": 8,
+      "answer": ">",
+      "rows": [
+        "Choose 8 equal parts for the two fraction strips.",
+        "Express 3/4 = 6/8 and 5/8 = 5/8.",
+        "Compare 6 and 5 equal parts: 3/4 > 5/8."
+      ],
+      "memo": "Which is greater, 3/4 or 5/8? The common unit is 8; scaled counts are [6, 5]. Answer: >.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w07",
+      "kind": "compare",
+      "values": [
+        "5/12",
+        "3/8"
+      ],
+      "problem": "Place <, > or = between 5/12 and 3/8.",
+      "common_denominator": 24,
+      "answer": ">",
+      "rows": [
+        "Choose 24 equal parts for the two fraction strips.",
+        "Express 5/12 = 10/24 and 3/8 = 9/24.",
+        "Compare 10 and 9 equal parts: 5/12 > 3/8."
+      ],
+      "memo": "Place <, > or = between 5/12 and 3/8. The common unit is 24; scaled counts are [10, 9]. Answer: >.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w08",
+      "kind": "compare",
+      "values": [
+        "7/10",
+        "2/3"
+      ],
+      "problem": "Compare 7/10 and 2/3 using a common unit.",
+      "common_denominator": 30,
+      "answer": ">",
+      "rows": [
+        "Choose 30 equal parts for the two fraction strips.",
+        "Express 7/10 = 21/30 and 2/3 = 20/30.",
+        "Compare 21 and 20 equal parts: 7/10 > 2/3."
+      ],
+      "memo": "Compare 7/10 and 2/3 using a common unit. The common unit is 30; scaled counts are [21, 20]. Answer: >.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w09",
+      "kind": "compare",
+      "values": [
+        "9/8",
+        "1 1/4"
+      ],
+      "problem": "Which is greater, 9/8 or 1 1/4?",
+      "common_denominator": 8,
+      "answer": "<",
+      "rows": [
+        "Choose 8 equal parts for the two fraction strips.",
+        "Express 9/8 = 9/8 and 1 1/4 = 10/8.",
+        "Compare 9 and 10 equal parts: 9/8 < 1 1/4."
+      ],
+      "memo": "Which is greater, 9/8 or 1 1/4? The common unit is 8; scaled counts are [9, 10]. Answer: <.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w10",
+      "kind": "compare",
+      "values": [
+        "11/12",
+        "5/6"
+      ],
+      "problem": "Place a sign between 11/12 and 5/6.",
+      "common_denominator": 12,
+      "answer": ">",
+      "rows": [
+        "Choose 12 equal parts for the two fraction strips.",
+        "Express 11/12 = 11/12 and 5/6 = 10/12.",
+        "Compare 11 and 10 equal parts: 11/12 > 5/6."
+      ],
+      "memo": "Place a sign between 11/12 and 5/6. The common unit is 12; scaled counts are [11, 10]. Answer: >.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w11",
+      "kind": "order",
+      "values": [
+        "1/2",
+        "3/4",
+        "2/3"
+      ],
+      "problem": "Arrange 1/2, 3/4 and 2/3 from least to greatest.",
+      "common_denominator": 12,
+      "answer": "1/2 < 2/3 < 3/4",
+      "rows": [
+        "Use strips divided into 12 equal parts.",
+        "The shaded counts in given order are 6, 9, 8 out of 12.",
+        "Order these counts from least to greatest: 1/2 < 2/3 < 3/4."
+      ],
+      "memo": "Arrange 1/2, 3/4 and 2/3 from least to greatest. The common unit is 12; scaled counts are [6, 9, 8]. Answer: 1/2 < 2/3 < 3/4.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w12",
+      "kind": "order",
+      "values": [
+        "5/6",
+        "7/12",
+        "3/4"
+      ],
+      "problem": "Order 5/6, 7/12 and 3/4 from least to greatest.",
+      "common_denominator": 12,
+      "answer": "7/12 < 3/4 < 5/6",
+      "rows": [
+        "Use strips divided into 12 equal parts.",
+        "The shaded counts in given order are 10, 7, 9 out of 12.",
+        "Order these counts from least to greatest: 7/12 < 3/4 < 5/6."
+      ],
+      "memo": "Order 5/6, 7/12 and 3/4 from least to greatest. The common unit is 12; scaled counts are [10, 7, 9]. Answer: 7/12 < 3/4 < 5/6.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w13",
+      "kind": "order",
+      "values": [
+        "1 1/4",
+        "9/8",
+        "4/3"
+      ],
+      "problem": "Order 1 1/4, 9/8 and 4/3 from least to greatest.",
+      "common_denominator": 24,
+      "answer": "9/8 < 1 1/4 < 4/3",
+      "rows": [
+        "Use strips divided into 24 equal parts.",
+        "The shaded counts in given order are 30, 27, 32 out of 24.",
+        "Order these counts from least to greatest: 9/8 < 1 1/4 < 4/3."
+      ],
+      "memo": "Order 1 1/4, 9/8 and 4/3 from least to greatest. The common unit is 24; scaled counts are [30, 27, 32]. Answer: 9/8 < 1 1/4 < 4/3.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w14",
+      "kind": "convert",
+      "values": [
+        "1 3/4"
+      ],
+      "problem": "Convert 1 3/4 into an improper fraction; show the whole and quarter pieces.",
+      "common_denominator": 4,
+      "answer": "7/4",
+      "rows": [
+        "Draw 1 complete unit strip and 3 of 4 equal pieces.",
+        "Count all 4-parts: 7 in total.",
+        "The equivalent improper fraction is 7/4."
+      ],
+      "memo": "Convert 1 3/4 into an improper fraction; show the whole and quarter pieces. The common unit is 4; scaled counts are [7]. Answer: 7/4.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    },
+    {
+      "id": "g8-frac-l01-w15",
+      "kind": "convert",
+      "values": [
+        "17/6"
+      ],
+      "problem": "Convert 17/6 into a mixed number and check by recombining sixths.",
+      "common_denominator": 6,
+      "answer": "2 5/6",
+      "rows": [
+        "Draw 2 complete unit strips and 5 of 6 equal pieces.",
+        "Count all 6-parts: 17 in total.",
+        "The equivalent mixed number is 2 5/6."
+      ],
+      "memo": "Convert 17/6 into a mixed number and check by recombining sixths. The common unit is 6; scaled counts are [17]. Answer: 2 5/6.",
+      "misconception": "Use equal-sized wholes and multiply numerator and denominator together; never compare only the bottom numbers."
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+{
+  "scenes": [
+    {
+      "id": "g8-graphs-l03-w01",
+      "kind": "read",
+      "title": "Water in a bucket",
+      "problem": "The graph shows water in a bucket. The horizontal axis measures minutes and the vertical axis measures litres. How much water is present at minute 2?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 10,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "minutes",
+        "y_unit": "litres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 8
+        }
+      ],
+      "actions": [
+        "Read the axes: minutes increases to the right and litres increases upward. Mark the interval 0 to 1: litres increases from 2 to 4 (+2).",
+        "Trace 1 to 2: litres increases from 4 to 6 (+2); keep the first interval visible.",
+        "Trace 2 to 3: litres increases from 6 to 8 (+2). The graph has a maximum of 8 litres at minutes 3 and a minimum of 2 litres at minutes 0.",
+        "Answer the question: 6. Check the labelled minutes and litres values and treat the domain as continuous."
+      ],
+      "answer": "6",
+      "memo": "How much water is present at minute 2? The graph values are (0, 2), (1, 4), (2, 6), (3, 8). The graph has a maximum of 8 litres at minutes 3 and a minimum of 2 litres at minutes 0. Therefore 6.",
+      "misconception": "Confusing minutes with litres or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the minutes and litres axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 2
+    },
+    {
+      "id": "g8-graphs-l03-w02",
+      "kind": "read",
+      "title": "Classroom thermometer",
+      "problem": "The graph shows classroom thermometer. The horizontal axis measures hours and the vertical axis measures degrees C. Describe the temperature between hour 1 and hour 3.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 20,
+        "x_tick": 1,
+        "y_tick": 3,
+        "x_unit": "hours",
+        "y_unit": "degrees C"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 18
+        },
+        {
+          "x": 1,
+          "y": 18
+        },
+        {
+          "x": 2,
+          "y": 18
+        },
+        {
+          "x": 3,
+          "y": 18
+        }
+      ],
+      "actions": [
+        "Read the axes: hours increases to the right and degrees C increases upward. Mark the interval 0 to 1: degrees C stays constant from 18 to 18 (+0).",
+        "Trace 1 to 2: degrees C stays constant from 18 to 18 (+0); keep the first interval visible.",
+        "Trace 2 to 3: degrees C stays constant from 18 to 18 (+0). The graph has a maximum of 18 degrees C at hours 0 and a minimum of 18 degrees C at hours 0.",
+        "Answer the question: constant. Check the labelled hours and degrees C values and treat the domain as continuous."
+      ],
+      "answer": "constant",
+      "memo": "Describe the temperature between hour 1 and hour 3. The graph values are (0, 18), (1, 18), (2, 18), (3, 18). The graph has a maximum of 18 degrees C at hours 0 and a minimum of 18 degrees C at hours 0. Therefore constant.",
+      "misconception": "Confusing hours with degrees C or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the hours and degrees C axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 2
+    },
+    {
+      "id": "g8-graphs-l03-w03",
+      "kind": "read",
+      "title": "Candle height",
+      "problem": "The graph shows candle height. The horizontal axis measures hours and the vertical axis measures centimetres. By how many centimetres does the candle shrink from hour 0 to hour 3?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 14,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "hours",
+        "y_unit": "centimetres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 12
+        },
+        {
+          "x": 1,
+          "y": 10
+        },
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "actions": [
+        "Read the axes: hours increases to the right and centimetres increases upward. Mark the interval 0 to 1: centimetres decreases from 12 to 10 (-2).",
+        "Trace 1 to 2: centimetres decreases from 10 to 8 (-2); keep the first interval visible.",
+        "Trace 2 to 3: centimetres decreases from 8 to 6 (-2). The graph has a maximum of 12 centimetres at hours 0 and a minimum of 6 centimetres at hours 3.",
+        "Answer the question: 6. Check the labelled hours and centimetres values and treat the domain as continuous."
+      ],
+      "answer": "6",
+      "memo": "By how many centimetres does the candle shrink from hour 0 to hour 3? The graph values are (0, 12), (1, 10), (2, 8), (3, 6). The graph has a maximum of 12 centimetres at hours 0 and a minimum of 6 centimetres at hours 3. Therefore 6.",
+      "misconception": "Confusing hours with centimetres or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the hours and centimetres axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 2
+    },
+    {
+      "id": "g8-graphs-l03-w04",
+      "kind": "read",
+      "title": "Walker distance from home",
+      "problem": "The graph shows walker distance from home. The horizontal axis measures hours and the vertical axis measures kilometres. When does the walker rest?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 5,
+        "x_tick": 1,
+        "y_tick": 1,
+        "x_unit": "hours",
+        "y_unit": "kilometres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 1
+        }
+      ],
+      "actions": [
+        "Read the axes: hours increases to the right and kilometres increases upward. Mark the interval 0 to 1: kilometres increases from 0 to 3 (+3).",
+        "Trace 1 to 2: kilometres stays constant from 3 to 3 (+0); keep the first interval visible.",
+        "Trace 2 to 3: kilometres decreases from 3 to 1 (-2). The graph has a maximum of 3 kilometres at hours 1 and a minimum of 0 kilometres at hours 0.",
+        "Answer the question: hour 1 to hour 2. Check the labelled hours and kilometres values and treat the domain as continuous."
+      ],
+      "answer": "hour 1 to hour 2",
+      "memo": "When does the walker rest? The graph values are (0, 0), (1, 3), (2, 3), (3, 1). The graph has a maximum of 3 kilometres at hours 1 and a minimum of 0 kilometres at hours 0. Therefore hour 1 to hour 2.",
+      "misconception": "Confusing hours with kilometres or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the hours and kilometres axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 3
+    },
+    {
+      "id": "g8-graphs-l03-w05",
+      "kind": "read",
+      "title": "Cyclist speed",
+      "problem": "The graph shows cyclist speed. The horizontal axis measures minutes and the vertical axis measures km/h. What is the greatest speed shown?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -7,
+        "y_max": 31,
+        "x_tick": 1,
+        "y_tick": 5,
+        "x_unit": "minutes",
+        "y_unit": "km/h"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 12
+        },
+        {
+          "x": 2,
+          "y": 24
+        },
+        {
+          "x": 3,
+          "y": 10
+        }
+      ],
+      "actions": [
+        "Read the axes: minutes increases to the right and km/h increases upward. Mark the interval 0 to 1: km/h increases from 0 to 12 (+12).",
+        "Trace 1 to 2: km/h increases from 12 to 24 (+12); keep the first interval visible.",
+        "Trace 2 to 3: km/h decreases from 24 to 10 (-14). The graph has a maximum of 24 km/h at minutes 2 and a minimum of 0 km/h at minutes 0.",
+        "Answer the question: 24. Check the labelled minutes and km/h values and treat the domain as continuous."
+      ],
+      "answer": "24",
+      "memo": "What is the greatest speed shown? The graph values are (0, 0), (1, 12), (2, 24), (3, 10). The graph has a maximum of 24 km/h at minutes 2 and a minimum of 0 km/h at minutes 0. Therefore 24.",
+      "misconception": "Confusing minutes with km/h or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the minutes and km/h axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 3
+    },
+    {
+      "id": "g8-graphs-l03-w06",
+      "kind": "read",
+      "title": "Plant height",
+      "problem": "The graph shows plant height. The horizontal axis measures weeks and the vertical axis measures centimetres. Does the plant grow by the same amount every week?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -3,
+        "y_max": 14,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "weeks",
+        "y_unit": "centimetres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 11
+        }
+      ],
+      "actions": [
+        "Read the axes: weeks increases to the right and centimetres increases upward. Mark the interval 0 to 1: centimetres increases from 2 to 3 (+1).",
+        "Trace 1 to 2: centimetres increases from 3 to 6 (+3); keep the first interval visible.",
+        "Trace 2 to 3: centimetres increases from 6 to 11 (+5). The graph has a maximum of 11 centimetres at weeks 3 and a minimum of 2 centimetres at weeks 0.",
+        "Answer the question: no. Check the labelled weeks and centimetres values and treat the domain as continuous."
+      ],
+      "answer": "no",
+      "memo": "Does the plant grow by the same amount every week? The graph values are (0, 2), (1, 3), (2, 6), (3, 11). The graph has a maximum of 11 centimetres at weeks 3 and a minimum of 2 centimetres at weeks 0. Therefore no.",
+      "misconception": "Confusing weeks with centimetres or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the weeks and centimetres axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 3
+    },
+    {
+      "id": "g8-graphs-l03-w07",
+      "kind": "read",
+      "title": "Library book count",
+      "problem": "The graph shows library book count. The horizontal axis measures days and the vertical axis measures books. On which day is the count lowest?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 12,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "days",
+        "y_unit": "books"
+      },
+      "domain": "discrete",
+      "points": [
+        {
+          "x": 0,
+          "y": 8
+        },
+        {
+          "x": 1,
+          "y": 9
+        },
+        {
+          "x": 2,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 10
+        }
+      ],
+      "actions": [
+        "Read the axes: days increases to the right and books increases upward. Mark the interval 0 to 1: books increases from 8 to 9 (+1).",
+        "Trace 1 to 2: books decreases from 9 to 7 (-2); keep the first interval visible.",
+        "Trace 2 to 3: books increases from 7 to 10 (+3). The graph has a maximum of 10 books at days 3 and a minimum of 7 books at days 2.",
+        "Answer the question: 2. Check the labelled days and books values and treat the domain as discrete."
+      ],
+      "answer": "2",
+      "memo": "On which day is the count lowest? The graph values are (0, 8), (1, 9), (2, 7), (3, 10). The graph has a maximum of 10 books at days 3 and a minimum of 7 books at days 2. Therefore 2.",
+      "misconception": "Confusing days with books or treating whole-count points as a continuous line. ",
+      "repair": "Project each endpoint to the days and books axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 4
+    },
+    {
+      "id": "g8-graphs-l03-w08",
+      "kind": "read",
+      "title": "Morning temperature",
+      "problem": "The graph shows morning temperature. The horizontal axis measures hours after dawn and the vertical axis measures degrees C. At what time does the temperature first rise above zero?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -6,
+        "y_max": 8,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "hours after dawn",
+        "y_unit": "degrees C"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": -3
+        },
+        {
+          "x": 1,
+          "y": -1
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 5
+        }
+      ],
+      "actions": [
+        "Read the axes: hours after dawn increases to the right and degrees C increases upward. Mark the interval 0 to 1: degrees C increases from -3 to -1 (+2).",
+        "Trace 1 to 2: degrees C increases from -1 to 2 (+3); keep the first interval visible.",
+        "Trace 2 to 3: degrees C increases from 2 to 5 (+3). The graph has a maximum of 5 degrees C at hours after dawn 3 and a minimum of -3 degrees C at hours after dawn 0.",
+        "Answer the question: 2. Check the labelled hours after dawn and degrees C values and treat the domain as continuous."
+      ],
+      "answer": "2",
+      "memo": "At what time does the temperature first rise above zero? The graph values are (0, -3), (1, -1), (2, 2), (3, 5). The graph has a maximum of 5 degrees C at hours after dawn 3 and a minimum of -3 degrees C at hours after dawn 0. Therefore 2.",
+      "misconception": "Confusing hours after dawn with degrees C or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the hours after dawn and degrees C axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 4
+    },
+    {
+      "id": "g8-graphs-l03-w09",
+      "kind": "read",
+      "title": "Reservoir water",
+      "problem": "The graph shows reservoir water. The horizontal axis measures days and the vertical axis measures megalitres. Which one-day interval has the greatest increase?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -3,
+        "y_max": 18,
+        "x_tick": 1,
+        "y_tick": 3,
+        "x_unit": "days",
+        "y_unit": "megalitres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 6
+        },
+        {
+          "x": 1,
+          "y": 12
+        },
+        {
+          "x": 2,
+          "y": 15
+        },
+        {
+          "x": 3,
+          "y": 15
+        }
+      ],
+      "actions": [
+        "Read the axes: days increases to the right and megalitres increases upward. Mark the interval 0 to 1: megalitres increases from 6 to 12 (+6).",
+        "Trace 1 to 2: megalitres increases from 12 to 15 (+3); keep the first interval visible.",
+        "Trace 2 to 3: megalitres stays constant from 15 to 15 (+0). The graph has a maximum of 15 megalitres at days 2 and a minimum of 6 megalitres at days 0.",
+        "Answer the question: day 0 to day 1. Check the labelled days and megalitres values and treat the domain as continuous."
+      ],
+      "answer": "day 0 to day 1",
+      "memo": "Which one-day interval has the greatest increase? The graph values are (0, 6), (1, 12), (2, 15), (3, 15). The graph has a maximum of 15 megalitres at days 2 and a minimum of 6 megalitres at days 0. Therefore day 0 to day 1.",
+      "misconception": "Confusing days with megalitres or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the days and megalitres axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 4
+    },
+    {
+      "id": "g8-graphs-l03-w10",
+      "kind": "read",
+      "title": "Mobile data used",
+      "problem": "The graph shows mobile data used. The horizontal axis measures days and the vertical axis measures gigabytes. How much data is used from day 2 to day 3?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 7,
+        "x_tick": 1,
+        "y_tick": 1,
+        "x_unit": "days",
+        "y_unit": "gigabytes"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 5
+        }
+      ],
+      "actions": [
+        "Read the axes: days increases to the right and gigabytes increases upward. Mark the interval 0 to 1: gigabytes increases from 0 to 2 (+2).",
+        "Trace 1 to 2: gigabytes stays constant from 2 to 2 (+0); keep the first interval visible.",
+        "Trace 2 to 3: gigabytes increases from 2 to 5 (+3). The graph has a maximum of 5 gigabytes at days 3 and a minimum of 0 gigabytes at days 0.",
+        "Answer the question: 3. Check the labelled days and gigabytes values and treat the domain as continuous."
+      ],
+      "answer": "3",
+      "memo": "How much data is used from day 2 to day 3? The graph values are (0, 0), (1, 2), (2, 2), (3, 5). The graph has a maximum of 5 gigabytes at days 3 and a minimum of 0 gigabytes at days 0. Therefore 3.",
+      "misconception": "Confusing days with gigabytes or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the days and gigabytes axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 5
+    },
+    {
+      "id": "g8-graphs-l03-w11",
+      "kind": "read",
+      "title": "Rain gauge total",
+      "problem": "The graph shows rain gauge total. The horizontal axis measures hours and the vertical axis measures millimetres. When does rainfall stop accumulating?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -3,
+        "y_max": 12,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "hours",
+        "y_unit": "millimetres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 9
+        }
+      ],
+      "actions": [
+        "Read the axes: hours increases to the right and millimetres increases upward. Mark the interval 0 to 1: millimetres increases from 0 to 4 (+4).",
+        "Trace 1 to 2: millimetres increases from 4 to 9 (+5); keep the first interval visible.",
+        "Trace 2 to 3: millimetres stays constant from 9 to 9 (+0). The graph has a maximum of 9 millimetres at hours 2 and a minimum of 0 millimetres at hours 0.",
+        "Answer the question: hour 2 to hour 3. Check the labelled hours and millimetres values and treat the domain as continuous."
+      ],
+      "answer": "hour 2 to hour 3",
+      "memo": "When does rainfall stop accumulating? The graph values are (0, 0), (1, 4), (2, 9), (3, 9). The graph has a maximum of 9 millimetres at hours 2 and a minimum of 0 millimetres at hours 0. Therefore hour 2 to hour 3.",
+      "misconception": "Confusing hours with millimetres or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the hours and millimetres axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 5
+    },
+    {
+      "id": "g8-graphs-l03-w12",
+      "kind": "read",
+      "title": "Tickets sold",
+      "problem": "The graph shows tickets sold. The horizontal axis measures hours and the vertical axis measures tickets. Could the vertical axis sensibly show half a ticket?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 9,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "hours",
+        "y_unit": "tickets"
+      },
+      "domain": "discrete",
+      "points": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "actions": [
+        "Read the axes: hours increases to the right and tickets increases upward. Mark the interval 0 to 1: tickets increases from 1 to 3 (+2).",
+        "Trace 1 to 2: tickets increases from 3 to 4 (+1); keep the first interval visible.",
+        "Trace 2 to 3: tickets increases from 4 to 7 (+3). The graph has a maximum of 7 tickets at hours 3 and a minimum of 1 tickets at hours 0.",
+        "Answer the question: no. Check the labelled hours and tickets values and treat the domain as discrete."
+      ],
+      "answer": "no",
+      "memo": "Could the vertical axis sensibly show half a ticket? The graph values are (0, 1), (1, 3), (2, 4), (3, 7). The graph has a maximum of 7 tickets at hours 3 and a minimum of 1 tickets at hours 0. Therefore no.",
+      "misconception": "Confusing hours with tickets or treating whole-count points as a continuous line. ",
+      "repair": "Project each endpoint to the hours and tickets axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 5
+    },
+    {
+      "id": "g8-graphs-l03-w13",
+      "kind": "read",
+      "title": "Freezer temperature",
+      "problem": "The graph shows freezer temperature. The horizontal axis measures hours and the vertical axis measures degrees C. What is the minimum recorded temperature?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -8,
+        "y_max": 7,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "hours",
+        "y_unit": "degrees C"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 4
+        },
+        {
+          "x": 1,
+          "y": -2
+        },
+        {
+          "x": 2,
+          "y": -5
+        },
+        {
+          "x": 3,
+          "y": 1
+        }
+      ],
+      "actions": [
+        "Read the axes: hours increases to the right and degrees C increases upward. Mark the interval 0 to 1: degrees C decreases from 4 to -2 (-6).",
+        "Trace 1 to 2: degrees C decreases from -2 to -5 (-3); keep the first interval visible.",
+        "Trace 2 to 3: degrees C increases from -5 to 1 (+6). The graph has a maximum of 4 degrees C at hours 0 and a minimum of -5 degrees C at hours 2.",
+        "Answer the question: -5. Check the labelled hours and degrees C values and treat the domain as continuous."
+      ],
+      "answer": "-5",
+      "memo": "What is the minimum recorded temperature? The graph values are (0, 4), (1, -2), (2, -5), (3, 1). The graph has a maximum of 4 degrees C at hours 0 and a minimum of -5 degrees C at hours 2. Therefore -5.",
+      "misconception": "Confusing hours with degrees C or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the hours and degrees C axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 6
+    },
+    {
+      "id": "g8-graphs-l03-w14",
+      "kind": "read",
+      "title": "Journey distance from start",
+      "problem": "The graph shows journey distance from start. The horizontal axis measures hours and the vertical axis measures kilometres. How far is the traveller from the start after 3 hours?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 7,
+        "x_tick": 1,
+        "y_tick": 1,
+        "x_unit": "hours",
+        "y_unit": "kilometres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 0
+        }
+      ],
+      "actions": [
+        "Read the axes: hours increases to the right and kilometres increases upward. Mark the interval 0 to 1: kilometres increases from 0 to 5 (+5).",
+        "Trace 1 to 2: kilometres stays constant from 5 to 5 (+0); keep the first interval visible.",
+        "Trace 2 to 3: kilometres decreases from 5 to 0 (-5). The graph has a maximum of 5 kilometres at hours 1 and a minimum of 0 kilometres at hours 0.",
+        "Answer the question: 0. Check the labelled hours and kilometres values and treat the domain as continuous."
+      ],
+      "answer": "0",
+      "memo": "How far is the traveller from the start after 3 hours? The graph values are (0, 0), (1, 5), (2, 5), (3, 0). The graph has a maximum of 5 kilometres at hours 1 and a minimum of 0 kilometres at hours 0. Therefore 0.",
+      "misconception": "Confusing hours with kilometres or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the hours and kilometres axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 6
+    },
+    {
+      "id": "g8-graphs-l03-w15",
+      "kind": "read",
+      "title": "Tank volume through a day",
+      "problem": "The graph shows tank volume through a day. The horizontal axis measures hours and the vertical axis measures litres. How many litres leave the tank in the final hour?",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -3,
+        "y_max": 14,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "hours",
+        "y_unit": "litres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 3
+        },
+        {
+          "x": 1,
+          "y": 11
+        },
+        {
+          "x": 2,
+          "y": 11
+        },
+        {
+          "x": 3,
+          "y": 2
+        }
+      ],
+      "actions": [
+        "Read the axes: hours increases to the right and litres increases upward. Mark the interval 0 to 1: litres increases from 3 to 11 (+8).",
+        "Trace 1 to 2: litres stays constant from 11 to 11 (+0); keep the first interval visible.",
+        "Trace 2 to 3: litres decreases from 11 to 2 (-9). The graph has a maximum of 11 litres at hours 1 and a minimum of 2 litres at hours 3.",
+        "Answer the question: 9. Check the labelled hours and litres values and treat the domain as continuous."
+      ],
+      "answer": "9",
+      "memo": "How many litres leave the tank in the final hour? The graph values are (0, 3), (1, 11), (2, 11), (3, 2). The graph has a maximum of 11 litres at hours 1 and a minimum of 2 litres at hours 3. Therefore 9.",
+      "misconception": "Confusing hours with litres or treating a flat interval as a missing point. ",
+      "repair": "Project each endpoint to the hours and litres axes; compare consecutive outputs and check whether intermediate inputs are meaningful.",
+      "marks": 6
+    }
+  ]
+}

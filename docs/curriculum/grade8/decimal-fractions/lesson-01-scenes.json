@@ -1,0 +1,279 @@
+{
+  "scenes": [
+    {
+      "id": "g8-dec-l01-w01",
+      "kind": "place",
+      "values": [
+        "4.307",
+        "tenths"
+      ],
+      "problem": "In 4.307, what digit is in the tenths place?",
+      "answer": "3",
+      "rows": [
+        "Align 4.307 in ones, tenths, hundredths and thousandths columns.",
+        "Count 1 position(s) to the right of the decimal point.",
+        "The digit in the tenths column is 3."
+      ],
+      "memo": "Read the digits of 4.307 again from the decimal point; the tenths column contains 3.",
+      "misconception": "A zero in a place has a value; do not remove internal zeros.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w02",
+      "kind": "place",
+      "values": [
+        "6.052",
+        "hundredths"
+      ],
+      "problem": "In 6.052, what digit is in the hundredths place?",
+      "answer": "5",
+      "rows": [
+        "Align 6.052 in ones, tenths, hundredths and thousandths columns.",
+        "Count 2 position(s) to the right of the decimal point.",
+        "The digit in the hundredths column is 5."
+      ],
+      "memo": "Read the digits of 6.052 again from the decimal point; the hundredths column contains 5.",
+      "misconception": "A zero in a place has a value; do not remove internal zeros.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w03",
+      "kind": "place",
+      "values": [
+        "0.409",
+        "thousandths"
+      ],
+      "problem": "In 0.409, what digit is in the thousandths place?",
+      "answer": "9",
+      "rows": [
+        "Align 0.409 in ones, tenths, hundredths and thousandths columns.",
+        "Count 3 position(s) to the right of the decimal point.",
+        "The digit in the thousandths column is 9."
+      ],
+      "memo": "Read the digits of 0.409 again from the decimal point; the thousandths column contains 9.",
+      "misconception": "A zero in a place has a value; do not remove internal zeros.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w04",
+      "kind": "compare",
+      "values": [
+        "2.5",
+        "2.50"
+      ],
+      "problem": "Compare 2.5 and 2.50. Write <, > or =.",
+      "answer": "=",
+      "rows": [
+        "Align decimal points: 2.500 and 2.500.",
+        "Read place-value columns from left to right until the first different digit.",
+        "2.5 = 2.50."
+      ],
+      "memo": "On a number line, 2.5 lies at the same point as 2.50.",
+      "misconception": "Align decimal points; a longer string of digits does not necessarily mean a larger number.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w05",
+      "kind": "compare",
+      "values": [
+        "3.47",
+        "3.407"
+      ],
+      "problem": "Compare 3.47 and 3.407. Write <, > or =.",
+      "answer": ">",
+      "rows": [
+        "Align decimal points: 3.470 and 3.407.",
+        "Read place-value columns from left to right until the first different digit.",
+        "3.47 > 3.407."
+      ],
+      "memo": "On a number line, 3.47 lies right of 3.407.",
+      "misconception": "Align decimal points; a longer string of digits does not necessarily mean a larger number.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w06",
+      "kind": "compare",
+      "values": [
+        "0.099",
+        "0.101"
+      ],
+      "problem": "Compare 0.099 and 0.101. Write <, > or =.",
+      "answer": "<",
+      "rows": [
+        "Align decimal points: 0.099 and 0.101.",
+        "Read place-value columns from left to right until the first different digit.",
+        "0.099 < 0.101."
+      ],
+      "memo": "On a number line, 0.099 lies left of 0.101.",
+      "misconception": "Align decimal points; a longer string of digits does not necessarily mean a larger number.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w07",
+      "kind": "place",
+      "values": [
+        "18.046",
+        "hundredths"
+      ],
+      "problem": "In 18.046, what digit is in the hundredths place?",
+      "answer": "4",
+      "rows": [
+        "Align 18.046 in ones, tenths, hundredths and thousandths columns.",
+        "Count 2 position(s) to the right of the decimal point.",
+        "The digit in the hundredths column is 4."
+      ],
+      "memo": "Read the digits of 18.046 again from the decimal point; the hundredths column contains 4.",
+      "misconception": "A zero in a place has a value; do not remove internal zeros.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w08",
+      "kind": "compare",
+      "values": [
+        "7.208",
+        "7.28"
+      ],
+      "problem": "Compare 7.208 and 7.28. Write <, > or =.",
+      "answer": "<",
+      "rows": [
+        "Align decimal points: 7.208 and 7.280.",
+        "Read place-value columns from left to right until the first different digit.",
+        "7.208 < 7.28."
+      ],
+      "memo": "On a number line, 7.208 lies left of 7.28.",
+      "misconception": "Align decimal points; a longer string of digits does not necessarily mean a larger number.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w09",
+      "kind": "order",
+      "values": [
+        "0.8",
+        "0.08",
+        "0.808"
+      ],
+      "problem": "Order 0.8, 0.08 and 0.808 from least to greatest.",
+      "answer": "0.08, 0.8, 0.808",
+      "rows": [
+        "Align all decimal points and pad with zeroes to 3 decimal places.",
+        "Compare columns from left to right, then place the three numbers on one number line.",
+        "From left to right: 0.08, 0.8, 0.808."
+      ],
+      "memo": "The ordered values satisfy 0.08 < 0.8 < 0.808.",
+      "misconception": "Use equal place-value columns, then read the results in the specified direction.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w10",
+      "kind": "order",
+      "values": [
+        "2.07",
+        "2.7",
+        "2.007"
+      ],
+      "problem": "Order 2.07, 2.7 and 2.007 from least to greatest.",
+      "answer": "2.007, 2.07, 2.7",
+      "rows": [
+        "Align all decimal points and pad with zeroes to 3 decimal places.",
+        "Compare columns from left to right, then place the three numbers on one number line.",
+        "From left to right: 2.007, 2.07, 2.7."
+      ],
+      "memo": "The ordered values satisfy 2.007 < 2.07 < 2.7.",
+      "misconception": "Use equal place-value columns, then read the results in the specified direction.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w11",
+      "kind": "compare",
+      "values": [
+        "12.305",
+        "12.350"
+      ],
+      "problem": "Compare 12.305 and 12.350. Write <, > or =.",
+      "answer": "<",
+      "rows": [
+        "Align decimal points: 12.305 and 12.350.",
+        "Read place-value columns from left to right until the first different digit.",
+        "12.305 < 12.350."
+      ],
+      "memo": "On a number line, 12.305 lies left of 12.350.",
+      "misconception": "Align decimal points; a longer string of digits does not necessarily mean a larger number.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w12",
+      "kind": "order",
+      "values": [
+        "4.04",
+        "4.004",
+        "4.4"
+      ],
+      "problem": "Order 4.04, 4.004 and 4.4 from least to greatest.",
+      "answer": "4.004, 4.04, 4.4",
+      "rows": [
+        "Align all decimal points and pad with zeroes to 3 decimal places.",
+        "Compare columns from left to right, then place the three numbers on one number line.",
+        "From left to right: 4.004, 4.04, 4.4."
+      ],
+      "memo": "The ordered values satisfy 4.004 < 4.04 < 4.4.",
+      "misconception": "Use equal place-value columns, then read the results in the specified direction.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w13",
+      "kind": "place",
+      "values": [
+        "103.056",
+        "thousandths"
+      ],
+      "problem": "In 103.056, what digit is in the thousandths place?",
+      "answer": "6",
+      "rows": [
+        "Align 103.056 in ones, tenths, hundredths and thousandths columns.",
+        "Count 3 position(s) to the right of the decimal point.",
+        "The digit in the thousandths column is 6."
+      ],
+      "memo": "Read the digits of 103.056 again from the decimal point; the thousandths column contains 6.",
+      "misconception": "A zero in a place has a value; do not remove internal zeros.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w14",
+      "kind": "order",
+      "values": [
+        "0.909",
+        "0.99",
+        "0.099"
+      ],
+      "problem": "Order 0.909, 0.99 and 0.099 from least to greatest.",
+      "answer": "0.099, 0.909, 0.99",
+      "rows": [
+        "Align all decimal points and pad with zeroes to 3 decimal places.",
+        "Compare columns from left to right, then place the three numbers on one number line.",
+        "From left to right: 0.099, 0.909, 0.99."
+      ],
+      "memo": "The ordered values satisfy 0.099 < 0.909 < 0.99.",
+      "misconception": "Use equal place-value columns, then read the results in the specified direction.",
+      "visual_family": "decimal_columns"
+    },
+    {
+      "id": "g8-dec-l01-w15",
+      "kind": "order",
+      "values": [
+        "8.008",
+        "8.08",
+        "8.8"
+      ],
+      "problem": "Order 8.008, 8.08 and 8.8 from least to greatest.",
+      "answer": "8.008, 8.08, 8.8",
+      "rows": [
+        "Align all decimal points and pad with zeroes to 3 decimal places.",
+        "Compare columns from left to right, then place the three numbers on one number line.",
+        "From left to right: 8.008, 8.08, 8.8."
+      ],
+      "memo": "The ordered values satisfy 8.008 < 8.08 < 8.8.",
+      "misconception": "Use equal place-value columns, then read the results in the specified direction.",
+      "visual_family": "decimal_columns"
+    }
+  ]
+}

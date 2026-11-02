@@ -1,0 +1,324 @@
+{
+  "scenes": [
+    {
+      "id": "g8-dec-l05-w01",
+      "kind": "power",
+      "values": [
+        "0.2",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (0.2)^2. Show the repeated factors and decimal scale.",
+      "answer": "0.04",
+      "rows": [
+        "Identify the base 0.2 and the exponent 2; a square repeats the same factor 2 times.",
+        "Expand the power: (0.2)^2 = 0.2 × 0.2.",
+        "Each factor has 1 decimal place(s), so the product has 2 × 1 = 2 decimal places before removing trailing zeros.",
+        "Compute the integer product: 2 × 2 = 4.",
+        "Place the decimal point 2 positions from the right: 0.04."
+      ],
+      "memo": "0.2 × 0.2 = 0.04; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w02",
+      "kind": "power",
+      "values": [
+        "0.4",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (0.4)^2. Show the repeated factors and decimal scale.",
+      "answer": "0.16",
+      "rows": [
+        "Identify the base 0.4 and the exponent 2; a square repeats the same factor 2 times.",
+        "Expand the power: (0.4)^2 = 0.4 × 0.4.",
+        "Each factor has 1 decimal place(s), so the product has 2 × 1 = 2 decimal places before removing trailing zeros.",
+        "Compute the integer product: 4 × 4 = 16.",
+        "Place the decimal point 2 positions from the right: 0.16."
+      ],
+      "memo": "0.4 × 0.4 = 0.16; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w03",
+      "kind": "power",
+      "values": [
+        "1.2",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (1.2)^2. Show the repeated factors and decimal scale.",
+      "answer": "1.44",
+      "rows": [
+        "Identify the base 1.2 and the exponent 2; a square repeats the same factor 2 times.",
+        "Expand the power: (1.2)^2 = 1.2 × 1.2.",
+        "Each factor has 1 decimal place(s), so the product has 2 × 1 = 2 decimal places before removing trailing zeros.",
+        "Compute the integer product: 12 × 12 = 144.",
+        "Place the decimal point 2 positions from the right: 1.44."
+      ],
+      "memo": "1.2 × 1.2 = 1.44; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w04",
+      "kind": "power",
+      "values": [
+        "0.5",
+        "3"
+      ],
+      "degree": 3,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (0.5)^3. Show the repeated factors and decimal scale.",
+      "answer": "0.125",
+      "rows": [
+        "Identify the base 0.5 and the exponent 3; a cube repeats the same factor 3 times.",
+        "Expand the power: (0.5)^3 = 0.5 × 0.5 × 0.5.",
+        "Each factor has 1 decimal place(s), so the product has 3 × 1 = 3 decimal places before removing trailing zeros.",
+        "Compute the integer product: 5 × 5 × 5 = 125.",
+        "Group the first two factors: 0.5 × 0.5 = 0.25; multiply that by the third factor.",
+        "Place the decimal point 3 positions from the right: 0.125."
+      ],
+      "memo": "0.5 × 0.5 × 0.5 = 0.125; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w05",
+      "kind": "power",
+      "values": [
+        "2.1",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (2.1)^2. Show the repeated factors and decimal scale.",
+      "answer": "4.41",
+      "rows": [
+        "Identify the base 2.1 and the exponent 2; a square repeats the same factor 2 times.",
+        "Expand the power: (2.1)^2 = 2.1 × 2.1.",
+        "Each factor has 1 decimal place(s), so the product has 2 × 1 = 2 decimal places before removing trailing zeros.",
+        "Compute the integer product: 21 × 21 = 441.",
+        "Place the decimal point 2 positions from the right: 4.41."
+      ],
+      "memo": "2.1 × 2.1 = 4.41; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w06",
+      "kind": "power",
+      "values": [
+        "0.8",
+        "3"
+      ],
+      "degree": 3,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (0.8)^3. Show the repeated factors and decimal scale.",
+      "answer": "0.512",
+      "rows": [
+        "Identify the base 0.8 and the exponent 3; a cube repeats the same factor 3 times.",
+        "Expand the power: (0.8)^3 = 0.8 × 0.8 × 0.8.",
+        "Each factor has 1 decimal place(s), so the product has 3 × 1 = 3 decimal places before removing trailing zeros.",
+        "Compute the integer product: 8 × 8 × 8 = 512.",
+        "Group the first two factors: 0.8 × 0.8 = 0.64; multiply that by the third factor.",
+        "Place the decimal point 3 positions from the right: 0.512."
+      ],
+      "memo": "0.8 × 0.8 × 0.8 = 0.512; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w07",
+      "kind": "power",
+      "values": [
+        "1.25",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (1.25)^2. Show the repeated factors and decimal scale.",
+      "answer": "1.5625",
+      "rows": [
+        "Identify the base 1.25 and the exponent 2; a square repeats the same factor 2 times.",
+        "Expand the power: (1.25)^2 = 1.25 × 1.25.",
+        "Each factor has 2 decimal place(s), so the product has 2 × 2 = 4 decimal places before removing trailing zeros.",
+        "Compute the integer product: 125 × 125 = 15625.",
+        "Place the decimal point 4 positions from the right: 1.5625."
+      ],
+      "memo": "1.25 × 1.25 = 1.5625; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w08",
+      "kind": "power",
+      "values": [
+        "3.4",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (3.4)^2. Show the repeated factors and decimal scale.",
+      "answer": "11.56",
+      "rows": [
+        "Identify the base 3.4 and the exponent 2; a square repeats the same factor 2 times.",
+        "Expand the power: (3.4)^2 = 3.4 × 3.4.",
+        "Each factor has 1 decimal place(s), so the product has 2 × 1 = 2 decimal places before removing trailing zeros.",
+        "Compute the integer product: 34 × 34 = 1156.",
+        "Place the decimal point 2 positions from the right: 11.56."
+      ],
+      "memo": "3.4 × 3.4 = 11.56; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w09",
+      "kind": "power",
+      "values": [
+        "0.15",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (0.15)^2. Show the repeated factors and decimal scale.",
+      "answer": "0.0225",
+      "rows": [
+        "Identify the base 0.15 and the exponent 2; a square repeats the same factor 2 times.",
+        "Expand the power: (0.15)^2 = 0.15 × 0.15.",
+        "Each factor has 2 decimal place(s), so the product has 2 × 2 = 4 decimal places before removing trailing zeros.",
+        "Compute the integer product: 15 × 15 = 225.",
+        "Place the decimal point 4 positions from the right: 0.0225."
+      ],
+      "memo": "0.15 × 0.15 = 0.0225; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w10",
+      "kind": "power",
+      "values": [
+        "1.5",
+        "3"
+      ],
+      "degree": 3,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (1.5)^3. Show the repeated factors and decimal scale.",
+      "answer": "3.375",
+      "rows": [
+        "Identify the base 1.5 and the exponent 3; a cube repeats the same factor 3 times.",
+        "Expand the power: (1.5)^3 = 1.5 × 1.5 × 1.5.",
+        "Each factor has 1 decimal place(s), so the product has 3 × 1 = 3 decimal places before removing trailing zeros.",
+        "Compute the integer product: 15 × 15 × 15 = 3375.",
+        "Group the first two factors: 1.5 × 1.5 = 2.25; multiply that by the third factor.",
+        "Place the decimal point 3 positions from the right: 3.375."
+      ],
+      "memo": "1.5 × 1.5 × 1.5 = 3.375; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w11",
+      "kind": "power",
+      "values": [
+        "2.25",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (2.25)^2. Show the repeated factors and decimal scale.",
+      "answer": "5.0625",
+      "rows": [
+        "Identify the base 2.25 and the exponent 2; a square repeats the same factor 2 times.",
+        "Expand the power: (2.25)^2 = 2.25 × 2.25.",
+        "Each factor has 2 decimal place(s), so the product has 2 × 2 = 4 decimal places before removing trailing zeros.",
+        "Compute the integer product: 225 × 225 = 50625.",
+        "Place the decimal point 4 positions from the right: 5.0625."
+      ],
+      "memo": "2.25 × 2.25 = 5.0625; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w12",
+      "kind": "power",
+      "values": [
+        "0.6",
+        "3"
+      ],
+      "degree": 3,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (0.6)^3. Show the repeated factors and decimal scale.",
+      "answer": "0.216",
+      "rows": [
+        "Identify the base 0.6 and the exponent 3; a cube repeats the same factor 3 times.",
+        "Expand the power: (0.6)^3 = 0.6 × 0.6 × 0.6.",
+        "Each factor has 1 decimal place(s), so the product has 3 × 1 = 3 decimal places before removing trailing zeros.",
+        "Compute the integer product: 6 × 6 × 6 = 216.",
+        "Group the first two factors: 0.6 × 0.6 = 0.36; multiply that by the third factor.",
+        "Place the decimal point 3 positions from the right: 0.216."
+      ],
+      "memo": "0.6 × 0.6 × 0.6 = 0.216; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w13",
+      "kind": "power",
+      "values": [
+        "4.05",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (4.05)^2. Show the repeated factors and decimal scale.",
+      "answer": "16.4025",
+      "rows": [
+        "Identify the base 4.05 and the exponent 2; a square repeats the same factor 2 times.",
+        "Expand the power: (4.05)^2 = 4.05 × 4.05.",
+        "Each factor has 2 decimal place(s), so the product has 2 × 2 = 4 decimal places before removing trailing zeros.",
+        "Compute the integer product: 405 × 405 = 164025.",
+        "Place the decimal point 4 positions from the right: 16.4025."
+      ],
+      "memo": "4.05 × 4.05 = 16.4025; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w14",
+      "kind": "power",
+      "values": [
+        "2.4",
+        "3"
+      ],
+      "degree": 3,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (2.4)^3. Show the repeated factors and decimal scale.",
+      "answer": "13.824",
+      "rows": [
+        "Identify the base 2.4 and the exponent 3; a cube repeats the same factor 3 times.",
+        "Expand the power: (2.4)^3 = 2.4 × 2.4 × 2.4.",
+        "Each factor has 1 decimal place(s), so the product has 3 × 1 = 3 decimal places before removing trailing zeros.",
+        "Compute the integer product: 24 × 24 × 24 = 13824.",
+        "Group the first two factors: 2.4 × 2.4 = 5.76; multiply that by the third factor.",
+        "Place the decimal point 3 positions from the right: 13.824."
+      ],
+      "memo": "2.4 × 2.4 × 2.4 = 13.824; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    },
+    {
+      "id": "g8-dec-l05-w15",
+      "kind": "power",
+      "values": [
+        "1.75",
+        "2"
+      ],
+      "degree": 2,
+      "visual_family": "decimal_power",
+      "problem": "Calculate (1.75)^2. Show the repeated factors and decimal scale.",
+      "answer": "3.0625",
+      "rows": [
+        "Identify the base 1.75 and the exponent 2; a square repeats the same factor 2 times.",
+        "Expand the power: (1.75)^2 = 1.75 × 1.75.",
+        "Each factor has 2 decimal place(s), so the product has 2 × 2 = 4 decimal places before removing trailing zeros.",
+        "Compute the integer product: 175 × 175 = 30625.",
+        "Place the decimal point 4 positions from the right: 3.0625."
+      ],
+      "memo": "1.75 × 1.75 = 3.0625; repeated multiplication checks the original power.",
+      "misconception": "Do not multiply the base by the exponent; show repeated equal factors."
+    }
+  ]
+}

@@ -37,7 +37,7 @@ def test_public_api_registers_third_lesson_and_conceals_memo():
         topic=client.get('/api/v1/curriculum/grades/grade-8/topics/functions-relationships')
         assert topic.status_code==200
         assert [row['id'] for sub in topic.json()['subtopics'] for row in sub['lessons']]==[
-            'g8-functions-relationships-01','g8-functions-relationships-02',LESSON.id,'g8-functions-relationships-04']
+            'g8-functions-relationships-01','g8-functions-relationships-02',LESSON.id,'g8-functions-relationships-04','g8-functions-relationships-05','g8-functions-relationships-06']
         assert 'grade8-table-rules-renderers.js' in client.get('/lesson.html').text
         response=client.get('/api/v1/lessons/'+LESSON.id)
         assert response.status_code==200,response.text

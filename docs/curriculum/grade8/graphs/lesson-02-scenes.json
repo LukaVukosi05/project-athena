@@ -1,0 +1,1282 @@
+{
+  "lesson_id": "g8-graphs-02",
+  "status": "draft_teacher_review_required",
+  "scenes": [
+    {
+      "id": "g8-graphs-l02-w01",
+      "axis": {
+        "x_min": -2,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 5,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 1,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 1,
+          "y": 2,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 2,
+          "y": 3,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Match x = 0 with y = 1; plot (0, 1).",
+        "Match x = 1 with y = 2; plot (1, 2).",
+        "Match x = 2 with y = 3; plot (2, 3).",
+        "The three points align; draw the straight line through them."
+      ],
+      "memo": "The pairs are (0, 1), (1, 2), (2, 3). They satisfy y = x + 1, so the graph is the straight line through all three.",
+      "misconception": "Putting all x values on one axis without matching their y row",
+      "repair": "Point to one table column and read its x and y together.",
+      "problem": "Plot the table x: 0, 1, 2 and y: 1, 2, 3. Draw the straight-line graph.",
+      "marks": 2
+    },
+    {
+      "id": "g8-graphs-l02-w02",
+      "axis": {
+        "x_min": -3,
+        "x_max": 3,
+        "y_min": -2,
+        "y_max": 6,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": -1,
+          "y": 0,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 0,
+          "y": 2,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 1,
+          "y": 4,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": -1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 4
+          }
+        ],
+        "points": [
+          {
+            "x": -1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 4
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Substitute −1: 2(−1) + 2 = 0; plot (−1, 0).",
+        "Substitute 0: 2(0) + 2 = 2; plot (0, 2).",
+        "Substitute 1: 2(1) + 2 = 4; plot (1, 4).",
+        "Each step right adds two vertically; draw one straight line."
+      ],
+      "memo": "The outputs are 0, 2 and 4, giving (−1, 0), (0, 2), (1, 4); all satisfy y = 2x + 2.",
+      "misconception": "Dropping the negative sign when substituting −1",
+      "repair": "Evaluate 2(−1) before adding 2 and check the x-axis crossing.",
+      "problem": "For y = 2x + 2, complete the table at x = −1, 0, 1 and plot the graph.",
+      "marks": 2
+    },
+    {
+      "id": "g8-graphs-l02-w03",
+      "axis": {
+        "x_min": -2,
+        "x_max": 6,
+        "y_min": -2,
+        "y_max": 5,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 3,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 2,
+          "y": 3,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 4,
+          "y": 3,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Read the first column: (0, 3).",
+        "Read the second column: (2, 3).",
+        "Read the third column: (4, 3).",
+        "Join the three points horizontally at y = 3."
+      ],
+      "memo": "Every output is 3. The graph is the horizontal line y = 3 through (0, 3), (2, 3), (4, 3).",
+      "misconception": "Drawing a vertical line because the output stays fixed",
+      "repair": "Keep the y-guide at 3 while x moves; the line is horizontal.",
+      "problem": "The table has x: 0, 2, 4 and y: 3, 3, 3. Plot it and describe the graph.",
+      "marks": 3
+    },
+    {
+      "id": "g8-graphs-l02-w04",
+      "axis": {
+        "x_min": -2,
+        "x_max": 6,
+        "y_min": -2,
+        "y_max": 7,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 5,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 2,
+          "y": 3,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 4,
+          "y": 1,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 5
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 5
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "At x = 0, y = 5; plot (0, 5).",
+        "At x = 2, y = 3; plot (2, 3).",
+        "At x = 4, y = 1; plot (4, 1).",
+        "Draw the falling straight line and read the change."
+      ],
+      "memo": "The graph falls two y-units for every two x-units: pairs (0, 5), (2, 3), (4, 1) all satisfy y = 5 − x.",
+      "misconception": "Adding x to 5 instead of subtracting",
+      "repair": "Check y at x = 4 by calculating 5 − 4 explicitly.",
+      "problem": "For y = 5 − x, plot the entries x: 0, 2, 4 and describe the direction.",
+      "marks": 3
+    },
+    {
+      "id": "g8-graphs-l02-w05",
+      "axis": {
+        "x_min": -4,
+        "x_max": 4,
+        "y_min": -6,
+        "y_max": 6,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": -2,
+          "y": -4,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 0,
+          "y": 0,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 2,
+          "y": 4,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": -2,
+            "y": -4
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 4
+          }
+        ],
+        "points": [
+          {
+            "x": -2,
+            "y": -4
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 4
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Multiply −2 by 2: plot (−2, −4).",
+        "Multiply 0 by 2: plot the origin (0, 0).",
+        "Multiply 2 by 2: plot (2, 4).",
+        "Join the points through (0, 0) and check the crossing."
+      ],
+      "memo": "The straight graph passes through the origin, which is its crossing with both axes; the pairs satisfy y = 2x.",
+      "misconception": "Treating 2(−2) as positive four",
+      "repair": "Use signed multiplication before plotting the left point.",
+      "problem": "Plot y = 2x for x = −2, 0, 2. State where it crosses the axes.",
+      "marks": 3
+    },
+    {
+      "id": "g8-graphs-l02-w06",
+      "axis": {
+        "x_min": -3,
+        "x_max": 5,
+        "y_min": -3,
+        "y_max": 5,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": -1,
+          "y": 3,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 1,
+          "y": 1,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 3,
+          "y": -1,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": -1,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": -1
+          }
+        ],
+        "points": [
+          {
+            "x": -1,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": -1
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "At −1, calculate 2 − (−1) = 3.",
+        "At 1, calculate 2 − 1 = 1.",
+        "At 3, calculate 2 − 3 = −1.",
+        "Plot all three and draw the descending straight line."
+      ],
+      "memo": "The pairs are (−1, 3), (1, 1), (3, −1); each rise of two in x reduces y by two.",
+      "misconception": "Misreading 2 − (−1) as 1",
+      "repair": "Write subtraction of a negative as addition, then check each plotted pair.",
+      "problem": "Plot y = 2 − x for x = −1, 1, 3. Explain the downward trend.",
+      "marks": 4
+    },
+    {
+      "id": "g8-graphs-l02-w07",
+      "axis": {
+        "x_min": -2,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 9,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 1,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 1,
+          "y": 4,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 2,
+          "y": 7,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 4
+          },
+          {
+            "x": 2,
+            "y": 7
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 4
+          },
+          {
+            "x": 2,
+            "y": 7
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Replace x by 0: y = 1; plot (0, 1).",
+        "Replace x by 1: y = 4; plot (1, 4).",
+        "Replace x by 2: y = 7; plot (2, 7).",
+        "Draw the line; each x increase of one adds three to y."
+      ],
+      "memo": "Outputs 1, 4, 7 form (0, 1), (1, 4), (2, 7), all on y = 3x + 1.",
+      "misconception": "Using 3(x + 1) rather than 3x + 1",
+      "repair": "Multiply x first; add one only afterwards.",
+      "problem": "Complete y = 3x + 1 for x = 0, 1, 2, then plot and join the points.",
+      "marks": 4
+    },
+    {
+      "id": "g8-graphs-l02-w08",
+      "axis": {
+        "x_min": -2,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 6,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 4,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 1,
+          "y": 3,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 2,
+          "y": 2,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 4
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 4
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "The first column is (0, 4), on the y-axis.",
+        "The second column is (1, 3), not (3, 1).",
+        "The third column is (2, 2).",
+        "Join the falling points and read back all columns."
+      ],
+      "memo": "The graph uses (0, 4), (1, 3), (2, 2), satisfying y = 4 − x.",
+      "misconception": "Reversing the input-output ordered pairs",
+      "repair": "Place each column as (input, output) and project to both axes.",
+      "problem": "A table shows x: 0, 1, 2 and y: 4, 3, 2. Plot the pairs, not their reversed forms.",
+      "marks": 4
+    },
+    {
+      "id": "g8-graphs-l02-w09",
+      "axis": {
+        "x_min": -4,
+        "x_max": 8,
+        "y_min": -10,
+        "y_max": 20,
+        "x_tick": 2,
+        "y_tick": 5
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 0,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 2,
+          "y": 5,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 4,
+          "y": 10,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 5
+          },
+          {
+            "x": 4,
+            "y": 10
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 5
+          },
+          {
+            "x": 4,
+            "y": 10
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Read the x and y labels separately; plot (0, 0).",
+        "One x interval is two and one y interval is five, giving (2, 5).",
+        "Two x intervals give four and two y intervals give ten, giving (4, 10).",
+        "Join the aligned points; verify their numeric labels."
+      ],
+      "memo": "The plotted pairs (0, 0), (2, 5), (4, 10) form a straight line; one grid square represents different values on the two axes.",
+      "misconception": "Using one unit per square on both axes",
+      "repair": "Read the marked ticks before counting squares on either axis.",
+      "problem": "x ticks count by 2 and y ticks by 5. Plot table pairs (0, 0), (2, 5), (4, 10).",
+      "marks": 5
+    },
+    {
+      "id": "g8-graphs-l02-w10",
+      "axis": {
+        "x_min": -2,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 7,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 1,
+          "coordinates_hidden": true,
+          "x_read_step": 1,
+          "y_read_step": 1
+        },
+        {
+          "label": "B",
+          "x": 1,
+          "y": 3,
+          "coordinates_hidden": true,
+          "x_read_step": 2,
+          "y_read_step": 2
+        },
+        {
+          "label": "C",
+          "x": 2,
+          "y": 5,
+          "coordinates_hidden": true,
+          "x_read_step": 3,
+          "y_read_step": 3
+        }
+      ],
+      "derived": [],
+      "graph": {
+        "mode": "given_line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 5
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 5
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Project P: x = 0, y = 1; write the first table column.",
+        "Project Q: x = 1, y = 3; write the next column.",
+        "Project R: x = 2, y = 5; write the final column.",
+        "Read the columns in increasing x order and check y = 2x + 1."
+      ],
+      "memo": "The table has x: 0, 1, 2 and y: 1, 3, 5. The visible points satisfy y = 2x + 1.",
+      "misconception": "Reading graph points in label order without pairing x and y",
+      "repair": "Project each dot to its two labelled axes before entering a column.",
+      "problem": "The graph shows P at (0, 1), Q at (1, 3), R at (2, 5). Build the corresponding x/y table.",
+      "marks": 5
+    },
+    {
+      "id": "g8-graphs-l02-w11",
+      "axis": {
+        "x_min": -2,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 7,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [
+        {
+          "label": "Learner C",
+          "x": 2,
+          "y": 4,
+          "error": true,
+          "coordinates_hidden": true,
+          "x_read_step": 3,
+          "y_read_step": 3
+        }
+      ],
+      "derived": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 1,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 1,
+          "y": 3,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 2,
+          "y": 5,
+          "reveal_step": 4,
+          "horizontal_step": 4,
+          "vertical_step": 4
+        }
+      ],
+      "graph": {
+        "mode": "error",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 5
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 5
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Check x = 0: 2(0) + 1 = 1, so the first dot is right.",
+        "Check x = 1: 2(1) + 1 = 3, so the second dot is right.",
+        "At x = 2, 2(2) + 1 = 5, not 4.",
+        "Keep the incorrect dot visible and correct it to (2, 5)."
+      ],
+      "memo": "The first wrong point is (2, 4); replace it with (2, 5). The three correct points lie on y = 2x + 1.",
+      "misconception": "Stopping at multiplication and forgetting the final +1",
+      "repair": "Calculate 2(2) + 1 in two separate operations, then compare with the learner dot.",
+      "problem": "A learner plots y = 2x + 1 at (0, 1), (1, 3), (2, 4). Find and repair the wrong point.",
+      "marks": 5
+    },
+    {
+      "id": "g8-graphs-l02-w12",
+      "axis": {
+        "x_min": -2,
+        "x_max": 4,
+        "y_min": -10,
+        "y_max": 30,
+        "x_tick": 1,
+        "y_tick": 5,
+        "x_unit": "tickets",
+        "y_unit": "R"
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 10,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 1,
+          "y": 15,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 2,
+          "y": 20,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "discrete",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 10
+          },
+          {
+            "x": 1,
+            "y": 15
+          },
+          {
+            "x": 2,
+            "y": 20
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 10
+          },
+          {
+            "x": 1,
+            "y": 15
+          },
+          {
+            "x": 2,
+            "y": 20
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Zero tickets still incurs the R10 booking fee: (0, 10).",
+        "One ticket costs 10 + 5 = 15: plot (1, 15).",
+        "Two tickets cost 10 + 10 = 20: plot (2, 20).",
+        "Keep separate dots: half a whole ticket is not an allowed input."
+      ],
+      "memo": "At x = 0, 1, 2 the totals are R10, R15, R20. Whole tickets give discrete points; do not imply fractional tickets by joining them.",
+      "misconception": "Joining discrete points and suggesting half a ticket",
+      "repair": "Ask whether x = 1.5 tickets is permitted before drawing any connecting line.",
+      "problem": "Each whole ticket costs R5 plus one R10 booking fee. Plot total cost for 0, 1, 2 tickets. Should the dots be joined?",
+      "marks": 6
+    },
+    {
+      "id": "g8-graphs-l02-w13",
+      "axis": {
+        "x_min": -4,
+        "x_max": 8,
+        "y_min": -2,
+        "y_max": 10,
+        "x_tick": 2,
+        "y_tick": 1,
+        "x_unit": "hours",
+        "y_unit": "°C"
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 2,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 2,
+          "y": 5,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 4,
+          "y": 8,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 5
+          },
+          {
+            "x": 4,
+            "y": 8
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 5
+          },
+          {
+            "x": 4,
+            "y": 8
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Label time on x and temperature on y; plot (0, 2).",
+        "At 2 hours the temperature is 5 °C; plot (2, 5).",
+        "At 4 hours the temperature is 8 °C; plot (4, 8).",
+        "Draw the straight trend through the measured points."
+      ],
+      "memo": "The measured pairs are (0, 2), (2, 5), (4, 8), with a rise of 3 °C every 2 hours across the sampled interval.",
+      "misconception": "Swapping the time and temperature axes",
+      "repair": "Read units beside both axes and interpret (2, 5) aloud.",
+      "problem": "A temperature graph uses time 0, 2, 4 hours and values 2, 5, 8 °C. Plot and draw the measured straight trend.",
+      "marks": 6
+    },
+    {
+      "id": "g8-graphs-l02-w14",
+      "axis": {
+        "x_min": -2,
+        "x_max": 5,
+        "y_min": -2,
+        "y_max": 12,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 1,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 1,
+          "y": 4,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 2,
+          "y": 7,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        },
+        {
+          "label": "D",
+          "x": 3,
+          "y": 10,
+          "reveal_step": 4,
+          "horizontal_step": 4,
+          "vertical_step": 4
+        }
+      ],
+      "graph": {
+        "mode": "line",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 4
+          },
+          {
+            "x": 2,
+            "y": 7
+          },
+          {
+            "x": 3,
+            "y": 10
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 4
+          },
+          {
+            "x": 2,
+            "y": 7
+          },
+          {
+            "x": 3,
+            "y": 10
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Plot the known pair (0, 1).",
+        "Plot (1, 4) and (2, 7), retaining the first dot.",
+        "Extend the table: y = 3(3) + 1 = 10.",
+        "Plot (3, 10), draw the line and verify it follows the rule."
+      ],
+      "memo": "At x = 3 the next output is 10, so (3, 10) extends the same straight line y = 3x + 1.",
+      "misconception": "Extending the x pattern but leaving y at 7",
+      "repair": "Use the rule, not just the diagram, to calculate the new output.",
+      "problem": "The rule y = 3x + 1 gives (0, 1), (1, 4), (2, 7). Predict and plot the next point at x = 3.",
+      "marks": 6
+    },
+    {
+      "id": "g8-graphs-l02-w15",
+      "axis": {
+        "x_min": -2,
+        "x_max": 5,
+        "y_min": -2,
+        "y_max": 11,
+        "x_tick": 1,
+        "y_tick": 1
+      },
+      "given": [],
+      "derived": [
+        {
+          "label": "A",
+          "x": 0,
+          "y": 0,
+          "reveal_step": 1,
+          "horizontal_step": 1,
+          "vertical_step": 1
+        },
+        {
+          "label": "B",
+          "x": 1,
+          "y": 1,
+          "reveal_step": 2,
+          "horizontal_step": 2,
+          "vertical_step": 2
+        },
+        {
+          "label": "C",
+          "x": 2,
+          "y": 4,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        },
+        {
+          "label": "D",
+          "x": 3,
+          "y": 9,
+          "reveal_step": 3,
+          "horizontal_step": 3,
+          "vertical_step": 3
+        }
+      ],
+      "graph": {
+        "mode": "nonlinear",
+        "line_reveal_step": 4,
+        "table": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 9
+          }
+        ],
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 9
+          }
+        ]
+      },
+      "operation": "table_to_graph",
+      "actions": [
+        "Plot (0, 0) from the first column.",
+        "Plot (1, 1) and (2, 4) from their own columns.",
+        "Plot (3, 9); keep the previous dots visible.",
+        "Compare rises 1, 3, 5: they differ, so reject one straight line."
+      ],
+      "memo": "The pairs (0, 0), (1, 1), (2, 4), (3, 9) have unequal rises 1, 3, 5 for equal x-steps. Do not draw a single straight line through them.",
+      "misconception": "Forcing any table into a straight-line graph",
+      "repair": "Compare successive y-differences for equal x-steps before choosing a straight line.",
+      "problem": "Table x: 0, 1, 2, 3; y: 0, 1, 4, 9. Plot all pairs. Is one straight line through them justified?",
+      "marks": 7
+    }
+  ]
+}

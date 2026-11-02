@@ -38,7 +38,7 @@ def test_public_lesson_and_practice_are_gated():
         topic=client.get('/api/v1/curriculum/grades/grade-8/topics/functions-relationships')
         assert topic.status_code==200
         assert [row['id'] for part in topic.json()['subtopics'] for row in part['lessons']]==[
-            'g8-functions-relationships-01',LESSON.id,'g8-functions-relationships-03','g8-functions-relationships-04']
+            'g8-functions-relationships-01',LESSON.id,'g8-functions-relationships-03','g8-functions-relationships-04','g8-functions-relationships-05','g8-functions-relationships-06']
         assert 'grade8-equivalence-renderers.js' in client.get('/lesson.html').text
         response=client.get('/api/v1/lessons/'+LESSON.id)
         assert response.status_code==200,response.text

@@ -1,0 +1,274 @@
+{
+  "scenes": [
+    {
+      "id": "g8-frac-l05-w01",
+      "kind": "square",
+      "values": [
+        "2/3"
+      ],
+      "exponent": 2,
+      "problem": "Find the square of 2/3.",
+      "answer": "4/9",
+      "rows": [
+        "Start with 2/3 as a part of the same whole. The exponent 2 means 2 identical factors.",
+        "Convert 2/3 to 2/3; show 2 copies, each with its own numerator and denominator.",
+        "Multiply across all 2 factors: 2^2/3^2 = 4/9 = 4/9."
+      ],
+      "memo": "Check: the product of 2 copies of 2/3 equals 4/9; the unit squares model counts both numerator and denominator factors.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w02",
+      "kind": "square",
+      "values": [
+        "3/5"
+      ],
+      "exponent": 2,
+      "problem": "Calculate (3/5)² and simplify.",
+      "answer": "9/25",
+      "rows": [
+        "Start with 3/5 as a part of the same whole. The exponent 2 means 2 identical factors.",
+        "Convert 3/5 to 3/5; show 2 copies, each with its own numerator and denominator.",
+        "Multiply across all 2 factors: 3^2/5^2 = 9/25 = 9/25."
+      ],
+      "memo": "Check: the product of 2 copies of 3/5 equals 9/25; the unit squares model counts both numerator and denominator factors.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w03",
+      "kind": "root",
+      "values": [
+        "9/16"
+      ],
+      "exponent": 2,
+      "problem": "Find the positive square root of 9/16.",
+      "answer": "3/4",
+      "rows": [
+        "Start with 9/16; a positive 2th root asks which positive fraction repeated 2 times produces it.",
+        "Partition 9/16 into unit squares; separate numerator and denominator roots.",
+        "The numerator root is 3 and the denominator root is 4, giving 3/4."
+      ],
+      "memo": "Check: (3/4)^2 = 9/16; multiplying 2 identical factors returns the original fraction.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w04",
+      "kind": "cube",
+      "values": [
+        "2/3"
+      ],
+      "exponent": 3,
+      "problem": "Find the cube of 2/3.",
+      "answer": "8/27",
+      "rows": [
+        "Start with 2/3 as a part of the same whole. The exponent 3 means 3 identical factors.",
+        "Convert 2/3 to 2/3; show 3 copies, each with its own numerator and denominator.",
+        "Multiply across all 3 factors: 2^3/3^3 = 8/27 = 8/27."
+      ],
+      "memo": "Check: the product of 3 copies of 2/3 equals 8/27; the unit cubes model counts both numerator and denominator factors.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w05",
+      "kind": "root",
+      "values": [
+        "8/27"
+      ],
+      "exponent": 3,
+      "problem": "Find the positive cube root of 8/27.",
+      "answer": "2/3",
+      "rows": [
+        "Start with 8/27; a positive 3th root asks which positive fraction repeated 3 times produces it.",
+        "Partition 8/27 into unit cubes; separate numerator and denominator roots.",
+        "The numerator root is 2 and the denominator root is 3, giving 2/3."
+      ],
+      "memo": "Check: (2/3)^3 = 8/27; multiplying 3 identical factors returns the original fraction.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w06",
+      "kind": "square",
+      "values": [
+        "5/4"
+      ],
+      "exponent": 2,
+      "problem": "Square 5/4; give an exact mixed-number result.",
+      "answer": "1 9/16",
+      "rows": [
+        "Start with 5/4 as a part of the same whole. The exponent 2 means 2 identical factors.",
+        "Convert 5/4 to 5/4; show 2 copies, each with its own numerator and denominator.",
+        "Multiply across all 2 factors: 5^2/4^2 = 25/16 = 1 9/16."
+      ],
+      "memo": "Check: the product of 2 copies of 5/4 equals 1 9/16; the unit squares model counts both numerator and denominator factors.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w07",
+      "kind": "root",
+      "values": [
+        "25/36"
+      ],
+      "exponent": 2,
+      "problem": "What positive fraction has square 25/36?",
+      "answer": "5/6",
+      "rows": [
+        "Start with 25/36; a positive 2th root asks which positive fraction repeated 2 times produces it.",
+        "Partition 25/36 into unit squares; separate numerator and denominator roots.",
+        "The numerator root is 5 and the denominator root is 6, giving 5/6."
+      ],
+      "memo": "Check: (5/6)^2 = 25/36; multiplying 2 identical factors returns the original fraction.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w08",
+      "kind": "cube",
+      "values": [
+        "3/4"
+      ],
+      "exponent": 3,
+      "problem": "Find (3/4)³.",
+      "answer": "27/64",
+      "rows": [
+        "Start with 3/4 as a part of the same whole. The exponent 3 means 3 identical factors.",
+        "Convert 3/4 to 3/4; show 3 copies, each with its own numerator and denominator.",
+        "Multiply across all 3 factors: 3^3/4^3 = 27/64 = 27/64."
+      ],
+      "memo": "Check: the product of 3 copies of 3/4 equals 27/64; the unit cubes model counts both numerator and denominator factors.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w09",
+      "kind": "root",
+      "values": [
+        "64/125"
+      ],
+      "exponent": 3,
+      "problem": "Find the cube root of 64/125.",
+      "answer": "4/5",
+      "rows": [
+        "Start with 64/125; a positive 3th root asks which positive fraction repeated 3 times produces it.",
+        "Partition 64/125 into unit cubes; separate numerator and denominator roots.",
+        "The numerator root is 4 and the denominator root is 5, giving 4/5."
+      ],
+      "memo": "Check: (4/5)^3 = 64/125; multiplying 3 identical factors returns the original fraction.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w10",
+      "kind": "square",
+      "values": [
+        "1 1/2"
+      ],
+      "exponent": 2,
+      "problem": "Square 1 1/2 after converting it to an improper fraction.",
+      "answer": "2 1/4",
+      "rows": [
+        "Start with 1 1/2 as a part of the same whole. The exponent 2 means 2 identical factors.",
+        "Convert 1 1/2 to 3/2; show 2 copies, each with its own numerator and denominator.",
+        "Multiply across all 2 factors: 3^2/2^2 = 9/4 = 2 1/4."
+      ],
+      "memo": "Check: the product of 2 copies of 1 1/2 equals 2 1/4; the unit squares model counts both numerator and denominator factors.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w11",
+      "kind": "cube",
+      "values": [
+        "1 1/3"
+      ],
+      "exponent": 3,
+      "problem": "Cube 1 1/3 after converting it to an improper fraction.",
+      "answer": "2 10/27",
+      "rows": [
+        "Start with 1 1/3 as a part of the same whole. The exponent 3 means 3 identical factors.",
+        "Convert 1 1/3 to 4/3; show 3 copies, each with its own numerator and denominator.",
+        "Multiply across all 3 factors: 4^3/3^3 = 64/27 = 2 10/27."
+      ],
+      "memo": "Check: the product of 3 copies of 1 1/3 equals 2 10/27; the unit cubes model counts both numerator and denominator factors.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w12",
+      "kind": "root",
+      "values": [
+        "81/100"
+      ],
+      "exponent": 2,
+      "problem": "Find √(81/100) and check by squaring.",
+      "answer": "9/10",
+      "rows": [
+        "Start with 81/100; a positive 2th root asks which positive fraction repeated 2 times produces it.",
+        "Partition 81/100 into unit squares; separate numerator and denominator roots.",
+        "The numerator root is 9 and the denominator root is 10, giving 9/10."
+      ],
+      "memo": "Check: (9/10)^2 = 81/100; multiplying 2 identical factors returns the original fraction.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w13",
+      "kind": "root",
+      "values": [
+        "27/64"
+      ],
+      "exponent": 3,
+      "problem": "Find ∛(27/64) and check by cubing.",
+      "answer": "3/4",
+      "rows": [
+        "Start with 27/64; a positive 3th root asks which positive fraction repeated 3 times produces it.",
+        "Partition 27/64 into unit cubes; separate numerator and denominator roots.",
+        "The numerator root is 3 and the denominator root is 4, giving 3/4."
+      ],
+      "memo": "Check: (3/4)^3 = 27/64; multiplying 3 identical factors returns the original fraction.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w14",
+      "kind": "square",
+      "values": [
+        "7/6"
+      ],
+      "exponent": 2,
+      "problem": "Square 7/6 and express the result as a mixed number.",
+      "answer": "1 13/36",
+      "rows": [
+        "Start with 7/6 as a part of the same whole. The exponent 2 means 2 identical factors.",
+        "Convert 7/6 to 7/6; show 2 copies, each with its own numerator and denominator.",
+        "Multiply across all 2 factors: 7^2/6^2 = 49/36 = 1 13/36."
+      ],
+      "memo": "Check: the product of 2 copies of 7/6 equals 1 13/36; the unit squares model counts both numerator and denominator factors.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    },
+    {
+      "id": "g8-frac-l05-w15",
+      "kind": "root",
+      "values": [
+        "121/144"
+      ],
+      "exponent": 2,
+      "problem": "A square has area 121/144 square metres. Find its positive side length.",
+      "answer": "11/12",
+      "rows": [
+        "Start with 121/144; a positive 2th root asks which positive fraction repeated 2 times produces it.",
+        "Partition 121/144 into unit squares; separate numerator and denominator roots.",
+        "The numerator root is 11 and the denominator root is 12, giving 11/12."
+      ],
+      "memo": "Check: (11/12)^2 = 121/144; multiplying 2 identical factors returns the original fraction.",
+      "misconception": "The exponent or root acts on both numerator and denominator; a root cannot be made by dividing them by the index.",
+      "visual_family": "fraction_power"
+    }
+  ]
+}

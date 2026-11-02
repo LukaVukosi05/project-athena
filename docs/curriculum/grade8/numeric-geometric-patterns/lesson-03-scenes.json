@@ -1,0 +1,394 @@
+{
+  "scenes": [
+    {
+      "id": "g8-patterns-l03-w01",
+      "title": "Three more each time",
+      "problem": "Three more each time: the outputs at positions 1, 2, 3, 4 are 5, 7, 9, 11. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "family": "linear",
+      "a": 2,
+      "b": 3,
+      "rule": "2n + 3",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "2n + 3",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 5, 7, 9, 11.",
+        "Calculate adjacent differences. Every change is 2; this is the coefficient of n.",
+        "Use position one: 5 = 2 × 1 + b, so the fixed part b is 3.",
+        "Write T(n) = 2n + 3. Substitute n=4 and check that the result is 11."
+      ],
+      "memo": "T(n) = 2n + 3. At n=1, T(1)=5; at n=4, T(4)=11. Count the first term as 5; two new pieces are added for every new position.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w02",
+      "title": "Five at position one",
+      "problem": "Five at position one: the outputs at positions 1, 2, 3, 4 are 5, 9, 13, 17. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        5,
+        9,
+        13,
+        17
+      ],
+      "family": "linear",
+      "a": 4,
+      "b": 1,
+      "rule": "4n + 1",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "4n + 1",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 5, 9, 13, 17.",
+        "Calculate adjacent differences. Every change is 4; this is the coefficient of n.",
+        "Use position one: 5 = 4 × 1 + b, so the fixed part b is 1.",
+        "Write T(n) = 4n + 1. Substitute n=4 and check that the result is 17."
+      ],
+      "memo": "T(n) = 4n + 1. At n=1, T(1)=5; at n=4, T(4)=17. The first term is 5 and each move adds four.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w03",
+      "title": "Negative offset",
+      "problem": "Negative offset: the outputs at positions 1, 2, 3, 4 are 1, 4, 7, 10. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "family": "linear",
+      "a": 3,
+      "b": -2,
+      "rule": "3n − 2",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "3n − 2",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 1, 4, 7, 10.",
+        "Calculate adjacent differences. Every change is 3; this is the coefficient of n.",
+        "Use position one: 1 = 3 × 1 + b, so the fixed part b is -2.",
+        "Write T(n) = 3n − 2. Substitute n=4 and check that the result is 10."
+      ],
+      "memo": "T(n) = 3n − 2. At n=1, T(1)=1; at n=4, T(4)=10. The position contribution is three groups of n, reduced by two.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w04",
+      "title": "Starting below zero",
+      "problem": "Starting below zero: the outputs at positions 1, 2, 3, 4 are -4, 1, 6, 11. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        -4,
+        1,
+        6,
+        11
+      ],
+      "family": "linear",
+      "a": 5,
+      "b": -9,
+      "rule": "5n − 9",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "5n − 9",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs -4, 1, 6, 11.",
+        "Calculate adjacent differences. Every change is 5; this is the coefficient of n.",
+        "Use position one: -4 = 5 × 1 + b, so the fixed part b is -9.",
+        "Write T(n) = 5n − 9. Substitute n=4 and check that the result is 11."
+      ],
+      "memo": "T(n) = 5n − 9. At n=1, T(1)=-4; at n=4, T(4)=11. The first two outputs are −4 and 1; a positive step crosses zero.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w05",
+      "title": "Decreasing by two",
+      "problem": "Decreasing by two: the outputs at positions 1, 2, 3, 4 are 15, 13, 11, 9. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        15,
+        13,
+        11,
+        9
+      ],
+      "family": "linear",
+      "a": -2,
+      "b": 17,
+      "rule": "-2n + 17",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "-2n + 17",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 15, 13, 11, 9.",
+        "Calculate adjacent differences. Every change is -2; this is the coefficient of n.",
+        "Use position one: 15 = -2 × 1 + b, so the fixed part b is 17.",
+        "Write T(n) = -2n + 17. Substitute n=4 and check that the result is 9."
+      ],
+      "memo": "T(n) = -2n + 17. At n=1, T(1)=15; at n=4, T(4)=9. The value falls by two as the position increases by one.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w06",
+      "title": "Decreasing from zero",
+      "problem": "Decreasing from zero: the outputs at positions 1, 2, 3, 4 are 0, -3, -6, -9. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        0,
+        -3,
+        -6,
+        -9
+      ],
+      "family": "linear",
+      "a": -3,
+      "b": 3,
+      "rule": "-3n + 3",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "-3n + 3",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 0, -3, -6, -9.",
+        "Calculate adjacent differences. Every change is -3; this is the coefficient of n.",
+        "Use position one: 0 = -3 × 1 + b, so the fixed part b is 3.",
+        "Write T(n) = -3n + 3. Substitute n=4 and check that the result is -9."
+      ],
+      "memo": "T(n) = -3n + 3. At n=1, T(1)=0; at n=4, T(4)=-9. Position one is zero; subsequent values are negative.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w07",
+      "title": "Through the origin",
+      "problem": "Through the origin: the outputs at positions 1, 2, 3, 4 are 6, 12, 18, 24. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        6,
+        12,
+        18,
+        24
+      ],
+      "family": "linear",
+      "a": 6,
+      "b": 0,
+      "rule": "6n",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "6n",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 6, 12, 18, 24.",
+        "Calculate adjacent differences. Every change is 6; this is the coefficient of n.",
+        "Use position one: 6 = 6 × 1 + b, so the fixed part b is 0.",
+        "Write T(n) = 6n. Substitute n=4 and check that the result is 24."
+      ],
+      "memo": "T(n) = 6n. At n=1, T(1)=6; at n=4, T(4)=24. Every output is six groups of the position.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w08",
+      "title": "Constant pattern",
+      "problem": "Constant pattern: the outputs at positions 1, 2, 3, 4 are 9, 9, 9, 9. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "family": "linear",
+      "a": 0,
+      "b": 9,
+      "rule": "0n + 9",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "0n + 9",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 9, 9, 9, 9.",
+        "Calculate adjacent differences. Every change is 0; this is the coefficient of n.",
+        "Use position one: 9 = 0 × 1 + b, so the fixed part b is 9.",
+        "Write T(n) = 0n + 9. Substitute n=4 and check that the result is 9."
+      ],
+      "memo": "T(n) = 0n + 9. At n=1, T(1)=9; at n=4, T(4)=9. The output stays nine at every position; the coefficient of n is zero.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w09",
+      "title": "Taxi fare",
+      "problem": "Taxi fare: the outputs at positions 1, 2, 3, 4 are 19, 26, 33, 40. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        19,
+        26,
+        33,
+        40
+      ],
+      "family": "linear",
+      "a": 7,
+      "b": 12,
+      "rule": "7n + 12",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "7n + 12",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 19, 26, 33, 40.",
+        "Calculate adjacent differences. Every change is 7; this is the coefficient of n.",
+        "Use position one: 19 = 7 × 1 + b, so the fixed part b is 12.",
+        "Write T(n) = 7n + 12. Substitute n=4 and check that the result is 40."
+      ],
+      "memo": "T(n) = 7n + 12. At n=1, T(1)=19; at n=4, T(4)=40. The fixed charge is R12, with R7 per kilometre.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w10",
+      "title": "Stack of cards",
+      "problem": "Stack of cards: the outputs at positions 1, 2, 3, 4 are 1, 5, 9, 13. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        1,
+        5,
+        9,
+        13
+      ],
+      "family": "linear",
+      "a": 4,
+      "b": -3,
+      "rule": "4n − 3",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "4n − 3",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 1, 5, 9, 13.",
+        "Calculate adjacent differences. Every change is 4; this is the coefficient of n.",
+        "Use position one: 1 = 4 × 1 + b, so the fixed part b is -3.",
+        "Write T(n) = 4n − 3. Substitute n=4 and check that the result is 13."
+      ],
+      "memo": "T(n) = 4n − 3. At n=1, T(1)=1; at n=4, T(4)=13. The first card contributes one visible unit; each later card adds four.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w11",
+      "title": "Saving weekly",
+      "problem": "Saving weekly: the outputs at positions 1, 2, 3, 4 are 35, 50, 65, 80. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        35,
+        50,
+        65,
+        80
+      ],
+      "family": "linear",
+      "a": 15,
+      "b": 20,
+      "rule": "15n + 20",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "15n + 20",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 35, 50, 65, 80.",
+        "Calculate adjacent differences. Every change is 15; this is the coefficient of n.",
+        "Use position one: 35 = 15 × 1 + b, so the fixed part b is 20.",
+        "Write T(n) = 15n + 20. Substitute n=4 and check that the result is 80."
+      ],
+      "memo": "T(n) = 15n + 20. At n=1, T(1)=35; at n=4, T(4)=80. The starting savings is R20 and each week adds R15.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w12",
+      "title": "Cooling chamber",
+      "problem": "Cooling chamber: the outputs at positions 1, 2, 3, 4 are 20, 16, 12, 8. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        20,
+        16,
+        12,
+        8
+      ],
+      "family": "linear",
+      "a": -4,
+      "b": 24,
+      "rule": "-4n + 24",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "-4n + 24",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 20, 16, 12, 8.",
+        "Calculate adjacent differences. Every change is -4; this is the coefficient of n.",
+        "Use position one: 20 = -4 × 1 + b, so the fixed part b is 24.",
+        "Write T(n) = -4n + 24. Substitute n=4 and check that the result is 8."
+      ],
+      "memo": "T(n) = -4n + 24. At n=1, T(1)=20; at n=4, T(4)=8. The initial temperature contribution is 24°C and falls four degrees per interval.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w13",
+      "title": "Fractional rate",
+      "problem": "Fractional rate: the outputs at positions 1, 2, 3, 4 are 2.5, 3, 3.5, 4. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "family": "linear",
+      "a": 0.5,
+      "b": 2,
+      "rule": "0.5n + 2",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "0.5n + 2",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 2.5, 3, 3.5, 4.",
+        "Calculate adjacent differences. Every change is 0.5; this is the coefficient of n.",
+        "Use position one: 2.5 = 0.5 × 1 + b, so the fixed part b is 2.",
+        "Write T(n) = 0.5n + 2. Substitute n=4 and check that the result is 4."
+      ],
+      "memo": "T(n) = 0.5n + 2. At n=1, T(1)=2.5; at n=4, T(4)=4. One half is added for each increase of one in position.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w14",
+      "title": "Compare offsets",
+      "problem": "Compare offsets: the outputs at positions 1, 2, 3, 4 are 11, 14, 17, 20. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        11,
+        14,
+        17,
+        20
+      ],
+      "family": "linear",
+      "a": 3,
+      "b": 8,
+      "rule": "3n + 8",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "3n + 8",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 11, 14, 17, 20.",
+        "Calculate adjacent differences. Every change is 3; this is the coefficient of n.",
+        "Use position one: 11 = 3 × 1 + b, so the fixed part b is 8.",
+        "Write T(n) = 3n + 8. Substitute n=4 and check that the result is 20."
+      ],
+      "memo": "T(n) = 3n + 8. At n=1, T(1)=11; at n=4, T(4)=20. A rule of 3n + 8 fits all four values; 3n + 5 does not fit position one.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    },
+    {
+      "id": "g8-patterns-l03-w15",
+      "title": "Large position",
+      "problem": "Large position: the outputs at positions 1, 2, 3, 4 are 40, 35, 30, 25. Write one algebraic rule T(n) for the value at position n. Verify it at position 4.",
+      "terms": [
+        40,
+        35,
+        30,
+        25
+      ],
+      "family": "linear",
+      "a": -5,
+      "b": 45,
+      "rule": "-5n + 45",
+      "model": "rule_table",
+      "target_position": 6,
+      "answer": "-5n + 45",
+      "actions": [
+        "Align positions 1, 2, 3, 4 above outputs 40, 35, 30, 25.",
+        "Calculate adjacent differences. Every change is -5; this is the coefficient of n.",
+        "Use position one: 40 = -5 × 1 + b, so the fixed part b is 45.",
+        "Write T(n) = -5n + 45. Substitute n=4 and check that the result is 25."
+      ],
+      "memo": "T(n) = -5n + 45. At n=1, T(1)=40; at n=4, T(4)=25. The output falls by five per step, so test the rule again at a later position.",
+      "misconception": "A rule matched only one adjacent pair rather than all known positions."
+    }
+  ]
+}

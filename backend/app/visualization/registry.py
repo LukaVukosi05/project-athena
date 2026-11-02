@@ -23,7 +23,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l01|g8-fr-l04)-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -115,7 +115,7 @@ def _grade8_equation_visual(parameters: dict) -> None:
         raise ValueError("Grade 8 equation question_id is invalid")
 
 def _grade8_function_visual(parameters: dict) -> None:
-    if not re.fullmatch(r"g8-fr-l0[1-4]-w(?:0[1-9]|1[0-5])", str(parameters["question_id"])):
+    if not re.fullmatch(r"g8-fr-l0[1-6]-w(?:0[1-9]|1[0-5])", str(parameters["question_id"])):
         raise ValueError("Grade 8 functions question ID is invalid")
     if not isinstance(parameters["prompt"], str) or not parameters["prompt"].strip():
         raise ValueError("Functions problem text is required")
@@ -269,6 +269,450 @@ def _coordinate_scene(parameters: dict) -> None:
     _semantic_workbench({**parameters, "prompt":"coordinate scene", "answer":"coordinate result", "family":"coordinate_scene"})
 
 
+def _grade8_fraction_strips(parameters: dict) -> None:
+    import json
+    from app.curriculum.grade8.fractions_math import answer,common_denominator,value
+    scene=json.loads(parameters["scene_json"])
+    values=scene.get("values")
+    kind=scene.get("kind")
+    if (scene.get("id")!=parameters["question_id"] or scene.get("problem")!=parameters["prompt"]
+        or kind not in {"equivalent","compare","order","convert","arithmetic"}
+        or not isinstance(values,list) or not 1<=len(values)<=4
+        or len(scene.get("rows",[]))!=3 or parameters["total_steps"]!=5):
+        raise ValueError("Fraction question requires its own bounded complete strips")
+    if any(not isinstance(v,str) or not 1<=len(v)<=12 or not 0<value(v)<=5 or value(v).denominator>24 for v in values):
+        raise ValueError("Fraction strips require positive bounded rational values")
+    if len(values)!={"equivalent":2,"compare":2,"order":3,"convert":1}.get(kind,len(values)):
+        raise ValueError("Fraction task uses the wrong number of original values")
+    operators=scene.get("operators")
+    if kind=="arithmetic":
+        if not isinstance(operators,list) or len(operators)!=len(values)-1 or any(op not in {"+","-"} for op in operators):
+            raise ValueError("Fraction calculation must preserve the original operations")
+    elif operators is not None:
+        raise ValueError("Comparison does not use arithmetic operators")
+    expected=answer(kind,values,operators)
+    if scene.get("answer")!=expected or scene.get("common_denominator")!=common_denominator(values):
+        raise ValueError("Fraction answer or common unit does not match the source fractions")
+    if kind=="arithmetic" and not isinstance(scene.get("memo"),str):
+        raise ValueError("Fraction arithmetic needs a verification memo")
+
+
+def _grade8_fraction_operations(parameters: dict) -> None:
+    import json
+    from app.curriculum.grade8.fractions_math import answer,common_denominator,value
+    scene=json.loads(parameters["scene_json"])
+    values=scene.get("values")
+    kind=scene.get("kind")
+    if (scene.get("id")!=parameters["question_id"] or scene.get("problem")!=parameters["prompt"]
+        or kind not in {"multiply","divide"} or not isinstance(values,list) or len(values)!=2
+        or len(scene.get("rows",[]))!=3 or parameters["total_steps"]!=5):
+        raise ValueError("Fraction operation requires a matching question and complete steps")
+    if any(not isinstance(v,str) or not 1<=len(v)<=12 or not 0<value(v)<=36 or value(v).denominator>24 for v in values):
+        raise ValueError("Fraction group/area requires positive bounded operands")
+    if scene.get("common_denominator") != common_denominator(values) or scene.get("answer") != answer(kind,values):
+        raise ValueError("Fraction result or partition disagrees with exact rational arithmetic")
+    if any(not isinstance(row,str) or not row.strip() for row in scene['rows']) or not isinstance(scene.get('memo'),str):
+        raise ValueError("Fraction operation requires authored reasoning and verification")
+
+
+def _grade8_decimal_operation(parameters: dict, expected_kind: str) -> None:
+    import json,re
+    from app.curriculum.grade8.decimal_math import operation
+    scene=json.loads(parameters['scene_json']);values=scene.get('values')
+    if (scene.get('kind')!=expected_kind or not isinstance(values,list) or len(values)!=2
+        or not all(isinstance(v,str) and re.fullmatch(r'\d{1,3}\.\d{1,5}',v) for v in values)
+        or scene.get('id')!=parameters['question_id'] or scene.get('problem')!=parameters['prompt']):
+        raise ValueError('Decimal operation needs matching bounded source values and task')
+    try:answer,rows,problem,memo=operation(expected_kind,values)
+    except (ValueError,ArithmeticError) as exc:raise ValueError('Unsupported decimal operation') from exc
+    if (scene.get('answer')!=answer or scene.get('rows')!=rows or scene.get('problem')!=problem
+        or scene.get('memo')!=memo or parameters['total_steps']!=len(rows)+2
+        or scene.get('visual_family')!=('decimal_product' if expected_kind=='multiply' else 'decimal_quotient')):
+        raise ValueError('Decimal operation scene disagrees with exact arithmetic or teaching steps')
+
+
+def _grade8_decimal_product(parameters: dict) -> None:
+    _grade8_decimal_operation(parameters,'multiply')
+
+
+def _grade8_decimal_quotient(parameters: dict) -> None:
+    _grade8_decimal_operation(parameters,'divide')
+
+
+def _grade8_exponent_scene(parameters: dict, expected_lesson: int) -> None:
+    import json,re
+    from app.curriculum.grade8.exponent_math import solve
+    from app.curriculum.grade8.exponent_roots_math import solve as roots_solve
+    from app.curriculum.grade8.exponent_reasoning_math import solve as reasoning_solve
+    scene=json.loads(parameters['scene_json']);values=scene.get('values');kind=scene.get('kind')
+    allowed={1:{'expand','negative','compare','science'},
+             2:{'product','quotient','zero','power_product','mixed'},
+             3:{'square_root','cube_root','root_pair','square_area','cube_volume'},
+             4:{'mixed','square_area','cube_volume'},
+             5:{'sign_audit','root_audit','quotient_audit','root_sum_audit','mixed_audit'},
+             6:{'square_perimeter_gap','cube_edge_gap','side_area_gap','root_power_compare','combined_perimeter'}}[expected_lesson]
+    if (kind not in allowed or not isinstance(values,list) or not 1<=len(values)<=4
+        or any(not isinstance(v,str) or not re.fullmatch(r'-?\d{1,9}',v) for v in values)
+        or scene.get('id')!=parameters['question_id'] or scene.get('problem')!=parameters['prompt']):
+        raise ValueError('Exponent lesson requires a matching bounded question and type')
+    answer,rows,problem,memo=(solve if expected_lesson<3 else roots_solve if expected_lesson<5 else reasoning_solve)(kind,values)
+    if (scene.get('answer')!=answer or scene.get('rows')!=rows or scene.get('problem')!=problem
+        or scene.get('memo')!=memo or parameters['total_steps']!=len(rows)+2
+        or scene.get('visual_family')!=('ten_place_shift' if kind=='science' else 'power_factors' if expected_lesson<3 else 'root_square_cube' if expected_lesson==3 else 'root_application' if expected_lesson==4 else 'exponent_error_trace' if expected_lesson==5 else 'exponent_context_measure')):
+        raise ValueError('Exponent scene disagrees with exact arithmetic or steps')
+
+
+def _grade8_decimal_power_root(parameters: dict, expected_kind: str) -> None:
+    import json,re
+    from app.curriculum.grade8.decimal_math import power_root
+    scene=json.loads(parameters['scene_json']);values=scene.get('values')
+    if (scene.get('kind')!=expected_kind or not isinstance(values,list) or len(values)!=2
+        or not isinstance(values[0],str) or not re.fullmatch(r'\d{1,3}\.\d{1,5}',values[0])
+        or values[1] not in ('2','3') or scene.get('id')!=parameters['question_id']
+        or scene.get('problem')!=parameters['prompt']):
+        raise ValueError('Decimal powers/roots need matching bounded values and task')
+    answer,rows,problem,memo=power_root(expected_kind,values)
+    if (scene.get('answer')!=answer or scene.get('rows')!=rows or scene.get('problem')!=problem
+        or scene.get('memo')!=memo or parameters['total_steps']!=len(rows)+2
+        or scene.get('visual_family')!=('decimal_power' if expected_kind=='power' else 'decimal_root')):
+        raise ValueError('Decimal power/root scene disagrees with exact arithmetic')
+
+
+def _grade8_decimal_scene(parameters: dict) -> None:
+    import json,re
+    from app.curriculum.grade8.decimal_math import solution
+    scene=json.loads(parameters['scene_json'])
+    kind=scene.get('kind');values=scene.get('values')
+    expected_len={'place':2,'compare':2,'order':3,'round':2,'estimate':3}
+    if (kind not in expected_len or not isinstance(values,list) or len(values)!=expected_len[kind]
+        or scene.get('id')!=parameters['question_id'] or scene.get('problem')!=parameters['prompt']
+        or parameters['total_steps']!=5 or len(scene.get('rows',[]))!=3):
+        raise ValueError('Decimal scene requires complete matching question data')
+    numeric=values[:1] if kind in {'place','round'} else values[:2] if kind in {'compare','estimate'} else values
+    if any(not isinstance(v,str) or not re.fullmatch(r'\d{1,3}\.\d{1,5}',v) for v in numeric):
+        raise ValueError('Decimal operands must be bounded and include decimal digits')
+    try: answer,rows,problem,check=solution(kind,values)
+    except (ValueError,ArithmeticError) as exc:raise ValueError('Unsupported decimal values or place') from exc
+    if any(scene.get(k)!=v for k,v in {'answer':answer,'rows':rows,'problem':problem,'memo':check}.items()):
+        raise ValueError('Decimal scene disagrees with exact place-value arithmetic')
+    family='decimal_columns' if kind in {'place','compare','order'} else 'decimal_rounding'
+    if scene.get('visual_family')!=family:raise ValueError('Decimal visual family disagrees with task')
+
+
+def _grade8_decimal_columns(parameters: dict) -> None:
+    _grade8_decimal_scene(parameters)
+    import json
+    if json.loads(parameters['scene_json'])['kind'] not in {'place','compare','order'}:
+        raise ValueError('Decimal columns require a place-value or comparison question')
+
+
+def _grade8_decimal_rounding(parameters: dict) -> None:
+    _grade8_decimal_scene(parameters)
+    import json
+    if json.loads(parameters['scene_json'])['kind'] not in {'round','estimate'}:
+        raise ValueError('Decimal rounding requires a rounding or estimate question')
+
+
+def _grade8_percentage_grid(parameters: dict) -> None:
+    import json
+    from fractions import Fraction
+    from app.curriculum.grade8.percentage_math import answer
+    scene=json.loads(parameters['scene_json'])
+    values=scene.get('values',[])
+    kind=scene.get('kind')
+    if scene.get('id')!=parameters['question_id'] or scene.get('problem')!=parameters['prompt'] or parameters['total_steps']!=5 or len(scene.get('rows',[]))!=3 or kind not in {'convert','of','part','increase','decrease','change'}:
+        raise ValueError('Percentage scene requires five authored question-specific states')
+    if len(values)!=(1 if kind=='convert' else 2) or any(not isinstance(v,str) or not 0<Fraction(v)<=1000 for v in values):
+        raise ValueError('Percentage values require bounded positive rational numbers')
+    if scene.get('answer')!=answer(kind,values) or not all(isinstance(v,str) and v.strip() for v in scene['rows']):
+        raise ValueError('Percentage answer or reasoning disagrees with exact arithmetic')
+
+
+def _grade8_fraction_powers_context(parameters: dict) -> None:
+    import json
+    from app.curriculum.grade8.fractions_math import answer,value
+    scene=json.loads(parameters["scene_json"])
+    vals=scene.get('values')
+    kind=scene.get('kind')
+    if (scene.get('id')!=parameters['question_id'] or scene.get('problem')!=parameters['prompt']
+        or kind not in {'square','cube','root','context'} or not isinstance(vals,list)
+        or len(vals)!=(2 if kind=='context' else 1) or len(scene.get('rows',[]))!=3
+        or parameters['total_steps']!=5):
+        raise ValueError('Fraction power/context requires a complete matching scene')
+    if any(not isinstance(v,str) or not 1<=len(v)<=12 or not 0<value(v)<=48 or value(v).denominator>144 for v in vals):
+        raise ValueError('Fraction operands must be bounded positive rationals')
+    if kind=='context':
+        op=scene.get('operation')
+        if op not in {'multiply','divide','add','subtract'} or not isinstance(scene.get('unit'),str) or not 1<=len(scene['unit'])<=20:
+            raise ValueError('Fraction context requires supported operation and unit')
+    else:
+        op=scene.get('exponent')
+        if op not in (2,3):raise ValueError('Fraction exponent must be 2 or 3')
+    if scene.get('answer')!=answer(kind,vals,op):
+        raise ValueError('Fraction power/context answer disagrees with exact arithmetic')
+    if any(not isinstance(row,str) or not row.strip() for row in scene['rows']) or not isinstance(scene.get('memo'),str):
+        raise ValueError('Fraction power/context requires authored explanation and verification')
+
+
+def _grade8_integer_reasoning(parameters: dict) -> None:
+    import json
+    from app.curriculum.grade8.integer_evaluator import evaluate
+    scene=json.loads(parameters["scene_json"])
+    if (scene.get("id")!=parameters["question_id"] or scene.get("problem")!=parameters["prompt"]
+        or len(scene.get("rows",[]))!=3 or len(scene.get("actions",[]))!=parameters["total_steps"]
+        or parameters["total_steps"]!=5 or not isinstance(scene.get("memo"),str)):
+        raise ValueError("Integer reasoning requires complete question-specific operations")
+    if evaluate(scene["source_expression"])!=(scene.get("left_value") if "comparison_expression" in scene else scene.get("answer")):
+        raise ValueError("Integer reasoning result does not match original expression")
+    if "comparison_expression" in scene and scene.get("answer")!=("true" if scene.get("claim_true") else "false"):
+        raise ValueError("Property answer must state the verified truth value")
+    if "comparison_expression" in scene:
+        if scene.get("model") not in {"commutative_add","commutative_mul","noncommutative_sub","associative_add","associative_mul","nonassociative_sub","distributive","false_distribution","additive_inverse","additive_identity","multiplicative_identity","zero_product","inverse_associative"}:
+            raise ValueError("Unsupported property comparison")
+        if (evaluate(scene["source_expression"])==evaluate(scene["comparison_expression"])) is not scene.get("claim_true"):
+            raise ValueError("Property claim does not match the two evaluated sides")
+    elif scene.get("model") not in {"temperature","bank","elevation","score"} or not isinstance(scene.get("start"),int) or not scene.get("unit"):
+        raise ValueError("Context board requires its own starting value and unit")
+
+
+def _grade8_integer_operations(parameters: dict) -> None:
+    import json
+    from app.curriculum.grade8.integer_evaluator import evaluate
+    scene=json.loads(parameters["scene_json"])
+    if (scene.get("id")!=parameters["question_id"] or scene.get("problem")!=parameters["prompt"]
+        or scene.get("model") not in {"groups","pattern","sign_pattern","inverse","zero","factor_chain","powers","roots","mixed"}
+        or not isinstance(scene.get("actions"),list) or not isinstance(scene.get("rows"),list)
+        or len(scene["rows"])!=3 or len(scene["actions"])!=parameters["total_steps"]
+        or not 5<=parameters["total_steps"]<=7):
+        raise ValueError("Integer operation scene must match the question and its complete teaching states")
+    if evaluate(scene["source_expression"])!=scene.get("answer"):
+        raise ValueError("Integer operation answer disagrees with exact expression evaluation")
+    if not isinstance(scene.get("memo"),str) or not scene["memo"]:
+        raise ValueError("Integer operation requires a checked original-question memo")
+
+
+def _grade8_integer_board(parameters: dict) -> None:
+    import json
+    scene=json.loads(parameters["scene_json"])
+    if (scene.get("id")!=parameters["question_id"] or scene.get("problem")!=parameters["prompt"]
+        or not isinstance(scene.get("actions"),list) or len(scene["actions"])!=parameters["total_steps"]
+        or not 4<=parameters["total_steps"]<=7):
+        raise ValueError("Integer question, source actions and displayed steps must match")
+    axis=scene.get("axis")
+    if not isinstance(axis,list) or len(axis)!=2 or any(type(v) is not int for v in axis) or not -100<=axis[0]<axis[1]<=100:
+        raise ValueError("Signed axis must have two bounded ordered endpoints")
+    if scene.get("model")=="integer_line":
+        values=scene.get("values")
+        if not isinstance(values,list) or not 1<=len(values)<=5 or any(type(v) is not int or not axis[0]<v<axis[1] for v in values):
+            raise ValueError("Integer markers must lie on the given axis")
+        decision=scene.get("decision")
+        answer=(max(values) if decision in ("larger","greatest") else min(values) if decision in ("smaller","least") else
+            -values[0] if decision=="opposite" and len(values)==1 else
+            abs(values[1]-values[0]) if decision=="distance" and len(values)==2 else None)
+        if answer is None or scene.get("answer")!=answer:
+            raise ValueError("Signed order, opposite or distance answer does not match the markers")
+    elif scene.get("model")=="integer_jumps":
+        start,operations=scene.get("start"),scene.get("operations")
+        if type(start) is not int or not isinstance(operations,list) or not 1<=len(operations)<=4:
+            raise ValueError("Integer journey requires a starting value and bounded operations")
+        path=[start]
+        for operation in operations:
+            if (not isinstance(operation,list) or len(operation)!=2 or operation[0] not in ("+","-")
+                or type(operation[1]) is not int or not -50<=operation[1]<=50):
+                raise ValueError("Every signed jump needs an operation and bounded integer")
+            path.append(path[-1]+(operation[1] if operation[0]=="+" else -operation[1]))
+        if (scene.get("path")!=path or scene.get("answer")!=path[-1]
+            or parameters["total_steps"]!=len(operations)+3
+            or any(not axis[0]<v<axis[1] for v in path)):
+            raise ValueError("Integer jumps, final answer, and visible steps must agree")
+    else:
+        raise ValueError("Unsupported signed integer visual model")
+
+
+def _grade8_whole_number_board(parameters: dict) -> None:
+    import json
+    import math
+    scene=json.loads(parameters["scene_json"])
+    if (scene.get("id")!=parameters["question_id"] or scene.get("problem")!=parameters["prompt"]
+        or not 4<=parameters["total_steps"]<=8 or not isinstance(scene.get("actions"),list)
+        or len(scene["actions"])!=parameters["total_steps"]):
+        raise ValueError("Whole-number board ID, original question and step count must match")
+    if scene.get("model")=="property":
+        vals=scene.get("values")
+        if not isinstance(vals,list) or len(vals)!=3 or any(type(v) is not int or not 0<=v<=1000 for v in vals):
+            raise ValueError("Property board requires three bounded whole-number inputs")
+        a,b,c=vals;kind=scene.get("kind")
+        expected={"comm_add":lambda:a+b,"comm_mul":lambda:a*b,
+            "assoc_add":lambda:a+b+c,"assoc_mul":lambda:a*b*c,
+            "dist":lambda:a*(b+c),"add_identity":lambda:a,
+            "mul_identity":lambda:a,"zero_div":lambda:"undefined"}
+        if kind not in expected or scene.get("answer")!=expected[kind]():
+            raise ValueError("Whole-number property and answer disagree")
+        if kind=="add_identity" and b!=0 or kind=="mul_identity" and b!=1 or kind=="zero_div" and b!=0:
+            raise ValueError("The identity or zero-divisor picture does not match its operands")
+    elif scene.get("model")=="factor_tree":
+        nums,factors=scene.get("numbers"),scene.get("factors")
+        if not isinstance(nums,list) or not 1<=len(nums)<=3 or any(type(n) is not int or not 2<=n<=999 for n in nums):
+            raise ValueError("Factor-tree roots must be bounded whole numbers")
+        if not isinstance(factors,list) or len(factors)!=len(nums):
+            raise ValueError("Each factor tree needs its own prime leaves")
+        if parameters["total_steps"]!=3+max(len(leaves)-1 for leaves in factors):
+            raise ValueError("Every composite split requires a visible teaching step")
+        def prime(p):return p>=2 and all(p%d for d in range(2,math.isqrt(p)+1))
+        for root,leaves in zip(nums,factors):
+            if not isinstance(leaves,list) or not leaves or any(type(v) is not int or not prime(v) for v in leaves) or math.prod(leaves)!=root:
+                raise ValueError("Prime leaves must multiply to the original root")
+        kind=scene.get("kind")
+        expected=max(factors[0]) if kind=="largest_prime" else math.gcd(*nums) if kind=="hcf" else math.lcm(*nums) if kind=="lcm" else None
+        if expected is None or scene.get("answer")!=expected:
+            raise ValueError("Factor-tree HCF/LCM answer disagrees with the original roots")
+    else:
+        raise ValueError("Unsupported whole-number visual model")
+
+
+def _grade8_pattern_board(parameters: dict) -> None:
+    import json
+    scene=json.loads(parameters["scene_json"])
+    if scene.get("id")!=parameters["question_id"] or scene.get("problem")!=parameters["prompt"] or parameters["total_steps"]!=4:
+        raise ValueError("Pattern question, scene and four steps must match")
+    terms=scene.get("terms")
+    if not isinstance(terms,list) or len(terms) not in (4,6) or any(type(v) not in (int,float) or abs(v)>1000 for v in terms):
+        raise ValueError("Pattern needs bounded numeric givens")
+    if scene.get("model") not in ("numeric","geometric","rule_table","missing_table","compare_rules","repair_claim") or scene.get("kind") not in (
+        "add","ratio","squares","triangular","cubes","recursive","alternating",
+        "joined_squares","separate_squares","square_dots","staircase","border","l_shape",
+        "triangle_edges","two_rows","rectangle","square_plus","fence","three_arms",
+        "columns","square_plus_two","rectangle_two", None):
+        raise ValueError("Unknown pattern visual model")
+    if "answer" in scene and (type(scene["answer"]) not in (int,float,str) or
+       isinstance(scene["answer"],(int,float)) and abs(scene["answer"])>100000 or
+       isinstance(scene["answer"],str) and len(scene["answer"])>80):
+        raise ValueError("Pattern result must be bounded")
+    if scene["model"] in ("rule_table","missing_table"):
+        family=scene.get("family");a=scene.get("a");b=scene.get("b")
+        if family not in ("linear","square_offset","triangular","rectangle","geometric") or any(type(v) not in (int,float) or abs(v)>100 for v in (a,b)):
+            raise ValueError("Pattern rule needs bounded coefficients and a supported family")
+        def value(n):
+            return {"linear":lambda:a*n+b,"square_offset":lambda:a*n*n+b,
+                "triangular":lambda:a*n*(n+1)//2+b,"rectangle":lambda:a*n*(n+1)+b,
+                "geometric":lambda:a*b**(n-1)}[family]()
+        if len(terms)!=4 or terms!=[value(n) for n in range(1,5)]:
+            raise ValueError("Pattern table values disagree with its algebraic rule")
+        if scene["model"]=="missing_table" and (type(scene.get("target_position")) is not int or
+           not 5<=scene["target_position"]<=8 or scene.get("answer",value(scene["target_position"]))!=value(scene["target_position"])):
+            raise ValueError("Missing value must match the position and rule")
+        if scene["model"]=="rule_table":
+            expected_rule=(f"{a:g}n" if a else "0n")+(f" + {b:g}" if b>0 else f" − {-b:g}" if b<0 else "")
+            if family!="linear" or scene.get("rule")!=expected_rule or scene.get("answer",expected_rule)!=expected_rule:
+                raise ValueError("Linear rule must match the given coefficients and answer")
+    if scene.get("model") in ("compare_rules","repair_claim"):
+        family=scene.get("family")
+        def calculate(f,a,b,n):
+            return {"linear":lambda:a*n+b,"square_offset":lambda:a*n*n+b,
+                "triangular":lambda:a*n*(n+1)//2+b,"rectangle":lambda:a*n*(n+1)+b,
+                "geometric":lambda:a*b**(n-1)}[f]()
+        if len(terms)!=4 or type(scene.get("target_position")) is not int or not 5<=scene["target_position"]<=8:
+            raise ValueError("Pattern comparison needs four terms and a bounded target")
+        if scene["model"]=="compare_rules":
+            candidates=scene.get("candidates")
+            if not isinstance(candidates,list) or len(candidates)!=2 or scene.get("correct_label") not in ("A","B"):
+                raise ValueError("Two proposed rules and a correct label are required")
+            if type(scene.get("wrong_index")) is not int or not 2<=scene["wrong_index"]<=4:
+                raise ValueError("Counterexample must point to a given position")
+            for candidate in candidates:
+                if not isinstance(candidate,dict) or candidate.get("family") not in ("linear","square_offset","triangular","rectangle","geometric") or any(type(candidate.get(k)) is not int or abs(candidate[k])>100 for k in ("a","b")):
+                    raise ValueError("Pattern candidate coefficients are invalid")
+            good=candidates[0 if scene["correct_label"]=="A" else 1]
+            bad=candidates[1 if scene["correct_label"]=="A" else 0]
+            if terms!=[calculate(good["family"],good["a"],good["b"],n) for n in range(1,5)]:
+                raise ValueError("Candidate labelled correct disagrees with the givens")
+            if calculate(bad["family"],bad["a"],bad["b"],scene.get("wrong_index",0))==terms[scene.get("wrong_index",1)-1]:
+                raise ValueError("Rejected candidate needs a real counterexample")
+            if scene.get("answer")!=calculate(good["family"],good["a"],good["b"],scene["target_position"]):
+                raise ValueError("Pattern answer disagrees with the surviving rule")
+        else:
+            a,b=scene.get("a"),scene.get("b")
+            if family not in ("linear","square_offset","triangular","rectangle","geometric") or any(type(v) is not int or abs(v)>100 for v in (a,b)):
+                raise ValueError("Repair needs a valid bounded rule")
+            if terms!=[calculate(family,a,b,n) for n in range(1,5)] or scene.get("answer")!=calculate(family,a,b,scene["target_position"]):
+                raise ValueError("Repaired prediction must agree with the rule and givens")
+            if type(scene.get("claimed")) is not int or scene["claimed"]==scene["answer"]:
+                raise ValueError("A repair requires an incorrect, bounded claim")
+    if scene.get("model")=="geometric":
+        n=5
+        expected={"joined_squares":3*n+1,"separate_squares":4*n,"square_dots":n*n,
+            "staircase":n*(n+1)//2,"border":4*n,"l_shape":2*n+1,"triangle_edges":3*n,
+            "two_rows":2*n,"rectangle":n*(n+1),"square_plus":n*n+4,"fence":4*(n+1),
+            "three_arms":3*n+1,"columns":4*n+2,"square_plus_two":n*n+2,"rectangle_two":n*(n+2)}
+        if scene.get("answer",expected[scene["kind"]])!=expected[scene["kind"]]:
+            raise ValueError("Geometric answer disagrees with constructed figure")
+
+def _grade8_global_story(parameters: dict) -> None:
+    import json
+    try:
+        scene = json.loads(parameters["scene_json"])
+    except (TypeError, ValueError) as error:
+        raise ValueError("Global graph scene must be valid JSON") from error
+    if not isinstance(scene, dict) or scene.get("id") != parameters["question_id"]:
+        raise ValueError("Global graph scene ID must match the question")
+    if scene.get("problem") != parameters["prompt"] or parameters["total_steps"] != 4:
+        raise ValueError("Global graph prompt and four teaching steps must match")
+    if scene.get("kind") not in {"read", "draw", "compare", "diagnose"} or scene.get("domain") not in {"continuous", "discrete"}:
+        raise ValueError("Global graph needs a supported mode and explicit domain")
+    axis = scene.get("axis")
+    if not isinstance(axis, dict):
+        raise ValueError("Global graph needs labelled axes")
+    for key in ("x_min", "x_max", "y_min", "y_max", "x_tick", "y_tick"):
+        value = axis.get(key)
+        if not isinstance(value, (int, float)) or isinstance(value, bool) or not -1000 <= value <= 1000:
+            raise ValueError(f"Global graph {key} must be numeric and bounded")
+    if not axis["x_min"] < axis["x_max"] or not axis["y_min"] < axis["y_max"] or axis["x_tick"] <= 0 or axis["y_tick"] <= 0:
+        raise ValueError("Global graph axes need increasing bounds and positive ticks")
+    if any(not isinstance(axis.get(key), str) or not axis[key].strip() or len(axis[key]) > 45 for key in ("x_unit", "y_unit")):
+        raise ValueError("Global graph axes require short units")
+    points = scene.get("points")
+    if not isinstance(points, list) or len(points) != 4:
+        raise ValueError("Global graph needs four ordered source points")
+    for index, point in enumerate(points):
+        if not isinstance(point, dict) or set(point) != {"x", "y"}:
+            raise ValueError("Global graph point needs x and y")
+        for coordinate in ("x", "y"):
+            value = point[coordinate]
+            if not isinstance(value, (int, float)) or isinstance(value, bool) or not axis[f"{coordinate}_min"] <= value <= axis[f"{coordinate}_max"]:
+                raise ValueError("Global graph point is outside its axes")
+        if index and not points[index-1]["x"] < point["x"]:
+            raise ValueError("Global graph x-values must increase")
+    if scene["kind"] == "compare":
+        other = scene.get("secondary_points")
+        if not isinstance(other, list) or len(other) != len(points) or scene.get("series_labels") != ["A", "B"]:
+            raise ValueError("Comparison needs A and B on the same four inputs")
+        for first, second in zip(points, other, strict=True):
+            if not isinstance(second, dict) or set(second) != {"x", "y"} or second["x"] != first["x"]:
+                raise ValueError("Comparison inputs must align")
+            if not isinstance(second["y"], (int, float)) or isinstance(second["y"], bool) or not axis["y_min"] <= second["y"] <= axis["y_max"]:
+                raise ValueError("Comparison point is outside the common axis")
+        metrics = {
+            "gain_all": lambda ys: ys[3] - ys[0], "loss_all": lambda ys: ys[0] - ys[3],
+            "point2": lambda ys: ys[2], "point3": lambda ys: ys[3],
+            "lower_point3": lambda ys: -ys[3], "gain_mid": lambda ys: ys[2] - ys[1],
+            "gain_last": lambda ys: ys[3] - ys[2],
+        }
+        metric = scene.get("comparison_metric")
+        if metric not in metrics:
+            raise ValueError("Comparison needs an explicit checked metric")
+        a_value = metrics[metric]([point["y"] for point in points])
+        b_value = metrics[metric]([point["y"] for point in other])
+        expected = "A" if a_value > b_value else "B" if b_value > a_value else "equal"
+        if scene.get("answer") != expected:
+            raise ValueError("Comparison answer disagrees with the plotted values")
+    if scene["kind"] == "diagnose":
+        if not isinstance(scene.get("claim"), str) or not scene["claim"].strip() or not isinstance(scene.get("focus_index"), int) or isinstance(scene["focus_index"], bool) or not 1 <= scene["focus_index"] <= 3:
+            raise ValueError("Diagnosis needs a learner claim and a valid focus input")
+    if not isinstance(scene.get("actions"), list) or len(scene["actions"]) != 4 or any(not isinstance(a, str) or not a.strip() for a in scene["actions"]):
+        raise ValueError("Global graph needs four authored mathematical actions")
+    if not isinstance(scene.get("answer"), str) or not scene["answer"].strip():
+        raise ValueError("Global graph answer must be present")
+
 def _grade8_coordinate_plane(parameters: dict) -> None:
     import json
     try:
@@ -305,6 +749,25 @@ def _grade8_coordinate_plane(parameters: dict) -> None:
             step = point.get("reveal_step")
             if not isinstance(step, int) or isinstance(step, bool) or not 1 <= step <= parameters["total_steps"]:
                 raise ValueError("Grade 8 derived point needs a valid reveal step")
+    graph = scene.get("graph")
+    if graph is not None:
+        if not isinstance(graph, dict) or graph.get("mode") not in {"line", "given_line", "discrete", "nonlinear", "error"}:
+            raise ValueError("Grade 8 graph needs a supported domain mode")
+        rows = graph.get("table")
+        points = graph.get("points")
+        if not isinstance(rows, list) or not 3 <= len(rows) <= 5 or rows != points:
+            raise ValueError("Grade 8 plotted points must match all table rows")
+        if any(not isinstance(row, dict) or set(row) != {"x", "y"} or not all(isinstance(row[key], (int, float)) and not isinstance(row[key], bool) for key in ("x", "y")) for row in rows):
+            raise ValueError("Grade 8 table rows require numeric x and y")
+        if len({row["x"] for row in rows}) != len(rows):
+            raise ValueError("Grade 8 table input values must be distinct")
+        if graph["mode"] in {"line", "given_line", "error"}:
+            x0, y0 = rows[0]["x"], rows[0]["y"]
+            x1, y1 = rows[1]["x"], rows[1]["y"]
+            if any(abs((row["y"] - y0) * (x1 - x0) - (row["x"] - x0) * (y1 - y0)) > 1e-8 for row in rows[2:]):
+                raise ValueError("Grade 8 straight-line points must be collinear")
+        if graph.get("line_reveal_step") != parameters["total_steps"]:
+            raise ValueError("Grade 8 connecting line must wait for the final reasoning step")
 
 def _grade8_formula_rectangle(parameters: dict) -> None:
     import json
@@ -326,7 +789,40 @@ def _grade8_formula_rectangle(parameters: dict) -> None:
     if "symbolic_length" in scene and (not isinstance(scene["symbolic_length"],str) or len(scene["symbolic_length"])>24):
         raise ValueError("Symbolic length must be a short label")
 
+def _grade8_relationship_compare(parameters: dict) -> None:
+    import json
+    _grade8_function_visual(parameters)
+    try:
+        scene=json.loads(parameters["scene_json"])
+    except (TypeError, ValueError) as error:
+        raise ValueError("Relationship comparison requires a JSON scene") from error
+    if not isinstance(scene,dict) or scene.get("mode") not in {"match","repair"}:
+        raise ValueError("Relationship comparison needs a supported mode")
+    if not isinstance(scene.get("input"),(int,float)) or isinstance(scene["input"],bool) or abs(scene["input"])>100:
+        raise ValueError("Comparison input must be bounded")
+    candidates=scene.get("candidates")
+    if not isinstance(candidates,list) or len(candidates)!=2 or scene.get("chosen") not in [c.get("label") for c in candidates if isinstance(c,dict)]:
+        raise ValueError("Exactly two labelled paths and a valid chosen path required")
+    for candidate in candidates:
+        if not isinstance(candidate,dict) or not isinstance(candidate.get("label"),str) or not 0<len(candidate["label"])<=32:
+            raise ValueError("Candidate path label required")
+        for key in ("a","b","c","value"):
+            v=candidate.get(key)
+            if not isinstance(v,(int,float)) or isinstance(v,bool) or abs(v)>10000:
+                raise ValueError("Candidate coefficients and value must be bounded numbers")
+        x=scene["input"]
+        if abs(candidate["a"]*x*x+candidate["b"]*x+candidate["c"]-candidate["value"])>1e-7:
+            raise ValueError("Candidate evaluation disagrees with its coefficients")
+    if candidates[0]["value"]==candidates[1]["value"]:
+        raise ValueError("Comparison requires a distinguishing input")
+    if not isinstance(scene.get("given"),list) or not 1<=len(scene["given"])<=4 or any(not isinstance(v,str) or not v.strip() or len(v)>120 for v in scene["given"]):
+        raise ValueError("Original evidence must be question-specific")
+
 CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
+    **{("algebra", template): TemplateDefinition(
+        frozenset({"prompt","question_id","given_objects","derived_objects","total_steps","scene_json"}),
+        frozenset(),_grade8_relationship_compare,True)
+        for template in ("relationship_match","relationship_repair")},
     ("algebra", "formula_rectangle"): TemplateDefinition(
         frozenset({"prompt", "question_id", "given_objects", "derived_objects", "total_steps", "scene_json"}),
         frozenset(), _grade8_formula_rectangle, True),
@@ -396,6 +892,38 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json", "question_id", "prompt", "total_steps"}), frozenset(), _grade8_coordinate_plane, True),
     ("graphs", "coordinate_plane"): TemplateDefinition(
         frozenset({"scene_json", "question_id", "prompt", "total_steps"}), frozenset(), _grade8_coordinate_plane, True),
+    ("algebra", "grade8_pattern_board"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}), frozenset(), _grade8_pattern_board, True),
+    ("algebra", "grade8_whole_number_board"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}), frozenset(), _grade8_whole_number_board, True),
+    ("algebra", "grade8_decimal_product"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),_grade8_decimal_product,True),
+    ("algebra", "grade8_decimal_quotient"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),_grade8_decimal_quotient,True),
+    ("algebra", "grade8_decimal_power"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_decimal_power_root(parameters,"power"),True),
+    ("algebra", "grade8_decimal_root"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_decimal_power_root(parameters,"root"),True),
+    ("algebra", "grade8_exponent_representation"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_exponent_scene(parameters,1),True),
+    ("algebra", "grade8_exponent_laws"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_exponent_scene(parameters,2),True),
+    ("algebra", "grade8_exponent_roots"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_exponent_scene(parameters,3),True),
+    ("algebra", "grade8_exponent_applications"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_exponent_scene(parameters,4),True),
+    ("algebra", "grade8_exponent_error_trace"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_exponent_scene(parameters,5),True),
+    ("algebra", "grade8_exponent_integrated"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_exponent_scene(parameters,6),True),
+    ("algebra", "grade8_decimal_columns"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),_grade8_decimal_columns,True),
+    ("algebra", "grade8_decimal_rounding"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),_grade8_decimal_rounding,True),
+    ("algebra", "grade8_percentage_grid"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}), frozenset(), _grade8_percentage_grid, True),
+    ("algebra", "grade8_fraction_powers_context"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}), frozenset(), _grade8_fraction_powers_context, True),
+    ("algebra", "grade8_fraction_operations"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}), frozenset(), _grade8_fraction_operations, True),
+    ("algebra", "grade8_fraction_strips"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}), frozenset(), _grade8_fraction_strips, True),
+    ("algebra", "grade8_integer_reasoning"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}), frozenset(), _grade8_integer_reasoning, True),
+    ("algebra", "grade8_integer_operations"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}), frozenset(), _grade8_integer_operations, True),
+    ("algebra", "grade8_integer_board"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}), frozenset(), _grade8_integer_board, True),
+    ("coordinate_geometry", "grade8_global_story"): TemplateDefinition(
+        frozenset({"scene_json", "question_id", "prompt", "total_steps"}), frozenset(), _grade8_global_story, True),
     ("coordinate_geometry", "coordinate_distance_lab"): TemplateDefinition(frozenset({"x_values","y_values","labels","objects"}), frozenset({"title","delta_x","delta_y"}), lambda p: (_coordinate_distance(p), _semantic_workbench({**p,"prompt":"distance","answer":"distance","family":"coordinate_distance_lab"})), True),
     ("coordinate_geometry", "circle_construction"): TemplateDefinition(frozenset({"centre_x","centre_y","radius","objects"}), frozenset({"title"}), lambda p: (_circle_construction(p), _semantic_workbench({**p,"prompt":"circle","answer":"circle","family":"circle_construction"})), True),
     ("function_graph", "cartesian_function"): TemplateDefinition(frozenset({"graph_spec_id"}), frozenset(), _noop),

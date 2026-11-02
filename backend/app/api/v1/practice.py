@@ -1,5 +1,6 @@
 """Server-authoritative self-guided practice endpoints for the lesson schedule."""
 from uuid import UUID,uuid4
+from pydantic import BaseModel,Field
 from fastapi import APIRouter,Depends,HTTPException
 from sqlalchemy.orm import Session
 from app.core.security import get_optional_user
@@ -13,16 +14,37 @@ from app.practice.service import blank_response,check_answer,mastery_summary,pub
 from app.curriculum.grade8.assessment import MASTERY_BANK,MISCONCEPTION_REPAIRS,REASSESSMENT_BANK,REPAIR_RULES
 from app.curriculum.grade8 import assessment_lesson2, assessment_lesson3, assessment_lesson4, assessment_lesson5, assessment_lesson6, assessment_lesson7, assessment_lesson8, assessment_lesson9, assessment_lesson10
 from app.curriculum.grade8 import assessment_functions_lesson1, assessment_functions_lesson2, assessment_functions_lesson3
-from app.curriculum.grade8 import assessment_functions_lesson4
+from app.curriculum.grade8 import assessment_functions_lesson4, assessment_functions_lesson5, assessment_functions_lesson6
 from app.curriculum.grade8.functions_topic_diagnostic import public_items as topic3_items, score as topic3_score
-from app.curriculum.grade8 import assessment_graphs_lesson1
+from app.curriculum.grade8 import assessment_patterns, assessment_patterns_34, assessment_patterns_56, assessment_whole_numbers, assessment_integers, assessment_integers_advanced, assessment_integers_reasoning, assessment_fractions, assessment_fractions_operations, assessment_fractions_56, assessment_fractions_78, assessment_decimals, assessment_decimals_operations, assessment_decimals_powers, assessment_exponents
+from app.curriculum.grade8 import assessment_graphs_lesson1, assessment_graphs_lesson2, assessment_graphs_lesson3, assessment_graphs_lesson4, assessment_graphs_lesson5, assessment_graphs_lesson6
 from app.curriculum.grade8 import assessment_expressions, assessment_expressions_lesson2, assessment_expressions_lesson3, assessment_expressions_lesson4, assessment_expressions_lesson5, assessment_expressions_lesson6, assessment_expressions_lesson7, assessment_expressions_lesson8, assessment_expressions_lesson9, assessment_expressions_lesson10
 
 ASSESSMENT_BANKS={
+    **{f"g8-patterns-{n:02}": assessment_patterns_34.banks(n)[1:] for n in (3,4)},
+    **{f"g8-patterns-{n:02}": assessment_patterns_56.banks(n)[1:] for n in (5,6)},
+    **{f"g8-whole-numbers-{n:02}": assessment_whole_numbers.banks(n)[1:] for n in (1,2)},
+    **{f"g8-integers-{n:02}": assessment_integers.banks(n)[1:] for n in (1,2)},
+    **{f"g8-integers-{n:02}": assessment_integers_advanced.banks(n)[1:] for n in (3,4)},
+    **{f"g8-integers-{n:02}": assessment_integers_reasoning.banks(n)[1:] for n in (5,6)},
+    **{f"g8-common-fractions-{n:02}": assessment_fractions.banks(n)[1:] for n in (1,2)},
+    **{f"g8-common-fractions-{n:02}": assessment_fractions_operations.banks(n)[1:] for n in (3,4)},
+    **{f"g8-common-fractions-{n:02}": assessment_fractions_56.banks(n)[1:] for n in (5,6)},
+    **{f"g8-common-fractions-{n:02}": assessment_fractions_78.banks(n)[1:] for n in (7,8)},
+    **{f"g8-decimal-fractions-{n:02}": assessment_decimals.banks(n)[1:] for n in (1,2)},
+    **{f"g8-decimal-fractions-{n:02}": assessment_decimals_operations.banks(n)[1:] for n in (3,4)},
+    **{f"g8-decimal-fractions-{n:02}": assessment_decimals_powers.banks(n)[1:] for n in (5,6)},
+    **{f"g8-exponents-{n:02}": assessment_exponents.banks(n)[1:] for n in (1,2,3,4,5,6)},
+    **{f"g8-patterns-{n:02}": (bank[1],bank[2],bank[3],{"pattern-rule-from-too-few-terms":"Retry a new pattern with changed starting values."})
+       for n,bank in ((1,assessment_patterns.banks(1)),(2,assessment_patterns.banks(2)))},
+    **{f"g8-graphs-{n:02}":(bank.MASTERY_BANK,bank.REASSESSMENT_BANK,bank.MISCONCEPTION_REPAIRS,bank.REPAIR_RULES) for n,bank in ((3,assessment_graphs_lesson3),(4,assessment_graphs_lesson4),(5,assessment_graphs_lesson5),(6,assessment_graphs_lesson6))},
+    **{f"g8-functions-relationships-{n:02}":(bank.MASTERY_BANK,bank.REASSESSMENT_BANK,bank.MISCONCEPTION_REPAIRS,bank.REPAIR_RULES) for n,bank in ((5,assessment_functions_lesson5),(6,assessment_functions_lesson6))},
     "g8-functions-relationships-04":(assessment_functions_lesson4.MASTERY_BANK, assessment_functions_lesson4.REASSESSMENT_BANK,
                                      assessment_functions_lesson4.MISCONCEPTION_REPAIRS, assessment_functions_lesson4.REPAIR_RULES),
     "g8-graphs-01":(assessment_graphs_lesson1.MASTERY_BANK, assessment_graphs_lesson1.REASSESSMENT_BANK,
                     assessment_graphs_lesson1.MISCONCEPTION_REPAIRS, assessment_graphs_lesson1.REPAIR_RULES),
+    "g8-graphs-02":(assessment_graphs_lesson2.MASTERY_BANK, assessment_graphs_lesson2.REASSESSMENT_BANK,
+                    assessment_graphs_lesson2.MISCONCEPTION_REPAIRS, assessment_graphs_lesson2.REPAIR_RULES),
     "g8-algebraic-expressions-01":(assessment_expressions.MASTERY_BANK, assessment_expressions.REASSESSMENT_BANK,
                                     assessment_expressions.MISCONCEPTION_REPAIRS, assessment_expressions.REPAIR_RULES),
     "g8-algebraic-expressions-02":(assessment_expressions_lesson2.MASTERY_BANK, assessment_expressions_lesson2.REASSESSMENT_BANK,
@@ -82,8 +104,11 @@ def get_functions_topic_diagnostic():
             "note": "This short check recommends where to revise; it does not replace lesson mastery."}
 
 
+class TopicDiagnosticSubmission(BaseModel):
+    answers: dict[str,str] = Field(min_length=18,max_length=18)
+
 @router.post("/topics/grade-8/functions-relationships/diagnostic")
-def submit_functions_topic_diagnostic(payload: AssessmentSubmission):
+def submit_functions_topic_diagnostic(payload: TopicDiagnosticSubmission):
     try:
         return topic3_score(payload.answers)
     except ValueError as error:

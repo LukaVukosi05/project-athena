@@ -1,0 +1,330 @@
+{
+  "scenes": [
+    {
+      "id": "g8-exp-l02-w01",
+      "kind": "product",
+      "values": [
+        "2",
+        "2",
+        "3"
+      ],
+      "problem": "Evaluate 2² × 2³ using an exponent law.",
+      "answer": "32",
+      "rows": [
+        "Identify the common base 2; the two powers have exponents 2 and 3.",
+        "Expand 2² into 2 copies of 2.",
+        "Expand 2³ into another 3 copies of 2.",
+        "Together there are 2+3=5 equal factors.",
+        "Apply the product law: 2² × 2³ = 2⁵.",
+        "Evaluate 2⁵ = 32."
+      ],
+      "memo": "4 × 8 = 32; multiplying the original powers agrees.",
+      "visual_family": "power_factors",
+      "misconception": "Same base: add exponents, never bases."
+    },
+    {
+      "id": "g8-exp-l02-w02",
+      "kind": "quotient",
+      "values": [
+        "3",
+        "4",
+        "2"
+      ],
+      "problem": "Evaluate 3⁴ ÷ 3² using an exponent law.",
+      "answer": "9",
+      "rows": [
+        "Identify the same nonzero base 3 in numerator and denominator.",
+        "Expand the numerator into 4 factors of 3.",
+        "Expand the denominator into 2 factors of 3.",
+        "Cancel 2 matching nonzero factor pairs; 2 factors remain.",
+        "Apply the quotient law: 3⁴ ÷ 3² = 3².",
+        "Evaluate 3² = 9."
+      ],
+      "memo": "81 ÷ 9 = 9; division of the original powers agrees.",
+      "visual_family": "power_factors",
+      "misconception": "Cancel equal nonzero factor pairs before subtracting exponents."
+    },
+    {
+      "id": "g8-exp-l02-w03",
+      "kind": "zero",
+      "values": [
+        "8"
+      ],
+      "problem": "Use an exponent law to evaluate 8⁰.",
+      "answer": "1",
+      "rows": [
+        "Start with a nonzero base 8.",
+        "Write 8² ÷ 8²; equal nonzero quantities divide to 1.",
+        "Apply the quotient law to the same expression: 8^(2−2) = 8⁰.",
+        "The exponent difference is 0, so 8⁰ = 1.",
+        "Do not mistake the zero exponent for multiplication by zero."
+      ],
+      "memo": "8² ÷ 8² = 1; the original base is nonzero.",
+      "visual_family": "power_factors",
+      "misconception": "A nonzero base to exponent zero equals one."
+    },
+    {
+      "id": "g8-exp-l02-w04",
+      "kind": "product",
+      "values": [
+        "5",
+        "3",
+        "2"
+      ],
+      "problem": "Evaluate 5³ × 5² using an exponent law.",
+      "answer": "3125",
+      "rows": [
+        "Identify the common base 5; the two powers have exponents 3 and 2.",
+        "Expand 5³ into 3 copies of 5.",
+        "Expand 5² into another 2 copies of 5.",
+        "Together there are 3+2=5 equal factors.",
+        "Apply the product law: 5³ × 5² = 5⁵.",
+        "Evaluate 5⁵ = 3125."
+      ],
+      "memo": "125 × 25 = 3125; multiplying the original powers agrees.",
+      "visual_family": "power_factors",
+      "misconception": "Same base: add exponents, never bases."
+    },
+    {
+      "id": "g8-exp-l02-w05",
+      "kind": "power_product",
+      "values": [
+        "2",
+        "3",
+        "2"
+      ],
+      "problem": "Use a power-of-a-product law to evaluate 6² by factoring 6 as 2 × 3.",
+      "answer": "36",
+      "rows": [
+        "Factor the original base 6 as 2 × 3.",
+        "Rewrite the original power: 6² = (2 × 3)².",
+        "Expand into 2 copies of (2 × 3); this is multiplication, not addition.",
+        "Regroup equal factors to give 2² × 3².",
+        "Evaluate both smaller powers: 2² = 4 and 3² = 9.",
+        "Multiply 4 × 9 = 36."
+      ],
+      "memo": "6² = 36; raising the original whole base gives the same result.",
+      "visual_family": "power_factors",
+      "misconception": "Only products allow this law: (3+2)² = 25, whereas 3²+2² = 13. Factor the original base as a multiplication first."
+    },
+    {
+      "id": "g8-exp-l02-w06",
+      "kind": "quotient",
+      "values": [
+        "7",
+        "5",
+        "3"
+      ],
+      "problem": "Evaluate 7⁵ ÷ 7³ using an exponent law.",
+      "answer": "49",
+      "rows": [
+        "Identify the same nonzero base 7 in numerator and denominator.",
+        "Expand the numerator into 5 factors of 7.",
+        "Expand the denominator into 3 factors of 7.",
+        "Cancel 3 matching nonzero factor pairs; 2 factors remain.",
+        "Apply the quotient law: 7⁵ ÷ 7³ = 7².",
+        "Evaluate 7² = 49."
+      ],
+      "memo": "16807 ÷ 343 = 49; division of the original powers agrees.",
+      "visual_family": "power_factors",
+      "misconception": "Cancel equal nonzero factor pairs before subtracting exponents."
+    },
+    {
+      "id": "g8-exp-l02-w07",
+      "kind": "zero",
+      "values": [
+        "13"
+      ],
+      "problem": "Use an exponent law to evaluate 13⁰.",
+      "answer": "1",
+      "rows": [
+        "Start with a nonzero base 13.",
+        "Write 13² ÷ 13²; equal nonzero quantities divide to 1.",
+        "Apply the quotient law to the same expression: 13^(2−2) = 13⁰.",
+        "The exponent difference is 0, so 13⁰ = 1.",
+        "Do not mistake the zero exponent for multiplication by zero."
+      ],
+      "memo": "13² ÷ 13² = 1; the original base is nonzero.",
+      "visual_family": "power_factors",
+      "misconception": "A nonzero base to exponent zero equals one."
+    },
+    {
+      "id": "g8-exp-l02-w08",
+      "kind": "product",
+      "values": [
+        "3",
+        "2",
+        "4"
+      ],
+      "problem": "Evaluate 3² × 3⁴ using an exponent law.",
+      "answer": "729",
+      "rows": [
+        "Identify the common base 3; the two powers have exponents 2 and 4.",
+        "Expand 3² into 2 copies of 3.",
+        "Expand 3⁴ into another 4 copies of 3.",
+        "Together there are 2+4=6 equal factors.",
+        "Apply the product law: 3² × 3⁴ = 3⁶.",
+        "Evaluate 3⁶ = 729."
+      ],
+      "memo": "9 × 81 = 729; multiplying the original powers agrees.",
+      "visual_family": "power_factors",
+      "misconception": "Same base: add exponents, never bases."
+    },
+    {
+      "id": "g8-exp-l02-w09",
+      "kind": "mixed",
+      "values": [
+        "3",
+        "4",
+        "2",
+        "3"
+      ],
+      "problem": "Simplify and evaluate 3⁴ × 3² ÷ 3³. Show each exponent law.",
+      "answer": "27",
+      "rows": [
+        "All three powers share nonzero base 3; the exponents are 4, 2 and 3.",
+        "Combine the numerator factors first: 3⁴ × 3² = 3⁶.",
+        "Divide by 3³; cancel 3 matching factors from numerator and denominator.",
+        "Subtract only now: (4+2)−3 = 3.",
+        "The expression becomes 3³.",
+        "Evaluate 3³ = 27."
+      ],
+      "memo": "(81 × 9) ÷ 27 = 27; the original expression agrees.",
+      "visual_family": "power_factors",
+      "misconception": "Combine equal bases in the numerator, then cancel nonzero factors before subtracting exponents."
+    },
+    {
+      "id": "g8-exp-l02-w10",
+      "kind": "quotient",
+      "values": [
+        "2",
+        "7",
+        "4"
+      ],
+      "problem": "Evaluate 2⁷ ÷ 2⁴ using an exponent law.",
+      "answer": "8",
+      "rows": [
+        "Identify the same nonzero base 2 in numerator and denominator.",
+        "Expand the numerator into 7 factors of 2.",
+        "Expand the denominator into 4 factors of 2.",
+        "Cancel 4 matching nonzero factor pairs; 3 factors remain.",
+        "Apply the quotient law: 2⁷ ÷ 2⁴ = 2³.",
+        "Evaluate 2³ = 8."
+      ],
+      "memo": "128 ÷ 16 = 8; division of the original powers agrees.",
+      "visual_family": "power_factors",
+      "misconception": "Cancel equal nonzero factor pairs before subtracting exponents."
+    },
+    {
+      "id": "g8-exp-l02-w11",
+      "kind": "product",
+      "values": [
+        "12",
+        "2",
+        "3"
+      ],
+      "problem": "Evaluate 12² × 12³ using an exponent law.",
+      "answer": "248832",
+      "rows": [
+        "Identify the common base 12; the two powers have exponents 2 and 3.",
+        "Expand 12² into 2 copies of 12.",
+        "Expand 12³ into another 3 copies of 12.",
+        "Together there are 2+3=5 equal factors.",
+        "Apply the product law: 12² × 12³ = 12⁵.",
+        "Evaluate 12⁵ = 248832."
+      ],
+      "memo": "144 × 1728 = 248832; multiplying the original powers agrees.",
+      "visual_family": "power_factors",
+      "misconception": "Same base: add exponents, never bases."
+    },
+    {
+      "id": "g8-exp-l02-w12",
+      "kind": "power_product",
+      "values": [
+        "2",
+        "5",
+        "3"
+      ],
+      "problem": "Use a power-of-a-product law to evaluate 10³ by factoring 10 as 2 × 5.",
+      "answer": "1000",
+      "rows": [
+        "Factor the original base 10 as 2 × 5.",
+        "Rewrite the original power: 10³ = (2 × 5)³.",
+        "Expand into 3 copies of (2 × 5); this is multiplication, not addition.",
+        "Regroup equal factors to give 2³ × 5³.",
+        "Evaluate both smaller powers: 2³ = 8 and 5³ = 125.",
+        "Multiply 8 × 125 = 1000."
+      ],
+      "memo": "10³ = 1000; raising the original whole base gives the same result.",
+      "visual_family": "power_factors",
+      "misconception": "Only products allow this law: (3+2)² = 25, whereas 3²+2² = 13. Factor the original base as a multiplication first."
+    },
+    {
+      "id": "g8-exp-l02-w13",
+      "kind": "quotient",
+      "values": [
+        "9",
+        "5",
+        "5"
+      ],
+      "problem": "Evaluate 9⁵ ÷ 9⁵ using an exponent law.",
+      "answer": "1",
+      "rows": [
+        "Identify the same nonzero base 9 in numerator and denominator.",
+        "Expand the numerator into 5 factors of 9.",
+        "Expand the denominator into 5 factors of 9.",
+        "Cancel 5 matching nonzero factor pairs; 0 factors remain.",
+        "Apply the quotient law: 9⁵ ÷ 9⁵ = 9⁰.",
+        "Evaluate 9⁰ = 1."
+      ],
+      "memo": "59049 ÷ 59049 = 1; division of the original powers agrees.",
+      "visual_family": "power_factors",
+      "misconception": "Cancel equal nonzero factor pairs before subtracting exponents."
+    },
+    {
+      "id": "g8-exp-l02-w14",
+      "kind": "product",
+      "values": [
+        "4",
+        "3",
+        "3"
+      ],
+      "problem": "Evaluate 4³ × 4³ using an exponent law.",
+      "answer": "4096",
+      "rows": [
+        "Identify the common base 4; the two powers have exponents 3 and 3.",
+        "Expand 4³ into 3 copies of 4.",
+        "Expand 4³ into another 3 copies of 4.",
+        "Together there are 3+3=6 equal factors.",
+        "Apply the product law: 4³ × 4³ = 4⁶.",
+        "Evaluate 4⁶ = 4096."
+      ],
+      "memo": "64 × 64 = 4096; multiplying the original powers agrees.",
+      "visual_family": "power_factors",
+      "misconception": "Same base: add exponents, never bases."
+    },
+    {
+      "id": "g8-exp-l02-w15",
+      "kind": "mixed",
+      "values": [
+        "5",
+        "4",
+        "2",
+        "3"
+      ],
+      "problem": "Simplify and evaluate 5⁴ × 5² ÷ 5³. Show each exponent law.",
+      "answer": "125",
+      "rows": [
+        "All three powers share nonzero base 5; the exponents are 4, 2 and 3.",
+        "Combine the numerator factors first: 5⁴ × 5² = 5⁶.",
+        "Divide by 5³; cancel 3 matching factors from numerator and denominator.",
+        "Subtract only now: (4+2)−3 = 3.",
+        "The expression becomes 5³.",
+        "Evaluate 5³ = 125."
+      ],
+      "memo": "(625 × 25) ÷ 125 = 125; the original expression agrees.",
+      "visual_family": "power_factors",
+      "misconception": "Combine equal bases in the numerator, then cancel nonzero factors before subtracting exponents."
+    }
+  ]
+}

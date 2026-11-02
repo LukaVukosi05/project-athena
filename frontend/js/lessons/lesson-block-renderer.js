@@ -1,7 +1,8 @@
 class LessonBlockRenderer {
   constructor(mount, lesson) { this.mount = mount; this.lesson = lesson; }
   render() {
-    this.mount.innerHTML = `<section class="lesson-introduction card"><h3>Learning objective</h3><p>${escapeWhiteboardHtml(this.lesson.objective)}</p><h4>Why this matters</h4><p>${escapeWhiteboardHtml(this.lesson.why_it_matters)}</p><h4>Intuition first</h4><p>${escapeWhiteboardHtml(this.lesson.intuition)}</p></section><div data-role="blocks"></div>`;
+    this.fractionText = this.lesson.id?.startsWith("g8-common-fractions-") && globalThis.AthenaFractionNotation ? globalThis.AthenaFractionNotation.html : escapeWhiteboardHtml;
+    this.mount.innerHTML = `<section class="lesson-introduction card"><h3>Learning objective</h3><p>${this.fractionText(this.lesson.objective)}</p><h4>Why this matters</h4><p>${this.fractionText(this.lesson.why_it_matters)}</p><h4>Intuition first</h4><p>${this.fractionText(this.lesson.intuition)}</p></section><div data-role="blocks"></div>`;
     const blocks = this.mount.querySelector('[data-role="blocks"]');
     let questionSetMounted = false;
     this.lesson.blocks.forEach(block => {
@@ -33,22 +34,22 @@ class LessonBlockRenderer {
 
   renderContentBlock(block) {
     const data = block.data || {};
-    const choices = data.options ? `<div class="practice-choices">${data.options.map((option, index) => `<button type="button" class="btn btn-ghost" data-choice="${index}">${escapeWhiteboardHtml(option)}</button>`).join("")}</div><p class="checkpoint-feedback" hidden></p>` : "";
-    const hints = data.hints ? `<details><summary>Show hints</summary><ol>${data.hints.map(hint => `<li>${escapeWhiteboardHtml(hint)}</li>`).join("")}</ol></details>` : "";
-    const worked = data.worked_answer ? `<details><summary>Show worked answer</summary><ol>${data.worked_answer.map(line => `<li class="eq">${escapeWhiteboardHtml(line)}</li>`).join("")}</ol></details>` : "";
+    const choices = data.options ? `<div class="practice-choices">${data.options.map((option, index) => `<button type="button" class="btn btn-ghost" data-choice="${index}">${this.fractionText(option)}</button>`).join("")}</div><p class="checkpoint-feedback" hidden></p>` : "";
+    const hints = data.hints ? `<details><summary>Show hints</summary><ol>${data.hints.map(hint => `<li>${this.fractionText(hint)}</li>`).join("")}</ol></details>` : "";
+    const worked = data.worked_answer ? `<details><summary>Show worked answer</summary><ol>${data.worked_answer.map(line => `<li class="eq">${this.fractionText(line)}</li>`).join("")}</ol></details>` : "";
     const questions = data.questions ? `<div class="practice-question-list">${data.questions.map((item, index) => {
       const question = typeof item === "string" ? item : item.question;
       const difficulty = typeof item === "string" ? "Practice" : item.difficulty;
       const answer = typeof item === "string" ? null : item.answer;
       const paperPractice = data.assessment_mode === "paper_multiple_choice";
       const textbookSolution = typeof item !== "string" && item.solution_steps ? (paperPractice
-        ? `<details class="textbook-solution"><summary>Show textbook solution</summary><div class="solution-paper"><h4>Worked solution</h4><ol>${item.solution_steps.map(step => `<li>${escapeWhiteboardHtml(step)}</li>`).join("")}</ol><p><strong>Answer:</strong> ${escapeWhiteboardHtml(item.answer)}</p></div></details>`
+        ? `<details class="textbook-solution"><summary>Show textbook solution</summary><div class="solution-paper"><h4>Worked solution</h4><ol>${item.solution_steps.map(step => `<li>${this.fractionText(step)}</li>`).join("")}</ol><p><strong>Answer:</strong> ${this.fractionText(item.answer)}</p></div></details>`
         : `<div class="worked-solution-mount" data-solution="${index}" hidden></div>`) : "";
-      const options = typeof item !== "string" && item.options && !paperPractice ? `<p class="paper-instruction">${escapeWhiteboardHtml(item.instruction || "Work on paper first.")}</p><div class="question-options">${item.options.map((option, optionIndex) => `<button type="button" class="quiz-option" data-question-index="${index}" data-option-index="${optionIndex}">${escapeWhiteboardHtml(option)}</button>`).join("")}</div><p class="question-feedback" hidden></p>` : "";
+      const options = typeof item !== "string" && item.options && !paperPractice ? `<p class="paper-instruction">${this.fractionText(item.instruction || "Work on paper first.")}</p><div class="question-options">${item.options.map((option, optionIndex) => `<button type="button" class="quiz-option" data-question-index="${index}" data-option-index="${optionIndex}">${this.fractionText(option)}</button>`).join("")}</div><p class="question-feedback" hidden></p>` : "";
       const answerInput = typeof item !== "string" && item.input_type === "math" ? `<form class="math-answer" data-answer-form="${index}"><label for="answer-${index}">Your answer</label><input id="answer-${index}" inputmode="text" autocomplete="off" aria-describedby="feedback-${index}"><button class="btn btn-primary" type="submit">Submit</button></form><p id="feedback-${index}" class="question-feedback" hidden></p>` : "";
-      return `<article class="practice-question" data-question="${index}"><span class="badge">${escapeWhiteboardHtml(difficulty)}</span><strong>Question ${index + 1}</strong><p>${escapeWhiteboardHtml(question)}</p>${paperPractice ? `<p class="paper-instruction">${escapeWhiteboardHtml(item.instruction)}</p>${textbookSolution}` : (answerInput ? answerInput + textbookSolution : options ? options + textbookSolution : textbookSolution || (answer ? `<details><summary>Check answer</summary><p>${escapeWhiteboardHtml(answer)}</p></details>` : ""))}</article>`;
+      return `<article class="practice-question" data-question="${index}"><span class="badge">${this.fractionText(difficulty)}</span><strong>Question ${index + 1}</strong><p>${this.fractionText(question)}</p>${paperPractice ? `<p class="paper-instruction">${this.fractionText(item.instruction)}</p>${textbookSolution}` : (answerInput ? answerInput + textbookSolution : options ? options + textbookSolution : textbookSolution || (answer ? `<details><summary>Check answer</summary><p>${this.fractionText(answer)}</p></details>` : ""))}</article>`;
     }).join("")}</div>` : "";
-    const markup = `<section class="card"><h3>${escapeWhiteboardHtml(block.title)}</h3><p>${escapeWhiteboardHtml(block.content)}</p>${choices}${hints}${worked}${questions}</section>`;
+    const markup = `<section class="card"><h3>${this.fractionText(block.title)}</h3><p>${this.fractionText(block.content)}</p>${choices}${hints}${worked}${questions}</section>`;
     return markup;
   }
 

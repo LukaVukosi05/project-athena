@@ -1,0 +1,559 @@
+{
+  "scenes": [
+    {
+      "id": "g8-int-l02-w01",
+      "title": "Signed journey 1",
+      "problem": "Calculate 3 + (−5).",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": 3,
+      "operations": [
+        [
+          "+",
+          -5
+        ]
+      ],
+      "path": [
+        3,
+        -2
+      ],
+      "axis": [
+        -4,
+        5
+      ],
+      "answer": -2,
+      "actions": [
+        "Start at 3 on the signed number line; label the starting balance before moving.",
+        "Read the first operation + (-5): its signed movement is -5. Draw the direction from the starting tick before landing.",
+        "+ (-5) means move 5 ticks left from 3; arrive at -2. Keep the earlier jump visible.",
+        "Finish at -2. Recalculate the original operations from 3 to verify every signed change."
+      ],
+      "memo": "The jumps are 3 → -2. The signed result is -2; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w02",
+      "title": "Signed journey 2",
+      "problem": "Calculate −4 + 7.",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": -4,
+      "operations": [
+        [
+          "+",
+          7
+        ]
+      ],
+      "path": [
+        -4,
+        3
+      ],
+      "axis": [
+        -6,
+        5
+      ],
+      "answer": 3,
+      "actions": [
+        "Start at -4 on the signed number line; label the starting balance before moving.",
+        "Read the first operation + (7): its signed movement is +7. Draw the direction from the starting tick before landing.",
+        "+ (7) means move 7 ticks right from -4; arrive at 3. Keep the earlier jump visible.",
+        "Finish at 3. Recalculate the original operations from -4 to verify every signed change."
+      ],
+      "memo": "The jumps are -4 → 3. The signed result is 3; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w03",
+      "title": "Signed journey 3",
+      "problem": "Calculate 6 − 9.",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": 6,
+      "operations": [
+        [
+          "-",
+          9
+        ]
+      ],
+      "path": [
+        6,
+        -3
+      ],
+      "axis": [
+        -5,
+        8
+      ],
+      "answer": -3,
+      "actions": [
+        "Start at 6 on the signed number line; label the starting balance before moving.",
+        "Read the first operation - (9): its signed movement is -9. Draw the direction from the starting tick before landing.",
+        "- (9) means move 9 ticks left from 6; arrive at -3. Keep the earlier jump visible.",
+        "Finish at -3. Recalculate the original operations from 6 to verify every signed change."
+      ],
+      "memo": "The jumps are 6 → -3. The signed result is -3; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w04",
+      "title": "Signed journey 4",
+      "problem": "Calculate −7 − (−3).",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": -7,
+      "operations": [
+        [
+          "-",
+          -3
+        ]
+      ],
+      "path": [
+        -7,
+        -4
+      ],
+      "axis": [
+        -9,
+        2
+      ],
+      "answer": -4,
+      "actions": [
+        "Start at -7 on the signed number line; label the starting balance before moving.",
+        "Read the first operation - (-3): its signed movement is +3. Draw the direction from the starting tick before landing.",
+        "- (-3) means move 3 ticks right from -7; arrive at -4. Subtracting a negative is a rightward move.",
+        "Finish at -4. Recalculate the original operations from -7 to verify every signed change."
+      ],
+      "memo": "The jumps are -7 → -4. The signed result is -4; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w05",
+      "title": "Signed journey 5",
+      "problem": "Start at 0; move 8 left, then 5 right. Where do you land?",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": 0,
+      "operations": [
+        [
+          "+",
+          -8
+        ],
+        [
+          "+",
+          5
+        ]
+      ],
+      "path": [
+        0,
+        -8,
+        -3
+      ],
+      "axis": [
+        -10,
+        2
+      ],
+      "answer": -3,
+      "actions": [
+        "Start at 0 on the signed number line; label the starting balance before moving.",
+        "Read the first operation + (-8): its signed movement is -8. Draw the direction from the starting tick before landing.",
+        "+ (-8) means move 8 ticks left from 0; arrive at -8. Keep the earlier jump visible.",
+        "+ (5) means move 5 ticks right from -8; arrive at -3. Keep the earlier jump visible.",
+        "Finish at -3. Recalculate the original operations from 0 to verify every signed change."
+      ],
+      "memo": "The jumps are 0 → -8 → -3. The signed result is -3; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w06",
+      "title": "Signed journey 6",
+      "problem": "Calculate −2 − 4 + 10.",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": -2,
+      "operations": [
+        [
+          "-",
+          4
+        ],
+        [
+          "+",
+          10
+        ]
+      ],
+      "path": [
+        -2,
+        -6,
+        4
+      ],
+      "axis": [
+        -8,
+        6
+      ],
+      "answer": 4,
+      "actions": [
+        "Start at -2 on the signed number line; label the starting balance before moving.",
+        "Read the first operation - (4): its signed movement is -4. Draw the direction from the starting tick before landing.",
+        "- (4) means move 4 ticks left from -2; arrive at -6. Keep the earlier jump visible.",
+        "+ (10) means move 10 ticks right from -6; arrive at 4. Keep the earlier jump visible.",
+        "Finish at 4. Recalculate the original operations from -2 to verify every signed change."
+      ],
+      "memo": "The jumps are -2 → -6 → 4. The signed result is 4; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w07",
+      "title": "Signed journey 7",
+      "problem": "A bank balance is R9; a payment of R13 leaves what signed balance?",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": 9,
+      "operations": [
+        [
+          "+",
+          -13
+        ]
+      ],
+      "path": [
+        9,
+        -4
+      ],
+      "axis": [
+        -6,
+        11
+      ],
+      "answer": -4,
+      "actions": [
+        "Start at 9 on the signed number line; label the starting balance before moving.",
+        "Read the first operation + (-13): its signed movement is -13. Draw the direction from the starting tick before landing.",
+        "+ (-13) means move 13 ticks left from 9; arrive at -4. Keep the earlier jump visible.",
+        "Finish at -4. Recalculate the original operations from 9 to verify every signed change."
+      ],
+      "memo": "The jumps are 9 → -4. The signed result is -4; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w08",
+      "title": "Signed journey 8",
+      "problem": "Calculate −6 + (−5) − (−4).",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": -6,
+      "operations": [
+        [
+          "+",
+          -5
+        ],
+        [
+          "-",
+          -4
+        ]
+      ],
+      "path": [
+        -6,
+        -11,
+        -7
+      ],
+      "axis": [
+        -13,
+        2
+      ],
+      "answer": -7,
+      "actions": [
+        "Start at -6 on the signed number line; label the starting balance before moving.",
+        "Read the first operation + (-5): its signed movement is -5. Draw the direction from the starting tick before landing.",
+        "+ (-5) means move 5 ticks left from -6; arrive at -11. Keep the earlier jump visible.",
+        "- (-4) means move 4 ticks right from -11; arrive at -7. Subtracting a negative is a rightward move.",
+        "Finish at -7. Recalculate the original operations from -6 to verify every signed change."
+      ],
+      "memo": "The jumps are -6 → -11 → -7. The signed result is -7; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w09",
+      "title": "Signed journey 9",
+      "problem": "A temperature starts at 12°C, falls 18°C, then falls another 3°C. Find the final temperature.",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": 12,
+      "operations": [
+        [
+          "-",
+          18
+        ],
+        [
+          "+",
+          -3
+        ]
+      ],
+      "path": [
+        12,
+        -6,
+        -9
+      ],
+      "axis": [
+        -11,
+        14
+      ],
+      "answer": -9,
+      "actions": [
+        "Start at 12 on the signed number line; label the starting balance before moving.",
+        "Read the first operation - (18): its signed movement is -18. Draw the direction from the starting tick before landing.",
+        "- (18) means move 18 ticks left from 12; arrive at -6. Keep the earlier jump visible.",
+        "+ (-3) means move 3 ticks left from -6; arrive at -9. Keep the earlier jump visible.",
+        "Finish at -9. Recalculate the original operations from 12 to verify every signed change."
+      ],
+      "memo": "The jumps are 12 → -6 → -9. The signed result is -9; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w10",
+      "title": "Signed journey 10",
+      "problem": "Calculate −10 − (−7) − 6.",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": -10,
+      "operations": [
+        [
+          "-",
+          -7
+        ],
+        [
+          "-",
+          6
+        ]
+      ],
+      "path": [
+        -10,
+        -3,
+        -9
+      ],
+      "axis": [
+        -12,
+        2
+      ],
+      "answer": -9,
+      "actions": [
+        "Start at -10 on the signed number line; label the starting balance before moving.",
+        "Read the first operation - (-7): its signed movement is +7. Draw the direction from the starting tick before landing.",
+        "- (-7) means move 7 ticks right from -10; arrive at -3. Subtracting a negative is a rightward move.",
+        "- (6) means move 6 ticks left from -3; arrive at -9. Keep the earlier jump visible.",
+        "Finish at -9. Recalculate the original operations from -10 to verify every signed change."
+      ],
+      "memo": "The jumps are -10 → -3 → -9. The signed result is -9; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w11",
+      "title": "Signed journey 11",
+      "problem": "Calculate 5 + (−8) − (−4) + (−2).",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": 5,
+      "operations": [
+        [
+          "+",
+          -8
+        ],
+        [
+          "-",
+          -4
+        ],
+        [
+          "+",
+          -2
+        ]
+      ],
+      "path": [
+        5,
+        -3,
+        1,
+        -1
+      ],
+      "axis": [
+        -5,
+        7
+      ],
+      "answer": -1,
+      "actions": [
+        "Start at 5 on the signed number line; label the starting balance before moving.",
+        "Read the first operation + (-8): its signed movement is -8. Draw the direction from the starting tick before landing.",
+        "+ (-8) means move 8 ticks left from 5; arrive at -3. Keep the earlier jump visible.",
+        "- (-4) means move 4 ticks right from -3; arrive at 1. Subtracting a negative is a rightward move.",
+        "+ (-2) means move 2 ticks left from 1; arrive at -1. Keep the earlier jump visible.",
+        "Finish at -1. Recalculate the original operations from 5 to verify every signed change."
+      ],
+      "memo": "The jumps are 5 → -3 → 1 → -1. The signed result is -1; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w12",
+      "title": "Signed journey 12",
+      "problem": "An elevation is −15 m; rise 9 m, then subtract a fall of −11 m. Where are you?",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": -15,
+      "operations": [
+        [
+          "+",
+          9
+        ],
+        [
+          "-",
+          -11
+        ]
+      ],
+      "path": [
+        -15,
+        -6,
+        5
+      ],
+      "axis": [
+        -17,
+        7
+      ],
+      "answer": 5,
+      "actions": [
+        "Start at -15 on the signed number line; label the starting balance before moving.",
+        "Read the first operation + (9): its signed movement is +9. Draw the direction from the starting tick before landing.",
+        "+ (9) means move 9 ticks right from -15; arrive at -6. Keep the earlier jump visible.",
+        "- (-11) means move 11 ticks right from -6; arrive at 5. Subtracting a negative is a rightward move.",
+        "Finish at 5. Recalculate the original operations from -15 to verify every signed change."
+      ],
+      "memo": "The jumps are -15 → -6 → 5. The signed result is 5; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w13",
+      "title": "Signed journey 13",
+      "problem": "Calculate 8 − (−6) + (−21) − 3.",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": 8,
+      "operations": [
+        [
+          "-",
+          -6
+        ],
+        [
+          "+",
+          -21
+        ],
+        [
+          "-",
+          3
+        ]
+      ],
+      "path": [
+        8,
+        14,
+        -7,
+        -10
+      ],
+      "axis": [
+        -12,
+        16
+      ],
+      "answer": -10,
+      "actions": [
+        "Start at 8 on the signed number line; label the starting balance before moving.",
+        "Read the first operation - (-6): its signed movement is +6. Draw the direction from the starting tick before landing.",
+        "- (-6) means move 6 ticks right from 8; arrive at 14. Subtracting a negative is a rightward move.",
+        "+ (-21) means move 21 ticks left from 14; arrive at -7. Keep the earlier jump visible.",
+        "- (3) means move 3 ticks left from -7; arrive at -10. Keep the earlier jump visible.",
+        "Finish at -10. Recalculate the original operations from 8 to verify every signed change."
+      ],
+      "memo": "The jumps are 8 → 14 → -7 → -10. The signed result is -10; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w14",
+      "title": "Signed journey 14",
+      "problem": "Calculate −12 − 5 − (−8) + (−4).",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": -12,
+      "operations": [
+        [
+          "-",
+          5
+        ],
+        [
+          "-",
+          -8
+        ],
+        [
+          "+",
+          -4
+        ]
+      ],
+      "path": [
+        -12,
+        -17,
+        -9,
+        -13
+      ],
+      "axis": [
+        -19,
+        2
+      ],
+      "answer": -13,
+      "actions": [
+        "Start at -12 on the signed number line; label the starting balance before moving.",
+        "Read the first operation - (5): its signed movement is -5. Draw the direction from the starting tick before landing.",
+        "- (5) means move 5 ticks left from -12; arrive at -17. Keep the earlier jump visible.",
+        "- (-8) means move 8 ticks right from -17; arrive at -9. Subtracting a negative is a rightward move.",
+        "+ (-4) means move 4 ticks left from -9; arrive at -13. Keep the earlier jump visible.",
+        "Finish at -13. Recalculate the original operations from -12 to verify every signed change."
+      ],
+      "memo": "The jumps are -12 → -17 → -9 → -13. The signed result is -13; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    },
+    {
+      "id": "g8-int-l02-w15",
+      "title": "Signed journey 15",
+      "problem": "A balance of R20 changes by −R35, then subtracts a debt of −R12, gains R7 and pays R9. Find the signed final balance.",
+      "model": "integer_jumps",
+      "kind": "journey",
+      "start": 20,
+      "operations": [
+        [
+          "+",
+          -35
+        ],
+        [
+          "-",
+          -12
+        ],
+        [
+          "+",
+          7
+        ],
+        [
+          "-",
+          9
+        ]
+      ],
+      "path": [
+        20,
+        -15,
+        -3,
+        4,
+        -5
+      ],
+      "axis": [
+        -17,
+        22
+      ],
+      "answer": -5,
+      "actions": [
+        "Start at 20 on the signed number line; label the starting balance before moving.",
+        "Read the first operation + (-35): its signed movement is -35. Draw the direction from the starting tick before landing.",
+        "+ (-35) means move 35 ticks left from 20; arrive at -15. Keep the earlier jump visible.",
+        "- (-12) means move 12 ticks right from -15; arrive at -3. Subtracting a negative is a rightward move.",
+        "+ (7) means move 7 ticks right from -3; arrive at 4. Keep the earlier jump visible.",
+        "- (9) means move 9 ticks left from 4; arrive at -5. Keep the earlier jump visible.",
+        "Finish at -5. Recalculate the original operations from 20 to verify every signed change."
+      ],
+      "memo": "The jumps are 20 → -15 → -3 → 4 → -5. The signed result is -5; substitute the same changes into the original expression.",
+      "misconception": "Subtraction reverses the sign of the next movement; the prior path must remain visible."
+    }
+  ]
+}

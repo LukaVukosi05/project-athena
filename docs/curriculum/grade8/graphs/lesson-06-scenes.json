@@ -1,0 +1,724 @@
+{
+  "scenes": [
+    {
+      "id": "g8-graphs-l06-w01",
+      "kind": "diagnose",
+      "title": "Water level",
+      "problem": "Water level: the graph records litres against minutes. A learner claims: “The water level at minute 2 is 3 L.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 9,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "minutes",
+        "y_unit": "litres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "claim": "The water level at minute 2 is 3 L.",
+      "focus_index": 2,
+      "actions": [
+        "Read the learner claim without accepting it: The water level at minute 2 is 3 L. Name the minutes input being discussed.",
+        "Project that input onto the real graph. At minutes 2, the plotted value is 5 litres.",
+        "Check the nearby graph values: at 1 it is 3, then at 2 it is 5. The change is +2 litres.",
+        "The claim is incorrect. The level at minute 2 is 5 L. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "The level at minute 2 is 5 L.",
+      "memo": "The claim “The water level at minute 2 is 3 L.” conflicts with the original graph [(0, 1), (1, 3), (2, 5), (3, 7)]. The level at minute 2 is 5 L.",
+      "misconception": "The water level at minute 2 is 3 L.",
+      "repair": "Keep the horizontal input fixed, read the matching litres, then compute the change only over the stated interval.",
+      "marks": 2
+    },
+    {
+      "id": "g8-graphs-l06-w02",
+      "kind": "diagnose",
+      "title": "Heating oven",
+      "problem": "Heating oven: the graph records degrees C against minutes. A learner claims: “The temperature stays constant from minute 1 to 2.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -8,
+        "y_max": 58,
+        "x_tick": 1,
+        "y_tick": 10,
+        "x_unit": "minutes",
+        "y_unit": "degrees C"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 20
+        },
+        {
+          "x": 1,
+          "y": 30
+        },
+        {
+          "x": 2,
+          "y": 40
+        },
+        {
+          "x": 3,
+          "y": 50
+        }
+      ],
+      "claim": "The temperature stays constant from minute 1 to 2.",
+      "focus_index": 2,
+      "actions": [
+        "Read the learner claim without accepting it: The temperature stays constant from minute 1 to 2. Name the minutes input being discussed.",
+        "Project that input onto the real graph. At minutes 2, the plotted value is 40 degrees C.",
+        "Check the nearby graph values: at 1 it is 30, then at 2 it is 40. The change is +10 degrees C.",
+        "The claim is incorrect. It increases from 30°C to 40°C. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "It increases from 30°C to 40°C.",
+      "memo": "The claim “The temperature stays constant from minute 1 to 2.” conflicts with the original graph [(0, 20), (1, 30), (2, 40), (3, 50)]. It increases from 30°C to 40°C.",
+      "misconception": "The temperature stays constant from minute 1 to 2.",
+      "repair": "Keep the horizontal input fixed, read the matching degrees C, then compute the change only over the stated interval.",
+      "marks": 2
+    },
+    {
+      "id": "g8-graphs-l06-w03",
+      "kind": "diagnose",
+      "title": "Candle height",
+      "problem": "Candle height: the graph records centimetres against hours. A learner claims: “The candle grows by 2 cm each hour.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 12,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "hours",
+        "y_unit": "centimetres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 10
+        },
+        {
+          "x": 1,
+          "y": 8
+        },
+        {
+          "x": 2,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 4
+        }
+      ],
+      "claim": "The candle grows by 2 cm each hour.",
+      "focus_index": 2,
+      "actions": [
+        "Read the learner claim without accepting it: The candle grows by 2 cm each hour. Name the hours input being discussed.",
+        "Project that input onto the real graph. At hours 2, the plotted value is 6 centimetres.",
+        "Check the nearby graph values: at 1 it is 8, then at 2 it is 6. The change is -2 centimetres.",
+        "The claim is incorrect. It shrinks by 2 cm each hour. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "It shrinks by 2 cm each hour.",
+      "memo": "The claim “The candle grows by 2 cm each hour.” conflicts with the original graph [(0, 10), (1, 8), (2, 6), (3, 4)]. It shrinks by 2 cm each hour.",
+      "misconception": "The candle grows by 2 cm each hour.",
+      "repair": "Keep the horizontal input fixed, read the matching centimetres, then compute the change only over the stated interval.",
+      "marks": 2
+    },
+    {
+      "id": "g8-graphs-l06-w04",
+      "kind": "diagnose",
+      "title": "Walk from home",
+      "problem": "Walk from home: the graph records kilometres against hours. A learner claims: “The walker travels farther from home during hour 1 to 2.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 6,
+        "x_tick": 1,
+        "y_tick": 1,
+        "x_unit": "hours",
+        "y_unit": "kilometres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 1
+        }
+      ],
+      "claim": "The walker travels farther from home during hour 1 to 2.",
+      "focus_index": 2,
+      "actions": [
+        "Read the learner claim without accepting it: The walker travels farther from home during hour 1 to 2. Name the hours input being discussed.",
+        "Project that input onto the real graph. At hours 2, the plotted value is 4 kilometres.",
+        "Check the nearby graph values: at 1 it is 4, then at 2 it is 4. The change is +0 kilometres.",
+        "The claim is incorrect. Distance from home stays at 4 km during hour 1 to 2. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "Distance from home stays at 4 km during hour 1 to 2.",
+      "memo": "The claim “The walker travels farther from home during hour 1 to 2.” conflicts with the original graph [(0, 0), (1, 4), (2, 4), (3, 1)]. Distance from home stays at 4 km during hour 1 to 2.",
+      "misconception": "The walker travels farther from home during hour 1 to 2.",
+      "repair": "Keep the horizontal input fixed, read the matching kilometres, then compute the change only over the stated interval.",
+      "marks": 3
+    },
+    {
+      "id": "g8-graphs-l06-w05",
+      "kind": "diagnose",
+      "title": "Cyclist speed",
+      "problem": "Cyclist speed: the graph records km/h against minutes. A learner claims: “The maximum speed is 12 km/h.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -5,
+        "y_max": 23,
+        "x_tick": 1,
+        "y_tick": 4,
+        "x_unit": "minutes",
+        "y_unit": "km/h"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 10
+        },
+        {
+          "x": 2,
+          "y": 18
+        },
+        {
+          "x": 3,
+          "y": 12
+        }
+      ],
+      "claim": "The maximum speed is 12 km/h.",
+      "focus_index": 2,
+      "actions": [
+        "Read the learner claim without accepting it: The maximum speed is 12 km/h. Name the minutes input being discussed.",
+        "Project that input onto the real graph. At minutes 2, the plotted value is 18 km/h.",
+        "Check the nearby graph values: at 1 it is 10, then at 2 it is 18. The change is +8 km/h.",
+        "The claim is incorrect. The maximum speed is 18 km/h at minute 2. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "The maximum speed is 18 km/h at minute 2.",
+      "memo": "The claim “The maximum speed is 12 km/h.” conflicts with the original graph [(0, 0), (1, 10), (2, 18), (3, 12)]. The maximum speed is 18 km/h at minute 2.",
+      "misconception": "The maximum speed is 12 km/h.",
+      "repair": "Keep the horizontal input fixed, read the matching km/h, then compute the change only over the stated interval.",
+      "marks": 3
+    },
+    {
+      "id": "g8-graphs-l06-w06",
+      "kind": "diagnose",
+      "title": "Plant growth",
+      "problem": "Plant growth: the graph records centimetres against weeks. A learner claims: “The plant rises by the same amount each week.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -3,
+        "y_max": 14,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "weeks",
+        "y_unit": "centimetres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 11
+        }
+      ],
+      "claim": "The plant rises by the same amount each week.",
+      "focus_index": 2,
+      "actions": [
+        "Read the learner claim without accepting it: The plant rises by the same amount each week. Name the weeks input being discussed.",
+        "Project that input onto the real graph. At weeks 2, the plotted value is 7 centimetres.",
+        "Check the nearby graph values: at 1 it is 4, then at 2 it is 7. The change is +3 centimetres.",
+        "The claim is incorrect. Its rises are 2, 3 and 4 cm; they are not equal. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "Its rises are 2, 3 and 4 cm; they are not equal.",
+      "memo": "The claim “The plant rises by the same amount each week.” conflicts with the original graph [(0, 2), (1, 4), (2, 7), (3, 11)]. Its rises are 2, 3 and 4 cm; they are not equal.",
+      "misconception": "The plant rises by the same amount each week.",
+      "repair": "Keep the horizontal input fixed, read the matching centimetres, then compute the change only over the stated interval.",
+      "marks": 3
+    },
+    {
+      "id": "g8-graphs-l06-w07",
+      "kind": "diagnose",
+      "title": "Books counted",
+      "problem": "Books counted: the graph records books against days. A learner claims: “The books at day 3 equal 4.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 10,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "days",
+        "y_unit": "books"
+      },
+      "domain": "discrete",
+      "points": [
+        {
+          "x": 0,
+          "y": 3
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 8
+        }
+      ],
+      "claim": "The books at day 3 equal 4.",
+      "focus_index": 3,
+      "actions": [
+        "Read the learner claim without accepting it: The books at day 3 equal 4. Name the days input being discussed.",
+        "Project that input onto the real graph. At days 3, the plotted value is 8 books.",
+        "Check the nearby graph values: at 2 it is 4, then at 3 it is 8. The change is +4 books.",
+        "The claim is incorrect. At day 3 there are 8 books; day 2 has 4. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "At day 3 there are 8 books; day 2 has 4.",
+      "memo": "The claim “The books at day 3 equal 4.” conflicts with the original graph [(0, 3), (1, 5), (2, 4), (3, 8)]. At day 3 there are 8 books; day 2 has 4.",
+      "misconception": "The books at day 3 equal 4.",
+      "repair": "Keep the horizontal input fixed, read the matching books, then compute the change only over the stated interval.",
+      "marks": 4
+    },
+    {
+      "id": "g8-graphs-l06-w08",
+      "kind": "diagnose",
+      "title": "Freezer temperature",
+      "problem": "Freezer temperature: the graph records degrees C against hours. A learner claims: “The freezer warms from hour 1 to 2.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -9,
+        "y_max": 2,
+        "x_tick": 1,
+        "y_tick": 1,
+        "x_unit": "hours",
+        "y_unit": "degrees C"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": -1
+        },
+        {
+          "x": 1,
+          "y": -4
+        },
+        {
+          "x": 2,
+          "y": -7
+        },
+        {
+          "x": 3,
+          "y": -3
+        }
+      ],
+      "claim": "The freezer warms from hour 1 to 2.",
+      "focus_index": 2,
+      "actions": [
+        "Read the learner claim without accepting it: The freezer warms from hour 1 to 2. Name the hours input being discussed.",
+        "Project that input onto the real graph. At hours 2, the plotted value is -7 degrees C.",
+        "Check the nearby graph values: at 1 it is -4, then at 2 it is -7. The change is -3 degrees C.",
+        "The claim is incorrect. It cools from −4°C to −7°C. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "It cools from −4°C to −7°C.",
+      "memo": "The claim “The freezer warms from hour 1 to 2.” conflicts with the original graph [(0, -1), (1, -4), (2, -7), (3, -3)]. It cools from −4°C to −7°C.",
+      "misconception": "The freezer warms from hour 1 to 2.",
+      "repair": "Keep the horizontal input fixed, read the matching degrees C, then compute the change only over the stated interval.",
+      "marks": 4
+    },
+    {
+      "id": "g8-graphs-l06-w09",
+      "kind": "diagnose",
+      "title": "Reservoir volume",
+      "problem": "Reservoir volume: the graph records megalitres against days. A learner claims: “The reservoir rises by 11 ML from day 0 to day 3.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -3,
+        "y_max": 14,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "days",
+        "y_unit": "megalitres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 8
+        },
+        {
+          "x": 2,
+          "y": 11
+        },
+        {
+          "x": 3,
+          "y": 11
+        }
+      ],
+      "claim": "The reservoir rises by 11 ML from day 0 to day 3.",
+      "focus_index": 3,
+      "actions": [
+        "Read the learner claim without accepting it: The reservoir rises by 11 ML from day 0 to day 3. Name the days input being discussed.",
+        "Project that input onto the real graph. At days 3, the plotted value is 11 megalitres.",
+        "From the starting 2 ML at day 0 to 11 ML at day 3, subtract 11 − 2 = 9 ML of gain.",
+        "The claim is incorrect. Its rise is 11 − 2 = 9 ML. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "Its rise is 11 − 2 = 9 ML.",
+      "memo": "The claim “The reservoir rises by 11 ML from day 0 to day 3.” conflicts with the original graph [(0, 2), (1, 8), (2, 11), (3, 11)]. Its rise is 11 − 2 = 9 ML.",
+      "misconception": "The reservoir rises by 11 ML from day 0 to day 3.",
+      "repair": "Keep the horizontal input fixed, read the matching megalitres, then compute the change only over the stated interval.",
+      "marks": 4
+    },
+    {
+      "id": "g8-graphs-l06-w10",
+      "kind": "diagnose",
+      "title": "Data balance",
+      "problem": "Data balance: the graph records gigabytes against days. A learner claims: “The data use is 5 GB from day 1 to day 2.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 12,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "days",
+        "y_unit": "gigabytes"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 10
+        },
+        {
+          "x": 1,
+          "y": 8
+        },
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "claim": "The data use is 5 GB from day 1 to day 2.",
+      "focus_index": 2,
+      "actions": [
+        "Read the learner claim without accepting it: The data use is 5 GB from day 1 to day 2. Name the days input being discussed.",
+        "Project that input onto the real graph. At days 2, the plotted value is 8 gigabytes.",
+        "Check the nearby graph values: at 1 it is 8, then at 2 it is 8. The change is +0 gigabytes.",
+        "The claim is incorrect. The balance stays at 8 GB; no change occurs on that interval. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "The balance stays at 8 GB; no change occurs on that interval.",
+      "memo": "The claim “The data use is 5 GB from day 1 to day 2.” conflicts with the original graph [(0, 10), (1, 8), (2, 8), (3, 3)]. The balance stays at 8 GB; no change occurs on that interval.",
+      "misconception": "The data use is 5 GB from day 1 to day 2.",
+      "repair": "Keep the horizontal input fixed, read the matching gigabytes, then compute the change only over the stated interval.",
+      "marks": 5
+    },
+    {
+      "id": "g8-graphs-l06-w11",
+      "kind": "diagnose",
+      "title": "Rainfall total",
+      "problem": "Rainfall total: the graph records millimetres against hours. A learner claims: “There is no additional rain from hour 2 to 3.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -3,
+        "y_max": 12,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "hours",
+        "y_unit": "millimetres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 9
+        }
+      ],
+      "claim": "There is no additional rain from hour 2 to 3.",
+      "focus_index": 3,
+      "actions": [
+        "Read the learner claim without accepting it: There is no additional rain from hour 2 to 3. Name the hours input being discussed.",
+        "Project that input onto the real graph. At hours 3, the plotted value is 9 millimetres.",
+        "Check the nearby graph values: at 2 it is 5, then at 3 it is 9. The change is +4 millimetres.",
+        "The claim is incorrect. The total rises from 5 mm to 9 mm; 4 mm is added. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "The total rises from 5 mm to 9 mm; 4 mm is added.",
+      "memo": "The claim “There is no additional rain from hour 2 to 3.” conflicts with the original graph [(0, 0), (1, 5), (2, 5), (3, 9)]. The total rises from 5 mm to 9 mm; 4 mm is added.",
+      "misconception": "There is no additional rain from hour 2 to 3.",
+      "repair": "Keep the horizontal input fixed, read the matching millimetres, then compute the change only over the stated interval.",
+      "marks": 5
+    },
+    {
+      "id": "g8-graphs-l06-w12",
+      "kind": "diagnose",
+      "title": "Ticket counts",
+      "problem": "Ticket counts: the graph records tickets against days. A learner claims: “Join the dots to show 2.5 tickets halfway through day 1.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 8,
+        "x_tick": 1,
+        "y_tick": 1,
+        "x_unit": "days",
+        "y_unit": "tickets"
+      },
+      "domain": "discrete",
+      "points": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "claim": "Join the dots to show 2.5 tickets halfway through day 1.",
+      "focus_index": 1,
+      "actions": [
+        "Read the learner claim without accepting it: Join the dots to show 2.5 tickets halfway through day 1. Name the days input being discussed.",
+        "Project that input onto the real graph. At days 1, the plotted value is 3 tickets.",
+        "A ticket is a whole count. A dot halfway between sampled days would assert a fractional ticket, so keep the observed counts separate.",
+        "The claim is incorrect. Tickets are whole counts at sampled days; do not infer half a ticket. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "Tickets are whole counts at sampled days; do not infer half a ticket.",
+      "memo": "The claim “Join the dots to show 2.5 tickets halfway through day 1.” conflicts with the original graph [(0, 1), (1, 3), (2, 5), (3, 6)]. Tickets are whole counts at sampled days; do not infer half a ticket.",
+      "misconception": "Join the dots to show 2.5 tickets halfway through day 1.",
+      "repair": "Keep the horizontal input fixed, read the matching tickets, then compute the change only over the stated interval.",
+      "marks": 5
+    },
+    {
+      "id": "g8-graphs-l06-w13",
+      "kind": "diagnose",
+      "title": "Morning temperature",
+      "problem": "Morning temperature: the graph records degrees C against hours. A learner claims: “The first temperature above zero appears at hour 1.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -8,
+        "y_max": 7,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "hours",
+        "y_unit": "degrees C"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": -5
+        },
+        {
+          "x": 1,
+          "y": -2
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 4
+        }
+      ],
+      "claim": "The first temperature above zero appears at hour 1.",
+      "focus_index": 2,
+      "actions": [
+        "Read the learner claim without accepting it: The first temperature above zero appears at hour 1. Name the hours input being discussed.",
+        "Project that input onto the real graph. At hours 2, the plotted value is 1 degrees C.",
+        "Check the nearby graph values: at 1 it is -2, then at 2 it is 1. The change is +3 degrees C.",
+        "The claim is incorrect. At hour 1 it is −2°C; the first positive reading is at hour 2. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "At hour 1 it is −2°C; the first positive reading is at hour 2.",
+      "memo": "The claim “The first temperature above zero appears at hour 1.” conflicts with the original graph [(0, -5), (1, -2), (2, 1), (3, 4)]. At hour 1 it is −2°C; the first positive reading is at hour 2.",
+      "misconception": "The first temperature above zero appears at hour 1.",
+      "repair": "Keep the horizontal input fixed, read the matching degrees C, then compute the change only over the stated interval.",
+      "marks": 6
+    },
+    {
+      "id": "g8-graphs-l06-w14",
+      "kind": "diagnose",
+      "title": "Return journey",
+      "problem": "Return journey: the graph records kilometres against hours. A learner claims: “A flat line from hour 1 to 2 means the person has returned home.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -2,
+        "y_max": 9,
+        "x_tick": 1,
+        "y_tick": 2,
+        "x_unit": "hours",
+        "y_unit": "kilometres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 7
+        },
+        {
+          "x": 2,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 0
+        }
+      ],
+      "claim": "A flat line from hour 1 to 2 means the person has returned home.",
+      "focus_index": 2,
+      "actions": [
+        "Read the learner claim without accepting it: A flat line from hour 1 to 2 means the person has returned home. Name the hours input being discussed.",
+        "Project that input onto the real graph. At hours 2, the plotted value is 7 kilometres.",
+        "Check the nearby graph values: at 1 it is 7, then at 2 it is 7. The change is +0 kilometres.",
+        "The claim is incorrect. The person remains 7 km from home, then returns by hour 3. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "The person remains 7 km from home, then returns by hour 3.",
+      "memo": "The claim “A flat line from hour 1 to 2 means the person has returned home.” conflicts with the original graph [(0, 0), (1, 7), (2, 7), (3, 0)]. The person remains 7 km from home, then returns by hour 3.",
+      "misconception": "A flat line from hour 1 to 2 means the person has returned home.",
+      "repair": "Keep the horizontal input fixed, read the matching kilometres, then compute the change only over the stated interval.",
+      "marks": 6
+    },
+    {
+      "id": "g8-graphs-l06-w15",
+      "kind": "diagnose",
+      "title": "Tank draining",
+      "problem": "Tank draining: the graph records litres against hours. A learner claims: “The tank loses 14 L from hour 2 to hour 3.” Find the first mistake and correct it.",
+      "axis": {
+        "x_min": 0,
+        "x_max": 4,
+        "y_min": -3,
+        "y_max": 17,
+        "x_tick": 1,
+        "y_tick": 3,
+        "x_unit": "hours",
+        "y_unit": "litres"
+      },
+      "domain": "continuous",
+      "points": [
+        {
+          "x": 0,
+          "y": 4
+        },
+        {
+          "x": 1,
+          "y": 14
+        },
+        {
+          "x": 2,
+          "y": 14
+        },
+        {
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "claim": "The tank loses 14 L from hour 2 to hour 3.",
+      "focus_index": 3,
+      "actions": [
+        "Read the learner claim without accepting it: The tank loses 14 L from hour 2 to hour 3. Name the hours input being discussed.",
+        "Project that input onto the real graph. At hours 3, the plotted value is 3 litres.",
+        "Check the nearby graph values: at 2 it is 14, then at 3 it is 3. The change is -11 litres.",
+        "The claim is incorrect. It loses 14 − 3 = 11 L. Check the correction against the original plotted graph and its units."
+      ],
+      "answer": "It loses 14 − 3 = 11 L.",
+      "memo": "The claim “The tank loses 14 L from hour 2 to hour 3.” conflicts with the original graph [(0, 4), (1, 14), (2, 14), (3, 3)]. It loses 14 − 3 = 11 L.",
+      "misconception": "The tank loses 14 L from hour 2 to hour 3.",
+      "repair": "Keep the horizontal input fixed, read the matching litres, then compute the change only over the stated interval.",
+      "marks": 6
+    }
+  ]
+}
