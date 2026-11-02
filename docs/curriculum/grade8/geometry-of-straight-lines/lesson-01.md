@@ -8,7 +8,7 @@ Learning objective: identify the angle relationship in an accurately labelled di
 Why it matters: a visually plausible angle is not a reason. Learners must link each equality or sum to intersecting, perpendicular or parallel lines.
 
 Prerequisites: straight angle 180°, right angle 90°, basic algebraic equations and angle notation.
-Estimated duration: 90 minutes; 15 worked examples, 15 parallel independent questions to author and five mastery items to author.
+Estimated duration: 90 minutes; 15 worked examples, 15 unseen independent questions, five mastery items and three parallel reassessments.
 
 ## Whiteboard contract
 
@@ -123,7 +123,7 @@ Estimated duration: 90 minutes; 15 worked examples, 15 parallel independent ques
 
 ### 06 · g8-lines-01-w06 · standard
 
-**Question:** In the diagram, angles (2x + 18)° and (20)° form a straight line. Find x and the angle (2x + 18)°.
+**Question:** In the diagram, angles (2x + 18)° and (20)° form a straight line. Find x.
 
 **Visual:** intersection diagram; two separately targetable angle sectors; linear_pair relationship. Given values: (2, 18, 0, 20).
 
@@ -145,7 +145,7 @@ Estimated duration: 90 minutes; 15 worked examples, 15 parallel independent ques
 
 ### 07 · g8-lines-01-w07 · standard
 
-**Question:** In the diagram, angles (3x + 12)° and (2x + 47)° are vertically opposite. Find x and the angle (3x + 12)°.
+**Question:** In the diagram, angles (3x + 12)° and (2x + 47)° are vertically opposite. Find x.
 
 **Visual:** intersection diagram; two separately targetable angle sectors; vertical relationship. Given values: (3, 12, 2, 47).
 
@@ -187,7 +187,7 @@ Estimated duration: 90 minutes; 15 worked examples, 15 parallel independent ques
 
 ### 09 · g8-lines-01-w09 · standard
 
-**Question:** In the diagram, angles (3x + 24)° and (30)° form a straight line. Find x and the angle (3x + 24)°.
+**Question:** In the diagram, angles (3x + 24)° and (30)° form a straight line. Find x.
 
 **Visual:** intersection diagram; two separately targetable angle sectors; linear_pair relationship. Given values: (3, 24, 0, 30).
 
@@ -229,7 +229,7 @@ Estimated duration: 90 minutes; 15 worked examples, 15 parallel independent ques
 
 ### 11 · g8-lines-01-w11 · standard
 
-**Question:** In the diagram, angles (4x − 14)° and (2x + 50)° are vertically opposite. Find x and the angle (4x − 14)°.
+**Question:** In the diagram, angles (4x − 14)° and (2x + 50)° are vertically opposite. Find x.
 
 **Visual:** intersection diagram; two separately targetable angle sectors; vertical relationship. Given values: (4, -14, 2, 50).
 
@@ -251,7 +251,7 @@ Estimated duration: 90 minutes; 15 worked examples, 15 parallel independent ques
 
 ### 12 · g8-lines-01-w12 · standard
 
-**Question:** In the diagram, angles (4x + 20)° and (x + 10)° form a straight line. Find x and the angle (4x + 20)°.
+**Question:** In the diagram, angles (4x + 20)° and (x + 10)° form a straight line. Find x.
 
 **Visual:** intersection diagram; two separately targetable angle sectors; linear_pair relationship. Given values: (4, 20, 1, 10).
 
@@ -293,7 +293,7 @@ Estimated duration: 90 minutes; 15 worked examples, 15 parallel independent ques
 
 ### 14 · g8-lines-01-w14 · standard
 
-**Question:** In the diagram, angles (5x + 9)° and (3x + 75)° are vertically opposite. Find x and the angle (5x + 9)°.
+**Question:** In the diagram, angles (5x + 9)° and (3x + 75)° are vertically opposite. Find x.
 
 **Visual:** intersection diagram; two separately targetable angle sectors; vertical relationship. Given values: (5, 9, 3, 75).
 
@@ -315,7 +315,7 @@ Estimated duration: 90 minutes; 15 worked examples, 15 parallel independent ques
 
 ### 15 · g8-lines-01-w15 · standard
 
-**Question:** In the diagram, angles (5x − 30)° and (x)° form a straight line. Find x and the angle (5x − 30)°.
+**Question:** In the diagram, angles (5x − 30)° and (x)° form a straight line. Find x.
 
 **Visual:** intersection diagram; two separately targetable angle sectors; linear_pair relationship. Given values: (5, -30, 1, 0).
 
@@ -335,6 +335,368 @@ Estimated duration: 90 minutes; 15 worked examples, 15 parallel independent ques
 
 **Reteaching:** redraw only the relevant angle pair with changed values; require the learner to name the relationship before writing a new equation.
 
+## Independent practice
+
+Learners attempt these changed values before viewing the memo.
+
+### 01 · different values from worked example 01
+
+In the labelled diagram, two parts of a right angle include a 38° angle. Find the marked angle x. Give a reason.
+
+**Memo (hidden until submission):**
+
+1. Locate the given 38° angle and the separate marked angle x.
+2. Identify the two parts of a right angle relationship.
+3. x + 38° = 90°
+4. x = 90° − 38° = 52°
+5. Verify: 52° + 38° = 90°
+
+**Answer:** 52°.
+
+### 02 · different values from worked example 02
+
+In the labelled diagram, adjacent angles on a straight line include a 72° angle. Find the marked angle x. Give a reason.
+
+**Memo (hidden until submission):**
+
+1. Locate the given 72° angle and the separate marked angle x.
+2. Identify the adjacent angles on a straight line relationship.
+3. x + 72° = 180°
+4. x = 180° − 72° = 108°
+5. Verify: 108° + 72° = 180°
+
+**Answer:** 108°.
+
+### 03 · different values from worked example 03
+
+In the labelled diagram, vertically opposite angles include a 51° angle. Find the marked angle x. Give a reason.
+
+**Memo (hidden until submission):**
+
+1. Locate the given 51° angle and the separate marked angle x.
+2. Identify the vertically opposite angles relationship.
+3. x = 51°
+4. x = 51°
+5. Verify: Both marked angles measure 51°.
+
+**Answer:** 51°.
+
+### 04 · different values from worked example 04
+
+In the labelled diagram, adjacent angles on a straight line include a 127° angle. Find the marked angle x. Give a reason.
+
+**Memo (hidden until submission):**
+
+1. Locate the given 127° angle and the separate marked angle x.
+2. Identify the adjacent angles on a straight line relationship.
+3. x + 127° = 180°
+4. x = 180° − 127° = 53°
+5. Verify: 53° + 127° = 180°
+
+**Answer:** 53°.
+
+### 05 · different values from worked example 05
+
+In the labelled diagram, two parts of a right angle include a 61° angle. Find the marked angle x. Give a reason.
+
+**Memo (hidden until submission):**
+
+1. Locate the given 61° angle and the separate marked angle x.
+2. Identify the two parts of a right angle relationship.
+3. x + 61° = 90°
+4. x = 90° − 61° = 29°
+5. Verify: 29° + 61° = 90°
+
+**Answer:** 29°.
+
+### 06 · different values from worked example 06
+
+In the diagram, angles (2x + 18)° and (18)° form a straight line. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles form a straight line.
+3. (2x + 18) + (18) = 180
+4. (2)x + (36) = 180
+5. Solve to obtain x = 72.
+6. Substitute: 2x + 18 at x = 72 gives 162°.
+7. Verify: 162° + 18° = 180°
+
+**Answer:** 72 (value of x).
+
+### 07 · different values from worked example 07
+
+In the diagram, angles (3x + 12)° and (2x + 48)° are vertically opposite. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles are vertically opposite.
+3. (3x + 12) = (2x + 48)
+4. (1)x = 36
+5. Solve to obtain x = 36.
+6. Substitute: 3x + 12 at x = 36 gives 120°.
+7. Verify: Both expressions give 120°.
+
+**Answer:** 36 (value of x).
+
+### 08 · different values from worked example 08
+
+In the labelled diagram, vertically opposite angles include a 120° angle. Find the marked angle x. Give a reason.
+
+**Memo (hidden until submission):**
+
+1. Locate the given 120° angle and the separate marked angle x.
+2. Identify the vertically opposite angles relationship.
+3. x = 120°
+4. x = 120°
+5. Verify: Both marked angles measure 120°.
+
+**Answer:** 120°.
+
+### 09 · different values from worked example 09
+
+In the diagram, angles (3x + 24)° and (27)° form a straight line. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles form a straight line.
+3. (3x + 24) + (27) = 180
+4. (3)x + (51) = 180
+5. Solve to obtain x = 43.
+6. Substitute: 3x + 24 at x = 43 gives 153°.
+7. Verify: 153° + 27° = 180°
+
+**Answer:** 43 (value of x).
+
+### 10 · different values from worked example 10
+
+In the labelled diagram, two parts of a right angle include a 23° angle. Find the marked angle x. Give a reason.
+
+**Memo (hidden until submission):**
+
+1. Locate the given 23° angle and the separate marked angle x.
+2. Identify the two parts of a right angle relationship.
+3. x + 23° = 90°
+4. x = 90° − 23° = 67°
+5. Verify: 67° + 23° = 90°
+
+**Answer:** 67°.
+
+### 11 · different values from worked example 11
+
+In the diagram, angles (4x − 14)° and (2x + 52)° are vertically opposite. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles are vertically opposite.
+3. (4x − 14) = (2x + 52)
+4. (2)x = 66
+5. Solve to obtain x = 33.
+6. Substitute: 4x − 14 at x = 33 gives 118°.
+7. Verify: Both expressions give 118°.
+
+**Answer:** 33 (value of x).
+
+### 12 · different values from worked example 12
+
+In the diagram, angles (4x + 20)° and (x + 5)° form a straight line. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles form a straight line.
+3. (4x + 20) + (x + 5) = 180
+4. (5)x + (25) = 180
+5. Solve to obtain x = 31.
+6. Substitute: 4x + 20 at x = 31 gives 144°.
+7. Verify: 144° + 36° = 180°
+
+**Answer:** 31 (value of x).
+
+### 13 · different values from worked example 13
+
+In the labelled diagram, adjacent angles on a straight line include a 151° angle. Find the marked angle x. Give a reason.
+
+**Memo (hidden until submission):**
+
+1. Locate the given 151° angle and the separate marked angle x.
+2. Identify the adjacent angles on a straight line relationship.
+3. x + 151° = 180°
+4. x = 180° − 151° = 29°
+5. Verify: 29° + 151° = 180°
+
+**Answer:** 29°.
+
+### 14 · different values from worked example 14
+
+In the diagram, angles (5x + 9)° and (3x + 77)° are vertically opposite. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles are vertically opposite.
+3. (5x + 9) = (3x + 77)
+4. (2)x = 68
+5. Solve to obtain x = 34.
+6. Substitute: 5x + 9 at x = 34 gives 179°.
+7. Verify: Both expressions give 179°.
+
+**Answer:** 34 (value of x).
+
+### 15 · different values from worked example 15
+
+In the diagram, angles (5x − 30)° and (x − 6)° form a straight line. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles form a straight line.
+3. (5x − 30) + (x − 6) = 180
+4. (6)x + (-36) = 180
+5. Solve to obtain x = 36.
+6. Substitute: 5x − 30 at x = 36 gives 150°.
+7. Verify: 150° + 30° = 180°
+
+**Answer:** 36 (value of x).
+
+## Mastery check
+
+Learners attempt these changed values before viewing the memo.
+
+### 01 · different values from worked example 03
+
+In the labelled diagram, vertically opposite angles include a 55° angle. Find the marked angle x. Give a reason.
+
+**Memo (hidden until submission):**
+
+1. Locate the given 55° angle and the separate marked angle x.
+2. Identify the vertically opposite angles relationship.
+3. x = 55°
+4. x = 55°
+5. Verify: Both marked angles measure 55°.
+
+**Answer:** 55°.
+
+### 02 · different values from worked example 06
+
+In the diagram, angles (2x + 18)° and (16)° form a straight line. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles form a straight line.
+3. (2x + 18) + (16) = 180
+4. (2)x + (34) = 180
+5. Solve to obtain x = 73.
+6. Substitute: 2x + 18 at x = 73 gives 164°.
+7. Verify: 164° + 16° = 180°
+
+**Answer:** 73 (value of x).
+
+### 03 · different values from worked example 09
+
+In the diagram, angles (3x + 24)° and (24)° form a straight line. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles form a straight line.
+3. (3x + 24) + (24) = 180
+4. (3)x + (48) = 180
+5. Solve to obtain x = 44.
+6. Substitute: 3x + 24 at x = 44 gives 156°.
+7. Verify: 156° + 24° = 180°
+
+**Answer:** 44 (value of x).
+
+### 04 · different values from worked example 12
+
+In the diagram, angles (4x + 20)° and (x)° form a straight line. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles form a straight line.
+3. (4x + 20) + (x) = 180
+4. (5)x + (20) = 180
+5. Solve to obtain x = 32.
+6. Substitute: 4x + 20 at x = 32 gives 148°.
+7. Verify: 148° + 32° = 180°
+
+**Answer:** 32 (value of x).
+
+### 05 · different values from worked example 15
+
+In the diagram, angles (5x − 30)° and (x − 12)° form a straight line. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles form a straight line.
+3. (5x − 30) + (x − 12) = 180
+4. (6)x + (-42) = 180
+5. Solve to obtain x = 37.
+6. Substitute: 5x − 30 at x = 37 gives 155°.
+7. Verify: 155° + 25° = 180°
+
+**Answer:** 37 (value of x).
+
+## Parallel reassessment
+
+Learners attempt these changed values before viewing the memo.
+
+### 01 · different values from worked example 06
+
+In the diagram, angles (2x + 18)° and (14)° form a straight line. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles form a straight line.
+3. (2x + 18) + (14) = 180
+4. (2)x + (32) = 180
+5. Solve to obtain x = 74.
+6. Substitute: 2x + 18 at x = 74 gives 166°.
+7. Verify: 166° + 14° = 180°
+
+**Answer:** 74 (value of x).
+
+### 02 · different values from worked example 11
+
+In the diagram, angles (4x − 14)° and (2x + 56)° are vertically opposite. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles are vertically opposite.
+3. (4x − 14) = (2x + 56)
+4. (2)x = 70
+5. Solve to obtain x = 35.
+6. Substitute: 4x − 14 at x = 35 gives 126°.
+7. Verify: Both expressions give 126°.
+
+**Answer:** 35 (value of x).
+
+### 03 · different values from worked example 15
+
+In the diagram, angles (5x − 30)° and (x − 18)° form a straight line. Find x.
+
+**Memo (hidden until submission):**
+
+1. Mark the two distinct angle regions before writing an equation.
+2. Use the fact that these angles form a straight line.
+3. (5x − 30) + (x − 18) = 180
+4. (6)x + (-48) = 180
+5. Solve to obtain x = 38.
+6. Substitute: 5x − 30 at x = 38 gives 160°.
+7. Verify: 160° + 20° = 180°
+
+**Answer:** 38 (value of x).
+
 ## Release gate
 
-Do not mark interactive or publish yet. Increase later-question complexity through multi-relationship diagrams; author unseen practice, mastery and parallel reassessment. Register the appropriate geometry renderer and semantic targets; prove that initial, operation and result states differ for all 15 examples. Obtain mathematical teacher review and browser QA on mobile and desktop.
+Do not mark interactive or publish yet. Increase later-question complexity through multi-relationship diagrams. Prove that initial, operation and result states differ for all examples. Obtain mathematical teacher review and browser QA on mobile and desktop.

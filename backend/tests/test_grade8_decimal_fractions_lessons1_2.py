@@ -41,7 +41,7 @@ def test_public_api_gates_answers_and_exposes_unseen_banks():
  try:
   with TestClient(app) as client:
    grade=client.get('/api/v1/curriculum/grades/grade-8').json()
-   assert grade['topics'][-2]['id']=='decimal-fractions'
+   assert next(row for row in grade['topics'] if row['product_order']==9)['id']=='decimal-fractions'
    topic=client.get('/api/v1/curriculum/grades/grade-8/topics/decimal-fractions').json()
    assert [x['id'] for x in topic['subtopics'][0]['lessons']][:2]==['g8-decimal-fractions-01','g8-decimal-fractions-02']
    for n in (1,2):

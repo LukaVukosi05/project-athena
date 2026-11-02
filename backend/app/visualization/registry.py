@@ -339,6 +339,21 @@ def _grade8_decimal_quotient(parameters: dict) -> None:
     _grade8_decimal_operation(parameters,'divide')
 
 
+def _grade8_line_scene(parameters: dict, expected_lesson: int) -> None:
+    import json
+    from app.curriculum.grade8.straight_lines_cases import LESSON_1, LESSON_2
+    from app.curriculum.grade8.straight_lines_runtime import _labels
+    cases = (LESSON_1, LESSON_2)[expected_lesson-1]
+    case = next((case for case in cases if case.id == parameters['question_id']), None)
+    if case is None or parameters['prompt'] != case.problem or parameters['total_steps'] != len(case.working)+1:
+        raise ValueError('Grade 8 straight-line visualization disagrees with the authored question')
+    scene = json.loads(parameters['scene_json'])
+    given,target = _labels(case)
+    if scene != {'diagram':case.diagram,'relationship':case.relationship,'given_label':given,
+                 'target_label':target,'reason':case.relationship.replace('_',' ')}:
+        raise ValueError('Grade 8 straight-line diagram labels or relationship disagree with the question')
+
+
 def _grade8_exponent_scene(parameters: dict, expected_lesson: int) -> None:
     import json,re
     from app.curriculum.grade8.exponent_math import solve
@@ -900,6 +915,8 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
     ("algebra", "grade8_decimal_quotient"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),_grade8_decimal_quotient,True),
     ("algebra", "grade8_decimal_power"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_decimal_power_root(parameters,"power"),True),
     ("algebra", "grade8_decimal_root"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_decimal_power_root(parameters,"root"),True),
+    ("geometry", "grade8_intersecting_angles"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_line_scene(parameters,1),True),
+    ("geometry", "grade8_parallel_angles"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_line_scene(parameters,2),True),
     ("algebra", "grade8_exponent_representation"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_exponent_scene(parameters,1),True),
     ("algebra", "grade8_exponent_laws"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_exponent_scene(parameters,2),True),
     ("algebra", "grade8_exponent_roots"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_exponent_scene(parameters,3),True),

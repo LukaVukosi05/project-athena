@@ -1,6 +1,6 @@
 """Write the two teacher-review source packs from explicit checked geometry cases."""
 from pathlib import Path
-from app.curriculum.grade8.straight_lines_cases import LESSON_1, LESSON_2
+from app.curriculum.grade8.straight_lines_cases import LESSON_1, LESSON_2, parallel_variant
 
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / 'docs/curriculum/grade8/geometry-of-straight-lines'
@@ -13,7 +13,7 @@ def build(cases, number, title):
            'Learning objective: identify the angle relationship in an accurately labelled diagram, justify the equation, solve for the marked quantity and verify the original diagram.', '',
            'Why it matters: a visually plausible angle is not a reason. Learners must link each equality or sum to intersecting, perpendicular or parallel lines.', '',
            'Prerequisites: straight angle 180°, right angle 90°, basic algebraic equations and angle notation.',
-           'Estimated duration: 90 minutes; 15 worked examples, 15 parallel independent questions to author and five mastery items to author.', '',
+           'Estimated duration: 90 minutes; 15 worked examples, 15 unseen independent questions, five mastery items and three parallel reassessments.', '',
            '## Whiteboard contract', '',
            '- Draw the stated line family before any angle number. Give each ray and intersection a stable label. Parallel lines receive visible matching arrow marks.',
            '- Show the complete question and the given angle first. Keep x and the final calculation hidden.',
@@ -34,8 +34,17 @@ def build(cases, number, title):
                     f'**Answer:** {"x = " if len(c.given)>1 else "Marked angle = "}{c.answer}{"°" if len(c.given)==1 else ""}' + (f'; labelled angle = {angle_value}°.' if len(c.given)>1 else '.'), '',
                     f'**First-error diagnosis:** {c.misconception}', '',
                     '**Reteaching:** redraw only the relevant angle pair with changed values; require the learner to name the relationship before writing a new equation.', ''])
+    for section,indices,shift in [('Independent practice',range(1,16),1),('Mastery check',(3,6,9,12,15),2),('Parallel reassessment',(6,11,15),3)]:
+        out.extend([f'## {section}', '', 'Learners attempt these changed values before viewing the memo.', ''])
+        for j,i in enumerate(indices,1):
+            c=parallel_variant(cases[i-1],shift)
+            out.extend([f'### {j:02} · different values from worked example {i:02}', '',c.problem,'',
+                        '**Memo (hidden until submission):**', '',
+                        *[f'{k}. {row}' for k,row in enumerate(c.working,1)],
+                        f'{len(c.working)+1}. Verify: {c.check}', '',
+                        f'**Answer:** {c.answer}{"°" if len(c.given)==1 else " (value of x)"}.', ''])
     out.extend(['## Release gate', '',
-                'Do not mark interactive or publish yet. Increase later-question complexity through multi-relationship diagrams; author unseen practice, mastery and parallel reassessment. Register the appropriate geometry renderer and semantic targets; prove that initial, operation and result states differ for all 15 examples. Obtain mathematical teacher review and browser QA on mobile and desktop.', ''])
+                'Do not mark interactive or publish yet. Increase later-question complexity through multi-relationship diagrams. Prove that initial, operation and result states differ for all examples. Obtain mathematical teacher review and browser QA on mobile and desktop.', ''])
     DEST.mkdir(parents=True,exist_ok=True)
     path=DEST/f'lesson-{number:02}.md';path.write_text('\n'.join(out),encoding='utf-8');return path
 

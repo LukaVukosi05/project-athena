@@ -124,6 +124,8 @@ registerTeachingOperation("exponent_roots_stage", "fraction_model_stage");
 registerTeachingOperation("exponent_applications_stage", "fraction_model_stage");
 registerTeachingOperation("exponent_error_stage", "fraction_model_stage");
 registerTeachingOperation("exponent_integrated_stage", "fraction_model_stage");
+registerTeachingOperation("grade8_angle_stage", "fraction_model_stage");
+registerTeachingOperation("grade8_parallel_angle_stage", "fraction_model_stage");
 registerTeachingOperation("percentage_stage", "fraction_model_stage");
 
 ["identify_interval", "substitute_function_value", "calculate_average_rate", "interpret_rate", "read_problem", "select_method", "show_working", "verify_result"].forEach(registerTeachingOperation);

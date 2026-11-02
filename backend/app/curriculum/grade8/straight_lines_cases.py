@@ -59,7 +59,7 @@ def _expression(number: int, diagram: str, relationship: str, a: int, b: int, c:
     equation = f"({term(a,b)}) {operation} ({term(c,d)})" + (f" = {total}" if total is not None else "")
     simplified = f"({a+c})x + ({b+d}) = {total}" if total is not None else f"({a-c})x = {d-b}"
     check = f"{left}° + {right}° = {total}°" if total is not None else f"Both expressions give {left}°."
-    prompt = f"In the diagram, angles ({term(a,b)})° and ({term(c,d)})° {phrase}. Find x and the angle ({term(a,b)})°."
+    prompt = f"In the diagram, angles ({term(a,b)})° and ({term(c,d)})° {phrase}. Find x."
     return AngleCase(f"g8-lines-{'02' if diagram == 'transversal' else '01'}-w{number:02}", diagram, relationship,
                      (a,b,c,d), x, prompt, ("Mark the two distinct angle regions before writing an equation.", f"Use the fact that these angles {phrase}.", equation, simplified, f"Solve to obtain x = {x}.", f"Substitute: {term(a,b)} at x = {x} gives {left}°."), check,
                      "The unknown is x, not the angle size; substitute the solved x into the labelled expression.")
@@ -117,5 +117,32 @@ def validate_all():
             if case.relationship in {"linear_pair", "cointerior"}: assert left+right == 180
             else: assert left == right
     return True
+
+
+def parallel_variant(case: AngleCase, shift: int) -> AngleCase:
+    """Create an unseen parallel item with changed geometry values, not a copied memo."""
+    if not 1 <= shift <= 6:
+        raise ValueError('Shift must be a small positive integer')
+    if len(case.given) == 1:
+        original = case.given[0]
+        cap = 90 if case.relationship == 'right_angle' else 180
+        changed = original + 4*shift
+        if changed >= cap: changed = original - 4*shift
+        if not 0 < changed < cap: raise ValueError('Variant angle out of range')
+        result = _single(int(case.id[-2:]),case.diagram,case.relationship,changed)
+    else:
+        a,b,c,d = case.given
+        for candidate_x in (case.answer+shift,case.answer-shift):
+            candidate_d = (180-(a+c)*candidate_x-b if case.relationship in {'linear_pair','cointerior'}
+                           else (a-c)*candidate_x+b)
+            try:
+                result = _expression(int(case.id[-2:]),case.diagram,case.relationship,a,b,c,candidate_d)
+                break
+            except ValueError:
+                continue
+        else: raise ValueError('No legal parallel variant')
+    if result.problem == case.problem:
+        raise ValueError('Parallel problem must differ from worked example')
+    return result
 
 validate_all()

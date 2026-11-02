@@ -100,6 +100,13 @@ def release_gate_passes(lesson: Lesson) -> bool:
     return True
 
 SOURCE_INVENTORY = (
+    *({"document":f"lesson-{n:02}.md", "grade":"8", "present":True,
+        "topics_described":["Geometry of Straight Lines"], "lessons_expected":1,
+        "fully_authored_lessons":1,
+        "reference_questions":"15 worked, 15 independent practice, five mastery and three parallel reassessments",
+        "whiteboard_specifications":"Question-specific SVG intersections or parallel transversals with staged theorem, equation, calculation and check",
+        "missing_content":"Teacher mathematical review, integrated cases and browser acceptance pending.",
+        "implementation_status":"runtime_integrated_teacher_review_required"} for n in (1,2)),
     *({"document":f"lesson-{n:02}-{slug}.md","grade":"8","present":True,
         "topics_described":["Integers"],"lessons_expected":1,"fully_authored_lessons":1,
         "reference_questions":"15 worked, 15 practice, five mastery, three parallel reassessments",

@@ -1,0 +1,9 @@
+.g8-angle-stage {display:grid;place-items:center;gap:.5rem;width:100%;min-width:0;color:var(--text-primary,#18324a)}
+.g8-angle-stage svg {display:block;width:min(100%,510px);height:auto;min-height:170px;overflow:visible}
+.g8-angle-lines line {stroke:currentColor;stroke-width:2.4;stroke-linecap:round}
+.g8-angle-lines circle {fill:currentColor}
+.g8-angle-lines text {font-size:18px;font-weight:750;fill:currentColor}
+.g8-angle-lines text[data-object-id="angle-target"] {fill:#b44a10}
+.g8-angle-lines .g8-angles-parallel,.g8-angle-lines .g8-angles-right {fill:none;stroke:#1469a2;stroke-width:2}
+.g8-angle-reason {margin:0;padding:.35rem .65rem;border-radius:.55rem;background:#e9f3ff;font-weight:650;text-align:center}
+@media(max-width:480px){.g8-angle-stage svg{min-height:135px}.g8-angle-lines text{font-size:20px}}

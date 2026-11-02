@@ -256,9 +256,23 @@ EXPONENTS_TOPIC = Topic(
         prerequisites=["g8-decimal-fractions-06"],lessons=[EXPONENT_LESSON_1,EXPONENT_LESSON_2,EXPONENT_LESSON_3,EXPONENT_LESSON_4,EXPONENT_LESSON_5,EXPONENT_LESSON_6])],
 )
 
+from app.curriculum.grade8.straight_lines_runtime import LESSON_1 as STRAIGHT_LINES_LESSON_1, LESSON_2 as STRAIGHT_LINES_LESSON_2
+
+STRAIGHT_LINES_TOPIC = Topic(
+    id="geometry-of-straight-lines", product_order=11, title="Geometry of Straight Lines",
+    official_caps_topic="Geometry of straight lines", caps_sequence=11, term=3,
+    expected_duration="First two of the geometry lessons authored; teacher review required",
+    paper=None, caps_reference="DBE 2026 Grade 8 Mathematics ATP, Term 3: Geometry of Straight Lines",
+    curriculum="CAPS", ieb_relevant=True, exam_relevance="Grade 8 classroom and formal assessment",
+    status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+    subtopics=[Subtopic(id="straight-lines-learning-path", order=1,
+        title="Angle pairs and transversal relationships", prerequisites=["g8-algebraic-equations-05"],
+        lessons=[STRAIGHT_LINES_LESSON_1, STRAIGHT_LINES_LESSON_2])],
+)
+
 GRADE_8 = GradeCurriculum(
     id="grade-8",
     grade=8,
     status=ContentStatus.DRAFT,
-    topics=[ALGEBRAIC_EQUATIONS_TOPIC, ALGEBRAIC_EXPRESSIONS_TOPIC, FUNCTIONS_RELATIONSHIPS_TOPIC, GRAPHS_TOPIC, PATTERNS_TOPIC, WHOLE_NUMBERS_TOPIC, INTEGERS_TOPIC, FRACTIONS_TOPIC, DECIMALS_TOPIC, EXPONENTS_TOPIC],
+    topics=[ALGEBRAIC_EQUATIONS_TOPIC, ALGEBRAIC_EXPRESSIONS_TOPIC, FUNCTIONS_RELATIONSHIPS_TOPIC, GRAPHS_TOPIC, PATTERNS_TOPIC, WHOLE_NUMBERS_TOPIC, INTEGERS_TOPIC, FRACTIONS_TOPIC, DECIMALS_TOPIC, EXPONENTS_TOPIC, STRAIGHT_LINES_TOPIC],
 )

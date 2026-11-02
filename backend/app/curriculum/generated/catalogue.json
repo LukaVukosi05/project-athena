@@ -740,6 +740,32 @@
               "source_document": "lesson-06-integrated-exponents-readiness.md"
             }
           ]
+        },
+        {
+          "topic_id": "geometry-of-straight-lines",
+          "topic_number": 11,
+          "title": "Geometry of Straight Lines",
+          "paper": null,
+          "expected_lesson_count": 2,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-straight-lines-01",
+              "position": 1,
+              "title": "Angles at intersecting and perpendicular lines",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g8-straight-lines-02",
+              "position": 2,
+              "title": "Parallel lines and a transversal",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-02.md"
+            }
+          ]
         }
       ]
     },

@@ -17,10 +17,12 @@ from app.curriculum.grade8 import assessment_functions_lesson1, assessment_funct
 from app.curriculum.grade8 import assessment_functions_lesson4, assessment_functions_lesson5, assessment_functions_lesson6
 from app.curriculum.grade8.functions_topic_diagnostic import public_items as topic3_items, score as topic3_score
 from app.curriculum.grade8 import assessment_patterns, assessment_patterns_34, assessment_patterns_56, assessment_whole_numbers, assessment_integers, assessment_integers_advanced, assessment_integers_reasoning, assessment_fractions, assessment_fractions_operations, assessment_fractions_56, assessment_fractions_78, assessment_decimals, assessment_decimals_operations, assessment_decimals_powers, assessment_exponents
+from app.curriculum.grade8 import assessment_straight_lines
 from app.curriculum.grade8 import assessment_graphs_lesson1, assessment_graphs_lesson2, assessment_graphs_lesson3, assessment_graphs_lesson4, assessment_graphs_lesson5, assessment_graphs_lesson6
 from app.curriculum.grade8 import assessment_expressions, assessment_expressions_lesson2, assessment_expressions_lesson3, assessment_expressions_lesson4, assessment_expressions_lesson5, assessment_expressions_lesson6, assessment_expressions_lesson7, assessment_expressions_lesson8, assessment_expressions_lesson9, assessment_expressions_lesson10
 
 ASSESSMENT_BANKS={
+    **{f"g8-straight-lines-{n:02}": assessment_straight_lines.banks(n)[1:] for n in (1,2)},
     **{f"g8-patterns-{n:02}": assessment_patterns_34.banks(n)[1:] for n in (3,4)},
     **{f"g8-patterns-{n:02}": assessment_patterns_56.banks(n)[1:] for n in (5,6)},
     **{f"g8-whole-numbers-{n:02}": assessment_whole_numbers.banks(n)[1:] for n in (1,2)},

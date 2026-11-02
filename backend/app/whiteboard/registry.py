@@ -137,3 +137,5 @@ registry.register("exponent_roots_stage", "grade8_exponent_roots", lambda step: 
 registry.register("exponent_applications_stage", "grade8_exponent_applications", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("exponent_error_stage", "grade8_exponent_error_trace", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("exponent_integrated_stage", "grade8_exponent_integrated", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+registry.register("grade8_angle_stage", "grade8_intersecting_angles", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+registry.register("grade8_parallel_angle_stage", "grade8_parallel_angles", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
