@@ -14,9 +14,15 @@ document.addEventListener("DOMContentLoaded", async () => {
   [document.getElementById("topic-paper"), document.getElementById("crumb-paper")].forEach(element => { element.hidden = !topic.paper; if (topic.paper) element.textContent = topic.paper; });
   document.getElementById("topic-caps-ref").textContent = topic.caps_reference || "CAPS curriculum";
   document.getElementById("topic-exam-relevance").textContent = topic.exam_relevance || "Examination relevance is not specified in the available source.";
-  document.getElementById("topic-counts").textContent = `${lessons.length} expected lessons · ${published} published · ${verified} verified previews`;
-  if (gradeId === "grade-8" && topicId === "functions-relationships") {
-    AthenaTopicDiagnostic.init();
+  document.getElementById("topic-counts").textContent = `${lessons.length} authored lessons · ${published} published · ${verified} verified previews`;
+  const remaining = document.getElementById("topic-remaining-scope");
+  if (remaining) {
+    const gaps = topic.remaining_scope || [];
+    remaining.hidden = !gaps.length;
+    if (gaps.length) remaining.innerHTML = `<strong>${gaps.length} lesson areas still to author</strong><ul>${gaps.map(title => `<li>${escapeHtml(title)}</li>`).join("")}</ul><small>The topic check covers the current lessons only.</small>`;
+  }
+  if (gradeId === "grade-8" && lessons.length && typeof AthenaTopicDiagnostic !== "undefined") {
+    AthenaTopicDiagnostic.init(topicId);
   }
   document.getElementById("learn-list").innerHTML = lessons.slice(0, 6).map(lesson => `<li>${escapeHtml(lesson.title)}</li>`).join("");
   document.getElementById("lessons-list").innerHTML = lessons.map(lesson => {

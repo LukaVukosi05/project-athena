@@ -5,6 +5,7 @@ from fastapi import APIRouter, HTTPException
 from app.curriculum.repository import curriculum_repository as repository
 from app.curriculum.content_manifest import is_usable, manifest_for, readiness_for
 from app.practice.catalog import PRACTICE_BANKS
+from app.curriculum.grade8.coverage import REMAINING_SCOPE
 
 router = APIRouter()
 
@@ -75,6 +76,7 @@ def get_topic(grade_id: str, topic_id: str) -> dict:
     if topic is None:
         raise not_found("Topic")
     return {**topic.model_dump(exclude={"subtopics"}),
+            "remaining_scope": list(REMAINING_SCOPE.get(topic_id, ())) if grade_id == "grade-8" else [],
             "subtopics": [{**item.model_dump(exclude={"lessons"}),
                            "lessons": [{**lesson.model_dump(exclude={"blocks", "whiteboard_questions", "assessment_contract"}),
                                         "readiness": readiness_for(lesson),

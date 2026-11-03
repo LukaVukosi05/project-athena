@@ -1,9 +1,8 @@
-/* Grade 8 Functions topic check. The API owns all answers and scoring. */
+/* Grade 8 topic checks. The API owns all answers and scoring. */
 const AthenaTopicDiagnostic = (() => {
-  const url = '/api/v1/practice/topics/grade-8/functions-relationships/diagnostic';
-  const key = 'athena:grade-8:functions-relationships:check-v1';
+  let url, key, topicId;
   const safe = value => escapeHtml(String(value));
-  const lessonLink = id => `lesson.html?grade=grade-8&topic=functions-relationships&lesson=${encodeURIComponent(id)}`;
+  const lessonLink = id => `lesson.html?grade=grade-8&topic=${encodeURIComponent(topicId)}&lesson=${encodeURIComponent(id)}`;
   let button, panel, summary;
   async function start() {
     button.disabled = true;
@@ -13,7 +12,7 @@ const AthenaTopicDiagnostic = (() => {
       const response = await fetch(url);
       if (!response.ok) throw Error('The topic check is unavailable. Please try again.');
       const data = await response.json();
-      panel.innerHTML = `<h3>Check your understanding</h3><p>Try all twelve questions independently. You will see the worked review after submitting.</p><form id="topic-diagnostic-form">${data.questions.map((q, i) => `<label class="topic-diagnostic__question"><span>${i + 1}. ${safe(q.prompt)}</span><input name="${safe(q.id)}" type="text" autocomplete="off" maxlength="100" required aria-label="Answer to question ${i + 1}"></label>`).join('')}<button class="btn btn-primary" type="submit">Submit all nine answers</button></form><p class="topic-diagnostic__error" role="alert" hidden></p>`;
+      panel.innerHTML = `<h3>Check your understanding</h3><p>Try all ${data.questions.length} questions independently. You will see the worked review after submitting.</p><form id="topic-diagnostic-form">${data.questions.map((q, i) => `<label class="topic-diagnostic__question"><span>${i + 1}. ${safe(q.prompt)}</span><input name="${safe(q.id)}" type="text" autocomplete="off" maxlength="1000" required aria-label="Answer to question ${i + 1}"></label>`).join('')}<button class="btn btn-primary" type="submit">Submit ${data.questions.length} answers</button></form><p class="topic-diagnostic__error" role="alert" hidden></p>`;
       panel.querySelector('form').addEventListener('submit', event => submit(event, data.questions));
       panel.scrollIntoView({behavior: 'smooth', block: 'start'});
     } catch (error) {
@@ -36,7 +35,7 @@ const AthenaTopicDiagnostic = (() => {
       try { localStorage.setItem(key, JSON.stringify({score: result.score, total: result.total, areas: result.areas})); } catch (_) {}
       showSummary(result);
       panel.innerHTML = `<h3>Worked review</h3><p>${result.score} of ${result.total} correct. ${safe(result.note)}</p>${result.review.map((row, i) => `<article class="topic-diagnostic__review"><strong>${i + 1}. ${row.correct ? 'Correct' : 'Review this answer'}</strong><p>Answer: ${safe(row.answer)}. ${safe(row.explanation)}</p></article>`).join('')}<button class="btn btn-secondary" id="topic-diagnostic-retry" type="button">Try a fresh check</button>`;
-      // A repeat is useful for revision, but these nine items are fixed. Do not call it a parallel reassessment.
+      // These are fixed items. A repeat is revision, not a parallel reassessment.
       panel.querySelector('#topic-diagnostic-retry').textContent = 'Repeat this check';
       panel.querySelector('#topic-diagnostic-retry').onclick = start;
       button.disabled = false;
@@ -50,7 +49,11 @@ const AthenaTopicDiagnostic = (() => {
     const needs = result.areas.filter(area => area.needs_review);
     summary.innerHTML = needs.length ? `Topic check: ${result.score}/${result.total}. Start with ${needs.map(area => `<a href="${lessonLink(area.lesson_id)}">${safe(area.title)}</a> (${area.correct}/${area.total})`).join('; ')}.` : `Topic check: ${result.score}/${result.total}. No weak area was detected by this short check. Complete each lesson’s mastery assessment.`;
   }
-  function init() {
+  function init(id) {
+    if (!/^[-a-z0-9]+$/.test(id)) return;
+    topicId = id;
+    url = `/api/v1/practice/topics/grade-8/${encodeURIComponent(id)}/diagnostic`;
+    key = `athena:grade-8:${id}:check-v1`;
     button = document.getElementById('topic-diagnostic-button');
     panel = document.getElementById('topic-diagnostic');
     summary = document.getElementById('topic-weaknesses');

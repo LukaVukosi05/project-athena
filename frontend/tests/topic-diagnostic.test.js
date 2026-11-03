@@ -27,13 +27,15 @@ test('topic check is shown only after requested, conceals answers and routes a w
         : {questions:Array.from({length:18},(_,i)=>({id:`fr-t0${i+1}`,prompt:`Question ${i+1}`}))}};
     }};
   vm.runInNewContext(source + '\nthis.diagnostic = AthenaTopicDiagnostic;', context);
-  context.diagnostic.init();
+  context.diagnostic.init('functions-relationships');
   assert.equal(button.disabled, false);
   assert.equal(calls, 0);
   await button.onclick();
   assert.equal(calls, 1);
   assert.equal(panel.hidden, false);
   assert.equal((panel.innerHTML.match(/<input /g)||[]).length, 18);
+  assert.match(panel.innerHTML,/Submit 18 answers/);
+  assert.doesNotMatch(panel.innerHTML,/all twelve|all nine/);
   assert.doesNotMatch(panel.innerHTML,/Answer: 7/);
   const form = {querySelector:()=>({disabled:false}), elements:{namedItem:()=>({value:'7'})}};
   await listeners.submit({preventDefault(){},currentTarget:form});
@@ -42,4 +44,17 @@ test('topic check is shown only after requested, conceals answers and routes a w
   assert.equal(calls, 2);
   assert.equal(JSON.parse(storage.values().next().value).score, 16);
   assert.doesNotMatch(storage.values().next().value,/Check the rule/);
+});
+
+test('each topic uses its own endpoint, storage key and lesson route', async () => {
+  const button = {disabled: true}, panel = {hidden: true, innerHTML: '', scrollIntoView() {}, querySelector: () => ({addEventListener(){}})};
+  const summary = {innerHTML: ''};
+  let request;
+  const context = {escapeHtml, document:{getElementById: id => ({'topic-diagnostic-button':button,'topic-diagnostic':panel,'topic-weaknesses':summary}[id])},
+    localStorage:{getItem:()=>null},fetch:async url => {request=url; return {ok:true,json:async()=>({questions:[{id:'line-1',prompt:'Find x'}]})};}};
+  vm.runInNewContext(source+'\nthis.diagnostic = AthenaTopicDiagnostic;',context);
+  context.diagnostic.init('geometry-of-straight-lines');
+  await button.onclick();
+  assert.equal(request,'/api/v1/practice/topics/grade-8/geometry-of-straight-lines/diagnostic');
+  assert.match(panel.innerHTML,/Submit 1 answers/);
 });
