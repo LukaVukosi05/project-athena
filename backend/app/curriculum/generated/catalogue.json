@@ -816,6 +816,56 @@
               "source_document": "lesson-05.md"
             }
           ]
+        },
+        {
+          "topic_id": "theorem-of-pythagoras",
+          "topic_number": 13,
+          "title": "Theorem of Pythagoras",
+          "paper": null,
+          "expected_lesson_count": 5,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g8-pythagoras-01",
+              "position": 1,
+              "title": "Squares on the sides of a right triangle",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g8-pythagoras-02",
+              "position": 2,
+              "title": "Find the hypotenuse",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g8-pythagoras-03",
+              "position": 3,
+              "title": "Find a missing perpendicular side",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g8-pythagoras-04",
+              "position": 4,
+              "title": "Test whether a triangle is right-angled",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g8-pythagoras-05",
+              "position": 5,
+              "title": "Pythagoras in practical contexts",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-05.md"
+            }
+          ]
         }
       ]
     },

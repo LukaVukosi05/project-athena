@@ -284,9 +284,23 @@ SHAPES_TOPIC = Topic(
         lessons=[SHAPE_LESSONS[n] for n in range(1,6)])],
 )
 
+from app.curriculum.grade8.pythagoras_runtime import LESSONS_RUNTIME as PYTHAGORAS_LESSONS
+
+PYTHAGORAS_TOPIC = Topic(
+    id="theorem-of-pythagoras", product_order=13, title="Theorem of Pythagoras",
+    official_caps_topic="Theorem of Pythagoras", caps_sequence=13, term=4,
+    expected_duration="Five authored lessons; mathematical teacher review and browser acceptance pending",
+    paper=None, caps_reference="DBE 2026 Grade 8 Mathematics ATP, Term 4: Theorem of Pythagoras",
+    curriculum="CAPS", ieb_relevant=True, exam_relevance="Grade 8 classroom and formal assessment",
+    status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+    subtopics=[Subtopic(id="pythagoras-learning-path",order=1,
+        title="Squares, missing sides, converse and applications",prerequisites=["g8-shapes-05"],
+        lessons=[PYTHAGORAS_LESSONS[n] for n in range(1,6)])],
+)
+
 GRADE_8 = GradeCurriculum(
     id="grade-8",
     grade=8,
     status=ContentStatus.DRAFT,
-    topics=[ALGEBRAIC_EQUATIONS_TOPIC, ALGEBRAIC_EXPRESSIONS_TOPIC, FUNCTIONS_RELATIONSHIPS_TOPIC, GRAPHS_TOPIC, PATTERNS_TOPIC, WHOLE_NUMBERS_TOPIC, INTEGERS_TOPIC, FRACTIONS_TOPIC, DECIMALS_TOPIC, EXPONENTS_TOPIC, STRAIGHT_LINES_TOPIC, SHAPES_TOPIC],
+    topics=[ALGEBRAIC_EQUATIONS_TOPIC, ALGEBRAIC_EXPRESSIONS_TOPIC, FUNCTIONS_RELATIONSHIPS_TOPIC, GRAPHS_TOPIC, PATTERNS_TOPIC, WHOLE_NUMBERS_TOPIC, INTEGERS_TOPIC, FRACTIONS_TOPIC, DECIMALS_TOPIC, EXPONENTS_TOPIC, STRAIGHT_LINES_TOPIC, SHAPES_TOPIC, PYTHAGORAS_TOPIC],
 )

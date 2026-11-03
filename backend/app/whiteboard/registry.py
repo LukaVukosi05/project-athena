@@ -141,3 +141,6 @@ registry.register("grade8_angle_stage", "grade8_intersecting_angles", lambda ste
 registry.register("grade8_parallel_angle_stage", "grade8_parallel_angles", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 for _shape_template in ("triangle_sides","triangle_sum","equal_triangle","quad_classify","quad_angle"):
     registry.register(f"grade8_{_shape_template}_stage", f"grade8_{_shape_template}", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+
+for _pyth_family in ("square_areas","hypotenuse","missing_leg","converse","application"):
+    registry.register(f"grade8_{_pyth_family}_stage", f"grade8_pythagoras_{_pyth_family}", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))

@@ -204,3 +204,5 @@ function renderGraphSpec(spec, step, phase) {
   const title = spec.layout?.title?.text || "Mathematical graph";
   return `<figure class="generated-graph"><svg viewBox="0 0 420 220" role="img" aria-label="${escapeWhiteboardHtml(title)}"><line x1="42" y1="198" x2="390" y2="198" class="axis"/><line x1="42" y1="205" x2="42" y2="20" class="axis"/>${drawings}</svg><figcaption>${escapeWhiteboardHtml(title)}</figcaption></figure>`;
 }
+
+["square_areas","hypotenuse","missing_leg","converse","application"].forEach(family => registerTeachingOperation(`grade8_${family}_stage`, "fraction_model_stage"));

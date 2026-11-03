@@ -1,0 +1,13 @@
+.g8-pyth-stage{display:grid;gap:.4rem;max-width:100%;min-width:0;overflow-wrap:anywhere}
+.g8-pyth-stage svg{display:block;width:min(100%,720px);height:auto;margin:auto;max-height:350px;overflow:visible}
+.g8-pyth-triangle{fill:rgba(65,143,180,.12);stroke:#207b9d;stroke-width:2.4;stroke-linejoin:round}
+.g8-pyth-angle{fill:none;stroke:#dc8356;stroke-width:2}
+.g8-pyth-square{fill:none;stroke:none}
+.g8-pyth-square.is-visible{fill:rgba(47,130,177,.1);stroke:#3d9bc5;stroke-width:1.3}
+.g8-pyth-square-3.is-visible{fill:rgba(230,168,65,.16);stroke:#d99732}
+.g8-pyth-side,.g8-pyth-area{font-size:11px;fill:#17374c;font-weight:700;paint-order:stroke;stroke:rgba(255,255,255,.9);stroke-width:2px}
+.g8-pyth-area{fill:#185973;font-size:10px}
+.g8-pyth-stage p{margin:.1rem .25rem;line-height:1.45}
+@media(max-width:580px){.g8-pyth-stage svg{max-height:270px}.g8-pyth-stage p{font-size:.9rem}}
+.g8-pyth-context{fill:none;stroke:#778c9c;stroke-width:1.3;stroke-dasharray:5 3}
+.g8-pyth-context-label{font-weight:700;font-size:11px;fill:#405a6c}
