@@ -46,6 +46,14 @@ def test_three_independent_banks_per_lesson_and_public_gating():
             public=lesson.json()['whiteboard_questions']
             assert len(public)==15 and all('answer' not in q and 'full_memo' not in q for q in public)
             assert all(len(q['whiteboard']['steps'])==1 for q in public)
+            for preview in public:
+                revealed=client.post(f'/api/v1/lessons/{lesson_id}/questions/{preview["id"]}/reveal')
+                assert revealed.status_code==200, (lesson_id,preview['id'],revealed.text)
+                full=revealed.json()
+                assert full['id']==preview['id']
+                assert len(full['whiteboard']['steps'])==preview['total_step_count']>1
+            missing=client.post(f'/api/v1/lessons/{lesson_id}/questions/unknown-example/reveal')
+            assert missing.status_code==404
             bank=client.get(f'/api/v1/practice/{lesson_id}')
             assert bank.status_code==200 and len(bank.json()['questions'])==15
             assert all('accepted_answers' not in q for q in bank.json()['questions'])
