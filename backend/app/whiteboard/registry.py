@@ -139,6 +139,8 @@ registry.register("exponent_error_stage", "grade8_exponent_error_trace", lambda 
 registry.register("exponent_integrated_stage", "grade8_exponent_integrated", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("grade8_angle_stage", "grade8_intersecting_angles", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("grade8_parallel_angle_stage", "grade8_parallel_angles", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+for _number,_template in (("chain","grade8_angle_chain"),("equation","grade8_angle_equation"),("error","grade8_angle_error")):
+    registry.register(f"grade8_angle_{_number}_stage",_template,lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 for _shape_template in ("triangle_sides","triangle_sum","equal_triangle","quad_classify","quad_angle"):
     registry.register(f"grade8_{_shape_template}_stage", f"grade8_{_shape_template}", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 

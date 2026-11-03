@@ -746,7 +746,7 @@
           "topic_number": 11,
           "title": "Geometry of Straight Lines",
           "paper": null,
-          "expected_lesson_count": 2,
+          "expected_lesson_count": 5,
           "status": "teacher_review_required",
           "lessons": [
             {
@@ -764,6 +764,30 @@
               "status": "verified",
               "duration_minutes": 90,
               "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g8-straight-lines-03",
+              "position": 3,
+              "title": "Mixed angle diagrams and justified relationships",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g8-straight-lines-04",
+              "position": 4,
+              "title": "Unknowns in multi-step parallel-line diagrams",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g8-straight-lines-05",
+              "position": 5,
+              "title": "First-error angle diagnosis and parallel reassessment",
+              "status": "verified",
+              "duration_minutes": 90,
+              "source_document": "lesson-05.md"
             }
           ]
         },

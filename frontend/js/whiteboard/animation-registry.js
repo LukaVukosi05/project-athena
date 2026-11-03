@@ -126,6 +126,8 @@ registerTeachingOperation("exponent_error_stage", "fraction_model_stage");
 registerTeachingOperation("exponent_integrated_stage", "fraction_model_stage");
 registerTeachingOperation("grade8_angle_stage", "fraction_model_stage");
 registerTeachingOperation("grade8_parallel_angle_stage", "fraction_model_stage");
+for (const family of ["chain", "equation", "error"])
+  registerTeachingOperation(`grade8_angle_${family}_stage`, "fraction_model_stage");
 for (const family of ["triangle_sides","triangle_sum","equal_triangle","quad_classify","quad_angle"])
   registerTeachingOperation(`grade8_${family}_stage`, "fraction_model_stage");
 registerTeachingOperation("percentage_stage", "fraction_model_stage");

@@ -19,8 +19,8 @@ def test_manifest_uses_the_six_required_readiness_states_and_stable_ids():
     manifest = manifest_for(curriculum_repository.list_grades())
     assert manifest["states"] == [state.value for state in ReadinessState]
     lessons = [lesson for grade in manifest["grades"] for topic in grade["topics"] for lesson in topic["lessons"]]
-    assert len(lessons) == 206
-    assert len({lesson["id"] for lesson in lessons}) == 206
+    assert len(lessons) == 209
+    assert len({lesson["id"] for lesson in lessons}) == 209
     assert {lesson["readiness"] for lesson in lessons} <= set(ReadinessState)
     grade8 = curriculum_repository.get_grade("grade-8")
     released_grade8 = sum(item.release_approved for topic in grade8.topics for subtopic in topic.subtopics for item in subtopic.lessons)

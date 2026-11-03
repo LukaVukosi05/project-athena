@@ -23,7 +23,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -352,6 +352,16 @@ def _grade8_line_scene(parameters: dict, expected_lesson: int) -> None:
     if scene != {'diagram':case.diagram,'relationship':case.relationship,'given_label':given,
                  'target_label':target,'reason':case.relationship.replace('_',' ')}:
         raise ValueError('Grade 8 straight-line diagram labels or relationship disagree with the question')
+
+
+def _grade8_angle_chain_scene(parameters: dict, expected_lesson: int) -> None:
+    import json
+    from app.curriculum.grade8.straight_lines_chain_cases import LESSONS
+    case=next((item for item in LESSONS[expected_lesson] if item.id==parameters['question_id']),None)
+    if (case is None or parameters['prompt']!=case.problem or
+        parameters['total_steps']!=len(case.working)+1 or
+        json.loads(parameters['scene_json'])!=case.scene):
+        raise ValueError('Grade 8 angle-chain diagram disagrees with the authored question or its values')
 
 
 def _grade8_shape_scene(parameters: dict, family: str) -> None:
@@ -950,6 +960,8 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
     ("algebra", "grade8_decimal_root"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_decimal_power_root(parameters,"root"),True),
     ("geometry", "grade8_intersecting_angles"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_line_scene(parameters,1),True),
     ("geometry", "grade8_parallel_angles"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_line_scene(parameters,2),True),
+    **{("geometry",template): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters,n=number: _grade8_angle_chain_scene(parameters,n),True)
+       for number,template in ((3,"grade8_angle_chain"),(4,"grade8_angle_equation"),(5,"grade8_angle_error"))},
     **{("geometry",f"grade8_{family}"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters,f=family: _grade8_shape_scene(parameters,f),True)
        for family in ("triangle_sides","triangle_sum","equal_triangle","quad_classify","quad_angle")},
     **{("geometry",f"grade8_pythagoras_{family}"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters,f=family: _grade8_pythagoras_scene(parameters,f),True)

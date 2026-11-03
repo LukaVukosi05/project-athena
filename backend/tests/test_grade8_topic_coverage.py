@@ -12,7 +12,7 @@ def test_coverage_plan_is_honest_and_all_existing_lessons_have_mastery():
     assert len(topics)==13
     assert len(UNREGISTERED_TOPICS)==5
     assert not set(UNREGISTERED_TOPICS)&topics.keys()
-    assert set(REMAINING_SCOPE)=={'whole-numbers','geometry-of-straight-lines','geometry-of-2d-shapes'}
+    assert set(REMAINING_SCOPE)=={'whole-numbers','geometry-of-2d-shapes'}
     assert ATP_URL.startswith('https://www.education.gov.za/')
     for topic in topics.values():
         for subtopic in topic.subtopics:
@@ -46,8 +46,8 @@ def test_all_registered_topics_have_gated_revision_checks_and_lesson_routes():
             assert data['recommended_lesson_id'] is None
             assert client.post(url,json={'answers':{**answers,next(iter(answers)):'wrong'}}).json()['recommended_lesson_id']==lessons[0].id
         straight=client.get('/api/v1/curriculum/grades/grade-8/topics/geometry-of-straight-lines').json()
-    assert len(straight['subtopics'][0]['lessons'])==2
-    assert len(straight['remaining_scope'])==3
+    assert len(straight['subtopics'][0]['lessons'])==5
+    assert straight['remaining_scope']==[]
 
 
 def test_unknown_topics_are_not_faked_as_checks():

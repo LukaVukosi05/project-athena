@@ -13,11 +13,6 @@ REMAINING_SCOPE = {
         "Exchange rates and multi-step financial problems",
         "Integrated whole-number problem solving and independent reassessment",
     ),
-    "geometry-of-straight-lines": (
-        "Mixed angle diagrams: choose and justify each relationship",
-        "Unknowns in multi-step parallel-line diagrams",
-        "First-error diagnosis, geometric proof and parallel reassessment",
-    ),
     "geometry-of-2d-shapes": (
         "Triangle classification by angles, including right-angled triangles",
         "Congruent 2D shapes and corresponding parts",

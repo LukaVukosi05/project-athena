@@ -257,17 +257,18 @@ EXPONENTS_TOPIC = Topic(
 )
 
 from app.curriculum.grade8.straight_lines_runtime import LESSON_1 as STRAIGHT_LINES_LESSON_1, LESSON_2 as STRAIGHT_LINES_LESSON_2
+from app.curriculum.grade8.straight_lines_chain_runtime import LESSON_3 as STRAIGHT_LINES_LESSON_3, LESSON_4 as STRAIGHT_LINES_LESSON_4, LESSON_5 as STRAIGHT_LINES_LESSON_5
 
 STRAIGHT_LINES_TOPIC = Topic(
     id="geometry-of-straight-lines", product_order=11, title="Geometry of Straight Lines",
     official_caps_topic="Geometry of straight lines", caps_sequence=11, term=3,
-    expected_duration="First two of the geometry lessons authored; teacher review required",
+    expected_duration="Five authored lessons; teacher review and browser acceptance pending",
     paper=None, caps_reference="DBE 2026 Grade 8 Mathematics ATP, Term 3: Geometry of Straight Lines",
     curriculum="CAPS", ieb_relevant=True, exam_relevance="Grade 8 classroom and formal assessment",
     status=ContentStatus.TEACHER_REVIEW_REQUIRED,
     subtopics=[Subtopic(id="straight-lines-learning-path", order=1,
         title="Angle pairs and transversal relationships", prerequisites=["g8-algebraic-equations-05"],
-        lessons=[STRAIGHT_LINES_LESSON_1, STRAIGHT_LINES_LESSON_2])],
+        lessons=[STRAIGHT_LINES_LESSON_1, STRAIGHT_LINES_LESSON_2, STRAIGHT_LINES_LESSON_3, STRAIGHT_LINES_LESSON_4, STRAIGHT_LINES_LESSON_5])],
 )
 
 from app.curriculum.grade8.shapes_runtime import LESSONS_RUNTIME as SHAPE_LESSONS

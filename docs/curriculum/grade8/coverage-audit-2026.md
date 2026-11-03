@@ -4,7 +4,7 @@ Source: [DBE 2026 Grade 8 Mathematics Annual Teaching Plan](https://www.educatio
 
 ## Current runtime
 
-The Grade 8 catalogue currently has **13 topics and 78 authored lessons**. Each lesson has 15 whiteboard questions, 15 practice items, a five-question mastery bank and a three-question parallel reassessment bank. This is a structural audit; it does not certify the mathematics, visuals or learning outcomes. Learner access to premium lessons still follows the app's existing access rules.
+The Grade 8 catalogue currently has **13 topics and 81 authored lessons**. Each lesson has 15 whiteboard questions, 15 practice items, a five-question mastery bank and a three-question parallel reassessment bank. This is a structural audit; it does not certify the mathematics, visuals or learning outcomes. Learner access to premium lessons still follows the app's existing access rules.
 
 | Topic | Authored lessons | Scope audit | Next authoring work |
 |---|---:|---|---|
@@ -18,15 +18,15 @@ The Grade 8 catalogue currently has **13 topics and 78 authored lessons**. Each 
 | Common Fractions | 8 | Operations and conversions | Teacher review of multi-step contexts |
 | Decimal Fractions | 6 | Positions, operations and powers | Teacher review of finance and estimation contexts |
 | Exponents | 6 | Representations and laws | Teacher review of grade-appropriate examples |
-| **Geometry of Straight Lines** | **2** | **Both ATP angle-relationship categories exist; integrated proof and first-error repair need dedicated lessons** | Mixed diagrams, multiple unknowns and diagnosis; see plan below |
+| Geometry of Straight Lines | 5 | Intersecting/perpendicular pairs, parallel transversals, two-step chains, algebraic unknowns and first-error repair | Mathematical teacher review and browser inspection of the new diagrams |
 | **Geometry of 2D Shapes** | **5** | **Right-angle classification, congruence and similarity lack dedicated lessons** | Add angle classification, congruence, similarity and mixed repair |
 | Theorem of Pythagoras | 5 | Squares, sides, converse and applications | Teacher review of independence and mastery evidence |
 
-The Topic 11 screenshot accurately showed two authored lessons. Two is not a DBE mandated count. Lesson-level mastery already existed, but its **topic check was disabled**. This patch exposes a revision check over both existing lessons, with the worked review gated until submission. It does not claim that the new check covers the three planned areas below.
+The Topic 11 screenshot accurately showed two authored lessons at the time. Two is not a DBE mandated count. Three further lessons now have worked examples, independent practice, mastery, repair and changed-value reassessment. The topic revision check covers all five. Mathematical teacher review and live browser acceptance remain outstanding.
 
 ## Missing lessons to author
 
-Each proposed teaching lesson needs original, checked questions and answers, question-specific whiteboard semantics, independent practice, misconception diagnosis, five-item mastery, repair, and a three-item parallel reassessment. These titles are **planning entries only**. No lesson is marked usable by this audit.
+Each proposed teaching lesson needs original, checked questions and answers, question-specific whiteboard semantics, independent practice, misconception diagnosis, five-item mastery, repair, and a three-item parallel reassessment. These titles are **planning entries only**. No missing lesson is marked usable by this audit.
 
 ### Whole Numbers, after Lesson 2
 
@@ -38,12 +38,6 @@ Each proposed teaching lesson needs original, checked questions and answers, que
 8. Simple interest, loans and hire purchase.
 9. Exchange rates and multi-step financial problems.
 10. Integrated whole-number problem solving and independent reassessment.
-
-### Geometry of Straight Lines, after Lesson 2
-
-3. Mixed angle diagrams: choose and justify each relationship. Whiteboard: preserve the diagram, mark the relevant pair, state the theorem, derive one equation, then reveal the next angle.
-4. Unknowns in multi-step parallel-line diagrams. Whiteboard: trace transversal and parallel marks, solve for the variable and substitute into the requested angle.
-5. First-error diagnosis, geometric proof and parallel reassessment. Whiteboard: reveal a learner's attempted lines one at a time and highlight the first unjustified relation, then reteach on a changed diagram.
 
 ### Geometry of 2D Shapes, after Lesson 5
 

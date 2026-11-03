@@ -1,0 +1,6 @@
+.g8-angle-chain{display:grid;gap:.45rem;max-width:100%;min-width:0}.g8-angle-chain svg{width:min(100%,440px);height:auto;max-height:290px;background:#f7fbfd;border:1px solid #d8e6ed;border-radius:12px}
+.g8-angle-chain__lines line{stroke:#12324f;stroke-width:3}.g8-angle-chain__parallel{fill:none;stroke:#007c8b;stroke-width:2}
+.g8-angle-chain text{fill:#15324a;font-size:16px;font-weight:700}.g8-angle-chain text.is-revealed{fill:#027f89}.g8-angle-chain text.is-target{fill:#9a5611}.g8-angle-chain .g8-angle-chain__value{font-size:13px;fill:#027f89}
+.g8-angle-chain p{margin:0;line-height:1.45}.g8-angle-chain__claim{padding:.45rem .65rem;border-left:3px solid #b9853a;background:#fff8eb}.g8-angle-chain__claim.is-invalid{border-color:#b43c39;background:#fff0ef}
+.g8-angle-chain__operation{color:#174a61}.g8-angle-chain__result{font-weight:700}.g8-angle-chain__check{color:#136455}
+@media(max-width:600px){.g8-angle-chain svg{width:100%}.g8-angle-chain text{font-size:15px}}
