@@ -1,0 +1,1060 @@
+{
+  "source": "lesson-03-squares-cubes-and-integer-roots.md",
+  "worked": [
+    {
+      "problem": "Calculate (-3)².",
+      "givens": [
+        "-3",
+        "-3"
+      ],
+      "actions": [
+        "The base is the entire signed number (-3).",
+        "Expand as (-3)×(-3).",
+        "Two negative factors have a positive product: 9.",
+        "Check: The original expression evaluates to 9."
+      ],
+      "answer": "9",
+      "wrongs": [
+        "-9",
+        "-6",
+        "3"
+      ],
+      "wrong_methods": [
+        "Keeps a negative sign after multiplying two negative bases.",
+        "Multiplies the base by the exponent.",
+        "Reports only the base magnitude."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -3,
+          -3
+        ],
+        "operator": "square",
+        "path": [
+          -3,
+          9
+        ]
+      },
+      "misconception": "negative-base-square",
+      "check": "Check: The original expression evaluates to 9.",
+      "id": "g9-int-l03-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Calculate (-5)².",
+      "givens": [
+        "-5",
+        "-5"
+      ],
+      "actions": [
+        "The base is the entire signed number (-5).",
+        "Expand as (-5)×(-5).",
+        "Two negative factors have a positive product: 25.",
+        "Check: The original expression evaluates to 25."
+      ],
+      "answer": "25",
+      "wrongs": [
+        "-25",
+        "-10",
+        "5"
+      ],
+      "wrong_methods": [
+        "Keeps a negative sign after multiplying two negative bases.",
+        "Multiplies the base by the exponent.",
+        "Reports only the base magnitude."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -5,
+          -5
+        ],
+        "operator": "square",
+        "path": [
+          -5,
+          25
+        ]
+      },
+      "misconception": "negative-base-square",
+      "check": "Check: The original expression evaluates to 25.",
+      "id": "g9-int-l03-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Calculate (-8)².",
+      "givens": [
+        "-8",
+        "-8"
+      ],
+      "actions": [
+        "The base is the entire signed number (-8).",
+        "Expand as (-8)×(-8).",
+        "Two negative factors have a positive product: 64.",
+        "Check: The original expression evaluates to 64."
+      ],
+      "answer": "64",
+      "wrongs": [
+        "-64",
+        "-16",
+        "8"
+      ],
+      "wrong_methods": [
+        "Keeps a negative sign after multiplying two negative bases.",
+        "Multiplies the base by the exponent.",
+        "Reports only the base magnitude."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -8,
+          -8
+        ],
+        "operator": "square",
+        "path": [
+          -8,
+          64
+        ]
+      },
+      "misconception": "negative-base-square",
+      "check": "Check: The original expression evaluates to 64.",
+      "id": "g9-int-l03-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate (-11)².",
+      "givens": [
+        "-11",
+        "-11"
+      ],
+      "actions": [
+        "The base is the entire signed number (-11).",
+        "Expand as (-11)×(-11).",
+        "Two negative factors have a positive product: 121.",
+        "Check: The original expression evaluates to 121."
+      ],
+      "answer": "121",
+      "wrongs": [
+        "-121",
+        "-22",
+        "11"
+      ],
+      "wrong_methods": [
+        "Keeps a negative sign after multiplying two negative bases.",
+        "Multiplies the base by the exponent.",
+        "Reports only the base magnitude."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -11,
+          -11
+        ],
+        "operator": "square",
+        "path": [
+          -11,
+          121
+        ]
+      },
+      "misconception": "negative-base-square",
+      "check": "Check: The original expression evaluates to 121.",
+      "id": "g9-int-l03-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate (-2)³.",
+      "givens": [
+        "-2",
+        "-2",
+        "-2"
+      ],
+      "actions": [
+        "The base -2 is repeated three times.",
+        "Expand (-2)×(-2)×(-2).",
+        "The first pair gives 4; multiply by -2 to obtain -8.",
+        "Check: The original expression evaluates to -8."
+      ],
+      "answer": "-8",
+      "wrongs": [
+        "8",
+        "-6",
+        "4"
+      ],
+      "wrong_methods": [
+        "Drops the negative sign after three negative factors.",
+        "Multiplies the base by three instead of cubing.",
+        "Stops after multiplying only two factors."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -2,
+          -2,
+          -2
+        ],
+        "operator": "cube",
+        "path": [
+          -2,
+          4,
+          -8
+        ]
+      },
+      "misconception": "odd-power-sign",
+      "check": "Check: The original expression evaluates to -8.",
+      "id": "g9-int-l03-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate (-3)³.",
+      "givens": [
+        "-3",
+        "-3",
+        "-3"
+      ],
+      "actions": [
+        "The base -3 is repeated three times.",
+        "Expand (-3)×(-3)×(-3).",
+        "The first pair gives 9; multiply by -3 to obtain -27.",
+        "Check: The original expression evaluates to -27."
+      ],
+      "answer": "-27",
+      "wrongs": [
+        "27",
+        "-9",
+        "9"
+      ],
+      "wrong_methods": [
+        "Drops the negative sign after three negative factors.",
+        "Multiplies the base by three instead of cubing.",
+        "Stops after multiplying only two factors."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -3,
+          -3,
+          -3
+        ],
+        "operator": "cube",
+        "path": [
+          -3,
+          9,
+          -27
+        ]
+      },
+      "misconception": "odd-power-sign",
+      "check": "Check: The original expression evaluates to -27.",
+      "id": "g9-int-l03-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate (-4)³.",
+      "givens": [
+        "-4",
+        "-4",
+        "-4"
+      ],
+      "actions": [
+        "The base -4 is repeated three times.",
+        "Expand (-4)×(-4)×(-4).",
+        "The first pair gives 16; multiply by -4 to obtain -64.",
+        "Check: The original expression evaluates to -64."
+      ],
+      "answer": "-64",
+      "wrongs": [
+        "64",
+        "-12",
+        "16"
+      ],
+      "wrong_methods": [
+        "Drops the negative sign after three negative factors.",
+        "Multiplies the base by three instead of cubing.",
+        "Stops after multiplying only two factors."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -4,
+          -4,
+          -4
+        ],
+        "operator": "cube",
+        "path": [
+          -4,
+          16,
+          -64
+        ]
+      },
+      "misconception": "odd-power-sign",
+      "check": "Check: The original expression evaluates to -64.",
+      "id": "g9-int-l03-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate (-6)³.",
+      "givens": [
+        "-6",
+        "-6",
+        "-6"
+      ],
+      "actions": [
+        "The base -6 is repeated three times.",
+        "Expand (-6)×(-6)×(-6).",
+        "The first pair gives 36; multiply by -6 to obtain -216.",
+        "Check: The original expression evaluates to -216."
+      ],
+      "answer": "-216",
+      "wrongs": [
+        "216",
+        "-18",
+        "36"
+      ],
+      "wrong_methods": [
+        "Drops the negative sign after three negative factors.",
+        "Multiplies the base by three instead of cubing.",
+        "Stops after multiplying only two factors."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -6,
+          -6,
+          -6
+        ],
+        "operator": "cube",
+        "path": [
+          -6,
+          36,
+          -216
+        ]
+      },
+      "misconception": "odd-power-sign",
+      "check": "Check: The original expression evaluates to -216.",
+      "id": "g9-int-l03-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Find the principal square root of 16.",
+      "givens": [
+        "16",
+        "4"
+      ],
+      "actions": [
+        "Find a nonnegative number whose square is 16.",
+        "4×4 = 16.",
+        "The principal square root is 4, not a pair of solutions.",
+        "Check: 4×4 = 16."
+      ],
+      "answer": "4",
+      "wrongs": [
+        "-4",
+        "8",
+        "16"
+      ],
+      "wrong_methods": [
+        "Chooses the negative root for the principal square root.",
+        "Doubles the candidate instead of squaring it.",
+        "Leaves the original square unchanged."
+      ],
+      "visual": {
+        "family": "root",
+        "values": [
+          16,
+          4
+        ],
+        "operator": "square_root",
+        "path": [
+          16,
+          4
+        ]
+      },
+      "misconception": "principal-root",
+      "check": "Check: 4×4 = 16.",
+      "id": "g9-int-l03-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Find the principal square root of 49.",
+      "givens": [
+        "49",
+        "7"
+      ],
+      "actions": [
+        "Find a nonnegative number whose square is 49.",
+        "7×7 = 49.",
+        "The principal square root is 7, not a pair of solutions.",
+        "Check: 7×7 = 49."
+      ],
+      "answer": "7",
+      "wrongs": [
+        "-7",
+        "14",
+        "49"
+      ],
+      "wrong_methods": [
+        "Chooses the negative root for the principal square root.",
+        "Doubles the candidate instead of squaring it.",
+        "Leaves the original square unchanged."
+      ],
+      "visual": {
+        "family": "root",
+        "values": [
+          49,
+          7
+        ],
+        "operator": "square_root",
+        "path": [
+          49,
+          7
+        ]
+      },
+      "misconception": "principal-root",
+      "check": "Check: 7×7 = 49.",
+      "id": "g9-int-l03-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Find the principal square root of 81.",
+      "givens": [
+        "81",
+        "9"
+      ],
+      "actions": [
+        "Find a nonnegative number whose square is 81.",
+        "9×9 = 81.",
+        "The principal square root is 9, not a pair of solutions.",
+        "Check: 9×9 = 81."
+      ],
+      "answer": "9",
+      "wrongs": [
+        "-9",
+        "18",
+        "81"
+      ],
+      "wrong_methods": [
+        "Chooses the negative root for the principal square root.",
+        "Doubles the candidate instead of squaring it.",
+        "Leaves the original square unchanged."
+      ],
+      "visual": {
+        "family": "root",
+        "values": [
+          81,
+          9
+        ],
+        "operator": "square_root",
+        "path": [
+          81,
+          9
+        ]
+      },
+      "misconception": "principal-root",
+      "check": "Check: 9×9 = 81.",
+      "id": "g9-int-l03-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Find the principal square root of 144.",
+      "givens": [
+        "144",
+        "12"
+      ],
+      "actions": [
+        "Find a nonnegative number whose square is 144.",
+        "12×12 = 144.",
+        "The principal square root is 12, not a pair of solutions.",
+        "Check: 12×12 = 144."
+      ],
+      "answer": "12",
+      "wrongs": [
+        "-12",
+        "24",
+        "144"
+      ],
+      "wrong_methods": [
+        "Chooses the negative root for the principal square root.",
+        "Doubles the candidate instead of squaring it.",
+        "Leaves the original square unchanged."
+      ],
+      "visual": {
+        "family": "root",
+        "values": [
+          144,
+          12
+        ],
+        "operator": "square_root",
+        "path": [
+          144,
+          12
+        ]
+      },
+      "misconception": "principal-root",
+      "check": "Check: 12×12 = 144.",
+      "id": "g9-int-l03-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate ∛(-27).",
+      "givens": [
+        "-27",
+        "-3"
+      ],
+      "actions": [
+        "A cube root is the number repeated as a product of three equal factors.",
+        "-3×-3×-3 = -27.",
+        "Therefore ∛(-27) = -3.",
+        "Check: -3³ = -27."
+      ],
+      "answer": "-3",
+      "wrongs": [
+        "3",
+        "-9",
+        "-27"
+      ],
+      "wrong_methods": [
+        "Reverses the sign of the cube root.",
+        "Multiplies the root by three.",
+        "Returns the original cube instead of its root."
+      ],
+      "visual": {
+        "family": "root",
+        "values": [
+          -27,
+          -3
+        ],
+        "operator": "cube_root",
+        "path": [
+          -27,
+          -3
+        ]
+      },
+      "misconception": "cube-root-sign",
+      "check": "Check: -3³ = -27.",
+      "id": "g9-int-l03-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Calculate ∛(-125).",
+      "givens": [
+        "-125",
+        "-5"
+      ],
+      "actions": [
+        "A cube root is the number repeated as a product of three equal factors.",
+        "-5×-5×-5 = -125.",
+        "Therefore ∛(-125) = -5.",
+        "Check: -5³ = -125."
+      ],
+      "answer": "-5",
+      "wrongs": [
+        "5",
+        "-15",
+        "-125"
+      ],
+      "wrong_methods": [
+        "Reverses the sign of the cube root.",
+        "Multiplies the root by three.",
+        "Returns the original cube instead of its root."
+      ],
+      "visual": {
+        "family": "root",
+        "values": [
+          -125,
+          -5
+        ],
+        "operator": "cube_root",
+        "path": [
+          -125,
+          -5
+        ]
+      },
+      "misconception": "cube-root-sign",
+      "check": "Check: -5³ = -125.",
+      "id": "g9-int-l03-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Calculate ∛(-343).",
+      "givens": [
+        "-343",
+        "-7"
+      ],
+      "actions": [
+        "A cube root is the number repeated as a product of three equal factors.",
+        "-7×-7×-7 = -343.",
+        "Therefore ∛(-343) = -7.",
+        "Check: -7³ = -343."
+      ],
+      "answer": "-7",
+      "wrongs": [
+        "7",
+        "-21",
+        "-343"
+      ],
+      "wrong_methods": [
+        "Reverses the sign of the cube root.",
+        "Multiplies the root by three.",
+        "Returns the original cube instead of its root."
+      ],
+      "visual": {
+        "family": "root",
+        "values": [
+          -343,
+          -7
+        ],
+        "operator": "cube_root",
+        "path": [
+          -343,
+          -7
+        ]
+      },
+      "misconception": "cube-root-sign",
+      "check": "Check: -7³ = -343.",
+      "id": "g9-int-l03-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-int-l03-p01",
+      "prompt": "Calculate ∛(-64).",
+      "options": [
+        "-4",
+        "4",
+        "-12",
+        "-64"
+      ],
+      "answer_index": 0,
+      "memo": "-4. A cube root is the number repeated as a product of three equal factors. -4×-4×-4 = -64. Therefore ∛(-64) = -4. Check: -4³ = -64.",
+      "misconception": "cube-root-sign",
+      "option_rationales": {
+        "-4": "Correct: Check: -4³ = -64.",
+        "4": "Incorrect: Reverses the sign of the cube root.",
+        "-12": "Incorrect: Multiplies the root by three.",
+        "-64": "Incorrect: Returns the original cube instead of its root."
+      }
+    },
+    {
+      "id": "g9-int-l03-p02",
+      "prompt": "Calculate (-6)².",
+      "options": [
+        "-36",
+        "36",
+        "-12",
+        "6"
+      ],
+      "answer_index": 1,
+      "memo": "36. The base is the entire signed number (-6). Expand as (-6)×(-6). Two negative factors have a positive product: 36. Check: The original expression evaluates to 36.",
+      "misconception": "negative-base-square",
+      "option_rationales": {
+        "-36": "Incorrect: Keeps a negative sign after multiplying two negative bases.",
+        "36": "Correct: Check: The original expression evaluates to 36.",
+        "-12": "Incorrect: Multiplies the base by the exponent.",
+        "6": "Incorrect: Reports only the base magnitude."
+      }
+    },
+    {
+      "id": "g9-int-l03-p03",
+      "prompt": "Find the principal square root of 64.",
+      "options": [
+        "-8",
+        "16",
+        "8",
+        "64"
+      ],
+      "answer_index": 2,
+      "memo": "8. Find a nonnegative number whose square is 64. 8×8 = 64. The principal square root is 8, not a pair of solutions. Check: 8×8 = 64.",
+      "misconception": "principal-root",
+      "option_rationales": {
+        "-8": "Incorrect: Chooses the negative root for the principal square root.",
+        "16": "Incorrect: Doubles the candidate instead of squaring it.",
+        "8": "Correct: Check: 8×8 = 64.",
+        "64": "Incorrect: Leaves the original square unchanged."
+      }
+    },
+    {
+      "id": "g9-int-l03-p04",
+      "prompt": "Calculate (-7)².",
+      "options": [
+        "-49",
+        "-14",
+        "7",
+        "49"
+      ],
+      "answer_index": 3,
+      "memo": "49. The base is the entire signed number (-7). Expand as (-7)×(-7). Two negative factors have a positive product: 49. Check: The original expression evaluates to 49.",
+      "misconception": "negative-base-square",
+      "option_rationales": {
+        "-49": "Incorrect: Keeps a negative sign after multiplying two negative bases.",
+        "-14": "Incorrect: Multiplies the base by the exponent.",
+        "7": "Incorrect: Reports only the base magnitude.",
+        "49": "Correct: Check: The original expression evaluates to 49."
+      }
+    },
+    {
+      "id": "g9-int-l03-p05",
+      "prompt": "Calculate (-5)³.",
+      "options": [
+        "-125",
+        "125",
+        "-15",
+        "25"
+      ],
+      "answer_index": 0,
+      "memo": "-125. The base -5 is repeated three times. Expand (-5)×(-5)×(-5). The first pair gives 25; multiply by -5 to obtain -125. Check: The original expression evaluates to -125.",
+      "misconception": "odd-power-sign",
+      "option_rationales": {
+        "-125": "Correct: Check: The original expression evaluates to -125.",
+        "125": "Incorrect: Drops the negative sign after three negative factors.",
+        "-15": "Incorrect: Multiplies the base by three instead of cubing.",
+        "25": "Incorrect: Stops after multiplying only two factors."
+      }
+    },
+    {
+      "id": "g9-int-l03-p06",
+      "prompt": "Calculate ∛(-216).",
+      "options": [
+        "6",
+        "-6",
+        "-18",
+        "-216"
+      ],
+      "answer_index": 1,
+      "memo": "-6. A cube root is the number repeated as a product of three equal factors. -6×-6×-6 = -216. Therefore ∛(-216) = -6. Check: -6³ = -216.",
+      "misconception": "cube-root-sign",
+      "option_rationales": {
+        "6": "Incorrect: Reverses the sign of the cube root.",
+        "-6": "Correct: Check: -6³ = -216.",
+        "-18": "Incorrect: Multiplies the root by three.",
+        "-216": "Incorrect: Returns the original cube instead of its root."
+      }
+    },
+    {
+      "id": "g9-int-l03-p07",
+      "prompt": "Find the principal square root of 100.",
+      "options": [
+        "-10",
+        "20",
+        "10",
+        "100"
+      ],
+      "answer_index": 2,
+      "memo": "10. Find a nonnegative number whose square is 100. 10×10 = 100. The principal square root is 10, not a pair of solutions. Check: 10×10 = 100.",
+      "misconception": "principal-root",
+      "option_rationales": {
+        "-10": "Incorrect: Chooses the negative root for the principal square root.",
+        "20": "Incorrect: Doubles the candidate instead of squaring it.",
+        "10": "Correct: Check: 10×10 = 100.",
+        "100": "Incorrect: Leaves the original square unchanged."
+      }
+    },
+    {
+      "id": "g9-int-l03-p08",
+      "prompt": "Calculate (-9)².",
+      "options": [
+        "-81",
+        "-18",
+        "9",
+        "81"
+      ],
+      "answer_index": 3,
+      "memo": "81. The base is the entire signed number (-9). Expand as (-9)×(-9). Two negative factors have a positive product: 81. Check: The original expression evaluates to 81.",
+      "misconception": "negative-base-square",
+      "option_rationales": {
+        "-81": "Incorrect: Keeps a negative sign after multiplying two negative bases.",
+        "-18": "Incorrect: Multiplies the base by the exponent.",
+        "9": "Incorrect: Reports only the base magnitude.",
+        "81": "Correct: Check: The original expression evaluates to 81."
+      }
+    },
+    {
+      "id": "g9-int-l03-p09",
+      "prompt": "Calculate (-7)³.",
+      "options": [
+        "-343",
+        "343",
+        "-21",
+        "49"
+      ],
+      "answer_index": 0,
+      "memo": "-343. The base -7 is repeated three times. Expand (-7)×(-7)×(-7). The first pair gives 49; multiply by -7 to obtain -343. Check: The original expression evaluates to -343.",
+      "misconception": "odd-power-sign",
+      "option_rationales": {
+        "-343": "Correct: Check: The original expression evaluates to -343.",
+        "343": "Incorrect: Drops the negative sign after three negative factors.",
+        "-21": "Incorrect: Multiplies the base by three instead of cubing.",
+        "49": "Incorrect: Stops after multiplying only two factors."
+      }
+    },
+    {
+      "id": "g9-int-l03-p10",
+      "prompt": "Find the principal square root of 121.",
+      "options": [
+        "-11",
+        "11",
+        "22",
+        "121"
+      ],
+      "answer_index": 1,
+      "memo": "11. Find a nonnegative number whose square is 121. 11×11 = 121. The principal square root is 11, not a pair of solutions. Check: 11×11 = 121.",
+      "misconception": "principal-root",
+      "option_rationales": {
+        "-11": "Incorrect: Chooses the negative root for the principal square root.",
+        "11": "Correct: Check: 11×11 = 121.",
+        "22": "Incorrect: Doubles the candidate instead of squaring it.",
+        "121": "Incorrect: Leaves the original square unchanged."
+      }
+    },
+    {
+      "id": "g9-int-l03-p11",
+      "prompt": "Calculate ∛(-512).",
+      "options": [
+        "8",
+        "-24",
+        "-8",
+        "-512"
+      ],
+      "answer_index": 2,
+      "memo": "-8. A cube root is the number repeated as a product of three equal factors. -8×-8×-8 = -512. Therefore ∛(-512) = -8. Check: -8³ = -512.",
+      "misconception": "cube-root-sign",
+      "option_rationales": {
+        "8": "Incorrect: Reverses the sign of the cube root.",
+        "-24": "Incorrect: Multiplies the root by three.",
+        "-8": "Correct: Check: -8³ = -512.",
+        "-512": "Incorrect: Returns the original cube instead of its root."
+      }
+    },
+    {
+      "id": "g9-int-l03-p12",
+      "prompt": "Calculate (-10)².",
+      "options": [
+        "-100",
+        "-20",
+        "10",
+        "100"
+      ],
+      "answer_index": 3,
+      "memo": "100. The base is the entire signed number (-10). Expand as (-10)×(-10). Two negative factors have a positive product: 100. Check: The original expression evaluates to 100.",
+      "misconception": "negative-base-square",
+      "option_rationales": {
+        "-100": "Incorrect: Keeps a negative sign after multiplying two negative bases.",
+        "-20": "Incorrect: Multiplies the base by the exponent.",
+        "10": "Incorrect: Reports only the base magnitude.",
+        "100": "Correct: Check: The original expression evaluates to 100."
+      }
+    },
+    {
+      "id": "g9-int-l03-p13",
+      "prompt": "Calculate (-8)³.",
+      "options": [
+        "-512",
+        "512",
+        "-24",
+        "64"
+      ],
+      "answer_index": 0,
+      "memo": "-512. The base -8 is repeated three times. Expand (-8)×(-8)×(-8). The first pair gives 64; multiply by -8 to obtain -512. Check: The original expression evaluates to -512.",
+      "misconception": "odd-power-sign",
+      "option_rationales": {
+        "-512": "Correct: Check: The original expression evaluates to -512.",
+        "512": "Incorrect: Drops the negative sign after three negative factors.",
+        "-24": "Incorrect: Multiplies the base by three instead of cubing.",
+        "64": "Incorrect: Stops after multiplying only two factors."
+      }
+    },
+    {
+      "id": "g9-int-l03-p14",
+      "prompt": "Calculate ∛(-729).",
+      "options": [
+        "9",
+        "-9",
+        "-27",
+        "-729"
+      ],
+      "answer_index": 1,
+      "memo": "-9. A cube root is the number repeated as a product of three equal factors. -9×-9×-9 = -729. Therefore ∛(-729) = -9. Check: -9³ = -729.",
+      "misconception": "cube-root-sign",
+      "option_rationales": {
+        "9": "Incorrect: Reverses the sign of the cube root.",
+        "-9": "Correct: Check: -9³ = -729.",
+        "-27": "Incorrect: Multiplies the root by three.",
+        "-729": "Incorrect: Returns the original cube instead of its root."
+      }
+    },
+    {
+      "id": "g9-int-l03-p15",
+      "prompt": "Calculate (-9)³.",
+      "options": [
+        "729",
+        "-27",
+        "-729",
+        "81"
+      ],
+      "answer_index": 2,
+      "memo": "-729. The base -9 is repeated three times. Expand (-9)×(-9)×(-9). The first pair gives 81; multiply by -9 to obtain -729. Check: The original expression evaluates to -729.",
+      "misconception": "odd-power-sign",
+      "option_rationales": {
+        "729": "Incorrect: Drops the negative sign after three negative factors.",
+        "-27": "Incorrect: Multiplies the base by three instead of cubing.",
+        "-729": "Correct: Check: The original expression evaluates to -729.",
+        "81": "Incorrect: Stops after multiplying only two factors."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-int-l03-m01",
+      "prompt": "Find the principal square root of 169.",
+      "options": [
+        "13",
+        "-13",
+        "26",
+        "169"
+      ],
+      "answer_index": 0,
+      "memo": "13. Find a nonnegative number whose square is 169. 13×13 = 169. The principal square root is 13, not a pair of solutions. Check: 13×13 = 169.",
+      "misconception": "principal-root",
+      "option_rationales": {
+        "13": "Correct: Check: 13×13 = 169.",
+        "-13": "Incorrect: Chooses the negative root for the principal square root.",
+        "26": "Incorrect: Doubles the candidate instead of squaring it.",
+        "169": "Incorrect: Leaves the original square unchanged."
+      }
+    },
+    {
+      "id": "g9-int-l03-m02",
+      "prompt": "Calculate ∛(-1000).",
+      "options": [
+        "10",
+        "-10",
+        "-30",
+        "-1000"
+      ],
+      "answer_index": 1,
+      "memo": "-10. A cube root is the number repeated as a product of three equal factors. -10×-10×-10 = -1000. Therefore ∛(-1000) = -10. Check: -10³ = -1000.",
+      "misconception": "cube-root-sign",
+      "option_rationales": {
+        "10": "Incorrect: Reverses the sign of the cube root.",
+        "-10": "Correct: Check: -10³ = -1000.",
+        "-30": "Incorrect: Multiplies the root by three.",
+        "-1000": "Incorrect: Returns the original cube instead of its root."
+      }
+    },
+    {
+      "id": "g9-int-l03-m03",
+      "prompt": "Calculate (-12)².",
+      "options": [
+        "-144",
+        "-24",
+        "144",
+        "12"
+      ],
+      "answer_index": 2,
+      "memo": "144. The base is the entire signed number (-12). Expand as (-12)×(-12). Two negative factors have a positive product: 144. Check: The original expression evaluates to 144.",
+      "misconception": "negative-base-square",
+      "option_rationales": {
+        "-144": "Incorrect: Keeps a negative sign after multiplying two negative bases.",
+        "-24": "Incorrect: Multiplies the base by the exponent.",
+        "144": "Correct: Check: The original expression evaluates to 144.",
+        "12": "Incorrect: Reports only the base magnitude."
+      }
+    },
+    {
+      "id": "g9-int-l03-m04",
+      "prompt": "Calculate (-10)³.",
+      "options": [
+        "1000",
+        "-30",
+        "100",
+        "-1000"
+      ],
+      "answer_index": 3,
+      "memo": "-1000. The base -10 is repeated three times. Expand (-10)×(-10)×(-10). The first pair gives 100; multiply by -10 to obtain -1000. Check: The original expression evaluates to -1000.",
+      "misconception": "odd-power-sign",
+      "option_rationales": {
+        "1000": "Incorrect: Drops the negative sign after three negative factors.",
+        "-30": "Incorrect: Multiplies the base by three instead of cubing.",
+        "100": "Incorrect: Stops after multiplying only two factors.",
+        "-1000": "Correct: Check: The original expression evaluates to -1000."
+      }
+    },
+    {
+      "id": "g9-int-l03-m05",
+      "prompt": "Find the principal square root of 196.",
+      "options": [
+        "14",
+        "-14",
+        "28",
+        "196"
+      ],
+      "answer_index": 0,
+      "memo": "14. Find a nonnegative number whose square is 196. 14×14 = 196. The principal square root is 14, not a pair of solutions. Check: 14×14 = 196.",
+      "misconception": "principal-root",
+      "option_rationales": {
+        "14": "Correct: Check: 14×14 = 196.",
+        "-14": "Incorrect: Chooses the negative root for the principal square root.",
+        "28": "Incorrect: Doubles the candidate instead of squaring it.",
+        "196": "Incorrect: Leaves the original square unchanged."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-int-l03-r01",
+      "prompt": "Calculate ∛(-1331).",
+      "options": [
+        "-11",
+        "11",
+        "-33",
+        "-1331"
+      ],
+      "answer_index": 0,
+      "memo": "-11. A cube root is the number repeated as a product of three equal factors. -11×-11×-11 = -1331. Therefore ∛(-1331) = -11. Check: -11³ = -1331.",
+      "misconception": "cube-root-sign",
+      "option_rationales": {
+        "-11": "Correct: Check: -11³ = -1331.",
+        "11": "Incorrect: Reverses the sign of the cube root.",
+        "-33": "Incorrect: Multiplies the root by three.",
+        "-1331": "Incorrect: Returns the original cube instead of its root."
+      }
+    },
+    {
+      "id": "g9-int-l03-r02",
+      "prompt": "Calculate (-13)².",
+      "options": [
+        "-169",
+        "169",
+        "-26",
+        "13"
+      ],
+      "answer_index": 1,
+      "memo": "169. The base is the entire signed number (-13). Expand as (-13)×(-13). Two negative factors have a positive product: 169. Check: The original expression evaluates to 169.",
+      "misconception": "negative-base-square",
+      "option_rationales": {
+        "-169": "Incorrect: Keeps a negative sign after multiplying two negative bases.",
+        "169": "Correct: Check: The original expression evaluates to 169.",
+        "-26": "Incorrect: Multiplies the base by the exponent.",
+        "13": "Incorrect: Reports only the base magnitude."
+      }
+    },
+    {
+      "id": "g9-int-l03-r03",
+      "prompt": "Calculate (-11)³.",
+      "options": [
+        "1331",
+        "-33",
+        "-1331",
+        "121"
+      ],
+      "answer_index": 2,
+      "memo": "-1331. The base -11 is repeated three times. Expand (-11)×(-11)×(-11). The first pair gives 121; multiply by -11 to obtain -1331. Check: The original expression evaluates to -1331.",
+      "misconception": "odd-power-sign",
+      "option_rationales": {
+        "1331": "Incorrect: Drops the negative sign after three negative factors.",
+        "-33": "Incorrect: Multiplies the base by three instead of cubing.",
+        "-1331": "Correct: Check: The original expression evaluates to -1331.",
+        "121": "Incorrect: Stops after multiplying only two factors."
+      }
+    }
+  ]
+}

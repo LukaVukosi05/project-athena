@@ -1,0 +1,1078 @@
+{
+  "source": "lesson-02-sign-rules-and-integer-properties.md",
+  "worked": [
+    {
+      "problem": "Evaluate (-6) + 9 + (-9).",
+      "givens": [
+        "-6",
+        "9",
+        "-9"
+      ],
+      "actions": [
+        "Find the opposite pair 9 and -9.",
+        "Add the inverses: 9 + (-9) = 0.",
+        "Adding zero leaves -6.",
+        "Check: Substituting the original signed values also gives -6."
+      ],
+      "answer": "-6",
+      "wrongs": [
+        "3",
+        "-15",
+        "0"
+      ],
+      "wrong_methods": [
+        "Stops before adding the inverse.",
+        "Subtracts the inverse instead of adding it.",
+        "Discards the untouched starting term."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -6,
+          9,
+          -9
+        ],
+        "operator": "inverse",
+        "path": [
+          0,
+          -6
+        ]
+      },
+      "misconception": "additive-inverse",
+      "check": "Check: Substituting the original signed values also gives -6.",
+      "id": "g9-int-l02-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Evaluate 7 + (-13) + 13.",
+      "givens": [
+        "7",
+        "-13",
+        "13"
+      ],
+      "actions": [
+        "Find the opposite pair -13 and 13.",
+        "Add the inverses: -13 + 13 = 0.",
+        "Adding zero leaves 7.",
+        "Check: Substituting the original signed values also gives 7."
+      ],
+      "answer": "7",
+      "wrongs": [
+        "-6",
+        "20",
+        "0"
+      ],
+      "wrong_methods": [
+        "Stops before adding the inverse.",
+        "Subtracts the inverse instead of adding it.",
+        "Discards the untouched starting term."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          7,
+          -13,
+          13
+        ],
+        "operator": "inverse",
+        "path": [
+          0,
+          7
+        ]
+      },
+      "misconception": "additive-inverse",
+      "check": "Check: Substituting the original signed values also gives 7.",
+      "id": "g9-int-l02-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Evaluate (-17) + (-5) + 5.",
+      "givens": [
+        "-17",
+        "-5",
+        "5"
+      ],
+      "actions": [
+        "Find the opposite pair -5 and 5.",
+        "Add the inverses: -5 + 5 = 0.",
+        "Adding zero leaves -17.",
+        "Check: Substituting the original signed values also gives -17."
+      ],
+      "answer": "-17",
+      "wrongs": [
+        "-22",
+        "-12",
+        "0"
+      ],
+      "wrong_methods": [
+        "Stops before adding the inverse.",
+        "Subtracts the inverse instead of adding it.",
+        "Discards the untouched starting term."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -17,
+          -5,
+          5
+        ],
+        "operator": "inverse",
+        "path": [
+          0,
+          -17
+        ]
+      },
+      "misconception": "additive-inverse",
+      "check": "Check: Substituting the original signed values also gives -17.",
+      "id": "g9-int-l02-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Expand and evaluate (-5) × (7 + (-3)).",
+      "givens": [
+        "-5",
+        "7",
+        "-3"
+      ],
+      "actions": [
+        "The bracket contains two terms: 7 and -3.",
+        "Distribute -5 to both: -5×7 + -5×(-3) = -35 + 15.",
+        "Add the signed products: -20.",
+        "Check: Substituting the original signed values also gives -20."
+      ],
+      "answer": "-20",
+      "wrongs": [
+        "-38",
+        "-50",
+        "-1"
+      ],
+      "wrong_methods": [
+        "Multiplies only the first bracket term.",
+        "Subtracts the second term after distribution.",
+        "Adds the three original values without multiplying."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -5,
+          7,
+          -3
+        ],
+        "operator": "distributive",
+        "path": [
+          0,
+          -20
+        ]
+      },
+      "misconception": "distributive-term",
+      "check": "Check: Substituting the original signed values also gives -20.",
+      "id": "g9-int-l02-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Expand and evaluate (-8) × ((-4) + 6).",
+      "givens": [
+        "-8",
+        "-4",
+        "6"
+      ],
+      "actions": [
+        "The bracket contains two terms: -4 and 6.",
+        "Distribute -8 to both: -8×(-4) + -8×6 = 32 + (-48).",
+        "Add the signed products: -16.",
+        "Check: Substituting the original signed values also gives -16."
+      ],
+      "answer": "-16",
+      "wrongs": [
+        "38",
+        "80",
+        "-6"
+      ],
+      "wrong_methods": [
+        "Multiplies only the first bracket term.",
+        "Subtracts the second term after distribution.",
+        "Adds the three original values without multiplying."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -8,
+          -4,
+          6
+        ],
+        "operator": "distributive",
+        "path": [
+          0,
+          -16
+        ]
+      },
+      "misconception": "distributive-term",
+      "check": "Check: Substituting the original signed values also gives -16.",
+      "id": "g9-int-l02-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Expand and evaluate 9 × ((-5) + (-4)).",
+      "givens": [
+        "9",
+        "-5",
+        "-4"
+      ],
+      "actions": [
+        "The bracket contains two terms: -5 and -4.",
+        "Distribute 9 to both: 9×(-5) + 9×(-4) = -45 + (-36).",
+        "Add the signed products: -81.",
+        "Check: Substituting the original signed values also gives -81."
+      ],
+      "answer": "-81",
+      "wrongs": [
+        "-49",
+        "-9",
+        "0"
+      ],
+      "wrong_methods": [
+        "Multiplies only the first bracket term.",
+        "Subtracts the second term after distribution.",
+        "Adds the three original values without multiplying."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          9,
+          -5,
+          -4
+        ],
+        "operator": "distributive",
+        "path": [
+          0,
+          -81
+        ]
+      },
+      "misconception": "distributive-term",
+      "check": "Check: Substituting the original signed values also gives -81.",
+      "id": "g9-int-l02-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Evaluate ((-12) + 9) + (-4) by regrouping.",
+      "givens": [
+        "-12",
+        "9",
+        "-4"
+      ],
+      "actions": [
+        "Keep every signed term: -12, 9, -4.",
+        "Regroup as -12 + (9 + (-4)) without changing term signs.",
+        "9 + (-4) = 5; then -12 + 5 = -7.",
+        "Check: Substituting the original signed values also gives -7."
+      ],
+      "answer": "-7",
+      "wrongs": [
+        "1",
+        "-25",
+        "5"
+      ],
+      "wrong_methods": [
+        "Changes the sign of the last term while regrouping.",
+        "Changes the sign of the middle term.",
+        "Omits the first term from the sum."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -12,
+          9,
+          -4
+        ],
+        "operator": "associative",
+        "path": [
+          0,
+          -7
+        ]
+      },
+      "misconception": "regroup-sign",
+      "check": "Check: Substituting the original signed values also gives -7.",
+      "id": "g9-int-l02-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Evaluate (14 + (-8)) + (-11) by regrouping.",
+      "givens": [
+        "14",
+        "-8",
+        "-11"
+      ],
+      "actions": [
+        "Keep every signed term: 14, -8, -11.",
+        "Regroup as 14 + ((-8) + (-11)) without changing term signs.",
+        "-8 + (-11) = -19; then 14 + (-19) = -5.",
+        "Check: Substituting the original signed values also gives -5."
+      ],
+      "answer": "-5",
+      "wrongs": [
+        "17",
+        "11",
+        "-19"
+      ],
+      "wrong_methods": [
+        "Changes the sign of the last term while regrouping.",
+        "Changes the sign of the middle term.",
+        "Omits the first term from the sum."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          14,
+          -8,
+          -11
+        ],
+        "operator": "associative",
+        "path": [
+          0,
+          -5
+        ]
+      },
+      "misconception": "regroup-sign",
+      "check": "Check: Substituting the original signed values also gives -5.",
+      "id": "g9-int-l02-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Evaluate ((-18) + (-7)) + 15 by regrouping.",
+      "givens": [
+        "-18",
+        "-7",
+        "15"
+      ],
+      "actions": [
+        "Keep every signed term: -18, -7, 15.",
+        "Regroup as -18 + ((-7) + 15) without changing term signs.",
+        "-7 + 15 = 8; then -18 + 8 = -10.",
+        "Check: Substituting the original signed values also gives -10."
+      ],
+      "answer": "-10",
+      "wrongs": [
+        "-40",
+        "4",
+        "8"
+      ],
+      "wrong_methods": [
+        "Changes the sign of the last term while regrouping.",
+        "Changes the sign of the middle term.",
+        "Omits the first term from the sum."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -18,
+          -7,
+          15
+        ],
+        "operator": "associative",
+        "path": [
+          0,
+          -10
+        ]
+      },
+      "misconception": "regroup-sign",
+      "check": "Check: Substituting the original signed values also gives -10.",
+      "id": "g9-int-l02-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Use a property to calculate (-3)×(-8) + (-3)×5.",
+      "givens": [
+        "-3",
+        "-8",
+        "5"
+      ],
+      "actions": [
+        "Both terms contain a factor of -3.",
+        "Factor the shared integer: -3×((-8)+5).",
+        "Add inside the bracket, then multiply: -3×(-3) = 9.",
+        "Check: Substituting the original signed values also gives 9."
+      ],
+      "answer": "9",
+      "wrongs": [
+        "39",
+        "29",
+        "-6"
+      ],
+      "wrong_methods": [
+        "Subtracts one bracket term instead of adding.",
+        "Leaves the second term outside the common factor.",
+        "Adds the terms without the common multiplication."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -3,
+          -8,
+          5
+        ],
+        "operator": "common",
+        "path": [
+          0,
+          9
+        ]
+      },
+      "misconception": "common-factor",
+      "check": "Check: Substituting the original signed values also gives 9.",
+      "id": "g9-int-l02-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Use a property to calculate 6×(-9) + 6×(-4).",
+      "givens": [
+        "6",
+        "-9",
+        "-4"
+      ],
+      "actions": [
+        "Both terms contain a factor of 6.",
+        "Factor the shared integer: 6×((-9)+(-4)).",
+        "Add inside the bracket, then multiply: 6×(-13) = -78.",
+        "Check: Substituting the original signed values also gives -78."
+      ],
+      "answer": "-78",
+      "wrongs": [
+        "-30",
+        "-58",
+        "-7"
+      ],
+      "wrong_methods": [
+        "Subtracts one bracket term instead of adding.",
+        "Leaves the second term outside the common factor.",
+        "Adds the terms without the common multiplication."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          6,
+          -9,
+          -4
+        ],
+        "operator": "common",
+        "path": [
+          0,
+          -78
+        ]
+      },
+      "misconception": "common-factor",
+      "check": "Check: Substituting the original signed values also gives -78.",
+      "id": "g9-int-l02-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Use a property to calculate (-7)×12 + (-7)×(-5).",
+      "givens": [
+        "-7",
+        "12",
+        "-5"
+      ],
+      "actions": [
+        "Both terms contain a factor of -7.",
+        "Factor the shared integer: -7×(12+(-5)).",
+        "Add inside the bracket, then multiply: -7×7 = -49.",
+        "Check: Substituting the original signed values also gives -49."
+      ],
+      "answer": "-49",
+      "wrongs": [
+        "-119",
+        "-89",
+        "0"
+      ],
+      "wrong_methods": [
+        "Subtracts one bracket term instead of adding.",
+        "Leaves the second term outside the common factor.",
+        "Adds the terms without the common multiplication."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -7,
+          12,
+          -5
+        ],
+        "operator": "common",
+        "path": [
+          0,
+          -49
+        ]
+      },
+      "misconception": "common-factor",
+      "check": "Check: Substituting the original signed values also gives -49.",
+      "id": "g9-int-l02-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Expand and evaluate (-11) × (4 + (-9)).",
+      "givens": [
+        "-11",
+        "4",
+        "-9"
+      ],
+      "actions": [
+        "The bracket contains two terms: 4 and -9.",
+        "Distribute -11 to both: -11×4 + -11×(-9) = -44 + 99.",
+        "Add the signed products: 55.",
+        "Check: Substituting the original signed values also gives 55."
+      ],
+      "answer": "55",
+      "wrongs": [
+        "-53",
+        "-143",
+        "-16"
+      ],
+      "wrong_methods": [
+        "Multiplies only the first bracket term.",
+        "Subtracts the second term after distribution.",
+        "Adds the three original values without multiplying."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -11,
+          4,
+          -9
+        ],
+        "operator": "distributive",
+        "path": [
+          0,
+          55
+        ]
+      },
+      "misconception": "distributive-term",
+      "check": "Check: Substituting the original signed values also gives 55.",
+      "id": "g9-int-l02-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Evaluate (13 + (-12)) + 5 by regrouping.",
+      "givens": [
+        "13",
+        "-12",
+        "5"
+      ],
+      "actions": [
+        "Keep every signed term: 13, -12, 5.",
+        "Regroup as 13 + ((-12) + 5) without changing term signs.",
+        "-12 + 5 = -7; then 13 + (-7) = 6.",
+        "Check: Substituting the original signed values also gives 6."
+      ],
+      "answer": "6",
+      "wrongs": [
+        "-4",
+        "30",
+        "-7"
+      ],
+      "wrong_methods": [
+        "Changes the sign of the last term while regrouping.",
+        "Changes the sign of the middle term.",
+        "Omits the first term from the sum."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          13,
+          -12,
+          5
+        ],
+        "operator": "associative",
+        "path": [
+          0,
+          6
+        ]
+      },
+      "misconception": "regroup-sign",
+      "check": "Check: Substituting the original signed values also gives 6.",
+      "id": "g9-int-l02-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Use a property to calculate (-14)×8 + (-14)×(-3).",
+      "givens": [
+        "-14",
+        "8",
+        "-3"
+      ],
+      "actions": [
+        "Both terms contain a factor of -14.",
+        "Factor the shared integer: -14×(8+(-3)).",
+        "Add inside the bracket, then multiply: -14×5 = -70.",
+        "Check: Substituting the original signed values also gives -70."
+      ],
+      "answer": "-70",
+      "wrongs": [
+        "-154",
+        "-115",
+        "-9"
+      ],
+      "wrong_methods": [
+        "Subtracts one bracket term instead of adding.",
+        "Leaves the second term outside the common factor.",
+        "Adds the terms without the common multiplication."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -14,
+          8,
+          -3
+        ],
+        "operator": "common",
+        "path": [
+          0,
+          -70
+        ]
+      },
+      "misconception": "common-factor",
+      "check": "Check: Substituting the original signed values also gives -70.",
+      "id": "g9-int-l02-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-int-l02-p01",
+      "prompt": "Expand and evaluate (-5) × (8 + (-3)).",
+      "options": [
+        "-25",
+        "-43",
+        "-55",
+        "0"
+      ],
+      "answer_index": 0,
+      "memo": "-25. The bracket contains two terms: 8 and -3. Distribute -5 to both: -5×8 + -5×(-3) = -40 + 15. Add the signed products: -25. Check: Substituting the original signed values also gives -25.",
+      "misconception": "distributive-term",
+      "option_rationales": {
+        "-25": "Correct: Check: Substituting the original signed values also gives -25.",
+        "-43": "Incorrect: Multiplies only the first bracket term.",
+        "-55": "Incorrect: Subtracts the second term after distribution.",
+        "0": "Incorrect: Adds the three original values without multiplying."
+      }
+    },
+    {
+      "id": "g9-int-l02-p02",
+      "prompt": "Evaluate (-10) + 5 + (-5).",
+      "options": [
+        "-5",
+        "-10",
+        "-15",
+        "0"
+      ],
+      "answer_index": 1,
+      "memo": "-10. Find the opposite pair 5 and -5. Add the inverses: 5 + (-5) = 0. Adding zero leaves -10. Check: Substituting the original signed values also gives -10.",
+      "misconception": "additive-inverse",
+      "option_rationales": {
+        "-5": "Incorrect: Stops before adding the inverse.",
+        "-10": "Correct: Check: Substituting the original signed values also gives -10.",
+        "-15": "Incorrect: Subtracts the inverse instead of adding it.",
+        "0": "Incorrect: Discards the untouched starting term."
+      }
+    },
+    {
+      "id": "g9-int-l02-p03",
+      "prompt": "Evaluate ((-9) + 6) + (-3) by regrouping.",
+      "options": [
+        "0",
+        "-18",
+        "-6",
+        "3"
+      ],
+      "answer_index": 2,
+      "memo": "-6. Keep every signed term: -9, 6, -3. Regroup as -9 + (6 + (-3)) without changing term signs. 6 + (-3) = 3; then -9 + 3 = -6. Check: Substituting the original signed values also gives -6.",
+      "misconception": "regroup-sign",
+      "option_rationales": {
+        "0": "Incorrect: Changes the sign of the last term while regrouping.",
+        "-18": "Incorrect: Changes the sign of the middle term.",
+        "-6": "Correct: Check: Substituting the original signed values also gives -6.",
+        "3": "Incorrect: Omits the first term from the sum."
+      }
+    },
+    {
+      "id": "g9-int-l02-p04",
+      "prompt": "Use a property to calculate (-4)×8 + (-4)×(-5).",
+      "options": [
+        "-52",
+        "-37",
+        "-1",
+        "-12"
+      ],
+      "answer_index": 3,
+      "memo": "-12. Both terms contain a factor of -4. Factor the shared integer: -4×(8+(-5)). Add inside the bracket, then multiply: -4×3 = -12. Check: Substituting the original signed values also gives -12.",
+      "misconception": "common-factor",
+      "option_rationales": {
+        "-52": "Incorrect: Subtracts one bracket term instead of adding.",
+        "-37": "Incorrect: Leaves the second term outside the common factor.",
+        "-1": "Incorrect: Adds the terms without the common multiplication.",
+        "-12": "Correct: Check: Substituting the original signed values also gives -12."
+      }
+    },
+    {
+      "id": "g9-int-l02-p05",
+      "prompt": "Expand and evaluate (-6) × (9 + (-3)).",
+      "options": [
+        "-36",
+        "-57",
+        "-72",
+        "0"
+      ],
+      "answer_index": 0,
+      "memo": "-36. The bracket contains two terms: 9 and -3. Distribute -6 to both: -6×9 + -6×(-3) = -54 + 18. Add the signed products: -36. Check: Substituting the original signed values also gives -36.",
+      "misconception": "distributive-term",
+      "option_rationales": {
+        "-36": "Correct: Check: Substituting the original signed values also gives -36.",
+        "-57": "Incorrect: Multiplies only the first bracket term.",
+        "-72": "Incorrect: Subtracts the second term after distribution.",
+        "0": "Incorrect: Adds the three original values without multiplying."
+      }
+    },
+    {
+      "id": "g9-int-l02-p06",
+      "prompt": "Evaluate (-11) + 6 + (-6).",
+      "options": [
+        "-5",
+        "-11",
+        "-17",
+        "0"
+      ],
+      "answer_index": 1,
+      "memo": "-11. Find the opposite pair 6 and -6. Add the inverses: 6 + (-6) = 0. Adding zero leaves -11. Check: Substituting the original signed values also gives -11.",
+      "misconception": "additive-inverse",
+      "option_rationales": {
+        "-5": "Incorrect: Stops before adding the inverse.",
+        "-11": "Correct: Check: Substituting the original signed values also gives -11.",
+        "-17": "Incorrect: Subtracts the inverse instead of adding it.",
+        "0": "Incorrect: Discards the untouched starting term."
+      }
+    },
+    {
+      "id": "g9-int-l02-p07",
+      "prompt": "Evaluate ((-10) + 6) + (-3) by regrouping.",
+      "options": [
+        "-1",
+        "-19",
+        "-7",
+        "3"
+      ],
+      "answer_index": 2,
+      "memo": "-7. Keep every signed term: -10, 6, -3. Regroup as -10 + (6 + (-3)) without changing term signs. 6 + (-3) = 3; then -10 + 3 = -7. Check: Substituting the original signed values also gives -7.",
+      "misconception": "regroup-sign",
+      "option_rationales": {
+        "-1": "Incorrect: Changes the sign of the last term while regrouping.",
+        "-19": "Incorrect: Changes the sign of the middle term.",
+        "-7": "Correct: Check: Substituting the original signed values also gives -7.",
+        "3": "Incorrect: Omits the first term from the sum."
+      }
+    },
+    {
+      "id": "g9-int-l02-p08",
+      "prompt": "Use a property to calculate (-5)×8 + (-5)×(-5).",
+      "options": [
+        "-65",
+        "-45",
+        "-2",
+        "-15"
+      ],
+      "answer_index": 3,
+      "memo": "-15. Both terms contain a factor of -5. Factor the shared integer: -5×(8+(-5)). Add inside the bracket, then multiply: -5×3 = -15. Check: Substituting the original signed values also gives -15.",
+      "misconception": "common-factor",
+      "option_rationales": {
+        "-65": "Incorrect: Subtracts one bracket term instead of adding.",
+        "-45": "Incorrect: Leaves the second term outside the common factor.",
+        "-2": "Incorrect: Adds the terms without the common multiplication.",
+        "-15": "Correct: Check: Substituting the original signed values also gives -15."
+      }
+    },
+    {
+      "id": "g9-int-l02-p09",
+      "prompt": "Expand and evaluate (-7) × (10 + (-3)).",
+      "options": [
+        "-49",
+        "-73",
+        "-91",
+        "0"
+      ],
+      "answer_index": 0,
+      "memo": "-49. The bracket contains two terms: 10 and -3. Distribute -7 to both: -7×10 + -7×(-3) = -70 + 21. Add the signed products: -49. Check: Substituting the original signed values also gives -49.",
+      "misconception": "distributive-term",
+      "option_rationales": {
+        "-49": "Correct: Check: Substituting the original signed values also gives -49.",
+        "-73": "Incorrect: Multiplies only the first bracket term.",
+        "-91": "Incorrect: Subtracts the second term after distribution.",
+        "0": "Incorrect: Adds the three original values without multiplying."
+      }
+    },
+    {
+      "id": "g9-int-l02-p10",
+      "prompt": "Evaluate (-12) + 7 + (-7).",
+      "options": [
+        "-5",
+        "-12",
+        "-19",
+        "0"
+      ],
+      "answer_index": 1,
+      "memo": "-12. Find the opposite pair 7 and -7. Add the inverses: 7 + (-7) = 0. Adding zero leaves -12. Check: Substituting the original signed values also gives -12.",
+      "misconception": "additive-inverse",
+      "option_rationales": {
+        "-5": "Incorrect: Stops before adding the inverse.",
+        "-12": "Correct: Check: Substituting the original signed values also gives -12.",
+        "-19": "Incorrect: Subtracts the inverse instead of adding it.",
+        "0": "Incorrect: Discards the untouched starting term."
+      }
+    },
+    {
+      "id": "g9-int-l02-p11",
+      "prompt": "Evaluate ((-11) + 6) + (-3) by regrouping.",
+      "options": [
+        "-2",
+        "-20",
+        "-8",
+        "3"
+      ],
+      "answer_index": 2,
+      "memo": "-8. Keep every signed term: -11, 6, -3. Regroup as -11 + (6 + (-3)) without changing term signs. 6 + (-3) = 3; then -11 + 3 = -8. Check: Substituting the original signed values also gives -8.",
+      "misconception": "regroup-sign",
+      "option_rationales": {
+        "-2": "Incorrect: Changes the sign of the last term while regrouping.",
+        "-20": "Incorrect: Changes the sign of the middle term.",
+        "-8": "Correct: Check: Substituting the original signed values also gives -8.",
+        "3": "Incorrect: Omits the first term from the sum."
+      }
+    },
+    {
+      "id": "g9-int-l02-p12",
+      "prompt": "Use a property to calculate (-6)×8 + (-6)×(-5).",
+      "options": [
+        "-78",
+        "-53",
+        "-3",
+        "-18"
+      ],
+      "answer_index": 3,
+      "memo": "-18. Both terms contain a factor of -6. Factor the shared integer: -6×(8+(-5)). Add inside the bracket, then multiply: -6×3 = -18. Check: Substituting the original signed values also gives -18.",
+      "misconception": "common-factor",
+      "option_rationales": {
+        "-78": "Incorrect: Subtracts one bracket term instead of adding.",
+        "-53": "Incorrect: Leaves the second term outside the common factor.",
+        "-3": "Incorrect: Adds the terms without the common multiplication.",
+        "-18": "Correct: Check: Substituting the original signed values also gives -18."
+      }
+    },
+    {
+      "id": "g9-int-l02-p13",
+      "prompt": "Expand and evaluate (-8) × (11 + (-3)).",
+      "options": [
+        "-64",
+        "-91",
+        "-112",
+        "0"
+      ],
+      "answer_index": 0,
+      "memo": "-64. The bracket contains two terms: 11 and -3. Distribute -8 to both: -8×11 + -8×(-3) = -88 + 24. Add the signed products: -64. Check: Substituting the original signed values also gives -64.",
+      "misconception": "distributive-term",
+      "option_rationales": {
+        "-64": "Correct: Check: Substituting the original signed values also gives -64.",
+        "-91": "Incorrect: Multiplies only the first bracket term.",
+        "-112": "Incorrect: Subtracts the second term after distribution.",
+        "0": "Incorrect: Adds the three original values without multiplying."
+      }
+    },
+    {
+      "id": "g9-int-l02-p14",
+      "prompt": "Evaluate (-13) + 8 + (-8).",
+      "options": [
+        "-5",
+        "-13",
+        "-21",
+        "0"
+      ],
+      "answer_index": 1,
+      "memo": "-13. Find the opposite pair 8 and -8. Add the inverses: 8 + (-8) = 0. Adding zero leaves -13. Check: Substituting the original signed values also gives -13.",
+      "misconception": "additive-inverse",
+      "option_rationales": {
+        "-5": "Incorrect: Stops before adding the inverse.",
+        "-13": "Correct: Check: Substituting the original signed values also gives -13.",
+        "-21": "Incorrect: Subtracts the inverse instead of adding it.",
+        "0": "Incorrect: Discards the untouched starting term."
+      }
+    },
+    {
+      "id": "g9-int-l02-p15",
+      "prompt": "Evaluate ((-12) + 6) + (-3) by regrouping.",
+      "options": [
+        "-3",
+        "-21",
+        "-9",
+        "3"
+      ],
+      "answer_index": 2,
+      "memo": "-9. Keep every signed term: -12, 6, -3. Regroup as -12 + (6 + (-3)) without changing term signs. 6 + (-3) = 3; then -12 + 3 = -9. Check: Substituting the original signed values also gives -9.",
+      "misconception": "regroup-sign",
+      "option_rationales": {
+        "-3": "Incorrect: Changes the sign of the last term while regrouping.",
+        "-21": "Incorrect: Changes the sign of the middle term.",
+        "-9": "Correct: Check: Substituting the original signed values also gives -9.",
+        "3": "Incorrect: Omits the first term from the sum."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-int-l02-m01",
+      "prompt": "Use a property to calculate (-7)×8 + (-7)×(-5).",
+      "options": [
+        "-21",
+        "-91",
+        "-61",
+        "-4"
+      ],
+      "answer_index": 0,
+      "memo": "-21. Both terms contain a factor of -7. Factor the shared integer: -7×(8+(-5)). Add inside the bracket, then multiply: -7×3 = -21. Check: Substituting the original signed values also gives -21.",
+      "misconception": "common-factor",
+      "option_rationales": {
+        "-21": "Correct: Check: Substituting the original signed values also gives -21.",
+        "-91": "Incorrect: Subtracts one bracket term instead of adding.",
+        "-61": "Incorrect: Leaves the second term outside the common factor.",
+        "-4": "Incorrect: Adds the terms without the common multiplication."
+      }
+    },
+    {
+      "id": "g9-int-l02-m02",
+      "prompt": "Expand and evaluate (-9) × (12 + (-3)).",
+      "options": [
+        "-111",
+        "-81",
+        "-135",
+        "0"
+      ],
+      "answer_index": 1,
+      "memo": "-81. The bracket contains two terms: 12 and -3. Distribute -9 to both: -9×12 + -9×(-3) = -108 + 27. Add the signed products: -81. Check: Substituting the original signed values also gives -81.",
+      "misconception": "distributive-term",
+      "option_rationales": {
+        "-111": "Incorrect: Multiplies only the first bracket term.",
+        "-81": "Correct: Check: Substituting the original signed values also gives -81.",
+        "-135": "Incorrect: Subtracts the second term after distribution.",
+        "0": "Incorrect: Adds the three original values without multiplying."
+      }
+    },
+    {
+      "id": "g9-int-l02-m03",
+      "prompt": "Evaluate (-14) + 9 + (-9).",
+      "options": [
+        "-5",
+        "-23",
+        "-14",
+        "0"
+      ],
+      "answer_index": 2,
+      "memo": "-14. Find the opposite pair 9 and -9. Add the inverses: 9 + (-9) = 0. Adding zero leaves -14. Check: Substituting the original signed values also gives -14.",
+      "misconception": "additive-inverse",
+      "option_rationales": {
+        "-5": "Incorrect: Stops before adding the inverse.",
+        "-23": "Incorrect: Subtracts the inverse instead of adding it.",
+        "-14": "Correct: Check: Substituting the original signed values also gives -14.",
+        "0": "Incorrect: Discards the untouched starting term."
+      }
+    },
+    {
+      "id": "g9-int-l02-m04",
+      "prompt": "Evaluate ((-13) + 6) + (-3) by regrouping.",
+      "options": [
+        "-4",
+        "-22",
+        "3",
+        "-10"
+      ],
+      "answer_index": 3,
+      "memo": "-10. Keep every signed term: -13, 6, -3. Regroup as -13 + (6 + (-3)) without changing term signs. 6 + (-3) = 3; then -13 + 3 = -10. Check: Substituting the original signed values also gives -10.",
+      "misconception": "regroup-sign",
+      "option_rationales": {
+        "-4": "Incorrect: Changes the sign of the last term while regrouping.",
+        "-22": "Incorrect: Changes the sign of the middle term.",
+        "3": "Incorrect: Omits the first term from the sum.",
+        "-10": "Correct: Check: Substituting the original signed values also gives -10."
+      }
+    },
+    {
+      "id": "g9-int-l02-m05",
+      "prompt": "Use a property to calculate (-8)×8 + (-8)×(-5).",
+      "options": [
+        "-24",
+        "-104",
+        "-69",
+        "-5"
+      ],
+      "answer_index": 0,
+      "memo": "-24. Both terms contain a factor of -8. Factor the shared integer: -8×(8+(-5)). Add inside the bracket, then multiply: -8×3 = -24. Check: Substituting the original signed values also gives -24.",
+      "misconception": "common-factor",
+      "option_rationales": {
+        "-24": "Correct: Check: Substituting the original signed values also gives -24.",
+        "-104": "Incorrect: Subtracts one bracket term instead of adding.",
+        "-69": "Incorrect: Leaves the second term outside the common factor.",
+        "-5": "Incorrect: Adds the terms without the common multiplication."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-int-l02-r01",
+      "prompt": "Expand and evaluate (-10) × (13 + (-3)).",
+      "options": [
+        "-100",
+        "-133",
+        "-160",
+        "0"
+      ],
+      "answer_index": 0,
+      "memo": "-100. The bracket contains two terms: 13 and -3. Distribute -10 to both: -10×13 + -10×(-3) = -130 + 30. Add the signed products: -100. Check: Substituting the original signed values also gives -100.",
+      "misconception": "distributive-term",
+      "option_rationales": {
+        "-100": "Correct: Check: Substituting the original signed values also gives -100.",
+        "-133": "Incorrect: Multiplies only the first bracket term.",
+        "-160": "Incorrect: Subtracts the second term after distribution.",
+        "0": "Incorrect: Adds the three original values without multiplying."
+      }
+    },
+    {
+      "id": "g9-int-l02-r02",
+      "prompt": "Evaluate (-15) + 10 + (-10).",
+      "options": [
+        "-5",
+        "-15",
+        "-25",
+        "0"
+      ],
+      "answer_index": 1,
+      "memo": "-15. Find the opposite pair 10 and -10. Add the inverses: 10 + (-10) = 0. Adding zero leaves -15. Check: Substituting the original signed values also gives -15.",
+      "misconception": "additive-inverse",
+      "option_rationales": {
+        "-5": "Incorrect: Stops before adding the inverse.",
+        "-15": "Correct: Check: Substituting the original signed values also gives -15.",
+        "-25": "Incorrect: Subtracts the inverse instead of adding it.",
+        "0": "Incorrect: Discards the untouched starting term."
+      }
+    },
+    {
+      "id": "g9-int-l02-r03",
+      "prompt": "Evaluate ((-14) + 6) + (-3) by regrouping.",
+      "options": [
+        "-5",
+        "-23",
+        "-11",
+        "3"
+      ],
+      "answer_index": 2,
+      "memo": "-11. Keep every signed term: -14, 6, -3. Regroup as -14 + (6 + (-3)) without changing term signs. 6 + (-3) = 3; then -14 + 3 = -11. Check: Substituting the original signed values also gives -11.",
+      "misconception": "regroup-sign",
+      "option_rationales": {
+        "-5": "Incorrect: Changes the sign of the last term while regrouping.",
+        "-23": "Incorrect: Changes the sign of the middle term.",
+        "-11": "Correct: Check: Substituting the original signed values also gives -11.",
+        "3": "Incorrect: Omits the first term from the sum."
+      }
+    }
+  ]
+}

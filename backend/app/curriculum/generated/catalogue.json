@@ -971,6 +971,56 @@
               "source_document": "lesson-08-exchange-commission-and-rentals.md"
             }
           ]
+        },
+        {
+          "topic_id": "integers",
+          "topic_number": 2,
+          "title": "Integers",
+          "paper": null,
+          "expected_lesson_count": 5,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-integers-01",
+              "position": 1,
+              "title": "Ordering and four operations",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01-ordering-and-four-operations.md"
+            },
+            {
+              "lesson_id": "g9-integers-02",
+              "position": 2,
+              "title": "Sign rules and integer properties",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02-sign-rules-and-integer-properties.md"
+            },
+            {
+              "lesson_id": "g9-integers-03",
+              "position": 3,
+              "title": "Squares, cubes and integer roots",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03-squares-cubes-and-integer-roots.md"
+            },
+            {
+              "lesson_id": "g9-integers-04",
+              "position": 4,
+              "title": "Multi-operation integer contexts",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04-multi-operation-integer-contexts.md"
+            },
+            {
+              "lesson_id": "g9-integers-05",
+              "position": 5,
+              "title": "First-error diagnosis and reassessment",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05-first-error-diagnosis-and-reassessment.md"
+            }
+          ]
         }
       ]
     },

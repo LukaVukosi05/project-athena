@@ -1,0 +1,1093 @@
+{
+  "source": "lesson-01-ordering-and-four-operations.md",
+  "worked": [
+    {
+      "problem": "Arrange -8, 3 and -2 in ascending order.",
+      "givens": [
+        "-8",
+        "3",
+        "-2"
+      ],
+      "actions": [
+        "Mark zero as the reference on the signed number line.",
+        "Place each value at its exact tick: -8, 3, -2.",
+        "Read the ticks from left to right: -8, -2, 3.",
+        "Check: -8 < -2 < 3."
+      ],
+      "answer": "-8, -2, 3",
+      "wrongs": [
+        "3, -2, -8",
+        "-2, -8, 3",
+        "-8, 3, -2"
+      ],
+      "wrong_methods": [
+        "Reads the number line right to left.",
+        "Swaps the two smallest signed values.",
+        "Swaps the two greatest signed values."
+      ],
+      "visual": {
+        "family": "line",
+        "values": [
+          -8,
+          3,
+          -2
+        ],
+        "path": [
+          -8,
+          -2,
+          3
+        ],
+        "labels": [
+          "first",
+          "second",
+          "third"
+        ]
+      },
+      "misconception": "negative-order",
+      "check": "Check: -8 < -2 < 3.",
+      "id": "g9-int-l01-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Arrange -12, -5 and 0 in ascending order.",
+      "givens": [
+        "-12",
+        "-5",
+        "0"
+      ],
+      "actions": [
+        "Mark zero as the reference on the signed number line.",
+        "Place each value at its exact tick: -12, -5, 0.",
+        "Read the ticks from left to right: -12, -5, 0.",
+        "Check: -12 < -5 < 0."
+      ],
+      "answer": "-12, -5, 0",
+      "wrongs": [
+        "0, -5, -12",
+        "-5, -12, 0",
+        "-12, 0, -5"
+      ],
+      "wrong_methods": [
+        "Reads the number line right to left.",
+        "Swaps the two smallest signed values.",
+        "Swaps the two greatest signed values."
+      ],
+      "visual": {
+        "family": "line",
+        "values": [
+          -12,
+          -5,
+          0
+        ],
+        "path": [
+          -12,
+          -5,
+          0
+        ],
+        "labels": [
+          "first",
+          "second",
+          "third"
+        ]
+      },
+      "misconception": "negative-order",
+      "check": "Check: -12 < -5 < 0.",
+      "id": "g9-int-l01-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Arrange -17, 7 and -9 in ascending order.",
+      "givens": [
+        "-17",
+        "7",
+        "-9"
+      ],
+      "actions": [
+        "Mark zero as the reference on the signed number line.",
+        "Place each value at its exact tick: -17, 7, -9.",
+        "Read the ticks from left to right: -17, -9, 7.",
+        "Check: -17 < -9 < 7."
+      ],
+      "answer": "-17, -9, 7",
+      "wrongs": [
+        "7, -9, -17",
+        "-9, -17, 7",
+        "-17, 7, -9"
+      ],
+      "wrong_methods": [
+        "Reads the number line right to left.",
+        "Swaps the two smallest signed values.",
+        "Swaps the two greatest signed values."
+      ],
+      "visual": {
+        "family": "line",
+        "values": [
+          -17,
+          7,
+          -9
+        ],
+        "path": [
+          -17,
+          -9,
+          7
+        ],
+        "labels": [
+          "first",
+          "second",
+          "third"
+        ]
+      },
+      "misconception": "negative-order",
+      "check": "Check: -17 < -9 < 7.",
+      "id": "g9-int-l01-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate (-7) + 12.",
+      "givens": [
+        "-7",
+        "12",
+        "+"
+      ],
+      "actions": [
+        "Start at -7 on the number line.",
+        "Move right 12 units for adding 12.",
+        "Land on 5: (-7) + 12 = 5.",
+        "Check: (-7) + 12 = 5."
+      ],
+      "answer": "5",
+      "wrongs": [
+        "-5",
+        "4",
+        "-19"
+      ],
+      "wrong_methods": [
+        "Attaches the opposite sign to a correct magnitude.",
+        "Changes the magnitude by one.",
+        "Changes the magnitude by two."
+      ],
+      "visual": {
+        "family": "line",
+        "values": [
+          -7,
+          12
+        ],
+        "path": [
+          -7,
+          5
+        ],
+        "operator": "+",
+        "magnitude": 5
+      },
+      "misconception": "sign-rule",
+      "check": "Check: (-7) + 12 = 5.",
+      "id": "g9-int-l01-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate 6 + (-14).",
+      "givens": [
+        "6",
+        "-14",
+        "+"
+      ],
+      "actions": [
+        "Start at 6 on the number line.",
+        "Move left 14 units for adding -14.",
+        "Land on -8: 6 + (-14) = -8.",
+        "Check: 6 + (-14) = -8."
+      ],
+      "answer": "-8",
+      "wrongs": [
+        "8",
+        "-7",
+        "20"
+      ],
+      "wrong_methods": [
+        "Attaches the opposite sign to a correct magnitude.",
+        "Changes the magnitude by one.",
+        "Changes the magnitude by two."
+      ],
+      "visual": {
+        "family": "line",
+        "values": [
+          6,
+          -14
+        ],
+        "path": [
+          6,
+          -8
+        ],
+        "operator": "+",
+        "magnitude": 8
+      },
+      "misconception": "sign-rule",
+      "check": "Check: 6 + (-14) = -8.",
+      "id": "g9-int-l01-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate (-10) + (-9).",
+      "givens": [
+        "-10",
+        "-9",
+        "+"
+      ],
+      "actions": [
+        "Start at -10 on the number line.",
+        "Move left 9 units for adding -9.",
+        "Land on -19: (-10) + (-9) = -19.",
+        "Check: (-10) + (-9) = -19."
+      ],
+      "answer": "-19",
+      "wrongs": [
+        "19",
+        "-18",
+        "-1"
+      ],
+      "wrong_methods": [
+        "Attaches the opposite sign to a correct magnitude.",
+        "Changes the magnitude by one.",
+        "Changes the magnitude by two."
+      ],
+      "visual": {
+        "family": "line",
+        "values": [
+          -10,
+          -9
+        ],
+        "path": [
+          -10,
+          -19
+        ],
+        "operator": "+",
+        "magnitude": 19
+      },
+      "misconception": "sign-rule",
+      "check": "Check: (-10) + (-9) = -19.",
+      "id": "g9-int-l01-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate 4 − (-7).",
+      "givens": [
+        "4",
+        "-7",
+        "−"
+      ],
+      "actions": [
+        "Start with 4 and keep the subtraction sign.",
+        "Rewrite subtracting (-7) as adding its opposite, 7.",
+        "Calculate 4 + 7 = 11.",
+        "Check: 4 − (-7) = 11."
+      ],
+      "answer": "11",
+      "wrongs": [
+        "-11",
+        "-3",
+        "13"
+      ],
+      "wrong_methods": [
+        "Reverses the sign of the calculated difference.",
+        "Adds the subtrahend instead of its opposite.",
+        "Makes an extra step after reaching the correct value."
+      ],
+      "visual": {
+        "family": "line",
+        "values": [
+          4,
+          -7
+        ],
+        "path": [
+          4,
+          11
+        ],
+        "operator": "−",
+        "magnitude": 11
+      },
+      "misconception": "negative-subtraction",
+      "check": "Check: 4 − (-7) = 11.",
+      "id": "g9-int-l01-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate (-8) − (-3).",
+      "givens": [
+        "-8",
+        "-3",
+        "−"
+      ],
+      "actions": [
+        "Start with -8 and keep the subtraction sign.",
+        "Rewrite subtracting (-3) as adding its opposite, 3.",
+        "Calculate -8 + 3 = -5.",
+        "Check: (-8) − (-3) = -5."
+      ],
+      "answer": "-5",
+      "wrongs": [
+        "5",
+        "-11",
+        "-7"
+      ],
+      "wrong_methods": [
+        "Reverses the sign of the calculated difference.",
+        "Adds the subtrahend instead of its opposite.",
+        "Makes an extra step after reaching the correct value."
+      ],
+      "visual": {
+        "family": "line",
+        "values": [
+          -8,
+          -3
+        ],
+        "path": [
+          -8,
+          -5
+        ],
+        "operator": "−",
+        "magnitude": 5
+      },
+      "misconception": "negative-subtraction",
+      "check": "Check: (-8) − (-3) = -5.",
+      "id": "g9-int-l01-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate (-11) − 6.",
+      "givens": [
+        "-11",
+        "6",
+        "−"
+      ],
+      "actions": [
+        "Start with -11 and keep the subtraction sign.",
+        "Rewrite subtracting 6 as adding its opposite, (-6).",
+        "Calculate -11 + (-6) = -17.",
+        "Check: (-11) − 6 = -17."
+      ],
+      "answer": "-17",
+      "wrongs": [
+        "17",
+        "-5",
+        "-19"
+      ],
+      "wrong_methods": [
+        "Reverses the sign of the calculated difference.",
+        "Adds the subtrahend instead of its opposite.",
+        "Makes an extra step after reaching the correct value."
+      ],
+      "visual": {
+        "family": "line",
+        "values": [
+          -11,
+          6
+        ],
+        "path": [
+          -11,
+          -17
+        ],
+        "operator": "−",
+        "magnitude": 17
+      },
+      "misconception": "negative-subtraction",
+      "check": "Check: (-11) − 6 = -17.",
+      "id": "g9-int-l01-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate (-6) × 7.",
+      "givens": [
+        "-6",
+        "7",
+        "×"
+      ],
+      "actions": [
+        "Read the two signed factors in (-6) × 7.",
+        "Different signs give a negative answer.",
+        "Calculate magnitudes 6 × 7 = 42, then attach the sign: -42.",
+        "Check: (-6) × 7 = -42."
+      ],
+      "answer": "-42",
+      "wrongs": [
+        "42",
+        "-41",
+        "-44"
+      ],
+      "wrong_methods": [
+        "Attaches the opposite sign to a correct magnitude.",
+        "Changes the magnitude by one.",
+        "Changes the magnitude by two."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -6,
+          7
+        ],
+        "path": [
+          0,
+          -42
+        ],
+        "operator": "×",
+        "magnitude": 42
+      },
+      "misconception": "sign-rule",
+      "check": "Check: (-6) × 7 = -42.",
+      "id": "g9-int-l01-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate (-9) × (-4).",
+      "givens": [
+        "-9",
+        "-4",
+        "×"
+      ],
+      "actions": [
+        "Read the two signed factors in (-9) × (-4).",
+        "Equal signs give a positive answer.",
+        "Calculate magnitudes 9 × 4 = 36, then attach the sign: 36.",
+        "Check: (-9) × (-4) = 36."
+      ],
+      "answer": "36",
+      "wrongs": [
+        "-36",
+        "35",
+        "38"
+      ],
+      "wrong_methods": [
+        "Attaches the opposite sign to a correct magnitude.",
+        "Changes the magnitude by one.",
+        "Changes the magnitude by two."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -9,
+          -4
+        ],
+        "path": [
+          0,
+          36
+        ],
+        "operator": "×",
+        "magnitude": 36
+      },
+      "misconception": "sign-rule",
+      "check": "Check: (-9) × (-4) = 36.",
+      "id": "g9-int-l01-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate 12 × (-8).",
+      "givens": [
+        "12",
+        "-8",
+        "×"
+      ],
+      "actions": [
+        "Read the two signed factors in 12 × (-8).",
+        "Different signs give a negative answer.",
+        "Calculate magnitudes 12 × 8 = 96, then attach the sign: -96.",
+        "Check: 12 × (-8) = -96."
+      ],
+      "answer": "-96",
+      "wrongs": [
+        "96",
+        "-95",
+        "-98"
+      ],
+      "wrong_methods": [
+        "Attaches the opposite sign to a correct magnitude.",
+        "Changes the magnitude by one.",
+        "Changes the magnitude by two."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          12,
+          -8
+        ],
+        "path": [
+          0,
+          -96
+        ],
+        "operator": "×",
+        "magnitude": 96
+      },
+      "misconception": "sign-rule",
+      "check": "Check: 12 × (-8) = -96.",
+      "id": "g9-int-l01-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate (-42) ÷ 6.",
+      "givens": [
+        "-42",
+        "6",
+        "÷"
+      ],
+      "actions": [
+        "Read the two signed factors in (-42) ÷ 6.",
+        "Different signs give a negative answer.",
+        "Calculate magnitudes 42 ÷ 6 = 7, then attach the sign: -7.",
+        "Check: (-42) ÷ 6 = -7."
+      ],
+      "answer": "-7",
+      "wrongs": [
+        "7",
+        "-6",
+        "-9"
+      ],
+      "wrong_methods": [
+        "Attaches the opposite sign to a correct magnitude.",
+        "Changes the magnitude by one.",
+        "Changes the magnitude by two."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -42,
+          6
+        ],
+        "path": [
+          0,
+          -7
+        ],
+        "operator": "÷",
+        "magnitude": 7
+      },
+      "misconception": "sign-rule",
+      "check": "Check: (-42) ÷ 6 = -7.",
+      "id": "g9-int-l01-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Calculate 72 ÷ (-9).",
+      "givens": [
+        "72",
+        "-9",
+        "÷"
+      ],
+      "actions": [
+        "Read the two signed factors in 72 ÷ (-9).",
+        "Different signs give a negative answer.",
+        "Calculate magnitudes 72 ÷ 9 = 8, then attach the sign: -8.",
+        "Check: 72 ÷ (-9) = -8."
+      ],
+      "answer": "-8",
+      "wrongs": [
+        "8",
+        "-7",
+        "-10"
+      ],
+      "wrong_methods": [
+        "Attaches the opposite sign to a correct magnitude.",
+        "Changes the magnitude by one.",
+        "Changes the magnitude by two."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          72,
+          -9
+        ],
+        "path": [
+          0,
+          -8
+        ],
+        "operator": "÷",
+        "magnitude": 8
+      },
+      "misconception": "sign-rule",
+      "check": "Check: 72 ÷ (-9) = -8.",
+      "id": "g9-int-l01-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Calculate (-96) ÷ (-12).",
+      "givens": [
+        "-96",
+        "-12",
+        "÷"
+      ],
+      "actions": [
+        "Read the two signed factors in (-96) ÷ (-12).",
+        "Equal signs give a positive answer.",
+        "Calculate magnitudes 96 ÷ 12 = 8, then attach the sign: 8.",
+        "Check: (-96) ÷ (-12) = 8."
+      ],
+      "answer": "8",
+      "wrongs": [
+        "-8",
+        "7",
+        "10"
+      ],
+      "wrong_methods": [
+        "Attaches the opposite sign to a correct magnitude.",
+        "Changes the magnitude by one.",
+        "Changes the magnitude by two."
+      ],
+      "visual": {
+        "family": "tiles",
+        "values": [
+          -96,
+          -12
+        ],
+        "path": [
+          0,
+          8
+        ],
+        "operator": "÷",
+        "magnitude": 8
+      },
+      "misconception": "sign-rule",
+      "check": "Check: (-96) ÷ (-12) = 8.",
+      "id": "g9-int-l01-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-int-l01-p01",
+      "prompt": "Calculate (-6) + 10.",
+      "options": [
+        "4",
+        "-4",
+        "3",
+        "-16"
+      ],
+      "answer_index": 0,
+      "memo": "4. Start at -6 on the number line. Move right 10 units for adding 10. Land on 4: (-6) + 10 = 4. Check: (-6) + 10 = 4.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "4": "Correct: Check: (-6) + 10 = 4.",
+        "-4": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "3": "Incorrect: Changes the magnitude by one.",
+        "-16": "Incorrect: Changes the magnitude by two."
+      }
+    },
+    {
+      "id": "g9-int-l01-p02",
+      "prompt": "Calculate 6 − (-12).",
+      "options": [
+        "-18",
+        "18",
+        "-6",
+        "20"
+      ],
+      "answer_index": 1,
+      "memo": "18. Start with 6 and keep the subtraction sign. Rewrite subtracting (-12) as adding its opposite, 12. Calculate 6 + 12 = 18. Check: 6 − (-12) = 18.",
+      "misconception": "negative-subtraction",
+      "option_rationales": {
+        "-18": "Incorrect: Reverses the sign of the calculated difference.",
+        "18": "Correct: Check: 6 − (-12) = 18.",
+        "-6": "Incorrect: Adds the subtrahend instead of its opposite.",
+        "20": "Incorrect: Makes an extra step after reaching the correct value."
+      }
+    },
+    {
+      "id": "g9-int-l01-p03",
+      "prompt": "Calculate (-7) × 5.",
+      "options": [
+        "35",
+        "-34",
+        "-35",
+        "-37"
+      ],
+      "answer_index": 2,
+      "memo": "-35. Read the two signed factors in (-7) × 5. Different signs give a negative answer. Calculate magnitudes 7 × 5 = 35, then attach the sign: -35. Check: (-7) × 5 = -35.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "35": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "-34": "Incorrect: Changes the magnitude by one.",
+        "-35": "Correct: Check: (-7) × 5 = -35.",
+        "-37": "Incorrect: Changes the magnitude by two."
+      }
+    },
+    {
+      "id": "g9-int-l01-p04",
+      "prompt": "Calculate (-49) ÷ 7.",
+      "options": [
+        "7",
+        "-6",
+        "-9",
+        "-7"
+      ],
+      "answer_index": 3,
+      "memo": "-7. Read the two signed factors in (-49) ÷ 7. Different signs give a negative answer. Calculate magnitudes 49 ÷ 7 = 7, then attach the sign: -7. Check: (-49) ÷ 7 = -7.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "7": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "-6": "Incorrect: Changes the magnitude by one.",
+        "-9": "Incorrect: Changes the magnitude by two.",
+        "-7": "Correct: Check: (-49) ÷ 7 = -7."
+      }
+    },
+    {
+      "id": "g9-int-l01-p05",
+      "prompt": "Calculate (-7) + 11.",
+      "options": [
+        "4",
+        "-4",
+        "3",
+        "-18"
+      ],
+      "answer_index": 0,
+      "memo": "4. Start at -7 on the number line. Move right 11 units for adding 11. Land on 4: (-7) + 11 = 4. Check: (-7) + 11 = 4.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "4": "Correct: Check: (-7) + 11 = 4.",
+        "-4": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "3": "Incorrect: Changes the magnitude by one.",
+        "-18": "Incorrect: Changes the magnitude by two."
+      }
+    },
+    {
+      "id": "g9-int-l01-p06",
+      "prompt": "Calculate 7 − (-13).",
+      "options": [
+        "-20",
+        "20",
+        "-6",
+        "22"
+      ],
+      "answer_index": 1,
+      "memo": "20. Start with 7 and keep the subtraction sign. Rewrite subtracting (-13) as adding its opposite, 13. Calculate 7 + 13 = 20. Check: 7 − (-13) = 20.",
+      "misconception": "negative-subtraction",
+      "option_rationales": {
+        "-20": "Incorrect: Reverses the sign of the calculated difference.",
+        "20": "Correct: Check: 7 − (-13) = 20.",
+        "-6": "Incorrect: Adds the subtrahend instead of its opposite.",
+        "22": "Incorrect: Makes an extra step after reaching the correct value."
+      }
+    },
+    {
+      "id": "g9-int-l01-p07",
+      "prompt": "Calculate (-8) × 6.",
+      "options": [
+        "48",
+        "-47",
+        "-48",
+        "-50"
+      ],
+      "answer_index": 2,
+      "memo": "-48. Read the two signed factors in (-8) × 6. Different signs give a negative answer. Calculate magnitudes 8 × 6 = 48, then attach the sign: -48. Check: (-8) × 6 = -48.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "48": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "-47": "Incorrect: Changes the magnitude by one.",
+        "-48": "Correct: Check: (-8) × 6 = -48.",
+        "-50": "Incorrect: Changes the magnitude by two."
+      }
+    },
+    {
+      "id": "g9-int-l01-p08",
+      "prompt": "Calculate (-56) ÷ 7.",
+      "options": [
+        "8",
+        "-7",
+        "-10",
+        "-8"
+      ],
+      "answer_index": 3,
+      "memo": "-8. Read the two signed factors in (-56) ÷ 7. Different signs give a negative answer. Calculate magnitudes 56 ÷ 7 = 8, then attach the sign: -8. Check: (-56) ÷ 7 = -8.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "8": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "-7": "Incorrect: Changes the magnitude by one.",
+        "-10": "Incorrect: Changes the magnitude by two.",
+        "-8": "Correct: Check: (-56) ÷ 7 = -8."
+      }
+    },
+    {
+      "id": "g9-int-l01-p09",
+      "prompt": "Calculate (-8) + 12.",
+      "options": [
+        "4",
+        "-4",
+        "3",
+        "-20"
+      ],
+      "answer_index": 0,
+      "memo": "4. Start at -8 on the number line. Move right 12 units for adding 12. Land on 4: (-8) + 12 = 4. Check: (-8) + 12 = 4.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "4": "Correct: Check: (-8) + 12 = 4.",
+        "-4": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "3": "Incorrect: Changes the magnitude by one.",
+        "-20": "Incorrect: Changes the magnitude by two."
+      }
+    },
+    {
+      "id": "g9-int-l01-p10",
+      "prompt": "Calculate 8 − (-14).",
+      "options": [
+        "-22",
+        "22",
+        "-6",
+        "24"
+      ],
+      "answer_index": 1,
+      "memo": "22. Start with 8 and keep the subtraction sign. Rewrite subtracting (-14) as adding its opposite, 14. Calculate 8 + 14 = 22. Check: 8 − (-14) = 22.",
+      "misconception": "negative-subtraction",
+      "option_rationales": {
+        "-22": "Incorrect: Reverses the sign of the calculated difference.",
+        "22": "Correct: Check: 8 − (-14) = 22.",
+        "-6": "Incorrect: Adds the subtrahend instead of its opposite.",
+        "24": "Incorrect: Makes an extra step after reaching the correct value."
+      }
+    },
+    {
+      "id": "g9-int-l01-p11",
+      "prompt": "Calculate (-9) × 7.",
+      "options": [
+        "63",
+        "-62",
+        "-63",
+        "-65"
+      ],
+      "answer_index": 2,
+      "memo": "-63. Read the two signed factors in (-9) × 7. Different signs give a negative answer. Calculate magnitudes 9 × 7 = 63, then attach the sign: -63. Check: (-9) × 7 = -63.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "63": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "-62": "Incorrect: Changes the magnitude by one.",
+        "-63": "Correct: Check: (-9) × 7 = -63.",
+        "-65": "Incorrect: Changes the magnitude by two."
+      }
+    },
+    {
+      "id": "g9-int-l01-p12",
+      "prompt": "Calculate (-63) ÷ 7.",
+      "options": [
+        "9",
+        "-8",
+        "-11",
+        "-9"
+      ],
+      "answer_index": 3,
+      "memo": "-9. Read the two signed factors in (-63) ÷ 7. Different signs give a negative answer. Calculate magnitudes 63 ÷ 7 = 9, then attach the sign: -9. Check: (-63) ÷ 7 = -9.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "9": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "-8": "Incorrect: Changes the magnitude by one.",
+        "-11": "Incorrect: Changes the magnitude by two.",
+        "-9": "Correct: Check: (-63) ÷ 7 = -9."
+      }
+    },
+    {
+      "id": "g9-int-l01-p13",
+      "prompt": "Calculate (-9) + 13.",
+      "options": [
+        "4",
+        "-4",
+        "3",
+        "-22"
+      ],
+      "answer_index": 0,
+      "memo": "4. Start at -9 on the number line. Move right 13 units for adding 13. Land on 4: (-9) + 13 = 4. Check: (-9) + 13 = 4.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "4": "Correct: Check: (-9) + 13 = 4.",
+        "-4": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "3": "Incorrect: Changes the magnitude by one.",
+        "-22": "Incorrect: Changes the magnitude by two."
+      }
+    },
+    {
+      "id": "g9-int-l01-p14",
+      "prompt": "Calculate 9 − (-15).",
+      "options": [
+        "-24",
+        "24",
+        "-6",
+        "26"
+      ],
+      "answer_index": 1,
+      "memo": "24. Start with 9 and keep the subtraction sign. Rewrite subtracting (-15) as adding its opposite, 15. Calculate 9 + 15 = 24. Check: 9 − (-15) = 24.",
+      "misconception": "negative-subtraction",
+      "option_rationales": {
+        "-24": "Incorrect: Reverses the sign of the calculated difference.",
+        "24": "Correct: Check: 9 − (-15) = 24.",
+        "-6": "Incorrect: Adds the subtrahend instead of its opposite.",
+        "26": "Incorrect: Makes an extra step after reaching the correct value."
+      }
+    },
+    {
+      "id": "g9-int-l01-p15",
+      "prompt": "Calculate (-10) × 8.",
+      "options": [
+        "80",
+        "-79",
+        "-80",
+        "-82"
+      ],
+      "answer_index": 2,
+      "memo": "-80. Read the two signed factors in (-10) × 8. Different signs give a negative answer. Calculate magnitudes 10 × 8 = 80, then attach the sign: -80. Check: (-10) × 8 = -80.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "80": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "-79": "Incorrect: Changes the magnitude by one.",
+        "-80": "Correct: Check: (-10) × 8 = -80.",
+        "-82": "Incorrect: Changes the magnitude by two."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-int-l01-m01",
+      "prompt": "Calculate (-70) ÷ 7.",
+      "options": [
+        "-10",
+        "10",
+        "-9",
+        "-12"
+      ],
+      "answer_index": 0,
+      "memo": "-10. Read the two signed factors in (-70) ÷ 7. Different signs give a negative answer. Calculate magnitudes 70 ÷ 7 = 10, then attach the sign: -10. Check: (-70) ÷ 7 = -10.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "-10": "Correct: Check: (-70) ÷ 7 = -10.",
+        "10": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "-9": "Incorrect: Changes the magnitude by one.",
+        "-12": "Incorrect: Changes the magnitude by two."
+      }
+    },
+    {
+      "id": "g9-int-l01-m02",
+      "prompt": "Calculate (-10) + 14.",
+      "options": [
+        "-4",
+        "4",
+        "3",
+        "-24"
+      ],
+      "answer_index": 1,
+      "memo": "4. Start at -10 on the number line. Move right 14 units for adding 14. Land on 4: (-10) + 14 = 4. Check: (-10) + 14 = 4.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "-4": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "4": "Correct: Check: (-10) + 14 = 4.",
+        "3": "Incorrect: Changes the magnitude by one.",
+        "-24": "Incorrect: Changes the magnitude by two."
+      }
+    },
+    {
+      "id": "g9-int-l01-m03",
+      "prompt": "Calculate 10 − (-16).",
+      "options": [
+        "-26",
+        "-6",
+        "26",
+        "28"
+      ],
+      "answer_index": 2,
+      "memo": "26. Start with 10 and keep the subtraction sign. Rewrite subtracting (-16) as adding its opposite, 16. Calculate 10 + 16 = 26. Check: 10 − (-16) = 26.",
+      "misconception": "negative-subtraction",
+      "option_rationales": {
+        "-26": "Incorrect: Reverses the sign of the calculated difference.",
+        "-6": "Incorrect: Adds the subtrahend instead of its opposite.",
+        "26": "Correct: Check: 10 − (-16) = 26.",
+        "28": "Incorrect: Makes an extra step after reaching the correct value."
+      }
+    },
+    {
+      "id": "g9-int-l01-m04",
+      "prompt": "Calculate (-11) × 9.",
+      "options": [
+        "99",
+        "-98",
+        "-101",
+        "-99"
+      ],
+      "answer_index": 3,
+      "memo": "-99. Read the two signed factors in (-11) × 9. Different signs give a negative answer. Calculate magnitudes 11 × 9 = 99, then attach the sign: -99. Check: (-11) × 9 = -99.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "99": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "-98": "Incorrect: Changes the magnitude by one.",
+        "-101": "Incorrect: Changes the magnitude by two.",
+        "-99": "Correct: Check: (-11) × 9 = -99."
+      }
+    },
+    {
+      "id": "g9-int-l01-m05",
+      "prompt": "Calculate (-77) ÷ 7.",
+      "options": [
+        "-11",
+        "11",
+        "-10",
+        "-13"
+      ],
+      "answer_index": 0,
+      "memo": "-11. Read the two signed factors in (-77) ÷ 7. Different signs give a negative answer. Calculate magnitudes 77 ÷ 7 = 11, then attach the sign: -11. Check: (-77) ÷ 7 = -11.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "-11": "Correct: Check: (-77) ÷ 7 = -11.",
+        "11": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "-10": "Incorrect: Changes the magnitude by one.",
+        "-13": "Incorrect: Changes the magnitude by two."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-int-l01-r01",
+      "prompt": "Calculate (-11) + 15.",
+      "options": [
+        "4",
+        "-4",
+        "3",
+        "-26"
+      ],
+      "answer_index": 0,
+      "memo": "4. Start at -11 on the number line. Move right 15 units for adding 15. Land on 4: (-11) + 15 = 4. Check: (-11) + 15 = 4.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "4": "Correct: Check: (-11) + 15 = 4.",
+        "-4": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "3": "Incorrect: Changes the magnitude by one.",
+        "-26": "Incorrect: Changes the magnitude by two."
+      }
+    },
+    {
+      "id": "g9-int-l01-r02",
+      "prompt": "Calculate 11 − (-17).",
+      "options": [
+        "-28",
+        "28",
+        "-6",
+        "30"
+      ],
+      "answer_index": 1,
+      "memo": "28. Start with 11 and keep the subtraction sign. Rewrite subtracting (-17) as adding its opposite, 17. Calculate 11 + 17 = 28. Check: 11 − (-17) = 28.",
+      "misconception": "negative-subtraction",
+      "option_rationales": {
+        "-28": "Incorrect: Reverses the sign of the calculated difference.",
+        "28": "Correct: Check: 11 − (-17) = 28.",
+        "-6": "Incorrect: Adds the subtrahend instead of its opposite.",
+        "30": "Incorrect: Makes an extra step after reaching the correct value."
+      }
+    },
+    {
+      "id": "g9-int-l01-r03",
+      "prompt": "Calculate (-12) × 10.",
+      "options": [
+        "120",
+        "-119",
+        "-120",
+        "-122"
+      ],
+      "answer_index": 2,
+      "memo": "-120. Read the two signed factors in (-12) × 10. Different signs give a negative answer. Calculate magnitudes 12 × 10 = 120, then attach the sign: -120. Check: (-12) × 10 = -120.",
+      "misconception": "sign-rule",
+      "option_rationales": {
+        "120": "Incorrect: Attaches the opposite sign to a correct magnitude.",
+        "-119": "Incorrect: Changes the magnitude by one.",
+        "-120": "Correct: Check: (-12) × 10 = -120.",
+        "-122": "Incorrect: Changes the magnitude by two."
+      }
+    }
+  ]
+}

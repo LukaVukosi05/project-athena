@@ -23,7 +23,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -636,7 +636,18 @@ def _grade9_whole_board(parameters: dict, family: str) -> None:
         or scene.get('actions') is None or len(scene['actions'])!=parameters['total_steps']
         or not 3<=parameters['total_steps']<=18):
         raise ValueError('Grade 9 source scene, question and step count disagree')
-    if family=='sets':
+    if family.startswith('integer_'):
+        visual=scene.get('visual')
+        if (not isinstance(visual,dict) or visual.get('family') not in {'line','tiles','root','context','diagnosis'}
+            or not isinstance(visual.get('values'),list) or not 1<=len(visual['values'])<=3
+            or any(type(x) is not int or abs(x)>1000 for x in visual['values'])
+            or not isinstance(visual.get('path'),list) or not 1<=len(visual['path'])<=3
+            or any(type(x) is not int or abs(x)>100000 for x in visual['path'])
+            or len(scene.get('givens',[]))<1 or not scene.get('answer')
+            or not scene['actions'][-1].startswith('Check: ')
+            or str(visual['path'][-1]) not in scene['actions'][-2]):
+            raise ValueError('Integer scene must retain exact signed givens, staged path, answer and check')
+    elif family=='sets':
         expected={'N','W','Z','Q','I','outside'}
         if scene.get('category') not in expected or not scene.get('token'):
             raise ValueError('Number-set scene requires an exact token and valid smallest set')
@@ -998,6 +1009,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,f=template:_grade9_whole_board(p,f),True)
        for template in ('ratio_rate','proportion','transaction','ledger','interest','decision')},
+    **{("algebra",f"grade9_integer_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade9_whole_board(p,f'integer_{n}'),True)
+       for n in range(1,6)},
     ("algebra", "grade8_decimal_product"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),_grade8_decimal_product,True),
     ("algebra", "grade8_decimal_quotient"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),_grade8_decimal_quotient,True),
     ("algebra", "grade8_decimal_power"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_decimal_power_root(parameters,"power"),True),

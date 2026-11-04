@@ -1,0 +1,1108 @@
+{
+  "source": "lesson-04-multi-operation-integer-contexts.md",
+  "worked": [
+    {
+      "problem": "Calculate ((-8) + 3) × (-2).",
+      "givens": [
+        "-8",
+        "3",
+        "-2"
+      ],
+      "actions": [
+        "Evaluate the bracket first: -8 + 3 = -5.",
+        "The expression becomes (-5)×(-2).",
+        "Apply the sign rule and multiply magnitudes: 10.",
+        "Check: Replaying both changes from -8 gives 10."
+      ],
+      "answer": "10",
+      "wrongs": [
+        "-14",
+        "22",
+        "-10"
+      ],
+      "wrong_methods": [
+        "Multiplies before completing the bracket.",
+        "Treats the plus sign in the bracket as a minus.",
+        "Reverses the sign of a correct product."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          -8,
+          3,
+          -2
+        ],
+        "operator": "brackets",
+        "path": [
+          -8,
+          -5,
+          10
+        ],
+        "unit": ""
+      },
+      "misconception": "brackets-first",
+      "check": "Check: Replaying both changes from -8 gives 10.",
+      "id": "g9-int-l04-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Calculate (7 + (-12)) × 3.",
+      "givens": [
+        "7",
+        "-12",
+        "3"
+      ],
+      "actions": [
+        "Evaluate the bracket first: 7 + (-12) = -5.",
+        "The expression becomes (-5)×3.",
+        "Apply the sign rule and multiply magnitudes: -15.",
+        "Check: Replaying both changes from 7 gives -15."
+      ],
+      "answer": "-15",
+      "wrongs": [
+        "-29",
+        "57",
+        "15"
+      ],
+      "wrong_methods": [
+        "Multiplies before completing the bracket.",
+        "Treats the plus sign in the bracket as a minus.",
+        "Reverses the sign of a correct product."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          7,
+          -12,
+          3
+        ],
+        "operator": "brackets",
+        "path": [
+          7,
+          -5,
+          -15
+        ],
+        "unit": ""
+      },
+      "misconception": "brackets-first",
+      "check": "Check: Replaying both changes from 7 gives -15.",
+      "id": "g9-int-l04-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Calculate ((-11) + (-5)) × 4.",
+      "givens": [
+        "-11",
+        "-5",
+        "4"
+      ],
+      "actions": [
+        "Evaluate the bracket first: -11 + (-5) = -16.",
+        "The expression becomes (-16)×4.",
+        "Apply the sign rule and multiply magnitudes: -64.",
+        "Check: Replaying both changes from -11 gives -64."
+      ],
+      "answer": "-64",
+      "wrongs": [
+        "-31",
+        "-24",
+        "64"
+      ],
+      "wrong_methods": [
+        "Multiplies before completing the bracket.",
+        "Treats the plus sign in the bracket as a minus.",
+        "Reverses the sign of a correct product."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          -11,
+          -5,
+          4
+        ],
+        "operator": "brackets",
+        "path": [
+          -11,
+          -16,
+          -64
+        ],
+        "unit": ""
+      },
+      "misconception": "brackets-first",
+      "check": "Check: Replaying both changes from -11 gives -64.",
+      "id": "g9-int-l04-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate (12 + (-7)) × (-3).",
+      "givens": [
+        "12",
+        "-7",
+        "-3"
+      ],
+      "actions": [
+        "Evaluate the bracket first: 12 + (-7) = 5.",
+        "The expression becomes 5×(-3).",
+        "Apply the sign rule and multiply magnitudes: -15.",
+        "Check: Replaying both changes from 12 gives -15."
+      ],
+      "answer": "-15",
+      "wrongs": [
+        "33",
+        "-57",
+        "15"
+      ],
+      "wrong_methods": [
+        "Multiplies before completing the bracket.",
+        "Treats the plus sign in the bracket as a minus.",
+        "Reverses the sign of a correct product."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          12,
+          -7,
+          -3
+        ],
+        "operator": "brackets",
+        "path": [
+          12,
+          5,
+          -15
+        ],
+        "unit": ""
+      },
+      "misconception": "brackets-first",
+      "check": "Check: Replaying both changes from 12 gives -15.",
+      "id": "g9-int-l04-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "The temperature is -4°C. It changes by -6°C, then falls by 3°C. Find the final temperature.",
+      "givens": [
+        "-4",
+        "-6",
+        "3"
+      ],
+      "actions": [
+        "Start at -4°C on the number line.",
+        "Change by -6°C to reach -10°C.",
+        "Fall by 3°C: -10 − 3 = -13°C.",
+        "Check: Replaying both changes from -4 gives -13°C."
+      ],
+      "answer": "-13°C",
+      "wrongs": [
+        "-7°C",
+        "-1°C",
+        "-10°C"
+      ],
+      "wrong_methods": [
+        "Moves up for a fall in temperature.",
+        "Moves down for the stated positive change.",
+        "Stops before the final fall."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          -4,
+          -6,
+          3
+        ],
+        "operator": "temperature",
+        "path": [
+          -4,
+          -10,
+          -13
+        ],
+        "unit": "°C"
+      },
+      "misconception": "temperature-direction",
+      "check": "Check: Replaying both changes from -4 gives -13°C.",
+      "id": "g9-int-l04-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "The temperature is -9°C. It changes by 5°C, then falls by 7°C. Find the final temperature.",
+      "givens": [
+        "-9",
+        "5",
+        "7"
+      ],
+      "actions": [
+        "Start at -9°C on the number line.",
+        "Change by 5°C to reach -4°C.",
+        "Fall by 7°C: -4 − 7 = -11°C.",
+        "Check: Replaying both changes from -9 gives -11°C."
+      ],
+      "answer": "-11°C",
+      "wrongs": [
+        "3°C",
+        "-21°C",
+        "-4°C"
+      ],
+      "wrong_methods": [
+        "Moves up for a fall in temperature.",
+        "Moves down for the stated positive change.",
+        "Stops before the final fall."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          -9,
+          5,
+          7
+        ],
+        "operator": "temperature",
+        "path": [
+          -9,
+          -4,
+          -11
+        ],
+        "unit": "°C"
+      },
+      "misconception": "temperature-direction",
+      "check": "Check: Replaying both changes from -9 gives -11°C.",
+      "id": "g9-int-l04-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "The temperature is 2°C. It changes by -11°C, then falls by 8°C. Find the final temperature.",
+      "givens": [
+        "2",
+        "-11",
+        "8"
+      ],
+      "actions": [
+        "Start at 2°C on the number line.",
+        "Change by -11°C to reach -9°C.",
+        "Fall by 8°C: -9 − 8 = -17°C.",
+        "Check: Replaying both changes from 2 gives -17°C."
+      ],
+      "answer": "-17°C",
+      "wrongs": [
+        "-1°C",
+        "5°C",
+        "-9°C"
+      ],
+      "wrong_methods": [
+        "Moves up for a fall in temperature.",
+        "Moves down for the stated positive change.",
+        "Stops before the final fall."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          2,
+          -11,
+          8
+        ],
+        "operator": "temperature",
+        "path": [
+          2,
+          -9,
+          -17
+        ],
+        "unit": "°C"
+      },
+      "misconception": "temperature-direction",
+      "check": "Check: Replaying both changes from 2 gives -17°C.",
+      "id": "g9-int-l04-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "The temperature is 7°C. It changes by -15°C, then falls by 6°C. Find the final temperature.",
+      "givens": [
+        "7",
+        "-15",
+        "6"
+      ],
+      "actions": [
+        "Start at 7°C on the number line.",
+        "Change by -15°C to reach -8°C.",
+        "Fall by 6°C: -8 − 6 = -14°C.",
+        "Check: Replaying both changes from 7 gives -14°C."
+      ],
+      "answer": "-14°C",
+      "wrongs": [
+        "-2°C",
+        "16°C",
+        "-8°C"
+      ],
+      "wrong_methods": [
+        "Moves up for a fall in temperature.",
+        "Moves down for the stated positive change.",
+        "Stops before the final fall."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          7,
+          -15,
+          6
+        ],
+        "operator": "temperature",
+        "path": [
+          7,
+          -8,
+          -14
+        ],
+        "unit": "°C"
+      },
+      "misconception": "temperature-direction",
+      "check": "Check: Replaying both changes from 7 gives -14°C.",
+      "id": "g9-int-l04-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "An account starts with a debt of R80, receives R35, then pays R60. What is the signed balance in rand?",
+      "givens": [
+        "-80",
+        "35",
+        "60"
+      ],
+      "actions": [
+        "Write the balance change as -80 + 35 − 60.",
+        "After the receipt the balance is -45.",
+        "After paying 60, the balance is -105.",
+        "Check: Replaying both changes from -80 gives -105 rand."
+      ],
+      "answer": "-105 rand",
+      "wrongs": [
+        "15 rand",
+        "-175 rand",
+        "-45 rand"
+      ],
+      "wrong_methods": [
+        "Adds a payment instead of subtracting it.",
+        "Subtracts a receipt instead of adding it.",
+        "Stops after the receipt without the payment."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          -80,
+          35,
+          60
+        ],
+        "operator": "debt",
+        "path": [
+          -80,
+          -45,
+          -105
+        ],
+        "unit": " rand"
+      },
+      "misconception": "credit-debit",
+      "check": "Check: Replaying both changes from -80 gives -105 rand.",
+      "id": "g9-int-l04-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "An account starts with a debt of R120, receives R90, then pays R45. What is the signed balance in rand?",
+      "givens": [
+        "-120",
+        "90",
+        "45"
+      ],
+      "actions": [
+        "Write the balance change as -120 + 90 − 45.",
+        "After the receipt the balance is -30.",
+        "After paying 45, the balance is -75.",
+        "Check: Replaying both changes from -120 gives -75 rand."
+      ],
+      "answer": "-75 rand",
+      "wrongs": [
+        "15 rand",
+        "-255 rand",
+        "-30 rand"
+      ],
+      "wrong_methods": [
+        "Adds a payment instead of subtracting it.",
+        "Subtracts a receipt instead of adding it.",
+        "Stops after the receipt without the payment."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          -120,
+          90,
+          45
+        ],
+        "operator": "debt",
+        "path": [
+          -120,
+          -30,
+          -75
+        ],
+        "unit": " rand"
+      },
+      "misconception": "credit-debit",
+      "check": "Check: Replaying both changes from -120 gives -75 rand.",
+      "id": "g9-int-l04-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "An account starts with a debt of R50, receives R85, then pays R110. What is the signed balance in rand?",
+      "givens": [
+        "-50",
+        "85",
+        "110"
+      ],
+      "actions": [
+        "Write the balance change as -50 + 85 − 110.",
+        "After the receipt the balance is 35.",
+        "After paying 110, the balance is -75.",
+        "Check: Replaying both changes from -50 gives -75 rand."
+      ],
+      "answer": "-75 rand",
+      "wrongs": [
+        "145 rand",
+        "-245 rand",
+        "35 rand"
+      ],
+      "wrong_methods": [
+        "Adds a payment instead of subtracting it.",
+        "Subtracts a receipt instead of adding it.",
+        "Stops after the receipt without the payment."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          -50,
+          85,
+          110
+        ],
+        "operator": "debt",
+        "path": [
+          -50,
+          35,
+          -75
+        ],
+        "unit": " rand"
+      },
+      "misconception": "credit-debit",
+      "check": "Check: Replaying both changes from -50 gives -75 rand.",
+      "id": "g9-int-l04-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A game awards -3 points per round for 7 rounds, then applies a +5-point adjustment. Find the total.",
+      "givens": [
+        "-3",
+        "7",
+        "5"
+      ],
+      "actions": [
+        "Multiply the per-round points: -3×7 = -21.",
+        "Keep the adjustment sign: (-21) + 5.",
+        "Combine to get -16 points.",
+        "Check: Replaying both changes from -3 gives -16 points."
+      ],
+      "answer": "-16 points",
+      "wrongs": [
+        "-36 points",
+        "-26 points",
+        "-21 points"
+      ],
+      "wrong_methods": [
+        "Adds the adjustment to each round before multiplying.",
+        "Applies the adjustment in the opposite direction.",
+        "Omits the final adjustment."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          -3,
+          7,
+          5
+        ],
+        "operator": "game",
+        "path": [
+          -3,
+          -21,
+          -16
+        ],
+        "unit": " points"
+      },
+      "misconception": "game-order",
+      "check": "Check: Replaying both changes from -3 gives -16 points.",
+      "id": "g9-int-l04-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A game awards 8 points per round for 5 rounds, then applies a -15-point adjustment. Find the total.",
+      "givens": [
+        "8",
+        "5",
+        "-15"
+      ],
+      "actions": [
+        "Multiply the per-round points: 8×5 = 40.",
+        "Keep the adjustment sign: 40 + (-15).",
+        "Combine to get 25 points.",
+        "Check: Replaying both changes from 8 gives 25 points."
+      ],
+      "answer": "25 points",
+      "wrongs": [
+        "-80 points",
+        "55 points",
+        "40 points"
+      ],
+      "wrong_methods": [
+        "Adds the adjustment to each round before multiplying.",
+        "Applies the adjustment in the opposite direction.",
+        "Omits the final adjustment."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          8,
+          5,
+          -15
+        ],
+        "operator": "game",
+        "path": [
+          8,
+          40,
+          25
+        ],
+        "unit": " points"
+      },
+      "misconception": "game-order",
+      "check": "Check: Replaying both changes from 8 gives 25 points.",
+      "id": "g9-int-l04-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A game awards -6 points per round for 9 rounds, then applies a +14-point adjustment. Find the total.",
+      "givens": [
+        "-6",
+        "9",
+        "14"
+      ],
+      "actions": [
+        "Multiply the per-round points: -6×9 = -54.",
+        "Keep the adjustment sign: (-54) + 14.",
+        "Combine to get -40 points.",
+        "Check: Replaying both changes from -6 gives -40 points."
+      ],
+      "answer": "-40 points",
+      "wrongs": [
+        "-138 points",
+        "-68 points",
+        "-54 points"
+      ],
+      "wrong_methods": [
+        "Adds the adjustment to each round before multiplying.",
+        "Applies the adjustment in the opposite direction.",
+        "Omits the final adjustment."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          -6,
+          9,
+          14
+        ],
+        "operator": "game",
+        "path": [
+          -6,
+          -54,
+          -40
+        ],
+        "unit": " points"
+      },
+      "misconception": "game-order",
+      "check": "Check: Replaying both changes from -6 gives -40 points.",
+      "id": "g9-int-l04-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A game awards 12 points per round for 4 rounds, then applies a -19-point adjustment. Find the total.",
+      "givens": [
+        "12",
+        "4",
+        "-19"
+      ],
+      "actions": [
+        "Multiply the per-round points: 12×4 = 48.",
+        "Keep the adjustment sign: 48 + (-19).",
+        "Combine to get 29 points.",
+        "Check: Replaying both changes from 12 gives 29 points."
+      ],
+      "answer": "29 points",
+      "wrongs": [
+        "-180 points",
+        "67 points",
+        "48 points"
+      ],
+      "wrong_methods": [
+        "Adds the adjustment to each round before multiplying.",
+        "Applies the adjustment in the opposite direction.",
+        "Omits the final adjustment."
+      ],
+      "visual": {
+        "family": "context",
+        "values": [
+          12,
+          4,
+          -19
+        ],
+        "operator": "game",
+        "path": [
+          12,
+          48,
+          29
+        ],
+        "unit": " points"
+      },
+      "misconception": "game-order",
+      "check": "Check: Replaying both changes from 12 gives 29 points.",
+      "id": "g9-int-l04-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-int-l04-p01",
+      "prompt": "Calculate ((-6) + 4) × (-2).",
+      "options": [
+        "4",
+        "-14",
+        "20",
+        "-4"
+      ],
+      "answer_index": 0,
+      "memo": "4. Evaluate the bracket first: -6 + 4 = -2. The expression becomes (-2)×(-2). Apply the sign rule and multiply magnitudes: 4. Check: Replaying both changes from -6 gives 4.",
+      "misconception": "brackets-first",
+      "option_rationales": {
+        "4": "Correct: Check: Replaying both changes from -6 gives 4.",
+        "-14": "Incorrect: Multiplies before completing the bracket.",
+        "20": "Incorrect: Treats the plus sign in the bracket as a minus.",
+        "-4": "Incorrect: Reverses the sign of a correct product."
+      }
+    },
+    {
+      "id": "g9-int-l04-p02",
+      "prompt": "The temperature is -9°C. It changes by 5°C, then falls by 3°C. Find the final temperature.",
+      "options": [
+        "-1°C",
+        "-7°C",
+        "-17°C",
+        "-4°C"
+      ],
+      "answer_index": 1,
+      "memo": "-7°C. Start at -9°C on the number line. Change by 5°C to reach -4°C. Fall by 3°C: -4 − 3 = -7°C. Check: Replaying both changes from -9 gives -7°C.",
+      "misconception": "temperature-direction",
+      "option_rationales": {
+        "-1°C": "Incorrect: Moves up for a fall in temperature.",
+        "-7°C": "Correct: Check: Replaying both changes from -9 gives -7°C.",
+        "-17°C": "Incorrect: Moves down for the stated positive change.",
+        "-4°C": "Incorrect: Stops before the final fall."
+      }
+    },
+    {
+      "id": "g9-int-l04-p03",
+      "prompt": "An account starts with a debt of R80, receives R45, then pays R35. What is the signed balance in rand?",
+      "options": [
+        "0 rand",
+        "-160 rand",
+        "-70 rand",
+        "-35 rand"
+      ],
+      "answer_index": 2,
+      "memo": "-70 rand. Write the balance change as -80 + 45 − 35. After the receipt the balance is -35. After paying 35, the balance is -70. Check: Replaying both changes from -80 gives -70 rand.",
+      "misconception": "credit-debit",
+      "option_rationales": {
+        "0 rand": "Incorrect: Adds a payment instead of subtracting it.",
+        "-160 rand": "Incorrect: Subtracts a receipt instead of adding it.",
+        "-70 rand": "Correct: Check: Replaying both changes from -80 gives -70 rand.",
+        "-35 rand": "Incorrect: Stops after the receipt without the payment."
+      }
+    },
+    {
+      "id": "g9-int-l04-p04",
+      "prompt": "A game awards -4 points per round for 6 rounds, then applies a +5-point adjustment. Find the total.",
+      "options": [
+        "-44 points",
+        "-29 points",
+        "-24 points",
+        "-19 points"
+      ],
+      "answer_index": 3,
+      "memo": "-19 points. Multiply the per-round points: -4×6 = -24. Keep the adjustment sign: (-24) + 5. Combine to get -19 points. Check: Replaying both changes from -4 gives -19 points.",
+      "misconception": "game-order",
+      "option_rationales": {
+        "-44 points": "Incorrect: Adds the adjustment to each round before multiplying.",
+        "-29 points": "Incorrect: Applies the adjustment in the opposite direction.",
+        "-24 points": "Incorrect: Omits the final adjustment.",
+        "-19 points": "Correct: Check: Replaying both changes from -4 gives -19 points."
+      }
+    },
+    {
+      "id": "g9-int-l04-p05",
+      "prompt": "Calculate ((-7) + 4) × (-2).",
+      "options": [
+        "6",
+        "-15",
+        "22",
+        "-6"
+      ],
+      "answer_index": 0,
+      "memo": "6. Evaluate the bracket first: -7 + 4 = -3. The expression becomes (-3)×(-2). Apply the sign rule and multiply magnitudes: 6. Check: Replaying both changes from -7 gives 6.",
+      "misconception": "brackets-first",
+      "option_rationales": {
+        "6": "Correct: Check: Replaying both changes from -7 gives 6.",
+        "-15": "Incorrect: Multiplies before completing the bracket.",
+        "22": "Incorrect: Treats the plus sign in the bracket as a minus.",
+        "-6": "Incorrect: Reverses the sign of a correct product."
+      }
+    },
+    {
+      "id": "g9-int-l04-p06",
+      "prompt": "The temperature is -10°C. It changes by 5°C, then falls by 3°C. Find the final temperature.",
+      "options": [
+        "-2°C",
+        "-8°C",
+        "-18°C",
+        "-5°C"
+      ],
+      "answer_index": 1,
+      "memo": "-8°C. Start at -10°C on the number line. Change by 5°C to reach -5°C. Fall by 3°C: -5 − 3 = -8°C. Check: Replaying both changes from -10 gives -8°C.",
+      "misconception": "temperature-direction",
+      "option_rationales": {
+        "-2°C": "Incorrect: Moves up for a fall in temperature.",
+        "-8°C": "Correct: Check: Replaying both changes from -10 gives -8°C.",
+        "-18°C": "Incorrect: Moves down for the stated positive change.",
+        "-5°C": "Incorrect: Stops before the final fall."
+      }
+    },
+    {
+      "id": "g9-int-l04-p07",
+      "prompt": "An account starts with a debt of R90, receives R50, then pays R35. What is the signed balance in rand?",
+      "options": [
+        "-5 rand",
+        "-175 rand",
+        "-75 rand",
+        "-40 rand"
+      ],
+      "answer_index": 2,
+      "memo": "-75 rand. Write the balance change as -90 + 50 − 35. After the receipt the balance is -40. After paying 35, the balance is -75. Check: Replaying both changes from -90 gives -75 rand.",
+      "misconception": "credit-debit",
+      "option_rationales": {
+        "-5 rand": "Incorrect: Adds a payment instead of subtracting it.",
+        "-175 rand": "Incorrect: Subtracts a receipt instead of adding it.",
+        "-75 rand": "Correct: Check: Replaying both changes from -90 gives -75 rand.",
+        "-40 rand": "Incorrect: Stops after the receipt without the payment."
+      }
+    },
+    {
+      "id": "g9-int-l04-p08",
+      "prompt": "A game awards -5 points per round for 6 rounds, then applies a +5-point adjustment. Find the total.",
+      "options": [
+        "-55 points",
+        "-35 points",
+        "-30 points",
+        "-25 points"
+      ],
+      "answer_index": 3,
+      "memo": "-25 points. Multiply the per-round points: -5×6 = -30. Keep the adjustment sign: (-30) + 5. Combine to get -25 points. Check: Replaying both changes from -5 gives -25 points.",
+      "misconception": "game-order",
+      "option_rationales": {
+        "-55 points": "Incorrect: Adds the adjustment to each round before multiplying.",
+        "-35 points": "Incorrect: Applies the adjustment in the opposite direction.",
+        "-30 points": "Incorrect: Omits the final adjustment.",
+        "-25 points": "Correct: Check: Replaying both changes from -5 gives -25 points."
+      }
+    },
+    {
+      "id": "g9-int-l04-p09",
+      "prompt": "Calculate ((-8) + 4) × (-2).",
+      "options": [
+        "8",
+        "-16",
+        "24",
+        "-8"
+      ],
+      "answer_index": 0,
+      "memo": "8. Evaluate the bracket first: -8 + 4 = -4. The expression becomes (-4)×(-2). Apply the sign rule and multiply magnitudes: 8. Check: Replaying both changes from -8 gives 8.",
+      "misconception": "brackets-first",
+      "option_rationales": {
+        "8": "Correct: Check: Replaying both changes from -8 gives 8.",
+        "-16": "Incorrect: Multiplies before completing the bracket.",
+        "24": "Incorrect: Treats the plus sign in the bracket as a minus.",
+        "-8": "Incorrect: Reverses the sign of a correct product."
+      }
+    },
+    {
+      "id": "g9-int-l04-p10",
+      "prompt": "The temperature is -11°C. It changes by 5°C, then falls by 3°C. Find the final temperature.",
+      "options": [
+        "-3°C",
+        "-9°C",
+        "-19°C",
+        "-6°C"
+      ],
+      "answer_index": 1,
+      "memo": "-9°C. Start at -11°C on the number line. Change by 5°C to reach -6°C. Fall by 3°C: -6 − 3 = -9°C. Check: Replaying both changes from -11 gives -9°C.",
+      "misconception": "temperature-direction",
+      "option_rationales": {
+        "-3°C": "Incorrect: Moves up for a fall in temperature.",
+        "-9°C": "Correct: Check: Replaying both changes from -11 gives -9°C.",
+        "-19°C": "Incorrect: Moves down for the stated positive change.",
+        "-6°C": "Incorrect: Stops before the final fall."
+      }
+    },
+    {
+      "id": "g9-int-l04-p11",
+      "prompt": "An account starts with a debt of R100, receives R55, then pays R35. What is the signed balance in rand?",
+      "options": [
+        "-10 rand",
+        "-190 rand",
+        "-80 rand",
+        "-45 rand"
+      ],
+      "answer_index": 2,
+      "memo": "-80 rand. Write the balance change as -100 + 55 − 35. After the receipt the balance is -45. After paying 35, the balance is -80. Check: Replaying both changes from -100 gives -80 rand.",
+      "misconception": "credit-debit",
+      "option_rationales": {
+        "-10 rand": "Incorrect: Adds a payment instead of subtracting it.",
+        "-190 rand": "Incorrect: Subtracts a receipt instead of adding it.",
+        "-80 rand": "Correct: Check: Replaying both changes from -100 gives -80 rand.",
+        "-45 rand": "Incorrect: Stops after the receipt without the payment."
+      }
+    },
+    {
+      "id": "g9-int-l04-p12",
+      "prompt": "A game awards -6 points per round for 6 rounds, then applies a +5-point adjustment. Find the total.",
+      "options": [
+        "-66 points",
+        "-41 points",
+        "-36 points",
+        "-31 points"
+      ],
+      "answer_index": 3,
+      "memo": "-31 points. Multiply the per-round points: -6×6 = -36. Keep the adjustment sign: (-36) + 5. Combine to get -31 points. Check: Replaying both changes from -6 gives -31 points.",
+      "misconception": "game-order",
+      "option_rationales": {
+        "-66 points": "Incorrect: Adds the adjustment to each round before multiplying.",
+        "-41 points": "Incorrect: Applies the adjustment in the opposite direction.",
+        "-36 points": "Incorrect: Omits the final adjustment.",
+        "-31 points": "Correct: Check: Replaying both changes from -6 gives -31 points."
+      }
+    },
+    {
+      "id": "g9-int-l04-p13",
+      "prompt": "Calculate ((-9) + 4) × (-2).",
+      "options": [
+        "10",
+        "-17",
+        "26",
+        "-10"
+      ],
+      "answer_index": 0,
+      "memo": "10. Evaluate the bracket first: -9 + 4 = -5. The expression becomes (-5)×(-2). Apply the sign rule and multiply magnitudes: 10. Check: Replaying both changes from -9 gives 10.",
+      "misconception": "brackets-first",
+      "option_rationales": {
+        "10": "Correct: Check: Replaying both changes from -9 gives 10.",
+        "-17": "Incorrect: Multiplies before completing the bracket.",
+        "26": "Incorrect: Treats the plus sign in the bracket as a minus.",
+        "-10": "Incorrect: Reverses the sign of a correct product."
+      }
+    },
+    {
+      "id": "g9-int-l04-p14",
+      "prompt": "The temperature is -12°C. It changes by 5°C, then falls by 3°C. Find the final temperature.",
+      "options": [
+        "-4°C",
+        "-10°C",
+        "-20°C",
+        "-7°C"
+      ],
+      "answer_index": 1,
+      "memo": "-10°C. Start at -12°C on the number line. Change by 5°C to reach -7°C. Fall by 3°C: -7 − 3 = -10°C. Check: Replaying both changes from -12 gives -10°C.",
+      "misconception": "temperature-direction",
+      "option_rationales": {
+        "-4°C": "Incorrect: Moves up for a fall in temperature.",
+        "-10°C": "Correct: Check: Replaying both changes from -12 gives -10°C.",
+        "-20°C": "Incorrect: Moves down for the stated positive change.",
+        "-7°C": "Incorrect: Stops before the final fall."
+      }
+    },
+    {
+      "id": "g9-int-l04-p15",
+      "prompt": "An account starts with a debt of R110, receives R60, then pays R35. What is the signed balance in rand?",
+      "options": [
+        "-15 rand",
+        "-205 rand",
+        "-85 rand",
+        "-50 rand"
+      ],
+      "answer_index": 2,
+      "memo": "-85 rand. Write the balance change as -110 + 60 − 35. After the receipt the balance is -50. After paying 35, the balance is -85. Check: Replaying both changes from -110 gives -85 rand.",
+      "misconception": "credit-debit",
+      "option_rationales": {
+        "-15 rand": "Incorrect: Adds a payment instead of subtracting it.",
+        "-205 rand": "Incorrect: Subtracts a receipt instead of adding it.",
+        "-85 rand": "Correct: Check: Replaying both changes from -110 gives -85 rand.",
+        "-50 rand": "Incorrect: Stops after the receipt without the payment."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-int-l04-m01",
+      "prompt": "A game awards -7 points per round for 6 rounds, then applies a +5-point adjustment. Find the total.",
+      "options": [
+        "-37 points",
+        "-77 points",
+        "-47 points",
+        "-42 points"
+      ],
+      "answer_index": 0,
+      "memo": "-37 points. Multiply the per-round points: -7×6 = -42. Keep the adjustment sign: (-42) + 5. Combine to get -37 points. Check: Replaying both changes from -7 gives -37 points.",
+      "misconception": "game-order",
+      "option_rationales": {
+        "-37 points": "Correct: Check: Replaying both changes from -7 gives -37 points.",
+        "-77 points": "Incorrect: Adds the adjustment to each round before multiplying.",
+        "-47 points": "Incorrect: Applies the adjustment in the opposite direction.",
+        "-42 points": "Incorrect: Omits the final adjustment."
+      }
+    },
+    {
+      "id": "g9-int-l04-m02",
+      "prompt": "Calculate ((-10) + 4) × (-2).",
+      "options": [
+        "-18",
+        "12",
+        "28",
+        "-12"
+      ],
+      "answer_index": 1,
+      "memo": "12. Evaluate the bracket first: -10 + 4 = -6. The expression becomes (-6)×(-2). Apply the sign rule and multiply magnitudes: 12. Check: Replaying both changes from -10 gives 12.",
+      "misconception": "brackets-first",
+      "option_rationales": {
+        "-18": "Incorrect: Multiplies before completing the bracket.",
+        "12": "Correct: Check: Replaying both changes from -10 gives 12.",
+        "28": "Incorrect: Treats the plus sign in the bracket as a minus.",
+        "-12": "Incorrect: Reverses the sign of a correct product."
+      }
+    },
+    {
+      "id": "g9-int-l04-m03",
+      "prompt": "The temperature is -13°C. It changes by 5°C, then falls by 3°C. Find the final temperature.",
+      "options": [
+        "-5°C",
+        "-21°C",
+        "-11°C",
+        "-8°C"
+      ],
+      "answer_index": 2,
+      "memo": "-11°C. Start at -13°C on the number line. Change by 5°C to reach -8°C. Fall by 3°C: -8 − 3 = -11°C. Check: Replaying both changes from -13 gives -11°C.",
+      "misconception": "temperature-direction",
+      "option_rationales": {
+        "-5°C": "Incorrect: Moves up for a fall in temperature.",
+        "-21°C": "Incorrect: Moves down for the stated positive change.",
+        "-11°C": "Correct: Check: Replaying both changes from -13 gives -11°C.",
+        "-8°C": "Incorrect: Stops before the final fall."
+      }
+    },
+    {
+      "id": "g9-int-l04-m04",
+      "prompt": "An account starts with a debt of R120, receives R65, then pays R35. What is the signed balance in rand?",
+      "options": [
+        "-20 rand",
+        "-220 rand",
+        "-55 rand",
+        "-90 rand"
+      ],
+      "answer_index": 3,
+      "memo": "-90 rand. Write the balance change as -120 + 65 − 35. After the receipt the balance is -55. After paying 35, the balance is -90. Check: Replaying both changes from -120 gives -90 rand.",
+      "misconception": "credit-debit",
+      "option_rationales": {
+        "-20 rand": "Incorrect: Adds a payment instead of subtracting it.",
+        "-220 rand": "Incorrect: Subtracts a receipt instead of adding it.",
+        "-55 rand": "Incorrect: Stops after the receipt without the payment.",
+        "-90 rand": "Correct: Check: Replaying both changes from -120 gives -90 rand."
+      }
+    },
+    {
+      "id": "g9-int-l04-m05",
+      "prompt": "A game awards -8 points per round for 6 rounds, then applies a +5-point adjustment. Find the total.",
+      "options": [
+        "-43 points",
+        "-88 points",
+        "-53 points",
+        "-48 points"
+      ],
+      "answer_index": 0,
+      "memo": "-43 points. Multiply the per-round points: -8×6 = -48. Keep the adjustment sign: (-48) + 5. Combine to get -43 points. Check: Replaying both changes from -8 gives -43 points.",
+      "misconception": "game-order",
+      "option_rationales": {
+        "-43 points": "Correct: Check: Replaying both changes from -8 gives -43 points.",
+        "-88 points": "Incorrect: Adds the adjustment to each round before multiplying.",
+        "-53 points": "Incorrect: Applies the adjustment in the opposite direction.",
+        "-48 points": "Incorrect: Omits the final adjustment."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-int-l04-r01",
+      "prompt": "Calculate ((-11) + 4) × (-2).",
+      "options": [
+        "14",
+        "-19",
+        "30",
+        "-14"
+      ],
+      "answer_index": 0,
+      "memo": "14. Evaluate the bracket first: -11 + 4 = -7. The expression becomes (-7)×(-2). Apply the sign rule and multiply magnitudes: 14. Check: Replaying both changes from -11 gives 14.",
+      "misconception": "brackets-first",
+      "option_rationales": {
+        "14": "Correct: Check: Replaying both changes from -11 gives 14.",
+        "-19": "Incorrect: Multiplies before completing the bracket.",
+        "30": "Incorrect: Treats the plus sign in the bracket as a minus.",
+        "-14": "Incorrect: Reverses the sign of a correct product."
+      }
+    },
+    {
+      "id": "g9-int-l04-r02",
+      "prompt": "The temperature is -14°C. It changes by 5°C, then falls by 3°C. Find the final temperature.",
+      "options": [
+        "-6°C",
+        "-12°C",
+        "-22°C",
+        "-9°C"
+      ],
+      "answer_index": 1,
+      "memo": "-12°C. Start at -14°C on the number line. Change by 5°C to reach -9°C. Fall by 3°C: -9 − 3 = -12°C. Check: Replaying both changes from -14 gives -12°C.",
+      "misconception": "temperature-direction",
+      "option_rationales": {
+        "-6°C": "Incorrect: Moves up for a fall in temperature.",
+        "-12°C": "Correct: Check: Replaying both changes from -14 gives -12°C.",
+        "-22°C": "Incorrect: Moves down for the stated positive change.",
+        "-9°C": "Incorrect: Stops before the final fall."
+      }
+    },
+    {
+      "id": "g9-int-l04-r03",
+      "prompt": "An account starts with a debt of R130, receives R70, then pays R35. What is the signed balance in rand?",
+      "options": [
+        "-25 rand",
+        "-235 rand",
+        "-95 rand",
+        "-60 rand"
+      ],
+      "answer_index": 2,
+      "memo": "-95 rand. Write the balance change as -130 + 70 − 35. After the receipt the balance is -60. After paying 35, the balance is -95. Check: Replaying both changes from -130 gives -95 rand.",
+      "misconception": "credit-debit",
+      "option_rationales": {
+        "-25 rand": "Incorrect: Adds a payment instead of subtracting it.",
+        "-235 rand": "Incorrect: Subtracts a receipt instead of adding it.",
+        "-95 rand": "Correct: Check: Replaying both changes from -130 gives -95 rand.",
+        "-60 rand": "Incorrect: Stops after the receipt without the payment."
+      }
+    }
+  ]
+}
