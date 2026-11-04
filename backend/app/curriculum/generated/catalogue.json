@@ -1079,6 +1079,56 @@
               "source_document": "lesson-06-exponent-error-diagnosis-and-reassessment.md"
             }
           ]
+        },
+        {
+          "topic_id": "numeric-geometric-patterns",
+          "topic_number": 4,
+          "title": "Numeric and Geometric Patterns",
+          "paper": null,
+          "expected_lesson_count": 5,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-patterns-01",
+              "position": 1,
+              "title": "Visual and numeric patterns",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01-visual-and-numeric-patterns.md"
+            },
+            {
+              "lesson_id": "g9-patterns-02",
+              "position": 2,
+              "title": "Tables and position rules",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02-tables-and-position-rules.md"
+            },
+            {
+              "lesson_id": "g9-patterns-03",
+              "position": 3,
+              "title": "Changing differences and ratios",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03-changing-differences-and-ratios.md"
+            },
+            {
+              "lesson_id": "g9-patterns-04",
+              "position": 4,
+              "title": "General rules and unknown terms",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04-general-rules-and-unknown-terms.md"
+            },
+            {
+              "lesson_id": "g9-patterns-05",
+              "position": 5,
+              "title": "Justifying and diagnosing pattern rules",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05-justifying-and-diagnosing-pattern-rules.md"
+            }
+          ]
         }
       ]
     },

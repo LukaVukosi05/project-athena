@@ -1,0 +1,1318 @@
+{
+  "source": "lesson-03-changing-differences-and-ratios.md",
+  "worked": [
+    {
+      "problem": "The pattern begins 1, 4, 9, 16. Find term 6, showing the rule you used.",
+      "givens": [
+        "1",
+        "4",
+        "9",
+        "16"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 1, 4, 9, 16.",
+        "First differences are 3, 5, 7; use the pattern of differences or ratios to identify 1n² + 0.",
+        "Substitute n=6: term 6 is 36.",
+        "Check: the rule gives 4 at position 2, matching the given pattern."
+      ],
+      "answer": "36",
+      "wrongs": [
+        "37",
+        "41",
+        "35"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 4 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "square",
+        "shape": null,
+        "known": [
+          1,
+          4,
+          9,
+          16
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          3,
+          5,
+          7
+        ],
+        "a": 1,
+        "b": 0,
+        "rule": "1n² + 0",
+        "target": 6,
+        "target_value": 36,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "The pattern begins 3, 9, 19, 33. Find term 7, showing the rule you used.",
+      "givens": [
+        "3",
+        "9",
+        "19",
+        "33"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 3, 9, 19, 33.",
+        "First differences are 6, 10, 14; use the pattern of differences or ratios to identify 2n² + 1.",
+        "Substitute n=7: term 7 is 99.",
+        "Check: the rule gives 9 at position 2, matching the given pattern."
+      ],
+      "answer": "99",
+      "wrongs": [
+        "100",
+        "111",
+        "97"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 9 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "square",
+        "shape": null,
+        "known": [
+          3,
+          9,
+          19,
+          33
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          6,
+          10,
+          14
+        ],
+        "a": 2,
+        "b": 1,
+        "rule": "2n² + 1",
+        "target": 7,
+        "target_value": 99,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "The pattern begins 1, 3, 6, 10. Find term 8, showing the rule you used.",
+      "givens": [
+        "1",
+        "3",
+        "6",
+        "10"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 1, 3, 6, 10.",
+        "First differences are 2, 3, 4; use the pattern of differences or ratios to identify 1n(n+1)/2 + 0.",
+        "Substitute n=8: term 8 is 36.",
+        "Check: the rule gives 3 at position 2, matching the given pattern."
+      ],
+      "answer": "36",
+      "wrongs": [
+        "37",
+        "43",
+        "35"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 3 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "stair",
+        "shape": null,
+        "known": [
+          1,
+          3,
+          6,
+          10
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          2,
+          3,
+          4
+        ],
+        "a": 1,
+        "b": 0,
+        "rule": "1n(n+1)/2 + 0",
+        "target": 8,
+        "target_value": 36,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "The pattern begins 5, 14, 29, 50. Find term 6, showing the rule you used.",
+      "givens": [
+        "5",
+        "14",
+        "29",
+        "50"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 5, 14, 29, 50.",
+        "First differences are 9, 15, 21; use the pattern of differences or ratios to identify 3n² + 2.",
+        "Substitute n=6: term 6 is 110.",
+        "Check: the rule gives 14 at position 2, matching the given pattern."
+      ],
+      "answer": "110",
+      "wrongs": [
+        "111",
+        "125",
+        "107"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 14 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "square",
+        "shape": null,
+        "known": [
+          5,
+          14,
+          29,
+          50
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          9,
+          15,
+          21
+        ],
+        "a": 3,
+        "b": 2,
+        "rule": "3n² + 2",
+        "target": 6,
+        "target_value": 110,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "The pattern begins 3, 7, 13, 21. Find term 7, showing the rule you used.",
+      "givens": [
+        "3",
+        "7",
+        "13",
+        "21"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 3, 7, 13, 21.",
+        "First differences are 4, 6, 8; use the pattern of differences or ratios to identify 2n(n+1)/2 + 1.",
+        "Substitute n=7: term 7 is 57.",
+        "Check: the rule gives 7 at position 2, matching the given pattern."
+      ],
+      "answer": "57",
+      "wrongs": [
+        "58",
+        "69",
+        "55"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 7 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "stair",
+        "shape": null,
+        "known": [
+          3,
+          7,
+          13,
+          21
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          4,
+          6,
+          8
+        ],
+        "a": 2,
+        "b": 1,
+        "rule": "2n(n+1)/2 + 1",
+        "target": 7,
+        "target_value": 57,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "The pattern begins 2, 4, 8, 16. Find term 8, showing the rule you used.",
+      "givens": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 2, 4, 8, 16.",
+        "First differences are 2, 4, 8; use the pattern of differences or ratios to identify 2 × 2^(n−1).",
+        "Substitute n=8: term 8 is 256.",
+        "Check: the rule gives 4 at position 2, matching the given pattern."
+      ],
+      "answer": "256",
+      "wrongs": [
+        "257",
+        "512",
+        "254"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 4 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "geometric",
+        "shape": null,
+        "known": [
+          2,
+          4,
+          8,
+          16
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          2,
+          4,
+          8
+        ],
+        "a": 2,
+        "b": 2,
+        "rule": "2 × 2^(n−1)",
+        "target": 8,
+        "target_value": 256,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "The pattern begins 5, 8, 13, 20. Find term 6, showing the rule you used.",
+      "givens": [
+        "5",
+        "8",
+        "13",
+        "20"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 5, 8, 13, 20.",
+        "First differences are 3, 5, 7; use the pattern of differences or ratios to identify 1n² + 4.",
+        "Substitute n=6: term 6 is 40.",
+        "Check: the rule gives 8 at position 2, matching the given pattern."
+      ],
+      "answer": "40",
+      "wrongs": [
+        "41",
+        "45",
+        "39"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 8 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "square",
+        "shape": null,
+        "known": [
+          5,
+          8,
+          13,
+          20
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          3,
+          5,
+          7
+        ],
+        "a": 1,
+        "b": 4,
+        "rule": "1n² + 4",
+        "target": 6,
+        "target_value": 40,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "The pattern begins 3, 9, 18, 30. Find term 7, showing the rule you used.",
+      "givens": [
+        "3",
+        "9",
+        "18",
+        "30"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 3, 9, 18, 30.",
+        "First differences are 6, 9, 12; use the pattern of differences or ratios to identify 3n(n+1)/2 + 0.",
+        "Substitute n=7: term 7 is 84.",
+        "Check: the rule gives 9 at position 2, matching the given pattern."
+      ],
+      "answer": "84",
+      "wrongs": [
+        "85",
+        "102",
+        "81"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 9 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "stair",
+        "shape": null,
+        "known": [
+          3,
+          9,
+          18,
+          30
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          6,
+          9,
+          12
+        ],
+        "a": 3,
+        "b": 0,
+        "rule": "3n(n+1)/2 + 0",
+        "target": 7,
+        "target_value": 84,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "The pattern begins 1, 7, 17, 31. Find term 8, showing the rule you used.",
+      "givens": [
+        "1",
+        "7",
+        "17",
+        "31"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 1, 7, 17, 31.",
+        "First differences are 6, 10, 14; use the pattern of differences or ratios to identify 2n² − 1.",
+        "Substitute n=8: term 8 is 127.",
+        "Check: the rule gives 7 at position 2, matching the given pattern."
+      ],
+      "answer": "127",
+      "wrongs": [
+        "128",
+        "141",
+        "125"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 7 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "square",
+        "shape": null,
+        "known": [
+          1,
+          7,
+          17,
+          31
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          6,
+          10,
+          14
+        ],
+        "a": 2,
+        "b": -1,
+        "rule": "2n² − 1",
+        "target": 8,
+        "target_value": 127,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "The pattern begins 3, 9, 27, 81. Find term 6, showing the rule you used.",
+      "givens": [
+        "3",
+        "9",
+        "27",
+        "81"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 3, 9, 27, 81.",
+        "First differences are 6, 18, 54; use the pattern of differences or ratios to identify 3 × 3^(n−1).",
+        "Substitute n=6: term 6 is 729.",
+        "Check: the rule gives 9 at position 2, matching the given pattern."
+      ],
+      "answer": "729",
+      "wrongs": [
+        "730",
+        "2187",
+        "726"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 9 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "geometric",
+        "shape": null,
+        "known": [
+          3,
+          9,
+          27,
+          81
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          6,
+          18,
+          54
+        ],
+        "a": 3,
+        "b": 3,
+        "rule": "3 × 3^(n−1)",
+        "target": 6,
+        "target_value": 729,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "The pattern begins 5, 17, 37, 65. Find term 7, showing the rule you used.",
+      "givens": [
+        "5",
+        "17",
+        "37",
+        "65"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 5, 17, 37, 65.",
+        "First differences are 12, 20, 28; use the pattern of differences or ratios to identify 4n² + 1.",
+        "Substitute n=7: term 7 is 197.",
+        "Check: the rule gives 17 at position 2, matching the given pattern."
+      ],
+      "answer": "197",
+      "wrongs": [
+        "198",
+        "221",
+        "193"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 17 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "square",
+        "shape": null,
+        "known": [
+          5,
+          17,
+          37,
+          65
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          12,
+          20,
+          28
+        ],
+        "a": 4,
+        "b": 1,
+        "rule": "4n² + 1",
+        "target": 7,
+        "target_value": 197,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "The pattern begins 6, 8, 11, 15. Find term 8, showing the rule you used.",
+      "givens": [
+        "6",
+        "8",
+        "11",
+        "15"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 6, 8, 11, 15.",
+        "First differences are 2, 3, 4; use the pattern of differences or ratios to identify 1n(n+1)/2 + 5.",
+        "Substitute n=8: term 8 is 41.",
+        "Check: the rule gives 8 at position 2, matching the given pattern."
+      ],
+      "answer": "41",
+      "wrongs": [
+        "42",
+        "48",
+        "40"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 8 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "stair",
+        "shape": null,
+        "known": [
+          6,
+          8,
+          11,
+          15
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          2,
+          3,
+          4
+        ],
+        "a": 1,
+        "b": 5,
+        "rule": "1n(n+1)/2 + 5",
+        "target": 8,
+        "target_value": 41,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "The pattern begins 1, 10, 25, 46. Find term 10, showing the rule you used.",
+      "givens": [
+        "1",
+        "10",
+        "25",
+        "46"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 1, 10, 25, 46.",
+        "First differences are 9, 15, 21; use the pattern of differences or ratios to identify 3n² − 2.",
+        "Substitute n=10: term 10 is 298.",
+        "Check: the rule gives 10 at position 2, matching the given pattern."
+      ],
+      "answer": "298",
+      "wrongs": [
+        "299",
+        "325",
+        "295"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 10 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "square",
+        "shape": null,
+        "known": [
+          1,
+          10,
+          25,
+          46
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          9,
+          15,
+          21
+        ],
+        "a": 3,
+        "b": -2,
+        "rule": "3n² − 2",
+        "target": 10,
+        "target_value": 298,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "The pattern begins 5, 10, 20, 40. Find term 11, showing the rule you used.",
+      "givens": [
+        "5",
+        "10",
+        "20",
+        "40"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 5, 10, 20, 40.",
+        "First differences are 5, 10, 20; use the pattern of differences or ratios to identify 5 × 2^(n−1).",
+        "Substitute n=11: term 11 is 5120.",
+        "Check: the rule gives 10 at position 2, matching the given pattern."
+      ],
+      "answer": "5120",
+      "wrongs": [
+        "5121",
+        "10240",
+        "5115"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 10 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "geometric",
+        "shape": null,
+        "known": [
+          5,
+          10,
+          20,
+          40
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          5,
+          10,
+          20
+        ],
+        "a": 5,
+        "b": 2,
+        "rule": "5 × 2^(n−1)",
+        "target": 11,
+        "target_value": 5120,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "The pattern begins 6, 10, 16, 24. Find term 12, showing the rule you used.",
+      "givens": [
+        "6",
+        "10",
+        "16",
+        "24"
+      ],
+      "actions": [
+        "Label the given terms by positions 1 to 4: 6, 10, 16, 24.",
+        "First differences are 4, 6, 8; use the pattern of differences or ratios to identify 2n(n+1)/2 + 4.",
+        "Substitute n=12: term 12 is 160.",
+        "Check: the rule gives 10 at position 2, matching the given pattern."
+      ],
+      "answer": "160",
+      "wrongs": [
+        "161",
+        "182",
+        "158"
+      ],
+      "wrong_methods": [
+        "Counts one extra tile or term.",
+        "Extends a constant difference where the pattern changes.",
+        "Uses the wrong position or rule parameter."
+      ],
+      "misconception": "pattern-relation",
+      "check": "Check: the rule gives 10 at position 2, matching the given pattern.",
+      "visual": {
+        "family": "differences",
+        "kind": "stair",
+        "shape": null,
+        "known": [
+          6,
+          10,
+          16,
+          24
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "differences": [
+          4,
+          6,
+          8
+        ],
+        "a": 2,
+        "b": 4,
+        "rule": "2n(n+1)/2 + 4",
+        "target": 12,
+        "target_value": 160,
+        "claim": null
+      },
+      "id": "g9-pat-l03-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-pat-l03-p01",
+      "prompt": "The pattern begins 5, 8, 11, 14. Find term 7, showing the rule you used.",
+      "options": [
+        "23",
+        "24",
+        "41",
+        "20"
+      ],
+      "answer_index": 0,
+      "memo": "Label the given terms by positions 1 to 4: 5, 8, 11, 14. First differences are 3, 3, 3; use the pattern of differences or ratios to identify 3n + 2. Substitute n=7: term 7 is 23. Check: the rule gives 8 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "23": "Correct: Check: the rule gives 8 at position 2, matching the given pattern.",
+        "24": "Incorrect: Counts one extra tile or term.",
+        "41": "Incorrect: Extends a constant difference where the pattern changes.",
+        "20": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p02",
+      "prompt": "The pattern begins 7, 19, 39, 67. Find term 7, showing the rule you used.",
+      "options": [
+        "200",
+        "199",
+        "223",
+        "195"
+      ],
+      "answer_index": 1,
+      "memo": "Label the given terms by positions 1 to 4: 7, 19, 39, 67. First differences are 12, 20, 28; use the pattern of differences or ratios to identify 4n² + 3. Substitute n=7: term 7 is 199. Check: the rule gives 19 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "200": "Incorrect: Counts one extra tile or term.",
+        "199": "Correct: Check: the rule gives 19 at position 2, matching the given pattern.",
+        "223": "Incorrect: Extends a constant difference where the pattern changes.",
+        "195": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p03",
+      "prompt": "The pattern begins 9, 19, 34, 54. Find term 7, showing the rule you used.",
+      "options": [
+        "145",
+        "174",
+        "144",
+        "139"
+      ],
+      "answer_index": 2,
+      "memo": "Label the given terms by positions 1 to 4: 9, 19, 34, 54. First differences are 10, 15, 20; use the pattern of differences or ratios to identify 5n(n+1)/2 + 4. Substitute n=7: term 7 is 144. Check: the rule gives 19 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "145": "Incorrect: Counts one extra tile or term.",
+        "174": "Incorrect: Extends a constant difference where the pattern changes.",
+        "144": "Correct: Check: the rule gives 19 at position 2, matching the given pattern.",
+        "139": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p04",
+      "prompt": "The pattern begins 6, 30, 150, 750. Find term 7, showing the rule you used.",
+      "options": [
+        "93751",
+        "468750",
+        "93744",
+        "93750"
+      ],
+      "answer_index": 3,
+      "memo": "Label the given terms by positions 1 to 4: 6, 30, 150, 750. First differences are 24, 120, 600; use the pattern of differences or ratios to identify 6 × 5^(n−1). Substitute n=7: term 7 is 93750. Check: the rule gives 30 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "93751": "Incorrect: Counts one extra tile or term.",
+        "468750": "Incorrect: Extends a constant difference where the pattern changes.",
+        "93744": "Incorrect: Uses the wrong position or rule parameter.",
+        "93750": "Correct: Check: the rule gives 30 at position 2, matching the given pattern."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p05",
+      "prompt": "The pattern begins 27, 41, 55, 69. Find term 7, showing the rule you used.",
+      "options": [
+        "111",
+        "112",
+        "153",
+        "104"
+      ],
+      "answer_index": 0,
+      "memo": "Label the given terms by positions 1 to 4: 27, 41, 55, 69. First differences are 14, 14, 14; use the pattern of differences or ratios to identify 7(2n+1) + 6. Substitute n=7: term 7 is 111. Check: the rule gives 41 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "111": "Correct: Check: the rule gives 41 at position 2, matching the given pattern.",
+        "112": "Incorrect: Counts one extra tile or term.",
+        "153": "Incorrect: Extends a constant difference where the pattern changes.",
+        "104": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p06",
+      "prompt": "The pattern begins 8, 12, 16, 20. Find term 8, showing the rule you used.",
+      "options": [
+        "37",
+        "36",
+        "64",
+        "32"
+      ],
+      "answer_index": 1,
+      "memo": "Label the given terms by positions 1 to 4: 8, 12, 16, 20. First differences are 4, 4, 4; use the pattern of differences or ratios to identify 4n + 4. Substitute n=8: term 8 is 36. Check: the rule gives 12 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "37": "Incorrect: Counts one extra tile or term.",
+        "36": "Correct: Check: the rule gives 12 at position 2, matching the given pattern.",
+        "64": "Incorrect: Extends a constant difference where the pattern changes.",
+        "32": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p07",
+      "prompt": "The pattern begins 10, 25, 50, 85. Find term 8, showing the rule you used.",
+      "options": [
+        "326",
+        "360",
+        "325",
+        "320"
+      ],
+      "answer_index": 2,
+      "memo": "Label the given terms by positions 1 to 4: 10, 25, 50, 85. First differences are 15, 25, 35; use the pattern of differences or ratios to identify 5n² + 5. Substitute n=8: term 8 is 325. Check: the rule gives 25 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "326": "Incorrect: Counts one extra tile or term.",
+        "360": "Incorrect: Extends a constant difference where the pattern changes.",
+        "325": "Correct: Check: the rule gives 25 at position 2, matching the given pattern.",
+        "320": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p08",
+      "prompt": "The pattern begins 12, 24, 42, 66. Find term 8, showing the rule you used.",
+      "options": [
+        "223",
+        "264",
+        "216",
+        "222"
+      ],
+      "answer_index": 3,
+      "memo": "Label the given terms by positions 1 to 4: 12, 24, 42, 66. First differences are 12, 18, 24; use the pattern of differences or ratios to identify 6n(n+1)/2 + 6. Substitute n=8: term 8 is 222. Check: the rule gives 24 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "223": "Incorrect: Counts one extra tile or term.",
+        "264": "Incorrect: Extends a constant difference where the pattern changes.",
+        "216": "Incorrect: Uses the wrong position or rule parameter.",
+        "222": "Correct: Check: the rule gives 24 at position 2, matching the given pattern."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p09",
+      "prompt": "The pattern begins 7, 49, 343, 2401. Find term 8, showing the rule you used.",
+      "options": [
+        "5764801",
+        "5764802",
+        "40353607",
+        "5764794"
+      ],
+      "answer_index": 0,
+      "memo": "Label the given terms by positions 1 to 4: 7, 49, 343, 2401. First differences are 42, 294, 2058; use the pattern of differences or ratios to identify 7 × 7^(n−1). Substitute n=8: term 8 is 5764801. Check: the rule gives 49 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "5764801": "Correct: Check: the rule gives 49 at position 2, matching the given pattern.",
+        "5764802": "Incorrect: Counts one extra tile or term.",
+        "40353607": "Incorrect: Extends a constant difference where the pattern changes.",
+        "5764794": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p10",
+      "prompt": "The pattern begins 32, 48, 64, 80. Find term 8, showing the rule you used.",
+      "options": [
+        "145",
+        "144",
+        "200",
+        "136"
+      ],
+      "answer_index": 1,
+      "memo": "Label the given terms by positions 1 to 4: 32, 48, 64, 80. First differences are 16, 16, 16; use the pattern of differences or ratios to identify 8(2n+1) + 8. Substitute n=8: term 8 is 144. Check: the rule gives 48 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "145": "Incorrect: Counts one extra tile or term.",
+        "144": "Correct: Check: the rule gives 48 at position 2, matching the given pattern.",
+        "200": "Incorrect: Extends a constant difference where the pattern changes.",
+        "136": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p11",
+      "prompt": "The pattern begins 11, 16, 21, 26. Find term 6, showing the rule you used.",
+      "options": [
+        "37",
+        "61",
+        "36",
+        "31"
+      ],
+      "answer_index": 2,
+      "memo": "Label the given terms by positions 1 to 4: 11, 16, 21, 26. First differences are 5, 5, 5; use the pattern of differences or ratios to identify 5n + 6. Substitute n=6: term 6 is 36. Check: the rule gives 16 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "37": "Incorrect: Counts one extra tile or term.",
+        "61": "Incorrect: Extends a constant difference where the pattern changes.",
+        "36": "Correct: Check: the rule gives 16 at position 2, matching the given pattern.",
+        "31": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p12",
+      "prompt": "The pattern begins 13, 31, 61, 103. Find term 6, showing the rule you used.",
+      "options": [
+        "224",
+        "253",
+        "217",
+        "223"
+      ],
+      "answer_index": 3,
+      "memo": "Label the given terms by positions 1 to 4: 13, 31, 61, 103. First differences are 18, 30, 42; use the pattern of differences or ratios to identify 6n² + 7. Substitute n=6: term 6 is 223. Check: the rule gives 31 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "224": "Incorrect: Counts one extra tile or term.",
+        "253": "Incorrect: Extends a constant difference where the pattern changes.",
+        "217": "Incorrect: Uses the wrong position or rule parameter.",
+        "223": "Correct: Check: the rule gives 31 at position 2, matching the given pattern."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p13",
+      "prompt": "The pattern begins 15, 29, 50, 78. Find term 6, showing the rule you used.",
+      "options": [
+        "155",
+        "156",
+        "190",
+        "148"
+      ],
+      "answer_index": 0,
+      "memo": "Label the given terms by positions 1 to 4: 15, 29, 50, 78. First differences are 14, 21, 28; use the pattern of differences or ratios to identify 7n(n+1)/2 + 8. Substitute n=6: term 6 is 155. Check: the rule gives 29 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "155": "Correct: Check: the rule gives 29 at position 2, matching the given pattern.",
+        "156": "Incorrect: Counts one extra tile or term.",
+        "190": "Incorrect: Extends a constant difference where the pattern changes.",
+        "148": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p14",
+      "prompt": "The pattern begins 8, 72, 648, 5832. Find term 6, showing the rule you used.",
+      "options": [
+        "472393",
+        "472392",
+        "4251528",
+        "472384"
+      ],
+      "answer_index": 1,
+      "memo": "Label the given terms by positions 1 to 4: 8, 72, 648, 5832. First differences are 64, 576, 5184; use the pattern of differences or ratios to identify 8 × 9^(n−1). Substitute n=6: term 6 is 472392. Check: the rule gives 72 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "472393": "Incorrect: Counts one extra tile or term.",
+        "472392": "Correct: Check: the rule gives 72 at position 2, matching the given pattern.",
+        "4251528": "Incorrect: Extends a constant difference where the pattern changes.",
+        "472384": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-p15",
+      "prompt": "The pattern begins 37, 55, 73, 91. Find term 6, showing the rule you used.",
+      "options": [
+        "128",
+        "172",
+        "127",
+        "118"
+      ],
+      "answer_index": 2,
+      "memo": "Label the given terms by positions 1 to 4: 37, 55, 73, 91. First differences are 18, 18, 18; use the pattern of differences or ratios to identify 9(2n+1) + 10. Substitute n=6: term 6 is 127. Check: the rule gives 55 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "128": "Incorrect: Counts one extra tile or term.",
+        "172": "Incorrect: Extends a constant difference where the pattern changes.",
+        "127": "Correct: Check: the rule gives 55 at position 2, matching the given pattern.",
+        "118": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-pat-l03-m01",
+      "prompt": "The pattern begins 14, 20, 26, 32. Find term 7, showing the rule you used.",
+      "options": [
+        "50",
+        "51",
+        "86",
+        "44"
+      ],
+      "answer_index": 0,
+      "memo": "Label the given terms by positions 1 to 4: 14, 20, 26, 32. First differences are 6, 6, 6; use the pattern of differences or ratios to identify 6n + 8. Substitute n=7: term 7 is 50. Check: the rule gives 20 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "50": "Correct: Check: the rule gives 20 at position 2, matching the given pattern.",
+        "51": "Incorrect: Counts one extra tile or term.",
+        "86": "Incorrect: Extends a constant difference where the pattern changes.",
+        "44": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-m02",
+      "prompt": "The pattern begins 16, 37, 72, 121. Find term 7, showing the rule you used.",
+      "options": [
+        "353",
+        "352",
+        "394",
+        "345"
+      ],
+      "answer_index": 1,
+      "memo": "Label the given terms by positions 1 to 4: 16, 37, 72, 121. First differences are 21, 35, 49; use the pattern of differences or ratios to identify 7n² + 9. Substitute n=7: term 7 is 352. Check: the rule gives 37 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "353": "Incorrect: Counts one extra tile or term.",
+        "352": "Correct: Check: the rule gives 37 at position 2, matching the given pattern.",
+        "394": "Incorrect: Extends a constant difference where the pattern changes.",
+        "345": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-m03",
+      "prompt": "The pattern begins 18, 34, 58, 90. Find term 7, showing the rule you used.",
+      "options": [
+        "235",
+        "282",
+        "234",
+        "226"
+      ],
+      "answer_index": 2,
+      "memo": "Label the given terms by positions 1 to 4: 18, 34, 58, 90. First differences are 16, 24, 32; use the pattern of differences or ratios to identify 8n(n+1)/2 + 10. Substitute n=7: term 7 is 234. Check: the rule gives 34 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "235": "Incorrect: Counts one extra tile or term.",
+        "282": "Incorrect: Extends a constant difference where the pattern changes.",
+        "234": "Correct: Check: the rule gives 34 at position 2, matching the given pattern.",
+        "226": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-m04",
+      "prompt": "The pattern begins 9, 99, 1089, 11979. Find term 7, showing the rule you used.",
+      "options": [
+        "15944050",
+        "175384539",
+        "15944040",
+        "15944049"
+      ],
+      "answer_index": 3,
+      "memo": "Label the given terms by positions 1 to 4: 9, 99, 1089, 11979. First differences are 90, 990, 10890; use the pattern of differences or ratios to identify 9 × 11^(n−1). Substitute n=7: term 7 is 15944049. Check: the rule gives 99 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "15944050": "Incorrect: Counts one extra tile or term.",
+        "175384539": "Incorrect: Extends a constant difference where the pattern changes.",
+        "15944040": "Incorrect: Uses the wrong position or rule parameter.",
+        "15944049": "Correct: Check: the rule gives 99 at position 2, matching the given pattern."
+      }
+    },
+    {
+      "id": "g9-pat-l03-m05",
+      "prompt": "The pattern begins 42, 62, 82, 102. Find term 7, showing the rule you used.",
+      "options": [
+        "162",
+        "163",
+        "222",
+        "152"
+      ],
+      "answer_index": 0,
+      "memo": "Label the given terms by positions 1 to 4: 42, 62, 82, 102. First differences are 20, 20, 20; use the pattern of differences or ratios to identify 10(2n+1) + 12. Substitute n=7: term 7 is 162. Check: the rule gives 62 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "162": "Correct: Check: the rule gives 62 at position 2, matching the given pattern.",
+        "163": "Incorrect: Counts one extra tile or term.",
+        "222": "Incorrect: Extends a constant difference where the pattern changes.",
+        "152": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-pat-l03-r01",
+      "prompt": "The pattern begins 17, 24, 31, 38. Find term 8, showing the rule you used.",
+      "options": [
+        "66",
+        "67",
+        "115",
+        "59"
+      ],
+      "answer_index": 0,
+      "memo": "Label the given terms by positions 1 to 4: 17, 24, 31, 38. First differences are 7, 7, 7; use the pattern of differences or ratios to identify 7n + 10. Substitute n=8: term 8 is 66. Check: the rule gives 24 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "66": "Correct: Check: the rule gives 24 at position 2, matching the given pattern.",
+        "67": "Incorrect: Counts one extra tile or term.",
+        "115": "Incorrect: Extends a constant difference where the pattern changes.",
+        "59": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-r02",
+      "prompt": "The pattern begins 19, 43, 83, 139. Find term 8, showing the rule you used.",
+      "options": [
+        "524",
+        "523",
+        "579",
+        "515"
+      ],
+      "answer_index": 1,
+      "memo": "Label the given terms by positions 1 to 4: 19, 43, 83, 139. First differences are 24, 40, 56; use the pattern of differences or ratios to identify 8n² + 11. Substitute n=8: term 8 is 523. Check: the rule gives 43 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "524": "Incorrect: Counts one extra tile or term.",
+        "523": "Correct: Check: the rule gives 43 at position 2, matching the given pattern.",
+        "579": "Incorrect: Extends a constant difference where the pattern changes.",
+        "515": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    },
+    {
+      "id": "g9-pat-l03-r03",
+      "prompt": "The pattern begins 21, 39, 66, 102. Find term 8, showing the rule you used.",
+      "options": [
+        "337",
+        "399",
+        "336",
+        "327"
+      ],
+      "answer_index": 2,
+      "memo": "Label the given terms by positions 1 to 4: 21, 39, 66, 102. First differences are 18, 27, 36; use the pattern of differences or ratios to identify 9n(n+1)/2 + 12. Substitute n=8: term 8 is 336. Check: the rule gives 39 at position 2, matching the given pattern.",
+      "misconception": "pattern-relation",
+      "option_rationales": {
+        "337": "Incorrect: Counts one extra tile or term.",
+        "399": "Incorrect: Extends a constant difference where the pattern changes.",
+        "336": "Correct: Check: the rule gives 39 at position 2, matching the given pattern.",
+        "327": "Incorrect: Uses the wrong position or rule parameter."
+      }
+    }
+  ]
+}

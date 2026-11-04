@@ -1,0 +1,10 @@
+.g9-pat-board{display:grid;min-width:0;gap:.7rem;padding:.8rem;border:1px solid #bedbd7;border-radius:14px;background:linear-gradient(150deg,#f1fbfa,#fff)}
+.g9-pat-question{margin:0;font-weight:750;color:#10243f}.g9-pat-visual{min-width:0;overflow-x:auto}
+.g9-pat-row{display:flex;gap:.55rem;align-items:stretch;max-width:100%;overflow-x:auto;padding:.25rem .1rem}
+.g9-pat-term{flex:1 0 88px;max-width:190px;border:1px solid #c4dbd9;border-radius:10px;background:white;padding:.35rem .5rem;display:grid;gap:.3rem}
+.g9-pat-term small,.g9-pat-changes small{font-size:.76rem;color:#466674}.g9-pat-term strong{font-size:1.05rem;color:#14334c}
+.g9-pat-term svg{width:100%;max-height:90px;fill:#16818b;stroke:#0c6976;stroke-width:.7}
+.g9-pat-changes,.g9-pat-rule,.g9-pat-claim,.g9-pat-target{margin:.4rem 0;padding:.4rem .55rem;border-radius:8px;background:#e4f3f1}
+.g9-pat-changes{display:grid;gap:.2rem}.g9-pat-rule{font-weight:700}.g9-pat-answer{min-height:1.2em;margin:0;font-weight:750}
+.g9-pat-action{min-height:1.4em;overflow-wrap:anywhere}.g9-pat-action>div:empty{display:none}
+@media(max-width:520px){.g9-pat-board{padding:.45rem}.g9-pat-term{flex-basis:92px}}

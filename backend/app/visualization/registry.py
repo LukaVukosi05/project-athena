@@ -23,7 +23,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -636,7 +636,27 @@ def _grade9_whole_board(parameters: dict, family: str) -> None:
         or scene.get('actions') is None or len(scene['actions'])!=parameters['total_steps']
         or not 3<=parameters['total_steps']<=18):
         raise ValueError('Grade 9 source scene, question and step count disagree')
-    if family.startswith('exponent_'):
+    if family.startswith('pattern_'):
+        visual=scene.get('visual',{})
+        if (not isinstance(visual,dict) or visual.get('family') not in {'tiles','table','differences','rule','diagnosis'}
+            or visual.get('kind') not in {'linear','geometric','square','stair','border'}
+            or not isinstance(visual.get('known'),list) or len(visual['known']) not in (3,4)
+            or any(type(x) is not int or abs(x)>10000 for x in visual['known'])
+            or not isinstance(visual.get('a'),int) or not isinstance(visual.get('b'),int)
+            or not isinstance(visual.get('target'),int) or not 4<=visual['target']<=20
+            or scene.get('actions',[])[-1]!=scene.get('check')
+            or scene.get('answer') not in scene['actions'][-2]):
+            raise ValueError('Pattern needs its own bounded terms, mathematical rule and final check')
+        a,b=visual['a'],visual['b']
+        def t(n):
+            return {'linear':lambda:a*n+b,'geometric':lambda:a*b**(n-1),
+                'square':lambda:a*n*n+b,'stair':lambda:a*n*(n+1)//2+b,
+                'border':lambda:a*(2*n+1)+b}[visual['kind']]()
+        if (visual['known']!=[t(n) for n in range(1,len(visual['known'])+1)]
+            or visual.get('target_value')!=t(visual['target'])
+            or scene['answer']!=(visual['rule'] if visual['family'] in {'rule','diagnosis'} else str(t(visual['target'])))):
+            raise ValueError('Pattern answer or pictured terms disagree with the source rule')
+    elif family.startswith('exponent_'):
         visual=scene.get('visual')
         if (not isinstance(visual,dict) or visual.get('family') not in {'factors','law','reciprocal','scale','compare','context','diagnosis'}
             or not isinstance(scene.get('givens'),list) or not scene['givens']
@@ -1030,6 +1050,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'exponent_{n}'),True)
        for n in range(1,7)},
+    **{("algebra",f"grade9_pattern_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade9_whole_board(p,f'pattern_{n}'),True)
+       for n in range(1,6)},
     ("algebra", "grade8_decimal_product"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),_grade8_decimal_product,True),
     ("algebra", "grade8_decimal_quotient"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),_grade8_decimal_quotient,True),
     ("algebra", "grade8_decimal_power"): TemplateDefinition(frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),lambda parameters: _grade8_decimal_power_root(parameters,"power"),True),
