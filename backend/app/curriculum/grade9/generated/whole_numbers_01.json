@@ -1,0 +1,558 @@
+{
+  "source": "lesson-01-number-systems.md",
+  "worked": [
+    {
+      "id": "g9-whole-l01-w01",
+      "problem": "Classify 6 in its smallest set and list every larger set.",
+      "difficulty": "foundation",
+      "actions": [
+        "Point to 6 as a positive counting number",
+        "place the 6 token in N",
+        "illuminate W, Z, Q and R outward. Written: 6 ∈ N",
+        "therefore 6 ∈ W, Z, Q, R.",
+        "Check: Check 6 = 6/1."
+      ],
+      "misconception": "Check 6 = 6/1. Error: calling Q its *smallest* set.",
+      "memo": "Point to 6 as a positive counting number; place the 6 token in N; illuminate W, Z, Q and R outward. Written: 6 ∈ N; therefore 6 ∈ W, Z, Q, R.",
+      "check": "Check: Check 6 = 6/1.",
+      "token": "6",
+      "category": "N"
+    },
+    {
+      "id": "g9-whole-l01-w02",
+      "problem": "Is 0 natural or whole under the displayed convention? List its memberships.",
+      "difficulty": "easy",
+      "actions": [
+        "Display N beginning at 1",
+        "show 0 at the origin",
+        "place 0 in W but outside N",
+        "illuminate Z, Q, R. Written: 0 ∈ W, Z, Q, R",
+        "0 ∉ N.",
+        "Check: Check 0 = 0/1."
+      ],
+      "misconception": "Check 0 = 0/1. Error: silently changing the N convention.",
+      "memo": "Display N beginning at 1; show 0 at the origin; place 0 in W but outside N; illuminate Z, Q, R. Written: 0 ∈ W, Z, Q, R; 0 ∉ N.",
+      "check": "Check: Check 0 = 0/1.",
+      "token": "0",
+      "category": "W"
+    },
+    {
+      "id": "g9-whole-l01-w03",
+      "problem": "Classify −7 in its smallest set.",
+      "difficulty": "easy",
+      "actions": [
+        "Place −7 left of zero",
+        "note it is an integer, not whole",
+        "move token into Z",
+        "illuminate Q and R. Written: −7 ∈ Z, Q, R",
+        "−7 ∉ W.",
+        "Check: Check −7 = −7/1."
+      ],
+      "misconception": "Check −7 = −7/1. Error: assuming a negative number cannot be rational.",
+      "memo": "Place −7 left of zero; note it is an integer, not whole; move token into Z; illuminate Q and R. Written: −7 ∈ Z, Q, R; −7 ∉ W.",
+      "check": "Check: Check −7 = −7/1.",
+      "token": "−7",
+      "category": "Z"
+    },
+    {
+      "id": "g9-whole-l01-w04",
+      "problem": "Classify 3/4 and justify whether it is an integer.",
+      "difficulty": "standard",
+      "actions": [
+        "Draw four equal parts with three filled",
+        "write numerator and nonzero denominator",
+        "place in Q outside Z",
+        "illuminate R. Written: 3/4 ∈ Q, R",
+        "3/4 ∉ Z.",
+        "Check: Check 0 < 3/4 < 1."
+      ],
+      "misconception": "Check 0 < 3/4 < 1. Error: calling every fraction an integer.",
+      "memo": "Draw four equal parts with three filled; write numerator and nonzero denominator; place in Q outside Z; illuminate R. Written: 3/4 ∈ Q, R; 3/4 ∉ Z.",
+      "check": "Check: Check 0 < 3/4 < 1.",
+      "token": "3/4",
+      "category": "Q"
+    },
+    {
+      "id": "g9-whole-l01-w05",
+      "problem": "Classify −2.5 using a fraction.",
+      "difficulty": "standard",
+      "actions": [
+        "Mark −2.5 on a line",
+        "rewrite −2.5 = −25/10 = −5/2",
+        "place in Q",
+        "illuminate R.",
+        "Check: Check −5 ÷ 2 = −2.5."
+      ],
+      "misconception": "Check −5 ÷ 2 = −2.5. Error: treating negative decimals as irrational.",
+      "memo": "Mark −2.5 on a line; rewrite −2.5 = −25/10 = −5/2; place in Q; illuminate R.",
+      "check": "Check: Check −5 ÷ 2 = −2.5.",
+      "token": "−2.5",
+      "category": "Q"
+    },
+    {
+      "id": "g9-whole-l01-w06",
+      "problem": "Classify 0.333… where the 3 repeats forever.",
+      "difficulty": "standard",
+      "actions": [
+        "Highlight repeating digit",
+        "write x = 0.333…, 10x = 3.333…, subtract to get 9x = 3, hence x = 1/3",
+        "move into Q",
+        "illuminate R.",
+        "Check: Check 1/3 = 0.333…."
+      ],
+      "misconception": "Check 1/3 = 0.333…. Error: equating nonterminating with irrational.",
+      "memo": "Highlight repeating digit; write x = 0.333…, 10x = 3.333…, subtract to get 9x = 3, hence x = 1/3; move into Q; illuminate R.",
+      "check": "Check: Check 1/3 = 0.333….",
+      "token": "0.333…",
+      "category": "Q"
+    },
+    {
+      "id": "g9-whole-l01-w07",
+      "problem": "Classify √49 after evaluating it.",
+      "difficulty": "standard",
+      "actions": [
+        "Highlight radical",
+        "pair 7 × 7 = 49",
+        "replace √49 with 7 as the principal root",
+        "place in N, illuminate W, Z, Q, R.",
+        "Check: Check 7² = 49 and √49 ≥ 0."
+      ],
+      "misconception": "Check 7² = 49 and √49 ≥ 0. Error: classifying by the radical sign or using ±7 as √49.",
+      "memo": "Highlight radical; pair 7 × 7 = 49; replace √49 with 7 as the principal root; place in N, illuminate W, Z, Q, R.",
+      "check": "Check: Check 7² = 49 and √49 ≥ 0.",
+      "token": "√49",
+      "category": "N"
+    },
+    {
+      "id": "g9-whole-l01-w08",
+      "problem": "Classify √2, distinguishing it from √4.",
+      "difficulty": "intermediate",
+      "actions": [
+        "Show √4 = 2 as a contrast, then locate √2 between 1 and 2",
+        "state its decimal does not terminate or repeat",
+        "place √2 in I, illuminate R only.",
+        "Check: Check 1² < 2 < 2²; do not claim a finite decimal is exact."
+      ],
+      "misconception": "Check 1² < 2 < 2²; do not claim a finite decimal is exact. Error: all radicals are irrational.",
+      "memo": "Show √4 = 2 as a contrast, then locate √2 between 1 and 2; state its decimal does not terminate or repeat; place √2 in I, illuminate R only.",
+      "check": "Check: Check 1² < 2 < 2²; do not claim a finite decimal is exact.",
+      "token": "√2",
+      "category": "I",
+      "secondary": "√4 = 2",
+      "secondary_input": "√4",
+      "secondary_category": "N",
+      "primary_stage": 3,
+      "secondary_stage": 1
+    },
+    {
+      "id": "g9-whole-l01-w09",
+      "problem": "Classify −√81.",
+      "difficulty": "intermediate",
+      "actions": [
+        "Find principal √81 = 9",
+        "apply the outside negative sign to obtain −9",
+        "place in Z, illuminate Q and R.",
+        "Check: Check −√81 = −9, not +9; 9² = 81."
+      ],
+      "misconception": "Check −√81 = −9, not +9; 9² = 81. Error: dropping the outside minus.",
+      "memo": "Find principal √81 = 9; apply the outside negative sign to obtain −9; place in Z, illuminate Q and R.",
+      "check": "Check: Check −√81 = −9, not +9; 9² = 81.",
+      "token": "−√81",
+      "category": "Z"
+    },
+    {
+      "id": "g9-whole-l01-w10",
+      "problem": "Classify π and decide whether 22/7 is the same number.",
+      "difficulty": "intermediate",
+      "actions": [
+        "Put π in I",
+        "draw an approximation arrow from 22/7 to π without an equality sign",
+        "show 22/7 is in Q",
+        "illuminate R for both.",
+        "Check: Check 22/7 ≈ π but is not equal."
+      ],
+      "misconception": "Check 22/7 ≈ π but is not equal. Error: an approximation inherits the exact number's set.",
+      "memo": "Put π in I; draw an approximation arrow from 22/7 to π without an equality sign; show 22/7 is in Q; illuminate R for both.",
+      "check": "Check: Check 22/7 ≈ π but is not equal.",
+      "token": "π",
+      "category": "I",
+      "secondary": "22/7",
+      "secondary_input": "22/7",
+      "secondary_category": "Q",
+      "primary_stage": 1,
+      "secondary_stage": 3
+    },
+    {
+      "id": "g9-whole-l01-w11",
+      "problem": "Classify −√16/2, reading the numerator as −√16.",
+      "difficulty": "exam",
+      "actions": [
+        "Evaluate √16 = 4",
+        "retain outside minus: −4/2",
+        "divide to get −2",
+        "place in Z",
+        "illuminate Q and R.",
+        "Check: Substitute back: −√16/2 = −4/2 = −2."
+      ],
+      "misconception": "Substitute back: −√16/2 = −4/2 = −2. Error: applying minus to denominator or classifying before simplification.",
+      "memo": "Evaluate √16 = 4; retain outside minus: −4/2; divide to get −2; place in Z; illuminate Q and R.",
+      "check": "Check: Substitute back: −√16/2 = −4/2 = −2.",
+      "token": "−√16/2",
+      "category": "Z"
+    },
+    {
+      "id": "g9-whole-l01-w12",
+      "problem": "A learner says 2/0 is irrational because it is not rational. Diagnose the first error.",
+      "difficulty": "exam",
+      "actions": [
+        "Highlight denominator 0",
+        "show division by zero is undefined",
+        "block the token outside R",
+        "distinguish not rational from irrational real.",
+        "Check: Check no real y satisfies 0 × y = 2."
+      ],
+      "misconception": "Check no real y satisfies 0 × y = 2. Error: taking complement of Q in all expressions instead of within R.",
+      "memo": "Highlight denominator 0; show division by zero is undefined; block the token outside R; distinguish not rational from irrational real.",
+      "check": "Check: Check no real y satisfies 0 × y = 2.",
+      "token": "2/0",
+      "category": "outside"
+    },
+    {
+      "id": "g9-whole-l01-w13",
+      "problem": "Classify 0.101001000100001…, where each successive 1 has one more zero before it.",
+      "difficulty": "exam",
+      "actions": [
+        "Mark successive increasing zero runs",
+        "note the decimal never terminates and has no repeating fixed block",
+        "place in I, illuminate R.",
+        "Check: Check the displayed rule continues indefinitely."
+      ],
+      "misconception": "Check the displayed rule continues indefinitely. Error: mistaking visible repeated 1s for a repeating decimal period.",
+      "memo": "Mark successive increasing zero runs; note the decimal never terminates and has no repeating fixed block; place in I, illuminate R.",
+      "check": "Check: Check the displayed rule continues indefinitely.",
+      "token": "0.101001000100001…",
+      "category": "I"
+    },
+    {
+      "id": "g9-whole-l01-w14",
+      "problem": "Classify (√50)/√2 using exact arithmetic.",
+      "difficulty": "advanced",
+      "actions": [
+        "Confirm denominator is nonzero",
+        "combine radicals for positive values: √(50/2) = √25",
+        "evaluate 5",
+        "move token from an unclassified radical expression into N",
+        "illuminate W, Z, Q, R.",
+        "Check: Check √50 = 5√2, so ratio is 5."
+      ],
+      "misconception": "Check √50 = 5√2, so ratio is 5. Error: declaring the original expression irrational because each radical looks irrational.",
+      "memo": "Confirm denominator is nonzero; combine radicals for positive values: √(50/2) = √25; evaluate 5; move token from an unclassified radical expression into N; illuminate W, Z, Q, R.",
+      "check": "Check: Check √50 = 5√2, so ratio is 5.",
+      "token": "√50/√2",
+      "category": "N"
+    },
+    {
+      "id": "g9-whole-l01-w15",
+      "problem": "Classify √(−9) in the real-number system and explain why it differs from −√9.",
+      "difficulty": "advanced",
+      "actions": [
+        "Show the negative lies *inside* the radical",
+        "no real square is −9, so place outside R",
+        "contrast with −√9 = −3, which belongs to Z, Q, R.",
+        "Check: Check every real square is ≥0."
+      ],
+      "misconception": "Check every real square is ≥0. Error: moving the minus outside the radical.",
+      "memo": "Show the negative lies *inside* the radical; no real square is −9, so place outside R; contrast with −√9 = −3, which belongs to Z, Q, R.",
+      "check": "Check: Check every real square is ≥0.",
+      "token": "√(−9)",
+      "category": "outside",
+      "secondary": "−√9 = −3",
+      "secondary_input": "−√9",
+      "secondary_category": "Z",
+      "primary_stage": 2,
+      "secondary_stage": 3
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-whole-l01-p01",
+      "prompt": "Smallest set for 14?",
+      "options": [
+        "N",
+        "W",
+        "Z",
+        "Q"
+      ],
+      "answer_index": 0,
+      "memo": "A. Counting number; B–D are larger containing sets."
+    },
+    {
+      "id": "g9-whole-l01-p02",
+      "prompt": "Smallest set for 0 under N starting at 1?",
+      "options": [
+        "N",
+        "Z",
+        "W",
+        "I"
+      ],
+      "answer_index": 2,
+      "memo": "C. Zero is whole; A changes the convention, B is too broad, D ignores 0/1."
+    },
+    {
+      "id": "g9-whole-l01-p03",
+      "prompt": "Smallest set for −12?",
+      "options": [
+        "W",
+        "I",
+        "Q",
+        "Z"
+      ],
+      "answer_index": 3,
+      "memo": "D. Negative integer; A excludes negatives, B ignores −12/1, C is broader."
+    },
+    {
+      "id": "g9-whole-l01-p04",
+      "prompt": "Smallest set for 5/8?",
+      "options": [
+        "Z",
+        "Q",
+        "I",
+        "N"
+      ],
+      "answer_index": 1,
+      "memo": "B. Ratio of integers; A/D claim integer, C confuses fraction with irrationality."
+    },
+    {
+      "id": "g9-whole-l01-p05",
+      "prompt": "Smallest set for 1.75?",
+      "options": [
+        "I",
+        "W",
+        "Q",
+        "Z"
+      ],
+      "answer_index": 2,
+      "memo": "C. 7/4; A confuses decimal with irrationality, B/D assume integer."
+    },
+    {
+      "id": "g9-whole-l01-p06",
+      "prompt": "Smallest set for 0.272727…?",
+      "options": [
+        "I",
+        "Q",
+        "W",
+        "Z"
+      ],
+      "answer_index": 1,
+      "memo": "B. Repeated block makes it rational; A confuses nontermination, C/D assume integer."
+    },
+    {
+      "id": "g9-whole-l01-p07",
+      "prompt": "Smallest set for √64?",
+      "options": [
+        "N",
+        "I",
+        "Q",
+        "Z"
+      ],
+      "answer_index": 0,
+      "memo": "A. Principal root 8; B classifies by appearance, C/D are broader."
+    },
+    {
+      "id": "g9-whole-l01-p08",
+      "prompt": "Smallest set for √3?",
+      "options": [
+        "Q",
+        "N",
+        "Z",
+        "I"
+      ],
+      "answer_index": 3,
+      "memo": "D. √3 is irrational; A assumes fraction form, B/C assume exact integer."
+    },
+    {
+      "id": "g9-whole-l01-p09",
+      "prompt": "Smallest set for −√25?",
+      "options": [
+        "W",
+        "Q",
+        "Z",
+        "I"
+      ],
+      "answer_index": 2,
+      "memo": "C. Value −5; A excludes negatives, B broader, D classifies by appearance."
+    },
+    {
+      "id": "g9-whole-l01-p10",
+      "prompt": "Which statement about π and 3.14 is correct?",
+      "options": [
+        "Both are irrational",
+        "They are exactly equal",
+        "π is rational and 3.14 irrational",
+        "π is irrational; 3.14 is rational"
+      ],
+      "answer_index": 3,
+      "memo": "D. Finite 3.14 = 314/100; A/C conflate approximation, B replaces ≈ with =."
+    },
+    {
+      "id": "g9-whole-l01-p11",
+      "prompt": "Smallest set for 0/6?",
+      "options": [
+        "W",
+        "Q",
+        "I",
+        "N"
+      ],
+      "answer_index": 0,
+      "memo": "A. 0/6 = 0; B broader, C ignores valid fraction, D starts N at 1."
+    },
+    {
+      "id": "g9-whole-l01-p12",
+      "prompt": "How is 6/0 classified among real numbers?",
+      "options": [
+        "Rational",
+        "Irrational",
+        "Not a real number: undefined",
+        "Whole"
+      ],
+      "answer_index": 2,
+      "memo": "C. No division by zero; A/D falsely assign a value, B treats every non-rational expression as irrational."
+    },
+    {
+      "id": "g9-whole-l01-p13",
+      "prompt": "Smallest set for √18/√2?",
+      "options": [
+        "I",
+        "N",
+        "Q",
+        "Z"
+      ],
+      "answer_index": 1,
+      "memo": "B. √9 = 3; A classifies before simplification, C/D broader."
+    },
+    {
+      "id": "g9-whole-l01-p14",
+      "prompt": "Smallest set for −0.4?",
+      "options": [
+        "I",
+        "Z",
+        "W",
+        "Q"
+      ],
+      "answer_index": 3,
+      "memo": "D. −2/5; A calls terminating decimal irrational, B/C assume integer."
+    },
+    {
+      "id": "g9-whole-l01-p15",
+      "prompt": "Which claim is true?",
+      "options": [
+        "Every irrational is real",
+        "Every real is rational",
+        "Every integer is natural",
+        "No negative integer is rational"
+      ],
+      "answer_index": 0,
+      "memo": "A. B omits irrationals; C omits negatives; D ignores a/1."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-whole-l01-m01",
+      "prompt": "Smallest set for −√36/3?",
+      "options": [
+        "N",
+        "W",
+        "Z",
+        "I"
+      ],
+      "answer_index": 2,
+      "memo": "C. −√36/3 = −6/3 = −2 ∈ Z."
+    },
+    {
+      "id": "g9-whole-l01-m02",
+      "prompt": "Which is irrational?",
+      "options": [
+        "√121",
+        "2/11",
+        "0.666…",
+        "√7"
+      ],
+      "answer_index": 3,
+      "memo": "D. First is 11, second is a fraction, third repeats."
+    },
+    {
+      "id": "g9-whole-l01-m03",
+      "prompt": "Which is not a real number?",
+      "options": [
+        "−√16",
+        "√0",
+        "√(−4)",
+        "−4/2"
+      ],
+      "answer_index": 2,
+      "memo": "C. A real square cannot equal −4."
+    },
+    {
+      "id": "g9-whole-l01-m04",
+      "prompt": "Which fraction equals a repeating decimal?",
+      "options": [
+        "3/8",
+        "1/3",
+        "7/20",
+        "9/10"
+      ],
+      "answer_index": 1,
+      "memo": "B. 1/3 = 0.333…; the other fractions terminate."
+    },
+    {
+      "id": "g9-whole-l01-m05",
+      "prompt": "Which statement is valid?",
+      "options": [
+        "Q ⊂ Z",
+        "I ⊂ Q",
+        "Z ⊂ Q",
+        "R ⊂ W"
+      ],
+      "answer_index": 2,
+      "memo": "C. Every integer is a ratio a/1."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-whole-l01-r01",
+      "prompt": "Smallest set for √75/√3?",
+      "options": [
+        "I",
+        "Q",
+        "N",
+        "Z"
+      ],
+      "answer_index": 2,
+      "memo": "C. √25 = 5; positive counting number."
+    },
+    {
+      "id": "g9-whole-l01-r02",
+      "prompt": "Which value is undefined in the real system?",
+      "options": [
+        "√(−16)",
+        "−√16",
+        "0/8",
+        "√(16)"
+      ],
+      "answer_index": 0,
+      "memo": "A. No real square is −16; other values are −4, 0, 4."
+    },
+    {
+      "id": "g9-whole-l01-r03",
+      "prompt": "Smallest set for 0.181818…?",
+      "options": [
+        "I",
+        "Q",
+        "Z",
+        "W"
+      ],
+      "answer_index": 1,
+      "memo": "B. Repeating block 18 implies a rational ratio (18/99)."
+    }
+  ]
+}

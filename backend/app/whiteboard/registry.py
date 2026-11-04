@@ -104,6 +104,8 @@ for grade8_template in (
     )
 registry.register("pattern_step", "grade8_pattern_board", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("whole_number_step", "grade8_whole_number_board", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+registry.register("grade9_set_step", "grade9_number_sets", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+registry.register("grade9_factor_step", "grade9_prime_factors", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("fraction_stage", "grade8_fraction_strips", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("fraction_operation_stage", "grade8_fraction_operations", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("fraction_model_stage", "grade8_fraction_powers_context", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))

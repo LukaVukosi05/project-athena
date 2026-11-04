@@ -1,0 +1,24 @@
+.g9-number-board{display:grid;gap:1rem;min-width:0;padding:clamp(.8rem,2vw,1.3rem);border:1px solid #bad5d8;border-radius:1rem;background:linear-gradient(150deg,#f9fdfd,#eef8f8);color:#142d3b}
+.g9-given{margin:0;font-weight:700;font-size:1.08rem}
+.g9-number-stage{display:grid;grid-template-columns:minmax(0,2fr) minmax(9rem,1fr);gap:1rem;align-items:center}
+.g9-set-stack{display:grid;gap:.35rem;min-width:0}
+.g9-set{border:1px solid #b4ced0;border-radius:.55rem;background:#fff;padding:.32rem .65rem;min-height:2rem;display:flex;justify-content:space-between;gap:.4rem;align-items:center}
+.g9-set--R{margin-left:0}.g9-set--Q{margin-left:.8rem}.g9-set--Z{margin-left:1.6rem}.g9-set--W{margin-left:2.4rem}.g9-set--N{margin-left:3.2rem}
+.g9-set--irrational{margin-left:.8rem;border-style:dashed}
+.g9-set--active{border-color:#087f83;background:#e2f5f2;box-shadow:inset 3px 0 #087f83}
+.g9-token-tray{display:grid;gap:.3rem;border-radius:.65rem;padding:.75rem;background:#fff;overflow-wrap:anywhere}
+.g9-token-tray strong{font-size:1.2rem;color:#126c74}
+.g9-factor-stage{display:flex;flex-wrap:wrap;gap:.65rem}
+.g9-factor-card{flex:1 1 8rem;min-width:0;max-width:16rem;border:1px solid #b4ced0;border-radius:.6rem;background:white;padding:.65rem;display:grid;gap:.4rem}
+.g9-factor-card>strong{font-size:1.25rem;color:#126c74}
+.g9-factor-card p{margin:.1rem 0;font-weight:700}
+.g9-factor-branch{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;animation:g9-reveal .35s ease-out}
+.g9-context-track{display:flex;gap:.5rem;flex-wrap:wrap}
+.g9-context-track span,.g9-ribbon{padding:.4rem .65rem;border-radius:.4rem;background:#d9f1ec}
+.g9-selection{margin:0;min-height:1.35rem;font-weight:700}
+.g9-board-action{display:grid;gap:.35rem}
+.g9-action{display:none;border-left:3px solid #087f83;background:white;padding:.45rem .65rem;overflow-wrap:anywhere}
+.g9-action.is-active{display:block;animation:g9-reveal .35s ease-out}
+@keyframes g9-reveal{from{opacity:.25;transform:translateY(5px)}to{opacity:1;transform:none}}
+@media(max-width:650px){.g9-number-stage{grid-template-columns:1fr}.g9-set--Q{margin-left:.35rem}.g9-set--Z{margin-left:.7rem}.g9-set--W{margin-left:1.05rem}.g9-set--N{margin-left:1.4rem}.g9-factor-card{flex-basis:45%;font-size:.9rem}}
+@media(prefers-reduced-motion:reduce){.g9-action.is-active,.g9-factor-branch{animation:none}}

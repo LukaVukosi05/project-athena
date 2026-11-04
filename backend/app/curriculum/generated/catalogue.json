@@ -897,7 +897,34 @@
       "grade_id": "grade-9",
       "title": "Grade 9 Mathematics",
       "curriculum": "CAPS",
-      "topics": []
+      "topics": [
+        {
+          "topic_id": "whole-numbers",
+          "topic_number": 1,
+          "title": "Whole Numbers",
+          "paper": null,
+          "expected_lesson_count": 2,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-whole-numbers-01",
+              "position": 1,
+              "title": "The real number system",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01-number-systems.md"
+            },
+            {
+              "lesson_id": "g9-whole-numbers-02",
+              "position": 2,
+              "title": "Prime factors, HCF and LCM",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02-prime-factors-hcf-lcm.md"
+            }
+          ]
+        }
+      ]
     },
     {
       "grade_id": "grade-10",

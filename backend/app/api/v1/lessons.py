@@ -136,6 +136,36 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                 item for item in question["whiteboard"]["semantic_objects"]
                 if item["id"] in {"problem", "stage-01"}
             ]
+    if grade.id == "grade-9":
+        import json
+        for question in payload.get("whiteboard_questions", []):
+            question["total_step_count"] = len(question["whiteboard"]["steps"])
+            question["solution_gated"] = True
+            board = question["whiteboard"]
+            preview = board["steps"][0]
+            preview["working_expression"] = preview["before_expression"]
+            preview["after_expression"] = preview["before_expression"]
+            preview["events"] = []
+            preview["narration"] = ""
+            preview["common_mistake"] = None
+            preview["state_after"] = {}
+            preview["operation"]["value"] = "Read the original question"
+            preview["title"] = "Read the original question"
+            preview["explanation"] = {key: "Start with the complete question." for key in preview["explanation"]}
+            preview["screen_reader_description"] = board["problem"]
+            preview["instructional_goal"] = "Read the original question"
+            preview["visualization_state"]["working_state"] = preview["before_expression"]
+            preview["visualization_state"]["after_state"] = preview["before_expression"]
+            board["steps"] = [preview]
+            params = board["visualization"]["parameters"]
+            scene = json.loads(params["scene_json"])
+            for key in ("actions", "memo", "check", "category", "secondary", "secondary_category",
+                        "primary_stage", "secondary_stage", "factors", "misconception"):
+                scene.pop(key, None)
+            params["scene_json"] = json.dumps(scene, ensure_ascii=False)
+            board["semantic_objects"] = [item for item in board["semantic_objects"] if item["id"] in {"problem", "model", "token", "factor-roots"}]
+        previews = {item["whiteboard"]["id"]:item["whiteboard"] for item in payload.get("whiteboard_questions", [])}
+        payload["blocks"] = [previews.get(block.get("id"), block) for block in payload.get("blocks", [])]
     if grade.id == "grade-8":
         previews = {item["whiteboard"]["id"]:item["whiteboard"] for item in payload.get("whiteboard_questions", [])}
         payload["blocks"] = [previews.get(block.get("id"),block) for block in payload.get("blocks", [])]
@@ -163,7 +193,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
 @router.post("/{lesson_id}/questions/{question_id}/reveal")
 def reveal_worked_example(lesson_id: str, question_id: str, user: User | None = Depends(get_optional_user)) -> dict:
     grade, _, _, lesson = _lesson_context(lesson_id)
-    if grade.id != "grade-8":
+    if grade.id not in {"grade-8", "grade-9"}:
         raise HTTPException(status_code=404, detail="Worked example not found")
     enforce_lesson_access(lesson, user)
     if lesson.id in {"g8-algebraic-equations-10", "g8-algebraic-expressions-10"}:

@@ -5,6 +5,8 @@ from typing import Literal
 
 from pydantic import BaseModel, Field, model_validator
 
+GRADE9_1_SOURCE = "lesson-01-number-systems.md"
+GRADE9_2_SOURCE = "lesson-02-prime-factors-hcf-lcm.md"
 SEQUENCES_SOURCE = "Project_Athena_Grade12_Topic1_Sequences_and_Series_Lesson_Pack.docx"
 FUNCTIONS_SOURCE = "Project_Athena_Grade12_Topic2_Functions_and_Graphs_Approved_Lesson_Pack.docx"
 FINANCE_SOURCE = "Project_Athena_Grade12_Topic3_Finance_Growth_and_Decay_Approved_Lesson_Pack.docx"
@@ -115,8 +117,8 @@ class WorkedSolutionStep(BaseModel):
 
 
 class PracticeQuestion(BaseModel):
-    id: str = Field(pattern=r"^(?:g8-(?:ae|ex|fr|graphs|patterns|whole|int|frac|dec|exp|lines|shapes|pythagoras)-l\d{2}-p\d{2}|g12-(?:seq|functions|finance|calculus)-l\d{2}-p\d{2}|G12-(?:ALG|STAT|AG)-L\d{2}-P\d{2})$")
-    lesson_id: str = Field(pattern=r"^(?:g8-(?:algebraic-(?:equations|expressions)|functions-relationships|graphs|patterns|whole-numbers|integers|common-fractions|decimal-fractions|exponents|straight-lines|shapes|pythagoras)|g12-(?:sequences-series|functions|finance|calculus|algebra|statistics|analytical-geometry))-\d{2}$")
+    id: str = Field(pattern=r"^(?:g8-(?:ae|ex|fr|graphs|patterns|whole|int|frac|dec|exp|lines|shapes|pythagoras)-l\d{2}-p\d{2}|g9-whole-l\d{2}-p\d{2}|g12-(?:seq|functions|finance|calculus)-l\d{2}-p\d{2}|G12-(?:ALG|STAT|AG)-L\d{2}-P\d{2})$")
+    lesson_id: str = Field(pattern=r"^(?:g8-(?:algebraic-(?:equations|expressions)|functions-relationships|graphs|patterns|whole-numbers|integers|common-fractions|decimal-fractions|exponents|straight-lines|shapes|pythagoras)|g9-whole-numbers|g12-(?:sequences-series|functions|finance|calculus|algebra|statistics|analytical-geometry))-\d{2}$")
     question_number: int = Field(ge=1, le=15)
     difficulty: Literal["foundation", "easy", "standard", "intermediate", "exam", "advanced", "source_unspecified"]
     cognitive_level: Literal["knowledge", "routine", "complex", "problem_solving", "source_unspecified"]
@@ -131,7 +133,7 @@ class PracticeQuestion(BaseModel):
     misconception_tags: list[str] = Field(default_factory=list, max_length=8)
     verification: dict[str, str] = Field(min_length=1, max_length=4)
     correct_feedback: str = Field(min_length=1, max_length=500)
-    source: Literal[SEQUENCES_SOURCE, FUNCTIONS_SOURCE, FINANCE_SOURCE, CALCULUS_SOURCE, ALGEBRA_SOURCE, STATISTICS_SOURCE, ANALYTICAL_GEOMETRY_SOURCE, GRADE8_ALGEBRA_SOURCE, GRADE8_EXPRESSIONS_SOURCE, GRADE8_EXPRESSIONS_2_SOURCE, GRADE8_EXPRESSIONS_3_SOURCE, GRADE8_EXPRESSIONS_4_SOURCE, GRADE8_EXPRESSIONS_5_SOURCE, GRADE8_EXPRESSIONS_6_SOURCE, GRADE8_EXPRESSIONS_7_SOURCE, GRADE8_EXPRESSIONS_8_SOURCE, GRADE8_EXPRESSIONS_9_SOURCE, GRADE8_EXPRESSIONS_10_SOURCE, GRADE8_FUNCTIONS_1_SOURCE, GRADE8_FUNCTIONS_2_SOURCE, GRADE8_FUNCTIONS_3_SOURCE, GRADE8_FUNCTIONS_4_SOURCE, GRADE8_FUNCTIONS_5_SOURCE, GRADE8_FUNCTIONS_6_SOURCE, GRADE8_GRAPHS_1_SOURCE, GRADE8_GRAPHS_2_SOURCE, GRADE8_GRAPHS_3_SOURCE, GRADE8_GRAPHS_4_SOURCE, GRADE8_GRAPHS_5_SOURCE, GRADE8_GRAPHS_6_SOURCE, GRADE8_PATTERNS_1_SOURCE, GRADE8_PATTERNS_2_SOURCE, GRADE8_PATTERNS_3_SOURCE, GRADE8_PATTERNS_4_SOURCE, GRADE8_PATTERNS_5_SOURCE, GRADE8_PATTERNS_6_SOURCE, GRADE8_WHOLE_1_SOURCE, GRADE8_WHOLE_2_SOURCE, GRADE8_INTEGER_1_SOURCE, GRADE8_INTEGER_2_SOURCE, GRADE8_INTEGER_3_SOURCE, GRADE8_INTEGER_4_SOURCE, GRADE8_INTEGER_5_SOURCE, GRADE8_INTEGER_6_SOURCE, GRADE8_FRACTIONS_1_SOURCE, GRADE8_FRACTIONS_2_SOURCE, GRADE8_FRACTIONS_3_SOURCE, GRADE8_FRACTIONS_4_SOURCE, GRADE8_FRACTIONS_5_SOURCE, GRADE8_FRACTIONS_6_SOURCE, GRADE8_FRACTIONS_7_SOURCE, GRADE8_FRACTIONS_8_SOURCE, GRADE8_DECIMALS_1_SOURCE, GRADE8_DECIMALS_2_SOURCE, GRADE8_DECIMALS_3_SOURCE, GRADE8_DECIMALS_4_SOURCE, GRADE8_DECIMALS_5_SOURCE, GRADE8_DECIMALS_6_SOURCE, GRADE8_EXPONENTS_1_SOURCE, GRADE8_EXPONENTS_2_SOURCE, GRADE8_EXPONENTS_3_SOURCE, GRADE8_EXPONENTS_4_SOURCE, GRADE8_EXPONENTS_5_SOURCE, GRADE8_EXPONENTS_6_SOURCE, GRADE8_LINES_1_SOURCE, GRADE8_LINES_2_SOURCE, GRADE8_LINES_3_SOURCE, GRADE8_LINES_4_SOURCE, GRADE8_LINES_5_SOURCE, GRADE8_SHAPES_1_SOURCE, GRADE8_SHAPES_2_SOURCE, GRADE8_SHAPES_3_SOURCE, GRADE8_SHAPES_4_SOURCE, GRADE8_SHAPES_5_SOURCE, GRADE8_PYTHAGORAS_1_SOURCE, GRADE8_PYTHAGORAS_2_SOURCE, GRADE8_PYTHAGORAS_3_SOURCE, GRADE8_PYTHAGORAS_4_SOURCE, GRADE8_PYTHAGORAS_5_SOURCE] = SEQUENCES_SOURCE
+    source: Literal[GRADE9_1_SOURCE, GRADE9_2_SOURCE, SEQUENCES_SOURCE, FUNCTIONS_SOURCE, FINANCE_SOURCE, CALCULUS_SOURCE, ALGEBRA_SOURCE, STATISTICS_SOURCE, ANALYTICAL_GEOMETRY_SOURCE, GRADE8_ALGEBRA_SOURCE, GRADE8_EXPRESSIONS_SOURCE, GRADE8_EXPRESSIONS_2_SOURCE, GRADE8_EXPRESSIONS_3_SOURCE, GRADE8_EXPRESSIONS_4_SOURCE, GRADE8_EXPRESSIONS_5_SOURCE, GRADE8_EXPRESSIONS_6_SOURCE, GRADE8_EXPRESSIONS_7_SOURCE, GRADE8_EXPRESSIONS_8_SOURCE, GRADE8_EXPRESSIONS_9_SOURCE, GRADE8_EXPRESSIONS_10_SOURCE, GRADE8_FUNCTIONS_1_SOURCE, GRADE8_FUNCTIONS_2_SOURCE, GRADE8_FUNCTIONS_3_SOURCE, GRADE8_FUNCTIONS_4_SOURCE, GRADE8_FUNCTIONS_5_SOURCE, GRADE8_FUNCTIONS_6_SOURCE, GRADE8_GRAPHS_1_SOURCE, GRADE8_GRAPHS_2_SOURCE, GRADE8_GRAPHS_3_SOURCE, GRADE8_GRAPHS_4_SOURCE, GRADE8_GRAPHS_5_SOURCE, GRADE8_GRAPHS_6_SOURCE, GRADE8_PATTERNS_1_SOURCE, GRADE8_PATTERNS_2_SOURCE, GRADE8_PATTERNS_3_SOURCE, GRADE8_PATTERNS_4_SOURCE, GRADE8_PATTERNS_5_SOURCE, GRADE8_PATTERNS_6_SOURCE, GRADE8_WHOLE_1_SOURCE, GRADE8_WHOLE_2_SOURCE, GRADE8_INTEGER_1_SOURCE, GRADE8_INTEGER_2_SOURCE, GRADE8_INTEGER_3_SOURCE, GRADE8_INTEGER_4_SOURCE, GRADE8_INTEGER_5_SOURCE, GRADE8_INTEGER_6_SOURCE, GRADE8_FRACTIONS_1_SOURCE, GRADE8_FRACTIONS_2_SOURCE, GRADE8_FRACTIONS_3_SOURCE, GRADE8_FRACTIONS_4_SOURCE, GRADE8_FRACTIONS_5_SOURCE, GRADE8_FRACTIONS_6_SOURCE, GRADE8_FRACTIONS_7_SOURCE, GRADE8_FRACTIONS_8_SOURCE, GRADE8_DECIMALS_1_SOURCE, GRADE8_DECIMALS_2_SOURCE, GRADE8_DECIMALS_3_SOURCE, GRADE8_DECIMALS_4_SOURCE, GRADE8_DECIMALS_5_SOURCE, GRADE8_DECIMALS_6_SOURCE, GRADE8_EXPONENTS_1_SOURCE, GRADE8_EXPONENTS_2_SOURCE, GRADE8_EXPONENTS_3_SOURCE, GRADE8_EXPONENTS_4_SOURCE, GRADE8_EXPONENTS_5_SOURCE, GRADE8_EXPONENTS_6_SOURCE, GRADE8_LINES_1_SOURCE, GRADE8_LINES_2_SOURCE, GRADE8_LINES_3_SOURCE, GRADE8_LINES_4_SOURCE, GRADE8_LINES_5_SOURCE, GRADE8_SHAPES_1_SOURCE, GRADE8_SHAPES_2_SOURCE, GRADE8_SHAPES_3_SOURCE, GRADE8_SHAPES_4_SOURCE, GRADE8_SHAPES_5_SOURCE, GRADE8_PYTHAGORAS_1_SOURCE, GRADE8_PYTHAGORAS_2_SOURCE, GRADE8_PYTHAGORAS_3_SOURCE, GRADE8_PYTHAGORAS_4_SOURCE, GRADE8_PYTHAGORAS_5_SOURCE] = SEQUENCES_SOURCE
     expected_evidence: str | None = None
     feedback_route: str | None = None
     operation_signature: list[str] = Field(default_factory=list)
@@ -142,8 +144,10 @@ class PracticeQuestion(BaseModel):
 
     @model_validator(mode="after")
     def validate_control(self):
-        if not self.lesson_id.startswith("g8-") and len(self.worked_solution) < 4:
+        if self.lesson_id.startswith("g12-") and len(self.worked_solution) < 4:
             raise ValueError("Grade 12 practice requires at least four worked-solution steps")
+        if self.lesson_id.startswith("g9-") and (self.type != "multiple_choice" or len(self.options) != 4 or len(set(self.options)) != 4 or len(self.accepted_answers) != 1 or self.accepted_answers[0] not in self.options):
+            raise ValueError("Grade 9 practice requires four distinct options and one matching correct answer")
         if self.type in {"classification", "multiple_choice", "error_analysis"} and len(self.options) < 2:
             raise ValueError(f"{self.type} requires selectable options")
         return self

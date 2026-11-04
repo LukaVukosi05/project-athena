@@ -17,6 +17,7 @@ from xml.etree import ElementTree
 from app.curriculum.content_manifest import readiness_for
 from app.curriculum.grade12 import GRADE_12
 from app.curriculum.grade8 import GRADE_8
+from app.curriculum.grade9 import GRADE_9
 from app.curriculum.grade_shells import SOURCE_BLOCKED_GRADES
 
 
@@ -75,12 +76,13 @@ def compile_catalogue(root: Path = ROOT) -> tuple[dict, list[str]]:
     grades = []
     seen_topic_ids: set[str] = set()
     seen_lesson_ids: set[str] = set()
-    for grade in (GRADE_8, *SOURCE_BLOCKED_GRADES, GRADE_12):
+    for grade in (GRADE_8, GRADE_9, *SOURCE_BLOCKED_GRADES, GRADE_12):
         topics = []
         for topic in sorted(grade.topics, key=lambda item: item.product_order):
-            if topic.id in seen_topic_ids:
-                discrepancies.append(f"duplicate topic id: {topic.id}")
-            seen_topic_ids.add(topic.id)
+            scoped_topic_id = (grade.id, topic.id)
+            if scoped_topic_id in seen_topic_ids:
+                discrepancies.append(f"duplicate topic id: {grade.id}/{topic.id}")
+            seen_topic_ids.add(scoped_topic_id)
             lessons = sorted(
                 (lesson for subtopic in topic.subtopics for lesson in subtopic.lessons),
                 key=lambda item: item.order,
