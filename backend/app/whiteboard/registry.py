@@ -115,6 +115,9 @@ registry.register("grade9_8_step", "grade9_decision", lambda step: bool(step.eve
 for _grade9_integer_number in range(1,6):
     registry.register(f"grade9_integer_{_grade9_integer_number}_step", f"grade9_integer_{_grade9_integer_number}",
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+for _grade9_exponent_number in range(1,7):
+    registry.register(f"grade9_exponent_{_grade9_exponent_number}_step", f"grade9_exponent_{_grade9_exponent_number}",
+        lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("fraction_stage", "grade8_fraction_strips", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("fraction_operation_stage", "grade8_fraction_operations", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("fraction_model_stage", "grade8_fraction_powers_context", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))

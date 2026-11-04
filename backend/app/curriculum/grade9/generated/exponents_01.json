@@ -1,0 +1,1096 @@
+{
+  "source": "lesson-01-powers-and-exponent-laws.md",
+  "worked": [
+    {
+      "problem": "Calculate 2³.",
+      "givens": [
+        "2",
+        "3"
+      ],
+      "actions": [
+        "The base is 2; the exponent counts 3 factors.",
+        "Expand as 2 × 2 × 2.",
+        "Multiply the factors: 8.",
+        "Check: 2³ = 8."
+      ],
+      "answer": "8",
+      "wrongs": [
+        "6",
+        "5",
+        "16"
+      ],
+      "wrong_methods": [
+        "Multiplies base and exponent.",
+        "Adds base and exponent.",
+        "Counts one extra repeated factor."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": 2,
+        "exponents": [
+          3
+        ],
+        "values": [
+          1,
+          2,
+          4,
+          8
+        ]
+      },
+      "misconception": "base-times-exponent",
+      "check": "Check: 2³ = 8.",
+      "id": "g9-exp-l01-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Calculate 3³.",
+      "givens": [
+        "3",
+        "3"
+      ],
+      "actions": [
+        "The base is 3; the exponent counts 3 factors.",
+        "Expand as 3 × 3 × 3.",
+        "Multiply the factors: 27.",
+        "Check: 3³ = 27."
+      ],
+      "answer": "27",
+      "wrongs": [
+        "9",
+        "6",
+        "81"
+      ],
+      "wrong_methods": [
+        "Multiplies base and exponent.",
+        "Adds base and exponent.",
+        "Counts one extra repeated factor."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": 3,
+        "exponents": [
+          3
+        ],
+        "values": [
+          1,
+          3,
+          9,
+          27
+        ]
+      },
+      "misconception": "base-times-exponent",
+      "check": "Check: 3³ = 27.",
+      "id": "g9-exp-l01-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Calculate 4³.",
+      "givens": [
+        "4",
+        "3"
+      ],
+      "actions": [
+        "The base is 4; the exponent counts 3 factors.",
+        "Expand as 4 × 4 × 4.",
+        "Multiply the factors: 64.",
+        "Check: 4³ = 64."
+      ],
+      "answer": "64",
+      "wrongs": [
+        "12",
+        "7",
+        "256"
+      ],
+      "wrong_methods": [
+        "Multiplies base and exponent.",
+        "Adds base and exponent.",
+        "Counts one extra repeated factor."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": 4,
+        "exponents": [
+          3
+        ],
+        "values": [
+          1,
+          4,
+          16,
+          64
+        ]
+      },
+      "misconception": "base-times-exponent",
+      "check": "Check: 4³ = 64.",
+      "id": "g9-exp-l01-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate 2³ × 2⁴.",
+      "givens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "actions": [
+        "The bases match: both are 2.",
+        "For multiplication add the exponents: 3+4=7.",
+        "2⁷ = 128.",
+        "Check: 8 × 16 = 128."
+      ],
+      "answer": "128",
+      "wrongs": [
+        "4096",
+        "24",
+        "64"
+      ],
+      "wrong_methods": [
+        "Multiplies exponents instead of adding them.",
+        "Adds the separate power values.",
+        "Omits one repeated base factor."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 2,
+        "exponents": [
+          3,
+          4,
+          7
+        ],
+        "values": [
+          8,
+          16,
+          128
+        ],
+        "operator": "product"
+      },
+      "misconception": "product-law",
+      "check": "Check: 8 × 16 = 128.",
+      "id": "g9-exp-l01-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate 3² × 3³.",
+      "givens": [
+        "3",
+        "2",
+        "3"
+      ],
+      "actions": [
+        "The bases match: both are 3.",
+        "For multiplication add the exponents: 2+3=5.",
+        "3⁵ = 243.",
+        "Check: 9 × 27 = 243."
+      ],
+      "answer": "243",
+      "wrongs": [
+        "729",
+        "36",
+        "81"
+      ],
+      "wrong_methods": [
+        "Multiplies exponents instead of adding them.",
+        "Adds the separate power values.",
+        "Omits one repeated base factor."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 3,
+        "exponents": [
+          2,
+          3,
+          5
+        ],
+        "values": [
+          9,
+          27,
+          243
+        ],
+        "operator": "product"
+      },
+      "misconception": "product-law",
+      "check": "Check: 9 × 27 = 243.",
+      "id": "g9-exp-l01-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate 4² × 4³.",
+      "givens": [
+        "4",
+        "2",
+        "3"
+      ],
+      "actions": [
+        "The bases match: both are 4.",
+        "For multiplication add the exponents: 2+3=5.",
+        "4⁵ = 1024.",
+        "Check: 16 × 64 = 1024."
+      ],
+      "answer": "1024",
+      "wrongs": [
+        "4096",
+        "80",
+        "256"
+      ],
+      "wrong_methods": [
+        "Multiplies exponents instead of adding them.",
+        "Adds the separate power values.",
+        "Omits one repeated base factor."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 4,
+        "exponents": [
+          2,
+          3,
+          5
+        ],
+        "values": [
+          16,
+          64,
+          1024
+        ],
+        "operator": "product"
+      },
+      "misconception": "product-law",
+      "check": "Check: 16 × 64 = 1024.",
+      "id": "g9-exp-l01-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate 2⁶ ÷ 2².",
+      "givens": [
+        "2",
+        "6",
+        "2"
+      ],
+      "actions": [
+        "The nonzero bases match: both are 2.",
+        "For division subtract exponents: 6−2=4.",
+        "2⁴ = 16.",
+        "Check: 64 ÷ 4 = 16."
+      ],
+      "answer": "16",
+      "wrongs": [
+        "256",
+        "4096",
+        "1/16"
+      ],
+      "wrong_methods": [
+        "Adds the exponents instead of subtracting.",
+        "Multiplies the exponents.",
+        "Reverses the exponent difference."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 2,
+        "exponents": [
+          6,
+          2,
+          4
+        ],
+        "values": [
+          64,
+          4,
+          16
+        ],
+        "operator": "quotient"
+      },
+      "misconception": "quotient-law",
+      "check": "Check: 64 ÷ 4 = 16.",
+      "id": "g9-exp-l01-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate 3⁵ ÷ 3².",
+      "givens": [
+        "3",
+        "5",
+        "2"
+      ],
+      "actions": [
+        "The nonzero bases match: both are 3.",
+        "For division subtract exponents: 5−2=3.",
+        "3³ = 27.",
+        "Check: 243 ÷ 9 = 27."
+      ],
+      "answer": "27",
+      "wrongs": [
+        "2187",
+        "59049",
+        "1/27"
+      ],
+      "wrong_methods": [
+        "Adds the exponents instead of subtracting.",
+        "Multiplies the exponents.",
+        "Reverses the exponent difference."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 3,
+        "exponents": [
+          5,
+          2,
+          3
+        ],
+        "values": [
+          243,
+          9,
+          27
+        ],
+        "operator": "quotient"
+      },
+      "misconception": "quotient-law",
+      "check": "Check: 243 ÷ 9 = 27.",
+      "id": "g9-exp-l01-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate 5⁴ ÷ 5².",
+      "givens": [
+        "5",
+        "4",
+        "2"
+      ],
+      "actions": [
+        "The nonzero bases match: both are 5.",
+        "For division subtract exponents: 4−2=2.",
+        "5² = 25.",
+        "Check: 625 ÷ 25 = 25."
+      ],
+      "answer": "25",
+      "wrongs": [
+        "15625",
+        "390625",
+        "1/25"
+      ],
+      "wrong_methods": [
+        "Adds the exponents instead of subtracting.",
+        "Multiplies the exponents.",
+        "Reverses the exponent difference."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 5,
+        "exponents": [
+          4,
+          2,
+          2
+        ],
+        "values": [
+          625,
+          25,
+          25
+        ],
+        "operator": "quotient"
+      },
+      "misconception": "quotient-law",
+      "check": "Check: 625 ÷ 25 = 25.",
+      "id": "g9-exp-l01-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate (2³)².",
+      "givens": [
+        "2",
+        "3",
+        "2"
+      ],
+      "actions": [
+        "The entire power 2³ is repeated 2 times.",
+        "Multiply exponents: 3×2=6.",
+        "Evaluate 2⁶ = 64.",
+        "Check: (8)² = 64."
+      ],
+      "answer": "64",
+      "wrongs": [
+        "32",
+        "16",
+        "128"
+      ],
+      "wrong_methods": [
+        "Adds the exponents instead of multiplying.",
+        "Stops before repeating every factor.",
+        "Counts one repeated factor too many."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 2,
+        "exponents": [
+          3,
+          2,
+          6
+        ],
+        "values": [
+          8,
+          64
+        ],
+        "operator": "nested"
+      },
+      "misconception": "power-of-power",
+      "check": "Check: (8)² = 64.",
+      "id": "g9-exp-l01-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate (3²)³.",
+      "givens": [
+        "3",
+        "2",
+        "3"
+      ],
+      "actions": [
+        "The entire power 3² is repeated 3 times.",
+        "Multiply exponents: 2×3=6.",
+        "Evaluate 3⁶ = 729.",
+        "Check: (9)³ = 729."
+      ],
+      "answer": "729",
+      "wrongs": [
+        "243",
+        "81",
+        "2187"
+      ],
+      "wrong_methods": [
+        "Adds the exponents instead of multiplying.",
+        "Stops before repeating every factor.",
+        "Counts one repeated factor too many."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 3,
+        "exponents": [
+          2,
+          3,
+          6
+        ],
+        "values": [
+          9,
+          729
+        ],
+        "operator": "nested"
+      },
+      "misconception": "power-of-power",
+      "check": "Check: (9)³ = 729.",
+      "id": "g9-exp-l01-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate (5²)³.",
+      "givens": [
+        "5",
+        "2",
+        "3"
+      ],
+      "actions": [
+        "The entire power 5² is repeated 3 times.",
+        "Multiply exponents: 2×3=6.",
+        "Evaluate 5⁶ = 15625.",
+        "Check: (25)³ = 15625."
+      ],
+      "answer": "15625",
+      "wrongs": [
+        "3125",
+        "625",
+        "78125"
+      ],
+      "wrong_methods": [
+        "Adds the exponents instead of multiplying.",
+        "Stops before repeating every factor.",
+        "Counts one repeated factor too many."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 5,
+        "exponents": [
+          2,
+          3,
+          6
+        ],
+        "values": [
+          25,
+          15625
+        ],
+        "operator": "nested"
+      },
+      "misconception": "power-of-power",
+      "check": "Check: (25)³ = 15625.",
+      "id": "g9-exp-l01-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate (2 × 3)².",
+      "givens": [
+        "2",
+        "3",
+        "2"
+      ],
+      "actions": [
+        "The exponent applies to the whole product 2×3.",
+        "Raise each factor: 2² × 3² = 4×9.",
+        "Multiply to obtain 36.",
+        "Check: 6² = 36."
+      ],
+      "answer": "36",
+      "wrongs": [
+        "13",
+        "18",
+        "25"
+      ],
+      "wrong_methods": [
+        "Adds the powered factors.",
+        "Raises only one factor.",
+        "Raises the sum instead of the product."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 6,
+        "exponents": [
+          2
+        ],
+        "values": [
+          2,
+          3,
+          4,
+          9,
+          36
+        ],
+        "operator": "product_power"
+      },
+      "misconception": "power-of-product",
+      "check": "Check: 6² = 36.",
+      "id": "g9-exp-l01-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Calculate (3 × 4)².",
+      "givens": [
+        "3",
+        "4",
+        "2"
+      ],
+      "actions": [
+        "The exponent applies to the whole product 3×4.",
+        "Raise each factor: 3² × 4² = 9×16.",
+        "Multiply to obtain 144.",
+        "Check: 12² = 144."
+      ],
+      "answer": "144",
+      "wrongs": [
+        "25",
+        "48",
+        "49"
+      ],
+      "wrong_methods": [
+        "Adds the powered factors.",
+        "Raises only one factor.",
+        "Raises the sum instead of the product."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 12,
+        "exponents": [
+          2
+        ],
+        "values": [
+          3,
+          4,
+          9,
+          16,
+          144
+        ],
+        "operator": "product_power"
+      },
+      "misconception": "power-of-product",
+      "check": "Check: 12² = 144.",
+      "id": "g9-exp-l01-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Calculate (2 × 5)³.",
+      "givens": [
+        "2",
+        "5",
+        "3"
+      ],
+      "actions": [
+        "The exponent applies to the whole product 2×5.",
+        "Raise each factor: 2³ × 5³ = 8×125.",
+        "Multiply to obtain 1000.",
+        "Check: 10³ = 1000."
+      ],
+      "answer": "1000",
+      "wrongs": [
+        "133",
+        "250",
+        "343"
+      ],
+      "wrong_methods": [
+        "Adds the powered factors.",
+        "Raises only one factor.",
+        "Raises the sum instead of the product."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 10,
+        "exponents": [
+          3
+        ],
+        "values": [
+          2,
+          5,
+          8,
+          125,
+          1000
+        ],
+        "operator": "product_power"
+      },
+      "misconception": "power-of-product",
+      "check": "Check: 10³ = 1000.",
+      "id": "g9-exp-l01-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-exp-l01-p01",
+      "prompt": "Calculate 2⁴ × 2².",
+      "options": [
+        "64",
+        "256",
+        "20",
+        "32"
+      ],
+      "answer_index": 0,
+      "memo": "64. The bases match: both are 2. For multiplication add the exponents: 4+2=6. 2⁶ = 64. Check: 16 × 4 = 64.",
+      "misconception": "product-law",
+      "option_rationales": {
+        "64": "Correct: Check: 16 × 4 = 64.",
+        "256": "Incorrect: Multiplies exponents instead of adding them.",
+        "20": "Incorrect: Adds the separate power values.",
+        "32": "Incorrect: Omits one repeated base factor."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p02",
+      "prompt": "Calculate 3⁶ ÷ 3².",
+      "options": [
+        "6561",
+        "81",
+        "531441",
+        "1/81"
+      ],
+      "answer_index": 1,
+      "memo": "81. The nonzero bases match: both are 3. For division subtract exponents: 6−2=4. 3⁴ = 81. Check: 729 ÷ 9 = 81.",
+      "misconception": "quotient-law",
+      "option_rationales": {
+        "6561": "Incorrect: Adds the exponents instead of subtracting.",
+        "81": "Correct: Check: 729 ÷ 9 = 81.",
+        "531441": "Incorrect: Multiplies the exponents.",
+        "1/81": "Incorrect: Reverses the exponent difference."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p03",
+      "prompt": "Calculate (2 × 4)².",
+      "options": [
+        "20",
+        "32",
+        "64",
+        "36"
+      ],
+      "answer_index": 2,
+      "memo": "64. The exponent applies to the whole product 2×4. Raise each factor: 2² × 4² = 4×16. Multiply to obtain 64. Check: 8² = 64.",
+      "misconception": "power-of-product",
+      "option_rationales": {
+        "20": "Incorrect: Adds the powered factors.",
+        "32": "Incorrect: Raises only one factor.",
+        "64": "Correct: Check: 8² = 64.",
+        "36": "Incorrect: Raises the sum instead of the product."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p04",
+      "prompt": "Calculate 2⁵ × 2².",
+      "options": [
+        "1024",
+        "36",
+        "64",
+        "128"
+      ],
+      "answer_index": 3,
+      "memo": "128. The bases match: both are 2. For multiplication add the exponents: 5+2=7. 2⁷ = 128. Check: 32 × 4 = 128.",
+      "misconception": "product-law",
+      "option_rationales": {
+        "1024": "Incorrect: Multiplies exponents instead of adding them.",
+        "36": "Incorrect: Adds the separate power values.",
+        "64": "Incorrect: Omits one repeated base factor.",
+        "128": "Correct: Check: 32 × 4 = 128."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p05",
+      "prompt": "Calculate 3⁷ ÷ 3².",
+      "options": [
+        "243",
+        "19683",
+        "4782969",
+        "1/243"
+      ],
+      "answer_index": 0,
+      "memo": "243. The nonzero bases match: both are 3. For division subtract exponents: 7−2=5. 3⁵ = 243. Check: 2187 ÷ 9 = 243.",
+      "misconception": "quotient-law",
+      "option_rationales": {
+        "243": "Correct: Check: 2187 ÷ 9 = 243.",
+        "19683": "Incorrect: Adds the exponents instead of subtracting.",
+        "4782969": "Incorrect: Multiplies the exponents.",
+        "1/243": "Incorrect: Reverses the exponent difference."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p06",
+      "prompt": "Calculate (2⁴)².",
+      "options": [
+        "64",
+        "256",
+        "128",
+        "512"
+      ],
+      "answer_index": 1,
+      "memo": "256. The entire power 2⁴ is repeated 2 times. Multiply exponents: 4×2=8. Evaluate 2⁸ = 256. Check: (16)² = 256.",
+      "misconception": "power-of-power",
+      "option_rationales": {
+        "64": "Incorrect: Adds the exponents instead of multiplying.",
+        "256": "Correct: Check: (16)² = 256.",
+        "128": "Incorrect: Stops before repeating every factor.",
+        "512": "Incorrect: Counts one repeated factor too many."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p07",
+      "prompt": "Calculate (2 × 5)².",
+      "options": [
+        "29",
+        "50",
+        "100",
+        "49"
+      ],
+      "answer_index": 2,
+      "memo": "100. The exponent applies to the whole product 2×5. Raise each factor: 2² × 5² = 4×25. Multiply to obtain 100. Check: 10² = 100.",
+      "misconception": "power-of-product",
+      "option_rationales": {
+        "29": "Incorrect: Adds the powered factors.",
+        "50": "Incorrect: Raises only one factor.",
+        "100": "Correct: Check: 10² = 100.",
+        "49": "Incorrect: Raises the sum instead of the product."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p08",
+      "prompt": "Calculate 5³.",
+      "options": [
+        "15",
+        "8",
+        "625",
+        "125"
+      ],
+      "answer_index": 3,
+      "memo": "125. The base is 5; the exponent counts 3 factors. Expand as 5 × 5 × 5. Multiply the factors: 125. Check: 5³ = 125.",
+      "misconception": "base-times-exponent",
+      "option_rationales": {
+        "15": "Incorrect: Multiplies base and exponent.",
+        "8": "Incorrect: Adds base and exponent.",
+        "625": "Incorrect: Counts one extra repeated factor.",
+        "125": "Correct: Check: 5³ = 125."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p09",
+      "prompt": "Calculate 2⁶ × 2².",
+      "options": [
+        "256",
+        "4096",
+        "68",
+        "128"
+      ],
+      "answer_index": 0,
+      "memo": "256. The bases match: both are 2. For multiplication add the exponents: 6+2=8. 2⁸ = 256. Check: 64 × 4 = 256.",
+      "misconception": "product-law",
+      "option_rationales": {
+        "256": "Correct: Check: 64 × 4 = 256.",
+        "4096": "Incorrect: Multiplies exponents instead of adding them.",
+        "68": "Incorrect: Adds the separate power values.",
+        "128": "Incorrect: Omits one repeated base factor."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p10",
+      "prompt": "Calculate 3⁸ ÷ 3².",
+      "options": [
+        "59049",
+        "729",
+        "43046721",
+        "1/729"
+      ],
+      "answer_index": 1,
+      "memo": "729. The nonzero bases match: both are 3. For division subtract exponents: 8−2=6. 3⁶ = 729. Check: 6561 ÷ 9 = 729.",
+      "misconception": "quotient-law",
+      "option_rationales": {
+        "59049": "Incorrect: Adds the exponents instead of subtracting.",
+        "729": "Correct: Check: 6561 ÷ 9 = 729.",
+        "43046721": "Incorrect: Multiplies the exponents.",
+        "1/729": "Incorrect: Reverses the exponent difference."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p11",
+      "prompt": "Calculate (2⁵)².",
+      "options": [
+        "128",
+        "512",
+        "1024",
+        "2048"
+      ],
+      "answer_index": 2,
+      "memo": "1024. The entire power 2⁵ is repeated 2 times. Multiply exponents: 5×2=10. Evaluate 2¹⁰ = 1024. Check: (32)² = 1024.",
+      "misconception": "power-of-power",
+      "option_rationales": {
+        "128": "Incorrect: Adds the exponents instead of multiplying.",
+        "512": "Incorrect: Stops before repeating every factor.",
+        "1024": "Correct: Check: (32)² = 1024.",
+        "2048": "Incorrect: Counts one repeated factor too many."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p12",
+      "prompt": "Calculate (2 × 6)².",
+      "options": [
+        "40",
+        "72",
+        "64",
+        "144"
+      ],
+      "answer_index": 3,
+      "memo": "144. The exponent applies to the whole product 2×6. Raise each factor: 2² × 6² = 4×36. Multiply to obtain 144. Check: 12² = 144.",
+      "misconception": "power-of-product",
+      "option_rationales": {
+        "40": "Incorrect: Adds the powered factors.",
+        "72": "Incorrect: Raises only one factor.",
+        "64": "Incorrect: Raises the sum instead of the product.",
+        "144": "Correct: Check: 12² = 144."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p13",
+      "prompt": "Calculate 6³.",
+      "options": [
+        "216",
+        "18",
+        "9",
+        "1296"
+      ],
+      "answer_index": 0,
+      "memo": "216. The base is 6; the exponent counts 3 factors. Expand as 6 × 6 × 6. Multiply the factors: 216. Check: 6³ = 216.",
+      "misconception": "base-times-exponent",
+      "option_rationales": {
+        "216": "Correct: Check: 6³ = 216.",
+        "18": "Incorrect: Multiplies base and exponent.",
+        "9": "Incorrect: Adds base and exponent.",
+        "1296": "Incorrect: Counts one extra repeated factor."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p14",
+      "prompt": "Calculate 2⁷ × 2².",
+      "options": [
+        "16384",
+        "512",
+        "132",
+        "256"
+      ],
+      "answer_index": 1,
+      "memo": "512. The bases match: both are 2. For multiplication add the exponents: 7+2=9. 2⁹ = 512. Check: 128 × 4 = 512.",
+      "misconception": "product-law",
+      "option_rationales": {
+        "16384": "Incorrect: Multiplies exponents instead of adding them.",
+        "512": "Correct: Check: 128 × 4 = 512.",
+        "132": "Incorrect: Adds the separate power values.",
+        "256": "Incorrect: Omits one repeated base factor."
+      }
+    },
+    {
+      "id": "g9-exp-l01-p15",
+      "prompt": "Calculate 3⁹ ÷ 3².",
+      "options": [
+        "177147",
+        "387420489",
+        "2187",
+        "1/2187"
+      ],
+      "answer_index": 2,
+      "memo": "2187. The nonzero bases match: both are 3. For division subtract exponents: 9−2=7. 3⁷ = 2187. Check: 19683 ÷ 9 = 2187.",
+      "misconception": "quotient-law",
+      "option_rationales": {
+        "177147": "Incorrect: Adds the exponents instead of subtracting.",
+        "387420489": "Incorrect: Multiplies the exponents.",
+        "2187": "Correct: Check: 19683 ÷ 9 = 2187.",
+        "1/2187": "Incorrect: Reverses the exponent difference."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-exp-l01-m01",
+      "prompt": "Calculate (2⁶)².",
+      "options": [
+        "4096",
+        "256",
+        "2048",
+        "8192"
+      ],
+      "answer_index": 0,
+      "memo": "4096. The entire power 2⁶ is repeated 2 times. Multiply exponents: 6×2=12. Evaluate 2¹² = 4096. Check: (64)² = 4096.",
+      "misconception": "power-of-power",
+      "option_rationales": {
+        "4096": "Correct: Check: (64)² = 4096.",
+        "256": "Incorrect: Adds the exponents instead of multiplying.",
+        "2048": "Incorrect: Stops before repeating every factor.",
+        "8192": "Incorrect: Counts one repeated factor too many."
+      }
+    },
+    {
+      "id": "g9-exp-l01-m02",
+      "prompt": "Calculate (2 × 7)².",
+      "options": [
+        "53",
+        "196",
+        "98",
+        "81"
+      ],
+      "answer_index": 1,
+      "memo": "196. The exponent applies to the whole product 2×7. Raise each factor: 2² × 7² = 4×49. Multiply to obtain 196. Check: 14² = 196.",
+      "misconception": "power-of-product",
+      "option_rationales": {
+        "53": "Incorrect: Adds the powered factors.",
+        "196": "Correct: Check: 14² = 196.",
+        "98": "Incorrect: Raises only one factor.",
+        "81": "Incorrect: Raises the sum instead of the product."
+      }
+    },
+    {
+      "id": "g9-exp-l01-m03",
+      "prompt": "Calculate 7³.",
+      "options": [
+        "21",
+        "10",
+        "343",
+        "2401"
+      ],
+      "answer_index": 2,
+      "memo": "343. The base is 7; the exponent counts 3 factors. Expand as 7 × 7 × 7. Multiply the factors: 343. Check: 7³ = 343.",
+      "misconception": "base-times-exponent",
+      "option_rationales": {
+        "21": "Incorrect: Multiplies base and exponent.",
+        "10": "Incorrect: Adds base and exponent.",
+        "343": "Correct: Check: 7³ = 343.",
+        "2401": "Incorrect: Counts one extra repeated factor."
+      }
+    },
+    {
+      "id": "g9-exp-l01-m04",
+      "prompt": "Calculate 2⁸ × 2².",
+      "options": [
+        "65536",
+        "260",
+        "512",
+        "1024"
+      ],
+      "answer_index": 3,
+      "memo": "1024. The bases match: both are 2. For multiplication add the exponents: 8+2=10. 2¹⁰ = 1024. Check: 256 × 4 = 1024.",
+      "misconception": "product-law",
+      "option_rationales": {
+        "65536": "Incorrect: Multiplies exponents instead of adding them.",
+        "260": "Incorrect: Adds the separate power values.",
+        "512": "Incorrect: Omits one repeated base factor.",
+        "1024": "Correct: Check: 256 × 4 = 1024."
+      }
+    },
+    {
+      "id": "g9-exp-l01-m05",
+      "prompt": "Calculate 3¹⁰ ÷ 3².",
+      "options": [
+        "6561",
+        "531441",
+        "3486784401",
+        "1/6561"
+      ],
+      "answer_index": 0,
+      "memo": "6561. The nonzero bases match: both are 3. For division subtract exponents: 10−2=8. 3⁸ = 6561. Check: 59049 ÷ 9 = 6561.",
+      "misconception": "quotient-law",
+      "option_rationales": {
+        "6561": "Correct: Check: 59049 ÷ 9 = 6561.",
+        "531441": "Incorrect: Adds the exponents instead of subtracting.",
+        "3486784401": "Incorrect: Multiplies the exponents.",
+        "1/6561": "Incorrect: Reverses the exponent difference."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-exp-l01-r01",
+      "prompt": "Calculate (2⁷)².",
+      "options": [
+        "16384",
+        "512",
+        "8192",
+        "32768"
+      ],
+      "answer_index": 0,
+      "memo": "16384. The entire power 2⁷ is repeated 2 times. Multiply exponents: 7×2=14. Evaluate 2¹⁴ = 16384. Check: (128)² = 16384.",
+      "misconception": "power-of-power",
+      "option_rationales": {
+        "16384": "Correct: Check: (128)² = 16384.",
+        "512": "Incorrect: Adds the exponents instead of multiplying.",
+        "8192": "Incorrect: Stops before repeating every factor.",
+        "32768": "Incorrect: Counts one repeated factor too many."
+      }
+    },
+    {
+      "id": "g9-exp-l01-r02",
+      "prompt": "Calculate (2 × 8)².",
+      "options": [
+        "68",
+        "256",
+        "128",
+        "100"
+      ],
+      "answer_index": 1,
+      "memo": "256. The exponent applies to the whole product 2×8. Raise each factor: 2² × 8² = 4×64. Multiply to obtain 256. Check: 16² = 256.",
+      "misconception": "power-of-product",
+      "option_rationales": {
+        "68": "Incorrect: Adds the powered factors.",
+        "256": "Correct: Check: 16² = 256.",
+        "128": "Incorrect: Raises only one factor.",
+        "100": "Incorrect: Raises the sum instead of the product."
+      }
+    },
+    {
+      "id": "g9-exp-l01-r03",
+      "prompt": "Calculate 8³.",
+      "options": [
+        "24",
+        "11",
+        "512",
+        "4096"
+      ],
+      "answer_index": 2,
+      "memo": "512. The base is 8; the exponent counts 3 factors. Expand as 8 × 8 × 8. Multiply the factors: 512. Check: 8³ = 512.",
+      "misconception": "base-times-exponent",
+      "option_rationales": {
+        "24": "Incorrect: Multiplies base and exponent.",
+        "11": "Incorrect: Adds base and exponent.",
+        "512": "Correct: Check: 8³ = 512.",
+        "4096": "Incorrect: Counts one extra repeated factor."
+      }
+    }
+  ]
+}

@@ -1021,6 +1021,64 @@
               "source_document": "lesson-05-first-error-diagnosis-and-reassessment.md"
             }
           ]
+        },
+        {
+          "topic_id": "exponents",
+          "topic_number": 3,
+          "title": "Exponents",
+          "paper": null,
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-exponents-01",
+              "position": 1,
+              "title": "Powers and exponent laws",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01-powers-and-exponent-laws.md"
+            },
+            {
+              "lesson_id": "g9-exponents-02",
+              "position": 2,
+              "title": "Zero and negative exponents",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02-zero-and-negative-exponents.md"
+            },
+            {
+              "lesson_id": "g9-exponents-03",
+              "position": 3,
+              "title": "Scientific notation and small numbers",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03-scientific-notation-and-small-numbers.md"
+            },
+            {
+              "lesson_id": "g9-exponents-04",
+              "position": 4,
+              "title": "Combined operations and parentheses",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04-combined-operations-and-parentheses.md"
+            },
+            {
+              "lesson_id": "g9-exponents-05",
+              "position": 5,
+              "title": "Scientific notation in contexts",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05-scientific-notation-in-contexts.md"
+            },
+            {
+              "lesson_id": "g9-exponents-06",
+              "position": 6,
+              "title": "Exponent error diagnosis and reassessment",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-06-exponent-error-diagnosis-and-reassessment.md"
+            }
+          ]
         }
       ]
     },

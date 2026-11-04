@@ -1,0 +1,1024 @@
+{
+  "source": "lesson-03-scientific-notation-and-small-numbers.md",
+  "worked": [
+    {
+      "problem": "Write 4200 in normalized scientific notation.",
+      "givens": [
+        "4200"
+      ],
+      "actions": [
+        "The coefficient must be at least 1 and less than 10.",
+        "Move the decimal point to obtain 4.2; count 3 places.",
+        "A large number uses a positive exponent: 4.2 × 10³.",
+        "Check: 4.2 × 10³ = 4200."
+      ],
+      "answer": "4.2 × 10³",
+      "wrongs": [
+        "42.0 × 10²",
+        "4.2 × 10⁻³",
+        "0.42 × 10⁵"
+      ],
+      "wrong_methods": [
+        "Leaves the coefficient outside [1,10).",
+        "Moves the decimal in the wrong direction.",
+        "Moves one decimal place too far."
+      ],
+      "visual": {
+        "family": "scale",
+        "raw": "4200",
+        "coefficient": "4.2",
+        "exponent": 3,
+        "operator": "normalize"
+      },
+      "misconception": "scientific-normalization",
+      "check": "Check: 4.2 × 10³ = 4200.",
+      "id": "g9-exp-l03-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Write 63000 in normalized scientific notation.",
+      "givens": [
+        "63000"
+      ],
+      "actions": [
+        "The coefficient must be at least 1 and less than 10.",
+        "Move the decimal point to obtain 6.3; count 4 places.",
+        "A large number uses a positive exponent: 6.3 × 10⁴.",
+        "Check: 6.3 × 10⁴ = 63000."
+      ],
+      "answer": "6.3 × 10⁴",
+      "wrongs": [
+        "63.0 × 10³",
+        "6.3 × 10⁻⁴",
+        "0.63 × 10⁶"
+      ],
+      "wrong_methods": [
+        "Leaves the coefficient outside [1,10).",
+        "Moves the decimal in the wrong direction.",
+        "Moves one decimal place too far."
+      ],
+      "visual": {
+        "family": "scale",
+        "raw": "63000",
+        "coefficient": "6.3",
+        "exponent": 4,
+        "operator": "normalize"
+      },
+      "misconception": "scientific-normalization",
+      "check": "Check: 6.3 × 10⁴ = 63000.",
+      "id": "g9-exp-l03-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Write 7800000 in normalized scientific notation.",
+      "givens": [
+        "7800000"
+      ],
+      "actions": [
+        "The coefficient must be at least 1 and less than 10.",
+        "Move the decimal point to obtain 7.8; count 6 places.",
+        "A large number uses a positive exponent: 7.8 × 10⁶.",
+        "Check: 7.8 × 10⁶ = 7800000."
+      ],
+      "answer": "7.8 × 10⁶",
+      "wrongs": [
+        "78.0 × 10⁵",
+        "7.8 × 10⁻⁶",
+        "0.78 × 10⁸"
+      ],
+      "wrong_methods": [
+        "Leaves the coefficient outside [1,10).",
+        "Moves the decimal in the wrong direction.",
+        "Moves one decimal place too far."
+      ],
+      "visual": {
+        "family": "scale",
+        "raw": "7800000",
+        "coefficient": "7.8",
+        "exponent": 6,
+        "operator": "normalize"
+      },
+      "misconception": "scientific-normalization",
+      "check": "Check: 7.8 × 10⁶ = 7800000.",
+      "id": "g9-exp-l03-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Write 0.0045 in normalized scientific notation.",
+      "givens": [
+        "0.0045"
+      ],
+      "actions": [
+        "The coefficient must be at least 1 and less than 10.",
+        "Move the decimal point to obtain 4.5; count 3 places.",
+        "A number below one uses a negative exponent: 4.5 × 10⁻³.",
+        "Check: 4.5 × 10⁻³ = 0.0045."
+      ],
+      "answer": "4.5 × 10⁻³",
+      "wrongs": [
+        "45.0 × 10⁻⁴",
+        "4.5 × 10³",
+        "0.45 × 10⁻¹"
+      ],
+      "wrong_methods": [
+        "Leaves the coefficient outside [1,10).",
+        "Moves the decimal in the wrong direction.",
+        "Moves one decimal place too far."
+      ],
+      "visual": {
+        "family": "scale",
+        "raw": "0.0045",
+        "coefficient": "4.5",
+        "exponent": -3,
+        "operator": "normalize"
+      },
+      "misconception": "scientific-normalization",
+      "check": "Check: 4.5 × 10⁻³ = 0.0045.",
+      "id": "g9-exp-l03-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Write 0.00072 in normalized scientific notation.",
+      "givens": [
+        "0.00072"
+      ],
+      "actions": [
+        "The coefficient must be at least 1 and less than 10.",
+        "Move the decimal point to obtain 7.2; count 4 places.",
+        "A number below one uses a negative exponent: 7.2 × 10⁻⁴.",
+        "Check: 7.2 × 10⁻⁴ = 0.00072."
+      ],
+      "answer": "7.2 × 10⁻⁴",
+      "wrongs": [
+        "72.0 × 10⁻⁵",
+        "7.2 × 10⁴",
+        "0.72 × 10⁻²"
+      ],
+      "wrong_methods": [
+        "Leaves the coefficient outside [1,10).",
+        "Moves the decimal in the wrong direction.",
+        "Moves one decimal place too far."
+      ],
+      "visual": {
+        "family": "scale",
+        "raw": "0.00072",
+        "coefficient": "7.2",
+        "exponent": -4,
+        "operator": "normalize"
+      },
+      "misconception": "scientific-normalization",
+      "check": "Check: 7.2 × 10⁻⁴ = 0.00072.",
+      "id": "g9-exp-l03-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Write 0.0000036 in normalized scientific notation.",
+      "givens": [
+        "0.0000036"
+      ],
+      "actions": [
+        "The coefficient must be at least 1 and less than 10.",
+        "Move the decimal point to obtain 3.6; count 6 places.",
+        "A number below one uses a negative exponent: 3.6 × 10⁻⁶.",
+        "Check: 3.6 × 10⁻⁶ = 0.0000036."
+      ],
+      "answer": "3.6 × 10⁻⁶",
+      "wrongs": [
+        "36.0 × 10⁻⁷",
+        "3.6 × 10⁶",
+        "0.36 × 10⁻⁴"
+      ],
+      "wrong_methods": [
+        "Leaves the coefficient outside [1,10).",
+        "Moves the decimal in the wrong direction.",
+        "Moves one decimal place too far."
+      ],
+      "visual": {
+        "family": "scale",
+        "raw": "0.0000036",
+        "coefficient": "3.6",
+        "exponent": -6,
+        "operator": "normalize"
+      },
+      "misconception": "scientific-normalization",
+      "check": "Check: 3.6 × 10⁻⁶ = 0.0000036.",
+      "id": "g9-exp-l03-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Write 0.000084 in normalized scientific notation.",
+      "givens": [
+        "0.000084"
+      ],
+      "actions": [
+        "The coefficient must be at least 1 and less than 10.",
+        "Move the decimal point to obtain 8.4; count 5 places.",
+        "A number below one uses a negative exponent: 8.4 × 10⁻⁵.",
+        "Check: 8.4 × 10⁻⁵ = 0.000084."
+      ],
+      "answer": "8.4 × 10⁻⁵",
+      "wrongs": [
+        "84.0 × 10⁻⁶",
+        "8.4 × 10⁵",
+        "0.84 × 10⁻³"
+      ],
+      "wrong_methods": [
+        "Leaves the coefficient outside [1,10).",
+        "Moves the decimal in the wrong direction.",
+        "Moves one decimal place too far."
+      ],
+      "visual": {
+        "family": "scale",
+        "raw": "0.000084",
+        "coefficient": "8.4",
+        "exponent": -5,
+        "operator": "normalize"
+      },
+      "misconception": "scientific-normalization",
+      "check": "Check: 8.4 × 10⁻⁵ = 0.000084.",
+      "id": "g9-exp-l03-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Write 125000 in normalized scientific notation.",
+      "givens": [
+        "125000"
+      ],
+      "actions": [
+        "The coefficient must be at least 1 and less than 10.",
+        "Move the decimal point to obtain 1.25; count 5 places.",
+        "A large number uses a positive exponent: 1.25 × 10⁵.",
+        "Check: 1.25 × 10⁵ = 125000."
+      ],
+      "answer": "1.25 × 10⁵",
+      "wrongs": [
+        "12.50 × 10⁴",
+        "1.25 × 10⁻⁵",
+        "0.125 × 10⁷"
+      ],
+      "wrong_methods": [
+        "Leaves the coefficient outside [1,10).",
+        "Moves the decimal in the wrong direction.",
+        "Moves one decimal place too far."
+      ],
+      "visual": {
+        "family": "scale",
+        "raw": "125000",
+        "coefficient": "1.25",
+        "exponent": 5,
+        "operator": "normalize"
+      },
+      "misconception": "scientific-normalization",
+      "check": "Check: 1.25 × 10⁵ = 125000.",
+      "id": "g9-exp-l03-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Write 0.0000091 in normalized scientific notation.",
+      "givens": [
+        "0.0000091"
+      ],
+      "actions": [
+        "The coefficient must be at least 1 and less than 10.",
+        "Move the decimal point to obtain 9.1; count 6 places.",
+        "A number below one uses a negative exponent: 9.1 × 10⁻⁶.",
+        "Check: 9.1 × 10⁻⁶ = 0.0000091."
+      ],
+      "answer": "9.1 × 10⁻⁶",
+      "wrongs": [
+        "91.0 × 10⁻⁷",
+        "9.1 × 10⁶",
+        "0.91 × 10⁻⁴"
+      ],
+      "wrong_methods": [
+        "Leaves the coefficient outside [1,10).",
+        "Moves the decimal in the wrong direction.",
+        "Moves one decimal place too far."
+      ],
+      "visual": {
+        "family": "scale",
+        "raw": "0.0000091",
+        "coefficient": "9.1",
+        "exponent": -6,
+        "operator": "normalize"
+      },
+      "misconception": "scientific-normalization",
+      "check": "Check: 9.1 × 10⁻⁶ = 0.0000091.",
+      "id": "g9-exp-l03-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Which is greater: A = 4.2 × 10³ or B = 3.9 × 10³?",
+      "givens": [
+        "4.2",
+        "3",
+        "3.9",
+        "3"
+      ],
+      "actions": [
+        "First inspect the powers of ten: 3 and 3.",
+        "Convert to a common scale: A = 4200.0, B = 3900.0.",
+        "Compare the aligned values: A is greater.",
+        "Check: 4200.0 > 3900.0."
+      ],
+      "answer": "A is greater",
+      "wrongs": [
+        "B is greater",
+        "Equal",
+        "Cannot tell"
+      ],
+      "wrong_methods": [
+        "Compares coefficients before powers of ten.",
+        "Assumes different powers are equal.",
+        "Claims order is indeterminate despite given values."
+      ],
+      "visual": {
+        "family": "compare",
+        "a": [
+          "4.2",
+          3
+        ],
+        "b": [
+          "3.9",
+          3
+        ],
+        "values": [
+          "4200.0",
+          "3900.0"
+        ]
+      },
+      "misconception": "scientific-order",
+      "check": "Check: 4200.0 > 3900.0.",
+      "id": "g9-exp-l03-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Which is greater: A = 6.1 × 10⁻⁴ or B = 8.2 × 10⁻⁵?",
+      "givens": [
+        "6.1",
+        "-4",
+        "8.2",
+        "-5"
+      ],
+      "actions": [
+        "First inspect the powers of ten: -4 and -5.",
+        "Convert to a common scale: A = 0.00061, B = 0.000082.",
+        "Compare the aligned values: A is greater.",
+        "Check: 0.00061 > 0.000082."
+      ],
+      "answer": "A is greater",
+      "wrongs": [
+        "B is greater",
+        "Equal",
+        "Cannot tell"
+      ],
+      "wrong_methods": [
+        "Compares coefficients before powers of ten.",
+        "Assumes different powers are equal.",
+        "Claims order is indeterminate despite given values."
+      ],
+      "visual": {
+        "family": "compare",
+        "a": [
+          "6.1",
+          -4
+        ],
+        "b": [
+          "8.2",
+          -5
+        ],
+        "values": [
+          "0.00061",
+          "0.000082"
+        ]
+      },
+      "misconception": "scientific-order",
+      "check": "Check: 0.00061 > 0.000082.",
+      "id": "g9-exp-l03-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Which is greater: A = 2.5 × 10⁶ or B = 9.1 × 10⁵?",
+      "givens": [
+        "2.5",
+        "6",
+        "9.1",
+        "5"
+      ],
+      "actions": [
+        "First inspect the powers of ten: 6 and 5.",
+        "Convert to a common scale: A = 2500000.0, B = 910000.0.",
+        "Compare the aligned values: A is greater.",
+        "Check: 2500000.0 > 910000.0."
+      ],
+      "answer": "A is greater",
+      "wrongs": [
+        "B is greater",
+        "Equal",
+        "Cannot tell"
+      ],
+      "wrong_methods": [
+        "Compares coefficients before powers of ten.",
+        "Assumes different powers are equal.",
+        "Claims order is indeterminate despite given values."
+      ],
+      "visual": {
+        "family": "compare",
+        "a": [
+          "2.5",
+          6
+        ],
+        "b": [
+          "9.1",
+          5
+        ],
+        "values": [
+          "2500000.0",
+          "910000.0"
+        ]
+      },
+      "misconception": "scientific-order",
+      "check": "Check: 2500000.0 > 910000.0.",
+      "id": "g9-exp-l03-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Which is greater: A = 3.4 × 10⁻⁶ or B = 7.0 × 10⁻⁷?",
+      "givens": [
+        "3.4",
+        "-6",
+        "7.0",
+        "-7"
+      ],
+      "actions": [
+        "First inspect the powers of ten: -6 and -7.",
+        "Convert to a common scale: A = 0.0000034, B = 7.0E-7.",
+        "Compare the aligned values: A is greater.",
+        "Check: 0.0000034 > 7.0E-7."
+      ],
+      "answer": "A is greater",
+      "wrongs": [
+        "B is greater",
+        "Equal",
+        "Cannot tell"
+      ],
+      "wrong_methods": [
+        "Compares coefficients before powers of ten.",
+        "Assumes different powers are equal.",
+        "Claims order is indeterminate despite given values."
+      ],
+      "visual": {
+        "family": "compare",
+        "a": [
+          "3.4",
+          -6
+        ],
+        "b": [
+          "7.0",
+          -7
+        ],
+        "values": [
+          "0.0000034",
+          "7.0E-7"
+        ]
+      },
+      "misconception": "scientific-order",
+      "check": "Check: 0.0000034 > 7.0E-7.",
+      "id": "g9-exp-l03-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Which is greater: A = 5.2 × 10⁴ or B = 5.19 × 10⁴?",
+      "givens": [
+        "5.2",
+        "4",
+        "5.19",
+        "4"
+      ],
+      "actions": [
+        "First inspect the powers of ten: 4 and 4.",
+        "Convert to a common scale: A = 52000.0, B = 51900.00.",
+        "Compare the aligned values: A is greater.",
+        "Check: 52000.0 > 51900.00."
+      ],
+      "answer": "A is greater",
+      "wrongs": [
+        "B is greater",
+        "Equal",
+        "Cannot tell"
+      ],
+      "wrong_methods": [
+        "Compares coefficients before powers of ten.",
+        "Assumes different powers are equal.",
+        "Claims order is indeterminate despite given values."
+      ],
+      "visual": {
+        "family": "compare",
+        "a": [
+          "5.2",
+          4
+        ],
+        "b": [
+          "5.19",
+          4
+        ],
+        "values": [
+          "52000.0",
+          "51900.00"
+        ]
+      },
+      "misconception": "scientific-order",
+      "check": "Check: 52000.0 > 51900.00.",
+      "id": "g9-exp-l03-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Which is greater: A = 1.8 × 10⁻³ or B = 9.3 × 10⁻⁴?",
+      "givens": [
+        "1.8",
+        "-3",
+        "9.3",
+        "-4"
+      ],
+      "actions": [
+        "First inspect the powers of ten: -3 and -4.",
+        "Convert to a common scale: A = 0.0018, B = 0.00093.",
+        "Compare the aligned values: A is greater.",
+        "Check: 0.0018 > 0.00093."
+      ],
+      "answer": "A is greater",
+      "wrongs": [
+        "B is greater",
+        "Equal",
+        "Cannot tell"
+      ],
+      "wrong_methods": [
+        "Compares coefficients before powers of ten.",
+        "Assumes different powers are equal.",
+        "Claims order is indeterminate despite given values."
+      ],
+      "visual": {
+        "family": "compare",
+        "a": [
+          "1.8",
+          -3
+        ],
+        "b": [
+          "9.3",
+          -4
+        ],
+        "values": [
+          "0.0018",
+          "0.00093"
+        ]
+      },
+      "misconception": "scientific-order",
+      "check": "Check: 0.0018 > 0.00093.",
+      "id": "g9-exp-l03-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-exp-l03-p01",
+      "prompt": "Write 12000 in normalized scientific notation.",
+      "options": [
+        "1.2 × 10⁴",
+        "12.0 × 10³",
+        "1.2 × 10⁻⁴",
+        "0.12 × 10⁶"
+      ],
+      "answer_index": 0,
+      "memo": "1.2 × 10⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.2; count 4 places. A large number uses a positive exponent: 1.2 × 10⁴. Check: 1.2 × 10⁴ = 12000.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "1.2 × 10⁴": "Correct: Check: 1.2 × 10⁴ = 12000.",
+        "12.0 × 10³": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.2 × 10⁻⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "0.12 × 10⁶": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p02",
+      "prompt": "Write 0.00013 in normalized scientific notation.",
+      "options": [
+        "13.0 × 10⁻⁵",
+        "1.3 × 10⁻⁴",
+        "1.3 × 10⁴",
+        "0.13 × 10⁻²"
+      ],
+      "answer_index": 1,
+      "memo": "1.3 × 10⁻⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.3; count 4 places. A number below one uses a negative exponent: 1.3 × 10⁻⁴. Check: 1.3 × 10⁻⁴ = 0.00013.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "13.0 × 10⁻⁵": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.3 × 10⁻⁴": "Correct: Check: 1.3 × 10⁻⁴ = 0.00013.",
+        "1.3 × 10⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "0.13 × 10⁻²": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p03",
+      "prompt": "Which is greater: A = 3 × 10³ or B = 5 × 10²?",
+      "options": [
+        "B is greater",
+        "Equal",
+        "A is greater",
+        "Cannot tell"
+      ],
+      "answer_index": 2,
+      "memo": "A is greater. First inspect the powers of ten: 3 and 2. Convert to a common scale: A = 3000, B = 500. Compare the aligned values: A is greater. Check: 3000 > 500.",
+      "misconception": "scientific-order",
+      "option_rationales": {
+        "B is greater": "Incorrect: Compares coefficients before powers of ten.",
+        "Equal": "Incorrect: Assumes different powers are equal.",
+        "A is greater": "Correct: Check: 3000 > 500.",
+        "Cannot tell": "Incorrect: Claims order is indeterminate despite given values."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p04",
+      "prompt": "Which is greater: A = 4 × 10⁻⁴ or B = 6 × 10⁻⁵?",
+      "options": [
+        "B is greater",
+        "Equal",
+        "Cannot tell",
+        "A is greater"
+      ],
+      "answer_index": 3,
+      "memo": "A is greater. First inspect the powers of ten: -4 and -5. Convert to a common scale: A = 0.0004, B = 0.00006. Compare the aligned values: A is greater. Check: 0.0004 > 0.00006.",
+      "misconception": "scientific-order",
+      "option_rationales": {
+        "B is greater": "Incorrect: Compares coefficients before powers of ten.",
+        "Equal": "Incorrect: Assumes different powers are equal.",
+        "Cannot tell": "Incorrect: Claims order is indeterminate despite given values.",
+        "A is greater": "Correct: Check: 0.0004 > 0.00006."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p05",
+      "prompt": "Write 13000 in normalized scientific notation.",
+      "options": [
+        "1.3 × 10⁴",
+        "13.0 × 10³",
+        "1.3 × 10⁻⁴",
+        "0.13 × 10⁶"
+      ],
+      "answer_index": 0,
+      "memo": "1.3 × 10⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.3; count 4 places. A large number uses a positive exponent: 1.3 × 10⁴. Check: 1.3 × 10⁴ = 13000.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "1.3 × 10⁴": "Correct: Check: 1.3 × 10⁴ = 13000.",
+        "13.0 × 10³": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.3 × 10⁻⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "0.13 × 10⁶": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p06",
+      "prompt": "Write 0.00014 in normalized scientific notation.",
+      "options": [
+        "14.0 × 10⁻⁵",
+        "1.4 × 10⁻⁴",
+        "1.4 × 10⁴",
+        "0.14 × 10⁻²"
+      ],
+      "answer_index": 1,
+      "memo": "1.4 × 10⁻⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.4; count 4 places. A number below one uses a negative exponent: 1.4 × 10⁻⁴. Check: 1.4 × 10⁻⁴ = 0.00014.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "14.0 × 10⁻⁵": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.4 × 10⁻⁴": "Correct: Check: 1.4 × 10⁻⁴ = 0.00014.",
+        "1.4 × 10⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "0.14 × 10⁻²": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p07",
+      "prompt": "Which is greater: A = 4 × 10³ or B = 6 × 10²?",
+      "options": [
+        "B is greater",
+        "Equal",
+        "A is greater",
+        "Cannot tell"
+      ],
+      "answer_index": 2,
+      "memo": "A is greater. First inspect the powers of ten: 3 and 2. Convert to a common scale: A = 4000, B = 600. Compare the aligned values: A is greater. Check: 4000 > 600.",
+      "misconception": "scientific-order",
+      "option_rationales": {
+        "B is greater": "Incorrect: Compares coefficients before powers of ten.",
+        "Equal": "Incorrect: Assumes different powers are equal.",
+        "A is greater": "Correct: Check: 4000 > 600.",
+        "Cannot tell": "Incorrect: Claims order is indeterminate despite given values."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p08",
+      "prompt": "Which is greater: A = 5 × 10⁻⁴ or B = 7 × 10⁻⁵?",
+      "options": [
+        "B is greater",
+        "Equal",
+        "Cannot tell",
+        "A is greater"
+      ],
+      "answer_index": 3,
+      "memo": "A is greater. First inspect the powers of ten: -4 and -5. Convert to a common scale: A = 0.0005, B = 0.00007. Compare the aligned values: A is greater. Check: 0.0005 > 0.00007.",
+      "misconception": "scientific-order",
+      "option_rationales": {
+        "B is greater": "Incorrect: Compares coefficients before powers of ten.",
+        "Equal": "Incorrect: Assumes different powers are equal.",
+        "Cannot tell": "Incorrect: Claims order is indeterminate despite given values.",
+        "A is greater": "Correct: Check: 0.0005 > 0.00007."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p09",
+      "prompt": "Write 14000 in normalized scientific notation.",
+      "options": [
+        "1.4 × 10⁴",
+        "14.0 × 10³",
+        "1.4 × 10⁻⁴",
+        "0.14 × 10⁶"
+      ],
+      "answer_index": 0,
+      "memo": "1.4 × 10⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.4; count 4 places. A large number uses a positive exponent: 1.4 × 10⁴. Check: 1.4 × 10⁴ = 14000.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "1.4 × 10⁴": "Correct: Check: 1.4 × 10⁴ = 14000.",
+        "14.0 × 10³": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.4 × 10⁻⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "0.14 × 10⁶": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p10",
+      "prompt": "Write 0.00015 in normalized scientific notation.",
+      "options": [
+        "15.0 × 10⁻⁵",
+        "1.5 × 10⁻⁴",
+        "1.5 × 10⁴",
+        "0.15 × 10⁻²"
+      ],
+      "answer_index": 1,
+      "memo": "1.5 × 10⁻⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.5; count 4 places. A number below one uses a negative exponent: 1.5 × 10⁻⁴. Check: 1.5 × 10⁻⁴ = 0.00015.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "15.0 × 10⁻⁵": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.5 × 10⁻⁴": "Correct: Check: 1.5 × 10⁻⁴ = 0.00015.",
+        "1.5 × 10⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "0.15 × 10⁻²": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p11",
+      "prompt": "Which is greater: A = 5 × 10³ or B = 7 × 10²?",
+      "options": [
+        "B is greater",
+        "Equal",
+        "A is greater",
+        "Cannot tell"
+      ],
+      "answer_index": 2,
+      "memo": "A is greater. First inspect the powers of ten: 3 and 2. Convert to a common scale: A = 5000, B = 700. Compare the aligned values: A is greater. Check: 5000 > 700.",
+      "misconception": "scientific-order",
+      "option_rationales": {
+        "B is greater": "Incorrect: Compares coefficients before powers of ten.",
+        "Equal": "Incorrect: Assumes different powers are equal.",
+        "A is greater": "Correct: Check: 5000 > 700.",
+        "Cannot tell": "Incorrect: Claims order is indeterminate despite given values."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p12",
+      "prompt": "Which is greater: A = 6 × 10⁻⁴ or B = 8 × 10⁻⁵?",
+      "options": [
+        "B is greater",
+        "Equal",
+        "Cannot tell",
+        "A is greater"
+      ],
+      "answer_index": 3,
+      "memo": "A is greater. First inspect the powers of ten: -4 and -5. Convert to a common scale: A = 0.0006, B = 0.00008. Compare the aligned values: A is greater. Check: 0.0006 > 0.00008.",
+      "misconception": "scientific-order",
+      "option_rationales": {
+        "B is greater": "Incorrect: Compares coefficients before powers of ten.",
+        "Equal": "Incorrect: Assumes different powers are equal.",
+        "Cannot tell": "Incorrect: Claims order is indeterminate despite given values.",
+        "A is greater": "Correct: Check: 0.0006 > 0.00008."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p13",
+      "prompt": "Write 15000 in normalized scientific notation.",
+      "options": [
+        "1.5 × 10⁴",
+        "15.0 × 10³",
+        "1.5 × 10⁻⁴",
+        "0.15 × 10⁶"
+      ],
+      "answer_index": 0,
+      "memo": "1.5 × 10⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.5; count 4 places. A large number uses a positive exponent: 1.5 × 10⁴. Check: 1.5 × 10⁴ = 15000.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "1.5 × 10⁴": "Correct: Check: 1.5 × 10⁴ = 15000.",
+        "15.0 × 10³": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.5 × 10⁻⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "0.15 × 10⁶": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p14",
+      "prompt": "Write 0.00016 in normalized scientific notation.",
+      "options": [
+        "16.0 × 10⁻⁵",
+        "1.6 × 10⁻⁴",
+        "1.6 × 10⁴",
+        "0.16 × 10⁻²"
+      ],
+      "answer_index": 1,
+      "memo": "1.6 × 10⁻⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.6; count 4 places. A number below one uses a negative exponent: 1.6 × 10⁻⁴. Check: 1.6 × 10⁻⁴ = 0.00016.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "16.0 × 10⁻⁵": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.6 × 10⁻⁴": "Correct: Check: 1.6 × 10⁻⁴ = 0.00016.",
+        "1.6 × 10⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "0.16 × 10⁻²": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-p15",
+      "prompt": "Which is greater: A = 6 × 10³ or B = 8 × 10²?",
+      "options": [
+        "B is greater",
+        "Equal",
+        "A is greater",
+        "Cannot tell"
+      ],
+      "answer_index": 2,
+      "memo": "A is greater. First inspect the powers of ten: 3 and 2. Convert to a common scale: A = 6000, B = 800. Compare the aligned values: A is greater. Check: 6000 > 800.",
+      "misconception": "scientific-order",
+      "option_rationales": {
+        "B is greater": "Incorrect: Compares coefficients before powers of ten.",
+        "Equal": "Incorrect: Assumes different powers are equal.",
+        "A is greater": "Correct: Check: 6000 > 800.",
+        "Cannot tell": "Incorrect: Claims order is indeterminate despite given values."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-exp-l03-m01",
+      "prompt": "Which is greater: A = 7 × 10⁻⁴ or B = 9 × 10⁻⁵?",
+      "options": [
+        "A is greater",
+        "B is greater",
+        "Equal",
+        "Cannot tell"
+      ],
+      "answer_index": 0,
+      "memo": "A is greater. First inspect the powers of ten: -4 and -5. Convert to a common scale: A = 0.0007, B = 0.00009. Compare the aligned values: A is greater. Check: 0.0007 > 0.00009.",
+      "misconception": "scientific-order",
+      "option_rationales": {
+        "A is greater": "Correct: Check: 0.0007 > 0.00009.",
+        "B is greater": "Incorrect: Compares coefficients before powers of ten.",
+        "Equal": "Incorrect: Assumes different powers are equal.",
+        "Cannot tell": "Incorrect: Claims order is indeterminate despite given values."
+      }
+    },
+    {
+      "id": "g9-exp-l03-m02",
+      "prompt": "Write 16000 in normalized scientific notation.",
+      "options": [
+        "16.0 × 10³",
+        "1.6 × 10⁴",
+        "1.6 × 10⁻⁴",
+        "0.16 × 10⁶"
+      ],
+      "answer_index": 1,
+      "memo": "1.6 × 10⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.6; count 4 places. A large number uses a positive exponent: 1.6 × 10⁴. Check: 1.6 × 10⁴ = 16000.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "16.0 × 10³": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.6 × 10⁴": "Correct: Check: 1.6 × 10⁴ = 16000.",
+        "1.6 × 10⁻⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "0.16 × 10⁶": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-m03",
+      "prompt": "Write 0.00017 in normalized scientific notation.",
+      "options": [
+        "17.0 × 10⁻⁵",
+        "1.7 × 10⁴",
+        "1.7 × 10⁻⁴",
+        "0.17 × 10⁻²"
+      ],
+      "answer_index": 2,
+      "memo": "1.7 × 10⁻⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.7; count 4 places. A number below one uses a negative exponent: 1.7 × 10⁻⁴. Check: 1.7 × 10⁻⁴ = 0.00017.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "17.0 × 10⁻⁵": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.7 × 10⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "1.7 × 10⁻⁴": "Correct: Check: 1.7 × 10⁻⁴ = 0.00017.",
+        "0.17 × 10⁻²": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-m04",
+      "prompt": "Which is greater: A = 7 × 10³ or B = 9 × 10²?",
+      "options": [
+        "B is greater",
+        "Equal",
+        "Cannot tell",
+        "A is greater"
+      ],
+      "answer_index": 3,
+      "memo": "A is greater. First inspect the powers of ten: 3 and 2. Convert to a common scale: A = 7000, B = 900. Compare the aligned values: A is greater. Check: 7000 > 900.",
+      "misconception": "scientific-order",
+      "option_rationales": {
+        "B is greater": "Incorrect: Compares coefficients before powers of ten.",
+        "Equal": "Incorrect: Assumes different powers are equal.",
+        "Cannot tell": "Incorrect: Claims order is indeterminate despite given values.",
+        "A is greater": "Correct: Check: 7000 > 900."
+      }
+    },
+    {
+      "id": "g9-exp-l03-m05",
+      "prompt": "Which is greater: A = 8 × 10⁻⁴ or B = 10 × 10⁻⁵?",
+      "options": [
+        "A is greater",
+        "B is greater",
+        "Equal",
+        "Cannot tell"
+      ],
+      "answer_index": 0,
+      "memo": "A is greater. First inspect the powers of ten: -4 and -5. Convert to a common scale: A = 0.0008, B = 0.00010. Compare the aligned values: A is greater. Check: 0.0008 > 0.00010.",
+      "misconception": "scientific-order",
+      "option_rationales": {
+        "A is greater": "Correct: Check: 0.0008 > 0.00010.",
+        "B is greater": "Incorrect: Compares coefficients before powers of ten.",
+        "Equal": "Incorrect: Assumes different powers are equal.",
+        "Cannot tell": "Incorrect: Claims order is indeterminate despite given values."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-exp-l03-r01",
+      "prompt": "Write 17000 in normalized scientific notation.",
+      "options": [
+        "1.7 × 10⁴",
+        "17.0 × 10³",
+        "1.7 × 10⁻⁴",
+        "0.17 × 10⁶"
+      ],
+      "answer_index": 0,
+      "memo": "1.7 × 10⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.7; count 4 places. A large number uses a positive exponent: 1.7 × 10⁴. Check: 1.7 × 10⁴ = 17000.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "1.7 × 10⁴": "Correct: Check: 1.7 × 10⁴ = 17000.",
+        "17.0 × 10³": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.7 × 10⁻⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "0.17 × 10⁶": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-r02",
+      "prompt": "Write 0.00018 in normalized scientific notation.",
+      "options": [
+        "18.0 × 10⁻⁵",
+        "1.8 × 10⁻⁴",
+        "1.8 × 10⁴",
+        "0.18 × 10⁻²"
+      ],
+      "answer_index": 1,
+      "memo": "1.8 × 10⁻⁴. The coefficient must be at least 1 and less than 10. Move the decimal point to obtain 1.8; count 4 places. A number below one uses a negative exponent: 1.8 × 10⁻⁴. Check: 1.8 × 10⁻⁴ = 0.00018.",
+      "misconception": "scientific-normalization",
+      "option_rationales": {
+        "18.0 × 10⁻⁵": "Incorrect: Leaves the coefficient outside [1,10).",
+        "1.8 × 10⁻⁴": "Correct: Check: 1.8 × 10⁻⁴ = 0.00018.",
+        "1.8 × 10⁴": "Incorrect: Moves the decimal in the wrong direction.",
+        "0.18 × 10⁻²": "Incorrect: Moves one decimal place too far."
+      }
+    },
+    {
+      "id": "g9-exp-l03-r03",
+      "prompt": "Which is greater: A = 8 × 10³ or B = 10 × 10²?",
+      "options": [
+        "B is greater",
+        "Equal",
+        "A is greater",
+        "Cannot tell"
+      ],
+      "answer_index": 2,
+      "memo": "A is greater. First inspect the powers of ten: 3 and 2. Convert to a common scale: A = 8000, B = 1000. Compare the aligned values: A is greater. Check: 8000 > 1000.",
+      "misconception": "scientific-order",
+      "option_rationales": {
+        "B is greater": "Incorrect: Compares coefficients before powers of ten.",
+        "Equal": "Incorrect: Assumes different powers are equal.",
+        "A is greater": "Correct: Check: 8000 > 1000.",
+        "Cannot tell": "Incorrect: Claims order is indeterminate despite given values."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1048 @@
+{
+  "source": "lesson-06-exponent-error-diagnosis-and-reassessment.md",
+  "worked": [
+    {
+      "problem": "A learner says 2² × 2³ = 64 because the exponents multiply. Find the first error and corrected result.",
+      "givens": [
+        "2",
+        "2",
+        "3"
+      ],
+      "actions": [
+        "The bases match: 2.",
+        "The first error is multiplying exponents 2×3; a product of powers adds them.",
+        "Use 2+3=5; 2⁵ = 32.",
+        "Check: The corrected expression evaluates to 32, not 64."
+      ],
+      "answer": "32",
+      "wrongs": [
+        "64",
+        "12",
+        "16"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s exponent product.",
+        "Adds power values instead of exponents.",
+        "Omits the final repeated factor."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "product",
+        "base": "2",
+        "exponents": [
+          2,
+          3
+        ],
+        "claim": "64",
+        "correction": "32"
+      },
+      "misconception": "first-error-product",
+      "check": "Check: The corrected expression evaluates to 32, not 64.",
+      "id": "g9-exp-l06-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "A learner says 3² × 3⁴ = 6561 because the exponents multiply. Find the first error and corrected result.",
+      "givens": [
+        "3",
+        "2",
+        "4"
+      ],
+      "actions": [
+        "The bases match: 3.",
+        "The first error is multiplying exponents 2×4; a product of powers adds them.",
+        "Use 2+4=6; 3⁶ = 729.",
+        "Check: The corrected expression evaluates to 729, not 6561."
+      ],
+      "answer": "729",
+      "wrongs": [
+        "6561",
+        "90",
+        "243"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s exponent product.",
+        "Adds power values instead of exponents.",
+        "Omits the final repeated factor."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "product",
+        "base": "3",
+        "exponents": [
+          2,
+          4
+        ],
+        "claim": "6561",
+        "correction": "729"
+      },
+      "misconception": "first-error-product",
+      "check": "Check: The corrected expression evaluates to 729, not 6561.",
+      "id": "g9-exp-l06-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "A learner says 5² × 5³ = 15625 because the exponents multiply. Find the first error and corrected result.",
+      "givens": [
+        "5",
+        "2",
+        "3"
+      ],
+      "actions": [
+        "The bases match: 5.",
+        "The first error is multiplying exponents 2×3; a product of powers adds them.",
+        "Use 2+3=5; 5⁵ = 3125.",
+        "Check: The corrected expression evaluates to 3125, not 15625."
+      ],
+      "answer": "3125",
+      "wrongs": [
+        "15625",
+        "150",
+        "625"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s exponent product.",
+        "Adds power values instead of exponents.",
+        "Omits the final repeated factor."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "product",
+        "base": "5",
+        "exponents": [
+          2,
+          3
+        ],
+        "claim": "15625",
+        "correction": "3125"
+      },
+      "misconception": "first-error-product",
+      "check": "Check: The corrected expression evaluates to 3125, not 15625.",
+      "id": "g9-exp-l06-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A learner says (4)⁰ = 0. Find the first error and corrected result.",
+      "givens": [
+        "4",
+        "0",
+        "0"
+      ],
+      "actions": [
+        "Confirm the base 4 is nonzero.",
+        "The first error is treating exponent zero as a zero value.",
+        "The multiplicative identity gives (4)⁰ = 1.",
+        "Check: The corrected expression evaluates to 1, not 0."
+      ],
+      "answer": "1",
+      "wrongs": [
+        "0",
+        "4",
+        "-1"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s zero result.",
+        "Keeps the original base.",
+        "Changes the sign of the identity value."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "zero",
+        "base": "4",
+        "exponents": [
+          0,
+          0
+        ],
+        "claim": "0",
+        "correction": "1"
+      },
+      "misconception": "first-error-zero",
+      "check": "Check: The corrected expression evaluates to 1, not 0.",
+      "id": "g9-exp-l06-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A learner says (-7)⁰ = 0. Find the first error and corrected result.",
+      "givens": [
+        "-7",
+        "0",
+        "0"
+      ],
+      "actions": [
+        "Confirm the base -7 is nonzero.",
+        "The first error is treating exponent zero as a zero value.",
+        "The multiplicative identity gives (-7)⁰ = 1.",
+        "Check: The corrected expression evaluates to 1, not 0."
+      ],
+      "answer": "1",
+      "wrongs": [
+        "0",
+        "-7",
+        "-1"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s zero result.",
+        "Keeps the original base.",
+        "Changes the sign of the identity value."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "zero",
+        "base": "-7",
+        "exponents": [
+          0,
+          0
+        ],
+        "claim": "0",
+        "correction": "1"
+      },
+      "misconception": "first-error-zero",
+      "check": "Check: The corrected expression evaluates to 1, not 0.",
+      "id": "g9-exp-l06-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A learner says (9)⁰ = 0. Find the first error and corrected result.",
+      "givens": [
+        "9",
+        "0",
+        "0"
+      ],
+      "actions": [
+        "Confirm the base 9 is nonzero.",
+        "The first error is treating exponent zero as a zero value.",
+        "The multiplicative identity gives (9)⁰ = 1.",
+        "Check: The corrected expression evaluates to 1, not 0."
+      ],
+      "answer": "1",
+      "wrongs": [
+        "0",
+        "9",
+        "-1"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s zero result.",
+        "Keeps the original base.",
+        "Changes the sign of the identity value."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "zero",
+        "base": "9",
+        "exponents": [
+          0,
+          0
+        ],
+        "claim": "0",
+        "correction": "1"
+      },
+      "misconception": "first-error-zero",
+      "check": "Check: The corrected expression evaluates to 1, not 0.",
+      "id": "g9-exp-l06-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A learner says 2⁻³ = -8. Find the first error and corrected fraction.",
+      "givens": [
+        "2",
+        "3",
+        "0"
+      ],
+      "actions": [
+        "The base 2 is positive.",
+        "The first error is reading a negative exponent as a negative result.",
+        "Reciprocate the positive power: 1/8 = 1/8.",
+        "Check: The corrected expression evaluates to 1/8, not -8."
+      ],
+      "answer": "1/8",
+      "wrongs": [
+        "-8",
+        "8",
+        "1/16"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s negative power value.",
+        "Keeps the positive power without a reciprocal.",
+        "Uses an extra factor in the denominator."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "negative",
+        "base": "2",
+        "exponents": [
+          3,
+          0
+        ],
+        "claim": "-8",
+        "correction": "1/8"
+      },
+      "misconception": "first-error-negative",
+      "check": "Check: The corrected expression evaluates to 1/8, not -8.",
+      "id": "g9-exp-l06-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A learner says 3⁻² = -9. Find the first error and corrected fraction.",
+      "givens": [
+        "3",
+        "2",
+        "0"
+      ],
+      "actions": [
+        "The base 3 is positive.",
+        "The first error is reading a negative exponent as a negative result.",
+        "Reciprocate the positive power: 1/9 = 1/9.",
+        "Check: The corrected expression evaluates to 1/9, not -9."
+      ],
+      "answer": "1/9",
+      "wrongs": [
+        "-9",
+        "9",
+        "1/27"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s negative power value.",
+        "Keeps the positive power without a reciprocal.",
+        "Uses an extra factor in the denominator."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "negative",
+        "base": "3",
+        "exponents": [
+          2,
+          0
+        ],
+        "claim": "-9",
+        "correction": "1/9"
+      },
+      "misconception": "first-error-negative",
+      "check": "Check: The corrected expression evaluates to 1/9, not -9.",
+      "id": "g9-exp-l06-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A learner says 5⁻² = -25. Find the first error and corrected fraction.",
+      "givens": [
+        "5",
+        "2",
+        "0"
+      ],
+      "actions": [
+        "The base 5 is positive.",
+        "The first error is reading a negative exponent as a negative result.",
+        "Reciprocate the positive power: 1/25 = 1/25.",
+        "Check: The corrected expression evaluates to 1/25, not -25."
+      ],
+      "answer": "1/25",
+      "wrongs": [
+        "-25",
+        "25",
+        "1/125"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s negative power value.",
+        "Keeps the positive power without a reciprocal.",
+        "Uses an extra factor in the denominator."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "negative",
+        "base": "5",
+        "exponents": [
+          2,
+          0
+        ],
+        "claim": "-25",
+        "correction": "1/25"
+      },
+      "misconception": "first-error-negative",
+      "check": "Check: The corrected expression evaluates to 1/25, not -25.",
+      "id": "g9-exp-l06-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A learner writes (-2)² = -4. Find the first error and corrected result.",
+      "givens": [
+        "-2",
+        "2",
+        "0"
+      ],
+      "actions": [
+        "Keep the parentheses: -2 is the whole base.",
+        "The first error is keeping a negative sign after an even number of negative factors.",
+        "Calculate (-2)² = 4.",
+        "Check: The corrected expression evaluates to 4, not -4."
+      ],
+      "answer": "4",
+      "wrongs": [
+        "-4",
+        "0",
+        "-2"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s sign error.",
+        "Adds base and exponent.",
+        "Stops one factor too early."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "parentheses",
+        "base": "-2",
+        "exponents": [
+          2,
+          0
+        ],
+        "claim": "-4",
+        "correction": "4"
+      },
+      "misconception": "first-error-parentheses",
+      "check": "Check: The corrected expression evaluates to 4, not -4.",
+      "id": "g9-exp-l06-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A learner writes (-3)² = -9. Find the first error and corrected result.",
+      "givens": [
+        "-3",
+        "2",
+        "0"
+      ],
+      "actions": [
+        "Keep the parentheses: -3 is the whole base.",
+        "The first error is keeping a negative sign after an even number of negative factors.",
+        "Calculate (-3)² = 9.",
+        "Check: The corrected expression evaluates to 9, not -9."
+      ],
+      "answer": "9",
+      "wrongs": [
+        "-9",
+        "-1",
+        "-3"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s sign error.",
+        "Adds base and exponent.",
+        "Stops one factor too early."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "parentheses",
+        "base": "-3",
+        "exponents": [
+          2,
+          0
+        ],
+        "claim": "-9",
+        "correction": "9"
+      },
+      "misconception": "first-error-parentheses",
+      "check": "Check: The corrected expression evaluates to 9, not -9.",
+      "id": "g9-exp-l06-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A learner writes (-4)² = -16. Find the first error and corrected result.",
+      "givens": [
+        "-4",
+        "2",
+        "0"
+      ],
+      "actions": [
+        "Keep the parentheses: -4 is the whole base.",
+        "The first error is keeping a negative sign after an even number of negative factors.",
+        "Calculate (-4)² = 16.",
+        "Check: The corrected expression evaluates to 16, not -16."
+      ],
+      "answer": "16",
+      "wrongs": [
+        "-16",
+        "-2",
+        "-4"
+      ],
+      "wrong_methods": [
+        "Keeps the learner’s sign error.",
+        "Adds base and exponent.",
+        "Stops one factor too early."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "parentheses",
+        "base": "-4",
+        "exponents": [
+          2,
+          0
+        ],
+        "claim": "-16",
+        "correction": "16"
+      },
+      "misconception": "first-error-parentheses",
+      "check": "Check: The corrected expression evaluates to 16, not -16.",
+      "id": "g9-exp-l06-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A learner writes 0.00064 as 64.0 × 10⁻⁵ in scientific notation. Find the first error and normalize it.",
+      "givens": [
+        "0.00064",
+        "0",
+        "0"
+      ],
+      "actions": [
+        "A normalized coefficient must be at least 1 and below 10.",
+        "The first error is leaving coefficient 64.0 outside that range.",
+        "Rewrite it as 6.4 × 10⁻⁴.",
+        "Check: The corrected expression evaluates to 6.4 × 10⁻⁴, not 64.0 × 10⁻⁵."
+      ],
+      "answer": "6.4 × 10⁻⁴",
+      "wrongs": [
+        "64.0 × 10⁻⁵",
+        "6.4 × 10⁴",
+        "6.4 × 10⁻³"
+      ],
+      "wrong_methods": [
+        "Keeps the non-normalized coefficient.",
+        "Reverses the exponent sign.",
+        "Moves the decimal one extra place."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "scientific",
+        "base": "0.00064",
+        "exponents": [
+          0,
+          0
+        ],
+        "claim": "64.0 × 10⁻⁵",
+        "correction": "6.4 × 10⁻⁴"
+      },
+      "misconception": "first-error-scientific",
+      "check": "Check: The corrected expression evaluates to 6.4 × 10⁻⁴, not 64.0 × 10⁻⁵.",
+      "id": "g9-exp-l06-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A learner writes 48000 as 48.0 × 10³ in scientific notation. Find the first error and normalize it.",
+      "givens": [
+        "48000",
+        "0",
+        "0"
+      ],
+      "actions": [
+        "A normalized coefficient must be at least 1 and below 10.",
+        "The first error is leaving coefficient 48.0 outside that range.",
+        "Rewrite it as 4.8 × 10⁴.",
+        "Check: The corrected expression evaluates to 4.8 × 10⁴, not 48.0 × 10³."
+      ],
+      "answer": "4.8 × 10⁴",
+      "wrongs": [
+        "48.0 × 10³",
+        "4.8 × 10⁻⁴",
+        "4.8 × 10⁵"
+      ],
+      "wrong_methods": [
+        "Keeps the non-normalized coefficient.",
+        "Reverses the exponent sign.",
+        "Moves the decimal one extra place."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "scientific",
+        "base": "48000",
+        "exponents": [
+          0,
+          0
+        ],
+        "claim": "48.0 × 10³",
+        "correction": "4.8 × 10⁴"
+      },
+      "misconception": "first-error-scientific",
+      "check": "Check: The corrected expression evaluates to 4.8 × 10⁴, not 48.0 × 10³.",
+      "id": "g9-exp-l06-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A learner writes 0.0000035 as 35.0 × 10⁻⁷ in scientific notation. Find the first error and normalize it.",
+      "givens": [
+        "0.0000035",
+        "0",
+        "0"
+      ],
+      "actions": [
+        "A normalized coefficient must be at least 1 and below 10.",
+        "The first error is leaving coefficient 35.0 outside that range.",
+        "Rewrite it as 3.5 × 10⁻⁶.",
+        "Check: The corrected expression evaluates to 3.5 × 10⁻⁶, not 35.0 × 10⁻⁷."
+      ],
+      "answer": "3.5 × 10⁻⁶",
+      "wrongs": [
+        "35.0 × 10⁻⁷",
+        "3.5 × 10⁶",
+        "3.5 × 10⁻⁵"
+      ],
+      "wrong_methods": [
+        "Keeps the non-normalized coefficient.",
+        "Reverses the exponent sign.",
+        "Moves the decimal one extra place."
+      ],
+      "visual": {
+        "family": "diagnosis",
+        "kind": "scientific",
+        "base": "0.0000035",
+        "exponents": [
+          0,
+          0
+        ],
+        "claim": "35.0 × 10⁻⁷",
+        "correction": "3.5 × 10⁻⁶"
+      },
+      "misconception": "first-error-scientific",
+      "check": "Check: The corrected expression evaluates to 3.5 × 10⁻⁶, not 35.0 × 10⁻⁷.",
+      "id": "g9-exp-l06-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-exp-l06-p01",
+      "prompt": "A learner says 2⁴ × 2² = 256 because the exponents multiply. Find the first error and corrected result.",
+      "options": [
+        "64",
+        "256",
+        "20",
+        "32"
+      ],
+      "answer_index": 0,
+      "memo": "64. The bases match: 2. The first error is multiplying exponents 4×2; a product of powers adds them. Use 4+2=6; 2⁶ = 64. Check: The corrected expression evaluates to 64, not 256.",
+      "misconception": "first-error-product",
+      "option_rationales": {
+        "64": "Correct: Check: The corrected expression evaluates to 64, not 256.",
+        "256": "Incorrect: Keeps the learner’s exponent product.",
+        "20": "Incorrect: Adds power values instead of exponents.",
+        "32": "Incorrect: Omits the final repeated factor."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p02",
+      "prompt": "A learner says (11)⁰ = 0. Find the first error and corrected result.",
+      "options": [
+        "0",
+        "1",
+        "11",
+        "-1"
+      ],
+      "answer_index": 1,
+      "memo": "1. Confirm the base 11 is nonzero. The first error is treating exponent zero as a zero value. The multiplicative identity gives (11)⁰ = 1. Check: The corrected expression evaluates to 1, not 0.",
+      "misconception": "first-error-zero",
+      "option_rationales": {
+        "0": "Incorrect: Keeps the learner’s zero result.",
+        "1": "Correct: Check: The corrected expression evaluates to 1, not 0.",
+        "11": "Incorrect: Keeps the original base.",
+        "-1": "Incorrect: Changes the sign of the identity value."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p03",
+      "prompt": "A learner writes 0.00013 as 13.0 × 10⁻⁵ in scientific notation. Find the first error and normalize it.",
+      "options": [
+        "13.0 × 10⁻⁵",
+        "1.3 × 10⁴",
+        "1.3 × 10⁻⁴",
+        "1.3 × 10⁻³"
+      ],
+      "answer_index": 2,
+      "memo": "1.3 × 10⁻⁴. A normalized coefficient must be at least 1 and below 10. The first error is leaving coefficient 13.0 outside that range. Rewrite it as 1.3 × 10⁻⁴. Check: The corrected expression evaluates to 1.3 × 10⁻⁴, not 13.0 × 10⁻⁵.",
+      "misconception": "first-error-scientific",
+      "option_rationales": {
+        "13.0 × 10⁻⁵": "Incorrect: Keeps the non-normalized coefficient.",
+        "1.3 × 10⁴": "Incorrect: Reverses the exponent sign.",
+        "1.3 × 10⁻⁴": "Correct: Check: The corrected expression evaluates to 1.3 × 10⁻⁴, not 13.0 × 10⁻⁵.",
+        "1.3 × 10⁻³": "Incorrect: Moves the decimal one extra place."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p04",
+      "prompt": "A learner says 2⁵ × 2² = 1024 because the exponents multiply. Find the first error and corrected result.",
+      "options": [
+        "1024",
+        "36",
+        "64",
+        "128"
+      ],
+      "answer_index": 3,
+      "memo": "128. The bases match: 2. The first error is multiplying exponents 5×2; a product of powers adds them. Use 5+2=7; 2⁷ = 128. Check: The corrected expression evaluates to 128, not 1024.",
+      "misconception": "first-error-product",
+      "option_rationales": {
+        "1024": "Incorrect: Keeps the learner’s exponent product.",
+        "36": "Incorrect: Adds power values instead of exponents.",
+        "64": "Incorrect: Omits the final repeated factor.",
+        "128": "Correct: Check: The corrected expression evaluates to 128, not 1024."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p05",
+      "prompt": "A learner says (12)⁰ = 0. Find the first error and corrected result.",
+      "options": [
+        "1",
+        "0",
+        "12",
+        "-1"
+      ],
+      "answer_index": 0,
+      "memo": "1. Confirm the base 12 is nonzero. The first error is treating exponent zero as a zero value. The multiplicative identity gives (12)⁰ = 1. Check: The corrected expression evaluates to 1, not 0.",
+      "misconception": "first-error-zero",
+      "option_rationales": {
+        "1": "Correct: Check: The corrected expression evaluates to 1, not 0.",
+        "0": "Incorrect: Keeps the learner’s zero result.",
+        "12": "Incorrect: Keeps the original base.",
+        "-1": "Incorrect: Changes the sign of the identity value."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p06",
+      "prompt": "A learner says 4⁻² = -16. Find the first error and corrected fraction.",
+      "options": [
+        "-16",
+        "1/16",
+        "16",
+        "1/64"
+      ],
+      "answer_index": 1,
+      "memo": "1/16. The base 4 is positive. The first error is reading a negative exponent as a negative result. Reciprocate the positive power: 1/16 = 1/16. Check: The corrected expression evaluates to 1/16, not -16.",
+      "misconception": "first-error-negative",
+      "option_rationales": {
+        "-16": "Incorrect: Keeps the learner’s negative power value.",
+        "1/16": "Correct: Check: The corrected expression evaluates to 1/16, not -16.",
+        "16": "Incorrect: Keeps the positive power without a reciprocal.",
+        "1/64": "Incorrect: Uses an extra factor in the denominator."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p07",
+      "prompt": "A learner writes 0.00014 as 14.0 × 10⁻⁵ in scientific notation. Find the first error and normalize it.",
+      "options": [
+        "14.0 × 10⁻⁵",
+        "1.4 × 10⁴",
+        "1.4 × 10⁻⁴",
+        "1.4 × 10⁻³"
+      ],
+      "answer_index": 2,
+      "memo": "1.4 × 10⁻⁴. A normalized coefficient must be at least 1 and below 10. The first error is leaving coefficient 14.0 outside that range. Rewrite it as 1.4 × 10⁻⁴. Check: The corrected expression evaluates to 1.4 × 10⁻⁴, not 14.0 × 10⁻⁵.",
+      "misconception": "first-error-scientific",
+      "option_rationales": {
+        "14.0 × 10⁻⁵": "Incorrect: Keeps the non-normalized coefficient.",
+        "1.4 × 10⁴": "Incorrect: Reverses the exponent sign.",
+        "1.4 × 10⁻⁴": "Correct: Check: The corrected expression evaluates to 1.4 × 10⁻⁴, not 14.0 × 10⁻⁵.",
+        "1.4 × 10⁻³": "Incorrect: Moves the decimal one extra place."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p08",
+      "prompt": "A learner says 2⁶ × 2² = 4096 because the exponents multiply. Find the first error and corrected result.",
+      "options": [
+        "4096",
+        "68",
+        "128",
+        "256"
+      ],
+      "answer_index": 3,
+      "memo": "256. The bases match: 2. The first error is multiplying exponents 6×2; a product of powers adds them. Use 6+2=8; 2⁸ = 256. Check: The corrected expression evaluates to 256, not 4096.",
+      "misconception": "first-error-product",
+      "option_rationales": {
+        "4096": "Incorrect: Keeps the learner’s exponent product.",
+        "68": "Incorrect: Adds power values instead of exponents.",
+        "128": "Incorrect: Omits the final repeated factor.",
+        "256": "Correct: Check: The corrected expression evaluates to 256, not 4096."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p09",
+      "prompt": "A learner says (13)⁰ = 0. Find the first error and corrected result.",
+      "options": [
+        "1",
+        "0",
+        "13",
+        "-1"
+      ],
+      "answer_index": 0,
+      "memo": "1. Confirm the base 13 is nonzero. The first error is treating exponent zero as a zero value. The multiplicative identity gives (13)⁰ = 1. Check: The corrected expression evaluates to 1, not 0.",
+      "misconception": "first-error-zero",
+      "option_rationales": {
+        "1": "Correct: Check: The corrected expression evaluates to 1, not 0.",
+        "0": "Incorrect: Keeps the learner’s zero result.",
+        "13": "Incorrect: Keeps the original base.",
+        "-1": "Incorrect: Changes the sign of the identity value."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p10",
+      "prompt": "A learner writes (-5)² = -25. Find the first error and corrected result.",
+      "options": [
+        "-25",
+        "25",
+        "-3",
+        "-5"
+      ],
+      "answer_index": 1,
+      "memo": "25. Keep the parentheses: -5 is the whole base. The first error is keeping a negative sign after an even number of negative factors. Calculate (-5)² = 25. Check: The corrected expression evaluates to 25, not -25.",
+      "misconception": "first-error-parentheses",
+      "option_rationales": {
+        "-25": "Incorrect: Keeps the learner’s sign error.",
+        "25": "Correct: Check: The corrected expression evaluates to 25, not -25.",
+        "-3": "Incorrect: Adds base and exponent.",
+        "-5": "Incorrect: Stops one factor too early."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p11",
+      "prompt": "A learner writes 0.00015 as 15.0 × 10⁻⁵ in scientific notation. Find the first error and normalize it.",
+      "options": [
+        "15.0 × 10⁻⁵",
+        "1.5 × 10⁴",
+        "1.5 × 10⁻⁴",
+        "1.5 × 10⁻³"
+      ],
+      "answer_index": 2,
+      "memo": "1.5 × 10⁻⁴. A normalized coefficient must be at least 1 and below 10. The first error is leaving coefficient 15.0 outside that range. Rewrite it as 1.5 × 10⁻⁴. Check: The corrected expression evaluates to 1.5 × 10⁻⁴, not 15.0 × 10⁻⁵.",
+      "misconception": "first-error-scientific",
+      "option_rationales": {
+        "15.0 × 10⁻⁵": "Incorrect: Keeps the non-normalized coefficient.",
+        "1.5 × 10⁴": "Incorrect: Reverses the exponent sign.",
+        "1.5 × 10⁻⁴": "Correct: Check: The corrected expression evaluates to 1.5 × 10⁻⁴, not 15.0 × 10⁻⁵.",
+        "1.5 × 10⁻³": "Incorrect: Moves the decimal one extra place."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p12",
+      "prompt": "A learner says 2⁷ × 2² = 16384 because the exponents multiply. Find the first error and corrected result.",
+      "options": [
+        "16384",
+        "132",
+        "256",
+        "512"
+      ],
+      "answer_index": 3,
+      "memo": "512. The bases match: 2. The first error is multiplying exponents 7×2; a product of powers adds them. Use 7+2=9; 2⁹ = 512. Check: The corrected expression evaluates to 512, not 16384.",
+      "misconception": "first-error-product",
+      "option_rationales": {
+        "16384": "Incorrect: Keeps the learner’s exponent product.",
+        "132": "Incorrect: Adds power values instead of exponents.",
+        "256": "Incorrect: Omits the final repeated factor.",
+        "512": "Correct: Check: The corrected expression evaluates to 512, not 16384."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p13",
+      "prompt": "A learner says (14)⁰ = 0. Find the first error and corrected result.",
+      "options": [
+        "1",
+        "0",
+        "14",
+        "-1"
+      ],
+      "answer_index": 0,
+      "memo": "1. Confirm the base 14 is nonzero. The first error is treating exponent zero as a zero value. The multiplicative identity gives (14)⁰ = 1. Check: The corrected expression evaluates to 1, not 0.",
+      "misconception": "first-error-zero",
+      "option_rationales": {
+        "1": "Correct: Check: The corrected expression evaluates to 1, not 0.",
+        "0": "Incorrect: Keeps the learner’s zero result.",
+        "14": "Incorrect: Keeps the original base.",
+        "-1": "Incorrect: Changes the sign of the identity value."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p14",
+      "prompt": "A learner says 6⁻² = -36. Find the first error and corrected fraction.",
+      "options": [
+        "-36",
+        "1/36",
+        "36",
+        "1/216"
+      ],
+      "answer_index": 1,
+      "memo": "1/36. The base 6 is positive. The first error is reading a negative exponent as a negative result. Reciprocate the positive power: 1/36 = 1/36. Check: The corrected expression evaluates to 1/36, not -36.",
+      "misconception": "first-error-negative",
+      "option_rationales": {
+        "-36": "Incorrect: Keeps the learner’s negative power value.",
+        "1/36": "Correct: Check: The corrected expression evaluates to 1/36, not -36.",
+        "36": "Incorrect: Keeps the positive power without a reciprocal.",
+        "1/216": "Incorrect: Uses an extra factor in the denominator."
+      }
+    },
+    {
+      "id": "g9-exp-l06-p15",
+      "prompt": "A learner writes (-6)² = -36. Find the first error and corrected result.",
+      "options": [
+        "-36",
+        "-4",
+        "36",
+        "-6"
+      ],
+      "answer_index": 2,
+      "memo": "36. Keep the parentheses: -6 is the whole base. The first error is keeping a negative sign after an even number of negative factors. Calculate (-6)² = 36. Check: The corrected expression evaluates to 36, not -36.",
+      "misconception": "first-error-parentheses",
+      "option_rationales": {
+        "-36": "Incorrect: Keeps the learner’s sign error.",
+        "-4": "Incorrect: Adds base and exponent.",
+        "36": "Correct: Check: The corrected expression evaluates to 36, not -36.",
+        "-6": "Incorrect: Stops one factor too early."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-exp-l06-m01",
+      "prompt": "A learner writes 0.00016 as 16.0 × 10⁻⁵ in scientific notation. Find the first error and normalize it.",
+      "options": [
+        "1.6 × 10⁻⁴",
+        "16.0 × 10⁻⁵",
+        "1.6 × 10⁴",
+        "1.6 × 10⁻³"
+      ],
+      "answer_index": 0,
+      "memo": "1.6 × 10⁻⁴. A normalized coefficient must be at least 1 and below 10. The first error is leaving coefficient 16.0 outside that range. Rewrite it as 1.6 × 10⁻⁴. Check: The corrected expression evaluates to 1.6 × 10⁻⁴, not 16.0 × 10⁻⁵.",
+      "misconception": "first-error-scientific",
+      "option_rationales": {
+        "1.6 × 10⁻⁴": "Correct: Check: The corrected expression evaluates to 1.6 × 10⁻⁴, not 16.0 × 10⁻⁵.",
+        "16.0 × 10⁻⁵": "Incorrect: Keeps the non-normalized coefficient.",
+        "1.6 × 10⁴": "Incorrect: Reverses the exponent sign.",
+        "1.6 × 10⁻³": "Incorrect: Moves the decimal one extra place."
+      }
+    },
+    {
+      "id": "g9-exp-l06-m02",
+      "prompt": "A learner says 2⁸ × 2² = 65536 because the exponents multiply. Find the first error and corrected result.",
+      "options": [
+        "65536",
+        "1024",
+        "260",
+        "512"
+      ],
+      "answer_index": 1,
+      "memo": "1024. The bases match: 2. The first error is multiplying exponents 8×2; a product of powers adds them. Use 8+2=10; 2¹⁰ = 1024. Check: The corrected expression evaluates to 1024, not 65536.",
+      "misconception": "first-error-product",
+      "option_rationales": {
+        "65536": "Incorrect: Keeps the learner’s exponent product.",
+        "1024": "Correct: Check: The corrected expression evaluates to 1024, not 65536.",
+        "260": "Incorrect: Adds power values instead of exponents.",
+        "512": "Incorrect: Omits the final repeated factor."
+      }
+    },
+    {
+      "id": "g9-exp-l06-m03",
+      "prompt": "A learner says (15)⁰ = 0. Find the first error and corrected result.",
+      "options": [
+        "0",
+        "15",
+        "1",
+        "-1"
+      ],
+      "answer_index": 2,
+      "memo": "1. Confirm the base 15 is nonzero. The first error is treating exponent zero as a zero value. The multiplicative identity gives (15)⁰ = 1. Check: The corrected expression evaluates to 1, not 0.",
+      "misconception": "first-error-zero",
+      "option_rationales": {
+        "0": "Incorrect: Keeps the learner’s zero result.",
+        "15": "Incorrect: Keeps the original base.",
+        "1": "Correct: Check: The corrected expression evaluates to 1, not 0.",
+        "-1": "Incorrect: Changes the sign of the identity value."
+      }
+    },
+    {
+      "id": "g9-exp-l06-m04",
+      "prompt": "A learner says 7⁻² = -49. Find the first error and corrected fraction.",
+      "options": [
+        "-49",
+        "49",
+        "1/343",
+        "1/49"
+      ],
+      "answer_index": 3,
+      "memo": "1/49. The base 7 is positive. The first error is reading a negative exponent as a negative result. Reciprocate the positive power: 1/49 = 1/49. Check: The corrected expression evaluates to 1/49, not -49.",
+      "misconception": "first-error-negative",
+      "option_rationales": {
+        "-49": "Incorrect: Keeps the learner’s negative power value.",
+        "49": "Incorrect: Keeps the positive power without a reciprocal.",
+        "1/343": "Incorrect: Uses an extra factor in the denominator.",
+        "1/49": "Correct: Check: The corrected expression evaluates to 1/49, not -49."
+      }
+    },
+    {
+      "id": "g9-exp-l06-m05",
+      "prompt": "A learner writes (-7)² = -49. Find the first error and corrected result.",
+      "options": [
+        "49",
+        "-49",
+        "-5",
+        "-7"
+      ],
+      "answer_index": 0,
+      "memo": "49. Keep the parentheses: -7 is the whole base. The first error is keeping a negative sign after an even number of negative factors. Calculate (-7)² = 49. Check: The corrected expression evaluates to 49, not -49.",
+      "misconception": "first-error-parentheses",
+      "option_rationales": {
+        "49": "Correct: Check: The corrected expression evaluates to 49, not -49.",
+        "-49": "Incorrect: Keeps the learner’s sign error.",
+        "-5": "Incorrect: Adds base and exponent.",
+        "-7": "Incorrect: Stops one factor too early."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-exp-l06-r01",
+      "prompt": "A learner writes 0.00017 as 17.0 × 10⁻⁵ in scientific notation. Find the first error and normalize it.",
+      "options": [
+        "1.7 × 10⁻⁴",
+        "17.0 × 10⁻⁵",
+        "1.7 × 10⁴",
+        "1.7 × 10⁻³"
+      ],
+      "answer_index": 0,
+      "memo": "1.7 × 10⁻⁴. A normalized coefficient must be at least 1 and below 10. The first error is leaving coefficient 17.0 outside that range. Rewrite it as 1.7 × 10⁻⁴. Check: The corrected expression evaluates to 1.7 × 10⁻⁴, not 17.0 × 10⁻⁵.",
+      "misconception": "first-error-scientific",
+      "option_rationales": {
+        "1.7 × 10⁻⁴": "Correct: Check: The corrected expression evaluates to 1.7 × 10⁻⁴, not 17.0 × 10⁻⁵.",
+        "17.0 × 10⁻⁵": "Incorrect: Keeps the non-normalized coefficient.",
+        "1.7 × 10⁴": "Incorrect: Reverses the exponent sign.",
+        "1.7 × 10⁻³": "Incorrect: Moves the decimal one extra place."
+      }
+    },
+    {
+      "id": "g9-exp-l06-r02",
+      "prompt": "A learner says 2⁹ × 2² = 262144 because the exponents multiply. Find the first error and corrected result.",
+      "options": [
+        "262144",
+        "2048",
+        "516",
+        "1024"
+      ],
+      "answer_index": 1,
+      "memo": "2048. The bases match: 2. The first error is multiplying exponents 9×2; a product of powers adds them. Use 9+2=11; 2¹¹ = 2048. Check: The corrected expression evaluates to 2048, not 262144.",
+      "misconception": "first-error-product",
+      "option_rationales": {
+        "262144": "Incorrect: Keeps the learner’s exponent product.",
+        "2048": "Correct: Check: The corrected expression evaluates to 2048, not 262144.",
+        "516": "Incorrect: Adds power values instead of exponents.",
+        "1024": "Incorrect: Omits the final repeated factor."
+      }
+    },
+    {
+      "id": "g9-exp-l06-r03",
+      "prompt": "A learner says (16)⁰ = 0. Find the first error and corrected result.",
+      "options": [
+        "0",
+        "16",
+        "1",
+        "-1"
+      ],
+      "answer_index": 2,
+      "memo": "1. Confirm the base 16 is nonzero. The first error is treating exponent zero as a zero value. The multiplicative identity gives (16)⁰ = 1. Check: The corrected expression evaluates to 1, not 0.",
+      "misconception": "first-error-zero",
+      "option_rationales": {
+        "0": "Incorrect: Keeps the learner’s zero result.",
+        "16": "Incorrect: Keeps the original base.",
+        "1": "Correct: Check: The corrected expression evaluates to 1, not 0.",
+        "-1": "Incorrect: Changes the sign of the identity value."
+      }
+    }
+  ]
+}

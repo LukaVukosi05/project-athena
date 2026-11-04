@@ -1,0 +1,13 @@
+.g9-exp-board{display:grid;gap:.7rem;min-width:0;padding:.8rem;border:1px solid #c7dce3;border-radius:14px;background:linear-gradient(145deg,#f4fbfc,#fff)}
+.g9-exp-question{margin:0;color:#10243f;font-weight:750}.g9-exp-givens{display:flex;gap:.5rem;flex-wrap:wrap}
+.g9-exp-givens span{padding:.2rem .55rem;border-radius:8px;background:#e8f1f3;color:#183549}
+.g9-exp-model{min-width:0;overflow-x:auto}.g9-exp-factors,.g9-exp-law,.g9-exp-scale,.g9-exp-compare,.g9-exp-context,.g9-exp-reciprocal{display:flex;align-items:center;flex-wrap:wrap;gap:.5rem}
+.g9-exp-factors span,.g9-exp-law>div,.g9-exp-scale>div,.g9-exp-compare>div,.g9-exp-context>div,.g9-exp-reciprocal>span,.g9-exp-reciprocal>strong{display:block;padding:.5rem .65rem;border:1px solid #bfd4dc;border-radius:9px;background:#fff}
+.g9-exp-factors .is-active,.g9-exp-diagnosis .is-marked{border-color:#087d86;background:#def5f2}
+.g9-exp-law small,.g9-exp-scale small,.g9-exp-compare small,.g9-exp-context small{display:block;color:#526d7d;font-size:.78rem}
+.g9-exp-law strong,.g9-exp-scale strong,.g9-exp-compare strong,.g9-exp-context strong{display:block;font-size:1.02rem}
+.g9-exp-fraction{display:inline-flex;vertical-align:middle;flex-direction:column;min-width:1.4em;text-align:center;line-height:1.08}
+.g9-exp-fraction span:first-child{border-bottom:1.5px solid currentColor;padding:0 .2em .1em}.g9-exp-fraction span:last-child{padding:.1em .2em 0}
+.g9-exp-diagnosis p{margin:.3rem 0;padding:.45rem;border-radius:7px}.g9-exp-answer{min-height:1.2em;margin:0;font-weight:700}
+.g9-exp-action{min-height:1.5em;overflow-wrap:anywhere}.g9-exp-action>div:empty{display:none}
+@media(max-width:520px){.g9-exp-board{padding:.5rem}.g9-exp-factors span{padding:.3rem}.g9-exp-givens span{font-size:.82rem}}

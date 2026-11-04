@@ -1,0 +1,1003 @@
+{
+  "source": "lesson-05-scientific-notation-in-contexts.md",
+  "worked": [
+    {
+      "problem": "A laboratory cuts identical fibres. Each unit measures 3.2 × 10⁻⁴ m. What is the total for 5 units in normalized scientific notation?",
+      "givens": [
+        "3.2 × 10⁻⁴ m",
+        "5"
+      ],
+      "actions": [
+        "Multiply 5 by the coefficient 3.2, keeping 10⁻⁴ and m.",
+        "The unnormalized coefficient is 16.0.",
+        "Renormalize to 1.6 × 10⁻³ m.",
+        "Check: 3.2 × 10⁻⁴ m × 5 = 1.6 × 10⁻³ m."
+      ],
+      "answer": "1.6 × 10⁻³ m",
+      "wrongs": [
+        "16.0 × 10⁻³ m",
+        "1.6 × 10³ m",
+        "3.2 × 10⁻⁴ m"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "3.2",
+        "exponent": -4,
+        "multiplier": 5,
+        "unit": "m",
+        "result_coefficient": "1.6",
+        "result_exponent": -3
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 3.2 × 10⁻⁴ m × 5 = 1.6 × 10⁻³ m.",
+      "id": "g9-exp-l05-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "A scale weighs identical grains. Each unit measures 4.5 × 10⁻⁶ g. What is the total for 20 units in normalized scientific notation?",
+      "givens": [
+        "4.5 × 10⁻⁶ g",
+        "20"
+      ],
+      "actions": [
+        "Multiply 20 by the coefficient 4.5, keeping 10⁻⁶ and g.",
+        "The unnormalized coefficient is 90.0.",
+        "Renormalize to 9 × 10⁻⁵ g.",
+        "Check: 4.5 × 10⁻⁶ g × 20 = 9 × 10⁻⁵ g."
+      ],
+      "answer": "9 × 10⁻⁵ g",
+      "wrongs": [
+        "90.0 × 10⁻⁵ g",
+        "9 × 10⁵ g",
+        "4.5 × 10⁻⁶ g"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "4.5",
+        "exponent": -6,
+        "multiplier": 20,
+        "unit": "g",
+        "result_coefficient": "9",
+        "result_exponent": -5
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 4.5 × 10⁻⁶ g × 20 = 9 × 10⁻⁵ g.",
+      "id": "g9-exp-l05-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "A survey records equal trail segments. Each unit measures 2.8 × 10³ m. What is the total for 6 units in normalized scientific notation?",
+      "givens": [
+        "2.8 × 10³ m",
+        "6"
+      ],
+      "actions": [
+        "Multiply 6 by the coefficient 2.8, keeping 10³ and m.",
+        "The unnormalized coefficient is 16.8.",
+        "Renormalize to 1.68 × 10⁴ m.",
+        "Check: 2.8 × 10³ m × 6 = 1.68 × 10⁴ m."
+      ],
+      "answer": "1.68 × 10⁴ m",
+      "wrongs": [
+        "16.8 × 10⁴ m",
+        "1.68 × 10⁻⁴ m",
+        "2.8 × 10³ m"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "2.8",
+        "exponent": 3,
+        "multiplier": 6,
+        "unit": "m",
+        "result_coefficient": "1.68",
+        "result_exponent": 4
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 2.8 × 10³ m × 6 = 1.68 × 10⁴ m.",
+      "id": "g9-exp-l05-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A sensor measures repeated droplets. Each unit measures 7.5 × 10⁻⁵ L. What is the total for 12 units in normalized scientific notation?",
+      "givens": [
+        "7.5 × 10⁻⁵ L",
+        "12"
+      ],
+      "actions": [
+        "Multiply 12 by the coefficient 7.5, keeping 10⁻⁵ and L.",
+        "The unnormalized coefficient is 90.0.",
+        "Renormalize to 9 × 10⁻⁴ L.",
+        "Check: 7.5 × 10⁻⁵ L × 12 = 9 × 10⁻⁴ L."
+      ],
+      "answer": "9 × 10⁻⁴ L",
+      "wrongs": [
+        "90.0 × 10⁻⁴ L",
+        "9 × 10⁴ L",
+        "7.5 × 10⁻⁵ L"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "7.5",
+        "exponent": -5,
+        "multiplier": 12,
+        "unit": "L",
+        "result_coefficient": "9",
+        "result_exponent": -4
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 7.5 × 10⁻⁵ L × 12 = 9 × 10⁻⁴ L.",
+      "id": "g9-exp-l05-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A culture contains equal samples. Each unit measures 1.6 × 10⁴ cells. What is the total for 8 units in normalized scientific notation?",
+      "givens": [
+        "1.6 × 10⁴ cells",
+        "8"
+      ],
+      "actions": [
+        "Multiply 8 by the coefficient 1.6, keeping 10⁴ and cells.",
+        "The unnormalized coefficient is 12.8.",
+        "Renormalize to 1.28 × 10⁵ cells.",
+        "Check: 1.6 × 10⁴ cells × 8 = 1.28 × 10⁵ cells."
+      ],
+      "answer": "1.28 × 10⁵ cells",
+      "wrongs": [
+        "12.8 × 10⁵ cells",
+        "1.28 × 10⁻⁵ cells",
+        "1.6 × 10⁴ cells"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "1.6",
+        "exponent": 4,
+        "multiplier": 8,
+        "unit": "cells",
+        "result_coefficient": "1.28",
+        "result_exponent": 5
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 1.6 × 10⁴ cells × 8 = 1.28 × 10⁵ cells.",
+      "id": "g9-exp-l05-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "An instrument measures equal films. Each unit measures 6.4 × 10⁻⁷ m. What is the total for 25 units in normalized scientific notation?",
+      "givens": [
+        "6.4 × 10⁻⁷ m",
+        "25"
+      ],
+      "actions": [
+        "Multiply 25 by the coefficient 6.4, keeping 10⁻⁷ and m.",
+        "The unnormalized coefficient is 160.0.",
+        "Renormalize to 1.6 × 10⁻⁵ m.",
+        "Check: 6.4 × 10⁻⁷ m × 25 = 1.6 × 10⁻⁵ m."
+      ],
+      "answer": "1.6 × 10⁻⁵ m",
+      "wrongs": [
+        "160.0 × 10⁻⁶ m",
+        "1.6 × 10⁵ m",
+        "6.4 × 10⁻⁷ m"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "6.4",
+        "exponent": -7,
+        "multiplier": 25,
+        "unit": "m",
+        "result_coefficient": "1.6",
+        "result_exponent": -5
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 6.4 × 10⁻⁷ m × 25 = 1.6 × 10⁻⁵ m.",
+      "id": "g9-exp-l05-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A storage test transfers equal blocks. Each unit measures 5.1 × 10⁵ bytes. What is the total for 7 units in normalized scientific notation?",
+      "givens": [
+        "5.1 × 10⁵ bytes",
+        "7"
+      ],
+      "actions": [
+        "Multiply 7 by the coefficient 5.1, keeping 10⁵ and bytes.",
+        "The unnormalized coefficient is 35.7.",
+        "Renormalize to 3.57 × 10⁶ bytes.",
+        "Check: 5.1 × 10⁵ bytes × 7 = 3.57 × 10⁶ bytes."
+      ],
+      "answer": "3.57 × 10⁶ bytes",
+      "wrongs": [
+        "35.7 × 10⁶ bytes",
+        "3.57 × 10⁻⁶ bytes",
+        "5.1 × 10⁵ bytes"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "5.1",
+        "exponent": 5,
+        "multiplier": 7,
+        "unit": "bytes",
+        "result_coefficient": "3.57",
+        "result_exponent": 6
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 5.1 × 10⁵ bytes × 7 = 3.57 × 10⁶ bytes.",
+      "id": "g9-exp-l05-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A lab mixes equal samples. Each unit measures 3.6 × 10⁻³ g. What is the total for 15 units in normalized scientific notation?",
+      "givens": [
+        "3.6 × 10⁻³ g",
+        "15"
+      ],
+      "actions": [
+        "Multiply 15 by the coefficient 3.6, keeping 10⁻³ and g.",
+        "The unnormalized coefficient is 54.0.",
+        "Renormalize to 5.4 × 10⁻² g.",
+        "Check: 3.6 × 10⁻³ g × 15 = 5.4 × 10⁻² g."
+      ],
+      "answer": "5.4 × 10⁻² g",
+      "wrongs": [
+        "54.0 × 10⁻² g",
+        "5.4 × 10² g",
+        "3.6 × 10⁻³ g"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "3.6",
+        "exponent": -3,
+        "multiplier": 15,
+        "unit": "g",
+        "result_coefficient": "5.4",
+        "result_exponent": -2
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 3.6 × 10⁻³ g × 15 = 5.4 × 10⁻² g.",
+      "id": "g9-exp-l05-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A map records identical sections. Each unit measures 8.2 × 10² m. What is the total for 9 units in normalized scientific notation?",
+      "givens": [
+        "8.2 × 10² m",
+        "9"
+      ],
+      "actions": [
+        "Multiply 9 by the coefficient 8.2, keeping 10² and m.",
+        "The unnormalized coefficient is 73.8.",
+        "Renormalize to 7.38 × 10³ m.",
+        "Check: 8.2 × 10² m × 9 = 7.38 × 10³ m."
+      ],
+      "answer": "7.38 × 10³ m",
+      "wrongs": [
+        "73.8 × 10³ m",
+        "7.38 × 10⁻³ m",
+        "8.2 × 10² m"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "8.2",
+        "exponent": 2,
+        "multiplier": 9,
+        "unit": "m",
+        "result_coefficient": "7.38",
+        "result_exponent": 3
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 8.2 × 10² m × 9 = 7.38 × 10³ m.",
+      "id": "g9-exp-l05-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A dispenser releases equal drops. Each unit measures 1.25 × 10⁻⁴ L. What is the total for 16 units in normalized scientific notation?",
+      "givens": [
+        "1.25 × 10⁻⁴ L",
+        "16"
+      ],
+      "actions": [
+        "Multiply 16 by the coefficient 1.25, keeping 10⁻⁴ and L.",
+        "The unnormalized coefficient is 20.00.",
+        "Renormalize to 2 × 10⁻³ L.",
+        "Check: 1.25 × 10⁻⁴ L × 16 = 2 × 10⁻³ L."
+      ],
+      "answer": "2 × 10⁻³ L",
+      "wrongs": [
+        "20.00 × 10⁻³ L",
+        "2 × 10³ L",
+        "1.25 × 10⁻⁴ L"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "1.25",
+        "exponent": -4,
+        "multiplier": 16,
+        "unit": "L",
+        "result_coefficient": "2",
+        "result_exponent": -3
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 1.25 × 10⁻⁴ L × 16 = 2 × 10⁻³ L.",
+      "id": "g9-exp-l05-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A counter records equal batches. Each unit measures 2.4 × 10⁶ units. What is the total for 5 units in normalized scientific notation?",
+      "givens": [
+        "2.4 × 10⁶ units",
+        "5"
+      ],
+      "actions": [
+        "Multiply 5 by the coefficient 2.4, keeping 10⁶ and units.",
+        "The unnormalized coefficient is 12.0.",
+        "Renormalize to 1.2 × 10⁷ units.",
+        "Check: 2.4 × 10⁶ units × 5 = 1.2 × 10⁷ units."
+      ],
+      "answer": "1.2 × 10⁷ units",
+      "wrongs": [
+        "12.0 × 10⁷ units",
+        "1.2 × 10⁻⁷ units",
+        "2.4 × 10⁶ units"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "2.4",
+        "exponent": 6,
+        "multiplier": 5,
+        "unit": "units",
+        "result_coefficient": "1.2",
+        "result_exponent": 7
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 2.4 × 10⁶ units × 5 = 1.2 × 10⁷ units.",
+      "id": "g9-exp-l05-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A microscope records identical lengths. Each unit measures 6.8 × 10⁻⁸ m. What is the total for 30 units in normalized scientific notation?",
+      "givens": [
+        "6.8 × 10⁻⁸ m",
+        "30"
+      ],
+      "actions": [
+        "Multiply 30 by the coefficient 6.8, keeping 10⁻⁸ and m.",
+        "The unnormalized coefficient is 204.0.",
+        "Renormalize to 2.04 × 10⁻⁶ m.",
+        "Check: 6.8 × 10⁻⁸ m × 30 = 2.04 × 10⁻⁶ m."
+      ],
+      "answer": "2.04 × 10⁻⁶ m",
+      "wrongs": [
+        "204.0 × 10⁻⁷ m",
+        "2.04 × 10⁶ m",
+        "6.8 × 10⁻⁸ m"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "6.8",
+        "exponent": -8,
+        "multiplier": 30,
+        "unit": "m",
+        "result_coefficient": "2.04",
+        "result_exponent": -6
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 6.8 × 10⁻⁸ m × 30 = 2.04 × 10⁻⁶ m.",
+      "id": "g9-exp-l05-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A warehouse counts equal pallets. Each unit measures 4.2 × 10³ units. What is the total for 25 units in normalized scientific notation?",
+      "givens": [
+        "4.2 × 10³ units",
+        "25"
+      ],
+      "actions": [
+        "Multiply 25 by the coefficient 4.2, keeping 10³ and units.",
+        "The unnormalized coefficient is 105.0.",
+        "Renormalize to 1.05 × 10⁵ units.",
+        "Check: 4.2 × 10³ units × 25 = 1.05 × 10⁵ units."
+      ],
+      "answer": "1.05 × 10⁵ units",
+      "wrongs": [
+        "105.0 × 10⁴ units",
+        "1.05 × 10⁻⁵ units",
+        "4.2 × 10³ units"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "4.2",
+        "exponent": 3,
+        "multiplier": 25,
+        "unit": "units",
+        "result_coefficient": "1.05",
+        "result_exponent": 5
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 4.2 × 10³ units × 25 = 1.05 × 10⁵ units.",
+      "id": "g9-exp-l05-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A lab combines equal samples. Each unit measures 9.6 × 10⁻⁵ g. What is the total for 125 units in normalized scientific notation?",
+      "givens": [
+        "9.6 × 10⁻⁵ g",
+        "125"
+      ],
+      "actions": [
+        "Multiply 125 by the coefficient 9.6, keeping 10⁻⁵ and g.",
+        "The unnormalized coefficient is 1200.0.",
+        "Renormalize to 1.2 × 10⁻² g.",
+        "Check: 9.6 × 10⁻⁵ g × 125 = 1.2 × 10⁻² g."
+      ],
+      "answer": "1.2 × 10⁻² g",
+      "wrongs": [
+        "1200.0 × 10⁻⁴ g",
+        "1.2 × 10² g",
+        "9.6 × 10⁻⁵ g"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "9.6",
+        "exponent": -5,
+        "multiplier": 125,
+        "unit": "g",
+        "result_coefficient": "1.2",
+        "result_exponent": -2
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 9.6 × 10⁻⁵ g × 125 = 1.2 × 10⁻² g.",
+      "id": "g9-exp-l05-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A survey combines identical intervals. Each unit measures 7.2 × 10⁴ m. What is the total for 75 units in normalized scientific notation?",
+      "givens": [
+        "7.2 × 10⁴ m",
+        "75"
+      ],
+      "actions": [
+        "Multiply 75 by the coefficient 7.2, keeping 10⁴ and m.",
+        "The unnormalized coefficient is 540.0.",
+        "Renormalize to 5.4 × 10⁶ m.",
+        "Check: 7.2 × 10⁴ m × 75 = 5.4 × 10⁶ m."
+      ],
+      "answer": "5.4 × 10⁶ m",
+      "wrongs": [
+        "540.0 × 10⁵ m",
+        "5.4 × 10⁻⁶ m",
+        "7.2 × 10⁴ m"
+      ],
+      "wrong_methods": [
+        "Loses a factor of ten when scaling the measured value.",
+        "Reverses the exponent direction.",
+        "Omits the stated multiplier."
+      ],
+      "visual": {
+        "family": "context",
+        "coefficient": "7.2",
+        "exponent": 4,
+        "multiplier": 75,
+        "unit": "m",
+        "result_coefficient": "5.4",
+        "result_exponent": 6
+      },
+      "misconception": "scientific-unit",
+      "check": "Check: 7.2 × 10⁴ m × 75 = 5.4 × 10⁶ m.",
+      "id": "g9-exp-l05-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-exp-l05-p01",
+      "prompt": "A sensor records identical segments. Each unit measures 1.2 × 10⁻⁴ m. What is the total for 6 units in normalized scientific notation?",
+      "options": [
+        "7.2 × 10⁻⁴ m",
+        "7.2 × 10⁻³ m",
+        "7.2 × 10⁴ m",
+        "1.2 × 10⁻⁴ m"
+      ],
+      "answer_index": 0,
+      "memo": "7.2 × 10⁻⁴ m. Multiply 6 by the coefficient 1.2, keeping 10⁻⁴ and m. The unnormalized coefficient is 7.2. Renormalize to 7.2 × 10⁻⁴ m. Check: 1.2 × 10⁻⁴ m × 6 = 7.2 × 10⁻⁴ m.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "7.2 × 10⁻⁴ m": "Correct: Check: 1.2 × 10⁻⁴ m × 6 = 7.2 × 10⁻⁴ m.",
+        "7.2 × 10⁻³ m": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "7.2 × 10⁴ m": "Incorrect: Reverses the exponent direction.",
+        "1.2 × 10⁻⁴ m": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p02",
+      "prompt": "A counter records equal groups. Each unit measures 1.3 × 10³ units. What is the total for 5 units in normalized scientific notation?",
+      "options": [
+        "6.5 × 10⁴ units",
+        "6.5 × 10³ units",
+        "6.5 × 10⁻³ units",
+        "1.3 × 10³ units"
+      ],
+      "answer_index": 1,
+      "memo": "6.5 × 10³ units. Multiply 5 by the coefficient 1.3, keeping 10³ and units. The unnormalized coefficient is 6.5. Renormalize to 6.5 × 10³ units. Check: 1.3 × 10³ units × 5 = 6.5 × 10³ units.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "6.5 × 10⁴ units": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "6.5 × 10³ units": "Correct: Check: 1.3 × 10³ units × 5 = 6.5 × 10³ units.",
+        "6.5 × 10⁻³ units": "Incorrect: Reverses the exponent direction.",
+        "1.3 × 10³ units": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p03",
+      "prompt": "A lab weighs identical samples. Each unit measures 1.4 × 10⁻⁶ g. What is the total for 7 units in normalized scientific notation?",
+      "options": [
+        "9.8 × 10⁻⁵ g",
+        "9.8 × 10⁶ g",
+        "9.8 × 10⁻⁶ g",
+        "1.4 × 10⁻⁶ g"
+      ],
+      "answer_index": 2,
+      "memo": "9.8 × 10⁻⁶ g. Multiply 7 by the coefficient 1.4, keeping 10⁻⁶ and g. The unnormalized coefficient is 9.8. Renormalize to 9.8 × 10⁻⁶ g. Check: 1.4 × 10⁻⁶ g × 7 = 9.8 × 10⁻⁶ g.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "9.8 × 10⁻⁵ g": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "9.8 × 10⁶ g": "Incorrect: Reverses the exponent direction.",
+        "9.8 × 10⁻⁶ g": "Correct: Check: 1.4 × 10⁻⁶ g × 7 = 9.8 × 10⁻⁶ g.",
+        "1.4 × 10⁻⁶ g": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p04",
+      "prompt": "A sensor records identical segments. Each unit measures 1.3 × 10⁻⁴ m. What is the total for 7 units in normalized scientific notation?",
+      "options": [
+        "9.1 × 10⁻³ m",
+        "9.1 × 10⁴ m",
+        "1.3 × 10⁻⁴ m",
+        "9.1 × 10⁻⁴ m"
+      ],
+      "answer_index": 3,
+      "memo": "9.1 × 10⁻⁴ m. Multiply 7 by the coefficient 1.3, keeping 10⁻⁴ and m. The unnormalized coefficient is 9.1. Renormalize to 9.1 × 10⁻⁴ m. Check: 1.3 × 10⁻⁴ m × 7 = 9.1 × 10⁻⁴ m.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "9.1 × 10⁻³ m": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "9.1 × 10⁴ m": "Incorrect: Reverses the exponent direction.",
+        "1.3 × 10⁻⁴ m": "Incorrect: Omits the stated multiplier.",
+        "9.1 × 10⁻⁴ m": "Correct: Check: 1.3 × 10⁻⁴ m × 7 = 9.1 × 10⁻⁴ m."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p05",
+      "prompt": "A counter records equal groups. Each unit measures 1.4 × 10³ units. What is the total for 6 units in normalized scientific notation?",
+      "options": [
+        "8.4 × 10³ units",
+        "8.4 × 10⁴ units",
+        "8.4 × 10⁻³ units",
+        "1.4 × 10³ units"
+      ],
+      "answer_index": 0,
+      "memo": "8.4 × 10³ units. Multiply 6 by the coefficient 1.4, keeping 10³ and units. The unnormalized coefficient is 8.4. Renormalize to 8.4 × 10³ units. Check: 1.4 × 10³ units × 6 = 8.4 × 10³ units.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "8.4 × 10³ units": "Correct: Check: 1.4 × 10³ units × 6 = 8.4 × 10³ units.",
+        "8.4 × 10⁴ units": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "8.4 × 10⁻³ units": "Incorrect: Reverses the exponent direction.",
+        "1.4 × 10³ units": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p06",
+      "prompt": "A lab weighs identical samples. Each unit measures 1.5 × 10⁻⁶ g. What is the total for 8 units in normalized scientific notation?",
+      "options": [
+        "12.0 × 10⁻⁵ g",
+        "1.2 × 10⁻⁵ g",
+        "1.2 × 10⁵ g",
+        "1.5 × 10⁻⁶ g"
+      ],
+      "answer_index": 1,
+      "memo": "1.2 × 10⁻⁵ g. Multiply 8 by the coefficient 1.5, keeping 10⁻⁶ and g. The unnormalized coefficient is 12.0. Renormalize to 1.2 × 10⁻⁵ g. Check: 1.5 × 10⁻⁶ g × 8 = 1.2 × 10⁻⁵ g.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "12.0 × 10⁻⁵ g": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.2 × 10⁻⁵ g": "Correct: Check: 1.5 × 10⁻⁶ g × 8 = 1.2 × 10⁻⁵ g.",
+        "1.2 × 10⁵ g": "Incorrect: Reverses the exponent direction.",
+        "1.5 × 10⁻⁶ g": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p07",
+      "prompt": "A sensor records identical segments. Each unit measures 1.4 × 10⁻⁴ m. What is the total for 8 units in normalized scientific notation?",
+      "options": [
+        "11.2 × 10⁻³ m",
+        "1.12 × 10³ m",
+        "1.12 × 10⁻³ m",
+        "1.4 × 10⁻⁴ m"
+      ],
+      "answer_index": 2,
+      "memo": "1.12 × 10⁻³ m. Multiply 8 by the coefficient 1.4, keeping 10⁻⁴ and m. The unnormalized coefficient is 11.2. Renormalize to 1.12 × 10⁻³ m. Check: 1.4 × 10⁻⁴ m × 8 = 1.12 × 10⁻³ m.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "11.2 × 10⁻³ m": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.12 × 10³ m": "Incorrect: Reverses the exponent direction.",
+        "1.12 × 10⁻³ m": "Correct: Check: 1.4 × 10⁻⁴ m × 8 = 1.12 × 10⁻³ m.",
+        "1.4 × 10⁻⁴ m": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p08",
+      "prompt": "A counter records equal groups. Each unit measures 1.5 × 10³ units. What is the total for 7 units in normalized scientific notation?",
+      "options": [
+        "10.5 × 10⁴ units",
+        "1.05 × 10⁻⁴ units",
+        "1.5 × 10³ units",
+        "1.05 × 10⁴ units"
+      ],
+      "answer_index": 3,
+      "memo": "1.05 × 10⁴ units. Multiply 7 by the coefficient 1.5, keeping 10³ and units. The unnormalized coefficient is 10.5. Renormalize to 1.05 × 10⁴ units. Check: 1.5 × 10³ units × 7 = 1.05 × 10⁴ units.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "10.5 × 10⁴ units": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.05 × 10⁻⁴ units": "Incorrect: Reverses the exponent direction.",
+        "1.5 × 10³ units": "Incorrect: Omits the stated multiplier.",
+        "1.05 × 10⁴ units": "Correct: Check: 1.5 × 10³ units × 7 = 1.05 × 10⁴ units."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p09",
+      "prompt": "A lab weighs identical samples. Each unit measures 1.6 × 10⁻⁶ g. What is the total for 9 units in normalized scientific notation?",
+      "options": [
+        "1.44 × 10⁻⁵ g",
+        "14.4 × 10⁻⁵ g",
+        "1.44 × 10⁵ g",
+        "1.6 × 10⁻⁶ g"
+      ],
+      "answer_index": 0,
+      "memo": "1.44 × 10⁻⁵ g. Multiply 9 by the coefficient 1.6, keeping 10⁻⁶ and g. The unnormalized coefficient is 14.4. Renormalize to 1.44 × 10⁻⁵ g. Check: 1.6 × 10⁻⁶ g × 9 = 1.44 × 10⁻⁵ g.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "1.44 × 10⁻⁵ g": "Correct: Check: 1.6 × 10⁻⁶ g × 9 = 1.44 × 10⁻⁵ g.",
+        "14.4 × 10⁻⁵ g": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.44 × 10⁵ g": "Incorrect: Reverses the exponent direction.",
+        "1.6 × 10⁻⁶ g": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p10",
+      "prompt": "A sensor records identical segments. Each unit measures 1.5 × 10⁻⁴ m. What is the total for 9 units in normalized scientific notation?",
+      "options": [
+        "13.5 × 10⁻³ m",
+        "1.35 × 10⁻³ m",
+        "1.35 × 10³ m",
+        "1.5 × 10⁻⁴ m"
+      ],
+      "answer_index": 1,
+      "memo": "1.35 × 10⁻³ m. Multiply 9 by the coefficient 1.5, keeping 10⁻⁴ and m. The unnormalized coefficient is 13.5. Renormalize to 1.35 × 10⁻³ m. Check: 1.5 × 10⁻⁴ m × 9 = 1.35 × 10⁻³ m.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "13.5 × 10⁻³ m": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.35 × 10⁻³ m": "Correct: Check: 1.5 × 10⁻⁴ m × 9 = 1.35 × 10⁻³ m.",
+        "1.35 × 10³ m": "Incorrect: Reverses the exponent direction.",
+        "1.5 × 10⁻⁴ m": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p11",
+      "prompt": "A counter records equal groups. Each unit measures 1.6 × 10³ units. What is the total for 8 units in normalized scientific notation?",
+      "options": [
+        "12.8 × 10⁴ units",
+        "1.28 × 10⁻⁴ units",
+        "1.28 × 10⁴ units",
+        "1.6 × 10³ units"
+      ],
+      "answer_index": 2,
+      "memo": "1.28 × 10⁴ units. Multiply 8 by the coefficient 1.6, keeping 10³ and units. The unnormalized coefficient is 12.8. Renormalize to 1.28 × 10⁴ units. Check: 1.6 × 10³ units × 8 = 1.28 × 10⁴ units.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "12.8 × 10⁴ units": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.28 × 10⁻⁴ units": "Incorrect: Reverses the exponent direction.",
+        "1.28 × 10⁴ units": "Correct: Check: 1.6 × 10³ units × 8 = 1.28 × 10⁴ units.",
+        "1.6 × 10³ units": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p12",
+      "prompt": "A lab weighs identical samples. Each unit measures 1.7 × 10⁻⁶ g. What is the total for 10 units in normalized scientific notation?",
+      "options": [
+        "17.0 × 10⁻⁵ g",
+        "1.7 × 10⁵ g",
+        "1.7 × 10⁻⁶ g",
+        "1.7 × 10⁻⁵ g"
+      ],
+      "answer_index": 3,
+      "memo": "1.7 × 10⁻⁵ g. Multiply 10 by the coefficient 1.7, keeping 10⁻⁶ and g. The unnormalized coefficient is 17.0. Renormalize to 1.7 × 10⁻⁵ g. Check: 1.7 × 10⁻⁶ g × 10 = 1.7 × 10⁻⁵ g.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "17.0 × 10⁻⁵ g": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.7 × 10⁵ g": "Incorrect: Reverses the exponent direction.",
+        "1.7 × 10⁻⁶ g": "Incorrect: Omits the stated multiplier.",
+        "1.7 × 10⁻⁵ g": "Correct: Check: 1.7 × 10⁻⁶ g × 10 = 1.7 × 10⁻⁵ g."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p13",
+      "prompt": "A sensor records identical segments. Each unit measures 1.6 × 10⁻⁴ m. What is the total for 10 units in normalized scientific notation?",
+      "options": [
+        "1.6 × 10⁻³ m",
+        "16.0 × 10⁻³ m",
+        "1.6 × 10³ m",
+        "1.6 × 10⁻⁴ m"
+      ],
+      "answer_index": 0,
+      "memo": "1.6 × 10⁻³ m. Multiply 10 by the coefficient 1.6, keeping 10⁻⁴ and m. The unnormalized coefficient is 16.0. Renormalize to 1.6 × 10⁻³ m. Check: 1.6 × 10⁻⁴ m × 10 = 1.6 × 10⁻³ m.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "1.6 × 10⁻³ m": "Correct: Check: 1.6 × 10⁻⁴ m × 10 = 1.6 × 10⁻³ m.",
+        "16.0 × 10⁻³ m": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.6 × 10³ m": "Incorrect: Reverses the exponent direction.",
+        "1.6 × 10⁻⁴ m": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p14",
+      "prompt": "A counter records equal groups. Each unit measures 1.7 × 10³ units. What is the total for 9 units in normalized scientific notation?",
+      "options": [
+        "15.3 × 10⁴ units",
+        "1.53 × 10⁴ units",
+        "1.53 × 10⁻⁴ units",
+        "1.7 × 10³ units"
+      ],
+      "answer_index": 1,
+      "memo": "1.53 × 10⁴ units. Multiply 9 by the coefficient 1.7, keeping 10³ and units. The unnormalized coefficient is 15.3. Renormalize to 1.53 × 10⁴ units. Check: 1.7 × 10³ units × 9 = 1.53 × 10⁴ units.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "15.3 × 10⁴ units": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.53 × 10⁴ units": "Correct: Check: 1.7 × 10³ units × 9 = 1.53 × 10⁴ units.",
+        "1.53 × 10⁻⁴ units": "Incorrect: Reverses the exponent direction.",
+        "1.7 × 10³ units": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-p15",
+      "prompt": "A lab weighs identical samples. Each unit measures 1.8 × 10⁻⁶ g. What is the total for 11 units in normalized scientific notation?",
+      "options": [
+        "19.8 × 10⁻⁵ g",
+        "1.98 × 10⁵ g",
+        "1.98 × 10⁻⁵ g",
+        "1.8 × 10⁻⁶ g"
+      ],
+      "answer_index": 2,
+      "memo": "1.98 × 10⁻⁵ g. Multiply 11 by the coefficient 1.8, keeping 10⁻⁶ and g. The unnormalized coefficient is 19.8. Renormalize to 1.98 × 10⁻⁵ g. Check: 1.8 × 10⁻⁶ g × 11 = 1.98 × 10⁻⁵ g.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "19.8 × 10⁻⁵ g": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.98 × 10⁵ g": "Incorrect: Reverses the exponent direction.",
+        "1.98 × 10⁻⁵ g": "Correct: Check: 1.8 × 10⁻⁶ g × 11 = 1.98 × 10⁻⁵ g.",
+        "1.8 × 10⁻⁶ g": "Incorrect: Omits the stated multiplier."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-exp-l05-m01",
+      "prompt": "A sensor records identical segments. Each unit measures 1.7 × 10⁻⁴ m. What is the total for 11 units in normalized scientific notation?",
+      "options": [
+        "1.87 × 10⁻³ m",
+        "18.7 × 10⁻³ m",
+        "1.87 × 10³ m",
+        "1.7 × 10⁻⁴ m"
+      ],
+      "answer_index": 0,
+      "memo": "1.87 × 10⁻³ m. Multiply 11 by the coefficient 1.7, keeping 10⁻⁴ and m. The unnormalized coefficient is 18.7. Renormalize to 1.87 × 10⁻³ m. Check: 1.7 × 10⁻⁴ m × 11 = 1.87 × 10⁻³ m.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "1.87 × 10⁻³ m": "Correct: Check: 1.7 × 10⁻⁴ m × 11 = 1.87 × 10⁻³ m.",
+        "18.7 × 10⁻³ m": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.87 × 10³ m": "Incorrect: Reverses the exponent direction.",
+        "1.7 × 10⁻⁴ m": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-m02",
+      "prompt": "A counter records equal groups. Each unit measures 1.8 × 10³ units. What is the total for 10 units in normalized scientific notation?",
+      "options": [
+        "18.0 × 10⁴ units",
+        "1.8 × 10⁴ units",
+        "1.8 × 10⁻⁴ units",
+        "1.8 × 10³ units"
+      ],
+      "answer_index": 1,
+      "memo": "1.8 × 10⁴ units. Multiply 10 by the coefficient 1.8, keeping 10³ and units. The unnormalized coefficient is 18.0. Renormalize to 1.8 × 10⁴ units. Check: 1.8 × 10³ units × 10 = 1.8 × 10⁴ units.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "18.0 × 10⁴ units": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "1.8 × 10⁴ units": "Correct: Check: 1.8 × 10³ units × 10 = 1.8 × 10⁴ units.",
+        "1.8 × 10⁻⁴ units": "Incorrect: Reverses the exponent direction.",
+        "1.8 × 10³ units": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-m03",
+      "prompt": "A lab weighs identical samples. Each unit measures 1.9 × 10⁻⁶ g. What is the total for 12 units in normalized scientific notation?",
+      "options": [
+        "22.8 × 10⁻⁵ g",
+        "2.28 × 10⁵ g",
+        "2.28 × 10⁻⁵ g",
+        "1.9 × 10⁻⁶ g"
+      ],
+      "answer_index": 2,
+      "memo": "2.28 × 10⁻⁵ g. Multiply 12 by the coefficient 1.9, keeping 10⁻⁶ and g. The unnormalized coefficient is 22.8. Renormalize to 2.28 × 10⁻⁵ g. Check: 1.9 × 10⁻⁶ g × 12 = 2.28 × 10⁻⁵ g.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "22.8 × 10⁻⁵ g": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "2.28 × 10⁵ g": "Incorrect: Reverses the exponent direction.",
+        "2.28 × 10⁻⁵ g": "Correct: Check: 1.9 × 10⁻⁶ g × 12 = 2.28 × 10⁻⁵ g.",
+        "1.9 × 10⁻⁶ g": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-m04",
+      "prompt": "A sensor records identical segments. Each unit measures 1.8 × 10⁻⁴ m. What is the total for 12 units in normalized scientific notation?",
+      "options": [
+        "21.6 × 10⁻³ m",
+        "2.16 × 10³ m",
+        "1.8 × 10⁻⁴ m",
+        "2.16 × 10⁻³ m"
+      ],
+      "answer_index": 3,
+      "memo": "2.16 × 10⁻³ m. Multiply 12 by the coefficient 1.8, keeping 10⁻⁴ and m. The unnormalized coefficient is 21.6. Renormalize to 2.16 × 10⁻³ m. Check: 1.8 × 10⁻⁴ m × 12 = 2.16 × 10⁻³ m.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "21.6 × 10⁻³ m": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "2.16 × 10³ m": "Incorrect: Reverses the exponent direction.",
+        "1.8 × 10⁻⁴ m": "Incorrect: Omits the stated multiplier.",
+        "2.16 × 10⁻³ m": "Correct: Check: 1.8 × 10⁻⁴ m × 12 = 2.16 × 10⁻³ m."
+      }
+    },
+    {
+      "id": "g9-exp-l05-m05",
+      "prompt": "A counter records equal groups. Each unit measures 1.9 × 10³ units. What is the total for 11 units in normalized scientific notation?",
+      "options": [
+        "2.09 × 10⁴ units",
+        "20.9 × 10⁴ units",
+        "2.09 × 10⁻⁴ units",
+        "1.9 × 10³ units"
+      ],
+      "answer_index": 0,
+      "memo": "2.09 × 10⁴ units. Multiply 11 by the coefficient 1.9, keeping 10³ and units. The unnormalized coefficient is 20.9. Renormalize to 2.09 × 10⁴ units. Check: 1.9 × 10³ units × 11 = 2.09 × 10⁴ units.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "2.09 × 10⁴ units": "Correct: Check: 1.9 × 10³ units × 11 = 2.09 × 10⁴ units.",
+        "20.9 × 10⁴ units": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "2.09 × 10⁻⁴ units": "Incorrect: Reverses the exponent direction.",
+        "1.9 × 10³ units": "Incorrect: Omits the stated multiplier."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-exp-l05-r01",
+      "prompt": "A lab weighs identical samples. Each unit measures 2 × 10⁻⁶ g. What is the total for 13 units in normalized scientific notation?",
+      "options": [
+        "2.6 × 10⁻⁵ g",
+        "26 × 10⁻⁵ g",
+        "2.6 × 10⁵ g",
+        "2 × 10⁻⁶ g"
+      ],
+      "answer_index": 0,
+      "memo": "2.6 × 10⁻⁵ g. Multiply 13 by the coefficient 2, keeping 10⁻⁶ and g. The unnormalized coefficient is 26. Renormalize to 2.6 × 10⁻⁵ g. Check: 2 × 10⁻⁶ g × 13 = 2.6 × 10⁻⁵ g.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "2.6 × 10⁻⁵ g": "Correct: Check: 2 × 10⁻⁶ g × 13 = 2.6 × 10⁻⁵ g.",
+        "26 × 10⁻⁵ g": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "2.6 × 10⁵ g": "Incorrect: Reverses the exponent direction.",
+        "2 × 10⁻⁶ g": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-r02",
+      "prompt": "A sensor records identical segments. Each unit measures 1.9 × 10⁻⁴ m. What is the total for 13 units in normalized scientific notation?",
+      "options": [
+        "24.7 × 10⁻³ m",
+        "2.47 × 10⁻³ m",
+        "2.47 × 10³ m",
+        "1.9 × 10⁻⁴ m"
+      ],
+      "answer_index": 1,
+      "memo": "2.47 × 10⁻³ m. Multiply 13 by the coefficient 1.9, keeping 10⁻⁴ and m. The unnormalized coefficient is 24.7. Renormalize to 2.47 × 10⁻³ m. Check: 1.9 × 10⁻⁴ m × 13 = 2.47 × 10⁻³ m.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "24.7 × 10⁻³ m": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "2.47 × 10⁻³ m": "Correct: Check: 1.9 × 10⁻⁴ m × 13 = 2.47 × 10⁻³ m.",
+        "2.47 × 10³ m": "Incorrect: Reverses the exponent direction.",
+        "1.9 × 10⁻⁴ m": "Incorrect: Omits the stated multiplier."
+      }
+    },
+    {
+      "id": "g9-exp-l05-r03",
+      "prompt": "A counter records equal groups. Each unit measures 2 × 10³ units. What is the total for 12 units in normalized scientific notation?",
+      "options": [
+        "24 × 10⁴ units",
+        "2.4 × 10⁻⁴ units",
+        "2.4 × 10⁴ units",
+        "2 × 10³ units"
+      ],
+      "answer_index": 2,
+      "memo": "2.4 × 10⁴ units. Multiply 12 by the coefficient 2, keeping 10³ and units. The unnormalized coefficient is 24. Renormalize to 2.4 × 10⁴ units. Check: 2 × 10³ units × 12 = 2.4 × 10⁴ units.",
+      "misconception": "scientific-unit",
+      "option_rationales": {
+        "24 × 10⁴ units": "Incorrect: Loses a factor of ten when scaling the measured value.",
+        "2.4 × 10⁻⁴ units": "Incorrect: Reverses the exponent direction.",
+        "2.4 × 10⁴ units": "Correct: Check: 2 × 10³ units × 12 = 2.4 × 10⁴ units.",
+        "2 × 10³ units": "Incorrect: Omits the stated multiplier."
+      }
+    }
+  ]
+}

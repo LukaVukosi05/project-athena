@@ -1,0 +1,1000 @@
+{
+  "source": "lesson-02-zero-and-negative-exponents.md",
+  "worked": [
+    {
+      "problem": "Calculate (2)⁰.",
+      "givens": [
+        "2",
+        "0"
+      ],
+      "actions": [
+        "The base 2 is nonzero.",
+        "A nonzero base to exponent zero equals the multiplicative identity.",
+        "Therefore (2)⁰ = 1.",
+        "Check: 2³ ÷ 2³ = 1 = 2⁰."
+      ],
+      "answer": "1",
+      "wrongs": [
+        "0",
+        "2",
+        "-1"
+      ],
+      "wrong_methods": [
+        "Treats a nonzero base raised to zero as zero.",
+        "Keeps the base unchanged.",
+        "Applies a negative sign without justification."
+      ],
+      "visual": {
+        "family": "reciprocal",
+        "base": 2,
+        "exponent": 0,
+        "denominator": 1,
+        "operator": "zero"
+      },
+      "misconception": "zero-exponent",
+      "check": "Check: 2³ ÷ 2³ = 1 = 2⁰.",
+      "id": "g9-exp-l02-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Calculate (-3)⁰.",
+      "givens": [
+        "-3",
+        "0"
+      ],
+      "actions": [
+        "The base -3 is nonzero.",
+        "A nonzero base to exponent zero equals the multiplicative identity.",
+        "Therefore (-3)⁰ = 1.",
+        "Check: -3³ ÷ -3³ = 1 = -3⁰."
+      ],
+      "answer": "1",
+      "wrongs": [
+        "0",
+        "-3",
+        "-1"
+      ],
+      "wrong_methods": [
+        "Treats a nonzero base raised to zero as zero.",
+        "Keeps the base unchanged.",
+        "Applies a negative sign without justification."
+      ],
+      "visual": {
+        "family": "reciprocal",
+        "base": -3,
+        "exponent": 0,
+        "denominator": 1,
+        "operator": "zero"
+      },
+      "misconception": "zero-exponent",
+      "check": "Check: -3³ ÷ -3³ = 1 = -3⁰.",
+      "id": "g9-exp-l02-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Calculate (7)⁰.",
+      "givens": [
+        "7",
+        "0"
+      ],
+      "actions": [
+        "The base 7 is nonzero.",
+        "A nonzero base to exponent zero equals the multiplicative identity.",
+        "Therefore (7)⁰ = 1.",
+        "Check: 7³ ÷ 7³ = 1 = 7⁰."
+      ],
+      "answer": "1",
+      "wrongs": [
+        "0",
+        "7",
+        "-1"
+      ],
+      "wrong_methods": [
+        "Treats a nonzero base raised to zero as zero.",
+        "Keeps the base unchanged.",
+        "Applies a negative sign without justification."
+      ],
+      "visual": {
+        "family": "reciprocal",
+        "base": 7,
+        "exponent": 0,
+        "denominator": 1,
+        "operator": "zero"
+      },
+      "misconception": "zero-exponent",
+      "check": "Check: 7³ ÷ 7³ = 1 = 7⁰.",
+      "id": "g9-exp-l02-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate (10)⁰.",
+      "givens": [
+        "10",
+        "0"
+      ],
+      "actions": [
+        "The base 10 is nonzero.",
+        "A nonzero base to exponent zero equals the multiplicative identity.",
+        "Therefore (10)⁰ = 1.",
+        "Check: 10³ ÷ 10³ = 1 = 10⁰."
+      ],
+      "answer": "1",
+      "wrongs": [
+        "0",
+        "10",
+        "-1"
+      ],
+      "wrong_methods": [
+        "Treats a nonzero base raised to zero as zero.",
+        "Keeps the base unchanged.",
+        "Applies a negative sign without justification."
+      ],
+      "visual": {
+        "family": "reciprocal",
+        "base": 10,
+        "exponent": 0,
+        "denominator": 1,
+        "operator": "zero"
+      },
+      "misconception": "zero-exponent",
+      "check": "Check: 10³ ÷ 10³ = 1 = 10⁰.",
+      "id": "g9-exp-l02-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate 2⁻³ as a fraction.",
+      "givens": [
+        "2",
+        "-3"
+      ],
+      "actions": [
+        "A negative exponent indicates a reciprocal, not a negative value.",
+        "2⁻³ = 1/2³.",
+        "2³ = 8, so the result is 1/8.",
+        "Check: 1/8 × 8 = 1."
+      ],
+      "answer": "1/8",
+      "wrongs": [
+        "-8",
+        "8",
+        "1/16"
+      ],
+      "wrong_methods": [
+        "Treats a negative exponent as a negative value.",
+        "Keeps the positive power rather than its reciprocal.",
+        "Uses one extra factor in the reciprocal denominator."
+      ],
+      "visual": {
+        "family": "reciprocal",
+        "base": 2,
+        "exponent": -3,
+        "denominator": 8,
+        "operator": "negative"
+      },
+      "misconception": "negative-exponent",
+      "check": "Check: 1/8 × 8 = 1.",
+      "id": "g9-exp-l02-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate 3⁻² as a fraction.",
+      "givens": [
+        "3",
+        "-2"
+      ],
+      "actions": [
+        "A negative exponent indicates a reciprocal, not a negative value.",
+        "3⁻² = 1/3².",
+        "3² = 9, so the result is 1/9.",
+        "Check: 1/9 × 9 = 1."
+      ],
+      "answer": "1/9",
+      "wrongs": [
+        "-9",
+        "9",
+        "1/27"
+      ],
+      "wrong_methods": [
+        "Treats a negative exponent as a negative value.",
+        "Keeps the positive power rather than its reciprocal.",
+        "Uses one extra factor in the reciprocal denominator."
+      ],
+      "visual": {
+        "family": "reciprocal",
+        "base": 3,
+        "exponent": -2,
+        "denominator": 9,
+        "operator": "negative"
+      },
+      "misconception": "negative-exponent",
+      "check": "Check: 1/9 × 9 = 1.",
+      "id": "g9-exp-l02-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate 5⁻² as a fraction.",
+      "givens": [
+        "5",
+        "-2"
+      ],
+      "actions": [
+        "A negative exponent indicates a reciprocal, not a negative value.",
+        "5⁻² = 1/5².",
+        "5² = 25, so the result is 1/25.",
+        "Check: 1/25 × 25 = 1."
+      ],
+      "answer": "1/25",
+      "wrongs": [
+        "-25",
+        "25",
+        "1/125"
+      ],
+      "wrong_methods": [
+        "Treats a negative exponent as a negative value.",
+        "Keeps the positive power rather than its reciprocal.",
+        "Uses one extra factor in the reciprocal denominator."
+      ],
+      "visual": {
+        "family": "reciprocal",
+        "base": 5,
+        "exponent": -2,
+        "denominator": 25,
+        "operator": "negative"
+      },
+      "misconception": "negative-exponent",
+      "check": "Check: 1/25 × 25 = 1.",
+      "id": "g9-exp-l02-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate 2⁻⁵ as a fraction.",
+      "givens": [
+        "2",
+        "-5"
+      ],
+      "actions": [
+        "A negative exponent indicates a reciprocal, not a negative value.",
+        "2⁻⁵ = 1/2⁵.",
+        "2⁵ = 32, so the result is 1/32.",
+        "Check: 1/32 × 32 = 1."
+      ],
+      "answer": "1/32",
+      "wrongs": [
+        "-32",
+        "32",
+        "1/64"
+      ],
+      "wrong_methods": [
+        "Treats a negative exponent as a negative value.",
+        "Keeps the positive power rather than its reciprocal.",
+        "Uses one extra factor in the reciprocal denominator."
+      ],
+      "visual": {
+        "family": "reciprocal",
+        "base": 2,
+        "exponent": -5,
+        "denominator": 32,
+        "operator": "negative"
+      },
+      "misconception": "negative-exponent",
+      "check": "Check: 1/32 × 32 = 1.",
+      "id": "g9-exp-l02-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate 4⁻³ as a fraction.",
+      "givens": [
+        "4",
+        "-3"
+      ],
+      "actions": [
+        "A negative exponent indicates a reciprocal, not a negative value.",
+        "4⁻³ = 1/4³.",
+        "4³ = 64, so the result is 1/64.",
+        "Check: 1/64 × 64 = 1."
+      ],
+      "answer": "1/64",
+      "wrongs": [
+        "-64",
+        "64",
+        "1/256"
+      ],
+      "wrong_methods": [
+        "Treats a negative exponent as a negative value.",
+        "Keeps the positive power rather than its reciprocal.",
+        "Uses one extra factor in the reciprocal denominator."
+      ],
+      "visual": {
+        "family": "reciprocal",
+        "base": 4,
+        "exponent": -3,
+        "denominator": 64,
+        "operator": "negative"
+      },
+      "misconception": "negative-exponent",
+      "check": "Check: 1/64 × 64 = 1.",
+      "id": "g9-exp-l02-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate 7⁻² as a fraction.",
+      "givens": [
+        "7",
+        "-2"
+      ],
+      "actions": [
+        "A negative exponent indicates a reciprocal, not a negative value.",
+        "7⁻² = 1/7².",
+        "7² = 49, so the result is 1/49.",
+        "Check: 1/49 × 49 = 1."
+      ],
+      "answer": "1/49",
+      "wrongs": [
+        "-49",
+        "49",
+        "1/343"
+      ],
+      "wrong_methods": [
+        "Treats a negative exponent as a negative value.",
+        "Keeps the positive power rather than its reciprocal.",
+        "Uses one extra factor in the reciprocal denominator."
+      ],
+      "visual": {
+        "family": "reciprocal",
+        "base": 7,
+        "exponent": -2,
+        "denominator": 49,
+        "operator": "negative"
+      },
+      "misconception": "negative-exponent",
+      "check": "Check: 1/49 × 49 = 1.",
+      "id": "g9-exp-l02-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate (-2)².",
+      "givens": [
+        "-2",
+        "2"
+      ],
+      "actions": [
+        "Parentheses make -2 the entire base.",
+        "Expand (-2) × (-2).",
+        "Count negative factors and multiply: 4.",
+        "Check: (-2)² = 4."
+      ],
+      "answer": "4",
+      "wrongs": [
+        "-4",
+        "0",
+        "-2"
+      ],
+      "wrong_methods": [
+        "Drops the sign of the full negative base.",
+        "Adds the base and exponent.",
+        "Stops a repeated factor too early."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -2,
+        "exponents": [
+          2
+        ],
+        "values": [
+          1,
+          -2,
+          4
+        ]
+      },
+      "misconception": "parenthesised-negative-base",
+      "check": "Check: (-2)² = 4.",
+      "id": "g9-exp-l02-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate (-2)³.",
+      "givens": [
+        "-2",
+        "3"
+      ],
+      "actions": [
+        "Parentheses make -2 the entire base.",
+        "Expand (-2) × (-2) × (-2).",
+        "Count negative factors and multiply: -8.",
+        "Check: (-2)³ = -8."
+      ],
+      "answer": "-8",
+      "wrongs": [
+        "8",
+        "1",
+        "4"
+      ],
+      "wrong_methods": [
+        "Drops the sign of the full negative base.",
+        "Adds the base and exponent.",
+        "Stops a repeated factor too early."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -2,
+        "exponents": [
+          3
+        ],
+        "values": [
+          1,
+          -2,
+          4,
+          -8
+        ]
+      },
+      "misconception": "parenthesised-negative-base",
+      "check": "Check: (-2)³ = -8.",
+      "id": "g9-exp-l02-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate (-3)².",
+      "givens": [
+        "-3",
+        "2"
+      ],
+      "actions": [
+        "Parentheses make -3 the entire base.",
+        "Expand (-3) × (-3).",
+        "Count negative factors and multiply: 9.",
+        "Check: (-3)² = 9."
+      ],
+      "answer": "9",
+      "wrongs": [
+        "-9",
+        "-1",
+        "-3"
+      ],
+      "wrong_methods": [
+        "Drops the sign of the full negative base.",
+        "Adds the base and exponent.",
+        "Stops a repeated factor too early."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -3,
+        "exponents": [
+          2
+        ],
+        "values": [
+          1,
+          -3,
+          9
+        ]
+      },
+      "misconception": "parenthesised-negative-base",
+      "check": "Check: (-3)² = 9.",
+      "id": "g9-exp-l02-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Calculate (-3)³.",
+      "givens": [
+        "-3",
+        "3"
+      ],
+      "actions": [
+        "Parentheses make -3 the entire base.",
+        "Expand (-3) × (-3) × (-3).",
+        "Count negative factors and multiply: -27.",
+        "Check: (-3)³ = -27."
+      ],
+      "answer": "-27",
+      "wrongs": [
+        "27",
+        "0",
+        "9"
+      ],
+      "wrong_methods": [
+        "Drops the sign of the full negative base.",
+        "Adds the base and exponent.",
+        "Stops a repeated factor too early."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -3,
+        "exponents": [
+          3
+        ],
+        "values": [
+          1,
+          -3,
+          9,
+          -27
+        ]
+      },
+      "misconception": "parenthesised-negative-base",
+      "check": "Check: (-3)³ = -27.",
+      "id": "g9-exp-l02-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Calculate (-4)².",
+      "givens": [
+        "-4",
+        "2"
+      ],
+      "actions": [
+        "Parentheses make -4 the entire base.",
+        "Expand (-4) × (-4).",
+        "Count negative factors and multiply: 16.",
+        "Check: (-4)² = 16."
+      ],
+      "answer": "16",
+      "wrongs": [
+        "-16",
+        "-2",
+        "-4"
+      ],
+      "wrong_methods": [
+        "Drops the sign of the full negative base.",
+        "Adds the base and exponent.",
+        "Stops a repeated factor too early."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -4,
+        "exponents": [
+          2
+        ],
+        "values": [
+          1,
+          -4,
+          16
+        ]
+      },
+      "misconception": "parenthesised-negative-base",
+      "check": "Check: (-4)² = 16.",
+      "id": "g9-exp-l02-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-exp-l02-p01",
+      "prompt": "Calculate (13)⁰.",
+      "options": [
+        "1",
+        "0",
+        "13",
+        "-1"
+      ],
+      "answer_index": 0,
+      "memo": "1. The base 13 is nonzero. A nonzero base to exponent zero equals the multiplicative identity. Therefore (13)⁰ = 1. Check: 13³ ÷ 13³ = 1 = 13⁰.",
+      "misconception": "zero-exponent",
+      "option_rationales": {
+        "1": "Correct: Check: 13³ ÷ 13³ = 1 = 13⁰.",
+        "0": "Incorrect: Treats a nonzero base raised to zero as zero.",
+        "13": "Incorrect: Keeps the base unchanged.",
+        "-1": "Incorrect: Applies a negative sign without justification."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p02",
+      "prompt": "Calculate 3⁻³ as a fraction.",
+      "options": [
+        "-27",
+        "1/27",
+        "27",
+        "1/81"
+      ],
+      "answer_index": 1,
+      "memo": "1/27. A negative exponent indicates a reciprocal, not a negative value. 3⁻³ = 1/3³. 3³ = 27, so the result is 1/27. Check: 1/27 × 27 = 1.",
+      "misconception": "negative-exponent",
+      "option_rationales": {
+        "-27": "Incorrect: Treats a negative exponent as a negative value.",
+        "1/27": "Correct: Check: 1/27 × 27 = 1.",
+        "27": "Incorrect: Keeps the positive power rather than its reciprocal.",
+        "1/81": "Incorrect: Uses one extra factor in the reciprocal denominator."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p03",
+      "prompt": "Calculate (-2)⁴.",
+      "options": [
+        "-16",
+        "2",
+        "16",
+        "-8"
+      ],
+      "answer_index": 2,
+      "memo": "16. Parentheses make -2 the entire base. Expand (-2) × (-2) × (-2) × (-2). Count negative factors and multiply: 16. Check: (-2)⁴ = 16.",
+      "misconception": "parenthesised-negative-base",
+      "option_rationales": {
+        "-16": "Incorrect: Drops the sign of the full negative base.",
+        "2": "Incorrect: Adds the base and exponent.",
+        "16": "Correct: Check: (-2)⁴ = 16.",
+        "-8": "Incorrect: Stops a repeated factor too early."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p04",
+      "prompt": "Calculate (14)⁰.",
+      "options": [
+        "0",
+        "14",
+        "-1",
+        "1"
+      ],
+      "answer_index": 3,
+      "memo": "1. The base 14 is nonzero. A nonzero base to exponent zero equals the multiplicative identity. Therefore (14)⁰ = 1. Check: 14³ ÷ 14³ = 1 = 14⁰.",
+      "misconception": "zero-exponent",
+      "option_rationales": {
+        "0": "Incorrect: Treats a nonzero base raised to zero as zero.",
+        "14": "Incorrect: Keeps the base unchanged.",
+        "-1": "Incorrect: Applies a negative sign without justification.",
+        "1": "Correct: Check: 14³ ÷ 14³ = 1 = 14⁰."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p05",
+      "prompt": "Calculate 4⁻² as a fraction.",
+      "options": [
+        "1/16",
+        "-16",
+        "16",
+        "1/64"
+      ],
+      "answer_index": 0,
+      "memo": "1/16. A negative exponent indicates a reciprocal, not a negative value. 4⁻² = 1/4². 4² = 16, so the result is 1/16. Check: 1/16 × 16 = 1.",
+      "misconception": "negative-exponent",
+      "option_rationales": {
+        "1/16": "Correct: Check: 1/16 × 16 = 1.",
+        "-16": "Incorrect: Treats a negative exponent as a negative value.",
+        "16": "Incorrect: Keeps the positive power rather than its reciprocal.",
+        "1/64": "Incorrect: Uses one extra factor in the reciprocal denominator."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p06",
+      "prompt": "Calculate 3⁻⁴ as a fraction.",
+      "options": [
+        "-81",
+        "1/81",
+        "81",
+        "1/243"
+      ],
+      "answer_index": 1,
+      "memo": "1/81. A negative exponent indicates a reciprocal, not a negative value. 3⁻⁴ = 1/3⁴. 3⁴ = 81, so the result is 1/81. Check: 1/81 × 81 = 1.",
+      "misconception": "negative-exponent",
+      "option_rationales": {
+        "-81": "Incorrect: Treats a negative exponent as a negative value.",
+        "1/81": "Correct: Check: 1/81 × 81 = 1.",
+        "81": "Incorrect: Keeps the positive power rather than its reciprocal.",
+        "1/243": "Incorrect: Uses one extra factor in the reciprocal denominator."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p07",
+      "prompt": "Calculate (-5)².",
+      "options": [
+        "-25",
+        "-3",
+        "25",
+        "-5"
+      ],
+      "answer_index": 2,
+      "memo": "25. Parentheses make -5 the entire base. Expand (-5) × (-5). Count negative factors and multiply: 25. Check: (-5)² = 25.",
+      "misconception": "parenthesised-negative-base",
+      "option_rationales": {
+        "-25": "Incorrect: Drops the sign of the full negative base.",
+        "-3": "Incorrect: Adds the base and exponent.",
+        "25": "Correct: Check: (-5)² = 25.",
+        "-5": "Incorrect: Stops a repeated factor too early."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p08",
+      "prompt": "Calculate (-2)⁵.",
+      "options": [
+        "32",
+        "3",
+        "16",
+        "-32"
+      ],
+      "answer_index": 3,
+      "memo": "-32. Parentheses make -2 the entire base. Expand (-2) × (-2) × (-2) × (-2) × (-2). Count negative factors and multiply: -32. Check: (-2)⁵ = -32.",
+      "misconception": "parenthesised-negative-base",
+      "option_rationales": {
+        "32": "Incorrect: Drops the sign of the full negative base.",
+        "3": "Incorrect: Adds the base and exponent.",
+        "16": "Incorrect: Stops a repeated factor too early.",
+        "-32": "Correct: Check: (-2)⁵ = -32."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p09",
+      "prompt": "Calculate (15)⁰.",
+      "options": [
+        "1",
+        "0",
+        "15",
+        "-1"
+      ],
+      "answer_index": 0,
+      "memo": "1. The base 15 is nonzero. A nonzero base to exponent zero equals the multiplicative identity. Therefore (15)⁰ = 1. Check: 15³ ÷ 15³ = 1 = 15⁰.",
+      "misconception": "zero-exponent",
+      "option_rationales": {
+        "1": "Correct: Check: 15³ ÷ 15³ = 1 = 15⁰.",
+        "0": "Incorrect: Treats a nonzero base raised to zero as zero.",
+        "15": "Incorrect: Keeps the base unchanged.",
+        "-1": "Incorrect: Applies a negative sign without justification."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p10",
+      "prompt": "Calculate 3⁻⁵ as a fraction.",
+      "options": [
+        "-243",
+        "1/243",
+        "243",
+        "1/729"
+      ],
+      "answer_index": 1,
+      "memo": "1/243. A negative exponent indicates a reciprocal, not a negative value. 3⁻⁵ = 1/3⁵. 3⁵ = 243, so the result is 1/243. Check: 1/243 × 243 = 1.",
+      "misconception": "negative-exponent",
+      "option_rationales": {
+        "-243": "Incorrect: Treats a negative exponent as a negative value.",
+        "1/243": "Correct: Check: 1/243 × 243 = 1.",
+        "243": "Incorrect: Keeps the positive power rather than its reciprocal.",
+        "1/729": "Incorrect: Uses one extra factor in the reciprocal denominator."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p11",
+      "prompt": "Calculate (-6)².",
+      "options": [
+        "-36",
+        "-4",
+        "36",
+        "-6"
+      ],
+      "answer_index": 2,
+      "memo": "36. Parentheses make -6 the entire base. Expand (-6) × (-6). Count negative factors and multiply: 36. Check: (-6)² = 36.",
+      "misconception": "parenthesised-negative-base",
+      "option_rationales": {
+        "-36": "Incorrect: Drops the sign of the full negative base.",
+        "-4": "Incorrect: Adds the base and exponent.",
+        "36": "Correct: Check: (-6)² = 36.",
+        "-6": "Incorrect: Stops a repeated factor too early."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p12",
+      "prompt": "Calculate (-2)⁶.",
+      "options": [
+        "-64",
+        "4",
+        "-32",
+        "64"
+      ],
+      "answer_index": 3,
+      "memo": "64. Parentheses make -2 the entire base. Expand (-2) × (-2) × (-2) × (-2) × (-2) × (-2). Count negative factors and multiply: 64. Check: (-2)⁶ = 64.",
+      "misconception": "parenthesised-negative-base",
+      "option_rationales": {
+        "-64": "Incorrect: Drops the sign of the full negative base.",
+        "4": "Incorrect: Adds the base and exponent.",
+        "-32": "Incorrect: Stops a repeated factor too early.",
+        "64": "Correct: Check: (-2)⁶ = 64."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p13",
+      "prompt": "Calculate (16)⁰.",
+      "options": [
+        "1",
+        "0",
+        "16",
+        "-1"
+      ],
+      "answer_index": 0,
+      "memo": "1. The base 16 is nonzero. A nonzero base to exponent zero equals the multiplicative identity. Therefore (16)⁰ = 1. Check: 16³ ÷ 16³ = 1 = 16⁰.",
+      "misconception": "zero-exponent",
+      "option_rationales": {
+        "1": "Correct: Check: 16³ ÷ 16³ = 1 = 16⁰.",
+        "0": "Incorrect: Treats a nonzero base raised to zero as zero.",
+        "16": "Incorrect: Keeps the base unchanged.",
+        "-1": "Incorrect: Applies a negative sign without justification."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p14",
+      "prompt": "Calculate 6⁻² as a fraction.",
+      "options": [
+        "-36",
+        "1/36",
+        "36",
+        "1/216"
+      ],
+      "answer_index": 1,
+      "memo": "1/36. A negative exponent indicates a reciprocal, not a negative value. 6⁻² = 1/6². 6² = 36, so the result is 1/36. Check: 1/36 × 36 = 1.",
+      "misconception": "negative-exponent",
+      "option_rationales": {
+        "-36": "Incorrect: Treats a negative exponent as a negative value.",
+        "1/36": "Correct: Check: 1/36 × 36 = 1.",
+        "36": "Incorrect: Keeps the positive power rather than its reciprocal.",
+        "1/216": "Incorrect: Uses one extra factor in the reciprocal denominator."
+      }
+    },
+    {
+      "id": "g9-exp-l02-p15",
+      "prompt": "Calculate 3⁻⁶ as a fraction.",
+      "options": [
+        "-729",
+        "729",
+        "1/729",
+        "1/2187"
+      ],
+      "answer_index": 2,
+      "memo": "1/729. A negative exponent indicates a reciprocal, not a negative value. 3⁻⁶ = 1/3⁶. 3⁶ = 729, so the result is 1/729. Check: 1/729 × 729 = 1.",
+      "misconception": "negative-exponent",
+      "option_rationales": {
+        "-729": "Incorrect: Treats a negative exponent as a negative value.",
+        "729": "Incorrect: Keeps the positive power rather than its reciprocal.",
+        "1/729": "Correct: Check: 1/729 × 729 = 1.",
+        "1/2187": "Incorrect: Uses one extra factor in the reciprocal denominator."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-exp-l02-m01",
+      "prompt": "Calculate (-7)².",
+      "options": [
+        "49",
+        "-49",
+        "-5",
+        "-7"
+      ],
+      "answer_index": 0,
+      "memo": "49. Parentheses make -7 the entire base. Expand (-7) × (-7). Count negative factors and multiply: 49. Check: (-7)² = 49.",
+      "misconception": "parenthesised-negative-base",
+      "option_rationales": {
+        "49": "Correct: Check: (-7)² = 49.",
+        "-49": "Incorrect: Drops the sign of the full negative base.",
+        "-5": "Incorrect: Adds the base and exponent.",
+        "-7": "Incorrect: Stops a repeated factor too early."
+      }
+    },
+    {
+      "id": "g9-exp-l02-m02",
+      "prompt": "Calculate (-2)⁷.",
+      "options": [
+        "128",
+        "-128",
+        "5",
+        "64"
+      ],
+      "answer_index": 1,
+      "memo": "-128. Parentheses make -2 the entire base. Expand (-2) × (-2) × (-2) × (-2) × (-2) × (-2) × (-2). Count negative factors and multiply: -128. Check: (-2)⁷ = -128.",
+      "misconception": "parenthesised-negative-base",
+      "option_rationales": {
+        "128": "Incorrect: Drops the sign of the full negative base.",
+        "-128": "Correct: Check: (-2)⁷ = -128.",
+        "5": "Incorrect: Adds the base and exponent.",
+        "64": "Incorrect: Stops a repeated factor too early."
+      }
+    },
+    {
+      "id": "g9-exp-l02-m03",
+      "prompt": "Calculate (17)⁰.",
+      "options": [
+        "0",
+        "17",
+        "1",
+        "-1"
+      ],
+      "answer_index": 2,
+      "memo": "1. The base 17 is nonzero. A nonzero base to exponent zero equals the multiplicative identity. Therefore (17)⁰ = 1. Check: 17³ ÷ 17³ = 1 = 17⁰.",
+      "misconception": "zero-exponent",
+      "option_rationales": {
+        "0": "Incorrect: Treats a nonzero base raised to zero as zero.",
+        "17": "Incorrect: Keeps the base unchanged.",
+        "1": "Correct: Check: 17³ ÷ 17³ = 1 = 17⁰.",
+        "-1": "Incorrect: Applies a negative sign without justification."
+      }
+    },
+    {
+      "id": "g9-exp-l02-m04",
+      "prompt": "Calculate 3⁻⁷ as a fraction.",
+      "options": [
+        "-2187",
+        "2187",
+        "1/6561",
+        "1/2187"
+      ],
+      "answer_index": 3,
+      "memo": "1/2187. A negative exponent indicates a reciprocal, not a negative value. 3⁻⁷ = 1/3⁷. 3⁷ = 2187, so the result is 1/2187. Check: 1/2187 × 2187 = 1.",
+      "misconception": "negative-exponent",
+      "option_rationales": {
+        "-2187": "Incorrect: Treats a negative exponent as a negative value.",
+        "2187": "Incorrect: Keeps the positive power rather than its reciprocal.",
+        "1/6561": "Incorrect: Uses one extra factor in the reciprocal denominator.",
+        "1/2187": "Correct: Check: 1/2187 × 2187 = 1."
+      }
+    },
+    {
+      "id": "g9-exp-l02-m05",
+      "prompt": "Calculate (-8)².",
+      "options": [
+        "64",
+        "-64",
+        "-6",
+        "-8"
+      ],
+      "answer_index": 0,
+      "memo": "64. Parentheses make -8 the entire base. Expand (-8) × (-8). Count negative factors and multiply: 64. Check: (-8)² = 64.",
+      "misconception": "parenthesised-negative-base",
+      "option_rationales": {
+        "64": "Correct: Check: (-8)² = 64.",
+        "-64": "Incorrect: Drops the sign of the full negative base.",
+        "-6": "Incorrect: Adds the base and exponent.",
+        "-8": "Incorrect: Stops a repeated factor too early."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-exp-l02-r01",
+      "prompt": "Calculate (-2)⁸.",
+      "options": [
+        "256",
+        "-256",
+        "6",
+        "-128"
+      ],
+      "answer_index": 0,
+      "memo": "256. Parentheses make -2 the entire base. Expand (-2) × (-2) × (-2) × (-2) × (-2) × (-2) × (-2) × (-2). Count negative factors and multiply: 256. Check: (-2)⁸ = 256.",
+      "misconception": "parenthesised-negative-base",
+      "option_rationales": {
+        "256": "Correct: Check: (-2)⁸ = 256.",
+        "-256": "Incorrect: Drops the sign of the full negative base.",
+        "6": "Incorrect: Adds the base and exponent.",
+        "-128": "Incorrect: Stops a repeated factor too early."
+      }
+    },
+    {
+      "id": "g9-exp-l02-r02",
+      "prompt": "Calculate (18)⁰.",
+      "options": [
+        "0",
+        "1",
+        "18",
+        "-1"
+      ],
+      "answer_index": 1,
+      "memo": "1. The base 18 is nonzero. A nonzero base to exponent zero equals the multiplicative identity. Therefore (18)⁰ = 1. Check: 18³ ÷ 18³ = 1 = 18⁰.",
+      "misconception": "zero-exponent",
+      "option_rationales": {
+        "0": "Incorrect: Treats a nonzero base raised to zero as zero.",
+        "1": "Correct: Check: 18³ ÷ 18³ = 1 = 18⁰.",
+        "18": "Incorrect: Keeps the base unchanged.",
+        "-1": "Incorrect: Applies a negative sign without justification."
+      }
+    },
+    {
+      "id": "g9-exp-l02-r03",
+      "prompt": "Calculate 8⁻² as a fraction.",
+      "options": [
+        "-64",
+        "64",
+        "1/64",
+        "1/512"
+      ],
+      "answer_index": 2,
+      "memo": "1/64. A negative exponent indicates a reciprocal, not a negative value. 8⁻² = 1/8². 8² = 64, so the result is 1/64. Check: 1/64 × 64 = 1.",
+      "misconception": "negative-exponent",
+      "option_rationales": {
+        "-64": "Incorrect: Treats a negative exponent as a negative value.",
+        "64": "Incorrect: Keeps the positive power rather than its reciprocal.",
+        "1/64": "Correct: Check: 1/64 × 64 = 1.",
+        "1/512": "Incorrect: Uses one extra factor in the reciprocal denominator."
+      }
+    }
+  ]
+}

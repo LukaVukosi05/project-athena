@@ -1,0 +1,1125 @@
+{
+  "source": "lesson-04-combined-operations-and-parentheses.md",
+  "worked": [
+    {
+      "problem": "Calculate (2⁴ × 2³) ÷ 2².",
+      "givens": [
+        "2",
+        "4",
+        "3",
+        "2"
+      ],
+      "actions": [
+        "Combine the numerator with the product law: 4+3=7.",
+        "Divide equal nonzero bases: subtract exponent 2, giving 7−2=5.",
+        "Evaluate 2⁵ = 32.",
+        "Check: 16×8÷4=32."
+      ],
+      "answer": "32",
+      "wrongs": [
+        "512",
+        "128",
+        "16"
+      ],
+      "wrong_methods": [
+        "Adds exponents where the quotient requires subtraction.",
+        "Omits the final divisor.",
+        "Subtracts one extra from the final exponent."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 2,
+        "exponents": [
+          4,
+          3,
+          2,
+          5
+        ],
+        "values": [
+          16,
+          8,
+          4,
+          32
+        ],
+        "operator": "combined"
+      },
+      "misconception": "combined-law",
+      "check": "Check: 16×8÷4=32.",
+      "id": "g9-exp-l04-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Calculate (3³ × 3²) ÷ 3¹.",
+      "givens": [
+        "3",
+        "3",
+        "2",
+        "1"
+      ],
+      "actions": [
+        "Combine the numerator with the product law: 3+2=5.",
+        "Divide equal nonzero bases: subtract exponent 1, giving 5−1=4.",
+        "Evaluate 3⁴ = 81.",
+        "Check: 27×9÷3=81."
+      ],
+      "answer": "81",
+      "wrongs": [
+        "729",
+        "243",
+        "27"
+      ],
+      "wrong_methods": [
+        "Adds exponents where the quotient requires subtraction.",
+        "Omits the final divisor.",
+        "Subtracts one extra from the final exponent."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 3,
+        "exponents": [
+          3,
+          2,
+          1,
+          4
+        ],
+        "values": [
+          27,
+          9,
+          3,
+          81
+        ],
+        "operator": "combined"
+      },
+      "misconception": "combined-law",
+      "check": "Check: 27×9÷3=81.",
+      "id": "g9-exp-l04-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Calculate (4² × 4³) ÷ 4².",
+      "givens": [
+        "4",
+        "2",
+        "3",
+        "2"
+      ],
+      "actions": [
+        "Combine the numerator with the product law: 2+3=5.",
+        "Divide equal nonzero bases: subtract exponent 2, giving 5−2=3.",
+        "Evaluate 4³ = 64.",
+        "Check: 16×64÷16=64."
+      ],
+      "answer": "64",
+      "wrongs": [
+        "16384",
+        "1024",
+        "16"
+      ],
+      "wrong_methods": [
+        "Adds exponents where the quotient requires subtraction.",
+        "Omits the final divisor.",
+        "Subtracts one extra from the final exponent."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 4,
+        "exponents": [
+          2,
+          3,
+          2,
+          3
+        ],
+        "values": [
+          16,
+          64,
+          16,
+          64
+        ],
+        "operator": "combined"
+      },
+      "misconception": "combined-law",
+      "check": "Check: 16×64÷16=64.",
+      "id": "g9-exp-l04-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate (5² × 5²) ÷ 5¹.",
+      "givens": [
+        "5",
+        "2",
+        "2",
+        "1"
+      ],
+      "actions": [
+        "Combine the numerator with the product law: 2+2=4.",
+        "Divide equal nonzero bases: subtract exponent 1, giving 4−1=3.",
+        "Evaluate 5³ = 125.",
+        "Check: 25×25÷5=125."
+      ],
+      "answer": "125",
+      "wrongs": [
+        "3125",
+        "625",
+        "25"
+      ],
+      "wrong_methods": [
+        "Adds exponents where the quotient requires subtraction.",
+        "Omits the final divisor.",
+        "Subtracts one extra from the final exponent."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 5,
+        "exponents": [
+          2,
+          2,
+          1,
+          3
+        ],
+        "values": [
+          25,
+          25,
+          5,
+          125
+        ],
+        "operator": "combined"
+      },
+      "misconception": "combined-law",
+      "check": "Check: 25×25÷5=125.",
+      "id": "g9-exp-l04-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate (2⁵ × 2²) ÷ 2³.",
+      "givens": [
+        "2",
+        "5",
+        "2",
+        "3"
+      ],
+      "actions": [
+        "Combine the numerator with the product law: 5+2=7.",
+        "Divide equal nonzero bases: subtract exponent 3, giving 7−3=4.",
+        "Evaluate 2⁴ = 16.",
+        "Check: 32×4÷8=16."
+      ],
+      "answer": "16",
+      "wrongs": [
+        "1024",
+        "128",
+        "8"
+      ],
+      "wrong_methods": [
+        "Adds exponents where the quotient requires subtraction.",
+        "Omits the final divisor.",
+        "Subtracts one extra from the final exponent."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 2,
+        "exponents": [
+          5,
+          2,
+          3,
+          4
+        ],
+        "values": [
+          32,
+          4,
+          8,
+          16
+        ],
+        "operator": "combined"
+      },
+      "misconception": "combined-law",
+      "check": "Check: 32×4÷8=16.",
+      "id": "g9-exp-l04-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Calculate (3⁴ × 3²) ÷ 3³.",
+      "givens": [
+        "3",
+        "4",
+        "2",
+        "3"
+      ],
+      "actions": [
+        "Combine the numerator with the product law: 4+2=6.",
+        "Divide equal nonzero bases: subtract exponent 3, giving 6−3=3.",
+        "Evaluate 3³ = 27.",
+        "Check: 81×9÷27=27."
+      ],
+      "answer": "27",
+      "wrongs": [
+        "19683",
+        "729",
+        "9"
+      ],
+      "wrong_methods": [
+        "Adds exponents where the quotient requires subtraction.",
+        "Omits the final divisor.",
+        "Subtracts one extra from the final exponent."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 3,
+        "exponents": [
+          4,
+          2,
+          3,
+          3
+        ],
+        "values": [
+          81,
+          9,
+          27,
+          27
+        ],
+        "operator": "combined"
+      },
+      "misconception": "combined-law",
+      "check": "Check: 81×9÷27=27.",
+      "id": "g9-exp-l04-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate (2⁶ × 2³) ÷ 2⁴.",
+      "givens": [
+        "2",
+        "6",
+        "3",
+        "4"
+      ],
+      "actions": [
+        "Combine the numerator with the product law: 6+3=9.",
+        "Divide equal nonzero bases: subtract exponent 4, giving 9−4=5.",
+        "Evaluate 2⁵ = 32.",
+        "Check: 64×8÷16=32."
+      ],
+      "answer": "32",
+      "wrongs": [
+        "8192",
+        "512",
+        "16"
+      ],
+      "wrong_methods": [
+        "Adds exponents where the quotient requires subtraction.",
+        "Omits the final divisor.",
+        "Subtracts one extra from the final exponent."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 2,
+        "exponents": [
+          6,
+          3,
+          4,
+          5
+        ],
+        "values": [
+          64,
+          8,
+          16,
+          32
+        ],
+        "operator": "combined"
+      },
+      "misconception": "combined-law",
+      "check": "Check: 64×8÷16=32.",
+      "id": "g9-exp-l04-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate (4³ × 4²) ÷ 4³.",
+      "givens": [
+        "4",
+        "3",
+        "2",
+        "3"
+      ],
+      "actions": [
+        "Combine the numerator with the product law: 3+2=5.",
+        "Divide equal nonzero bases: subtract exponent 3, giving 5−3=2.",
+        "Evaluate 4² = 16.",
+        "Check: 64×16÷64=16."
+      ],
+      "answer": "16",
+      "wrongs": [
+        "65536",
+        "1024",
+        "4"
+      ],
+      "wrong_methods": [
+        "Adds exponents where the quotient requires subtraction.",
+        "Omits the final divisor.",
+        "Subtracts one extra from the final exponent."
+      ],
+      "visual": {
+        "family": "law",
+        "base": 4,
+        "exponents": [
+          3,
+          2,
+          3,
+          2
+        ],
+        "values": [
+          64,
+          16,
+          64,
+          16
+        ],
+        "operator": "combined"
+      },
+      "misconception": "combined-law",
+      "check": "Check: 64×16÷64=16.",
+      "id": "g9-exp-l04-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate (-2² × -2²).",
+      "givens": [
+        "-2",
+        "2",
+        "2"
+      ],
+      "actions": [
+        "Parentheses keep -2 as the signed base of both powers.",
+        "Add exponents for a product of the same base: 2+2=4.",
+        "(-2)⁴ = 16.",
+        "Check: 4×4=16."
+      ],
+      "answer": "16",
+      "wrongs": [
+        "-16",
+        "8",
+        "-8"
+      ],
+      "wrong_methods": [
+        "Powers the wrong scope of the negative base.",
+        "Treats a product as a sum.",
+        "Reverses the sign after a valid square."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -2,
+        "exponents": [
+          2,
+          2,
+          4
+        ],
+        "values": [
+          4,
+          4,
+          16
+        ]
+      },
+      "misconception": "parentheses-first",
+      "check": "Check: 4×4=16.",
+      "id": "g9-exp-l04-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Calculate (-3³ × -3²).",
+      "givens": [
+        "-3",
+        "3",
+        "2"
+      ],
+      "actions": [
+        "Parentheses keep -3 as the signed base of both powers.",
+        "Add exponents for a product of the same base: 3+2=5.",
+        "(-3)⁵ = -243.",
+        "Check: -27×9=-243."
+      ],
+      "answer": "-243",
+      "wrongs": [
+        "243",
+        "-18",
+        "81"
+      ],
+      "wrong_methods": [
+        "Powers the wrong scope of the negative base.",
+        "Treats a product as a sum.",
+        "Reverses the sign after a valid square."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -3,
+        "exponents": [
+          3,
+          2,
+          5
+        ],
+        "values": [
+          -27,
+          9,
+          -243
+        ]
+      },
+      "misconception": "parentheses-first",
+      "check": "Check: -27×9=-243.",
+      "id": "g9-exp-l04-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate (-4² × -4²).",
+      "givens": [
+        "-4",
+        "2",
+        "2"
+      ],
+      "actions": [
+        "Parentheses keep -4 as the signed base of both powers.",
+        "Add exponents for a product of the same base: 2+2=4.",
+        "(-4)⁴ = 256.",
+        "Check: 16×16=256."
+      ],
+      "answer": "256",
+      "wrongs": [
+        "-256",
+        "32",
+        "-64"
+      ],
+      "wrong_methods": [
+        "Powers the wrong scope of the negative base.",
+        "Treats a product as a sum.",
+        "Reverses the sign after a valid square."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -4,
+        "exponents": [
+          2,
+          2,
+          4
+        ],
+        "values": [
+          16,
+          16,
+          256
+        ]
+      },
+      "misconception": "parentheses-first",
+      "check": "Check: 16×16=256.",
+      "id": "g9-exp-l04-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate (-2³ × -2³).",
+      "givens": [
+        "-2",
+        "3",
+        "3"
+      ],
+      "actions": [
+        "Parentheses keep -2 as the signed base of both powers.",
+        "Add exponents for a product of the same base: 3+3=6.",
+        "(-2)⁶ = 64.",
+        "Check: -8×-8=64."
+      ],
+      "answer": "64",
+      "wrongs": [
+        "-64",
+        "-16",
+        "-32"
+      ],
+      "wrong_methods": [
+        "Powers the wrong scope of the negative base.",
+        "Treats a product as a sum.",
+        "Reverses the sign after a valid square."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -2,
+        "exponents": [
+          3,
+          3,
+          6
+        ],
+        "values": [
+          -8,
+          -8,
+          64
+        ]
+      },
+      "misconception": "parentheses-first",
+      "check": "Check: -8×-8=64.",
+      "id": "g9-exp-l04-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Calculate (-3² × -3⁴).",
+      "givens": [
+        "-3",
+        "2",
+        "4"
+      ],
+      "actions": [
+        "Parentheses keep -3 as the signed base of both powers.",
+        "Add exponents for a product of the same base: 2+4=6.",
+        "(-3)⁶ = 729.",
+        "Check: 9×81=729."
+      ],
+      "answer": "729",
+      "wrongs": [
+        "-729",
+        "90",
+        "-243"
+      ],
+      "wrong_methods": [
+        "Powers the wrong scope of the negative base.",
+        "Treats a product as a sum.",
+        "Reverses the sign after a valid square."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -3,
+        "exponents": [
+          2,
+          4,
+          6
+        ],
+        "values": [
+          9,
+          81,
+          729
+        ]
+      },
+      "misconception": "parentheses-first",
+      "check": "Check: 9×81=729.",
+      "id": "g9-exp-l04-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Calculate (-5² × -5²).",
+      "givens": [
+        "-5",
+        "2",
+        "2"
+      ],
+      "actions": [
+        "Parentheses keep -5 as the signed base of both powers.",
+        "Add exponents for a product of the same base: 2+2=4.",
+        "(-5)⁴ = 625.",
+        "Check: 25×25=625."
+      ],
+      "answer": "625",
+      "wrongs": [
+        "-625",
+        "50",
+        "-125"
+      ],
+      "wrong_methods": [
+        "Powers the wrong scope of the negative base.",
+        "Treats a product as a sum.",
+        "Reverses the sign after a valid square."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -5,
+        "exponents": [
+          2,
+          2,
+          4
+        ],
+        "values": [
+          25,
+          25,
+          625
+        ]
+      },
+      "misconception": "parentheses-first",
+      "check": "Check: 25×25=625.",
+      "id": "g9-exp-l04-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Calculate (-2⁴ × -2³).",
+      "givens": [
+        "-2",
+        "4",
+        "3"
+      ],
+      "actions": [
+        "Parentheses keep -2 as the signed base of both powers.",
+        "Add exponents for a product of the same base: 4+3=7.",
+        "(-2)⁷ = -128.",
+        "Check: 16×-8=-128."
+      ],
+      "answer": "-128",
+      "wrongs": [
+        "128",
+        "8",
+        "64"
+      ],
+      "wrong_methods": [
+        "Powers the wrong scope of the negative base.",
+        "Treats a product as a sum.",
+        "Reverses the sign after a valid square."
+      ],
+      "visual": {
+        "family": "factors",
+        "base": -2,
+        "exponents": [
+          4,
+          3,
+          7
+        ],
+        "values": [
+          16,
+          -8,
+          -128
+        ]
+      },
+      "misconception": "parentheses-first",
+      "check": "Check: 16×-8=-128.",
+      "id": "g9-exp-l04-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-exp-l04-p01",
+      "prompt": "Calculate (2⁴ × 2²) ÷ 2¹.",
+      "options": [
+        "32",
+        "128",
+        "64",
+        "16"
+      ],
+      "answer_index": 0,
+      "memo": "32. Combine the numerator with the product law: 4+2=6. Divide equal nonzero bases: subtract exponent 1, giving 6−1=5. Evaluate 2⁵ = 32. Check: 16×4÷2=32.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "32": "Correct: Check: 16×4÷2=32.",
+        "128": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "64": "Incorrect: Omits the final divisor.",
+        "16": "Incorrect: Subtracts one extra from the final exponent."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p02",
+      "prompt": "Calculate (3⁴ × 3²) ÷ 3².",
+      "options": [
+        "6561",
+        "81",
+        "729",
+        "27"
+      ],
+      "answer_index": 1,
+      "memo": "81. Combine the numerator with the product law: 4+2=6. Divide equal nonzero bases: subtract exponent 2, giving 6−2=4. Evaluate 3⁴ = 81. Check: 81×9÷9=81.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "6561": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "81": "Correct: Check: 81×9÷9=81.",
+        "729": "Incorrect: Omits the final divisor.",
+        "27": "Incorrect: Subtracts one extra from the final exponent."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p03",
+      "prompt": "Calculate (-3² × -3²).",
+      "options": [
+        "-81",
+        "18",
+        "81",
+        "-27"
+      ],
+      "answer_index": 2,
+      "memo": "81. Parentheses keep -3 as the signed base of both powers. Add exponents for a product of the same base: 2+2=4. (-3)⁴ = 81. Check: 9×9=81.",
+      "misconception": "parentheses-first",
+      "option_rationales": {
+        "-81": "Incorrect: Powers the wrong scope of the negative base.",
+        "18": "Incorrect: Treats a product as a sum.",
+        "81": "Correct: Check: 9×9=81.",
+        "-27": "Incorrect: Reverses the sign after a valid square."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p04",
+      "prompt": "Calculate (-3³ × -3³).",
+      "options": [
+        "-729",
+        "-54",
+        "-243",
+        "729"
+      ],
+      "answer_index": 3,
+      "memo": "729. Parentheses keep -3 as the signed base of both powers. Add exponents for a product of the same base: 3+3=6. (-3)⁶ = 729. Check: -27×-27=729.",
+      "misconception": "parentheses-first",
+      "option_rationales": {
+        "-729": "Incorrect: Powers the wrong scope of the negative base.",
+        "-54": "Incorrect: Treats a product as a sum.",
+        "-243": "Incorrect: Reverses the sign after a valid square.",
+        "729": "Correct: Check: -27×-27=729."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p05",
+      "prompt": "Calculate (2⁵ × 2²) ÷ 2¹.",
+      "options": [
+        "64",
+        "256",
+        "128",
+        "32"
+      ],
+      "answer_index": 0,
+      "memo": "64. Combine the numerator with the product law: 5+2=7. Divide equal nonzero bases: subtract exponent 1, giving 7−1=6. Evaluate 2⁶ = 64. Check: 32×4÷2=64.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "64": "Correct: Check: 32×4÷2=64.",
+        "256": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "128": "Incorrect: Omits the final divisor.",
+        "32": "Incorrect: Subtracts one extra from the final exponent."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p06",
+      "prompt": "Calculate (3⁵ × 3²) ÷ 3².",
+      "options": [
+        "19683",
+        "243",
+        "2187",
+        "81"
+      ],
+      "answer_index": 1,
+      "memo": "243. Combine the numerator with the product law: 5+2=7. Divide equal nonzero bases: subtract exponent 2, giving 7−2=5. Evaluate 3⁵ = 243. Check: 243×9÷9=243.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "19683": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "243": "Correct: Check: 243×9÷9=243.",
+        "2187": "Incorrect: Omits the final divisor.",
+        "81": "Incorrect: Subtracts one extra from the final exponent."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p07",
+      "prompt": "Calculate (-3³ × -3⁴).",
+      "options": [
+        "2187",
+        "54",
+        "-2187",
+        "729"
+      ],
+      "answer_index": 2,
+      "memo": "-2187. Parentheses keep -3 as the signed base of both powers. Add exponents for a product of the same base: 3+4=7. (-3)⁷ = -2187. Check: -27×81=-2187.",
+      "misconception": "parentheses-first",
+      "option_rationales": {
+        "2187": "Incorrect: Powers the wrong scope of the negative base.",
+        "54": "Incorrect: Treats a product as a sum.",
+        "-2187": "Correct: Check: -27×81=-2187.",
+        "729": "Incorrect: Reverses the sign after a valid square."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p08",
+      "prompt": "Calculate (2⁶ × 2²) ÷ 2¹.",
+      "options": [
+        "512",
+        "256",
+        "64",
+        "128"
+      ],
+      "answer_index": 3,
+      "memo": "128. Combine the numerator with the product law: 6+2=8. Divide equal nonzero bases: subtract exponent 1, giving 8−1=7. Evaluate 2⁷ = 128. Check: 64×4÷2=128.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "512": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "256": "Incorrect: Omits the final divisor.",
+        "64": "Incorrect: Subtracts one extra from the final exponent.",
+        "128": "Correct: Check: 64×4÷2=128."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p09",
+      "prompt": "Calculate (3⁶ × 3²) ÷ 3².",
+      "options": [
+        "729",
+        "59049",
+        "6561",
+        "243"
+      ],
+      "answer_index": 0,
+      "memo": "729. Combine the numerator with the product law: 6+2=8. Divide equal nonzero bases: subtract exponent 2, giving 8−2=6. Evaluate 3⁶ = 729. Check: 729×9÷9=729.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "729": "Correct: Check: 729×9÷9=729.",
+        "59049": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "6561": "Incorrect: Omits the final divisor.",
+        "243": "Incorrect: Subtracts one extra from the final exponent."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p10",
+      "prompt": "Calculate (-3³ × -3⁵).",
+      "options": [
+        "-6561",
+        "6561",
+        "-270",
+        "-2187"
+      ],
+      "answer_index": 1,
+      "memo": "6561. Parentheses keep -3 as the signed base of both powers. Add exponents for a product of the same base: 3+5=8. (-3)⁸ = 6561. Check: -27×-243=6561.",
+      "misconception": "parentheses-first",
+      "option_rationales": {
+        "-6561": "Incorrect: Powers the wrong scope of the negative base.",
+        "6561": "Correct: Check: -27×-243=6561.",
+        "-270": "Incorrect: Treats a product as a sum.",
+        "-2187": "Incorrect: Reverses the sign after a valid square."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p11",
+      "prompt": "Calculate (2⁷ × 2²) ÷ 2¹.",
+      "options": [
+        "1024",
+        "512",
+        "256",
+        "128"
+      ],
+      "answer_index": 2,
+      "memo": "256. Combine the numerator with the product law: 7+2=9. Divide equal nonzero bases: subtract exponent 1, giving 9−1=8. Evaluate 2⁸ = 256. Check: 128×4÷2=256.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "1024": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "512": "Incorrect: Omits the final divisor.",
+        "256": "Correct: Check: 128×4÷2=256.",
+        "128": "Incorrect: Subtracts one extra from the final exponent."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p12",
+      "prompt": "Calculate (3⁷ × 3²) ÷ 3².",
+      "options": [
+        "177147",
+        "19683",
+        "729",
+        "2187"
+      ],
+      "answer_index": 3,
+      "memo": "2187. Combine the numerator with the product law: 7+2=9. Divide equal nonzero bases: subtract exponent 2, giving 9−2=7. Evaluate 3⁷ = 2187. Check: 2187×9÷9=2187.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "177147": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "19683": "Incorrect: Omits the final divisor.",
+        "729": "Incorrect: Subtracts one extra from the final exponent.",
+        "2187": "Correct: Check: 2187×9÷9=2187."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p13",
+      "prompt": "Calculate (-6² × -6²).",
+      "options": [
+        "1296",
+        "-1296",
+        "72",
+        "-216"
+      ],
+      "answer_index": 0,
+      "memo": "1296. Parentheses keep -6 as the signed base of both powers. Add exponents for a product of the same base: 2+2=4. (-6)⁴ = 1296. Check: 36×36=1296.",
+      "misconception": "parentheses-first",
+      "option_rationales": {
+        "1296": "Correct: Check: 36×36=1296.",
+        "-1296": "Incorrect: Powers the wrong scope of the negative base.",
+        "72": "Incorrect: Treats a product as a sum.",
+        "-216": "Incorrect: Reverses the sign after a valid square."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p14",
+      "prompt": "Calculate (-3³ × -3⁶).",
+      "options": [
+        "19683",
+        "-19683",
+        "702",
+        "6561"
+      ],
+      "answer_index": 1,
+      "memo": "-19683. Parentheses keep -3 as the signed base of both powers. Add exponents for a product of the same base: 3+6=9. (-3)⁹ = -19683. Check: -27×729=-19683.",
+      "misconception": "parentheses-first",
+      "option_rationales": {
+        "19683": "Incorrect: Powers the wrong scope of the negative base.",
+        "-19683": "Correct: Check: -27×729=-19683.",
+        "702": "Incorrect: Treats a product as a sum.",
+        "6561": "Incorrect: Reverses the sign after a valid square."
+      }
+    },
+    {
+      "id": "g9-exp-l04-p15",
+      "prompt": "Calculate (2⁸ × 2²) ÷ 2¹.",
+      "options": [
+        "2048",
+        "1024",
+        "512",
+        "256"
+      ],
+      "answer_index": 2,
+      "memo": "512. Combine the numerator with the product law: 8+2=10. Divide equal nonzero bases: subtract exponent 1, giving 10−1=9. Evaluate 2⁹ = 512. Check: 256×4÷2=512.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "2048": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "1024": "Incorrect: Omits the final divisor.",
+        "512": "Correct: Check: 256×4÷2=512.",
+        "256": "Incorrect: Subtracts one extra from the final exponent."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-exp-l04-m01",
+      "prompt": "Calculate (3⁸ × 3²) ÷ 3².",
+      "options": [
+        "6561",
+        "531441",
+        "59049",
+        "2187"
+      ],
+      "answer_index": 0,
+      "memo": "6561. Combine the numerator with the product law: 8+2=10. Divide equal nonzero bases: subtract exponent 2, giving 10−2=8. Evaluate 3⁸ = 6561. Check: 6561×9÷9=6561.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "6561": "Correct: Check: 6561×9÷9=6561.",
+        "531441": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "59049": "Incorrect: Omits the final divisor.",
+        "2187": "Incorrect: Subtracts one extra from the final exponent."
+      }
+    },
+    {
+      "id": "g9-exp-l04-m02",
+      "prompt": "Calculate (-7² × -7²).",
+      "options": [
+        "-2401",
+        "2401",
+        "98",
+        "-343"
+      ],
+      "answer_index": 1,
+      "memo": "2401. Parentheses keep -7 as the signed base of both powers. Add exponents for a product of the same base: 2+2=4. (-7)⁴ = 2401. Check: 49×49=2401.",
+      "misconception": "parentheses-first",
+      "option_rationales": {
+        "-2401": "Incorrect: Powers the wrong scope of the negative base.",
+        "2401": "Correct: Check: 49×49=2401.",
+        "98": "Incorrect: Treats a product as a sum.",
+        "-343": "Incorrect: Reverses the sign after a valid square."
+      }
+    },
+    {
+      "id": "g9-exp-l04-m03",
+      "prompt": "Calculate (-3³ × -3⁷).",
+      "options": [
+        "-59049",
+        "-2214",
+        "59049",
+        "-19683"
+      ],
+      "answer_index": 2,
+      "memo": "59049. Parentheses keep -3 as the signed base of both powers. Add exponents for a product of the same base: 3+7=10. (-3)¹⁰ = 59049. Check: -27×-2187=59049.",
+      "misconception": "parentheses-first",
+      "option_rationales": {
+        "-59049": "Incorrect: Powers the wrong scope of the negative base.",
+        "-2214": "Incorrect: Treats a product as a sum.",
+        "59049": "Correct: Check: -27×-2187=59049.",
+        "-19683": "Incorrect: Reverses the sign after a valid square."
+      }
+    },
+    {
+      "id": "g9-exp-l04-m04",
+      "prompt": "Calculate (2⁹ × 2²) ÷ 2¹.",
+      "options": [
+        "4096",
+        "2048",
+        "512",
+        "1024"
+      ],
+      "answer_index": 3,
+      "memo": "1024. Combine the numerator with the product law: 9+2=11. Divide equal nonzero bases: subtract exponent 1, giving 11−1=10. Evaluate 2¹⁰ = 1024. Check: 512×4÷2=1024.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "4096": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "2048": "Incorrect: Omits the final divisor.",
+        "512": "Incorrect: Subtracts one extra from the final exponent.",
+        "1024": "Correct: Check: 512×4÷2=1024."
+      }
+    },
+    {
+      "id": "g9-exp-l04-m05",
+      "prompt": "Calculate (3⁹ × 3²) ÷ 3².",
+      "options": [
+        "19683",
+        "1594323",
+        "177147",
+        "6561"
+      ],
+      "answer_index": 0,
+      "memo": "19683. Combine the numerator with the product law: 9+2=11. Divide equal nonzero bases: subtract exponent 2, giving 11−2=9. Evaluate 3⁹ = 19683. Check: 19683×9÷9=19683.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "19683": "Correct: Check: 19683×9÷9=19683.",
+        "1594323": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "177147": "Incorrect: Omits the final divisor.",
+        "6561": "Incorrect: Subtracts one extra from the final exponent."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-exp-l04-r01",
+      "prompt": "Calculate (-8² × -8²).",
+      "options": [
+        "4096",
+        "-4096",
+        "128",
+        "-512"
+      ],
+      "answer_index": 0,
+      "memo": "4096. Parentheses keep -8 as the signed base of both powers. Add exponents for a product of the same base: 2+2=4. (-8)⁴ = 4096. Check: 64×64=4096.",
+      "misconception": "parentheses-first",
+      "option_rationales": {
+        "4096": "Correct: Check: 64×64=4096.",
+        "-4096": "Incorrect: Powers the wrong scope of the negative base.",
+        "128": "Incorrect: Treats a product as a sum.",
+        "-512": "Incorrect: Reverses the sign after a valid square."
+      }
+    },
+    {
+      "id": "g9-exp-l04-r02",
+      "prompt": "Calculate (-3³ × -3⁸).",
+      "options": [
+        "177147",
+        "-177147",
+        "6534",
+        "59049"
+      ],
+      "answer_index": 1,
+      "memo": "-177147. Parentheses keep -3 as the signed base of both powers. Add exponents for a product of the same base: 3+8=11. (-3)¹¹ = -177147. Check: -27×6561=-177147.",
+      "misconception": "parentheses-first",
+      "option_rationales": {
+        "177147": "Incorrect: Powers the wrong scope of the negative base.",
+        "-177147": "Correct: Check: -27×6561=-177147.",
+        "6534": "Incorrect: Treats a product as a sum.",
+        "59049": "Incorrect: Reverses the sign after a valid square."
+      }
+    },
+    {
+      "id": "g9-exp-l04-r03",
+      "prompt": "Calculate (2¹⁰ × 2²) ÷ 2¹.",
+      "options": [
+        "8192",
+        "4096",
+        "2048",
+        "1024"
+      ],
+      "answer_index": 2,
+      "memo": "2048. Combine the numerator with the product law: 10+2=12. Divide equal nonzero bases: subtract exponent 1, giving 12−1=11. Evaluate 2¹¹ = 2048. Check: 1024×4÷2=2048.",
+      "misconception": "combined-law",
+      "option_rationales": {
+        "8192": "Incorrect: Adds exponents where the quotient requires subtraction.",
+        "4096": "Incorrect: Omits the final divisor.",
+        "2048": "Correct: Check: 1024×4÷2=2048.",
+        "1024": "Incorrect: Subtracts one extra from the final exponent."
+      }
+    }
+  ]
+}
