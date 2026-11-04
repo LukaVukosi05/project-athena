@@ -1,0 +1,1053 @@
+{
+  "source": "lesson-07-loans-and-interest.md",
+  "worked": [
+    {
+      "problem": "Invest R2 000 at 5% simple interest per year for 2 years. Find the final balance.",
+      "givens": [
+        "R2 000",
+        "5% p.a.",
+        "2 years"
+      ],
+      "actions": [
+        "With simple interest, every year uses the original R2 000 as base.",
+        "One year adds 5% of R2 000 = R100; 2 years add R200.",
+        "Final balance is R2 000+R200=R2 200.",
+        "Check: R2 200−R2 000=R200=2×R100."
+      ],
+      "answer": "R2 200",
+      "wrongs": [
+        "R200",
+        "R2 100",
+        "R2 300"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          2000,
+          2100,
+          2200
+        ],
+        "kind": "simple"
+      },
+      "misconception": "compound-instead-of-simple",
+      "wrong_methods": [
+        "Reports interest without the principal.",
+        "Counts only one year.",
+        "Counts an extra year."
+      ],
+      "check": "Check: R2 200−R2 000=R200=2×R100.",
+      "id": "g9-whole-l07-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Invest R3 000 at 8% simple interest per year for 3 years. Find the final balance.",
+      "givens": [
+        "R3 000",
+        "8% p.a.",
+        "3 years"
+      ],
+      "actions": [
+        "With simple interest, every year uses the original R3 000 as base.",
+        "One year adds 8% of R3 000 = R240; 3 years add R720.",
+        "Final balance is R3 000+R720=R3 720.",
+        "Check: R3 720−R3 000=R720=3×R240."
+      ],
+      "answer": "R3 720",
+      "wrongs": [
+        "R720",
+        "R3 240",
+        "R3 960"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          3000,
+          3240,
+          3480,
+          3720
+        ],
+        "kind": "simple"
+      },
+      "misconception": "compound-instead-of-simple",
+      "wrong_methods": [
+        "Reports interest without the principal.",
+        "Counts only one year.",
+        "Counts an extra year."
+      ],
+      "check": "Check: R3 720−R3 000=R720=3×R240.",
+      "id": "g9-whole-l07-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Invest R5 000 at 6% simple interest per year for 4 years. Find the final balance.",
+      "givens": [
+        "R5 000",
+        "6% p.a.",
+        "4 years"
+      ],
+      "actions": [
+        "With simple interest, every year uses the original R5 000 as base.",
+        "One year adds 6% of R5 000 = R300; 4 years add R1 200.",
+        "Final balance is R5 000+R1 200=R6 200.",
+        "Check: R6 200−R5 000=R1 200=4×R300."
+      ],
+      "answer": "R6 200",
+      "wrongs": [
+        "R1 200",
+        "R5 300",
+        "R6 500"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          5000,
+          5300,
+          5600,
+          5900,
+          6200
+        ],
+        "kind": "simple"
+      },
+      "misconception": "compound-instead-of-simple",
+      "wrong_methods": [
+        "Reports interest without the principal.",
+        "Counts only one year.",
+        "Counts an extra year."
+      ],
+      "check": "Check: R6 200−R5 000=R1 200=4×R300.",
+      "id": "g9-whole-l07-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Invest R8 000 at 10% simple interest per year for 3 years. Find the final balance.",
+      "givens": [
+        "R8 000",
+        "10% p.a.",
+        "3 years"
+      ],
+      "actions": [
+        "With simple interest, every year uses the original R8 000 as base.",
+        "One year adds 10% of R8 000 = R800; 3 years add R2 400.",
+        "Final balance is R8 000+R2 400=R10 400.",
+        "Check: R10 400−R8 000=R2 400=3×R800."
+      ],
+      "answer": "R10 400",
+      "wrongs": [
+        "R2 400",
+        "R8 800",
+        "R11 200"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          8000,
+          8800,
+          9600,
+          10400
+        ],
+        "kind": "simple"
+      },
+      "misconception": "compound-instead-of-simple",
+      "wrong_methods": [
+        "Reports interest without the principal.",
+        "Counts only one year.",
+        "Counts an extra year."
+      ],
+      "check": "Check: R10 400−R8 000=R2 400=3×R800.",
+      "id": "g9-whole-l07-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Invest R12 000 at 5% simple interest per year for 5 years. Find the final balance.",
+      "givens": [
+        "R12 000",
+        "5% p.a.",
+        "5 years"
+      ],
+      "actions": [
+        "With simple interest, every year uses the original R12 000 as base.",
+        "One year adds 5% of R12 000 = R600; 5 years add R3 000.",
+        "Final balance is R12 000+R3 000=R15 000.",
+        "Check: R15 000−R12 000=R3 000=5×R600."
+      ],
+      "answer": "R15 000",
+      "wrongs": [
+        "R3 000",
+        "R12 600",
+        "R15 600"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          12000,
+          12600,
+          13200,
+          13800,
+          14400,
+          15000
+        ],
+        "kind": "simple"
+      },
+      "misconception": "compound-instead-of-simple",
+      "wrong_methods": [
+        "Reports interest without the principal.",
+        "Counts only one year.",
+        "Counts an extra year."
+      ],
+      "check": "Check: R15 000−R12 000=R3 000=5×R600.",
+      "id": "g9-whole-l07-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Invest R2 000 at 10% compound interest per year for 2 years. Find the final balance.",
+      "givens": [
+        "R2 000",
+        "10% p.a.",
+        "2 years"
+      ],
+      "actions": [
+        "Each year uses the previous balance as the new percentage base.",
+        "Year 1: R2 000×110/100 = R2 200.",
+        "Year 2: R2 200×110/100 = R2 420.",
+        "After 2 years the balance is R2 420.",
+        "Check: R2 200×110/100=R2 420."
+      ],
+      "answer": "R2 420",
+      "wrongs": [
+        "R2 400",
+        "R400",
+        "R2 200"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          2000,
+          2200,
+          2420
+        ],
+        "kind": "compound"
+      },
+      "misconception": "simple-instead-of-compound",
+      "wrong_methods": [
+        "Uses simple interest on the initial principal.",
+        "Reports simple interest without the principal.",
+        "Uses only the first compound year."
+      ],
+      "check": "Check: R2 200×110/100=R2 420.",
+      "id": "g9-whole-l07-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Invest R4 000 at 10% compound interest per year for 3 years. Find the final balance.",
+      "givens": [
+        "R4 000",
+        "10% p.a.",
+        "3 years"
+      ],
+      "actions": [
+        "Each year uses the previous balance as the new percentage base.",
+        "Year 1: R4 000×110/100 = R4 400.",
+        "Year 2: R4 400×110/100 = R4 840.",
+        "Year 3: R4 840×110/100 = R5 324.",
+        "After 3 years the balance is R5 324.",
+        "Check: R4 840×110/100=R5 324."
+      ],
+      "answer": "R5 324",
+      "wrongs": [
+        "R5 200",
+        "R1 200",
+        "R4 400"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          4000,
+          4400,
+          4840,
+          5324
+        ],
+        "kind": "compound"
+      },
+      "misconception": "simple-instead-of-compound",
+      "wrong_methods": [
+        "Uses simple interest on the initial principal.",
+        "Reports simple interest without the principal.",
+        "Uses only the first compound year."
+      ],
+      "check": "Check: R4 840×110/100=R5 324.",
+      "id": "g9-whole-l07-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Invest R8 000 at 5% compound interest per year for 2 years. Find the final balance.",
+      "givens": [
+        "R8 000",
+        "5% p.a.",
+        "2 years"
+      ],
+      "actions": [
+        "Each year uses the previous balance as the new percentage base.",
+        "Year 1: R8 000×105/100 = R8 400.",
+        "Year 2: R8 400×105/100 = R8 820.",
+        "After 2 years the balance is R8 820.",
+        "Check: R8 400×105/100=R8 820."
+      ],
+      "answer": "R8 820",
+      "wrongs": [
+        "R8 800",
+        "R800",
+        "R8 400"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          8000,
+          8400,
+          8820
+        ],
+        "kind": "compound"
+      },
+      "misconception": "simple-instead-of-compound",
+      "wrong_methods": [
+        "Uses simple interest on the initial principal.",
+        "Reports simple interest without the principal.",
+        "Uses only the first compound year."
+      ],
+      "check": "Check: R8 400×105/100=R8 820.",
+      "id": "g9-whole-l07-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Invest R16 000 at 5% compound interest per year for 3 years. Find the final balance.",
+      "givens": [
+        "R16 000",
+        "5% p.a.",
+        "3 years"
+      ],
+      "actions": [
+        "Each year uses the previous balance as the new percentage base.",
+        "Year 1: R16 000×105/100 = R16 800.",
+        "Year 2: R16 800×105/100 = R17 640.",
+        "Year 3: R17 640×105/100 = R18 522.",
+        "After 3 years the balance is R18 522.",
+        "Check: R17 640×105/100=R18 522."
+      ],
+      "answer": "R18 522",
+      "wrongs": [
+        "R18 400",
+        "R2 400",
+        "R16 800"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          16000,
+          16800,
+          17640,
+          18522
+        ],
+        "kind": "compound"
+      },
+      "misconception": "simple-instead-of-compound",
+      "wrong_methods": [
+        "Uses simple interest on the initial principal.",
+        "Reports simple interest without the principal.",
+        "Uses only the first compound year."
+      ],
+      "check": "Check: R17 640×105/100=R18 522.",
+      "id": "g9-whole-l07-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Invest R25 000 at 4% compound interest per year for 2 years. Find the final balance.",
+      "givens": [
+        "R25 000",
+        "4% p.a.",
+        "2 years"
+      ],
+      "actions": [
+        "Each year uses the previous balance as the new percentage base.",
+        "Year 1: R25 000×104/100 = R26 000.",
+        "Year 2: R26 000×104/100 = R27 040.",
+        "After 2 years the balance is R27 040.",
+        "Check: R26 000×104/100=R27 040."
+      ],
+      "answer": "R27 040",
+      "wrongs": [
+        "R27 000",
+        "R2 000",
+        "R26 000"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          25000,
+          26000,
+          27040
+        ],
+        "kind": "compound"
+      },
+      "misconception": "simple-instead-of-compound",
+      "wrong_methods": [
+        "Uses simple interest on the initial principal.",
+        "Reports simple interest without the principal.",
+        "Uses only the first compound year."
+      ],
+      "check": "Check: R26 000×104/100=R27 040.",
+      "id": "g9-whole-l07-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A R3 000 appliance is offered on hire purchase: R600 deposit and 12 payments of R240. What is the total paid?",
+      "givens": [
+        "Cash R3 000",
+        "Deposit R600",
+        "12×R240"
+      ],
+      "actions": [
+        "Count every instalment: 12×R240 = R2 880.",
+        "Include the deposit of R600.",
+        "Total paid = R600+R2 880=R3 480.",
+        "Check: R3 480−R3 000=R480 above cash price."
+      ],
+      "answer": "R3 480",
+      "wrongs": [
+        "R2 880",
+        "R3 000",
+        "R840"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          600,
+          3480
+        ],
+        "kind": "hire"
+      },
+      "misconception": "forgot-deposit",
+      "wrong_methods": [
+        "Omits the deposit.",
+        "Confuses cash and hire totals.",
+        "Counts only one instalment."
+      ],
+      "check": "Check: R3 480−R3 000=R480 above cash price.",
+      "id": "g9-whole-l07-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A R5 000 appliance is offered on hire purchase: R1 000 deposit and 12 payments of R380. What is the total paid?",
+      "givens": [
+        "Cash R5 000",
+        "Deposit R1 000",
+        "12×R380"
+      ],
+      "actions": [
+        "Count every instalment: 12×R380 = R4 560.",
+        "Include the deposit of R1 000.",
+        "Total paid = R1 000+R4 560=R5 560.",
+        "Check: R5 560−R5 000=R560 above cash price."
+      ],
+      "answer": "R5 560",
+      "wrongs": [
+        "R4 560",
+        "R5 000",
+        "R1 380"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          1000,
+          5560
+        ],
+        "kind": "hire"
+      },
+      "misconception": "forgot-deposit",
+      "wrong_methods": [
+        "Omits the deposit.",
+        "Confuses cash and hire totals.",
+        "Counts only one instalment."
+      ],
+      "check": "Check: R5 560−R5 000=R560 above cash price.",
+      "id": "g9-whole-l07-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A R8 000 appliance is offered on hire purchase: R1 600 deposit and 12 payments of R620. What is the total paid?",
+      "givens": [
+        "Cash R8 000",
+        "Deposit R1 600",
+        "12×R620"
+      ],
+      "actions": [
+        "Count every instalment: 12×R620 = R7 440.",
+        "Include the deposit of R1 600.",
+        "Total paid = R1 600+R7 440=R9 040.",
+        "Check: R9 040−R8 000=R1 040 above cash price."
+      ],
+      "answer": "R9 040",
+      "wrongs": [
+        "R7 440",
+        "R8 000",
+        "R2 220"
+      ],
+      "visual": {
+        "family": "interest",
+        "balances": [
+          1600,
+          9040
+        ],
+        "kind": "hire"
+      },
+      "misconception": "forgot-deposit",
+      "wrong_methods": [
+        "Omits the deposit.",
+        "Confuses cash and hire totals.",
+        "Counts only one instalment."
+      ],
+      "check": "Check: R9 040−R8 000=R1 040 above cash price.",
+      "id": "g9-whole-l07-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A device costs R9 000 cash. Offer A: R1 800 deposit plus 12×R760. Offer B: R2 700 deposit plus 12×R690. Which offer costs less in total?",
+      "givens": [
+        "Cash R9 000",
+        "A deposit R1 800",
+        "B deposit R2 700",
+        "12 monthly payments"
+      ],
+      "actions": [
+        "Compare equal total time periods, not the monthly instalments alone.",
+        "A total: R1 800+12×R760=R10 920; B total: R2 700+12×R690=R10 980.",
+        "A costs less by R60.",
+        "Check: R10 980−R10 920=R60."
+      ],
+      "answer": "A by R60",
+      "wrongs": [
+        "B by R60",
+        "A by R900",
+        "B by R900"
+      ],
+      "visual": {
+        "family": "interest",
+        "kind": "compare",
+        "balances": [
+          10920,
+          10980
+        ],
+        "labels": [
+          "Offer A total",
+          "Offer B total"
+        ],
+        "givens": [
+          1800,
+          760,
+          2700,
+          690,
+          12
+        ]
+      },
+      "misconception": "loan-total-cost",
+      "wrong_methods": [
+        "Chooses the dearer offer.",
+        "Compares deposits only.",
+        "Omits the deposit when comparing total cost."
+      ],
+      "check": "Check: R10 980−R10 920=R60.",
+      "id": "g9-whole-l07-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A device costs R16 000 cash. Offer A: R3 200 deposit plus 12×R1 300. Offer B: R4 800 deposit plus 12×R1 170. Which offer costs less in total?",
+      "givens": [
+        "Cash R16 000",
+        "A deposit R3 200",
+        "B deposit R4 800",
+        "12 monthly payments"
+      ],
+      "actions": [
+        "Compare equal total time periods, not the monthly instalments alone.",
+        "A total: R3 200+12×R1 300=R18 800; B total: R4 800+12×R1 170=R18 840.",
+        "A costs less by R40.",
+        "Check: R18 840−R18 800=R40."
+      ],
+      "answer": "A by R40",
+      "wrongs": [
+        "B by R40",
+        "A by R1 600",
+        "B by R1 600"
+      ],
+      "visual": {
+        "family": "interest",
+        "kind": "compare",
+        "balances": [
+          18800,
+          18840
+        ],
+        "labels": [
+          "Offer A total",
+          "Offer B total"
+        ],
+        "givens": [
+          3200,
+          1300,
+          4800,
+          1170,
+          12
+        ]
+      },
+      "misconception": "loan-total-cost",
+      "wrong_methods": [
+        "Chooses the dearer offer.",
+        "Compares deposits only.",
+        "Omits the deposit when comparing total cost."
+      ],
+      "check": "Check: R18 840−R18 800=R40.",
+      "id": "g9-whole-l07-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-whole-l07-p01",
+      "prompt": "Invest R2 500 at 4% simple interest per year for 2 years. Find the final balance.",
+      "options": [
+        "R2 700",
+        "R200",
+        "R2 600",
+        "R2 800"
+      ],
+      "answer_index": 0,
+      "memo": "R2 700. With simple interest, every year uses the original R2 500 as base. One year adds 4% of R2 500 = R100; 2 years add R200. Final balance is R2 500+R200=R2 700. Check: R2 700−R2 500=R200=2×R100.",
+      "misconception": "compound-instead-of-simple",
+      "option_rationales": {
+        "R2 700": "Correct: Check: R2 700−R2 500=R200=2×R100.",
+        "R200": "Incorrect: Reports interest without the principal.",
+        "R2 600": "Incorrect: Counts only one year.",
+        "R2 800": "Incorrect: Counts an extra year."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p02",
+      "prompt": "Invest R4 000 at 6% simple interest per year for 3 years. Find the final balance.",
+      "options": [
+        "R720",
+        "R4 720",
+        "R4 240",
+        "R4 960"
+      ],
+      "answer_index": 1,
+      "memo": "R4 720. With simple interest, every year uses the original R4 000 as base. One year adds 6% of R4 000 = R240; 3 years add R720. Final balance is R4 000+R720=R4 720. Check: R4 720−R4 000=R720=3×R240.",
+      "misconception": "compound-instead-of-simple",
+      "option_rationales": {
+        "R720": "Incorrect: Reports interest without the principal.",
+        "R4 720": "Correct: Check: R4 720−R4 000=R720=3×R240.",
+        "R4 240": "Incorrect: Counts only one year.",
+        "R4 960": "Incorrect: Counts an extra year."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p03",
+      "prompt": "Invest R6 000 at 5% simple interest per year for 4 years. Find the final balance.",
+      "options": [
+        "R1 200",
+        "R6 300",
+        "R7 200",
+        "R7 500"
+      ],
+      "answer_index": 2,
+      "memo": "R7 200. With simple interest, every year uses the original R6 000 as base. One year adds 5% of R6 000 = R300; 4 years add R1 200. Final balance is R6 000+R1 200=R7 200. Check: R7 200−R6 000=R1 200=4×R300.",
+      "misconception": "compound-instead-of-simple",
+      "option_rationales": {
+        "R1 200": "Incorrect: Reports interest without the principal.",
+        "R6 300": "Incorrect: Counts only one year.",
+        "R7 200": "Correct: Check: R7 200−R6 000=R1 200=4×R300.",
+        "R7 500": "Incorrect: Counts an extra year."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p04",
+      "prompt": "Invest R9 000 at 8% simple interest per year for 3 years. Find the final balance.",
+      "options": [
+        "R2 160",
+        "R9 720",
+        "R11 880",
+        "R11 160"
+      ],
+      "answer_index": 3,
+      "memo": "R11 160. With simple interest, every year uses the original R9 000 as base. One year adds 8% of R9 000 = R720; 3 years add R2 160. Final balance is R9 000+R2 160=R11 160. Check: R11 160−R9 000=R2 160=3×R720.",
+      "misconception": "compound-instead-of-simple",
+      "option_rationales": {
+        "R2 160": "Incorrect: Reports interest without the principal.",
+        "R9 720": "Incorrect: Counts only one year.",
+        "R11 880": "Incorrect: Counts an extra year.",
+        "R11 160": "Correct: Check: R11 160−R9 000=R2 160=3×R720."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p05",
+      "prompt": "Invest R14 000 at 5% simple interest per year for 5 years. Find the final balance.",
+      "options": [
+        "R17 500",
+        "R3 500",
+        "R14 700",
+        "R18 200"
+      ],
+      "answer_index": 0,
+      "memo": "R17 500. With simple interest, every year uses the original R14 000 as base. One year adds 5% of R14 000 = R700; 5 years add R3 500. Final balance is R14 000+R3 500=R17 500. Check: R17 500−R14 000=R3 500=5×R700.",
+      "misconception": "compound-instead-of-simple",
+      "option_rationales": {
+        "R17 500": "Correct: Check: R17 500−R14 000=R3 500=5×R700.",
+        "R3 500": "Incorrect: Reports interest without the principal.",
+        "R14 700": "Incorrect: Counts only one year.",
+        "R18 200": "Incorrect: Counts an extra year."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p06",
+      "prompt": "Invest R3 000 at 10% compound interest per year for 2 years. Find the final balance.",
+      "options": [
+        "R3 600",
+        "R3 630",
+        "R600",
+        "R3 300"
+      ],
+      "answer_index": 1,
+      "memo": "R3 630. Each year uses the previous balance as the new percentage base. Year 1: R3 000×110/100 = R3 300. Year 2: R3 300×110/100 = R3 630. After 2 years the balance is R3 630. Check: R3 300×110/100=R3 630.",
+      "misconception": "simple-instead-of-compound",
+      "option_rationales": {
+        "R3 600": "Incorrect: Uses simple interest on the initial principal.",
+        "R3 630": "Correct: Check: R3 300×110/100=R3 630.",
+        "R600": "Incorrect: Reports simple interest without the principal.",
+        "R3 300": "Incorrect: Uses only the first compound year."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p07",
+      "prompt": "Invest R5 000 at 10% compound interest per year for 3 years. Find the final balance.",
+      "options": [
+        "R6 500",
+        "R1 500",
+        "R6 655",
+        "R5 500"
+      ],
+      "answer_index": 2,
+      "memo": "R6 655. Each year uses the previous balance as the new percentage base. Year 1: R5 000×110/100 = R5 500. Year 2: R5 500×110/100 = R6 050. Year 3: R6 050×110/100 = R6 655. After 3 years the balance is R6 655. Check: R6 050×110/100=R6 655.",
+      "misconception": "simple-instead-of-compound",
+      "option_rationales": {
+        "R6 500": "Incorrect: Uses simple interest on the initial principal.",
+        "R1 500": "Incorrect: Reports simple interest without the principal.",
+        "R6 655": "Correct: Check: R6 050×110/100=R6 655.",
+        "R5 500": "Incorrect: Uses only the first compound year."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p08",
+      "prompt": "Invest R12 000 at 5% compound interest per year for 2 years. Find the final balance.",
+      "options": [
+        "R13 200",
+        "R1 200",
+        "R12 600",
+        "R13 230"
+      ],
+      "answer_index": 3,
+      "memo": "R13 230. Each year uses the previous balance as the new percentage base. Year 1: R12 000×105/100 = R12 600. Year 2: R12 600×105/100 = R13 230. After 2 years the balance is R13 230. Check: R12 600×105/100=R13 230.",
+      "misconception": "simple-instead-of-compound",
+      "option_rationales": {
+        "R13 200": "Incorrect: Uses simple interest on the initial principal.",
+        "R1 200": "Incorrect: Reports simple interest without the principal.",
+        "R12 600": "Incorrect: Uses only the first compound year.",
+        "R13 230": "Correct: Check: R12 600×105/100=R13 230."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p09",
+      "prompt": "Invest R40 000 at 5% compound interest per year for 3 years. Find the final balance.",
+      "options": [
+        "R46 305",
+        "R46 000",
+        "R6 000",
+        "R42 000"
+      ],
+      "answer_index": 0,
+      "memo": "R46 305. Each year uses the previous balance as the new percentage base. Year 1: R40 000×105/100 = R42 000. Year 2: R42 000×105/100 = R44 100. Year 3: R44 100×105/100 = R46 305. After 3 years the balance is R46 305. Check: R44 100×105/100=R46 305.",
+      "misconception": "simple-instead-of-compound",
+      "option_rationales": {
+        "R46 305": "Correct: Check: R44 100×105/100=R46 305.",
+        "R46 000": "Incorrect: Uses simple interest on the initial principal.",
+        "R6 000": "Incorrect: Reports simple interest without the principal.",
+        "R42 000": "Incorrect: Uses only the first compound year."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p10",
+      "prompt": "Invest R30 000 at 4% compound interest per year for 2 years. Find the final balance.",
+      "options": [
+        "R32 400",
+        "R32 448",
+        "R2 400",
+        "R31 200"
+      ],
+      "answer_index": 1,
+      "memo": "R32 448. Each year uses the previous balance as the new percentage base. Year 1: R30 000×104/100 = R31 200. Year 2: R31 200×104/100 = R32 448. After 2 years the balance is R32 448. Check: R31 200×104/100=R32 448.",
+      "misconception": "simple-instead-of-compound",
+      "option_rationales": {
+        "R32 400": "Incorrect: Uses simple interest on the initial principal.",
+        "R32 448": "Correct: Check: R31 200×104/100=R32 448.",
+        "R2 400": "Incorrect: Reports simple interest without the principal.",
+        "R31 200": "Incorrect: Uses only the first compound year."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p11",
+      "prompt": "A R4 000 appliance is offered on hire purchase: R800 deposit and 12 payments of R320. What is the total paid?",
+      "options": [
+        "R3 840",
+        "R4 000",
+        "R4 640",
+        "R1 120"
+      ],
+      "answer_index": 2,
+      "memo": "R4 640. Count every instalment: 12×R320 = R3 840. Include the deposit of R800. Total paid = R800+R3 840=R4 640. Check: R4 640−R4 000=R640 above cash price.",
+      "misconception": "forgot-deposit",
+      "option_rationales": {
+        "R3 840": "Incorrect: Omits the deposit.",
+        "R4 000": "Incorrect: Confuses cash and hire totals.",
+        "R4 640": "Correct: Check: R4 640−R4 000=R640 above cash price.",
+        "R1 120": "Incorrect: Counts only one instalment."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p12",
+      "prompt": "A R6 000 appliance is offered on hire purchase: R1 200 deposit and 12 payments of R460. What is the total paid?",
+      "options": [
+        "R5 520",
+        "R6 000",
+        "R1 660",
+        "R6 720"
+      ],
+      "answer_index": 3,
+      "memo": "R6 720. Count every instalment: 12×R460 = R5 520. Include the deposit of R1 200. Total paid = R1 200+R5 520=R6 720. Check: R6 720−R6 000=R720 above cash price.",
+      "misconception": "forgot-deposit",
+      "option_rationales": {
+        "R5 520": "Incorrect: Omits the deposit.",
+        "R6 000": "Incorrect: Confuses cash and hire totals.",
+        "R1 660": "Incorrect: Counts only one instalment.",
+        "R6 720": "Correct: Check: R6 720−R6 000=R720 above cash price."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p13",
+      "prompt": "A R10 000 appliance is offered on hire purchase: R2 000 deposit and 12 payments of R780. What is the total paid?",
+      "options": [
+        "R11 360",
+        "R9 360",
+        "R10 000",
+        "R2 780"
+      ],
+      "answer_index": 0,
+      "memo": "R11 360. Count every instalment: 12×R780 = R9 360. Include the deposit of R2 000. Total paid = R2 000+R9 360=R11 360. Check: R11 360−R10 000=R1 360 above cash price.",
+      "misconception": "forgot-deposit",
+      "option_rationales": {
+        "R11 360": "Correct: Check: R11 360−R10 000=R1 360 above cash price.",
+        "R9 360": "Incorrect: Omits the deposit.",
+        "R10 000": "Incorrect: Confuses cash and hire totals.",
+        "R2 780": "Incorrect: Counts only one instalment."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p14",
+      "prompt": "A device costs R11 000 cash. Offer A: R2 200 deposit plus 12×R920. Offer B: R3 300 deposit plus 12×R830. Which offer costs less in total?",
+      "options": [
+        "B by R20",
+        "A by R20",
+        "A by R1 100",
+        "B by R1 100"
+      ],
+      "answer_index": 1,
+      "memo": "A by R20. Compare equal total time periods, not the monthly instalments alone. A total: R2 200+12×R920=R13 240; B total: R3 300+12×R830=R13 260. A costs less by R20. Check: R13 260−R13 240=R20.",
+      "misconception": "loan-total-cost",
+      "option_rationales": {
+        "B by R20": "Incorrect: Chooses the dearer offer.",
+        "A by R20": "Correct: Check: R13 260−R13 240=R20.",
+        "A by R1 100": "Incorrect: Compares deposits only.",
+        "B by R1 100": "Incorrect: Omits the deposit when comparing total cost."
+      }
+    },
+    {
+      "id": "g9-whole-l07-p15",
+      "prompt": "A device costs R19 000 cash. Offer A: R3 800 deposit plus 12×R1 540. Offer B: R5 700 deposit plus 12×R1 400. Which offer costs less in total?",
+      "options": [
+        "B by R220",
+        "A by R1 900",
+        "A by R220",
+        "B by R1 900"
+      ],
+      "answer_index": 2,
+      "memo": "A by R220. Compare equal total time periods, not the monthly instalments alone. A total: R3 800+12×R1 540=R22 280; B total: R5 700+12×R1 400=R22 500. A costs less by R220. Check: R22 500−R22 280=R220.",
+      "misconception": "loan-total-cost",
+      "option_rationales": {
+        "B by R220": "Incorrect: Chooses the dearer offer.",
+        "A by R1 900": "Incorrect: Compares deposits only.",
+        "A by R220": "Correct: Check: R22 500−R22 280=R220.",
+        "B by R1 900": "Incorrect: Omits the deposit when comparing total cost."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-whole-l07-m01",
+      "prompt": "Invest R7 000 at 6% simple interest per year for 3 years. Find the final balance.",
+      "options": [
+        "R8 260",
+        "R1 260",
+        "R7 420",
+        "R8 680"
+      ],
+      "answer_index": 0,
+      "memo": "R8 260. With simple interest, every year uses the original R7 000 as base. One year adds 6% of R7 000 = R420; 3 years add R1 260. Final balance is R7 000+R1 260=R8 260. Check: R8 260−R7 000=R1 260=3×R420.",
+      "misconception": "compound-instead-of-simple",
+      "option_rationales": {
+        "R8 260": "Correct: Check: R8 260−R7 000=R1 260=3×R420.",
+        "R1 260": "Incorrect: Reports interest without the principal.",
+        "R7 420": "Incorrect: Counts only one year.",
+        "R8 680": "Incorrect: Counts an extra year."
+      }
+    },
+    {
+      "id": "g9-whole-l07-m02",
+      "prompt": "Invest R6 000 at 10% compound interest per year for 2 years. Find the final balance.",
+      "options": [
+        "R7 200",
+        "R7 260",
+        "R1 200",
+        "R6 600"
+      ],
+      "answer_index": 1,
+      "memo": "R7 260. Each year uses the previous balance as the new percentage base. Year 1: R6 000×110/100 = R6 600. Year 2: R6 600×110/100 = R7 260. After 2 years the balance is R7 260. Check: R6 600×110/100=R7 260.",
+      "misconception": "simple-instead-of-compound",
+      "option_rationales": {
+        "R7 200": "Incorrect: Uses simple interest on the initial principal.",
+        "R7 260": "Correct: Check: R6 600×110/100=R7 260.",
+        "R1 200": "Incorrect: Reports simple interest without the principal.",
+        "R6 600": "Incorrect: Uses only the first compound year."
+      }
+    },
+    {
+      "id": "g9-whole-l07-m03",
+      "prompt": "A R7 000 appliance is offered on hire purchase: R1 400 deposit and 12 payments of R550. What is the total paid?",
+      "options": [
+        "R6 600",
+        "R7 000",
+        "R8 000",
+        "R1 950"
+      ],
+      "answer_index": 2,
+      "memo": "R8 000. Count every instalment: 12×R550 = R6 600. Include the deposit of R1 400. Total paid = R1 400+R6 600=R8 000. Check: R8 000−R7 000=R1 000 above cash price.",
+      "misconception": "forgot-deposit",
+      "option_rationales": {
+        "R6 600": "Incorrect: Omits the deposit.",
+        "R7 000": "Incorrect: Confuses cash and hire totals.",
+        "R8 000": "Correct: Check: R8 000−R7 000=R1 000 above cash price.",
+        "R1 950": "Incorrect: Counts only one instalment."
+      }
+    },
+    {
+      "id": "g9-whole-l07-m04",
+      "prompt": "Invest R24 000 at 5% compound interest per year for 3 years. Find the final balance.",
+      "options": [
+        "R27 600",
+        "R3 600",
+        "R25 200",
+        "R27 783"
+      ],
+      "answer_index": 3,
+      "memo": "R27 783. Each year uses the previous balance as the new percentage base. Year 1: R24 000×105/100 = R25 200. Year 2: R25 200×105/100 = R26 460. Year 3: R26 460×105/100 = R27 783. After 3 years the balance is R27 783. Check: R26 460×105/100=R27 783.",
+      "misconception": "simple-instead-of-compound",
+      "option_rationales": {
+        "R27 600": "Incorrect: Uses simple interest on the initial principal.",
+        "R3 600": "Incorrect: Reports simple interest without the principal.",
+        "R25 200": "Incorrect: Uses only the first compound year.",
+        "R27 783": "Correct: Check: R26 460×105/100=R27 783."
+      }
+    },
+    {
+      "id": "g9-whole-l07-m05",
+      "prompt": "A device costs R13 000 cash. Offer A: R2 600 deposit plus 12×R1 100. Offer B: R3 900 deposit plus 12×R1 000. Which offer costs less in total?",
+      "options": [
+        "A by R100",
+        "B by R100",
+        "A by R1 300",
+        "B by R1 300"
+      ],
+      "answer_index": 0,
+      "memo": "A by R100. Compare equal total time periods, not the monthly instalments alone. A total: R2 600+12×R1 100=R15 800; B total: R3 900+12×R1 000=R15 900. A costs less by R100. Check: R15 900−R15 800=R100.",
+      "misconception": "loan-total-cost",
+      "option_rationales": {
+        "A by R100": "Correct: Check: R15 900−R15 800=R100.",
+        "B by R100": "Incorrect: Chooses the dearer offer.",
+        "A by R1 300": "Incorrect: Compares deposits only.",
+        "B by R1 300": "Incorrect: Omits the deposit when comparing total cost."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-whole-l07-r01",
+      "prompt": "A R11 000 appliance is offered on hire purchase: R2 200 deposit and 12 payments of R880. What is the total paid?",
+      "options": [
+        "R12 760",
+        "R10 560",
+        "R11 000",
+        "R3 080"
+      ],
+      "answer_index": 0,
+      "memo": "R12 760. Count every instalment: 12×R880 = R10 560. Include the deposit of R2 200. Total paid = R2 200+R10 560=R12 760. Check: R12 760−R11 000=R1 760 above cash price.",
+      "misconception": "forgot-deposit",
+      "option_rationales": {
+        "R12 760": "Correct: Check: R12 760−R11 000=R1 760 above cash price.",
+        "R10 560": "Incorrect: Omits the deposit.",
+        "R11 000": "Incorrect: Confuses cash and hire totals.",
+        "R3 080": "Incorrect: Counts only one instalment."
+      }
+    },
+    {
+      "id": "g9-whole-l07-r02",
+      "prompt": "Invest R35 000 at 4% compound interest per year for 2 years. Find the final balance.",
+      "options": [
+        "R37 800",
+        "R37 856",
+        "R2 800",
+        "R36 400"
+      ],
+      "answer_index": 1,
+      "memo": "R37 856. Each year uses the previous balance as the new percentage base. Year 1: R35 000×104/100 = R36 400. Year 2: R36 400×104/100 = R37 856. After 2 years the balance is R37 856. Check: R36 400×104/100=R37 856.",
+      "misconception": "simple-instead-of-compound",
+      "option_rationales": {
+        "R37 800": "Incorrect: Uses simple interest on the initial principal.",
+        "R37 856": "Correct: Check: R36 400×104/100=R37 856.",
+        "R2 800": "Incorrect: Reports simple interest without the principal.",
+        "R36 400": "Incorrect: Uses only the first compound year."
+      }
+    },
+    {
+      "id": "g9-whole-l07-r03",
+      "prompt": "Invest R13 000 at 8% simple interest per year for 3 years. Find the final balance.",
+      "options": [
+        "R3 120",
+        "R14 040",
+        "R16 120",
+        "R17 160"
+      ],
+      "answer_index": 2,
+      "memo": "R16 120. With simple interest, every year uses the original R13 000 as base. One year adds 8% of R13 000 = R1 040; 3 years add R3 120. Final balance is R13 000+R3 120=R16 120. Check: R16 120−R13 000=R3 120=3×R1 040.",
+      "misconception": "compound-instead-of-simple",
+      "option_rationales": {
+        "R3 120": "Incorrect: Reports interest without the principal.",
+        "R14 040": "Incorrect: Counts only one year.",
+        "R16 120": "Correct: Check: R16 120−R13 000=R3 120=3×R1 040.",
+        "R17 160": "Incorrect: Counts an extra year."
+      }
+    }
+  ]
+}

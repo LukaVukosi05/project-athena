@@ -20,8 +20,8 @@ def test_manifest_uses_the_six_required_readiness_states_and_stable_ids():
     manifest = manifest_for(curriculum_repository.list_grades())
     assert manifest["states"] == [state.value for state in ReadinessState]
     lessons = [lesson for grade in manifest["grades"] for topic in grade["topics"] for lesson in topic["lessons"]]
-    assert len(lessons) == 211
-    assert len({lesson["id"] for lesson in lessons}) == 211
+    assert len(lessons) == 217
+    assert len({lesson["id"] for lesson in lessons}) == 217
     assert {lesson["readiness"] for lesson in lessons} <= set(ReadinessState)
     grade8 = curriculum_repository.get_grade("grade-8")
     released_grade8 = sum(item.release_approved for topic in grade8.topics for subtopic in topic.subtopics for item in subtopic.lessons)
@@ -41,7 +41,7 @@ def test_catalogue_counts_only_usable_runtime_lessons_as_interactive():
         blocked = client.get("/api/v1/curriculum/grades/grade-9").json()
     assert len(grade8["topics"]) == 13
     assert len(blocked["topics"]) == 1
-    assert blocked["topics"][0]["lesson_count"] == 2
+    assert blocked["topics"][0]["lesson_count"] == 8
     assert all(topic["interactive_lesson_count"] == topic["verified_lesson_count"] + topic["published_interactive_lesson_count"] for topic in grade["topics"])
     counts = {topic["id"]: topic["published_interactive_lesson_count"] for topic in grade["topics"]}
     assert counts["functions-graphs"] == 0

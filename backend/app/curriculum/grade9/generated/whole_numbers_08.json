@@ -1,0 +1,1034 @@
+{
+  "source": "lesson-08-exchange-commission-and-rentals.md",
+  "worked": [
+    {
+      "problem": "At R20 per foreign unit, exchange R1 800. The provider then charges 5 foreign units. How many foreign units remain?",
+      "givens": [
+        "R1 800",
+        "R20/unit",
+        "5 units fee"
+      ],
+      "actions": [
+        "Check units: rand ÷ (rand per foreign unit) gives foreign units.",
+        "Convert: R1 800÷R20 = 90 foreign units.",
+        "Deduct the foreign-currency fee: 90−5=85 foreign units.",
+        "Check: 85+5=90; 90×20=1800 rand."
+      ],
+      "answer": "85 foreign units",
+      "wrongs": [
+        "90 foreign units",
+        "35995 foreign units",
+        "95 foreign units"
+      ],
+      "visual": {
+        "family": "exchange",
+        "source": 1800,
+        "rate": 20,
+        "gross": 90,
+        "fee": 5,
+        "net": 85
+      },
+      "misconception": "exchange-direction",
+      "wrong_methods": [
+        "Omits the fee.",
+        "Multiplies by the quoted rand-per-unit rate.",
+        "Adds the fee instead of deducting it."
+      ],
+      "check": "Check: 85+5=90; 90×20=1800 rand.",
+      "id": "g9-whole-l08-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "At R20 per foreign unit, exchange R3 600. The provider then charges 8 foreign units. How many foreign units remain?",
+      "givens": [
+        "R3 600",
+        "R20/unit",
+        "8 units fee"
+      ],
+      "actions": [
+        "Check units: rand ÷ (rand per foreign unit) gives foreign units.",
+        "Convert: R3 600÷R20 = 180 foreign units.",
+        "Deduct the foreign-currency fee: 180−8=172 foreign units.",
+        "Check: 172+8=180; 180×20=3600 rand."
+      ],
+      "answer": "172 foreign units",
+      "wrongs": [
+        "180 foreign units",
+        "71992 foreign units",
+        "188 foreign units"
+      ],
+      "visual": {
+        "family": "exchange",
+        "source": 3600,
+        "rate": 20,
+        "gross": 180,
+        "fee": 8,
+        "net": 172
+      },
+      "misconception": "exchange-direction",
+      "wrong_methods": [
+        "Omits the fee.",
+        "Multiplies by the quoted rand-per-unit rate.",
+        "Adds the fee instead of deducting it."
+      ],
+      "check": "Check: 172+8=180; 180×20=3600 rand.",
+      "id": "g9-whole-l08-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "At R21 per foreign unit, exchange R5 250. The provider then charges 10 foreign units. How many foreign units remain?",
+      "givens": [
+        "R5 250",
+        "R21/unit",
+        "10 units fee"
+      ],
+      "actions": [
+        "Check units: rand ÷ (rand per foreign unit) gives foreign units.",
+        "Convert: R5 250÷R21 = 250 foreign units.",
+        "Deduct the foreign-currency fee: 250−10=240 foreign units.",
+        "Check: 240+10=250; 250×21=5250 rand."
+      ],
+      "answer": "240 foreign units",
+      "wrongs": [
+        "250 foreign units",
+        "110240 foreign units",
+        "260 foreign units"
+      ],
+      "visual": {
+        "family": "exchange",
+        "source": 5250,
+        "rate": 21,
+        "gross": 250,
+        "fee": 10,
+        "net": 240
+      },
+      "misconception": "exchange-direction",
+      "wrong_methods": [
+        "Omits the fee.",
+        "Multiplies by the quoted rand-per-unit rate.",
+        "Adds the fee instead of deducting it."
+      ],
+      "check": "Check: 240+10=250; 250×21=5250 rand.",
+      "id": "g9-whole-l08-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "At R21 per foreign unit, exchange R6 300. The provider then charges 15 foreign units. How many foreign units remain?",
+      "givens": [
+        "R6 300",
+        "R21/unit",
+        "15 units fee"
+      ],
+      "actions": [
+        "Check units: rand ÷ (rand per foreign unit) gives foreign units.",
+        "Convert: R6 300÷R21 = 300 foreign units.",
+        "Deduct the foreign-currency fee: 300−15=285 foreign units.",
+        "Check: 285+15=300; 300×21=6300 rand."
+      ],
+      "answer": "285 foreign units",
+      "wrongs": [
+        "300 foreign units",
+        "132285 foreign units",
+        "315 foreign units"
+      ],
+      "visual": {
+        "family": "exchange",
+        "source": 6300,
+        "rate": 21,
+        "gross": 300,
+        "fee": 15,
+        "net": 285
+      },
+      "misconception": "exchange-direction",
+      "wrong_methods": [
+        "Omits the fee.",
+        "Multiplies by the quoted rand-per-unit rate.",
+        "Adds the fee instead of deducting it."
+      ],
+      "check": "Check: 285+15=300; 300×21=6300 rand.",
+      "id": "g9-whole-l08-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "At R24 per foreign unit, exchange R8 400. The provider then charges 20 foreign units. How many foreign units remain?",
+      "givens": [
+        "R8 400",
+        "R24/unit",
+        "20 units fee"
+      ],
+      "actions": [
+        "Check units: rand ÷ (rand per foreign unit) gives foreign units.",
+        "Convert: R8 400÷R24 = 350 foreign units.",
+        "Deduct the foreign-currency fee: 350−20=330 foreign units.",
+        "Check: 330+20=350; 350×24=8400 rand."
+      ],
+      "answer": "330 foreign units",
+      "wrongs": [
+        "350 foreign units",
+        "201580 foreign units",
+        "370 foreign units"
+      ],
+      "visual": {
+        "family": "exchange",
+        "source": 8400,
+        "rate": 24,
+        "gross": 350,
+        "fee": 20,
+        "net": 330
+      },
+      "misconception": "exchange-direction",
+      "wrong_methods": [
+        "Omits the fee.",
+        "Multiplies by the quoted rand-per-unit rate.",
+        "Adds the fee instead of deducting it."
+      ],
+      "check": "Check: 330+20=350; 350×24=8400 rand.",
+      "id": "g9-whole-l08-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A salesperson earns 5% commission on R3 000 sales plus R200 basic pay. Find total pay.",
+      "givens": [
+        "Sales R3 000",
+        "Rate 5%",
+        "Basic R200"
+      ],
+      "actions": [
+        "Commission uses sales R3 000 as its base.",
+        "5% of R3 000 is R150.",
+        "Add basic pay: R150+R200=R350.",
+        "Check: R350−R200=R150 commission."
+      ],
+      "answer": "R350",
+      "wrongs": [
+        "R150",
+        "R355",
+        "R3 200"
+      ],
+      "visual": {
+        "family": "commission",
+        "sales": 3000,
+        "rate": 5,
+        "commission": 150,
+        "basic": 200,
+        "total": 350
+      },
+      "misconception": "commission-base",
+      "wrong_methods": [
+        "Reports commission without basic pay.",
+        "Adds the percent number as currency.",
+        "Reports sales plus basic pay."
+      ],
+      "check": "Check: R350−R200=R150 commission.",
+      "id": "g9-whole-l08-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A salesperson earns 8% commission on R5 000 sales plus R300 basic pay. Find total pay.",
+      "givens": [
+        "Sales R5 000",
+        "Rate 8%",
+        "Basic R300"
+      ],
+      "actions": [
+        "Commission uses sales R5 000 as its base.",
+        "8% of R5 000 is R400.",
+        "Add basic pay: R400+R300=R700.",
+        "Check: R700−R300=R400 commission."
+      ],
+      "answer": "R700",
+      "wrongs": [
+        "R400",
+        "R708",
+        "R5 300"
+      ],
+      "visual": {
+        "family": "commission",
+        "sales": 5000,
+        "rate": 8,
+        "commission": 400,
+        "basic": 300,
+        "total": 700
+      },
+      "misconception": "commission-base",
+      "wrong_methods": [
+        "Reports commission without basic pay.",
+        "Adds the percent number as currency.",
+        "Reports sales plus basic pay."
+      ],
+      "check": "Check: R700−R300=R400 commission.",
+      "id": "g9-whole-l08-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A salesperson earns 4% commission on R7 500 sales plus R450 basic pay. Find total pay.",
+      "givens": [
+        "Sales R7 500",
+        "Rate 4%",
+        "Basic R450"
+      ],
+      "actions": [
+        "Commission uses sales R7 500 as its base.",
+        "4% of R7 500 is R300.",
+        "Add basic pay: R300+R450=R750.",
+        "Check: R750−R450=R300 commission."
+      ],
+      "answer": "R750",
+      "wrongs": [
+        "R300",
+        "R754",
+        "R7 950"
+      ],
+      "visual": {
+        "family": "commission",
+        "sales": 7500,
+        "rate": 4,
+        "commission": 300,
+        "basic": 450,
+        "total": 750
+      },
+      "misconception": "commission-base",
+      "wrong_methods": [
+        "Reports commission without basic pay.",
+        "Adds the percent number as currency.",
+        "Reports sales plus basic pay."
+      ],
+      "check": "Check: R750−R450=R300 commission.",
+      "id": "g9-whole-l08-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A salesperson earns 10% commission on R9 000 sales plus R500 basic pay. Find total pay.",
+      "givens": [
+        "Sales R9 000",
+        "Rate 10%",
+        "Basic R500"
+      ],
+      "actions": [
+        "Commission uses sales R9 000 as its base.",
+        "10% of R9 000 is R900.",
+        "Add basic pay: R900+R500=R1 400.",
+        "Check: R1 400−R500=R900 commission."
+      ],
+      "answer": "R1 400",
+      "wrongs": [
+        "R900",
+        "R1 410",
+        "R9 500"
+      ],
+      "visual": {
+        "family": "commission",
+        "sales": 9000,
+        "rate": 10,
+        "commission": 900,
+        "basic": 500,
+        "total": 1400
+      },
+      "misconception": "commission-base",
+      "wrong_methods": [
+        "Reports commission without basic pay.",
+        "Adds the percent number as currency.",
+        "Reports sales plus basic pay."
+      ],
+      "check": "Check: R1 400−R500=R900 commission.",
+      "id": "g9-whole-l08-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A salesperson earns 6% commission on R12 000 sales plus R650 basic pay. Find total pay.",
+      "givens": [
+        "Sales R12 000",
+        "Rate 6%",
+        "Basic R650"
+      ],
+      "actions": [
+        "Commission uses sales R12 000 as its base.",
+        "6% of R12 000 is R720.",
+        "Add basic pay: R720+R650=R1 370.",
+        "Check: R1 370−R650=R720 commission."
+      ],
+      "answer": "R1 370",
+      "wrongs": [
+        "R720",
+        "R1 376",
+        "R12 650"
+      ],
+      "visual": {
+        "family": "commission",
+        "sales": 12000,
+        "rate": 6,
+        "commission": 720,
+        "basic": 650,
+        "total": 1370
+      },
+      "misconception": "commission-base",
+      "wrong_methods": [
+        "Reports commission without basic pay.",
+        "Adds the percent number as currency.",
+        "Reports sales plus basic pay."
+      ],
+      "check": "Check: R1 370−R650=R720 commission.",
+      "id": "g9-whole-l08-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Rent for 3 days. Plan A charges R100 plus R90/day; Plan B charges R200 plus R70/day. Which is cheaper and by how much?",
+      "givens": [
+        "3 days",
+        "A R100+R90/day",
+        "B R200+R70/day"
+      ],
+      "actions": [
+        "Both plans include a fixed fee and a daily rate for 3 days.",
+        "A costs R100+3×R90=R370; B costs R200+3×R70=R410.",
+        "Compare totals, not daily rates: A is cheaper by R40.",
+        "Check: R410−R370=R40."
+      ],
+      "answer": "A by R40",
+      "wrongs": [
+        "B by R40",
+        "A by R140",
+        "B by R240"
+      ],
+      "visual": {
+        "family": "rental",
+        "days": 3,
+        "base": [
+          100,
+          200
+        ],
+        "daily": [
+          90,
+          70
+        ],
+        "totals": [
+          370,
+          410
+        ]
+      },
+      "misconception": "ignored-fixed-fee",
+      "wrong_methods": [
+        "Chooses the wrong total.",
+        "Uses an incorrect difference after choosing the right plan.",
+        "Uses an incorrect difference and the wrong plan."
+      ],
+      "check": "Check: R410−R370=R40.",
+      "id": "g9-whole-l08-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Rent for 4 days. Plan A charges R250 plus R60/day; Plan B charges R100 plus R110/day. Which is cheaper and by how much?",
+      "givens": [
+        "4 days",
+        "A R250+R60/day",
+        "B R100+R110/day"
+      ],
+      "actions": [
+        "Both plans include a fixed fee and a daily rate for 4 days.",
+        "A costs R250+4×R60=R490; B costs R100+4×R110=R540.",
+        "Compare totals, not daily rates: A is cheaper by R50.",
+        "Check: R540−R490=R50."
+      ],
+      "answer": "A by R50",
+      "wrongs": [
+        "B by R50",
+        "A by R300",
+        "B by R150"
+      ],
+      "visual": {
+        "family": "rental",
+        "days": 4,
+        "base": [
+          250,
+          100
+        ],
+        "daily": [
+          60,
+          110
+        ],
+        "totals": [
+          490,
+          540
+        ]
+      },
+      "misconception": "ignored-fixed-fee",
+      "wrong_methods": [
+        "Chooses the wrong total.",
+        "Uses an incorrect difference after choosing the right plan.",
+        "Uses an incorrect difference and the wrong plan."
+      ],
+      "check": "Check: R540−R490=R50.",
+      "id": "g9-whole-l08-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "For 3 days, a foreign rental charges 20 foreign units plus 8 units/day. At R20 per unit, add a R60 rand conversion fee. A local rental totals R960. Which costs less in rand, and by how much?",
+      "givens": [
+        "3 days",
+        "20+8/day foreign units",
+        "R20/unit",
+        "Fee R60",
+        "Local R960"
+      ],
+      "actions": [
+        "Foreign rental = 20+3×8=44 foreign units.",
+        "Convert and add fee: 44×R20+R60=R940.",
+        "Compare R940 with local R960: foreign saves R20.",
+        "Check: R960−R940=R20."
+      ],
+      "answer": "foreign by R20",
+      "wrongs": [
+        "local by R20",
+        "foreign by R916",
+        "local by R916"
+      ],
+      "visual": {
+        "family": "rental_exchange",
+        "days": 3,
+        "foreign_base": 20,
+        "foreign_daily": 8,
+        "rate": 20,
+        "fee": 60,
+        "foreign": 44,
+        "rand_total": 940,
+        "local_total": 960
+      },
+      "misconception": "exchange-rental",
+      "wrong_methods": [
+        "Chooses the dearer plan after converting.",
+        "Compares foreign units with rand.",
+        "Forgets the conversion or fixed charge."
+      ],
+      "check": "Check: R960−R940=R20.",
+      "id": "g9-whole-l08-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "For 5 days, a foreign rental charges 15 foreign units plus 9 units/day. At R22 per unit, add a R55 rand conversion fee. A local rental totals R1 350. Which costs less in rand, and by how much?",
+      "givens": [
+        "5 days",
+        "15+9/day foreign units",
+        "R22/unit",
+        "Fee R55",
+        "Local R1 350"
+      ],
+      "actions": [
+        "Foreign rental = 15+5×9=60 foreign units.",
+        "Convert and add fee: 60×R22+R55=R1 375.",
+        "Compare R1 375 with local R1 350: local saves R25.",
+        "Check: R1 375−R1 350=R25."
+      ],
+      "answer": "local by R25",
+      "wrongs": [
+        "foreign by R25",
+        "local by R1 290",
+        "foreign by R1 290"
+      ],
+      "visual": {
+        "family": "rental_exchange",
+        "days": 5,
+        "foreign_base": 15,
+        "foreign_daily": 9,
+        "rate": 22,
+        "fee": 55,
+        "foreign": 60,
+        "rand_total": 1375,
+        "local_total": 1350
+      },
+      "misconception": "exchange-rental",
+      "wrong_methods": [
+        "Chooses the dearer plan after converting.",
+        "Compares foreign units with rand.",
+        "Forgets the conversion or fixed charge."
+      ],
+      "check": "Check: R1 375−R1 350=R25.",
+      "id": "g9-whole-l08-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "For 7 days, a foreign rental charges 18 foreign units plus 10 units/day. At R21 per unit, add a R70 rand conversion fee. A local rental totals R2 300. Which costs less in rand, and by how much?",
+      "givens": [
+        "7 days",
+        "18+10/day foreign units",
+        "R21/unit",
+        "Fee R70",
+        "Local R2 300"
+      ],
+      "actions": [
+        "Foreign rental = 18+7×10=88 foreign units.",
+        "Convert and add fee: 88×R21+R70=R1 918.",
+        "Compare R1 918 with local R2 300: foreign saves R382.",
+        "Check: R2 300−R1 918=R382."
+      ],
+      "answer": "foreign by R382",
+      "wrongs": [
+        "local by R382",
+        "foreign by R2 212",
+        "local by R2 212"
+      ],
+      "visual": {
+        "family": "rental_exchange",
+        "days": 7,
+        "foreign_base": 18,
+        "foreign_daily": 10,
+        "rate": 21,
+        "fee": 70,
+        "foreign": 88,
+        "rand_total": 1918,
+        "local_total": 2300
+      },
+      "misconception": "exchange-rental",
+      "wrong_methods": [
+        "Chooses the dearer plan after converting.",
+        "Compares foreign units with rand.",
+        "Forgets the conversion or fixed charge."
+      ],
+      "check": "Check: R2 300−R1 918=R382.",
+      "id": "g9-whole-l08-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-whole-l08-p01",
+      "prompt": "At R20 per foreign unit, exchange R2 400. The provider then charges 6 foreign units. How many foreign units remain?",
+      "options": [
+        "114 foreign units",
+        "120 foreign units",
+        "47994 foreign units",
+        "126 foreign units"
+      ],
+      "answer_index": 0,
+      "memo": "114 foreign units. Check units: rand ÷ (rand per foreign unit) gives foreign units. Convert: R2 400÷R20 = 120 foreign units. Deduct the foreign-currency fee: 120−6=114 foreign units. Check: 114+6=120; 120×20=2400 rand.",
+      "misconception": "exchange-direction",
+      "option_rationales": {
+        "114 foreign units": "Correct: Check: 114+6=120; 120×20=2400 rand.",
+        "120 foreign units": "Incorrect: Omits the fee.",
+        "47994 foreign units": "Incorrect: Multiplies by the quoted rand-per-unit rate.",
+        "126 foreign units": "Incorrect: Adds the fee instead of deducting it."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p02",
+      "prompt": "At R20 per foreign unit, exchange R4 800. The provider then charges 9 foreign units. How many foreign units remain?",
+      "options": [
+        "240 foreign units",
+        "231 foreign units",
+        "95991 foreign units",
+        "249 foreign units"
+      ],
+      "answer_index": 1,
+      "memo": "231 foreign units. Check units: rand ÷ (rand per foreign unit) gives foreign units. Convert: R4 800÷R20 = 240 foreign units. Deduct the foreign-currency fee: 240−9=231 foreign units. Check: 231+9=240; 240×20=4800 rand.",
+      "misconception": "exchange-direction",
+      "option_rationales": {
+        "240 foreign units": "Incorrect: Omits the fee.",
+        "231 foreign units": "Correct: Check: 231+9=240; 240×20=4800 rand.",
+        "95991 foreign units": "Incorrect: Multiplies by the quoted rand-per-unit rate.",
+        "249 foreign units": "Incorrect: Adds the fee instead of deducting it."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p03",
+      "prompt": "At R21 per foreign unit, exchange R6 300. The provider then charges 11 foreign units. How many foreign units remain?",
+      "options": [
+        "300 foreign units",
+        "132289 foreign units",
+        "289 foreign units",
+        "311 foreign units"
+      ],
+      "answer_index": 2,
+      "memo": "289 foreign units. Check units: rand ÷ (rand per foreign unit) gives foreign units. Convert: R6 300÷R21 = 300 foreign units. Deduct the foreign-currency fee: 300−11=289 foreign units. Check: 289+11=300; 300×21=6300 rand.",
+      "misconception": "exchange-direction",
+      "option_rationales": {
+        "300 foreign units": "Incorrect: Omits the fee.",
+        "132289 foreign units": "Incorrect: Multiplies by the quoted rand-per-unit rate.",
+        "289 foreign units": "Correct: Check: 289+11=300; 300×21=6300 rand.",
+        "311 foreign units": "Incorrect: Adds the fee instead of deducting it."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p04",
+      "prompt": "At R21 per foreign unit, exchange R7 350. The provider then charges 16 foreign units. How many foreign units remain?",
+      "options": [
+        "350 foreign units",
+        "154334 foreign units",
+        "366 foreign units",
+        "334 foreign units"
+      ],
+      "answer_index": 3,
+      "memo": "334 foreign units. Check units: rand ÷ (rand per foreign unit) gives foreign units. Convert: R7 350÷R21 = 350 foreign units. Deduct the foreign-currency fee: 350−16=334 foreign units. Check: 334+16=350; 350×21=7350 rand.",
+      "misconception": "exchange-direction",
+      "option_rationales": {
+        "350 foreign units": "Incorrect: Omits the fee.",
+        "154334 foreign units": "Incorrect: Multiplies by the quoted rand-per-unit rate.",
+        "366 foreign units": "Incorrect: Adds the fee instead of deducting it.",
+        "334 foreign units": "Correct: Check: 334+16=350; 350×21=7350 rand."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p05",
+      "prompt": "At R24 per foreign unit, exchange R9 600. The provider then charges 21 foreign units. How many foreign units remain?",
+      "options": [
+        "379 foreign units",
+        "400 foreign units",
+        "230379 foreign units",
+        "421 foreign units"
+      ],
+      "answer_index": 0,
+      "memo": "379 foreign units. Check units: rand ÷ (rand per foreign unit) gives foreign units. Convert: R9 600÷R24 = 400 foreign units. Deduct the foreign-currency fee: 400−21=379 foreign units. Check: 379+21=400; 400×24=9600 rand.",
+      "misconception": "exchange-direction",
+      "option_rationales": {
+        "379 foreign units": "Correct: Check: 379+21=400; 400×24=9600 rand.",
+        "400 foreign units": "Incorrect: Omits the fee.",
+        "230379 foreign units": "Incorrect: Multiplies by the quoted rand-per-unit rate.",
+        "421 foreign units": "Incorrect: Adds the fee instead of deducting it."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p06",
+      "prompt": "A salesperson earns 5% commission on R4 000 sales plus R250 basic pay. Find total pay.",
+      "options": [
+        "R200",
+        "R450",
+        "R455",
+        "R4 250"
+      ],
+      "answer_index": 1,
+      "memo": "R450. Commission uses sales R4 000 as its base. 5% of R4 000 is R200. Add basic pay: R200+R250=R450. Check: R450−R250=R200 commission.",
+      "misconception": "commission-base",
+      "option_rationales": {
+        "R200": "Incorrect: Reports commission without basic pay.",
+        "R450": "Correct: Check: R450−R250=R200 commission.",
+        "R455": "Incorrect: Adds the percent number as currency.",
+        "R4 250": "Incorrect: Reports sales plus basic pay."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p07",
+      "prompt": "A salesperson earns 8% commission on R6 000 sales plus R350 basic pay. Find total pay.",
+      "options": [
+        "R480",
+        "R838",
+        "R830",
+        "R6 350"
+      ],
+      "answer_index": 2,
+      "memo": "R830. Commission uses sales R6 000 as its base. 8% of R6 000 is R480. Add basic pay: R480+R350=R830. Check: R830−R350=R480 commission.",
+      "misconception": "commission-base",
+      "option_rationales": {
+        "R480": "Incorrect: Reports commission without basic pay.",
+        "R838": "Incorrect: Adds the percent number as currency.",
+        "R830": "Correct: Check: R830−R350=R480 commission.",
+        "R6 350": "Incorrect: Reports sales plus basic pay."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p08",
+      "prompt": "A salesperson earns 4% commission on R8 500 sales plus R500 basic pay. Find total pay.",
+      "options": [
+        "R340",
+        "R844",
+        "R9 000",
+        "R840"
+      ],
+      "answer_index": 3,
+      "memo": "R840. Commission uses sales R8 500 as its base. 4% of R8 500 is R340. Add basic pay: R340+R500=R840. Check: R840−R500=R340 commission.",
+      "misconception": "commission-base",
+      "option_rationales": {
+        "R340": "Incorrect: Reports commission without basic pay.",
+        "R844": "Incorrect: Adds the percent number as currency.",
+        "R9 000": "Incorrect: Reports sales plus basic pay.",
+        "R840": "Correct: Check: R840−R500=R340 commission."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p09",
+      "prompt": "A salesperson earns 10% commission on R10 000 sales plus R550 basic pay. Find total pay.",
+      "options": [
+        "R1 550",
+        "R1 000",
+        "R1 560",
+        "R10 550"
+      ],
+      "answer_index": 0,
+      "memo": "R1 550. Commission uses sales R10 000 as its base. 10% of R10 000 is R1 000. Add basic pay: R1 000+R550=R1 550. Check: R1 550−R550=R1 000 commission.",
+      "misconception": "commission-base",
+      "option_rationales": {
+        "R1 550": "Correct: Check: R1 550−R550=R1 000 commission.",
+        "R1 000": "Incorrect: Reports commission without basic pay.",
+        "R1 560": "Incorrect: Adds the percent number as currency.",
+        "R10 550": "Incorrect: Reports sales plus basic pay."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p10",
+      "prompt": "A salesperson earns 6% commission on R15 000 sales plus R750 basic pay. Find total pay.",
+      "options": [
+        "R900",
+        "R1 650",
+        "R1 656",
+        "R15 750"
+      ],
+      "answer_index": 1,
+      "memo": "R1 650. Commission uses sales R15 000 as its base. 6% of R15 000 is R900. Add basic pay: R900+R750=R1 650. Check: R1 650−R750=R900 commission.",
+      "misconception": "commission-base",
+      "option_rationales": {
+        "R900": "Incorrect: Reports commission without basic pay.",
+        "R1 650": "Correct: Check: R1 650−R750=R900 commission.",
+        "R1 656": "Incorrect: Adds the percent number as currency.",
+        "R15 750": "Incorrect: Reports sales plus basic pay."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p11",
+      "prompt": "Rent for 3 days. Plan A charges R130 plus R100/day; Plan B charges R250 plus R75/day. Which is cheaper and by how much?",
+      "options": [
+        "B by R45",
+        "A by R175",
+        "A by R45",
+        "B by R295"
+      ],
+      "answer_index": 2,
+      "memo": "A by R45. Both plans include a fixed fee and a daily rate for 3 days. A costs R130+3×R100=R430; B costs R250+3×R75=R475. Compare totals, not daily rates: A is cheaper by R45. Check: R475−R430=R45.",
+      "misconception": "ignored-fixed-fee",
+      "option_rationales": {
+        "B by R45": "Incorrect: Chooses the wrong total.",
+        "A by R175": "Incorrect: Uses an incorrect difference after choosing the right plan.",
+        "A by R45": "Correct: Check: R475−R430=R45.",
+        "B by R295": "Incorrect: Uses an incorrect difference and the wrong plan."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p12",
+      "prompt": "Rent for 4 days. Plan A charges R275 plus R65/day; Plan B charges R120 plus R115/day. Which is cheaper and by how much?",
+      "options": [
+        "B by R45",
+        "A by R320",
+        "B by R165",
+        "A by R45"
+      ],
+      "answer_index": 3,
+      "memo": "A by R45. Both plans include a fixed fee and a daily rate for 4 days. A costs R275+4×R65=R535; B costs R120+4×R115=R580. Compare totals, not daily rates: A is cheaper by R45. Check: R580−R535=R45.",
+      "misconception": "ignored-fixed-fee",
+      "option_rationales": {
+        "B by R45": "Incorrect: Chooses the wrong total.",
+        "A by R320": "Incorrect: Uses an incorrect difference after choosing the right plan.",
+        "B by R165": "Incorrect: Uses an incorrect difference and the wrong plan.",
+        "A by R45": "Correct: Check: R580−R535=R45."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p13",
+      "prompt": "For 4 days, a foreign rental charges 25 foreign units plus 7 units/day. At R20 per unit, add a R80 rand conversion fee. A local rental totals R1 200. Which costs less in rand, and by how much?",
+      "options": [
+        "foreign by R60",
+        "local by R60",
+        "foreign by R1 147",
+        "local by R1 147"
+      ],
+      "answer_index": 0,
+      "memo": "foreign by R60. Foreign rental = 25+4×7=53 foreign units. Convert and add fee: 53×R20+R80=R1 140. Compare R1 140 with local R1 200: foreign saves R60. Check: R1 200−R1 140=R60.",
+      "misconception": "exchange-rental",
+      "option_rationales": {
+        "foreign by R60": "Correct: Check: R1 200−R1 140=R60.",
+        "local by R60": "Incorrect: Chooses the dearer plan after converting.",
+        "foreign by R1 147": "Incorrect: Compares foreign units with rand.",
+        "local by R1 147": "Incorrect: Forgets the conversion or fixed charge."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p14",
+      "prompt": "For 6 days, a foreign rental charges 12 foreign units plus 11 units/day. At R23 per unit, add a R60 rand conversion fee. A local rental totals R1 900. Which costs less in rand, and by how much?",
+      "options": [
+        "local by R46",
+        "foreign by R46",
+        "foreign by R1 822",
+        "local by R1 822"
+      ],
+      "answer_index": 1,
+      "memo": "foreign by R46. Foreign rental = 12+6×11=78 foreign units. Convert and add fee: 78×R23+R60=R1 854. Compare R1 854 with local R1 900: foreign saves R46. Check: R1 900−R1 854=R46.",
+      "misconception": "exchange-rental",
+      "option_rationales": {
+        "local by R46": "Incorrect: Chooses the dearer plan after converting.",
+        "foreign by R46": "Correct: Check: R1 900−R1 854=R46.",
+        "foreign by R1 822": "Incorrect: Compares foreign units with rand.",
+        "local by R1 822": "Incorrect: Forgets the conversion or fixed charge."
+      }
+    },
+    {
+      "id": "g9-whole-l08-p15",
+      "prompt": "For 8 days, a foreign rental charges 22 foreign units plus 9 units/day. At R24 per unit, add a R90 rand conversion fee. A local rental totals R2 800. Which costs less in rand, and by how much?",
+      "options": [
+        "local by R454",
+        "foreign by R2 706",
+        "foreign by R454",
+        "local by R2 706"
+      ],
+      "answer_index": 2,
+      "memo": "foreign by R454. Foreign rental = 22+8×9=94 foreign units. Convert and add fee: 94×R24+R90=R2 346. Compare R2 346 with local R2 800: foreign saves R454. Check: R2 800−R2 346=R454.",
+      "misconception": "exchange-rental",
+      "option_rationales": {
+        "local by R454": "Incorrect: Chooses the dearer plan after converting.",
+        "foreign by R2 706": "Incorrect: Compares foreign units with rand.",
+        "foreign by R454": "Correct: Check: R2 800−R2 346=R454.",
+        "local by R2 706": "Incorrect: Forgets the conversion or fixed charge."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-whole-l08-m01",
+      "prompt": "At R20 per foreign unit, exchange R5 400. The provider then charges 7 foreign units. How many foreign units remain?",
+      "options": [
+        "263 foreign units",
+        "270 foreign units",
+        "107993 foreign units",
+        "277 foreign units"
+      ],
+      "answer_index": 0,
+      "memo": "263 foreign units. Check units: rand ÷ (rand per foreign unit) gives foreign units. Convert: R5 400÷R20 = 270 foreign units. Deduct the foreign-currency fee: 270−7=263 foreign units. Check: 263+7=270; 270×20=5400 rand.",
+      "misconception": "exchange-direction",
+      "option_rationales": {
+        "263 foreign units": "Correct: Check: 263+7=270; 270×20=5400 rand.",
+        "270 foreign units": "Incorrect: Omits the fee.",
+        "107993 foreign units": "Incorrect: Multiplies by the quoted rand-per-unit rate.",
+        "277 foreign units": "Incorrect: Adds the fee instead of deducting it."
+      }
+    },
+    {
+      "id": "g9-whole-l08-m02",
+      "prompt": "A salesperson earns 5% commission on R8 000 sales plus R500 basic pay. Find total pay.",
+      "options": [
+        "R400",
+        "R900",
+        "R905",
+        "R8 500"
+      ],
+      "answer_index": 1,
+      "memo": "R900. Commission uses sales R8 000 as its base. 5% of R8 000 is R400. Add basic pay: R400+R500=R900. Check: R900−R500=R400 commission.",
+      "misconception": "commission-base",
+      "option_rationales": {
+        "R400": "Incorrect: Reports commission without basic pay.",
+        "R900": "Correct: Check: R900−R500=R400 commission.",
+        "R905": "Incorrect: Adds the percent number as currency.",
+        "R8 500": "Incorrect: Reports sales plus basic pay."
+      }
+    },
+    {
+      "id": "g9-whole-l08-m03",
+      "prompt": "Rent for 6 days. Plan A charges R300 plus R80/day; Plan B charges R100 plus R130/day. Which is cheaper and by how much?",
+      "options": [
+        "B by R100",
+        "A by R400",
+        "A by R100",
+        "B by R200"
+      ],
+      "answer_index": 2,
+      "memo": "A by R100. Both plans include a fixed fee and a daily rate for 6 days. A costs R300+6×R80=R780; B costs R100+6×R130=R880. Compare totals, not daily rates: A is cheaper by R100. Check: R880−R780=R100.",
+      "misconception": "ignored-fixed-fee",
+      "option_rationales": {
+        "B by R100": "Incorrect: Chooses the wrong total.",
+        "A by R400": "Incorrect: Uses an incorrect difference after choosing the right plan.",
+        "A by R100": "Correct: Check: R880−R780=R100.",
+        "B by R200": "Incorrect: Uses an incorrect difference and the wrong plan."
+      }
+    },
+    {
+      "id": "g9-whole-l08-m04",
+      "prompt": "At R21 per foreign unit, exchange R9 240. The provider then charges 13 foreign units. How many foreign units remain?",
+      "options": [
+        "440 foreign units",
+        "194027 foreign units",
+        "453 foreign units",
+        "427 foreign units"
+      ],
+      "answer_index": 3,
+      "memo": "427 foreign units. Check units: rand ÷ (rand per foreign unit) gives foreign units. Convert: R9 240÷R21 = 440 foreign units. Deduct the foreign-currency fee: 440−13=427 foreign units. Check: 427+13=440; 440×21=9240 rand.",
+      "misconception": "exchange-direction",
+      "option_rationales": {
+        "440 foreign units": "Incorrect: Omits the fee.",
+        "194027 foreign units": "Incorrect: Multiplies by the quoted rand-per-unit rate.",
+        "453 foreign units": "Incorrect: Adds the fee instead of deducting it.",
+        "427 foreign units": "Correct: Check: 427+13=440; 440×21=9240 rand."
+      }
+    },
+    {
+      "id": "g9-whole-l08-m05",
+      "prompt": "For 4 days, a foreign rental charges 30 foreign units plus 8 units/day. At R21 per unit, add a R75 rand conversion fee. A local rental totals R1 500. Which costs less in rand, and by how much?",
+      "options": [
+        "foreign by R123",
+        "local by R123",
+        "foreign by R1 438",
+        "local by R1 438"
+      ],
+      "answer_index": 0,
+      "memo": "foreign by R123. Foreign rental = 30+4×8=62 foreign units. Convert and add fee: 62×R21+R75=R1 377. Compare R1 377 with local R1 500: foreign saves R123. Check: R1 500−R1 377=R123.",
+      "misconception": "exchange-rental",
+      "option_rationales": {
+        "foreign by R123": "Correct: Check: R1 500−R1 377=R123.",
+        "local by R123": "Incorrect: Chooses the dearer plan after converting.",
+        "foreign by R1 438": "Incorrect: Compares foreign units with rand.",
+        "local by R1 438": "Incorrect: Forgets the conversion or fixed charge."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-whole-l08-r01",
+      "prompt": "A salesperson earns 8% commission on R11 000 sales plus R700 basic pay. Find total pay.",
+      "options": [
+        "R1 580",
+        "R880",
+        "R1 588",
+        "R11 700"
+      ],
+      "answer_index": 0,
+      "memo": "R1 580. Commission uses sales R11 000 as its base. 8% of R11 000 is R880. Add basic pay: R880+R700=R1 580. Check: R1 580−R700=R880 commission.",
+      "misconception": "commission-base",
+      "option_rationales": {
+        "R1 580": "Correct: Check: R1 580−R700=R880 commission.",
+        "R880": "Incorrect: Reports commission without basic pay.",
+        "R1 588": "Incorrect: Adds the percent number as currency.",
+        "R11 700": "Incorrect: Reports sales plus basic pay."
+      }
+    },
+    {
+      "id": "g9-whole-l08-r02",
+      "prompt": "At R24 per foreign unit, exchange R10 800. The provider then charges 18 foreign units. How many foreign units remain?",
+      "options": [
+        "450 foreign units",
+        "432 foreign units",
+        "259182 foreign units",
+        "468 foreign units"
+      ],
+      "answer_index": 1,
+      "memo": "432 foreign units. Check units: rand ÷ (rand per foreign unit) gives foreign units. Convert: R10 800÷R24 = 450 foreign units. Deduct the foreign-currency fee: 450−18=432 foreign units. Check: 432+18=450; 450×24=10800 rand.",
+      "misconception": "exchange-direction",
+      "option_rationales": {
+        "450 foreign units": "Incorrect: Omits the fee.",
+        "432 foreign units": "Correct: Check: 432+18=450; 450×24=10800 rand.",
+        "259182 foreign units": "Incorrect: Multiplies by the quoted rand-per-unit rate.",
+        "468 foreign units": "Incorrect: Adds the fee instead of deducting it."
+      }
+    },
+    {
+      "id": "g9-whole-l08-r03",
+      "prompt": "For 6 days, a foreign rental charges 15 foreign units plus 12 units/day. At R22 per unit, add a R65 rand conversion fee. A local rental totals R2 200. Which costs less in rand, and by how much?",
+      "options": [
+        "local by R221",
+        "foreign by R2 113",
+        "foreign by R221",
+        "local by R2 113"
+      ],
+      "answer_index": 2,
+      "memo": "foreign by R221. Foreign rental = 15+6×12=87 foreign units. Convert and add fee: 87×R22+R65=R1 979. Compare R1 979 with local R2 200: foreign saves R221. Check: R2 200−R1 979=R221.",
+      "misconception": "exchange-rental",
+      "option_rationales": {
+        "local by R221": "Incorrect: Chooses the dearer plan after converting.",
+        "foreign by R2 113": "Incorrect: Compares foreign units with rand.",
+        "foreign by R221": "Correct: Check: R2 200−R1 979=R221.",
+        "local by R2 113": "Incorrect: Forgets the conversion or fixed charge."
+      }
+    }
+  ]
+}

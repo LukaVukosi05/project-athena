@@ -1,0 +1,1103 @@
+{
+  "source": "lesson-04-direct-and-inverse-proportion.md",
+  "worked": [
+    {
+      "problem": "3 identical notebooks cost R45. At the same price per item, what do 7 cost?",
+      "givens": [
+        "3 items",
+        "R45",
+        "7 items"
+      ],
+      "actions": [
+        "Test the relationship: more notebooks means more cost at a fixed unit price.",
+        "One item costs R45÷3 = R15.",
+        "Multiply the unit cost by 7: R15×7 = R105.",
+        "Check: 105÷7=15 and 45÷3=15 rand per item."
+      ],
+      "answer": "R105",
+      "wrongs": [
+        "R315",
+        "R52",
+        "R15"
+      ],
+      "visual": {
+        "family": "direct",
+        "table": [
+          [
+            3,
+            45
+          ],
+          [
+            7,
+            105
+          ]
+        ],
+        "units": [
+          "items",
+          "R"
+        ]
+      },
+      "misconception": "direct-scale",
+      "wrong_methods": [
+        "Multiplies total price by item count.",
+        "Adds a count to a currency amount.",
+        "Stops at one unit instead of the requested count."
+      ],
+      "check": "Check: 105÷7=15 and 45÷3=15 rand per item.",
+      "id": "g9-whole-l04-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "4 identical notebooks cost R80. At the same price per item, what do 9 cost?",
+      "givens": [
+        "4 items",
+        "R80",
+        "9 items"
+      ],
+      "actions": [
+        "Test the relationship: more notebooks means more cost at a fixed unit price.",
+        "One item costs R80÷4 = R20.",
+        "Multiply the unit cost by 9: R20×9 = R180.",
+        "Check: 180÷9=20 and 80÷4=20 rand per item."
+      ],
+      "answer": "R180",
+      "wrongs": [
+        "R720",
+        "R89",
+        "R20"
+      ],
+      "visual": {
+        "family": "direct",
+        "table": [
+          [
+            4,
+            80
+          ],
+          [
+            9,
+            180
+          ]
+        ],
+        "units": [
+          "items",
+          "R"
+        ]
+      },
+      "misconception": "direct-scale",
+      "wrong_methods": [
+        "Multiplies total price by item count.",
+        "Adds a count to a currency amount.",
+        "Stops at one unit instead of the requested count."
+      ],
+      "check": "Check: 180÷9=20 and 80÷4=20 rand per item.",
+      "id": "g9-whole-l04-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "5 identical notebooks cost R125. At the same price per item, what do 8 cost?",
+      "givens": [
+        "5 items",
+        "R125",
+        "8 items"
+      ],
+      "actions": [
+        "Test the relationship: more notebooks means more cost at a fixed unit price.",
+        "One item costs R125÷5 = R25.",
+        "Multiply the unit cost by 8: R25×8 = R200.",
+        "Check: 200÷8=25 and 125÷5=25 rand per item."
+      ],
+      "answer": "R200",
+      "wrongs": [
+        "R1 000",
+        "R133",
+        "R25"
+      ],
+      "visual": {
+        "family": "direct",
+        "table": [
+          [
+            5,
+            125
+          ],
+          [
+            8,
+            200
+          ]
+        ],
+        "units": [
+          "items",
+          "R"
+        ]
+      },
+      "misconception": "direct-scale",
+      "wrong_methods": [
+        "Multiplies total price by item count.",
+        "Adds a count to a currency amount.",
+        "Stops at one unit instead of the requested count."
+      ],
+      "check": "Check: 200÷8=25 and 125÷5=25 rand per item.",
+      "id": "g9-whole-l04-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "6 identical notebooks cost R90. At the same price per item, what do 11 cost?",
+      "givens": [
+        "6 items",
+        "R90",
+        "11 items"
+      ],
+      "actions": [
+        "Test the relationship: more notebooks means more cost at a fixed unit price.",
+        "One item costs R90÷6 = R15.",
+        "Multiply the unit cost by 11: R15×11 = R165.",
+        "Check: 165÷11=15 and 90÷6=15 rand per item."
+      ],
+      "answer": "R165",
+      "wrongs": [
+        "R990",
+        "R101",
+        "R15"
+      ],
+      "visual": {
+        "family": "direct",
+        "table": [
+          [
+            6,
+            90
+          ],
+          [
+            11,
+            165
+          ]
+        ],
+        "units": [
+          "items",
+          "R"
+        ]
+      },
+      "misconception": "direct-scale",
+      "wrong_methods": [
+        "Multiplies total price by item count.",
+        "Adds a count to a currency amount.",
+        "Stops at one unit instead of the requested count."
+      ],
+      "check": "Check: 165÷11=15 and 90÷6=15 rand per item.",
+      "id": "g9-whole-l04-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "8 identical notebooks cost R144. At the same price per item, what do 13 cost?",
+      "givens": [
+        "8 items",
+        "R144",
+        "13 items"
+      ],
+      "actions": [
+        "Test the relationship: more notebooks means more cost at a fixed unit price.",
+        "One item costs R144÷8 = R18.",
+        "Multiply the unit cost by 13: R18×13 = R234.",
+        "Check: 234÷13=18 and 144÷8=18 rand per item."
+      ],
+      "answer": "R234",
+      "wrongs": [
+        "R1 872",
+        "R157",
+        "R18"
+      ],
+      "visual": {
+        "family": "direct",
+        "table": [
+          [
+            8,
+            144
+          ],
+          [
+            13,
+            234
+          ]
+        ],
+        "units": [
+          "items",
+          "R"
+        ]
+      },
+      "misconception": "direct-scale",
+      "wrong_methods": [
+        "Multiplies total price by item count.",
+        "Adds a count to a currency amount.",
+        "Stops at one unit instead of the requested count."
+      ],
+      "check": "Check: 234÷13=18 and 144÷8=18 rand per item.",
+      "id": "g9-whole-l04-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "4 painters finish an equal-size job in 12 days. At the same individual rate, how many days will 6 painters need?",
+      "givens": [
+        "4 painters",
+        "12 days",
+        "6 painters"
+      ],
+      "actions": [
+        "Test the relationship: more painters need fewer days for the same job.",
+        "The fixed job needs 4×12=48 worker-days.",
+        "Divide by 6 workers: 48÷6=8 days.",
+        "Check: 6×8=4×12=48 worker-days."
+      ],
+      "answer": "8 days",
+      "wrongs": [
+        "18 days",
+        "48 days",
+        "12 days"
+      ],
+      "visual": {
+        "family": "inverse",
+        "table": [
+          [
+            4,
+            12
+          ],
+          [
+            6,
+            8
+          ]
+        ],
+        "units": [
+          "workers",
+          "days"
+        ]
+      },
+      "misconception": "direct-instead-of-inverse",
+      "wrong_methods": [
+        "Scales time directly with worker count.",
+        "Reports total worker-days as calendar days.",
+        "Keeps the original time despite a change in workers."
+      ],
+      "check": "Check: 6×8=4×12=48 worker-days.",
+      "id": "g9-whole-l04-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "5 painters finish an equal-size job in 18 days. At the same individual rate, how many days will 9 painters need?",
+      "givens": [
+        "5 painters",
+        "18 days",
+        "9 painters"
+      ],
+      "actions": [
+        "Test the relationship: more painters need fewer days for the same job.",
+        "The fixed job needs 5×18=90 worker-days.",
+        "Divide by 9 workers: 90÷9=10 days.",
+        "Check: 9×10=5×18=90 worker-days."
+      ],
+      "answer": "10 days",
+      "wrongs": [
+        "32 days",
+        "90 days",
+        "18 days"
+      ],
+      "visual": {
+        "family": "inverse",
+        "table": [
+          [
+            5,
+            18
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "units": [
+          "workers",
+          "days"
+        ]
+      },
+      "misconception": "direct-instead-of-inverse",
+      "wrong_methods": [
+        "Scales time directly with worker count.",
+        "Reports total worker-days as calendar days.",
+        "Keeps the original time despite a change in workers."
+      ],
+      "check": "Check: 9×10=5×18=90 worker-days.",
+      "id": "g9-whole-l04-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "6 painters finish an equal-size job in 20 days. At the same individual rate, how many days will 8 painters need?",
+      "givens": [
+        "6 painters",
+        "20 days",
+        "8 painters"
+      ],
+      "actions": [
+        "Test the relationship: more painters need fewer days for the same job.",
+        "The fixed job needs 6×20=120 worker-days.",
+        "Divide by 8 workers: 120÷8=15 days.",
+        "Check: 8×15=6×20=120 worker-days."
+      ],
+      "answer": "15 days",
+      "wrongs": [
+        "26 days",
+        "120 days",
+        "20 days"
+      ],
+      "visual": {
+        "family": "inverse",
+        "table": [
+          [
+            6,
+            20
+          ],
+          [
+            8,
+            15
+          ]
+        ],
+        "units": [
+          "workers",
+          "days"
+        ]
+      },
+      "misconception": "direct-instead-of-inverse",
+      "wrong_methods": [
+        "Scales time directly with worker count.",
+        "Reports total worker-days as calendar days.",
+        "Keeps the original time despite a change in workers."
+      ],
+      "check": "Check: 8×15=6×20=120 worker-days.",
+      "id": "g9-whole-l04-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "8 painters finish an equal-size job in 15 days. At the same individual rate, how many days will 10 painters need?",
+      "givens": [
+        "8 painters",
+        "15 days",
+        "10 painters"
+      ],
+      "actions": [
+        "Test the relationship: more painters need fewer days for the same job.",
+        "The fixed job needs 8×15=120 worker-days.",
+        "Divide by 10 workers: 120÷10=12 days.",
+        "Check: 10×12=8×15=120 worker-days."
+      ],
+      "answer": "12 days",
+      "wrongs": [
+        "18 days",
+        "120 days",
+        "15 days"
+      ],
+      "visual": {
+        "family": "inverse",
+        "table": [
+          [
+            8,
+            15
+          ],
+          [
+            10,
+            12
+          ]
+        ],
+        "units": [
+          "workers",
+          "days"
+        ]
+      },
+      "misconception": "direct-instead-of-inverse",
+      "wrong_methods": [
+        "Scales time directly with worker count.",
+        "Reports total worker-days as calendar days.",
+        "Keeps the original time despite a change in workers."
+      ],
+      "check": "Check: 10×12=8×15=120 worker-days.",
+      "id": "g9-whole-l04-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "9 painters finish an equal-size job in 16 days. At the same individual rate, how many days will 12 painters need?",
+      "givens": [
+        "9 painters",
+        "16 days",
+        "12 painters"
+      ],
+      "actions": [
+        "Test the relationship: more painters need fewer days for the same job.",
+        "The fixed job needs 9×16=144 worker-days.",
+        "Divide by 12 workers: 144÷12=12 days.",
+        "Check: 12×12=9×16=144 worker-days."
+      ],
+      "answer": "12 days",
+      "wrongs": [
+        "21 days",
+        "144 days",
+        "16 days"
+      ],
+      "visual": {
+        "family": "inverse",
+        "table": [
+          [
+            9,
+            16
+          ],
+          [
+            12,
+            12
+          ]
+        ],
+        "units": [
+          "workers",
+          "days"
+        ]
+      },
+      "misconception": "direct-instead-of-inverse",
+      "wrong_methods": [
+        "Scales time directly with worker count.",
+        "Reports total worker-days as calendar days.",
+        "Keeps the original time despite a change in workers."
+      ],
+      "check": "Check: 12×12=9×16=144 worker-days.",
+      "id": "g9-whole-l04-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Share R420 between two sports clubs in the ratio 2:5. How much does the second group receive?",
+      "givens": [
+        "R420",
+        "2:5"
+      ],
+      "actions": [
+        "Total parts are 2+5=7.",
+        "One part is R420÷7=R60.",
+        "The second group has 5 parts: 5×R60=R300.",
+        "Check: R120+R300=R420, and 120:300=2:5."
+      ],
+      "answer": "R300",
+      "wrongs": [
+        "R120",
+        "R60",
+        "R420"
+      ],
+      "visual": {
+        "family": "share",
+        "bars": [
+          2,
+          5
+        ],
+        "labels": [
+          "first parts",
+          "second parts"
+        ]
+      },
+      "misconception": "ratio-share",
+      "wrong_methods": [
+        "Finds the first group instead of the second.",
+        "Reports one part instead of the second group.",
+        "Reports the entire amount instead of a share."
+      ],
+      "check": "Check: R120+R300=R420, and 120:300=2:5.",
+      "id": "g9-whole-l04-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Share R720 between two charities in the ratio 3:5. How much does the second group receive?",
+      "givens": [
+        "R720",
+        "3:5"
+      ],
+      "actions": [
+        "Total parts are 3+5=8.",
+        "One part is R720÷8=R90.",
+        "The second group has 5 parts: 5×R90=R450.",
+        "Check: R270+R450=R720, and 270:450=3:5."
+      ],
+      "answer": "R450",
+      "wrongs": [
+        "R270",
+        "R90",
+        "R720"
+      ],
+      "visual": {
+        "family": "share",
+        "bars": [
+          3,
+          5
+        ],
+        "labels": [
+          "first parts",
+          "second parts"
+        ]
+      },
+      "misconception": "ratio-share",
+      "wrong_methods": [
+        "Finds the first group instead of the second.",
+        "Reports one part instead of the second group.",
+        "Reports the entire amount instead of a share."
+      ],
+      "check": "Check: R270+R450=R720, and 270:450=3:5.",
+      "id": "g9-whole-l04-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Share R990 between two classes in the ratio 4:7. How much does the second group receive?",
+      "givens": [
+        "R990",
+        "4:7"
+      ],
+      "actions": [
+        "Total parts are 4+7=11.",
+        "One part is R990÷11=R90.",
+        "The second group has 7 parts: 7×R90=R630.",
+        "Check: R360+R630=R990, and 360:630=4:7."
+      ],
+      "answer": "R630",
+      "wrongs": [
+        "R360",
+        "R90",
+        "R990"
+      ],
+      "visual": {
+        "family": "share",
+        "bars": [
+          4,
+          7
+        ],
+        "labels": [
+          "first parts",
+          "second parts"
+        ]
+      },
+      "misconception": "ratio-share",
+      "wrong_methods": [
+        "Finds the first group instead of the second.",
+        "Reports one part instead of the second group.",
+        "Reports the entire amount instead of a share."
+      ],
+      "check": "Check: R360+R630=R990, and 360:630=4:7.",
+      "id": "g9-whole-l04-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Share R1 170 between two teams in the ratio 5:8. How much does the second group receive?",
+      "givens": [
+        "R1 170",
+        "5:8"
+      ],
+      "actions": [
+        "Total parts are 5+8=13.",
+        "One part is R1 170÷13=R90.",
+        "The second group has 8 parts: 8×R90=R720.",
+        "Check: R450+R720=R1 170, and 450:720=5:8."
+      ],
+      "answer": "R720",
+      "wrongs": [
+        "R450",
+        "R90",
+        "R1 170"
+      ],
+      "visual": {
+        "family": "share",
+        "bars": [
+          5,
+          8
+        ],
+        "labels": [
+          "first parts",
+          "second parts"
+        ]
+      },
+      "misconception": "ratio-share",
+      "wrong_methods": [
+        "Finds the first group instead of the second.",
+        "Reports one part instead of the second group.",
+        "Reports the entire amount instead of a share."
+      ],
+      "check": "Check: R450+R720=R1 170, and 450:720=5:8.",
+      "id": "g9-whole-l04-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Share R1 680 between two groups in the ratio 7:5. How much does the second group receive?",
+      "givens": [
+        "R1 680",
+        "7:5"
+      ],
+      "actions": [
+        "Total parts are 7+5=12.",
+        "One part is R1 680÷12=R140.",
+        "The second group has 5 parts: 5×R140=R700.",
+        "Check: R980+R700=R1 680, and 980:700=7:5."
+      ],
+      "answer": "R700",
+      "wrongs": [
+        "R980",
+        "R140",
+        "R1 680"
+      ],
+      "visual": {
+        "family": "share",
+        "bars": [
+          7,
+          5
+        ],
+        "labels": [
+          "first parts",
+          "second parts"
+        ]
+      },
+      "misconception": "ratio-share",
+      "wrong_methods": [
+        "Finds the first group instead of the second.",
+        "Reports one part instead of the second group.",
+        "Reports the entire amount instead of a share."
+      ],
+      "check": "Check: R980+R700=R1 680, and 980:700=7:5.",
+      "id": "g9-whole-l04-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-whole-l04-p01",
+      "prompt": "3 identical notebooks cost R60. At the same price per item, what do 7 cost?",
+      "options": [
+        "R140",
+        "R420",
+        "R67",
+        "R20"
+      ],
+      "answer_index": 0,
+      "memo": "R140. Test the relationship: more notebooks means more cost at a fixed unit price. One item costs R60÷3 = R20. Multiply the unit cost by 7: R20×7 = R140. Check: 140÷7=20 and 60÷3=20 rand per item.",
+      "misconception": "direct-scale",
+      "option_rationales": {
+        "R140": "Correct: Check: 140÷7=20 and 60÷3=20 rand per item.",
+        "R420": "Incorrect: Multiplies total price by item count.",
+        "R67": "Incorrect: Adds a count to a currency amount.",
+        "R20": "Incorrect: Stops at one unit instead of the requested count."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p02",
+      "prompt": "4 identical notebooks cost R100. At the same price per item, what do 9 cost?",
+      "options": [
+        "R900",
+        "R225",
+        "R109",
+        "R25"
+      ],
+      "answer_index": 1,
+      "memo": "R225. Test the relationship: more notebooks means more cost at a fixed unit price. One item costs R100÷4 = R25. Multiply the unit cost by 9: R25×9 = R225. Check: 225÷9=25 and 100÷4=25 rand per item.",
+      "misconception": "direct-scale",
+      "option_rationales": {
+        "R900": "Incorrect: Multiplies total price by item count.",
+        "R225": "Correct: Check: 225÷9=25 and 100÷4=25 rand per item.",
+        "R109": "Incorrect: Adds a count to a currency amount.",
+        "R25": "Incorrect: Stops at one unit instead of the requested count."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p03",
+      "prompt": "5 identical notebooks cost R150. At the same price per item, what do 8 cost?",
+      "options": [
+        "R1 200",
+        "R158",
+        "R240",
+        "R30"
+      ],
+      "answer_index": 2,
+      "memo": "R240. Test the relationship: more notebooks means more cost at a fixed unit price. One item costs R150÷5 = R30. Multiply the unit cost by 8: R30×8 = R240. Check: 240÷8=30 and 150÷5=30 rand per item.",
+      "misconception": "direct-scale",
+      "option_rationales": {
+        "R1 200": "Incorrect: Multiplies total price by item count.",
+        "R158": "Incorrect: Adds a count to a currency amount.",
+        "R240": "Correct: Check: 240÷8=30 and 150÷5=30 rand per item.",
+        "R30": "Incorrect: Stops at one unit instead of the requested count."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p04",
+      "prompt": "6 identical notebooks cost R120. At the same price per item, what do 11 cost?",
+      "options": [
+        "R1 320",
+        "R131",
+        "R20",
+        "R220"
+      ],
+      "answer_index": 3,
+      "memo": "R220. Test the relationship: more notebooks means more cost at a fixed unit price. One item costs R120÷6 = R20. Multiply the unit cost by 11: R20×11 = R220. Check: 220÷11=20 and 120÷6=20 rand per item.",
+      "misconception": "direct-scale",
+      "option_rationales": {
+        "R1 320": "Incorrect: Multiplies total price by item count.",
+        "R131": "Incorrect: Adds a count to a currency amount.",
+        "R20": "Incorrect: Stops at one unit instead of the requested count.",
+        "R220": "Correct: Check: 220÷11=20 and 120÷6=20 rand per item."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p05",
+      "prompt": "8 identical notebooks cost R160. At the same price per item, what do 13 cost?",
+      "options": [
+        "R260",
+        "R2 080",
+        "R173",
+        "R20"
+      ],
+      "answer_index": 0,
+      "memo": "R260. Test the relationship: more notebooks means more cost at a fixed unit price. One item costs R160÷8 = R20. Multiply the unit cost by 13: R20×13 = R260. Check: 260÷13=20 and 160÷8=20 rand per item.",
+      "misconception": "direct-scale",
+      "option_rationales": {
+        "R260": "Correct: Check: 260÷13=20 and 160÷8=20 rand per item.",
+        "R2 080": "Incorrect: Multiplies total price by item count.",
+        "R173": "Incorrect: Adds a count to a currency amount.",
+        "R20": "Incorrect: Stops at one unit instead of the requested count."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p06",
+      "prompt": "4 painters finish an equal-size job in 18 days. At the same individual rate, how many days will 6 painters need?",
+      "options": [
+        "27 days",
+        "12 days",
+        "72 days",
+        "18 days"
+      ],
+      "answer_index": 1,
+      "memo": "12 days. Test the relationship: more painters need fewer days for the same job. The fixed job needs 4×18=72 worker-days. Divide by 6 workers: 72÷6=12 days. Check: 6×12=4×18=72 worker-days.",
+      "misconception": "direct-instead-of-inverse",
+      "option_rationales": {
+        "27 days": "Incorrect: Scales time directly with worker count.",
+        "12 days": "Correct: Check: 6×12=4×18=72 worker-days.",
+        "72 days": "Incorrect: Reports total worker-days as calendar days.",
+        "18 days": "Incorrect: Keeps the original time despite a change in workers."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p07",
+      "prompt": "5 painters finish an equal-size job in 24 days. At the same individual rate, how many days will 10 painters need?",
+      "options": [
+        "48 days",
+        "120 days",
+        "12 days",
+        "24 days"
+      ],
+      "answer_index": 2,
+      "memo": "12 days. Test the relationship: more painters need fewer days for the same job. The fixed job needs 5×24=120 worker-days. Divide by 10 workers: 120÷10=12 days. Check: 10×12=5×24=120 worker-days.",
+      "misconception": "direct-instead-of-inverse",
+      "option_rationales": {
+        "48 days": "Incorrect: Scales time directly with worker count.",
+        "120 days": "Incorrect: Reports total worker-days as calendar days.",
+        "12 days": "Correct: Check: 10×12=5×24=120 worker-days.",
+        "24 days": "Incorrect: Keeps the original time despite a change in workers."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p08",
+      "prompt": "6 painters finish an equal-size job in 18 days. At the same individual rate, how many days will 9 painters need?",
+      "options": [
+        "27 days",
+        "108 days",
+        "18 days",
+        "12 days"
+      ],
+      "answer_index": 3,
+      "memo": "12 days. Test the relationship: more painters need fewer days for the same job. The fixed job needs 6×18=108 worker-days. Divide by 9 workers: 108÷9=12 days. Check: 9×12=6×18=108 worker-days.",
+      "misconception": "direct-instead-of-inverse",
+      "option_rationales": {
+        "27 days": "Incorrect: Scales time directly with worker count.",
+        "108 days": "Incorrect: Reports total worker-days as calendar days.",
+        "18 days": "Incorrect: Keeps the original time despite a change in workers.",
+        "12 days": "Correct: Check: 9×12=6×18=108 worker-days."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p09",
+      "prompt": "8 painters finish an equal-size job in 21 days. At the same individual rate, how many days will 12 painters need?",
+      "options": [
+        "14 days",
+        "31 days",
+        "168 days",
+        "21 days"
+      ],
+      "answer_index": 0,
+      "memo": "14 days. Test the relationship: more painters need fewer days for the same job. The fixed job needs 8×21=168 worker-days. Divide by 12 workers: 168÷12=14 days. Check: 12×14=8×21=168 worker-days.",
+      "misconception": "direct-instead-of-inverse",
+      "option_rationales": {
+        "14 days": "Correct: Check: 12×14=8×21=168 worker-days.",
+        "31 days": "Incorrect: Scales time directly with worker count.",
+        "168 days": "Incorrect: Reports total worker-days as calendar days.",
+        "21 days": "Incorrect: Keeps the original time despite a change in workers."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p10",
+      "prompt": "9 painters finish an equal-size job in 20 days. At the same individual rate, how many days will 12 painters need?",
+      "options": [
+        "26 days",
+        "15 days",
+        "180 days",
+        "20 days"
+      ],
+      "answer_index": 1,
+      "memo": "15 days. Test the relationship: more painters need fewer days for the same job. The fixed job needs 9×20=180 worker-days. Divide by 12 workers: 180÷12=15 days. Check: 12×15=9×20=180 worker-days.",
+      "misconception": "direct-instead-of-inverse",
+      "option_rationales": {
+        "26 days": "Incorrect: Scales time directly with worker count.",
+        "15 days": "Correct: Check: 12×15=9×20=180 worker-days.",
+        "180 days": "Incorrect: Reports total worker-days as calendar days.",
+        "20 days": "Incorrect: Keeps the original time despite a change in workers."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p11",
+      "prompt": "Share R490 between two clubs in the ratio 2:5. How much does the second group receive?",
+      "options": [
+        "R140",
+        "R70",
+        "R350",
+        "R490"
+      ],
+      "answer_index": 2,
+      "memo": "R350. Total parts are 2+5=7. One part is R490÷7=R70. The second group has 5 parts: 5×R70=R350. Check: R140+R350=R490, and 140:350=2:5.",
+      "misconception": "ratio-share",
+      "option_rationales": {
+        "R140": "Incorrect: Finds the first group instead of the second.",
+        "R70": "Incorrect: Reports one part instead of the second group.",
+        "R350": "Correct: Check: R140+R350=R490, and 140:350=2:5.",
+        "R490": "Incorrect: Reports the entire amount instead of a share."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p12",
+      "prompt": "Share R800 between two charities in the ratio 3:5. How much does the second group receive?",
+      "options": [
+        "R300",
+        "R100",
+        "R800",
+        "R500"
+      ],
+      "answer_index": 3,
+      "memo": "R500. Total parts are 3+5=8. One part is R800÷8=R100. The second group has 5 parts: 5×R100=R500. Check: R300+R500=R800, and 300:500=3:5.",
+      "misconception": "ratio-share",
+      "option_rationales": {
+        "R300": "Incorrect: Finds the first group instead of the second.",
+        "R100": "Incorrect: Reports one part instead of the second group.",
+        "R800": "Incorrect: Reports the entire amount instead of a share.",
+        "R500": "Correct: Check: R300+R500=R800, and 300:500=3:5."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p13",
+      "prompt": "Share R880 between two classes in the ratio 4:7. How much does the second group receive?",
+      "options": [
+        "R560",
+        "R320",
+        "R80",
+        "R880"
+      ],
+      "answer_index": 0,
+      "memo": "R560. Total parts are 4+7=11. One part is R880÷11=R80. The second group has 7 parts: 7×R80=R560. Check: R320+R560=R880, and 320:560=4:7.",
+      "misconception": "ratio-share",
+      "option_rationales": {
+        "R560": "Correct: Check: R320+R560=R880, and 320:560=4:7.",
+        "R320": "Incorrect: Finds the first group instead of the second.",
+        "R80": "Incorrect: Reports one part instead of the second group.",
+        "R880": "Incorrect: Reports the entire amount instead of a share."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p14",
+      "prompt": "Share R1 560 between two teams in the ratio 5:8. How much does the second group receive?",
+      "options": [
+        "R600",
+        "R960",
+        "R120",
+        "R1 560"
+      ],
+      "answer_index": 1,
+      "memo": "R960. Total parts are 5+8=13. One part is R1 560÷13=R120. The second group has 8 parts: 8×R120=R960. Check: R600+R960=R1 560, and 600:960=5:8.",
+      "misconception": "ratio-share",
+      "option_rationales": {
+        "R600": "Incorrect: Finds the first group instead of the second.",
+        "R960": "Correct: Check: R600+R960=R1 560, and 600:960=5:8.",
+        "R120": "Incorrect: Reports one part instead of the second group.",
+        "R1 560": "Incorrect: Reports the entire amount instead of a share."
+      }
+    },
+    {
+      "id": "g9-whole-l04-p15",
+      "prompt": "Share R1 800 between two groups in the ratio 7:5. How much does the second group receive?",
+      "options": [
+        "R1 050",
+        "R150",
+        "R750",
+        "R1 800"
+      ],
+      "answer_index": 2,
+      "memo": "R750. Total parts are 7+5=12. One part is R1 800÷12=R150. The second group has 5 parts: 5×R150=R750. Check: R1 050+R750=R1 800, and 1050:750=7:5.",
+      "misconception": "ratio-share",
+      "option_rationales": {
+        "R1 050": "Incorrect: Finds the first group instead of the second.",
+        "R150": "Incorrect: Reports one part instead of the second group.",
+        "R750": "Correct: Check: R1 050+R750=R1 800, and 1050:750=7:5.",
+        "R1 800": "Incorrect: Reports the entire amount instead of a share."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-whole-l04-m01",
+      "prompt": "7 identical notebooks cost R175. At the same price per item, what do 12 cost?",
+      "options": [
+        "R300",
+        "R2 100",
+        "R187",
+        "R25"
+      ],
+      "answer_index": 0,
+      "memo": "R300. Test the relationship: more notebooks means more cost at a fixed unit price. One item costs R175÷7 = R25. Multiply the unit cost by 12: R25×12 = R300. Check: 300÷12=25 and 175÷7=25 rand per item.",
+      "misconception": "direct-scale",
+      "option_rationales": {
+        "R300": "Correct: Check: 300÷12=25 and 175÷7=25 rand per item.",
+        "R2 100": "Incorrect: Multiplies total price by item count.",
+        "R187": "Incorrect: Adds a count to a currency amount.",
+        "R25": "Incorrect: Stops at one unit instead of the requested count."
+      }
+    },
+    {
+      "id": "g9-whole-l04-m02",
+      "prompt": "6 painters finish an equal-size job in 24 days. At the same individual rate, how many days will 8 painters need?",
+      "options": [
+        "32 days",
+        "18 days",
+        "144 days",
+        "24 days"
+      ],
+      "answer_index": 1,
+      "memo": "18 days. Test the relationship: more painters need fewer days for the same job. The fixed job needs 6×24=144 worker-days. Divide by 8 workers: 144÷8=18 days. Check: 8×18=6×24=144 worker-days.",
+      "misconception": "direct-instead-of-inverse",
+      "option_rationales": {
+        "32 days": "Incorrect: Scales time directly with worker count.",
+        "18 days": "Correct: Check: 8×18=6×24=144 worker-days.",
+        "144 days": "Incorrect: Reports total worker-days as calendar days.",
+        "24 days": "Incorrect: Keeps the original time despite a change in workers."
+      }
+    },
+    {
+      "id": "g9-whole-l04-m03",
+      "prompt": "Share R1 320 between two clubs in the ratio 5:6. How much does the second group receive?",
+      "options": [
+        "R600",
+        "R120",
+        "R720",
+        "R1 320"
+      ],
+      "answer_index": 2,
+      "memo": "R720. Total parts are 5+6=11. One part is R1 320÷11=R120. The second group has 6 parts: 6×R120=R720. Check: R600+R720=R1 320, and 600:720=5:6.",
+      "misconception": "ratio-share",
+      "option_rationales": {
+        "R600": "Incorrect: Finds the first group instead of the second.",
+        "R120": "Incorrect: Reports one part instead of the second group.",
+        "R720": "Correct: Check: R600+R720=R1 320, and 600:720=5:6.",
+        "R1 320": "Incorrect: Reports the entire amount instead of a share."
+      }
+    },
+    {
+      "id": "g9-whole-l04-m04",
+      "prompt": "9 identical notebooks cost R270. At the same price per item, what do 14 cost?",
+      "options": [
+        "R3 780",
+        "R284",
+        "R30",
+        "R420"
+      ],
+      "answer_index": 3,
+      "memo": "R420. Test the relationship: more notebooks means more cost at a fixed unit price. One item costs R270÷9 = R30. Multiply the unit cost by 14: R30×14 = R420. Check: 420÷14=30 and 270÷9=30 rand per item.",
+      "misconception": "direct-scale",
+      "option_rationales": {
+        "R3 780": "Incorrect: Multiplies total price by item count.",
+        "R284": "Incorrect: Adds a count to a currency amount.",
+        "R30": "Incorrect: Stops at one unit instead of the requested count.",
+        "R420": "Correct: Check: 420÷14=30 and 270÷9=30 rand per item."
+      }
+    },
+    {
+      "id": "g9-whole-l04-m05",
+      "prompt": "10 painters finish an equal-size job in 18 days. At the same individual rate, how many days will 15 painters need?",
+      "options": [
+        "12 days",
+        "27 days",
+        "180 days",
+        "18 days"
+      ],
+      "answer_index": 0,
+      "memo": "12 days. Test the relationship: more painters need fewer days for the same job. The fixed job needs 10×18=180 worker-days. Divide by 15 workers: 180÷15=12 days. Check: 15×12=10×18=180 worker-days.",
+      "misconception": "direct-instead-of-inverse",
+      "option_rationales": {
+        "12 days": "Correct: Check: 15×12=10×18=180 worker-days.",
+        "27 days": "Incorrect: Scales time directly with worker count.",
+        "180 days": "Incorrect: Reports total worker-days as calendar days.",
+        "18 days": "Incorrect: Keeps the original time despite a change in workers."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-whole-l04-r01",
+      "prompt": "Share R1 260 between two charities in the ratio 2:7. How much does the second group receive?",
+      "options": [
+        "R980",
+        "R280",
+        "R140",
+        "R1 260"
+      ],
+      "answer_index": 0,
+      "memo": "R980. Total parts are 2+7=9. One part is R1 260÷9=R140. The second group has 7 parts: 7×R140=R980. Check: R280+R980=R1 260, and 280:980=2:7.",
+      "misconception": "ratio-share",
+      "option_rationales": {
+        "R980": "Correct: Check: R280+R980=R1 260, and 280:980=2:7.",
+        "R280": "Incorrect: Finds the first group instead of the second.",
+        "R140": "Incorrect: Reports one part instead of the second group.",
+        "R1 260": "Incorrect: Reports the entire amount instead of a share."
+      }
+    },
+    {
+      "id": "g9-whole-l04-r02",
+      "prompt": "7 identical notebooks cost R210. At the same price per item, what do 11 cost?",
+      "options": [
+        "R2 310",
+        "R330",
+        "R221",
+        "R30"
+      ],
+      "answer_index": 1,
+      "memo": "R330. Test the relationship: more notebooks means more cost at a fixed unit price. One item costs R210÷7 = R30. Multiply the unit cost by 11: R30×11 = R330. Check: 330÷11=30 and 210÷7=30 rand per item.",
+      "misconception": "direct-scale",
+      "option_rationales": {
+        "R2 310": "Incorrect: Multiplies total price by item count.",
+        "R330": "Correct: Check: 330÷11=30 and 210÷7=30 rand per item.",
+        "R221": "Incorrect: Adds a count to a currency amount.",
+        "R30": "Incorrect: Stops at one unit instead of the requested count."
+      }
+    },
+    {
+      "id": "g9-whole-l04-r03",
+      "prompt": "8 painters finish an equal-size job in 24 days. At the same individual rate, how many days will 12 painters need?",
+      "options": [
+        "36 days",
+        "192 days",
+        "16 days",
+        "24 days"
+      ],
+      "answer_index": 2,
+      "memo": "16 days. Test the relationship: more painters need fewer days for the same job. The fixed job needs 8×24=192 worker-days. Divide by 12 workers: 192÷12=16 days. Check: 12×16=8×24=192 worker-days.",
+      "misconception": "direct-instead-of-inverse",
+      "option_rationales": {
+        "36 days": "Incorrect: Scales time directly with worker count.",
+        "192 days": "Incorrect: Reports total worker-days as calendar days.",
+        "16 days": "Correct: Check: 12×16=8×24=192 worker-days.",
+        "24 days": "Incorrect: Keeps the original time despite a change in workers."
+      }
+    }
+  ]
+}

@@ -11,7 +11,7 @@ from app.practice.service import check_answer
 
 
 def test_first_two_lessons_have_distinct_question_specific_states_and_complete_banks():
-    assert [lesson.id for lesson in GRADE_9.topics[0].subtopics[0].lessons]==['g9-whole-numbers-01','g9-whole-numbers-02']
+    assert [lesson.id for lesson in GRADE_9.topics[0].subtopics[0].lessons]==[f'g9-whole-numbers-{number:02}' for number in range(1,9)]
     for number,lesson in enumerate((LESSON_1,LESSON_2),1):
         practice,mastery,reassess,repairs,rules=banks(number)
         assert (len(lesson.whiteboard_questions),len(practice),len(mastery),len(reassess))==(15,15,5,3)
@@ -40,7 +40,7 @@ def test_public_preview_conceals_answers_and_reveal_contains_all_steps():
         banks_public=[client.get(f'/api/v1/practice/g9-whole-numbers-0{number}') for number in (1,2)]
         mastery=client.get('/api/v1/practice/g9-whole-numbers-01/mastery')
     assert all(response.status_code==200 for response in [topic,*previews,reveal,*banks_public,mastery])
-    assert [item['id'] for item in topic.json()['subtopics'][0]['lessons']]==['g9-whole-numbers-01','g9-whole-numbers-02']
+    assert [item['id'] for item in topic.json()['subtopics'][0]['lessons']]==[f'g9-whole-numbers-{number:02}' for number in range(1,9)]
     for preview in previews:
         public=preview.json()['whiteboard_questions']
         assert len(public)==15 and all(item['solution_gated'] and len(item['whiteboard']['steps'])==1 for item in public)

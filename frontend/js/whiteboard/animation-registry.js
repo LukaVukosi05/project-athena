@@ -133,6 +133,12 @@ for (const family of ["triangle_sides","triangle_sum","equal_triangle","quad_cla
 registerTeachingOperation("percentage_stage", "fraction_model_stage");
 registerTeachingOperation("grade9_set_step", "fraction_model_stage");
 registerTeachingOperation("grade9_factor_step", "fraction_model_stage");
+registerTeachingOperation("grade9_3_step", "fraction_model_stage");
+registerTeachingOperation("grade9_4_step", "fraction_model_stage");
+registerTeachingOperation("grade9_5_step", "fraction_model_stage");
+registerTeachingOperation("grade9_6_step", "fraction_model_stage");
+registerTeachingOperation("grade9_7_step", "fraction_model_stage");
+registerTeachingOperation("grade9_8_step", "fraction_model_stage");
 
 ["identify_interval", "substitute_function_value", "calculate_average_rate", "interpret_rate", "read_problem", "select_method", "show_working", "verify_result"].forEach(registerTeachingOperation);
 

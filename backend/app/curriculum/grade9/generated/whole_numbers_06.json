@@ -1,0 +1,1082 @@
+{
+  "source": "lesson-06-budgets-and-accounts.md",
+  "worked": [
+    {
+      "problem": "A household receives R8 000 monthly. Rent, food and transport are R3 000, R1 800 and R900; other costs are R300. What remains?",
+      "givens": [
+        "Income R8 000",
+        "R3 000",
+        "R1 800",
+        "R900",
+        "Other R300"
+      ],
+      "actions": [
+        "Use a monthly ledger; start with income R8 000.",
+        "Add expenses: R3 000 + R1 800 + R900 + R300 = R6 000.",
+        "Subtract total spending from income: R8 000−R6 000=R2 000.",
+        "Check: R2 000+R6 000=R8 000."
+      ],
+      "answer": "R2 000",
+      "wrongs": [
+        "R6 000",
+        "R14 000",
+        "R5 000"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 8000,
+        "expenses": [
+          3000,
+          1800,
+          900,
+          300
+        ],
+        "balance": 2000
+      },
+      "misconception": "debit-credit",
+      "wrong_methods": [
+        "Reports total expenses as balance.",
+        "Adds expenses to income.",
+        "Forgets other expenses."
+      ],
+      "check": "Check: R2 000+R6 000=R8 000.",
+      "id": "g9-whole-l06-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "A household receives R9 200 monthly. Rent, food and transport are R3 400, R2 100 and R800; other costs are R400. What remains?",
+      "givens": [
+        "Income R9 200",
+        "R3 400",
+        "R2 100",
+        "R800",
+        "Other R400"
+      ],
+      "actions": [
+        "Use a monthly ledger; start with income R9 200.",
+        "Add expenses: R3 400 + R2 100 + R800 + R400 = R6 700.",
+        "Subtract total spending from income: R9 200−R6 700=R2 500.",
+        "Check: R2 500+R6 700=R9 200."
+      ],
+      "answer": "R2 500",
+      "wrongs": [
+        "R6 700",
+        "R15 900",
+        "R5 800"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 9200,
+        "expenses": [
+          3400,
+          2100,
+          800,
+          400
+        ],
+        "balance": 2500
+      },
+      "misconception": "debit-credit",
+      "wrong_methods": [
+        "Reports total expenses as balance.",
+        "Adds expenses to income.",
+        "Forgets other expenses."
+      ],
+      "check": "Check: R2 500+R6 700=R9 200.",
+      "id": "g9-whole-l06-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "A household receives R10 500 monthly. Rent, food and transport are R3 900, R2 400 and R1 100; other costs are R600. What remains?",
+      "givens": [
+        "Income R10 500",
+        "R3 900",
+        "R2 400",
+        "R1 100",
+        "Other R600"
+      ],
+      "actions": [
+        "Use a monthly ledger; start with income R10 500.",
+        "Add expenses: R3 900 + R2 400 + R1 100 + R600 = R8 000.",
+        "Subtract total spending from income: R10 500−R8 000=R2 500.",
+        "Check: R2 500+R8 000=R10 500."
+      ],
+      "answer": "R2 500",
+      "wrongs": [
+        "R8 000",
+        "R18 500",
+        "R6 600"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 10500,
+        "expenses": [
+          3900,
+          2400,
+          1100,
+          600
+        ],
+        "balance": 2500
+      },
+      "misconception": "debit-credit",
+      "wrong_methods": [
+        "Reports total expenses as balance.",
+        "Adds expenses to income.",
+        "Forgets other expenses."
+      ],
+      "check": "Check: R2 500+R8 000=R10 500.",
+      "id": "g9-whole-l06-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A household receives R12 000 monthly. Rent, food and transport are R4 500, R2 800 and R1 250; other costs are R750. What remains?",
+      "givens": [
+        "Income R12 000",
+        "R4 500",
+        "R2 800",
+        "R1 250",
+        "Other R750"
+      ],
+      "actions": [
+        "Use a monthly ledger; start with income R12 000.",
+        "Add expenses: R4 500 + R2 800 + R1 250 + R750 = R9 300.",
+        "Subtract total spending from income: R12 000−R9 300=R2 700.",
+        "Check: R2 700+R9 300=R12 000."
+      ],
+      "answer": "R2 700",
+      "wrongs": [
+        "R9 300",
+        "R21 300",
+        "R7 500"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 12000,
+        "expenses": [
+          4500,
+          2800,
+          1250,
+          750
+        ],
+        "balance": 2700
+      },
+      "misconception": "debit-credit",
+      "wrong_methods": [
+        "Reports total expenses as balance.",
+        "Adds expenses to income.",
+        "Forgets other expenses."
+      ],
+      "check": "Check: R2 700+R9 300=R12 000.",
+      "id": "g9-whole-l06-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A household receives R15 000 monthly. Rent, food and transport are R5 600, R3 200 and R1 400; other costs are R1 200. What remains?",
+      "givens": [
+        "Income R15 000",
+        "R5 600",
+        "R3 200",
+        "R1 400",
+        "Other R1 200"
+      ],
+      "actions": [
+        "Use a monthly ledger; start with income R15 000.",
+        "Add expenses: R5 600 + R3 200 + R1 400 + R1 200 = R11 400.",
+        "Subtract total spending from income: R15 000−R11 400=R3 600.",
+        "Check: R3 600+R11 400=R15 000."
+      ],
+      "answer": "R3 600",
+      "wrongs": [
+        "R11 400",
+        "R26 400",
+        "R9 400"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 15000,
+        "expenses": [
+          5600,
+          3200,
+          1400,
+          1200
+        ],
+        "balance": 3600
+      },
+      "misconception": "debit-credit",
+      "wrong_methods": [
+        "Reports total expenses as balance.",
+        "Adds expenses to income.",
+        "Forgets other expenses."
+      ],
+      "check": "Check: R3 600+R11 400=R15 000.",
+      "id": "g9-whole-l06-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Monthly income is R9 000 and fixed expenses are R3 000, R2 100, R1 200. Is a new monthly payment of R800 affordable without borrowing?",
+      "givens": [
+        "Income R9 000",
+        "Payment R800",
+        "R3 000",
+        "R2 100",
+        "R1 200"
+      ],
+      "actions": [
+        "The expense base is the same month as income.",
+        "After fixed expenses, R9 000−R6 300=R2 700 remains.",
+        "Compare R2 700 with R800: affordable.",
+        "Check: R2 700 ≥ R800."
+      ],
+      "answer": "Affordable",
+      "wrongs": [
+        "Not affordable",
+        "R2 700",
+        "R800"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 9000,
+        "expenses": [
+          3000,
+          2100,
+          1200
+        ],
+        "balance": 2700,
+        "plan": 800
+      },
+      "misconception": "budget-time-base",
+      "wrong_methods": [
+        "Reverses the affordability decision.",
+        "Reports the remaining balance rather than a decision.",
+        "Reports the payment amount rather than a decision."
+      ],
+      "check": "Check: R2 700 ≥ R800.",
+      "id": "g9-whole-l06-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Monthly income is R11 000 and fixed expenses are R4 500, R2 400, R1 600. Is a new monthly payment of R3 000 affordable without borrowing?",
+      "givens": [
+        "Income R11 000",
+        "Payment R3 000",
+        "R4 500",
+        "R2 400",
+        "R1 600"
+      ],
+      "actions": [
+        "The expense base is the same month as income.",
+        "After fixed expenses, R11 000−R8 500=R2 500 remains.",
+        "Compare R2 500 with R3 000: not affordable.",
+        "Check: R2 500 < R3 000."
+      ],
+      "answer": "Not affordable",
+      "wrongs": [
+        "Affordable",
+        "R2 500",
+        "R3 000"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 11000,
+        "expenses": [
+          4500,
+          2400,
+          1600
+        ],
+        "balance": 2500,
+        "plan": 3000
+      },
+      "misconception": "budget-time-base",
+      "wrong_methods": [
+        "Reverses the affordability decision.",
+        "Reports the remaining balance rather than a decision.",
+        "Reports the payment amount rather than a decision."
+      ],
+      "check": "Check: R2 500 < R3 000.",
+      "id": "g9-whole-l06-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Monthly income is R12 500 and fixed expenses are R4 600, R2 700, R1 500. Is a new monthly payment of R2 500 affordable without borrowing?",
+      "givens": [
+        "Income R12 500",
+        "Payment R2 500",
+        "R4 600",
+        "R2 700",
+        "R1 500"
+      ],
+      "actions": [
+        "The expense base is the same month as income.",
+        "After fixed expenses, R12 500−R8 800=R3 700 remains.",
+        "Compare R3 700 with R2 500: affordable.",
+        "Check: R3 700 ≥ R2 500."
+      ],
+      "answer": "Affordable",
+      "wrongs": [
+        "Not affordable",
+        "R3 700",
+        "R2 500"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 12500,
+        "expenses": [
+          4600,
+          2700,
+          1500
+        ],
+        "balance": 3700,
+        "plan": 2500
+      },
+      "misconception": "budget-time-base",
+      "wrong_methods": [
+        "Reverses the affordability decision.",
+        "Reports the remaining balance rather than a decision.",
+        "Reports the payment amount rather than a decision."
+      ],
+      "check": "Check: R3 700 ≥ R2 500.",
+      "id": "g9-whole-l06-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Monthly income is R14 000 and fixed expenses are R5 200, R3 400, R1 800. Is a new monthly payment of R4 000 affordable without borrowing?",
+      "givens": [
+        "Income R14 000",
+        "Payment R4 000",
+        "R5 200",
+        "R3 400",
+        "R1 800"
+      ],
+      "actions": [
+        "The expense base is the same month as income.",
+        "After fixed expenses, R14 000−R10 400=R3 600 remains.",
+        "Compare R3 600 with R4 000: not affordable.",
+        "Check: R3 600 < R4 000."
+      ],
+      "answer": "Not affordable",
+      "wrongs": [
+        "Affordable",
+        "R3 600",
+        "R4 000"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 14000,
+        "expenses": [
+          5200,
+          3400,
+          1800
+        ],
+        "balance": 3600,
+        "plan": 4000
+      },
+      "misconception": "budget-time-base",
+      "wrong_methods": [
+        "Reverses the affordability decision.",
+        "Reports the remaining balance rather than a decision.",
+        "Reports the payment amount rather than a decision."
+      ],
+      "check": "Check: R3 600 < R4 000.",
+      "id": "g9-whole-l06-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Monthly income is R16 500 and fixed expenses are R6 000, R4 200, R1 600. Is a new monthly payment of R3 200 affordable without borrowing?",
+      "givens": [
+        "Income R16 500",
+        "Payment R3 200",
+        "R6 000",
+        "R4 200",
+        "R1 600"
+      ],
+      "actions": [
+        "The expense base is the same month as income.",
+        "After fixed expenses, R16 500−R11 800=R4 700 remains.",
+        "Compare R4 700 with R3 200: affordable.",
+        "Check: R4 700 ≥ R3 200."
+      ],
+      "answer": "Affordable",
+      "wrongs": [
+        "Not affordable",
+        "R4 700",
+        "R3 200"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 16500,
+        "expenses": [
+          6000,
+          4200,
+          1600
+        ],
+        "balance": 4700,
+        "plan": 3200
+      },
+      "misconception": "budget-time-base",
+      "wrong_methods": [
+        "Reverses the affordability decision.",
+        "Reports the remaining balance rather than a decision.",
+        "Reports the payment amount rather than a decision."
+      ],
+      "check": "Check: R4 700 ≥ R3 200.",
+      "id": "g9-whole-l06-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A household receives R11 800 monthly. Rent, food and transport are R4 200, R2 700 and R1 400; other costs are R1 500. What remains?",
+      "givens": [
+        "Income R11 800",
+        "R4 200",
+        "R2 700",
+        "R1 400",
+        "Other R1 500"
+      ],
+      "actions": [
+        "Use a monthly ledger; start with income R11 800.",
+        "Add expenses: R4 200 + R2 700 + R1 400 + R1 500 = R9 800.",
+        "Subtract total spending from income: R11 800−R9 800=R2 000.",
+        "Check: R2 000+R9 800=R11 800."
+      ],
+      "answer": "R2 000",
+      "wrongs": [
+        "R9 800",
+        "R21 600",
+        "R7 600"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 11800,
+        "expenses": [
+          4200,
+          2700,
+          1400,
+          1500
+        ],
+        "balance": 2000
+      },
+      "misconception": "debit-credit",
+      "wrong_methods": [
+        "Reports total expenses as balance.",
+        "Adds expenses to income.",
+        "Forgets other expenses."
+      ],
+      "check": "Check: R2 000+R9 800=R11 800.",
+      "id": "g9-whole-l06-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A household receives R13 400 monthly. Rent, food and transport are R5 200, R2 800 and R1 700; other costs are R1 600. What remains?",
+      "givens": [
+        "Income R13 400",
+        "R5 200",
+        "R2 800",
+        "R1 700",
+        "Other R1 600"
+      ],
+      "actions": [
+        "Use a monthly ledger; start with income R13 400.",
+        "Add expenses: R5 200 + R2 800 + R1 700 + R1 600 = R11 300.",
+        "Subtract total spending from income: R13 400−R11 300=R2 100.",
+        "Check: R2 100+R11 300=R13 400."
+      ],
+      "answer": "R2 100",
+      "wrongs": [
+        "R11 300",
+        "R24 700",
+        "R8 200"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 13400,
+        "expenses": [
+          5200,
+          2800,
+          1700,
+          1600
+        ],
+        "balance": 2100
+      },
+      "misconception": "debit-credit",
+      "wrong_methods": [
+        "Reports total expenses as balance.",
+        "Adds expenses to income.",
+        "Forgets other expenses."
+      ],
+      "check": "Check: R2 100+R11 300=R13 400.",
+      "id": "g9-whole-l06-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A household receives R15 600 monthly. Rent, food and transport are R5 700, R3 400 and R1 850; other costs are R2 100. What remains?",
+      "givens": [
+        "Income R15 600",
+        "R5 700",
+        "R3 400",
+        "R1 850",
+        "Other R2 100"
+      ],
+      "actions": [
+        "Use a monthly ledger; start with income R15 600.",
+        "Add expenses: R5 700 + R3 400 + R1 850 + R2 100 = R13 050.",
+        "Subtract total spending from income: R15 600−R13 050=R2 550.",
+        "Check: R2 550+R13 050=R15 600."
+      ],
+      "answer": "R2 550",
+      "wrongs": [
+        "R13 050",
+        "R28 650",
+        "R9 900"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 15600,
+        "expenses": [
+          5700,
+          3400,
+          1850,
+          2100
+        ],
+        "balance": 2550
+      },
+      "misconception": "debit-credit",
+      "wrong_methods": [
+        "Reports total expenses as balance.",
+        "Adds expenses to income.",
+        "Forgets other expenses."
+      ],
+      "check": "Check: R2 550+R13 050=R15 600.",
+      "id": "g9-whole-l06-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A budget has monthly income R18 500. Planned rent, food and travel are R6 500, R3 900, R2 000; actual amounts are R6 500, R4 500, R2 400. How much remained after actual spending?",
+      "givens": [
+        "Income R18 500",
+        "Planned R6 500, R3 900, R2 000",
+        "Actual R6 500, R4 500, R2 400"
+      ],
+      "actions": [
+        "Keep planned and actual columns separate for the same month.",
+        "Actual spending totals R6 500 + R4 500 + R2 400 = R13 400.",
+        "Subtract actual spending: R18 500−R13 400=R5 100.",
+        "Check: R5 100+R13 400=R18 500; planned balance was R6 100."
+      ],
+      "answer": "R5 100",
+      "wrongs": [
+        "R6 100",
+        "R13 400",
+        "R31 900"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 18500,
+        "planned": [
+          6500,
+          3900,
+          2000
+        ],
+        "expenses": [
+          6500,
+          4500,
+          2400
+        ],
+        "balance": 5100
+      },
+      "misconception": "budget-variance",
+      "wrong_methods": [
+        "Reports the planned balance instead of actual.",
+        "Confuses expenses with remaining balance.",
+        "Adds actual expenses to income."
+      ],
+      "check": "Check: R5 100+R13 400=R18 500; planned balance was R6 100.",
+      "id": "g9-whole-l06-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A budget has monthly income R22 000. Planned rent, food and travel are R7 500, R4 800, R2 600; actual amounts are R7 800, R5 200, R2 900. How much remained after actual spending?",
+      "givens": [
+        "Income R22 000",
+        "Planned R7 500, R4 800, R2 600",
+        "Actual R7 800, R5 200, R2 900"
+      ],
+      "actions": [
+        "Keep planned and actual columns separate for the same month.",
+        "Actual spending totals R7 800 + R5 200 + R2 900 = R15 900.",
+        "Subtract actual spending: R22 000−R15 900=R6 100.",
+        "Check: R6 100+R15 900=R22 000; planned balance was R7 100."
+      ],
+      "answer": "R6 100",
+      "wrongs": [
+        "R7 100",
+        "R15 900",
+        "R37 900"
+      ],
+      "visual": {
+        "family": "ledger",
+        "income": 22000,
+        "planned": [
+          7500,
+          4800,
+          2600
+        ],
+        "expenses": [
+          7800,
+          5200,
+          2900
+        ],
+        "balance": 6100
+      },
+      "misconception": "budget-variance",
+      "wrong_methods": [
+        "Reports the planned balance instead of actual.",
+        "Confuses expenses with remaining balance.",
+        "Adds actual expenses to income."
+      ],
+      "check": "Check: R6 100+R15 900=R22 000; planned balance was R7 100.",
+      "id": "g9-whole-l06-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-whole-l06-p01",
+      "prompt": "A household receives R9 500 monthly. Rent, food and transport are R3 200, R2 200 and R1 100; other costs are R500. What remains?",
+      "options": [
+        "R2 500",
+        "R7 000",
+        "R16 500",
+        "R6 300"
+      ],
+      "answer_index": 0,
+      "memo": "R2 500. Use a monthly ledger; start with income R9 500. Add expenses: R3 200 + R2 200 + R1 100 + R500 = R7 000. Subtract total spending from income: R9 500−R7 000=R2 500. Check: R2 500+R7 000=R9 500.",
+      "misconception": "debit-credit",
+      "option_rationales": {
+        "R2 500": "Correct: Check: R2 500+R7 000=R9 500.",
+        "R7 000": "Incorrect: Reports total expenses as balance.",
+        "R16 500": "Incorrect: Adds expenses to income.",
+        "R6 300": "Incorrect: Forgets other expenses."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p02",
+      "prompt": "A household receives R10 800 monthly. Rent, food and transport are R3 600, R2 500 and R1 200; other costs are R800. What remains?",
+      "options": [
+        "R8 100",
+        "R2 700",
+        "R18 900",
+        "R7 200"
+      ],
+      "answer_index": 1,
+      "memo": "R2 700. Use a monthly ledger; start with income R10 800. Add expenses: R3 600 + R2 500 + R1 200 + R800 = R8 100. Subtract total spending from income: R10 800−R8 100=R2 700. Check: R2 700+R8 100=R10 800.",
+      "misconception": "debit-credit",
+      "option_rationales": {
+        "R8 100": "Incorrect: Reports total expenses as balance.",
+        "R2 700": "Correct: Check: R2 700+R8 100=R10 800.",
+        "R18 900": "Incorrect: Adds expenses to income.",
+        "R7 200": "Incorrect: Forgets other expenses."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p03",
+      "prompt": "A household receives R13 000 monthly. Rent, food and transport are R4 900, R2 900 and R1 550; other costs are R700. What remains?",
+      "options": [
+        "R10 050",
+        "R23 050",
+        "R2 950",
+        "R8 100"
+      ],
+      "answer_index": 2,
+      "memo": "R2 950. Use a monthly ledger; start with income R13 000. Add expenses: R4 900 + R2 900 + R1 550 + R700 = R10 050. Subtract total spending from income: R13 000−R10 050=R2 950. Check: R2 950+R10 050=R13 000.",
+      "misconception": "debit-credit",
+      "option_rationales": {
+        "R10 050": "Incorrect: Reports total expenses as balance.",
+        "R23 050": "Incorrect: Adds expenses to income.",
+        "R2 950": "Correct: Check: R2 950+R10 050=R13 000.",
+        "R8 100": "Incorrect: Forgets other expenses."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p04",
+      "prompt": "A household receives R14 500 monthly. Rent, food and transport are R5 500, R3 200 and R1 750; other costs are R850. What remains?",
+      "options": [
+        "R11 300",
+        "R25 800",
+        "R9 000",
+        "R3 200"
+      ],
+      "answer_index": 3,
+      "memo": "R3 200. Use a monthly ledger; start with income R14 500. Add expenses: R5 500 + R3 200 + R1 750 + R850 = R11 300. Subtract total spending from income: R14 500−R11 300=R3 200. Check: R3 200+R11 300=R14 500.",
+      "misconception": "debit-credit",
+      "option_rationales": {
+        "R11 300": "Incorrect: Reports total expenses as balance.",
+        "R25 800": "Incorrect: Adds expenses to income.",
+        "R9 000": "Incorrect: Forgets other expenses.",
+        "R3 200": "Correct: Check: R3 200+R11 300=R14 500."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p05",
+      "prompt": "A household receives R17 000 monthly. Rent, food and transport are R6 200, R3 700 and R1 800; other costs are R1 100. What remains?",
+      "options": [
+        "R4 200",
+        "R12 800",
+        "R29 800",
+        "R10 800"
+      ],
+      "answer_index": 0,
+      "memo": "R4 200. Use a monthly ledger; start with income R17 000. Add expenses: R6 200 + R3 700 + R1 800 + R1 100 = R12 800. Subtract total spending from income: R17 000−R12 800=R4 200. Check: R4 200+R12 800=R17 000.",
+      "misconception": "debit-credit",
+      "option_rationales": {
+        "R4 200": "Correct: Check: R4 200+R12 800=R17 000.",
+        "R12 800": "Incorrect: Reports total expenses as balance.",
+        "R29 800": "Incorrect: Adds expenses to income.",
+        "R10 800": "Incorrect: Forgets other expenses."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p06",
+      "prompt": "Monthly income is R10 000 and fixed expenses are R3 500, R2 300, R1 300. Is a new monthly payment of R900 affordable without borrowing?",
+      "options": [
+        "Not affordable",
+        "Affordable",
+        "R2 900",
+        "R900"
+      ],
+      "answer_index": 1,
+      "memo": "Affordable. The expense base is the same month as income. After fixed expenses, R10 000−R7 100=R2 900 remains. Compare R2 900 with R900: affordable. Check: R2 900 ≥ R900.",
+      "misconception": "budget-time-base",
+      "option_rationales": {
+        "Not affordable": "Incorrect: Reverses the affordability decision.",
+        "Affordable": "Correct: Check: R2 900 ≥ R900.",
+        "R2 900": "Incorrect: Reports the remaining balance rather than a decision.",
+        "R900": "Incorrect: Reports the payment amount rather than a decision."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p07",
+      "prompt": "Monthly income is R12 000 and fixed expenses are R4 800, R2 500, R1 400. Is a new monthly payment of R3 500 affordable without borrowing?",
+      "options": [
+        "Affordable",
+        "R3 300",
+        "Not affordable",
+        "R3 500"
+      ],
+      "answer_index": 2,
+      "memo": "Not affordable. The expense base is the same month as income. After fixed expenses, R12 000−R8 700=R3 300 remains. Compare R3 300 with R3 500: not affordable. Check: R3 300 < R3 500.",
+      "misconception": "budget-time-base",
+      "option_rationales": {
+        "Affordable": "Incorrect: Reverses the affordability decision.",
+        "R3 300": "Incorrect: Reports the remaining balance rather than a decision.",
+        "Not affordable": "Correct: Check: R3 300 < R3 500.",
+        "R3 500": "Incorrect: Reports the payment amount rather than a decision."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p08",
+      "prompt": "Monthly income is R13 500 and fixed expenses are R5 200, R3 100, R1 700. Is a new monthly payment of R2 600 affordable without borrowing?",
+      "options": [
+        "Not affordable",
+        "R3 500",
+        "R2 600",
+        "Affordable"
+      ],
+      "answer_index": 3,
+      "memo": "Affordable. The expense base is the same month as income. After fixed expenses, R13 500−R10 000=R3 500 remains. Compare R3 500 with R2 600: affordable. Check: R3 500 ≥ R2 600.",
+      "misconception": "budget-time-base",
+      "option_rationales": {
+        "Not affordable": "Incorrect: Reverses the affordability decision.",
+        "R3 500": "Incorrect: Reports the remaining balance rather than a decision.",
+        "R2 600": "Incorrect: Reports the payment amount rather than a decision.",
+        "Affordable": "Correct: Check: R3 500 ≥ R2 600."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p09",
+      "prompt": "Monthly income is R15 000 and fixed expenses are R5 700, R3 900, R1 900. Is a new monthly payment of R3 900 affordable without borrowing?",
+      "options": [
+        "Not affordable",
+        "Affordable",
+        "R3 500",
+        "R3 900"
+      ],
+      "answer_index": 0,
+      "memo": "Not affordable. The expense base is the same month as income. After fixed expenses, R15 000−R11 500=R3 500 remains. Compare R3 500 with R3 900: not affordable. Check: R3 500 < R3 900.",
+      "misconception": "budget-time-base",
+      "option_rationales": {
+        "Not affordable": "Correct: Check: R3 500 < R3 900.",
+        "Affordable": "Incorrect: Reverses the affordability decision.",
+        "R3 500": "Incorrect: Reports the remaining balance rather than a decision.",
+        "R3 900": "Incorrect: Reports the payment amount rather than a decision."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p10",
+      "prompt": "Monthly income is R18 500 and fixed expenses are R6 800, R4 500, R1 800. Is a new monthly payment of R4 000 affordable without borrowing?",
+      "options": [
+        "Not affordable",
+        "Affordable",
+        "R5 400",
+        "R4 000"
+      ],
+      "answer_index": 1,
+      "memo": "Affordable. The expense base is the same month as income. After fixed expenses, R18 500−R13 100=R5 400 remains. Compare R5 400 with R4 000: affordable. Check: R5 400 ≥ R4 000.",
+      "misconception": "budget-time-base",
+      "option_rationales": {
+        "Not affordable": "Incorrect: Reverses the affordability decision.",
+        "Affordable": "Correct: Check: R5 400 ≥ R4 000.",
+        "R5 400": "Incorrect: Reports the remaining balance rather than a decision.",
+        "R4 000": "Incorrect: Reports the payment amount rather than a decision."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p11",
+      "prompt": "A household receives R12 500 monthly. Rent, food and transport are R4 500, R2 800 and R1 500; other costs are R1 100. What remains?",
+      "options": [
+        "R9 900",
+        "R22 400",
+        "R2 600",
+        "R8 000"
+      ],
+      "answer_index": 2,
+      "memo": "R2 600. Use a monthly ledger; start with income R12 500. Add expenses: R4 500 + R2 800 + R1 500 + R1 100 = R9 900. Subtract total spending from income: R12 500−R9 900=R2 600. Check: R2 600+R9 900=R12 500.",
+      "misconception": "debit-credit",
+      "option_rationales": {
+        "R9 900": "Incorrect: Reports total expenses as balance.",
+        "R22 400": "Incorrect: Adds expenses to income.",
+        "R2 600": "Correct: Check: R2 600+R9 900=R12 500.",
+        "R8 000": "Incorrect: Forgets other expenses."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p12",
+      "prompt": "A household receives R14 300 monthly. Rent, food and transport are R5 400, R3 100 and R1 900; other costs are R1 300. What remains?",
+      "options": [
+        "R11 700",
+        "R26 000",
+        "R8 900",
+        "R2 600"
+      ],
+      "answer_index": 3,
+      "memo": "R2 600. Use a monthly ledger; start with income R14 300. Add expenses: R5 400 + R3 100 + R1 900 + R1 300 = R11 700. Subtract total spending from income: R14 300−R11 700=R2 600. Check: R2 600+R11 700=R14 300.",
+      "misconception": "debit-credit",
+      "option_rationales": {
+        "R11 700": "Incorrect: Reports total expenses as balance.",
+        "R26 000": "Incorrect: Adds expenses to income.",
+        "R8 900": "Incorrect: Forgets other expenses.",
+        "R2 600": "Correct: Check: R2 600+R11 700=R14 300."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p13",
+      "prompt": "A household receives R16 800 monthly. Rent, food and transport are R6 200, R3 900 and R1 900; other costs are R1 700. What remains?",
+      "options": [
+        "R3 100",
+        "R13 700",
+        "R30 500",
+        "R10 600"
+      ],
+      "answer_index": 0,
+      "memo": "R3 100. Use a monthly ledger; start with income R16 800. Add expenses: R6 200 + R3 900 + R1 900 + R1 700 = R13 700. Subtract total spending from income: R16 800−R13 700=R3 100. Check: R3 100+R13 700=R16 800.",
+      "misconception": "debit-credit",
+      "option_rationales": {
+        "R3 100": "Correct: Check: R3 100+R13 700=R16 800.",
+        "R13 700": "Incorrect: Reports total expenses as balance.",
+        "R30 500": "Incorrect: Adds expenses to income.",
+        "R10 600": "Incorrect: Forgets other expenses."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p14",
+      "prompt": "A budget has monthly income R20 000. Planned rent, food and travel are R7 200, R4 100, R2 500; actual amounts are R7 300, R4 600, R2 700. How much remained after actual spending?",
+      "options": [
+        "R6 200",
+        "R5 400",
+        "R14 600",
+        "R34 600"
+      ],
+      "answer_index": 1,
+      "memo": "R5 400. Keep planned and actual columns separate for the same month. Actual spending totals R7 300 + R4 600 + R2 700 = R14 600. Subtract actual spending: R20 000−R14 600=R5 400. Check: R5 400+R14 600=R20 000; planned balance was R6 200.",
+      "misconception": "budget-variance",
+      "option_rationales": {
+        "R6 200": "Incorrect: Reports the planned balance instead of actual.",
+        "R5 400": "Correct: Check: R5 400+R14 600=R20 000; planned balance was R6 200.",
+        "R14 600": "Incorrect: Confuses expenses with remaining balance.",
+        "R34 600": "Incorrect: Adds actual expenses to income."
+      }
+    },
+    {
+      "id": "g9-whole-l06-p15",
+      "prompt": "A budget has monthly income R25 000. Planned rent, food and travel are R8 500, R5 500, R3 000; actual amounts are R8 900, R6 100, R3 200. How much remained after actual spending?",
+      "options": [
+        "R8 000",
+        "R18 200",
+        "R6 800",
+        "R43 200"
+      ],
+      "answer_index": 2,
+      "memo": "R6 800. Keep planned and actual columns separate for the same month. Actual spending totals R8 900 + R6 100 + R3 200 = R18 200. Subtract actual spending: R25 000−R18 200=R6 800. Check: R6 800+R18 200=R25 000; planned balance was R8 000.",
+      "misconception": "budget-variance",
+      "option_rationales": {
+        "R8 000": "Incorrect: Reports the planned balance instead of actual.",
+        "R18 200": "Incorrect: Confuses expenses with remaining balance.",
+        "R6 800": "Correct: Check: R6 800+R18 200=R25 000; planned balance was R8 000.",
+        "R43 200": "Incorrect: Adds actual expenses to income."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-whole-l06-m01",
+      "prompt": "A household receives R17 500 monthly. Rent, food and transport are R6 200, R3 900 and R2 100; other costs are R1 400. What remains?",
+      "options": [
+        "R3 900",
+        "R13 600",
+        "R31 100",
+        "R11 300"
+      ],
+      "answer_index": 0,
+      "memo": "R3 900. Use a monthly ledger; start with income R17 500. Add expenses: R6 200 + R3 900 + R2 100 + R1 400 = R13 600. Subtract total spending from income: R17 500−R13 600=R3 900. Check: R3 900+R13 600=R17 500.",
+      "misconception": "debit-credit",
+      "option_rationales": {
+        "R3 900": "Correct: Check: R3 900+R13 600=R17 500.",
+        "R13 600": "Incorrect: Reports total expenses as balance.",
+        "R31 100": "Incorrect: Adds expenses to income.",
+        "R11 300": "Incorrect: Forgets other expenses."
+      }
+    },
+    {
+      "id": "g9-whole-l06-m02",
+      "prompt": "Monthly income is R13 000 and fixed expenses are R5 000, R3 200, R1 600. Is a new monthly payment of R1 800 affordable without borrowing?",
+      "options": [
+        "Not affordable",
+        "Affordable",
+        "R3 200",
+        "R1 800"
+      ],
+      "answer_index": 1,
+      "memo": "Affordable. The expense base is the same month as income. After fixed expenses, R13 000−R9 800=R3 200 remains. Compare R3 200 with R1 800: affordable. Check: R3 200 ≥ R1 800.",
+      "misconception": "budget-time-base",
+      "option_rationales": {
+        "Not affordable": "Incorrect: Reverses the affordability decision.",
+        "Affordable": "Correct: Check: R3 200 ≥ R1 800.",
+        "R3 200": "Incorrect: Reports the remaining balance rather than a decision.",
+        "R1 800": "Incorrect: Reports the payment amount rather than a decision."
+      }
+    },
+    {
+      "id": "g9-whole-l06-m03",
+      "prompt": "A household receives R19 500 monthly. Rent, food and transport are R7 300, R4 500 and R2 300; other costs are R900. What remains?",
+      "options": [
+        "R15 000",
+        "R34 500",
+        "R4 500",
+        "R12 200"
+      ],
+      "answer_index": 2,
+      "memo": "R4 500. Use a monthly ledger; start with income R19 500. Add expenses: R7 300 + R4 500 + R2 300 + R900 = R15 000. Subtract total spending from income: R19 500−R15 000=R4 500. Check: R4 500+R15 000=R19 500.",
+      "misconception": "debit-credit",
+      "option_rationales": {
+        "R15 000": "Incorrect: Reports total expenses as balance.",
+        "R34 500": "Incorrect: Adds expenses to income.",
+        "R4 500": "Correct: Check: R4 500+R15 000=R19 500.",
+        "R12 200": "Incorrect: Forgets other expenses."
+      }
+    },
+    {
+      "id": "g9-whole-l06-m04",
+      "prompt": "Monthly income is R16 000 and fixed expenses are R5 500, R3 700, R1 900. Is a new monthly payment of R5 200 affordable without borrowing?",
+      "options": [
+        "Affordable",
+        "R4 900",
+        "R5 200",
+        "Not affordable"
+      ],
+      "answer_index": 3,
+      "memo": "Not affordable. The expense base is the same month as income. After fixed expenses, R16 000−R11 100=R4 900 remains. Compare R4 900 with R5 200: not affordable. Check: R4 900 < R5 200.",
+      "misconception": "budget-time-base",
+      "option_rationales": {
+        "Affordable": "Incorrect: Reverses the affordability decision.",
+        "R4 900": "Incorrect: Reports the remaining balance rather than a decision.",
+        "R5 200": "Incorrect: Reports the payment amount rather than a decision.",
+        "Not affordable": "Correct: Check: R4 900 < R5 200."
+      }
+    },
+    {
+      "id": "g9-whole-l06-m05",
+      "prompt": "A budget has monthly income R21 000. Planned rent, food and travel are R7 400, R4 400, R2 400; actual amounts are R7 500, R4 800, R2 900. How much remained after actual spending?",
+      "options": [
+        "R5 800",
+        "R6 800",
+        "R15 200",
+        "R36 200"
+      ],
+      "answer_index": 0,
+      "memo": "R5 800. Keep planned and actual columns separate for the same month. Actual spending totals R7 500 + R4 800 + R2 900 = R15 200. Subtract actual spending: R21 000−R15 200=R5 800. Check: R5 800+R15 200=R21 000; planned balance was R6 800.",
+      "misconception": "budget-variance",
+      "option_rationales": {
+        "R5 800": "Correct: Check: R5 800+R15 200=R21 000; planned balance was R6 800.",
+        "R6 800": "Incorrect: Reports the planned balance instead of actual.",
+        "R15 200": "Incorrect: Confuses expenses with remaining balance.",
+        "R36 200": "Incorrect: Adds actual expenses to income."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-whole-l06-r01",
+      "prompt": "Monthly income is R17 000 and fixed expenses are R6 200, R3 800, R1 800. Is a new monthly payment of R4 200 affordable without borrowing?",
+      "options": [
+        "Affordable",
+        "Not affordable",
+        "R5 200",
+        "R4 200"
+      ],
+      "answer_index": 0,
+      "memo": "Affordable. The expense base is the same month as income. After fixed expenses, R17 000−R11 800=R5 200 remains. Compare R5 200 with R4 200: affordable. Check: R5 200 ≥ R4 200.",
+      "misconception": "budget-time-base",
+      "option_rationales": {
+        "Affordable": "Correct: Check: R5 200 ≥ R4 200.",
+        "Not affordable": "Incorrect: Reverses the affordability decision.",
+        "R5 200": "Incorrect: Reports the remaining balance rather than a decision.",
+        "R4 200": "Incorrect: Reports the payment amount rather than a decision."
+      }
+    },
+    {
+      "id": "g9-whole-l06-r02",
+      "prompt": "A household receives R24 500 monthly. Rent, food and transport are R8 900, R5 700 and R3 400; other costs are R1 900. What remains?",
+      "options": [
+        "R19 900",
+        "R4 600",
+        "R44 400",
+        "R15 600"
+      ],
+      "answer_index": 1,
+      "memo": "R4 600. Use a monthly ledger; start with income R24 500. Add expenses: R8 900 + R5 700 + R3 400 + R1 900 = R19 900. Subtract total spending from income: R24 500−R19 900=R4 600. Check: R4 600+R19 900=R24 500.",
+      "misconception": "debit-credit",
+      "option_rationales": {
+        "R19 900": "Incorrect: Reports total expenses as balance.",
+        "R4 600": "Correct: Check: R4 600+R19 900=R24 500.",
+        "R44 400": "Incorrect: Adds expenses to income.",
+        "R15 600": "Incorrect: Forgets other expenses."
+      }
+    },
+    {
+      "id": "g9-whole-l06-r03",
+      "prompt": "Monthly income is R20 000 and fixed expenses are R7 500, R4 300, R2 200. Is a new monthly payment of R6 500 affordable without borrowing?",
+      "options": [
+        "Affordable",
+        "R6 000",
+        "Not affordable",
+        "R6 500"
+      ],
+      "answer_index": 2,
+      "memo": "Not affordable. The expense base is the same month as income. After fixed expenses, R20 000−R14 000=R6 000 remains. Compare R6 000 with R6 500: not affordable. Check: R6 000 < R6 500.",
+      "misconception": "budget-time-base",
+      "option_rationales": {
+        "Affordable": "Incorrect: Reverses the affordability decision.",
+        "R6 000": "Incorrect: Reports the remaining balance rather than a decision.",
+        "Not affordable": "Correct: Check: R6 000 < R6 500.",
+        "R6 500": "Incorrect: Reports the payment amount rather than a decision."
+      }
+    }
+  ]
+}

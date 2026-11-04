@@ -903,7 +903,7 @@
           "topic_number": 1,
           "title": "Whole Numbers",
           "paper": null,
-          "expected_lesson_count": 2,
+          "expected_lesson_count": 8,
           "status": "teacher_review_required",
           "lessons": [
             {
@@ -921,6 +921,54 @@
               "status": "verified",
               "duration_minutes": 80,
               "source_document": "lesson-02-prime-factors-hcf-lcm.md"
+            },
+            {
+              "lesson_id": "g9-whole-numbers-03",
+              "position": 3,
+              "title": "Ratio and rate",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03-ratio-and-rate.md"
+            },
+            {
+              "lesson_id": "g9-whole-numbers-04",
+              "position": 4,
+              "title": "Direct and inverse proportion",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04-direct-and-inverse-proportion.md"
+            },
+            {
+              "lesson_id": "g9-whole-numbers-05",
+              "position": 5,
+              "title": "Percentages and transactions",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05-percentages-and-transactions.md"
+            },
+            {
+              "lesson_id": "g9-whole-numbers-06",
+              "position": 6,
+              "title": "Budgets and accounts",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-06-budgets-and-accounts.md"
+            },
+            {
+              "lesson_id": "g9-whole-numbers-07",
+              "position": 7,
+              "title": "Loans and interest",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-07-loans-and-interest.md"
+            },
+            {
+              "lesson_id": "g9-whole-numbers-08",
+              "position": 8,
+              "title": "Exchange, commission and rentals",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-08-exchange-commission-and-rentals.md"
             }
           ]
         }

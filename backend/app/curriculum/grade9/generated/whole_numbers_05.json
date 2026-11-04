@@ -1,0 +1,1068 @@
+{
+  "source": "lesson-05-percentages-and-transactions.md",
+  "worked": [
+    {
+      "problem": "A jacket marked R800 is discounted by 10%. What is its sale price?",
+      "givens": [
+        "R800",
+        "10% discount"
+      ],
+      "actions": [
+        "The percentage base is the marked price, R800.",
+        "The discount is 10% of R800 = R80.",
+        "Subtract the discount: R800−R80=R720.",
+        "Check: R720+R80=R800."
+      ],
+      "answer": "R720",
+      "wrongs": [
+        "R80",
+        "R880",
+        "R790"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          800,
+          80,
+          720
+        ],
+        "labels": [
+          "marked",
+          "discount",
+          "sale"
+        ]
+      },
+      "misconception": "wrong-percentage-base",
+      "wrong_methods": [
+        "Reports the discount or VAT component instead of final price.",
+        "Adds a discount or subtracts VAT.",
+        "Treats the percent number as a rand amount."
+      ],
+      "check": "Check: R720+R80=R800.",
+      "id": "g9-whole-l05-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "A jacket marked R1 200 is discounted by 15%. What is its sale price?",
+      "givens": [
+        "R1 200",
+        "15% discount"
+      ],
+      "actions": [
+        "The percentage base is the marked price, R1 200.",
+        "The discount is 15% of R1 200 = R180.",
+        "Subtract the discount: R1 200−R180=R1 020.",
+        "Check: R1 020+R180=R1 200."
+      ],
+      "answer": "R1 020",
+      "wrongs": [
+        "R180",
+        "R1 380",
+        "R1 185"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          1200,
+          180,
+          1020
+        ],
+        "labels": [
+          "marked",
+          "discount",
+          "sale"
+        ]
+      },
+      "misconception": "wrong-percentage-base",
+      "wrong_methods": [
+        "Reports the discount or VAT component instead of final price.",
+        "Adds a discount or subtracts VAT.",
+        "Treats the percent number as a rand amount."
+      ],
+      "check": "Check: R1 020+R180=R1 200.",
+      "id": "g9-whole-l05-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "A jacket marked R1 500 is discounted by 20%. What is its sale price?",
+      "givens": [
+        "R1 500",
+        "20% discount"
+      ],
+      "actions": [
+        "The percentage base is the marked price, R1 500.",
+        "The discount is 20% of R1 500 = R300.",
+        "Subtract the discount: R1 500−R300=R1 200.",
+        "Check: R1 200+R300=R1 500."
+      ],
+      "answer": "R1 200",
+      "wrongs": [
+        "R300",
+        "R1 800",
+        "R1 480"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          1500,
+          300,
+          1200
+        ],
+        "labels": [
+          "marked",
+          "discount",
+          "sale"
+        ]
+      },
+      "misconception": "wrong-percentage-base",
+      "wrong_methods": [
+        "Reports the discount or VAT component instead of final price.",
+        "Adds a discount or subtracts VAT.",
+        "Treats the percent number as a rand amount."
+      ],
+      "check": "Check: R1 200+R300=R1 500.",
+      "id": "g9-whole-l05-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A service costs R600 before 15% VAT. Calculate the VAT-inclusive price.",
+      "givens": [
+        "R600",
+        "15% VAT"
+      ],
+      "actions": [
+        "The VAT base is the before-tax price, R600.",
+        "VAT is 15% of R600 = R90.",
+        "Add VAT: R600+R90=R690.",
+        "Check: R690−R90=R600."
+      ],
+      "answer": "R690",
+      "wrongs": [
+        "R90",
+        "R510",
+        "R615"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          600,
+          90,
+          690
+        ],
+        "labels": [
+          "before tax",
+          "VAT",
+          "total"
+        ]
+      },
+      "misconception": "wrong-vat-base",
+      "wrong_methods": [
+        "Reports only VAT instead of total.",
+        "Subtracts VAT from the original price.",
+        "Adds 15 rand instead of 15 percent."
+      ],
+      "check": "Check: R690−R90=R600.",
+      "id": "g9-whole-l05-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A service costs R1 200 before 15% VAT. Calculate the VAT-inclusive price.",
+      "givens": [
+        "R1 200",
+        "15% VAT"
+      ],
+      "actions": [
+        "The VAT base is the before-tax price, R1 200.",
+        "VAT is 15% of R1 200 = R180.",
+        "Add VAT: R1 200+R180=R1 380.",
+        "Check: R1 380−R180=R1 200."
+      ],
+      "answer": "R1 380",
+      "wrongs": [
+        "R180",
+        "R1 020",
+        "R1 215"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          1200,
+          180,
+          1380
+        ],
+        "labels": [
+          "before tax",
+          "VAT",
+          "total"
+        ]
+      },
+      "misconception": "wrong-vat-base",
+      "wrong_methods": [
+        "Reports only VAT instead of total.",
+        "Subtracts VAT from the original price.",
+        "Adds 15 rand instead of 15 percent."
+      ],
+      "check": "Check: R1 380−R180=R1 200.",
+      "id": "g9-whole-l05-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A service costs R1 800 before 15% VAT. Calculate the VAT-inclusive price.",
+      "givens": [
+        "R1 800",
+        "15% VAT"
+      ],
+      "actions": [
+        "The VAT base is the before-tax price, R1 800.",
+        "VAT is 15% of R1 800 = R270.",
+        "Add VAT: R1 800+R270=R2 070.",
+        "Check: R2 070−R270=R1 800."
+      ],
+      "answer": "R2 070",
+      "wrongs": [
+        "R270",
+        "R1 530",
+        "R1 815"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          1800,
+          270,
+          2070
+        ],
+        "labels": [
+          "before tax",
+          "VAT",
+          "total"
+        ]
+      },
+      "misconception": "wrong-vat-base",
+      "wrong_methods": [
+        "Reports only VAT instead of total.",
+        "Subtracts VAT from the original price.",
+        "Adds 15 rand instead of 15 percent."
+      ],
+      "check": "Check: R2 070−R270=R1 800.",
+      "id": "g9-whole-l05-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A shop buys a lamp for R240 and sells it for R300. Was this a profit or a loss? Give the amount.",
+      "givens": [
+        "Cost R240",
+        "Selling price R300"
+      ],
+      "actions": [
+        "Compare selling price R300 with cost R240.",
+        "The difference is R300−R240=R60.",
+        "Selling is higher than cost, so it is a profit of R60.",
+        "Check: R240 + R60 = R300."
+      ],
+      "answer": "profit R60",
+      "wrongs": [
+        "loss R60",
+        "profit R540",
+        "loss R540"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          240,
+          300,
+          60
+        ],
+        "labels": [
+          "cost",
+          "sale",
+          "difference"
+        ]
+      },
+      "misconception": "profit-sign",
+      "wrong_methods": [
+        "Confuses profit with loss.",
+        "Adds cost and selling price.",
+        "Uses the wrong sign and sum."
+      ],
+      "check": "Check: R240 + R60 = R300.",
+      "id": "g9-whole-l05-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A shop buys a lamp for R650 and sells it for R520. Was this a profit or a loss? Give the amount.",
+      "givens": [
+        "Cost R650",
+        "Selling price R520"
+      ],
+      "actions": [
+        "Compare selling price R520 with cost R650.",
+        "The difference is R650−R520=R130.",
+        "Selling is lower than cost, so it is a loss of R130.",
+        "Check: R650 − R130 = R520."
+      ],
+      "answer": "loss R130",
+      "wrongs": [
+        "profit R130",
+        "loss R1 170",
+        "profit R1 170"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          650,
+          520,
+          130
+        ],
+        "labels": [
+          "cost",
+          "sale",
+          "difference"
+        ]
+      },
+      "misconception": "profit-sign",
+      "wrong_methods": [
+        "Confuses profit with loss.",
+        "Adds cost and selling price.",
+        "Uses the wrong sign and sum."
+      ],
+      "check": "Check: R650 − R130 = R520.",
+      "id": "g9-whole-l05-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A shop buys a lamp for R800 and sells it for R1 000. Was this a profit or a loss? Give the amount.",
+      "givens": [
+        "Cost R800",
+        "Selling price R1 000"
+      ],
+      "actions": [
+        "Compare selling price R1 000 with cost R800.",
+        "The difference is R1 000−R800=R200.",
+        "Selling is higher than cost, so it is a profit of R200.",
+        "Check: R800 + R200 = R1 000."
+      ],
+      "answer": "profit R200",
+      "wrongs": [
+        "loss R200",
+        "profit R1 800",
+        "loss R1 800"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          800,
+          1000,
+          200
+        ],
+        "labels": [
+          "cost",
+          "sale",
+          "difference"
+        ]
+      },
+      "misconception": "profit-sign",
+      "wrong_methods": [
+        "Confuses profit with loss.",
+        "Adds cost and selling price.",
+        "Uses the wrong sign and sum."
+      ],
+      "check": "Check: R800 + R200 = R1 000.",
+      "id": "g9-whole-l05-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A shop buys a lamp for R1 450 and sells it for R1 160. Was this a profit or a loss? Give the amount.",
+      "givens": [
+        "Cost R1 450",
+        "Selling price R1 160"
+      ],
+      "actions": [
+        "Compare selling price R1 160 with cost R1 450.",
+        "The difference is R1 450−R1 160=R290.",
+        "Selling is lower than cost, so it is a loss of R290.",
+        "Check: R1 450 − R290 = R1 160."
+      ],
+      "answer": "loss R290",
+      "wrongs": [
+        "profit R290",
+        "loss R2 610",
+        "profit R2 610"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          1450,
+          1160,
+          290
+        ],
+        "labels": [
+          "cost",
+          "sale",
+          "difference"
+        ]
+      },
+      "misconception": "profit-sign",
+      "wrong_methods": [
+        "Confuses profit with loss.",
+        "Adds cost and selling price.",
+        "Uses the wrong sign and sum."
+      ],
+      "check": "Check: R1 450 − R290 = R1 160.",
+      "id": "g9-whole-l05-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A device priced R2 000 gets 20% off, then 15% VAT on the reduced price. What is the final price?",
+      "givens": [
+        "R2 000",
+        "20% off",
+        "15% VAT"
+      ],
+      "actions": [
+        "The discount base is R2 000; subtract R400 to get R1 600.",
+        "VAT is on the new base R1 600: 15% = R240.",
+        "Add VAT to the reduced price: R1 600+R240=R1 840.",
+        "Check: R1 840−R240=R1 600; the second base was not R2 000."
+      ],
+      "answer": "R1 840",
+      "wrongs": [
+        "R2 000",
+        "R1 600",
+        "R2 240"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          2000,
+          1600,
+          1840
+        ],
+        "labels": [
+          "original",
+          "after discount",
+          "after VAT"
+        ]
+      },
+      "misconception": "sequential-base",
+      "wrong_methods": [
+        "Assumes equal percentages cancel or uses the old base.",
+        "Stops after discount.",
+        "Adds VAT on the reduced price to the old price."
+      ],
+      "check": "Check: R1 840−R240=R1 600; the second base was not R2 000.",
+      "id": "g9-whole-l05-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A device priced R4 000 gets 10% off, then 15% VAT on the reduced price. What is the final price?",
+      "givens": [
+        "R4 000",
+        "10% off",
+        "15% VAT"
+      ],
+      "actions": [
+        "The discount base is R4 000; subtract R400 to get R3 600.",
+        "VAT is on the new base R3 600: 15% = R540.",
+        "Add VAT to the reduced price: R3 600+R540=R4 140.",
+        "Check: R4 140−R540=R3 600; the second base was not R4 000."
+      ],
+      "answer": "R4 140",
+      "wrongs": [
+        "R4 000",
+        "R3 600",
+        "R4 540"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          4000,
+          3600,
+          4140
+        ],
+        "labels": [
+          "original",
+          "after discount",
+          "after VAT"
+        ]
+      },
+      "misconception": "sequential-base",
+      "wrong_methods": [
+        "Assumes equal percentages cancel or uses the old base.",
+        "Stops after discount.",
+        "Adds VAT on the reduced price to the old price."
+      ],
+      "check": "Check: R4 140−R540=R3 600; the second base was not R4 000.",
+      "id": "g9-whole-l05-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A device priced R6 000 gets 25% off, then 15% VAT on the reduced price. What is the final price?",
+      "givens": [
+        "R6 000",
+        "25% off",
+        "15% VAT"
+      ],
+      "actions": [
+        "The discount base is R6 000; subtract R1 500 to get R4 500.",
+        "VAT is on the new base R4 500: 15% = R675.",
+        "Add VAT to the reduced price: R4 500+R675=R5 175.",
+        "Check: R5 175−R675=R4 500; the second base was not R6 000."
+      ],
+      "answer": "R5 175",
+      "wrongs": [
+        "R6 000",
+        "R4 500",
+        "R6 675"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          6000,
+          4500,
+          5175
+        ],
+        "labels": [
+          "original",
+          "after discount",
+          "after VAT"
+        ]
+      },
+      "misconception": "sequential-base",
+      "wrong_methods": [
+        "Assumes equal percentages cancel or uses the old base.",
+        "Stops after discount.",
+        "Adds VAT on the reduced price to the old price."
+      ],
+      "check": "Check: R5 175−R675=R4 500; the second base was not R6 000.",
+      "id": "g9-whole-l05-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A device priced R8 000 gets 15% off, then 15% VAT on the reduced price. What is the final price?",
+      "givens": [
+        "R8 000",
+        "15% off",
+        "15% VAT"
+      ],
+      "actions": [
+        "The discount base is R8 000; subtract R1 200 to get R6 800.",
+        "VAT is on the new base R6 800: 15% = R1 020.",
+        "Add VAT to the reduced price: R6 800+R1 020=R7 820.",
+        "Check: R7 820−R1 020=R6 800; the second base was not R8 000."
+      ],
+      "answer": "R7 820",
+      "wrongs": [
+        "R8 000",
+        "R6 800",
+        "R9 020"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          8000,
+          6800,
+          7820
+        ],
+        "labels": [
+          "original",
+          "after discount",
+          "after VAT"
+        ]
+      },
+      "misconception": "sequential-base",
+      "wrong_methods": [
+        "Assumes equal percentages cancel or uses the old base.",
+        "Stops after discount.",
+        "Adds VAT on the reduced price to the old price."
+      ],
+      "check": "Check: R7 820−R1 020=R6 800; the second base was not R8 000.",
+      "id": "g9-whole-l05-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A device priced R10 000 gets 30% off, then 15% VAT on the reduced price. What is the final price?",
+      "givens": [
+        "R10 000",
+        "30% off",
+        "15% VAT"
+      ],
+      "actions": [
+        "The discount base is R10 000; subtract R3 000 to get R7 000.",
+        "VAT is on the new base R7 000: 15% = R1 050.",
+        "Add VAT to the reduced price: R7 000+R1 050=R8 050.",
+        "Check: R8 050−R1 050=R7 000; the second base was not R10 000."
+      ],
+      "answer": "R8 050",
+      "wrongs": [
+        "R10 000",
+        "R7 000",
+        "R11 050"
+      ],
+      "visual": {
+        "family": "transaction",
+        "timeline": [
+          10000,
+          7000,
+          8050
+        ],
+        "labels": [
+          "original",
+          "after discount",
+          "after VAT"
+        ]
+      },
+      "misconception": "sequential-base",
+      "wrong_methods": [
+        "Assumes equal percentages cancel or uses the old base.",
+        "Stops after discount.",
+        "Adds VAT on the reduced price to the old price."
+      ],
+      "check": "Check: R8 050−R1 050=R7 000; the second base was not R10 000.",
+      "id": "g9-whole-l05-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-whole-l05-p01",
+      "prompt": "A jacket marked R900 is discounted by 10%. What is its sale price?",
+      "options": [
+        "R810",
+        "R90",
+        "R990",
+        "R890"
+      ],
+      "answer_index": 0,
+      "memo": "R810. The percentage base is the marked price, R900. The discount is 10% of R900 = R90. Subtract the discount: R900−R90=R810. Check: R810+R90=R900.",
+      "misconception": "wrong-percentage-base",
+      "option_rationales": {
+        "R810": "Correct: Check: R810+R90=R900.",
+        "R90": "Incorrect: Reports the discount or VAT component instead of final price.",
+        "R990": "Incorrect: Adds a discount or subtracts VAT.",
+        "R890": "Incorrect: Treats the percent number as a rand amount."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p02",
+      "prompt": "A jacket marked R1 400 is discounted by 15%. What is its sale price?",
+      "options": [
+        "R210",
+        "R1 190",
+        "R1 610",
+        "R1 385"
+      ],
+      "answer_index": 1,
+      "memo": "R1 190. The percentage base is the marked price, R1 400. The discount is 15% of R1 400 = R210. Subtract the discount: R1 400−R210=R1 190. Check: R1 190+R210=R1 400.",
+      "misconception": "wrong-percentage-base",
+      "option_rationales": {
+        "R210": "Incorrect: Reports the discount or VAT component instead of final price.",
+        "R1 190": "Correct: Check: R1 190+R210=R1 400.",
+        "R1 610": "Incorrect: Adds a discount or subtracts VAT.",
+        "R1 385": "Incorrect: Treats the percent number as a rand amount."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p03",
+      "prompt": "A jacket marked R1 800 is discounted by 20%. What is its sale price?",
+      "options": [
+        "R360",
+        "R2 160",
+        "R1 440",
+        "R1 780"
+      ],
+      "answer_index": 2,
+      "memo": "R1 440. The percentage base is the marked price, R1 800. The discount is 20% of R1 800 = R360. Subtract the discount: R1 800−R360=R1 440. Check: R1 440+R360=R1 800.",
+      "misconception": "wrong-percentage-base",
+      "option_rationales": {
+        "R360": "Incorrect: Reports the discount or VAT component instead of final price.",
+        "R2 160": "Incorrect: Adds a discount or subtracts VAT.",
+        "R1 440": "Correct: Check: R1 440+R360=R1 800.",
+        "R1 780": "Incorrect: Treats the percent number as a rand amount."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p04",
+      "prompt": "A service costs R800 before 15% VAT. Calculate the VAT-inclusive price.",
+      "options": [
+        "R120",
+        "R680",
+        "R815",
+        "R920"
+      ],
+      "answer_index": 3,
+      "memo": "R920. The VAT base is the before-tax price, R800. VAT is 15% of R800 = R120. Add VAT: R800+R120=R920. Check: R920−R120=R800.",
+      "misconception": "wrong-vat-base",
+      "option_rationales": {
+        "R120": "Incorrect: Reports only VAT instead of total.",
+        "R680": "Incorrect: Subtracts VAT from the original price.",
+        "R815": "Incorrect: Adds 15 rand instead of 15 percent.",
+        "R920": "Correct: Check: R920−R120=R800."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p05",
+      "prompt": "A service costs R1 600 before 15% VAT. Calculate the VAT-inclusive price.",
+      "options": [
+        "R1 840",
+        "R240",
+        "R1 360",
+        "R1 615"
+      ],
+      "answer_index": 0,
+      "memo": "R1 840. The VAT base is the before-tax price, R1 600. VAT is 15% of R1 600 = R240. Add VAT: R1 600+R240=R1 840. Check: R1 840−R240=R1 600.",
+      "misconception": "wrong-vat-base",
+      "option_rationales": {
+        "R1 840": "Correct: Check: R1 840−R240=R1 600.",
+        "R240": "Incorrect: Reports only VAT instead of total.",
+        "R1 360": "Incorrect: Subtracts VAT from the original price.",
+        "R1 615": "Incorrect: Adds 15 rand instead of 15 percent."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p06",
+      "prompt": "A service costs R2 600 before 15% VAT. Calculate the VAT-inclusive price.",
+      "options": [
+        "R390",
+        "R2 990",
+        "R2 210",
+        "R2 615"
+      ],
+      "answer_index": 1,
+      "memo": "R2 990. The VAT base is the before-tax price, R2 600. VAT is 15% of R2 600 = R390. Add VAT: R2 600+R390=R2 990. Check: R2 990−R390=R2 600.",
+      "misconception": "wrong-vat-base",
+      "option_rationales": {
+        "R390": "Incorrect: Reports only VAT instead of total.",
+        "R2 990": "Correct: Check: R2 990−R390=R2 600.",
+        "R2 210": "Incorrect: Subtracts VAT from the original price.",
+        "R2 615": "Incorrect: Adds 15 rand instead of 15 percent."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p07",
+      "prompt": "A shop buys a lamp for R350 and sells it for R420. Was this a profit or a loss? Give the amount.",
+      "options": [
+        "loss R70",
+        "profit R770",
+        "profit R70",
+        "loss R770"
+      ],
+      "answer_index": 2,
+      "memo": "profit R70. Compare selling price R420 with cost R350. The difference is R420−R350=R70. Selling is higher than cost, so it is a profit of R70. Check: R350 + R70 = R420.",
+      "misconception": "profit-sign",
+      "option_rationales": {
+        "loss R70": "Incorrect: Confuses profit with loss.",
+        "profit R770": "Incorrect: Adds cost and selling price.",
+        "profit R70": "Correct: Check: R350 + R70 = R420.",
+        "loss R770": "Incorrect: Uses the wrong sign and sum."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p08",
+      "prompt": "A shop buys a lamp for R750 and sells it for R600. Was this a profit or a loss? Give the amount.",
+      "options": [
+        "profit R150",
+        "loss R1 350",
+        "profit R1 350",
+        "loss R150"
+      ],
+      "answer_index": 3,
+      "memo": "loss R150. Compare selling price R600 with cost R750. The difference is R750−R600=R150. Selling is lower than cost, so it is a loss of R150. Check: R750 − R150 = R600.",
+      "misconception": "profit-sign",
+      "option_rationales": {
+        "profit R150": "Incorrect: Confuses profit with loss.",
+        "loss R1 350": "Incorrect: Adds cost and selling price.",
+        "profit R1 350": "Incorrect: Uses the wrong sign and sum.",
+        "loss R150": "Correct: Check: R750 − R150 = R600."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p09",
+      "prompt": "A shop buys a lamp for R900 and sells it for R1 100. Was this a profit or a loss? Give the amount.",
+      "options": [
+        "profit R200",
+        "loss R200",
+        "profit R2 000",
+        "loss R2 000"
+      ],
+      "answer_index": 0,
+      "memo": "profit R200. Compare selling price R1 100 with cost R900. The difference is R1 100−R900=R200. Selling is higher than cost, so it is a profit of R200. Check: R900 + R200 = R1 100.",
+      "misconception": "profit-sign",
+      "option_rationales": {
+        "profit R200": "Correct: Check: R900 + R200 = R1 100.",
+        "loss R200": "Incorrect: Confuses profit with loss.",
+        "profit R2 000": "Incorrect: Adds cost and selling price.",
+        "loss R2 000": "Incorrect: Uses the wrong sign and sum."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p10",
+      "prompt": "A shop buys a lamp for R1 800 and sells it for R1 440. Was this a profit or a loss? Give the amount.",
+      "options": [
+        "profit R360",
+        "loss R360",
+        "loss R3 240",
+        "profit R3 240"
+      ],
+      "answer_index": 1,
+      "memo": "loss R360. Compare selling price R1 440 with cost R1 800. The difference is R1 800−R1 440=R360. Selling is lower than cost, so it is a loss of R360. Check: R1 800 − R360 = R1 440.",
+      "misconception": "profit-sign",
+      "option_rationales": {
+        "profit R360": "Incorrect: Confuses profit with loss.",
+        "loss R360": "Correct: Check: R1 800 − R360 = R1 440.",
+        "loss R3 240": "Incorrect: Adds cost and selling price.",
+        "profit R3 240": "Incorrect: Uses the wrong sign and sum."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p11",
+      "prompt": "A device priced R3 000 gets 20% off, then 15% VAT on the reduced price. What is the final price?",
+      "options": [
+        "R3 000",
+        "R2 400",
+        "R2 760",
+        "R3 360"
+      ],
+      "answer_index": 2,
+      "memo": "R2 760. The discount base is R3 000; subtract R600 to get R2 400. VAT is on the new base R2 400: 15% = R360. Add VAT to the reduced price: R2 400+R360=R2 760. Check: R2 760−R360=R2 400; the second base was not R3 000.",
+      "misconception": "sequential-base",
+      "option_rationales": {
+        "R3 000": "Incorrect: Assumes equal percentages cancel or uses the old base.",
+        "R2 400": "Incorrect: Stops after discount.",
+        "R2 760": "Correct: Check: R2 760−R360=R2 400; the second base was not R3 000.",
+        "R3 360": "Incorrect: Adds VAT on the reduced price to the old price."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p12",
+      "prompt": "A device priced R5 000 gets 10% off, then 15% VAT on the reduced price. What is the final price?",
+      "options": [
+        "R5 000",
+        "R4 500",
+        "R5 675",
+        "R5 175"
+      ],
+      "answer_index": 3,
+      "memo": "R5 175. The discount base is R5 000; subtract R500 to get R4 500. VAT is on the new base R4 500: 15% = R675. Add VAT to the reduced price: R4 500+R675=R5 175. Check: R5 175−R675=R4 500; the second base was not R5 000.",
+      "misconception": "sequential-base",
+      "option_rationales": {
+        "R5 000": "Incorrect: Assumes equal percentages cancel or uses the old base.",
+        "R4 500": "Incorrect: Stops after discount.",
+        "R5 675": "Incorrect: Adds VAT on the reduced price to the old price.",
+        "R5 175": "Correct: Check: R5 175−R675=R4 500; the second base was not R5 000."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p13",
+      "prompt": "A device priced R7 000 gets 20% off, then 15% VAT on the reduced price. What is the final price?",
+      "options": [
+        "R6 440",
+        "R7 000",
+        "R5 600",
+        "R7 840"
+      ],
+      "answer_index": 0,
+      "memo": "R6 440. The discount base is R7 000; subtract R1 400 to get R5 600. VAT is on the new base R5 600: 15% = R840. Add VAT to the reduced price: R5 600+R840=R6 440. Check: R6 440−R840=R5 600; the second base was not R7 000.",
+      "misconception": "sequential-base",
+      "option_rationales": {
+        "R6 440": "Correct: Check: R6 440−R840=R5 600; the second base was not R7 000.",
+        "R7 000": "Incorrect: Assumes equal percentages cancel or uses the old base.",
+        "R5 600": "Incorrect: Stops after discount.",
+        "R7 840": "Incorrect: Adds VAT on the reduced price to the old price."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p14",
+      "prompt": "A device priced R10 000 gets 15% off, then 15% VAT on the reduced price. What is the final price?",
+      "options": [
+        "R10 000",
+        "R9 775",
+        "R8 500",
+        "R11 275"
+      ],
+      "answer_index": 1,
+      "memo": "R9 775. The discount base is R10 000; subtract R1 500 to get R8 500. VAT is on the new base R8 500: 15% = R1 275. Add VAT to the reduced price: R8 500+R1 275=R9 775. Check: R9 775−R1 275=R8 500; the second base was not R10 000.",
+      "misconception": "sequential-base",
+      "option_rationales": {
+        "R10 000": "Incorrect: Assumes equal percentages cancel or uses the old base.",
+        "R9 775": "Correct: Check: R9 775−R1 275=R8 500; the second base was not R10 000.",
+        "R8 500": "Incorrect: Stops after discount.",
+        "R11 275": "Incorrect: Adds VAT on the reduced price to the old price."
+      }
+    },
+    {
+      "id": "g9-whole-l05-p15",
+      "prompt": "A device priced R12 000 gets 30% off, then 15% VAT on the reduced price. What is the final price?",
+      "options": [
+        "R12 000",
+        "R8 400",
+        "R9 660",
+        "R13 260"
+      ],
+      "answer_index": 2,
+      "memo": "R9 660. The discount base is R12 000; subtract R3 600 to get R8 400. VAT is on the new base R8 400: 15% = R1 260. Add VAT to the reduced price: R8 400+R1 260=R9 660. Check: R9 660−R1 260=R8 400; the second base was not R12 000.",
+      "misconception": "sequential-base",
+      "option_rationales": {
+        "R12 000": "Incorrect: Assumes equal percentages cancel or uses the old base.",
+        "R8 400": "Incorrect: Stops after discount.",
+        "R9 660": "Correct: Check: R9 660−R1 260=R8 400; the second base was not R12 000.",
+        "R13 260": "Incorrect: Adds VAT on the reduced price to the old price."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-whole-l05-m01",
+      "prompt": "A jacket marked R2 500 is discounted by 20%. What is its sale price?",
+      "options": [
+        "R2 000",
+        "R500",
+        "R3 000",
+        "R2 480"
+      ],
+      "answer_index": 0,
+      "memo": "R2 000. The percentage base is the marked price, R2 500. The discount is 20% of R2 500 = R500. Subtract the discount: R2 500−R500=R2 000. Check: R2 000+R500=R2 500.",
+      "misconception": "wrong-percentage-base",
+      "option_rationales": {
+        "R2 000": "Correct: Check: R2 000+R500=R2 500.",
+        "R500": "Incorrect: Reports the discount or VAT component instead of final price.",
+        "R3 000": "Incorrect: Adds a discount or subtracts VAT.",
+        "R2 480": "Incorrect: Treats the percent number as a rand amount."
+      }
+    },
+    {
+      "id": "g9-whole-l05-m02",
+      "prompt": "A service costs R2 800 before 15% VAT. Calculate the VAT-inclusive price.",
+      "options": [
+        "R420",
+        "R3 220",
+        "R2 380",
+        "R2 815"
+      ],
+      "answer_index": 1,
+      "memo": "R3 220. The VAT base is the before-tax price, R2 800. VAT is 15% of R2 800 = R420. Add VAT: R2 800+R420=R3 220. Check: R3 220−R420=R2 800.",
+      "misconception": "wrong-vat-base",
+      "option_rationales": {
+        "R420": "Incorrect: Reports only VAT instead of total.",
+        "R3 220": "Correct: Check: R3 220−R420=R2 800.",
+        "R2 380": "Incorrect: Subtracts VAT from the original price.",
+        "R2 815": "Incorrect: Adds 15 rand instead of 15 percent."
+      }
+    },
+    {
+      "id": "g9-whole-l05-m03",
+      "prompt": "A shop buys a lamp for R1 700 and sells it for R1 360. Was this a profit or a loss? Give the amount.",
+      "options": [
+        "profit R340",
+        "loss R3 060",
+        "loss R340",
+        "profit R3 060"
+      ],
+      "answer_index": 2,
+      "memo": "loss R340. Compare selling price R1 360 with cost R1 700. The difference is R1 700−R1 360=R340. Selling is lower than cost, so it is a loss of R340. Check: R1 700 − R340 = R1 360.",
+      "misconception": "profit-sign",
+      "option_rationales": {
+        "profit R340": "Incorrect: Confuses profit with loss.",
+        "loss R3 060": "Incorrect: Adds cost and selling price.",
+        "loss R340": "Correct: Check: R1 700 − R340 = R1 360.",
+        "profit R3 060": "Incorrect: Uses the wrong sign and sum."
+      }
+    },
+    {
+      "id": "g9-whole-l05-m04",
+      "prompt": "A device priced R12 000 gets 25% off, then 15% VAT on the reduced price. What is the final price?",
+      "options": [
+        "R12 000",
+        "R9 000",
+        "R13 350",
+        "R10 350"
+      ],
+      "answer_index": 3,
+      "memo": "R10 350. The discount base is R12 000; subtract R3 000 to get R9 000. VAT is on the new base R9 000: 15% = R1 350. Add VAT to the reduced price: R9 000+R1 350=R10 350. Check: R10 350−R1 350=R9 000; the second base was not R12 000.",
+      "misconception": "sequential-base",
+      "option_rationales": {
+        "R12 000": "Incorrect: Assumes equal percentages cancel or uses the old base.",
+        "R9 000": "Incorrect: Stops after discount.",
+        "R13 350": "Incorrect: Adds VAT on the reduced price to the old price.",
+        "R10 350": "Correct: Check: R10 350−R1 350=R9 000; the second base was not R12 000."
+      }
+    },
+    {
+      "id": "g9-whole-l05-m05",
+      "prompt": "A device priced R16 000 gets 10% off, then 15% VAT on the reduced price. What is the final price?",
+      "options": [
+        "R16 560",
+        "R16 000",
+        "R14 400",
+        "R18 160"
+      ],
+      "answer_index": 0,
+      "memo": "R16 560. The discount base is R16 000; subtract R1 600 to get R14 400. VAT is on the new base R14 400: 15% = R2 160. Add VAT to the reduced price: R14 400+R2 160=R16 560. Check: R16 560−R2 160=R14 400; the second base was not R16 000.",
+      "misconception": "sequential-base",
+      "option_rationales": {
+        "R16 560": "Correct: Check: R16 560−R2 160=R14 400; the second base was not R16 000.",
+        "R16 000": "Incorrect: Assumes equal percentages cancel or uses the old base.",
+        "R14 400": "Incorrect: Stops after discount.",
+        "R18 160": "Incorrect: Adds VAT on the reduced price to the old price."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-whole-l05-r01",
+      "prompt": "A jacket marked R2 700 is discounted by 10%. What is its sale price?",
+      "options": [
+        "R2 430",
+        "R270",
+        "R2 970",
+        "R2 690"
+      ],
+      "answer_index": 0,
+      "memo": "R2 430. The percentage base is the marked price, R2 700. The discount is 10% of R2 700 = R270. Subtract the discount: R2 700−R270=R2 430. Check: R2 430+R270=R2 700.",
+      "misconception": "wrong-percentage-base",
+      "option_rationales": {
+        "R2 430": "Correct: Check: R2 430+R270=R2 700.",
+        "R270": "Incorrect: Reports the discount or VAT component instead of final price.",
+        "R2 970": "Incorrect: Adds a discount or subtracts VAT.",
+        "R2 690": "Incorrect: Treats the percent number as a rand amount."
+      }
+    },
+    {
+      "id": "g9-whole-l05-r02",
+      "prompt": "A service costs R3 600 before 15% VAT. Calculate the VAT-inclusive price.",
+      "options": [
+        "R540",
+        "R4 140",
+        "R3 060",
+        "R3 615"
+      ],
+      "answer_index": 1,
+      "memo": "R4 140. The VAT base is the before-tax price, R3 600. VAT is 15% of R3 600 = R540. Add VAT: R3 600+R540=R4 140. Check: R4 140−R540=R3 600.",
+      "misconception": "wrong-vat-base",
+      "option_rationales": {
+        "R540": "Incorrect: Reports only VAT instead of total.",
+        "R4 140": "Correct: Check: R4 140−R540=R3 600.",
+        "R3 060": "Incorrect: Subtracts VAT from the original price.",
+        "R3 615": "Incorrect: Adds 15 rand instead of 15 percent."
+      }
+    },
+    {
+      "id": "g9-whole-l05-r03",
+      "prompt": "A device priced R14 000 gets 20% off, then 15% VAT on the reduced price. What is the final price?",
+      "options": [
+        "R14 000",
+        "R11 200",
+        "R12 880",
+        "R15 680"
+      ],
+      "answer_index": 2,
+      "memo": "R12 880. The discount base is R14 000; subtract R2 800 to get R11 200. VAT is on the new base R11 200: 15% = R1 680. Add VAT to the reduced price: R11 200+R1 680=R12 880. Check: R12 880−R1 680=R11 200; the second base was not R14 000.",
+      "misconception": "sequential-base",
+      "option_rationales": {
+        "R14 000": "Incorrect: Assumes equal percentages cancel or uses the old base.",
+        "R11 200": "Incorrect: Stops after discount.",
+        "R12 880": "Correct: Check: R12 880−R1 680=R11 200; the second base was not R14 000.",
+        "R15 680": "Incorrect: Adds VAT on the reduced price to the old price."
+      }
+    }
+  ]
+}

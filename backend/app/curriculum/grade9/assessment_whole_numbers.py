@@ -1,6 +1,6 @@
 """Private four-option practice and assessment banks from the authored packs."""
 from pydantic import BaseModel, Field
-from app.curriculum.grade9.whole_numbers_runtime import DATA_1,DATA_2,LESSON_1,LESSON_2
+from app.curriculum.grade9.whole_numbers_runtime import DATA_1,DATA_2,LESSON_1,LESSON_2,EXTENDED
 from app.practice.schemas import PracticeQuestion,WorkedSolutionStep
 
 
@@ -20,8 +20,8 @@ class AssessmentQuestion(BaseModel):
 
 
 def banks(number):
-    lesson,data=(LESSON_1,DATA_1) if number==1 else (LESSON_2,DATA_2)
-    tag='number-set-classification' if number==1 else 'prime-power-selection'
+    lesson,data=(LESSON_1,DATA_1) if number==1 else (LESSON_2,DATA_2) if number==2 else EXTENDED[number]
+    tag='number-set-classification' if number==1 else 'prime-power-selection' if number==2 else f'grade9-whole-numbers-{number:02}'
     practice=[]
     for index,item in enumerate(data['practice'],1):
         reason=item['memo'].split('. ',1)[-1]
@@ -53,3 +53,4 @@ def banks(number):
 
 PRACTICE_1,MASTERY_1,REASSESSMENT_1,REPAIRS_1,RULES_1=banks(1)
 PRACTICE_2,MASTERY_2,REASSESSMENT_2,REPAIRS_2,RULES_2=banks(2)
+EXTENDED_BANKS={number:banks(number) for number in range(3,9)}

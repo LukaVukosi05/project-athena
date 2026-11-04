@@ -21,7 +21,7 @@ try{
   browser=await chromium.launch({headless:true,executablePath:process.env.ATHENA_CHROME_PATH||chromium.executablePath(),args:['--no-sandbox']});
   const out=path.join(root,'artifacts','grade9-topic1-browser');mkdirSync(out,{recursive:true});
   const observations=[];
-  for(const width of [1360,390])for(const number of [1,2]){
+  for(const width of [1360,390])for(const number of [1,2,3,4,5,6,7,8]){
     const page=await browser.newPage({viewport:{width,height:850},reducedMotion:'reduce'});
     const errors=[];page.on('pageerror',error=>errors.push(error.message));
     const url=`${base}/lesson.html?grade=grade-9&topic=whole-numbers&lesson=g9-whole-numbers-0${number}`;
@@ -31,12 +31,12 @@ try{
     const initial=await page.evaluate(()=>({
       title:document.querySelector('#lesson-title')?.textContent,
       examples:document.querySelectorAll('[data-example-index]').length,
-      board:document.querySelector('.g9-number-board')?.innerText?.slice(0,500),
+      board:document.querySelector('.g9-number-board, .g9-context-board')?.innerText?.slice(0,500),
       overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,
       stageOverflow:document.querySelector('.whiteboard-stage')?.scrollWidth-document.querySelector('.whiteboard-stage')?.clientWidth,
       primary:document.querySelector('[data-action="primary"]')?.textContent
     }));
-    if(!initial.title||!initial.board||errors.length||initial.overflow>1)throw Error(JSON.stringify({width,number,errors,initial}));
+    if(!initial.title||!initial.board||errors.length||initial.overflow>1||initial.stageOverflow>1)throw Error(JSON.stringify({width,number,errors,initial}));
     await page.screenshot({path:path.join(out,`lesson-0${number}-${width}-initial.png`),fullPage:false});
     await page.waitForFunction(()=>!document.querySelector('[data-role="example-loading"]')?.textContent?.includes('Loading'),{timeout:18000}).catch(()=>{});
     const loaded=await page.evaluate(()=>({step:document.querySelector('[data-role="position"]')?.textContent,primary:document.querySelector('[data-action="primary"]')?.textContent,error:document.querySelector('[data-role="example-loading"] [role="alert"]')?.textContent}));

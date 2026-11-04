@@ -26,6 +26,7 @@ from app.curriculum.grade8 import assessment_expressions, assessment_expressions
 ASSESSMENT_BANKS={
     "g9-whole-numbers-01": (grade9_whole.MASTERY_1,grade9_whole.REASSESSMENT_1,grade9_whole.REPAIRS_1,grade9_whole.RULES_1),
     "g9-whole-numbers-02": (grade9_whole.MASTERY_2,grade9_whole.REASSESSMENT_2,grade9_whole.REPAIRS_2,grade9_whole.RULES_2),
+    **{f"g9-whole-numbers-{number:02}":grade9_whole.EXTENDED_BANKS[number][1:] for number in range(3,9)},
     **{f"g8-pythagoras-{n:02}": assessment_pythagoras.banks(n)[1:] for n in range(1,6)},
     **{f"g8-shapes-{n:02}": assessment_shapes.banks(n)[1:] for n in range(1,6)},
     **{f"g8-straight-lines-{n:02}": assessment_straight_lines.banks(n)[1:] for n in (1,2)},

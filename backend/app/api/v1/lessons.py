@@ -159,9 +159,11 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
             board["steps"] = [preview]
             params = board["visualization"]["parameters"]
             scene = json.loads(params["scene_json"])
-            for key in ("actions", "memo", "check", "category", "secondary", "secondary_category",
-                        "primary_stage", "secondary_stage", "factors", "misconception"):
+            for key in ("actions", "memo", "check", "answer", "wrongs", "wrong_methods", "option_rationales", "category",
+                        "secondary", "secondary_category", "primary_stage", "secondary_stage", "factors", "misconception"):
                 scene.pop(key, None)
+            if scene.get("visual"):
+                scene["visual"] = {"family":"givens"}
             params["scene_json"] = json.dumps(scene, ensure_ascii=False)
             board["semantic_objects"] = [item for item in board["semantic_objects"] if item["id"] in {"problem", "model", "token", "factor-roots"}]
         previews = {item["whiteboard"]["id"]:item["whiteboard"] for item in payload.get("whiteboard_questions", [])}
