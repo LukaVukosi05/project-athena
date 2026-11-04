@@ -113,7 +113,12 @@ class StatefulWhiteboard {
     const showWrittenTrace = visualType === "algebra" || graphVisual;
     const visualMarkup = `${visualization}${renderer.render(step, phase, { history, hasVisualization:Boolean(this.visualSession) })}`;
     const fractionText = ["grade8_fraction_strips", "grade8_fraction_operations", "grade8_fraction_powers_context"].includes(this.block.visualization?.template) && globalThis.AthenaFractionNotation ? globalThis.AthenaFractionNotation.html : escapeWhiteboardHtml;
-    const trace = `<aside class="g8-completed-steps" role="region" aria-label="Written solution so far"><h3>Written solution so far</h3><p>Original: ${fractionText(this.block.initial_expression)}</p>${writtenSteps.length ? `<ol>${writtenSteps.map((prior, index) => `<li ${index === writtenSteps.length - 1 ? `class="is-latest" ${phase === "result" ? 'aria-current="step"' : ""}` : ""}><span>Step ${index + 1}</span><div>${prior.working_expression ? `<small>Operation: ${fractionText(prior.working_expression)}</small>` : ""}<strong>${fractionText(prior.after_expression)}</strong></div></li>`).join("")}</ol>` : '<p class="g8-trace-empty">Steps appear here as the explanation progresses.</p>'}</aside>`;
+    const original = this.block.initial_expression === "Read the original question" && this.block.problem
+      ? this.block.problem : this.block.initial_expression;
+    const trace = `<aside class="g8-completed-steps" role="region" aria-label="Written solution so far"><h3>Written solution so far</h3><p>Original: ${fractionText(original)}</p>${writtenSteps.length ? `<ol>${writtenSteps.map((prior, index) => {
+      const result = prior.after_expression.replace(new RegExp(`^${index + 1}\\.\\s+`), "");
+      return `<li ${index === writtenSteps.length - 1 ? `class="is-latest" ${phase === "result" ? 'aria-current="step"' : ""}` : ""}><span>Step ${index + 1}</span><strong>${fractionText(result)}</strong></li>`;
+    }).join("")}</ol>` : '<p class="g8-trace-empty">Steps appear here as the explanation progresses.</p>'}</aside>`;
     stage.dataset.layout = graphVisual ? "graph" : showWrittenTrace ? "split" : "single";
     stage.innerHTML = showWrittenTrace ? `<div class="whiteboard-visual-pane">${visualMarkup}</div>${trace}` : visualMarkup;
     const tracePane = showWrittenTrace ? stage.querySelector(".g8-completed-steps") : null;

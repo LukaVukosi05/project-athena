@@ -278,8 +278,7 @@
 .g8-completed-steps{max-height:none;overflow:visible;margin:.75rem auto 0;background:#fff}
 .g8-completed-steps h3{margin:0 0 .45rem;font-size:.95rem;color:var(--athena-navy)}
 .g8-completed-steps li{padding:.4rem 0;border-top:1px solid var(--athena-border)}
-.g8-completed-steps li div{display:grid;gap:.2rem;min-width:0}
-.g8-completed-steps li small{font-size:.8rem;overflow-wrap:anywhere;color:var(--athena-muted)}
+.g8-completed-steps li strong{min-width:0}
 .whiteboard-question-set [data-role="example-loading"]:empty{display:none}
 .whiteboard-question-set [data-role="example-loading"]{max-width:900px;margin:.5rem auto;color:var(--athena-muted)}
 @media(max-width:640px){.whiteboard-example-navigation{gap:.25rem}.whiteboard-example-number{flex-basis:42px;min-height:44px}.g8-completed-steps{max-height:none}.g8-completed-steps li{align-items:start}}

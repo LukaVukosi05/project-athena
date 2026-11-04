@@ -75,8 +75,8 @@ test("prior results remain on the board through ready, operation, and result", (
   Object.assign(board, {
     index:2, status:"idle", visualSession:{render(){return '<div data-object-id="operation">current</div>';}},
     block:{initial_expression:"x + 2 = 8",visualization:{type:"algebra"},steps:[
-      {after_expression:"x + 2 − 2 = 8 − 2",operation:{type:"test"},events:[],screen_reader_description:"Subtract"},
-      {after_expression:"x = 6",operation:{type:"test"},events:[],screen_reader_description:"Simplify"},
+      {working_expression:"From x + 2 = 8 → subtract 2",after_expression:"x + 2 − 2 = 8 − 2",operation:{type:"test"},events:[],screen_reader_description:"Subtract"},
+      {working_expression:"From step 1 → simplify",after_expression:"2. x = 6",operation:{type:"test"},events:[],screen_reader_description:"Simplify"},
       {after_expression:"8 = 8",operation:{type:"test"},events:[],screen_reader_description:"Verify"},
     ]},
     mount:{querySelector(selector){if(selector===".whiteboard-stage")return stage;if(selector==='[data-role="checkpoint"]')return {hidden:false};return null;}},
@@ -90,6 +90,9 @@ test("prior results remain on the board through ready, operation, and result", (
     assert.match(stage.innerHTML,/x \+ 2 = 8/);
     assert.match(stage.innerHTML,/x = 6/);
     assert.equal((stage.innerHTML.match(/x = 6/g)||[]).length,1);
+    assert.doesNotMatch(stage.innerHTML,/<small>Operation:/, "the memo does not repeat animation instructions");
+    assert.doesNotMatch(stage.innerHTML,/Step 2<\/span>\s*<strong>2\./, "the memo has one step number");
+    assert.match(stage.innerHTML,/Step 2<\/span><strong>x = 6<\/strong>/);
     assert.ok(stage.innerHTML.indexOf("x = 6") > stage.innerHTML.indexOf("current"), "written working follows the active diagram");
     if (phase === "result") assert.match(stage.innerHTML, /Step 3<\/span>.*8 = 8/, "the final written solution includes the current check");
     assert.equal(tracePane.scrollTop,444,"the newest written line remains visible in its pane");
