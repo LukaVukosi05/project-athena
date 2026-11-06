@@ -1,0 +1,1318 @@
+{
+  "source": "lesson-01-flow-diagrams-and-output-values.md",
+  "worked": [
+    {
+      "problem": "A flow diagram says: multiply the input by 2, then add 3. What output follows input 4?",
+      "givens": [
+        "4",
+        "multiply the input by 2, then add 3"
+      ],
+      "actions": [
+        "Place input 4 into the first box. The given rule says to multiply the input by 2, then add 3.",
+        "Multiply the input: 8.",
+        "Apply the final adjustment to obtain output 11.",
+        "Check: input 2 follows the same boxes and gives 7, as expected."
+      ],
+      "answer": "11",
+      "wrongs": [
+        "13",
+        "9",
+        "7"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 2,
+        "b": 3,
+        "rule": "y = 2x + 3",
+        "words": "multiply the input by 2, then add 3",
+        "known_pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "target_input": 4,
+        "target_output": 11,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 7, as expected.",
+      "id": "g9-fn-l01-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "A flow diagram says: multiply the input by 3, then add 1. What output follows input 5?",
+      "givens": [
+        "5",
+        "multiply the input by 3, then add 1"
+      ],
+      "actions": [
+        "Place input 5 into the first box. The given rule says to multiply the input by 3, then add 1.",
+        "Multiply the input: 15.",
+        "Apply the final adjustment to obtain output 16.",
+        "Check: input 2 follows the same boxes and gives 7, as expected."
+      ],
+      "answer": "16",
+      "wrongs": [
+        "19",
+        "13",
+        "6"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 3,
+        "b": 1,
+        "rule": "y = 3x + 1",
+        "words": "multiply the input by 3, then add 1",
+        "known_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "target_input": 5,
+        "target_output": 16,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 7, as expected.",
+      "id": "g9-fn-l01-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "A flow diagram says: multiply the input by 4, then subtract 2. What output follows input 4?",
+      "givens": [
+        "4",
+        "multiply the input by 4, then subtract 2"
+      ],
+      "actions": [
+        "Place input 4 into the first box. The given rule says to multiply the input by 4, then subtract 2.",
+        "Multiply the input: 16.",
+        "Apply the final adjustment to obtain output 14.",
+        "Check: input 2 follows the same boxes and gives 6, as expected."
+      ],
+      "answer": "14",
+      "wrongs": [
+        "18",
+        "10",
+        "2"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 4,
+        "b": -2,
+        "rule": "y = 4x − 2",
+        "words": "multiply the input by 4, then subtract 2",
+        "known_pairs": [
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "target_input": 4,
+        "target_output": 14,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 6, as expected.",
+      "id": "g9-fn-l01-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A flow diagram says: multiply the input by 5, then add 2. What output follows input 6?",
+      "givens": [
+        "6",
+        "multiply the input by 5, then add 2"
+      ],
+      "actions": [
+        "Place input 6 into the first box. The given rule says to multiply the input by 5, then add 2.",
+        "Multiply the input: 30.",
+        "Apply the final adjustment to obtain output 32.",
+        "Check: input 2 follows the same boxes and gives 12, as expected."
+      ],
+      "answer": "32",
+      "wrongs": [
+        "37",
+        "27",
+        "8"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 5,
+        "b": 2,
+        "rule": "y = 5x + 2",
+        "words": "multiply the input by 5, then add 2",
+        "known_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            3,
+            17
+          ]
+        ],
+        "target_input": 6,
+        "target_output": 32,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 12, as expected.",
+      "id": "g9-fn-l01-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A flow diagram says: square the input, then subtract 4. What output follows input 7?",
+      "givens": [
+        "7",
+        "square the input, then subtract 4"
+      ],
+      "actions": [
+        "Place input 7 into the first box. The given rule says to square the input, then subtract 4.",
+        "Square the input: 49.",
+        "Apply the final adjustment to obtain output 45.",
+        "Check: input 2 follows the same boxes and gives 0, as expected."
+      ],
+      "answer": "45",
+      "wrongs": [
+        "47",
+        "43",
+        "3"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "square",
+        "a": 2,
+        "b": -4,
+        "rule": "y = x² − 4",
+        "words": "square the input, then subtract 4",
+        "known_pairs": [
+          [
+            0,
+            -4
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "target_input": 7,
+        "target_output": 45,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 0, as expected.",
+      "id": "g9-fn-l01-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "A flow diagram says: multiply the input by 3, then add 5. What output follows input 8?",
+      "givens": [
+        "8",
+        "multiply the input by 3, then add 5"
+      ],
+      "actions": [
+        "Place input 8 into the first box. The given rule says to multiply the input by 3, then add 5.",
+        "Multiply the input: 24.",
+        "Apply the final adjustment to obtain output 29.",
+        "Check: input 2 follows the same boxes and gives 11, as expected."
+      ],
+      "answer": "29",
+      "wrongs": [
+        "32",
+        "26",
+        "13"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 3,
+        "b": 5,
+        "rule": "y = 3x + 5",
+        "words": "multiply the input by 3, then add 5",
+        "known_pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            14
+          ]
+        ],
+        "target_input": 8,
+        "target_output": 29,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 11, as expected.",
+      "id": "g9-fn-l01-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A flow diagram says: multiply the input by 6, then add 1. What output follows input 6?",
+      "givens": [
+        "6",
+        "multiply the input by 6, then add 1"
+      ],
+      "actions": [
+        "Place input 6 into the first box. The given rule says to multiply the input by 6, then add 1.",
+        "Multiply the input: 36.",
+        "Apply the final adjustment to obtain output 37.",
+        "Check: input 2 follows the same boxes and gives 13, as expected."
+      ],
+      "answer": "37",
+      "wrongs": [
+        "43",
+        "31",
+        "7"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 6,
+        "b": 1,
+        "rule": "y = 6x + 1",
+        "words": "multiply the input by 6, then add 1",
+        "known_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            13
+          ],
+          [
+            3,
+            19
+          ]
+        ],
+        "target_input": 6,
+        "target_output": 37,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 13, as expected.",
+      "id": "g9-fn-l01-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A flow diagram says: multiply the input by 4, then add 4. What output follows input 7?",
+      "givens": [
+        "7",
+        "multiply the input by 4, then add 4"
+      ],
+      "actions": [
+        "Place input 7 into the first box. The given rule says to multiply the input by 4, then add 4.",
+        "Multiply the input: 28.",
+        "Apply the final adjustment to obtain output 32.",
+        "Check: input 2 follows the same boxes and gives 12, as expected."
+      ],
+      "answer": "32",
+      "wrongs": [
+        "36",
+        "28",
+        "11"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 4,
+        "b": 4,
+        "rule": "y = 4x + 4",
+        "words": "multiply the input by 4, then add 4",
+        "known_pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            3,
+            16
+          ]
+        ],
+        "target_input": 7,
+        "target_output": 32,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 12, as expected.",
+      "id": "g9-fn-l01-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A flow diagram says: square the input, then subtract 3. What output follows input 8?",
+      "givens": [
+        "8",
+        "square the input, then subtract 3"
+      ],
+      "actions": [
+        "Place input 8 into the first box. The given rule says to square the input, then subtract 3.",
+        "Square the input: 64.",
+        "Apply the final adjustment to obtain output 61.",
+        "Check: input 2 follows the same boxes and gives 1, as expected."
+      ],
+      "answer": "61",
+      "wrongs": [
+        "68",
+        "54",
+        "5"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "square",
+        "a": 7,
+        "b": -3,
+        "rule": "y = x² − 3",
+        "words": "square the input, then subtract 3",
+        "known_pairs": [
+          [
+            0,
+            -3
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "target_input": 8,
+        "target_output": 61,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 1, as expected.",
+      "id": "g9-fn-l01-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "A flow diagram says: multiply the input by 5, then subtract 5. What output follows input 9?",
+      "givens": [
+        "9",
+        "multiply the input by 5, then subtract 5"
+      ],
+      "actions": [
+        "Place input 9 into the first box. The given rule says to multiply the input by 5, then subtract 5.",
+        "Multiply the input: 45.",
+        "Apply the final adjustment to obtain output 40.",
+        "Check: input 2 follows the same boxes and gives 5, as expected."
+      ],
+      "answer": "40",
+      "wrongs": [
+        "45",
+        "35",
+        "4"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 5,
+        "b": -5,
+        "rule": "y = 5x − 5",
+        "words": "multiply the input by 5, then subtract 5",
+        "known_pairs": [
+          [
+            0,
+            -5
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "target_input": 9,
+        "target_output": 40,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 5, as expected.",
+      "id": "g9-fn-l01-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A flow diagram says: multiply the input by 8, then add 2. What output follows input 7?",
+      "givens": [
+        "7",
+        "multiply the input by 8, then add 2"
+      ],
+      "actions": [
+        "Place input 7 into the first box. The given rule says to multiply the input by 8, then add 2.",
+        "Multiply the input: 56.",
+        "Apply the final adjustment to obtain output 58.",
+        "Check: input 2 follows the same boxes and gives 18, as expected."
+      ],
+      "answer": "58",
+      "wrongs": [
+        "66",
+        "50",
+        "9"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 8,
+        "b": 2,
+        "rule": "y = 8x + 2",
+        "words": "multiply the input by 8, then add 2",
+        "known_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            18
+          ],
+          [
+            3,
+            26
+          ]
+        ],
+        "target_input": 7,
+        "target_output": 58,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 18, as expected.",
+      "id": "g9-fn-l01-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A flow diagram says: multiply the input by 3, then subtract 2. What output follows input 9?",
+      "givens": [
+        "9",
+        "multiply the input by 3, then subtract 2"
+      ],
+      "actions": [
+        "Place input 9 into the first box. The given rule says to multiply the input by 3, then subtract 2.",
+        "Multiply the input: 27.",
+        "Apply the final adjustment to obtain output 25.",
+        "Check: input 2 follows the same boxes and gives 4, as expected."
+      ],
+      "answer": "25",
+      "wrongs": [
+        "28",
+        "22",
+        "7"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 3,
+        "b": -2,
+        "rule": "y = 3x − 2",
+        "words": "multiply the input by 3, then subtract 2",
+        "known_pairs": [
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "target_input": 9,
+        "target_output": 25,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 4, as expected.",
+      "id": "g9-fn-l01-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "A flow diagram says: square the input, then add 4. What output follows input 11?",
+      "givens": [
+        "11",
+        "square the input, then add 4"
+      ],
+      "actions": [
+        "Place input 11 into the first box. The given rule says to square the input, then add 4.",
+        "Square the input: 121.",
+        "Apply the final adjustment to obtain output 125.",
+        "Check: input 2 follows the same boxes and gives 8, as expected."
+      ],
+      "answer": "125",
+      "wrongs": [
+        "131",
+        "119",
+        "15"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "square",
+        "a": 6,
+        "b": 4,
+        "rule": "y = x² + 4",
+        "words": "square the input, then add 4",
+        "known_pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            13
+          ]
+        ],
+        "target_input": 11,
+        "target_output": 125,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 8, as expected.",
+      "id": "g9-fn-l01-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A flow diagram says: multiply the input by 9, then subtract 1. What output follows input 12?",
+      "givens": [
+        "12",
+        "multiply the input by 9, then subtract 1"
+      ],
+      "actions": [
+        "Place input 12 into the first box. The given rule says to multiply the input by 9, then subtract 1.",
+        "Multiply the input: 108.",
+        "Apply the final adjustment to obtain output 107.",
+        "Check: input 2 follows the same boxes and gives 17, as expected."
+      ],
+      "answer": "107",
+      "wrongs": [
+        "116",
+        "98",
+        "11"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 9,
+        "b": -1,
+        "rule": "y = 9x − 1",
+        "words": "multiply the input by 9, then subtract 1",
+        "known_pairs": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            17
+          ],
+          [
+            3,
+            26
+          ]
+        ],
+        "target_input": 12,
+        "target_output": 107,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 17, as expected.",
+      "id": "g9-fn-l01-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "A flow diagram says: multiply the input by 7, then add 3. What output follows input 13?",
+      "givens": [
+        "13",
+        "multiply the input by 7, then add 3"
+      ],
+      "actions": [
+        "Place input 13 into the first box. The given rule says to multiply the input by 7, then add 3.",
+        "Multiply the input: 91.",
+        "Apply the final adjustment to obtain output 94.",
+        "Check: input 2 follows the same boxes and gives 17, as expected."
+      ],
+      "answer": "94",
+      "wrongs": [
+        "101",
+        "87",
+        "16"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "flow",
+        "kind": "linear",
+        "a": 7,
+        "b": 3,
+        "rule": "y = 7x + 3",
+        "words": "multiply the input by 7, then add 3",
+        "known_pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            17
+          ],
+          [
+            3,
+            24
+          ]
+        ],
+        "target_input": 13,
+        "target_output": 94,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: input 2 follows the same boxes and gives 17, as expected.",
+      "id": "g9-fn-l01-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-fn-l01-p01",
+      "prompt": "A flow diagram says: multiply the input by 3, then subtract 2. What output follows input 6?",
+      "options": [
+        "16",
+        "19",
+        "13",
+        "4"
+      ],
+      "answer_index": 0,
+      "memo": "Place input 6 into the first box. The given rule says to multiply the input by 3, then subtract 2. Multiply the input: 18. Apply the final adjustment to obtain output 16. Check: input 2 follows the same boxes and gives 4, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "16": "Correct: Check: input 2 follows the same boxes and gives 4, as expected.",
+        "19": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "13": "Incorrect: Uses an incorrect multiplier or slope.",
+        "4": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p02",
+      "prompt": "A flow diagram says: multiply the input by 8, then subtract 3. What output follows input 7?",
+      "options": [
+        "61",
+        "53",
+        "45",
+        "4"
+      ],
+      "answer_index": 1,
+      "memo": "Place input 7 into the first box. The given rule says to multiply the input by 8, then subtract 3. Multiply the input: 56. Apply the final adjustment to obtain output 53. Check: input 2 follows the same boxes and gives 13, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "61": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "53": "Correct: Check: input 2 follows the same boxes and gives 13, as expected.",
+        "45": "Incorrect: Uses an incorrect multiplier or slope.",
+        "4": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p03",
+      "prompt": "A flow diagram says: multiply the input by 13, then subtract 4. What output follows input 8?",
+      "options": [
+        "113",
+        "87",
+        "100",
+        "4"
+      ],
+      "answer_index": 2,
+      "memo": "Place input 8 into the first box. The given rule says to multiply the input by 13, then subtract 4. Multiply the input: 104. Apply the final adjustment to obtain output 100. Check: input 2 follows the same boxes and gives 22, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "113": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "87": "Incorrect: Uses an incorrect multiplier or slope.",
+        "100": "Correct: Check: input 2 follows the same boxes and gives 22, as expected.",
+        "4": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p04",
+      "prompt": "A flow diagram says: multiply the input by 18, then subtract 5. What output follows input 6?",
+      "options": [
+        "121",
+        "85",
+        "1",
+        "103"
+      ],
+      "answer_index": 3,
+      "memo": "Place input 6 into the first box. The given rule says to multiply the input by 18, then subtract 5. Multiply the input: 108. Apply the final adjustment to obtain output 103. Check: input 2 follows the same boxes and gives 31, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "121": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "85": "Incorrect: Uses an incorrect multiplier or slope.",
+        "1": "Incorrect: Substitutes the wrong input value.",
+        "103": "Correct: Check: input 2 follows the same boxes and gives 31, as expected."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p05",
+      "prompt": "A flow diagram says: square the input, then subtract 6. What output follows input 7?",
+      "options": [
+        "43",
+        "66",
+        "20",
+        "1"
+      ],
+      "answer_index": 0,
+      "memo": "Place input 7 into the first box. The given rule says to square the input, then subtract 6. Square the input: 49. Apply the final adjustment to obtain output 43. Check: input 2 follows the same boxes and gives -2, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "43": "Correct: Check: input 2 follows the same boxes and gives -2, as expected.",
+        "66": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "20": "Incorrect: Uses an incorrect multiplier or slope.",
+        "1": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p06",
+      "prompt": "A flow diagram says: multiply the input by 4, then add 0. What output follows input 7?",
+      "options": [
+        "32",
+        "28",
+        "24",
+        "7"
+      ],
+      "answer_index": 1,
+      "memo": "Place input 7 into the first box. The given rule says to multiply the input by 4, then add 0. Multiply the input: 28. Apply the final adjustment to obtain output 28. Check: input 2 follows the same boxes and gives 8, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "32": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "28": "Correct: Check: input 2 follows the same boxes and gives 8, as expected.",
+        "24": "Incorrect: Uses an incorrect multiplier or slope.",
+        "7": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p07",
+      "prompt": "A flow diagram says: multiply the input by 9, then subtract 1. What output follows input 8?",
+      "options": [
+        "80",
+        "62",
+        "71",
+        "7"
+      ],
+      "answer_index": 2,
+      "memo": "Place input 8 into the first box. The given rule says to multiply the input by 9, then subtract 1. Multiply the input: 72. Apply the final adjustment to obtain output 71. Check: input 2 follows the same boxes and gives 17, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "80": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "62": "Incorrect: Uses an incorrect multiplier or slope.",
+        "71": "Correct: Check: input 2 follows the same boxes and gives 17, as expected.",
+        "7": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p08",
+      "prompt": "A flow diagram says: multiply the input by 14, then subtract 2. What output follows input 9?",
+      "options": [
+        "138",
+        "110",
+        "7",
+        "124"
+      ],
+      "answer_index": 3,
+      "memo": "Place input 9 into the first box. The given rule says to multiply the input by 14, then subtract 2. Multiply the input: 126. Apply the final adjustment to obtain output 124. Check: input 2 follows the same boxes and gives 26, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "138": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "110": "Incorrect: Uses an incorrect multiplier or slope.",
+        "7": "Incorrect: Substitutes the wrong input value.",
+        "124": "Correct: Check: input 2 follows the same boxes and gives 26, as expected."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p09",
+      "prompt": "A flow diagram says: multiply the input by 19, then subtract 3. What output follows input 7?",
+      "options": [
+        "130",
+        "149",
+        "111",
+        "4"
+      ],
+      "answer_index": 0,
+      "memo": "Place input 7 into the first box. The given rule says to multiply the input by 19, then subtract 3. Multiply the input: 133. Apply the final adjustment to obtain output 130. Check: input 2 follows the same boxes and gives 35, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "130": "Correct: Check: input 2 follows the same boxes and gives 35, as expected.",
+        "149": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "111": "Incorrect: Uses an incorrect multiplier or slope.",
+        "4": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p10",
+      "prompt": "A flow diagram says: square the input, then subtract 4. What output follows input 8?",
+      "options": [
+        "84",
+        "60",
+        "36",
+        "4"
+      ],
+      "answer_index": 1,
+      "memo": "Place input 8 into the first box. The given rule says to square the input, then subtract 4. Square the input: 64. Apply the final adjustment to obtain output 60. Check: input 2 follows the same boxes and gives 0, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "84": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "60": "Correct: Check: input 2 follows the same boxes and gives 0, as expected.",
+        "36": "Incorrect: Uses an incorrect multiplier or slope.",
+        "4": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p11",
+      "prompt": "A flow diagram says: multiply the input by 5, then add 2. What output follows input 8?",
+      "options": [
+        "47",
+        "37",
+        "42",
+        "10"
+      ],
+      "answer_index": 2,
+      "memo": "Place input 8 into the first box. The given rule says to multiply the input by 5, then add 2. Multiply the input: 40. Apply the final adjustment to obtain output 42. Check: input 2 follows the same boxes and gives 12, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "47": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "37": "Incorrect: Uses an incorrect multiplier or slope.",
+        "42": "Correct: Check: input 2 follows the same boxes and gives 12, as expected.",
+        "10": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p12",
+      "prompt": "A flow diagram says: multiply the input by 10, then add 1. What output follows input 9?",
+      "options": [
+        "101",
+        "81",
+        "10",
+        "91"
+      ],
+      "answer_index": 3,
+      "memo": "Place input 9 into the first box. The given rule says to multiply the input by 10, then add 1. Multiply the input: 90. Apply the final adjustment to obtain output 91. Check: input 2 follows the same boxes and gives 21, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "101": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "81": "Incorrect: Uses an incorrect multiplier or slope.",
+        "10": "Incorrect: Substitutes the wrong input value.",
+        "91": "Correct: Check: input 2 follows the same boxes and gives 21, as expected."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p13",
+      "prompt": "A flow diagram says: multiply the input by 15, then add 0. What output follows input 10?",
+      "options": [
+        "150",
+        "165",
+        "135",
+        "10"
+      ],
+      "answer_index": 0,
+      "memo": "Place input 10 into the first box. The given rule says to multiply the input by 15, then add 0. Multiply the input: 150. Apply the final adjustment to obtain output 150. Check: input 2 follows the same boxes and gives 30, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "150": "Correct: Check: input 2 follows the same boxes and gives 30, as expected.",
+        "165": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "135": "Incorrect: Uses an incorrect multiplier or slope.",
+        "10": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p14",
+      "prompt": "A flow diagram says: multiply the input by 20, then subtract 1. What output follows input 8?",
+      "options": [
+        "179",
+        "159",
+        "139",
+        "7"
+      ],
+      "answer_index": 1,
+      "memo": "Place input 8 into the first box. The given rule says to multiply the input by 20, then subtract 1. Multiply the input: 160. Apply the final adjustment to obtain output 159. Check: input 2 follows the same boxes and gives 39, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "179": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "159": "Correct: Check: input 2 follows the same boxes and gives 39, as expected.",
+        "139": "Incorrect: Uses an incorrect multiplier or slope.",
+        "7": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-p15",
+      "prompt": "A flow diagram says: square the input, then subtract 2. What output follows input 9?",
+      "options": [
+        "104",
+        "54",
+        "79",
+        "7"
+      ],
+      "answer_index": 2,
+      "memo": "Place input 9 into the first box. The given rule says to square the input, then subtract 2. Square the input: 81. Apply the final adjustment to obtain output 79. Check: input 2 follows the same boxes and gives 2, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "104": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "54": "Incorrect: Uses an incorrect multiplier or slope.",
+        "79": "Correct: Check: input 2 follows the same boxes and gives 2, as expected.",
+        "7": "Incorrect: Substitutes the wrong input value."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-fn-l01-m01",
+      "prompt": "A flow diagram says: multiply the input by 6, then add 4. What output follows input 9?",
+      "options": [
+        "58",
+        "64",
+        "52",
+        "13"
+      ],
+      "answer_index": 0,
+      "memo": "Place input 9 into the first box. The given rule says to multiply the input by 6, then add 4. Multiply the input: 54. Apply the final adjustment to obtain output 58. Check: input 2 follows the same boxes and gives 16, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "58": "Correct: Check: input 2 follows the same boxes and gives 16, as expected.",
+        "64": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "52": "Incorrect: Uses an incorrect multiplier or slope.",
+        "13": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-m02",
+      "prompt": "A flow diagram says: multiply the input by 11, then add 3. What output follows input 10?",
+      "options": [
+        "124",
+        "113",
+        "102",
+        "13"
+      ],
+      "answer_index": 1,
+      "memo": "Place input 10 into the first box. The given rule says to multiply the input by 11, then add 3. Multiply the input: 110. Apply the final adjustment to obtain output 113. Check: input 2 follows the same boxes and gives 25, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "124": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "113": "Correct: Check: input 2 follows the same boxes and gives 25, as expected.",
+        "102": "Incorrect: Uses an incorrect multiplier or slope.",
+        "13": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-m03",
+      "prompt": "A flow diagram says: multiply the input by 16, then add 2. What output follows input 11?",
+      "options": [
+        "194",
+        "162",
+        "178",
+        "13"
+      ],
+      "answer_index": 2,
+      "memo": "Place input 11 into the first box. The given rule says to multiply the input by 16, then add 2. Multiply the input: 176. Apply the final adjustment to obtain output 178. Check: input 2 follows the same boxes and gives 34, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "194": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "162": "Incorrect: Uses an incorrect multiplier or slope.",
+        "178": "Correct: Check: input 2 follows the same boxes and gives 34, as expected.",
+        "13": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-m04",
+      "prompt": "A flow diagram says: multiply the input by 21, then add 1. What output follows input 9?",
+      "options": [
+        "211",
+        "169",
+        "10",
+        "190"
+      ],
+      "answer_index": 3,
+      "memo": "Place input 9 into the first box. The given rule says to multiply the input by 21, then add 1. Multiply the input: 189. Apply the final adjustment to obtain output 190. Check: input 2 follows the same boxes and gives 43, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "211": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "169": "Incorrect: Uses an incorrect multiplier or slope.",
+        "10": "Incorrect: Substitutes the wrong input value.",
+        "190": "Correct: Check: input 2 follows the same boxes and gives 43, as expected."
+      }
+    },
+    {
+      "id": "g9-fn-l01-m05",
+      "prompt": "A flow diagram says: square the input, then add 0. What output follows input 10?",
+      "options": [
+        "100",
+        "126",
+        "74",
+        "10"
+      ],
+      "answer_index": 0,
+      "memo": "Place input 10 into the first box. The given rule says to square the input, then add 0. Square the input: 100. Apply the final adjustment to obtain output 100. Check: input 2 follows the same boxes and gives 4, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "100": "Correct: Check: input 2 follows the same boxes and gives 4, as expected.",
+        "126": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "74": "Incorrect: Uses an incorrect multiplier or slope.",
+        "10": "Incorrect: Substitutes the wrong input value."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-fn-l01-r01",
+      "prompt": "A flow diagram says: multiply the input by 7, then add 6. What output follows input 10?",
+      "options": [
+        "76",
+        "83",
+        "69",
+        "16"
+      ],
+      "answer_index": 0,
+      "memo": "Place input 10 into the first box. The given rule says to multiply the input by 7, then add 6. Multiply the input: 70. Apply the final adjustment to obtain output 76. Check: input 2 follows the same boxes and gives 20, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "76": "Correct: Check: input 2 follows the same boxes and gives 20, as expected.",
+        "83": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "69": "Incorrect: Uses an incorrect multiplier or slope.",
+        "16": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-r02",
+      "prompt": "A flow diagram says: multiply the input by 12, then add 5. What output follows input 11?",
+      "options": [
+        "149",
+        "137",
+        "125",
+        "16"
+      ],
+      "answer_index": 1,
+      "memo": "Place input 11 into the first box. The given rule says to multiply the input by 12, then add 5. Multiply the input: 132. Apply the final adjustment to obtain output 137. Check: input 2 follows the same boxes and gives 29, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "149": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "137": "Correct: Check: input 2 follows the same boxes and gives 29, as expected.",
+        "125": "Incorrect: Uses an incorrect multiplier or slope.",
+        "16": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l01-r03",
+      "prompt": "A flow diagram says: multiply the input by 17, then add 4. What output follows input 12?",
+      "options": [
+        "225",
+        "191",
+        "208",
+        "16"
+      ],
+      "answer_index": 2,
+      "memo": "Place input 12 into the first box. The given rule says to multiply the input by 17, then add 4. Multiply the input: 204. Apply the final adjustment to obtain output 208. Check: input 2 follows the same boxes and gives 38, as expected.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "225": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "191": "Incorrect: Uses an incorrect multiplier or slope.",
+        "208": "Correct: Check: input 2 follows the same boxes and gives 38, as expected.",
+        "16": "Incorrect: Substitutes the wrong input value."
+      }
+    }
+  ]
+}

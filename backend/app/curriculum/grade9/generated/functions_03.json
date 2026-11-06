@@ -1,0 +1,1348 @@
+{
+  "source": "lesson-03-formulae-and-equations.md",
+  "worked": [
+    {
+      "problem": "The formula is y = 2x + 3. Calculate y when x = 4.",
+      "givens": [
+        "[0, 3]",
+        "[1, 5]",
+        "[2, 7]",
+        "[3, 9]"
+      ],
+      "actions": [
+        "Retain the given formula y = 2x + 3 and substitute x = 4.",
+        "Calculate the product or square first: 8.",
+        "Then apply +3 to obtain y = 11.",
+        "Check: x=2 in the original formula gives 7."
+      ],
+      "answer": "11",
+      "wrongs": [
+        "13",
+        "9",
+        "7"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 2,
+        "b": 3,
+        "rule": "y = 2x + 3",
+        "words": "multiply the input by 2, then add 3",
+        "known_pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "target_input": 4,
+        "target_output": 11,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 7.",
+      "id": "g9-fn-l03-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "The formula is y = 3x + 1. Calculate y when x = 5.",
+      "givens": [
+        "[0, 1]",
+        "[1, 4]",
+        "[2, 7]",
+        "[3, 10]"
+      ],
+      "actions": [
+        "Retain the given formula y = 3x + 1 and substitute x = 5.",
+        "Calculate the product or square first: 15.",
+        "Then apply +1 to obtain y = 16.",
+        "Check: x=2 in the original formula gives 7."
+      ],
+      "answer": "16",
+      "wrongs": [
+        "19",
+        "13",
+        "6"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 3,
+        "b": 1,
+        "rule": "y = 3x + 1",
+        "words": "multiply the input by 3, then add 1",
+        "known_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "target_input": 5,
+        "target_output": 16,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 7.",
+      "id": "g9-fn-l03-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "The formula is y = 4x − 2. Calculate y when x = 4.",
+      "givens": [
+        "[0, -2]",
+        "[1, 2]",
+        "[2, 6]",
+        "[3, 10]"
+      ],
+      "actions": [
+        "Retain the given formula y = 4x − 2 and substitute x = 4.",
+        "Calculate the product or square first: 16.",
+        "Then apply -2 to obtain y = 14.",
+        "Check: x=2 in the original formula gives 6."
+      ],
+      "answer": "14",
+      "wrongs": [
+        "18",
+        "10",
+        "2"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 4,
+        "b": -2,
+        "rule": "y = 4x − 2",
+        "words": "multiply the input by 4, then subtract 2",
+        "known_pairs": [
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "target_input": 4,
+        "target_output": 14,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 6.",
+      "id": "g9-fn-l03-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "The formula is y = 5x + 2. Calculate y when x = 6.",
+      "givens": [
+        "[0, 2]",
+        "[1, 7]",
+        "[2, 12]",
+        "[3, 17]"
+      ],
+      "actions": [
+        "Retain the given formula y = 5x + 2 and substitute x = 6.",
+        "Calculate the product or square first: 30.",
+        "Then apply +2 to obtain y = 32.",
+        "Check: x=2 in the original formula gives 12."
+      ],
+      "answer": "32",
+      "wrongs": [
+        "37",
+        "27",
+        "8"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 5,
+        "b": 2,
+        "rule": "y = 5x + 2",
+        "words": "multiply the input by 5, then add 2",
+        "known_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            3,
+            17
+          ]
+        ],
+        "target_input": 6,
+        "target_output": 32,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 12.",
+      "id": "g9-fn-l03-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "The formula is y = x² − 4. Calculate y when x = 7.",
+      "givens": [
+        "[0, -4]",
+        "[1, -3]",
+        "[2, 0]",
+        "[3, 5]"
+      ],
+      "actions": [
+        "Retain the given formula y = x² − 4 and substitute x = 7.",
+        "Calculate the product or square first: 49.",
+        "Then apply -4 to obtain y = 45.",
+        "Check: x=2 in the original formula gives 0."
+      ],
+      "answer": "45",
+      "wrongs": [
+        "47",
+        "43",
+        "3"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "square",
+        "a": 2,
+        "b": -4,
+        "rule": "y = x² − 4",
+        "words": "square the input, then subtract 4",
+        "known_pairs": [
+          [
+            0,
+            -4
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "target_input": 7,
+        "target_output": 45,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 0.",
+      "id": "g9-fn-l03-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "The formula is y = 3x + 5. Calculate y when x = 8.",
+      "givens": [
+        "[0, 5]",
+        "[1, 8]",
+        "[2, 11]",
+        "[3, 14]"
+      ],
+      "actions": [
+        "Retain the given formula y = 3x + 5 and substitute x = 8.",
+        "Calculate the product or square first: 24.",
+        "Then apply +5 to obtain y = 29.",
+        "Check: x=2 in the original formula gives 11."
+      ],
+      "answer": "29",
+      "wrongs": [
+        "32",
+        "26",
+        "13"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 3,
+        "b": 5,
+        "rule": "y = 3x + 5",
+        "words": "multiply the input by 3, then add 5",
+        "known_pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            14
+          ]
+        ],
+        "target_input": 8,
+        "target_output": 29,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 11.",
+      "id": "g9-fn-l03-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "The formula is y = 6x + 1. Calculate y when x = 6.",
+      "givens": [
+        "[0, 1]",
+        "[1, 7]",
+        "[2, 13]",
+        "[3, 19]"
+      ],
+      "actions": [
+        "Retain the given formula y = 6x + 1 and substitute x = 6.",
+        "Calculate the product or square first: 36.",
+        "Then apply +1 to obtain y = 37.",
+        "Check: x=2 in the original formula gives 13."
+      ],
+      "answer": "37",
+      "wrongs": [
+        "43",
+        "31",
+        "7"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 6,
+        "b": 1,
+        "rule": "y = 6x + 1",
+        "words": "multiply the input by 6, then add 1",
+        "known_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            13
+          ],
+          [
+            3,
+            19
+          ]
+        ],
+        "target_input": 6,
+        "target_output": 37,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 13.",
+      "id": "g9-fn-l03-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "The formula is y = 4x + 4. Calculate y when x = 7.",
+      "givens": [
+        "[0, 4]",
+        "[1, 8]",
+        "[2, 12]",
+        "[3, 16]"
+      ],
+      "actions": [
+        "Retain the given formula y = 4x + 4 and substitute x = 7.",
+        "Calculate the product or square first: 28.",
+        "Then apply +4 to obtain y = 32.",
+        "Check: x=2 in the original formula gives 12."
+      ],
+      "answer": "32",
+      "wrongs": [
+        "36",
+        "28",
+        "11"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 4,
+        "b": 4,
+        "rule": "y = 4x + 4",
+        "words": "multiply the input by 4, then add 4",
+        "known_pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            3,
+            16
+          ]
+        ],
+        "target_input": 7,
+        "target_output": 32,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 12.",
+      "id": "g9-fn-l03-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "The formula is y = x² − 3. Calculate y when x = 8.",
+      "givens": [
+        "[0, -3]",
+        "[1, -2]",
+        "[2, 1]",
+        "[3, 6]"
+      ],
+      "actions": [
+        "Retain the given formula y = x² − 3 and substitute x = 8.",
+        "Calculate the product or square first: 64.",
+        "Then apply -3 to obtain y = 61.",
+        "Check: x=2 in the original formula gives 1."
+      ],
+      "answer": "61",
+      "wrongs": [
+        "68",
+        "54",
+        "5"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "square",
+        "a": 7,
+        "b": -3,
+        "rule": "y = x² − 3",
+        "words": "square the input, then subtract 3",
+        "known_pairs": [
+          [
+            0,
+            -3
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "target_input": 8,
+        "target_output": 61,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 1.",
+      "id": "g9-fn-l03-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "The formula is y = 5x − 5. Calculate y when x = 9.",
+      "givens": [
+        "[0, -5]",
+        "[1, 0]",
+        "[2, 5]",
+        "[3, 10]"
+      ],
+      "actions": [
+        "Retain the given formula y = 5x − 5 and substitute x = 9.",
+        "Calculate the product or square first: 45.",
+        "Then apply -5 to obtain y = 40.",
+        "Check: x=2 in the original formula gives 5."
+      ],
+      "answer": "40",
+      "wrongs": [
+        "45",
+        "35",
+        "4"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 5,
+        "b": -5,
+        "rule": "y = 5x − 5",
+        "words": "multiply the input by 5, then subtract 5",
+        "known_pairs": [
+          [
+            0,
+            -5
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "target_input": 9,
+        "target_output": 40,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 5.",
+      "id": "g9-fn-l03-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "The formula is y = 8x + 2. Calculate y when x = 7.",
+      "givens": [
+        "[0, 2]",
+        "[1, 10]",
+        "[2, 18]",
+        "[3, 26]"
+      ],
+      "actions": [
+        "Retain the given formula y = 8x + 2 and substitute x = 7.",
+        "Calculate the product or square first: 56.",
+        "Then apply +2 to obtain y = 58.",
+        "Check: x=2 in the original formula gives 18."
+      ],
+      "answer": "58",
+      "wrongs": [
+        "66",
+        "50",
+        "9"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 8,
+        "b": 2,
+        "rule": "y = 8x + 2",
+        "words": "multiply the input by 8, then add 2",
+        "known_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            18
+          ],
+          [
+            3,
+            26
+          ]
+        ],
+        "target_input": 7,
+        "target_output": 58,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 18.",
+      "id": "g9-fn-l03-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "The formula is y = 3x − 2. Calculate y when x = 9.",
+      "givens": [
+        "[0, -2]",
+        "[1, 1]",
+        "[2, 4]",
+        "[3, 7]"
+      ],
+      "actions": [
+        "Retain the given formula y = 3x − 2 and substitute x = 9.",
+        "Calculate the product or square first: 27.",
+        "Then apply -2 to obtain y = 25.",
+        "Check: x=2 in the original formula gives 4."
+      ],
+      "answer": "25",
+      "wrongs": [
+        "28",
+        "22",
+        "7"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 3,
+        "b": -2,
+        "rule": "y = 3x − 2",
+        "words": "multiply the input by 3, then subtract 2",
+        "known_pairs": [
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "target_input": 9,
+        "target_output": 25,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 4.",
+      "id": "g9-fn-l03-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "The formula is y = x² + 4. Calculate y when x = 11.",
+      "givens": [
+        "[0, 4]",
+        "[1, 5]",
+        "[2, 8]",
+        "[3, 13]"
+      ],
+      "actions": [
+        "Retain the given formula y = x² + 4 and substitute x = 11.",
+        "Calculate the product or square first: 121.",
+        "Then apply +4 to obtain y = 125.",
+        "Check: x=2 in the original formula gives 8."
+      ],
+      "answer": "125",
+      "wrongs": [
+        "131",
+        "119",
+        "15"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "square",
+        "a": 6,
+        "b": 4,
+        "rule": "y = x² + 4",
+        "words": "square the input, then add 4",
+        "known_pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            13
+          ]
+        ],
+        "target_input": 11,
+        "target_output": 125,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 8.",
+      "id": "g9-fn-l03-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "The formula is y = 9x − 1. Calculate y when x = 12.",
+      "givens": [
+        "[0, -1]",
+        "[1, 8]",
+        "[2, 17]",
+        "[3, 26]"
+      ],
+      "actions": [
+        "Retain the given formula y = 9x − 1 and substitute x = 12.",
+        "Calculate the product or square first: 108.",
+        "Then apply -1 to obtain y = 107.",
+        "Check: x=2 in the original formula gives 17."
+      ],
+      "answer": "107",
+      "wrongs": [
+        "116",
+        "98",
+        "11"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 9,
+        "b": -1,
+        "rule": "y = 9x − 1",
+        "words": "multiply the input by 9, then subtract 1",
+        "known_pairs": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            17
+          ],
+          [
+            3,
+            26
+          ]
+        ],
+        "target_input": 12,
+        "target_output": 107,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 17.",
+      "id": "g9-fn-l03-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "The formula is y = 7x + 3. Calculate y when x = 13.",
+      "givens": [
+        "[0, 3]",
+        "[1, 10]",
+        "[2, 17]",
+        "[3, 24]"
+      ],
+      "actions": [
+        "Retain the given formula y = 7x + 3 and substitute x = 13.",
+        "Calculate the product or square first: 91.",
+        "Then apply +3 to obtain y = 94.",
+        "Check: x=2 in the original formula gives 17."
+      ],
+      "answer": "94",
+      "wrongs": [
+        "101",
+        "87",
+        "16"
+      ],
+      "wrong_methods": [
+        "Uses an incorrect adjustment or intercept.",
+        "Uses an incorrect multiplier or slope.",
+        "Substitutes the wrong input value."
+      ],
+      "visual": {
+        "family": "formula",
+        "kind": "linear",
+        "a": 7,
+        "b": 3,
+        "rule": "y = 7x + 3",
+        "words": "multiply the input by 7, then add 3",
+        "known_pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            17
+          ],
+          [
+            3,
+            24
+          ]
+        ],
+        "target_input": 13,
+        "target_output": 94,
+        "claim": null,
+        "first_error_input": null
+      },
+      "misconception": "input-output-rule",
+      "check": "Check: x=2 in the original formula gives 17.",
+      "id": "g9-fn-l03-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-fn-l03-p01",
+      "prompt": "The formula is y = 3x − 2. Calculate y when x = 6.",
+      "options": [
+        "16",
+        "19",
+        "13",
+        "4"
+      ],
+      "answer_index": 0,
+      "memo": "Retain the given formula y = 3x − 2 and substitute x = 6. Calculate the product or square first: 18. Then apply -2 to obtain y = 16. Check: x=2 in the original formula gives 4.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "16": "Correct: Check: x=2 in the original formula gives 4.",
+        "19": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "13": "Incorrect: Uses an incorrect multiplier or slope.",
+        "4": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p02",
+      "prompt": "The formula is y = 8x − 3. Calculate y when x = 7.",
+      "options": [
+        "61",
+        "53",
+        "45",
+        "4"
+      ],
+      "answer_index": 1,
+      "memo": "Retain the given formula y = 8x − 3 and substitute x = 7. Calculate the product or square first: 56. Then apply -3 to obtain y = 53. Check: x=2 in the original formula gives 13.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "61": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "53": "Correct: Check: x=2 in the original formula gives 13.",
+        "45": "Incorrect: Uses an incorrect multiplier or slope.",
+        "4": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p03",
+      "prompt": "The formula is y = 13x − 4. Calculate y when x = 8.",
+      "options": [
+        "113",
+        "87",
+        "100",
+        "4"
+      ],
+      "answer_index": 2,
+      "memo": "Retain the given formula y = 13x − 4 and substitute x = 8. Calculate the product or square first: 104. Then apply -4 to obtain y = 100. Check: x=2 in the original formula gives 22.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "113": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "87": "Incorrect: Uses an incorrect multiplier or slope.",
+        "100": "Correct: Check: x=2 in the original formula gives 22.",
+        "4": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p04",
+      "prompt": "The formula is y = 18x − 5. Calculate y when x = 6.",
+      "options": [
+        "121",
+        "85",
+        "1",
+        "103"
+      ],
+      "answer_index": 3,
+      "memo": "Retain the given formula y = 18x − 5 and substitute x = 6. Calculate the product or square first: 108. Then apply -5 to obtain y = 103. Check: x=2 in the original formula gives 31.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "121": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "85": "Incorrect: Uses an incorrect multiplier or slope.",
+        "1": "Incorrect: Substitutes the wrong input value.",
+        "103": "Correct: Check: x=2 in the original formula gives 31."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p05",
+      "prompt": "The formula is y = x² − 6. Calculate y when x = 7.",
+      "options": [
+        "43",
+        "66",
+        "20",
+        "1"
+      ],
+      "answer_index": 0,
+      "memo": "Retain the given formula y = x² − 6 and substitute x = 7. Calculate the product or square first: 49. Then apply -6 to obtain y = 43. Check: x=2 in the original formula gives -2.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "43": "Correct: Check: x=2 in the original formula gives -2.",
+        "66": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "20": "Incorrect: Uses an incorrect multiplier or slope.",
+        "1": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p06",
+      "prompt": "The formula is y = 4x + 0. Calculate y when x = 7.",
+      "options": [
+        "32",
+        "28",
+        "24",
+        "7"
+      ],
+      "answer_index": 1,
+      "memo": "Retain the given formula y = 4x + 0 and substitute x = 7. Calculate the product or square first: 28. Then apply +0 to obtain y = 28. Check: x=2 in the original formula gives 8.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "32": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "28": "Correct: Check: x=2 in the original formula gives 8.",
+        "24": "Incorrect: Uses an incorrect multiplier or slope.",
+        "7": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p07",
+      "prompt": "The formula is y = 9x − 1. Calculate y when x = 8.",
+      "options": [
+        "80",
+        "62",
+        "71",
+        "7"
+      ],
+      "answer_index": 2,
+      "memo": "Retain the given formula y = 9x − 1 and substitute x = 8. Calculate the product or square first: 72. Then apply -1 to obtain y = 71. Check: x=2 in the original formula gives 17.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "80": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "62": "Incorrect: Uses an incorrect multiplier or slope.",
+        "71": "Correct: Check: x=2 in the original formula gives 17.",
+        "7": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p08",
+      "prompt": "The formula is y = 14x − 2. Calculate y when x = 9.",
+      "options": [
+        "138",
+        "110",
+        "7",
+        "124"
+      ],
+      "answer_index": 3,
+      "memo": "Retain the given formula y = 14x − 2 and substitute x = 9. Calculate the product or square first: 126. Then apply -2 to obtain y = 124. Check: x=2 in the original formula gives 26.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "138": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "110": "Incorrect: Uses an incorrect multiplier or slope.",
+        "7": "Incorrect: Substitutes the wrong input value.",
+        "124": "Correct: Check: x=2 in the original formula gives 26."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p09",
+      "prompt": "The formula is y = 19x − 3. Calculate y when x = 7.",
+      "options": [
+        "130",
+        "149",
+        "111",
+        "4"
+      ],
+      "answer_index": 0,
+      "memo": "Retain the given formula y = 19x − 3 and substitute x = 7. Calculate the product or square first: 133. Then apply -3 to obtain y = 130. Check: x=2 in the original formula gives 35.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "130": "Correct: Check: x=2 in the original formula gives 35.",
+        "149": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "111": "Incorrect: Uses an incorrect multiplier or slope.",
+        "4": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p10",
+      "prompt": "The formula is y = x² − 4. Calculate y when x = 8.",
+      "options": [
+        "84",
+        "60",
+        "36",
+        "4"
+      ],
+      "answer_index": 1,
+      "memo": "Retain the given formula y = x² − 4 and substitute x = 8. Calculate the product or square first: 64. Then apply -4 to obtain y = 60. Check: x=2 in the original formula gives 0.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "84": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "60": "Correct: Check: x=2 in the original formula gives 0.",
+        "36": "Incorrect: Uses an incorrect multiplier or slope.",
+        "4": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p11",
+      "prompt": "The formula is y = 5x + 2. Calculate y when x = 8.",
+      "options": [
+        "47",
+        "37",
+        "42",
+        "10"
+      ],
+      "answer_index": 2,
+      "memo": "Retain the given formula y = 5x + 2 and substitute x = 8. Calculate the product or square first: 40. Then apply +2 to obtain y = 42. Check: x=2 in the original formula gives 12.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "47": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "37": "Incorrect: Uses an incorrect multiplier or slope.",
+        "42": "Correct: Check: x=2 in the original formula gives 12.",
+        "10": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p12",
+      "prompt": "The formula is y = 10x + 1. Calculate y when x = 9.",
+      "options": [
+        "101",
+        "81",
+        "10",
+        "91"
+      ],
+      "answer_index": 3,
+      "memo": "Retain the given formula y = 10x + 1 and substitute x = 9. Calculate the product or square first: 90. Then apply +1 to obtain y = 91. Check: x=2 in the original formula gives 21.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "101": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "81": "Incorrect: Uses an incorrect multiplier or slope.",
+        "10": "Incorrect: Substitutes the wrong input value.",
+        "91": "Correct: Check: x=2 in the original formula gives 21."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p13",
+      "prompt": "The formula is y = 15x + 0. Calculate y when x = 10.",
+      "options": [
+        "150",
+        "165",
+        "135",
+        "10"
+      ],
+      "answer_index": 0,
+      "memo": "Retain the given formula y = 15x + 0 and substitute x = 10. Calculate the product or square first: 150. Then apply +0 to obtain y = 150. Check: x=2 in the original formula gives 30.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "150": "Correct: Check: x=2 in the original formula gives 30.",
+        "165": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "135": "Incorrect: Uses an incorrect multiplier or slope.",
+        "10": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p14",
+      "prompt": "The formula is y = 20x − 1. Calculate y when x = 8.",
+      "options": [
+        "179",
+        "159",
+        "139",
+        "7"
+      ],
+      "answer_index": 1,
+      "memo": "Retain the given formula y = 20x − 1 and substitute x = 8. Calculate the product or square first: 160. Then apply -1 to obtain y = 159. Check: x=2 in the original formula gives 39.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "179": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "159": "Correct: Check: x=2 in the original formula gives 39.",
+        "139": "Incorrect: Uses an incorrect multiplier or slope.",
+        "7": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-p15",
+      "prompt": "The formula is y = x² − 2. Calculate y when x = 9.",
+      "options": [
+        "104",
+        "54",
+        "79",
+        "7"
+      ],
+      "answer_index": 2,
+      "memo": "Retain the given formula y = x² − 2 and substitute x = 9. Calculate the product or square first: 81. Then apply -2 to obtain y = 79. Check: x=2 in the original formula gives 2.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "104": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "54": "Incorrect: Uses an incorrect multiplier or slope.",
+        "79": "Correct: Check: x=2 in the original formula gives 2.",
+        "7": "Incorrect: Substitutes the wrong input value."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-fn-l03-m01",
+      "prompt": "The formula is y = 6x + 4. Calculate y when x = 9.",
+      "options": [
+        "58",
+        "64",
+        "52",
+        "13"
+      ],
+      "answer_index": 0,
+      "memo": "Retain the given formula y = 6x + 4 and substitute x = 9. Calculate the product or square first: 54. Then apply +4 to obtain y = 58. Check: x=2 in the original formula gives 16.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "58": "Correct: Check: x=2 in the original formula gives 16.",
+        "64": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "52": "Incorrect: Uses an incorrect multiplier or slope.",
+        "13": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-m02",
+      "prompt": "The formula is y = 11x + 3. Calculate y when x = 10.",
+      "options": [
+        "124",
+        "113",
+        "102",
+        "13"
+      ],
+      "answer_index": 1,
+      "memo": "Retain the given formula y = 11x + 3 and substitute x = 10. Calculate the product or square first: 110. Then apply +3 to obtain y = 113. Check: x=2 in the original formula gives 25.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "124": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "113": "Correct: Check: x=2 in the original formula gives 25.",
+        "102": "Incorrect: Uses an incorrect multiplier or slope.",
+        "13": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-m03",
+      "prompt": "The formula is y = 16x + 2. Calculate y when x = 11.",
+      "options": [
+        "194",
+        "162",
+        "178",
+        "13"
+      ],
+      "answer_index": 2,
+      "memo": "Retain the given formula y = 16x + 2 and substitute x = 11. Calculate the product or square first: 176. Then apply +2 to obtain y = 178. Check: x=2 in the original formula gives 34.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "194": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "162": "Incorrect: Uses an incorrect multiplier or slope.",
+        "178": "Correct: Check: x=2 in the original formula gives 34.",
+        "13": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-m04",
+      "prompt": "The formula is y = 21x + 1. Calculate y when x = 9.",
+      "options": [
+        "211",
+        "169",
+        "10",
+        "190"
+      ],
+      "answer_index": 3,
+      "memo": "Retain the given formula y = 21x + 1 and substitute x = 9. Calculate the product or square first: 189. Then apply +1 to obtain y = 190. Check: x=2 in the original formula gives 43.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "211": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "169": "Incorrect: Uses an incorrect multiplier or slope.",
+        "10": "Incorrect: Substitutes the wrong input value.",
+        "190": "Correct: Check: x=2 in the original formula gives 43."
+      }
+    },
+    {
+      "id": "g9-fn-l03-m05",
+      "prompt": "The formula is y = x² + 0. Calculate y when x = 10.",
+      "options": [
+        "100",
+        "126",
+        "74",
+        "10"
+      ],
+      "answer_index": 0,
+      "memo": "Retain the given formula y = x² + 0 and substitute x = 10. Calculate the product or square first: 100. Then apply +0 to obtain y = 100. Check: x=2 in the original formula gives 4.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "100": "Correct: Check: x=2 in the original formula gives 4.",
+        "126": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "74": "Incorrect: Uses an incorrect multiplier or slope.",
+        "10": "Incorrect: Substitutes the wrong input value."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-fn-l03-r01",
+      "prompt": "The formula is y = 7x + 6. Calculate y when x = 10.",
+      "options": [
+        "76",
+        "83",
+        "69",
+        "16"
+      ],
+      "answer_index": 0,
+      "memo": "Retain the given formula y = 7x + 6 and substitute x = 10. Calculate the product or square first: 70. Then apply +6 to obtain y = 76. Check: x=2 in the original formula gives 20.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "76": "Correct: Check: x=2 in the original formula gives 20.",
+        "83": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "69": "Incorrect: Uses an incorrect multiplier or slope.",
+        "16": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-r02",
+      "prompt": "The formula is y = 12x + 5. Calculate y when x = 11.",
+      "options": [
+        "149",
+        "137",
+        "125",
+        "16"
+      ],
+      "answer_index": 1,
+      "memo": "Retain the given formula y = 12x + 5 and substitute x = 11. Calculate the product or square first: 132. Then apply +5 to obtain y = 137. Check: x=2 in the original formula gives 29.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "149": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "137": "Correct: Check: x=2 in the original formula gives 29.",
+        "125": "Incorrect: Uses an incorrect multiplier or slope.",
+        "16": "Incorrect: Substitutes the wrong input value."
+      }
+    },
+    {
+      "id": "g9-fn-l03-r03",
+      "prompt": "The formula is y = 17x + 4. Calculate y when x = 12.",
+      "options": [
+        "225",
+        "191",
+        "208",
+        "16"
+      ],
+      "answer_index": 2,
+      "memo": "Retain the given formula y = 17x + 4 and substitute x = 12. Calculate the product or square first: 204. Then apply +4 to obtain y = 208. Check: x=2 in the original formula gives 38.",
+      "misconception": "input-output-rule",
+      "option_rationales": {
+        "225": "Incorrect: Uses an incorrect adjustment or intercept.",
+        "191": "Incorrect: Uses an incorrect multiplier or slope.",
+        "208": "Correct: Check: x=2 in the original formula gives 38.",
+        "16": "Incorrect: Substitutes the wrong input value."
+      }
+    }
+  ]
+}

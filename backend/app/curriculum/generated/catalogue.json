@@ -1129,6 +1129,56 @@
               "source_document": "lesson-05-justifying-and-diagnosing-pattern-rules.md"
             }
           ]
+        },
+        {
+          "topic_id": "functions-relationships",
+          "topic_number": 5,
+          "title": "Functions and Relationships",
+          "paper": null,
+          "expected_lesson_count": 5,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-functions-01",
+              "position": 1,
+              "title": "Flow diagrams and output values",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01-flow-diagrams-and-output-values.md"
+            },
+            {
+              "lesson_id": "g9-functions-02",
+              "position": 2,
+              "title": "Input-output tables and inverse lookup",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02-input-output-tables-and-inverse-lookup.md"
+            },
+            {
+              "lesson_id": "g9-functions-03",
+              "position": 3,
+              "title": "Formulae and equations",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03-formulae-and-equations.md"
+            },
+            {
+              "lesson_id": "g9-functions-04",
+              "position": 4,
+              "title": "Equivalent words, tables, formulae and graphs",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04-equivalent-words-tables-formulae-and-graphs.md"
+            },
+            {
+              "lesson_id": "g9-functions-05",
+              "position": 5,
+              "title": "Mixed representations and first-error repair",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05-mixed-representations-and-first-error-repair.md"
+            }
+          ]
         }
       ]
     },

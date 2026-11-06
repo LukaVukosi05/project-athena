@@ -1,0 +1,12 @@
+.g9-fn-board{display:grid;min-width:0;gap:.7rem;padding:.8rem;border:1px solid #bbd7df;border-radius:14px;background:linear-gradient(140deg,#f2f9fc,#fff)}
+.g9-fn-question{margin:0;color:#10243f;font-weight:750}.g9-fn-model{min-width:0;overflow-x:auto}
+.g9-fn-flow,.g9-fn-formula,.g9-fn-linked{display:flex;align-items:center;gap:.65rem;flex-wrap:wrap}
+.g9-fn-flow span,.g9-fn-formula>*{padding:.5rem;border:1px solid #c0d9e0;border-radius:9px;background:#fff}
+.g9-fn-table{display:grid;grid-template-columns:repeat(2,minmax(70px,1fr));min-width:165px;max-width:235px;gap:2px;background:#c2d8e0;border:1px solid #c2d8e0;border-radius:8px;overflow:hidden}
+.g9-fn-table>div{background:#fff;padding:.35rem .5rem;text-align:center}.g9-fn-table .g9-fn-head{background:#dcebf0;font-weight:700}
+.g9-fn-linked{align-items:flex-start}.g9-fn-linked svg{flex:1 1 320px;max-width:540px;min-width:300px;max-height:320px;background:#fff;border-radius:8px;border:1px solid #c6dce1}
+.g9-fn-linked svg text{fill:#294e61;font-size:9px}.g9-fn-linked svg .g9-fn-grid{stroke:#d9e8e8;stroke-width:.8}
+.g9-fn-linked svg .g9-fn-axis{stroke:#426577;stroke-width:1.6}.g9-fn-linked svg circle{fill:#087d86}.g9-fn-linked svg .g9-fn-line{stroke:#c95732;stroke-width:2.5}
+.g9-fn-diagnosis p{margin:.4rem 0}.g9-fn-answer{min-height:1.2em;margin:0;font-weight:750}.g9-fn-action{min-height:1.5em;overflow-wrap:anywhere}.g9-fn-action>div:empty{display:none}
+@media(max-width:520px){.g9-fn-board{padding:.45rem}.g9-fn-linked svg{min-width:280px}.g9-fn-flow{gap:.3rem}}
+.g9-fn-flow .is-current,.g9-fn-formula .is-current,.g9-fn-table .is-current{background:#dff3f1;outline:2px solid #138891;outline-offset:-2px}
