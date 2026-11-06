@@ -1,0 +1,1120 @@
+{
+  "source": "lesson-07-difference-of-two-squares.md",
+  "worked": [
+    {
+      "problem": "Factorise 9×x² − 4 completely.",
+      "actions": [
+        "Identify 9×x² − 4 as a difference of two squares.",
+        "The remaining square roots are 3×x and 2; form the conjugates 3×x − 2 and 3×x + 2.",
+        "Keep the extracted factor: (3×x − 2)×(3×x + 2).",
+        "Check by expanding the brackets: 9×x² − 4, the original expression."
+      ],
+      "answer": "(3×x − 2)×(3×x + 2)",
+      "wrongs": [
+        "(3×x − 2)×(3×x − 2)",
+        "(3×x + 2)×(3×x + 2)",
+        "(3×x − 2)×(3×x + 3)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "9×x²",
+          "4"
+        ],
+        "restriction": "",
+        "answer": "(3×x − 2)×(3×x + 2)",
+        "rows": [
+          "9×x²",
+          "4"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": [
+          "3×x − 2",
+          "3×x + 2"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 9×x² − 4, the original expression.",
+      "id": "g9-aex-l07-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Factorise 16×x² − 9 completely.",
+      "actions": [
+        "Identify 16×x² − 9 as a difference of two squares.",
+        "The remaining square roots are 4×x and 3; form the conjugates 4×x − 3 and 4×x + 3.",
+        "Keep the extracted factor: (4×x − 3)×(4×x + 3).",
+        "Check by expanding the brackets: 16×x² − 9, the original expression."
+      ],
+      "answer": "(4×x − 3)×(4×x + 3)",
+      "wrongs": [
+        "(4×x − 3)×(4×x − 3)",
+        "(4×x + 3)×(4×x + 3)",
+        "(4×x − 3)×(4×x + 4)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "16×x²",
+          "9"
+        ],
+        "restriction": "",
+        "answer": "(4×x − 3)×(4×x + 3)",
+        "rows": [
+          "16×x²",
+          "9"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": [
+          "4×x − 3",
+          "4×x + 3"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 16×x² − 9, the original expression.",
+      "id": "g9-aex-l07-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Factorise 25×x² − 16 completely.",
+      "actions": [
+        "Identify 25×x² − 16 as a difference of two squares.",
+        "The remaining square roots are 5×x and 4; form the conjugates 5×x − 4 and 5×x + 4.",
+        "Keep the extracted factor: (5×x − 4)×(5×x + 4).",
+        "Check by expanding the brackets: 25×x² − 16, the original expression."
+      ],
+      "answer": "(5×x − 4)×(5×x + 4)",
+      "wrongs": [
+        "(5×x − 4)×(5×x − 4)",
+        "(5×x + 4)×(5×x + 4)",
+        "(5×x − 4)×(5×x + 5)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "25×x²",
+          "16"
+        ],
+        "restriction": "",
+        "answer": "(5×x − 4)×(5×x + 4)",
+        "rows": [
+          "25×x²",
+          "16"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": [
+          "5×x − 4",
+          "5×x + 4"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 25×x² − 16, the original expression.",
+      "id": "g9-aex-l07-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Factorise 36×x² − 25 completely.",
+      "actions": [
+        "Identify 36×x² − 25 as a difference of two squares.",
+        "The remaining square roots are 6×x and 5; form the conjugates 6×x − 5 and 6×x + 5.",
+        "Keep the extracted factor: (6×x − 5)×(6×x + 5).",
+        "Check by expanding the brackets: 36×x² − 25, the original expression."
+      ],
+      "answer": "(6×x − 5)×(6×x + 5)",
+      "wrongs": [
+        "(6×x − 5)×(6×x − 5)",
+        "(6×x + 5)×(6×x + 5)",
+        "(6×x − 5)×(6×x + 6)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "36×x²",
+          "25"
+        ],
+        "restriction": "",
+        "answer": "(6×x − 5)×(6×x + 5)",
+        "rows": [
+          "36×x²",
+          "25"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": [
+          "6×x − 5",
+          "6×x + 5"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 36×x² − 25, the original expression.",
+      "id": "g9-aex-l07-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Factorise 4×x² − 36 completely.",
+      "actions": [
+        "Extract the greatest common numerical factor 4 from 4×x² − 36.",
+        "The remaining square roots are x and 3; form the conjugates x − 3 and x + 3.",
+        "Keep the extracted factor: 4×(x − 3)×(x + 3).",
+        "Check by expanding the brackets: 4×x² − 36, the original expression."
+      ],
+      "answer": "4×(x − 3)×(x + 3)",
+      "wrongs": [
+        "(x − 3)×(x − 3)",
+        "(x + 3)×(x + 3)",
+        "(x − 3)×(x + 4)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "4×x²",
+          "36"
+        ],
+        "restriction": "",
+        "answer": "4×(x − 3)×(x + 3)",
+        "rows": [
+          "4×x²",
+          "36"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": [
+          "x − 3",
+          "x + 3"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 4×x² − 36, the original expression.",
+      "id": "g9-aex-l07-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Factorise 9×x² − 49 completely.",
+      "actions": [
+        "Identify 9×x² − 49 as a difference of two squares.",
+        "The remaining square roots are 3×x and 7; form the conjugates 3×x − 7 and 3×x + 7.",
+        "Keep the extracted factor: (3×x − 7)×(3×x + 7).",
+        "Check by expanding the brackets: 9×x² − 49, the original expression."
+      ],
+      "answer": "(3×x − 7)×(3×x + 7)",
+      "wrongs": [
+        "(3×x − 7)×(3×x − 7)",
+        "(3×x + 7)×(3×x + 7)",
+        "(3×x − 7)×(3×x + 8)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "9×x²",
+          "49"
+        ],
+        "restriction": "",
+        "answer": "(3×x − 7)×(3×x + 7)",
+        "rows": [
+          "9×x²",
+          "49"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": [
+          "3×x − 7",
+          "3×x + 7"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 9×x² − 49, the original expression.",
+      "id": "g9-aex-l07-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Factorise 16×x² − 1 completely.",
+      "actions": [
+        "Identify 16×x² − 1 as a difference of two squares.",
+        "The remaining square roots are 4×x and 1; form the conjugates 4×x − 1 and 4×x + 1.",
+        "Keep the extracted factor: (4×x − 1)×(4×x + 1).",
+        "Check by expanding the brackets: 16×x² − 1, the original expression."
+      ],
+      "answer": "(4×x − 1)×(4×x + 1)",
+      "wrongs": [
+        "(4×x − 1)×(4×x − 1)",
+        "(4×x + 1)×(4×x + 1)",
+        "(4×x − 1)×(4×x + 2)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "16×x²",
+          "1"
+        ],
+        "restriction": "",
+        "answer": "(4×x − 1)×(4×x + 1)",
+        "rows": [
+          "16×x²",
+          "1"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": [
+          "4×x − 1",
+          "4×x + 1"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 16×x² − 1, the original expression.",
+      "id": "g9-aex-l07-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Factorise 25×x² − 4 completely.",
+      "actions": [
+        "Identify 25×x² − 4 as a difference of two squares.",
+        "The remaining square roots are 5×x and 2; form the conjugates 5×x − 2 and 5×x + 2.",
+        "Keep the extracted factor: (5×x − 2)×(5×x + 2).",
+        "Check by expanding the brackets: 25×x² − 4, the original expression."
+      ],
+      "answer": "(5×x − 2)×(5×x + 2)",
+      "wrongs": [
+        "(5×x − 2)×(5×x − 2)",
+        "(5×x + 2)×(5×x + 2)",
+        "(5×x − 2)×(5×x + 3)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "25×x²",
+          "4"
+        ],
+        "restriction": "",
+        "answer": "(5×x − 2)×(5×x + 2)",
+        "rows": [
+          "25×x²",
+          "4"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": [
+          "5×x − 2",
+          "5×x + 2"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 25×x² − 4, the original expression.",
+      "id": "g9-aex-l07-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Factorise 36×x² − 9 completely.",
+      "actions": [
+        "Extract the greatest common numerical factor 9 from 36×x² − 9.",
+        "The remaining square roots are 2×x and 1; form the conjugates 2×x − 1 and 2×x + 1.",
+        "Keep the extracted factor: 9×(2×x − 1)×(2×x + 1).",
+        "Check by expanding the brackets: 36×x² − 9, the original expression."
+      ],
+      "answer": "9×(2×x − 1)×(2×x + 1)",
+      "wrongs": [
+        "(2×x − 1)×(2×x − 1)",
+        "(2×x + 1)×(2×x + 1)",
+        "(2×x − 1)×(2×x + 2)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "36×x²",
+          "9"
+        ],
+        "restriction": "",
+        "answer": "9×(2×x − 1)×(2×x + 1)",
+        "rows": [
+          "36×x²",
+          "9"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": [
+          "2×x − 1",
+          "2×x + 1"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 36×x² − 9, the original expression.",
+      "id": "g9-aex-l07-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Factorise 4×x² − 16 completely.",
+      "actions": [
+        "Extract the greatest common numerical factor 4 from 4×x² − 16.",
+        "The remaining square roots are x and 2; form the conjugates x − 2 and x + 2.",
+        "Keep the extracted factor: 4×(x − 2)×(x + 2).",
+        "Check by expanding the brackets: 4×x² − 16, the original expression."
+      ],
+      "answer": "4×(x − 2)×(x + 2)",
+      "wrongs": [
+        "(x − 2)×(x − 2)",
+        "(x + 2)×(x + 2)",
+        "(x − 2)×(x + 3)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "4×x²",
+          "16"
+        ],
+        "restriction": "",
+        "answer": "4×(x − 2)×(x + 2)",
+        "rows": [
+          "4×x²",
+          "16"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": [
+          "x − 2",
+          "x + 2"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 4×x² − 16, the original expression.",
+      "id": "g9-aex-l07-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Factorise 9×x² − 25 completely.",
+      "actions": [
+        "Identify 9×x² − 25 as a difference of two squares.",
+        "The remaining square roots are 3×x and 5; form the conjugates 3×x − 5 and 3×x + 5.",
+        "Keep the extracted factor: (3×x − 5)×(3×x + 5).",
+        "Check by expanding the brackets: 9×x² − 25, the original expression."
+      ],
+      "answer": "(3×x − 5)×(3×x + 5)",
+      "wrongs": [
+        "(3×x − 5)×(3×x − 5)",
+        "(3×x + 5)×(3×x + 5)",
+        "(3×x − 5)×(3×x + 6)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "9×x²",
+          "25"
+        ],
+        "restriction": "",
+        "answer": "(3×x − 5)×(3×x + 5)",
+        "rows": [
+          "9×x²",
+          "25"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": [
+          "3×x − 5",
+          "3×x + 5"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 9×x² − 25, the original expression.",
+      "id": "g9-aex-l07-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Factorise 32×x² − 72 completely.",
+      "actions": [
+        "Extract the greatest common numerical factor 8 from 32×x² − 72.",
+        "The remaining square roots are 2×x and 3; form the conjugates 2×x − 3 and 2×x + 3.",
+        "Keep the extracted factor: 8×(2×x − 3)×(2×x + 3).",
+        "Check by expanding the brackets: 32×x² − 72, the original expression."
+      ],
+      "answer": "8×(2×x − 3)×(2×x + 3)",
+      "wrongs": [
+        "(2×x − 3)×(2×x − 3)",
+        "(2×x + 3)×(2×x + 3)",
+        "(2×x − 3)×(2×x + 4)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "16×x²",
+          "36",
+          "2"
+        ],
+        "restriction": "",
+        "answer": "8×(2×x − 3)×(2×x + 3)",
+        "rows": [
+          "16×x²",
+          "36"
+        ],
+        "columns": [
+          "2"
+        ],
+        "factor": null,
+        "conjugates": [
+          "2×x − 3",
+          "2×x + 3"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 32×x² − 72, the original expression.",
+      "id": "g9-aex-l07-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Factorise 75×x² − 147 completely.",
+      "actions": [
+        "Extract the greatest common numerical factor 3 from 75×x² − 147.",
+        "The remaining square roots are 5×x and 7; form the conjugates 5×x − 7 and 5×x + 7.",
+        "Keep the extracted factor: 3×(5×x − 7)×(5×x + 7).",
+        "Check by expanding the brackets: 75×x² − 147, the original expression."
+      ],
+      "answer": "3×(5×x − 7)×(5×x + 7)",
+      "wrongs": [
+        "(5×x − 7)×(5×x − 7)",
+        "(5×x + 7)×(5×x + 7)",
+        "(5×x − 7)×(5×x + 8)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "25×x²",
+          "49",
+          "3"
+        ],
+        "restriction": "",
+        "answer": "3×(5×x − 7)×(5×x + 7)",
+        "rows": [
+          "25×x²",
+          "49"
+        ],
+        "columns": [
+          "3"
+        ],
+        "factor": null,
+        "conjugates": [
+          "5×x − 7",
+          "5×x + 7"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 75×x² − 147, the original expression.",
+      "id": "g9-aex-l07-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Factorise 144×x² − 4 completely.",
+      "actions": [
+        "Extract the greatest common numerical factor 4 from 144×x² − 4.",
+        "The remaining square roots are 6×x and 1; form the conjugates 6×x − 1 and 6×x + 1.",
+        "Keep the extracted factor: 4×(6×x − 1)×(6×x + 1).",
+        "Check by expanding the brackets: 144×x² − 4, the original expression."
+      ],
+      "answer": "4×(6×x − 1)×(6×x + 1)",
+      "wrongs": [
+        "(6×x − 1)×(6×x − 1)",
+        "(6×x + 1)×(6×x + 1)",
+        "(6×x − 1)×(6×x + 2)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "36×x²",
+          "1",
+          "4"
+        ],
+        "restriction": "",
+        "answer": "4×(6×x − 1)×(6×x + 1)",
+        "rows": [
+          "36×x²",
+          "1"
+        ],
+        "columns": [
+          "4"
+        ],
+        "factor": null,
+        "conjugates": [
+          "6×x − 1",
+          "6×x + 1"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 144×x² − 4, the original expression.",
+      "id": "g9-aex-l07-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Factorise 8×x² − 8 completely.",
+      "actions": [
+        "Extract the greatest common numerical factor 8 from 8×x² − 8.",
+        "The remaining square roots are x and 1; form the conjugates x − 1 and x + 1.",
+        "Keep the extracted factor: 8×(x − 1)×(x + 1).",
+        "Check by expanding the brackets: 8×x² − 8, the original expression."
+      ],
+      "answer": "8×(x − 1)×(x + 1)",
+      "wrongs": [
+        "(x − 1)×(x − 1)",
+        "(x + 1)×(x + 1)",
+        "(x − 1)×(x + 2)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "difference_squares",
+        "givens": [
+          "4×x²",
+          "4",
+          "2"
+        ],
+        "restriction": "",
+        "answer": "8×(x − 1)×(x + 1)",
+        "rows": [
+          "4×x²",
+          "4"
+        ],
+        "columns": [
+          "2"
+        ],
+        "factor": null,
+        "conjugates": [
+          "x − 1",
+          "x + 1"
+        ],
+        "claim": null
+      },
+      "misconception": "expressions-difference_squares",
+      "check": "Check by expanding the brackets: 8×x² − 8, the original expression.",
+      "id": "g9-aex-l07-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-aex-l07-p01",
+      "prompt": "Factorise 27×x² − 27 completely.",
+      "options": [
+        "27×(x − 1)×(x + 1)",
+        "(x − 1)×(x − 1)",
+        "(x + 1)×(x + 1)",
+        "(x − 1)×(x + 2)"
+      ],
+      "answer_index": 0,
+      "memo": "Extract the greatest common numerical factor 27 from 27×x² − 27. The remaining square roots are x and 1; form the conjugates x − 1 and x + 1. Keep the extracted factor: 27×(x − 1)×(x + 1). Check by expanding the brackets: 27×x² − 27, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "27×(x − 1)×(x + 1)": "Correct: Check by expanding the brackets: 27×x² − 27, the original expression.",
+        "(x − 1)×(x − 1)": "Incorrect: A term or factor was omitted.",
+        "(x + 1)×(x + 1)": "Incorrect: A sign or factor was changed.",
+        "(x − 1)×(x + 2)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p02",
+      "prompt": "Factorise 64×x² − 64 completely.",
+      "options": [
+        "(x − 1)×(x − 1)",
+        "64×(x − 1)×(x + 1)",
+        "(x + 1)×(x + 1)",
+        "(x − 1)×(x + 2)"
+      ],
+      "answer_index": 1,
+      "memo": "Extract the greatest common numerical factor 64 from 64×x² − 64. The remaining square roots are x and 1; form the conjugates x − 1 and x + 1. Keep the extracted factor: 64×(x − 1)×(x + 1). Check by expanding the brackets: 64×x² − 64, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(x − 1)×(x − 1)": "Incorrect: A term or factor was omitted.",
+        "64×(x − 1)×(x + 1)": "Correct: Check by expanding the brackets: 64×x² − 64, the original expression.",
+        "(x + 1)×(x + 1)": "Incorrect: A sign or factor was changed.",
+        "(x − 1)×(x + 2)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p03",
+      "prompt": "Factorise 50×x² − 50 completely.",
+      "options": [
+        "(x − 1)×(x − 1)",
+        "(x + 1)×(x + 1)",
+        "50×(x − 1)×(x + 1)",
+        "(x − 1)×(x + 2)"
+      ],
+      "answer_index": 2,
+      "memo": "Extract the greatest common numerical factor 50 from 50×x² − 50. The remaining square roots are x and 1; form the conjugates x − 1 and x + 1. Keep the extracted factor: 50×(x − 1)×(x + 1). Check by expanding the brackets: 50×x² − 50, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(x − 1)×(x − 1)": "Incorrect: A term or factor was omitted.",
+        "(x + 1)×(x + 1)": "Incorrect: A sign or factor was changed.",
+        "50×(x − 1)×(x + 1)": "Correct: Check by expanding the brackets: 50×x² − 50, the original expression.",
+        "(x − 1)×(x + 2)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p04",
+      "prompt": "Factorise 108×x² − 108 completely.",
+      "options": [
+        "(x − 1)×(x − 1)",
+        "(x + 1)×(x + 1)",
+        "(x − 1)×(x + 2)",
+        "108×(x − 1)×(x + 1)"
+      ],
+      "answer_index": 3,
+      "memo": "Extract the greatest common numerical factor 108 from 108×x² − 108. The remaining square roots are x and 1; form the conjugates x − 1 and x + 1. Keep the extracted factor: 108×(x − 1)×(x + 1). Check by expanding the brackets: 108×x² − 108, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(x − 1)×(x − 1)": "Incorrect: A term or factor was omitted.",
+        "(x + 1)×(x + 1)": "Incorrect: A sign or factor was changed.",
+        "(x − 1)×(x + 2)": "Incorrect: The original restriction or operation was lost.",
+        "108×(x − 1)×(x + 1)": "Correct: Check by expanding the brackets: 108×x² − 108, the original expression."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p05",
+      "prompt": "Factorise 16×x² − 196 completely.",
+      "options": [
+        "4×(2×x − 7)×(2×x + 7)",
+        "(2×x − 7)×(2×x − 7)",
+        "(2×x + 7)×(2×x + 7)",
+        "(2×x − 7)×(2×x + 8)"
+      ],
+      "answer_index": 0,
+      "memo": "Extract the greatest common numerical factor 4 from 16×x² − 196. The remaining square roots are 2×x and 7; form the conjugates 2×x − 7 and 2×x + 7. Keep the extracted factor: 4×(2×x − 7)×(2×x + 7). Check by expanding the brackets: 16×x² − 196, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "4×(2×x − 7)×(2×x + 7)": "Correct: Check by expanding the brackets: 16×x² − 196, the original expression.",
+        "(2×x − 7)×(2×x − 7)": "Incorrect: A term or factor was omitted.",
+        "(2×x + 7)×(2×x + 7)": "Incorrect: A sign or factor was changed.",
+        "(2×x − 7)×(2×x + 8)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p06",
+      "prompt": "Factorise 18×x² − 2 completely.",
+      "options": [
+        "(3×x − 1)×(3×x − 1)",
+        "2×(3×x − 1)×(3×x + 1)",
+        "(3×x + 1)×(3×x + 1)",
+        "(3×x − 1)×(3×x + 2)"
+      ],
+      "answer_index": 1,
+      "memo": "Extract the greatest common numerical factor 2 from 18×x² − 2. The remaining square roots are 3×x and 1; form the conjugates 3×x − 1 and 3×x + 1. Keep the extracted factor: 2×(3×x − 1)×(3×x + 1). Check by expanding the brackets: 18×x² − 2, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(3×x − 1)×(3×x − 1)": "Incorrect: A term or factor was omitted.",
+        "2×(3×x − 1)×(3×x + 1)": "Correct: Check by expanding the brackets: 18×x² − 2, the original expression.",
+        "(3×x + 1)×(3×x + 1)": "Incorrect: A sign or factor was changed.",
+        "(3×x − 1)×(3×x + 2)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p07",
+      "prompt": "Factorise 48×x² − 12 completely.",
+      "options": [
+        "(2×x − 1)×(2×x − 1)",
+        "(2×x + 1)×(2×x + 1)",
+        "12×(2×x − 1)×(2×x + 1)",
+        "(2×x − 1)×(2×x + 2)"
+      ],
+      "answer_index": 2,
+      "memo": "Extract the greatest common numerical factor 12 from 48×x² − 12. The remaining square roots are 2×x and 1; form the conjugates 2×x − 1 and 2×x + 1. Keep the extracted factor: 12×(2×x − 1)×(2×x + 1). Check by expanding the brackets: 48×x² − 12, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(2×x − 1)×(2×x − 1)": "Incorrect: A term or factor was omitted.",
+        "(2×x + 1)×(2×x + 1)": "Incorrect: A sign or factor was changed.",
+        "12×(2×x − 1)×(2×x + 1)": "Correct: Check by expanding the brackets: 48×x² − 12, the original expression.",
+        "(2×x − 1)×(2×x + 2)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p08",
+      "prompt": "Factorise 100×x² − 36 completely.",
+      "options": [
+        "(5×x − 3)×(5×x − 3)",
+        "(5×x + 3)×(5×x + 3)",
+        "(5×x − 3)×(5×x + 4)",
+        "4×(5×x − 3)×(5×x + 3)"
+      ],
+      "answer_index": 3,
+      "memo": "Extract the greatest common numerical factor 4 from 100×x² − 36. The remaining square roots are 5×x and 3; form the conjugates 5×x − 3 and 5×x + 3. Keep the extracted factor: 4×(5×x − 3)×(5×x + 3). Check by expanding the brackets: 100×x² − 36, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(5×x − 3)×(5×x − 3)": "Incorrect: A term or factor was omitted.",
+        "(5×x + 3)×(5×x + 3)": "Incorrect: A sign or factor was changed.",
+        "(5×x − 3)×(5×x + 4)": "Incorrect: The original restriction or operation was lost.",
+        "4×(5×x − 3)×(5×x + 3)": "Correct: Check by expanding the brackets: 100×x² − 36, the original expression."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p09",
+      "prompt": "Factorise 72×x² − 32 completely.",
+      "options": [
+        "8×(3×x − 2)×(3×x + 2)",
+        "(3×x − 2)×(3×x − 2)",
+        "(3×x + 2)×(3×x + 2)",
+        "(3×x − 2)×(3×x + 3)"
+      ],
+      "answer_index": 0,
+      "memo": "Extract the greatest common numerical factor 8 from 72×x² − 32. The remaining square roots are 3×x and 2; form the conjugates 3×x − 2 and 3×x + 2. Keep the extracted factor: 8×(3×x − 2)×(3×x + 2). Check by expanding the brackets: 72×x² − 32, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "8×(3×x − 2)×(3×x + 2)": "Correct: Check by expanding the brackets: 72×x² − 32, the original expression.",
+        "(3×x − 2)×(3×x − 2)": "Incorrect: A term or factor was omitted.",
+        "(3×x + 2)×(3×x + 2)": "Incorrect: A sign or factor was changed.",
+        "(3×x − 2)×(3×x + 3)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p10",
+      "prompt": "Factorise 12×x² − 75 completely.",
+      "options": [
+        "(2×x − 5)×(2×x − 5)",
+        "3×(2×x − 5)×(2×x + 5)",
+        "(2×x + 5)×(2×x + 5)",
+        "(2×x − 5)×(2×x + 6)"
+      ],
+      "answer_index": 1,
+      "memo": "Extract the greatest common numerical factor 3 from 12×x² − 75. The remaining square roots are 2×x and 5; form the conjugates 2×x − 5 and 2×x + 5. Keep the extracted factor: 3×(2×x − 5)×(2×x + 5). Check by expanding the brackets: 12×x² − 75, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(2×x − 5)×(2×x − 5)": "Incorrect: A term or factor was omitted.",
+        "3×(2×x − 5)×(2×x + 5)": "Correct: Check by expanding the brackets: 12×x² − 75, the original expression.",
+        "(2×x + 5)×(2×x + 5)": "Incorrect: A sign or factor was changed.",
+        "(2×x − 5)×(2×x + 6)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p11",
+      "prompt": "Factorise 36×x² − 144 completely.",
+      "options": [
+        "(x − 2)×(x − 2)",
+        "(x + 2)×(x + 2)",
+        "36×(x − 2)×(x + 2)",
+        "(x − 2)×(x + 3)"
+      ],
+      "answer_index": 2,
+      "memo": "Extract the greatest common numerical factor 36 from 36×x² − 144. The remaining square roots are x and 2; form the conjugates x − 2 and x + 2. Keep the extracted factor: 36×(x − 2)×(x + 2). Check by expanding the brackets: 36×x² − 144, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(x − 2)×(x − 2)": "Incorrect: A term or factor was omitted.",
+        "(x + 2)×(x + 2)": "Incorrect: A sign or factor was changed.",
+        "36×(x − 2)×(x + 2)": "Correct: Check by expanding the brackets: 36×x² − 144, the original expression.",
+        "(x − 2)×(x + 3)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p12",
+      "prompt": "Factorise 32×x² − 98 completely.",
+      "options": [
+        "(4×x − 7)×(4×x − 7)",
+        "(4×x + 7)×(4×x + 7)",
+        "(4×x − 7)×(4×x + 8)",
+        "2×(4×x − 7)×(4×x + 7)"
+      ],
+      "answer_index": 3,
+      "memo": "Extract the greatest common numerical factor 2 from 32×x² − 98. The remaining square roots are 4×x and 7; form the conjugates 4×x − 7 and 4×x + 7. Keep the extracted factor: 2×(4×x − 7)×(4×x + 7). Check by expanding the brackets: 32×x² − 98, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(4×x − 7)×(4×x − 7)": "Incorrect: A term or factor was omitted.",
+        "(4×x + 7)×(4×x + 7)": "Incorrect: A sign or factor was changed.",
+        "(4×x − 7)×(4×x + 8)": "Incorrect: The original restriction or operation was lost.",
+        "2×(4×x − 7)×(4×x + 7)": "Correct: Check by expanding the brackets: 32×x² − 98, the original expression."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p13",
+      "prompt": "Factorise 75×x² − 3 completely.",
+      "options": [
+        "3×(5×x − 1)×(5×x + 1)",
+        "(5×x − 1)×(5×x − 1)",
+        "(5×x + 1)×(5×x + 1)",
+        "(5×x − 1)×(5×x + 2)"
+      ],
+      "answer_index": 0,
+      "memo": "Extract the greatest common numerical factor 3 from 75×x² − 3. The remaining square roots are 5×x and 1; form the conjugates 5×x − 1 and 5×x + 1. Keep the extracted factor: 3×(5×x − 1)×(5×x + 1). Check by expanding the brackets: 75×x² − 3, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "3×(5×x − 1)×(5×x + 1)": "Correct: Check by expanding the brackets: 75×x² − 3, the original expression.",
+        "(5×x − 1)×(5×x − 1)": "Incorrect: A term or factor was omitted.",
+        "(5×x + 1)×(5×x + 1)": "Incorrect: A sign or factor was changed.",
+        "(5×x − 1)×(5×x + 2)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p14",
+      "prompt": "Factorise 144×x² − 16 completely.",
+      "options": [
+        "(3×x − 1)×(3×x − 1)",
+        "16×(3×x − 1)×(3×x + 1)",
+        "(3×x + 1)×(3×x + 1)",
+        "(3×x − 1)×(3×x + 2)"
+      ],
+      "answer_index": 1,
+      "memo": "Extract the greatest common numerical factor 16 from 144×x² − 16. The remaining square roots are 3×x and 1; form the conjugates 3×x − 1 and 3×x + 1. Keep the extracted factor: 16×(3×x − 1)×(3×x + 1). Check by expanding the brackets: 144×x² − 16, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(3×x − 1)×(3×x − 1)": "Incorrect: A term or factor was omitted.",
+        "16×(3×x − 1)×(3×x + 1)": "Correct: Check by expanding the brackets: 144×x² − 16, the original expression.",
+        "(3×x + 1)×(3×x + 1)": "Incorrect: A sign or factor was changed.",
+        "(3×x − 1)×(3×x + 2)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-p15",
+      "prompt": "Factorise 8×x² − 18 completely.",
+      "options": [
+        "(2×x − 3)×(2×x − 3)",
+        "(2×x + 3)×(2×x + 3)",
+        "2×(2×x − 3)×(2×x + 3)",
+        "(2×x − 3)×(2×x + 4)"
+      ],
+      "answer_index": 2,
+      "memo": "Extract the greatest common numerical factor 2 from 8×x² − 18. The remaining square roots are 2×x and 3; form the conjugates 2×x − 3 and 2×x + 3. Keep the extracted factor: 2×(2×x − 3)×(2×x + 3). Check by expanding the brackets: 8×x² − 18, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(2×x − 3)×(2×x − 3)": "Incorrect: A term or factor was omitted.",
+        "(2×x + 3)×(2×x + 3)": "Incorrect: A sign or factor was changed.",
+        "2×(2×x − 3)×(2×x + 3)": "Correct: Check by expanding the brackets: 8×x² − 18, the original expression.",
+        "(2×x − 3)×(2×x + 4)": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-aex-l07-m01",
+      "prompt": "Factorise 27×x² − 48 completely.",
+      "options": [
+        "3×(3×x − 4)×(3×x + 4)",
+        "(3×x − 4)×(3×x − 4)",
+        "(3×x + 4)×(3×x + 4)",
+        "(3×x − 4)×(3×x + 5)"
+      ],
+      "answer_index": 0,
+      "memo": "Extract the greatest common numerical factor 3 from 27×x² − 48. The remaining square roots are 3×x and 4; form the conjugates 3×x − 4 and 3×x + 4. Keep the extracted factor: 3×(3×x − 4)×(3×x + 4). Check by expanding the brackets: 27×x² − 48, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "3×(3×x − 4)×(3×x + 4)": "Correct: Check by expanding the brackets: 27×x² − 48, the original expression.",
+        "(3×x − 4)×(3×x − 4)": "Incorrect: A term or factor was omitted.",
+        "(3×x + 4)×(3×x + 4)": "Incorrect: A sign or factor was changed.",
+        "(3×x − 4)×(3×x + 5)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-m02",
+      "prompt": "Factorise 64×x² − 100 completely.",
+      "options": [
+        "(4×x − 5)×(4×x − 5)",
+        "4×(4×x − 5)×(4×x + 5)",
+        "(4×x + 5)×(4×x + 5)",
+        "(4×x − 5)×(4×x + 6)"
+      ],
+      "answer_index": 1,
+      "memo": "Extract the greatest common numerical factor 4 from 64×x² − 100. The remaining square roots are 4×x and 5; form the conjugates 4×x − 5 and 4×x + 5. Keep the extracted factor: 4×(4×x − 5)×(4×x + 5). Check by expanding the brackets: 64×x² − 100, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(4×x − 5)×(4×x − 5)": "Incorrect: A term or factor was omitted.",
+        "4×(4×x − 5)×(4×x + 5)": "Correct: Check by expanding the brackets: 64×x² − 100, the original expression.",
+        "(4×x + 5)×(4×x + 5)": "Incorrect: A sign or factor was changed.",
+        "(4×x − 5)×(4×x + 6)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-m03",
+      "prompt": "Factorise 50×x² − 72 completely.",
+      "options": [
+        "(5×x − 6)×(5×x − 6)",
+        "(5×x + 6)×(5×x + 6)",
+        "2×(5×x − 6)×(5×x + 6)",
+        "(5×x − 6)×(5×x + 7)"
+      ],
+      "answer_index": 2,
+      "memo": "Extract the greatest common numerical factor 2 from 50×x² − 72. The remaining square roots are 5×x and 6; form the conjugates 5×x − 6 and 5×x + 6. Keep the extracted factor: 2×(5×x − 6)×(5×x + 6). Check by expanding the brackets: 50×x² − 72, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(5×x − 6)×(5×x − 6)": "Incorrect: A term or factor was omitted.",
+        "(5×x + 6)×(5×x + 6)": "Incorrect: A sign or factor was changed.",
+        "2×(5×x − 6)×(5×x + 6)": "Correct: Check by expanding the brackets: 50×x² − 72, the original expression.",
+        "(5×x − 6)×(5×x + 7)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-m04",
+      "prompt": "Factorise 108×x² − 147 completely.",
+      "options": [
+        "(6×x − 7)×(6×x − 7)",
+        "(6×x + 7)×(6×x + 7)",
+        "(6×x − 7)×(6×x + 8)",
+        "3×(6×x − 7)×(6×x + 7)"
+      ],
+      "answer_index": 3,
+      "memo": "Extract the greatest common numerical factor 3 from 108×x² − 147. The remaining square roots are 6×x and 7; form the conjugates 6×x − 7 and 6×x + 7. Keep the extracted factor: 3×(6×x − 7)×(6×x + 7). Check by expanding the brackets: 108×x² − 147, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(6×x − 7)×(6×x − 7)": "Incorrect: A term or factor was omitted.",
+        "(6×x + 7)×(6×x + 7)": "Incorrect: A sign or factor was changed.",
+        "(6×x − 7)×(6×x + 8)": "Incorrect: The original restriction or operation was lost.",
+        "3×(6×x − 7)×(6×x + 7)": "Correct: Check by expanding the brackets: 108×x² − 147, the original expression."
+      }
+    },
+    {
+      "id": "g9-aex-l07-m05",
+      "prompt": "Factorise 16×x² − 4 completely.",
+      "options": [
+        "4×(2×x − 1)×(2×x + 1)",
+        "(2×x − 1)×(2×x − 1)",
+        "(2×x + 1)×(2×x + 1)",
+        "(2×x − 1)×(2×x + 2)"
+      ],
+      "answer_index": 0,
+      "memo": "Extract the greatest common numerical factor 4 from 16×x² − 4. The remaining square roots are 2×x and 1; form the conjugates 2×x − 1 and 2×x + 1. Keep the extracted factor: 4×(2×x − 1)×(2×x + 1). Check by expanding the brackets: 16×x² − 4, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "4×(2×x − 1)×(2×x + 1)": "Correct: Check by expanding the brackets: 16×x² − 4, the original expression.",
+        "(2×x − 1)×(2×x − 1)": "Incorrect: A term or factor was omitted.",
+        "(2×x + 1)×(2×x + 1)": "Incorrect: A sign or factor was changed.",
+        "(2×x − 1)×(2×x + 2)": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-aex-l07-r01",
+      "prompt": "Factorise 18×x² − 8 completely.",
+      "options": [
+        "2×(3×x − 2)×(3×x + 2)",
+        "(3×x − 2)×(3×x − 2)",
+        "(3×x + 2)×(3×x + 2)",
+        "(3×x − 2)×(3×x + 3)"
+      ],
+      "answer_index": 0,
+      "memo": "Extract the greatest common numerical factor 2 from 18×x² − 8. The remaining square roots are 3×x and 2; form the conjugates 3×x − 2 and 3×x + 2. Keep the extracted factor: 2×(3×x − 2)×(3×x + 2). Check by expanding the brackets: 18×x² − 8, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "2×(3×x − 2)×(3×x + 2)": "Correct: Check by expanding the brackets: 18×x² − 8, the original expression.",
+        "(3×x − 2)×(3×x − 2)": "Incorrect: A term or factor was omitted.",
+        "(3×x + 2)×(3×x + 2)": "Incorrect: A sign or factor was changed.",
+        "(3×x − 2)×(3×x + 3)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-r02",
+      "prompt": "Factorise 48×x² − 27 completely.",
+      "options": [
+        "(4×x − 3)×(4×x − 3)",
+        "3×(4×x − 3)×(4×x + 3)",
+        "(4×x + 3)×(4×x + 3)",
+        "(4×x − 3)×(4×x + 4)"
+      ],
+      "answer_index": 1,
+      "memo": "Extract the greatest common numerical factor 3 from 48×x² − 27. The remaining square roots are 4×x and 3; form the conjugates 4×x − 3 and 4×x + 3. Keep the extracted factor: 3×(4×x − 3)×(4×x + 3). Check by expanding the brackets: 48×x² − 27, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(4×x − 3)×(4×x − 3)": "Incorrect: A term or factor was omitted.",
+        "3×(4×x − 3)×(4×x + 3)": "Correct: Check by expanding the brackets: 48×x² − 27, the original expression.",
+        "(4×x + 3)×(4×x + 3)": "Incorrect: A sign or factor was changed.",
+        "(4×x − 3)×(4×x + 4)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l07-r03",
+      "prompt": "Factorise 100×x² − 64 completely.",
+      "options": [
+        "(5×x − 4)×(5×x − 4)",
+        "(5×x + 4)×(5×x + 4)",
+        "4×(5×x − 4)×(5×x + 4)",
+        "(5×x − 4)×(5×x + 5)"
+      ],
+      "answer_index": 2,
+      "memo": "Extract the greatest common numerical factor 4 from 100×x² − 64. The remaining square roots are 5×x and 4; form the conjugates 5×x − 4 and 5×x + 4. Keep the extracted factor: 4×(5×x − 4)×(5×x + 4). Check by expanding the brackets: 100×x² − 64, the original expression.",
+      "misconception": "expressions-difference_squares",
+      "option_rationales": {
+        "(5×x − 4)×(5×x − 4)": "Incorrect: A term or factor was omitted.",
+        "(5×x + 4)×(5×x + 4)": "Incorrect: A sign or factor was changed.",
+        "4×(5×x − 4)×(5×x + 4)": "Correct: Check by expanding the brackets: 100×x² − 64, the original expression.",
+        "(5×x − 4)×(5×x + 5)": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ]
+}

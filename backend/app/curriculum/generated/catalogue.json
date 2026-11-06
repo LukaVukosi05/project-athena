@@ -1179,6 +1179,88 @@
               "source_document": "lesson-05-mixed-representations-and-first-error-repair.md"
             }
           ]
+        },
+        {
+          "topic_id": "algebraic-expressions",
+          "topic_number": 6,
+          "title": "Algebraic Expressions",
+          "paper": null,
+          "expected_lesson_count": 9,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-expressions-01",
+              "position": 1,
+              "title": "Algebraic language and term classification",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01-algebraic-language-and-term-classification.md"
+            },
+            {
+              "lesson_id": "g9-expressions-02",
+              "position": 2,
+              "title": "Collecting like terms with fractions and decimals",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02-collecting-like-terms-with-fractions-and-decimals.md"
+            },
+            {
+              "lesson_id": "g9-expressions-03",
+              "position": 3,
+              "title": "Distributing monomials across polynomials",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03-distributing-monomials-across-polynomials.md"
+            },
+            {
+              "lesson_id": "g9-expressions-04",
+              "position": 4,
+              "title": "Products and squares of binomials",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04-products-and-squares-of-binomials.md"
+            },
+            {
+              "lesson_id": "g9-expressions-05",
+              "position": 5,
+              "title": "Polynomial division and substitution",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05-polynomial-division-and-substitution.md"
+            },
+            {
+              "lesson_id": "g9-expressions-06",
+              "position": 6,
+              "title": "Common-factor factorisation",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-06-common-factor-factorisation.md"
+            },
+            {
+              "lesson_id": "g9-expressions-07",
+              "position": 7,
+              "title": "Difference of two squares",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-07-difference-of-two-squares.md"
+            },
+            {
+              "lesson_id": "g9-expressions-08",
+              "position": 8,
+              "title": "Trinomials and algebraic fractions",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-08-trinomials-and-algebraic-fractions.md"
+            },
+            {
+              "lesson_id": "g9-expressions-09",
+              "position": 9,
+              "title": "Mixed expressions and first-error repair",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-09-mixed-expressions-and-first-error-repair.md"
+            }
+          ]
         }
       ]
     },

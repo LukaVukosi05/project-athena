@@ -1,0 +1,1116 @@
+{
+  "source": "lesson-01-algebraic-language-and-term-classification.md",
+  "worked": [
+    {
+      "problem": "How many written terms does 3×x² + 2×x + 3 have before collecting like terms?",
+      "actions": [
+        "Keep the original expression 3×x² + 2×x + 3 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: 3.",
+        "Check the expression 3×x² + 2×x + 3 against that classification. The answer is 3."
+      ],
+      "answer": "3",
+      "wrongs": [
+        "4",
+        "2",
+        "5"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "3×x²",
+          "2×x",
+          "3"
+        ],
+        "restriction": "",
+        "answer": "3",
+        "rows": [
+          "3×x²",
+          "2×x"
+        ],
+        "columns": [
+          "3"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression 3×x² + 2×x + 3 against that classification. The answer is 3.",
+      "id": "g9-aex-l01-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Identify the constant term in 4×x² + 3×x + 4.",
+      "actions": [
+        "Keep the original expression 4×x² + 3×x + 4 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: 4.",
+        "Check the expression 4×x² + 3×x + 4 against that classification. The answer is 4."
+      ],
+      "answer": "4",
+      "wrongs": [
+        "4 + 1",
+        "4 + 2",
+        "4 + 3"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "4×x²",
+          "3×x",
+          "4"
+        ],
+        "restriction": "",
+        "answer": "4",
+        "rows": [
+          "4×x²",
+          "3×x"
+        ],
+        "columns": [
+          "4"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression 4×x² + 3×x + 4 against that classification. The answer is 4.",
+      "id": "g9-aex-l01-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "In −5×x² + 4×x − 5, identify the coefficient of x².",
+      "actions": [
+        "Keep the original expression −5×x² + 4×x − 5 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: −5.",
+        "Check the expression −5×x² + 4×x − 5 against that classification. The answer is −5."
+      ],
+      "answer": "−5",
+      "wrongs": [
+        "−5 + 1",
+        "−5 + 2",
+        "−5 + 3"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "−5×x²",
+          "4×x",
+          "−5"
+        ],
+        "restriction": "",
+        "answer": "−5",
+        "rows": [
+          "−5×x²",
+          "4×x"
+        ],
+        "columns": [
+          "−5"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression −5×x² + 4×x − 5 against that classification. The answer is −5.",
+      "id": "g9-aex-l01-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "How many written terms does 6×x² + 5×x + 2 have before collecting like terms?",
+      "actions": [
+        "Keep the original expression 6×x² + 5×x + 2 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: 3.",
+        "Check the expression 6×x² + 5×x + 2 against that classification. The answer is 3."
+      ],
+      "answer": "3",
+      "wrongs": [
+        "4",
+        "2",
+        "5"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "6×x²",
+          "5×x",
+          "2"
+        ],
+        "restriction": "",
+        "answer": "3",
+        "rows": [
+          "6×x²",
+          "5×x"
+        ],
+        "columns": [
+          "2"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression 6×x² + 5×x + 2 against that classification. The answer is 3.",
+      "id": "g9-aex-l01-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Identify the constant term in 2×x² + 6×x + 3.",
+      "actions": [
+        "Keep the original expression 2×x² + 6×x + 3 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: 3.",
+        "Check the expression 2×x² + 6×x + 3 against that classification. The answer is 3."
+      ],
+      "answer": "3",
+      "wrongs": [
+        "6",
+        "2",
+        "−3"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "2×x²",
+          "6×x",
+          "3"
+        ],
+        "restriction": "",
+        "answer": "3",
+        "rows": [
+          "2×x²",
+          "6×x"
+        ],
+        "columns": [
+          "3"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression 2×x² + 6×x + 3 against that classification. The answer is 3.",
+      "id": "g9-aex-l01-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "In −3×x² + 7×x − 4, identify the coefficient of x².",
+      "actions": [
+        "Keep the original expression −3×x² + 7×x − 4 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: −3.",
+        "Check the expression −3×x² + 7×x − 4 against that classification. The answer is −3."
+      ],
+      "answer": "−3",
+      "wrongs": [
+        "7",
+        "4",
+        "3"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "−3×x²",
+          "7×x",
+          "−4"
+        ],
+        "restriction": "",
+        "answer": "−3",
+        "rows": [
+          "−3×x²",
+          "7×x"
+        ],
+        "columns": [
+          "−4"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression −3×x² + 7×x − 4 against that classification. The answer is −3.",
+      "id": "g9-aex-l01-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "How many written terms does 4×x² + x + 5 have before collecting like terms?",
+      "actions": [
+        "Keep the original expression 4×x² + x + 5 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: 3.",
+        "Check the expression 4×x² + x + 5 against that classification. The answer is 3."
+      ],
+      "answer": "3",
+      "wrongs": [
+        "4",
+        "2",
+        "5"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "4×x²",
+          "x",
+          "5"
+        ],
+        "restriction": "",
+        "answer": "3",
+        "rows": [
+          "4×x²",
+          "x"
+        ],
+        "columns": [
+          "5"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression 4×x² + x + 5 against that classification. The answer is 3.",
+      "id": "g9-aex-l01-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Identify the constant term in 5×x² + 2×x + 2.",
+      "actions": [
+        "Keep the original expression 5×x² + 2×x + 2 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: 2.",
+        "Check the expression 5×x² + 2×x + 2 against that classification. The answer is 2."
+      ],
+      "answer": "2",
+      "wrongs": [
+        "2 + 1",
+        "2 + 2",
+        "2 + 3"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "5×x²",
+          "2×x",
+          "2"
+        ],
+        "restriction": "",
+        "answer": "2",
+        "rows": [
+          "5×x²",
+          "2×x"
+        ],
+        "columns": [
+          "2"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression 5×x² + 2×x + 2 against that classification. The answer is 2.",
+      "id": "g9-aex-l01-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "In −6×x² + 3×x − 3, identify the coefficient of x².",
+      "actions": [
+        "Keep the original expression −6×x² + 3×x − 3 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: −6.",
+        "Check the expression −6×x² + 3×x − 3 against that classification. The answer is −6."
+      ],
+      "answer": "−6",
+      "wrongs": [
+        "−6 + 1",
+        "−6 + 2",
+        "−6 + 3"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "−6×x²",
+          "3×x",
+          "−3"
+        ],
+        "restriction": "",
+        "answer": "−6",
+        "rows": [
+          "−6×x²",
+          "3×x"
+        ],
+        "columns": [
+          "−3"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression −6×x² + 3×x − 3 against that classification. The answer is −6.",
+      "id": "g9-aex-l01-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "How many written terms does 2×x² + 4×x + 4 have before collecting like terms?",
+      "actions": [
+        "Keep the original expression 2×x² + 4×x + 4 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: 3.",
+        "Check the expression 2×x² + 4×x + 4 against that classification. The answer is 3."
+      ],
+      "answer": "3",
+      "wrongs": [
+        "4",
+        "2",
+        "5"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "2×x²",
+          "4×x",
+          "4"
+        ],
+        "restriction": "",
+        "answer": "3",
+        "rows": [
+          "2×x²",
+          "4×x"
+        ],
+        "columns": [
+          "4"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression 2×x² + 4×x + 4 against that classification. The answer is 3.",
+      "id": "g9-aex-l01-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Identify the constant term in 3×x² + 5×x + 5.",
+      "actions": [
+        "Keep the original expression 3×x² + 5×x + 5 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: 5.",
+        "Check the expression 3×x² + 5×x + 5 against that classification. The answer is 5."
+      ],
+      "answer": "5",
+      "wrongs": [
+        "5 + 1",
+        "5 + 2",
+        "5 + 3"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "3×x²",
+          "5×x",
+          "5"
+        ],
+        "restriction": "",
+        "answer": "5",
+        "rows": [
+          "3×x²",
+          "5×x"
+        ],
+        "columns": [
+          "5"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression 3×x² + 5×x + 5 against that classification. The answer is 5.",
+      "id": "g9-aex-l01-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "In −4×x² + 2×x + 6×x − 2, identify the coefficient of x².",
+      "actions": [
+        "Keep the original expression −4×x² + 2×x + 6×x − 2 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: −4.",
+        "Check the expression −4×x² + 2×x + 6×x − 2 against that classification. The answer is −4."
+      ],
+      "answer": "−4",
+      "wrongs": [
+        "6",
+        "2",
+        "4"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "−4×x²",
+          "6×x",
+          "−2",
+          "2×x"
+        ],
+        "restriction": "",
+        "answer": "−4",
+        "rows": [
+          "−4×x²",
+          "6×x"
+        ],
+        "columns": [
+          "−2",
+          "2×x"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression −4×x² + 2×x + 6×x − 2 against that classification. The answer is −4.",
+      "id": "g9-aex-l01-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "How many written terms does 5×x² + 3×x + 7×x + 3 have before collecting like terms?",
+      "actions": [
+        "Keep the original expression 5×x² + 3×x + 7×x + 3 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: 4.",
+        "Check the expression 5×x² + 3×x + 7×x + 3 against that classification. The answer is 4."
+      ],
+      "answer": "4",
+      "wrongs": [
+        "5",
+        "3",
+        "6"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "5×x²",
+          "7×x",
+          "3",
+          "3×x"
+        ],
+        "restriction": "",
+        "answer": "4",
+        "rows": [
+          "5×x²",
+          "7×x"
+        ],
+        "columns": [
+          "3",
+          "3×x"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression 5×x² + 3×x + 7×x + 3 against that classification. The answer is 4.",
+      "id": "g9-aex-l01-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Identify the constant term in 6×x² + x + 4×x + 4.",
+      "actions": [
+        "Keep the original expression 6×x² + x + 4×x + 4 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: 4.",
+        "Check the expression 6×x² + x + 4×x + 4 against that classification. The answer is 4."
+      ],
+      "answer": "4",
+      "wrongs": [
+        "1",
+        "6",
+        "−4"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "6×x²",
+          "x",
+          "4",
+          "4×x"
+        ],
+        "restriction": "",
+        "answer": "4",
+        "rows": [
+          "6×x²",
+          "x"
+        ],
+        "columns": [
+          "4",
+          "4×x"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression 6×x² + x + 4×x + 4 against that classification. The answer is 4.",
+      "id": "g9-aex-l01-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "In −2×x² + 2×x + 2×x − 5, identify the coefficient of x².",
+      "actions": [
+        "Keep the original expression −2×x² + 2×x + 2×x − 5 visible.",
+        "Separate terms at each top-level plus or minus sign; the sign belongs to its term.",
+        "Identify the requested feature: −2.",
+        "Check the expression −2×x² + 2×x + 2×x − 5 against that classification. The answer is −2."
+      ],
+      "answer": "−2",
+      "wrongs": [
+        "−2 + 1",
+        "−2 + 2",
+        "−2 + 3"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "terms",
+        "givens": [
+          "−2×x²",
+          "2×x",
+          "−5",
+          "2×x"
+        ],
+        "restriction": "",
+        "answer": "−2",
+        "rows": [
+          "−2×x²",
+          "2×x"
+        ],
+        "columns": [
+          "−5",
+          "2×x"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-terms",
+      "check": "Check the expression −2×x² + 2×x + 2×x − 5 against that classification. The answer is −2.",
+      "id": "g9-aex-l01-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-aex-l01-p01",
+      "prompt": "How many written terms does 3×x² + 3×x + 3×x + 2 have before collecting like terms?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the original expression 3×x² + 3×x + 3×x + 2 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 4. Check the expression 3×x² + 3×x + 3×x + 2 against that classification. The answer is 4.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "4": "Correct: Check the expression 3×x² + 3×x + 3×x + 2 against that classification. The answer is 4.",
+        "5": "Incorrect: A term or factor was omitted.",
+        "3": "Incorrect: A sign or factor was changed.",
+        "6": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p02",
+      "prompt": "Identify the constant term in 4×x² + 4×x + 4×x + 3.",
+      "options": [
+        "3 + 1",
+        "3",
+        "3 + 2",
+        "3 + 3"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the original expression 4×x² + 4×x + 4×x + 3 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 3. Check the expression 4×x² + 4×x + 4×x + 3 against that classification. The answer is 3.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "3 + 1": "Incorrect: A term or factor was omitted.",
+        "3": "Correct: Check the expression 4×x² + 4×x + 4×x + 3 against that classification. The answer is 3.",
+        "3 + 2": "Incorrect: A sign or factor was changed.",
+        "3 + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p03",
+      "prompt": "In −5×x² + 2×x + 5×x − 4, identify the coefficient of x².",
+      "options": [
+        "−5 + 1",
+        "−5 + 2",
+        "−5",
+        "−5 + 3"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the original expression −5×x² + 2×x + 5×x − 4 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: −5. Check the expression −5×x² + 2×x + 5×x − 4 against that classification. The answer is −5.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "−5 + 1": "Incorrect: A term or factor was omitted.",
+        "−5 + 2": "Incorrect: A sign or factor was changed.",
+        "−5": "Correct: Check the expression −5×x² + 2×x + 5×x − 4 against that classification. The answer is −5.",
+        "−5 + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p04",
+      "prompt": "How many written terms does 6×x² + 3×x + 6×x + 5 have before collecting like terms?",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "4"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the original expression 6×x² + 3×x + 6×x + 5 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 4. Check the expression 6×x² + 3×x + 6×x + 5 against that classification. The answer is 4.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "5": "Incorrect: A term or factor was omitted.",
+        "3": "Incorrect: A sign or factor was changed.",
+        "6": "Incorrect: The original restriction or operation was lost.",
+        "4": "Correct: Check the expression 6×x² + 3×x + 6×x + 5 against that classification. The answer is 4."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p05",
+      "prompt": "Identify the constant term in 2×x² + 4×x + 7×x + 2.",
+      "options": [
+        "2",
+        "2 + 1",
+        "2 + 2",
+        "2 + 3"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the original expression 2×x² + 4×x + 7×x + 2 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 2. Check the expression 2×x² + 4×x + 7×x + 2 against that classification. The answer is 2.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "2": "Correct: Check the expression 2×x² + 4×x + 7×x + 2 against that classification. The answer is 2.",
+        "2 + 1": "Incorrect: A term or factor was omitted.",
+        "2 + 2": "Incorrect: A sign or factor was changed.",
+        "2 + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p06",
+      "prompt": "In −3×x² + x + 2×x − 3, identify the coefficient of x².",
+      "options": [
+        "−3 + 1",
+        "−3",
+        "−3 + 2",
+        "−3 + 3"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the original expression −3×x² + x + 2×x − 3 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: −3. Check the expression −3×x² + x + 2×x − 3 against that classification. The answer is −3.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "−3 + 1": "Incorrect: A term or factor was omitted.",
+        "−3": "Correct: Check the expression −3×x² + x + 2×x − 3 against that classification. The answer is −3.",
+        "−3 + 2": "Incorrect: A sign or factor was changed.",
+        "−3 + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p07",
+      "prompt": "How many written terms does 4×x² + 2×x + 3×x + 4 have before collecting like terms?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the original expression 4×x² + 2×x + 3×x + 4 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 4. Check the expression 4×x² + 2×x + 3×x + 4 against that classification. The answer is 4.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "5": "Incorrect: A term or factor was omitted.",
+        "3": "Incorrect: A sign or factor was changed.",
+        "4": "Correct: Check the expression 4×x² + 2×x + 3×x + 4 against that classification. The answer is 4.",
+        "6": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p08",
+      "prompt": "Identify the constant term in 5×x² + 3×x + 4×x + 5.",
+      "options": [
+        "5 + 1",
+        "5 + 2",
+        "5 + 3",
+        "5"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the original expression 5×x² + 3×x + 4×x + 5 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 5. Check the expression 5×x² + 3×x + 4×x + 5 against that classification. The answer is 5.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "5 + 1": "Incorrect: A term or factor was omitted.",
+        "5 + 2": "Incorrect: A sign or factor was changed.",
+        "5 + 3": "Incorrect: The original restriction or operation was lost.",
+        "5": "Correct: Check the expression 5×x² + 3×x + 4×x + 5 against that classification. The answer is 5."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p09",
+      "prompt": "In −6×x² + 2×x + 4×x − 2, identify the coefficient of x².",
+      "options": [
+        "−6",
+        "4",
+        "2",
+        "6"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the original expression −6×x² + 2×x + 4×x − 2 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: −6. Check the expression −6×x² + 2×x + 4×x − 2 against that classification. The answer is −6.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "−6": "Correct: Check the expression −6×x² + 2×x + 4×x − 2 against that classification. The answer is −6.",
+        "4": "Incorrect: A term or factor was omitted.",
+        "2": "Incorrect: A sign or factor was changed.",
+        "6": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p10",
+      "prompt": "How many written terms does 2×x² + 3×x + 5×x + 3 have before collecting like terms?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the original expression 2×x² + 3×x + 5×x + 3 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 4. Check the expression 2×x² + 3×x + 5×x + 3 against that classification. The answer is 4.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "5": "Incorrect: A term or factor was omitted.",
+        "4": "Correct: Check the expression 2×x² + 3×x + 5×x + 3 against that classification. The answer is 4.",
+        "3": "Incorrect: A sign or factor was changed.",
+        "6": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p11",
+      "prompt": "Identify the constant term in 3×x² + 4×x + 6×x + 4.",
+      "options": [
+        "6",
+        "3",
+        "4",
+        "−4"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the original expression 3×x² + 4×x + 6×x + 4 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 4. Check the expression 3×x² + 4×x + 6×x + 4 against that classification. The answer is 4.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "6": "Incorrect: A term or factor was omitted.",
+        "3": "Incorrect: A sign or factor was changed.",
+        "4": "Correct: Check the expression 3×x² + 4×x + 6×x + 4 against that classification. The answer is 4.",
+        "−4": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p12",
+      "prompt": "In −4×x² + 2×x + 7×x − 5, identify the coefficient of x².",
+      "options": [
+        "7",
+        "5",
+        "4",
+        "−4"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the original expression −4×x² + 2×x + 7×x − 5 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: −4. Check the expression −4×x² + 2×x + 7×x − 5 against that classification. The answer is −4.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "7": "Incorrect: A term or factor was omitted.",
+        "5": "Incorrect: A sign or factor was changed.",
+        "4": "Incorrect: The original restriction or operation was lost.",
+        "−4": "Correct: Check the expression −4×x² + 2×x + 7×x − 5 against that classification. The answer is −4."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p13",
+      "prompt": "How many written terms does 5×x² + x + 3×x + 2 have before collecting like terms?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the original expression 5×x² + x + 3×x + 2 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 4. Check the expression 5×x² + x + 3×x + 2 against that classification. The answer is 4.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "4": "Correct: Check the expression 5×x² + x + 3×x + 2 against that classification. The answer is 4.",
+        "5": "Incorrect: A term or factor was omitted.",
+        "3": "Incorrect: A sign or factor was changed.",
+        "6": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p14",
+      "prompt": "Identify the constant term in 6×x² + 2×x + 4×x + 3.",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "−3"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the original expression 6×x² + 2×x + 4×x + 3 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 3. Check the expression 6×x² + 2×x + 4×x + 3 against that classification. The answer is 3.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "2": "Incorrect: A term or factor was omitted.",
+        "3": "Correct: Check the expression 6×x² + 2×x + 4×x + 3 against that classification. The answer is 3.",
+        "6": "Incorrect: A sign or factor was changed.",
+        "−3": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-p15",
+      "prompt": "In −2×x² + 2×x + 3×x − 4, identify the coefficient of x².",
+      "options": [
+        "3",
+        "4",
+        "−2",
+        "2"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the original expression −2×x² + 2×x + 3×x − 4 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: −2. Check the expression −2×x² + 2×x + 3×x − 4 against that classification. The answer is −2.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "3": "Incorrect: A term or factor was omitted.",
+        "4": "Incorrect: A sign or factor was changed.",
+        "−2": "Correct: Check the expression −2×x² + 2×x + 3×x − 4 against that classification. The answer is −2.",
+        "2": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-aex-l01-m01",
+      "prompt": "How many written terms does 3×x² + 3×x + 4×x + 5 have before collecting like terms?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the original expression 3×x² + 3×x + 4×x + 5 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 4. Check the expression 3×x² + 3×x + 4×x + 5 against that classification. The answer is 4.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "4": "Correct: Check the expression 3×x² + 3×x + 4×x + 5 against that classification. The answer is 4.",
+        "5": "Incorrect: A term or factor was omitted.",
+        "3": "Incorrect: A sign or factor was changed.",
+        "6": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-m02",
+      "prompt": "Identify the constant term in 4×x² + 4×x + 5×x + 2.",
+      "options": [
+        "5",
+        "2",
+        "4",
+        "−2"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the original expression 4×x² + 4×x + 5×x + 2 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 2. Check the expression 4×x² + 4×x + 5×x + 2 against that classification. The answer is 2.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "5": "Incorrect: A term or factor was omitted.",
+        "2": "Correct: Check the expression 4×x² + 4×x + 5×x + 2 against that classification. The answer is 2.",
+        "4": "Incorrect: A sign or factor was changed.",
+        "−2": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-m03",
+      "prompt": "In −5×x² + 2×x + 6×x − 3, identify the coefficient of x².",
+      "options": [
+        "6",
+        "3",
+        "−5",
+        "5"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the original expression −5×x² + 2×x + 6×x − 3 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: −5. Check the expression −5×x² + 2×x + 6×x − 3 against that classification. The answer is −5.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "6": "Incorrect: A term or factor was omitted.",
+        "3": "Incorrect: A sign or factor was changed.",
+        "−5": "Correct: Check the expression −5×x² + 2×x + 6×x − 3 against that classification. The answer is −5.",
+        "5": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-m04",
+      "prompt": "How many written terms does 6×x² + 3×x + 7×x + 4 have before collecting like terms?",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "4"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the original expression 6×x² + 3×x + 7×x + 4 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 4. Check the expression 6×x² + 3×x + 7×x + 4 against that classification. The answer is 4.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "5": "Incorrect: A term or factor was omitted.",
+        "3": "Incorrect: A sign or factor was changed.",
+        "6": "Incorrect: The original restriction or operation was lost.",
+        "4": "Correct: Check the expression 6×x² + 3×x + 7×x + 4 against that classification. The answer is 4."
+      }
+    },
+    {
+      "id": "g9-aex-l01-m05",
+      "prompt": "Identify the constant term in 2×x² + x + 4×x + 5.",
+      "options": [
+        "5",
+        "1",
+        "2",
+        "−5"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the original expression 2×x² + x + 4×x + 5 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 5. Check the expression 2×x² + x + 4×x + 5 against that classification. The answer is 5.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "5": "Correct: Check the expression 2×x² + x + 4×x + 5 against that classification. The answer is 5.",
+        "1": "Incorrect: A term or factor was omitted.",
+        "2": "Incorrect: A sign or factor was changed.",
+        "−5": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-aex-l01-r01",
+      "prompt": "In −3×x² + 2×x + 2×x − 2, identify the coefficient of x².",
+      "options": [
+        "−3",
+        "−3 + 1",
+        "−3 + 2",
+        "−3 + 3"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the original expression −3×x² + 2×x + 2×x − 2 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: −3. Check the expression −3×x² + 2×x + 2×x − 2 against that classification. The answer is −3.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "−3": "Correct: Check the expression −3×x² + 2×x + 2×x − 2 against that classification. The answer is −3.",
+        "−3 + 1": "Incorrect: A term or factor was omitted.",
+        "−3 + 2": "Incorrect: A sign or factor was changed.",
+        "−3 + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-r02",
+      "prompt": "How many written terms does 4×x² + 3×x + 3×x + 3 have before collecting like terms?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the original expression 4×x² + 3×x + 3×x + 3 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 4. Check the expression 4×x² + 3×x + 3×x + 3 against that classification. The answer is 4.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "5": "Incorrect: A term or factor was omitted.",
+        "4": "Correct: Check the expression 4×x² + 3×x + 3×x + 3 against that classification. The answer is 4.",
+        "3": "Incorrect: A sign or factor was changed.",
+        "6": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l01-r03",
+      "prompt": "Identify the constant term in 5×x² + 4×x + 4×x + 4.",
+      "options": [
+        "4 + 1",
+        "4 + 2",
+        "4",
+        "4 + 3"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the original expression 5×x² + 4×x + 4×x + 4 visible. Separate terms at each top-level plus or minus sign; the sign belongs to its term. Identify the requested feature: 4. Check the expression 5×x² + 4×x + 4×x + 4 against that classification. The answer is 4.",
+      "misconception": "expressions-terms",
+      "option_rationales": {
+        "4 + 1": "Incorrect: A term or factor was omitted.",
+        "4 + 2": "Incorrect: A sign or factor was changed.",
+        "4": "Correct: Check the expression 5×x² + 4×x + 4×x + 4 against that classification. The answer is 4.",
+        "4 + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ]
+}

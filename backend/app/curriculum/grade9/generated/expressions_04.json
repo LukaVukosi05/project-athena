@@ -1,0 +1,1138 @@
+{
+  "source": "lesson-04-products-and-squares-of-binomials.md",
+  "worked": [
+    {
+      "problem": "Expand (x + 2)×(x + 3) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and 3; columns x and 2.",
+        "Fill the four cells: x², 2×x, 3×x, 6.",
+        "Add the cell areas and collect like terms: x² + 5×x + 6.",
+        "Check at x = 1: the original brackets and x² + 5×x + 6 both give 12."
+      ],
+      "answer": "x² + 5×x + 6",
+      "wrongs": [
+        "x² + 6",
+        "x² + 5×x",
+        "x² + x − 6"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "3",
+          "x",
+          "2"
+        ],
+        "restriction": "",
+        "answer": "x² + 5×x + 6",
+        "rows": [
+          "x",
+          "3"
+        ],
+        "columns": [
+          "x",
+          "2"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² + 5×x + 6 both give 12.",
+      "id": "g9-aex-l04-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Expand (x + 3)×(x + 4) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and 4; columns x and 3.",
+        "Fill the four cells: x², 3×x, 4×x, 12.",
+        "Add the cell areas and collect like terms: x² + 7×x + 12.",
+        "Check at x = 1: the original brackets and x² + 7×x + 12 both give 20."
+      ],
+      "answer": "x² + 7×x + 12",
+      "wrongs": [
+        "x² + 12",
+        "x² + 7×x",
+        "x² + x − 12"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "4",
+          "x",
+          "3"
+        ],
+        "restriction": "",
+        "answer": "x² + 7×x + 12",
+        "rows": [
+          "x",
+          "4"
+        ],
+        "columns": [
+          "x",
+          "3"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² + 7×x + 12 both give 20.",
+      "id": "g9-aex-l04-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Expand (x − 5)×(x + 4) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and -5; columns x and 4.",
+        "Fill the four cells: x², 4×x, −5×x, −20.",
+        "Add the cell areas and collect like terms: x² − x − 20.",
+        "Check at x = 1: the original brackets and x² − x − 20 both give -20."
+      ],
+      "answer": "x² − x − 20",
+      "wrongs": [
+        "x² − 20",
+        "x² − x",
+        "x² − 9×x + 20"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "-5",
+          "x",
+          "4"
+        ],
+        "restriction": "",
+        "answer": "x² − x − 20",
+        "rows": [
+          "x",
+          "-5"
+        ],
+        "columns": [
+          "x",
+          "4"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² − x − 20 both give -20.",
+      "id": "g9-aex-l04-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Expand (x + 6)×(x + 6) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and 6; columns x and 6.",
+        "Fill the four cells: x², 6×x, 6×x, 36.",
+        "Add the cell areas and collect like terms: x² + 12×x + 36.",
+        "Check at x = 1: the original brackets and x² + 12×x + 36 both give 49."
+      ],
+      "answer": "x² + 12×x + 36",
+      "wrongs": [
+        "x² + 30",
+        "x² + 11×x",
+        "x² + x − 30"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "6",
+          "x",
+          "6"
+        ],
+        "restriction": "",
+        "answer": "x² + 12×x + 36",
+        "rows": [
+          "x",
+          "6"
+        ],
+        "columns": [
+          "x",
+          "6"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² + 12×x + 36 both give 49.",
+      "id": "g9-aex-l04-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Expand (x + 2)×(x + 6) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and 2; columns x and 6.",
+        "Fill the four cells: x², 6×x, 2×x, 12.",
+        "Add the cell areas and collect like terms: x² + 8×x + 12.",
+        "Check at x = 1: the original brackets and x² + 8×x + 12 both give 21."
+      ],
+      "answer": "x² + 8×x + 12",
+      "wrongs": [
+        "x² + 12",
+        "x² + 8×x",
+        "x² − 4×x − 12"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "2",
+          "x",
+          "6"
+        ],
+        "restriction": "",
+        "answer": "x² + 8×x + 12",
+        "rows": [
+          "x",
+          "2"
+        ],
+        "columns": [
+          "x",
+          "6"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² + 8×x + 12 both give 21.",
+      "id": "g9-aex-l04-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Expand (x − 3)×(x + 7) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and -3; columns x and 7.",
+        "Fill the four cells: x², 7×x, −3×x, −21.",
+        "Add the cell areas and collect like terms: x² + 4×x − 21.",
+        "Check at x = 1: the original brackets and x² + 4×x − 21 both give -16."
+      ],
+      "answer": "x² + 4×x − 21",
+      "wrongs": [
+        "x² − 21",
+        "x² + 4×x",
+        "x² − 10×x + 21"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "-3",
+          "x",
+          "7"
+        ],
+        "restriction": "",
+        "answer": "x² + 4×x − 21",
+        "rows": [
+          "x",
+          "-3"
+        ],
+        "columns": [
+          "x",
+          "7"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² + 4×x − 21 both give -16.",
+      "id": "g9-aex-l04-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Expand (x + 1)×(x + 4) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and 4; columns x and 1.",
+        "Fill the four cells: x², x, 4×x, 4.",
+        "Add the cell areas and collect like terms: x² + 5×x + 4.",
+        "Check at x = 1: the original brackets and x² + 5×x + 4 both give 10."
+      ],
+      "answer": "x² + 5×x + 4",
+      "wrongs": [
+        "x² + 4",
+        "x² + 5×x",
+        "x² + 3×x − 4"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "4",
+          "x",
+          "1"
+        ],
+        "restriction": "",
+        "answer": "x² + 5×x + 4",
+        "rows": [
+          "x",
+          "4"
+        ],
+        "columns": [
+          "x",
+          "1"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² + 5×x + 4 both give 10.",
+      "id": "g9-aex-l04-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Expand (x + 5)×(x + 5) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and 5; columns x and 5.",
+        "Fill the four cells: x², 5×x, 5×x, 25.",
+        "Add the cell areas and collect like terms: x² + 10×x + 25.",
+        "Check at x = 1: the original brackets and x² + 10×x + 25 both give 36."
+      ],
+      "answer": "x² + 10×x + 25",
+      "wrongs": [
+        "x² + 10",
+        "x² + 7×x",
+        "x² + 3×x − 10"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "5",
+          "x",
+          "5"
+        ],
+        "restriction": "",
+        "answer": "x² + 10×x + 25",
+        "rows": [
+          "x",
+          "5"
+        ],
+        "columns": [
+          "x",
+          "5"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² + 10×x + 25 both give 36.",
+      "id": "g9-aex-l04-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Expand (x − 6)×(x + 3) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and -6; columns x and 3.",
+        "Fill the four cells: x², 3×x, −6×x, −18.",
+        "Add the cell areas and collect like terms: x² − 3×x − 18.",
+        "Check at x = 1: the original brackets and x² − 3×x − 18 both give -20."
+      ],
+      "answer": "x² − 3×x − 18",
+      "wrongs": [
+        "x² − 18",
+        "x² − 3×x",
+        "x² − 9×x + 18"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "-6",
+          "x",
+          "3"
+        ],
+        "restriction": "",
+        "answer": "x² − 3×x − 18",
+        "rows": [
+          "x",
+          "-6"
+        ],
+        "columns": [
+          "x",
+          "3"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² − 3×x − 18 both give -20.",
+      "id": "g9-aex-l04-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Expand (x + 2)×(x + 4) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and 2; columns x and 4.",
+        "Fill the four cells: x², 4×x, 2×x, 8.",
+        "Add the cell areas and collect like terms: x² + 6×x + 8.",
+        "Check at x = 1: the original brackets and x² + 6×x + 8 both give 15."
+      ],
+      "answer": "x² + 6×x + 8",
+      "wrongs": [
+        "x² + 8",
+        "x² + 6×x",
+        "x² − 2×x − 8"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "2",
+          "x",
+          "4"
+        ],
+        "restriction": "",
+        "answer": "x² + 6×x + 8",
+        "rows": [
+          "x",
+          "2"
+        ],
+        "columns": [
+          "x",
+          "4"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² + 6×x + 8 both give 15.",
+      "id": "g9-aex-l04-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Expand (x + 3)×(x + 5) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and 3; columns x and 5.",
+        "Fill the four cells: x², 5×x, 3×x, 15.",
+        "Add the cell areas and collect like terms: x² + 8×x + 15.",
+        "Check at x = 1: the original brackets and x² + 8×x + 15 both give 24."
+      ],
+      "answer": "x² + 8×x + 15",
+      "wrongs": [
+        "x² + 15",
+        "x² + 8×x",
+        "x² − 2×x − 15"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "3",
+          "x",
+          "5"
+        ],
+        "restriction": "",
+        "answer": "x² + 8×x + 15",
+        "rows": [
+          "x",
+          "3"
+        ],
+        "columns": [
+          "x",
+          "5"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² + 8×x + 15 both give 24.",
+      "id": "g9-aex-l04-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Expand (x − 4)×(x − 4) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and -4; columns x and −4.",
+        "Fill the four cells: x², −4×x, −4×x, 16.",
+        "Add the cell areas and collect like terms: x² − 8×x + 16.",
+        "Check at x = 1: the original brackets and x² − 8×x + 16 both give 9."
+      ],
+      "answer": "x² − 8×x + 16",
+      "wrongs": [
+        "x² − 24",
+        "x² + 2×x",
+        "x² − 10×x + 24"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "-4",
+          "x",
+          "−4"
+        ],
+        "restriction": "",
+        "answer": "x² − 8×x + 16",
+        "rows": [
+          "x",
+          "-4"
+        ],
+        "columns": [
+          "x",
+          "−4"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² − 8×x + 16 both give 9.",
+      "id": "g9-aex-l04-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Expand (x + 5)×(x + 7) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and 5; columns x and 7.",
+        "Fill the four cells: x², 7×x, 5×x, 35.",
+        "Add the cell areas and collect like terms: x² + 12×x + 35.",
+        "Check at x = 1: the original brackets and x² + 12×x + 35 both give 48."
+      ],
+      "answer": "x² + 12×x + 35",
+      "wrongs": [
+        "x² + 35",
+        "x² + 12×x",
+        "x² − 2×x − 35"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "5",
+          "x",
+          "7"
+        ],
+        "restriction": "",
+        "answer": "x² + 12×x + 35",
+        "rows": [
+          "x",
+          "5"
+        ],
+        "columns": [
+          "x",
+          "7"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² + 12×x + 35 both give 48.",
+      "id": "g9-aex-l04-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Expand (x + 1)×(x + 6) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and 6; columns x and 1.",
+        "Fill the four cells: x², x, 6×x, 6.",
+        "Add the cell areas and collect like terms: x² + 7×x + 6.",
+        "Check at x = 1: the original brackets and x² + 7×x + 6 both give 14."
+      ],
+      "answer": "x² + 7×x + 6",
+      "wrongs": [
+        "x² + 6",
+        "x² + 7×x",
+        "x² + 5×x − 6"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "6",
+          "x",
+          "1"
+        ],
+        "restriction": "",
+        "answer": "x² + 7×x + 6",
+        "rows": [
+          "x",
+          "6"
+        ],
+        "columns": [
+          "x",
+          "1"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² + 7×x + 6 both give 14.",
+      "id": "g9-aex-l04-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Expand (x − 2)×(x + 2) using all four area-model cells.",
+      "actions": [
+        "Label the rectangle rows x and -2; columns x and 2.",
+        "Fill the four cells: x², 2×x, −2×x, −4.",
+        "Add the cell areas and collect like terms: x² − 4.",
+        "Check at x = 1: the original brackets and x² − 4 both give -3."
+      ],
+      "answer": "x² − 4",
+      "wrongs": [
+        "x² − 4 + 1",
+        "x² − 4 + 2",
+        "x² − 4 + 3"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "area",
+        "givens": [
+          "x",
+          "-2",
+          "x",
+          "2"
+        ],
+        "restriction": "",
+        "answer": "x² − 4",
+        "rows": [
+          "x",
+          "-2"
+        ],
+        "columns": [
+          "x",
+          "2"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-area",
+      "check": "Check at x = 1: the original brackets and x² − 4 both give -3.",
+      "id": "g9-aex-l04-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-aex-l04-p01",
+      "prompt": "Expand (x + 3)×(x + 3) using all four area-model cells.",
+      "options": [
+        "x² + 6×x + 9",
+        "x² + 9",
+        "x² + 6×x",
+        "x² − 9"
+      ],
+      "answer_index": 0,
+      "memo": "Label the rectangle rows x and 3; columns x and 3. Fill the four cells: x², 3×x, 3×x, 9. Add the cell areas and collect like terms: x² + 6×x + 9. Check at x = 1: the original brackets and x² + 6×x + 9 both give 16.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² + 6×x + 9": "Correct: Check at x = 1: the original brackets and x² + 6×x + 9 both give 16.",
+        "x² + 9": "Incorrect: A term or factor was omitted.",
+        "x² + 6×x": "Incorrect: A sign or factor was changed.",
+        "x² − 9": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p02",
+      "prompt": "Expand (x + 4)×(x + 4) using all four area-model cells.",
+      "options": [
+        "x² + 16",
+        "x² + 8×x + 16",
+        "x² + 8×x",
+        "x² − 16"
+      ],
+      "answer_index": 1,
+      "memo": "Label the rectangle rows x and 4; columns x and 4. Fill the four cells: x², 4×x, 4×x, 16. Add the cell areas and collect like terms: x² + 8×x + 16. Check at x = 1: the original brackets and x² + 8×x + 16 both give 25.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² + 16": "Incorrect: A term or factor was omitted.",
+        "x² + 8×x + 16": "Correct: Check at x = 1: the original brackets and x² + 8×x + 16 both give 25.",
+        "x² + 8×x": "Incorrect: A sign or factor was changed.",
+        "x² − 16": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p03",
+      "prompt": "Expand (x − 5)×(x + 5) using all four area-model cells.",
+      "options": [
+        "x² − 25 + 1",
+        "x² − 25 + 2",
+        "x² − 25",
+        "x² − 25 + 3"
+      ],
+      "answer_index": 2,
+      "memo": "Label the rectangle rows x and -5; columns x and 5. Fill the four cells: x², 5×x, −5×x, −25. Add the cell areas and collect like terms: x² − 25. Check at x = 1: the original brackets and x² − 25 both give -24.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − 25 + 1": "Incorrect: A term or factor was omitted.",
+        "x² − 25 + 2": "Incorrect: A sign or factor was changed.",
+        "x² − 25": "Correct: Check at x = 1: the original brackets and x² − 25 both give -24.",
+        "x² − 25 + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p04",
+      "prompt": "Expand (x + 2)×(x + 2) using all four area-model cells.",
+      "options": [
+        "x² + 14",
+        "x² + 9×x",
+        "x² − 5×x − 14",
+        "x² + 4×x + 4"
+      ],
+      "answer_index": 3,
+      "memo": "Label the rectangle rows x and 2; columns x and 2. Fill the four cells: x², 2×x, 2×x, 4. Add the cell areas and collect like terms: x² + 4×x + 4. Check at x = 1: the original brackets and x² + 4×x + 4 both give 9.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² + 14": "Incorrect: A term or factor was omitted.",
+        "x² + 9×x": "Incorrect: A sign or factor was changed.",
+        "x² − 5×x − 14": "Incorrect: The original restriction or operation was lost.",
+        "x² + 4×x + 4": "Correct: Check at x = 1: the original brackets and x² + 4×x + 4 both give 9."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p05",
+      "prompt": "Expand (x − 3)×(x + 1) using all four area-model cells.",
+      "options": [
+        "x² − 2×x − 3",
+        "x² − 3",
+        "x² − 2×x",
+        "x² − 4×x + 3"
+      ],
+      "answer_index": 0,
+      "memo": "Label the rectangle rows x and -3; columns x and 1. Fill the four cells: x², x, −3×x, −3. Add the cell areas and collect like terms: x² − 2×x − 3. Check at x = 1: the original brackets and x² − 2×x − 3 both give -4.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − 2×x − 3": "Correct: Check at x = 1: the original brackets and x² − 2×x − 3 both give -4.",
+        "x² − 3": "Incorrect: A term or factor was omitted.",
+        "x² − 2×x": "Incorrect: A sign or factor was changed.",
+        "x² − 4×x + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p06",
+      "prompt": "Expand (x − 6)×(x − 6) using all four area-model cells.",
+      "options": [
+        "x² − 24",
+        "x² − 12×x + 36",
+        "x² − 2×x",
+        "x² − 10×x + 24"
+      ],
+      "answer_index": 1,
+      "memo": "Label the rectangle rows x and -6; columns x and −6. Fill the four cells: x², −6×x, −6×x, 36. Add the cell areas and collect like terms: x² − 12×x + 36. Check at x = 1: the original brackets and x² − 12×x + 36 both give 25.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − 24": "Incorrect: A term or factor was omitted.",
+        "x² − 12×x + 36": "Correct: Check at x = 1: the original brackets and x² − 12×x + 36 both give 25.",
+        "x² − 2×x": "Incorrect: A sign or factor was changed.",
+        "x² − 10×x + 24": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p07",
+      "prompt": "Expand (x + 2)×(x + 5) using all four area-model cells.",
+      "options": [
+        "x² + 10",
+        "x² + 7×x",
+        "x² + 7×x + 10",
+        "x² − 3×x − 10"
+      ],
+      "answer_index": 2,
+      "memo": "Label the rectangle rows x and 2; columns x and 5. Fill the four cells: x², 5×x, 2×x, 10. Add the cell areas and collect like terms: x² + 7×x + 10. Check at x = 1: the original brackets and x² + 7×x + 10 both give 18.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² + 10": "Incorrect: A term or factor was omitted.",
+        "x² + 7×x": "Incorrect: A sign or factor was changed.",
+        "x² + 7×x + 10": "Correct: Check at x = 1: the original brackets and x² + 7×x + 10 both give 18.",
+        "x² − 3×x − 10": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p08",
+      "prompt": "Expand (x + 3)×(x + 6) using all four area-model cells.",
+      "options": [
+        "x² + 18",
+        "x² + 9×x",
+        "x² − 3×x − 18",
+        "x² + 9×x + 18"
+      ],
+      "answer_index": 3,
+      "memo": "Label the rectangle rows x and 3; columns x and 6. Fill the four cells: x², 6×x, 3×x, 18. Add the cell areas and collect like terms: x² + 9×x + 18. Check at x = 1: the original brackets and x² + 9×x + 18 both give 28.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² + 18": "Incorrect: A term or factor was omitted.",
+        "x² + 9×x": "Incorrect: A sign or factor was changed.",
+        "x² − 3×x − 18": "Incorrect: The original restriction or operation was lost.",
+        "x² + 9×x + 18": "Correct: Check at x = 1: the original brackets and x² + 9×x + 18 both give 28."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p09",
+      "prompt": "Expand (x − 4)×(x + 7) using all four area-model cells.",
+      "options": [
+        "x² + 3×x − 28",
+        "x² − 28",
+        "x² + 3×x",
+        "x² − 11×x + 28"
+      ],
+      "answer_index": 0,
+      "memo": "Label the rectangle rows x and -4; columns x and 7. Fill the four cells: x², 7×x, −4×x, −28. Add the cell areas and collect like terms: x² + 3×x − 28. Check at x = 1: the original brackets and x² + 3×x − 28 both give -24.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² + 3×x − 28": "Correct: Check at x = 1: the original brackets and x² + 3×x − 28 both give -24.",
+        "x² − 28": "Incorrect: A term or factor was omitted.",
+        "x² + 3×x": "Incorrect: A sign or factor was changed.",
+        "x² − 11×x + 28": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p10",
+      "prompt": "Expand (x − 2)×(x + 3) using all four area-model cells.",
+      "options": [
+        "x² − 6",
+        "x² + x − 6",
+        "x² + x",
+        "x² − 5×x + 6"
+      ],
+      "answer_index": 1,
+      "memo": "Label the rectangle rows x and -2; columns x and 3. Fill the four cells: x², 3×x, −2×x, −6. Add the cell areas and collect like terms: x² + x − 6. Check at x = 1: the original brackets and x² + x − 6 both give -4.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − 6": "Incorrect: A term or factor was omitted.",
+        "x² + x − 6": "Correct: Check at x = 1: the original brackets and x² + x − 6 both give -4.",
+        "x² + x": "Incorrect: A sign or factor was changed.",
+        "x² − 5×x + 6": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p11",
+      "prompt": "Expand (x − 5)×(x + 6) using all four area-model cells.",
+      "options": [
+        "x² − 30",
+        "x² + x",
+        "x² + x − 30",
+        "x² − 11×x + 30"
+      ],
+      "answer_index": 2,
+      "memo": "Label the rectangle rows x and -5; columns x and 6. Fill the four cells: x², 6×x, −5×x, −30. Add the cell areas and collect like terms: x² + x − 30. Check at x = 1: the original brackets and x² + x − 30 both give -28.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − 30": "Incorrect: A term or factor was omitted.",
+        "x² + x": "Incorrect: A sign or factor was changed.",
+        "x² + x − 30": "Correct: Check at x = 1: the original brackets and x² + x − 30 both give -28.",
+        "x² − 11×x + 30": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p12",
+      "prompt": "Expand (x + 6)×(x + 7) using all four area-model cells.",
+      "options": [
+        "x² + 42",
+        "x² + 13×x",
+        "x² − x − 42",
+        "x² + 13×x + 42"
+      ],
+      "answer_index": 3,
+      "memo": "Label the rectangle rows x and 6; columns x and 7. Fill the four cells: x², 7×x, 6×x, 42. Add the cell areas and collect like terms: x² + 13×x + 42. Check at x = 1: the original brackets and x² + 13×x + 42 both give 56.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² + 42": "Incorrect: A term or factor was omitted.",
+        "x² + 13×x": "Incorrect: A sign or factor was changed.",
+        "x² − x − 42": "Incorrect: The original restriction or operation was lost.",
+        "x² + 13×x + 42": "Correct: Check at x = 1: the original brackets and x² + 13×x + 42 both give 56."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p13",
+      "prompt": "Expand (x + 1)×(x + 2) using all four area-model cells.",
+      "options": [
+        "x² + 3×x + 2",
+        "x² + 2",
+        "x² + 3×x",
+        "x² + x − 2"
+      ],
+      "answer_index": 0,
+      "memo": "Label the rectangle rows x and 2; columns x and 1. Fill the four cells: x², x, 2×x, 2. Add the cell areas and collect like terms: x² + 3×x + 2. Check at x = 1: the original brackets and x² + 3×x + 2 both give 6.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² + 3×x + 2": "Correct: Check at x = 1: the original brackets and x² + 3×x + 2 both give 6.",
+        "x² + 2": "Incorrect: A term or factor was omitted.",
+        "x² + 3×x": "Incorrect: A sign or factor was changed.",
+        "x² + x − 2": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p14",
+      "prompt": "Expand (x − 3)×(x − 3) using all four area-model cells.",
+      "options": [
+        "x² − 6",
+        "x² − 6×x + 9",
+        "x² − x",
+        "x² − 5×x + 6"
+      ],
+      "answer_index": 1,
+      "memo": "Label the rectangle rows x and -3; columns x and −3. Fill the four cells: x², −3×x, −3×x, 9. Add the cell areas and collect like terms: x² − 6×x + 9. Check at x = 1: the original brackets and x² − 6×x + 9 both give 4.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − 6": "Incorrect: A term or factor was omitted.",
+        "x² − 6×x + 9": "Correct: Check at x = 1: the original brackets and x² − 6×x + 9 both give 4.",
+        "x² − x": "Incorrect: A sign or factor was changed.",
+        "x² − 5×x + 6": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-p15",
+      "prompt": "Expand (x + 4)×(x + 5) using all four area-model cells.",
+      "options": [
+        "x² + 20",
+        "x² + 9×x",
+        "x² + 9×x + 20",
+        "x² + x − 20"
+      ],
+      "answer_index": 2,
+      "memo": "Label the rectangle rows x and 5; columns x and 4. Fill the four cells: x², 4×x, 5×x, 20. Add the cell areas and collect like terms: x² + 9×x + 20. Check at x = 1: the original brackets and x² + 9×x + 20 both give 30.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² + 20": "Incorrect: A term or factor was omitted.",
+        "x² + 9×x": "Incorrect: A sign or factor was changed.",
+        "x² + 9×x + 20": "Correct: Check at x = 1: the original brackets and x² + 9×x + 20 both give 30.",
+        "x² + x − 20": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-aex-l04-m01",
+      "prompt": "Expand (x − 6)×(x + 5) using all four area-model cells.",
+      "options": [
+        "x² − x − 30",
+        "x² − 30",
+        "x² − x",
+        "x² − 11×x + 30"
+      ],
+      "answer_index": 0,
+      "memo": "Label the rectangle rows x and -6; columns x and 5. Fill the four cells: x², 5×x, −6×x, −30. Add the cell areas and collect like terms: x² − x − 30. Check at x = 1: the original brackets and x² − x − 30 both give -30.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − x − 30": "Correct: Check at x = 1: the original brackets and x² − x − 30 both give -30.",
+        "x² − 30": "Incorrect: A term or factor was omitted.",
+        "x² − x": "Incorrect: A sign or factor was changed.",
+        "x² − 11×x + 30": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-m02",
+      "prompt": "Expand (x + 3)×(x + 7) using all four area-model cells.",
+      "options": [
+        "x² + 21",
+        "x² + 10×x + 21",
+        "x² + 10×x",
+        "x² − 4×x − 21"
+      ],
+      "answer_index": 1,
+      "memo": "Label the rectangle rows x and 3; columns x and 7. Fill the four cells: x², 7×x, 3×x, 21. Add the cell areas and collect like terms: x² + 10×x + 21. Check at x = 1: the original brackets and x² + 10×x + 21 both give 32.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² + 21": "Incorrect: A term or factor was omitted.",
+        "x² + 10×x + 21": "Correct: Check at x = 1: the original brackets and x² + 10×x + 21 both give 32.",
+        "x² + 10×x": "Incorrect: A sign or factor was changed.",
+        "x² − 4×x − 21": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-m03",
+      "prompt": "Expand (x − 4)×(x + 1) using all four area-model cells.",
+      "options": [
+        "x² − 4",
+        "x² − 3×x",
+        "x² − 3×x − 4",
+        "x² − 5×x + 4"
+      ],
+      "answer_index": 2,
+      "memo": "Label the rectangle rows x and -4; columns x and 1. Fill the four cells: x², x, −4×x, −4. Add the cell areas and collect like terms: x² − 3×x − 4. Check at x = 1: the original brackets and x² − 3×x − 4 both give -6.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − 4": "Incorrect: A term or factor was omitted.",
+        "x² − 3×x": "Incorrect: A sign or factor was changed.",
+        "x² − 3×x − 4": "Correct: Check at x = 1: the original brackets and x² − 3×x − 4 both give -6.",
+        "x² − 5×x + 4": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-m04",
+      "prompt": "Expand (x − 2)×(x + 4) using all four area-model cells.",
+      "options": [
+        "x² − 8",
+        "x² + 2×x",
+        "x² − 6×x + 8",
+        "x² + 2×x − 8"
+      ],
+      "answer_index": 3,
+      "memo": "Label the rectangle rows x and -2; columns x and 4. Fill the four cells: x², 4×x, −2×x, −8. Add the cell areas and collect like terms: x² + 2×x − 8. Check at x = 1: the original brackets and x² + 2×x − 8 both give -5.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − 8": "Incorrect: A term or factor was omitted.",
+        "x² + 2×x": "Incorrect: A sign or factor was changed.",
+        "x² − 6×x + 8": "Incorrect: The original restriction or operation was lost.",
+        "x² + 2×x − 8": "Correct: Check at x = 1: the original brackets and x² + 2×x − 8 both give -5."
+      }
+    },
+    {
+      "id": "g9-aex-l04-m05",
+      "prompt": "Expand (x + 4)×(x + 6) using all four area-model cells.",
+      "options": [
+        "x² + 10×x + 24",
+        "x² + 24",
+        "x² + 10×x",
+        "x² − 2×x − 24"
+      ],
+      "answer_index": 0,
+      "memo": "Label the rectangle rows x and 4; columns x and 6. Fill the four cells: x², 6×x, 4×x, 24. Add the cell areas and collect like terms: x² + 10×x + 24. Check at x = 1: the original brackets and x² + 10×x + 24 both give 35.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² + 10×x + 24": "Correct: Check at x = 1: the original brackets and x² + 10×x + 24 both give 35.",
+        "x² + 24": "Incorrect: A term or factor was omitted.",
+        "x² + 10×x": "Incorrect: A sign or factor was changed.",
+        "x² − 2×x − 24": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-aex-l04-r01",
+      "prompt": "Expand (x − 5)×(x − 5) using all four area-model cells.",
+      "options": [
+        "x² − 10×x + 25",
+        "x² − 35",
+        "x² + 2×x",
+        "x² − 12×x + 35"
+      ],
+      "answer_index": 0,
+      "memo": "Label the rectangle rows x and -5; columns x and −5. Fill the four cells: x², −5×x, −5×x, 25. Add the cell areas and collect like terms: x² − 10×x + 25. Check at x = 1: the original brackets and x² − 10×x + 25 both give 16.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − 10×x + 25": "Correct: Check at x = 1: the original brackets and x² − 10×x + 25 both give 16.",
+        "x² − 35": "Incorrect: A term or factor was omitted.",
+        "x² + 2×x": "Incorrect: A sign or factor was changed.",
+        "x² − 12×x + 35": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-r02",
+      "prompt": "Expand (x − 3)×(x + 3) using all four area-model cells.",
+      "options": [
+        "x² − 9 + 1",
+        "x² − 9",
+        "x² − 9 + 2",
+        "x² − 9 + 3"
+      ],
+      "answer_index": 1,
+      "memo": "Label the rectangle rows x and -3; columns x and 3. Fill the four cells: x², 3×x, −3×x, −9. Add the cell areas and collect like terms: x² − 9. Check at x = 1: the original brackets and x² − 9 both give -8.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − 9 + 1": "Incorrect: A term or factor was omitted.",
+        "x² − 9": "Correct: Check at x = 1: the original brackets and x² − 9 both give -8.",
+        "x² − 9 + 2": "Incorrect: A sign or factor was changed.",
+        "x² − 9 + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l04-r03",
+      "prompt": "Expand (x − 6)×(x + 6) using all four area-model cells.",
+      "options": [
+        "x² − 36 + 1",
+        "x² − 36 + 2",
+        "x² − 36",
+        "x² − 36 + 3"
+      ],
+      "answer_index": 2,
+      "memo": "Label the rectangle rows x and -6; columns x and 6. Fill the four cells: x², 6×x, −6×x, −36. Add the cell areas and collect like terms: x² − 36. Check at x = 1: the original brackets and x² − 36 both give -35.",
+      "misconception": "expressions-area",
+      "option_rationales": {
+        "x² − 36 + 1": "Incorrect: A term or factor was omitted.",
+        "x² − 36 + 2": "Incorrect: A sign or factor was changed.",
+        "x² − 36": "Correct: Check at x = 1: the original brackets and x² − 36 both give -35.",
+        "x² − 36 + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ]
+}

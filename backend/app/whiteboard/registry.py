@@ -124,6 +124,9 @@ for _grade9_pattern_number in range(1,6):
 for _grade9_function_number in range(1,6):
     registry.register(f"grade9_function_{_grade9_function_number}_step", f"grade9_function_{_grade9_function_number}",
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+for _grade9_expression_number in range(1,10):
+    registry.register(f"grade9_expression_{_grade9_expression_number}_step", f"grade9_expression_{_grade9_expression_number}",
+        lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("fraction_stage", "grade8_fraction_strips", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("fraction_operation_stage", "grade8_fraction_operations", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 registry.register("fraction_model_stage", "grade8_fraction_powers_context", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))

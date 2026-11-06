@@ -143,6 +143,7 @@ for(let number=1;number<=5;number++)registerTeachingOperation(`grade9_integer_${
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade9_exponent_${number}_step`, "fraction_model_stage");
 for(let number=1;number<=5;number++)registerTeachingOperation(`grade9_pattern_${number}_step`, "fraction_model_stage");
 for(let number=1;number<=5;number++)registerTeachingOperation(`grade9_function_${number}_step`, "fraction_model_stage");
+for(let number=1;number<=9;number++)registerTeachingOperation(`grade9_expression_${number}_step`, "fraction_model_stage");
 
 ["identify_interval", "substitute_function_value", "calculate_average_rate", "interpret_rate", "read_problem", "select_method", "show_working", "verify_result"].forEach(registerTeachingOperation);
 

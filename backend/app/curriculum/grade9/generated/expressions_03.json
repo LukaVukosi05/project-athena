@@ -1,0 +1,1116 @@
+{
+  "source": "lesson-03-distributing-monomials-across-polynomials.md",
+  "worked": [
+    {
+      "problem": "Expand (3×x)×(2×x + 3) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from 3×x to each of the 2 terms in 2×x + 3.",
+        "Multiply the factor into every term: (3×x)×3 = 9×x, (2×x)×(3×x) = 6×x².",
+        "Combine the products without dropping a sign: 6×x² + 9×x.",
+        "Check at x = 1: the original product and 6×x² + 9×x both give 15."
+      ],
+      "answer": "6×x² + 9×x",
+      "wrongs": [
+        "6×x² + 3",
+        "−6×x² − 9×x",
+        "6×x² − 9×x"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "3×x",
+          "3",
+          "2×x"
+        ],
+        "restriction": "",
+        "answer": "6×x² + 9×x",
+        "rows": [
+          "3×x",
+          "3"
+        ],
+        "columns": [
+          "2×x"
+        ],
+        "factor": "3×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and 6×x² + 9×x both give 15.",
+      "id": "g9-aex-l03-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Expand 4×(3×x + 4) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from 4 to each of the 2 terms in 3×x + 4.",
+        "Multiply the factor into every term: 4×4 = 16, 4×(3×x) = 12×x.",
+        "Combine the products without dropping a sign: 12×x + 16.",
+        "Check at x = 1: the original product and 12×x + 16 both give 28."
+      ],
+      "answer": "12×x + 16",
+      "wrongs": [
+        "12×x + 4",
+        "−12×x − 16",
+        "12×x − 16"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "4",
+          "4",
+          "3×x"
+        ],
+        "restriction": "",
+        "answer": "12×x + 16",
+        "rows": [
+          "4",
+          "4"
+        ],
+        "columns": [
+          "3×x"
+        ],
+        "factor": "4",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and 12×x + 16 both give 28.",
+      "id": "g9-aex-l03-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Expand (−5×x)×(4×x + 5) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from −5×x to each of the 2 terms in 4×x + 5.",
+        "Multiply the factor into every term: −5×x×5 = −25×x, (−5×x)×(4×x) = −20×x².",
+        "Combine the products without dropping a sign: −20×x² − 25×x.",
+        "Check at x = 1: the original product and −20×x² − 25×x both give -45."
+      ],
+      "answer": "−20×x² − 25×x",
+      "wrongs": [
+        "5 − 20×x²",
+        "20×x² + 25×x",
+        "−20×x² + 25×x"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "−5×x",
+          "5",
+          "4×x"
+        ],
+        "restriction": "",
+        "answer": "−20×x² − 25×x",
+        "rows": [
+          "−5×x",
+          "5"
+        ],
+        "columns": [
+          "4×x"
+        ],
+        "factor": "−5×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and −20×x² − 25×x both give -45.",
+      "id": "g9-aex-l03-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Expand 6×(5×x + 2) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from 6 to each of the 2 terms in 5×x + 2.",
+        "Multiply the factor into every term: 6×2 = 12, 6×(5×x) = 30×x.",
+        "Combine the products without dropping a sign: 30×x + 12.",
+        "Check at x = 1: the original product and 30×x + 12 both give 42."
+      ],
+      "answer": "30×x + 12",
+      "wrongs": [
+        "30×x + 2",
+        "−30×x − 12",
+        "30×x − 12"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "6",
+          "2",
+          "5×x"
+        ],
+        "restriction": "",
+        "answer": "30×x + 12",
+        "rows": [
+          "6",
+          "2"
+        ],
+        "columns": [
+          "5×x"
+        ],
+        "factor": "6",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and 30×x + 12 both give 42.",
+      "id": "g9-aex-l03-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Expand (2×x)×(6×x + 3) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from 2×x to each of the 2 terms in 6×x + 3.",
+        "Multiply the factor into every term: (2×x)×3 = 6×x, (2×x)×(6×x) = 12×x².",
+        "Combine the products without dropping a sign: 12×x² + 6×x.",
+        "Check at x = 1: the original product and 12×x² + 6×x both give 18."
+      ],
+      "answer": "12×x² + 6×x",
+      "wrongs": [
+        "12×x² + 3",
+        "−12×x² − 6×x",
+        "12×x² − 6×x"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "2×x",
+          "3",
+          "6×x"
+        ],
+        "restriction": "",
+        "answer": "12×x² + 6×x",
+        "rows": [
+          "2×x",
+          "3"
+        ],
+        "columns": [
+          "6×x"
+        ],
+        "factor": "2×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and 12×x² + 6×x both give 18.",
+      "id": "g9-aex-l03-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Expand −3×(7×x + 4) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from −3 to each of the 2 terms in 7×x + 4.",
+        "Multiply the factor into every term: −3×4 = −12, −21×x = −21×x.",
+        "Combine the products without dropping a sign: −21×x − 12.",
+        "Check at x = 1: the original product and −21×x − 12 both give -33."
+      ],
+      "answer": "−21×x − 12",
+      "wrongs": [
+        "4 − 21×x",
+        "21×x + 12",
+        "12 − 21×x"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "−3",
+          "4",
+          "7×x"
+        ],
+        "restriction": "",
+        "answer": "−21×x − 12",
+        "rows": [
+          "−3",
+          "4"
+        ],
+        "columns": [
+          "7×x"
+        ],
+        "factor": "−3",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and −21×x − 12 both give -33.",
+      "id": "g9-aex-l03-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Expand (4×x)×(x + 5) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from 4×x to each of the 2 terms in x + 5.",
+        "Multiply the factor into every term: (4×x)×5 = 20×x, x×(4×x) = 4×x².",
+        "Combine the products without dropping a sign: 4×x² + 20×x.",
+        "Check at x = 1: the original product and 4×x² + 20×x both give 24."
+      ],
+      "answer": "4×x² + 20×x",
+      "wrongs": [
+        "4×x² + 5",
+        "−4×x² − 20×x",
+        "4×x² − 20×x"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "4×x",
+          "5",
+          "x"
+        ],
+        "restriction": "",
+        "answer": "4×x² + 20×x",
+        "rows": [
+          "4×x",
+          "5"
+        ],
+        "columns": [
+          "x"
+        ],
+        "factor": "4×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and 4×x² + 20×x both give 24.",
+      "id": "g9-aex-l03-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Expand 5×(2×x + 2) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from 5 to each of the 2 terms in 2×x + 2.",
+        "Multiply the factor into every term: 5×2 = 10, 5×(2×x) = 10×x.",
+        "Combine the products without dropping a sign: 10×x + 10.",
+        "Check at x = 1: the original product and 10×x + 10 both give 20."
+      ],
+      "answer": "10×x + 10",
+      "wrongs": [
+        "10×x + 2",
+        "−10×x − 10",
+        "10×x − 10"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "5",
+          "2",
+          "2×x"
+        ],
+        "restriction": "",
+        "answer": "10×x + 10",
+        "rows": [
+          "5",
+          "2"
+        ],
+        "columns": [
+          "2×x"
+        ],
+        "factor": "5",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and 10×x + 10 both give 20.",
+      "id": "g9-aex-l03-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Expand (−6×x)×(3×x + 3) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from −6×x to each of the 2 terms in 3×x + 3.",
+        "Multiply the factor into every term: −6×x×3 = −18×x, (−6×x)×(3×x) = −18×x².",
+        "Combine the products without dropping a sign: −18×x² − 18×x.",
+        "Check at x = 1: the original product and −18×x² − 18×x both give -36."
+      ],
+      "answer": "−18×x² − 18×x",
+      "wrongs": [
+        "3 − 18×x²",
+        "18×x² + 18×x",
+        "−18×x² + 18×x"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "−6×x",
+          "3",
+          "3×x"
+        ],
+        "restriction": "",
+        "answer": "−18×x² − 18×x",
+        "rows": [
+          "−6×x",
+          "3"
+        ],
+        "columns": [
+          "3×x"
+        ],
+        "factor": "−6×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and −18×x² − 18×x both give -36.",
+      "id": "g9-aex-l03-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Expand 2×(4×x + 4) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from 2 to each of the 2 terms in 4×x + 4.",
+        "Multiply the factor into every term: 2×4 = 8, 2×(4×x) = 8×x.",
+        "Combine the products without dropping a sign: 8×x + 8.",
+        "Check at x = 1: the original product and 8×x + 8 both give 16."
+      ],
+      "answer": "8×x + 8",
+      "wrongs": [
+        "8×x + 4",
+        "−8×x − 8",
+        "8×x − 8"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "2",
+          "4",
+          "4×x"
+        ],
+        "restriction": "",
+        "answer": "8×x + 8",
+        "rows": [
+          "2",
+          "4"
+        ],
+        "columns": [
+          "4×x"
+        ],
+        "factor": "2",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and 8×x + 8 both give 16.",
+      "id": "g9-aex-l03-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Expand (3×x)×(5×x + 5) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from 3×x to each of the 2 terms in 5×x + 5.",
+        "Multiply the factor into every term: (3×x)×5 = 15×x, (3×x)×(5×x) = 15×x².",
+        "Combine the products without dropping a sign: 15×x² + 15×x.",
+        "Check at x = 1: the original product and 15×x² + 15×x both give 30."
+      ],
+      "answer": "15×x² + 15×x",
+      "wrongs": [
+        "15×x² + 5",
+        "−15×x² − 15×x",
+        "15×x² − 15×x"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "3×x",
+          "5",
+          "5×x"
+        ],
+        "restriction": "",
+        "answer": "15×x² + 15×x",
+        "rows": [
+          "3×x",
+          "5"
+        ],
+        "columns": [
+          "5×x"
+        ],
+        "factor": "3×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and 15×x² + 15×x both give 30.",
+      "id": "g9-aex-l03-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Expand −4×(6×x² + 2×x + 2) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from −4 to each of the 3 terms in 6×x² + 2×x + 2.",
+        "Multiply the factor into every term: −4×2 = −8, −8×x = −8×x, −24×x² = −24×x².",
+        "Combine the products without dropping a sign: −24×x² − 8×x − 8.",
+        "Check at x = 1: the original product and −24×x² − 8×x − 8 both give -40."
+      ],
+      "answer": "−24×x² − 8×x − 8",
+      "wrongs": [
+        "2 − 24×x",
+        "24×x² + 8×x + 8",
+        "8 − 24×x"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "−4",
+          "2",
+          "2×x",
+          "6×x²"
+        ],
+        "restriction": "",
+        "answer": "−24×x² − 8×x − 8",
+        "rows": [
+          "−4",
+          "2"
+        ],
+        "columns": [
+          "2×x",
+          "6×x²"
+        ],
+        "factor": "−4",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and −24×x² − 8×x − 8 both give -40.",
+      "id": "g9-aex-l03-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Expand (5×x)×(7×x² + 3×x + 3) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from 5×x to each of the 3 terms in 7×x² + 3×x + 3.",
+        "Multiply the factor into every term: (5×x)×3 = 15×x, (3×x)×(5×x) = 15×x², (5×x)×(7×x²) = 35×x³.",
+        "Combine the products without dropping a sign: 35×x³ + 15×x² + 15×x.",
+        "Check at x = 1: the original product and 35×x³ + 15×x² + 15×x both give 65."
+      ],
+      "answer": "35×x³ + 15×x² + 15×x",
+      "wrongs": [
+        "35×x² + 3",
+        "−35×x³ − 15×x² − 15×x",
+        "35×x² − 15×x"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "5×x",
+          "3",
+          "3×x",
+          "7×x²"
+        ],
+        "restriction": "",
+        "answer": "35×x³ + 15×x² + 15×x",
+        "rows": [
+          "5×x",
+          "3"
+        ],
+        "columns": [
+          "3×x",
+          "7×x²"
+        ],
+        "factor": "5×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and 35×x³ + 15×x² + 15×x both give 65.",
+      "id": "g9-aex-l03-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Expand 6×(x² + 4×x + 4) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from 6 to each of the 3 terms in x² + 4×x + 4.",
+        "Multiply the factor into every term: 6×4 = 24, 6×x² = 6×x², 6×(4×x) = 24×x.",
+        "Combine the products without dropping a sign: 6×x² + 24×x + 24.",
+        "Check at x = 1: the original product and 6×x² + 24×x + 24 both give 54."
+      ],
+      "answer": "6×x² + 24×x + 24",
+      "wrongs": [
+        "6×x + 4",
+        "−6×x² − 24×x − 24",
+        "6×x − 24"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "6",
+          "4",
+          "x²",
+          "4×x"
+        ],
+        "restriction": "",
+        "answer": "6×x² + 24×x + 24",
+        "rows": [
+          "6",
+          "4"
+        ],
+        "columns": [
+          "x²",
+          "4×x"
+        ],
+        "factor": "6",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and 6×x² + 24×x + 24 both give 54.",
+      "id": "g9-aex-l03-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Expand (−2×x)×(2×x² + 5×x + 2) and collect like terms.",
+      "actions": [
+        "Draw one distribution arrow from −2×x to each of the 3 terms in 2×x² + 5×x + 2.",
+        "Multiply the factor into every term: −2×x×2 = −4×x, (−2×x)×(2×x²) = −4×x³, (−2×x)×(5×x) = −10×x².",
+        "Combine the products without dropping a sign: −4×x³ − 10×x² − 4×x.",
+        "Check at x = 1: the original product and −4×x³ − 10×x² − 4×x both give -18."
+      ],
+      "answer": "−4×x³ − 10×x² − 4×x",
+      "wrongs": [
+        "5 − 4×x²",
+        "4×x³ + 10×x² + 4×x",
+        "−4×x² + 10×x"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "distribution",
+        "givens": [
+          "−2×x",
+          "2",
+          "2×x²",
+          "5×x"
+        ],
+        "restriction": "",
+        "answer": "−4×x³ − 10×x² − 4×x",
+        "rows": [
+          "−2×x",
+          "2"
+        ],
+        "columns": [
+          "2×x²",
+          "5×x"
+        ],
+        "factor": "−2×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-distribution",
+      "check": "Check at x = 1: the original product and −4×x³ − 10×x² − 4×x both give -18.",
+      "id": "g9-aex-l03-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-aex-l03-p01",
+      "prompt": "Expand 3×(3×x² + 2×x + 3) and collect like terms.",
+      "options": [
+        "9×x² + 6×x + 9",
+        "9×x + 2",
+        "−9×x² − 6×x − 9",
+        "9×x − 6"
+      ],
+      "answer_index": 0,
+      "memo": "Draw one distribution arrow from 3 to each of the 3 terms in 3×x² + 2×x + 3. Multiply the factor into every term: 3×3 = 9, 3×(2×x) = 6×x, 3×(3×x²) = 9×x². Combine the products without dropping a sign: 9×x² + 6×x + 9. Check at x = 1: the original product and 9×x² + 6×x + 9 both give 24.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "9×x² + 6×x + 9": "Correct: Check at x = 1: the original product and 9×x² + 6×x + 9 both give 24.",
+        "9×x + 2": "Incorrect: A term or factor was omitted.",
+        "−9×x² − 6×x − 9": "Incorrect: A sign or factor was changed.",
+        "9×x − 6": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p02",
+      "prompt": "Expand (4×x)×(4×x² + 3×x + 4) and collect like terms.",
+      "options": [
+        "16×x² + 3",
+        "16×x³ + 12×x² + 16×x",
+        "−16×x³ − 12×x² − 16×x",
+        "16×x² − 12×x"
+      ],
+      "answer_index": 1,
+      "memo": "Draw one distribution arrow from 4×x to each of the 3 terms in 4×x² + 3×x + 4. Multiply the factor into every term: (4×x)×4 = 16×x, (3×x)×(4×x) = 12×x², (4×x)×(4×x²) = 16×x³. Combine the products without dropping a sign: 16×x³ + 12×x² + 16×x. Check at x = 1: the original product and 16×x³ + 12×x² + 16×x both give 44.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "16×x² + 3": "Incorrect: A term or factor was omitted.",
+        "16×x³ + 12×x² + 16×x": "Correct: Check at x = 1: the original product and 16×x³ + 12×x² + 16×x both give 44.",
+        "−16×x³ − 12×x² − 16×x": "Incorrect: A sign or factor was changed.",
+        "16×x² − 12×x": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p03",
+      "prompt": "Expand −5×(5×x² + 4×x + 2) and collect like terms.",
+      "options": [
+        "4 − 25×x",
+        "25×x² + 20×x + 10",
+        "−25×x² − 20×x − 10",
+        "20 − 25×x"
+      ],
+      "answer_index": 2,
+      "memo": "Draw one distribution arrow from −5 to each of the 3 terms in 5×x² + 4×x + 2. Multiply the factor into every term: −5×2 = −10, −20×x = −20×x, −25×x² = −25×x². Combine the products without dropping a sign: −25×x² − 20×x − 10. Check at x = 1: the original product and −25×x² − 20×x − 10 both give -55.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "4 − 25×x": "Incorrect: A term or factor was omitted.",
+        "25×x² + 20×x + 10": "Incorrect: A sign or factor was changed.",
+        "−25×x² − 20×x − 10": "Correct: Check at x = 1: the original product and −25×x² − 20×x − 10 both give -55.",
+        "20 − 25×x": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p04",
+      "prompt": "Expand (6×x)×(6×x² + 5×x + 3) and collect like terms.",
+      "options": [
+        "36×x² + 5",
+        "−36×x³ − 30×x² − 18×x",
+        "36×x² − 30×x",
+        "36×x³ + 30×x² + 18×x"
+      ],
+      "answer_index": 3,
+      "memo": "Draw one distribution arrow from 6×x to each of the 3 terms in 6×x² + 5×x + 3. Multiply the factor into every term: (6×x)×3 = 18×x, (5×x)×(6×x) = 30×x², (6×x)×(6×x²) = 36×x³. Combine the products without dropping a sign: 36×x³ + 30×x² + 18×x. Check at x = 1: the original product and 36×x³ + 30×x² + 18×x both give 84.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "36×x² + 5": "Incorrect: A term or factor was omitted.",
+        "−36×x³ − 30×x² − 18×x": "Incorrect: A sign or factor was changed.",
+        "36×x² − 30×x": "Incorrect: The original restriction or operation was lost.",
+        "36×x³ + 30×x² + 18×x": "Correct: Check at x = 1: the original product and 36×x³ + 30×x² + 18×x both give 84."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p05",
+      "prompt": "Expand 2×(7×x² + 2×x + 4) and collect like terms.",
+      "options": [
+        "14×x² + 4×x + 8",
+        "14×x + 2",
+        "−14×x² − 4×x − 8",
+        "14×x − 4"
+      ],
+      "answer_index": 0,
+      "memo": "Draw one distribution arrow from 2 to each of the 3 terms in 7×x² + 2×x + 4. Multiply the factor into every term: 2×4 = 8, 2×(2×x) = 4×x, 2×(7×x²) = 14×x². Combine the products without dropping a sign: 14×x² + 4×x + 8. Check at x = 1: the original product and 14×x² + 4×x + 8 both give 26.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "14×x² + 4×x + 8": "Correct: Check at x = 1: the original product and 14×x² + 4×x + 8 both give 26.",
+        "14×x + 2": "Incorrect: A term or factor was omitted.",
+        "−14×x² − 4×x − 8": "Incorrect: A sign or factor was changed.",
+        "14×x − 4": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p06",
+      "prompt": "Expand (−3×x)×(x² + 3×x + 2) and collect like terms.",
+      "options": [
+        "3 − 3×x²",
+        "−3×x³ − 9×x² − 6×x",
+        "3×x³ + 9×x² + 6×x",
+        "−3×x² + 9×x"
+      ],
+      "answer_index": 1,
+      "memo": "Draw one distribution arrow from −3×x to each of the 3 terms in x² + 3×x + 2. Multiply the factor into every term: −3×x×2 = −6×x, (−3×x)×x² = −3×x³, (−3×x)×(3×x) = −9×x². Combine the products without dropping a sign: −3×x³ − 9×x² − 6×x. Check at x = 1: the original product and −3×x³ − 9×x² − 6×x both give -18.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "3 − 3×x²": "Incorrect: A term or factor was omitted.",
+        "−3×x³ − 9×x² − 6×x": "Correct: Check at x = 1: the original product and −3×x³ − 9×x² − 6×x both give -18.",
+        "3×x³ + 9×x² + 6×x": "Incorrect: A sign or factor was changed.",
+        "−3×x² + 9×x": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p07",
+      "prompt": "Expand 4×(2×x² + 4×x + 3) and collect like terms.",
+      "options": [
+        "8×x + 4",
+        "−8×x² − 16×x − 12",
+        "8×x² + 16×x + 12",
+        "8×x − 16"
+      ],
+      "answer_index": 2,
+      "memo": "Draw one distribution arrow from 4 to each of the 3 terms in 2×x² + 4×x + 3. Multiply the factor into every term: 4×3 = 12, 4×(2×x²) = 8×x², 4×(4×x) = 16×x. Combine the products without dropping a sign: 8×x² + 16×x + 12. Check at x = 1: the original product and 8×x² + 16×x + 12 both give 36.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "8×x + 4": "Incorrect: A term or factor was omitted.",
+        "−8×x² − 16×x − 12": "Incorrect: A sign or factor was changed.",
+        "8×x² + 16×x + 12": "Correct: Check at x = 1: the original product and 8×x² + 16×x + 12 both give 36.",
+        "8×x − 16": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p08",
+      "prompt": "Expand (5×x)×(3×x² + 5×x + 4) and collect like terms.",
+      "options": [
+        "15×x² + 5",
+        "−15×x³ − 25×x² − 20×x",
+        "15×x² − 25×x",
+        "15×x³ + 25×x² + 20×x"
+      ],
+      "answer_index": 3,
+      "memo": "Draw one distribution arrow from 5×x to each of the 3 terms in 3×x² + 5×x + 4. Multiply the factor into every term: (5×x)×4 = 20×x, (5×x)×(3×x²) = 15×x³, (5×x)×(5×x) = 25×x². Combine the products without dropping a sign: 15×x³ + 25×x² + 20×x. Check at x = 1: the original product and 15×x³ + 25×x² + 20×x both give 60.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "15×x² + 5": "Incorrect: A term or factor was omitted.",
+        "−15×x³ − 25×x² − 20×x": "Incorrect: A sign or factor was changed.",
+        "15×x² − 25×x": "Incorrect: The original restriction or operation was lost.",
+        "15×x³ + 25×x² + 20×x": "Correct: Check at x = 1: the original product and 15×x³ + 25×x² + 20×x both give 60."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p09",
+      "prompt": "Expand −6×(4×x² + 2×x + 2) and collect like terms.",
+      "options": [
+        "−24×x² − 12×x − 12",
+        "2 − 24×x",
+        "24×x² + 12×x + 12",
+        "12 − 24×x"
+      ],
+      "answer_index": 0,
+      "memo": "Draw one distribution arrow from −6 to each of the 3 terms in 4×x² + 2×x + 2. Multiply the factor into every term: −6×2 = −12, −12×x = −12×x, −24×x² = −24×x². Combine the products without dropping a sign: −24×x² − 12×x − 12. Check at x = 1: the original product and −24×x² − 12×x − 12 both give -48.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "−24×x² − 12×x − 12": "Correct: Check at x = 1: the original product and −24×x² − 12×x − 12 both give -48.",
+        "2 − 24×x": "Incorrect: A term or factor was omitted.",
+        "24×x² + 12×x + 12": "Incorrect: A sign or factor was changed.",
+        "12 − 24×x": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p10",
+      "prompt": "Expand (2×x)×(5×x² + 3×x + 3) and collect like terms.",
+      "options": [
+        "10×x² + 3",
+        "10×x³ + 6×x² + 6×x",
+        "−10×x³ − 6×x² − 6×x",
+        "10×x² − 6×x"
+      ],
+      "answer_index": 1,
+      "memo": "Draw one distribution arrow from 2×x to each of the 3 terms in 5×x² + 3×x + 3. Multiply the factor into every term: (2×x)×3 = 6×x, (2×x)×(3×x) = 6×x², (2×x)×(5×x²) = 10×x³. Combine the products without dropping a sign: 10×x³ + 6×x² + 6×x. Check at x = 1: the original product and 10×x³ + 6×x² + 6×x both give 22.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "10×x² + 3": "Incorrect: A term or factor was omitted.",
+        "10×x³ + 6×x² + 6×x": "Correct: Check at x = 1: the original product and 10×x³ + 6×x² + 6×x both give 22.",
+        "−10×x³ − 6×x² − 6×x": "Incorrect: A sign or factor was changed.",
+        "10×x² − 6×x": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p11",
+      "prompt": "Expand 3×(6×x² + 4×x + 4) and collect like terms.",
+      "options": [
+        "18×x + 4",
+        "−18×x² − 12×x − 12",
+        "18×x² + 12×x + 12",
+        "18×x − 12"
+      ],
+      "answer_index": 2,
+      "memo": "Draw one distribution arrow from 3 to each of the 3 terms in 6×x² + 4×x + 4. Multiply the factor into every term: 3×4 = 12, 3×(4×x) = 12×x, 3×(6×x²) = 18×x². Combine the products without dropping a sign: 18×x² + 12×x + 12. Check at x = 1: the original product and 18×x² + 12×x + 12 both give 42.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "18×x + 4": "Incorrect: A term or factor was omitted.",
+        "−18×x² − 12×x − 12": "Incorrect: A sign or factor was changed.",
+        "18×x² + 12×x + 12": "Correct: Check at x = 1: the original product and 18×x² + 12×x + 12 both give 42.",
+        "18×x − 12": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p12",
+      "prompt": "Expand (−4×x)×(7×x² + 5×x + 2) and collect like terms.",
+      "options": [
+        "5 − 28×x²",
+        "28×x³ + 20×x² + 8×x",
+        "−28×x² + 20×x",
+        "−28×x³ − 20×x² − 8×x"
+      ],
+      "answer_index": 3,
+      "memo": "Draw one distribution arrow from −4×x to each of the 3 terms in 7×x² + 5×x + 2. Multiply the factor into every term: −4×x×2 = −8×x, (−4×x)×(5×x) = −20×x², (−4×x)×(7×x²) = −28×x³. Combine the products without dropping a sign: −28×x³ − 20×x² − 8×x. Check at x = 1: the original product and −28×x³ − 20×x² − 8×x both give -56.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "5 − 28×x²": "Incorrect: A term or factor was omitted.",
+        "28×x³ + 20×x² + 8×x": "Incorrect: A sign or factor was changed.",
+        "−28×x² + 20×x": "Incorrect: The original restriction or operation was lost.",
+        "−28×x³ − 20×x² − 8×x": "Correct: Check at x = 1: the original product and −28×x³ − 20×x² − 8×x both give -56."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p13",
+      "prompt": "Expand 5×(x² + 2×x + 3) and collect like terms.",
+      "options": [
+        "5×x² + 10×x + 15",
+        "5×x + 2",
+        "−5×x² − 10×x − 15",
+        "5×x − 10"
+      ],
+      "answer_index": 0,
+      "memo": "Draw one distribution arrow from 5 to each of the 3 terms in x² + 2×x + 3. Multiply the factor into every term: 5×3 = 15, 5×x² = 5×x², 5×(2×x) = 10×x. Combine the products without dropping a sign: 5×x² + 10×x + 15. Check at x = 1: the original product and 5×x² + 10×x + 15 both give 30.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "5×x² + 10×x + 15": "Correct: Check at x = 1: the original product and 5×x² + 10×x + 15 both give 30.",
+        "5×x + 2": "Incorrect: A term or factor was omitted.",
+        "−5×x² − 10×x − 15": "Incorrect: A sign or factor was changed.",
+        "5×x − 10": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p14",
+      "prompt": "Expand (6×x)×(2×x² + 3×x + 4) and collect like terms.",
+      "options": [
+        "12×x² + 3",
+        "12×x³ + 18×x² + 24×x",
+        "−12×x³ − 18×x² − 24×x",
+        "12×x² − 18×x"
+      ],
+      "answer_index": 1,
+      "memo": "Draw one distribution arrow from 6×x to each of the 3 terms in 2×x² + 3×x + 4. Multiply the factor into every term: (6×x)×4 = 24×x, (6×x)×(2×x²) = 12×x³, (3×x)×(6×x) = 18×x². Combine the products without dropping a sign: 12×x³ + 18×x² + 24×x. Check at x = 1: the original product and 12×x³ + 18×x² + 24×x both give 54.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "12×x² + 3": "Incorrect: A term or factor was omitted.",
+        "12×x³ + 18×x² + 24×x": "Correct: Check at x = 1: the original product and 12×x³ + 18×x² + 24×x both give 54.",
+        "−12×x³ − 18×x² − 24×x": "Incorrect: A sign or factor was changed.",
+        "12×x² − 18×x": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-p15",
+      "prompt": "Expand −2×(3×x² + 4×x + 2) and collect like terms.",
+      "options": [
+        "4 − 6×x",
+        "6×x² + 8×x + 4",
+        "−6×x² − 8×x − 4",
+        "8 − 6×x"
+      ],
+      "answer_index": 2,
+      "memo": "Draw one distribution arrow from −2 to each of the 3 terms in 3×x² + 4×x + 2. Multiply the factor into every term: −2×2 = −4, −6×x² = −6×x², −8×x = −8×x. Combine the products without dropping a sign: −6×x² − 8×x − 4. Check at x = 1: the original product and −6×x² − 8×x − 4 both give -18.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "4 − 6×x": "Incorrect: A term or factor was omitted.",
+        "6×x² + 8×x + 4": "Incorrect: A sign or factor was changed.",
+        "−6×x² − 8×x − 4": "Correct: Check at x = 1: the original product and −6×x² − 8×x − 4 both give -18.",
+        "8 − 6×x": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-aex-l03-m01",
+      "prompt": "Expand (3×x)×(4×x² + 5×x + 3) and collect like terms.",
+      "options": [
+        "12×x³ + 15×x² + 9×x",
+        "12×x² + 5",
+        "−12×x³ − 15×x² − 9×x",
+        "12×x² − 15×x"
+      ],
+      "answer_index": 0,
+      "memo": "Draw one distribution arrow from 3×x to each of the 3 terms in 4×x² + 5×x + 3. Multiply the factor into every term: (3×x)×3 = 9×x, (3×x)×(4×x²) = 12×x³, (3×x)×(5×x) = 15×x². Combine the products without dropping a sign: 12×x³ + 15×x² + 9×x. Check at x = 1: the original product and 12×x³ + 15×x² + 9×x both give 36.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "12×x³ + 15×x² + 9×x": "Correct: Check at x = 1: the original product and 12×x³ + 15×x² + 9×x both give 36.",
+        "12×x² + 5": "Incorrect: A term or factor was omitted.",
+        "−12×x³ − 15×x² − 9×x": "Incorrect: A sign or factor was changed.",
+        "12×x² − 15×x": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-m02",
+      "prompt": "Expand 4×(5×x² + 2×x + 4) and collect like terms.",
+      "options": [
+        "20×x + 2",
+        "20×x² + 8×x + 16",
+        "−20×x² − 8×x − 16",
+        "20×x − 8"
+      ],
+      "answer_index": 1,
+      "memo": "Draw one distribution arrow from 4 to each of the 3 terms in 5×x² + 2×x + 4. Multiply the factor into every term: 4×4 = 16, 4×(2×x) = 8×x, 4×(5×x²) = 20×x². Combine the products without dropping a sign: 20×x² + 8×x + 16. Check at x = 1: the original product and 20×x² + 8×x + 16 both give 44.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "20×x + 2": "Incorrect: A term or factor was omitted.",
+        "20×x² + 8×x + 16": "Correct: Check at x = 1: the original product and 20×x² + 8×x + 16 both give 44.",
+        "−20×x² − 8×x − 16": "Incorrect: A sign or factor was changed.",
+        "20×x − 8": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-m03",
+      "prompt": "Expand (−5×x)×(6×x² + 3×x + 2) and collect like terms.",
+      "options": [
+        "3 − 30×x²",
+        "30×x³ + 15×x² + 10×x",
+        "−30×x³ − 15×x² − 10×x",
+        "−30×x² + 15×x"
+      ],
+      "answer_index": 2,
+      "memo": "Draw one distribution arrow from −5×x to each of the 3 terms in 6×x² + 3×x + 2. Multiply the factor into every term: −5×x×2 = −10×x, (−5×x)×(3×x) = −15×x², (−5×x)×(6×x²) = −30×x³. Combine the products without dropping a sign: −30×x³ − 15×x² − 10×x. Check at x = 1: the original product and −30×x³ − 15×x² − 10×x both give -55.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "3 − 30×x²": "Incorrect: A term or factor was omitted.",
+        "30×x³ + 15×x² + 10×x": "Incorrect: A sign or factor was changed.",
+        "−30×x³ − 15×x² − 10×x": "Correct: Check at x = 1: the original product and −30×x³ − 15×x² − 10×x both give -55.",
+        "−30×x² + 15×x": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-m04",
+      "prompt": "Expand 6×(7×x² + 4×x + 3) and collect like terms.",
+      "options": [
+        "42×x + 4",
+        "−42×x² − 24×x − 18",
+        "42×x − 24",
+        "42×x² + 24×x + 18"
+      ],
+      "answer_index": 3,
+      "memo": "Draw one distribution arrow from 6 to each of the 3 terms in 7×x² + 4×x + 3. Multiply the factor into every term: 6×3 = 18, 6×(4×x) = 24×x, 6×(7×x²) = 42×x². Combine the products without dropping a sign: 42×x² + 24×x + 18. Check at x = 1: the original product and 42×x² + 24×x + 18 both give 84.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "42×x + 4": "Incorrect: A term or factor was omitted.",
+        "−42×x² − 24×x − 18": "Incorrect: A sign or factor was changed.",
+        "42×x − 24": "Incorrect: The original restriction or operation was lost.",
+        "42×x² + 24×x + 18": "Correct: Check at x = 1: the original product and 42×x² + 24×x + 18 both give 84."
+      }
+    },
+    {
+      "id": "g9-aex-l03-m05",
+      "prompt": "Expand (2×x)×(x² + 5×x + 4) and collect like terms.",
+      "options": [
+        "2×x³ + 10×x² + 8×x",
+        "2×x² + 5",
+        "−2×x³ − 10×x² − 8×x",
+        "2×x² − 10×x"
+      ],
+      "answer_index": 0,
+      "memo": "Draw one distribution arrow from 2×x to each of the 3 terms in x² + 5×x + 4. Multiply the factor into every term: (2×x)×4 = 8×x, (2×x)×x² = 2×x³, (2×x)×(5×x) = 10×x². Combine the products without dropping a sign: 2×x³ + 10×x² + 8×x. Check at x = 1: the original product and 2×x³ + 10×x² + 8×x both give 20.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "2×x³ + 10×x² + 8×x": "Correct: Check at x = 1: the original product and 2×x³ + 10×x² + 8×x both give 20.",
+        "2×x² + 5": "Incorrect: A term or factor was omitted.",
+        "−2×x³ − 10×x² − 8×x": "Incorrect: A sign or factor was changed.",
+        "2×x² − 10×x": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-aex-l03-r01",
+      "prompt": "Expand −3×(2×x² + 2×x + 2) and collect like terms.",
+      "options": [
+        "−6×x² − 6×x − 6",
+        "2 − 6×x",
+        "6×x² + 6×x + 6",
+        "6 − 6×x"
+      ],
+      "answer_index": 0,
+      "memo": "Draw one distribution arrow from −3 to each of the 3 terms in 2×x² + 2×x + 2. Multiply the factor into every term: −3×2 = −6, −6×x = −6×x, −6×x² = −6×x². Combine the products without dropping a sign: −6×x² − 6×x − 6. Check at x = 1: the original product and −6×x² − 6×x − 6 both give -18.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "−6×x² − 6×x − 6": "Correct: Check at x = 1: the original product and −6×x² − 6×x − 6 both give -18.",
+        "2 − 6×x": "Incorrect: A term or factor was omitted.",
+        "6×x² + 6×x + 6": "Incorrect: A sign or factor was changed.",
+        "6 − 6×x": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-r02",
+      "prompt": "Expand (4×x)×(3×x² + 3×x + 3) and collect like terms.",
+      "options": [
+        "12×x² + 3",
+        "12×x³ + 12×x² + 12×x",
+        "−12×x³ − 12×x² − 12×x",
+        "12×x² − 12×x"
+      ],
+      "answer_index": 1,
+      "memo": "Draw one distribution arrow from 4×x to each of the 3 terms in 3×x² + 3×x + 3. Multiply the factor into every term: (4×x)×3 = 12×x, (3×x)×(4×x) = 12×x², (4×x)×(3×x²) = 12×x³. Combine the products without dropping a sign: 12×x³ + 12×x² + 12×x. Check at x = 1: the original product and 12×x³ + 12×x² + 12×x both give 36.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "12×x² + 3": "Incorrect: A term or factor was omitted.",
+        "12×x³ + 12×x² + 12×x": "Correct: Check at x = 1: the original product and 12×x³ + 12×x² + 12×x both give 36.",
+        "−12×x³ − 12×x² − 12×x": "Incorrect: A sign or factor was changed.",
+        "12×x² − 12×x": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l03-r03",
+      "prompt": "Expand 5×(4×x² + 4×x + 4) and collect like terms.",
+      "options": [
+        "20×x + 4",
+        "−20×x² − 20×x − 20",
+        "20×x² + 20×x + 20",
+        "20×x − 20"
+      ],
+      "answer_index": 2,
+      "memo": "Draw one distribution arrow from 5 to each of the 3 terms in 4×x² + 4×x + 4. Multiply the factor into every term: 5×4 = 20, 5×(4×x) = 20×x, 5×(4×x²) = 20×x². Combine the products without dropping a sign: 20×x² + 20×x + 20. Check at x = 1: the original product and 20×x² + 20×x + 20 both give 60.",
+      "misconception": "expressions-distribution",
+      "option_rationales": {
+        "20×x + 4": "Incorrect: A term or factor was omitted.",
+        "−20×x² − 20×x − 20": "Incorrect: A sign or factor was changed.",
+        "20×x² + 20×x + 20": "Correct: Check at x = 1: the original product and 20×x² + 20×x + 20 both give 60.",
+        "20×x − 20": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ]
+}

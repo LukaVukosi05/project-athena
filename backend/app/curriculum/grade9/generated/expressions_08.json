@@ -1,0 +1,1093 @@
+{
+  "source": "lesson-08-trinomials-and-algebraic-fractions.md",
+  "worked": [
+    {
+      "problem": "Factorise x² + 5×x + 6.",
+      "actions": [
+        "Write the trinomial x² + 5×x + 6 in descending powers and read its constant 6.",
+        "Find numbers 3 and 2 whose product is 6 and sum is 5.",
+        "Place them in the two brackets: (x + 2)×(x + 3).",
+        "Check by expanding: (x + 2)×(x + 3) = x² + 5×x + 6."
+      ],
+      "answer": "(x + 2)×(x + 3)",
+      "wrongs": [
+        "(x − 3)×(x + 2)",
+        "(x − 2)×(x + 3)",
+        "(x + 2)×(x + 4)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "trinomial",
+        "givens": [
+          "x² + 5×x + 6",
+          "3",
+          "2"
+        ],
+        "restriction": "",
+        "answer": "(x + 2)×(x + 3)",
+        "rows": [
+          "x² + 5×x + 6",
+          "3"
+        ],
+        "columns": [
+          "2"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-trinomial",
+      "check": "Check by expanding: (x + 2)×(x + 3) = x² + 5×x + 6.",
+      "id": "g9-aex-l08-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Factorise x² + 7×x + 12.",
+      "actions": [
+        "Write the trinomial x² + 7×x + 12 in descending powers and read its constant 12.",
+        "Find numbers 4 and 3 whose product is 12 and sum is 7.",
+        "Place them in the two brackets: (x + 3)×(x + 4).",
+        "Check by expanding: (x + 3)×(x + 4) = x² + 7×x + 12."
+      ],
+      "answer": "(x + 3)×(x + 4)",
+      "wrongs": [
+        "(x − 4)×(x + 3)",
+        "(x − 3)×(x + 4)",
+        "(x + 3)×(x + 5)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "trinomial",
+        "givens": [
+          "x² + 7×x + 12",
+          "4",
+          "3"
+        ],
+        "restriction": "",
+        "answer": "(x + 3)×(x + 4)",
+        "rows": [
+          "x² + 7×x + 12",
+          "4"
+        ],
+        "columns": [
+          "3"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-trinomial",
+      "check": "Check by expanding: (x + 3)×(x + 4) = x² + 7×x + 12.",
+      "id": "g9-aex-l08-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Simplify (x² − x − 20)/(x − 5), stating any restriction.",
+      "actions": [
+        "Keep the original denominator x − 5 visible: it is zero at x = 5, so x ≠ 5.",
+        "Factor the numerator x² − x − 20 as (x − 5)×(x + 4).",
+        "Cancel the shared factor x − 5 only for x ≠ 5, leaving x + 4.",
+        "Check at x = 1 unless excluded: the original fraction equals x + 4; retain x ≠ 5."
+      ],
+      "answer": "x + 4; x ≠ 5",
+      "wrongs": [
+        "x − 5; x ≠ 5",
+        "x + 4; x ≠ -4",
+        "x + 4; no restriction"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "fraction",
+        "givens": [
+          "x² − x − 20",
+          "x − 5"
+        ],
+        "restriction": "x ≠ 5",
+        "answer": "x + 4; x ≠ 5",
+        "rows": [
+          "x² − x − 20",
+          "x − 5"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-fraction",
+      "check": "Check at x = 1 unless excluded: the original fraction equals x + 4; retain x ≠ 5.",
+      "id": "g9-aex-l08-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Factorise x² + 11×x + 30.",
+      "actions": [
+        "Write the trinomial x² + 11×x + 30 in descending powers and read its constant 30.",
+        "Find numbers 6 and 5 whose product is 30 and sum is 11.",
+        "Place them in the two brackets: (x + 5)×(x + 6).",
+        "Check by expanding: (x + 5)×(x + 6) = x² + 11×x + 30."
+      ],
+      "answer": "(x + 5)×(x + 6)",
+      "wrongs": [
+        "(x − 6)×(x + 5)",
+        "(x − 5)×(x + 6)",
+        "(x + 5)×(x + 7)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "trinomial",
+        "givens": [
+          "x² + 11×x + 30",
+          "6",
+          "5"
+        ],
+        "restriction": "",
+        "answer": "(x + 5)×(x + 6)",
+        "rows": [
+          "x² + 11×x + 30",
+          "6"
+        ],
+        "columns": [
+          "5"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-trinomial",
+      "check": "Check by expanding: (x + 5)×(x + 6) = x² + 11×x + 30.",
+      "id": "g9-aex-l08-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Factorise x² + 8×x + 12.",
+      "actions": [
+        "Write the trinomial x² + 8×x + 12 in descending powers and read its constant 12.",
+        "Find numbers 2 and 6 whose product is 12 and sum is 8.",
+        "Place them in the two brackets: (x + 2)×(x + 6).",
+        "Check by expanding: (x + 2)×(x + 6) = x² + 8×x + 12."
+      ],
+      "answer": "(x + 2)×(x + 6)",
+      "wrongs": [
+        "(x − 2)×(x + 6)",
+        "(x − 6)×(x + 2)",
+        "(x + 3)×(x + 6)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "trinomial",
+        "givens": [
+          "x² + 8×x + 12",
+          "2",
+          "6"
+        ],
+        "restriction": "",
+        "answer": "(x + 2)×(x + 6)",
+        "rows": [
+          "x² + 8×x + 12",
+          "2"
+        ],
+        "columns": [
+          "6"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-trinomial",
+      "check": "Check by expanding: (x + 2)×(x + 6) = x² + 8×x + 12.",
+      "id": "g9-aex-l08-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Simplify (x² + 4×x − 21)/(x − 3), stating any restriction.",
+      "actions": [
+        "Keep the original denominator x − 3 visible: it is zero at x = 3, so x ≠ 3.",
+        "Factor the numerator x² + 4×x − 21 as (x − 3)×(x + 7).",
+        "Cancel the shared factor x − 3 only for x ≠ 3, leaving x + 7.",
+        "Check at x = 1 unless excluded: the original fraction equals x + 7; retain x ≠ 3."
+      ],
+      "answer": "x + 7; x ≠ 3",
+      "wrongs": [
+        "x − 3; x ≠ 3",
+        "x + 7; x ≠ -7",
+        "x + 7; no restriction"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "fraction",
+        "givens": [
+          "x² + 4×x − 21",
+          "x − 3"
+        ],
+        "restriction": "x ≠ 3",
+        "answer": "x + 7; x ≠ 3",
+        "rows": [
+          "x² + 4×x − 21",
+          "x − 3"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-fraction",
+      "check": "Check at x = 1 unless excluded: the original fraction equals x + 7; retain x ≠ 3.",
+      "id": "g9-aex-l08-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Factorise x² + 5×x + 4.",
+      "actions": [
+        "Write the trinomial x² + 5×x + 4 in descending powers and read its constant 4.",
+        "Find numbers 4 and 1 whose product is 4 and sum is 5.",
+        "Place them in the two brackets: (x + 1)×(x + 4).",
+        "Check by expanding: (x + 1)×(x + 4) = x² + 5×x + 4."
+      ],
+      "answer": "(x + 1)×(x + 4)",
+      "wrongs": [
+        "(x − 4)×(x + 1)",
+        "(x − 1)×(x + 4)",
+        "(x + 1)×(x + 5)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "trinomial",
+        "givens": [
+          "x² + 5×x + 4",
+          "4",
+          "1"
+        ],
+        "restriction": "",
+        "answer": "(x + 1)×(x + 4)",
+        "rows": [
+          "x² + 5×x + 4",
+          "4"
+        ],
+        "columns": [
+          "1"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-trinomial",
+      "check": "Check by expanding: (x + 1)×(x + 4) = x² + 5×x + 4.",
+      "id": "g9-aex-l08-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Factorise x² + 7×x + 10.",
+      "actions": [
+        "Write the trinomial x² + 7×x + 10 in descending powers and read its constant 10.",
+        "Find numbers 5 and 2 whose product is 10 and sum is 7.",
+        "Place them in the two brackets: (x + 2)×(x + 5).",
+        "Check by expanding: (x + 2)×(x + 5) = x² + 7×x + 10."
+      ],
+      "answer": "(x + 2)×(x + 5)",
+      "wrongs": [
+        "(x − 5)×(x + 2)",
+        "(x − 2)×(x + 5)",
+        "(x + 2)×(x + 6)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "trinomial",
+        "givens": [
+          "x² + 7×x + 10",
+          "5",
+          "2"
+        ],
+        "restriction": "",
+        "answer": "(x + 2)×(x + 5)",
+        "rows": [
+          "x² + 7×x + 10",
+          "5"
+        ],
+        "columns": [
+          "2"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-trinomial",
+      "check": "Check by expanding: (x + 2)×(x + 5) = x² + 7×x + 10.",
+      "id": "g9-aex-l08-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Simplify (x² − 3×x − 18)/(x − 6), stating any restriction.",
+      "actions": [
+        "Keep the original denominator x − 6 visible: it is zero at x = 6, so x ≠ 6.",
+        "Factor the numerator x² − 3×x − 18 as (x − 6)×(x + 3).",
+        "Cancel the shared factor x − 6 only for x ≠ 6, leaving x + 3.",
+        "Check at x = 1 unless excluded: the original fraction equals x + 3; retain x ≠ 6."
+      ],
+      "answer": "x + 3; x ≠ 6",
+      "wrongs": [
+        "x − 6; x ≠ 6",
+        "x + 3; x ≠ -3",
+        "x + 3; no restriction"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "fraction",
+        "givens": [
+          "x² − 3×x − 18",
+          "x − 6"
+        ],
+        "restriction": "x ≠ 6",
+        "answer": "x + 3; x ≠ 6",
+        "rows": [
+          "x² − 3×x − 18",
+          "x − 6"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-fraction",
+      "check": "Check at x = 1 unless excluded: the original fraction equals x + 3; retain x ≠ 6.",
+      "id": "g9-aex-l08-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Factorise x² + 6×x + 8.",
+      "actions": [
+        "Write the trinomial x² + 6×x + 8 in descending powers and read its constant 8.",
+        "Find numbers 2 and 4 whose product is 8 and sum is 6.",
+        "Place them in the two brackets: (x + 2)×(x + 4).",
+        "Check by expanding: (x + 2)×(x + 4) = x² + 6×x + 8."
+      ],
+      "answer": "(x + 2)×(x + 4)",
+      "wrongs": [
+        "(x − 2)×(x + 4)",
+        "(x − 4)×(x + 2)",
+        "(x + 3)×(x + 4)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "trinomial",
+        "givens": [
+          "x² + 6×x + 8",
+          "2",
+          "4"
+        ],
+        "restriction": "",
+        "answer": "(x + 2)×(x + 4)",
+        "rows": [
+          "x² + 6×x + 8",
+          "2"
+        ],
+        "columns": [
+          "4"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-trinomial",
+      "check": "Check by expanding: (x + 2)×(x + 4) = x² + 6×x + 8.",
+      "id": "g9-aex-l08-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Factorise x² + 8×x + 15.",
+      "actions": [
+        "Write the trinomial x² + 8×x + 15 in descending powers and read its constant 15.",
+        "Find numbers 3 and 5 whose product is 15 and sum is 8.",
+        "Place them in the two brackets: (x + 3)×(x + 5).",
+        "Check by expanding: (x + 3)×(x + 5) = x² + 8×x + 15."
+      ],
+      "answer": "(x + 3)×(x + 5)",
+      "wrongs": [
+        "(x − 3)×(x + 5)",
+        "(x − 5)×(x + 3)",
+        "(x + 4)×(x + 5)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "trinomial",
+        "givens": [
+          "x² + 8×x + 15",
+          "3",
+          "5"
+        ],
+        "restriction": "",
+        "answer": "(x + 3)×(x + 5)",
+        "rows": [
+          "x² + 8×x + 15",
+          "3"
+        ],
+        "columns": [
+          "5"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-trinomial",
+      "check": "Check by expanding: (x + 3)×(x + 5) = x² + 8×x + 15.",
+      "id": "g9-aex-l08-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Simplify (x² + 2×x − 24)/(x − 4), stating any restriction.",
+      "actions": [
+        "Keep the original denominator x − 4 visible: it is zero at x = 4, so x ≠ 4.",
+        "Factor the numerator x² + 2×x − 24 as (x − 4)×(x + 6).",
+        "Cancel the shared factor x − 4 only for x ≠ 4, leaving x + 6.",
+        "Check at x = 1 unless excluded: the original fraction equals x + 6; retain x ≠ 4."
+      ],
+      "answer": "x + 6; x ≠ 4",
+      "wrongs": [
+        "x − 4; x ≠ 4",
+        "x + 6; x ≠ -6",
+        "x + 6; no restriction"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "fraction",
+        "givens": [
+          "x² + 2×x − 24",
+          "x − 4"
+        ],
+        "restriction": "x ≠ 4",
+        "answer": "x + 6; x ≠ 4",
+        "rows": [
+          "x² + 2×x − 24",
+          "x − 4"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-fraction",
+      "check": "Check at x = 1 unless excluded: the original fraction equals x + 6; retain x ≠ 4.",
+      "id": "g9-aex-l08-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Factorise 3×x² + 36×x + 105.",
+      "actions": [
+        "Write the trinomial 3×x² + 36×x + 105 in descending powers and extract common factor 3.",
+        "Find numbers 5 and 7 whose product is 35 and sum is 12.",
+        "Place them in the two brackets: 3×(x + 5)×(x + 7).",
+        "Check by expanding: 3×(x + 5)×(x + 7) = 3×x² + 36×x + 105."
+      ],
+      "answer": "3×(x + 5)×(x + 7)",
+      "wrongs": [
+        "(x − 5)×(x + 7)",
+        "(x − 7)×(x + 5)",
+        "(x + 6)×(x + 7)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "trinomial",
+        "givens": [
+          "3×x² + 36×x + 105",
+          "5",
+          "7"
+        ],
+        "restriction": "",
+        "answer": "3×(x + 5)×(x + 7)",
+        "rows": [
+          "3×x² + 36×x + 105",
+          "5"
+        ],
+        "columns": [
+          "7"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-trinomial",
+      "check": "Check by expanding: 3×(x + 5)×(x + 7) = 3×x² + 36×x + 105.",
+      "id": "g9-aex-l08-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Factorise 4×x² + 28×x + 24.",
+      "actions": [
+        "Write the trinomial 4×x² + 28×x + 24 in descending powers and extract common factor 4.",
+        "Find numbers 6 and 1 whose product is 6 and sum is 7.",
+        "Place them in the two brackets: 4×(x + 1)×(x + 6).",
+        "Check by expanding: 4×(x + 1)×(x + 6) = 4×x² + 28×x + 24."
+      ],
+      "answer": "4×(x + 1)×(x + 6)",
+      "wrongs": [
+        "(x − 6)×(x + 1)",
+        "(x − 1)×(x + 6)",
+        "(x + 1)×(x + 7)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "trinomial",
+        "givens": [
+          "4×x² + 28×x + 24",
+          "6",
+          "1"
+        ],
+        "restriction": "",
+        "answer": "4×(x + 1)×(x + 6)",
+        "rows": [
+          "4×x² + 28×x + 24",
+          "6"
+        ],
+        "columns": [
+          "1"
+        ],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-trinomial",
+      "check": "Check by expanding: 4×(x + 1)×(x + 6) = 4×x² + 28×x + 24.",
+      "id": "g9-aex-l08-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Simplify (x² − 4)/(x − 2), stating any restriction.",
+      "actions": [
+        "Keep the original denominator x − 2 visible: it is zero at x = 2, so x ≠ 2.",
+        "Factor the numerator x² − 4 as (x − 2)×(x + 2).",
+        "Cancel the shared factor x − 2 only for x ≠ 2, leaving x + 2.",
+        "Check at x = 1 unless excluded: the original fraction equals x + 2; retain x ≠ 2."
+      ],
+      "answer": "x + 2; x ≠ 2",
+      "wrongs": [
+        "x − 2; x ≠ 2",
+        "x + 2; x ≠ -2",
+        "x + 2; no restriction"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "fraction",
+        "givens": [
+          "x² − 4",
+          "x − 2"
+        ],
+        "restriction": "x ≠ 2",
+        "answer": "x + 2; x ≠ 2",
+        "rows": [
+          "x² − 4",
+          "x − 2"
+        ],
+        "columns": [],
+        "factor": null,
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-fraction",
+      "check": "Check at x = 1 unless excluded: the original fraction equals x + 2; retain x ≠ 2.",
+      "id": "g9-aex-l08-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-aex-l08-p01",
+      "prompt": "Factorise 3×x² + 18×x + 27.",
+      "options": [
+        "3×(x + 3)×(x + 3)",
+        "3×(x + 3)×(x + 3) + 1",
+        "3×(x + 3)×(x + 3) + 2",
+        "3×(x + 3)×(x + 3) + 3"
+      ],
+      "answer_index": 0,
+      "memo": "Write the trinomial 3×x² + 18×x + 27 in descending powers and extract common factor 3. Find numbers 3 and 3 whose product is 9 and sum is 6. Place them in the two brackets: 3×(x + 3)×(x + 3). Check by expanding: 3×(x + 3)×(x + 3) = 3×x² + 18×x + 27.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "3×(x + 3)×(x + 3)": "Correct: Check by expanding: 3×(x + 3)×(x + 3) = 3×x² + 18×x + 27.",
+        "3×(x + 3)×(x + 3) + 1": "Incorrect: A term or factor was omitted.",
+        "3×(x + 3)×(x + 3) + 2": "Incorrect: A sign or factor was changed.",
+        "3×(x + 3)×(x + 3) + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p02",
+      "prompt": "Factorise 4×x² + 32×x + 64.",
+      "options": [
+        "4×(x + 4)×(x + 4) + 1",
+        "4×(x + 4)×(x + 4)",
+        "4×(x + 4)×(x + 4) + 2",
+        "4×(x + 4)×(x + 4) + 3"
+      ],
+      "answer_index": 1,
+      "memo": "Write the trinomial 4×x² + 32×x + 64 in descending powers and extract common factor 4. Find numbers 4 and 4 whose product is 16 and sum is 8. Place them in the two brackets: 4×(x + 4)×(x + 4). Check by expanding: 4×(x + 4)×(x + 4) = 4×x² + 32×x + 64.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "4×(x + 4)×(x + 4) + 1": "Incorrect: A term or factor was omitted.",
+        "4×(x + 4)×(x + 4)": "Correct: Check by expanding: 4×(x + 4)×(x + 4) = 4×x² + 32×x + 64.",
+        "4×(x + 4)×(x + 4) + 2": "Incorrect: A sign or factor was changed.",
+        "4×(x + 4)×(x + 4) + 3": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p03",
+      "prompt": "Simplify (x² − 25)/(x − 5), stating any restriction.",
+      "options": [
+        "x − 5; x ≠ 5",
+        "x + 5; x ≠ -5",
+        "x + 5; x ≠ 5",
+        "x + 5; no restriction"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the original denominator x − 5 visible: it is zero at x = 5, so x ≠ 5. Factor the numerator x² − 25 as (x − 5)×(x + 5). Cancel the shared factor x − 5 only for x ≠ 5, leaving x + 5. Check at x = 1 unless excluded: the original fraction equals x + 5; retain x ≠ 5.",
+      "misconception": "expressions-fraction",
+      "option_rationales": {
+        "x − 5; x ≠ 5": "Incorrect: A term or factor was omitted.",
+        "x + 5; x ≠ -5": "Incorrect: A sign or factor was changed.",
+        "x + 5; x ≠ 5": "Correct: Check at x = 1 unless excluded: the original fraction equals x + 5; retain x ≠ 5.",
+        "x + 5; no restriction": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p04",
+      "prompt": "Factorise 3×x² + 36×x + 108.",
+      "options": [
+        "3×(x + 6)×(x + 6) + 1",
+        "3×(x + 6)×(x + 6) + 2",
+        "3×(x + 6)×(x + 6) + 3",
+        "3×(x + 6)×(x + 6)"
+      ],
+      "answer_index": 3,
+      "memo": "Write the trinomial 3×x² + 36×x + 108 in descending powers and extract common factor 3. Find numbers 6 and 6 whose product is 36 and sum is 12. Place them in the two brackets: 3×(x + 6)×(x + 6). Check by expanding: 3×(x + 6)×(x + 6) = 3×x² + 36×x + 108.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "3×(x + 6)×(x + 6) + 1": "Incorrect: A term or factor was omitted.",
+        "3×(x + 6)×(x + 6) + 2": "Incorrect: A sign or factor was changed.",
+        "3×(x + 6)×(x + 6) + 3": "Incorrect: The original restriction or operation was lost.",
+        "3×(x + 6)×(x + 6)": "Correct: Check by expanding: 3×(x + 6)×(x + 6) = 3×x² + 36×x + 108."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p05",
+      "prompt": "Factorise 4×x² + 36×x + 56.",
+      "options": [
+        "4×(x + 2)×(x + 7)",
+        "(x − 2)×(x + 7)",
+        "(x − 7)×(x + 2)",
+        "(x + 3)×(x + 7)"
+      ],
+      "answer_index": 0,
+      "memo": "Write the trinomial 4×x² + 36×x + 56 in descending powers and extract common factor 4. Find numbers 2 and 7 whose product is 14 and sum is 9. Place them in the two brackets: 4×(x + 2)×(x + 7). Check by expanding: 4×(x + 2)×(x + 7) = 4×x² + 36×x + 56.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "4×(x + 2)×(x + 7)": "Correct: Check by expanding: 4×(x + 2)×(x + 7) = 4×x² + 36×x + 56.",
+        "(x − 2)×(x + 7)": "Incorrect: A term or factor was omitted.",
+        "(x − 7)×(x + 2)": "Incorrect: A sign or factor was changed.",
+        "(x + 3)×(x + 7)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p06",
+      "prompt": "Simplify (x² − 2×x − 3)/(x − 3), stating any restriction.",
+      "options": [
+        "x − 3; x ≠ 3",
+        "x + 1; x ≠ 3",
+        "x + 1; x ≠ -1",
+        "x + 1; no restriction"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the original denominator x − 3 visible: it is zero at x = 3, so x ≠ 3. Factor the numerator x² − 2×x − 3 as (x − 3)×(x + 1). Cancel the shared factor x − 3 only for x ≠ 3, leaving x + 1. Check at x = 1 unless excluded: the original fraction equals x + 1; retain x ≠ 3.",
+      "misconception": "expressions-fraction",
+      "option_rationales": {
+        "x − 3; x ≠ 3": "Incorrect: A term or factor was omitted.",
+        "x + 1; x ≠ 3": "Correct: Check at x = 1 unless excluded: the original fraction equals x + 1; retain x ≠ 3.",
+        "x + 1; x ≠ -1": "Incorrect: A sign or factor was changed.",
+        "x + 1; no restriction": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p07",
+      "prompt": "Factorise 3×x² + 18×x + 24.",
+      "options": [
+        "(x − 4)×(x + 2)",
+        "(x − 2)×(x + 4)",
+        "3×(x + 2)×(x + 4)",
+        "(x + 2)×(x + 5)"
+      ],
+      "answer_index": 2,
+      "memo": "Write the trinomial 3×x² + 18×x + 24 in descending powers and extract common factor 3. Find numbers 4 and 2 whose product is 8 and sum is 6. Place them in the two brackets: 3×(x + 2)×(x + 4). Check by expanding: 3×(x + 2)×(x + 4) = 3×x² + 18×x + 24.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "(x − 4)×(x + 2)": "Incorrect: A term or factor was omitted.",
+        "(x − 2)×(x + 4)": "Incorrect: A sign or factor was changed.",
+        "3×(x + 2)×(x + 4)": "Correct: Check by expanding: 3×(x + 2)×(x + 4) = 3×x² + 18×x + 24.",
+        "(x + 2)×(x + 5)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p08",
+      "prompt": "Factorise 4×x² + 32×x + 60.",
+      "options": [
+        "(x − 5)×(x + 3)",
+        "(x − 3)×(x + 5)",
+        "(x + 3)×(x + 6)",
+        "4×(x + 3)×(x + 5)"
+      ],
+      "answer_index": 3,
+      "memo": "Write the trinomial 4×x² + 32×x + 60 in descending powers and extract common factor 4. Find numbers 5 and 3 whose product is 15 and sum is 8. Place them in the two brackets: 4×(x + 3)×(x + 5). Check by expanding: 4×(x + 3)×(x + 5) = 4×x² + 32×x + 60.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "(x − 5)×(x + 3)": "Incorrect: A term or factor was omitted.",
+        "(x − 3)×(x + 5)": "Incorrect: A sign or factor was changed.",
+        "(x + 3)×(x + 6)": "Incorrect: The original restriction or operation was lost.",
+        "4×(x + 3)×(x + 5)": "Correct: Check by expanding: 4×(x + 3)×(x + 5) = 4×x² + 32×x + 60."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p09",
+      "prompt": "Simplify (x² − 2×x − 24)/(x − 6), stating any restriction.",
+      "options": [
+        "x + 4; x ≠ 6",
+        "x − 6; x ≠ 6",
+        "x + 4; x ≠ -4",
+        "x + 4; no restriction"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the original denominator x − 6 visible: it is zero at x = 6, so x ≠ 6. Factor the numerator x² − 2×x − 24 as (x − 6)×(x + 4). Cancel the shared factor x − 6 only for x ≠ 6, leaving x + 4. Check at x = 1 unless excluded: the original fraction equals x + 4; retain x ≠ 6.",
+      "misconception": "expressions-fraction",
+      "option_rationales": {
+        "x + 4; x ≠ 6": "Correct: Check at x = 1 unless excluded: the original fraction equals x + 4; retain x ≠ 6.",
+        "x − 6; x ≠ 6": "Incorrect: A term or factor was omitted.",
+        "x + 4; x ≠ -4": "Incorrect: A sign or factor was changed.",
+        "x + 4; no restriction": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p10",
+      "prompt": "Factorise 3×x² + 21×x + 30.",
+      "options": [
+        "(x − 2)×(x + 5)",
+        "3×(x + 2)×(x + 5)",
+        "(x − 5)×(x + 2)",
+        "(x + 3)×(x + 5)"
+      ],
+      "answer_index": 1,
+      "memo": "Write the trinomial 3×x² + 21×x + 30 in descending powers and extract common factor 3. Find numbers 2 and 5 whose product is 10 and sum is 7. Place them in the two brackets: 3×(x + 2)×(x + 5). Check by expanding: 3×(x + 2)×(x + 5) = 3×x² + 21×x + 30.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "(x − 2)×(x + 5)": "Incorrect: A term or factor was omitted.",
+        "3×(x + 2)×(x + 5)": "Correct: Check by expanding: 3×(x + 2)×(x + 5) = 3×x² + 21×x + 30.",
+        "(x − 5)×(x + 2)": "Incorrect: A sign or factor was changed.",
+        "(x + 3)×(x + 5)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p11",
+      "prompt": "Factorise 4×x² + 36×x + 72.",
+      "options": [
+        "(x − 3)×(x + 6)",
+        "(x − 6)×(x + 3)",
+        "4×(x + 3)×(x + 6)",
+        "(x + 4)×(x + 6)"
+      ],
+      "answer_index": 2,
+      "memo": "Write the trinomial 4×x² + 36×x + 72 in descending powers and extract common factor 4. Find numbers 3 and 6 whose product is 18 and sum is 9. Place them in the two brackets: 4×(x + 3)×(x + 6). Check by expanding: 4×(x + 3)×(x + 6) = 4×x² + 36×x + 72.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "(x − 3)×(x + 6)": "Incorrect: A term or factor was omitted.",
+        "(x − 6)×(x + 3)": "Incorrect: A sign or factor was changed.",
+        "4×(x + 3)×(x + 6)": "Correct: Check by expanding: 4×(x + 3)×(x + 6) = 4×x² + 36×x + 72.",
+        "(x + 4)×(x + 6)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p12",
+      "prompt": "Simplify (x² + 3×x − 28)/(x − 4), stating any restriction.",
+      "options": [
+        "x − 4; x ≠ 4",
+        "x + 7; x ≠ -7",
+        "x + 7; no restriction",
+        "x + 7; x ≠ 4"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the original denominator x − 4 visible: it is zero at x = 4, so x ≠ 4. Factor the numerator x² + 3×x − 28 as (x − 4)×(x + 7). Cancel the shared factor x − 4 only for x ≠ 4, leaving x + 7. Check at x = 1 unless excluded: the original fraction equals x + 7; retain x ≠ 4.",
+      "misconception": "expressions-fraction",
+      "option_rationales": {
+        "x − 4; x ≠ 4": "Incorrect: A term or factor was omitted.",
+        "x + 7; x ≠ -7": "Incorrect: A sign or factor was changed.",
+        "x + 7; no restriction": "Incorrect: The original restriction or operation was lost.",
+        "x + 7; x ≠ 4": "Correct: Check at x = 1 unless excluded: the original fraction equals x + 7; retain x ≠ 4."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p13",
+      "prompt": "Factorise 3×x² + 18×x + 15.",
+      "options": [
+        "3×(x + 1)×(x + 5)",
+        "(x − 5)×(x + 1)",
+        "(x − 1)×(x + 5)",
+        "(x + 1)×(x + 6)"
+      ],
+      "answer_index": 0,
+      "memo": "Write the trinomial 3×x² + 18×x + 15 in descending powers and extract common factor 3. Find numbers 5 and 1 whose product is 5 and sum is 6. Place them in the two brackets: 3×(x + 1)×(x + 5). Check by expanding: 3×(x + 1)×(x + 5) = 3×x² + 18×x + 15.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "3×(x + 1)×(x + 5)": "Correct: Check by expanding: 3×(x + 1)×(x + 5) = 3×x² + 18×x + 15.",
+        "(x − 5)×(x + 1)": "Incorrect: A term or factor was omitted.",
+        "(x − 1)×(x + 5)": "Incorrect: A sign or factor was changed.",
+        "(x + 1)×(x + 6)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p14",
+      "prompt": "Factorise 4×x² + 32×x + 48.",
+      "options": [
+        "(x − 6)×(x + 2)",
+        "4×(x + 2)×(x + 6)",
+        "(x − 2)×(x + 6)",
+        "(x + 2)×(x + 7)"
+      ],
+      "answer_index": 1,
+      "memo": "Write the trinomial 4×x² + 32×x + 48 in descending powers and extract common factor 4. Find numbers 6 and 2 whose product is 12 and sum is 8. Place them in the two brackets: 4×(x + 2)×(x + 6). Check by expanding: 4×(x + 2)×(x + 6) = 4×x² + 32×x + 48.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "(x − 6)×(x + 2)": "Incorrect: A term or factor was omitted.",
+        "4×(x + 2)×(x + 6)": "Correct: Check by expanding: 4×(x + 2)×(x + 6) = 4×x² + 32×x + 48.",
+        "(x − 2)×(x + 6)": "Incorrect: A sign or factor was changed.",
+        "(x + 2)×(x + 7)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-p15",
+      "prompt": "Simplify (x² + x − 6)/(x − 2), stating any restriction.",
+      "options": [
+        "x − 2; x ≠ 2",
+        "x + 3; x ≠ -3",
+        "x + 3; x ≠ 2",
+        "x + 3; no restriction"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the original denominator x − 2 visible: it is zero at x = 2, so x ≠ 2. Factor the numerator x² + x − 6 as (x − 2)×(x + 3). Cancel the shared factor x − 2 only for x ≠ 2, leaving x + 3. Check at x = 1 unless excluded: the original fraction equals x + 3; retain x ≠ 2.",
+      "misconception": "expressions-fraction",
+      "option_rationales": {
+        "x − 2; x ≠ 2": "Incorrect: A term or factor was omitted.",
+        "x + 3; x ≠ -3": "Incorrect: A sign or factor was changed.",
+        "x + 3; x ≠ 2": "Correct: Check at x = 1 unless excluded: the original fraction equals x + 3; retain x ≠ 2.",
+        "x + 3; no restriction": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-aex-l08-m01",
+      "prompt": "Factorise 3×x² + 21×x + 36.",
+      "options": [
+        "3×(x + 3)×(x + 4)",
+        "(x − 3)×(x + 4)",
+        "(x − 4)×(x + 3)",
+        "(x + 4)×(x + 4)"
+      ],
+      "answer_index": 0,
+      "memo": "Write the trinomial 3×x² + 21×x + 36 in descending powers and extract common factor 3. Find numbers 3 and 4 whose product is 12 and sum is 7. Place them in the two brackets: 3×(x + 3)×(x + 4). Check by expanding: 3×(x + 3)×(x + 4) = 3×x² + 21×x + 36.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "3×(x + 3)×(x + 4)": "Correct: Check by expanding: 3×(x + 3)×(x + 4) = 3×x² + 21×x + 36.",
+        "(x − 3)×(x + 4)": "Incorrect: A term or factor was omitted.",
+        "(x − 4)×(x + 3)": "Incorrect: A sign or factor was changed.",
+        "(x + 4)×(x + 4)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-m02",
+      "prompt": "Factorise 4×x² + 36×x + 80.",
+      "options": [
+        "(x − 4)×(x + 5)",
+        "4×(x + 4)×(x + 5)",
+        "(x − 5)×(x + 4)",
+        "(x + 5)×(x + 5)"
+      ],
+      "answer_index": 1,
+      "memo": "Write the trinomial 4×x² + 36×x + 80 in descending powers and extract common factor 4. Find numbers 4 and 5 whose product is 20 and sum is 9. Place them in the two brackets: 4×(x + 4)×(x + 5). Check by expanding: 4×(x + 4)×(x + 5) = 4×x² + 36×x + 80.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "(x − 4)×(x + 5)": "Incorrect: A term or factor was omitted.",
+        "4×(x + 4)×(x + 5)": "Correct: Check by expanding: 4×(x + 4)×(x + 5) = 4×x² + 36×x + 80.",
+        "(x − 5)×(x + 4)": "Incorrect: A sign or factor was changed.",
+        "(x + 5)×(x + 5)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-m03",
+      "prompt": "Simplify (x² + x − 30)/(x − 5), stating any restriction.",
+      "options": [
+        "x − 5; x ≠ 5",
+        "x + 6; x ≠ -6",
+        "x + 6; x ≠ 5",
+        "x + 6; no restriction"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the original denominator x − 5 visible: it is zero at x = 5, so x ≠ 5. Factor the numerator x² + x − 30 as (x − 5)×(x + 6). Cancel the shared factor x − 5 only for x ≠ 5, leaving x + 6. Check at x = 1 unless excluded: the original fraction equals x + 6; retain x ≠ 5.",
+      "misconception": "expressions-fraction",
+      "option_rationales": {
+        "x − 5; x ≠ 5": "Incorrect: A term or factor was omitted.",
+        "x + 6; x ≠ -6": "Incorrect: A sign or factor was changed.",
+        "x + 6; x ≠ 5": "Correct: Check at x = 1 unless excluded: the original fraction equals x + 6; retain x ≠ 5.",
+        "x + 6; no restriction": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-m04",
+      "prompt": "Factorise 3×x² + 39×x + 126.",
+      "options": [
+        "(x − 6)×(x + 7)",
+        "(x − 7)×(x + 6)",
+        "(x + 7)×(x + 7)",
+        "3×(x + 6)×(x + 7)"
+      ],
+      "answer_index": 3,
+      "memo": "Write the trinomial 3×x² + 39×x + 126 in descending powers and extract common factor 3. Find numbers 6 and 7 whose product is 42 and sum is 13. Place them in the two brackets: 3×(x + 6)×(x + 7). Check by expanding: 3×(x + 6)×(x + 7) = 3×x² + 39×x + 126.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "(x − 6)×(x + 7)": "Incorrect: A term or factor was omitted.",
+        "(x − 7)×(x + 6)": "Incorrect: A sign or factor was changed.",
+        "(x + 7)×(x + 7)": "Incorrect: The original restriction or operation was lost.",
+        "3×(x + 6)×(x + 7)": "Correct: Check by expanding: 3×(x + 6)×(x + 7) = 3×x² + 39×x + 126."
+      }
+    },
+    {
+      "id": "g9-aex-l08-m05",
+      "prompt": "Factorise 4×x² + 12×x + 8.",
+      "options": [
+        "4×(x + 1)×(x + 2)",
+        "(x − 2)×(x + 1)",
+        "(x − 1)×(x + 2)",
+        "(x + 1)×(x + 3)"
+      ],
+      "answer_index": 0,
+      "memo": "Write the trinomial 4×x² + 12×x + 8 in descending powers and extract common factor 4. Find numbers 2 and 1 whose product is 2 and sum is 3. Place them in the two brackets: 4×(x + 1)×(x + 2). Check by expanding: 4×(x + 1)×(x + 2) = 4×x² + 12×x + 8.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "4×(x + 1)×(x + 2)": "Correct: Check by expanding: 4×(x + 1)×(x + 2) = 4×x² + 12×x + 8.",
+        "(x − 2)×(x + 1)": "Incorrect: A term or factor was omitted.",
+        "(x − 1)×(x + 2)": "Incorrect: A sign or factor was changed.",
+        "(x + 1)×(x + 3)": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-aex-l08-r01",
+      "prompt": "Simplify (x² − x − 6)/(x − 3), stating any restriction.",
+      "options": [
+        "x + 2; x ≠ 3",
+        "x − 3; x ≠ 3",
+        "x + 2; x ≠ -2",
+        "x + 2; no restriction"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the original denominator x − 3 visible: it is zero at x = 3, so x ≠ 3. Factor the numerator x² − x − 6 as (x − 3)×(x + 2). Cancel the shared factor x − 3 only for x ≠ 3, leaving x + 2. Check at x = 1 unless excluded: the original fraction equals x + 2; retain x ≠ 3.",
+      "misconception": "expressions-fraction",
+      "option_rationales": {
+        "x + 2; x ≠ 3": "Correct: Check at x = 1 unless excluded: the original fraction equals x + 2; retain x ≠ 3.",
+        "x − 3; x ≠ 3": "Incorrect: A term or factor was omitted.",
+        "x + 2; x ≠ -2": "Incorrect: A sign or factor was changed.",
+        "x + 2; no restriction": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-r02",
+      "prompt": "Simplify (x² − x − 30)/(x − 6), stating any restriction.",
+      "options": [
+        "x − 6; x ≠ 6",
+        "x + 5; x ≠ 6",
+        "x + 5; x ≠ -5",
+        "x + 5; no restriction"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the original denominator x − 6 visible: it is zero at x = 6, so x ≠ 6. Factor the numerator x² − x − 30 as (x − 6)×(x + 5). Cancel the shared factor x − 6 only for x ≠ 6, leaving x + 5. Check at x = 1 unless excluded: the original fraction equals x + 5; retain x ≠ 6.",
+      "misconception": "expressions-fraction",
+      "option_rationales": {
+        "x − 6; x ≠ 6": "Incorrect: A term or factor was omitted.",
+        "x + 5; x ≠ 6": "Correct: Check at x = 1 unless excluded: the original fraction equals x + 5; retain x ≠ 6.",
+        "x + 5; x ≠ -5": "Incorrect: A sign or factor was changed.",
+        "x + 5; no restriction": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l08-r03",
+      "prompt": "Factorise 3×x² + 24×x + 36.",
+      "options": [
+        "(x − 2)×(x + 6)",
+        "(x − 6)×(x + 2)",
+        "3×(x + 2)×(x + 6)",
+        "(x + 3)×(x + 6)"
+      ],
+      "answer_index": 2,
+      "memo": "Write the trinomial 3×x² + 24×x + 36 in descending powers and extract common factor 3. Find numbers 2 and 6 whose product is 12 and sum is 8. Place them in the two brackets: 3×(x + 2)×(x + 6). Check by expanding: 3×(x + 2)×(x + 6) = 3×x² + 24×x + 36.",
+      "misconception": "expressions-trinomial",
+      "option_rationales": {
+        "(x − 2)×(x + 6)": "Incorrect: A term or factor was omitted.",
+        "(x − 6)×(x + 2)": "Incorrect: A sign or factor was changed.",
+        "3×(x + 2)×(x + 6)": "Correct: Check by expanding: 3×(x + 2)×(x + 6) = 3×x² + 24×x + 36.",
+        "(x + 3)×(x + 6)": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ]
+}

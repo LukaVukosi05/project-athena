@@ -1,0 +1,1075 @@
+{
+  "source": "lesson-06-common-factor-factorisation.md",
+  "worked": [
+    {
+      "problem": "Factorise 9×x² + 6×x completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in 9×x² + 6×x and find the largest shared numerical and variable factor.",
+        "Take out 3×x; divide each original term by it to form 3×x + 2.",
+        "Write the factored result (3×x)×(3×x + 2), preserving every sign.",
+        "Check: distributing 3×x into 3×x + 2 recovers 9×x² + 6×x."
+      ],
+      "answer": "(3×x)×(3×x + 2)",
+      "wrongs": [
+        "(3×x)×(3×x + 3)",
+        "(−3×x)×(3×x + 2)",
+        "(3×x)×(3×x)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "6×x",
+          "9×x²"
+        ],
+        "restriction": "",
+        "answer": "(3×x)×(3×x + 2)",
+        "rows": [
+          "6×x",
+          "9×x²"
+        ],
+        "columns": [],
+        "factor": "3×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing 3×x into 3×x + 2 recovers 9×x² + 6×x.",
+      "id": "g9-aex-l06-w01",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Factorise 16×x + 12 completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in 16×x + 12 and find the largest shared numerical and variable factor.",
+        "Take out 4; divide each original term by it to form 4×x + 3.",
+        "Write the factored result 4×(4×x + 3), preserving every sign.",
+        "Check: distributing 4 into 4×x + 3 recovers 16×x + 12."
+      ],
+      "answer": "4×(4×x + 3)",
+      "wrongs": [
+        "4×(4×x + 4)",
+        "−4×(4×x + 3)",
+        "4×(4×x)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "12",
+          "16×x"
+        ],
+        "restriction": "",
+        "answer": "4×(4×x + 3)",
+        "rows": [
+          "12",
+          "16×x"
+        ],
+        "columns": [],
+        "factor": "4",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing 4 into 4×x + 3 recovers 16×x + 12.",
+      "id": "g9-aex-l06-w02",
+      "difficulty": "foundation"
+    },
+    {
+      "problem": "Factorise −10×x² − 8×x completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in −10×x² − 8×x and find the largest shared numerical and variable factor.",
+        "Take out −2×x; divide each original term by it to form 5×x + 4.",
+        "Write the factored result (−2×x)×(5×x + 4), preserving every sign.",
+        "Check: distributing −2×x into 5×x + 4 recovers −10×x² − 8×x."
+      ],
+      "answer": "(−2×x)×(5×x + 4)",
+      "wrongs": [
+        "(−2×x)×(5×x + 5)",
+        "(2×x)×(5×x + 4)",
+        "(−2×x)×(5×x)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "−10×x²",
+          "−8×x"
+        ],
+        "restriction": "",
+        "answer": "(−2×x)×(5×x + 4)",
+        "rows": [
+          "−10×x²",
+          "−8×x"
+        ],
+        "columns": [],
+        "factor": "−2×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing −2×x into 5×x + 4 recovers −10×x² − 8×x.",
+      "id": "g9-aex-l06-w03",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Factorise 18×x + 15 completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in 18×x + 15 and find the largest shared numerical and variable factor.",
+        "Take out 3; divide each original term by it to form 6×x + 5.",
+        "Write the factored result 3×(6×x + 5), preserving every sign.",
+        "Check: distributing 3 into 6×x + 5 recovers 18×x + 15."
+      ],
+      "answer": "3×(6×x + 5)",
+      "wrongs": [
+        "3×(6×x + 6)",
+        "−3×(6×x + 5)",
+        "3×(6×x)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "15",
+          "18×x"
+        ],
+        "restriction": "",
+        "answer": "3×(6×x + 5)",
+        "rows": [
+          "15",
+          "18×x"
+        ],
+        "columns": [],
+        "factor": "3",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing 3 into 6×x + 5 recovers 18×x + 15.",
+      "id": "g9-aex-l06-w04",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Factorise 8×x² + 24×x completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in 8×x² + 24×x and find the largest shared numerical and variable factor.",
+        "Take out 8×x; divide each original term by it to form x + 3.",
+        "Write the factored result (8×x)×(x + 3), preserving every sign.",
+        "Check: distributing 8×x into x + 3 recovers 8×x² + 24×x."
+      ],
+      "answer": "(8×x)×(x + 3)",
+      "wrongs": [
+        "(8×x)×(x + 4)",
+        "(−8×x)×(x + 3)",
+        "(8×x)×(x − 3)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "8×x²",
+          "24×x"
+        ],
+        "restriction": "",
+        "answer": "(8×x)×(x + 3)",
+        "rows": [
+          "8×x²",
+          "24×x"
+        ],
+        "columns": [],
+        "factor": "8×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing 8×x into x + 3 recovers 8×x² + 24×x.",
+      "id": "g9-aex-l06-w05",
+      "difficulty": "easy"
+    },
+    {
+      "problem": "Factorise −6×x − 14 completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in −6×x − 14 and find the largest shared numerical and variable factor.",
+        "Take out −2; divide each original term by it to form 3×x + 7.",
+        "Write the factored result −2×(3×x + 7), preserving every sign.",
+        "Check: distributing −2 into 3×x + 7 recovers −6×x − 14."
+      ],
+      "answer": "−2×(3×x + 7)",
+      "wrongs": [
+        "−2×(3×x + 8)",
+        "2×(3×x + 7)",
+        "−6×x"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "−14",
+          "−6×x"
+        ],
+        "restriction": "",
+        "answer": "−2×(3×x + 7)",
+        "rows": [
+          "−14",
+          "−6×x"
+        ],
+        "columns": [],
+        "factor": "−2",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing −2 into 3×x + 7 recovers −6×x − 14.",
+      "id": "g9-aex-l06-w06",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Factorise 12×x² + 3×x completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in 12×x² + 3×x and find the largest shared numerical and variable factor.",
+        "Take out 3×x; divide each original term by it to form 4×x + 1.",
+        "Write the factored result (3×x)×(4×x + 1), preserving every sign.",
+        "Check: distributing 3×x into 4×x + 1 recovers 12×x² + 3×x."
+      ],
+      "answer": "(3×x)×(4×x + 1)",
+      "wrongs": [
+        "(3×x)×(4×x + 2)",
+        "(−3×x)×(4×x + 1)",
+        "(3×x)×(4×x)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "3×x",
+          "12×x²"
+        ],
+        "restriction": "",
+        "answer": "(3×x)×(4×x + 1)",
+        "rows": [
+          "3×x",
+          "12×x²"
+        ],
+        "columns": [],
+        "factor": "3×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing 3×x into 4×x + 1 recovers 12×x² + 3×x.",
+      "id": "g9-aex-l06-w07",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Factorise 20×x + 8 completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in 20×x + 8 and find the largest shared numerical and variable factor.",
+        "Take out 4; divide each original term by it to form 5×x + 2.",
+        "Write the factored result 4×(5×x + 2), preserving every sign.",
+        "Check: distributing 4 into 5×x + 2 recovers 20×x + 8."
+      ],
+      "answer": "4×(5×x + 2)",
+      "wrongs": [
+        "4×(5×x + 3)",
+        "−4×(5×x + 2)",
+        "4×(5×x)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "8",
+          "20×x"
+        ],
+        "restriction": "",
+        "answer": "4×(5×x + 2)",
+        "rows": [
+          "8",
+          "20×x"
+        ],
+        "columns": [],
+        "factor": "4",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing 4 into 5×x + 2 recovers 20×x + 8.",
+      "id": "g9-aex-l06-w08",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Factorise −12×x² − 6×x completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in −12×x² − 6×x and find the largest shared numerical and variable factor.",
+        "Take out −6×x; divide each original term by it to form 2×x + 1.",
+        "Write the factored result (−6×x)×(2×x + 1), preserving every sign.",
+        "Check: distributing −6×x into 2×x + 1 recovers −12×x² − 6×x."
+      ],
+      "answer": "(−6×x)×(2×x + 1)",
+      "wrongs": [
+        "(−6×x)×(2×x + 2)",
+        "(6×x)×(2×x + 1)",
+        "(−6×x)×(2×x − 2)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "−12×x²",
+          "−6×x"
+        ],
+        "restriction": "",
+        "answer": "(−6×x)×(2×x + 1)",
+        "rows": [
+          "−12×x²",
+          "−6×x"
+        ],
+        "columns": [],
+        "factor": "−6×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing −6×x into 2×x + 1 recovers −12×x² − 6×x.",
+      "id": "g9-aex-l06-w09",
+      "difficulty": "standard"
+    },
+    {
+      "problem": "Factorise 6×x + 12 completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in 6×x + 12 and find the largest shared numerical and variable factor.",
+        "Take out 6; divide each original term by it to form x + 2.",
+        "Write the factored result 6×(x + 2), preserving every sign.",
+        "Check: distributing 6 into x + 2 recovers 6×x + 12."
+      ],
+      "answer": "6×(x + 2)",
+      "wrongs": [
+        "6×(x + 3)",
+        "−6×(x + 2)",
+        "6×(x − 2)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "12",
+          "6×x"
+        ],
+        "restriction": "",
+        "answer": "6×(x + 2)",
+        "rows": [
+          "12",
+          "6×x"
+        ],
+        "columns": [],
+        "factor": "6",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing 6 into x + 2 recovers 6×x + 12.",
+      "id": "g9-aex-l06-w10",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Factorise 12×x² + 20×x completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in 12×x² + 20×x and find the largest shared numerical and variable factor.",
+        "Take out 4×x; divide each original term by it to form 3×x + 5.",
+        "Write the factored result (4×x)×(3×x + 5), preserving every sign.",
+        "Check: distributing 4×x into 3×x + 5 recovers 12×x² + 20×x."
+      ],
+      "answer": "(4×x)×(3×x + 5)",
+      "wrongs": [
+        "(4×x)×(3×x + 6)",
+        "(−4×x)×(3×x + 5)",
+        "(3×x)×(4×x)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "12×x²",
+          "20×x"
+        ],
+        "restriction": "",
+        "answer": "(4×x)×(3×x + 5)",
+        "rows": [
+          "12×x²",
+          "20×x"
+        ],
+        "columns": [],
+        "factor": "4×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing 4×x into 3×x + 5 recovers 12×x² + 20×x.",
+      "id": "g9-aex-l06-w11",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Factorise −8×x² − 12×x − 6 completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in −8×x² − 12×x − 6 and find the largest shared numerical and variable factor.",
+        "Take out −2; divide each original term by it to form 4×x² + 6×x + 3.",
+        "Write the factored result −2×(4×x² + 6×x + 3), preserving every sign.",
+        "Check: distributing −2 into 4×x² + 6×x + 3 recovers −8×x² − 12×x − 6."
+      ],
+      "answer": "−2×(4×x² + 6×x + 3)",
+      "wrongs": [
+        "−2×(4×x² + 6×x + 4)",
+        "2×(4×x² + 6×x + 3)",
+        "−2×(4×x² + 6×x − 3)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "−6",
+          "−12×x",
+          "−8×x²"
+        ],
+        "restriction": "",
+        "answer": "−2×(4×x² + 6×x + 3)",
+        "rows": [
+          "−6",
+          "−12×x"
+        ],
+        "columns": [
+          "−8×x²"
+        ],
+        "factor": "−2",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing −2 into 4×x² + 6×x + 3 recovers −8×x² − 12×x − 6.",
+      "id": "g9-aex-l06-w12",
+      "difficulty": "exam"
+    },
+    {
+      "problem": "Factorise 15×x³ + 21×x² + 9×x completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in 15×x³ + 21×x² + 9×x and find the largest shared numerical and variable factor.",
+        "Take out 3×x; divide each original term by it to form 5×x² + 7×x + 3.",
+        "Write the factored result (3×x)×(5×x² + 7×x + 3), preserving every sign.",
+        "Check: distributing 3×x into 5×x² + 7×x + 3 recovers 15×x³ + 21×x² + 9×x."
+      ],
+      "answer": "(3×x)×(5×x² + 7×x + 3)",
+      "wrongs": [
+        "(3×x)×(5×x² + 7×x + 4)",
+        "(−3×x)×(5×x² + 7×x + 3)",
+        "(3×x)×(5×x² + 7×x − 4)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "9×x",
+          "15×x³",
+          "21×x²"
+        ],
+        "restriction": "",
+        "answer": "(3×x)×(5×x² + 7×x + 3)",
+        "rows": [
+          "9×x",
+          "15×x³"
+        ],
+        "columns": [
+          "21×x²"
+        ],
+        "factor": "3×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing 3×x into 5×x² + 7×x + 3 recovers 15×x³ + 21×x² + 9×x.",
+      "id": "g9-aex-l06-w13",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Factorise 24×x² + 4×x + 16 completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in 24×x² + 4×x + 16 and find the largest shared numerical and variable factor.",
+        "Take out 4; divide each original term by it to form 6×x² + x + 4.",
+        "Write the factored result 4×(6×x² + x + 4), preserving every sign.",
+        "Check: distributing 4 into 6×x² + x + 4 recovers 24×x² + 4×x + 16."
+      ],
+      "answer": "4×(6×x² + x + 4)",
+      "wrongs": [
+        "4×(6×x² + x + 5)",
+        "−4×(6×x² + x + 4)",
+        "4×(6×x² + x + 3)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "16",
+          "4×x",
+          "24×x²"
+        ],
+        "restriction": "",
+        "answer": "4×(6×x² + x + 4)",
+        "rows": [
+          "16",
+          "4×x"
+        ],
+        "columns": [
+          "24×x²"
+        ],
+        "factor": "4",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing 4 into 6×x² + x + 4 recovers 24×x² + 4×x + 16.",
+      "id": "g9-aex-l06-w14",
+      "difficulty": "advanced"
+    },
+    {
+      "problem": "Factorise −4×x³ − 4×x² − 10×x completely by taking out a common factor.",
+      "actions": [
+        "Mark each term in −4×x³ − 4×x² − 10×x and find the largest shared numerical and variable factor.",
+        "Take out −2×x; divide each original term by it to form 2×x² + 2×x + 5.",
+        "Write the factored result (−2×x)×(2×x² + 2×x + 5), preserving every sign.",
+        "Check: distributing −2×x into 2×x² + 2×x + 5 recovers −4×x³ − 4×x² − 10×x."
+      ],
+      "answer": "(−2×x)×(2×x² + 2×x + 5)",
+      "wrongs": [
+        "(−2×x)×(2×x² + 2×x + 6)",
+        "(2×x)×(2×x² + 2×x + 5)",
+        "(−2×x)×(2×x² + 2×x + 3)"
+      ],
+      "wrong_methods": [
+        "A term or factor was omitted.",
+        "A sign or factor was changed.",
+        "The original restriction or operation was lost."
+      ],
+      "visual": {
+        "family": "common_factor",
+        "givens": [
+          "−10×x",
+          "−4×x²",
+          "−4×x³"
+        ],
+        "restriction": "",
+        "answer": "(−2×x)×(2×x² + 2×x + 5)",
+        "rows": [
+          "−10×x",
+          "−4×x²"
+        ],
+        "columns": [
+          "−4×x³"
+        ],
+        "factor": "−2×x",
+        "conjugates": null,
+        "claim": null
+      },
+      "misconception": "expressions-common_factor",
+      "check": "Check: distributing −2×x into 2×x² + 2×x + 5 recovers −4×x³ − 4×x² − 10×x.",
+      "id": "g9-aex-l06-w15",
+      "difficulty": "advanced"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-aex-l06-p01",
+      "prompt": "Factorise 9×x² + 9×x + 6 completely by taking out a common factor.",
+      "options": [
+        "3×(3×x² + 3×x + 2)",
+        "3×(3×x² + 3×x + 3)",
+        "−3×(3×x² + 3×x + 2)",
+        "3×(3×x² + 3×x − 1)"
+      ],
+      "answer_index": 0,
+      "memo": "Mark each term in 9×x² + 9×x + 6 and find the largest shared numerical and variable factor. Take out 3; divide each original term by it to form 3×x² + 3×x + 2. Write the factored result 3×(3×x² + 3×x + 2), preserving every sign. Check: distributing 3 into 3×x² + 3×x + 2 recovers 9×x² + 9×x + 6.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "3×(3×x² + 3×x + 2)": "Correct: Check: distributing 3 into 3×x² + 3×x + 2 recovers 9×x² + 9×x + 6.",
+        "3×(3×x² + 3×x + 3)": "Incorrect: A term or factor was omitted.",
+        "−3×(3×x² + 3×x + 2)": "Incorrect: A sign or factor was changed.",
+        "3×(3×x² + 3×x − 1)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p02",
+      "prompt": "Factorise 16×x³ + 16×x² + 12×x completely by taking out a common factor.",
+      "options": [
+        "(4×x)×(4×x² + 4×x + 4)",
+        "(4×x)×(4×x² + 4×x + 3)",
+        "(−4×x)×(4×x² + 4×x + 3)",
+        "(4×x)×(4×x² + 4×x − 1)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark each term in 16×x³ + 16×x² + 12×x and find the largest shared numerical and variable factor. Take out 4×x; divide each original term by it to form 4×x² + 4×x + 3. Write the factored result (4×x)×(4×x² + 4×x + 3), preserving every sign. Check: distributing 4×x into 4×x² + 4×x + 3 recovers 16×x³ + 16×x² + 12×x.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "(4×x)×(4×x² + 4×x + 4)": "Incorrect: A term or factor was omitted.",
+        "(4×x)×(4×x² + 4×x + 3)": "Correct: Check: distributing 4×x into 4×x² + 4×x + 3 recovers 16×x³ + 16×x² + 12×x.",
+        "(−4×x)×(4×x² + 4×x + 3)": "Incorrect: A sign or factor was changed.",
+        "(4×x)×(4×x² + 4×x − 1)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p03",
+      "prompt": "Factorise −10×x² − 10×x − 8 completely by taking out a common factor.",
+      "options": [
+        "−2×(5×x² + 5×x + 5)",
+        "2×(5×x² + 5×x + 4)",
+        "−2×(5×x² + 5×x + 4)",
+        "−2×(5×x² + 5×x − 1)"
+      ],
+      "answer_index": 2,
+      "memo": "Mark each term in −10×x² − 10×x − 8 and find the largest shared numerical and variable factor. Take out −2; divide each original term by it to form 5×x² + 5×x + 4. Write the factored result −2×(5×x² + 5×x + 4), preserving every sign. Check: distributing −2 into 5×x² + 5×x + 4 recovers −10×x² − 10×x − 8.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "−2×(5×x² + 5×x + 5)": "Incorrect: A term or factor was omitted.",
+        "2×(5×x² + 5×x + 4)": "Incorrect: A sign or factor was changed.",
+        "−2×(5×x² + 5×x + 4)": "Correct: Check: distributing −2 into 5×x² + 5×x + 4 recovers −10×x² − 10×x − 8.",
+        "−2×(5×x² + 5×x − 1)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p04",
+      "prompt": "Factorise 18×x³ + 18×x² + 15×x completely by taking out a common factor.",
+      "options": [
+        "(3×x)×(6×x² + 6×x + 6)",
+        "(−3×x)×(6×x² + 6×x + 5)",
+        "(3×x)×(6×x² + 6×x − 1)",
+        "(3×x)×(6×x² + 6×x + 5)"
+      ],
+      "answer_index": 3,
+      "memo": "Mark each term in 18×x³ + 18×x² + 15×x and find the largest shared numerical and variable factor. Take out 3×x; divide each original term by it to form 6×x² + 6×x + 5. Write the factored result (3×x)×(6×x² + 6×x + 5), preserving every sign. Check: distributing 3×x into 6×x² + 6×x + 5 recovers 18×x³ + 18×x² + 15×x.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "(3×x)×(6×x² + 6×x + 6)": "Incorrect: A term or factor was omitted.",
+        "(−3×x)×(6×x² + 6×x + 5)": "Incorrect: A sign or factor was changed.",
+        "(3×x)×(6×x² + 6×x − 1)": "Incorrect: The original restriction or operation was lost.",
+        "(3×x)×(6×x² + 6×x + 5)": "Correct: Check: distributing 3×x into 6×x² + 6×x + 5 recovers 18×x³ + 18×x² + 15×x."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p05",
+      "prompt": "Factorise 8×x² + 28×x + 8 completely by taking out a common factor.",
+      "options": [
+        "4×(2×x² + 7×x + 2)",
+        "4×(2×x² + 7×x + 3)",
+        "−4×(2×x² + 7×x + 2)",
+        "4×(2×x² + 7×x − 5)"
+      ],
+      "answer_index": 0,
+      "memo": "Mark each term in 8×x² + 28×x + 8 and find the largest shared numerical and variable factor. Take out 4; divide each original term by it to form 2×x² + 7×x + 2. Write the factored result 4×(2×x² + 7×x + 2), preserving every sign. Check: distributing 4 into 2×x² + 7×x + 2 recovers 8×x² + 28×x + 8.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "4×(2×x² + 7×x + 2)": "Correct: Check: distributing 4 into 2×x² + 7×x + 2 recovers 8×x² + 28×x + 8.",
+        "4×(2×x² + 7×x + 3)": "Incorrect: A term or factor was omitted.",
+        "−4×(2×x² + 7×x + 2)": "Incorrect: A sign or factor was changed.",
+        "4×(2×x² + 7×x − 5)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p06",
+      "prompt": "Factorise −6×x³ − 2×x² − 6×x completely by taking out a common factor.",
+      "options": [
+        "(−2×x)×(3×x² + x + 4)",
+        "(−2×x)×(3×x² + x + 3)",
+        "(2×x)×(3×x² + x + 3)",
+        "(−2×x)×(3×x² + x + 2)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark each term in −6×x³ − 2×x² − 6×x and find the largest shared numerical and variable factor. Take out −2×x; divide each original term by it to form 3×x² + x + 3. Write the factored result (−2×x)×(3×x² + x + 3), preserving every sign. Check: distributing −2×x into 3×x² + x + 3 recovers −6×x³ − 2×x² − 6×x.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "(−2×x)×(3×x² + x + 4)": "Incorrect: A term or factor was omitted.",
+        "(−2×x)×(3×x² + x + 3)": "Correct: Check: distributing −2×x into 3×x² + x + 3 recovers −6×x³ − 2×x² − 6×x.",
+        "(2×x)×(3×x² + x + 3)": "Incorrect: A sign or factor was changed.",
+        "(−2×x)×(3×x² + x + 2)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p07",
+      "prompt": "Factorise 12×x² + 6×x + 15 completely by taking out a common factor.",
+      "options": [
+        "3×(4×x² + 2×x + 6)",
+        "−3×(4×x² + 2×x + 5)",
+        "3×(4×x² + 2×x + 5)",
+        "3×(4×x² + 2×x + 3)"
+      ],
+      "answer_index": 2,
+      "memo": "Mark each term in 12×x² + 6×x + 15 and find the largest shared numerical and variable factor. Take out 3; divide each original term by it to form 4×x² + 2×x + 5. Write the factored result 3×(4×x² + 2×x + 5), preserving every sign. Check: distributing 3 into 4×x² + 2×x + 5 recovers 12×x² + 6×x + 15.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "3×(4×x² + 2×x + 6)": "Incorrect: A term or factor was omitted.",
+        "−3×(4×x² + 2×x + 5)": "Incorrect: A sign or factor was changed.",
+        "3×(4×x² + 2×x + 5)": "Correct: Check: distributing 3 into 4×x² + 2×x + 5 recovers 12×x² + 6×x + 15.",
+        "3×(4×x² + 2×x + 3)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p08",
+      "prompt": "Factorise 20×x³ + 12×x² + 20×x completely by taking out a common factor.",
+      "options": [
+        "(4×x)×(5×x² + 3×x + 6)",
+        "(−4×x)×(5×x² + 3×x + 5)",
+        "(4×x)×(5×x² + 3×x + 2)",
+        "(4×x)×(5×x² + 3×x + 5)"
+      ],
+      "answer_index": 3,
+      "memo": "Mark each term in 20×x³ + 12×x² + 20×x and find the largest shared numerical and variable factor. Take out 4×x; divide each original term by it to form 5×x² + 3×x + 5. Write the factored result (4×x)×(5×x² + 3×x + 5), preserving every sign. Check: distributing 4×x into 5×x² + 3×x + 5 recovers 20×x³ + 12×x² + 20×x.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "(4×x)×(5×x² + 3×x + 6)": "Incorrect: A term or factor was omitted.",
+        "(−4×x)×(5×x² + 3×x + 5)": "Incorrect: A sign or factor was changed.",
+        "(4×x)×(5×x² + 3×x + 2)": "Incorrect: The original restriction or operation was lost.",
+        "(4×x)×(5×x² + 3×x + 5)": "Correct: Check: distributing 4×x into 5×x² + 3×x + 5 recovers 20×x³ + 12×x² + 20×x."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p09",
+      "prompt": "Factorise −12×x² − 8×x − 6 completely by taking out a common factor.",
+      "options": [
+        "−2×(6×x² + 4×x + 3)",
+        "−2×(6×x² + 4×x + 4)",
+        "2×(6×x² + 4×x + 3)",
+        "−2×(6×x² + 4×x − 1)"
+      ],
+      "answer_index": 0,
+      "memo": "Mark each term in −12×x² − 8×x − 6 and find the largest shared numerical and variable factor. Take out −2; divide each original term by it to form 6×x² + 4×x + 3. Write the factored result −2×(6×x² + 4×x + 3), preserving every sign. Check: distributing −2 into 6×x² + 4×x + 3 recovers −12×x² − 8×x − 6.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "−2×(6×x² + 4×x + 3)": "Correct: Check: distributing −2 into 6×x² + 4×x + 3 recovers −12×x² − 8×x − 6.",
+        "−2×(6×x² + 4×x + 4)": "Incorrect: A term or factor was omitted.",
+        "2×(6×x² + 4×x + 3)": "Incorrect: A sign or factor was changed.",
+        "−2×(6×x² + 4×x − 1)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p10",
+      "prompt": "Factorise 6×x³ + 15×x² + 9×x completely by taking out a common factor.",
+      "options": [
+        "(3×x)×(2×x² + 5×x + 4)",
+        "(3×x)×(2×x² + 5×x + 3)",
+        "(−3×x)×(2×x² + 5×x + 3)",
+        "(3×x)×(2×x² + 5×x − 2)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark each term in 6×x³ + 15×x² + 9×x and find the largest shared numerical and variable factor. Take out 3×x; divide each original term by it to form 2×x² + 5×x + 3. Write the factored result (3×x)×(2×x² + 5×x + 3), preserving every sign. Check: distributing 3×x into 2×x² + 5×x + 3 recovers 6×x³ + 15×x² + 9×x.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "(3×x)×(2×x² + 5×x + 4)": "Incorrect: A term or factor was omitted.",
+        "(3×x)×(2×x² + 5×x + 3)": "Correct: Check: distributing 3×x into 2×x² + 5×x + 3 recovers 6×x³ + 15×x² + 9×x.",
+        "(−3×x)×(2×x² + 5×x + 3)": "Incorrect: A sign or factor was changed.",
+        "(3×x)×(2×x² + 5×x − 2)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p11",
+      "prompt": "Factorise 12×x² + 24×x + 16 completely by taking out a common factor.",
+      "options": [
+        "4×(3×x² + 6×x + 5)",
+        "−4×(3×x² + 6×x + 4)",
+        "4×(3×x² + 6×x + 4)",
+        "4×(3×x² + 6×x − 2)"
+      ],
+      "answer_index": 2,
+      "memo": "Mark each term in 12×x² + 24×x + 16 and find the largest shared numerical and variable factor. Take out 4; divide each original term by it to form 3×x² + 6×x + 4. Write the factored result 4×(3×x² + 6×x + 4), preserving every sign. Check: distributing 4 into 3×x² + 6×x + 4 recovers 12×x² + 24×x + 16.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "4×(3×x² + 6×x + 5)": "Incorrect: A term or factor was omitted.",
+        "−4×(3×x² + 6×x + 4)": "Incorrect: A sign or factor was changed.",
+        "4×(3×x² + 6×x + 4)": "Correct: Check: distributing 4 into 3×x² + 6×x + 4 recovers 12×x² + 24×x + 16.",
+        "4×(3×x² + 6×x − 2)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p12",
+      "prompt": "Factorise −8×x³ − 14×x² − 10×x completely by taking out a common factor.",
+      "options": [
+        "(−2×x)×(4×x² + 7×x + 6)",
+        "(2×x)×(4×x² + 7×x + 5)",
+        "(−2×x)×(4×x² + 7×x − 2)",
+        "(−2×x)×(4×x² + 7×x + 5)"
+      ],
+      "answer_index": 3,
+      "memo": "Mark each term in −8×x³ − 14×x² − 10×x and find the largest shared numerical and variable factor. Take out −2×x; divide each original term by it to form 4×x² + 7×x + 5. Write the factored result (−2×x)×(4×x² + 7×x + 5), preserving every sign. Check: distributing −2×x into 4×x² + 7×x + 5 recovers −8×x³ − 14×x² − 10×x.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "(−2×x)×(4×x² + 7×x + 6)": "Incorrect: A term or factor was omitted.",
+        "(2×x)×(4×x² + 7×x + 5)": "Incorrect: A sign or factor was changed.",
+        "(−2×x)×(4×x² + 7×x − 2)": "Incorrect: The original restriction or operation was lost.",
+        "(−2×x)×(4×x² + 7×x + 5)": "Correct: Check: distributing −2×x into 4×x² + 7×x + 5 recovers −8×x³ − 14×x² − 10×x."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p13",
+      "prompt": "Factorise 15×x² + 3×x + 6 completely by taking out a common factor.",
+      "options": [
+        "3×(5×x² + x + 2)",
+        "3×(5×x² + x + 3)",
+        "−3×(5×x² + x + 2)",
+        "3×(5×x² + x + 1)"
+      ],
+      "answer_index": 0,
+      "memo": "Mark each term in 15×x² + 3×x + 6 and find the largest shared numerical and variable factor. Take out 3; divide each original term by it to form 5×x² + x + 2. Write the factored result 3×(5×x² + x + 2), preserving every sign. Check: distributing 3 into 5×x² + x + 2 recovers 15×x² + 3×x + 6.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "3×(5×x² + x + 2)": "Correct: Check: distributing 3 into 5×x² + x + 2 recovers 15×x² + 3×x + 6.",
+        "3×(5×x² + x + 3)": "Incorrect: A term or factor was omitted.",
+        "−3×(5×x² + x + 2)": "Incorrect: A sign or factor was changed.",
+        "3×(5×x² + x + 1)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p14",
+      "prompt": "Factorise 24×x³ + 8×x² + 12×x completely by taking out a common factor.",
+      "options": [
+        "(4×x)×(6×x² + 2×x + 4)",
+        "(4×x)×(6×x² + 2×x + 3)",
+        "(−4×x)×(6×x² + 2×x + 3)",
+        "(4×x)×(6×x² + 2×x + 1)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark each term in 24×x³ + 8×x² + 12×x and find the largest shared numerical and variable factor. Take out 4×x; divide each original term by it to form 6×x² + 2×x + 3. Write the factored result (4×x)×(6×x² + 2×x + 3), preserving every sign. Check: distributing 4×x into 6×x² + 2×x + 3 recovers 24×x³ + 8×x² + 12×x.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "(4×x)×(6×x² + 2×x + 4)": "Incorrect: A term or factor was omitted.",
+        "(4×x)×(6×x² + 2×x + 3)": "Correct: Check: distributing 4×x into 6×x² + 2×x + 3 recovers 24×x³ + 8×x² + 12×x.",
+        "(−4×x)×(6×x² + 2×x + 3)": "Incorrect: A sign or factor was changed.",
+        "(4×x)×(6×x² + 2×x + 1)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-p15",
+      "prompt": "Factorise −4×x² − 6×x − 8 completely by taking out a common factor.",
+      "options": [
+        "−2×(2×x² + 3×x + 5)",
+        "2×(2×x² + 3×x + 4)",
+        "−2×(2×x² + 3×x + 4)",
+        "−2×(2×x² + 3×x + 1)"
+      ],
+      "answer_index": 2,
+      "memo": "Mark each term in −4×x² − 6×x − 8 and find the largest shared numerical and variable factor. Take out −2; divide each original term by it to form 2×x² + 3×x + 4. Write the factored result −2×(2×x² + 3×x + 4), preserving every sign. Check: distributing −2 into 2×x² + 3×x + 4 recovers −4×x² − 6×x − 8.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "−2×(2×x² + 3×x + 5)": "Incorrect: A term or factor was omitted.",
+        "2×(2×x² + 3×x + 4)": "Incorrect: A sign or factor was changed.",
+        "−2×(2×x² + 3×x + 4)": "Correct: Check: distributing −2 into 2×x² + 3×x + 4 recovers −4×x² − 6×x − 8.",
+        "−2×(2×x² + 3×x + 1)": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-aex-l06-m01",
+      "prompt": "Factorise 9×x³ + 12×x² + 15×x completely by taking out a common factor.",
+      "options": [
+        "(3×x)×(3×x² + 4×x + 5)",
+        "(3×x)×(3×x² + 4×x + 6)",
+        "(−3×x)×(3×x² + 4×x + 5)",
+        "(3×x)×(3×x² + 4×x + 1)"
+      ],
+      "answer_index": 0,
+      "memo": "Mark each term in 9×x³ + 12×x² + 15×x and find the largest shared numerical and variable factor. Take out 3×x; divide each original term by it to form 3×x² + 4×x + 5. Write the factored result (3×x)×(3×x² + 4×x + 5), preserving every sign. Check: distributing 3×x into 3×x² + 4×x + 5 recovers 9×x³ + 12×x² + 15×x.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "(3×x)×(3×x² + 4×x + 5)": "Correct: Check: distributing 3×x into 3×x² + 4×x + 5 recovers 9×x³ + 12×x² + 15×x.",
+        "(3×x)×(3×x² + 4×x + 6)": "Incorrect: A term or factor was omitted.",
+        "(−3×x)×(3×x² + 4×x + 5)": "Incorrect: A sign or factor was changed.",
+        "(3×x)×(3×x² + 4×x + 1)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-m02",
+      "prompt": "Factorise 16×x² + 20×x + 8 completely by taking out a common factor.",
+      "options": [
+        "4×(4×x² + 5×x + 3)",
+        "4×(4×x² + 5×x + 2)",
+        "−4×(4×x² + 5×x + 2)",
+        "4×(4×x² + 5×x − 3)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark each term in 16×x² + 20×x + 8 and find the largest shared numerical and variable factor. Take out 4; divide each original term by it to form 4×x² + 5×x + 2. Write the factored result 4×(4×x² + 5×x + 2), preserving every sign. Check: distributing 4 into 4×x² + 5×x + 2 recovers 16×x² + 20×x + 8.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "4×(4×x² + 5×x + 3)": "Incorrect: A term or factor was omitted.",
+        "4×(4×x² + 5×x + 2)": "Correct: Check: distributing 4 into 4×x² + 5×x + 2 recovers 16×x² + 20×x + 8.",
+        "−4×(4×x² + 5×x + 2)": "Incorrect: A sign or factor was changed.",
+        "4×(4×x² + 5×x − 3)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-m03",
+      "prompt": "Factorise −10×x³ − 12×x² − 6×x completely by taking out a common factor.",
+      "options": [
+        "(−2×x)×(5×x² + 6×x + 4)",
+        "(2×x)×(5×x² + 6×x + 3)",
+        "(−2×x)×(5×x² + 6×x + 3)",
+        "(−2×x)×(5×x² + 6×x − 3)"
+      ],
+      "answer_index": 2,
+      "memo": "Mark each term in −10×x³ − 12×x² − 6×x and find the largest shared numerical and variable factor. Take out −2×x; divide each original term by it to form 5×x² + 6×x + 3. Write the factored result (−2×x)×(5×x² + 6×x + 3), preserving every sign. Check: distributing −2×x into 5×x² + 6×x + 3 recovers −10×x³ − 12×x² − 6×x.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "(−2×x)×(5×x² + 6×x + 4)": "Incorrect: A term or factor was omitted.",
+        "(2×x)×(5×x² + 6×x + 3)": "Incorrect: A sign or factor was changed.",
+        "(−2×x)×(5×x² + 6×x + 3)": "Correct: Check: distributing −2×x into 5×x² + 6×x + 3 recovers −10×x³ − 12×x² − 6×x.",
+        "(−2×x)×(5×x² + 6×x − 3)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-m04",
+      "prompt": "Factorise 18×x² + 21×x + 12 completely by taking out a common factor.",
+      "options": [
+        "3×(6×x² + 7×x + 5)",
+        "−3×(6×x² + 7×x + 4)",
+        "3×(6×x² + 7×x − 3)",
+        "3×(6×x² + 7×x + 4)"
+      ],
+      "answer_index": 3,
+      "memo": "Mark each term in 18×x² + 21×x + 12 and find the largest shared numerical and variable factor. Take out 3; divide each original term by it to form 6×x² + 7×x + 4. Write the factored result 3×(6×x² + 7×x + 4), preserving every sign. Check: distributing 3 into 6×x² + 7×x + 4 recovers 18×x² + 21×x + 12.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "3×(6×x² + 7×x + 5)": "Incorrect: A term or factor was omitted.",
+        "−3×(6×x² + 7×x + 4)": "Incorrect: A sign or factor was changed.",
+        "3×(6×x² + 7×x − 3)": "Incorrect: The original restriction or operation was lost.",
+        "3×(6×x² + 7×x + 4)": "Correct: Check: distributing 3 into 6×x² + 7×x + 4 recovers 18×x² + 21×x + 12."
+      }
+    },
+    {
+      "id": "g9-aex-l06-m05",
+      "prompt": "Factorise 8×x³ + 4×x² + 20×x completely by taking out a common factor.",
+      "options": [
+        "(4×x)×(2×x² + x + 5)",
+        "(4×x)×(2×x² + x + 6)",
+        "(−4×x)×(2×x² + x + 5)",
+        "(4×x)×(2×x² + x + 4)"
+      ],
+      "answer_index": 0,
+      "memo": "Mark each term in 8×x³ + 4×x² + 20×x and find the largest shared numerical and variable factor. Take out 4×x; divide each original term by it to form 2×x² + x + 5. Write the factored result (4×x)×(2×x² + x + 5), preserving every sign. Check: distributing 4×x into 2×x² + x + 5 recovers 8×x³ + 4×x² + 20×x.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "(4×x)×(2×x² + x + 5)": "Correct: Check: distributing 4×x into 2×x² + x + 5 recovers 8×x³ + 4×x² + 20×x.",
+        "(4×x)×(2×x² + x + 6)": "Incorrect: A term or factor was omitted.",
+        "(−4×x)×(2×x² + x + 5)": "Incorrect: A sign or factor was changed.",
+        "(4×x)×(2×x² + x + 4)": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-aex-l06-r01",
+      "prompt": "Factorise −6×x² − 4×x − 4 completely by taking out a common factor.",
+      "options": [
+        "−2×(3×x² + 2×x + 2)",
+        "−2×(3×x² + 2×x + 3)",
+        "2×(3×x² + 2×x + 2)",
+        "−2×(3×x² + 2×x)"
+      ],
+      "answer_index": 0,
+      "memo": "Mark each term in −6×x² − 4×x − 4 and find the largest shared numerical and variable factor. Take out −2; divide each original term by it to form 3×x² + 2×x + 2. Write the factored result −2×(3×x² + 2×x + 2), preserving every sign. Check: distributing −2 into 3×x² + 2×x + 2 recovers −6×x² − 4×x − 4.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "−2×(3×x² + 2×x + 2)": "Correct: Check: distributing −2 into 3×x² + 2×x + 2 recovers −6×x² − 4×x − 4.",
+        "−2×(3×x² + 2×x + 3)": "Incorrect: A term or factor was omitted.",
+        "2×(3×x² + 2×x + 2)": "Incorrect: A sign or factor was changed.",
+        "−2×(3×x² + 2×x)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-r02",
+      "prompt": "Factorise 12×x³ + 9×x² + 9×x completely by taking out a common factor.",
+      "options": [
+        "(3×x)×(4×x² + 3×x + 4)",
+        "(3×x)×(4×x² + 3×x + 3)",
+        "(−3×x)×(4×x² + 3×x + 3)",
+        "(3×x)×(4×x² + 3×x)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark each term in 12×x³ + 9×x² + 9×x and find the largest shared numerical and variable factor. Take out 3×x; divide each original term by it to form 4×x² + 3×x + 3. Write the factored result (3×x)×(4×x² + 3×x + 3), preserving every sign. Check: distributing 3×x into 4×x² + 3×x + 3 recovers 12×x³ + 9×x² + 9×x.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "(3×x)×(4×x² + 3×x + 4)": "Incorrect: A term or factor was omitted.",
+        "(3×x)×(4×x² + 3×x + 3)": "Correct: Check: distributing 3×x into 4×x² + 3×x + 3 recovers 12×x³ + 9×x² + 9×x.",
+        "(−3×x)×(4×x² + 3×x + 3)": "Incorrect: A sign or factor was changed.",
+        "(3×x)×(4×x² + 3×x)": "Incorrect: The original restriction or operation was lost."
+      }
+    },
+    {
+      "id": "g9-aex-l06-r03",
+      "prompt": "Factorise 20×x² + 16×x + 16 completely by taking out a common factor.",
+      "options": [
+        "4×(5×x² + 4×x + 5)",
+        "−4×(5×x² + 4×x + 4)",
+        "4×(5×x² + 4×x + 4)",
+        "4×(5×x² + 4×x)"
+      ],
+      "answer_index": 2,
+      "memo": "Mark each term in 20×x² + 16×x + 16 and find the largest shared numerical and variable factor. Take out 4; divide each original term by it to form 5×x² + 4×x + 4. Write the factored result 4×(5×x² + 4×x + 4), preserving every sign. Check: distributing 4 into 5×x² + 4×x + 4 recovers 20×x² + 16×x + 16.",
+      "misconception": "expressions-common_factor",
+      "option_rationales": {
+        "4×(5×x² + 4×x + 5)": "Incorrect: A term or factor was omitted.",
+        "−4×(5×x² + 4×x + 4)": "Incorrect: A sign or factor was changed.",
+        "4×(5×x² + 4×x + 4)": "Correct: Check: distributing 4 into 5×x² + 4×x + 4 recovers 20×x² + 16×x + 16.",
+        "4×(5×x² + 4×x)": "Incorrect: The original restriction or operation was lost."
+      }
+    }
+  ]
+}
