@@ -44,7 +44,7 @@ def test_five_complete_authored_lessons_and_valid_progressive_visuals():
     assert len({case.problem for cases in LESSONS.values() for case in cases})==75
     for number,cases in LESSONS.items():
         lesson=LESSONS_RUNTIME[number]
-        source=Path('docs/curriculum/grade8/pythagoras')/f'lesson-{number:02}.md'
+        source=Path(__file__).resolve().parents[2]/'docs/curriculum/grade8/pythagoras'/f'lesson-{number:02}.md'
         assert source.exists() and source.stat().st_size>10000
         assert len(lesson.whiteboard_questions)==15 and not lesson.release_approved
         practice,mastery,reassessment,repairs,rules=banks(number)

@@ -1319,6 +1319,72 @@
               "source_document": "lesson-06.md"
             }
           ]
+        },
+        {
+          "topic_id": "graphs",
+          "topic_number": 8,
+          "title": "Graphs",
+          "paper": null,
+          "expected_lesson_count": 7,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-graphs-01",
+              "position": 1,
+              "title": "Global graph features in context",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g9-graphs-02",
+              "position": 2,
+              "title": "Ordered pairs and Cartesian plotting",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g9-graphs-03",
+              "position": 3,
+              "title": "Gradient as rise over run",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g9-graphs-04",
+              "position": 4,
+              "title": "Intercepts of straight lines",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g9-graphs-05",
+              "position": 5,
+              "title": "Draw a line from its equation",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05.md"
+            },
+            {
+              "lesson_id": "g9-graphs-06",
+              "position": 6,
+              "title": "Find an equation from a graph",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-06.md"
+            },
+            {
+              "lesson_id": "g9-graphs-07",
+              "position": 7,
+              "title": "Integrated graph interpretation and first-error repair",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-07.md"
+            }
+          ]
         }
       ]
     },

@@ -1,0 +1,86 @@
+[
+  {
+    "lesson_id": "g9-graphs-01",
+    "source": "lesson-01.md",
+    "source_sha256": "e657d78ae44059d0b870f39ba8d89e416ba6a705da7771184a6efd75364cc752",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-graphs-02",
+    "source": "lesson-02.md",
+    "source_sha256": "4f6e13b19f989a260c5d5a8f0424eacd62eb9719307f67c30450c49b50bb12e2",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-graphs-03",
+    "source": "lesson-03.md",
+    "source_sha256": "66bf5f3d79fb4cc872fe9aef60985eafa6070d20a2390972e28ec4842d52d12f",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-graphs-04",
+    "source": "lesson-04.md",
+    "source_sha256": "94c649cb42ca37443249a38b42b450ccd3066cf694a430197b8591eb65a101e8",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-graphs-05",
+    "source": "lesson-05.md",
+    "source_sha256": "cbd7114414aee5b392fa94cbb17f1e4a04039a111cee779f6dc963e1a4c7501e",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-graphs-06",
+    "source": "lesson-06.md",
+    "source_sha256": "b4cfa6fd4aa93e12908a224b5bf81c2fddafab8ff4a7cc32d8453ebb2c7f4131",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-graphs-07",
+    "source": "lesson-07.md",
+    "source_sha256": "957ecc084bcf8c458589d0fc48537b57f9317037814495af427472f303e679ba",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

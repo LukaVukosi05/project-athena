@@ -42,6 +42,10 @@ EQUATION_TITLES={1:'Translate situations into equations',2:'Solve using inverse 
  3:'Brackets and unknowns on both sides',4:'Solve equations using exponent laws',
  5:'Factorisation and the zero-product property',6:'Substitution tables and first-error repair'}
 EQUATION_TEMPLATES={n:f'grade9_equation_{n}' for n in range(1,7)}
+GRAPH_TITLES={1:'Global graph features in context',2:'Ordered pairs and Cartesian plotting',
+ 3:'Gradient as rise over run',4:'Intercepts of straight lines',5:'Draw a line from its equation',
+ 6:'Find an equation from a graph',7:'Integrated graph interpretation and first-error repair'}
+GRAPH_TEMPLATES={n:f'grade9_graph_{n}' for n in range(1,8)}
 
 
 def build_lesson(number,topic='whole-numbers'):
@@ -51,10 +55,11 @@ def build_lesson(number,topic='whole-numbers'):
     functions=topic=='functions-relationships'
     expressions=topic=='algebraic-expressions'
     equations=topic=='algebraic-equations'
-    data=json.loads((GENERATED/f'{"equations" if equations else "expressions" if expressions else "functions" if functions else "patterns" if patterns else topic.replace("-","_")}_{number:02}.json').read_text(encoding='utf-8'))
-    source=(ROOT/'docs/curriculum/grade9'/topic if integers or exponents or patterns or functions or expressions or equations else SOURCE)/data['source']
-    lesson_id=f'g9-equations-{number:02}' if equations else f'g9-expressions-{number:02}' if expressions else f'g9-functions-{number:02}' if functions else f'g9-patterns-{number:02}' if patterns else f'g9-{topic}-{number:02}'
-    template=EQUATION_TEMPLATES[number] if equations else EXPRESSION_TEMPLATES[number] if expressions else FUNCTION_TEMPLATES[number] if functions else PATTERN_TEMPLATES[number] if patterns else EXPONENT_TEMPLATES[number] if exponents else INTEGER_TEMPLATES[number] if integers else 'grade9_number_sets' if number==1 else 'grade9_prime_factors' if number==2 else EXTENDED_TEMPLATES[number]
+    graphs=topic=='graphs'
+    data=json.loads((GENERATED/f'{"graphs" if graphs else "equations" if equations else "expressions" if expressions else "functions" if functions else "patterns" if patterns else topic.replace("-","_")}_{number:02}.json').read_text(encoding='utf-8'))
+    source=(ROOT/'docs/curriculum/grade9'/topic if integers or exponents or patterns or functions or expressions or equations or graphs else SOURCE)/data['source']
+    lesson_id=f'g9-graphs-{number:02}' if graphs else f'g9-equations-{number:02}' if equations else f'g9-expressions-{number:02}' if expressions else f'g9-functions-{number:02}' if functions else f'g9-patterns-{number:02}' if patterns else f'g9-{topic}-{number:02}'
+    template=GRAPH_TEMPLATES[number] if graphs else EQUATION_TEMPLATES[number] if equations else EXPRESSION_TEMPLATES[number] if expressions else FUNCTION_TEMPLATES[number] if functions else PATTERN_TEMPLATES[number] if patterns else EXPONENT_TEMPLATES[number] if exponents else INTEGER_TEMPLATES[number] if integers else 'grade9_number_sets' if number==1 else 'grade9_prime_factors' if number==2 else EXTENDED_TEMPLATES[number]
     questions=[]
     for index,scene in enumerate(data['worked'],1):
         qid=scene['id'];actions=scene['actions'];previous='Read the original question';steps=[]
@@ -64,7 +69,7 @@ def build_lesson(number,topic='whole-numbers'):
             final=j==len(actions)
             # The result of each stage is retained by the shared cumulative memo.
             after=f'{j}. {action}'
-            why=('Keep each side of the equality visible and check all solutions in the original equation.' if equations else 'Match each highlighted term or factor to the original expression and preserve domain restrictions.' if expressions else
+            why=('Keep each side of the equality visible and check all solutions in the original equation.' if equations else 'Keep the axes and original coordinates fixed, and reveal each plotted point or line in order.' if graphs else 'Match each highlighted term or factor to the original expression and preserve domain restrictions.' if expressions else
                  'Follow one input-output pair through each linked representation.' if functions else
                  'Read the term positions and compare the actual figures before choosing a rule.' if patterns else
                  'Apply the exponent law to the specified base, and preserve the unit or fraction.' if exponents else
@@ -74,21 +79,21 @@ def build_lesson(number,topic='whole-numbers'):
                  'Read the labelled quantities and units before changing the model.')
             spoken=(f'Let us check {action[7:]}' if action.startswith('Check: ')
                     else f'Our written result is {action[9:]}' if action.startswith('Written: ')
-                    else f'{action} {why}' if exponents or patterns or functions or expressions or equations
+                    else f'{action} {why}' if exponents or patterns or functions or expressions or equations or graphs
                     else f'We {action[0].lower()}{action[1:]}. {why}')
             duration=max(5500,min(24000,len(spoken.split())*500))
             steps.append(TeachingStep(id=f'{qid}-step-{j:02}',step_number=j-1,title=action,
                 before_expression=previous,working_expression=f'From {previous} → {action}',
-                operation=MathematicalOperation(type=f'grade9_equation_{number}_step' if equations else f'grade9_expression_{number}_step' if expressions else f'grade9_function_{number}_step' if functions else f'grade9_pattern_{number}_step' if patterns else f'grade9_exponent_{number}_step' if exponents else f'grade9_integer_{number}_step' if integers else 'grade9_set_step' if number==1 else 'grade9_factor_step' if number==2 else f'grade9_{number}_step',value=action,
+                operation=MathematicalOperation(type=f'grade9_graph_{number}_step' if graphs else f'grade9_equation_{number}_step' if equations else f'grade9_expression_{number}_step' if expressions else f'grade9_function_{number}_step' if functions else f'grade9_pattern_{number}_step' if patterns else f'grade9_exponent_{number}_step' if exponents else f'grade9_integer_{number}_step' if integers else 'grade9_set_step' if number==1 else 'grade9_factor_step' if number==2 else f'grade9_{number}_step',value=action,
                     action='verify_solution' if final else 'transform_expression'),
                 after_expression=after,
                 explanation=StepExplanation(what=action,
-                    why='Apply the stated inverse to both sides and substitute back into the original.' if equations else 'Pair every new term with its origin; maintain excluded denominator values.' if expressions else 'Keep the original pair visible as the flow, table, formula and graph change.' if functions else 'Keep the actual positions and terms visible while deriving the rule.' if patterns else 'Identify the base and scope before changing its exponent.' if exponents else
+                    why='Apply the stated inverse to both sides and substitute back into the original.' if equations else 'Plot the stated point or triangle; retain earlier marks and verify the result against the givens.' if graphs else 'Pair every new term with its origin; maintain excluded denominator values.' if expressions else 'Keep the original pair visible as the flow, table, formula and graph change.' if functions else 'Keep the actual positions and terms visible while deriving the rule.' if patterns else 'Identify the base and scope before changing its exponent.' if exponents else
                         'Show one signed operation, then check it against the original values.' if integers else
                         'Classify the exact value after simplifying it.' if number==1 else
                         'Prime leaves reproduce the given number; compare powers only after factorising.' if number==2 else
                         'Keep the original quantities and units attached to each calculation.',
-                    purpose=action,remember='Substitute every candidate into the original; a zero product may have two roots.' if equations else 'Expand, substitute or multiply back into the original, and retain restrictions.' if expressions else 'Check the result in the original representation and another given pair.' if functions else 'Test the rule at a second known position.' if patterns else 'Check the law with expanded factors or a reciprocal.' if exponents else 'Check the original signs and order of operations.' if integers else 'Check against the original expression.' if number==1 else
+                    purpose=action,remember='Substitute every candidate into the original; a zero product may have two roots.' if equations else 'Re-read both coordinates and the graph scale before deciding.' if graphs else 'Expand, substitute or multiply back into the original, and retain restrictions.' if expressions else 'Check the result in the original representation and another given pair.' if functions else 'Test the rule at a second known position.' if patterns else 'Check the law with expanded factors or a reciprocal.' if exponents else 'Check the original signs and order of operations.' if integers else 'Check against the original expression.' if number==1 else
                         'For HCF choose shared smaller powers; for LCM choose all larger powers.' if number==2 else
                         'Check every derived amount against the original givens.'),
                 common_mistake=scene['misconception'],animation_template=template,
@@ -115,26 +120,26 @@ def build_lesson(number,topic='whole-numbers'):
             cognitive_level='knowledge' if index<=3 else 'routine' if index<=7 else 'complex' if index<=13 else 'problem_solving',
             marks=2 if index<=3 else 3 if index<=7 else 5 if index<=13 else 7,
             whiteboard=board,answer=scene['check'],full_memo=actions,
-            misconception_tags=[scene['misconception'] if integers or exponents or patterns or functions or expressions or equations else 'number-set-classification' if number==1 else 'prime-power-selection' if number==2 else scene['misconception']],
+            misconception_tags=[scene['misconception'] if integers or exponents or patterns or functions or expressions or equations or graphs else 'number-set-classification' if number==1 else 'prime-power-selection' if number==2 else scene['misconception']],
             expected_evidence=scene['check']))
-    title=EQUATION_TITLES[number] if equations else EXPRESSION_TITLES[number] if expressions else FUNCTION_TITLES[number] if functions else PATTERN_TITLES[number] if patterns else EXPONENT_TITLES[number] if exponents else INTEGER_TITLES[number] if integers else 'The real number system' if number==1 else 'Prime factors, HCF and LCM' if number==2 else EXTENDED_TITLES[number]
+    title=GRAPH_TITLES[number] if graphs else EQUATION_TITLES[number] if equations else EXPRESSION_TITLES[number] if expressions else FUNCTION_TITLES[number] if functions else PATTERN_TITLES[number] if patterns else EXPONENT_TITLES[number] if exponents else INTEGER_TITLES[number] if integers else 'The real number system' if number==1 else 'Prime factors, HCF and LCM' if number==2 else EXTENDED_TITLES[number]
     lesson=Lesson(id=lesson_id,order=number,title=title,estimated_minutes=70 if number==1 else 80,
-        objective=f'Carry out {title.lower()} with valid transformations, exact answers and verification.' if expressions else f'Link flow diagrams, tables, equations and graphs for {title.lower()}.' if functions else f'Extend, describe and justify {title.lower()} using positions, tables and diagrams.' if patterns else f'Use exponent laws and scientific notation to solve {title.lower()} with exact values.' if exponents else
+        objective=f'Plot, calculate and interpret {title.lower()} with a visible coordinate check.' if graphs else f'Carry out {title.lower()} with valid transformations, exact answers and verification.' if expressions else f'Link flow diagrams, tables, equations and graphs for {title.lower()}.' if functions else f'Extend, describe and justify {title.lower()} using positions, tables and diagrams.' if patterns else f'Use exponent laws and scientific notation to solve {title.lower()} with exact values.' if exponents else
             f'Calculate and explain {title.lower()} with signed integers and verify each result.' if integers else
             'Distinguish natural, whole, integer, rational and irrational real numbers using exact values.' if number==1 else
             'Factorise positive integers, calculate HCF and LCM with prime powers, and check context units.' if number==2 else
             f'Use exact Grade 9 methods for {title.lower()} and verify the result with units.',
-        why_it_matters='Expressions connect patterns, equations, geometric area and rational quantities.' if expressions else 'One input-output relationship can be read from several equivalent representations.' if functions else 'Pattern rules connect growing figures and numbers to algebra.' if patterns else 'Powers express repeated factors and very large or small measured quantities.' if exponents else
+        why_it_matters='Graphs show how quantities change and let us test algebraic relationships.' if graphs else 'Expressions connect patterns, equations, geometric area and rational quantities.' if expressions else 'One input-output relationship can be read from several equivalent representations.' if functions else 'Pattern rules connect growing figures and numbers to algebra.' if patterns else 'Powers express repeated factors and very large or small measured quantities.' if exponents else
             'Signed quantities model changes, debt, temperature and later algebra.' if integers else
             'Exact number classifications guide later algebra.' if number==1 else
             'Prime factors make shared groups and repeated cycles precise.' if number==2 else
             'A correct relationship and the right base prevent costly arithmetic errors.',
-        intuition='Track each term to its original factor or bracket; justify every rewrite and check the starting expression.' if expressions else 'Track one input from flow machine to table, formula and coordinate pair.' if functions else 'Count the actual figures, align each term with its position, then test a rule.' if patterns else 'Show the base, expand or shift it, then compress to the correct power or reciprocal.' if exponents else
+        intuition='Plot one coordinate at a time on fixed axes; keep the rise, run, intercept and written record together.' if graphs else 'Track each term to its original factor or bracket; justify every rewrite and check the starting expression.' if expressions else 'Track one input from flow machine to table, formula and coordinate pair.' if functions else 'Count the actual figures, align each term with its position, then test a rule.' if patterns else 'Show the base, expand or shift it, then compress to the correct power or reciprocal.' if exponents else
             'Keep the zero reference, the operation and the sign of each result visible.' if integers else
             'Simplify the value, then choose its smallest set and all containing sets.' if number==1 else
             'HCF keeps shared lowest powers; LCM keeps the highest powers present in any original number.' if number==2 else
             'Keep the original givens visible, apply one justified action and check units.',
-        prerequisites=[] if number==1 else [f'g9-equations-{number-1:02}' if equations else f'g9-expressions-{number-1:02}' if expressions else f'g9-functions-{number-1:02}' if functions else f'g9-patterns-{number-1:02}' if patterns else f'g9-{topic}-{number-1:02}'],difficulty='foundation' if number==1 else 'standard',
+        prerequisites=[] if number==1 else [f'g9-graphs-{number-1:02}' if graphs else f'g9-equations-{number-1:02}' if equations else f'g9-expressions-{number-1:02}' if expressions else f'g9-functions-{number-1:02}' if functions else f'g9-patterns-{number-1:02}' if patterns else f'g9-{topic}-{number-1:02}'],difficulty='foundation' if number==1 else 'standard',
         access_level=AccessLevel.FREE if number==1 else AccessLevel.PREMIUM,
         status=ContentStatus.TEACHER_REVIEW_REQUIRED,release_approved=False,
         blocks=[LessonBlock(type='concept',title=title,content='Read the original givens and predict the next mathematical action.'),
@@ -159,6 +164,7 @@ PATTERN_LESSONS={number:build_lesson(number,'numeric-geometric-patterns') for nu
 FUNCTION_LESSONS={number:build_lesson(number,'functions-relationships') for number in range(1,6)}
 EXPRESSION_LESSONS={number:build_lesson(number,'algebraic-expressions') for number in range(1,10)}
 EQUATION_LESSONS={number:build_lesson(number,'algebraic-equations') for number in range(1,7)}
+GRAPH_LESSONS={number:build_lesson(number,'graphs') for number in range(1,8)}
 
 GRADE_9=GradeCurriculum(id='grade-9',grade=9,status=ContentStatus.TEACHER_REVIEW_REQUIRED,
     topics=[Topic(id='whole-numbers',product_order=1,title='Whole Numbers',official_caps_topic='Whole numbers',
@@ -202,4 +208,10 @@ GRADE_9=GradeCurriculum(id='grade-9',grade=9,status=ContentStatus.TEACHER_REVIEW
             caps_reference='DBE 2026 Grade 9 Mathematics ATP, Term 2',paper=None,
             exam_relevance='Grade 9 classroom and formal assessment',status=ContentStatus.TEACHER_REVIEW_REQUIRED,
             subtopics=[Subtopic(id='equations-learning-path',order=1,title='Situations, inverses, factorisation and substitution',
-                prerequisites=[],lessons=[EQUATION_LESSONS[n][0] for n in range(1,7)])])])
+                prerequisites=[],lessons=[EQUATION_LESSONS[n][0] for n in range(1,7)])]),
+        Topic(id='graphs',product_order=8,title='Graphs',official_caps_topic='Graphs',
+            caps_sequence=8,term=2,expected_duration='Seven authored lessons awaiting teacher and browser review',
+            caps_reference='DBE 2026 Grade 9 Mathematics ATP, Term 2',paper=None,
+            exam_relevance='Grade 9 classroom and formal assessment',status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+            subtopics=[Subtopic(id='graphs-learning-path',order=1,title='Global features, coordinate plotting and straight lines',
+                prerequisites=[],lessons=[GRAPH_LESSONS[n][0] for n in range(1,8)])])])

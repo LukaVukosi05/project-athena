@@ -23,7 +23,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -636,6 +636,30 @@ def _grade9_whole_board(parameters: dict, family: str) -> None:
         or scene.get('actions') is None or len(scene['actions'])!=parameters['total_steps']
         or not 3<=parameters['total_steps']<=18):
         raise ValueError('Grade 9 source scene, question and step count disagree')
+    if family.startswith('graph_'):
+        number=int(family.rsplit('_',1)[-1]);visual=scene.get('visual',{});v=visual.get('values',{})
+        expected=('global','ordered','gradient','intercepts','line','infer','diagnosis')[number-1]
+        points=v.get('points')
+        if (scene.get('lesson')!=number or visual.get('family')!=expected
+            or not isinstance(points,list) or not 2<=len(points)<=4
+            or any(not isinstance(p,list) or len(p)!=2 or any(type(x) is not int or abs(x)>100 for x in p) for p in points)
+            or scene.get('actions',[])[-1]!=scene.get('check') or not isinstance(scene.get('answer'),str)):
+            raise ValueError('Graph needs bounded question-owned points, stages and check')
+        if number==1:
+            valid=(len(points)==4 and [p[0] for p in points]==[0,2,4,6]
+                and points[0][1]<points[1][1]==points[2][1]>points[3][1]
+                and v.get('peak')==points[1][1] and scene['answer']==f'maximum = {v["peak"]} litres')
+        else:
+            m,b=v.get('m'),v.get('b')
+            valid=(type(m) is int and type(b) is int and all(y==m*x+b for x,y in points))
+            if number==2:valid=valid and scene['answer']==f'(2, {2*m+b})' and points[-1]==[2,2*m+b]
+            elif number==3:valid=valid and len(points)==2 and v.get('run')==points[1][0]-points[0][0]>0 and v.get('rise')==points[1][1]-points[0][1] and scene['answer']==f'gradient = {m}'
+            elif number==4:valid=valid and b!=0 and points==[[v.get('x_intercept'),0],[0,b]] and scene['answer']==f'({v["x_intercept"]}, 0) and (0, {b})'
+            elif number==5:valid=valid and [p[0] for p in points]==[-1,0,1,2] and scene['answer']==f'(0, {b}) and (1, {b+m})'
+            else:valid=valid and [p[0] for p in points]==[0,1,2] and scene['answer']==f'y = {m}x {"+" if b>=0 else "−"} {abs(b)}'
+            if number==7:valid=valid and v.get('claimed_gradient')!=m
+        if not valid:raise ValueError('Graph points, gradient or intercept disagree with the answer')
+        return
     if family.startswith('equation_'):
         v=scene.get('visual',{})
         expected={'1':'groups','2':'balance','3':'brackets','4':'powers','5':'zero_product','6':'table'}[family.rsplit('_',1)[-1]]
@@ -1118,6 +1142,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'expression_{n}'),True)
        for n in range(1,10)},
+    **{("algebra",f"grade9_graph_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade9_whole_board(p,f'graph_{n}'),True)
+       for n in range(1,8)},
     **{("algebra",f"grade9_equation_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'equation_{n}'),True)
