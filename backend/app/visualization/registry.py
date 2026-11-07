@@ -676,7 +676,7 @@ def _grade9_whole_board(parameters: dict, family: str) -> None:
         elif number==5:
             sides=v.get('sides');valid=isinstance(sides,list) and len(sides)==3 and all(type(s) is int and 2<=s<=50 for s in sides) and sides[2]==target and v.get('criterion') in {'SAS','SSS','ASA'} and scene['answer']==(f'EF = {target} cm' if v['criterion']=='SAS' else f'△ABC ≅ △DEF ({v["criterion"]})')
         else:
-            small,scale=integer('small'),integer('scale');valid=2<=scale<=4 and (small+2)*scale==target and scene['answer']==f'EF = {target} cm'
+            small,scale=integer('small'),integer('scale');criterion=v.get('criterion');valid=criterion in {'given','AA','SAS','SSS'} and 2<=scale<=4 and (small+2)*scale==target and scene['answer']==('△ABC ∼ △DEF (SSS similarity)' if criterion=='SSS' else f'EF = {target} cm')
         if not valid:raise ValueError('Shape calculation and corresponding diagram disagree')
         return
     if family.startswith('lines_'):

@@ -99,8 +99,9 @@
       const small=v.small,scale=v.scale,ratio=small+2,foot=(small*small+(small+1)**2-ratio*ratio)/(2*small),alt=Math.sqrt((small+1)**2-foot*foot),unit=Math.min(60/ratio,150/(alt*scale),200/(small*scale));
       const left=triangleFromSides(small,small+1,ratio,[65,205],unit),right=triangleFromSides(small*scale,(small+1)*scale,ratio*scale,[258,205],unit);
       shapes=tri(...left)+tri(...right,['D','E','F']);
-      labels=text('ab',88,224,`${small} cm`)+text('bc',125,153,`${small+2} cm`)+text('de',285,224,`${small*scale} cm`)+text('ef',387,148,late?`${v.target} cm`:'?');
-      if(done>=2)marks=text('scale',155,260,`scale × ${scale}`);
+      labels=text('ab',88,224,`${small} cm`)+text('bc',125,153,`${small+2} cm`)+text('de',285,224,`${small*scale} cm`)+text('ef',387,148,v.criterion==='SSS'||late?`${v.target} cm`:'?');
+      if(v.criterion==='SAS'||v.criterion==='SSS')labels+=text('ac',82,163,`${small+1} cm`)+text('df',300,104,`${(small+1)*scale} cm`);
+      if(done>=2)marks=text('similarity-condition',145,260,v.criterion==='given'?'△ABC ∼ △DEF':v.criterion==='AA'?'∠A = ∠D, ∠B = ∠E':v.criterion==='SAS'?'∠A = ∠D (included)':'three proportional side pairs');
     } else throw Error('Unsupported shape diagram');
     return `<svg viewBox="0 0 500 280" role="img" aria-label="${esc(scene.problem)}; ${late?'calculated value shown':'target concealed'}"><title>Question-owned geometry, dimensions shown only where given</title><g class="g9-shape-lines">${shapes}${marks}</g><g class="g9-shape-labels">${labels}</g></svg>`;
   }

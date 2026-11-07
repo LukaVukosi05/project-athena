@@ -23,6 +23,11 @@ def test_all_eight_authored_lessons_match_their_diagrams_and_banks():
         assert (len(data['worked']),len(practice),len(mastery),len(reassessment))==(15,15,5,3)
         assert repairs and rules and not lesson.release_approved
         assert len({c['problem'] for c in data['worked']})==15
+        if n==1:assert {c['visual']['values']['model'] for c in data['worked']}=={'isosceles','equilateral','right'}
+        if n==3:assert {c['visual']['values']['model'] for c in data['worked']}=={'parallelogram','rectangle','rhombus','trapezium','square','kite'}
+        if n==4:assert {c['visual']['values']['model'] for c in data['worked']}=={'regular_polygon','diagonals'}
+        if n==5:assert {c['visual']['values']['criterion'] for c in data['worked']}=={'SAS','SSS','ASA'}
+        if n==6:assert {c['visual']['values']['criterion'] for c in data['worked']}=={'given','AA','SAS','SSS'}
         assert len({c['prompt'] for c in data['practice']+data['mastery']+data['reassessment']})==23
         source=(ROOT/'docs/curriculum/grade9/geometry-of-2d-shapes'/data['source']).read_bytes()
         assert manifest[n-1]['source_sha256']==hashlib.sha256(source).hexdigest()
@@ -39,7 +44,7 @@ def test_all_eight_authored_lessons_match_their_diagrams_and_banks():
             elif n==4:
                 assert (target==(v['sides']-2)*180 and v['each']==str(Fraction(target,v['sides'])) if v['model']=='regular_polygon' else target==v['given'])
             elif n==5:assert v['sides'][2]==target
-            else:assert target==(v['small']+2)*v['scale']
+            else:assert v['criterion'] in ('given','AA','SAS','SSS') and target==(v['small']+2)*v['scale']
         for q in practice:
             assert len(set(q.options))==4 and check_answer(q.id,q.accepted_answers[0])
             assert all(not check_answer(q.id,wrong) for wrong in q.options if wrong!=q.accepted_answers[0])

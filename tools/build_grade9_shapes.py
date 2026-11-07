@@ -100,12 +100,25 @@ def case(n,i,variant=0):
             acts=['Mark ∠A = ∠D.', 'Mark ∠B = ∠E.',f'The included corresponding sides AB and DE both measure {first} cm.', 'Therefore △ABC ≅ △DEF by ASA.', 'Check that the equal side lies between the two marked angles in each triangle.']
             result='△ABC ≅ △DEF (ASA)';wrong=['△ABC ≅ △DEF (SAS)','△ABC ≅ △DEF (SSS)','insufficient evidence']
     elif n==6:
-        small=3+seed%41;scale=2+seed%3;target=small*scale
-        v.update(model='similar',small=small,scale=scale,target=target)
-        problem=f'△ABC ∼ △DEF in the stated order. AB = {small} cm, DE = {target} cm and BC = {small+2} cm. Find EF.'
-        target=(small+2)*scale;v['target']=target
-        acts=[f'Pair AB with DE and BC with EF in △ABC ∼ △DEF.',f'The scale factor from ABC to DEF is DE ÷ AB = {small*scale} ÷ {small} = {scale}.',f'Write EF ÷ BC = {scale}, so EF = {scale} × {small+2}.',f'Calculate EF = {target} cm.',f'Check: EF ÷ BC = {target} ÷ {small+2} = {scale}.']
-        result=f'EF = {target} cm';wrong=[f'EF = {target+d} cm' for d in (scale,2*scale,-scale)]
+        small=3+seed%41;scale=2+seed%3;target=(small+2)*scale
+        criterion=('given','AA','SAS','SSS')[seed%4]
+        v.update(model='similar',small=small,scale=scale,target=target,criterion=criterion)
+        if criterion=='given':
+            problem=f'△ABC ∼ △DEF in the stated order. AB = {small} cm, DE = {small*scale} cm and BC = {small+2} cm. Find EF.'
+            acts=[f'Pair AB with DE and BC with EF in △ABC ∼ △DEF.',f'The scale factor from ABC to DEF is DE ÷ AB = {small*scale} ÷ {small} = {scale}.',f'Write EF ÷ BC = {scale}, so EF = {scale} × {small+2}.',f'Calculate EF = {target} cm.',f'Check: EF ÷ BC = {target} ÷ {small+2} = {scale}.']
+            result=f'EF = {target} cm';wrong=[f'EF = {target+d} cm' for d in (scale,2*scale,-scale)]
+        elif criterion=='AA':
+            problem=f'∠A = ∠D and ∠B = ∠E are marked equal. AB = {small} cm, DE = {small*scale} cm and BC = {small+2} cm. Show the similarity condition and find EF.'
+            acts=['Locate the two corresponding equal angle pairs A↔D and B↔E.', 'Two equal angle pairs establish △ABC ∼ △DEF by AA.',f'Pair AB with DE: scale factor = {small*scale} ÷ {small} = {scale}.',f'EF corresponds to BC, so EF = {scale} × {small+2} = {target} cm.',f'Check: EF ÷ BC = {target} ÷ {small+2} = {scale}, and the two angle pairs match.']
+            result=f'EF = {target} cm';wrong=[f'EF = {target+d} cm' for d in (scale,2*scale,-scale)]
+        elif criterion=='SAS':
+            problem=f'AB = {small} cm, AC = {small+1} cm, DE = {small*scale} cm and DF = {(small+1)*scale} cm. Included angles ∠A and ∠D are marked equal. If BC = {small+2} cm, find EF.'
+            acts=[f'AB:DE = {small}:{small*scale} and AC:DF = {small+1}:{(small+1)*scale}; the two ratios match.', 'The included angles ∠A = ∠D are marked equal.', 'Proportional adjacent sides and their included angle establish SAS similarity.',f'Scale factor = {scale}; EF corresponds to BC, so EF = {scale} × {small+2} = {target} cm.',f'Check: AB:DE = AC:DF = BC:EF = 1:{scale}.']
+            result=f'EF = {target} cm';wrong=[f'EF = {target+d} cm' for d in (scale,2*scale,-scale)]
+        else:
+            problem=f'AB = {small}, AC = {small+1}, BC = {small+2} cm; DE = {small*scale}, DF = {(small+1)*scale}, EF = {target} cm. Give the condition proving △ABC ∼ △DEF.'
+            acts=[f'Pair AB:DE = {small}:{small*scale} = 1:{scale}.',f'Pair AC:DF = {small+1}:{(small+1)*scale} = 1:{scale}.',f'Pair BC:EF = {small+2}:{target} = 1:{scale}.','All three corresponding side pairs are in the same ratio; △ABC ∼ △DEF by SSS similarity.',f'Check: every large side is {scale} times its corresponding small side.']
+            result='△ABC ∼ △DEF (SSS similarity)';wrong=['△ABC ≅ △DEF (SSS congruence)','△ABC ∼ △DEF (AA)','insufficient evidence']
     elif n==7:
         given=30+seed%61*2;target=(180-given)//2
         v.update(model='isosceles',apex=given,target=target)
