@@ -37,6 +37,7 @@ ASSESSMENT_BANKS={
     **{f"g9-straight-lines-{number:02}":grade9_whole.LINE_BANKS[number][1:] for number in range(1,6)},
     **{f"g9-shapes-{number:02}":grade9_whole.SHAPE_BANKS[number][1:] for number in range(1,9)},
     **{f"g9-area-{number:02}":grade9_whole.AREA_BANKS[number][1:] for number in range(1,6)},
+    **{f"g9-data-{number:02}":grade9_whole.DATA_BANKS[number][1:] for number in range(1,9)},
     **{f"g8-pythagoras-{n:02}": assessment_pythagoras.banks(n)[1:] for n in range(1,6)},
     **{f"g8-shapes-{n:02}": assessment_shapes.banks(n)[1:] for n in range(1,6)},
     **{f"g8-straight-lines-{n:02}": assessment_straight_lines.banks(n)[1:] for n in (1,2)},
@@ -123,7 +124,6 @@ def get_functions_topic_diagnostic():
     return {"topic_id": "functions-relationships", "questions": topic3_items(),
             "note": "This short check recommends where to revise; it does not replace lesson mastery."}
 
-
 class TopicDiagnosticSubmission(BaseModel):
     answers: dict[str,str] = Field(min_length=18,max_length=18)
 
@@ -134,10 +134,8 @@ def submit_functions_topic_diagnostic(payload: TopicDiagnosticSubmission):
     except ValueError as error:
         raise HTTPException(422, str(error)) from error
 
-
 class Grade8TopicCheckSubmission(BaseModel):
     answers: dict[str,str]
-
 
 def _grade8_topic_check(topic_id: str):
     topic=curriculum_repository.get_topic("grade-8",topic_id)
@@ -149,13 +147,11 @@ def _grade8_topic_check(topic_id: str):
     # fresh parallel reassessment or a replacement for each lesson's mastery.
     return [(lesson,list(ASSESSMENT_BANKS[lesson.id][0][:2])) for lesson in lessons]
 
-
 @router.get("/topics/grade-8/{topic_id}/diagnostic")
 def get_grade8_topic_check(topic_id: str):
     groups=_grade8_topic_check(topic_id)
     return {"topic_id":topic_id,"questions":[item.public() for _,bank in groups for item in bank],
             "note":"Revision check using existing lesson questions. Complete each lesson mastery assessment separately."}
-
 
 @router.post("/topics/grade-8/{topic_id}/diagnostic")
 def submit_grade8_topic_check(topic_id: str,payload: Grade8TopicCheckSubmission):
@@ -225,10 +221,8 @@ def get_solution(lesson_id:str,session_id:str,question_id:str,user:User|None=Dep
 def get_summary(lesson_id:str,session_id:str,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):
     return mastery_summary(session_or_404(lesson_id,session_id,db,user).responses or {},bank_or_404(lesson_id),.8)
 
-
 def _normalise_assessment(value: str) -> str:
     return "".join(str(value).casefold().replace("−", "-").replace("–", "-").split())
-
 
 def _score_assessment(bank, answers: dict[str, str]) -> tuple[int, list, list[str]]:
     expected={item.id for item in bank}
@@ -246,12 +240,10 @@ def _score_assessment(bank, answers: dict[str, str]) -> tuple[int, list, list[st
         reviewed.append({"id":item.id,"correct":passed,"answer":item.answer,"solution":item.solution,"verification":item.verification})
     return correct,reviewed,list(dict.fromkeys(tags))
 
-
 @router.get("/{lesson_id}/mastery")
 def get_mastery(lesson_id:str):
     mastery,_,_,_=assessment_or_404(lesson_id)
     return {"lesson_id":lesson_id,"mastery_threshold":.8,"questions":[item.public() for item in mastery]}
-
 
 @router.post("/{lesson_id}/sessions/{session_id}/mastery")
 def submit_mastery(lesson_id:str,session_id:str,payload:AssessmentSubmission,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):
@@ -265,7 +257,6 @@ def submit_mastery(lesson_id:str,session_id:str,payload:AssessmentSubmission,use
     score=(earned_marks * 5 if lesson_id.startswith('g8-algebraic-expressions-') else correct*20)
     return {"questions_correct":correct,"total_questions":5,"score":score,"mastered":mastered,"readiness_decision":decision,"context_verified":context_verified,"diagnosis":tags,"worked_review":reviewed,"repair_routes":[] if mastered else [{"tag":tag,**repairs[tag]} for tag in tags if tag in repairs]}
 
-
 @router.get("/{lesson_id}/sessions/{session_id}/repair")
 def get_repair(lesson_id:str,session_id:str,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):
     _,_,repairs,rules=assessment_or_404(lesson_id)
@@ -273,7 +264,6 @@ def get_repair(lesson_id:str,session_id:str,user:User|None=Depends(get_optional_
     if not mastery or mastery.get("mastered"):raise HTTPException(409,"Targeted repair is not required")
     tags=mastery.get("tags",[])
     return {"diagnosis":tags,"routes":[{"tag":tag,**repairs[tag]} for tag in tags if tag in repairs],"source_rules":rules}
-
 
 @router.post("/{lesson_id}/sessions/{session_id}/repair/complete")
 def complete_repair(lesson_id:str,session_id:str,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):
@@ -283,14 +273,12 @@ def complete_repair(lesson_id:str,session_id:str,user:User|None=Depends(get_opti
         raise HTTPException(409,"Review prerequisites and use a fresh diagnostic form")
     updated=dict(session.responses or {});updated["__repair__"]={"complete":True,"tags":mastery.get("tags",[])};session.responses=updated;db.add(session);db.commit();return {"repair_complete":True,"reassessment_unlocked":True}
 
-
 @router.get("/{lesson_id}/sessions/{session_id}/reassessment")
 def get_reassessment(lesson_id:str,session_id:str,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):
     _,reassessment,_,_=assessment_or_404(lesson_id)
     session=session_or_404(lesson_id,session_id,db,user)
     if not (session.responses or {}).get("__repair__",{}).get("complete"):raise HTTPException(409,"Complete targeted repair first")
     return {"lesson_id":lesson_id,"questions":[item.public() for item in reassessment]}
-
 
 @router.post("/{lesson_id}/sessions/{session_id}/reassessment")
 def submit_reassessment(lesson_id:str,session_id:str,payload:AssessmentSubmission,user:User|None=Depends(get_optional_user),db:Session=Depends(get_db)):

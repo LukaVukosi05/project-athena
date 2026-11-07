@@ -1,0 +1,297 @@
+# Grade 9 Topic 12 · Lesson 3: Frequency tables and grouped data
+
+Authority: [DBE 2026 Grade 9 Mathematics ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2026%20ATPs/2026_ATP_Mathematics_Grade%209.pdf), Term 3. Original Athena questions.
+
+Status: teacher and browser review required. Keep the dataset visible; reveal each count, calculation and inference in order.
+
+## g9-data-l03-w01: A class records reading scores: score 1 occurs 4 times, score 2 occurs 7 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [4, 7, 3], "total": 14, "mode": "2"}}
+
+1. Enter score 1 with a tally of 4.
+
+2. Enter score 2 with 7 and score 3 with 3 tallies.
+
+3. Total frequency = 4 + 7 + 3 = 14.
+
+4. Score 2 has the largest frequency, 7; the mode is 2.
+
+5. Check: all category counts add to 14, and 7 is greater than both 4 and 3.
+
+**Answer:** total = 14; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w02: A class records reading scores: score 1 occurs 5 times, score 2 occurs 8 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [5, 8, 4], "total": 17, "mode": "2"}}
+
+1. Enter score 1 with a tally of 5.
+
+2. Enter score 2 with 8 and score 3 with 4 tallies.
+
+3. Total frequency = 5 + 8 + 4 = 17.
+
+4. Score 2 has the largest frequency, 8; the mode is 2.
+
+5. Check: all category counts add to 17, and 8 is greater than both 5 and 4.
+
+**Answer:** total = 17; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w03: A class records reading scores: score 1 occurs 6 times, score 2 occurs 9 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [6, 9, 2], "total": 17, "mode": "2"}}
+
+1. Enter score 1 with a tally of 6.
+
+2. Enter score 2 with 9 and score 3 with 2 tallies.
+
+3. Total frequency = 6 + 9 + 2 = 17.
+
+4. Score 2 has the largest frequency, 9; the mode is 2.
+
+5. Check: all category counts add to 17, and 9 is greater than both 6 and 2.
+
+**Answer:** total = 17; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w04: A class records reading scores: score 1 occurs 7 times, score 2 occurs 10 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [7, 10, 3], "total": 20, "mode": "2"}}
+
+1. Enter score 1 with a tally of 7.
+
+2. Enter score 2 with 10 and score 3 with 3 tallies.
+
+3. Total frequency = 7 + 10 + 3 = 20.
+
+4. Score 2 has the largest frequency, 10; the mode is 2.
+
+5. Check: all category counts add to 20, and 10 is greater than both 7 and 3.
+
+**Answer:** total = 20; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w05: A class records reading scores: score 1 occurs 8 times, score 2 occurs 11 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [8, 11, 4], "total": 23, "mode": "2"}}
+
+1. Enter score 1 with a tally of 8.
+
+2. Enter score 2 with 11 and score 3 with 4 tallies.
+
+3. Total frequency = 8 + 11 + 4 = 23.
+
+4. Score 2 has the largest frequency, 11; the mode is 2.
+
+5. Check: all category counts add to 23, and 11 is greater than both 8 and 4.
+
+**Answer:** total = 23; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w06: A class records reading scores: score 1 occurs 9 times, score 2 occurs 12 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [9, 12, 2], "total": 23, "mode": "2"}}
+
+1. Enter score 1 with a tally of 9.
+
+2. Enter score 2 with 12 and score 3 with 2 tallies.
+
+3. Total frequency = 9 + 12 + 2 = 23.
+
+4. Score 2 has the largest frequency, 12; the mode is 2.
+
+5. Check: all category counts add to 23, and 12 is greater than both 9 and 2.
+
+**Answer:** total = 23; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w07: A class records reading scores: score 1 occurs 10 times, score 2 occurs 13 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [10, 13, 3], "total": 26, "mode": "2"}}
+
+1. Enter score 1 with a tally of 10.
+
+2. Enter score 2 with 13 and score 3 with 3 tallies.
+
+3. Total frequency = 10 + 13 + 3 = 26.
+
+4. Score 2 has the largest frequency, 13; the mode is 2.
+
+5. Check: all category counts add to 26, and 13 is greater than both 10 and 3.
+
+**Answer:** total = 26; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w08: A class records reading scores: score 1 occurs 11 times, score 2 occurs 14 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [11, 14, 4], "total": 29, "mode": "2"}}
+
+1. Enter score 1 with a tally of 11.
+
+2. Enter score 2 with 14 and score 3 with 4 tallies.
+
+3. Total frequency = 11 + 14 + 4 = 29.
+
+4. Score 2 has the largest frequency, 14; the mode is 2.
+
+5. Check: all category counts add to 29, and 14 is greater than both 11 and 4.
+
+**Answer:** total = 29; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w09: A class records reading scores: score 1 occurs 12 times, score 2 occurs 15 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [12, 15, 2], "total": 29, "mode": "2"}}
+
+1. Enter score 1 with a tally of 12.
+
+2. Enter score 2 with 15 and score 3 with 2 tallies.
+
+3. Total frequency = 12 + 15 + 2 = 29.
+
+4. Score 2 has the largest frequency, 15; the mode is 2.
+
+5. Check: all category counts add to 29, and 15 is greater than both 12 and 2.
+
+**Answer:** total = 29; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w10: A class records reading scores: score 1 occurs 13 times, score 2 occurs 16 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [13, 16, 3], "total": 32, "mode": "2"}}
+
+1. Enter score 1 with a tally of 13.
+
+2. Enter score 2 with 16 and score 3 with 3 tallies.
+
+3. Total frequency = 13 + 16 + 3 = 32.
+
+4. Score 2 has the largest frequency, 16; the mode is 2.
+
+5. Check: all category counts add to 32, and 16 is greater than both 13 and 3.
+
+**Answer:** total = 32; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w11: A class records reading scores: score 1 occurs 14 times, score 2 occurs 17 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [14, 17, 4], "total": 35, "mode": "2"}}
+
+1. Enter score 1 with a tally of 14.
+
+2. Enter score 2 with 17 and score 3 with 4 tallies.
+
+3. Total frequency = 14 + 17 + 4 = 35.
+
+4. Score 2 has the largest frequency, 17; the mode is 2.
+
+5. Check: all category counts add to 35, and 17 is greater than both 14 and 4.
+
+**Answer:** total = 35; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w12: A class records reading scores: score 1 occurs 15 times, score 2 occurs 18 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [15, 18, 2], "total": 35, "mode": "2"}}
+
+1. Enter score 1 with a tally of 15.
+
+2. Enter score 2 with 18 and score 3 with 2 tallies.
+
+3. Total frequency = 15 + 18 + 2 = 35.
+
+4. Score 2 has the largest frequency, 18; the mode is 2.
+
+5. Check: all category counts add to 35, and 18 is greater than both 15 and 2.
+
+**Answer:** total = 35; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w13: A class records reading scores: score 1 occurs 16 times, score 2 occurs 19 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [16, 19, 3], "total": 38, "mode": "2"}}
+
+1. Enter score 1 with a tally of 16.
+
+2. Enter score 2 with 19 and score 3 with 3 tallies.
+
+3. Total frequency = 16 + 19 + 3 = 38.
+
+4. Score 2 has the largest frequency, 19; the mode is 2.
+
+5. Check: all category counts add to 38, and 19 is greater than both 16 and 3.
+
+**Answer:** total = 38; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w14: A class records reading scores: score 1 occurs 17 times, score 2 occurs 20 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [17, 20, 4], "total": 41, "mode": "2"}}
+
+1. Enter score 1 with a tally of 17.
+
+2. Enter score 2 with 20 and score 3 with 4 tallies.
+
+3. Total frequency = 17 + 20 + 4 = 41.
+
+4. Score 2 has the largest frequency, 20; the mode is 2.
+
+5. Check: all category counts add to 41, and 20 is greater than both 17 and 4.
+
+**Answer:** total = 41; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l03-w15: A class records reading scores: score 1 occurs 18 times, score 2 occurs 21 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score.
+
+Visual: {"family": "data", "values": {"lesson": 3, "model": "frequency", "categories": ["1", "2", "3"], "counts": [18, 21, 2], "total": 41, "mode": "2"}}
+
+1. Enter score 1 with a tally of 18.
+
+2. Enter score 2 with 21 and score 3 with 2 tallies.
+
+3. Total frequency = 18 + 21 + 2 = 41.
+
+4. Score 2 has the largest frequency, 21; the mode is 2.
+
+5. Check: all category counts add to 41, and 21 is greater than both 18 and 2.
+
+**Answer:** total = 41; mode = 2. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## Practice answer key
+
+- g9-data-l03-p01: A class records reading scores: score 1 occurs 19 times, score 2 occurs 22 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score. Options: total = 43; mode = 2 | total = 44; mode = 2 | total = 45; mode = 2 | total = 46; mode = 2. Correct: total = 44; mode = 2. Enter score 1 with a tally of 19. Enter score 2 with 22 and score 3 with 3 tallies. Total frequency = 19 + 22 + 3 = 44. Score 2 has the largest frequency, 22; the mode is 2. Check: all category counts add to 44, and 22 is greater than both 19 and 3.
+
+- g9-data-l03-p02: A class records reading scores: score 1 occurs 20 times, score 2 occurs 23 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score. Options: total = 49; mode = 2 | total = 46; mode = 2 | total = 47; mode = 2 | total = 48; mode = 2. Correct: total = 47; mode = 2. Enter score 1 with a tally of 20. Enter score 2 with 23 and score 3 with 4 tallies. Total frequency = 20 + 23 + 4 = 47. Score 2 has the largest frequency, 23; the mode is 2. Check: all category counts add to 47, and 23 is greater than both 20 and 4.
+
+- g9-data-l03-p03: A class records reading scores: score 1 occurs 21 times, score 2 occurs 24 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score. Options: total = 48; mode = 2 | total = 49; mode = 2 | total = 46; mode = 2 | total = 47; mode = 2. Correct: total = 47; mode = 2. Enter score 1 with a tally of 21. Enter score 2 with 24 and score 3 with 2 tallies. Total frequency = 21 + 24 + 2 = 47. Score 2 has the largest frequency, 24; the mode is 2. Check: all category counts add to 47, and 24 is greater than both 21 and 2.
+
+- g9-data-l03-p04: A class records reading scores: score 1 occurs 22 times, score 2 occurs 25 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score. Options: total = 50; mode = 2 | total = 51; mode = 2 | total = 52; mode = 2 | total = 49; mode = 2. Correct: total = 50; mode = 2. Enter score 1 with a tally of 22. Enter score 2 with 25 and score 3 with 3 tallies. Total frequency = 22 + 25 + 3 = 50. Score 2 has the largest frequency, 25; the mode is 2. Check: all category counts add to 50, and 25 is greater than both 22 and 3.
+
+- g9-data-l03-p05: A class records reading scores: score 1 occurs 23 times, score 2 occurs 26 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score. Options: total = 52; mode = 2 | total = 53; mode = 2 | total = 54; mode = 2 | total = 55; mode = 2. Correct: total = 53; mode = 2. Enter score 1 with a tally of 23. Enter score 2 with 26 and score 3 with 4 tallies. Total frequency = 23 + 26 + 4 = 53. Score 2 has the largest frequency, 26; the mode is 2. Check: all category counts add to 53, and 26 is greater than both 23 and 4.
+
+- g9-data-l03-p06: A class records reading scores: score 1 occurs 24 times, score 2 occurs 27 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score. Options: total = 55; mode = 2 | total = 52; mode = 2 | total = 53; mode = 2 | total = 54; mode = 2. Correct: total = 53; mode = 2. Enter score 1 with a tally of 24. Enter score 2 with 27 and score 3 with 2 tallies. Total frequency = 24 + 27 + 2 = 53. Score 2 has the largest frequency, 27; the mode is 2. Check: all category counts add to 53, and 27 is greater than both 24 and 2.
+
+- g9-data-l03-p07: A class records reading scores: score 1 occurs 25 times, score 2 occurs 28 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score. Options: total = 57; mode = 2 | total = 58; mode = 2 | total = 55; mode = 2 | total = 56; mode = 2. Correct: total = 56; mode = 2. Enter score 1 with a tally of 25. Enter score 2 with 28 and score 3 with 3 tallies. Total frequency = 25 + 28 + 3 = 56. Score 2 has the largest frequency, 28; the mode is 2. Check: all category counts add to 56, and 28 is greater than both 25 and 3.
+
+- g9-data-l03-p08: A class records reading scores: score 1 occurs 26 times, score 2 occurs 29 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score. Options: total = 59; mode = 2 | total = 60; mode = 2 | total = 61; mode = 2 | total = 58; mode = 2. Correct: total = 59; mode = 2. Enter score 1 with a tally of 26. Enter score 2 with 29 and score 3 with 4 tallies. Total frequency = 26 + 29 + 4 = 59. Score 2 has the largest frequency, 29; the mode is 2. Check: all category counts add to 59, and 29 is greater than both 26 and 4.
+
+- g9-data-l03-p09: A class records reading scores: score 1 occurs 27 times, score 2 occurs 30 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score. Options: total = 58; mode = 2 | total = 59; mode = 2 | total = 60; mode = 2 | total = 61; mode = 2. Correct: total = 59; mode = 2. Enter score 1 with a tally of 27. Enter score 2 with 30 and score 3 with 2 tallies. Total frequency = 27 + 30 + 2 = 59. Score 2 has the largest frequency, 30; the mode is 2. Check: all category counts add to 59, and 30 is greater than both 27 and 2.
+
+- g9-data-l03-p10: A class records reading scores: score 1 occurs 28 times, score 2 occurs 31 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score. Options: total = 64; mode = 2 | total = 61; mode = 2 | total = 62; mode = 2 | total = 63; mode = 2. Correct: total = 62; mode = 2. Enter score 1 with a tally of 28. Enter score 2 with 31 and score 3 with 3 tallies. Total frequency = 28 + 31 + 3 = 62. Score 2 has the largest frequency, 31; the mode is 2. Check: all category counts add to 62, and 31 is greater than both 28 and 3.
+
+- g9-data-l03-p11: A class records reading scores: score 1 occurs 29 times, score 2 occurs 32 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score. Options: total = 66; mode = 2 | total = 67; mode = 2 | total = 64; mode = 2 | total = 65; mode = 2. Correct: total = 65; mode = 2. Enter score 1 with a tally of 29. Enter score 2 with 32 and score 3 with 4 tallies. Total frequency = 29 + 32 + 4 = 65. Score 2 has the largest frequency, 32; the mode is 2. Check: all category counts add to 65, and 32 is greater than both 29 and 4.
+
+- g9-data-l03-p12: A class records reading scores: score 1 occurs 30 times, score 2 occurs 33 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score. Options: total = 65; mode = 2 | total = 66; mode = 2 | total = 67; mode = 2 | total = 64; mode = 2. Correct: total = 65; mode = 2. Enter score 1 with a tally of 30. Enter score 2 with 33 and score 3 with 2 tallies. Total frequency = 30 + 33 + 2 = 65. Score 2 has the largest frequency, 33; the mode is 2. Check: all category counts add to 65, and 33 is greater than both 30 and 2.
+
+- g9-data-l03-p13: A class records reading scores: score 1 occurs 31 times, score 2 occurs 34 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score. Options: total = 67; mode = 2 | total = 68; mode = 2 | total = 69; mode = 2 | total = 70; mode = 2. Correct: total = 68; mode = 2. Enter score 1 with a tally of 31. Enter score 2 with 34 and score 3 with 3 tallies. Total frequency = 31 + 34 + 3 = 68. Score 2 has the largest frequency, 34; the mode is 2. Check: all category counts add to 68, and 34 is greater than both 31 and 3.
+
+- g9-data-l03-p14: A class records reading scores: score 1 occurs 32 times, score 2 occurs 35 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score. Options: total = 73; mode = 2 | total = 70; mode = 2 | total = 71; mode = 2 | total = 72; mode = 2. Correct: total = 71; mode = 2. Enter score 1 with a tally of 32. Enter score 2 with 35 and score 3 with 4 tallies. Total frequency = 32 + 35 + 4 = 71. Score 2 has the largest frequency, 35; the mode is 2. Check: all category counts add to 71, and 35 is greater than both 32 and 4.
+
+- g9-data-l03-p15: A class records reading scores: score 1 occurs 33 times, score 2 occurs 36 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score. Options: total = 72; mode = 2 | total = 73; mode = 2 | total = 70; mode = 2 | total = 71; mode = 2. Correct: total = 71; mode = 2. Enter score 1 with a tally of 33. Enter score 2 with 36 and score 3 with 2 tallies. Total frequency = 33 + 36 + 2 = 71. Score 2 has the largest frequency, 36; the mode is 2. Check: all category counts add to 71, and 36 is greater than both 33 and 2.
+
+## Mastery answer key
+
+- g9-data-l03-m16: A class records reading scores: score 1 occurs 35 times, score 2 occurs 38 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score. Options: total = 77; mode = 2 | total = 78; mode = 2 | total = 79; mode = 2 | total = 76; mode = 2. Correct: total = 77; mode = 2. Enter score 1 with a tally of 35. Enter score 2 with 38 and score 3 with 4 tallies. Total frequency = 35 + 38 + 4 = 77. Score 2 has the largest frequency, 38; the mode is 2. Check: all category counts add to 77, and 38 is greater than both 35 and 4.
+
+- g9-data-l03-m17: A class records reading scores: score 1 occurs 36 times, score 2 occurs 39 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score. Options: total = 76; mode = 2 | total = 77; mode = 2 | total = 78; mode = 2 | total = 79; mode = 2. Correct: total = 77; mode = 2. Enter score 1 with a tally of 36. Enter score 2 with 39 and score 3 with 2 tallies. Total frequency = 36 + 39 + 2 = 77. Score 2 has the largest frequency, 39; the mode is 2. Check: all category counts add to 77, and 39 is greater than both 36 and 2.
+
+- g9-data-l03-m18: A class records reading scores: score 1 occurs 37 times, score 2 occurs 40 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score. Options: total = 82; mode = 2 | total = 79; mode = 2 | total = 80; mode = 2 | total = 81; mode = 2. Correct: total = 80; mode = 2. Enter score 1 with a tally of 37. Enter score 2 with 40 and score 3 with 3 tallies. Total frequency = 37 + 40 + 3 = 80. Score 2 has the largest frequency, 40; the mode is 2. Check: all category counts add to 80, and 40 is greater than both 37 and 3.
+
+- g9-data-l03-m19: A class records reading scores: score 1 occurs 38 times, score 2 occurs 41 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score. Options: total = 84; mode = 2 | total = 85; mode = 2 | total = 82; mode = 2 | total = 83; mode = 2. Correct: total = 83; mode = 2. Enter score 1 with a tally of 38. Enter score 2 with 41 and score 3 with 4 tallies. Total frequency = 38 + 41 + 4 = 83. Score 2 has the largest frequency, 41; the mode is 2. Check: all category counts add to 83, and 41 is greater than both 38 and 4.
+
+- g9-data-l03-m20: A class records reading scores: score 1 occurs 39 times, score 2 occurs 42 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score. Options: total = 83; mode = 2 | total = 84; mode = 2 | total = 85; mode = 2 | total = 82; mode = 2. Correct: total = 83; mode = 2. Enter score 1 with a tally of 39. Enter score 2 with 42 and score 3 with 2 tallies. Total frequency = 39 + 42 + 2 = 83. Score 2 has the largest frequency, 42; the mode is 2. Check: all category counts add to 83, and 42 is greater than both 39 and 2.
+
+## Changed-value reassessment answer key
+
+- g9-data-l03-r19: A class records reading scores: score 1 occurs 41 times, score 2 occurs 44 times, score 3 occurs 4 times. Complete the frequency total and identify the modal score. Options: total = 90; mode = 2 | total = 91; mode = 2 | total = 88; mode = 2 | total = 89; mode = 2. Correct: total = 89; mode = 2. Enter score 1 with a tally of 41. Enter score 2 with 44 and score 3 with 4 tallies. Total frequency = 41 + 44 + 4 = 89. Score 2 has the largest frequency, 44; the mode is 2. Check: all category counts add to 89, and 44 is greater than both 41 and 4.
+
+- g9-data-l03-r20: A class records reading scores: score 1 occurs 42 times, score 2 occurs 45 times, score 3 occurs 2 times. Complete the frequency total and identify the modal score. Options: total = 89; mode = 2 | total = 90; mode = 2 | total = 91; mode = 2 | total = 88; mode = 2. Correct: total = 89; mode = 2. Enter score 1 with a tally of 42. Enter score 2 with 45 and score 3 with 2 tallies. Total frequency = 42 + 45 + 2 = 89. Score 2 has the largest frequency, 45; the mode is 2. Check: all category counts add to 89, and 45 is greater than both 42 and 2.
+
+- g9-data-l03-r21: A class records reading scores: score 1 occurs 43 times, score 2 occurs 46 times, score 3 occurs 3 times. Complete the frequency total and identify the modal score. Options: total = 91; mode = 2 | total = 92; mode = 2 | total = 93; mode = 2 | total = 94; mode = 2. Correct: total = 92; mode = 2. Enter score 1 with a tally of 43. Enter score 2 with 46 and score 3 with 3 tallies. Total frequency = 43 + 46 + 3 = 92. Score 2 has the largest frequency, 46; the mode is 2. Check: all category counts add to 92, and 46 is greater than both 43 and 3.

@@ -6,7 +6,6 @@ from app.whiteboard.linear_equations import verify_equivalent_transition, verify
 
 StepValidator = Callable[[TeachingStep], bool]
 
-
 class AnimationRegistry:
     def __init__(self):
         self._operations: dict[str, tuple[str, StepValidator]] = {}
@@ -26,7 +25,6 @@ class AnimationRegistry:
                 raise ValueError(f"Template mismatch for {step.operation.type}")
             if not validator(step):
                 raise ValueError(f"Invalid transition at step {step.step_number}")
-
 
 registry = AnimationRegistry()
 registry.register("identify_objective", "identify_unknown", lambda step: step.before_expression == step.after_expression)
@@ -126,6 +124,9 @@ for _grade9_function_number in range(1,6):
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 for _grade9_expression_number in range(1,10):
     registry.register(f"grade9_expression_{_grade9_expression_number}_step", f"grade9_expression_{_grade9_expression_number}",
+        lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+for _grade9_data_number in range(1,9):
+    registry.register(f'grade9_data_{_grade9_data_number}_step', f'grade9_data_{_grade9_data_number}',
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 for _grade9_area_number in range(1,6):
     registry.register(f'grade9_area_{_grade9_area_number}_step', f'grade9_area_{_grade9_area_number}',

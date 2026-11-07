@@ -24,7 +24,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -637,6 +637,67 @@ def _grade9_whole_board(parameters: dict, family: str) -> None:
         or scene.get('actions') is None or len(scene['actions'])!=parameters['total_steps']
         or not 3<=parameters['total_steps']<=18):
         raise ValueError('Grade 9 source scene, question and step count disagree')
+    if family.startswith('data_'):
+        from fractions import Fraction
+        n=int(family.rsplit('_',1)[-1]);v=scene.get('visual',{}).get('values',{})
+        if (scene.get('lesson')!=n or scene.get('visual',{}).get('family')!='data'
+            or v.get('lesson')!=n or len(scene['actions'])!=5
+            or scene['actions'][-1]!=scene.get('check')):
+            raise ValueError('Data scene, source and stages disagree')
+        def positive(key):
+            value=v.get(key)
+            if type(value) is not int or not 0<value<10000:raise ValueError(f'Invalid data {key}')
+            return value
+        if n==1:
+            a,b=positive('population'),positive('sample')
+            expected=f'population = {a}; sample = {b}'
+            valid=v.get('model')=='survey' and b<a and str(a) in scene['problem'] and str(b) in scene['problem']
+        elif n==2:
+            a,b=positive('young'),positive('old')
+            expected='source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased'
+            valid=(v.get('model')=='stratified' and a==3*b and v.get('young_pick')==9 and v.get('old_pick')==3
+                and v.get('convenience_young')==12 and v.get('convenience_old')==0
+                and str(a) in scene['problem'] and str(b) in scene['problem'])
+        elif n in (3,6):
+            counts=v.get('counts');expected=f'total = {sum(counts)}; '+('mode = 2' if n==3 else 'modal interval = 10–19 min') if isinstance(counts,list) and all(type(x) is int for x in counts) else ''
+            valid=(len(counts)==3 and all(0<x<1000 for x in counts) and counts[1]>max(counts[0],counts[2])
+                and v.get('total')==sum(counts) and v.get('model')==('frequency' if n==3 else 'histogram')
+                and v.get('categories' if n==3 else 'intervals')==(['1','2','3'] if n==3 else ['0–9','10–19','20–29'])
+                and v.get('mode' if n==3 else 'modal_interval')==('2' if n==3 else '10–19')) if isinstance(counts,list) else False
+        elif n==4:
+            values=v.get('values');valid=isinstance(values,list) and len(values)==7 and all(type(x) is int and 0<x<10000 for x in values) and values==sorted(values)
+            if valid:
+                total=sum(values);mean=total/7;span=values[-1]-values[0]
+                expected=f'mean ≈ {mean:.2f}; median = {values[3]}; range = {span}; possible outlier = {values[-1]}'
+                valid=(v.get('model')=='dotplot' and v.get('total')==total and v.get('median')==values[3]
+                    and v.get('mean_rounded')==f'{mean:.2f}' and v.get('range')==span and v.get('outlier')==values[-1]
+                    and all(str(x) in scene['problem'] for x in values))
+            else:expected=''
+        elif n==5:
+            a,b=v.get('series_a'),v.get('series_b');valid=(isinstance(a,list) and isinstance(b,list) and len(a)==len(b)==2
+                and all(type(x) is int and 0<x<10000 for x in a+b) and a[1]>a[0] and b[1]>b[0] and a[1]-a[0]>b[1]-b[0])
+            expected=f'A gains {(a[1]-a[0])-(b[1]-b[0])} more members' if valid else ''
+            valid=valid and v.get('model')=='double_bar' and v.get('gain_a')==a[1]-a[0] and v.get('gain_b')==b[1]-b[0] and all(str(x) in scene['problem'] for x in a+b)
+        elif n==7 and v.get('model')=='pie':
+            counts=v.get('counts');valid=isinstance(counts,list) and len(counts)==3 and all(type(x) is int and 0<x<10000 for x in counts)
+            if valid:
+                total=sum(counts);angle=Fraction(360*counts[0],total)
+                expected=f'total = {total}; walking angle = {angle}°'
+                valid=v.get('labels')==['walk','bus','car'] and v.get('total')==total and v.get('walk_angle_num')==angle.numerator and v.get('walk_angle_den')==angle.denominator and all(str(x) in scene['problem'] for x in counts)
+            else:expected=''
+        elif n==7 and v.get('model')=='scatter':
+            points=v.get('points');valid=isinstance(points,list) and len(points)==5 and all(isinstance(p,list) and len(p)==2 and all(type(x) is int for x in p) for p in points)
+            k=points[0][1]-2 if valid else 0
+            expected=f'positive association; predicted score at 6 h = {12+k}'
+            valid=valid and points==[[x,2*x+k] for x in range(1,6)] and v.get('prediction')==12+k
+        elif n==8:
+            a,b,baseline=positive('first'),positive('second'),positive('truncated_baseline')
+            expected=f'difference = 6; increase ≈ {600/a:.2f}%; truncated axis exaggerates change'
+            valid=(v.get('model')=='misleading_bar' and b==a+6 and baseline==a-5 and v.get('difference')==6
+                and v.get('percent')==f'{600/a:.2f}' and all(str(x) in scene['problem'] for x in (a,b,baseline)))
+        else:expected='';valid=False
+        if not valid or scene.get('answer')!=expected:raise ValueError('Data calculation, source or chart disagrees with question')
+        return
     if family.startswith('area_'):
         number=int(family.rsplit('_',1)[-1]);visual=scene.get('visual',{});v=visual.get('values',{})
         if (scene.get('lesson')!=number or visual.get('family')!='area' or v.get('lesson')!=number
@@ -1254,6 +1315,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'area_{n}'),True)
        for n in range(1,6)},
+    **{("statistics",f"grade9_data_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade9_whole_board(p,f'data_{n}'),True)
+       for n in range(1,9)},
     **{("geometry",f"grade9_shapes_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'shapes_{n}'),True)

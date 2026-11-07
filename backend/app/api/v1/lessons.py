@@ -168,6 +168,11 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     givens.pop("target", None)
                     givens.pop("each", None)
                     scene["visual"] = {"family":"shapes", "values":givens}
+                elif lesson.id.startswith("g9-data-"):
+                    givens = dict(scene["visual"]["values"])
+                    for result_key in ("young_pick", "old_pick", "total", "mode", "median", "mean_rounded", "range", "outlier", "gain_a", "gain_b", "modal_interval", "walk_angle_num", "walk_angle_den", "prediction", "difference", "percent"):
+                        givens.pop(result_key, None)
+                    scene["visual"] = {"family":"data", "values":givens}
                 elif lesson.id.startswith("g9-area-"):
                     givens = dict(scene["visual"]["values"])
                     for result_key in ("area", "perimeter", "diameter", "circumference_coefficient", "area_coefficient",

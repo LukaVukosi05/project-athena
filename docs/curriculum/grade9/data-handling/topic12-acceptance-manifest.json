@@ -1,0 +1,98 @@
+[
+  {
+    "lesson_id": "g9-data-01",
+    "source": "lesson-01.md",
+    "source_sha256": "824eb396c5b203ef03e9d6dce7b8f7d861e08c4bd34c8c7e285b2004b2e45ebf",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-data-02",
+    "source": "lesson-02.md",
+    "source_sha256": "750b95e1532e778990c91e25b0a49a05c95f7b2f31acfed3bbf6d00a505d1675",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-data-03",
+    "source": "lesson-03.md",
+    "source_sha256": "ff8df64ca74b20f67aca57b799dc37748248bf1c652523fe3c3660441b6b7985",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-data-04",
+    "source": "lesson-04.md",
+    "source_sha256": "edb32f2df980aa0d1f62e133dc7d73bab6fd849c88c1ea57e28734cd764664c8",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-data-05",
+    "source": "lesson-05.md",
+    "source_sha256": "45534c0d91c518958e1cf3de5a9526e48f7ca5570b8ac2eacffef8959034ce00",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-data-06",
+    "source": "lesson-06.md",
+    "source_sha256": "b8c6b7222625f6eec9e758f6e398403bf53301e8f04267e767e5066f4f1d4f9b",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-data-07",
+    "source": "lesson-07.md",
+    "source_sha256": "7d5774c72506a38b1bd973c9c2ab15b5c44ad8440de1bc0ae23a97dfa2d2ed71",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-data-08",
+    "source": "lesson-08.md",
+    "source_sha256": "4a26a94ca16023354d57bff0fe4eee9ee0ebccd579a32cc67f5500ea4f4887c1",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

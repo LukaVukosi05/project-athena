@@ -1,0 +1,297 @@
+# Grade 9 Topic 12 · Lesson 2: Collection, representation and bias
+
+Authority: [DBE 2026 Grade 9 Mathematics ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2026%20ATPs/2026_ATP_Mathematics_Grade%209.pdf), Term 3. Original Athena questions.
+
+Status: teacher and browser review required. Keep the dataset visible; reveal each count, calculation and inference in order.
+
+## g9-data-l02-w01: The school register lists 63 junior and 21 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 63, "old": 21, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 63 junior and 21 senior learners.
+
+2. The population ratio is 63:21 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 63:21; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w02: The school register lists 66 junior and 22 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 66, "old": 22, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 66 junior and 22 senior learners.
+
+2. The population ratio is 66:22 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 66:22; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w03: The school register lists 69 junior and 23 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 69, "old": 23, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 69 junior and 23 senior learners.
+
+2. The population ratio is 69:23 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 69:23; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w04: The school register lists 72 junior and 24 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 72, "old": 24, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 72 junior and 24 senior learners.
+
+2. The population ratio is 72:24 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 72:24; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w05: The school register lists 75 junior and 25 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 75, "old": 25, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 75 junior and 25 senior learners.
+
+2. The population ratio is 75:25 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 75:25; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w06: The school register lists 78 junior and 26 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 78, "old": 26, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 78 junior and 26 senior learners.
+
+2. The population ratio is 78:26 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 78:26; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w07: The school register lists 81 junior and 27 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 81, "old": 27, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 81 junior and 27 senior learners.
+
+2. The population ratio is 81:27 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 81:27; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w08: The school register lists 84 junior and 28 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 84, "old": 28, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 84 junior and 28 senior learners.
+
+2. The population ratio is 84:28 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 84:28; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w09: The school register lists 87 junior and 29 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 87, "old": 29, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 87 junior and 29 senior learners.
+
+2. The population ratio is 87:29 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 87:29; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w10: The school register lists 90 junior and 30 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 90, "old": 30, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 90 junior and 30 senior learners.
+
+2. The population ratio is 90:30 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 90:30; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w11: The school register lists 93 junior and 31 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 93, "old": 31, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 93 junior and 31 senior learners.
+
+2. The population ratio is 93:31 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 93:31; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w12: The school register lists 96 junior and 32 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 96, "old": 32, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 96 junior and 32 senior learners.
+
+2. The population ratio is 96:32 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 96:32; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w13: The school register lists 99 junior and 33 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 99, "old": 33, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 99 junior and 33 senior learners.
+
+2. The population ratio is 99:33 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 99:33; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w14: The school register lists 102 junior and 34 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 102, "old": 34, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 102 junior and 34 senior learners.
+
+2. The population ratio is 102:34 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 102:34; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## g9-data-l02-w15: The school register lists 105 junior and 35 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias.
+
+Visual: {"family": "data", "values": {"lesson": 2, "model": "stratified", "young": 105, "old": 35, "young_pick": 9, "old_pick": 3, "convenience_young": 12, "convenience_old": 0}}
+
+1. Use the school register as the source of group sizes: 105 junior and 35 senior learners.
+
+2. The population ratio is 105:35 = 3:1.
+
+3. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part.
+
+4. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors.
+
+5. Check: 9 + 3 = 12, and 9:3 = 105:35; the convenience sample is biased.
+
+**Answer:** source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. **Misconception:** Keep the source, count, denominator and axis scale tied to the original dataset.
+
+## Practice answer key
+
+- g9-data-l02-p01: The school register lists 108 junior and 36 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 108 junior and 36 senior learners. The population ratio is 108:36 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 108:36; the convenience sample is biased.
+
+- g9-data-l02-p02: The school register lists 111 junior and 37 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 111 junior and 37 senior learners. The population ratio is 111:37 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 111:37; the convenience sample is biased.
+
+- g9-data-l02-p03: The school register lists 114 junior and 38 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 114 junior and 38 senior learners. The population ratio is 114:38 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 114:38; the convenience sample is biased.
+
+- g9-data-l02-p04: The school register lists 117 junior and 39 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 117 junior and 39 senior learners. The population ratio is 117:39 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 117:39; the convenience sample is biased.
+
+- g9-data-l02-p05: The school register lists 120 junior and 40 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 120 junior and 40 senior learners. The population ratio is 120:40 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 120:40; the convenience sample is biased.
+
+- g9-data-l02-p06: The school register lists 123 junior and 41 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 123 junior and 41 senior learners. The population ratio is 123:41 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 123:41; the convenience sample is biased.
+
+- g9-data-l02-p07: The school register lists 126 junior and 42 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 126 junior and 42 senior learners. The population ratio is 126:42 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 126:42; the convenience sample is biased.
+
+- g9-data-l02-p08: The school register lists 129 junior and 43 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 129 junior and 43 senior learners. The population ratio is 129:43 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 129:43; the convenience sample is biased.
+
+- g9-data-l02-p09: The school register lists 132 junior and 44 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 132 junior and 44 senior learners. The population ratio is 132:44 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 132:44; the convenience sample is biased.
+
+- g9-data-l02-p10: The school register lists 135 junior and 45 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 135 junior and 45 senior learners. The population ratio is 135:45 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 135:45; the convenience sample is biased.
+
+- g9-data-l02-p11: The school register lists 138 junior and 46 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 138 junior and 46 senior learners. The population ratio is 138:46 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 138:46; the convenience sample is biased.
+
+- g9-data-l02-p12: The school register lists 141 junior and 47 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 141 junior and 47 senior learners. The population ratio is 141:47 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 141:47; the convenience sample is biased.
+
+- g9-data-l02-p13: The school register lists 144 junior and 48 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 144 junior and 48 senior learners. The population ratio is 144:48 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 144:48; the convenience sample is biased.
+
+- g9-data-l02-p14: The school register lists 147 junior and 49 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 147 junior and 49 senior learners. The population ratio is 147:49 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 147:49; the convenience sample is biased.
+
+- g9-data-l02-p15: The school register lists 150 junior and 50 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 150 junior and 50 senior learners. The population ratio is 150:50 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 150:50; the convenience sample is biased.
+
+## Mastery answer key
+
+- g9-data-l02-m16: The school register lists 156 junior and 52 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 156 junior and 52 senior learners. The population ratio is 156:52 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 156:52; the convenience sample is biased.
+
+- g9-data-l02-m17: The school register lists 159 junior and 53 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 159 junior and 53 senior learners. The population ratio is 159:53 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 159:53; the convenience sample is biased.
+
+- g9-data-l02-m18: The school register lists 162 junior and 54 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 162 junior and 54 senior learners. The population ratio is 162:54 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 162:54; the convenience sample is biased.
+
+- g9-data-l02-m19: The school register lists 165 junior and 55 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 165 junior and 55 senior learners. The population ratio is 165:55 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 165:55; the convenience sample is biased.
+
+- g9-data-l02-m20: The school register lists 168 junior and 56 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 168 junior and 56 senior learners. The population ratio is 168:56 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 168:56; the convenience sample is biased.
+
+## Changed-value reassessment answer key
+
+- g9-data-l02-r19: The school register lists 174 junior and 58 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 174 junior and 58 senior learners. The population ratio is 174:58 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 174:58; the convenience sample is biased.
+
+- g9-data-l02-r20: The school register lists 177 junior and 59 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased | source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 177 junior and 59 senior learners. The population ratio is 177:59 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 177:59; the convenience sample is biased.
+
+- g9-data-l02-r21: The school register lists 180 junior and 60 senior learners. Select 12 proportionally to survey travel. A volunteer only asks 12 juniors. Name a suitable source and collection method; give the fair group counts and the bias. Options: source: school register; convenience survey: 12 junior, 0 senior; volunteer sample unbiased | source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased | source: school register; stratified survey: 8 junior, 4 senior; volunteer sample biased | source: school register; stratified survey: 6 junior, 6 senior; volunteer sample biased. Correct: source: school register; stratified survey: 9 junior, 3 senior; volunteer sample biased. Use the school register as the source of group sizes: 180 junior and 60 senior learners. The population ratio is 180:60 = 3:1. Use a stratified survey: divide 12 places into four equal parts, 12 ÷ 4 = 3 per part. Allocate 9 junior and 3 senior places; taking 12 juniors and 0 seniors excludes seniors. Check: 9 + 3 = 12, and 9:3 = 180:60; the convenience sample is biased.

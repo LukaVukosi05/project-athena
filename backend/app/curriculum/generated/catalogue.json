@@ -1559,6 +1559,80 @@
               "source_document": "lesson-05.md"
             }
           ]
+        },
+        {
+          "topic_id": "data-handling",
+          "topic_number": 12,
+          "title": "Data Handling",
+          "paper": null,
+          "expected_lesson_count": 8,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-data-01",
+              "position": 1,
+              "title": "Investigation, population and sample",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g9-data-02",
+              "position": 2,
+              "title": "Collection, representation and bias",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g9-data-03",
+              "position": 3,
+              "title": "Frequency tables and grouped data",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g9-data-04",
+              "position": 4,
+              "title": "Centre, spread and outliers",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g9-data-05",
+              "position": 5,
+              "title": "Bar and broken-line comparisons",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05.md"
+            },
+            {
+              "lesson_id": "g9-data-06",
+              "position": 6,
+              "title": "Histograms and class intervals",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-06.md"
+            },
+            {
+              "lesson_id": "g9-data-07",
+              "position": 7,
+              "title": "Pie charts and scatter plots",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-07.md"
+            },
+            {
+              "lesson_id": "g9-data-08",
+              "position": 8,
+              "title": "Critical interpretation and written report",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-08.md"
+            }
+          ]
         }
       ]
     },

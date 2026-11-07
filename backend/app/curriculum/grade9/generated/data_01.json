@@ -1,0 +1,685 @@
+{
+  "source": "lesson-01.md",
+  "worked": [
+    {
+      "id": "g9-data-l01-w01",
+      "problem": "A school has 97 Grade 9 learners. A researcher asks 13 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 97 Grade 9 learners.",
+        "The population is everyone the research describes: 97 learners.",
+        "The sample is the smaller group actually asked: 13 learners.",
+        "The 13 replies must not be reported as 97 individual replies.",
+        "Check: 13 < 97; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 97; sample = 13",
+      "check": "Check: 13 < 97; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 97,
+          "sample": 13
+        }
+      },
+      "lesson": 1,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-data-l01-w02",
+      "problem": "A school has 104 Grade 9 learners. A researcher asks 14 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 104 Grade 9 learners.",
+        "The population is everyone the research describes: 104 learners.",
+        "The sample is the smaller group actually asked: 14 learners.",
+        "The 14 replies must not be reported as 104 individual replies.",
+        "Check: 14 < 104; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 104; sample = 14",
+      "check": "Check: 14 < 104; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 104,
+          "sample": 14
+        }
+      },
+      "lesson": 1,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-data-l01-w03",
+      "problem": "A school has 111 Grade 9 learners. A researcher asks 15 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 111 Grade 9 learners.",
+        "The population is everyone the research describes: 111 learners.",
+        "The sample is the smaller group actually asked: 15 learners.",
+        "The 15 replies must not be reported as 111 individual replies.",
+        "Check: 15 < 111; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 111; sample = 15",
+      "check": "Check: 15 < 111; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 111,
+          "sample": 15
+        }
+      },
+      "lesson": 1,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-data-l01-w04",
+      "problem": "A school has 118 Grade 9 learners. A researcher asks 16 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 118 Grade 9 learners.",
+        "The population is everyone the research describes: 118 learners.",
+        "The sample is the smaller group actually asked: 16 learners.",
+        "The 16 replies must not be reported as 118 individual replies.",
+        "Check: 16 < 118; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 118; sample = 16",
+      "check": "Check: 16 < 118; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 118,
+          "sample": 16
+        }
+      },
+      "lesson": 1,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-data-l01-w05",
+      "problem": "A school has 125 Grade 9 learners. A researcher asks 17 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 125 Grade 9 learners.",
+        "The population is everyone the research describes: 125 learners.",
+        "The sample is the smaller group actually asked: 17 learners.",
+        "The 17 replies must not be reported as 125 individual replies.",
+        "Check: 17 < 125; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 125; sample = 17",
+      "check": "Check: 17 < 125; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 125,
+          "sample": 17
+        }
+      },
+      "lesson": 1,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-data-l01-w06",
+      "problem": "A school has 132 Grade 9 learners. A researcher asks 18 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 132 Grade 9 learners.",
+        "The population is everyone the research describes: 132 learners.",
+        "The sample is the smaller group actually asked: 18 learners.",
+        "The 18 replies must not be reported as 132 individual replies.",
+        "Check: 18 < 132; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 132; sample = 18",
+      "check": "Check: 18 < 132; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 132,
+          "sample": 18
+        }
+      },
+      "lesson": 1,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-data-l01-w07",
+      "problem": "A school has 139 Grade 9 learners. A researcher asks 19 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 139 Grade 9 learners.",
+        "The population is everyone the research describes: 139 learners.",
+        "The sample is the smaller group actually asked: 19 learners.",
+        "The 19 replies must not be reported as 139 individual replies.",
+        "Check: 19 < 139; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 139; sample = 19",
+      "check": "Check: 19 < 139; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 139,
+          "sample": 19
+        }
+      },
+      "lesson": 1,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-data-l01-w08",
+      "problem": "A school has 146 Grade 9 learners. A researcher asks 20 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 146 Grade 9 learners.",
+        "The population is everyone the research describes: 146 learners.",
+        "The sample is the smaller group actually asked: 20 learners.",
+        "The 20 replies must not be reported as 146 individual replies.",
+        "Check: 20 < 146; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 146; sample = 20",
+      "check": "Check: 20 < 146; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 146,
+          "sample": 20
+        }
+      },
+      "lesson": 1,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-data-l01-w09",
+      "problem": "A school has 153 Grade 9 learners. A researcher asks 21 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 153 Grade 9 learners.",
+        "The population is everyone the research describes: 153 learners.",
+        "The sample is the smaller group actually asked: 21 learners.",
+        "The 21 replies must not be reported as 153 individual replies.",
+        "Check: 21 < 153; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 153; sample = 21",
+      "check": "Check: 21 < 153; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 153,
+          "sample": 21
+        }
+      },
+      "lesson": 1,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-data-l01-w10",
+      "problem": "A school has 160 Grade 9 learners. A researcher asks 22 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 160 Grade 9 learners.",
+        "The population is everyone the research describes: 160 learners.",
+        "The sample is the smaller group actually asked: 22 learners.",
+        "The 22 replies must not be reported as 160 individual replies.",
+        "Check: 22 < 160; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 160; sample = 22",
+      "check": "Check: 22 < 160; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 160,
+          "sample": 22
+        }
+      },
+      "lesson": 1,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-data-l01-w11",
+      "problem": "A school has 167 Grade 9 learners. A researcher asks 23 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 167 Grade 9 learners.",
+        "The population is everyone the research describes: 167 learners.",
+        "The sample is the smaller group actually asked: 23 learners.",
+        "The 23 replies must not be reported as 167 individual replies.",
+        "Check: 23 < 167; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 167; sample = 23",
+      "check": "Check: 23 < 167; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 167,
+          "sample": 23
+        }
+      },
+      "lesson": 1,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-data-l01-w12",
+      "problem": "A school has 174 Grade 9 learners. A researcher asks 24 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 174 Grade 9 learners.",
+        "The population is everyone the research describes: 174 learners.",
+        "The sample is the smaller group actually asked: 24 learners.",
+        "The 24 replies must not be reported as 174 individual replies.",
+        "Check: 24 < 174; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 174; sample = 24",
+      "check": "Check: 24 < 174; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 174,
+          "sample": 24
+        }
+      },
+      "lesson": 1,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-data-l01-w13",
+      "problem": "A school has 181 Grade 9 learners. A researcher asks 25 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 181 Grade 9 learners.",
+        "The population is everyone the research describes: 181 learners.",
+        "The sample is the smaller group actually asked: 25 learners.",
+        "The 25 replies must not be reported as 181 individual replies.",
+        "Check: 25 < 181; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 181; sample = 25",
+      "check": "Check: 25 < 181; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 181,
+          "sample": 25
+        }
+      },
+      "lesson": 1,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-data-l01-w14",
+      "problem": "A school has 188 Grade 9 learners. A researcher asks 26 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 188 Grade 9 learners.",
+        "The population is everyone the research describes: 188 learners.",
+        "The sample is the smaller group actually asked: 26 learners.",
+        "The 26 replies must not be reported as 188 individual replies.",
+        "Check: 26 < 188; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 188; sample = 26",
+      "check": "Check: 26 < 188; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 188,
+          "sample": 26
+        }
+      },
+      "lesson": 1,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-data-l01-w15",
+      "problem": "A school has 195 Grade 9 learners. A researcher asks 27 of them about travel to school. State the population and sample sizes.",
+      "actions": [
+        "Identify the question: travel for the 195 Grade 9 learners.",
+        "The population is everyone the research describes: 195 learners.",
+        "The sample is the smaller group actually asked: 27 learners.",
+        "The 27 replies must not be reported as 195 individual replies.",
+        "Check: 27 < 195; state both sizes and who belongs to each group."
+      ],
+      "answer": "population = 195; sample = 27",
+      "check": "Check: 27 < 195; state both sizes and who belongs to each group.",
+      "misconception": "Keep the source, count, denominator and axis scale tied to the original dataset.",
+      "visual": {
+        "family": "data",
+        "values": {
+          "lesson": 1,
+          "model": "survey",
+          "population": 195,
+          "sample": 27
+        }
+      },
+      "lesson": 1,
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-data-l01-p01",
+      "prompt": "A school has 202 Grade 9 learners. A researcher asks 28 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 202; sample = 27",
+        "population = 202; sample = 28",
+        "population = 202; sample = 29",
+        "population = 202; sample = 30"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the question: travel for the 202 Grade 9 learners. The population is everyone the research describes: 202 learners. The sample is the smaller group actually asked: 28 learners. The 28 replies must not be reported as 202 individual replies. Check: 28 < 202; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p02",
+      "prompt": "A school has 209 Grade 9 learners. A researcher asks 29 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 209; sample = 31",
+        "population = 209; sample = 28",
+        "population = 209; sample = 29",
+        "population = 209; sample = 30"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the question: travel for the 209 Grade 9 learners. The population is everyone the research describes: 209 learners. The sample is the smaller group actually asked: 29 learners. The 29 replies must not be reported as 209 individual replies. Check: 29 < 209; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p03",
+      "prompt": "A school has 216 Grade 9 learners. A researcher asks 30 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 216; sample = 31",
+        "population = 216; sample = 32",
+        "population = 216; sample = 29",
+        "population = 216; sample = 30"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the question: travel for the 216 Grade 9 learners. The population is everyone the research describes: 216 learners. The sample is the smaller group actually asked: 30 learners. The 30 replies must not be reported as 216 individual replies. Check: 30 < 216; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p04",
+      "prompt": "A school has 223 Grade 9 learners. A researcher asks 31 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 223; sample = 31",
+        "population = 223; sample = 32",
+        "population = 223; sample = 33",
+        "population = 223; sample = 30"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the question: travel for the 223 Grade 9 learners. The population is everyone the research describes: 223 learners. The sample is the smaller group actually asked: 31 learners. The 31 replies must not be reported as 223 individual replies. Check: 31 < 223; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p05",
+      "prompt": "A school has 230 Grade 9 learners. A researcher asks 32 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 230; sample = 31",
+        "population = 230; sample = 32",
+        "population = 230; sample = 33",
+        "population = 230; sample = 34"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the question: travel for the 230 Grade 9 learners. The population is everyone the research describes: 230 learners. The sample is the smaller group actually asked: 32 learners. The 32 replies must not be reported as 230 individual replies. Check: 32 < 230; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p06",
+      "prompt": "A school has 237 Grade 9 learners. A researcher asks 33 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 237; sample = 35",
+        "population = 237; sample = 32",
+        "population = 237; sample = 33",
+        "population = 237; sample = 34"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the question: travel for the 237 Grade 9 learners. The population is everyone the research describes: 237 learners. The sample is the smaller group actually asked: 33 learners. The 33 replies must not be reported as 237 individual replies. Check: 33 < 237; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p07",
+      "prompt": "A school has 244 Grade 9 learners. A researcher asks 34 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 244; sample = 35",
+        "population = 244; sample = 36",
+        "population = 244; sample = 33",
+        "population = 244; sample = 34"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the question: travel for the 244 Grade 9 learners. The population is everyone the research describes: 244 learners. The sample is the smaller group actually asked: 34 learners. The 34 replies must not be reported as 244 individual replies. Check: 34 < 244; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p08",
+      "prompt": "A school has 251 Grade 9 learners. A researcher asks 35 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 251; sample = 35",
+        "population = 251; sample = 36",
+        "population = 251; sample = 37",
+        "population = 251; sample = 34"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the question: travel for the 251 Grade 9 learners. The population is everyone the research describes: 251 learners. The sample is the smaller group actually asked: 35 learners. The 35 replies must not be reported as 251 individual replies. Check: 35 < 251; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p09",
+      "prompt": "A school has 258 Grade 9 learners. A researcher asks 36 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 258; sample = 35",
+        "population = 258; sample = 36",
+        "population = 258; sample = 37",
+        "population = 258; sample = 38"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the question: travel for the 258 Grade 9 learners. The population is everyone the research describes: 258 learners. The sample is the smaller group actually asked: 36 learners. The 36 replies must not be reported as 258 individual replies. Check: 36 < 258; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p10",
+      "prompt": "A school has 265 Grade 9 learners. A researcher asks 37 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 265; sample = 39",
+        "population = 265; sample = 36",
+        "population = 265; sample = 37",
+        "population = 265; sample = 38"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the question: travel for the 265 Grade 9 learners. The population is everyone the research describes: 265 learners. The sample is the smaller group actually asked: 37 learners. The 37 replies must not be reported as 265 individual replies. Check: 37 < 265; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p11",
+      "prompt": "A school has 272 Grade 9 learners. A researcher asks 38 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 272; sample = 39",
+        "population = 272; sample = 40",
+        "population = 272; sample = 37",
+        "population = 272; sample = 38"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the question: travel for the 272 Grade 9 learners. The population is everyone the research describes: 272 learners. The sample is the smaller group actually asked: 38 learners. The 38 replies must not be reported as 272 individual replies. Check: 38 < 272; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p12",
+      "prompt": "A school has 279 Grade 9 learners. A researcher asks 39 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 279; sample = 39",
+        "population = 279; sample = 40",
+        "population = 279; sample = 41",
+        "population = 279; sample = 38"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the question: travel for the 279 Grade 9 learners. The population is everyone the research describes: 279 learners. The sample is the smaller group actually asked: 39 learners. The 39 replies must not be reported as 279 individual replies. Check: 39 < 279; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p13",
+      "prompt": "A school has 286 Grade 9 learners. A researcher asks 40 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 286; sample = 39",
+        "population = 286; sample = 40",
+        "population = 286; sample = 41",
+        "population = 286; sample = 42"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the question: travel for the 286 Grade 9 learners. The population is everyone the research describes: 286 learners. The sample is the smaller group actually asked: 40 learners. The 40 replies must not be reported as 286 individual replies. Check: 40 < 286; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p14",
+      "prompt": "A school has 293 Grade 9 learners. A researcher asks 41 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 293; sample = 43",
+        "population = 293; sample = 40",
+        "population = 293; sample = 41",
+        "population = 293; sample = 42"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the question: travel for the 293 Grade 9 learners. The population is everyone the research describes: 293 learners. The sample is the smaller group actually asked: 41 learners. The 41 replies must not be reported as 293 individual replies. Check: 41 < 293; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-p15",
+      "prompt": "A school has 300 Grade 9 learners. A researcher asks 42 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 300; sample = 43",
+        "population = 300; sample = 44",
+        "population = 300; sample = 41",
+        "population = 300; sample = 42"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the question: travel for the 300 Grade 9 learners. The population is everyone the research describes: 300 learners. The sample is the smaller group actually asked: 42 learners. The 42 replies must not be reported as 300 individual replies. Check: 42 < 300; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-data-l01-m16",
+      "prompt": "A school has 314 Grade 9 learners. A researcher asks 44 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 314; sample = 44",
+        "population = 314; sample = 45",
+        "population = 314; sample = 46",
+        "population = 314; sample = 43"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the question: travel for the 314 Grade 9 learners. The population is everyone the research describes: 314 learners. The sample is the smaller group actually asked: 44 learners. The 44 replies must not be reported as 314 individual replies. Check: 44 < 314; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-m17",
+      "prompt": "A school has 321 Grade 9 learners. A researcher asks 45 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 321; sample = 44",
+        "population = 321; sample = 45",
+        "population = 321; sample = 46",
+        "population = 321; sample = 47"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the question: travel for the 321 Grade 9 learners. The population is everyone the research describes: 321 learners. The sample is the smaller group actually asked: 45 learners. The 45 replies must not be reported as 321 individual replies. Check: 45 < 321; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-m18",
+      "prompt": "A school has 328 Grade 9 learners. A researcher asks 46 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 328; sample = 48",
+        "population = 328; sample = 45",
+        "population = 328; sample = 46",
+        "population = 328; sample = 47"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the question: travel for the 328 Grade 9 learners. The population is everyone the research describes: 328 learners. The sample is the smaller group actually asked: 46 learners. The 46 replies must not be reported as 328 individual replies. Check: 46 < 328; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-m19",
+      "prompt": "A school has 335 Grade 9 learners. A researcher asks 47 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 335; sample = 48",
+        "population = 335; sample = 49",
+        "population = 335; sample = 46",
+        "population = 335; sample = 47"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the question: travel for the 335 Grade 9 learners. The population is everyone the research describes: 335 learners. The sample is the smaller group actually asked: 47 learners. The 47 replies must not be reported as 335 individual replies. Check: 47 < 335; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-m20",
+      "prompt": "A school has 342 Grade 9 learners. A researcher asks 48 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 342; sample = 48",
+        "population = 342; sample = 49",
+        "population = 342; sample = 50",
+        "population = 342; sample = 47"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the question: travel for the 342 Grade 9 learners. The population is everyone the research describes: 342 learners. The sample is the smaller group actually asked: 48 learners. The 48 replies must not be reported as 342 individual replies. Check: 48 < 342; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-data-l01-r19",
+      "prompt": "A school has 356 Grade 9 learners. A researcher asks 50 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 356; sample = 51",
+        "population = 356; sample = 52",
+        "population = 356; sample = 49",
+        "population = 356; sample = 50"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the question: travel for the 356 Grade 9 learners. The population is everyone the research describes: 356 learners. The sample is the smaller group actually asked: 50 learners. The 50 replies must not be reported as 356 individual replies. Check: 50 < 356; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-r20",
+      "prompt": "A school has 363 Grade 9 learners. A researcher asks 51 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 363; sample = 51",
+        "population = 363; sample = 52",
+        "population = 363; sample = 53",
+        "population = 363; sample = 50"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the question: travel for the 363 Grade 9 learners. The population is everyone the research describes: 363 learners. The sample is the smaller group actually asked: 51 learners. The 51 replies must not be reported as 363 individual replies. Check: 51 < 363; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-data-l01-r21",
+      "prompt": "A school has 370 Grade 9 learners. A researcher asks 52 of them about travel to school. State the population and sample sizes.",
+      "options": [
+        "population = 370; sample = 51",
+        "population = 370; sample = 52",
+        "population = 370; sample = 53",
+        "population = 370; sample = 54"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the question: travel for the 370 Grade 9 learners. The population is everyone the research describes: 370 learners. The sample is the smaller group actually asked: 52 learners. The 52 replies must not be reported as 370 individual replies. Check: 52 < 370; state both sizes and who belongs to each group.",
+      "source": "lesson-01.md"
+    }
+  ]
+}
