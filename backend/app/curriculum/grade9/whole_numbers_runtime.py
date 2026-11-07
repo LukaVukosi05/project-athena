@@ -231,7 +231,7 @@ GRADE_9=GradeCurriculum(id='grade-9',grade=9,status=ContentStatus.TEACHER_REVIEW
                 prerequisites=[],lessons=[LINE_LESSONS[n][0] for n in range(1,6)])]),
         Topic(id='geometry-of-2d-shapes',product_order=10,title='Geometry of 2D Shapes',official_caps_topic='Geometry of 2D shapes',
             caps_sequence=10,term=3,expected_duration='Eight authored lessons awaiting teacher and browser review',
-            caps_reference='DBE 2026 Grade 9 Mathematics ATP, Terms 2–3',paper=None,
+            caps_reference='DBE 2026 Grade 9 Mathematics ATP, Term 3',paper=None,
             exam_relevance='Grade 9 classroom and formal assessment',status=ContentStatus.TEACHER_REVIEW_REQUIRED,
             subtopics=[Subtopic(id='shapes-learning-path',order=1,title='Triangles, polygons, congruency and similarity',
                 prerequisites=[],lessons=[SHAPE_LESSONS[n][0] for n in range(1,9)])])])
