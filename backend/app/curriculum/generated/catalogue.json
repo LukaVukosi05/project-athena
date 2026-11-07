@@ -1385,6 +1385,56 @@
               "source_document": "lesson-07.md"
             }
           ]
+        },
+        {
+          "topic_id": "geometry-of-straight-lines",
+          "topic_number": 9,
+          "title": "Geometry of Straight Lines",
+          "paper": null,
+          "expected_lesson_count": 5,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-straight-lines-01",
+              "position": 1,
+              "title": "Intersecting and perpendicular angle relationships",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g9-straight-lines-02",
+              "position": 2,
+              "title": "Parallel lines and a transversal",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g9-straight-lines-03",
+              "position": 3,
+              "title": "Combined angle chains",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g9-straight-lines-04",
+              "position": 4,
+              "title": "Algebraic unknowns in line geometry",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g9-straight-lines-05",
+              "position": 5,
+              "title": "Proof, first-error diagnosis and reassessment",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05.md"
+            }
+          ]
         }
       ]
     },

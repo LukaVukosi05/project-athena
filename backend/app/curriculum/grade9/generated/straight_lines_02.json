@@ -1,0 +1,715 @@
+{
+  "source": "lesson-02.md",
+  "worked": [
+    {
+      "id": "g9-lines-l02-w01",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 47°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 47° sector and the target sector x at the other crossing.",
+        "Use the alternate angle theorem: x = 47°.",
+        "Calculate x = 47°.",
+        "Check: the marked pair is equal at 47°."
+      ],
+      "answer": "x = 47°",
+      "check": "Check: the marked pair is equal at 47°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 47,
+          "lesson": 2,
+          "relation": "alternate",
+          "given": 47,
+          "target": 47
+        }
+      },
+      "lesson": 2,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-lines-l02-w02",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 126°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 126° sector and the target sector x at the other crossing.",
+        "Use the co-interior angle theorem: x + 126° = 180°.",
+        "Calculate x = 54°.",
+        "Check: 126° + 54° = 180°."
+      ],
+      "answer": "x = 54°",
+      "check": "Check: 126° + 54° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 54,
+          "lesson": 2,
+          "relation": "cointerior",
+          "given": 126,
+          "target": 54
+        }
+      },
+      "lesson": 2,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-lines-l02-w03",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 61°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 61° sector and the target sector x at the other crossing.",
+        "Use the corresponding angle theorem: x = 61°.",
+        "Calculate x = 61°.",
+        "Check: the marked pair is equal at 61°."
+      ],
+      "answer": "x = 61°",
+      "check": "Check: the marked pair is equal at 61°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 61,
+          "lesson": 2,
+          "relation": "corresponding",
+          "given": 61,
+          "target": 61
+        }
+      },
+      "lesson": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-lines-l02-w04",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 68°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 68° sector and the target sector x at the other crossing.",
+        "Use the alternate angle theorem: x = 68°.",
+        "Calculate x = 68°.",
+        "Check: the marked pair is equal at 68°."
+      ],
+      "answer": "x = 68°",
+      "check": "Check: the marked pair is equal at 68°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 68,
+          "lesson": 2,
+          "relation": "alternate",
+          "given": 68,
+          "target": 68
+        }
+      },
+      "lesson": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-lines-l02-w05",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 105°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 105° sector and the target sector x at the other crossing.",
+        "Use the co-interior angle theorem: x + 105° = 180°.",
+        "Calculate x = 75°.",
+        "Check: 105° + 75° = 180°."
+      ],
+      "answer": "x = 75°",
+      "check": "Check: 105° + 75° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 75,
+          "lesson": 2,
+          "relation": "cointerior",
+          "given": 105,
+          "target": 75
+        }
+      },
+      "lesson": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-lines-l02-w06",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 82°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 82° sector and the target sector x at the other crossing.",
+        "Use the corresponding angle theorem: x = 82°.",
+        "Calculate x = 82°.",
+        "Check: the marked pair is equal at 82°."
+      ],
+      "answer": "x = 82°",
+      "check": "Check: the marked pair is equal at 82°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 82,
+          "lesson": 2,
+          "relation": "corresponding",
+          "given": 82,
+          "target": 82
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l02-w07",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 44°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 44° sector and the target sector x at the other crossing.",
+        "Use the alternate angle theorem: x = 44°.",
+        "Calculate x = 44°.",
+        "Check: the marked pair is equal at 44°."
+      ],
+      "answer": "x = 44°",
+      "check": "Check: the marked pair is equal at 44°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 44,
+          "lesson": 2,
+          "relation": "alternate",
+          "given": 44,
+          "target": 44
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l02-w08",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 129°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 129° sector and the target sector x at the other crossing.",
+        "Use the co-interior angle theorem: x + 129° = 180°.",
+        "Calculate x = 51°.",
+        "Check: 129° + 51° = 180°."
+      ],
+      "answer": "x = 51°",
+      "check": "Check: 129° + 51° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 51,
+          "lesson": 2,
+          "relation": "cointerior",
+          "given": 129,
+          "target": 51
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l02-w09",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 58°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 58° sector and the target sector x at the other crossing.",
+        "Use the corresponding angle theorem: x = 58°.",
+        "Calculate x = 58°.",
+        "Check: the marked pair is equal at 58°."
+      ],
+      "answer": "x = 58°",
+      "check": "Check: the marked pair is equal at 58°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 58,
+          "lesson": 2,
+          "relation": "corresponding",
+          "given": 58,
+          "target": 58
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l02-w10",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 65°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 65° sector and the target sector x at the other crossing.",
+        "Use the alternate angle theorem: x = 65°.",
+        "Calculate x = 65°.",
+        "Check: the marked pair is equal at 65°."
+      ],
+      "answer": "x = 65°",
+      "check": "Check: the marked pair is equal at 65°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 65,
+          "lesson": 2,
+          "relation": "alternate",
+          "given": 65,
+          "target": 65
+        }
+      },
+      "lesson": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-lines-l02-w11",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 108°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 108° sector and the target sector x at the other crossing.",
+        "Use the co-interior angle theorem: x + 108° = 180°.",
+        "Calculate x = 72°.",
+        "Check: 108° + 72° = 180°."
+      ],
+      "answer": "x = 72°",
+      "check": "Check: 108° + 72° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 72,
+          "lesson": 2,
+          "relation": "cointerior",
+          "given": 108,
+          "target": 72
+        }
+      },
+      "lesson": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-lines-l02-w12",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 79°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 79° sector and the target sector x at the other crossing.",
+        "Use the corresponding angle theorem: x = 79°.",
+        "Calculate x = 79°.",
+        "Check: the marked pair is equal at 79°."
+      ],
+      "answer": "x = 79°",
+      "check": "Check: the marked pair is equal at 79°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 79,
+          "lesson": 2,
+          "relation": "corresponding",
+          "given": 79,
+          "target": 79
+        }
+      },
+      "lesson": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-lines-l02-w13",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 41°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 41° sector and the target sector x at the other crossing.",
+        "Use the alternate angle theorem: x = 41°.",
+        "Calculate x = 41°.",
+        "Check: the marked pair is equal at 41°."
+      ],
+      "answer": "x = 41°",
+      "check": "Check: the marked pair is equal at 41°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 41,
+          "lesson": 2,
+          "relation": "alternate",
+          "given": 41,
+          "target": 41
+        }
+      },
+      "lesson": 2,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-lines-l02-w14",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 132°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 132° sector and the target sector x at the other crossing.",
+        "Use the co-interior angle theorem: x + 132° = 180°.",
+        "Calculate x = 48°.",
+        "Check: 132° + 48° = 180°."
+      ],
+      "answer": "x = 48°",
+      "check": "Check: 132° + 48° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 48,
+          "lesson": 2,
+          "relation": "cointerior",
+          "given": 132,
+          "target": 48
+        }
+      },
+      "lesson": 2,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-lines-l02-w15",
+      "problem": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 55°. Find the target angle x and give the reason.",
+      "actions": [
+        "Identify the two parallel marks and trace the single transversal.",
+        "Locate the given 55° sector and the target sector x at the other crossing.",
+        "Use the corresponding angle theorem: x = 55°.",
+        "Calculate x = 55°.",
+        "Check: the marked pair is equal at 55°."
+      ],
+      "answer": "x = 55°",
+      "check": "Check: the marked pair is equal at 55°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 55,
+          "lesson": 2,
+          "relation": "corresponding",
+          "given": 55,
+          "target": 55
+        }
+      },
+      "lesson": 2,
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-lines-l02-p01",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 73°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 63°",
+        "x = 73°",
+        "x = 107°",
+        "x = 83°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 73° sector and the target sector x at the other crossing. Use the corresponding angle theorem: x = 73°. Calculate x = 73°. Check: the marked pair is equal at 73°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p02",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 80°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 90°",
+        "x = 70°",
+        "x = 80°",
+        "x = 100°"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 80° sector and the target sector x at the other crossing. Use the alternate angle theorem: x = 80°. Calculate x = 80°. Check: the marked pair is equal at 80°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p03",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 138°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 138°",
+        "x = 52°",
+        "x = 32°",
+        "x = 42°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 138° sector and the target sector x at the other crossing. Use the co-interior angle theorem: x + 138° = 180°. Calculate x = 42°. Check: 138° + 42° = 180°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p04",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 49°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 49°",
+        "x = 131°",
+        "x = 59°",
+        "x = 39°"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 49° sector and the target sector x at the other crossing. Use the corresponding angle theorem: x = 49°. Calculate x = 49°. Check: the marked pair is equal at 49°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p05",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 56°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 46°",
+        "x = 56°",
+        "x = 124°",
+        "x = 66°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 56° sector and the target sector x at the other crossing. Use the alternate angle theorem: x = 56°. Calculate x = 56°. Check: the marked pair is equal at 56°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p06",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 117°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 73°",
+        "x = 53°",
+        "x = 63°",
+        "x = 117°"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 117° sector and the target sector x at the other crossing. Use the co-interior angle theorem: x + 117° = 180°. Calculate x = 63°. Check: 117° + 63° = 180°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p07",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 70°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 110°",
+        "x = 80°",
+        "x = 60°",
+        "x = 70°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 70° sector and the target sector x at the other crossing. Use the corresponding angle theorem: x = 70°. Calculate x = 70°. Check: the marked pair is equal at 70°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p08",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 77°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 77°",
+        "x = 103°",
+        "x = 87°",
+        "x = 67°"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 77° sector and the target sector x at the other crossing. Use the alternate angle theorem: x = 77°. Calculate x = 77°. Check: the marked pair is equal at 77°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p09",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 96°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 74°",
+        "x = 84°",
+        "x = 96°",
+        "x = 94°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 96° sector and the target sector x at the other crossing. Use the co-interior angle theorem: x + 96° = 180°. Calculate x = 84°. Check: 96° + 84° = 180°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p10",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 46°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 56°",
+        "x = 36°",
+        "x = 46°",
+        "x = 134°"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 46° sector and the target sector x at the other crossing. Use the corresponding angle theorem: x = 46°. Calculate x = 46°. Check: the marked pair is equal at 46°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p11",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 53°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 127°",
+        "x = 63°",
+        "x = 43°",
+        "x = 53°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 53° sector and the target sector x at the other crossing. Use the alternate angle theorem: x = 53°. Calculate x = 53°. Check: the marked pair is equal at 53°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p12",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 120°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 60°",
+        "x = 120°",
+        "x = 70°",
+        "x = 50°"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 120° sector and the target sector x at the other crossing. Use the co-interior angle theorem: x + 120° = 180°. Calculate x = 60°. Check: 120° + 60° = 180°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p13",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 67°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 57°",
+        "x = 67°",
+        "x = 113°",
+        "x = 77°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 67° sector and the target sector x at the other crossing. Use the corresponding angle theorem: x = 67°. Calculate x = 67°. Check: the marked pair is equal at 67°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p14",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 74°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 84°",
+        "x = 64°",
+        "x = 74°",
+        "x = 106°"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 74° sector and the target sector x at the other crossing. Use the alternate angle theorem: x = 74°. Calculate x = 74°. Check: the marked pair is equal at 74°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-p15",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 99°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 99°",
+        "x = 91°",
+        "x = 71°",
+        "x = 81°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 99° sector and the target sector x at the other crossing. Use the co-interior angle theorem: x + 99° = 180°. Calculate x = 81°. Check: 99° + 81° = 180°.",
+      "source": "lesson-02.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-lines-l02-m16",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 111°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 69°",
+        "x = 111°",
+        "x = 79°",
+        "x = 59°"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 111° sector and the target sector x at the other crossing. Use the co-interior angle theorem: x + 111° = 180°. Calculate x = 69°. Check: 111° + 69° = 180°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-m17",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 76°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 66°",
+        "x = 76°",
+        "x = 104°",
+        "x = 86°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 76° sector and the target sector x at the other crossing. Use the corresponding angle theorem: x = 76°. Calculate x = 76°. Check: the marked pair is equal at 76°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-m18",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 83°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 93°",
+        "x = 73°",
+        "x = 83°",
+        "x = 97°"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 83° sector and the target sector x at the other crossing. Use the alternate angle theorem: x = 83°. Calculate x = 83°. Check: the marked pair is equal at 83°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-m19",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 135°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 135°",
+        "x = 55°",
+        "x = 35°",
+        "x = 45°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 135° sector and the target sector x at the other crossing. Use the co-interior angle theorem: x + 135° = 180°. Calculate x = 45°. Check: 135° + 45° = 180°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-m20",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 52°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 52°",
+        "x = 128°",
+        "x = 62°",
+        "x = 42°"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 52° sector and the target sector x at the other crossing. Use the corresponding angle theorem: x = 52°. Calculate x = 52°. Check: the marked pair is equal at 52°.",
+      "source": "lesson-02.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-lines-l02-r19",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled alternate angle is 71°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 109°",
+        "x = 81°",
+        "x = 61°",
+        "x = 71°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 71° sector and the target sector x at the other crossing. Use the alternate angle theorem: x = 71°. Calculate x = 71°. Check: the marked pair is equal at 71°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-r20",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled co-interior angle is 102°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 78°",
+        "x = 102°",
+        "x = 88°",
+        "x = 68°"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 102° sector and the target sector x at the other crossing. Use the co-interior angle theorem: x + 102° = 180°. Calculate x = 78°. Check: 102° + 78° = 180°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-lines-l02-r21",
+      "prompt": "The two marked lines are parallel and cut by a transversal. The labelled corresponding angle is 40°. Find the target angle x and give the reason.",
+      "options": [
+        "x = 30°",
+        "x = 40°",
+        "x = 140°",
+        "x = 50°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the two parallel marks and trace the single transversal. Locate the given 40° sector and the target sector x at the other crossing. Use the corresponding angle theorem: x = 40°. Calculate x = 40°. Check: the marked pair is equal at 40°.",
+      "source": "lesson-02.md"
+    }
+  ]
+}

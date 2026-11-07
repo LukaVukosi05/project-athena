@@ -1,0 +1,730 @@
+{
+  "source": "lesson-05.md",
+  "worked": [
+    {
+      "id": "g9-lines-l05-w01",
+      "problem": "At two marked parallel lines, a alternate pair includes the given 47° angle and target x. A learner writes x = 133°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 47° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 133°; identify which sectors were compared.",
+        "Check the diagram: the pair is alternate, so alternate angles are equal: x = 47°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 47°.",
+        "Check: both marked alternate sectors equal 47°."
+      ],
+      "answer": "x = 47°",
+      "check": "Check: both marked alternate sectors equal 47°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 47,
+          "lesson": 5,
+          "relation": "alternate",
+          "given": 47,
+          "target": 47,
+          "claimed": 133
+        }
+      },
+      "lesson": 5,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-lines-l05-w02",
+      "problem": "At two marked parallel lines, a co-interior pair includes the given 126° angle and target x. A learner writes x = 126°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 126° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 126°; identify which sectors were compared.",
+        "Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 126° = 180°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 54°.",
+        "Check: 126° + 54° = 180°."
+      ],
+      "answer": "x = 54°",
+      "check": "Check: 126° + 54° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 54,
+          "lesson": 5,
+          "relation": "cointerior",
+          "given": 126,
+          "target": 54,
+          "claimed": 126
+        }
+      },
+      "lesson": 5,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-lines-l05-w03",
+      "problem": "At two marked parallel lines, a corresponding pair includes the given 61° angle and target x. A learner writes x = 119°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 61° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 119°; identify which sectors were compared.",
+        "Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 61°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 61°.",
+        "Check: both marked corresponding sectors equal 61°."
+      ],
+      "answer": "x = 61°",
+      "check": "Check: both marked corresponding sectors equal 61°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 61,
+          "lesson": 5,
+          "relation": "corresponding",
+          "given": 61,
+          "target": 61,
+          "claimed": 119
+        }
+      },
+      "lesson": 5,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-lines-l05-w04",
+      "problem": "At two marked parallel lines, a alternate pair includes the given 68° angle and target x. A learner writes x = 112°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 68° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 112°; identify which sectors were compared.",
+        "Check the diagram: the pair is alternate, so alternate angles are equal: x = 68°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 68°.",
+        "Check: both marked alternate sectors equal 68°."
+      ],
+      "answer": "x = 68°",
+      "check": "Check: both marked alternate sectors equal 68°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 68,
+          "lesson": 5,
+          "relation": "alternate",
+          "given": 68,
+          "target": 68,
+          "claimed": 112
+        }
+      },
+      "lesson": 5,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-lines-l05-w05",
+      "problem": "At two marked parallel lines, a co-interior pair includes the given 105° angle and target x. A learner writes x = 105°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 105° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 105°; identify which sectors were compared.",
+        "Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 105° = 180°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 75°.",
+        "Check: 105° + 75° = 180°."
+      ],
+      "answer": "x = 75°",
+      "check": "Check: 105° + 75° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 75,
+          "lesson": 5,
+          "relation": "cointerior",
+          "given": 105,
+          "target": 75,
+          "claimed": 105
+        }
+      },
+      "lesson": 5,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-lines-l05-w06",
+      "problem": "At two marked parallel lines, a corresponding pair includes the given 82° angle and target x. A learner writes x = 98°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 82° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 98°; identify which sectors were compared.",
+        "Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 82°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 82°.",
+        "Check: both marked corresponding sectors equal 82°."
+      ],
+      "answer": "x = 82°",
+      "check": "Check: both marked corresponding sectors equal 82°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 82,
+          "lesson": 5,
+          "relation": "corresponding",
+          "given": 82,
+          "target": 82,
+          "claimed": 98
+        }
+      },
+      "lesson": 5,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l05-w07",
+      "problem": "At two marked parallel lines, a alternate pair includes the given 44° angle and target x. A learner writes x = 136°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 44° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 136°; identify which sectors were compared.",
+        "Check the diagram: the pair is alternate, so alternate angles are equal: x = 44°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 44°.",
+        "Check: both marked alternate sectors equal 44°."
+      ],
+      "answer": "x = 44°",
+      "check": "Check: both marked alternate sectors equal 44°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 44,
+          "lesson": 5,
+          "relation": "alternate",
+          "given": 44,
+          "target": 44,
+          "claimed": 136
+        }
+      },
+      "lesson": 5,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l05-w08",
+      "problem": "At two marked parallel lines, a co-interior pair includes the given 129° angle and target x. A learner writes x = 129°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 129° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 129°; identify which sectors were compared.",
+        "Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 129° = 180°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 51°.",
+        "Check: 129° + 51° = 180°."
+      ],
+      "answer": "x = 51°",
+      "check": "Check: 129° + 51° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 51,
+          "lesson": 5,
+          "relation": "cointerior",
+          "given": 129,
+          "target": 51,
+          "claimed": 129
+        }
+      },
+      "lesson": 5,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l05-w09",
+      "problem": "At two marked parallel lines, a corresponding pair includes the given 58° angle and target x. A learner writes x = 122°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 58° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 122°; identify which sectors were compared.",
+        "Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 58°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 58°.",
+        "Check: both marked corresponding sectors equal 58°."
+      ],
+      "answer": "x = 58°",
+      "check": "Check: both marked corresponding sectors equal 58°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 58,
+          "lesson": 5,
+          "relation": "corresponding",
+          "given": 58,
+          "target": 58,
+          "claimed": 122
+        }
+      },
+      "lesson": 5,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l05-w10",
+      "problem": "At two marked parallel lines, a alternate pair includes the given 65° angle and target x. A learner writes x = 115°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 65° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 115°; identify which sectors were compared.",
+        "Check the diagram: the pair is alternate, so alternate angles are equal: x = 65°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 65°.",
+        "Check: both marked alternate sectors equal 65°."
+      ],
+      "answer": "x = 65°",
+      "check": "Check: both marked alternate sectors equal 65°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 65,
+          "lesson": 5,
+          "relation": "alternate",
+          "given": 65,
+          "target": 65,
+          "claimed": 115
+        }
+      },
+      "lesson": 5,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-lines-l05-w11",
+      "problem": "At two marked parallel lines, a co-interior pair includes the given 108° angle and target x. A learner writes x = 108°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 108° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 108°; identify which sectors were compared.",
+        "Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 108° = 180°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 72°.",
+        "Check: 108° + 72° = 180°."
+      ],
+      "answer": "x = 72°",
+      "check": "Check: 108° + 72° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 72,
+          "lesson": 5,
+          "relation": "cointerior",
+          "given": 108,
+          "target": 72,
+          "claimed": 108
+        }
+      },
+      "lesson": 5,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-lines-l05-w12",
+      "problem": "At two marked parallel lines, a corresponding pair includes the given 79° angle and target x. A learner writes x = 101°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 79° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 101°; identify which sectors were compared.",
+        "Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 79°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 79°.",
+        "Check: both marked corresponding sectors equal 79°."
+      ],
+      "answer": "x = 79°",
+      "check": "Check: both marked corresponding sectors equal 79°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 79,
+          "lesson": 5,
+          "relation": "corresponding",
+          "given": 79,
+          "target": 79,
+          "claimed": 101
+        }
+      },
+      "lesson": 5,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-lines-l05-w13",
+      "problem": "At two marked parallel lines, a alternate pair includes the given 41° angle and target x. A learner writes x = 139°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 41° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 139°; identify which sectors were compared.",
+        "Check the diagram: the pair is alternate, so alternate angles are equal: x = 41°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 41°.",
+        "Check: both marked alternate sectors equal 41°."
+      ],
+      "answer": "x = 41°",
+      "check": "Check: both marked alternate sectors equal 41°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 41,
+          "lesson": 5,
+          "relation": "alternate",
+          "given": 41,
+          "target": 41,
+          "claimed": 139
+        }
+      },
+      "lesson": 5,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-lines-l05-w14",
+      "problem": "At two marked parallel lines, a co-interior pair includes the given 132° angle and target x. A learner writes x = 132°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 132° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 132°; identify which sectors were compared.",
+        "Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 132° = 180°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 48°.",
+        "Check: 132° + 48° = 180°."
+      ],
+      "answer": "x = 48°",
+      "check": "Check: 132° + 48° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 48,
+          "lesson": 5,
+          "relation": "cointerior",
+          "given": 132,
+          "target": 48,
+          "claimed": 132
+        }
+      },
+      "lesson": 5,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-lines-l05-w15",
+      "problem": "At two marked parallel lines, a corresponding pair includes the given 55° angle and target x. A learner writes x = 125°. Locate the first incorrect reason and repair it.",
+      "actions": [
+        "Find the given 55° sector and the separate target x, using the parallel marks.",
+        "The learner wrote x = 125°; identify which sectors were compared.",
+        "Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 55°.",
+        "The learner used the wrong relationship at the previous step. Repair x = 55°.",
+        "Check: both marked corresponding sectors equal 55°."
+      ],
+      "answer": "x = 55°",
+      "check": "Check: both marked corresponding sectors equal 55°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 55,
+          "lesson": 5,
+          "relation": "corresponding",
+          "given": 55,
+          "target": 55,
+          "claimed": 125
+        }
+      },
+      "lesson": 5,
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-lines-l05-p01",
+      "prompt": "At two marked parallel lines, a corresponding pair includes the given 73° angle and target x. A learner writes x = 107°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 63°",
+        "x = 73°",
+        "x = 107°",
+        "x = 83°"
+      ],
+      "answer_index": 1,
+      "memo": "Find the given 73° sector and the separate target x, using the parallel marks. The learner wrote x = 107°; identify which sectors were compared. Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 73°. The learner used the wrong relationship at the previous step. Repair x = 73°. Check: both marked corresponding sectors equal 73°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p02",
+      "prompt": "At two marked parallel lines, a alternate pair includes the given 80° angle and target x. A learner writes x = 100°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 90°",
+        "x = 70°",
+        "x = 80°",
+        "x = 100°"
+      ],
+      "answer_index": 2,
+      "memo": "Find the given 80° sector and the separate target x, using the parallel marks. The learner wrote x = 100°; identify which sectors were compared. Check the diagram: the pair is alternate, so alternate angles are equal: x = 80°. The learner used the wrong relationship at the previous step. Repair x = 80°. Check: both marked alternate sectors equal 80°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p03",
+      "prompt": "At two marked parallel lines, a co-interior pair includes the given 138° angle and target x. A learner writes x = 138°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 138°",
+        "x = 52°",
+        "x = 32°",
+        "x = 42°"
+      ],
+      "answer_index": 3,
+      "memo": "Find the given 138° sector and the separate target x, using the parallel marks. The learner wrote x = 138°; identify which sectors were compared. Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 138° = 180°. The learner used the wrong relationship at the previous step. Repair x = 42°. Check: 138° + 42° = 180°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p04",
+      "prompt": "At two marked parallel lines, a corresponding pair includes the given 49° angle and target x. A learner writes x = 131°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 49°",
+        "x = 131°",
+        "x = 59°",
+        "x = 39°"
+      ],
+      "answer_index": 0,
+      "memo": "Find the given 49° sector and the separate target x, using the parallel marks. The learner wrote x = 131°; identify which sectors were compared. Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 49°. The learner used the wrong relationship at the previous step. Repair x = 49°. Check: both marked corresponding sectors equal 49°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p05",
+      "prompt": "At two marked parallel lines, a alternate pair includes the given 56° angle and target x. A learner writes x = 124°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 46°",
+        "x = 56°",
+        "x = 124°",
+        "x = 66°"
+      ],
+      "answer_index": 1,
+      "memo": "Find the given 56° sector and the separate target x, using the parallel marks. The learner wrote x = 124°; identify which sectors were compared. Check the diagram: the pair is alternate, so alternate angles are equal: x = 56°. The learner used the wrong relationship at the previous step. Repair x = 56°. Check: both marked alternate sectors equal 56°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p06",
+      "prompt": "At two marked parallel lines, a co-interior pair includes the given 117° angle and target x. A learner writes x = 117°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 73°",
+        "x = 53°",
+        "x = 63°",
+        "x = 117°"
+      ],
+      "answer_index": 2,
+      "memo": "Find the given 117° sector and the separate target x, using the parallel marks. The learner wrote x = 117°; identify which sectors were compared. Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 117° = 180°. The learner used the wrong relationship at the previous step. Repair x = 63°. Check: 117° + 63° = 180°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p07",
+      "prompt": "At two marked parallel lines, a corresponding pair includes the given 70° angle and target x. A learner writes x = 110°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 110°",
+        "x = 80°",
+        "x = 60°",
+        "x = 70°"
+      ],
+      "answer_index": 3,
+      "memo": "Find the given 70° sector and the separate target x, using the parallel marks. The learner wrote x = 110°; identify which sectors were compared. Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 70°. The learner used the wrong relationship at the previous step. Repair x = 70°. Check: both marked corresponding sectors equal 70°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p08",
+      "prompt": "At two marked parallel lines, a alternate pair includes the given 77° angle and target x. A learner writes x = 103°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 77°",
+        "x = 103°",
+        "x = 87°",
+        "x = 67°"
+      ],
+      "answer_index": 0,
+      "memo": "Find the given 77° sector and the separate target x, using the parallel marks. The learner wrote x = 103°; identify which sectors were compared. Check the diagram: the pair is alternate, so alternate angles are equal: x = 77°. The learner used the wrong relationship at the previous step. Repair x = 77°. Check: both marked alternate sectors equal 77°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p09",
+      "prompt": "At two marked parallel lines, a co-interior pair includes the given 96° angle and target x. A learner writes x = 96°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 74°",
+        "x = 84°",
+        "x = 96°",
+        "x = 94°"
+      ],
+      "answer_index": 1,
+      "memo": "Find the given 96° sector and the separate target x, using the parallel marks. The learner wrote x = 96°; identify which sectors were compared. Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 96° = 180°. The learner used the wrong relationship at the previous step. Repair x = 84°. Check: 96° + 84° = 180°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p10",
+      "prompt": "At two marked parallel lines, a corresponding pair includes the given 46° angle and target x. A learner writes x = 134°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 56°",
+        "x = 36°",
+        "x = 46°",
+        "x = 134°"
+      ],
+      "answer_index": 2,
+      "memo": "Find the given 46° sector and the separate target x, using the parallel marks. The learner wrote x = 134°; identify which sectors were compared. Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 46°. The learner used the wrong relationship at the previous step. Repair x = 46°. Check: both marked corresponding sectors equal 46°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p11",
+      "prompt": "At two marked parallel lines, a alternate pair includes the given 53° angle and target x. A learner writes x = 127°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 127°",
+        "x = 63°",
+        "x = 43°",
+        "x = 53°"
+      ],
+      "answer_index": 3,
+      "memo": "Find the given 53° sector and the separate target x, using the parallel marks. The learner wrote x = 127°; identify which sectors were compared. Check the diagram: the pair is alternate, so alternate angles are equal: x = 53°. The learner used the wrong relationship at the previous step. Repair x = 53°. Check: both marked alternate sectors equal 53°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p12",
+      "prompt": "At two marked parallel lines, a co-interior pair includes the given 120° angle and target x. A learner writes x = 120°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 60°",
+        "x = 120°",
+        "x = 70°",
+        "x = 50°"
+      ],
+      "answer_index": 0,
+      "memo": "Find the given 120° sector and the separate target x, using the parallel marks. The learner wrote x = 120°; identify which sectors were compared. Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 120° = 180°. The learner used the wrong relationship at the previous step. Repair x = 60°. Check: 120° + 60° = 180°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p13",
+      "prompt": "At two marked parallel lines, a corresponding pair includes the given 67° angle and target x. A learner writes x = 113°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 57°",
+        "x = 67°",
+        "x = 113°",
+        "x = 77°"
+      ],
+      "answer_index": 1,
+      "memo": "Find the given 67° sector and the separate target x, using the parallel marks. The learner wrote x = 113°; identify which sectors were compared. Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 67°. The learner used the wrong relationship at the previous step. Repair x = 67°. Check: both marked corresponding sectors equal 67°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p14",
+      "prompt": "At two marked parallel lines, a alternate pair includes the given 74° angle and target x. A learner writes x = 106°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 84°",
+        "x = 64°",
+        "x = 74°",
+        "x = 106°"
+      ],
+      "answer_index": 2,
+      "memo": "Find the given 74° sector and the separate target x, using the parallel marks. The learner wrote x = 106°; identify which sectors were compared. Check the diagram: the pair is alternate, so alternate angles are equal: x = 74°. The learner used the wrong relationship at the previous step. Repair x = 74°. Check: both marked alternate sectors equal 74°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-p15",
+      "prompt": "At two marked parallel lines, a co-interior pair includes the given 99° angle and target x. A learner writes x = 99°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 99°",
+        "x = 91°",
+        "x = 71°",
+        "x = 81°"
+      ],
+      "answer_index": 3,
+      "memo": "Find the given 99° sector and the separate target x, using the parallel marks. The learner wrote x = 99°; identify which sectors were compared. Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 99° = 180°. The learner used the wrong relationship at the previous step. Repair x = 81°. Check: 99° + 81° = 180°.",
+      "source": "lesson-05.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-lines-l05-m16",
+      "prompt": "At two marked parallel lines, a co-interior pair includes the given 111° angle and target x. A learner writes x = 111°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 69°",
+        "x = 111°",
+        "x = 79°",
+        "x = 59°"
+      ],
+      "answer_index": 0,
+      "memo": "Find the given 111° sector and the separate target x, using the parallel marks. The learner wrote x = 111°; identify which sectors were compared. Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 111° = 180°. The learner used the wrong relationship at the previous step. Repair x = 69°. Check: 111° + 69° = 180°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-m17",
+      "prompt": "At two marked parallel lines, a corresponding pair includes the given 76° angle and target x. A learner writes x = 104°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 66°",
+        "x = 76°",
+        "x = 104°",
+        "x = 86°"
+      ],
+      "answer_index": 1,
+      "memo": "Find the given 76° sector and the separate target x, using the parallel marks. The learner wrote x = 104°; identify which sectors were compared. Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 76°. The learner used the wrong relationship at the previous step. Repair x = 76°. Check: both marked corresponding sectors equal 76°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-m18",
+      "prompt": "At two marked parallel lines, a alternate pair includes the given 83° angle and target x. A learner writes x = 97°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 93°",
+        "x = 73°",
+        "x = 83°",
+        "x = 97°"
+      ],
+      "answer_index": 2,
+      "memo": "Find the given 83° sector and the separate target x, using the parallel marks. The learner wrote x = 97°; identify which sectors were compared. Check the diagram: the pair is alternate, so alternate angles are equal: x = 83°. The learner used the wrong relationship at the previous step. Repair x = 83°. Check: both marked alternate sectors equal 83°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-m19",
+      "prompt": "At two marked parallel lines, a co-interior pair includes the given 135° angle and target x. A learner writes x = 135°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 135°",
+        "x = 55°",
+        "x = 35°",
+        "x = 45°"
+      ],
+      "answer_index": 3,
+      "memo": "Find the given 135° sector and the separate target x, using the parallel marks. The learner wrote x = 135°; identify which sectors were compared. Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 135° = 180°. The learner used the wrong relationship at the previous step. Repair x = 45°. Check: 135° + 45° = 180°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-m20",
+      "prompt": "At two marked parallel lines, a corresponding pair includes the given 52° angle and target x. A learner writes x = 128°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 52°",
+        "x = 128°",
+        "x = 62°",
+        "x = 42°"
+      ],
+      "answer_index": 0,
+      "memo": "Find the given 52° sector and the separate target x, using the parallel marks. The learner wrote x = 128°; identify which sectors were compared. Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 52°. The learner used the wrong relationship at the previous step. Repair x = 52°. Check: both marked corresponding sectors equal 52°.",
+      "source": "lesson-05.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-lines-l05-r19",
+      "prompt": "At two marked parallel lines, a alternate pair includes the given 71° angle and target x. A learner writes x = 109°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 109°",
+        "x = 81°",
+        "x = 61°",
+        "x = 71°"
+      ],
+      "answer_index": 3,
+      "memo": "Find the given 71° sector and the separate target x, using the parallel marks. The learner wrote x = 109°; identify which sectors were compared. Check the diagram: the pair is alternate, so alternate angles are equal: x = 71°. The learner used the wrong relationship at the previous step. Repair x = 71°. Check: both marked alternate sectors equal 71°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-r20",
+      "prompt": "At two marked parallel lines, a co-interior pair includes the given 102° angle and target x. A learner writes x = 102°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 78°",
+        "x = 102°",
+        "x = 88°",
+        "x = 68°"
+      ],
+      "answer_index": 0,
+      "memo": "Find the given 102° sector and the separate target x, using the parallel marks. The learner wrote x = 102°; identify which sectors were compared. Check the diagram: the pair is co-interior, so co-interior angles sum to 180°: x + 102° = 180°. The learner used the wrong relationship at the previous step. Repair x = 78°. Check: 102° + 78° = 180°.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-lines-l05-r21",
+      "prompt": "At two marked parallel lines, a corresponding pair includes the given 40° angle and target x. A learner writes x = 140°. Locate the first incorrect reason and repair it.",
+      "options": [
+        "x = 30°",
+        "x = 40°",
+        "x = 140°",
+        "x = 50°"
+      ],
+      "answer_index": 1,
+      "memo": "Find the given 40° sector and the separate target x, using the parallel marks. The learner wrote x = 140°; identify which sectors were compared. Check the diagram: the pair is corresponding, so corresponding angles are equal: x = 40°. The learner used the wrong relationship at the previous step. Repair x = 40°. Check: both marked corresponding sectors equal 40°.",
+      "source": "lesson-05.md"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "lesson_id": "g9-straight-lines-01",
+    "source": "lesson-01.md",
+    "source_sha256": "e24702014d4db02d2e294be4746b3e3f0a843cb3f2a1e7c7083eba82cfdb707a",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-straight-lines-02",
+    "source": "lesson-02.md",
+    "source_sha256": "4792939448e4768329b2c70541553def381b709f2fe5713379a2a0bb8e5516d5",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-straight-lines-03",
+    "source": "lesson-03.md",
+    "source_sha256": "6e796d70b028142cb024d686c153da2cdbded05ee8ba1213e0fbbf4f95a2add6",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-straight-lines-04",
+    "source": "lesson-04.md",
+    "source_sha256": "55f0f91528e0417a6c560a4885f37ddcd440973cc642bc8315966b55e0d2ff08",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-straight-lines-05",
+    "source": "lesson-05.md",
+    "source_sha256": "4bb44d3b2b9919570a426712b4127bbd41339690ce3a694c1c43bbef6869d7fb",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

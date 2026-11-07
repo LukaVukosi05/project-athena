@@ -23,7 +23,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -636,6 +636,35 @@ def _grade9_whole_board(parameters: dict, family: str) -> None:
         or scene.get('actions') is None or len(scene['actions'])!=parameters['total_steps']
         or not 3<=parameters['total_steps']<=18):
         raise ValueError('Grade 9 source scene, question and step count disagree')
+    if family.startswith('lines_'):
+        number=int(family.rsplit('_',1)[-1]);v=scene.get('visual',{}).get('values',{})
+        theta,given,target=v.get('theta'),v.get('given'),v.get('target')
+        if (scene.get('lesson')!=number or scene.get('visual',{}).get('family')!='straight_lines'
+            or type(theta) is not int or not 40<=theta<=84 or type(given) is not int
+            or type(target) is not int or scene['actions'][-1]!=scene.get('check')
+            or v.get('kind') not in {'intersection','perpendicular','parallel'}):
+            raise ValueError('Line-angle diagram needs bounded given, marked sectors and verification')
+        relation=v.get('relation')
+        if number==1:
+            valid=(relation in {'vertical','linear','right'}
+                and v['kind']==('perpendicular' if relation=='right' else 'intersection')
+                and given==theta and target==(theta if relation=='vertical' else 90-theta if relation=='right' else 180-theta)
+                and scene['answer']==f'x = {target}°')
+        elif number in {2,5}:
+            valid=(relation in {'corresponding','alternate','cointerior'} and v['kind']=='parallel'
+                and given==(180-theta if relation=='cointerior' else theta) and target==theta
+                and scene['answer']==f'x = {target}°')
+            if number==5:valid=valid and v.get('claimed')==(given if relation=='cointerior' else 180-given) and v['claimed']!=target
+        elif number==3:
+            valid=(relation=='chain' and v['kind']=='parallel' and given==v.get('middle')==theta
+                and target==180-theta and scene['answer']==f'x = {target}°')
+        else:
+            a,b,x=v.get('coefficient'),v.get('constant'),v.get('solution')
+            valid=(relation=='algebra' and v['kind']=='parallel' and type(a) is int and 2<=a<=5
+                and type(b) is int and type(x) is int and x>0 and a*x+b==target==180-theta
+                and given==theta and v.get('middle')==theta and scene['answer']==f'x = {x}')
+        if not valid:raise ValueError('Angle relationship, algebra or target disagrees with the question')
+        return
     if family.startswith('graph_'):
         number=int(family.rsplit('_',1)[-1]);visual=scene.get('visual',{});v=visual.get('values',{})
         expected=('global','ordered','gradient','intercepts','line','infer','diagnosis')[number-1]
@@ -1142,6 +1171,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'expression_{n}'),True)
        for n in range(1,10)},
+    **{("geometry",f"grade9_lines_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade9_whole_board(p,f'lines_{n}'),True)
+       for n in range(1,6)},
     **{("algebra",f"grade9_graph_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'graph_{n}'),True)

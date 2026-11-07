@@ -1,0 +1,805 @@
+{
+  "source": "lesson-04.md",
+  "worked": [
+    {
+      "id": "g9-lines-l04-w01",
+      "problem": "Two marked parallel lines have an upper top-right angle of 47°. The lower top-left angle is labelled (3x + 124)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 47°.",
+        "Its lower top-right corresponding partner is also 47°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 47° = 133°.",
+        "Equate its label to its measure: 3x + 124 = 133.",
+        "Subtract 124 from both sides: 3x = 9.",
+        "Divide both sides by 3: x = 3; the marked angle is 133°.",
+        "Check: 3(3) + 124 = 133, and 133° + 47° = 180°."
+      ],
+      "answer": "x = 3",
+      "check": "Check: 3(3) + 124 = 133, and 133° + 47° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 47,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 47,
+          "target": 133,
+          "coefficient": 3,
+          "constant": 124,
+          "solution": 3,
+          "middle": 47
+        }
+      },
+      "lesson": 4,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-lines-l04-w02",
+      "problem": "Two marked parallel lines have an upper top-right angle of 54°. The lower top-left angle is labelled (4x + 110)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 54°.",
+        "Its lower top-right corresponding partner is also 54°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 54° = 126°.",
+        "Equate its label to its measure: 4x + 110 = 126.",
+        "Subtract 110 from both sides: 4x = 16.",
+        "Divide both sides by 4: x = 4; the marked angle is 126°.",
+        "Check: 4(4) + 110 = 126, and 126° + 54° = 180°."
+      ],
+      "answer": "x = 4",
+      "check": "Check: 4(4) + 110 = 126, and 126° + 54° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 54,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 54,
+          "target": 126,
+          "coefficient": 4,
+          "constant": 110,
+          "solution": 4,
+          "middle": 54
+        }
+      },
+      "lesson": 4,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-lines-l04-w03",
+      "problem": "Two marked parallel lines have an upper top-right angle of 61°. The lower top-left angle is labelled (5x + 94)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 61°.",
+        "Its lower top-right corresponding partner is also 61°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 61° = 119°.",
+        "Equate its label to its measure: 5x + 94 = 119.",
+        "Subtract 94 from both sides: 5x = 25.",
+        "Divide both sides by 5: x = 5; the marked angle is 119°.",
+        "Check: 5(5) + 94 = 119, and 119° + 61° = 180°."
+      ],
+      "answer": "x = 5",
+      "check": "Check: 5(5) + 94 = 119, and 119° + 61° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 61,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 61,
+          "target": 119,
+          "coefficient": 5,
+          "constant": 94,
+          "solution": 5,
+          "middle": 61
+        }
+      },
+      "lesson": 4,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-lines-l04-w04",
+      "problem": "Two marked parallel lines have an upper top-right angle of 68°. The lower top-left angle is labelled (2x + 100)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 68°.",
+        "Its lower top-right corresponding partner is also 68°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 68° = 112°.",
+        "Equate its label to its measure: 2x + 100 = 112.",
+        "Subtract 100 from both sides: 2x = 12.",
+        "Divide both sides by 2: x = 6; the marked angle is 112°.",
+        "Check: 2(6) + 100 = 112, and 112° + 68° = 180°."
+      ],
+      "answer": "x = 6",
+      "check": "Check: 2(6) + 100 = 112, and 112° + 68° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 68,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 68,
+          "target": 112,
+          "coefficient": 2,
+          "constant": 100,
+          "solution": 6,
+          "middle": 68
+        }
+      },
+      "lesson": 4,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-lines-l04-w05",
+      "problem": "Two marked parallel lines have an upper top-right angle of 75°. The lower top-left angle is labelled (3x + 84)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 75°.",
+        "Its lower top-right corresponding partner is also 75°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 75° = 105°.",
+        "Equate its label to its measure: 3x + 84 = 105.",
+        "Subtract 84 from both sides: 3x = 21.",
+        "Divide both sides by 3: x = 7; the marked angle is 105°.",
+        "Check: 3(7) + 84 = 105, and 105° + 75° = 180°."
+      ],
+      "answer": "x = 7",
+      "check": "Check: 3(7) + 84 = 105, and 105° + 75° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 75,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 75,
+          "target": 105,
+          "coefficient": 3,
+          "constant": 84,
+          "solution": 7,
+          "middle": 75
+        }
+      },
+      "lesson": 4,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-lines-l04-w06",
+      "problem": "Two marked parallel lines have an upper top-right angle of 82°. The lower top-left angle is labelled (4x + 66)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 82°.",
+        "Its lower top-right corresponding partner is also 82°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 82° = 98°.",
+        "Equate its label to its measure: 4x + 66 = 98.",
+        "Subtract 66 from both sides: 4x = 32.",
+        "Divide both sides by 4: x = 8; the marked angle is 98°.",
+        "Check: 4(8) + 66 = 98, and 98° + 82° = 180°."
+      ],
+      "answer": "x = 8",
+      "check": "Check: 4(8) + 66 = 98, and 98° + 82° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 82,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 82,
+          "target": 98,
+          "coefficient": 4,
+          "constant": 66,
+          "solution": 8,
+          "middle": 82
+        }
+      },
+      "lesson": 4,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l04-w07",
+      "problem": "Two marked parallel lines have an upper top-right angle of 44°. The lower top-left angle is labelled (5x + 91)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 44°.",
+        "Its lower top-right corresponding partner is also 44°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 44° = 136°.",
+        "Equate its label to its measure: 5x + 91 = 136.",
+        "Subtract 91 from both sides: 5x = 45.",
+        "Divide both sides by 5: x = 9; the marked angle is 136°.",
+        "Check: 5(9) + 91 = 136, and 136° + 44° = 180°."
+      ],
+      "answer": "x = 9",
+      "check": "Check: 5(9) + 91 = 136, and 136° + 44° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 44,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 44,
+          "target": 136,
+          "coefficient": 5,
+          "constant": 91,
+          "solution": 9,
+          "middle": 44
+        }
+      },
+      "lesson": 4,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l04-w08",
+      "problem": "Two marked parallel lines have an upper top-right angle of 51°. The lower top-left angle is labelled (2x + 109)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 51°.",
+        "Its lower top-right corresponding partner is also 51°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 51° = 129°.",
+        "Equate its label to its measure: 2x + 109 = 129.",
+        "Subtract 109 from both sides: 2x = 20.",
+        "Divide both sides by 2: x = 10; the marked angle is 129°.",
+        "Check: 2(10) + 109 = 129, and 129° + 51° = 180°."
+      ],
+      "answer": "x = 10",
+      "check": "Check: 2(10) + 109 = 129, and 129° + 51° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 51,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 51,
+          "target": 129,
+          "coefficient": 2,
+          "constant": 109,
+          "solution": 10,
+          "middle": 51
+        }
+      },
+      "lesson": 4,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l04-w09",
+      "problem": "Two marked parallel lines have an upper top-right angle of 58°. The lower top-left angle is labelled (3x + 89)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 58°.",
+        "Its lower top-right corresponding partner is also 58°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 58° = 122°.",
+        "Equate its label to its measure: 3x + 89 = 122.",
+        "Subtract 89 from both sides: 3x = 33.",
+        "Divide both sides by 3: x = 11; the marked angle is 122°.",
+        "Check: 3(11) + 89 = 122, and 122° + 58° = 180°."
+      ],
+      "answer": "x = 11",
+      "check": "Check: 3(11) + 89 = 122, and 122° + 58° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 58,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 58,
+          "target": 122,
+          "coefficient": 3,
+          "constant": 89,
+          "solution": 11,
+          "middle": 58
+        }
+      },
+      "lesson": 4,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-lines-l04-w10",
+      "problem": "Two marked parallel lines have an upper top-right angle of 65°. The lower top-left angle is labelled (4x + 107)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 65°.",
+        "Its lower top-right corresponding partner is also 65°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 65° = 115°.",
+        "Equate its label to its measure: 4x + 107 = 115.",
+        "Subtract 107 from both sides: 4x = 8.",
+        "Divide both sides by 4: x = 2; the marked angle is 115°.",
+        "Check: 4(2) + 107 = 115, and 115° + 65° = 180°."
+      ],
+      "answer": "x = 2",
+      "check": "Check: 4(2) + 107 = 115, and 115° + 65° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 65,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 65,
+          "target": 115,
+          "coefficient": 4,
+          "constant": 107,
+          "solution": 2,
+          "middle": 65
+        }
+      },
+      "lesson": 4,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-lines-l04-w11",
+      "problem": "Two marked parallel lines have an upper top-right angle of 72°. The lower top-left angle is labelled (5x + 93)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 72°.",
+        "Its lower top-right corresponding partner is also 72°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 72° = 108°.",
+        "Equate its label to its measure: 5x + 93 = 108.",
+        "Subtract 93 from both sides: 5x = 15.",
+        "Divide both sides by 5: x = 3; the marked angle is 108°.",
+        "Check: 5(3) + 93 = 108, and 108° + 72° = 180°."
+      ],
+      "answer": "x = 3",
+      "check": "Check: 5(3) + 93 = 108, and 108° + 72° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 72,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 72,
+          "target": 108,
+          "coefficient": 5,
+          "constant": 93,
+          "solution": 3,
+          "middle": 72
+        }
+      },
+      "lesson": 4,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-lines-l04-w12",
+      "problem": "Two marked parallel lines have an upper top-right angle of 79°. The lower top-left angle is labelled (2x + 93)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 79°.",
+        "Its lower top-right corresponding partner is also 79°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 79° = 101°.",
+        "Equate its label to its measure: 2x + 93 = 101.",
+        "Subtract 93 from both sides: 2x = 8.",
+        "Divide both sides by 2: x = 4; the marked angle is 101°.",
+        "Check: 2(4) + 93 = 101, and 101° + 79° = 180°."
+      ],
+      "answer": "x = 4",
+      "check": "Check: 2(4) + 93 = 101, and 101° + 79° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 79,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 79,
+          "target": 101,
+          "coefficient": 2,
+          "constant": 93,
+          "solution": 4,
+          "middle": 79
+        }
+      },
+      "lesson": 4,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-lines-l04-w13",
+      "problem": "Two marked parallel lines have an upper top-right angle of 41°. The lower top-left angle is labelled (3x + 124)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 41°.",
+        "Its lower top-right corresponding partner is also 41°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 41° = 139°.",
+        "Equate its label to its measure: 3x + 124 = 139.",
+        "Subtract 124 from both sides: 3x = 15.",
+        "Divide both sides by 3: x = 5; the marked angle is 139°.",
+        "Check: 3(5) + 124 = 139, and 139° + 41° = 180°."
+      ],
+      "answer": "x = 5",
+      "check": "Check: 3(5) + 124 = 139, and 139° + 41° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 41,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 41,
+          "target": 139,
+          "coefficient": 3,
+          "constant": 124,
+          "solution": 5,
+          "middle": 41
+        }
+      },
+      "lesson": 4,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-lines-l04-w14",
+      "problem": "Two marked parallel lines have an upper top-right angle of 48°. The lower top-left angle is labelled (4x + 108)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 48°.",
+        "Its lower top-right corresponding partner is also 48°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 48° = 132°.",
+        "Equate its label to its measure: 4x + 108 = 132.",
+        "Subtract 108 from both sides: 4x = 24.",
+        "Divide both sides by 4: x = 6; the marked angle is 132°.",
+        "Check: 4(6) + 108 = 132, and 132° + 48° = 180°."
+      ],
+      "answer": "x = 6",
+      "check": "Check: 4(6) + 108 = 132, and 132° + 48° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 48,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 48,
+          "target": 132,
+          "coefficient": 4,
+          "constant": 108,
+          "solution": 6,
+          "middle": 48
+        }
+      },
+      "lesson": 4,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-lines-l04-w15",
+      "problem": "Two marked parallel lines have an upper top-right angle of 55°. The lower top-left angle is labelled (5x + 90)°. Find x, then calculate the marked angle.",
+      "actions": [
+        "Mark the given upper top-right sector as 55°.",
+        "Its lower top-right corresponding partner is also 55°.",
+        "The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 55° = 125°.",
+        "Equate its label to its measure: 5x + 90 = 125.",
+        "Subtract 90 from both sides: 5x = 35.",
+        "Divide both sides by 5: x = 7; the marked angle is 125°.",
+        "Check: 5(7) + 90 = 125, and 125° + 55° = 180°."
+      ],
+      "answer": "x = 7",
+      "check": "Check: 5(7) + 90 = 125, and 125° + 55° = 180°.",
+      "misconception": "Name the exact angle pair and its parallel or perpendicular markings; visual appearance alone is not proof.",
+      "visual": {
+        "family": "straight_lines",
+        "values": {
+          "kind": "parallel",
+          "theta": 55,
+          "lesson": 4,
+          "relation": "algebra",
+          "given": 55,
+          "target": 125,
+          "coefficient": 5,
+          "constant": 90,
+          "solution": 7,
+          "middle": 55
+        }
+      },
+      "lesson": 4,
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-lines-l04-p01",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 73°. The lower top-left angle is labelled (2x + 95)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 107",
+        "x = 6",
+        "x = 7",
+        "x = 5"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the given upper top-right sector as 73°. Its lower top-right corresponding partner is also 73°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 73° = 107°. Equate its label to its measure: 2x + 95 = 107. Subtract 95 from both sides: 2x = 12. Divide both sides by 2: x = 6; the marked angle is 107°. Check: 2(6) + 95 = 107, and 107° + 73° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p02",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 80°. The lower top-left angle is labelled (3x + 79)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 6",
+        "x = 100",
+        "x = 7",
+        "x = 8"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the given upper top-right sector as 80°. Its lower top-right corresponding partner is also 80°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 80° = 100°. Equate its label to its measure: 3x + 79 = 100. Subtract 79 from both sides: 3x = 21. Divide both sides by 3: x = 7; the marked angle is 100°. Check: 3(7) + 79 = 100, and 100° + 80° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p03",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 42°. The lower top-left angle is labelled (4x + 106)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 9",
+        "x = 7",
+        "x = 138",
+        "x = 8"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the given upper top-right sector as 42°. Its lower top-right corresponding partner is also 42°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 42° = 138°. Equate its label to its measure: 4x + 106 = 138. Subtract 106 from both sides: 4x = 32. Divide both sides by 4: x = 8; the marked angle is 138°. Check: 4(8) + 106 = 138, and 138° + 42° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p04",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 49°. The lower top-left angle is labelled (5x + 86)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 9",
+        "x = 10",
+        "x = 8",
+        "x = 131"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the given upper top-right sector as 49°. Its lower top-right corresponding partner is also 49°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 49° = 131°. Equate its label to its measure: 5x + 86 = 131. Subtract 86 from both sides: 5x = 45. Divide both sides by 5: x = 9; the marked angle is 131°. Check: 5(9) + 86 = 131, and 131° + 49° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p05",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 56°. The lower top-left angle is labelled (2x + 104)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 124",
+        "x = 10",
+        "x = 11",
+        "x = 9"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the given upper top-right sector as 56°. Its lower top-right corresponding partner is also 56°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 56° = 124°. Equate its label to its measure: 2x + 104 = 124. Subtract 104 from both sides: 2x = 20. Divide both sides by 2: x = 10; the marked angle is 124°. Check: 2(10) + 104 = 124, and 124° + 56° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p06",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 63°. The lower top-left angle is labelled (3x + 84)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 10",
+        "x = 117",
+        "x = 11",
+        "x = 12"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the given upper top-right sector as 63°. Its lower top-right corresponding partner is also 63°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 63° = 117°. Equate its label to its measure: 3x + 84 = 117. Subtract 84 from both sides: 3x = 33. Divide both sides by 3: x = 11; the marked angle is 117°. Check: 3(11) + 84 = 117, and 117° + 63° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p07",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 70°. The lower top-left angle is labelled (4x + 102)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 3",
+        "x = 1",
+        "x = 110",
+        "x = 2"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the given upper top-right sector as 70°. Its lower top-right corresponding partner is also 70°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 70° = 110°. Equate its label to its measure: 4x + 102 = 110. Subtract 102 from both sides: 4x = 8. Divide both sides by 4: x = 2; the marked angle is 110°. Check: 4(2) + 102 = 110, and 110° + 70° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p08",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 77°. The lower top-left angle is labelled (5x + 88)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 3",
+        "x = 4",
+        "x = 2",
+        "x = 103"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the given upper top-right sector as 77°. Its lower top-right corresponding partner is also 77°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 77° = 103°. Equate its label to its measure: 5x + 88 = 103. Subtract 88 from both sides: 5x = 15. Divide both sides by 5: x = 3; the marked angle is 103°. Check: 5(3) + 88 = 103, and 103° + 77° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p09",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 84°. The lower top-left angle is labelled (2x + 88)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 96",
+        "x = 4",
+        "x = 5",
+        "x = 3"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the given upper top-right sector as 84°. Its lower top-right corresponding partner is also 84°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 84° = 96°. Equate its label to its measure: 2x + 88 = 96. Subtract 88 from both sides: 2x = 8. Divide both sides by 2: x = 4; the marked angle is 96°. Check: 2(4) + 88 = 96, and 96° + 84° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p10",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 46°. The lower top-left angle is labelled (3x + 119)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 4",
+        "x = 134",
+        "x = 5",
+        "x = 6"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the given upper top-right sector as 46°. Its lower top-right corresponding partner is also 46°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 46° = 134°. Equate its label to its measure: 3x + 119 = 134. Subtract 119 from both sides: 3x = 15. Divide both sides by 3: x = 5; the marked angle is 134°. Check: 3(5) + 119 = 134, and 134° + 46° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p11",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 53°. The lower top-left angle is labelled (4x + 103)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 7",
+        "x = 5",
+        "x = 127",
+        "x = 6"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the given upper top-right sector as 53°. Its lower top-right corresponding partner is also 53°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 53° = 127°. Equate its label to its measure: 4x + 103 = 127. Subtract 103 from both sides: 4x = 24. Divide both sides by 4: x = 6; the marked angle is 127°. Check: 4(6) + 103 = 127, and 127° + 53° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p12",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 60°. The lower top-left angle is labelled (5x + 85)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 7",
+        "x = 8",
+        "x = 6",
+        "x = 120"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the given upper top-right sector as 60°. Its lower top-right corresponding partner is also 60°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 60° = 120°. Equate its label to its measure: 5x + 85 = 120. Subtract 85 from both sides: 5x = 35. Divide both sides by 5: x = 7; the marked angle is 120°. Check: 5(7) + 85 = 120, and 120° + 60° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p13",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 67°. The lower top-left angle is labelled (2x + 97)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 113",
+        "x = 8",
+        "x = 9",
+        "x = 7"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the given upper top-right sector as 67°. Its lower top-right corresponding partner is also 67°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 67° = 113°. Equate its label to its measure: 2x + 97 = 113. Subtract 97 from both sides: 2x = 16. Divide both sides by 2: x = 8; the marked angle is 113°. Check: 2(8) + 97 = 113, and 113° + 67° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p14",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 74°. The lower top-left angle is labelled (3x + 79)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 8",
+        "x = 106",
+        "x = 9",
+        "x = 10"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the given upper top-right sector as 74°. Its lower top-right corresponding partner is also 74°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 74° = 106°. Equate its label to its measure: 3x + 79 = 106. Subtract 79 from both sides: 3x = 27. Divide both sides by 3: x = 9; the marked angle is 106°. Check: 3(9) + 79 = 106, and 106° + 74° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-p15",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 81°. The lower top-left angle is labelled (4x + 59)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 11",
+        "x = 9",
+        "x = 99",
+        "x = 10"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the given upper top-right sector as 81°. Its lower top-right corresponding partner is also 81°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 81° = 99°. Equate its label to its measure: 4x + 59 = 99. Subtract 59 from both sides: 4x = 40. Divide both sides by 4: x = 10; the marked angle is 99°. Check: 4(10) + 59 = 99, and 99° + 81° = 180°.",
+      "source": "lesson-04.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-lines-l04-m16",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 69°. The lower top-left angle is labelled (4x + 95)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 4",
+        "x = 5",
+        "x = 3",
+        "x = 111"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the given upper top-right sector as 69°. Its lower top-right corresponding partner is also 69°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 69° = 111°. Equate its label to its measure: 4x + 95 = 111. Subtract 95 from both sides: 4x = 16. Divide both sides by 4: x = 4; the marked angle is 111°. Check: 4(4) + 95 = 111, and 111° + 69° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-m17",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 76°. The lower top-left angle is labelled (5x + 79)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 104",
+        "x = 5",
+        "x = 6",
+        "x = 4"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the given upper top-right sector as 76°. Its lower top-right corresponding partner is also 76°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 76° = 104°. Equate its label to its measure: 5x + 79 = 104. Subtract 79 from both sides: 5x = 25. Divide both sides by 5: x = 5; the marked angle is 104°. Check: 5(5) + 79 = 104, and 104° + 76° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-m18",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 83°. The lower top-left angle is labelled (2x + 85)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 5",
+        "x = 97",
+        "x = 6",
+        "x = 7"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the given upper top-right sector as 83°. Its lower top-right corresponding partner is also 83°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 83° = 97°. Equate its label to its measure: 2x + 85 = 97. Subtract 85 from both sides: 2x = 12. Divide both sides by 2: x = 6; the marked angle is 97°. Check: 2(6) + 85 = 97, and 97° + 83° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-m19",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 45°. The lower top-left angle is labelled (3x + 114)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 8",
+        "x = 6",
+        "x = 135",
+        "x = 7"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the given upper top-right sector as 45°. Its lower top-right corresponding partner is also 45°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 45° = 135°. Equate its label to its measure: 3x + 114 = 135. Subtract 114 from both sides: 3x = 21. Divide both sides by 3: x = 7; the marked angle is 135°. Check: 3(7) + 114 = 135, and 135° + 45° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-m20",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 52°. The lower top-left angle is labelled (4x + 96)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 8",
+        "x = 9",
+        "x = 7",
+        "x = 128"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the given upper top-right sector as 52°. Its lower top-right corresponding partner is also 52°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 52° = 128°. Equate its label to its measure: 4x + 96 = 128. Subtract 96 from both sides: 4x = 32. Divide both sides by 4: x = 8; the marked angle is 128°. Check: 4(8) + 96 = 128, and 128° + 52° = 180°.",
+      "source": "lesson-04.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-lines-l04-r19",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 71°. The lower top-left angle is labelled (2x + 89)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 11",
+        "x = 9",
+        "x = 109",
+        "x = 10"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the given upper top-right sector as 71°. Its lower top-right corresponding partner is also 71°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 71° = 109°. Equate its label to its measure: 2x + 89 = 109. Subtract 89 from both sides: 2x = 20. Divide both sides by 2: x = 10; the marked angle is 109°. Check: 2(10) + 89 = 109, and 109° + 71° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-r20",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 78°. The lower top-left angle is labelled (3x + 69)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 11",
+        "x = 12",
+        "x = 10",
+        "x = 102"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the given upper top-right sector as 78°. Its lower top-right corresponding partner is also 78°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 78° = 102°. Equate its label to its measure: 3x + 69 = 102. Subtract 69 from both sides: 3x = 33. Divide both sides by 3: x = 11; the marked angle is 102°. Check: 3(11) + 69 = 102, and 102° + 78° = 180°.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-lines-l04-r21",
+      "prompt": "Two marked parallel lines have an upper top-right angle of 40°. The lower top-left angle is labelled (4x + 132)°. Find x, then calculate the marked angle.",
+      "options": [
+        "x = 140",
+        "x = 2",
+        "x = 3",
+        "x = 1"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the given upper top-right sector as 40°. Its lower top-right corresponding partner is also 40°. The lower top-left sector and that partner lie on a straight line, so its measure is 180° − 40° = 140°. Equate its label to its measure: 4x + 132 = 140. Subtract 132 from both sides: 4x = 8. Divide both sides by 4: x = 2; the marked angle is 140°. Check: 4(2) + 132 = 140, and 140° + 40° = 180°.",
+      "source": "lesson-04.md"
+    }
+  ]
+}
