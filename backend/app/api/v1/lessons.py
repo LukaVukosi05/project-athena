@@ -168,6 +168,13 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     givens.pop("target", None)
                     givens.pop("each", None)
                     scene["visual"] = {"family":"shapes", "values":givens}
+                elif lesson.id.startswith("g9-area-"):
+                    givens = dict(scene["visual"]["values"])
+                    for result_key in ("area", "perimeter", "diameter", "circumference_coefficient", "area_coefficient",
+                                       "old_perimeter", "old_area", "new_perimeter", "new_area", "scaled_length", "scaled_width", "outer_length",
+                                       "outer_width", "path_area", "fence"):
+                        givens.pop(result_key, None)
+                    scene["visual"] = {"family":"area", "values":givens}
                 else:
                     scene["visual"] = {"family":"givens"}
             params["scene_json"] = json.dumps(scene, ensure_ascii=False)

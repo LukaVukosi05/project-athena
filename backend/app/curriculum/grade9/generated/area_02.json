@@ -1,0 +1,745 @@
+{
+  "source": "lesson-02.md",
+  "worked": [
+    {
+      "id": "g9-area-l02-w01",
+      "problem": "An L-shaped card is a 9 cm by 7 cm rectangle with a 3 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 9 cm × 7 cm rectangle and mark the removed 3 cm × 2 cm corner.",
+        "Outer area = 9 × 7 = 63 cm²; removed area = 3 × 2 = 6 cm².",
+        "Subtract only the removed region: A = 63 − 6 = 57 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(9 + 7) = 32 cm.",
+        "Check: (9 − 3) + 3 + (7 − 2) + 2 + 9 + 7 = 32 cm."
+      ],
+      "answer": "A = 57 cm²; P = 32 cm",
+      "check": "Check: (9 − 3) + 3 + (7 − 2) + 2 + 9 + 7 = 32 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 9,
+          "width": 7,
+          "model": "l_shape",
+          "cut_width": 3,
+          "cut_height": 2,
+          "area": 57,
+          "perimeter": 32
+        }
+      },
+      "lesson": 2,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-area-l02-w02",
+      "problem": "An L-shaped card is a 10 cm by 10 cm rectangle with a 4 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 10 cm × 10 cm rectangle and mark the removed 4 cm × 1 cm corner.",
+        "Outer area = 10 × 10 = 100 cm²; removed area = 4 × 1 = 4 cm².",
+        "Subtract only the removed region: A = 100 − 4 = 96 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(10 + 10) = 40 cm.",
+        "Check: (10 − 4) + 4 + (10 − 1) + 1 + 10 + 10 = 40 cm."
+      ],
+      "answer": "A = 96 cm²; P = 40 cm",
+      "check": "Check: (10 − 4) + 4 + (10 − 1) + 1 + 10 + 10 = 40 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 10,
+          "width": 10,
+          "model": "l_shape",
+          "cut_width": 4,
+          "cut_height": 1,
+          "area": 96,
+          "perimeter": 40
+        }
+      },
+      "lesson": 2,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-area-l02-w03",
+      "problem": "An L-shaped card is a 11 cm by 13 cm rectangle with a 5 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 11 cm × 13 cm rectangle and mark the removed 5 cm × 2 cm corner.",
+        "Outer area = 11 × 13 = 143 cm²; removed area = 5 × 2 = 10 cm².",
+        "Subtract only the removed region: A = 143 − 10 = 133 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(11 + 13) = 48 cm.",
+        "Check: (11 − 5) + 5 + (13 − 2) + 2 + 11 + 13 = 48 cm."
+      ],
+      "answer": "A = 133 cm²; P = 48 cm",
+      "check": "Check: (11 − 5) + 5 + (13 − 2) + 2 + 11 + 13 = 48 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 11,
+          "width": 13,
+          "model": "l_shape",
+          "cut_width": 5,
+          "cut_height": 2,
+          "area": 133,
+          "perimeter": 48
+        }
+      },
+      "lesson": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-area-l02-w04",
+      "problem": "An L-shaped card is a 12 cm by 5 cm rectangle with a 6 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 12 cm × 5 cm rectangle and mark the removed 6 cm × 1 cm corner.",
+        "Outer area = 12 × 5 = 60 cm²; removed area = 6 × 1 = 6 cm².",
+        "Subtract only the removed region: A = 60 − 6 = 54 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(12 + 5) = 34 cm.",
+        "Check: (12 − 6) + 6 + (5 − 1) + 1 + 12 + 5 = 34 cm."
+      ],
+      "answer": "A = 54 cm²; P = 34 cm",
+      "check": "Check: (12 − 6) + 6 + (5 − 1) + 1 + 12 + 5 = 34 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 12,
+          "width": 5,
+          "model": "l_shape",
+          "cut_width": 6,
+          "cut_height": 1,
+          "area": 54,
+          "perimeter": 34
+        }
+      },
+      "lesson": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-area-l02-w05",
+      "problem": "An L-shaped card is a 13 cm by 8 cm rectangle with a 2 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 13 cm × 8 cm rectangle and mark the removed 2 cm × 2 cm corner.",
+        "Outer area = 13 × 8 = 104 cm²; removed area = 2 × 2 = 4 cm².",
+        "Subtract only the removed region: A = 104 − 4 = 100 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(13 + 8) = 42 cm.",
+        "Check: (13 − 2) + 2 + (8 − 2) + 2 + 13 + 8 = 42 cm."
+      ],
+      "answer": "A = 100 cm²; P = 42 cm",
+      "check": "Check: (13 − 2) + 2 + (8 − 2) + 2 + 13 + 8 = 42 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 13,
+          "width": 8,
+          "model": "l_shape",
+          "cut_width": 2,
+          "cut_height": 2,
+          "area": 100,
+          "perimeter": 42
+        }
+      },
+      "lesson": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-area-l02-w06",
+      "problem": "An L-shaped card is a 14 cm by 11 cm rectangle with a 3 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 14 cm × 11 cm rectangle and mark the removed 3 cm × 1 cm corner.",
+        "Outer area = 14 × 11 = 154 cm²; removed area = 3 × 1 = 3 cm².",
+        "Subtract only the removed region: A = 154 − 3 = 151 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(14 + 11) = 50 cm.",
+        "Check: (14 − 3) + 3 + (11 − 1) + 1 + 14 + 11 = 50 cm."
+      ],
+      "answer": "A = 151 cm²; P = 50 cm",
+      "check": "Check: (14 − 3) + 3 + (11 − 1) + 1 + 14 + 11 = 50 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 14,
+          "width": 11,
+          "model": "l_shape",
+          "cut_width": 3,
+          "cut_height": 1,
+          "area": 151,
+          "perimeter": 50
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-area-l02-w07",
+      "problem": "An L-shaped card is a 15 cm by 14 cm rectangle with a 4 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 15 cm × 14 cm rectangle and mark the removed 4 cm × 2 cm corner.",
+        "Outer area = 15 × 14 = 210 cm²; removed area = 4 × 2 = 8 cm².",
+        "Subtract only the removed region: A = 210 − 8 = 202 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(15 + 14) = 58 cm.",
+        "Check: (15 − 4) + 4 + (14 − 2) + 2 + 15 + 14 = 58 cm."
+      ],
+      "answer": "A = 202 cm²; P = 58 cm",
+      "check": "Check: (15 − 4) + 4 + (14 − 2) + 2 + 15 + 14 = 58 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 15,
+          "width": 14,
+          "model": "l_shape",
+          "cut_width": 4,
+          "cut_height": 2,
+          "area": 202,
+          "perimeter": 58
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-area-l02-w08",
+      "problem": "An L-shaped card is a 16 cm by 6 cm rectangle with a 5 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 16 cm × 6 cm rectangle and mark the removed 5 cm × 1 cm corner.",
+        "Outer area = 16 × 6 = 96 cm²; removed area = 5 × 1 = 5 cm².",
+        "Subtract only the removed region: A = 96 − 5 = 91 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(16 + 6) = 44 cm.",
+        "Check: (16 − 5) + 5 + (6 − 1) + 1 + 16 + 6 = 44 cm."
+      ],
+      "answer": "A = 91 cm²; P = 44 cm",
+      "check": "Check: (16 − 5) + 5 + (6 − 1) + 1 + 16 + 6 = 44 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 16,
+          "width": 6,
+          "model": "l_shape",
+          "cut_width": 5,
+          "cut_height": 1,
+          "area": 91,
+          "perimeter": 44
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-area-l02-w09",
+      "problem": "An L-shaped card is a 17 cm by 9 cm rectangle with a 6 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 17 cm × 9 cm rectangle and mark the removed 6 cm × 2 cm corner.",
+        "Outer area = 17 × 9 = 153 cm²; removed area = 6 × 2 = 12 cm².",
+        "Subtract only the removed region: A = 153 − 12 = 141 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(17 + 9) = 52 cm.",
+        "Check: (17 − 6) + 6 + (9 − 2) + 2 + 17 + 9 = 52 cm."
+      ],
+      "answer": "A = 141 cm²; P = 52 cm",
+      "check": "Check: (17 − 6) + 6 + (9 − 2) + 2 + 17 + 9 = 52 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 17,
+          "width": 9,
+          "model": "l_shape",
+          "cut_width": 6,
+          "cut_height": 2,
+          "area": 141,
+          "perimeter": 52
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-area-l02-w10",
+      "problem": "An L-shaped card is a 18 cm by 12 cm rectangle with a 2 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 18 cm × 12 cm rectangle and mark the removed 2 cm × 1 cm corner.",
+        "Outer area = 18 × 12 = 216 cm²; removed area = 2 × 1 = 2 cm².",
+        "Subtract only the removed region: A = 216 − 2 = 214 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(18 + 12) = 60 cm.",
+        "Check: (18 − 2) + 2 + (12 − 1) + 1 + 18 + 12 = 60 cm."
+      ],
+      "answer": "A = 214 cm²; P = 60 cm",
+      "check": "Check: (18 − 2) + 2 + (12 − 1) + 1 + 18 + 12 = 60 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 18,
+          "width": 12,
+          "model": "l_shape",
+          "cut_width": 2,
+          "cut_height": 1,
+          "area": 214,
+          "perimeter": 60
+        }
+      },
+      "lesson": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-area-l02-w11",
+      "problem": "An L-shaped card is a 19 cm by 4 cm rectangle with a 3 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 19 cm × 4 cm rectangle and mark the removed 3 cm × 2 cm corner.",
+        "Outer area = 19 × 4 = 76 cm²; removed area = 3 × 2 = 6 cm².",
+        "Subtract only the removed region: A = 76 − 6 = 70 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(19 + 4) = 46 cm.",
+        "Check: (19 − 3) + 3 + (4 − 2) + 2 + 19 + 4 = 46 cm."
+      ],
+      "answer": "A = 70 cm²; P = 46 cm",
+      "check": "Check: (19 − 3) + 3 + (4 − 2) + 2 + 19 + 4 = 46 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 19,
+          "width": 4,
+          "model": "l_shape",
+          "cut_width": 3,
+          "cut_height": 2,
+          "area": 70,
+          "perimeter": 46
+        }
+      },
+      "lesson": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-area-l02-w12",
+      "problem": "An L-shaped card is a 20 cm by 7 cm rectangle with a 4 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 20 cm × 7 cm rectangle and mark the removed 4 cm × 1 cm corner.",
+        "Outer area = 20 × 7 = 140 cm²; removed area = 4 × 1 = 4 cm².",
+        "Subtract only the removed region: A = 140 − 4 = 136 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(20 + 7) = 54 cm.",
+        "Check: (20 − 4) + 4 + (7 − 1) + 1 + 20 + 7 = 54 cm."
+      ],
+      "answer": "A = 136 cm²; P = 54 cm",
+      "check": "Check: (20 − 4) + 4 + (7 − 1) + 1 + 20 + 7 = 54 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 20,
+          "width": 7,
+          "model": "l_shape",
+          "cut_width": 4,
+          "cut_height": 1,
+          "area": 136,
+          "perimeter": 54
+        }
+      },
+      "lesson": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-area-l02-w13",
+      "problem": "An L-shaped card is a 21 cm by 10 cm rectangle with a 5 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 21 cm × 10 cm rectangle and mark the removed 5 cm × 2 cm corner.",
+        "Outer area = 21 × 10 = 210 cm²; removed area = 5 × 2 = 10 cm².",
+        "Subtract only the removed region: A = 210 − 10 = 200 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(21 + 10) = 62 cm.",
+        "Check: (21 − 5) + 5 + (10 − 2) + 2 + 21 + 10 = 62 cm."
+      ],
+      "answer": "A = 200 cm²; P = 62 cm",
+      "check": "Check: (21 − 5) + 5 + (10 − 2) + 2 + 21 + 10 = 62 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 21,
+          "width": 10,
+          "model": "l_shape",
+          "cut_width": 5,
+          "cut_height": 2,
+          "area": 200,
+          "perimeter": 62
+        }
+      },
+      "lesson": 2,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-area-l02-w14",
+      "problem": "An L-shaped card is a 22 cm by 13 cm rectangle with a 6 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 22 cm × 13 cm rectangle and mark the removed 6 cm × 1 cm corner.",
+        "Outer area = 22 × 13 = 286 cm²; removed area = 6 × 1 = 6 cm².",
+        "Subtract only the removed region: A = 286 − 6 = 280 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(22 + 13) = 70 cm.",
+        "Check: (22 − 6) + 6 + (13 − 1) + 1 + 22 + 13 = 70 cm."
+      ],
+      "answer": "A = 280 cm²; P = 70 cm",
+      "check": "Check: (22 − 6) + 6 + (13 − 1) + 1 + 22 + 13 = 70 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 22,
+          "width": 13,
+          "model": "l_shape",
+          "cut_width": 6,
+          "cut_height": 1,
+          "area": 280,
+          "perimeter": 70
+        }
+      },
+      "lesson": 2,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-area-l02-w15",
+      "problem": "An L-shaped card is a 23 cm by 5 cm rectangle with a 2 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "actions": [
+        "Draw the outer 23 cm × 5 cm rectangle and mark the removed 2 cm × 2 cm corner.",
+        "Outer area = 23 × 5 = 115 cm²; removed area = 2 × 2 = 4 cm².",
+        "Subtract only the removed region: A = 115 − 4 = 111 cm².",
+        "Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(23 + 5) = 56 cm.",
+        "Check: (23 − 2) + 2 + (5 − 2) + 2 + 23 + 5 = 56 cm."
+      ],
+      "answer": "A = 111 cm²; P = 56 cm",
+      "check": "Check: (23 − 2) + 2 + (5 − 2) + 2 + 23 + 5 = 56 cm.",
+      "misconception": "Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.",
+      "visual": {
+        "family": "area",
+        "values": {
+          "lesson": 2,
+          "length": 23,
+          "width": 5,
+          "model": "l_shape",
+          "cut_width": 2,
+          "cut_height": 2,
+          "area": 111,
+          "perimeter": 56
+        }
+      },
+      "lesson": 2,
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-area-l02-p01",
+      "prompt": "An L-shaped card is a 24 cm by 8 cm rectangle with a 3 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 186 cm²; P = 64 cm",
+        "A = 189 cm²; P = 64 cm",
+        "A = 192 cm²; P = 64 cm",
+        "A = 195 cm²; P = 64 cm"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the outer 24 cm × 8 cm rectangle and mark the removed 3 cm × 1 cm corner. Outer area = 24 × 8 = 192 cm²; removed area = 3 × 1 = 3 cm². Subtract only the removed region: A = 192 − 3 = 189 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(24 + 8) = 64 cm. Check: (24 − 3) + 3 + (8 − 1) + 1 + 24 + 8 = 64 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p02",
+      "prompt": "An L-shaped card is a 25 cm by 11 cm rectangle with a 4 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 283 cm²; P = 72 cm",
+        "A = 259 cm²; P = 72 cm",
+        "A = 267 cm²; P = 72 cm",
+        "A = 275 cm²; P = 72 cm"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the outer 25 cm × 11 cm rectangle and mark the removed 4 cm × 2 cm corner. Outer area = 25 × 11 = 275 cm²; removed area = 4 × 2 = 8 cm². Subtract only the removed region: A = 275 − 8 = 267 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(25 + 11) = 72 cm. Check: (25 − 4) + 4 + (11 − 2) + 2 + 25 + 11 = 72 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p03",
+      "prompt": "An L-shaped card is a 26 cm by 14 cm rectangle with a 5 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 364 cm²; P = 80 cm",
+        "A = 369 cm²; P = 80 cm",
+        "A = 354 cm²; P = 80 cm",
+        "A = 359 cm²; P = 80 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the outer 26 cm × 14 cm rectangle and mark the removed 5 cm × 1 cm corner. Outer area = 26 × 14 = 364 cm²; removed area = 5 × 1 = 5 cm². Subtract only the removed region: A = 364 − 5 = 359 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(26 + 14) = 80 cm. Check: (26 − 5) + 5 + (14 − 1) + 1 + 26 + 14 = 80 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p04",
+      "prompt": "An L-shaped card is a 27 cm by 6 cm rectangle with a 6 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 150 cm²; P = 66 cm",
+        "A = 162 cm²; P = 66 cm",
+        "A = 174 cm²; P = 66 cm",
+        "A = 138 cm²; P = 66 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the outer 27 cm × 6 cm rectangle and mark the removed 6 cm × 2 cm corner. Outer area = 27 × 6 = 162 cm²; removed area = 6 × 2 = 12 cm². Subtract only the removed region: A = 162 − 12 = 150 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(27 + 6) = 66 cm. Check: (27 − 6) + 6 + (6 − 2) + 2 + 27 + 6 = 66 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p05",
+      "prompt": "An L-shaped card is a 28 cm by 9 cm rectangle with a 2 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 248 cm²; P = 74 cm",
+        "A = 250 cm²; P = 74 cm",
+        "A = 252 cm²; P = 74 cm",
+        "A = 254 cm²; P = 74 cm"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the outer 28 cm × 9 cm rectangle and mark the removed 2 cm × 1 cm corner. Outer area = 28 × 9 = 252 cm²; removed area = 2 × 1 = 2 cm². Subtract only the removed region: A = 252 − 2 = 250 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(28 + 9) = 74 cm. Check: (28 − 2) + 2 + (9 − 1) + 1 + 28 + 9 = 74 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p06",
+      "prompt": "An L-shaped card is a 29 cm by 12 cm rectangle with a 3 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 354 cm²; P = 82 cm",
+        "A = 336 cm²; P = 82 cm",
+        "A = 342 cm²; P = 82 cm",
+        "A = 348 cm²; P = 82 cm"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the outer 29 cm × 12 cm rectangle and mark the removed 3 cm × 2 cm corner. Outer area = 29 × 12 = 348 cm²; removed area = 3 × 2 = 6 cm². Subtract only the removed region: A = 348 − 6 = 342 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(29 + 12) = 82 cm. Check: (29 − 3) + 3 + (12 − 2) + 2 + 29 + 12 = 82 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p07",
+      "prompt": "An L-shaped card is a 30 cm by 4 cm rectangle with a 4 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 120 cm²; P = 68 cm",
+        "A = 124 cm²; P = 68 cm",
+        "A = 112 cm²; P = 68 cm",
+        "A = 116 cm²; P = 68 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the outer 30 cm × 4 cm rectangle and mark the removed 4 cm × 1 cm corner. Outer area = 30 × 4 = 120 cm²; removed area = 4 × 1 = 4 cm². Subtract only the removed region: A = 120 − 4 = 116 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(30 + 4) = 68 cm. Check: (30 − 4) + 4 + (4 − 1) + 1 + 30 + 4 = 68 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p08",
+      "prompt": "An L-shaped card is a 31 cm by 7 cm rectangle with a 5 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 207 cm²; P = 76 cm",
+        "A = 217 cm²; P = 76 cm",
+        "A = 227 cm²; P = 76 cm",
+        "A = 197 cm²; P = 76 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the outer 31 cm × 7 cm rectangle and mark the removed 5 cm × 2 cm corner. Outer area = 31 × 7 = 217 cm²; removed area = 5 × 2 = 10 cm². Subtract only the removed region: A = 217 − 10 = 207 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(31 + 7) = 76 cm. Check: (31 − 5) + 5 + (7 − 2) + 2 + 31 + 7 = 76 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p09",
+      "prompt": "An L-shaped card is a 32 cm by 10 cm rectangle with a 6 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 308 cm²; P = 84 cm",
+        "A = 314 cm²; P = 84 cm",
+        "A = 320 cm²; P = 84 cm",
+        "A = 326 cm²; P = 84 cm"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the outer 32 cm × 10 cm rectangle and mark the removed 6 cm × 1 cm corner. Outer area = 32 × 10 = 320 cm²; removed area = 6 × 1 = 6 cm². Subtract only the removed region: A = 320 − 6 = 314 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(32 + 10) = 84 cm. Check: (32 − 6) + 6 + (10 − 1) + 1 + 32 + 10 = 84 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p10",
+      "prompt": "An L-shaped card is a 33 cm by 13 cm rectangle with a 2 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 433 cm²; P = 92 cm",
+        "A = 421 cm²; P = 92 cm",
+        "A = 425 cm²; P = 92 cm",
+        "A = 429 cm²; P = 92 cm"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the outer 33 cm × 13 cm rectangle and mark the removed 2 cm × 2 cm corner. Outer area = 33 × 13 = 429 cm²; removed area = 2 × 2 = 4 cm². Subtract only the removed region: A = 429 − 4 = 425 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(33 + 13) = 92 cm. Check: (33 − 2) + 2 + (13 − 2) + 2 + 33 + 13 = 92 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p11",
+      "prompt": "An L-shaped card is a 34 cm by 5 cm rectangle with a 3 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 170 cm²; P = 78 cm",
+        "A = 173 cm²; P = 78 cm",
+        "A = 164 cm²; P = 78 cm",
+        "A = 167 cm²; P = 78 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the outer 34 cm × 5 cm rectangle and mark the removed 3 cm × 1 cm corner. Outer area = 34 × 5 = 170 cm²; removed area = 3 × 1 = 3 cm². Subtract only the removed region: A = 170 − 3 = 167 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(34 + 5) = 78 cm. Check: (34 − 3) + 3 + (5 − 1) + 1 + 34 + 5 = 78 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p12",
+      "prompt": "An L-shaped card is a 35 cm by 8 cm rectangle with a 4 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 272 cm²; P = 86 cm",
+        "A = 280 cm²; P = 86 cm",
+        "A = 288 cm²; P = 86 cm",
+        "A = 264 cm²; P = 86 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the outer 35 cm × 8 cm rectangle and mark the removed 4 cm × 2 cm corner. Outer area = 35 × 8 = 280 cm²; removed area = 4 × 2 = 8 cm². Subtract only the removed region: A = 280 − 8 = 272 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(35 + 8) = 86 cm. Check: (35 − 4) + 4 + (8 − 2) + 2 + 35 + 8 = 86 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p13",
+      "prompt": "An L-shaped card is a 36 cm by 11 cm rectangle with a 5 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 386 cm²; P = 94 cm",
+        "A = 391 cm²; P = 94 cm",
+        "A = 396 cm²; P = 94 cm",
+        "A = 401 cm²; P = 94 cm"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the outer 36 cm × 11 cm rectangle and mark the removed 5 cm × 1 cm corner. Outer area = 36 × 11 = 396 cm²; removed area = 5 × 1 = 5 cm². Subtract only the removed region: A = 396 − 5 = 391 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(36 + 11) = 94 cm. Check: (36 − 5) + 5 + (11 − 1) + 1 + 36 + 11 = 94 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p14",
+      "prompt": "An L-shaped card is a 37 cm by 14 cm rectangle with a 6 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 530 cm²; P = 102 cm",
+        "A = 494 cm²; P = 102 cm",
+        "A = 506 cm²; P = 102 cm",
+        "A = 518 cm²; P = 102 cm"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the outer 37 cm × 14 cm rectangle and mark the removed 6 cm × 2 cm corner. Outer area = 37 × 14 = 518 cm²; removed area = 6 × 2 = 12 cm². Subtract only the removed region: A = 518 − 12 = 506 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(37 + 14) = 102 cm. Check: (37 − 6) + 6 + (14 − 2) + 2 + 37 + 14 = 102 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-p15",
+      "prompt": "An L-shaped card is a 38 cm by 6 cm rectangle with a 2 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 228 cm²; P = 88 cm",
+        "A = 230 cm²; P = 88 cm",
+        "A = 224 cm²; P = 88 cm",
+        "A = 226 cm²; P = 88 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the outer 38 cm × 6 cm rectangle and mark the removed 2 cm × 1 cm corner. Outer area = 38 × 6 = 228 cm²; removed area = 2 × 1 = 2 cm². Subtract only the removed region: A = 228 − 2 = 226 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(38 + 6) = 88 cm. Check: (38 − 2) + 2 + (6 − 1) + 1 + 38 + 6 = 88 cm.",
+      "source": "lesson-02.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-area-l02-m16",
+      "prompt": "An L-shaped card is a 39 cm by 9 cm rectangle with a 3 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 345 cm²; P = 96 cm",
+        "A = 351 cm²; P = 96 cm",
+        "A = 357 cm²; P = 96 cm",
+        "A = 339 cm²; P = 96 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the outer 39 cm × 9 cm rectangle and mark the removed 3 cm × 2 cm corner. Outer area = 39 × 9 = 351 cm²; removed area = 3 × 2 = 6 cm². Subtract only the removed region: A = 351 − 6 = 345 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(39 + 9) = 96 cm. Check: (39 − 3) + 3 + (9 − 2) + 2 + 39 + 9 = 96 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-m17",
+      "prompt": "An L-shaped card is a 40 cm by 12 cm rectangle with a 4 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 472 cm²; P = 104 cm",
+        "A = 476 cm²; P = 104 cm",
+        "A = 480 cm²; P = 104 cm",
+        "A = 484 cm²; P = 104 cm"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the outer 40 cm × 12 cm rectangle and mark the removed 4 cm × 1 cm corner. Outer area = 40 × 12 = 480 cm²; removed area = 4 × 1 = 4 cm². Subtract only the removed region: A = 480 − 4 = 476 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(40 + 12) = 104 cm. Check: (40 − 4) + 4 + (12 − 1) + 1 + 40 + 12 = 104 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-m18",
+      "prompt": "An L-shaped card is a 41 cm by 4 cm rectangle with a 5 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 174 cm²; P = 90 cm",
+        "A = 144 cm²; P = 90 cm",
+        "A = 154 cm²; P = 90 cm",
+        "A = 164 cm²; P = 90 cm"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the outer 41 cm × 4 cm rectangle and mark the removed 5 cm × 2 cm corner. Outer area = 41 × 4 = 164 cm²; removed area = 5 × 2 = 10 cm². Subtract only the removed region: A = 164 − 10 = 154 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(41 + 4) = 90 cm. Check: (41 − 5) + 5 + (4 − 2) + 2 + 41 + 4 = 90 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-m19",
+      "prompt": "An L-shaped card is a 42 cm by 7 cm rectangle with a 6 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 294 cm²; P = 98 cm",
+        "A = 300 cm²; P = 98 cm",
+        "A = 282 cm²; P = 98 cm",
+        "A = 288 cm²; P = 98 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the outer 42 cm × 7 cm rectangle and mark the removed 6 cm × 1 cm corner. Outer area = 42 × 7 = 294 cm²; removed area = 6 × 1 = 6 cm². Subtract only the removed region: A = 294 − 6 = 288 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(42 + 7) = 98 cm. Check: (42 − 6) + 6 + (7 − 1) + 1 + 42 + 7 = 98 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-m20",
+      "prompt": "An L-shaped card is a 43 cm by 10 cm rectangle with a 2 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 426 cm²; P = 106 cm",
+        "A = 430 cm²; P = 106 cm",
+        "A = 434 cm²; P = 106 cm",
+        "A = 422 cm²; P = 106 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the outer 43 cm × 10 cm rectangle and mark the removed 2 cm × 2 cm corner. Outer area = 43 × 10 = 430 cm²; removed area = 2 × 2 = 4 cm². Subtract only the removed region: A = 430 − 4 = 426 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(43 + 10) = 106 cm. Check: (43 − 2) + 2 + (10 − 2) + 2 + 43 + 10 = 106 cm.",
+      "source": "lesson-02.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-area-l02-r19",
+      "prompt": "An L-shaped card is a 44 cm by 13 cm rectangle with a 3 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 572 cm²; P = 114 cm",
+        "A = 575 cm²; P = 114 cm",
+        "A = 566 cm²; P = 114 cm",
+        "A = 569 cm²; P = 114 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the outer 44 cm × 13 cm rectangle and mark the removed 3 cm × 1 cm corner. Outer area = 44 × 13 = 572 cm²; removed area = 3 × 1 = 3 cm². Subtract only the removed region: A = 572 − 3 = 569 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(44 + 13) = 114 cm. Check: (44 − 3) + 3 + (13 − 1) + 1 + 44 + 13 = 114 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-r20",
+      "prompt": "An L-shaped card is a 45 cm by 5 cm rectangle with a 4 cm by 2 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 217 cm²; P = 100 cm",
+        "A = 225 cm²; P = 100 cm",
+        "A = 233 cm²; P = 100 cm",
+        "A = 209 cm²; P = 100 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the outer 45 cm × 5 cm rectangle and mark the removed 4 cm × 2 cm corner. Outer area = 45 × 5 = 225 cm²; removed area = 4 × 2 = 8 cm². Subtract only the removed region: A = 225 − 8 = 217 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(45 + 5) = 100 cm. Check: (45 − 4) + 4 + (5 − 2) + 2 + 45 + 5 = 100 cm.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-area-l02-r21",
+      "prompt": "An L-shaped card is a 46 cm by 8 cm rectangle with a 5 cm by 1 cm corner removed. Find its area and outside perimeter.",
+      "options": [
+        "A = 358 cm²; P = 108 cm",
+        "A = 363 cm²; P = 108 cm",
+        "A = 368 cm²; P = 108 cm",
+        "A = 373 cm²; P = 108 cm"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the outer 46 cm × 8 cm rectangle and mark the removed 5 cm × 1 cm corner. Outer area = 46 × 8 = 368 cm²; removed area = 5 × 1 = 5 cm². Subtract only the removed region: A = 368 − 5 = 363 cm². Trace the six outside boundary segments; the two added notch edges replace the two lost corner edges, so P = 2(46 + 8) = 108 cm. Check: (46 − 5) + 5 + (8 − 1) + 1 + 46 + 8 = 108 cm.",
+      "source": "lesson-02.md"
+    }
+  ]
+}

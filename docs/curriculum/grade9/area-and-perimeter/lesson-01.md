@@ -1,0 +1,297 @@
+# Grade 9 Topic 11 · Lesson 1: Polygons and SI units
+
+Authority: [DBE 2026 Grade 9 Mathematics ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2026%20ATPs/2026_ATP_Mathematics_Grade%209.pdf), Term 3. Original Athena questions.
+
+Status: teacher and browser review required. Preserve original dimensions; reveal conversion, construction, formula, calculation and check in order.
+
+## g9-area-l01-w01: A rectangular tile is 90 mm long and 7 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 9, "width": 7, "model": "rectangle_units", "length_mm": 90, "area": 63, "perimeter": 32}}
+
+1. Label the length 90 mm and width 7 cm on the rectangle.
+
+2. Convert 90 mm ÷ 10 = 9 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(9 + 7) = 32 cm.
+
+4. Area = 9 × 7 = 63 cm².
+
+5. Check: opposite sides sum to 32 cm; 9 columns of 7 square centimetres give 63 cm².
+
+**Answer:** P = 32 cm; A = 63 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w02: A rectangular tile is 100 mm long and 10 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 10, "width": 10, "model": "rectangle_units", "length_mm": 100, "area": 100, "perimeter": 40}}
+
+1. Label the length 100 mm and width 10 cm on the rectangle.
+
+2. Convert 100 mm ÷ 10 = 10 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(10 + 10) = 40 cm.
+
+4. Area = 10 × 10 = 100 cm².
+
+5. Check: opposite sides sum to 40 cm; 10 columns of 10 square centimetres give 100 cm².
+
+**Answer:** P = 40 cm; A = 100 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w03: A rectangular tile is 110 mm long and 13 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 11, "width": 13, "model": "rectangle_units", "length_mm": 110, "area": 143, "perimeter": 48}}
+
+1. Label the length 110 mm and width 13 cm on the rectangle.
+
+2. Convert 110 mm ÷ 10 = 11 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(11 + 13) = 48 cm.
+
+4. Area = 11 × 13 = 143 cm².
+
+5. Check: opposite sides sum to 48 cm; 11 columns of 13 square centimetres give 143 cm².
+
+**Answer:** P = 48 cm; A = 143 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w04: A rectangular tile is 120 mm long and 5 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 12, "width": 5, "model": "rectangle_units", "length_mm": 120, "area": 60, "perimeter": 34}}
+
+1. Label the length 120 mm and width 5 cm on the rectangle.
+
+2. Convert 120 mm ÷ 10 = 12 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(12 + 5) = 34 cm.
+
+4. Area = 12 × 5 = 60 cm².
+
+5. Check: opposite sides sum to 34 cm; 12 columns of 5 square centimetres give 60 cm².
+
+**Answer:** P = 34 cm; A = 60 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w05: A rectangular tile is 130 mm long and 8 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 13, "width": 8, "model": "rectangle_units", "length_mm": 130, "area": 104, "perimeter": 42}}
+
+1. Label the length 130 mm and width 8 cm on the rectangle.
+
+2. Convert 130 mm ÷ 10 = 13 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(13 + 8) = 42 cm.
+
+4. Area = 13 × 8 = 104 cm².
+
+5. Check: opposite sides sum to 42 cm; 13 columns of 8 square centimetres give 104 cm².
+
+**Answer:** P = 42 cm; A = 104 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w06: A rectangular tile is 140 mm long and 11 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 14, "width": 11, "model": "rectangle_units", "length_mm": 140, "area": 154, "perimeter": 50}}
+
+1. Label the length 140 mm and width 11 cm on the rectangle.
+
+2. Convert 140 mm ÷ 10 = 14 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(14 + 11) = 50 cm.
+
+4. Area = 14 × 11 = 154 cm².
+
+5. Check: opposite sides sum to 50 cm; 14 columns of 11 square centimetres give 154 cm².
+
+**Answer:** P = 50 cm; A = 154 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w07: A rectangular tile is 150 mm long and 14 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 15, "width": 14, "model": "rectangle_units", "length_mm": 150, "area": 210, "perimeter": 58}}
+
+1. Label the length 150 mm and width 14 cm on the rectangle.
+
+2. Convert 150 mm ÷ 10 = 15 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(15 + 14) = 58 cm.
+
+4. Area = 15 × 14 = 210 cm².
+
+5. Check: opposite sides sum to 58 cm; 15 columns of 14 square centimetres give 210 cm².
+
+**Answer:** P = 58 cm; A = 210 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w08: A rectangular tile is 160 mm long and 6 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 16, "width": 6, "model": "rectangle_units", "length_mm": 160, "area": 96, "perimeter": 44}}
+
+1. Label the length 160 mm and width 6 cm on the rectangle.
+
+2. Convert 160 mm ÷ 10 = 16 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(16 + 6) = 44 cm.
+
+4. Area = 16 × 6 = 96 cm².
+
+5. Check: opposite sides sum to 44 cm; 16 columns of 6 square centimetres give 96 cm².
+
+**Answer:** P = 44 cm; A = 96 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w09: A rectangular tile is 170 mm long and 9 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 17, "width": 9, "model": "rectangle_units", "length_mm": 170, "area": 153, "perimeter": 52}}
+
+1. Label the length 170 mm and width 9 cm on the rectangle.
+
+2. Convert 170 mm ÷ 10 = 17 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(17 + 9) = 52 cm.
+
+4. Area = 17 × 9 = 153 cm².
+
+5. Check: opposite sides sum to 52 cm; 17 columns of 9 square centimetres give 153 cm².
+
+**Answer:** P = 52 cm; A = 153 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w10: A rectangular tile is 180 mm long and 12 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 18, "width": 12, "model": "rectangle_units", "length_mm": 180, "area": 216, "perimeter": 60}}
+
+1. Label the length 180 mm and width 12 cm on the rectangle.
+
+2. Convert 180 mm ÷ 10 = 18 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(18 + 12) = 60 cm.
+
+4. Area = 18 × 12 = 216 cm².
+
+5. Check: opposite sides sum to 60 cm; 18 columns of 12 square centimetres give 216 cm².
+
+**Answer:** P = 60 cm; A = 216 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w11: A rectangular tile is 190 mm long and 4 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 19, "width": 4, "model": "rectangle_units", "length_mm": 190, "area": 76, "perimeter": 46}}
+
+1. Label the length 190 mm and width 4 cm on the rectangle.
+
+2. Convert 190 mm ÷ 10 = 19 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(19 + 4) = 46 cm.
+
+4. Area = 19 × 4 = 76 cm².
+
+5. Check: opposite sides sum to 46 cm; 19 columns of 4 square centimetres give 76 cm².
+
+**Answer:** P = 46 cm; A = 76 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w12: A rectangular tile is 200 mm long and 7 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 20, "width": 7, "model": "rectangle_units", "length_mm": 200, "area": 140, "perimeter": 54}}
+
+1. Label the length 200 mm and width 7 cm on the rectangle.
+
+2. Convert 200 mm ÷ 10 = 20 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(20 + 7) = 54 cm.
+
+4. Area = 20 × 7 = 140 cm².
+
+5. Check: opposite sides sum to 54 cm; 20 columns of 7 square centimetres give 140 cm².
+
+**Answer:** P = 54 cm; A = 140 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w13: A rectangular tile is 210 mm long and 10 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 21, "width": 10, "model": "rectangle_units", "length_mm": 210, "area": 210, "perimeter": 62}}
+
+1. Label the length 210 mm and width 10 cm on the rectangle.
+
+2. Convert 210 mm ÷ 10 = 21 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(21 + 10) = 62 cm.
+
+4. Area = 21 × 10 = 210 cm².
+
+5. Check: opposite sides sum to 62 cm; 21 columns of 10 square centimetres give 210 cm².
+
+**Answer:** P = 62 cm; A = 210 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w14: A rectangular tile is 220 mm long and 13 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 22, "width": 13, "model": "rectangle_units", "length_mm": 220, "area": 286, "perimeter": 70}}
+
+1. Label the length 220 mm and width 13 cm on the rectangle.
+
+2. Convert 220 mm ÷ 10 = 22 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(22 + 13) = 70 cm.
+
+4. Area = 22 × 13 = 286 cm².
+
+5. Check: opposite sides sum to 70 cm; 22 columns of 13 square centimetres give 286 cm².
+
+**Answer:** P = 70 cm; A = 286 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## g9-area-l01-w15: A rectangular tile is 230 mm long and 5 cm wide. Find its perimeter in cm and area in cm².
+
+Visual: {"family": "area", "values": {"lesson": 1, "length": 23, "width": 5, "model": "rectangle_units", "length_mm": 230, "area": 115, "perimeter": 56}}
+
+1. Label the length 230 mm and width 5 cm on the rectangle.
+
+2. Convert 230 mm ÷ 10 = 23 cm, so the two dimensions now share cm units.
+
+3. Perimeter = 2(23 + 5) = 56 cm.
+
+4. Area = 23 × 5 = 115 cm².
+
+5. Check: opposite sides sum to 56 cm; 23 columns of 5 square centimetres give 115 cm².
+
+**Answer:** P = 56 cm; A = 115 cm². **Misconception:** Keep the given lengths and units attached to the correct edges; perimeter counts boundary length, area counts square units.
+
+## Practice answer key
+
+- g9-area-l01-p01: A rectangular tile is 240 mm long and 8 cm wide. Find its perimeter in cm and area in cm². Options: P = 62 cm; A = 192 cm² | P = 64 cm; A = 192 cm² | P = 66 cm; A = 192 cm² | P = 68 cm; A = 192 cm². Correct: P = 64 cm; A = 192 cm². Label the length 240 mm and width 8 cm on the rectangle. Convert 240 mm ÷ 10 = 24 cm, so the two dimensions now share cm units. Perimeter = 2(24 + 8) = 64 cm. Area = 24 × 8 = 192 cm². Check: opposite sides sum to 64 cm; 24 columns of 8 square centimetres give 192 cm².
+
+- g9-area-l01-p02: A rectangular tile is 250 mm long and 11 cm wide. Find its perimeter in cm and area in cm². Options: P = 76 cm; A = 275 cm² | P = 70 cm; A = 275 cm² | P = 72 cm; A = 275 cm² | P = 74 cm; A = 275 cm². Correct: P = 72 cm; A = 275 cm². Label the length 250 mm and width 11 cm on the rectangle. Convert 250 mm ÷ 10 = 25 cm, so the two dimensions now share cm units. Perimeter = 2(25 + 11) = 72 cm. Area = 25 × 11 = 275 cm². Check: opposite sides sum to 72 cm; 25 columns of 11 square centimetres give 275 cm².
+
+- g9-area-l01-p03: A rectangular tile is 260 mm long and 14 cm wide. Find its perimeter in cm and area in cm². Options: P = 82 cm; A = 364 cm² | P = 84 cm; A = 364 cm² | P = 78 cm; A = 364 cm² | P = 80 cm; A = 364 cm². Correct: P = 80 cm; A = 364 cm². Label the length 260 mm and width 14 cm on the rectangle. Convert 260 mm ÷ 10 = 26 cm, so the two dimensions now share cm units. Perimeter = 2(26 + 14) = 80 cm. Area = 26 × 14 = 364 cm². Check: opposite sides sum to 80 cm; 26 columns of 14 square centimetres give 364 cm².
+
+- g9-area-l01-p04: A rectangular tile is 270 mm long and 6 cm wide. Find its perimeter in cm and area in cm². Options: P = 66 cm; A = 162 cm² | P = 68 cm; A = 162 cm² | P = 70 cm; A = 162 cm² | P = 64 cm; A = 162 cm². Correct: P = 66 cm; A = 162 cm². Label the length 270 mm and width 6 cm on the rectangle. Convert 270 mm ÷ 10 = 27 cm, so the two dimensions now share cm units. Perimeter = 2(27 + 6) = 66 cm. Area = 27 × 6 = 162 cm². Check: opposite sides sum to 66 cm; 27 columns of 6 square centimetres give 162 cm².
+
+- g9-area-l01-p05: A rectangular tile is 280 mm long and 9 cm wide. Find its perimeter in cm and area in cm². Options: P = 72 cm; A = 252 cm² | P = 74 cm; A = 252 cm² | P = 76 cm; A = 252 cm² | P = 78 cm; A = 252 cm². Correct: P = 74 cm; A = 252 cm². Label the length 280 mm and width 9 cm on the rectangle. Convert 280 mm ÷ 10 = 28 cm, so the two dimensions now share cm units. Perimeter = 2(28 + 9) = 74 cm. Area = 28 × 9 = 252 cm². Check: opposite sides sum to 74 cm; 28 columns of 9 square centimetres give 252 cm².
+
+- g9-area-l01-p06: A rectangular tile is 290 mm long and 12 cm wide. Find its perimeter in cm and area in cm². Options: P = 86 cm; A = 348 cm² | P = 80 cm; A = 348 cm² | P = 82 cm; A = 348 cm² | P = 84 cm; A = 348 cm². Correct: P = 82 cm; A = 348 cm². Label the length 290 mm and width 12 cm on the rectangle. Convert 290 mm ÷ 10 = 29 cm, so the two dimensions now share cm units. Perimeter = 2(29 + 12) = 82 cm. Area = 29 × 12 = 348 cm². Check: opposite sides sum to 82 cm; 29 columns of 12 square centimetres give 348 cm².
+
+- g9-area-l01-p07: A rectangular tile is 300 mm long and 4 cm wide. Find its perimeter in cm and area in cm². Options: P = 70 cm; A = 120 cm² | P = 72 cm; A = 120 cm² | P = 66 cm; A = 120 cm² | P = 68 cm; A = 120 cm². Correct: P = 68 cm; A = 120 cm². Label the length 300 mm and width 4 cm on the rectangle. Convert 300 mm ÷ 10 = 30 cm, so the two dimensions now share cm units. Perimeter = 2(30 + 4) = 68 cm. Area = 30 × 4 = 120 cm². Check: opposite sides sum to 68 cm; 30 columns of 4 square centimetres give 120 cm².
+
+- g9-area-l01-p08: A rectangular tile is 310 mm long and 7 cm wide. Find its perimeter in cm and area in cm². Options: P = 76 cm; A = 217 cm² | P = 78 cm; A = 217 cm² | P = 80 cm; A = 217 cm² | P = 74 cm; A = 217 cm². Correct: P = 76 cm; A = 217 cm². Label the length 310 mm and width 7 cm on the rectangle. Convert 310 mm ÷ 10 = 31 cm, so the two dimensions now share cm units. Perimeter = 2(31 + 7) = 76 cm. Area = 31 × 7 = 217 cm². Check: opposite sides sum to 76 cm; 31 columns of 7 square centimetres give 217 cm².
+
+- g9-area-l01-p09: A rectangular tile is 320 mm long and 10 cm wide. Find its perimeter in cm and area in cm². Options: P = 82 cm; A = 320 cm² | P = 84 cm; A = 320 cm² | P = 86 cm; A = 320 cm² | P = 88 cm; A = 320 cm². Correct: P = 84 cm; A = 320 cm². Label the length 320 mm and width 10 cm on the rectangle. Convert 320 mm ÷ 10 = 32 cm, so the two dimensions now share cm units. Perimeter = 2(32 + 10) = 84 cm. Area = 32 × 10 = 320 cm². Check: opposite sides sum to 84 cm; 32 columns of 10 square centimetres give 320 cm².
+
+- g9-area-l01-p10: A rectangular tile is 330 mm long and 13 cm wide. Find its perimeter in cm and area in cm². Options: P = 96 cm; A = 429 cm² | P = 90 cm; A = 429 cm² | P = 92 cm; A = 429 cm² | P = 94 cm; A = 429 cm². Correct: P = 92 cm; A = 429 cm². Label the length 330 mm and width 13 cm on the rectangle. Convert 330 mm ÷ 10 = 33 cm, so the two dimensions now share cm units. Perimeter = 2(33 + 13) = 92 cm. Area = 33 × 13 = 429 cm². Check: opposite sides sum to 92 cm; 33 columns of 13 square centimetres give 429 cm².
+
+- g9-area-l01-p11: A rectangular tile is 340 mm long and 5 cm wide. Find its perimeter in cm and area in cm². Options: P = 80 cm; A = 170 cm² | P = 82 cm; A = 170 cm² | P = 76 cm; A = 170 cm² | P = 78 cm; A = 170 cm². Correct: P = 78 cm; A = 170 cm². Label the length 340 mm and width 5 cm on the rectangle. Convert 340 mm ÷ 10 = 34 cm, so the two dimensions now share cm units. Perimeter = 2(34 + 5) = 78 cm. Area = 34 × 5 = 170 cm². Check: opposite sides sum to 78 cm; 34 columns of 5 square centimetres give 170 cm².
+
+- g9-area-l01-p12: A rectangular tile is 350 mm long and 8 cm wide. Find its perimeter in cm and area in cm². Options: P = 86 cm; A = 280 cm² | P = 88 cm; A = 280 cm² | P = 90 cm; A = 280 cm² | P = 84 cm; A = 280 cm². Correct: P = 86 cm; A = 280 cm². Label the length 350 mm and width 8 cm on the rectangle. Convert 350 mm ÷ 10 = 35 cm, so the two dimensions now share cm units. Perimeter = 2(35 + 8) = 86 cm. Area = 35 × 8 = 280 cm². Check: opposite sides sum to 86 cm; 35 columns of 8 square centimetres give 280 cm².
+
+- g9-area-l01-p13: A rectangular tile is 360 mm long and 11 cm wide. Find its perimeter in cm and area in cm². Options: P = 92 cm; A = 396 cm² | P = 94 cm; A = 396 cm² | P = 96 cm; A = 396 cm² | P = 98 cm; A = 396 cm². Correct: P = 94 cm; A = 396 cm². Label the length 360 mm and width 11 cm on the rectangle. Convert 360 mm ÷ 10 = 36 cm, so the two dimensions now share cm units. Perimeter = 2(36 + 11) = 94 cm. Area = 36 × 11 = 396 cm². Check: opposite sides sum to 94 cm; 36 columns of 11 square centimetres give 396 cm².
+
+- g9-area-l01-p14: A rectangular tile is 370 mm long and 14 cm wide. Find its perimeter in cm and area in cm². Options: P = 106 cm; A = 518 cm² | P = 100 cm; A = 518 cm² | P = 102 cm; A = 518 cm² | P = 104 cm; A = 518 cm². Correct: P = 102 cm; A = 518 cm². Label the length 370 mm and width 14 cm on the rectangle. Convert 370 mm ÷ 10 = 37 cm, so the two dimensions now share cm units. Perimeter = 2(37 + 14) = 102 cm. Area = 37 × 14 = 518 cm². Check: opposite sides sum to 102 cm; 37 columns of 14 square centimetres give 518 cm².
+
+- g9-area-l01-p15: A rectangular tile is 380 mm long and 6 cm wide. Find its perimeter in cm and area in cm². Options: P = 90 cm; A = 228 cm² | P = 92 cm; A = 228 cm² | P = 86 cm; A = 228 cm² | P = 88 cm; A = 228 cm². Correct: P = 88 cm; A = 228 cm². Label the length 380 mm and width 6 cm on the rectangle. Convert 380 mm ÷ 10 = 38 cm, so the two dimensions now share cm units. Perimeter = 2(38 + 6) = 88 cm. Area = 38 × 6 = 228 cm². Check: opposite sides sum to 88 cm; 38 columns of 6 square centimetres give 228 cm².
+
+## Mastery answer key
+
+- g9-area-l01-m16: A rectangular tile is 390 mm long and 9 cm wide. Find its perimeter in cm and area in cm². Options: P = 96 cm; A = 351 cm² | P = 98 cm; A = 351 cm² | P = 100 cm; A = 351 cm² | P = 94 cm; A = 351 cm². Correct: P = 96 cm; A = 351 cm². Label the length 390 mm and width 9 cm on the rectangle. Convert 390 mm ÷ 10 = 39 cm, so the two dimensions now share cm units. Perimeter = 2(39 + 9) = 96 cm. Area = 39 × 9 = 351 cm². Check: opposite sides sum to 96 cm; 39 columns of 9 square centimetres give 351 cm².
+
+- g9-area-l01-m17: A rectangular tile is 400 mm long and 12 cm wide. Find its perimeter in cm and area in cm². Options: P = 102 cm; A = 480 cm² | P = 104 cm; A = 480 cm² | P = 106 cm; A = 480 cm² | P = 108 cm; A = 480 cm². Correct: P = 104 cm; A = 480 cm². Label the length 400 mm and width 12 cm on the rectangle. Convert 400 mm ÷ 10 = 40 cm, so the two dimensions now share cm units. Perimeter = 2(40 + 12) = 104 cm. Area = 40 × 12 = 480 cm². Check: opposite sides sum to 104 cm; 40 columns of 12 square centimetres give 480 cm².
+
+- g9-area-l01-m18: A rectangular tile is 410 mm long and 4 cm wide. Find its perimeter in cm and area in cm². Options: P = 94 cm; A = 164 cm² | P = 88 cm; A = 164 cm² | P = 90 cm; A = 164 cm² | P = 92 cm; A = 164 cm². Correct: P = 90 cm; A = 164 cm². Label the length 410 mm and width 4 cm on the rectangle. Convert 410 mm ÷ 10 = 41 cm, so the two dimensions now share cm units. Perimeter = 2(41 + 4) = 90 cm. Area = 41 × 4 = 164 cm². Check: opposite sides sum to 90 cm; 41 columns of 4 square centimetres give 164 cm².
+
+- g9-area-l01-m19: A rectangular tile is 420 mm long and 7 cm wide. Find its perimeter in cm and area in cm². Options: P = 100 cm; A = 294 cm² | P = 102 cm; A = 294 cm² | P = 96 cm; A = 294 cm² | P = 98 cm; A = 294 cm². Correct: P = 98 cm; A = 294 cm². Label the length 420 mm and width 7 cm on the rectangle. Convert 420 mm ÷ 10 = 42 cm, so the two dimensions now share cm units. Perimeter = 2(42 + 7) = 98 cm. Area = 42 × 7 = 294 cm². Check: opposite sides sum to 98 cm; 42 columns of 7 square centimetres give 294 cm².
+
+- g9-area-l01-m20: A rectangular tile is 430 mm long and 10 cm wide. Find its perimeter in cm and area in cm². Options: P = 106 cm; A = 430 cm² | P = 108 cm; A = 430 cm² | P = 110 cm; A = 430 cm² | P = 104 cm; A = 430 cm². Correct: P = 106 cm; A = 430 cm². Label the length 430 mm and width 10 cm on the rectangle. Convert 430 mm ÷ 10 = 43 cm, so the two dimensions now share cm units. Perimeter = 2(43 + 10) = 106 cm. Area = 43 × 10 = 430 cm². Check: opposite sides sum to 106 cm; 43 columns of 10 square centimetres give 430 cm².
+
+## Changed-value reassessment answer key
+
+- g9-area-l01-r19: A rectangular tile is 440 mm long and 13 cm wide. Find its perimeter in cm and area in cm². Options: P = 116 cm; A = 572 cm² | P = 118 cm; A = 572 cm² | P = 112 cm; A = 572 cm² | P = 114 cm; A = 572 cm². Correct: P = 114 cm; A = 572 cm². Label the length 440 mm and width 13 cm on the rectangle. Convert 440 mm ÷ 10 = 44 cm, so the two dimensions now share cm units. Perimeter = 2(44 + 13) = 114 cm. Area = 44 × 13 = 572 cm². Check: opposite sides sum to 114 cm; 44 columns of 13 square centimetres give 572 cm².
+
+- g9-area-l01-r20: A rectangular tile is 450 mm long and 5 cm wide. Find its perimeter in cm and area in cm². Options: P = 100 cm; A = 225 cm² | P = 102 cm; A = 225 cm² | P = 104 cm; A = 225 cm² | P = 98 cm; A = 225 cm². Correct: P = 100 cm; A = 225 cm². Label the length 450 mm and width 5 cm on the rectangle. Convert 450 mm ÷ 10 = 45 cm, so the two dimensions now share cm units. Perimeter = 2(45 + 5) = 100 cm. Area = 45 × 5 = 225 cm². Check: opposite sides sum to 100 cm; 45 columns of 5 square centimetres give 225 cm².
+
+- g9-area-l01-r21: A rectangular tile is 460 mm long and 8 cm wide. Find its perimeter in cm and area in cm². Options: P = 106 cm; A = 368 cm² | P = 108 cm; A = 368 cm² | P = 110 cm; A = 368 cm² | P = 112 cm; A = 368 cm². Correct: P = 108 cm; A = 368 cm². Label the length 460 mm and width 8 cm on the rectangle. Convert 460 mm ÷ 10 = 46 cm, so the two dimensions now share cm units. Perimeter = 2(46 + 8) = 108 cm. Area = 46 × 8 = 368 cm². Check: opposite sides sum to 108 cm; 46 columns of 8 square centimetres give 368 cm².

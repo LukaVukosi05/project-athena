@@ -1509,6 +1509,56 @@
               "source_document": "lesson-08.md"
             }
           ]
+        },
+        {
+          "topic_id": "area-and-perimeter",
+          "topic_number": 11,
+          "title": "Area and Perimeter",
+          "paper": null,
+          "expected_lesson_count": 5,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-area-01",
+              "position": 1,
+              "title": "Polygons and SI units",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g9-area-02",
+              "position": 2,
+              "title": "Composite polygon decomposition",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g9-area-03",
+              "position": 3,
+              "title": "Circles and circumference",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g9-area-04",
+              "position": 4,
+              "title": "Changing dimensions and scale",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g9-area-05",
+              "position": 5,
+              "title": "Applied mixed cases and reassessment",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05.md"
+            }
+          ]
         }
       ]
     },

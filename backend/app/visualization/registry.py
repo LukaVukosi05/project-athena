@@ -1,6 +1,7 @@
 """Allow-listed, parameter-validated mathematical visualization catalogue."""
 from dataclasses import dataclass
 from collections.abc import Callable
+import math
 import re
 
 from app.curriculum.schemas import WhiteboardBlock
@@ -23,7 +24,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -636,6 +637,41 @@ def _grade9_whole_board(parameters: dict, family: str) -> None:
         or scene.get('actions') is None or len(scene['actions'])!=parameters['total_steps']
         or not 3<=parameters['total_steps']<=18):
         raise ValueError('Grade 9 source scene, question and step count disagree')
+    if family.startswith('area_'):
+        number=int(family.rsplit('_',1)[-1]);visual=scene.get('visual',{});v=visual.get('values',{})
+        if (scene.get('lesson')!=number or visual.get('family')!='area' or v.get('lesson')!=number
+            or len(scene.get('actions',[]))!=5 or scene['actions'][-1]!=scene.get('check')):
+            raise ValueError('Area scene, five stages and original question must agree')
+        def integer(key):
+            value=v.get(key)
+            if type(value) is not int or not 0<value<10000:raise ValueError(f'Invalid area {key}')
+            return value
+        L,W=integer('length'),integer('width')
+        if number==1:
+            perimeter=2*(L+W);area=L*W
+            valid=(v.get('model')=='rectangle_units' and v.get('length_mm')==10*L and v.get('area')==area and v.get('perimeter')==perimeter
+                and scene['answer']==f'P = {perimeter} cm; A = {area} cm²')
+        elif number==2:
+            cut_w,cut_h=integer('cut_width'),integer('cut_height');area=L*W-cut_w*cut_h;perimeter=2*(L+W)
+            valid=(v.get('model')=='l_shape' and cut_w<L and cut_h<W and v.get('area')==area and v.get('perimeter')==perimeter
+                and scene['answer']==f'A = {area} cm²; P = {perimeter} cm')
+        elif number==3:
+            radius=integer('radius');valid=(v.get('model')=='circle' and v.get('diameter')==2*radius and v.get('circumference_coefficient')==2*radius
+                and v.get('area_coefficient')==radius*radius and scene['answer']==f'd = {2*radius} cm; C = {2*radius}π cm ≈ {math.pi*2*radius:.2f} cm; A = {radius*radius}π cm² ≈ {math.pi*radius*radius:.2f} cm²')
+        elif number==4:
+            k=integer('factor');mode=v.get('mode')
+            new_l=L*(k if mode in ('both','length_only') else 1);new_w=W*(k if mode in ('both','width_only') else 1)
+            valid=(v.get('model')=='scaled_rectangle' and mode in {'both','length_only','width_only'} and k==2
+                and v.get('scaled_length')==new_l and v.get('scaled_width')==new_w
+                and v.get('old_perimeter')==2*(L+W) and v.get('old_area')==L*W
+                and v.get('new_perimeter')==2*(new_l+new_w) and v.get('new_area')==new_l*new_w
+                and scene['answer']==f'P = {2*(new_l+new_w)} cm; A = {new_l*new_w} cm²')
+        else:
+            path=integer('path');outer_l,outer_w=L+2*path,W+2*path;area=outer_l*outer_w-L*W;fence=2*(outer_l+outer_w)
+            valid=(v.get('model')=='garden_path' and v.get('outer_length')==outer_l and v.get('outer_width')==outer_w
+                and v.get('path_area')==area and v.get('fence')==fence and scene['answer']==f'path = {area} m²; fence = {fence} m')
+        if not valid:raise ValueError('Area measure, unit or figure disagrees with the question')
+        return
     if family.startswith('shapes_'):
         number=int(family.rsplit('_',1)[-1]);visual=scene.get('visual',{});v=visual.get('values',{})
         if (scene.get('lesson')!=number or visual.get('family')!='shapes' or v.get('lesson')!=number
@@ -1214,6 +1250,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'expression_{n}'),True)
        for n in range(1,10)},
+    **{("geometry",f"grade9_area_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade9_whole_board(p,f'area_{n}'),True)
+       for n in range(1,6)},
     **{("geometry",f"grade9_shapes_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'shapes_{n}'),True)
