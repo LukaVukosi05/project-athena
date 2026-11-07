@@ -1,0 +1,74 @@
+[
+  {
+    "lesson_id": "g9-equations-01",
+    "source": "lesson-01.md",
+    "source_sha256": "3c9ff50e0fc02c351532fd1f273fc938856e4c67afd2dfe579954b6feac043ca",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-equations-02",
+    "source": "lesson-02.md",
+    "source_sha256": "634ede3fe79e595aef2f44ace86d286060235bba87cb2c46af057774b62761f6",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-equations-03",
+    "source": "lesson-03.md",
+    "source_sha256": "83c190a8d1d2f32697c7b2f06544b0d7f6720e69bdfc4cab18859d03fc30c766",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-equations-04",
+    "source": "lesson-04.md",
+    "source_sha256": "debd53b1126664f3b8cf00e48c07d1b286fe1ebd2628f4582ac8a4cb32a95499",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-equations-05",
+    "source": "lesson-05.md",
+    "source_sha256": "11b6eb44123538867fb6dbe2a6dc83f7c96e931fc4f6c27074242e784218df00",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-equations-06",
+    "source": "lesson-06.md",
+    "source_sha256": "6574bfbc119e0f5d92a906570d5d8d8b9550eca57b57ce4735531f860e04367f",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

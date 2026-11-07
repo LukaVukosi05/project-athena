@@ -1,0 +1,760 @@
+{
+  "source": "lesson-01.md",
+  "worked": [
+    {
+      "id": "g9-eq-l01-w01",
+      "problem": "A taxi group has 3 equal groups of learners and 4 helpers, 13 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 3 equal group boxes labelled x and a separate box of 4 helpers.",
+        "The total gives 3x + 4 = 13.",
+        "Subtract 4 from both sides: 3x = 9.",
+        "Divide both sides by 3: x = 3.",
+        "Check: 3(3) + 4 = 13."
+      ],
+      "answer": "x = 3 learners per group",
+      "check": "Check: 3(3) + 4 = 13.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "3",
+          "4",
+          "13"
+        ],
+        "values": {
+          "multiplier": 3,
+          "offset": 4,
+          "total": 13,
+          "solution": 3
+        }
+      },
+      "lesson": 1,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-eq-l01-w02",
+      "problem": "A study group has 4 equal groups of learners and 5 helpers, 21 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 4 equal group boxes labelled x and a separate box of 5 helpers.",
+        "The total gives 4x + 5 = 21.",
+        "Subtract 5 from both sides: 4x = 16.",
+        "Divide both sides by 4: x = 4.",
+        "Check: 4(4) + 5 = 21."
+      ],
+      "answer": "x = 4 learners per group",
+      "check": "Check: 4(4) + 5 = 21.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "4",
+          "5",
+          "21"
+        ],
+        "values": {
+          "multiplier": 4,
+          "offset": 5,
+          "total": 21,
+          "solution": 4
+        }
+      },
+      "lesson": 1,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-eq-l01-w03",
+      "problem": "A library has 5 equal groups of learners and 6 helpers, 31 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 5 equal group boxes labelled x and a separate box of 6 helpers.",
+        "The total gives 5x + 6 = 31.",
+        "Subtract 6 from both sides: 5x = 25.",
+        "Divide both sides by 5: x = 5.",
+        "Check: 5(5) + 6 = 31."
+      ],
+      "answer": "x = 5 learners per group",
+      "check": "Check: 5(5) + 6 = 31.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "5",
+          "6",
+          "31"
+        ],
+        "values": {
+          "multiplier": 5,
+          "offset": 6,
+          "total": 31,
+          "solution": 5
+        }
+      },
+      "lesson": 1,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-eq-l01-w04",
+      "problem": "A school club has 6 equal groups of learners and 7 helpers, 43 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 6 equal group boxes labelled x and a separate box of 7 helpers.",
+        "The total gives 6x + 7 = 43.",
+        "Subtract 7 from both sides: 6x = 36.",
+        "Divide both sides by 6: x = 6.",
+        "Check: 6(6) + 7 = 43."
+      ],
+      "answer": "x = 6 learners per group",
+      "check": "Check: 6(6) + 7 = 43.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "6",
+          "7",
+          "43"
+        ],
+        "values": {
+          "multiplier": 6,
+          "offset": 7,
+          "total": 43,
+          "solution": 6
+        }
+      },
+      "lesson": 1,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-eq-l01-w05",
+      "problem": "A taxi group has 2 equal groups of learners and 8 helpers, 22 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 2 equal group boxes labelled x and a separate box of 8 helpers.",
+        "The total gives 2x + 8 = 22.",
+        "Subtract 8 from both sides: 2x = 14.",
+        "Divide both sides by 2: x = 7.",
+        "Check: 2(7) + 8 = 22."
+      ],
+      "answer": "x = 7 learners per group",
+      "check": "Check: 2(7) + 8 = 22.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "2",
+          "8",
+          "22"
+        ],
+        "values": {
+          "multiplier": 2,
+          "offset": 8,
+          "total": 22,
+          "solution": 7
+        }
+      },
+      "lesson": 1,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-eq-l01-w06",
+      "problem": "A study group has 3 equal groups of learners and 9 helpers, 33 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 3 equal group boxes labelled x and a separate box of 9 helpers.",
+        "The total gives 3x + 9 = 33.",
+        "Subtract 9 from both sides: 3x = 24.",
+        "Divide both sides by 3: x = 8.",
+        "Check: 3(8) + 9 = 33."
+      ],
+      "answer": "x = 8 learners per group",
+      "check": "Check: 3(8) + 9 = 33.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "3",
+          "9",
+          "33"
+        ],
+        "values": {
+          "multiplier": 3,
+          "offset": 9,
+          "total": 33,
+          "solution": 8
+        }
+      },
+      "lesson": 1,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-eq-l01-w07",
+      "problem": "A library has 4 equal groups of learners and 10 helpers, 46 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 4 equal group boxes labelled x and a separate box of 10 helpers.",
+        "The total gives 4x + 10 = 46.",
+        "Subtract 10 from both sides: 4x = 36.",
+        "Divide both sides by 4: x = 9.",
+        "Check: 4(9) + 10 = 46."
+      ],
+      "answer": "x = 9 learners per group",
+      "check": "Check: 4(9) + 10 = 46.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "4",
+          "10",
+          "46"
+        ],
+        "values": {
+          "multiplier": 4,
+          "offset": 10,
+          "total": 46,
+          "solution": 9
+        }
+      },
+      "lesson": 1,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-eq-l01-w08",
+      "problem": "A school club has 5 equal groups of learners and 11 helpers, 61 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 5 equal group boxes labelled x and a separate box of 11 helpers.",
+        "The total gives 5x + 11 = 61.",
+        "Subtract 11 from both sides: 5x = 50.",
+        "Divide both sides by 5: x = 10.",
+        "Check: 5(10) + 11 = 61."
+      ],
+      "answer": "x = 10 learners per group",
+      "check": "Check: 5(10) + 11 = 61.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "5",
+          "11",
+          "61"
+        ],
+        "values": {
+          "multiplier": 5,
+          "offset": 11,
+          "total": 61,
+          "solution": 10
+        }
+      },
+      "lesson": 1,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-eq-l01-w09",
+      "problem": "A taxi group has 6 equal groups of learners and 3 helpers, 69 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 6 equal group boxes labelled x and a separate box of 3 helpers.",
+        "The total gives 6x + 3 = 69.",
+        "Subtract 3 from both sides: 6x = 66.",
+        "Divide both sides by 6: x = 11.",
+        "Check: 6(11) + 3 = 69."
+      ],
+      "answer": "x = 11 learners per group",
+      "check": "Check: 6(11) + 3 = 69.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "6",
+          "3",
+          "69"
+        ],
+        "values": {
+          "multiplier": 6,
+          "offset": 3,
+          "total": 69,
+          "solution": 11
+        }
+      },
+      "lesson": 1,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-eq-l01-w10",
+      "problem": "A study group has 2 equal groups of learners and 4 helpers, 28 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 2 equal group boxes labelled x and a separate box of 4 helpers.",
+        "The total gives 2x + 4 = 28.",
+        "Subtract 4 from both sides: 2x = 24.",
+        "Divide both sides by 2: x = 12.",
+        "Check: 2(12) + 4 = 28."
+      ],
+      "answer": "x = 12 learners per group",
+      "check": "Check: 2(12) + 4 = 28.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "2",
+          "4",
+          "28"
+        ],
+        "values": {
+          "multiplier": 2,
+          "offset": 4,
+          "total": 28,
+          "solution": 12
+        }
+      },
+      "lesson": 1,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-eq-l01-w11",
+      "problem": "A library has 3 equal groups of learners and 5 helpers, 44 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 3 equal group boxes labelled x and a separate box of 5 helpers.",
+        "The total gives 3x + 5 = 44.",
+        "Subtract 5 from both sides: 3x = 39.",
+        "Divide both sides by 3: x = 13.",
+        "Check: 3(13) + 5 = 44."
+      ],
+      "answer": "x = 13 learners per group",
+      "check": "Check: 3(13) + 5 = 44.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "3",
+          "5",
+          "44"
+        ],
+        "values": {
+          "multiplier": 3,
+          "offset": 5,
+          "total": 44,
+          "solution": 13
+        }
+      },
+      "lesson": 1,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-eq-l01-w12",
+      "problem": "A school club has 4 equal groups of learners and 6 helpers, 62 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 4 equal group boxes labelled x and a separate box of 6 helpers.",
+        "The total gives 4x + 6 = 62.",
+        "Subtract 6 from both sides: 4x = 56.",
+        "Divide both sides by 4: x = 14.",
+        "Check: 4(14) + 6 = 62."
+      ],
+      "answer": "x = 14 learners per group",
+      "check": "Check: 4(14) + 6 = 62.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "4",
+          "6",
+          "62"
+        ],
+        "values": {
+          "multiplier": 4,
+          "offset": 6,
+          "total": 62,
+          "solution": 14
+        }
+      },
+      "lesson": 1,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-eq-l01-w13",
+      "problem": "A taxi group has 5 equal groups of learners and 7 helpers, 17 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 5 equal group boxes labelled x and a separate box of 7 helpers.",
+        "The total gives 5x + 7 = 17.",
+        "Subtract 7 from both sides: 5x = 10.",
+        "Divide both sides by 5: x = 2.",
+        "Check: 5(2) + 7 = 17."
+      ],
+      "answer": "x = 2 learners per group",
+      "check": "Check: 5(2) + 7 = 17.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "5",
+          "7",
+          "17"
+        ],
+        "values": {
+          "multiplier": 5,
+          "offset": 7,
+          "total": 17,
+          "solution": 2
+        }
+      },
+      "lesson": 1,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-eq-l01-w14",
+      "problem": "A study group has 6 equal groups of learners and 8 helpers, 26 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 6 equal group boxes labelled x and a separate box of 8 helpers.",
+        "The total gives 6x + 8 = 26.",
+        "Subtract 8 from both sides: 6x = 18.",
+        "Divide both sides by 6: x = 3.",
+        "Check: 6(3) + 8 = 26."
+      ],
+      "answer": "x = 3 learners per group",
+      "check": "Check: 6(3) + 8 = 26.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "6",
+          "8",
+          "26"
+        ],
+        "values": {
+          "multiplier": 6,
+          "offset": 8,
+          "total": 26,
+          "solution": 3
+        }
+      },
+      "lesson": 1,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-eq-l01-w15",
+      "problem": "A library has 2 equal groups of learners and 9 helpers, 17 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "actions": [
+        "Draw 2 equal group boxes labelled x and a separate box of 9 helpers.",
+        "The total gives 2x + 9 = 17.",
+        "Subtract 9 from both sides: 2x = 8.",
+        "Divide both sides by 2: x = 4.",
+        "Check: 2(4) + 9 = 17."
+      ],
+      "answer": "x = 4 learners per group",
+      "check": "Check: 2(4) + 9 = 17.",
+      "misconception": "Keep helpers outside the equal groups; the unknown counts one group.",
+      "visual": {
+        "family": "groups",
+        "givens": [
+          "2",
+          "9",
+          "17"
+        ],
+        "values": {
+          "multiplier": 2,
+          "offset": 9,
+          "total": 17,
+          "solution": 4
+        }
+      },
+      "lesson": 1,
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-eq-l01-p01",
+      "prompt": "A school club has 6 equal groups of learners and 9 helpers, 87 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = -13 learners per group",
+        "x = 13 learners per group",
+        "x = 14 learners per group",
+        "x = 12 learners per group"
+      ],
+      "answer_index": 1,
+      "memo": "Draw 6 equal group boxes labelled x and a separate box of 9 helpers.. The total gives 6x + 9 = 87.. Subtract 9 from both sides: 6x = 78.. Divide both sides by 6: x = 13.. Check: 6(13) + 9 = 87.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p02",
+      "prompt": "A taxi group has 2 equal groups of learners and 10 helpers, 38 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 13 learners per group",
+        "x = -14 learners per group",
+        "x = 14 learners per group",
+        "x = 15 learners per group"
+      ],
+      "answer_index": 2,
+      "memo": "Draw 2 equal group boxes labelled x and a separate box of 10 helpers.. The total gives 2x + 10 = 38.. Subtract 10 from both sides: 2x = 28.. Divide both sides by 2: x = 14.. Check: 2(14) + 10 = 38.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p03",
+      "prompt": "A study group has 3 equal groups of learners and 11 helpers, 17 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 3 learners per group",
+        "x = 1 learners per group",
+        "x = -2 learners per group",
+        "x = 2 learners per group"
+      ],
+      "answer_index": 3,
+      "memo": "Draw 3 equal group boxes labelled x and a separate box of 11 helpers.. The total gives 3x + 11 = 17.. Subtract 11 from both sides: 3x = 6.. Divide both sides by 3: x = 2.. Check: 3(2) + 11 = 17.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p04",
+      "prompt": "A library has 4 equal groups of learners and 3 helpers, 15 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 3 learners per group",
+        "x = 4 learners per group",
+        "x = 2 learners per group",
+        "x = -3 learners per group"
+      ],
+      "answer_index": 0,
+      "memo": "Draw 4 equal group boxes labelled x and a separate box of 3 helpers.. The total gives 4x + 3 = 15.. Subtract 3 from both sides: 4x = 12.. Divide both sides by 4: x = 3.. Check: 4(3) + 3 = 15.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p05",
+      "prompt": "A school club has 5 equal groups of learners and 4 helpers, 24 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = -4 learners per group",
+        "x = 4 learners per group",
+        "x = 5 learners per group",
+        "x = 3 learners per group"
+      ],
+      "answer_index": 1,
+      "memo": "Draw 5 equal group boxes labelled x and a separate box of 4 helpers.. The total gives 5x + 4 = 24.. Subtract 4 from both sides: 5x = 20.. Divide both sides by 5: x = 4.. Check: 5(4) + 4 = 24.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p06",
+      "prompt": "A taxi group has 6 equal groups of learners and 5 helpers, 35 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 4 learners per group",
+        "x = -5 learners per group",
+        "x = 5 learners per group",
+        "x = 6 learners per group"
+      ],
+      "answer_index": 2,
+      "memo": "Draw 6 equal group boxes labelled x and a separate box of 5 helpers.. The total gives 6x + 5 = 35.. Subtract 5 from both sides: 6x = 30.. Divide both sides by 6: x = 5.. Check: 6(5) + 5 = 35.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p07",
+      "prompt": "A study group has 2 equal groups of learners and 6 helpers, 18 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 7 learners per group",
+        "x = 5 learners per group",
+        "x = -6 learners per group",
+        "x = 6 learners per group"
+      ],
+      "answer_index": 3,
+      "memo": "Draw 2 equal group boxes labelled x and a separate box of 6 helpers.. The total gives 2x + 6 = 18.. Subtract 6 from both sides: 2x = 12.. Divide both sides by 2: x = 6.. Check: 2(6) + 6 = 18.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p08",
+      "prompt": "A library has 3 equal groups of learners and 7 helpers, 28 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 7 learners per group",
+        "x = 8 learners per group",
+        "x = 6 learners per group",
+        "x = -7 learners per group"
+      ],
+      "answer_index": 0,
+      "memo": "Draw 3 equal group boxes labelled x and a separate box of 7 helpers.. The total gives 3x + 7 = 28.. Subtract 7 from both sides: 3x = 21.. Divide both sides by 3: x = 7.. Check: 3(7) + 7 = 28.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p09",
+      "prompt": "A school club has 4 equal groups of learners and 8 helpers, 40 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = -8 learners per group",
+        "x = 8 learners per group",
+        "x = 9 learners per group",
+        "x = 7 learners per group"
+      ],
+      "answer_index": 1,
+      "memo": "Draw 4 equal group boxes labelled x and a separate box of 8 helpers.. The total gives 4x + 8 = 40.. Subtract 8 from both sides: 4x = 32.. Divide both sides by 4: x = 8.. Check: 4(8) + 8 = 40.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p10",
+      "prompt": "A taxi group has 5 equal groups of learners and 9 helpers, 54 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 8 learners per group",
+        "x = -9 learners per group",
+        "x = 9 learners per group",
+        "x = 10 learners per group"
+      ],
+      "answer_index": 2,
+      "memo": "Draw 5 equal group boxes labelled x and a separate box of 9 helpers.. The total gives 5x + 9 = 54.. Subtract 9 from both sides: 5x = 45.. Divide both sides by 5: x = 9.. Check: 5(9) + 9 = 54.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p11",
+      "prompt": "A study group has 6 equal groups of learners and 10 helpers, 70 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 11 learners per group",
+        "x = 9 learners per group",
+        "x = -10 learners per group",
+        "x = 10 learners per group"
+      ],
+      "answer_index": 3,
+      "memo": "Draw 6 equal group boxes labelled x and a separate box of 10 helpers.. The total gives 6x + 10 = 70.. Subtract 10 from both sides: 6x = 60.. Divide both sides by 6: x = 10.. Check: 6(10) + 10 = 70.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p12",
+      "prompt": "A library has 2 equal groups of learners and 11 helpers, 33 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 11 learners per group",
+        "x = 12 learners per group",
+        "x = 10 learners per group",
+        "x = -11 learners per group"
+      ],
+      "answer_index": 0,
+      "memo": "Draw 2 equal group boxes labelled x and a separate box of 11 helpers.. The total gives 2x + 11 = 33.. Subtract 11 from both sides: 2x = 22.. Divide both sides by 2: x = 11.. Check: 2(11) + 11 = 33.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p13",
+      "prompt": "A school club has 3 equal groups of learners and 3 helpers, 39 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = -12 learners per group",
+        "x = 12 learners per group",
+        "x = 13 learners per group",
+        "x = 11 learners per group"
+      ],
+      "answer_index": 1,
+      "memo": "Draw 3 equal group boxes labelled x and a separate box of 3 helpers.. The total gives 3x + 3 = 39.. Subtract 3 from both sides: 3x = 36.. Divide both sides by 3: x = 12.. Check: 3(12) + 3 = 39.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p14",
+      "prompt": "A taxi group has 4 equal groups of learners and 4 helpers, 56 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 12 learners per group",
+        "x = -13 learners per group",
+        "x = 13 learners per group",
+        "x = 14 learners per group"
+      ],
+      "answer_index": 2,
+      "memo": "Draw 4 equal group boxes labelled x and a separate box of 4 helpers.. The total gives 4x + 4 = 56.. Subtract 4 from both sides: 4x = 52.. Divide both sides by 4: x = 13.. Check: 4(13) + 4 = 56.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-p15",
+      "prompt": "A study group has 5 equal groups of learners and 5 helpers, 75 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 15 learners per group",
+        "x = 13 learners per group",
+        "x = -14 learners per group",
+        "x = 14 learners per group"
+      ],
+      "answer_index": 3,
+      "memo": "Draw 5 equal group boxes labelled x and a separate box of 5 helpers.. The total gives 5x + 5 = 75.. Subtract 5 from both sides: 5x = 70.. Divide both sides by 5: x = 14.. Check: 5(14) + 5 = 75.",
+      "source": "lesson-01.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-eq-l01-m16",
+      "prompt": "A study group has 4 equal groups of learners and 11 helpers, 59 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 12 learners per group",
+        "x = 13 learners per group",
+        "x = 11 learners per group",
+        "x = -12 learners per group"
+      ],
+      "answer_index": 0,
+      "memo": "Draw 4 equal group boxes labelled x and a separate box of 11 helpers.. The total gives 4x + 11 = 59.. Subtract 11 from both sides: 4x = 48.. Divide both sides by 4: x = 12.. Check: 4(12) + 11 = 59.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-m17",
+      "prompt": "A library has 5 equal groups of learners and 3 helpers, 68 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = -13 learners per group",
+        "x = 13 learners per group",
+        "x = 14 learners per group",
+        "x = 12 learners per group"
+      ],
+      "answer_index": 1,
+      "memo": "Draw 5 equal group boxes labelled x and a separate box of 3 helpers.. The total gives 5x + 3 = 68.. Subtract 3 from both sides: 5x = 65.. Divide both sides by 5: x = 13.. Check: 5(13) + 3 = 68.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-m18",
+      "prompt": "A school club has 6 equal groups of learners and 4 helpers, 88 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 13 learners per group",
+        "x = -14 learners per group",
+        "x = 14 learners per group",
+        "x = 15 learners per group"
+      ],
+      "answer_index": 2,
+      "memo": "Draw 6 equal group boxes labelled x and a separate box of 4 helpers.. The total gives 6x + 4 = 88.. Subtract 4 from both sides: 6x = 84.. Divide both sides by 6: x = 14.. Check: 6(14) + 4 = 88.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-m19",
+      "prompt": "A taxi group has 2 equal groups of learners and 5 helpers, 9 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 3 learners per group",
+        "x = 1 learners per group",
+        "x = -2 learners per group",
+        "x = 2 learners per group"
+      ],
+      "answer_index": 3,
+      "memo": "Draw 2 equal group boxes labelled x and a separate box of 5 helpers.. The total gives 2x + 5 = 9.. Subtract 5 from both sides: 2x = 4.. Divide both sides by 2: x = 2.. Check: 2(2) + 5 = 9.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-m20",
+      "prompt": "A study group has 3 equal groups of learners and 6 helpers, 15 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 3 learners per group",
+        "x = 4 learners per group",
+        "x = 2 learners per group",
+        "x = -3 learners per group"
+      ],
+      "answer_index": 0,
+      "memo": "Draw 3 equal group boxes labelled x and a separate box of 6 helpers.. The total gives 3x + 6 = 15.. Subtract 6 from both sides: 3x = 9.. Divide both sides by 3: x = 3.. Check: 3(3) + 6 = 15.",
+      "source": "lesson-01.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-eq-l01-r19",
+      "prompt": "A school club has 5 equal groups of learners and 10 helpers, 70 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 13 learners per group",
+        "x = 11 learners per group",
+        "x = -12 learners per group",
+        "x = 12 learners per group"
+      ],
+      "answer_index": 3,
+      "memo": "Draw 5 equal group boxes labelled x and a separate box of 10 helpers.. The total gives 5x + 10 = 70.. Subtract 10 from both sides: 5x = 60.. Divide both sides by 5: x = 12.. Check: 5(12) + 10 = 70.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-r20",
+      "prompt": "A taxi group has 6 equal groups of learners and 11 helpers, 89 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = 13 learners per group",
+        "x = 14 learners per group",
+        "x = 12 learners per group",
+        "x = -13 learners per group"
+      ],
+      "answer_index": 0,
+      "memo": "Draw 6 equal group boxes labelled x and a separate box of 11 helpers.. The total gives 6x + 11 = 89.. Subtract 11 from both sides: 6x = 78.. Divide both sides by 6: x = 13.. Check: 6(13) + 11 = 89.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-eq-l01-r21",
+      "prompt": "A study group has 2 equal groups of learners and 3 helpers, 31 people altogether. Let x be the number in each group. Form an equation and find x.",
+      "options": [
+        "x = -14 learners per group",
+        "x = 14 learners per group",
+        "x = 15 learners per group",
+        "x = 13 learners per group"
+      ],
+      "answer_index": 1,
+      "memo": "Draw 2 equal group boxes labelled x and a separate box of 3 helpers.. The total gives 2x + 3 = 31.. Subtract 3 from both sides: 2x = 28.. Divide both sides by 2: x = 14.. Check: 2(14) + 3 = 31.",
+      "source": "lesson-01.md"
+    }
+  ]
+}

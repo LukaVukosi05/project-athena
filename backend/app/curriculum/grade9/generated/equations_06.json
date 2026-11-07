@@ -1,0 +1,855 @@
+{
+  "source": "lesson-06.md",
+  "worked": [
+    {
+      "id": "g9-eq-l06-w01",
+      "problem": "The rule is y = 3x + 4. Complete the outputs for x = 2 and x = 4, then find x when y = 13.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 2, 4 and the unknown input.",
+        "For x = 2, y = 3(2) + 4 = 10; write (2, 10).",
+        "For x = 4, y = 3(4) + 4 = 16; write (4, 16).",
+        "For y = 13, solve 3x + 4 = 13: x = 3.",
+        "Check: 3(3) + 4 = 13; the ordered pair is (3, 13)."
+      ],
+      "answer": "x = 3",
+      "check": "Check: 3(3) + 4 = 13; the ordered pair is (3, 13).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 3x + 4",
+          "2",
+          "4",
+          "13"
+        ],
+        "values": {
+          "multiplier": 3,
+          "offset": 4,
+          "input_one": 2,
+          "input_two": 4,
+          "out_one": 10,
+          "out_two": 16,
+          "target": 13,
+          "solution": 3,
+          "diagnostic": false
+        }
+      },
+      "lesson": 6,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-eq-l06-w02",
+      "problem": "The rule is y = 4x + 5. Complete the outputs for x = 3 and x = 5, then find x when y = 21.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 3, 5 and the unknown input.",
+        "For x = 3, y = 4(3) + 5 = 17; write (3, 17).",
+        "For x = 5, y = 4(5) + 5 = 25; write (5, 25).",
+        "For y = 21, solve 4x + 5 = 21: x = 4.",
+        "Check: 4(4) + 5 = 21; the ordered pair is (4, 21)."
+      ],
+      "answer": "x = 4",
+      "check": "Check: 4(4) + 5 = 21; the ordered pair is (4, 21).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 4x + 5",
+          "3",
+          "5",
+          "21"
+        ],
+        "values": {
+          "multiplier": 4,
+          "offset": 5,
+          "input_one": 3,
+          "input_two": 5,
+          "out_one": 17,
+          "out_two": 25,
+          "target": 21,
+          "solution": 4,
+          "diagnostic": false
+        }
+      },
+      "lesson": 6,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-eq-l06-w03",
+      "problem": "The rule is y = 5x + 6. Complete the outputs for x = 4 and x = 6, then find x when y = 31.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 4, 6 and the unknown input.",
+        "For x = 4, y = 5(4) + 6 = 26; write (4, 26).",
+        "For x = 6, y = 5(6) + 6 = 36; write (6, 36).",
+        "For y = 31, solve 5x + 6 = 31: x = 5.",
+        "Check: 5(5) + 6 = 31; the ordered pair is (5, 31)."
+      ],
+      "answer": "x = 5",
+      "check": "Check: 5(5) + 6 = 31; the ordered pair is (5, 31).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 5x + 6",
+          "4",
+          "6",
+          "31"
+        ],
+        "values": {
+          "multiplier": 5,
+          "offset": 6,
+          "input_one": 4,
+          "input_two": 6,
+          "out_one": 26,
+          "out_two": 36,
+          "target": 31,
+          "solution": 5,
+          "diagnostic": false
+        }
+      },
+      "lesson": 6,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-eq-l06-w04",
+      "problem": "The rule is y = 6x + 7. Complete the outputs for x = 1 and x = 3, then find x when y = -29.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 1, 3 and the unknown input.",
+        "For x = 1, y = 6(1) + 7 = 13; write (1, 13).",
+        "For x = 3, y = 6(3) + 7 = 25; write (3, 25).",
+        "For y = -29, solve 6x + 7 = -29: x = -6.",
+        "Check: 6(-6) + 7 = -29; the ordered pair is (-6, -29)."
+      ],
+      "answer": "x = -6",
+      "check": "Check: 6(-6) + 7 = -29; the ordered pair is (-6, -29).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 6x + 7",
+          "1",
+          "3",
+          "-29"
+        ],
+        "values": {
+          "multiplier": 6,
+          "offset": 7,
+          "input_one": 1,
+          "input_two": 3,
+          "out_one": 13,
+          "out_two": 25,
+          "target": -29,
+          "solution": -6,
+          "diagnostic": false
+        }
+      },
+      "lesson": 6,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-eq-l06-w05",
+      "problem": "The rule is y = 2x + 8. Complete the outputs for x = 2 and x = 4, then find x when y = 22.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 2, 4 and the unknown input.",
+        "For x = 2, y = 2(2) + 8 = 12; write (2, 12).",
+        "For x = 4, y = 2(4) + 8 = 16; write (4, 16).",
+        "For y = 22, solve 2x + 8 = 22: x = 7.",
+        "Check: 2(7) + 8 = 22; the ordered pair is (7, 22)."
+      ],
+      "answer": "x = 7",
+      "check": "Check: 2(7) + 8 = 22; the ordered pair is (7, 22).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 2x + 8",
+          "2",
+          "4",
+          "22"
+        ],
+        "values": {
+          "multiplier": 2,
+          "offset": 8,
+          "input_one": 2,
+          "input_two": 4,
+          "out_one": 12,
+          "out_two": 16,
+          "target": 22,
+          "solution": 7,
+          "diagnostic": false
+        }
+      },
+      "lesson": 6,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-eq-l06-w06",
+      "problem": "The rule is y = 3x + 9. Complete the outputs for x = 3 and x = 5, then find x when y = 33.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 3, 5 and the unknown input.",
+        "For x = 3, y = 3(3) + 9 = 18; write (3, 18).",
+        "For x = 5, y = 3(5) + 9 = 24; write (5, 24).",
+        "For y = 33, solve 3x + 9 = 33: x = 8.",
+        "Check: 3(8) + 9 = 33; the ordered pair is (8, 33)."
+      ],
+      "answer": "x = 8",
+      "check": "Check: 3(8) + 9 = 33; the ordered pair is (8, 33).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 3x + 9",
+          "3",
+          "5",
+          "33"
+        ],
+        "values": {
+          "multiplier": 3,
+          "offset": 9,
+          "input_one": 3,
+          "input_two": 5,
+          "out_one": 18,
+          "out_two": 24,
+          "target": 33,
+          "solution": 8,
+          "diagnostic": false
+        }
+      },
+      "lesson": 6,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-eq-l06-w07",
+      "problem": "The rule is y = 4x + 10. Complete the outputs for x = 4 and x = 6, then find x when y = 46.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 4, 6 and the unknown input.",
+        "For x = 4, y = 4(4) + 10 = 26; write (4, 26).",
+        "For x = 6, y = 4(6) + 10 = 34; write (6, 34).",
+        "For y = 46, solve 4x + 10 = 46: x = 9.",
+        "Check: 4(9) + 10 = 46; the ordered pair is (9, 46)."
+      ],
+      "answer": "x = 9",
+      "check": "Check: 4(9) + 10 = 46; the ordered pair is (9, 46).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 4x + 10",
+          "4",
+          "6",
+          "46"
+        ],
+        "values": {
+          "multiplier": 4,
+          "offset": 10,
+          "input_one": 4,
+          "input_two": 6,
+          "out_one": 26,
+          "out_two": 34,
+          "target": 46,
+          "solution": 9,
+          "diagnostic": false
+        }
+      },
+      "lesson": 6,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-eq-l06-w08",
+      "problem": "The rule is y = 5x + 11. Complete the outputs for x = 1 and x = 3, then find x when y = 1.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 1, 3 and the unknown input.",
+        "For x = 1, y = 5(1) + 11 = 16; write (1, 16).",
+        "For x = 3, y = 5(3) + 11 = 26; write (3, 26).",
+        "For y = 1, solve 5x + 11 = 1: x = -2.",
+        "Check: 5(-2) + 11 = 1; the ordered pair is (-2, 1)."
+      ],
+      "answer": "x = -2",
+      "check": "Check: 5(-2) + 11 = 1; the ordered pair is (-2, 1).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 5x + 11",
+          "1",
+          "3",
+          "1"
+        ],
+        "values": {
+          "multiplier": 5,
+          "offset": 11,
+          "input_one": 1,
+          "input_two": 3,
+          "out_one": 16,
+          "out_two": 26,
+          "target": 1,
+          "solution": -2,
+          "diagnostic": false
+        }
+      },
+      "lesson": 6,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-eq-l06-w09",
+      "problem": "The rule is y = 6x + 3. Complete the outputs for x = 2 and x = 4, then find x when y = 69.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 2, 4 and the unknown input.",
+        "For x = 2, y = 6(2) + 3 = 15; write (2, 15).",
+        "For x = 4, y = 6(4) + 3 = 27; write (4, 27).",
+        "For y = 69, solve 6x + 3 = 69: x = 11.",
+        "Check: 6(11) + 3 = 69; the ordered pair is (11, 69)."
+      ],
+      "answer": "x = 11",
+      "check": "Check: 6(11) + 3 = 69; the ordered pair is (11, 69).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 6x + 3",
+          "2",
+          "4",
+          "69"
+        ],
+        "values": {
+          "multiplier": 6,
+          "offset": 3,
+          "input_one": 2,
+          "input_two": 4,
+          "out_one": 15,
+          "out_two": 27,
+          "target": 69,
+          "solution": 11,
+          "diagnostic": false
+        }
+      },
+      "lesson": 6,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-eq-l06-w10",
+      "problem": "The rule is y = 2x + 4. Complete the outputs for x = 3 and x = 5, then find x when y = 28.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 3, 5 and the unknown input.",
+        "For x = 3, y = 2(3) + 4 = 10; write (3, 10).",
+        "For x = 5, y = 2(5) + 4 = 14; write (5, 14).",
+        "For y = 28, solve 2x + 4 = 28: x = 12.",
+        "Check: 2(12) + 4 = 28; the ordered pair is (12, 28)."
+      ],
+      "answer": "x = 12",
+      "check": "Check: 2(12) + 4 = 28; the ordered pair is (12, 28).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 2x + 4",
+          "3",
+          "5",
+          "28"
+        ],
+        "values": {
+          "multiplier": 2,
+          "offset": 4,
+          "input_one": 3,
+          "input_two": 5,
+          "out_one": 10,
+          "out_two": 14,
+          "target": 28,
+          "solution": 12,
+          "diagnostic": false
+        }
+      },
+      "lesson": 6,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-eq-l06-w11",
+      "problem": "The rule is y = 3x + 5. Complete the outputs for x = 4 and x = 6, then find x when y = 44. A learner pairs (4, 23); identify the first error before solving.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 4, 6 and the unknown input.",
+        "The claimed pair (4, 23) uses the output for x = 6; its first error is mismatching the input row.",
+        "For x = 4, y = 3(4) + 5 = 17; write (4, 17).",
+        "For x = 6, y = 3(6) + 5 = 23; write (6, 23).",
+        "For y = 44, solve 3x + 5 = 44: x = 13.",
+        "Check: 3(13) + 5 = 44; the ordered pair is (13, 44)."
+      ],
+      "answer": "x = 13",
+      "check": "Check: 3(13) + 5 = 44; the ordered pair is (13, 44).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 3x + 5",
+          "4",
+          "6",
+          "44"
+        ],
+        "values": {
+          "multiplier": 3,
+          "offset": 5,
+          "input_one": 4,
+          "input_two": 6,
+          "out_one": 17,
+          "out_two": 23,
+          "target": 44,
+          "solution": 13,
+          "diagnostic": true
+        }
+      },
+      "lesson": 6,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-eq-l06-w12",
+      "problem": "The rule is y = 4x + 6. Complete the outputs for x = 1 and x = 3, then find x when y = -18. A learner pairs (1, 18); identify the first error before solving.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 1, 3 and the unknown input.",
+        "The claimed pair (1, 18) uses the output for x = 3; its first error is mismatching the input row.",
+        "For x = 1, y = 4(1) + 6 = 10; write (1, 10).",
+        "For x = 3, y = 4(3) + 6 = 18; write (3, 18).",
+        "For y = -18, solve 4x + 6 = -18: x = -6.",
+        "Check: 4(-6) + 6 = -18; the ordered pair is (-6, -18)."
+      ],
+      "answer": "x = -6",
+      "check": "Check: 4(-6) + 6 = -18; the ordered pair is (-6, -18).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 4x + 6",
+          "1",
+          "3",
+          "-18"
+        ],
+        "values": {
+          "multiplier": 4,
+          "offset": 6,
+          "input_one": 1,
+          "input_two": 3,
+          "out_one": 10,
+          "out_two": 18,
+          "target": -18,
+          "solution": -6,
+          "diagnostic": true
+        }
+      },
+      "lesson": 6,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-eq-l06-w13",
+      "problem": "The rule is y = 5x + 7. Complete the outputs for x = 2 and x = 4, then find x when y = 17. A learner pairs (2, 27); identify the first error before solving.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 2, 4 and the unknown input.",
+        "The claimed pair (2, 27) uses the output for x = 4; its first error is mismatching the input row.",
+        "For x = 2, y = 5(2) + 7 = 17; write (2, 17).",
+        "For x = 4, y = 5(4) + 7 = 27; write (4, 27).",
+        "For y = 17, solve 5x + 7 = 17: x = 2.",
+        "Check: 5(2) + 7 = 17; the ordered pair is (2, 17)."
+      ],
+      "answer": "x = 2",
+      "check": "Check: 5(2) + 7 = 17; the ordered pair is (2, 17).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 5x + 7",
+          "2",
+          "4",
+          "17"
+        ],
+        "values": {
+          "multiplier": 5,
+          "offset": 7,
+          "input_one": 2,
+          "input_two": 4,
+          "out_one": 17,
+          "out_two": 27,
+          "target": 17,
+          "solution": 2,
+          "diagnostic": true
+        }
+      },
+      "lesson": 6,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-eq-l06-w14",
+      "problem": "The rule is y = 6x + 8. Complete the outputs for x = 3 and x = 5, then find x when y = 26. A learner pairs (3, 38); identify the first error before solving.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 3, 5 and the unknown input.",
+        "The claimed pair (3, 38) uses the output for x = 5; its first error is mismatching the input row.",
+        "For x = 3, y = 6(3) + 8 = 26; write (3, 26).",
+        "For x = 5, y = 6(5) + 8 = 38; write (5, 38).",
+        "For y = 26, solve 6x + 8 = 26: x = 3.",
+        "Check: 6(3) + 8 = 26; the ordered pair is (3, 26)."
+      ],
+      "answer": "x = 3",
+      "check": "Check: 6(3) + 8 = 26; the ordered pair is (3, 26).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 6x + 8",
+          "3",
+          "5",
+          "26"
+        ],
+        "values": {
+          "multiplier": 6,
+          "offset": 8,
+          "input_one": 3,
+          "input_two": 5,
+          "out_one": 26,
+          "out_two": 38,
+          "target": 26,
+          "solution": 3,
+          "diagnostic": true
+        }
+      },
+      "lesson": 6,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-eq-l06-w15",
+      "problem": "The rule is y = 2x + 9. Complete the outputs for x = 4 and x = 6, then find x when y = 17. A learner pairs (4, 21); identify the first error before solving.",
+      "actions": [
+        "Keep the ordered-pair columns aligned: inputs 4, 6 and the unknown input.",
+        "The claimed pair (4, 21) uses the output for x = 6; its first error is mismatching the input row.",
+        "For x = 4, y = 2(4) + 9 = 17; write (4, 17).",
+        "For x = 6, y = 2(6) + 9 = 21; write (6, 21).",
+        "For y = 17, solve 2x + 9 = 17: x = 4.",
+        "Check: 2(4) + 9 = 17; the ordered pair is (4, 17)."
+      ],
+      "answer": "x = 4",
+      "check": "Check: 2(4) + 9 = 17; the ordered pair is (4, 17).",
+      "misconception": "The ordered pair is (input, output); inverse lookup must undo the addition before division.",
+      "visual": {
+        "family": "table",
+        "givens": [
+          "y = 2x + 9",
+          "4",
+          "6",
+          "17"
+        ],
+        "values": {
+          "multiplier": 2,
+          "offset": 9,
+          "input_one": 4,
+          "input_two": 6,
+          "out_one": 17,
+          "out_two": 21,
+          "target": 17,
+          "solution": 4,
+          "diagnostic": true
+        }
+      },
+      "lesson": 6,
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-eq-l06-p01",
+      "prompt": "The rule is y = 6x + 9. Complete the outputs for x = 1 and x = 3, then find x when y = -3.",
+      "options": [
+        "x = 2",
+        "x = -2",
+        "x = -1",
+        "x = -3"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the ordered-pair columns aligned: inputs 1, 3 and the unknown input.. For x = 1, y = 6(1) + 9 = 15; write (1, 15).. For x = 3, y = 6(3) + 9 = 27; write (3, 27).. For y = -3, solve 6x + 9 = -3: x = -2.. Check: 6(-2) + 9 = -3; the ordered pair is (-2, -3).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p02",
+      "prompt": "The rule is y = 2x + 10. Complete the outputs for x = 2 and x = 4, then find x when y = 38.",
+      "options": [
+        "x = 13",
+        "x = -14",
+        "x = 14",
+        "x = 15"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the ordered-pair columns aligned: inputs 2, 4 and the unknown input.. For x = 2, y = 2(2) + 10 = 14; write (2, 14).. For x = 4, y = 2(4) + 10 = 18; write (4, 18).. For y = 38, solve 2x + 10 = 38: x = 14.. Check: 2(14) + 10 = 38; the ordered pair is (14, 38).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p03",
+      "prompt": "The rule is y = 3x + 11. Complete the outputs for x = 3 and x = 5, then find x when y = 17.",
+      "options": [
+        "x = 3",
+        "x = 1",
+        "x = -2",
+        "x = 2"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the ordered-pair columns aligned: inputs 3, 5 and the unknown input.. For x = 3, y = 3(3) + 11 = 20; write (3, 20).. For x = 5, y = 3(5) + 11 = 26; write (5, 26).. For y = 17, solve 3x + 11 = 17: x = 2.. Check: 3(2) + 11 = 17; the ordered pair is (2, 17).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p04",
+      "prompt": "The rule is y = 4x + 3. Complete the outputs for x = 4 and x = 6, then find x when y = 15.",
+      "options": [
+        "x = 3",
+        "x = 4",
+        "x = 2",
+        "x = -3"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the ordered-pair columns aligned: inputs 4, 6 and the unknown input.. For x = 4, y = 4(4) + 3 = 19; write (4, 19).. For x = 6, y = 4(6) + 3 = 27; write (6, 27).. For y = 15, solve 4x + 3 = 15: x = 3.. Check: 4(3) + 3 = 15; the ordered pair is (3, 15).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p05",
+      "prompt": "The rule is y = 5x + 4. Complete the outputs for x = 1 and x = 3, then find x when y = -26.",
+      "options": [
+        "x = 6",
+        "x = -6",
+        "x = -5",
+        "x = -7"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the ordered-pair columns aligned: inputs 1, 3 and the unknown input.. For x = 1, y = 5(1) + 4 = 9; write (1, 9).. For x = 3, y = 5(3) + 4 = 19; write (3, 19).. For y = -26, solve 5x + 4 = -26: x = -6.. Check: 5(-6) + 4 = -26; the ordered pair is (-6, -26).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p06",
+      "prompt": "The rule is y = 6x + 5. Complete the outputs for x = 2 and x = 4, then find x when y = 35.",
+      "options": [
+        "x = 4",
+        "x = -5",
+        "x = 5",
+        "x = 6"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the ordered-pair columns aligned: inputs 2, 4 and the unknown input.. For x = 2, y = 6(2) + 5 = 17; write (2, 17).. For x = 4, y = 6(4) + 5 = 29; write (4, 29).. For y = 35, solve 6x + 5 = 35: x = 5.. Check: 6(5) + 5 = 35; the ordered pair is (5, 35).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p07",
+      "prompt": "The rule is y = 2x + 6. Complete the outputs for x = 3 and x = 5, then find x when y = 18.",
+      "options": [
+        "x = 7",
+        "x = 5",
+        "x = -6",
+        "x = 6"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the ordered-pair columns aligned: inputs 3, 5 and the unknown input.. For x = 3, y = 2(3) + 6 = 12; write (3, 12).. For x = 5, y = 2(5) + 6 = 16; write (5, 16).. For y = 18, solve 2x + 6 = 18: x = 6.. Check: 2(6) + 6 = 18; the ordered pair is (6, 18).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p08",
+      "prompt": "The rule is y = 3x + 7. Complete the outputs for x = 4 and x = 6, then find x when y = 28.",
+      "options": [
+        "x = 7",
+        "x = 8",
+        "x = 6",
+        "x = -7"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the ordered-pair columns aligned: inputs 4, 6 and the unknown input.. For x = 4, y = 3(4) + 7 = 19; write (4, 19).. For x = 6, y = 3(6) + 7 = 25; write (6, 25).. For y = 28, solve 3x + 7 = 28: x = 7.. Check: 3(7) + 7 = 28; the ordered pair is (7, 28).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p09",
+      "prompt": "The rule is y = 4x + 8. Complete the outputs for x = 1 and x = 3, then find x when y = 0.",
+      "options": [
+        "x = 2",
+        "x = -2",
+        "x = -1",
+        "x = -3"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the ordered-pair columns aligned: inputs 1, 3 and the unknown input.. For x = 1, y = 4(1) + 8 = 12; write (1, 12).. For x = 3, y = 4(3) + 8 = 20; write (3, 20).. For y = 0, solve 4x + 8 = 0: x = -2.. Check: 4(-2) + 8 = 0; the ordered pair is (-2, 0).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p10",
+      "prompt": "The rule is y = 5x + 9. Complete the outputs for x = 2 and x = 4, then find x when y = 54.",
+      "options": [
+        "x = 8",
+        "x = -9",
+        "x = 9",
+        "x = 10"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the ordered-pair columns aligned: inputs 2, 4 and the unknown input.. For x = 2, y = 5(2) + 9 = 19; write (2, 19).. For x = 4, y = 5(4) + 9 = 29; write (4, 29).. For y = 54, solve 5x + 9 = 54: x = 9.. Check: 5(9) + 9 = 54; the ordered pair is (9, 54).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p11",
+      "prompt": "The rule is y = 6x + 10. Complete the outputs for x = 3 and x = 5, then find x when y = 70.",
+      "options": [
+        "x = 11",
+        "x = 9",
+        "x = -10",
+        "x = 10"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the ordered-pair columns aligned: inputs 3, 5 and the unknown input.. For x = 3, y = 6(3) + 10 = 28; write (3, 28).. For x = 5, y = 6(5) + 10 = 40; write (5, 40).. For y = 70, solve 6x + 10 = 70: x = 10.. Check: 6(10) + 10 = 70; the ordered pair is (10, 70).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p12",
+      "prompt": "The rule is y = 2x + 11. Complete the outputs for x = 4 and x = 6, then find x when y = 33.",
+      "options": [
+        "x = 11",
+        "x = 12",
+        "x = 10",
+        "x = -11"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the ordered-pair columns aligned: inputs 4, 6 and the unknown input.. For x = 4, y = 2(4) + 11 = 19; write (4, 19).. For x = 6, y = 2(6) + 11 = 23; write (6, 23).. For y = 33, solve 2x + 11 = 33: x = 11.. Check: 2(11) + 11 = 33; the ordered pair is (11, 33).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p13",
+      "prompt": "The rule is y = 3x + 3. Complete the outputs for x = 1 and x = 3, then find x when y = -15.",
+      "options": [
+        "x = 6",
+        "x = -6",
+        "x = -5",
+        "x = -7"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the ordered-pair columns aligned: inputs 1, 3 and the unknown input.. For x = 1, y = 3(1) + 3 = 6; write (1, 6).. For x = 3, y = 3(3) + 3 = 12; write (3, 12).. For y = -15, solve 3x + 3 = -15: x = -6.. Check: 3(-6) + 3 = -15; the ordered pair is (-6, -15).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p14",
+      "prompt": "The rule is y = 4x + 4. Complete the outputs for x = 2 and x = 4, then find x when y = 56.",
+      "options": [
+        "x = 12",
+        "x = -13",
+        "x = 13",
+        "x = 14"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the ordered-pair columns aligned: inputs 2, 4 and the unknown input.. For x = 2, y = 4(2) + 4 = 12; write (2, 12).. For x = 4, y = 4(4) + 4 = 20; write (4, 20).. For y = 56, solve 4x + 4 = 56: x = 13.. Check: 4(13) + 4 = 56; the ordered pair is (13, 56).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-p15",
+      "prompt": "The rule is y = 5x + 5. Complete the outputs for x = 3 and x = 5, then find x when y = 75.",
+      "options": [
+        "x = 15",
+        "x = 13",
+        "x = -14",
+        "x = 14"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the ordered-pair columns aligned: inputs 3, 5 and the unknown input.. For x = 3, y = 5(3) + 5 = 20; write (3, 20).. For x = 5, y = 5(5) + 5 = 30; write (5, 30).. For y = 75, solve 5x + 5 = 75: x = 14.. Check: 5(14) + 5 = 75; the ordered pair is (14, 75).",
+      "source": "lesson-06.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-eq-l06-m16",
+      "prompt": "The rule is y = 4x + 11. Complete the outputs for x = 3 and x = 5, then find x when y = 59.",
+      "options": [
+        "x = 12",
+        "x = 13",
+        "x = 11",
+        "x = -12"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the ordered-pair columns aligned: inputs 3, 5 and the unknown input.. For x = 3, y = 4(3) + 11 = 23; write (3, 23).. For x = 5, y = 4(5) + 11 = 31; write (5, 31).. For y = 59, solve 4x + 11 = 59: x = 12.. Check: 4(12) + 11 = 59; the ordered pair is (12, 59).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-m17",
+      "prompt": "The rule is y = 5x + 3. Complete the outputs for x = 4 and x = 6, then find x when y = 68.",
+      "options": [
+        "x = -13",
+        "x = 13",
+        "x = 14",
+        "x = 12"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the ordered-pair columns aligned: inputs 4, 6 and the unknown input.. For x = 4, y = 5(4) + 3 = 23; write (4, 23).. For x = 6, y = 5(6) + 3 = 33; write (6, 33).. For y = 68, solve 5x + 3 = 68: x = 13.. Check: 5(13) + 3 = 68; the ordered pair is (13, 68).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-m18",
+      "prompt": "The rule is y = 6x + 4. Complete the outputs for x = 1 and x = 3, then find x when y = -8.",
+      "options": [
+        "x = -3",
+        "x = 2",
+        "x = -2",
+        "x = -1"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the ordered-pair columns aligned: inputs 1, 3 and the unknown input.. For x = 1, y = 6(1) + 4 = 10; write (1, 10).. For x = 3, y = 6(3) + 4 = 22; write (3, 22).. For y = -8, solve 6x + 4 = -8: x = -2.. Check: 6(-2) + 4 = -8; the ordered pair is (-2, -8).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-m19",
+      "prompt": "The rule is y = 2x + 5. Complete the outputs for x = 2 and x = 4, then find x when y = 9.",
+      "options": [
+        "x = 3",
+        "x = 1",
+        "x = -2",
+        "x = 2"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the ordered-pair columns aligned: inputs 2, 4 and the unknown input.. For x = 2, y = 2(2) + 5 = 9; write (2, 9).. For x = 4, y = 2(4) + 5 = 13; write (4, 13).. For y = 9, solve 2x + 5 = 9: x = 2.. Check: 2(2) + 5 = 9; the ordered pair is (2, 9).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-m20",
+      "prompt": "The rule is y = 3x + 6. Complete the outputs for x = 3 and x = 5, then find x when y = 15.",
+      "options": [
+        "x = 3",
+        "x = 4",
+        "x = 2",
+        "x = -3"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the ordered-pair columns aligned: inputs 3, 5 and the unknown input.. For x = 3, y = 3(3) + 6 = 15; write (3, 15).. For x = 5, y = 3(5) + 6 = 21; write (5, 21).. For y = 15, solve 3x + 6 = 15: x = 3.. Check: 3(3) + 6 = 15; the ordered pair is (3, 15).",
+      "source": "lesson-06.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-eq-l06-r19",
+      "prompt": "The rule is y = 5x + 10. Complete the outputs for x = 1 and x = 3, then find x when y = 0.",
+      "options": [
+        "x = -1",
+        "x = -3",
+        "x = 2",
+        "x = -2"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the ordered-pair columns aligned: inputs 1, 3 and the unknown input.. For x = 1, y = 5(1) + 10 = 15; write (1, 15).. For x = 3, y = 5(3) + 10 = 25; write (3, 25).. For y = 0, solve 5x + 10 = 0: x = -2.. Check: 5(-2) + 10 = 0; the ordered pair is (-2, 0).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-r20",
+      "prompt": "The rule is y = 6x + 11. Complete the outputs for x = 2 and x = 4, then find x when y = 89.",
+      "options": [
+        "x = 13",
+        "x = 14",
+        "x = 12",
+        "x = -13"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the ordered-pair columns aligned: inputs 2, 4 and the unknown input.. For x = 2, y = 6(2) + 11 = 23; write (2, 23).. For x = 4, y = 6(4) + 11 = 35; write (4, 35).. For y = 89, solve 6x + 11 = 89: x = 13.. Check: 6(13) + 11 = 89; the ordered pair is (13, 89).",
+      "source": "lesson-06.md"
+    },
+    {
+      "id": "g9-eq-l06-r21",
+      "prompt": "The rule is y = 2x + 3. Complete the outputs for x = 3 and x = 5, then find x when y = 31.",
+      "options": [
+        "x = -14",
+        "x = 14",
+        "x = 15",
+        "x = 13"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the ordered-pair columns aligned: inputs 3, 5 and the unknown input.. For x = 3, y = 2(3) + 3 = 9; write (3, 9).. For x = 5, y = 2(5) + 3 = 13; write (5, 13).. For y = 31, solve 2x + 3 = 31: x = 14.. Check: 2(14) + 3 = 31; the ordered pair is (14, 31).",
+      "source": "lesson-06.md"
+    }
+  ]
+}

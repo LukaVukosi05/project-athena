@@ -1261,6 +1261,64 @@
               "source_document": "lesson-09-mixed-expressions-and-first-error-repair.md"
             }
           ]
+        },
+        {
+          "topic_id": "algebraic-equations",
+          "topic_number": 7,
+          "title": "Algebraic Equations",
+          "paper": null,
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-equations-01",
+              "position": 1,
+              "title": "Translate situations into equations",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g9-equations-02",
+              "position": 2,
+              "title": "Solve using inverse operations",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g9-equations-03",
+              "position": 3,
+              "title": "Brackets and unknowns on both sides",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g9-equations-04",
+              "position": 4,
+              "title": "Solve equations using exponent laws",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g9-equations-05",
+              "position": 5,
+              "title": "Factorisation and the zero-product property",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05.md"
+            },
+            {
+              "lesson_id": "g9-equations-06",
+              "position": 6,
+              "title": "Substitution tables and first-error repair",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-06.md"
+            }
+          ]
         }
       ]
     },
