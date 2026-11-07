@@ -39,6 +39,7 @@ ASSESSMENT_BANKS={
     **{f"g9-area-{number:02}":grade9_whole.AREA_BANKS[number][1:] for number in range(1,6)},
     **{f"g9-data-{number:02}":grade9_whole.DATA_BANKS[number][1:] for number in range(1,9)},
     **{f"g9-prob-{number:02}":grade9_whole.PROB_BANKS[number][1:] for number in range(1,6)},
+    **{f"g9-solid-{number:02}":grade9_whole.SOLID_BANKS[number][1:] for number in range(1,5)},
     **{f"g8-pythagoras-{n:02}": assessment_pythagoras.banks(n)[1:] for n in range(1,6)},
     **{f"g8-shapes-{n:02}": assessment_shapes.banks(n)[1:] for n in range(1,6)},
     **{f"g8-straight-lines-{n:02}": assessment_straight_lines.banks(n)[1:] for n in (1,2)},

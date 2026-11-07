@@ -1,0 +1,670 @@
+{
+  "source": "lesson-02.md",
+  "worked": [
+    {
+      "id": "g9-solid-l02-w01",
+      "problem": "For a ball modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "actions": [
+        "Identify one continuous curved surface.",
+        "Check for flat faces: there are none.",
+        "Trace boundaries: there are no edges or vertices.",
+        "A sphere rolls in every direction because its whole surface curves.",
+        "Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices."
+      ],
+      "answer": "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices",
+      "check": "Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "sphere",
+          "context": "a ball"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-solid-l02-w02",
+      "problem": "For a tin modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "actions": [
+        "Identify the top circular base.",
+        "Identify the matching bottom circular base.",
+        "Trace the lateral curved surface and its two circular boundary edges.",
+        "The two round boundaries are curved edges, not vertices.",
+        "Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices."
+      ],
+      "answer": "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+      "check": "Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "cylinder",
+          "context": "a tin"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-solid-l02-w03",
+      "problem": "Compare a closed cylindrical a can with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "actions": [
+        "Place the sphere and closed cylinder side by side.",
+        "Mark the cylinder’s two flat circular bases.",
+        "Trace its two curved boundary edges.",
+        "The sphere has one uninterrupted curved surface with no edges.",
+        "Check: cylinder has flat circles; sphere has no edges."
+      ],
+      "answer": "cylinder: circular flat faces; sphere: no edges",
+      "check": "Check: cylinder has flat circles; sphere has no edges.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "compare",
+          "context": "a can"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-solid-l02-w04",
+      "problem": "For a marble modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "actions": [
+        "Identify one continuous curved surface.",
+        "Check for flat faces: there are none.",
+        "Trace boundaries: there are no edges or vertices.",
+        "A sphere rolls in every direction because its whole surface curves.",
+        "Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices."
+      ],
+      "answer": "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices",
+      "check": "Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "sphere",
+          "context": "a marble"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-solid-l02-w05",
+      "problem": "For a drum modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "actions": [
+        "Identify the top circular base.",
+        "Identify the matching bottom circular base.",
+        "Trace the lateral curved surface and its two circular boundary edges.",
+        "The two round boundaries are curved edges, not vertices.",
+        "Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices."
+      ],
+      "answer": "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+      "check": "Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "cylinder",
+          "context": "a drum"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-solid-l02-w06",
+      "problem": "Compare a closed cylindrical a drum with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "actions": [
+        "Place the sphere and closed cylinder side by side.",
+        "Mark the cylinder’s two flat circular bases.",
+        "Trace its two curved boundary edges.",
+        "The sphere has one uninterrupted curved surface with no edges.",
+        "Check: cylinder has flat circles; sphere has no edges."
+      ],
+      "answer": "cylinder: circular flat faces; sphere: no edges",
+      "check": "Check: cylinder has flat circles; sphere has no edges.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "compare",
+          "context": "a drum"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l02-w07",
+      "problem": "For a globe modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "actions": [
+        "Identify one continuous curved surface.",
+        "Check for flat faces: there are none.",
+        "Trace boundaries: there are no edges or vertices.",
+        "A sphere rolls in every direction because its whole surface curves.",
+        "Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices."
+      ],
+      "answer": "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices",
+      "check": "Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "sphere",
+          "context": "a globe"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l02-w08",
+      "problem": "For a closed pipe modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "actions": [
+        "Identify the top circular base.",
+        "Identify the matching bottom circular base.",
+        "Trace the lateral curved surface and its two circular boundary edges.",
+        "The two round boundaries are curved edges, not vertices.",
+        "Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices."
+      ],
+      "answer": "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+      "check": "Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "cylinder",
+          "context": "a closed pipe"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l02-w09",
+      "problem": "Compare a closed cylindrical a closed pipe with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "actions": [
+        "Place the sphere and closed cylinder side by side.",
+        "Mark the cylinder’s two flat circular bases.",
+        "Trace its two curved boundary edges.",
+        "The sphere has one uninterrupted curved surface with no edges.",
+        "Check: cylinder has flat circles; sphere has no edges."
+      ],
+      "answer": "cylinder: circular flat faces; sphere: no edges",
+      "check": "Check: cylinder has flat circles; sphere has no edges.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "compare",
+          "context": "a closed pipe"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l02-w10",
+      "problem": "For a bead modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "actions": [
+        "Identify one continuous curved surface.",
+        "Check for flat faces: there are none.",
+        "Trace boundaries: there are no edges or vertices.",
+        "A sphere rolls in every direction because its whole surface curves.",
+        "Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices."
+      ],
+      "answer": "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices",
+      "check": "Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "sphere",
+          "context": "a bead"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-solid-l02-w11",
+      "problem": "For a food can modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "actions": [
+        "Identify the top circular base.",
+        "Identify the matching bottom circular base.",
+        "Trace the lateral curved surface and its two circular boundary edges.",
+        "The two round boundaries are curved edges, not vertices.",
+        "Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices."
+      ],
+      "answer": "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+      "check": "Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "cylinder",
+          "context": "a food can"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-solid-l02-w12",
+      "problem": "Compare a closed cylindrical a food tin with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "actions": [
+        "Place the sphere and closed cylinder side by side.",
+        "Mark the cylinder’s two flat circular bases.",
+        "Trace its two curved boundary edges.",
+        "The sphere has one uninterrupted curved surface with no edges.",
+        "Check: cylinder has flat circles; sphere has no edges."
+      ],
+      "answer": "cylinder: circular flat faces; sphere: no edges",
+      "check": "Check: cylinder has flat circles; sphere has no edges.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "compare",
+          "context": "a food tin"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-solid-l02-w13",
+      "problem": "For a spherical tank modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "actions": [
+        "Identify one continuous curved surface.",
+        "Check for flat faces: there are none.",
+        "Trace boundaries: there are no edges or vertices.",
+        "A sphere rolls in every direction because its whole surface curves.",
+        "Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices."
+      ],
+      "answer": "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices",
+      "check": "Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "sphere",
+          "context": "a spherical tank"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-solid-l02-w14",
+      "problem": "For a sealed container modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "actions": [
+        "Identify the top circular base.",
+        "Identify the matching bottom circular base.",
+        "Trace the lateral curved surface and its two circular boundary edges.",
+        "The two round boundaries are curved edges, not vertices.",
+        "Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices."
+      ],
+      "answer": "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+      "check": "Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "cylinder",
+          "context": "a sealed container"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-solid-l02-w15",
+      "problem": "Compare a closed cylindrical a container with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "actions": [
+        "Place the sphere and closed cylinder side by side.",
+        "Mark the cylinder’s two flat circular bases.",
+        "Trace its two curved boundary edges.",
+        "The sphere has one uninterrupted curved surface with no edges.",
+        "Check: cylinder has flat circles; sphere has no edges."
+      ],
+      "answer": "cylinder: circular flat faces; sphere: no edges",
+      "check": "Check: cylinder has flat circles; sphere has no edges.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 2,
+          "model": "compare",
+          "context": "a container"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-solid-l02-p01",
+      "prompt": "For a ball modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "options": [
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 1 vertex",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 1 flat face, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 1 edge, 0 vertices"
+      ],
+      "answer_index": 1,
+      "memo": "Identify one continuous curved surface. Check for flat faces: there are none. Trace boundaries: there are no edges or vertices. A sphere rolls in every direction because its whole surface curves. Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p02",
+      "prompt": "For a tin modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "options": [
+        "cylinder: 2 flat circular faces, 1 curved surface, 1 curved edge, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 2 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 1 flat circular face, 1 curved surface, 2 curved edges, 0 vertices"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the top circular base. Identify the matching bottom circular base. Trace the lateral curved surface and its two circular boundary edges. The two round boundaries are curved edges, not vertices. Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p03",
+      "prompt": "Compare a closed cylindrical a can with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "options": [
+        "sphere: circular flat faces; cylinder: no edges",
+        "both: circular flat faces; neither: edges",
+        "neither: circular flat faces; both: no edges",
+        "cylinder: circular flat faces; sphere: no edges"
+      ],
+      "answer_index": 3,
+      "memo": "Place the sphere and closed cylinder side by side. Mark the cylinder’s two flat circular bases. Trace its two curved boundary edges. The sphere has one uninterrupted curved surface with no edges. Check: cylinder has flat circles; sphere has no edges.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p04",
+      "prompt": "For a marble modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "options": [
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 1 flat face, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 1 edge, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 1 vertex"
+      ],
+      "answer_index": 0,
+      "memo": "Identify one continuous curved surface. Check for flat faces: there are none. Trace boundaries: there are no edges or vertices. A sphere rolls in every direction because its whole surface curves. Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p05",
+      "prompt": "For a drum modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "options": [
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 2 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 1 flat circular face, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 1 curved edge, 0 vertices"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the top circular base. Identify the matching bottom circular base. Trace the lateral curved surface and its two circular boundary edges. The two round boundaries are curved edges, not vertices. Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p06",
+      "prompt": "Compare a closed cylindrical a drum with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "options": [
+        "both: circular flat faces; neither: edges",
+        "neither: circular flat faces; both: no edges",
+        "cylinder: circular flat faces; sphere: no edges",
+        "sphere: circular flat faces; cylinder: no edges"
+      ],
+      "answer_index": 2,
+      "memo": "Place the sphere and closed cylinder side by side. Mark the cylinder’s two flat circular bases. Trace its two curved boundary edges. The sphere has one uninterrupted curved surface with no edges. Check: cylinder has flat circles; sphere has no edges.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p07",
+      "prompt": "For a globe modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "options": [
+        "sphere: 1 flat face, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 1 edge, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 1 vertex",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices"
+      ],
+      "answer_index": 3,
+      "memo": "Identify one continuous curved surface. Check for flat faces: there are none. Trace boundaries: there are no edges or vertices. A sphere rolls in every direction because its whole surface curves. Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p08",
+      "prompt": "For a closed pipe modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "options": [
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 1 flat circular face, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 1 curved edge, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 2 vertices"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the top circular base. Identify the matching bottom circular base. Trace the lateral curved surface and its two circular boundary edges. The two round boundaries are curved edges, not vertices. Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p09",
+      "prompt": "Compare a closed cylindrical a closed pipe with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "options": [
+        "neither: circular flat faces; both: no edges",
+        "cylinder: circular flat faces; sphere: no edges",
+        "sphere: circular flat faces; cylinder: no edges",
+        "both: circular flat faces; neither: edges"
+      ],
+      "answer_index": 1,
+      "memo": "Place the sphere and closed cylinder side by side. Mark the cylinder’s two flat circular bases. Trace its two curved boundary edges. The sphere has one uninterrupted curved surface with no edges. Check: cylinder has flat circles; sphere has no edges.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p10",
+      "prompt": "For a bead modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "options": [
+        "sphere: 0 flat faces, 1 curved surface, 1 edge, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 1 vertex",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 1 flat face, 1 curved surface, 0 edges, 0 vertices"
+      ],
+      "answer_index": 2,
+      "memo": "Identify one continuous curved surface. Check for flat faces: there are none. Trace boundaries: there are no edges or vertices. A sphere rolls in every direction because its whole surface curves. Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p11",
+      "prompt": "For a food can modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "options": [
+        "cylinder: 1 flat circular face, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 1 curved edge, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 2 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the top circular base. Identify the matching bottom circular base. Trace the lateral curved surface and its two circular boundary edges. The two round boundaries are curved edges, not vertices. Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p12",
+      "prompt": "Compare a closed cylindrical a food tin with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "options": [
+        "cylinder: circular flat faces; sphere: no edges",
+        "sphere: circular flat faces; cylinder: no edges",
+        "both: circular flat faces; neither: edges",
+        "neither: circular flat faces; both: no edges"
+      ],
+      "answer_index": 0,
+      "memo": "Place the sphere and closed cylinder side by side. Mark the cylinder’s two flat circular bases. Trace its two curved boundary edges. The sphere has one uninterrupted curved surface with no edges. Check: cylinder has flat circles; sphere has no edges.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p13",
+      "prompt": "For a spherical tank modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "options": [
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 1 vertex",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 1 flat face, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 1 edge, 0 vertices"
+      ],
+      "answer_index": 1,
+      "memo": "Identify one continuous curved surface. Check for flat faces: there are none. Trace boundaries: there are no edges or vertices. A sphere rolls in every direction because its whole surface curves. Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p14",
+      "prompt": "For a sealed container modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "options": [
+        "cylinder: 2 flat circular faces, 1 curved surface, 1 curved edge, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 2 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 1 flat circular face, 1 curved surface, 2 curved edges, 0 vertices"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the top circular base. Identify the matching bottom circular base. Trace the lateral curved surface and its two circular boundary edges. The two round boundaries are curved edges, not vertices. Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-p15",
+      "prompt": "Compare a closed cylindrical a container with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "options": [
+        "sphere: circular flat faces; cylinder: no edges",
+        "both: circular flat faces; neither: edges",
+        "neither: circular flat faces; both: no edges",
+        "cylinder: circular flat faces; sphere: no edges"
+      ],
+      "answer_index": 3,
+      "memo": "Place the sphere and closed cylinder side by side. Mark the cylinder’s two flat circular bases. Trace its two curved boundary edges. The sphere has one uninterrupted curved surface with no edges. Check: cylinder has flat circles; sphere has no edges.",
+      "source": "lesson-02.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-solid-l02-m16",
+      "prompt": "For a ball modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "options": [
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 1 flat face, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 1 edge, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 1 vertex"
+      ],
+      "answer_index": 0,
+      "memo": "Identify one continuous curved surface. Check for flat faces: there are none. Trace boundaries: there are no edges or vertices. A sphere rolls in every direction because its whole surface curves. Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-m17",
+      "prompt": "For a tin modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "options": [
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 2 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 1 flat circular face, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 1 curved edge, 0 vertices"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the top circular base. Identify the matching bottom circular base. Trace the lateral curved surface and its two circular boundary edges. The two round boundaries are curved edges, not vertices. Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-m18",
+      "prompt": "Compare a closed cylindrical a can with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "options": [
+        "both: circular flat faces; neither: edges",
+        "neither: circular flat faces; both: no edges",
+        "cylinder: circular flat faces; sphere: no edges",
+        "sphere: circular flat faces; cylinder: no edges"
+      ],
+      "answer_index": 2,
+      "memo": "Place the sphere and closed cylinder side by side. Mark the cylinder’s two flat circular bases. Trace its two curved boundary edges. The sphere has one uninterrupted curved surface with no edges. Check: cylinder has flat circles; sphere has no edges.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-m19",
+      "prompt": "For a marble modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "options": [
+        "sphere: 1 flat face, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 1 edge, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 1 vertex",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices"
+      ],
+      "answer_index": 3,
+      "memo": "Identify one continuous curved surface. Check for flat faces: there are none. Trace boundaries: there are no edges or vertices. A sphere rolls in every direction because its whole surface curves. Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-m20",
+      "prompt": "For a drum modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "options": [
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 1 flat circular face, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 1 curved edge, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 2 vertices"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the top circular base. Identify the matching bottom circular base. Trace the lateral curved surface and its two circular boundary edges. The two round boundaries are curved edges, not vertices. Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "source": "lesson-02.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-solid-l02-r19",
+      "prompt": "For a marble modelled as a sphere, count its flat faces, curved surfaces, edges and vertices. Explain how it can roll.",
+      "options": [
+        "sphere: 1 flat face, 1 curved surface, 0 edges, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 1 edge, 0 vertices",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 1 vertex",
+        "sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices"
+      ],
+      "answer_index": 3,
+      "memo": "Identify one continuous curved surface. Check for flat faces: there are none. Trace boundaries: there are no edges or vertices. A sphere rolls in every direction because its whole surface curves. Check: 0 flat faces, 1 curved surface, 0 edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-r20",
+      "prompt": "For a drum modelled as a closed cylinder, count its flat circular faces, curved surfaces, curved edges and vertices.",
+      "options": [
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 1 flat circular face, 1 curved surface, 2 curved edges, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 1 curved edge, 0 vertices",
+        "cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 2 vertices"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the top circular base. Identify the matching bottom circular base. Trace the lateral curved surface and its two circular boundary edges. The two round boundaries are curved edges, not vertices. Check: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-solid-l02-r21",
+      "prompt": "Compare a closed cylindrical a drum with a spherical model: which has circular flat faces, and which has no edges at all?",
+      "options": [
+        "neither: circular flat faces; both: no edges",
+        "cylinder: circular flat faces; sphere: no edges",
+        "sphere: circular flat faces; cylinder: no edges",
+        "both: circular flat faces; neither: edges"
+      ],
+      "answer_index": 1,
+      "memo": "Place the sphere and closed cylinder side by side. Mark the cylinder’s two flat circular bases. Trace its two curved boundary edges. The sphere has one uninterrupted curved surface with no edges. Check: cylinder has flat circles; sphere has no edges.",
+      "source": "lesson-02.md"
+    }
+  ]
+}

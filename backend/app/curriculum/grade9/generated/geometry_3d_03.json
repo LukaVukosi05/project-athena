@@ -1,0 +1,730 @@
+{
+  "source": "lesson-03.md",
+  "worked": [
+    {
+      "id": "g9-solid-l03-w01",
+      "problem": "A cube is built from a net with one labelled edge of 2 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a cube.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 6 equal squares.",
+        "Count the complete net: 6 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 6 faces and no gap or overlap."
+      ],
+      "answer": "cube net: 6 equal squares",
+      "check": "Check that the folded net closes with 6 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "cube",
+          "faces": 6,
+          "scale": 2,
+          "parts": "6 equal squares",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-solid-l03-w02",
+      "problem": "A rectangular prism is built from a net with one labelled edge of 2 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a rectangular prism.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 6 rectangles in three matching pairs.",
+        "Count the complete net: 6 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 6 faces and no gap or overlap."
+      ],
+      "answer": "rectangular prism net: 6 rectangles in three matching pairs",
+      "check": "Check that the folded net closes with 6 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "rectangular prism",
+          "faces": 6,
+          "scale": 2,
+          "parts": "6 rectangles in three matching pairs",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-solid-l03-w03",
+      "problem": "A triangular prism is built from a net with one labelled edge of 2 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a triangular prism.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 3 rectangles and 2 matching triangles.",
+        "Count the complete net: 5 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 5 faces and no gap or overlap."
+      ],
+      "answer": "triangular prism net: 3 rectangles and 2 matching triangles",
+      "check": "Check that the folded net closes with 5 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "triangular prism",
+          "faces": 5,
+          "scale": 2,
+          "parts": "3 rectangles and 2 matching triangles",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-solid-l03-w04",
+      "problem": "A square pyramid is built from a net with one labelled edge of 2 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a square pyramid.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 1 square and 4 matching triangles.",
+        "Count the complete net: 5 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 5 faces and no gap or overlap."
+      ],
+      "answer": "square pyramid net: 1 square and 4 matching triangles",
+      "check": "Check that the folded net closes with 5 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "square pyramid",
+          "faces": 5,
+          "scale": 2,
+          "parts": "1 square and 4 matching triangles",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-solid-l03-w05",
+      "problem": "A cylinder is built from a net with one labelled edge of 2 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a cylinder.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 1 rectangle and 2 matching circles.",
+        "Count the complete net: 3 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 3 faces and no gap or overlap."
+      ],
+      "answer": "cylinder net: 1 rectangle and 2 matching circles",
+      "check": "Check that the folded net closes with 3 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "cylinder",
+          "faces": 3,
+          "scale": 2,
+          "parts": "1 rectangle and 2 matching circles",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-solid-l03-w06",
+      "problem": "A cube is built from a net with one labelled edge of 3 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a cube.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 6 equal squares.",
+        "Count the complete net: 6 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 6 faces and no gap or overlap."
+      ],
+      "answer": "cube net: 6 equal squares",
+      "check": "Check that the folded net closes with 6 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "cube",
+          "faces": 6,
+          "scale": 3,
+          "parts": "6 equal squares",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l03-w07",
+      "problem": "A rectangular prism is built from a net with one labelled edge of 3 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a rectangular prism.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 6 rectangles in three matching pairs.",
+        "Count the complete net: 6 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 6 faces and no gap or overlap."
+      ],
+      "answer": "rectangular prism net: 6 rectangles in three matching pairs",
+      "check": "Check that the folded net closes with 6 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "rectangular prism",
+          "faces": 6,
+          "scale": 3,
+          "parts": "6 rectangles in three matching pairs",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l03-w08",
+      "problem": "A triangular prism is built from a net with one labelled edge of 3 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a triangular prism.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 3 rectangles and 2 matching triangles.",
+        "Count the complete net: 5 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 5 faces and no gap or overlap."
+      ],
+      "answer": "triangular prism net: 3 rectangles and 2 matching triangles",
+      "check": "Check that the folded net closes with 5 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "triangular prism",
+          "faces": 5,
+          "scale": 3,
+          "parts": "3 rectangles and 2 matching triangles",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l03-w09",
+      "problem": "A square pyramid is built from a net with one labelled edge of 3 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a square pyramid.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 1 square and 4 matching triangles.",
+        "Count the complete net: 5 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 5 faces and no gap or overlap."
+      ],
+      "answer": "square pyramid net: 1 square and 4 matching triangles",
+      "check": "Check that the folded net closes with 5 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "square pyramid",
+          "faces": 5,
+          "scale": 3,
+          "parts": "1 square and 4 matching triangles",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l03-w10",
+      "problem": "A cylinder is built from a net with one labelled edge of 3 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a cylinder.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 1 rectangle and 2 matching circles.",
+        "Count the complete net: 3 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 3 faces and no gap or overlap."
+      ],
+      "answer": "cylinder net: 1 rectangle and 2 matching circles",
+      "check": "Check that the folded net closes with 3 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "cylinder",
+          "faces": 3,
+          "scale": 3,
+          "parts": "1 rectangle and 2 matching circles",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-solid-l03-w11",
+      "problem": "A cube is built from a net with one labelled edge of 4 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a cube.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 6 equal squares.",
+        "Count the complete net: 6 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 6 faces and no gap or overlap."
+      ],
+      "answer": "cube net: 6 equal squares",
+      "check": "Check that the folded net closes with 6 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "cube",
+          "faces": 6,
+          "scale": 4,
+          "parts": "6 equal squares",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-solid-l03-w12",
+      "problem": "A rectangular prism is built from a net with one labelled edge of 4 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a rectangular prism.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 6 rectangles in three matching pairs.",
+        "Count the complete net: 6 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 6 faces and no gap or overlap."
+      ],
+      "answer": "rectangular prism net: 6 rectangles in three matching pairs",
+      "check": "Check that the folded net closes with 6 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "rectangular prism",
+          "faces": 6,
+          "scale": 4,
+          "parts": "6 rectangles in three matching pairs",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-solid-l03-w13",
+      "problem": "A triangular prism is built from a net with one labelled edge of 4 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a triangular prism.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 3 rectangles and 2 matching triangles.",
+        "Count the complete net: 5 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 5 faces and no gap or overlap."
+      ],
+      "answer": "triangular prism net: 3 rectangles and 2 matching triangles",
+      "check": "Check that the folded net closes with 5 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "triangular prism",
+          "faces": 5,
+          "scale": 4,
+          "parts": "3 rectangles and 2 matching triangles",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-solid-l03-w14",
+      "problem": "A square pyramid is built from a net with one labelled edge of 4 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a square pyramid.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 1 square and 4 matching triangles.",
+        "Count the complete net: 5 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 5 faces and no gap or overlap."
+      ],
+      "answer": "square pyramid net: 1 square and 4 matching triangles",
+      "check": "Check that the folded net closes with 5 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "square pyramid",
+          "faces": 5,
+          "scale": 4,
+          "parts": "1 square and 4 matching triangles",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-solid-l03-w15",
+      "problem": "A cylinder is built from a net with one labelled edge of 4 cm. Name every face piece needed for the complete net before folding.",
+      "actions": [
+        "Identify the solid as a cylinder.",
+        "Find the base pieces; match each shared edge to the corresponding side.",
+        "Arrange side pieces beside their matching base edges. The net needs 1 rectangle and 2 matching circles.",
+        "Count the complete net: 3 face pieces; fold adjacent matching edges.",
+        "Check that the folded net closes with 3 faces and no gap or overlap."
+      ],
+      "answer": "cylinder net: 1 rectangle and 2 matching circles",
+      "check": "Check that the folded net closes with 3 faces and no gap or overlap.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 3,
+          "model": "net",
+          "shape": "cylinder",
+          "faces": 3,
+          "scale": 4,
+          "parts": "1 rectangle and 2 matching circles",
+          "missing": false
+        }
+      },
+      "lesson": 3,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-solid-l03-p01",
+      "prompt": "A cube is built from a net with one labelled edge of 5 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "cube net: 4 equal squares",
+        "cube net: 6 equal squares",
+        "cube net: 5 equal squares",
+        "cube net: 6 triangles"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the solid as a cube. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 6 equal squares. Count the complete net: 6 face pieces; fold adjacent matching edges. Check that the folded net closes with 6 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p02",
+      "prompt": "A rectangular prism is built from a net with one labelled edge of 5 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "rectangular prism net: 6 identical squares",
+        "rectangular prism net: 4 rectangles",
+        "rectangular prism net: 6 rectangles in three matching pairs",
+        "rectangular prism net: 5 rectangles"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the solid as a rectangular prism. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 6 rectangles in three matching pairs. Count the complete net: 6 face pieces; fold adjacent matching edges. Check that the folded net closes with 6 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p03",
+      "prompt": "A triangular prism is built from a net with one labelled edge of 5 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "triangular prism net: 3 rectangles and 1 triangle",
+        "triangular prism net: 2 rectangles and 2 triangles",
+        "triangular prism net: 3 rectangles and 3 triangles",
+        "triangular prism net: 3 rectangles and 2 matching triangles"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the solid as a triangular prism. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 3 rectangles and 2 matching triangles. Count the complete net: 5 face pieces; fold adjacent matching edges. Check that the folded net closes with 5 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p04",
+      "prompt": "A square pyramid is built from a net with one labelled edge of 5 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "square pyramid net: 1 square and 4 matching triangles",
+        "square pyramid net: 1 square and 3 triangles",
+        "square pyramid net: 2 squares and 4 triangles",
+        "square pyramid net: 1 triangle and 4 squares"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the solid as a square pyramid. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 1 square and 4 matching triangles. Count the complete net: 5 face pieces; fold adjacent matching edges. Check that the folded net closes with 5 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p05",
+      "prompt": "A cylinder is built from a net with one labelled edge of 5 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "cylinder net: 1 rectangle and 3 circles",
+        "cylinder net: 1 rectangle and 2 matching circles",
+        "cylinder net: 1 rectangle and 1 circle",
+        "cylinder net: 2 rectangles and 2 circles"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the solid as a cylinder. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 1 rectangle and 2 matching circles. Count the complete net: 3 face pieces; fold adjacent matching edges. Check that the folded net closes with 3 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p06",
+      "prompt": "A cube is built from a net with one labelled edge of 6 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "cube net: 6 triangles",
+        "cube net: 4 equal squares",
+        "cube net: 6 equal squares",
+        "cube net: 5 equal squares"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the solid as a cube. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 6 equal squares. Count the complete net: 6 face pieces; fold adjacent matching edges. Check that the folded net closes with 6 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p07",
+      "prompt": "A rectangular prism is built from a net with one labelled edge of 6 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "rectangular prism net: 5 rectangles",
+        "rectangular prism net: 6 identical squares",
+        "rectangular prism net: 4 rectangles",
+        "rectangular prism net: 6 rectangles in three matching pairs"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the solid as a rectangular prism. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 6 rectangles in three matching pairs. Count the complete net: 6 face pieces; fold adjacent matching edges. Check that the folded net closes with 6 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p08",
+      "prompt": "A triangular prism is built from a net with one labelled edge of 6 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "triangular prism net: 3 rectangles and 2 matching triangles",
+        "triangular prism net: 3 rectangles and 1 triangle",
+        "triangular prism net: 2 rectangles and 2 triangles",
+        "triangular prism net: 3 rectangles and 3 triangles"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the solid as a triangular prism. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 3 rectangles and 2 matching triangles. Count the complete net: 5 face pieces; fold adjacent matching edges. Check that the folded net closes with 5 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p09",
+      "prompt": "A square pyramid is built from a net with one labelled edge of 6 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "square pyramid net: 1 triangle and 4 squares",
+        "square pyramid net: 1 square and 4 matching triangles",
+        "square pyramid net: 1 square and 3 triangles",
+        "square pyramid net: 2 squares and 4 triangles"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the solid as a square pyramid. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 1 square and 4 matching triangles. Count the complete net: 5 face pieces; fold adjacent matching edges. Check that the folded net closes with 5 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p10",
+      "prompt": "A cylinder is built from a net with one labelled edge of 6 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "cylinder net: 2 rectangles and 2 circles",
+        "cylinder net: 1 rectangle and 3 circles",
+        "cylinder net: 1 rectangle and 2 matching circles",
+        "cylinder net: 1 rectangle and 1 circle"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the solid as a cylinder. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 1 rectangle and 2 matching circles. Count the complete net: 3 face pieces; fold adjacent matching edges. Check that the folded net closes with 3 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p11",
+      "prompt": "A cube is built from a net with one labelled edge of 7 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "cube net: 5 equal squares",
+        "cube net: 6 triangles",
+        "cube net: 4 equal squares",
+        "cube net: 6 equal squares"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the solid as a cube. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 6 equal squares. Count the complete net: 6 face pieces; fold adjacent matching edges. Check that the folded net closes with 6 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p12",
+      "prompt": "A rectangular prism is built from a net with one labelled edge of 7 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "rectangular prism net: 6 rectangles in three matching pairs",
+        "rectangular prism net: 5 rectangles",
+        "rectangular prism net: 6 identical squares",
+        "rectangular prism net: 4 rectangles"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the solid as a rectangular prism. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 6 rectangles in three matching pairs. Count the complete net: 6 face pieces; fold adjacent matching edges. Check that the folded net closes with 6 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p13",
+      "prompt": "A triangular prism is built from a net with one labelled edge of 7 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "triangular prism net: 3 rectangles and 3 triangles",
+        "triangular prism net: 3 rectangles and 2 matching triangles",
+        "triangular prism net: 3 rectangles and 1 triangle",
+        "triangular prism net: 2 rectangles and 2 triangles"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the solid as a triangular prism. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 3 rectangles and 2 matching triangles. Count the complete net: 5 face pieces; fold adjacent matching edges. Check that the folded net closes with 5 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p14",
+      "prompt": "A square pyramid is built from a net with one labelled edge of 7 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "square pyramid net: 2 squares and 4 triangles",
+        "square pyramid net: 1 triangle and 4 squares",
+        "square pyramid net: 1 square and 4 matching triangles",
+        "square pyramid net: 1 square and 3 triangles"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the solid as a square pyramid. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 1 square and 4 matching triangles. Count the complete net: 5 face pieces; fold adjacent matching edges. Check that the folded net closes with 5 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-p15",
+      "prompt": "A cylinder is built from a net with one labelled edge of 7 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "cylinder net: 1 rectangle and 1 circle",
+        "cylinder net: 2 rectangles and 2 circles",
+        "cylinder net: 1 rectangle and 3 circles",
+        "cylinder net: 1 rectangle and 2 matching circles"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the solid as a cylinder. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 1 rectangle and 2 matching circles. Count the complete net: 3 face pieces; fold adjacent matching edges. Check that the folded net closes with 3 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-solid-l03-m16",
+      "prompt": "A cube is built from a net with one labelled edge of 11 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "cube net: 6 equal squares",
+        "cube net: 5 equal squares",
+        "cube net: 6 triangles",
+        "cube net: 4 equal squares"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the solid as a cube. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 6 equal squares. Count the complete net: 6 face pieces; fold adjacent matching edges. Check that the folded net closes with 6 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-m17",
+      "prompt": "A rectangular prism is built from a net with one labelled edge of 11 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "rectangular prism net: 4 rectangles",
+        "rectangular prism net: 6 rectangles in three matching pairs",
+        "rectangular prism net: 5 rectangles",
+        "rectangular prism net: 6 identical squares"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the solid as a rectangular prism. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 6 rectangles in three matching pairs. Count the complete net: 6 face pieces; fold adjacent matching edges. Check that the folded net closes with 6 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-m18",
+      "prompt": "A triangular prism is built from a net with one labelled edge of 11 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "triangular prism net: 2 rectangles and 2 triangles",
+        "triangular prism net: 3 rectangles and 3 triangles",
+        "triangular prism net: 3 rectangles and 2 matching triangles",
+        "triangular prism net: 3 rectangles and 1 triangle"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the solid as a triangular prism. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 3 rectangles and 2 matching triangles. Count the complete net: 5 face pieces; fold adjacent matching edges. Check that the folded net closes with 5 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-m19",
+      "prompt": "A square pyramid is built from a net with one labelled edge of 11 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "square pyramid net: 1 square and 3 triangles",
+        "square pyramid net: 2 squares and 4 triangles",
+        "square pyramid net: 1 triangle and 4 squares",
+        "square pyramid net: 1 square and 4 matching triangles"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the solid as a square pyramid. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 1 square and 4 matching triangles. Count the complete net: 5 face pieces; fold adjacent matching edges. Check that the folded net closes with 5 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-m20",
+      "prompt": "A cylinder is built from a net with one labelled edge of 11 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "cylinder net: 1 rectangle and 2 matching circles",
+        "cylinder net: 1 rectangle and 1 circle",
+        "cylinder net: 2 rectangles and 2 circles",
+        "cylinder net: 1 rectangle and 3 circles"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the solid as a cylinder. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 1 rectangle and 2 matching circles. Count the complete net: 3 face pieces; fold adjacent matching edges. Check that the folded net closes with 3 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-solid-l03-r19",
+      "prompt": "A square pyramid is built from a net with one labelled edge of 14 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "square pyramid net: 1 square and 3 triangles",
+        "square pyramid net: 2 squares and 4 triangles",
+        "square pyramid net: 1 triangle and 4 squares",
+        "square pyramid net: 1 square and 4 matching triangles"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the solid as a square pyramid. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 1 square and 4 matching triangles. Count the complete net: 5 face pieces; fold adjacent matching edges. Check that the folded net closes with 5 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-r20",
+      "prompt": "A cylinder is built from a net with one labelled edge of 14 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "cylinder net: 1 rectangle and 2 matching circles",
+        "cylinder net: 1 rectangle and 1 circle",
+        "cylinder net: 2 rectangles and 2 circles",
+        "cylinder net: 1 rectangle and 3 circles"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the solid as a cylinder. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 1 rectangle and 2 matching circles. Count the complete net: 3 face pieces; fold adjacent matching edges. Check that the folded net closes with 3 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-solid-l03-r21",
+      "prompt": "A cube is built from a net with one labelled edge of 15 cm. Name every face piece needed for the complete net before folding.",
+      "options": [
+        "cube net: 4 equal squares",
+        "cube net: 6 equal squares",
+        "cube net: 5 equal squares",
+        "cube net: 6 triangles"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the solid as a cube. Find the base pieces; match each shared edge to the corresponding side. Arrange side pieces beside their matching base edges. The net needs 6 equal squares. Count the complete net: 6 face pieces; fold adjacent matching edges. Check that the folded net closes with 6 faces and no gap or overlap.",
+      "source": "lesson-03.md"
+    }
+  ]
+}

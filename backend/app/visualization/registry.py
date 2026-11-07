@@ -24,7 +24,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5]|g9-solid-l0[1-4])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -637,6 +637,50 @@ def _grade9_whole_board(parameters: dict, family: str) -> None:
         or scene.get('actions') is None or len(scene['actions'])!=parameters['total_steps']
         or not 3<=parameters['total_steps']<=18):
         raise ValueError('Grade 9 source scene, question and step count disagree')
+    if family.startswith('solid_'):
+        number=int(family.rsplit('_',1)[-1]);v=scene.get('visual',{}).get('values',{})
+        if (scene.get('lesson')!=number or scene.get('visual',{}).get('family')!='solids'
+            or v.get('lesson')!=number or len(scene['actions'])!=5
+            or scene['actions'][-1]!=scene.get('check')):
+            raise ValueError('Solid question, visual and step sequence disagree')
+        solids={'tetrahedron':(4,6,4,'triangles'),'cube':(6,12,8,'squares'),
+                'octahedron':(8,12,6,'triangles'),'dodecahedron':(12,30,20,'pentagons'),
+                'icosahedron':(20,30,12,'triangles')}
+        nets={'cube':(6,'6 equal squares','one matching square','5 equal squares'),
+              'rectangular prism':(6,'6 rectangles in three matching pairs','one matching rectangle','5 rectangles'),
+              'triangular prism':(5,'3 rectangles and 2 matching triangles','one matching triangle','3 rectangles and 1 triangle'),
+              'square pyramid':(5,'1 square and 4 matching triangles','one matching triangle','1 square and 3 triangles'),
+              'cylinder':(3,'1 rectangle and 2 matching circles','one matching circle','1 rectangle and 1 circle')}
+        if number==1:
+            shape=v.get('shape');valid=shape in solids and v.get('model')=='platonic'
+            if valid:
+                faces,edges,vertices,face_shape=solids[shape];target=v.get('target')
+                valid=(target in ('faces','edges','vertices') and v.get('faces')==faces
+                       and v.get('edges')==edges and v.get('vertices')==vertices
+                       and v.get('face_shape')==face_shape and faces+vertices==edges+2
+                       and all(str(x) in scene['problem'] for x in (shape,face_shape)))
+                expected=f'{target} = '+str({'faces':faces,'edges':edges,'vertices':vertices}[target]) if target in ('faces','edges','vertices') else ''
+            else:expected=''
+        elif number==2:
+            kind=v.get('model');context=v.get('context');valid=(kind in ('sphere','cylinder','compare')
+                 and type(context) is str and context in scene['problem'])
+            expected={'sphere':'sphere: 0 flat faces, 1 curved surface, 0 edges, 0 vertices',
+                      'cylinder':'cylinder: 2 flat circular faces, 1 curved surface, 2 curved edges, 0 vertices',
+                      'compare':'cylinder: circular flat faces; sphere: no edges'}.get(kind,'')
+        else:
+            shape=v.get('shape');valid=shape in nets and type(v.get('scale')) is int and 2<=v['scale']<=100
+            if valid:
+                count,parts,missing,observed=nets[shape]
+                valid=(v.get('model')==('net' if number==3 else 'net_error')
+                    and v.get('faces')==count and v.get('parts')==parts
+                    and shape in scene['problem'] and str(v['scale']) in scene['problem'])
+                if number==4:valid=valid and v.get('missing')==missing and v.get('observed')==observed and observed in scene['problem']
+                else:valid=valid and v.get('missing') is False
+                expected=(f'{shape} net: {parts}' if number==3 else f'missing {missing}; complete net: {parts}')
+            else:expected=''
+        if not valid or scene.get('answer')!=expected:
+            raise ValueError('Solid answer or pictured faces disagree with the question')
+        return
     if family.startswith('probability_'):
         from fractions import Fraction
         number=int(family.rsplit('_',1)[-1]);v=scene.get('visual',{}).get('values',{})
@@ -1362,6 +1406,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'data_{n}'),True)
        for n in range(1,9)},
+    **{("geometry",f"grade9_solid_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade9_whole_board(p,f'solid_{n}'),True)
+       for n in range(1,5)},
     **{("statistics",f"grade9_probability_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'probability_{n}'),True)

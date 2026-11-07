@@ -1683,6 +1683,48 @@
               "source_document": "lesson-05.md"
             }
           ]
+        },
+        {
+          "topic_id": "geometry-of-3d-objects",
+          "topic_number": 14,
+          "title": "Geometry of 3D Objects",
+          "paper": null,
+          "expected_lesson_count": 4,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-solid-01",
+              "position": 1,
+              "title": "Platonic solids: faces, edges and vertices",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g9-solid-02",
+              "position": 2,
+              "title": "Spheres and cylinders: curved and flat surfaces",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g9-solid-03",
+              "position": 3,
+              "title": "Nets of cubes, prisms, pyramids and cylinders",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g9-solid-04",
+              "position": 4,
+              "title": "Identify a solid from its net and repair the first error",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04.md"
+            }
+          ]
         }
       ]
     },

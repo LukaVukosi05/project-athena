@@ -1,0 +1,297 @@
+# Grade 9 Topic 14 · Lesson 4: Identify a solid from its net and repair the first error
+
+Authority: [DBE 2026 Grade 9 Mathematics ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2026%20ATPs/2026_ATP_Mathematics_Grade%209.pdf), Term 4. Original Athena questions.
+
+Status: teacher and browser review required. Each operation updates the net/solid and a cumulative written solution.
+
+## g9-solid-l04-w01: A learner draws a net for a cube with one edge labelled 2 cm with 5 equal squares. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "cube", "faces": 6, "scale": 2, "parts": "6 equal squares", "observed": "5 equal squares", "missing": "one matching square"}}
+
+1. Check the learner’s proposed cube net: 5 equal squares.
+
+2. Compare the net with the solid: it should have 6 face pieces.
+
+3. The first error is that one matching square is absent; the net cannot close.
+
+4. Add one matching square on a matching free edge; a complete net has 6 equal squares.
+
+5. Check the repaired net closes as a cube with 6 face pieces.
+
+**Answer:** missing one matching square; complete net: 6 equal squares. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w02: A learner draws a net for a rectangular prism with one edge labelled 2 cm with 5 rectangles. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "rectangular prism", "faces": 6, "scale": 2, "parts": "6 rectangles in three matching pairs", "observed": "5 rectangles", "missing": "one matching rectangle"}}
+
+1. Check the learner’s proposed rectangular prism net: 5 rectangles.
+
+2. Compare the net with the solid: it should have 6 face pieces.
+
+3. The first error is that one matching rectangle is absent; the net cannot close.
+
+4. Add one matching rectangle on a matching free edge; a complete net has 6 rectangles in three matching pairs.
+
+5. Check the repaired net closes as a rectangular prism with 6 face pieces.
+
+**Answer:** missing one matching rectangle; complete net: 6 rectangles in three matching pairs. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w03: A learner draws a net for a triangular prism with one edge labelled 2 cm with 3 rectangles and 1 triangle. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "triangular prism", "faces": 5, "scale": 2, "parts": "3 rectangles and 2 matching triangles", "observed": "3 rectangles and 1 triangle", "missing": "one matching triangle"}}
+
+1. Check the learner’s proposed triangular prism net: 3 rectangles and 1 triangle.
+
+2. Compare the net with the solid: it should have 5 face pieces.
+
+3. The first error is that one matching triangle is absent; the net cannot close.
+
+4. Add one matching triangle on a matching free edge; a complete net has 3 rectangles and 2 matching triangles.
+
+5. Check the repaired net closes as a triangular prism with 5 face pieces.
+
+**Answer:** missing one matching triangle; complete net: 3 rectangles and 2 matching triangles. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w04: A learner draws a net for a square pyramid with one edge labelled 2 cm with 1 square and 3 triangles. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "square pyramid", "faces": 5, "scale": 2, "parts": "1 square and 4 matching triangles", "observed": "1 square and 3 triangles", "missing": "one matching triangle"}}
+
+1. Check the learner’s proposed square pyramid net: 1 square and 3 triangles.
+
+2. Compare the net with the solid: it should have 5 face pieces.
+
+3. The first error is that one matching triangle is absent; the net cannot close.
+
+4. Add one matching triangle on a matching free edge; a complete net has 1 square and 4 matching triangles.
+
+5. Check the repaired net closes as a square pyramid with 5 face pieces.
+
+**Answer:** missing one matching triangle; complete net: 1 square and 4 matching triangles. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w05: A learner draws a net for a cylinder with one edge labelled 2 cm with 1 rectangle and 1 circle. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "cylinder", "faces": 3, "scale": 2, "parts": "1 rectangle and 2 matching circles", "observed": "1 rectangle and 1 circle", "missing": "one matching circle"}}
+
+1. Check the learner’s proposed cylinder net: 1 rectangle and 1 circle.
+
+2. Compare the net with the solid: it should have 3 face pieces.
+
+3. The first error is that one matching circle is absent; the net cannot close.
+
+4. Add one matching circle on a matching free edge; a complete net has 1 rectangle and 2 matching circles.
+
+5. Check the repaired net closes as a cylinder with 3 face pieces.
+
+**Answer:** missing one matching circle; complete net: 1 rectangle and 2 matching circles. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w06: A learner draws a net for a cube with one edge labelled 3 cm with 5 equal squares. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "cube", "faces": 6, "scale": 3, "parts": "6 equal squares", "observed": "5 equal squares", "missing": "one matching square"}}
+
+1. Check the learner’s proposed cube net: 5 equal squares.
+
+2. Compare the net with the solid: it should have 6 face pieces.
+
+3. The first error is that one matching square is absent; the net cannot close.
+
+4. Add one matching square on a matching free edge; a complete net has 6 equal squares.
+
+5. Check the repaired net closes as a cube with 6 face pieces.
+
+**Answer:** missing one matching square; complete net: 6 equal squares. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w07: A learner draws a net for a rectangular prism with one edge labelled 3 cm with 5 rectangles. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "rectangular prism", "faces": 6, "scale": 3, "parts": "6 rectangles in three matching pairs", "observed": "5 rectangles", "missing": "one matching rectangle"}}
+
+1. Check the learner’s proposed rectangular prism net: 5 rectangles.
+
+2. Compare the net with the solid: it should have 6 face pieces.
+
+3. The first error is that one matching rectangle is absent; the net cannot close.
+
+4. Add one matching rectangle on a matching free edge; a complete net has 6 rectangles in three matching pairs.
+
+5. Check the repaired net closes as a rectangular prism with 6 face pieces.
+
+**Answer:** missing one matching rectangle; complete net: 6 rectangles in three matching pairs. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w08: A learner draws a net for a triangular prism with one edge labelled 3 cm with 3 rectangles and 1 triangle. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "triangular prism", "faces": 5, "scale": 3, "parts": "3 rectangles and 2 matching triangles", "observed": "3 rectangles and 1 triangle", "missing": "one matching triangle"}}
+
+1. Check the learner’s proposed triangular prism net: 3 rectangles and 1 triangle.
+
+2. Compare the net with the solid: it should have 5 face pieces.
+
+3. The first error is that one matching triangle is absent; the net cannot close.
+
+4. Add one matching triangle on a matching free edge; a complete net has 3 rectangles and 2 matching triangles.
+
+5. Check the repaired net closes as a triangular prism with 5 face pieces.
+
+**Answer:** missing one matching triangle; complete net: 3 rectangles and 2 matching triangles. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w09: A learner draws a net for a square pyramid with one edge labelled 3 cm with 1 square and 3 triangles. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "square pyramid", "faces": 5, "scale": 3, "parts": "1 square and 4 matching triangles", "observed": "1 square and 3 triangles", "missing": "one matching triangle"}}
+
+1. Check the learner’s proposed square pyramid net: 1 square and 3 triangles.
+
+2. Compare the net with the solid: it should have 5 face pieces.
+
+3. The first error is that one matching triangle is absent; the net cannot close.
+
+4. Add one matching triangle on a matching free edge; a complete net has 1 square and 4 matching triangles.
+
+5. Check the repaired net closes as a square pyramid with 5 face pieces.
+
+**Answer:** missing one matching triangle; complete net: 1 square and 4 matching triangles. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w10: A learner draws a net for a cylinder with one edge labelled 3 cm with 1 rectangle and 1 circle. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "cylinder", "faces": 3, "scale": 3, "parts": "1 rectangle and 2 matching circles", "observed": "1 rectangle and 1 circle", "missing": "one matching circle"}}
+
+1. Check the learner’s proposed cylinder net: 1 rectangle and 1 circle.
+
+2. Compare the net with the solid: it should have 3 face pieces.
+
+3. The first error is that one matching circle is absent; the net cannot close.
+
+4. Add one matching circle on a matching free edge; a complete net has 1 rectangle and 2 matching circles.
+
+5. Check the repaired net closes as a cylinder with 3 face pieces.
+
+**Answer:** missing one matching circle; complete net: 1 rectangle and 2 matching circles. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w11: A learner draws a net for a cube with one edge labelled 4 cm with 5 equal squares. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "cube", "faces": 6, "scale": 4, "parts": "6 equal squares", "observed": "5 equal squares", "missing": "one matching square"}}
+
+1. Check the learner’s proposed cube net: 5 equal squares.
+
+2. Compare the net with the solid: it should have 6 face pieces.
+
+3. The first error is that one matching square is absent; the net cannot close.
+
+4. Add one matching square on a matching free edge; a complete net has 6 equal squares.
+
+5. Check the repaired net closes as a cube with 6 face pieces.
+
+**Answer:** missing one matching square; complete net: 6 equal squares. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w12: A learner draws a net for a rectangular prism with one edge labelled 4 cm with 5 rectangles. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "rectangular prism", "faces": 6, "scale": 4, "parts": "6 rectangles in three matching pairs", "observed": "5 rectangles", "missing": "one matching rectangle"}}
+
+1. Check the learner’s proposed rectangular prism net: 5 rectangles.
+
+2. Compare the net with the solid: it should have 6 face pieces.
+
+3. The first error is that one matching rectangle is absent; the net cannot close.
+
+4. Add one matching rectangle on a matching free edge; a complete net has 6 rectangles in three matching pairs.
+
+5. Check the repaired net closes as a rectangular prism with 6 face pieces.
+
+**Answer:** missing one matching rectangle; complete net: 6 rectangles in three matching pairs. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w13: A learner draws a net for a triangular prism with one edge labelled 4 cm with 3 rectangles and 1 triangle. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "triangular prism", "faces": 5, "scale": 4, "parts": "3 rectangles and 2 matching triangles", "observed": "3 rectangles and 1 triangle", "missing": "one matching triangle"}}
+
+1. Check the learner’s proposed triangular prism net: 3 rectangles and 1 triangle.
+
+2. Compare the net with the solid: it should have 5 face pieces.
+
+3. The first error is that one matching triangle is absent; the net cannot close.
+
+4. Add one matching triangle on a matching free edge; a complete net has 3 rectangles and 2 matching triangles.
+
+5. Check the repaired net closes as a triangular prism with 5 face pieces.
+
+**Answer:** missing one matching triangle; complete net: 3 rectangles and 2 matching triangles. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w14: A learner draws a net for a square pyramid with one edge labelled 4 cm with 1 square and 3 triangles. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "square pyramid", "faces": 5, "scale": 4, "parts": "1 square and 4 matching triangles", "observed": "1 square and 3 triangles", "missing": "one matching triangle"}}
+
+1. Check the learner’s proposed square pyramid net: 1 square and 3 triangles.
+
+2. Compare the net with the solid: it should have 5 face pieces.
+
+3. The first error is that one matching triangle is absent; the net cannot close.
+
+4. Add one matching triangle on a matching free edge; a complete net has 1 square and 4 matching triangles.
+
+5. Check the repaired net closes as a square pyramid with 5 face pieces.
+
+**Answer:** missing one matching triangle; complete net: 1 square and 4 matching triangles. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## g9-solid-l04-w15: A learner draws a net for a cylinder with one edge labelled 4 cm with 1 rectangle and 1 circle. Find the first missing face and repair the net.
+
+Visual: {"family": "solids", "values": {"lesson": 4, "model": "net_error", "shape": "cylinder", "faces": 3, "scale": 4, "parts": "1 rectangle and 2 matching circles", "observed": "1 rectangle and 1 circle", "missing": "one matching circle"}}
+
+1. Check the learner’s proposed cylinder net: 1 rectangle and 1 circle.
+
+2. Compare the net with the solid: it should have 3 face pieces.
+
+3. The first error is that one matching circle is absent; the net cannot close.
+
+4. Add one matching circle on a matching free edge; a complete net has 1 rectangle and 2 matching circles.
+
+5. Check the repaired net closes as a cylinder with 3 face pieces.
+
+**Answer:** missing one matching circle; complete net: 1 rectangle and 2 matching circles. **Misconception:** Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.
+
+## Practice answer key
+
+- g9-solid-l04-p01: A learner draws a net for a cube with one edge labelled 5 cm with 5 equal squares. Find the first missing face and repair the net. Options: missing two extra faces; complete net: 6 equal squares | missing one matching square; complete net: 6 equal squares | missing a vertex; complete net: 6 equal squares | missing one curved edge; complete net: 6 equal squares. Correct: missing one matching square; complete net: 6 equal squares. Check the learner’s proposed cube net: 5 equal squares. Compare the net with the solid: it should have 6 face pieces. The first error is that one matching square is absent; the net cannot close. Add one matching square on a matching free edge; a complete net has 6 equal squares. Check the repaired net closes as a cube with 6 face pieces.
+
+- g9-solid-l04-p02: A learner draws a net for a rectangular prism with one edge labelled 5 cm with 5 rectangles. Find the first missing face and repair the net. Options: missing one curved edge; complete net: 6 rectangles in three matching pairs | missing two extra faces; complete net: 6 rectangles in three matching pairs | missing one matching rectangle; complete net: 6 rectangles in three matching pairs | missing a vertex; complete net: 6 rectangles in three matching pairs. Correct: missing one matching rectangle; complete net: 6 rectangles in three matching pairs. Check the learner’s proposed rectangular prism net: 5 rectangles. Compare the net with the solid: it should have 6 face pieces. The first error is that one matching rectangle is absent; the net cannot close. Add one matching rectangle on a matching free edge; a complete net has 6 rectangles in three matching pairs. Check the repaired net closes as a rectangular prism with 6 face pieces.
+
+- g9-solid-l04-p03: A learner draws a net for a triangular prism with one edge labelled 5 cm with 3 rectangles and 1 triangle. Find the first missing face and repair the net. Options: missing a vertex; complete net: 3 rectangles and 2 matching triangles | missing one curved edge; complete net: 3 rectangles and 2 matching triangles | missing two extra faces; complete net: 3 rectangles and 2 matching triangles | missing one matching triangle; complete net: 3 rectangles and 2 matching triangles. Correct: missing one matching triangle; complete net: 3 rectangles and 2 matching triangles. Check the learner’s proposed triangular prism net: 3 rectangles and 1 triangle. Compare the net with the solid: it should have 5 face pieces. The first error is that one matching triangle is absent; the net cannot close. Add one matching triangle on a matching free edge; a complete net has 3 rectangles and 2 matching triangles. Check the repaired net closes as a triangular prism with 5 face pieces.
+
+- g9-solid-l04-p04: A learner draws a net for a square pyramid with one edge labelled 5 cm with 1 square and 3 triangles. Find the first missing face and repair the net. Options: missing one matching triangle; complete net: 1 square and 4 matching triangles | missing a vertex; complete net: 1 square and 4 matching triangles | missing one curved edge; complete net: 1 square and 4 matching triangles | missing two extra faces; complete net: 1 square and 4 matching triangles. Correct: missing one matching triangle; complete net: 1 square and 4 matching triangles. Check the learner’s proposed square pyramid net: 1 square and 3 triangles. Compare the net with the solid: it should have 5 face pieces. The first error is that one matching triangle is absent; the net cannot close. Add one matching triangle on a matching free edge; a complete net has 1 square and 4 matching triangles. Check the repaired net closes as a square pyramid with 5 face pieces.
+
+- g9-solid-l04-p05: A learner draws a net for a cylinder with one edge labelled 5 cm with 1 rectangle and 1 circle. Find the first missing face and repair the net. Options: missing two extra faces; complete net: 1 rectangle and 2 matching circles | missing one matching circle; complete net: 1 rectangle and 2 matching circles | missing a vertex; complete net: 1 rectangle and 2 matching circles | missing one curved edge; complete net: 1 rectangle and 2 matching circles. Correct: missing one matching circle; complete net: 1 rectangle and 2 matching circles. Check the learner’s proposed cylinder net: 1 rectangle and 1 circle. Compare the net with the solid: it should have 3 face pieces. The first error is that one matching circle is absent; the net cannot close. Add one matching circle on a matching free edge; a complete net has 1 rectangle and 2 matching circles. Check the repaired net closes as a cylinder with 3 face pieces.
+
+- g9-solid-l04-p06: A learner draws a net for a cube with one edge labelled 6 cm with 5 equal squares. Find the first missing face and repair the net. Options: missing one curved edge; complete net: 6 equal squares | missing two extra faces; complete net: 6 equal squares | missing one matching square; complete net: 6 equal squares | missing a vertex; complete net: 6 equal squares. Correct: missing one matching square; complete net: 6 equal squares. Check the learner’s proposed cube net: 5 equal squares. Compare the net with the solid: it should have 6 face pieces. The first error is that one matching square is absent; the net cannot close. Add one matching square on a matching free edge; a complete net has 6 equal squares. Check the repaired net closes as a cube with 6 face pieces.
+
+- g9-solid-l04-p07: A learner draws a net for a rectangular prism with one edge labelled 6 cm with 5 rectangles. Find the first missing face and repair the net. Options: missing a vertex; complete net: 6 rectangles in three matching pairs | missing one curved edge; complete net: 6 rectangles in three matching pairs | missing two extra faces; complete net: 6 rectangles in three matching pairs | missing one matching rectangle; complete net: 6 rectangles in three matching pairs. Correct: missing one matching rectangle; complete net: 6 rectangles in three matching pairs. Check the learner’s proposed rectangular prism net: 5 rectangles. Compare the net with the solid: it should have 6 face pieces. The first error is that one matching rectangle is absent; the net cannot close. Add one matching rectangle on a matching free edge; a complete net has 6 rectangles in three matching pairs. Check the repaired net closes as a rectangular prism with 6 face pieces.
+
+- g9-solid-l04-p08: A learner draws a net for a triangular prism with one edge labelled 6 cm with 3 rectangles and 1 triangle. Find the first missing face and repair the net. Options: missing one matching triangle; complete net: 3 rectangles and 2 matching triangles | missing a vertex; complete net: 3 rectangles and 2 matching triangles | missing one curved edge; complete net: 3 rectangles and 2 matching triangles | missing two extra faces; complete net: 3 rectangles and 2 matching triangles. Correct: missing one matching triangle; complete net: 3 rectangles and 2 matching triangles. Check the learner’s proposed triangular prism net: 3 rectangles and 1 triangle. Compare the net with the solid: it should have 5 face pieces. The first error is that one matching triangle is absent; the net cannot close. Add one matching triangle on a matching free edge; a complete net has 3 rectangles and 2 matching triangles. Check the repaired net closes as a triangular prism with 5 face pieces.
+
+- g9-solid-l04-p09: A learner draws a net for a square pyramid with one edge labelled 6 cm with 1 square and 3 triangles. Find the first missing face and repair the net. Options: missing two extra faces; complete net: 1 square and 4 matching triangles | missing one matching triangle; complete net: 1 square and 4 matching triangles | missing a vertex; complete net: 1 square and 4 matching triangles | missing one curved edge; complete net: 1 square and 4 matching triangles. Correct: missing one matching triangle; complete net: 1 square and 4 matching triangles. Check the learner’s proposed square pyramid net: 1 square and 3 triangles. Compare the net with the solid: it should have 5 face pieces. The first error is that one matching triangle is absent; the net cannot close. Add one matching triangle on a matching free edge; a complete net has 1 square and 4 matching triangles. Check the repaired net closes as a square pyramid with 5 face pieces.
+
+- g9-solid-l04-p10: A learner draws a net for a cylinder with one edge labelled 6 cm with 1 rectangle and 1 circle. Find the first missing face and repair the net. Options: missing one curved edge; complete net: 1 rectangle and 2 matching circles | missing two extra faces; complete net: 1 rectangle and 2 matching circles | missing one matching circle; complete net: 1 rectangle and 2 matching circles | missing a vertex; complete net: 1 rectangle and 2 matching circles. Correct: missing one matching circle; complete net: 1 rectangle and 2 matching circles. Check the learner’s proposed cylinder net: 1 rectangle and 1 circle. Compare the net with the solid: it should have 3 face pieces. The first error is that one matching circle is absent; the net cannot close. Add one matching circle on a matching free edge; a complete net has 1 rectangle and 2 matching circles. Check the repaired net closes as a cylinder with 3 face pieces.
+
+- g9-solid-l04-p11: A learner draws a net for a cube with one edge labelled 7 cm with 5 equal squares. Find the first missing face and repair the net. Options: missing a vertex; complete net: 6 equal squares | missing one curved edge; complete net: 6 equal squares | missing two extra faces; complete net: 6 equal squares | missing one matching square; complete net: 6 equal squares. Correct: missing one matching square; complete net: 6 equal squares. Check the learner’s proposed cube net: 5 equal squares. Compare the net with the solid: it should have 6 face pieces. The first error is that one matching square is absent; the net cannot close. Add one matching square on a matching free edge; a complete net has 6 equal squares. Check the repaired net closes as a cube with 6 face pieces.
+
+- g9-solid-l04-p12: A learner draws a net for a rectangular prism with one edge labelled 7 cm with 5 rectangles. Find the first missing face and repair the net. Options: missing one matching rectangle; complete net: 6 rectangles in three matching pairs | missing a vertex; complete net: 6 rectangles in three matching pairs | missing one curved edge; complete net: 6 rectangles in three matching pairs | missing two extra faces; complete net: 6 rectangles in three matching pairs. Correct: missing one matching rectangle; complete net: 6 rectangles in three matching pairs. Check the learner’s proposed rectangular prism net: 5 rectangles. Compare the net with the solid: it should have 6 face pieces. The first error is that one matching rectangle is absent; the net cannot close. Add one matching rectangle on a matching free edge; a complete net has 6 rectangles in three matching pairs. Check the repaired net closes as a rectangular prism with 6 face pieces.
+
+- g9-solid-l04-p13: A learner draws a net for a triangular prism with one edge labelled 7 cm with 3 rectangles and 1 triangle. Find the first missing face and repair the net. Options: missing two extra faces; complete net: 3 rectangles and 2 matching triangles | missing one matching triangle; complete net: 3 rectangles and 2 matching triangles | missing a vertex; complete net: 3 rectangles and 2 matching triangles | missing one curved edge; complete net: 3 rectangles and 2 matching triangles. Correct: missing one matching triangle; complete net: 3 rectangles and 2 matching triangles. Check the learner’s proposed triangular prism net: 3 rectangles and 1 triangle. Compare the net with the solid: it should have 5 face pieces. The first error is that one matching triangle is absent; the net cannot close. Add one matching triangle on a matching free edge; a complete net has 3 rectangles and 2 matching triangles. Check the repaired net closes as a triangular prism with 5 face pieces.
+
+- g9-solid-l04-p14: A learner draws a net for a square pyramid with one edge labelled 7 cm with 1 square and 3 triangles. Find the first missing face and repair the net. Options: missing one curved edge; complete net: 1 square and 4 matching triangles | missing two extra faces; complete net: 1 square and 4 matching triangles | missing one matching triangle; complete net: 1 square and 4 matching triangles | missing a vertex; complete net: 1 square and 4 matching triangles. Correct: missing one matching triangle; complete net: 1 square and 4 matching triangles. Check the learner’s proposed square pyramid net: 1 square and 3 triangles. Compare the net with the solid: it should have 5 face pieces. The first error is that one matching triangle is absent; the net cannot close. Add one matching triangle on a matching free edge; a complete net has 1 square and 4 matching triangles. Check the repaired net closes as a square pyramid with 5 face pieces.
+
+- g9-solid-l04-p15: A learner draws a net for a cylinder with one edge labelled 7 cm with 1 rectangle and 1 circle. Find the first missing face and repair the net. Options: missing a vertex; complete net: 1 rectangle and 2 matching circles | missing one curved edge; complete net: 1 rectangle and 2 matching circles | missing two extra faces; complete net: 1 rectangle and 2 matching circles | missing one matching circle; complete net: 1 rectangle and 2 matching circles. Correct: missing one matching circle; complete net: 1 rectangle and 2 matching circles. Check the learner’s proposed cylinder net: 1 rectangle and 1 circle. Compare the net with the solid: it should have 3 face pieces. The first error is that one matching circle is absent; the net cannot close. Add one matching circle on a matching free edge; a complete net has 1 rectangle and 2 matching circles. Check the repaired net closes as a cylinder with 3 face pieces.
+
+## Mastery answer key
+
+- g9-solid-l04-m16: A learner draws a net for a cube with one edge labelled 11 cm with 5 equal squares. Find the first missing face and repair the net. Options: missing one matching square; complete net: 6 equal squares | missing a vertex; complete net: 6 equal squares | missing one curved edge; complete net: 6 equal squares | missing two extra faces; complete net: 6 equal squares. Correct: missing one matching square; complete net: 6 equal squares. Check the learner’s proposed cube net: 5 equal squares. Compare the net with the solid: it should have 6 face pieces. The first error is that one matching square is absent; the net cannot close. Add one matching square on a matching free edge; a complete net has 6 equal squares. Check the repaired net closes as a cube with 6 face pieces.
+
+- g9-solid-l04-m17: A learner draws a net for a rectangular prism with one edge labelled 11 cm with 5 rectangles. Find the first missing face and repair the net. Options: missing two extra faces; complete net: 6 rectangles in three matching pairs | missing one matching rectangle; complete net: 6 rectangles in three matching pairs | missing a vertex; complete net: 6 rectangles in three matching pairs | missing one curved edge; complete net: 6 rectangles in three matching pairs. Correct: missing one matching rectangle; complete net: 6 rectangles in three matching pairs. Check the learner’s proposed rectangular prism net: 5 rectangles. Compare the net with the solid: it should have 6 face pieces. The first error is that one matching rectangle is absent; the net cannot close. Add one matching rectangle on a matching free edge; a complete net has 6 rectangles in three matching pairs. Check the repaired net closes as a rectangular prism with 6 face pieces.
+
+- g9-solid-l04-m18: A learner draws a net for a triangular prism with one edge labelled 11 cm with 3 rectangles and 1 triangle. Find the first missing face and repair the net. Options: missing one curved edge; complete net: 3 rectangles and 2 matching triangles | missing two extra faces; complete net: 3 rectangles and 2 matching triangles | missing one matching triangle; complete net: 3 rectangles and 2 matching triangles | missing a vertex; complete net: 3 rectangles and 2 matching triangles. Correct: missing one matching triangle; complete net: 3 rectangles and 2 matching triangles. Check the learner’s proposed triangular prism net: 3 rectangles and 1 triangle. Compare the net with the solid: it should have 5 face pieces. The first error is that one matching triangle is absent; the net cannot close. Add one matching triangle on a matching free edge; a complete net has 3 rectangles and 2 matching triangles. Check the repaired net closes as a triangular prism with 5 face pieces.
+
+- g9-solid-l04-m19: A learner draws a net for a square pyramid with one edge labelled 11 cm with 1 square and 3 triangles. Find the first missing face and repair the net. Options: missing a vertex; complete net: 1 square and 4 matching triangles | missing one curved edge; complete net: 1 square and 4 matching triangles | missing two extra faces; complete net: 1 square and 4 matching triangles | missing one matching triangle; complete net: 1 square and 4 matching triangles. Correct: missing one matching triangle; complete net: 1 square and 4 matching triangles. Check the learner’s proposed square pyramid net: 1 square and 3 triangles. Compare the net with the solid: it should have 5 face pieces. The first error is that one matching triangle is absent; the net cannot close. Add one matching triangle on a matching free edge; a complete net has 1 square and 4 matching triangles. Check the repaired net closes as a square pyramid with 5 face pieces.
+
+- g9-solid-l04-m20: A learner draws a net for a cylinder with one edge labelled 11 cm with 1 rectangle and 1 circle. Find the first missing face and repair the net. Options: missing one matching circle; complete net: 1 rectangle and 2 matching circles | missing a vertex; complete net: 1 rectangle and 2 matching circles | missing one curved edge; complete net: 1 rectangle and 2 matching circles | missing two extra faces; complete net: 1 rectangle and 2 matching circles. Correct: missing one matching circle; complete net: 1 rectangle and 2 matching circles. Check the learner’s proposed cylinder net: 1 rectangle and 1 circle. Compare the net with the solid: it should have 3 face pieces. The first error is that one matching circle is absent; the net cannot close. Add one matching circle on a matching free edge; a complete net has 1 rectangle and 2 matching circles. Check the repaired net closes as a cylinder with 3 face pieces.
+
+## Parallel reassessment answer key
+
+- g9-solid-l04-r19: A learner draws a net for a square pyramid with one edge labelled 14 cm with 1 square and 3 triangles. Find the first missing face and repair the net. Options: missing a vertex; complete net: 1 square and 4 matching triangles | missing one curved edge; complete net: 1 square and 4 matching triangles | missing two extra faces; complete net: 1 square and 4 matching triangles | missing one matching triangle; complete net: 1 square and 4 matching triangles. Correct: missing one matching triangle; complete net: 1 square and 4 matching triangles. Check the learner’s proposed square pyramid net: 1 square and 3 triangles. Compare the net with the solid: it should have 5 face pieces. The first error is that one matching triangle is absent; the net cannot close. Add one matching triangle on a matching free edge; a complete net has 1 square and 4 matching triangles. Check the repaired net closes as a square pyramid with 5 face pieces.
+
+- g9-solid-l04-r20: A learner draws a net for a cylinder with one edge labelled 14 cm with 1 rectangle and 1 circle. Find the first missing face and repair the net. Options: missing one matching circle; complete net: 1 rectangle and 2 matching circles | missing a vertex; complete net: 1 rectangle and 2 matching circles | missing one curved edge; complete net: 1 rectangle and 2 matching circles | missing two extra faces; complete net: 1 rectangle and 2 matching circles. Correct: missing one matching circle; complete net: 1 rectangle and 2 matching circles. Check the learner’s proposed cylinder net: 1 rectangle and 1 circle. Compare the net with the solid: it should have 3 face pieces. The first error is that one matching circle is absent; the net cannot close. Add one matching circle on a matching free edge; a complete net has 1 rectangle and 2 matching circles. Check the repaired net closes as a cylinder with 3 face pieces.
+
+- g9-solid-l04-r21: A learner draws a net for a cube with one edge labelled 15 cm with 5 equal squares. Find the first missing face and repair the net. Options: missing two extra faces; complete net: 6 equal squares | missing one matching square; complete net: 6 equal squares | missing a vertex; complete net: 6 equal squares | missing one curved edge; complete net: 6 equal squares. Correct: missing one matching square; complete net: 6 equal squares. Check the learner’s proposed cube net: 5 equal squares. Compare the net with the solid: it should have 6 face pieces. The first error is that one matching square is absent; the net cannot close. Add one matching square on a matching free edge; a complete net has 6 equal squares. Check the repaired net closes as a cube with 6 face pieces.

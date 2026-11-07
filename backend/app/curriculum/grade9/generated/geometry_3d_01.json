@@ -1,0 +1,745 @@
+{
+  "source": "lesson-01.md",
+  "worked": [
+    {
+      "id": "g9-solid-l01-w01",
+      "problem": "A regular tetrahedron has 4 faces and 4 vertices; all its faces are triangles. Find the number of edges and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the tetrahedron; its faces are congruent regular triangles.",
+        "Label the givens: 4 faces and 4 vertices.",
+        "Use Euler’s relationship F + V = E + 2 with F = 4, E = 6, V = 4.",
+        "Therefore the missing number of edges is 6.",
+        "Check: 4 + 4 = 6 + 2 = 8."
+      ],
+      "answer": "edges = 6",
+      "check": "Check: 4 + 4 = 6 + 2 = 8.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "tetrahedron",
+          "faces": 4,
+          "edges": 6,
+          "vertices": 4,
+          "face_shape": "triangles",
+          "target": "edges"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-solid-l01-w02",
+      "problem": "A regular cube has 6 faces and 8 vertices; all its faces are squares. Find the number of edges and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the cube; its faces are congruent regular squares.",
+        "Label the givens: 6 faces and 8 vertices.",
+        "Use Euler’s relationship F + V = E + 2 with F = 6, E = 12, V = 8.",
+        "Therefore the missing number of edges is 12.",
+        "Check: 6 + 8 = 12 + 2 = 14."
+      ],
+      "answer": "edges = 12",
+      "check": "Check: 6 + 8 = 12 + 2 = 14.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "cube",
+          "faces": 6,
+          "edges": 12,
+          "vertices": 8,
+          "face_shape": "squares",
+          "target": "edges"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-solid-l01-w03",
+      "problem": "A regular octahedron has 8 faces and 6 vertices; all its faces are triangles. Find the number of edges and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the octahedron; its faces are congruent regular triangles.",
+        "Label the givens: 8 faces and 6 vertices.",
+        "Use Euler’s relationship F + V = E + 2 with F = 8, E = 12, V = 6.",
+        "Therefore the missing number of edges is 12.",
+        "Check: 8 + 6 = 12 + 2 = 14."
+      ],
+      "answer": "edges = 12",
+      "check": "Check: 8 + 6 = 12 + 2 = 14.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "octahedron",
+          "faces": 8,
+          "edges": 12,
+          "vertices": 6,
+          "face_shape": "triangles",
+          "target": "edges"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-solid-l01-w04",
+      "problem": "A regular dodecahedron has 12 faces and 20 vertices; all its faces are pentagons. Find the number of edges and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the dodecahedron; its faces are congruent regular pentagons.",
+        "Label the givens: 12 faces and 20 vertices.",
+        "Use Euler’s relationship F + V = E + 2 with F = 12, E = 30, V = 20.",
+        "Therefore the missing number of edges is 30.",
+        "Check: 12 + 20 = 30 + 2 = 32."
+      ],
+      "answer": "edges = 30",
+      "check": "Check: 12 + 20 = 30 + 2 = 32.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "dodecahedron",
+          "faces": 12,
+          "edges": 30,
+          "vertices": 20,
+          "face_shape": "pentagons",
+          "target": "edges"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-solid-l01-w05",
+      "problem": "A regular icosahedron has 20 faces and 12 vertices; all its faces are triangles. Find the number of edges and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the icosahedron; its faces are congruent regular triangles.",
+        "Label the givens: 20 faces and 12 vertices.",
+        "Use Euler’s relationship F + V = E + 2 with F = 20, E = 30, V = 12.",
+        "Therefore the missing number of edges is 30.",
+        "Check: 20 + 12 = 30 + 2 = 32."
+      ],
+      "answer": "edges = 30",
+      "check": "Check: 20 + 12 = 30 + 2 = 32.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "icosahedron",
+          "faces": 20,
+          "edges": 30,
+          "vertices": 12,
+          "face_shape": "triangles",
+          "target": "edges"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-solid-l01-w06",
+      "problem": "A regular tetrahedron has 4 faces and 6 edges; all its faces are triangles. Find the number of vertices and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the tetrahedron; its faces are congruent regular triangles.",
+        "Label the givens: 4 faces and 6 edges.",
+        "Use Euler’s relationship F + V = E + 2 with F = 4, E = 6, V = 4.",
+        "Therefore the missing number of vertices is 4.",
+        "Check: 4 + 4 = 6 + 2 = 8."
+      ],
+      "answer": "vertices = 4",
+      "check": "Check: 4 + 4 = 6 + 2 = 8.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "tetrahedron",
+          "faces": 4,
+          "edges": 6,
+          "vertices": 4,
+          "face_shape": "triangles",
+          "target": "vertices"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l01-w07",
+      "problem": "A regular cube has 6 faces and 12 edges; all its faces are squares. Find the number of vertices and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the cube; its faces are congruent regular squares.",
+        "Label the givens: 6 faces and 12 edges.",
+        "Use Euler’s relationship F + V = E + 2 with F = 6, E = 12, V = 8.",
+        "Therefore the missing number of vertices is 8.",
+        "Check: 6 + 8 = 12 + 2 = 14."
+      ],
+      "answer": "vertices = 8",
+      "check": "Check: 6 + 8 = 12 + 2 = 14.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "cube",
+          "faces": 6,
+          "edges": 12,
+          "vertices": 8,
+          "face_shape": "squares",
+          "target": "vertices"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l01-w08",
+      "problem": "A regular octahedron has 8 faces and 12 edges; all its faces are triangles. Find the number of vertices and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the octahedron; its faces are congruent regular triangles.",
+        "Label the givens: 8 faces and 12 edges.",
+        "Use Euler’s relationship F + V = E + 2 with F = 8, E = 12, V = 6.",
+        "Therefore the missing number of vertices is 6.",
+        "Check: 8 + 6 = 12 + 2 = 14."
+      ],
+      "answer": "vertices = 6",
+      "check": "Check: 8 + 6 = 12 + 2 = 14.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "octahedron",
+          "faces": 8,
+          "edges": 12,
+          "vertices": 6,
+          "face_shape": "triangles",
+          "target": "vertices"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l01-w09",
+      "problem": "A regular dodecahedron has 12 faces and 30 edges; all its faces are pentagons. Find the number of vertices and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the dodecahedron; its faces are congruent regular pentagons.",
+        "Label the givens: 12 faces and 30 edges.",
+        "Use Euler’s relationship F + V = E + 2 with F = 12, E = 30, V = 20.",
+        "Therefore the missing number of vertices is 20.",
+        "Check: 12 + 20 = 30 + 2 = 32."
+      ],
+      "answer": "vertices = 20",
+      "check": "Check: 12 + 20 = 30 + 2 = 32.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "dodecahedron",
+          "faces": 12,
+          "edges": 30,
+          "vertices": 20,
+          "face_shape": "pentagons",
+          "target": "vertices"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-solid-l01-w10",
+      "problem": "A regular icosahedron has 20 faces and 30 edges; all its faces are triangles. Find the number of vertices and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the icosahedron; its faces are congruent regular triangles.",
+        "Label the givens: 20 faces and 30 edges.",
+        "Use Euler’s relationship F + V = E + 2 with F = 20, E = 30, V = 12.",
+        "Therefore the missing number of vertices is 12.",
+        "Check: 20 + 12 = 30 + 2 = 32."
+      ],
+      "answer": "vertices = 12",
+      "check": "Check: 20 + 12 = 30 + 2 = 32.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "icosahedron",
+          "faces": 20,
+          "edges": 30,
+          "vertices": 12,
+          "face_shape": "triangles",
+          "target": "vertices"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-solid-l01-w11",
+      "problem": "A regular tetrahedron has 4 vertices and 6 edges; all its faces are triangles. Find the number of faces and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the tetrahedron; its faces are congruent regular triangles.",
+        "Label the givens: 4 vertices and 6 edges.",
+        "Use Euler’s relationship F + V = E + 2 with F = 4, E = 6, V = 4.",
+        "Therefore the missing number of faces is 4.",
+        "Check: 4 + 4 = 6 + 2 = 8."
+      ],
+      "answer": "faces = 4",
+      "check": "Check: 4 + 4 = 6 + 2 = 8.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "tetrahedron",
+          "faces": 4,
+          "edges": 6,
+          "vertices": 4,
+          "face_shape": "triangles",
+          "target": "faces"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-solid-l01-w12",
+      "problem": "A regular cube has 8 vertices and 12 edges; all its faces are squares. Find the number of faces and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the cube; its faces are congruent regular squares.",
+        "Label the givens: 8 vertices and 12 edges.",
+        "Use Euler’s relationship F + V = E + 2 with F = 6, E = 12, V = 8.",
+        "Therefore the missing number of faces is 6.",
+        "Check: 6 + 8 = 12 + 2 = 14."
+      ],
+      "answer": "faces = 6",
+      "check": "Check: 6 + 8 = 12 + 2 = 14.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "cube",
+          "faces": 6,
+          "edges": 12,
+          "vertices": 8,
+          "face_shape": "squares",
+          "target": "faces"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-solid-l01-w13",
+      "problem": "A regular octahedron has 6 vertices and 12 edges; all its faces are triangles. Find the number of faces and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the octahedron; its faces are congruent regular triangles.",
+        "Label the givens: 6 vertices and 12 edges.",
+        "Use Euler’s relationship F + V = E + 2 with F = 8, E = 12, V = 6.",
+        "Therefore the missing number of faces is 8.",
+        "Check: 8 + 6 = 12 + 2 = 14."
+      ],
+      "answer": "faces = 8",
+      "check": "Check: 8 + 6 = 12 + 2 = 14.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "octahedron",
+          "faces": 8,
+          "edges": 12,
+          "vertices": 6,
+          "face_shape": "triangles",
+          "target": "faces"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-solid-l01-w14",
+      "problem": "A regular dodecahedron has 20 vertices and 30 edges; all its faces are pentagons. Find the number of faces and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the dodecahedron; its faces are congruent regular pentagons.",
+        "Label the givens: 20 vertices and 30 edges.",
+        "Use Euler’s relationship F + V = E + 2 with F = 12, E = 30, V = 20.",
+        "Therefore the missing number of faces is 12.",
+        "Check: 12 + 20 = 30 + 2 = 32."
+      ],
+      "answer": "faces = 12",
+      "check": "Check: 12 + 20 = 30 + 2 = 32.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "dodecahedron",
+          "faces": 12,
+          "edges": 30,
+          "vertices": 20,
+          "face_shape": "pentagons",
+          "target": "faces"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-solid-l01-w15",
+      "problem": "A regular icosahedron has 12 vertices and 30 edges; all its faces are triangles. Find the number of faces and verify using Euler’s relationship.",
+      "actions": [
+        "Identify the icosahedron; its faces are congruent regular triangles.",
+        "Label the givens: 12 vertices and 30 edges.",
+        "Use Euler’s relationship F + V = E + 2 with F = 20, E = 30, V = 12.",
+        "Therefore the missing number of faces is 20.",
+        "Check: 20 + 12 = 30 + 2 = 32."
+      ],
+      "answer": "faces = 20",
+      "check": "Check: 20 + 12 = 30 + 2 = 32.",
+      "visual": {
+        "family": "solids",
+        "values": {
+          "lesson": 1,
+          "model": "platonic",
+          "shape": "icosahedron",
+          "faces": 20,
+          "edges": 30,
+          "vertices": 12,
+          "face_shape": "triangles",
+          "target": "faces"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Count actual face pieces and their joining edges; keep curved surfaces distinct from flat faces.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-solid-l01-p01",
+      "prompt": "A regular tetrahedron has 4 faces and 4 vertices; all its faces are triangles. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 7",
+        "edges = 6",
+        "edges = 4",
+        "edges = 5"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the tetrahedron; its faces are congruent regular triangles. Label the givens: 4 faces and 4 vertices. Use Euler’s relationship F + V = E + 2 with F = 4, E = 6, V = 4. Therefore the missing number of edges is 6. Check: 4 + 4 = 6 + 2 = 8.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p02",
+      "prompt": "A regular cube has 6 faces and 8 vertices; all its faces are squares. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 11",
+        "edges = 13",
+        "edges = 12",
+        "edges = 10"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the cube; its faces are congruent regular squares. Label the givens: 6 faces and 8 vertices. Use Euler’s relationship F + V = E + 2 with F = 6, E = 12, V = 8. Therefore the missing number of edges is 12. Check: 6 + 8 = 12 + 2 = 14.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p03",
+      "prompt": "A regular octahedron has 8 faces and 6 vertices; all its faces are triangles. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 10",
+        "edges = 11",
+        "edges = 13",
+        "edges = 12"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the octahedron; its faces are congruent regular triangles. Label the givens: 8 faces and 6 vertices. Use Euler’s relationship F + V = E + 2 with F = 8, E = 12, V = 6. Therefore the missing number of edges is 12. Check: 8 + 6 = 12 + 2 = 14.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p04",
+      "prompt": "A regular dodecahedron has 12 faces and 20 vertices; all its faces are pentagons. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 30",
+        "edges = 28",
+        "edges = 29",
+        "edges = 31"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the dodecahedron; its faces are congruent regular pentagons. Label the givens: 12 faces and 20 vertices. Use Euler’s relationship F + V = E + 2 with F = 12, E = 30, V = 20. Therefore the missing number of edges is 30. Check: 12 + 20 = 30 + 2 = 32.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p05",
+      "prompt": "A regular icosahedron has 20 faces and 12 vertices; all its faces are triangles. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 31",
+        "edges = 30",
+        "edges = 28",
+        "edges = 29"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the icosahedron; its faces are congruent regular triangles. Label the givens: 20 faces and 12 vertices. Use Euler’s relationship F + V = E + 2 with F = 20, E = 30, V = 12. Therefore the missing number of edges is 30. Check: 20 + 12 = 30 + 2 = 32.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p06",
+      "prompt": "A regular tetrahedron has 4 faces and 6 edges; all its faces are triangles. Find the number of vertices and verify using Euler’s relationship.",
+      "options": [
+        "vertices = 3",
+        "vertices = 5",
+        "vertices = 4",
+        "vertices = 2"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the tetrahedron; its faces are congruent regular triangles. Label the givens: 4 faces and 6 edges. Use Euler’s relationship F + V = E + 2 with F = 4, E = 6, V = 4. Therefore the missing number of vertices is 4. Check: 4 + 4 = 6 + 2 = 8.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p07",
+      "prompt": "A regular cube has 6 faces and 12 edges; all its faces are squares. Find the number of vertices and verify using Euler’s relationship.",
+      "options": [
+        "vertices = 6",
+        "vertices = 7",
+        "vertices = 9",
+        "vertices = 8"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the cube; its faces are congruent regular squares. Label the givens: 6 faces and 12 edges. Use Euler’s relationship F + V = E + 2 with F = 6, E = 12, V = 8. Therefore the missing number of vertices is 8. Check: 6 + 8 = 12 + 2 = 14.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p08",
+      "prompt": "A regular octahedron has 8 faces and 12 edges; all its faces are triangles. Find the number of vertices and verify using Euler’s relationship.",
+      "options": [
+        "vertices = 6",
+        "vertices = 4",
+        "vertices = 5",
+        "vertices = 7"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the octahedron; its faces are congruent regular triangles. Label the givens: 8 faces and 12 edges. Use Euler’s relationship F + V = E + 2 with F = 8, E = 12, V = 6. Therefore the missing number of vertices is 6. Check: 8 + 6 = 12 + 2 = 14.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p09",
+      "prompt": "A regular dodecahedron has 12 faces and 30 edges; all its faces are pentagons. Find the number of vertices and verify using Euler’s relationship.",
+      "options": [
+        "vertices = 21",
+        "vertices = 20",
+        "vertices = 18",
+        "vertices = 19"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the dodecahedron; its faces are congruent regular pentagons. Label the givens: 12 faces and 30 edges. Use Euler’s relationship F + V = E + 2 with F = 12, E = 30, V = 20. Therefore the missing number of vertices is 20. Check: 12 + 20 = 30 + 2 = 32.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p10",
+      "prompt": "A regular icosahedron has 20 faces and 30 edges; all its faces are triangles. Find the number of vertices and verify using Euler’s relationship.",
+      "options": [
+        "vertices = 11",
+        "vertices = 13",
+        "vertices = 12",
+        "vertices = 10"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the icosahedron; its faces are congruent regular triangles. Label the givens: 20 faces and 30 edges. Use Euler’s relationship F + V = E + 2 with F = 20, E = 30, V = 12. Therefore the missing number of vertices is 12. Check: 20 + 12 = 30 + 2 = 32.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p11",
+      "prompt": "A regular tetrahedron has 4 vertices and 6 edges; all its faces are triangles. Find the number of faces and verify using Euler’s relationship.",
+      "options": [
+        "faces = 2",
+        "faces = 3",
+        "faces = 5",
+        "faces = 4"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the tetrahedron; its faces are congruent regular triangles. Label the givens: 4 vertices and 6 edges. Use Euler’s relationship F + V = E + 2 with F = 4, E = 6, V = 4. Therefore the missing number of faces is 4. Check: 4 + 4 = 6 + 2 = 8.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p12",
+      "prompt": "A regular cube has 8 vertices and 12 edges; all its faces are squares. Find the number of faces and verify using Euler’s relationship.",
+      "options": [
+        "faces = 6",
+        "faces = 4",
+        "faces = 5",
+        "faces = 7"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the cube; its faces are congruent regular squares. Label the givens: 8 vertices and 12 edges. Use Euler’s relationship F + V = E + 2 with F = 6, E = 12, V = 8. Therefore the missing number of faces is 6. Check: 6 + 8 = 12 + 2 = 14.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p13",
+      "prompt": "A regular octahedron has 6 vertices and 12 edges; all its faces are triangles. Find the number of faces and verify using Euler’s relationship.",
+      "options": [
+        "faces = 9",
+        "faces = 8",
+        "faces = 6",
+        "faces = 7"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the octahedron; its faces are congruent regular triangles. Label the givens: 6 vertices and 12 edges. Use Euler’s relationship F + V = E + 2 with F = 8, E = 12, V = 6. Therefore the missing number of faces is 8. Check: 8 + 6 = 12 + 2 = 14.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p14",
+      "prompt": "A regular dodecahedron has 20 vertices and 30 edges; all its faces are pentagons. Find the number of faces and verify using Euler’s relationship.",
+      "options": [
+        "faces = 11",
+        "faces = 13",
+        "faces = 12",
+        "faces = 10"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the dodecahedron; its faces are congruent regular pentagons. Label the givens: 20 vertices and 30 edges. Use Euler’s relationship F + V = E + 2 with F = 12, E = 30, V = 20. Therefore the missing number of faces is 12. Check: 12 + 20 = 30 + 2 = 32.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-p15",
+      "prompt": "A regular icosahedron has 12 vertices and 30 edges; all its faces are triangles. Find the number of faces and verify using Euler’s relationship.",
+      "options": [
+        "faces = 18",
+        "faces = 19",
+        "faces = 21",
+        "faces = 20"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the icosahedron; its faces are congruent regular triangles. Label the givens: 12 vertices and 30 edges. Use Euler’s relationship F + V = E + 2 with F = 20, E = 30, V = 12. Therefore the missing number of faces is 20. Check: 20 + 12 = 30 + 2 = 32.",
+      "source": "lesson-01.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-solid-l01-m16",
+      "prompt": "A regular tetrahedron has 4 faces and 4 vertices; all its faces are triangles. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 6",
+        "edges = 4",
+        "edges = 5",
+        "edges = 7"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the tetrahedron; its faces are congruent regular triangles. Label the givens: 4 faces and 4 vertices. Use Euler’s relationship F + V = E + 2 with F = 4, E = 6, V = 4. Therefore the missing number of edges is 6. Check: 4 + 4 = 6 + 2 = 8.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-m17",
+      "prompt": "A regular cube has 6 faces and 8 vertices; all its faces are squares. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 13",
+        "edges = 12",
+        "edges = 10",
+        "edges = 11"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the cube; its faces are congruent regular squares. Label the givens: 6 faces and 8 vertices. Use Euler’s relationship F + V = E + 2 with F = 6, E = 12, V = 8. Therefore the missing number of edges is 12. Check: 6 + 8 = 12 + 2 = 14.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-m18",
+      "prompt": "A regular octahedron has 8 faces and 6 vertices; all its faces are triangles. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 11",
+        "edges = 13",
+        "edges = 12",
+        "edges = 10"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the octahedron; its faces are congruent regular triangles. Label the givens: 8 faces and 6 vertices. Use Euler’s relationship F + V = E + 2 with F = 8, E = 12, V = 6. Therefore the missing number of edges is 12. Check: 8 + 6 = 12 + 2 = 14.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-m19",
+      "prompt": "A regular dodecahedron has 12 faces and 20 vertices; all its faces are pentagons. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 28",
+        "edges = 29",
+        "edges = 31",
+        "edges = 30"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the dodecahedron; its faces are congruent regular pentagons. Label the givens: 12 faces and 20 vertices. Use Euler’s relationship F + V = E + 2 with F = 12, E = 30, V = 20. Therefore the missing number of edges is 30. Check: 12 + 20 = 30 + 2 = 32.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-m20",
+      "prompt": "A regular icosahedron has 20 faces and 12 vertices; all its faces are triangles. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 30",
+        "edges = 28",
+        "edges = 29",
+        "edges = 31"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the icosahedron; its faces are congruent regular triangles. Label the givens: 20 faces and 12 vertices. Use Euler’s relationship F + V = E + 2 with F = 20, E = 30, V = 12. Therefore the missing number of edges is 30. Check: 20 + 12 = 30 + 2 = 32.",
+      "source": "lesson-01.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-solid-l01-r19",
+      "prompt": "A regular dodecahedron has 12 faces and 20 vertices; all its faces are pentagons. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 28",
+        "edges = 29",
+        "edges = 31",
+        "edges = 30"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the dodecahedron; its faces are congruent regular pentagons. Label the givens: 12 faces and 20 vertices. Use Euler’s relationship F + V = E + 2 with F = 12, E = 30, V = 20. Therefore the missing number of edges is 30. Check: 12 + 20 = 30 + 2 = 32.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-r20",
+      "prompt": "A regular icosahedron has 20 faces and 12 vertices; all its faces are triangles. Find the number of edges and verify using Euler’s relationship.",
+      "options": [
+        "edges = 30",
+        "edges = 28",
+        "edges = 29",
+        "edges = 31"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the icosahedron; its faces are congruent regular triangles. Label the givens: 20 faces and 12 vertices. Use Euler’s relationship F + V = E + 2 with F = 20, E = 30, V = 12. Therefore the missing number of edges is 30. Check: 20 + 12 = 30 + 2 = 32.",
+      "source": "lesson-01.md"
+    },
+    {
+      "id": "g9-solid-l01-r21",
+      "prompt": "A regular tetrahedron has 4 faces and 6 edges; all its faces are triangles. Find the number of vertices and verify using Euler’s relationship.",
+      "options": [
+        "vertices = 5",
+        "vertices = 4",
+        "vertices = 2",
+        "vertices = 3"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the tetrahedron; its faces are congruent regular triangles. Label the givens: 4 faces and 6 edges. Use Euler’s relationship F + V = E + 2 with F = 4, E = 6, V = 4. Therefore the missing number of vertices is 4. Check: 4 + 4 = 6 + 2 = 8.",
+      "source": "lesson-01.md"
+    }
+  ]
+}

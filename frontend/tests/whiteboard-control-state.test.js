@@ -132,10 +132,10 @@ test("coordinate graphs show the cumulative written solution beside the plotted 
   assert.equal(tracePane.scrollTop,300);
 });
 
-test("Grade 9 shapes, measurement, data and probability retain the written solution beside the visual", () => {
+test("Grade 9 shapes, measurement, data, probability and solids retain the written solution beside the visual", () => {
   global.CSS={escape:value=>value};
   global.AthenaWhiteboardRegistry={resolve(){return {render(){return '';}};}};
-  for(const [id,type] of [['g9-shapes-l01-w01','geometry'],['g9-area-l01-w01','geometry'],['g9-data-l01-w01','statistics'],['g9-prob-l01-w01','statistics']]){
+  for(const [id,type] of [['g9-shapes-l01-w01','geometry'],['g9-area-l01-w01','geometry'],['g9-data-l01-w01','statistics'],['g9-prob-l01-w01','statistics'],['g9-solid-l01-w01','geometry']]){
     const tracePane={scrollTop:0,scrollHeight:320};
     const stage={innerHTML:'',dataset:{},setAttribute(){},querySelector(s){return s==='.g8-completed-steps'?tracePane:null;}};
     const board=Object.create(StatefulWhiteboard.prototype);
