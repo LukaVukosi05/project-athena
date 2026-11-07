@@ -131,3 +131,25 @@ test("coordinate graphs show the cumulative written solution beside the plotted 
   assert.match(stage.innerHTML,/Step 2<\/span>.*A = \(2, 3\)/);
   assert.equal(tracePane.scrollTop,300);
 });
+
+test("Grade 9 shapes, measurement, data and probability retain the written solution beside the visual", () => {
+  global.CSS={escape:value=>value};
+  global.AthenaWhiteboardRegistry={resolve(){return {render(){return '';}};}};
+  for(const [id,type] of [['g9-shapes-l01-w01','geometry'],['g9-area-l01-w01','geometry'],['g9-data-l01-w01','statistics'],['g9-prob-l01-w01','statistics']]){
+    const tracePane={scrollTop:0,scrollHeight:320};
+    const stage={innerHTML:'',dataset:{},setAttribute(){},querySelector(s){return s==='.g8-completed-steps'?tracePane:null;}};
+    const board=Object.create(StatefulWhiteboard.prototype);
+    Object.assign(board,{index:1,visualSession:{render(){return '<svg data-object-id="model"></svg>'; }},
+      block:{id,initial_expression:'Read the original question',problem:'Find the missing value.',visualization:{type},steps:[
+        {after_expression:'1. Count the givens',operation:{type:'test'},events:[],screen_reader_description:'Count'},
+        {after_expression:'2. Final answer = 7',operation:{type:'test'},events:[],screen_reader_description:'Answer'}]},
+      mount:{querySelector(s){if(s==='.whiteboard-stage')return stage;if(s==='[data-role="checkpoint"]')return {hidden:false};return null;}},
+      stopTimeline(){},renderTeachingNotes(){},renderOpeningCaption(){},setStatus(){}});
+    for(const phase of ['ready','operation']){
+      board.reconstruct(phase,'idle');assert.equal(stage.dataset.layout,'split',id);
+      assert.match(stage.innerHTML,/Count the givens/);assert.doesNotMatch(stage.innerHTML,/Final answer = 7/);
+    }
+    board.reconstruct('result','example_complete');assert.match(stage.innerHTML,/Final answer = 7/);
+    assert.match(stage.innerHTML,/data-object-id="model"/);assert.equal(tracePane.scrollTop,320);
+  }
+});

@@ -24,7 +24,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -637,6 +637,49 @@ def _grade9_whole_board(parameters: dict, family: str) -> None:
         or scene.get('actions') is None or len(scene['actions'])!=parameters['total_steps']
         or not 3<=parameters['total_steps']<=18):
         raise ValueError('Grade 9 source scene, question and step count disagree')
+    if family.startswith('probability_'):
+        from fractions import Fraction
+        number=int(family.rsplit('_',1)[-1]);v=scene.get('visual',{}).get('values',{})
+        if (scene.get('lesson')!=number or scene.get('visual',{}).get('family')!='probability'
+            or v.get('lesson')!=number or len(scene['actions'])!=5
+            or scene['actions'][-1]!=scene.get('check')):
+            raise ValueError('Probability source, event and stages disagree')
+        def positive(key):
+            value=v.get(key)
+            if type(value) is not int or not 0<value<10000:raise ValueError(f'Invalid probability {key}')
+            return value
+        if number==1:
+            outcomes=v.get('outcomes');valid=isinstance(outcomes,list) and 6<=len(outcomes)<200 and outcomes==list(range(1,len(outcomes)+1))
+            total=len(outcomes) if valid else 0;fav=total//3
+            expected=f'sample space size = {total}; P(multiple of 3) = {Fraction(fav,total)}' if valid else ''
+            valid=valid and v.get('model')=='sample_grid' and v.get('favourable')==fav and str(total) in scene['problem']
+        elif number==2:
+            table=v.get('table');valid=(isinstance(table,list) and len(table)==2 and all(isinstance(row,list) and len(row)==2 for row in table)
+                and all(type(x) is int and 0<x<10000 for row in table for x in row))
+            if valid:
+                a,b=table[0];c,d=table[1];expected=f'P(bus | Grade 9) = {Fraction(a,a+b)}'
+                valid=(v.get('model')=='two_way' and v.get('row_total')==a+b and v.get('column_total')==a+c
+                    and v.get('grand_total')==a+b+c+d and all(str(x) in scene['problem'] for x in (a,b,c,d)))
+            else:expected=''
+        elif number==3:
+            red,blue=positive('red'),positive('blue');total=red+blue;fraction=Fraction(red*(red-1),total*(total-1))
+            expected=f'P(red then red) = {fraction}'
+            valid=(v.get('model')=='tree' and red>1 and v.get('first_red_num')==red and v.get('first_red_den')==total
+                and v.get('second_red_num')==red-1 and v.get('second_red_den')==total-1
+                and v.get('prob_num')==fraction.numerator and v.get('prob_den')==fraction.denominator
+                and all(str(x) in scene['problem'] for x in (red,blue)))
+        elif number==4:
+            trials,heads=positive('trials'),positive('heads');expected=f'experimental frequency = {Fraction(heads,trials)}; predicted heads in 50 = 25'
+            valid=(v.get('model')=='relative_frequency' and heads<trials and v.get('tails')==trials-heads
+                and v.get('predicted_heads')==25 and all(str(x) in scene['problem'] for x in (trials,heads)))
+        else:
+            total=positive('sectors');fav=total//3;fraction=Fraction(fav,2*total)
+            expected=f'first error: added for AND; correct probability = {fraction}'
+            valid=(v.get('model')=='joint_grid' and v.get('coin_outcomes')==['H','T']
+                and v.get('multiples_of_three')==fav and v.get('favourable_pairs')==fav and v.get('total_pairs')==2*total
+                and str(total) in scene['problem'])
+        if not valid or scene.get('answer')!=expected:raise ValueError('Probability answer or pictured outcomes disagree with question')
+        return
     if family.startswith('data_'):
         from fractions import Fraction
         n=int(family.rsplit('_',1)[-1]);v=scene.get('visual',{}).get('values',{})
@@ -1319,6 +1362,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'data_{n}'),True)
        for n in range(1,9)},
+    **{("statistics",f"grade9_probability_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade9_whole_board(p,f'probability_{n}'),True)
+       for n in range(1,6)},
     **{("geometry",f"grade9_shapes_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'shapes_{n}'),True)

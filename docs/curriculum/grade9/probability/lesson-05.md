@@ -1,0 +1,297 @@
+# Grade 9 Topic 13 · Lesson 5: Combined events, first-error diagnosis and reassessment
+
+Authority: [DBE 2026 Grade 9 Mathematics ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2026%20ATPs/2026_ATP_Mathematics_Grade%209.pdf), Term 3. Original Athena questions.
+
+Status: teacher and browser review required. Show the sample space, denominators, branches or trials before the result.
+
+## g9-prob-l05-w01: A fair spinner numbered 1 to 8 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 8, "multiples_of_three": 2, "coin_outcomes": ["H", "T"], "favourable_pairs": 2, "total_pairs": 16}}
+
+1. List spinner outcomes 1 to 8 and coin outcomes H, T; there are 16 equally likely pairs.
+
+2. The spinner has 2 multiples of 3, giving 2 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (2/8) × (1/2) = 2/16 = 1/8.
+
+5. Check the 2 highlighted favourable pairs among 16; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 1/8. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w02: A fair spinner numbered 1 to 10 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 10, "multiples_of_three": 3, "coin_outcomes": ["H", "T"], "favourable_pairs": 3, "total_pairs": 20}}
+
+1. List spinner outcomes 1 to 10 and coin outcomes H, T; there are 20 equally likely pairs.
+
+2. The spinner has 3 multiples of 3, giving 3 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (3/10) × (1/2) = 3/20 = 3/20.
+
+5. Check the 3 highlighted favourable pairs among 20; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 3/20. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w03: A fair spinner numbered 1 to 12 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 12, "multiples_of_three": 4, "coin_outcomes": ["H", "T"], "favourable_pairs": 4, "total_pairs": 24}}
+
+1. List spinner outcomes 1 to 12 and coin outcomes H, T; there are 24 equally likely pairs.
+
+2. The spinner has 4 multiples of 3, giving 4 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (4/12) × (1/2) = 4/24 = 1/6.
+
+5. Check the 4 highlighted favourable pairs among 24; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 1/6. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w04: A fair spinner numbered 1 to 14 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 14, "multiples_of_three": 4, "coin_outcomes": ["H", "T"], "favourable_pairs": 4, "total_pairs": 28}}
+
+1. List spinner outcomes 1 to 14 and coin outcomes H, T; there are 28 equally likely pairs.
+
+2. The spinner has 4 multiples of 3, giving 4 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (4/14) × (1/2) = 4/28 = 1/7.
+
+5. Check the 4 highlighted favourable pairs among 28; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 1/7. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w05: A fair spinner numbered 1 to 16 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 16, "multiples_of_three": 5, "coin_outcomes": ["H", "T"], "favourable_pairs": 5, "total_pairs": 32}}
+
+1. List spinner outcomes 1 to 16 and coin outcomes H, T; there are 32 equally likely pairs.
+
+2. The spinner has 5 multiples of 3, giving 5 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (5/16) × (1/2) = 5/32 = 5/32.
+
+5. Check the 5 highlighted favourable pairs among 32; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 5/32. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w06: A fair spinner numbered 1 to 18 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 18, "multiples_of_three": 6, "coin_outcomes": ["H", "T"], "favourable_pairs": 6, "total_pairs": 36}}
+
+1. List spinner outcomes 1 to 18 and coin outcomes H, T; there are 36 equally likely pairs.
+
+2. The spinner has 6 multiples of 3, giving 6 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (6/18) × (1/2) = 6/36 = 1/6.
+
+5. Check the 6 highlighted favourable pairs among 36; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 1/6. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w07: A fair spinner numbered 1 to 20 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 20, "multiples_of_three": 6, "coin_outcomes": ["H", "T"], "favourable_pairs": 6, "total_pairs": 40}}
+
+1. List spinner outcomes 1 to 20 and coin outcomes H, T; there are 40 equally likely pairs.
+
+2. The spinner has 6 multiples of 3, giving 6 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (6/20) × (1/2) = 6/40 = 3/20.
+
+5. Check the 6 highlighted favourable pairs among 40; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 3/20. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w08: A fair spinner numbered 1 to 22 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 22, "multiples_of_three": 7, "coin_outcomes": ["H", "T"], "favourable_pairs": 7, "total_pairs": 44}}
+
+1. List spinner outcomes 1 to 22 and coin outcomes H, T; there are 44 equally likely pairs.
+
+2. The spinner has 7 multiples of 3, giving 7 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (7/22) × (1/2) = 7/44 = 7/44.
+
+5. Check the 7 highlighted favourable pairs among 44; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 7/44. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w09: A fair spinner numbered 1 to 24 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 24, "multiples_of_three": 8, "coin_outcomes": ["H", "T"], "favourable_pairs": 8, "total_pairs": 48}}
+
+1. List spinner outcomes 1 to 24 and coin outcomes H, T; there are 48 equally likely pairs.
+
+2. The spinner has 8 multiples of 3, giving 8 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (8/24) × (1/2) = 8/48 = 1/6.
+
+5. Check the 8 highlighted favourable pairs among 48; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 1/6. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w10: A fair spinner numbered 1 to 26 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 26, "multiples_of_three": 8, "coin_outcomes": ["H", "T"], "favourable_pairs": 8, "total_pairs": 52}}
+
+1. List spinner outcomes 1 to 26 and coin outcomes H, T; there are 52 equally likely pairs.
+
+2. The spinner has 8 multiples of 3, giving 8 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (8/26) × (1/2) = 8/52 = 2/13.
+
+5. Check the 8 highlighted favourable pairs among 52; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 2/13. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w11: A fair spinner numbered 1 to 28 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 28, "multiples_of_three": 9, "coin_outcomes": ["H", "T"], "favourable_pairs": 9, "total_pairs": 56}}
+
+1. List spinner outcomes 1 to 28 and coin outcomes H, T; there are 56 equally likely pairs.
+
+2. The spinner has 9 multiples of 3, giving 9 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (9/28) × (1/2) = 9/56 = 9/56.
+
+5. Check the 9 highlighted favourable pairs among 56; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 9/56. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w12: A fair spinner numbered 1 to 30 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 30, "multiples_of_three": 10, "coin_outcomes": ["H", "T"], "favourable_pairs": 10, "total_pairs": 60}}
+
+1. List spinner outcomes 1 to 30 and coin outcomes H, T; there are 60 equally likely pairs.
+
+2. The spinner has 10 multiples of 3, giving 10 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (10/30) × (1/2) = 10/60 = 1/6.
+
+5. Check the 10 highlighted favourable pairs among 60; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 1/6. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w13: A fair spinner numbered 1 to 32 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 32, "multiples_of_three": 10, "coin_outcomes": ["H", "T"], "favourable_pairs": 10, "total_pairs": 64}}
+
+1. List spinner outcomes 1 to 32 and coin outcomes H, T; there are 64 equally likely pairs.
+
+2. The spinner has 10 multiples of 3, giving 10 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (10/32) × (1/2) = 10/64 = 5/32.
+
+5. Check the 10 highlighted favourable pairs among 64; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 5/32. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w14: A fair spinner numbered 1 to 34 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 34, "multiples_of_three": 11, "coin_outcomes": ["H", "T"], "favourable_pairs": 11, "total_pairs": 68}}
+
+1. List spinner outcomes 1 to 34 and coin outcomes H, T; there are 68 equally likely pairs.
+
+2. The spinner has 11 multiples of 3, giving 11 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (11/34) × (1/2) = 11/68 = 11/68.
+
+5. Check the 11 highlighted favourable pairs among 68; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 11/68. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## g9-prob-l05-w15: A fair spinner numbered 1 to 36 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability.
+
+Visual: {"family": "probability", "values": {"lesson": 5, "model": "joint_grid", "sectors": 36, "multiples_of_three": 12, "coin_outcomes": ["H", "T"], "favourable_pairs": 12, "total_pairs": 72}}
+
+1. List spinner outcomes 1 to 36 and coin outcomes H, T; there are 72 equally likely pairs.
+
+2. The spinner has 12 multiples of 3, giving 12 pairs with heads.
+
+3. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities.
+
+4. P(multiple of 3 AND heads) = (12/36) × (1/2) = 12/72 = 1/6.
+
+5. Check the 12 highlighted favourable pairs among 72; the result is between 0 and 1.
+
+**Answer:** first error: added for AND; correct probability = 1/6. **Misconception:** Choose the correct sample space and denominator, then distinguish a path product from addition and observation from prediction.
+
+## Practice answer key
+
+- g9-prob-l05-p01: A fair spinner numbered 1 to 38 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 11/76 | first error: added for AND; correct probability = 3/19 | first error: added for AND; correct probability = 13/76 | first error: added for AND; correct probability = 7/38. Correct: first error: added for AND; correct probability = 3/19. List spinner outcomes 1 to 38 and coin outcomes H, T; there are 76 equally likely pairs. The spinner has 12 multiples of 3, giving 12 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (12/38) × (1/2) = 12/76 = 3/19. Check the 12 highlighted favourable pairs among 76; the result is between 0 and 1.
+
+- g9-prob-l05-p02: A fair spinner numbered 1 to 40 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 3/16 | first error: added for AND; correct probability = 3/20 | first error: added for AND; correct probability = 13/80 | first error: added for AND; correct probability = 7/40. Correct: first error: added for AND; correct probability = 13/80. List spinner outcomes 1 to 40 and coin outcomes H, T; there are 80 equally likely pairs. The spinner has 13 multiples of 3, giving 13 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (13/40) × (1/2) = 13/80 = 13/80. Check the 13 highlighted favourable pairs among 80; the result is between 0 and 1.
+
+- g9-prob-l05-p03: A fair spinner numbered 1 to 42 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 5/28 | first error: added for AND; correct probability = 4/21 | first error: added for AND; correct probability = 13/84 | first error: added for AND; correct probability = 1/6. Correct: first error: added for AND; correct probability = 1/6. List spinner outcomes 1 to 42 and coin outcomes H, T; there are 84 equally likely pairs. The spinner has 14 multiples of 3, giving 14 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (14/42) × (1/2) = 14/84 = 1/6. Check the 14 highlighted favourable pairs among 84; the result is between 0 and 1.
+
+- g9-prob-l05-p04: A fair spinner numbered 1 to 44 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 7/44 | first error: added for AND; correct probability = 15/88 | first error: added for AND; correct probability = 2/11 | first error: added for AND; correct probability = 13/88. Correct: first error: added for AND; correct probability = 7/44. List spinner outcomes 1 to 44 and coin outcomes H, T; there are 88 equally likely pairs. The spinner has 14 multiples of 3, giving 14 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (14/44) × (1/2) = 14/88 = 7/44. Check the 14 highlighted favourable pairs among 88; the result is between 0 and 1.
+
+- g9-prob-l05-p05: A fair spinner numbered 1 to 46 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 7/46 | first error: added for AND; correct probability = 15/92 | first error: added for AND; correct probability = 4/23 | first error: added for AND; correct probability = 17/92. Correct: first error: added for AND; correct probability = 15/92. List spinner outcomes 1 to 46 and coin outcomes H, T; there are 92 equally likely pairs. The spinner has 15 multiples of 3, giving 15 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (15/46) × (1/2) = 15/92 = 15/92. Check the 15 highlighted favourable pairs among 92; the result is between 0 and 1.
+
+- g9-prob-l05-p06: A fair spinner numbered 1 to 48 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 3/16 | first error: added for AND; correct probability = 5/32 | first error: added for AND; correct probability = 1/6 | first error: added for AND; correct probability = 17/96. Correct: first error: added for AND; correct probability = 1/6. List spinner outcomes 1 to 48 and coin outcomes H, T; there are 96 equally likely pairs. The spinner has 16 multiples of 3, giving 16 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (16/48) × (1/2) = 16/96 = 1/6. Check the 16 highlighted favourable pairs among 96; the result is between 0 and 1.
+
+- g9-prob-l05-p07: A fair spinner numbered 1 to 50 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 17/100 | first error: added for AND; correct probability = 9/50 | first error: added for AND; correct probability = 3/20 | first error: added for AND; correct probability = 4/25. Correct: first error: added for AND; correct probability = 4/25. List spinner outcomes 1 to 50 and coin outcomes H, T; there are 100 equally likely pairs. The spinner has 16 multiples of 3, giving 16 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (16/50) × (1/2) = 16/100 = 4/25. Check the 16 highlighted favourable pairs among 100; the result is between 0 and 1.
+
+- g9-prob-l05-p08: A fair spinner numbered 1 to 52 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 17/104 | first error: added for AND; correct probability = 9/52 | first error: added for AND; correct probability = 19/104 | first error: added for AND; correct probability = 2/13. Correct: first error: added for AND; correct probability = 17/104. List spinner outcomes 1 to 52 and coin outcomes H, T; there are 104 equally likely pairs. The spinner has 17 multiples of 3, giving 17 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (17/52) × (1/2) = 17/104 = 17/104. Check the 17 highlighted favourable pairs among 104; the result is between 0 and 1.
+
+- g9-prob-l05-p09: A fair spinner numbered 1 to 54 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 17/108 | first error: added for AND; correct probability = 1/6 | first error: added for AND; correct probability = 19/108 | first error: added for AND; correct probability = 5/27. Correct: first error: added for AND; correct probability = 1/6. List spinner outcomes 1 to 54 and coin outcomes H, T; there are 108 equally likely pairs. The spinner has 18 multiples of 3, giving 18 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (18/54) × (1/2) = 18/108 = 1/6. Check the 18 highlighted favourable pairs among 108; the result is between 0 and 1.
+
+- g9-prob-l05-p10: A fair spinner numbered 1 to 56 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 5/28 | first error: added for AND; correct probability = 17/112 | first error: added for AND; correct probability = 9/56 | first error: added for AND; correct probability = 19/112. Correct: first error: added for AND; correct probability = 9/56. List spinner outcomes 1 to 56 and coin outcomes H, T; there are 112 equally likely pairs. The spinner has 18 multiples of 3, giving 18 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (18/56) × (1/2) = 18/112 = 9/56. Check the 18 highlighted favourable pairs among 112; the result is between 0 and 1.
+
+- g9-prob-l05-p11: A fair spinner numbered 1 to 58 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 5/29 | first error: added for AND; correct probability = 21/116 | first error: added for AND; correct probability = 9/58 | first error: added for AND; correct probability = 19/116. Correct: first error: added for AND; correct probability = 19/116. List spinner outcomes 1 to 58 and coin outcomes H, T; there are 116 equally likely pairs. The spinner has 19 multiples of 3, giving 19 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (19/58) × (1/2) = 19/116 = 19/116. Check the 19 highlighted favourable pairs among 116; the result is between 0 and 1.
+
+- g9-prob-l05-p12: A fair spinner numbered 1 to 60 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 1/6 | first error: added for AND; correct probability = 7/40 | first error: added for AND; correct probability = 11/60 | first error: added for AND; correct probability = 19/120. Correct: first error: added for AND; correct probability = 1/6. List spinner outcomes 1 to 60 and coin outcomes H, T; there are 120 equally likely pairs. The spinner has 20 multiples of 3, giving 20 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (20/60) × (1/2) = 20/120 = 1/6. Check the 20 highlighted favourable pairs among 120; the result is between 0 and 1.
+
+- g9-prob-l05-p13: A fair spinner numbered 1 to 62 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 19/124 | first error: added for AND; correct probability = 5/31 | first error: added for AND; correct probability = 21/124 | first error: added for AND; correct probability = 11/62. Correct: first error: added for AND; correct probability = 5/31. List spinner outcomes 1 to 62 and coin outcomes H, T; there are 124 equally likely pairs. The spinner has 20 multiples of 3, giving 20 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (20/62) × (1/2) = 20/124 = 5/31. Check the 20 highlighted favourable pairs among 124; the result is between 0 and 1.
+
+- g9-prob-l05-p14: A fair spinner numbered 1 to 64 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 23/128 | first error: added for AND; correct probability = 5/32 | first error: added for AND; correct probability = 21/128 | first error: added for AND; correct probability = 11/64. Correct: first error: added for AND; correct probability = 21/128. List spinner outcomes 1 to 64 and coin outcomes H, T; there are 128 equally likely pairs. The spinner has 21 multiples of 3, giving 21 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (21/64) × (1/2) = 21/128 = 21/128. Check the 21 highlighted favourable pairs among 128; the result is between 0 and 1.
+
+- g9-prob-l05-p15: A fair spinner numbered 1 to 66 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 23/132 | first error: added for AND; correct probability = 2/11 | first error: added for AND; correct probability = 7/44 | first error: added for AND; correct probability = 1/6. Correct: first error: added for AND; correct probability = 1/6. List spinner outcomes 1 to 66 and coin outcomes H, T; there are 132 equally likely pairs. The spinner has 22 multiples of 3, giving 22 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (22/66) × (1/2) = 22/132 = 1/6. Check the 22 highlighted favourable pairs among 132; the result is between 0 and 1.
+
+## Mastery answer key
+
+- g9-prob-l05-m16: A fair spinner numbered 1 to 70 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 23/140 | first error: added for AND; correct probability = 6/35 | first error: added for AND; correct probability = 5/28 | first error: added for AND; correct probability = 11/70. Correct: first error: added for AND; correct probability = 23/140. List spinner outcomes 1 to 70 and coin outcomes H, T; there are 140 equally likely pairs. The spinner has 23 multiples of 3, giving 23 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (23/70) × (1/2) = 23/140 = 23/140. Check the 23 highlighted favourable pairs among 140; the result is between 0 and 1.
+
+- g9-prob-l05-m17: A fair spinner numbered 1 to 72 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 23/144 | first error: added for AND; correct probability = 1/6 | first error: added for AND; correct probability = 25/144 | first error: added for AND; correct probability = 13/72. Correct: first error: added for AND; correct probability = 1/6. List spinner outcomes 1 to 72 and coin outcomes H, T; there are 144 equally likely pairs. The spinner has 24 multiples of 3, giving 24 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (24/72) × (1/2) = 24/144 = 1/6. Check the 24 highlighted favourable pairs among 144; the result is between 0 and 1.
+
+- g9-prob-l05-m18: A fair spinner numbered 1 to 74 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 13/74 | first error: added for AND; correct probability = 23/148 | first error: added for AND; correct probability = 6/37 | first error: added for AND; correct probability = 25/148. Correct: first error: added for AND; correct probability = 6/37. List spinner outcomes 1 to 74 and coin outcomes H, T; there are 148 equally likely pairs. The spinner has 24 multiples of 3, giving 24 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (24/74) × (1/2) = 24/148 = 6/37. Check the 24 highlighted favourable pairs among 148; the result is between 0 and 1.
+
+- g9-prob-l05-m19: A fair spinner numbered 1 to 76 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 13/76 | first error: added for AND; correct probability = 27/152 | first error: added for AND; correct probability = 3/19 | first error: added for AND; correct probability = 25/152. Correct: first error: added for AND; correct probability = 25/152. List spinner outcomes 1 to 76 and coin outcomes H, T; there are 152 equally likely pairs. The spinner has 25 multiples of 3, giving 25 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (25/76) × (1/2) = 25/152 = 25/152. Check the 25 highlighted favourable pairs among 152; the result is between 0 and 1.
+
+- g9-prob-l05-m20: A fair spinner numbered 1 to 78 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 1/6 | first error: added for AND; correct probability = 9/52 | first error: added for AND; correct probability = 7/39 | first error: added for AND; correct probability = 25/156. Correct: first error: added for AND; correct probability = 1/6. List spinner outcomes 1 to 78 and coin outcomes H, T; there are 156 equally likely pairs. The spinner has 26 multiples of 3, giving 26 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (26/78) × (1/2) = 26/156 = 1/6. Check the 26 highlighted favourable pairs among 156; the result is between 0 and 1.
+
+## Changed-value reassessment answer key
+
+- g9-prob-l05-r19: A fair spinner numbered 1 to 82 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 7/41 | first error: added for AND; correct probability = 29/164 | first error: added for AND; correct probability = 13/82 | first error: added for AND; correct probability = 27/164. Correct: first error: added for AND; correct probability = 27/164. List spinner outcomes 1 to 82 and coin outcomes H, T; there are 164 equally likely pairs. The spinner has 27 multiples of 3, giving 27 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (27/82) × (1/2) = 27/164 = 27/164. Check the 27 highlighted favourable pairs among 164; the result is between 0 and 1.
+
+- g9-prob-l05-r20: A fair spinner numbered 1 to 84 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 1/6 | first error: added for AND; correct probability = 29/168 | first error: added for AND; correct probability = 5/28 | first error: added for AND; correct probability = 9/56. Correct: first error: added for AND; correct probability = 1/6. List spinner outcomes 1 to 84 and coin outcomes H, T; there are 168 equally likely pairs. The spinner has 28 multiples of 3, giving 28 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (28/84) × (1/2) = 28/168 = 1/6. Check the 28 highlighted favourable pairs among 168; the result is between 0 and 1.
+
+- g9-prob-l05-r21: A fair spinner numbered 1 to 86 and a fair coin are used together. A learner adds P(multiple of 3) and P(heads) for “multiple of 3 AND heads.” Find the first error and the correct probability. Options: first error: added for AND; correct probability = 27/172 | first error: added for AND; correct probability = 7/43 | first error: added for AND; correct probability = 29/172 | first error: added for AND; correct probability = 15/86. Correct: first error: added for AND; correct probability = 7/43. List spinner outcomes 1 to 86 and coin outcomes H, T; there are 172 equally likely pairs. The spinner has 28 multiples of 3, giving 28 pairs with heads. The first error is adding probabilities for an AND event; use the joint pairs or multiply independent probabilities. P(multiple of 3 AND heads) = (28/86) × (1/2) = 28/172 = 7/43. Check the 28 highlighted favourable pairs among 172; the result is between 0 and 1.

@@ -1633,6 +1633,56 @@
               "source_document": "lesson-08.md"
             }
           ]
+        },
+        {
+          "topic_id": "probability",
+          "topic_number": 13,
+          "title": "Probability",
+          "paper": null,
+          "expected_lesson_count": 5,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-prob-01",
+              "position": 1,
+              "title": "Sample spaces and equally likely outcomes",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g9-prob-02",
+              "position": 2,
+              "title": "Two-way tables and conditional counts",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g9-prob-03",
+              "position": 3,
+              "title": "Tree diagrams and compound events",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g9-prob-04",
+              "position": 4,
+              "title": "Experimental versus theoretical relative frequency",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g9-prob-05",
+              "position": 5,
+              "title": "Combined events, first-error diagnosis and reassessment",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05.md"
+            }
+          ]
         }
       ]
     },
