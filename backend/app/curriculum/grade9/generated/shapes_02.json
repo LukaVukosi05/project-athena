@@ -1,0 +1,715 @@
+{
+  "source": "lesson-02.md",
+  "worked": [
+    {
+      "id": "g9-shapes-l02-w01",
+      "problem": "In triangle ABC, ∠A = 22° and ∠B = 27°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 22° and ∠B = 27°.",
+        "The interior angle at C is 180° − 22° − 27° = 131°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 131° = 49°.",
+        "Check: the exterior angle also equals 22° + 27° = 49°."
+      ],
+      "answer": "∠ACD = 49°",
+      "check": "Check: the exterior angle also equals 22° + 27° = 49°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 22,
+          "right": 27,
+          "target": 49,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-shapes-l02-w02",
+      "problem": "In triangle ABC, ∠A = 24° and ∠B = 29°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 24° and ∠B = 29°.",
+        "The interior angle at C is 180° − 24° − 29° = 127°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 127° = 53°.",
+        "Check: the exterior angle also equals 24° + 29° = 53°."
+      ],
+      "answer": "∠ACD = 53°",
+      "check": "Check: the exterior angle also equals 24° + 29° = 53°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 24,
+          "right": 29,
+          "target": 53,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-shapes-l02-w03",
+      "problem": "In triangle ABC, ∠A = 26° and ∠B = 31°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 26° and ∠B = 31°.",
+        "The interior angle at C is 180° − 26° − 31° = 123°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 123° = 57°.",
+        "Check: the exterior angle also equals 26° + 31° = 57°."
+      ],
+      "answer": "∠ACD = 57°",
+      "check": "Check: the exterior angle also equals 26° + 31° = 57°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 26,
+          "right": 31,
+          "target": 57,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l02-w04",
+      "problem": "In triangle ABC, ∠A = 28° and ∠B = 33°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 28° and ∠B = 33°.",
+        "The interior angle at C is 180° − 28° − 33° = 119°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 119° = 61°.",
+        "Check: the exterior angle also equals 28° + 33° = 61°."
+      ],
+      "answer": "∠ACD = 61°",
+      "check": "Check: the exterior angle also equals 28° + 33° = 61°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 28,
+          "right": 33,
+          "target": 61,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l02-w05",
+      "problem": "In triangle ABC, ∠A = 30° and ∠B = 35°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 30° and ∠B = 35°.",
+        "The interior angle at C is 180° − 30° − 35° = 115°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 115° = 65°.",
+        "Check: the exterior angle also equals 30° + 35° = 65°."
+      ],
+      "answer": "∠ACD = 65°",
+      "check": "Check: the exterior angle also equals 30° + 35° = 65°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 30,
+          "right": 35,
+          "target": 65,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l02-w06",
+      "problem": "In triangle ABC, ∠A = 32° and ∠B = 37°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 32° and ∠B = 37°.",
+        "The interior angle at C is 180° − 32° − 37° = 111°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 111° = 69°.",
+        "Check: the exterior angle also equals 32° + 37° = 69°."
+      ],
+      "answer": "∠ACD = 69°",
+      "check": "Check: the exterior angle also equals 32° + 37° = 69°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 32,
+          "right": 37,
+          "target": 69,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l02-w07",
+      "problem": "In triangle ABC, ∠A = 34° and ∠B = 39°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 34° and ∠B = 39°.",
+        "The interior angle at C is 180° − 34° − 39° = 107°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 107° = 73°.",
+        "Check: the exterior angle also equals 34° + 39° = 73°."
+      ],
+      "answer": "∠ACD = 73°",
+      "check": "Check: the exterior angle also equals 34° + 39° = 73°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 34,
+          "right": 39,
+          "target": 73,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l02-w08",
+      "problem": "In triangle ABC, ∠A = 36° and ∠B = 41°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 36° and ∠B = 41°.",
+        "The interior angle at C is 180° − 36° − 41° = 103°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 103° = 77°.",
+        "Check: the exterior angle also equals 36° + 41° = 77°."
+      ],
+      "answer": "∠ACD = 77°",
+      "check": "Check: the exterior angle also equals 36° + 41° = 77°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 36,
+          "right": 41,
+          "target": 77,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l02-w09",
+      "problem": "In triangle ABC, ∠A = 38° and ∠B = 43°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 38° and ∠B = 43°.",
+        "The interior angle at C is 180° − 38° − 43° = 99°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 99° = 81°.",
+        "Check: the exterior angle also equals 38° + 43° = 81°."
+      ],
+      "answer": "∠ACD = 81°",
+      "check": "Check: the exterior angle also equals 38° + 43° = 81°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 38,
+          "right": 43,
+          "target": 81,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l02-w10",
+      "problem": "In triangle ABC, ∠A = 40° and ∠B = 45°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 40° and ∠B = 45°.",
+        "The interior angle at C is 180° − 40° − 45° = 95°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 95° = 85°.",
+        "Check: the exterior angle also equals 40° + 45° = 85°."
+      ],
+      "answer": "∠ACD = 85°",
+      "check": "Check: the exterior angle also equals 40° + 45° = 85°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 40,
+          "right": 45,
+          "target": 85,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l02-w11",
+      "problem": "In triangle ABC, ∠A = 42° and ∠B = 47°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 42° and ∠B = 47°.",
+        "The interior angle at C is 180° − 42° − 47° = 91°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 91° = 89°.",
+        "Check: the exterior angle also equals 42° + 47° = 89°."
+      ],
+      "answer": "∠ACD = 89°",
+      "check": "Check: the exterior angle also equals 42° + 47° = 89°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 42,
+          "right": 47,
+          "target": 89,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l02-w12",
+      "problem": "In triangle ABC, ∠A = 44° and ∠B = 49°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 44° and ∠B = 49°.",
+        "The interior angle at C is 180° − 44° − 49° = 87°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 87° = 93°.",
+        "Check: the exterior angle also equals 44° + 49° = 93°."
+      ],
+      "answer": "∠ACD = 93°",
+      "check": "Check: the exterior angle also equals 44° + 49° = 93°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 44,
+          "right": 49,
+          "target": 93,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l02-w13",
+      "problem": "In triangle ABC, ∠A = 46° and ∠B = 51°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 46° and ∠B = 51°.",
+        "The interior angle at C is 180° − 46° − 51° = 83°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 83° = 97°.",
+        "Check: the exterior angle also equals 46° + 51° = 97°."
+      ],
+      "answer": "∠ACD = 97°",
+      "check": "Check: the exterior angle also equals 46° + 51° = 97°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 46,
+          "right": 51,
+          "target": 97,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-shapes-l02-w14",
+      "problem": "In triangle ABC, ∠A = 48° and ∠B = 53°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 48° and ∠B = 53°.",
+        "The interior angle at C is 180° − 48° − 53° = 79°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 79° = 101°.",
+        "Check: the exterior angle also equals 48° + 53° = 101°."
+      ],
+      "answer": "∠ACD = 101°",
+      "check": "Check: the exterior angle also equals 48° + 53° = 101°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 48,
+          "right": 53,
+          "target": 101,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-shapes-l02-w15",
+      "problem": "In triangle ABC, ∠A = 50° and ∠B = 55°. Extend BC past C to D. Find exterior ∠ACD.",
+      "actions": [
+        "Locate remote interior angles ∠A = 50° and ∠B = 55°.",
+        "The interior angle at C is 180° − 50° − 55° = 75°.",
+        "∠ACB and ∠ACD form a straight line.",
+        "Calculate ∠ACD = 180° − 75° = 105°.",
+        "Check: the exterior angle also equals 50° + 55° = 105°."
+      ],
+      "answer": "∠ACD = 105°",
+      "check": "Check: the exterior angle also equals 50° + 55° = 105°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 2,
+          "left": 50,
+          "right": 55,
+          "target": 105,
+          "model": "exterior"
+        }
+      },
+      "lesson": 2,
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-shapes-l02-p01",
+      "prompt": "In triangle ABC, ∠A = 52° and ∠B = 57°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 105°",
+        "∠ACD = 109°",
+        "∠ACD = 113°",
+        "∠ACD = 117°"
+      ],
+      "answer_index": 1,
+      "memo": "Locate remote interior angles ∠A = 52° and ∠B = 57°. The interior angle at C is 180° − 52° − 57° = 71°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 71° = 109°. Check: the exterior angle also equals 52° + 57° = 109°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p02",
+      "prompt": "In triangle ABC, ∠A = 54° and ∠B = 25°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 87°",
+        "∠ACD = 75°",
+        "∠ACD = 79°",
+        "∠ACD = 83°"
+      ],
+      "answer_index": 2,
+      "memo": "Locate remote interior angles ∠A = 54° and ∠B = 25°. The interior angle at C is 180° − 54° − 25° = 101°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 101° = 79°. Check: the exterior angle also equals 54° + 25° = 79°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p03",
+      "prompt": "In triangle ABC, ∠A = 56° and ∠B = 27°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 87°",
+        "∠ACD = 91°",
+        "∠ACD = 79°",
+        "∠ACD = 83°"
+      ],
+      "answer_index": 3,
+      "memo": "Locate remote interior angles ∠A = 56° and ∠B = 27°. The interior angle at C is 180° − 56° − 27° = 97°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 97° = 83°. Check: the exterior angle also equals 56° + 27° = 83°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p04",
+      "prompt": "In triangle ABC, ∠A = 58° and ∠B = 29°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 87°",
+        "∠ACD = 91°",
+        "∠ACD = 95°",
+        "∠ACD = 83°"
+      ],
+      "answer_index": 0,
+      "memo": "Locate remote interior angles ∠A = 58° and ∠B = 29°. The interior angle at C is 180° − 58° − 29° = 93°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 93° = 87°. Check: the exterior angle also equals 58° + 29° = 87°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p05",
+      "prompt": "In triangle ABC, ∠A = 60° and ∠B = 31°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 87°",
+        "∠ACD = 91°",
+        "∠ACD = 95°",
+        "∠ACD = 99°"
+      ],
+      "answer_index": 1,
+      "memo": "Locate remote interior angles ∠A = 60° and ∠B = 31°. The interior angle at C is 180° − 60° − 31° = 89°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 89° = 91°. Check: the exterior angle also equals 60° + 31° = 91°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p06",
+      "prompt": "In triangle ABC, ∠A = 62° and ∠B = 33°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 103°",
+        "∠ACD = 91°",
+        "∠ACD = 95°",
+        "∠ACD = 99°"
+      ],
+      "answer_index": 2,
+      "memo": "Locate remote interior angles ∠A = 62° and ∠B = 33°. The interior angle at C is 180° − 62° − 33° = 85°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 85° = 95°. Check: the exterior angle also equals 62° + 33° = 95°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p07",
+      "prompt": "In triangle ABC, ∠A = 64° and ∠B = 35°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 103°",
+        "∠ACD = 107°",
+        "∠ACD = 95°",
+        "∠ACD = 99°"
+      ],
+      "answer_index": 3,
+      "memo": "Locate remote interior angles ∠A = 64° and ∠B = 35°. The interior angle at C is 180° − 64° − 35° = 81°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 81° = 99°. Check: the exterior angle also equals 64° + 35° = 99°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p08",
+      "prompt": "In triangle ABC, ∠A = 66° and ∠B = 37°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 103°",
+        "∠ACD = 107°",
+        "∠ACD = 111°",
+        "∠ACD = 99°"
+      ],
+      "answer_index": 0,
+      "memo": "Locate remote interior angles ∠A = 66° and ∠B = 37°. The interior angle at C is 180° − 66° − 37° = 77°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 77° = 103°. Check: the exterior angle also equals 66° + 37° = 103°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p09",
+      "prompt": "In triangle ABC, ∠A = 68° and ∠B = 39°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 103°",
+        "∠ACD = 107°",
+        "∠ACD = 111°",
+        "∠ACD = 115°"
+      ],
+      "answer_index": 1,
+      "memo": "Locate remote interior angles ∠A = 68° and ∠B = 39°. The interior angle at C is 180° − 68° − 39° = 73°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 73° = 107°. Check: the exterior angle also equals 68° + 39° = 107°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p10",
+      "prompt": "In triangle ABC, ∠A = 70° and ∠B = 41°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 119°",
+        "∠ACD = 107°",
+        "∠ACD = 111°",
+        "∠ACD = 115°"
+      ],
+      "answer_index": 2,
+      "memo": "Locate remote interior angles ∠A = 70° and ∠B = 41°. The interior angle at C is 180° − 70° − 41° = 69°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 69° = 111°. Check: the exterior angle also equals 70° + 41° = 111°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p11",
+      "prompt": "In triangle ABC, ∠A = 72° and ∠B = 43°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 119°",
+        "∠ACD = 123°",
+        "∠ACD = 111°",
+        "∠ACD = 115°"
+      ],
+      "answer_index": 3,
+      "memo": "Locate remote interior angles ∠A = 72° and ∠B = 43°. The interior angle at C is 180° − 72° − 43° = 65°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 65° = 115°. Check: the exterior angle also equals 72° + 43° = 115°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p12",
+      "prompt": "In triangle ABC, ∠A = 74° and ∠B = 45°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 119°",
+        "∠ACD = 123°",
+        "∠ACD = 127°",
+        "∠ACD = 115°"
+      ],
+      "answer_index": 0,
+      "memo": "Locate remote interior angles ∠A = 74° and ∠B = 45°. The interior angle at C is 180° − 74° − 45° = 61°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 61° = 119°. Check: the exterior angle also equals 74° + 45° = 119°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p13",
+      "prompt": "In triangle ABC, ∠A = 76° and ∠B = 47°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 119°",
+        "∠ACD = 123°",
+        "∠ACD = 127°",
+        "∠ACD = 131°"
+      ],
+      "answer_index": 1,
+      "memo": "Locate remote interior angles ∠A = 76° and ∠B = 47°. The interior angle at C is 180° − 76° − 47° = 57°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 57° = 123°. Check: the exterior angle also equals 76° + 47° = 123°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p14",
+      "prompt": "In triangle ABC, ∠A = 78° and ∠B = 49°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 135°",
+        "∠ACD = 123°",
+        "∠ACD = 127°",
+        "∠ACD = 131°"
+      ],
+      "answer_index": 2,
+      "memo": "Locate remote interior angles ∠A = 78° and ∠B = 49°. The interior angle at C is 180° − 78° − 49° = 53°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 53° = 127°. Check: the exterior angle also equals 78° + 49° = 127°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-p15",
+      "prompt": "In triangle ABC, ∠A = 80° and ∠B = 51°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 135°",
+        "∠ACD = 139°",
+        "∠ACD = 127°",
+        "∠ACD = 131°"
+      ],
+      "answer_index": 3,
+      "memo": "Locate remote interior angles ∠A = 80° and ∠B = 51°. The interior angle at C is 180° − 80° − 51° = 49°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 49° = 131°. Check: the exterior angle also equals 80° + 51° = 131°.",
+      "source": "lesson-02.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-shapes-l02-m16",
+      "prompt": "In triangle ABC, ∠A = 82° and ∠B = 53°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 135°",
+        "∠ACD = 139°",
+        "∠ACD = 143°",
+        "∠ACD = 131°"
+      ],
+      "answer_index": 0,
+      "memo": "Locate remote interior angles ∠A = 82° and ∠B = 53°. The interior angle at C is 180° − 82° − 53° = 45°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 45° = 135°. Check: the exterior angle also equals 82° + 53° = 135°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-m17",
+      "prompt": "In triangle ABC, ∠A = 84° and ∠B = 55°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 135°",
+        "∠ACD = 139°",
+        "∠ACD = 143°",
+        "∠ACD = 147°"
+      ],
+      "answer_index": 1,
+      "memo": "Locate remote interior angles ∠A = 84° and ∠B = 55°. The interior angle at C is 180° − 84° − 55° = 41°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 41° = 139°. Check: the exterior angle also equals 84° + 55° = 139°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-m18",
+      "prompt": "In triangle ABC, ∠A = 86° and ∠B = 57°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 151°",
+        "∠ACD = 139°",
+        "∠ACD = 143°",
+        "∠ACD = 147°"
+      ],
+      "answer_index": 2,
+      "memo": "Locate remote interior angles ∠A = 86° and ∠B = 57°. The interior angle at C is 180° − 86° − 57° = 37°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 37° = 143°. Check: the exterior angle also equals 86° + 57° = 143°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-m19",
+      "prompt": "In triangle ABC, ∠A = 88° and ∠B = 25°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 117°",
+        "∠ACD = 121°",
+        "∠ACD = 109°",
+        "∠ACD = 113°"
+      ],
+      "answer_index": 3,
+      "memo": "Locate remote interior angles ∠A = 88° and ∠B = 25°. The interior angle at C is 180° − 88° − 25° = 67°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 67° = 113°. Check: the exterior angle also equals 88° + 25° = 113°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-m20",
+      "prompt": "In triangle ABC, ∠A = 90° and ∠B = 27°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 117°",
+        "∠ACD = 121°",
+        "∠ACD = 125°",
+        "∠ACD = 113°"
+      ],
+      "answer_index": 0,
+      "memo": "Locate remote interior angles ∠A = 90° and ∠B = 27°. The interior angle at C is 180° − 90° − 27° = 63°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 63° = 117°. Check: the exterior angle also equals 90° + 27° = 117°.",
+      "source": "lesson-02.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-shapes-l02-r19",
+      "prompt": "In triangle ABC, ∠A = 92° and ∠B = 29°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 125°",
+        "∠ACD = 129°",
+        "∠ACD = 117°",
+        "∠ACD = 121°"
+      ],
+      "answer_index": 3,
+      "memo": "Locate remote interior angles ∠A = 92° and ∠B = 29°. The interior angle at C is 180° − 92° − 29° = 59°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 59° = 121°. Check: the exterior angle also equals 92° + 29° = 121°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-r20",
+      "prompt": "In triangle ABC, ∠A = 94° and ∠B = 31°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 125°",
+        "∠ACD = 129°",
+        "∠ACD = 133°",
+        "∠ACD = 121°"
+      ],
+      "answer_index": 0,
+      "memo": "Locate remote interior angles ∠A = 94° and ∠B = 31°. The interior angle at C is 180° − 94° − 31° = 55°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 55° = 125°. Check: the exterior angle also equals 94° + 31° = 125°.",
+      "source": "lesson-02.md"
+    },
+    {
+      "id": "g9-shapes-l02-r21",
+      "prompt": "In triangle ABC, ∠A = 96° and ∠B = 33°. Extend BC past C to D. Find exterior ∠ACD.",
+      "options": [
+        "∠ACD = 125°",
+        "∠ACD = 129°",
+        "∠ACD = 133°",
+        "∠ACD = 137°"
+      ],
+      "answer_index": 1,
+      "memo": "Locate remote interior angles ∠A = 96° and ∠B = 33°. The interior angle at C is 180° − 96° − 33° = 51°. ∠ACB and ∠ACD form a straight line. Calculate ∠ACD = 180° − 51° = 129°. Check: the exterior angle also equals 96° + 33° = 129°.",
+      "source": "lesson-02.md"
+    }
+  ]
+}

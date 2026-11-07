@@ -1,0 +1,98 @@
+[
+  {
+    "lesson_id": "g9-shapes-01",
+    "source": "lesson-01.md",
+    "source_sha256": "adf8684c48aca03c2d395afb40e45ca5dd044da001f06bfe374520df873fd56b",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-shapes-02",
+    "source": "lesson-02.md",
+    "source_sha256": "7927bce5d220c480a80eb0355ca2bcda76ee8809958b61314c65102209b17549",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-shapes-03",
+    "source": "lesson-03.md",
+    "source_sha256": "9932003aa9531c85593dfbb7d719c003c05c3c475c5f3145da98a351ac4ab61e",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-shapes-04",
+    "source": "lesson-04.md",
+    "source_sha256": "8d36a3034b4be2627ed209e768c0dc95085c748b8eaea1219c27f96296f48c69",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-shapes-05",
+    "source": "lesson-05.md",
+    "source_sha256": "20007a26b10e1a7d944fa35fb535484f306c66c5adf9da878f561a80c438c65f",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-shapes-06",
+    "source": "lesson-06.md",
+    "source_sha256": "d6f3472aafc314363ea4ebffb25f0d3796e16f98140889c80fc8235d3d3a6d11",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-shapes-07",
+    "source": "lesson-07.md",
+    "source_sha256": "2abcb1841ea71380ac9e319e63ec11c65ab950939af80502fce4b7b797a5a37a",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-shapes-08",
+    "source": "lesson-08.md",
+    "source_sha256": "93f64564d693402b9cba549f60210f28b7e57d777d4cb3257e358e31fc029f5e",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

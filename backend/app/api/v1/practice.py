@@ -35,6 +35,7 @@ ASSESSMENT_BANKS={
     **{f"g9-equations-{number:02}":grade9_whole.EQUATION_BANKS[number][1:] for number in range(1,7)},
     **{f"g9-graphs-{number:02}":grade9_whole.GRAPH_BANKS[number][1:] for number in range(1,8)},
     **{f"g9-straight-lines-{number:02}":grade9_whole.LINE_BANKS[number][1:] for number in range(1,6)},
+    **{f"g9-shapes-{number:02}":grade9_whole.SHAPE_BANKS[number][1:] for number in range(1,9)},
     **{f"g8-pythagoras-{n:02}": assessment_pythagoras.banks(n)[1:] for n in range(1,6)},
     **{f"g8-shapes-{n:02}": assessment_shapes.banks(n)[1:] for n in range(1,6)},
     **{f"g8-straight-lines-{n:02}": assessment_straight_lines.banks(n)[1:] for n in (1,2)},

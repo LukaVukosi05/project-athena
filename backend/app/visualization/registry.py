@@ -23,7 +23,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -636,6 +636,49 @@ def _grade9_whole_board(parameters: dict, family: str) -> None:
         or scene.get('actions') is None or len(scene['actions'])!=parameters['total_steps']
         or not 3<=parameters['total_steps']<=18):
         raise ValueError('Grade 9 source scene, question and step count disagree')
+    if family.startswith('shapes_'):
+        number=int(family.rsplit('_',1)[-1]);visual=scene.get('visual',{});v=visual.get('values',{})
+        if (scene.get('lesson')!=number or visual.get('family')!='shapes' or v.get('lesson')!=number
+            or len(scene.get('actions',[]))!=5 or scene['actions'][-1]!=scene.get('check')
+            or not isinstance(scene.get('answer'),str)):
+            raise ValueError('Shape diagram, question and five reasoning stages must agree')
+        def integer(key):
+            value=v.get(key)
+            if type(value) is not int or not 0<value<5000:raise ValueError(f'Invalid shape {key}')
+            return value
+        target=integer('target')
+        if number==1:
+            model=v.get('model')
+            if model=='isosceles':
+                apex=integer('apex');valid=apex<180 and 2*target+apex==180 and scene['answer']==f'∠B = {target}°'
+            elif model=='equilateral':
+                valid=integer('side')<100 and target==60 and scene['answer']=='∠B = 60°'
+            elif model=='right':
+                given=integer('given');valid=integer('side')<100 and given<90 and given+target==90 and scene['answer']==f'∠C = {target}°'
+            else:valid=False
+        elif number in (7,8):
+            apex=integer('apex');valid=apex<180 and 2*target+apex==180 and scene['answer']==(f'x = {target}°' if number==7 else f'∠B = {target}°')
+            if number==8:valid=valid and v.get('claimed')==180-apex
+        elif number==2:
+            left,right=integer('left'),integer('right');valid=left+right==target<180 and scene['answer']==f'∠ACD = {target}°'
+        elif number==3:
+            given=integer('given');model=v.get('model');side={'rectangle':'CD','square':'BC','kite':'AD'}.get(model)
+            valid=(given+target==180 and scene['answer']==f'∠{("D" if model=="trapezium" else "B")} = {target}°' if model in {'parallelogram','rhombus','trapezium'} else
+                target==given and scene['answer']==f'{side} = {target} cm' if side else False)
+        elif number==4:
+            if v.get('model')=='regular_polygon':
+                sides=integer('sides');valid=4<=sides<=44 and target==(sides-2)*180 and v.get('each')==str(__import__('fractions').Fraction(target,sides)) and scene['answer']==f'sum = {target}°; each = {v["each"]}°'
+            elif v.get('model')=='diagonals':
+                given=integer('given');shape=v.get('shape')
+                side='BD' if shape in {'rectangle','square'} else 'EC' if shape in {'parallelogram','rhombus'} else 'ED' if shape=='kite' else None
+                valid=side is not None and target==given and scene['answer']==f'{side} = {target} cm'
+            else:valid=False
+        elif number==5:
+            sides=v.get('sides');valid=isinstance(sides,list) and len(sides)==3 and all(type(s) is int and 2<=s<=50 for s in sides) and sides[2]==target and v.get('criterion') in {'SAS','SSS','ASA'} and scene['answer']==(f'EF = {target} cm' if v['criterion']=='SAS' else f'△ABC ≅ △DEF ({v["criterion"]})')
+        else:
+            small,scale=integer('small'),integer('scale');valid=2<=scale<=4 and (small+2)*scale==target and scene['answer']==f'EF = {target} cm'
+        if not valid:raise ValueError('Shape calculation and corresponding diagram disagree')
+        return
     if family.startswith('lines_'):
         number=int(family.rsplit('_',1)[-1]);v=scene.get('visual',{}).get('values',{})
         theta,given,target=v.get('theta'),v.get('given'),v.get('target')
@@ -1171,6 +1214,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'expression_{n}'),True)
        for n in range(1,10)},
+    **{("geometry",f"grade9_shapes_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade9_whole_board(p,f'shapes_{n}'),True)
+       for n in range(1,9)},
     **{("geometry",f"grade9_lines_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'lines_{n}'),True)

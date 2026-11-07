@@ -1,0 +1,700 @@
+{
+  "source": "lesson-03.md",
+  "worked": [
+    {
+      "id": "g9-shapes-l03-w01",
+      "problem": "Rectangle ABCD has side AB = 4 cm. Find opposite side CD.",
+      "actions": [
+        "Locate the given side AB = 4 cm and the requested side CD.",
+        "Opposite sides of a rectangle are equal.",
+        "Write CD = AB.",
+        "Calculate CD = 4 cm.",
+        "Check the marked corresponding or equal sides both measure 4 cm."
+      ],
+      "answer": "CD = 4 cm",
+      "check": "Check the marked corresponding or equal sides both measure 4 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "rectangle",
+          "given": 4,
+          "target": 4
+        }
+      },
+      "lesson": 3,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-shapes-l03-w02",
+      "problem": "ABCD is a rhombus. ∠A = 46°. Find adjacent ∠B, naming the property.",
+      "actions": [
+        "Locate ∠A = 46° and adjacent ∠B.",
+        "Use the property: a rhombus is a parallelogram, so adjacent angles are supplementary.",
+        "Write 46° + ∠B = 180°.",
+        "Calculate ∠B = 180° − 46° = 134°.",
+        "Check: 46° + 134° = 180°."
+      ],
+      "answer": "∠B = 134°",
+      "check": "Check: 46° + 134° = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "rhombus",
+          "given": 46,
+          "target": 134
+        }
+      },
+      "lesson": 3,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-shapes-l03-w03",
+      "problem": "Trapezium ABCD has AB ∥ CD. ∠A = 49°. Find ∠D on the same transversal AD.",
+      "actions": [
+        "Mark the one parallel pair AB ∥ CD and the transversal AD; ∠A = 49°.",
+        "∠A and ∠D are co-interior angles.",
+        "Co-interior angles sum to 180°: 49° + ∠D = 180°.",
+        "Calculate ∠D = 131°.",
+        "Check: 49° + 131° = 180°."
+      ],
+      "answer": "∠D = 131°",
+      "check": "Check: 49° + 131° = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "trapezium",
+          "given": 49,
+          "target": 131
+        }
+      },
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l03-w04",
+      "problem": "Square ABCD has side AB = 7 cm. Find side BC.",
+      "actions": [
+        "Locate the given side AB = 7 cm and the requested side BC.",
+        "All four sides of a square are equal.",
+        "Write BC = AB.",
+        "Calculate BC = 7 cm.",
+        "Check the marked corresponding or equal sides both measure 7 cm."
+      ],
+      "answer": "BC = 7 cm",
+      "check": "Check the marked corresponding or equal sides both measure 7 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "square",
+          "given": 7,
+          "target": 7
+        }
+      },
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l03-w05",
+      "problem": "Kite ABCD has its adjacent sides AB and AD marked equal. If AB = 8 cm, find AD.",
+      "actions": [
+        "Locate the given side AB = 8 cm and the requested side AD.",
+        "The given adjacent pair AB and AD is equal by the kite markings.",
+        "Write AD = AB.",
+        "Calculate AD = 8 cm.",
+        "Check the marked corresponding or equal sides both measure 8 cm."
+      ],
+      "answer": "AD = 8 cm",
+      "check": "Check the marked corresponding or equal sides both measure 8 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "kite",
+          "given": 8,
+          "target": 8
+        }
+      },
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l03-w06",
+      "problem": "ABCD is a parallelogram. ∠A = 58°. Find adjacent ∠B, naming the property.",
+      "actions": [
+        "Locate ∠A = 58° and adjacent ∠B.",
+        "Use the property: adjacent angles in a parallelogram are supplementary.",
+        "Write 58° + ∠B = 180°.",
+        "Calculate ∠B = 180° − 58° = 122°.",
+        "Check: 58° + 122° = 180°."
+      ],
+      "answer": "∠B = 122°",
+      "check": "Check: 58° + 122° = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "parallelogram",
+          "given": 58,
+          "target": 122
+        }
+      },
+      "lesson": 3,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l03-w07",
+      "problem": "Rectangle ABCD has side AB = 10 cm. Find opposite side CD.",
+      "actions": [
+        "Locate the given side AB = 10 cm and the requested side CD.",
+        "Opposite sides of a rectangle are equal.",
+        "Write CD = AB.",
+        "Calculate CD = 10 cm.",
+        "Check the marked corresponding or equal sides both measure 10 cm."
+      ],
+      "answer": "CD = 10 cm",
+      "check": "Check the marked corresponding or equal sides both measure 10 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "rectangle",
+          "given": 10,
+          "target": 10
+        }
+      },
+      "lesson": 3,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l03-w08",
+      "problem": "ABCD is a rhombus. ∠A = 64°. Find adjacent ∠B, naming the property.",
+      "actions": [
+        "Locate ∠A = 64° and adjacent ∠B.",
+        "Use the property: a rhombus is a parallelogram, so adjacent angles are supplementary.",
+        "Write 64° + ∠B = 180°.",
+        "Calculate ∠B = 180° − 64° = 116°.",
+        "Check: 64° + 116° = 180°."
+      ],
+      "answer": "∠B = 116°",
+      "check": "Check: 64° + 116° = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "rhombus",
+          "given": 64,
+          "target": 116
+        }
+      },
+      "lesson": 3,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l03-w09",
+      "problem": "Trapezium ABCD has AB ∥ CD. ∠A = 67°. Find ∠D on the same transversal AD.",
+      "actions": [
+        "Mark the one parallel pair AB ∥ CD and the transversal AD; ∠A = 67°.",
+        "∠A and ∠D are co-interior angles.",
+        "Co-interior angles sum to 180°: 67° + ∠D = 180°.",
+        "Calculate ∠D = 113°.",
+        "Check: 67° + 113° = 180°."
+      ],
+      "answer": "∠D = 113°",
+      "check": "Check: 67° + 113° = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "trapezium",
+          "given": 67,
+          "target": 113
+        }
+      },
+      "lesson": 3,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l03-w10",
+      "problem": "Square ABCD has side AB = 13 cm. Find side BC.",
+      "actions": [
+        "Locate the given side AB = 13 cm and the requested side BC.",
+        "All four sides of a square are equal.",
+        "Write BC = AB.",
+        "Calculate BC = 13 cm.",
+        "Check the marked corresponding or equal sides both measure 13 cm."
+      ],
+      "answer": "BC = 13 cm",
+      "check": "Check the marked corresponding or equal sides both measure 13 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "square",
+          "given": 13,
+          "target": 13
+        }
+      },
+      "lesson": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l03-w11",
+      "problem": "Kite ABCD has its adjacent sides AB and AD marked equal. If AB = 14 cm, find AD.",
+      "actions": [
+        "Locate the given side AB = 14 cm and the requested side AD.",
+        "The given adjacent pair AB and AD is equal by the kite markings.",
+        "Write AD = AB.",
+        "Calculate AD = 14 cm.",
+        "Check the marked corresponding or equal sides both measure 14 cm."
+      ],
+      "answer": "AD = 14 cm",
+      "check": "Check the marked corresponding or equal sides both measure 14 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "kite",
+          "given": 14,
+          "target": 14
+        }
+      },
+      "lesson": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l03-w12",
+      "problem": "ABCD is a parallelogram. ∠A = 76°. Find adjacent ∠B, naming the property.",
+      "actions": [
+        "Locate ∠A = 76° and adjacent ∠B.",
+        "Use the property: adjacent angles in a parallelogram are supplementary.",
+        "Write 76° + ∠B = 180°.",
+        "Calculate ∠B = 180° − 76° = 104°.",
+        "Check: 76° + 104° = 180°."
+      ],
+      "answer": "∠B = 104°",
+      "check": "Check: 76° + 104° = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "parallelogram",
+          "given": 76,
+          "target": 104
+        }
+      },
+      "lesson": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l03-w13",
+      "problem": "Rectangle ABCD has side AB = 16 cm. Find opposite side CD.",
+      "actions": [
+        "Locate the given side AB = 16 cm and the requested side CD.",
+        "Opposite sides of a rectangle are equal.",
+        "Write CD = AB.",
+        "Calculate CD = 16 cm.",
+        "Check the marked corresponding or equal sides both measure 16 cm."
+      ],
+      "answer": "CD = 16 cm",
+      "check": "Check the marked corresponding or equal sides both measure 16 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "rectangle",
+          "given": 16,
+          "target": 16
+        }
+      },
+      "lesson": 3,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-shapes-l03-w14",
+      "problem": "ABCD is a rhombus. ∠A = 82°. Find adjacent ∠B, naming the property.",
+      "actions": [
+        "Locate ∠A = 82° and adjacent ∠B.",
+        "Use the property: a rhombus is a parallelogram, so adjacent angles are supplementary.",
+        "Write 82° + ∠B = 180°.",
+        "Calculate ∠B = 180° − 82° = 98°.",
+        "Check: 82° + 98° = 180°."
+      ],
+      "answer": "∠B = 98°",
+      "check": "Check: 82° + 98° = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "rhombus",
+          "given": 82,
+          "target": 98
+        }
+      },
+      "lesson": 3,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-shapes-l03-w15",
+      "problem": "Trapezium ABCD has AB ∥ CD. ∠A = 85°. Find ∠D on the same transversal AD.",
+      "actions": [
+        "Mark the one parallel pair AB ∥ CD and the transversal AD; ∠A = 85°.",
+        "∠A and ∠D are co-interior angles.",
+        "Co-interior angles sum to 180°: 85° + ∠D = 180°.",
+        "Calculate ∠D = 95°.",
+        "Check: 85° + 95° = 180°."
+      ],
+      "answer": "∠D = 95°",
+      "check": "Check: 85° + 95° = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "quadrilateral",
+          "lesson": 3,
+          "model": "trapezium",
+          "given": 85,
+          "target": 95
+        }
+      },
+      "lesson": 3,
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-shapes-l03-p01",
+      "prompt": "Square ABCD has side AB = 19 cm. Find side BC.",
+      "options": [
+        "BC = 18 cm",
+        "BC = 19 cm",
+        "BC = 20 cm",
+        "BC = 21 cm"
+      ],
+      "answer_index": 1,
+      "memo": "Locate the given side AB = 19 cm and the requested side BC. All four sides of a square are equal. Write BC = AB. Calculate BC = 19 cm. Check the marked corresponding or equal sides both measure 19 cm.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p02",
+      "prompt": "Kite ABCD has its adjacent sides AB and AD marked equal. If AB = 20 cm, find AD.",
+      "options": [
+        "AD = 22 cm",
+        "AD = 19 cm",
+        "AD = 20 cm",
+        "AD = 21 cm"
+      ],
+      "answer_index": 2,
+      "memo": "Locate the given side AB = 20 cm and the requested side AD. The given adjacent pair AB and AD is equal by the kite markings. Write AD = AB. Calculate AD = 20 cm. Check the marked corresponding or equal sides both measure 20 cm.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p03",
+      "prompt": "ABCD is a parallelogram. ∠A = 94°. Find adjacent ∠B, naming the property.",
+      "options": [
+        "∠B = 87°",
+        "∠B = 88°",
+        "∠B = 85°",
+        "∠B = 86°"
+      ],
+      "answer_index": 3,
+      "memo": "Locate ∠A = 94° and adjacent ∠B. Use the property: adjacent angles in a parallelogram are supplementary. Write 94° + ∠B = 180°. Calculate ∠B = 180° − 94° = 86°. Check: 94° + 86° = 180°.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p04",
+      "prompt": "Rectangle ABCD has side AB = 22 cm. Find opposite side CD.",
+      "options": [
+        "CD = 22 cm",
+        "CD = 23 cm",
+        "CD = 24 cm",
+        "CD = 21 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Locate the given side AB = 22 cm and the requested side CD. Opposite sides of a rectangle are equal. Write CD = AB. Calculate CD = 22 cm. Check the marked corresponding or equal sides both measure 22 cm.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p05",
+      "prompt": "ABCD is a rhombus. ∠A = 100°. Find adjacent ∠B, naming the property.",
+      "options": [
+        "∠B = 79°",
+        "∠B = 80°",
+        "∠B = 81°",
+        "∠B = 82°"
+      ],
+      "answer_index": 1,
+      "memo": "Locate ∠A = 100° and adjacent ∠B. Use the property: a rhombus is a parallelogram, so adjacent angles are supplementary. Write 100° + ∠B = 180°. Calculate ∠B = 180° − 100° = 80°. Check: 100° + 80° = 180°.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p06",
+      "prompt": "Trapezium ABCD has AB ∥ CD. ∠A = 103°. Find ∠D on the same transversal AD.",
+      "options": [
+        "∠D = 79°",
+        "∠D = 76°",
+        "∠D = 77°",
+        "∠D = 78°"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the one parallel pair AB ∥ CD and the transversal AD; ∠A = 103°. ∠A and ∠D are co-interior angles. Co-interior angles sum to 180°: 103° + ∠D = 180°. Calculate ∠D = 77°. Check: 103° + 77° = 180°.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p07",
+      "prompt": "Square ABCD has side AB = 25 cm. Find side BC.",
+      "options": [
+        "BC = 26 cm",
+        "BC = 27 cm",
+        "BC = 24 cm",
+        "BC = 25 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Locate the given side AB = 25 cm and the requested side BC. All four sides of a square are equal. Write BC = AB. Calculate BC = 25 cm. Check the marked corresponding or equal sides both measure 25 cm.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p08",
+      "prompt": "Kite ABCD has its adjacent sides AB and AD marked equal. If AB = 26 cm, find AD.",
+      "options": [
+        "AD = 26 cm",
+        "AD = 27 cm",
+        "AD = 28 cm",
+        "AD = 25 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Locate the given side AB = 26 cm and the requested side AD. The given adjacent pair AB and AD is equal by the kite markings. Write AD = AB. Calculate AD = 26 cm. Check the marked corresponding or equal sides both measure 26 cm.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p09",
+      "prompt": "ABCD is a parallelogram. ∠A = 112°. Find adjacent ∠B, naming the property.",
+      "options": [
+        "∠B = 67°",
+        "∠B = 68°",
+        "∠B = 69°",
+        "∠B = 70°"
+      ],
+      "answer_index": 1,
+      "memo": "Locate ∠A = 112° and adjacent ∠B. Use the property: adjacent angles in a parallelogram are supplementary. Write 112° + ∠B = 180°. Calculate ∠B = 180° − 112° = 68°. Check: 112° + 68° = 180°.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p10",
+      "prompt": "Rectangle ABCD has side AB = 28 cm. Find opposite side CD.",
+      "options": [
+        "CD = 30 cm",
+        "CD = 27 cm",
+        "CD = 28 cm",
+        "CD = 29 cm"
+      ],
+      "answer_index": 2,
+      "memo": "Locate the given side AB = 28 cm and the requested side CD. Opposite sides of a rectangle are equal. Write CD = AB. Calculate CD = 28 cm. Check the marked corresponding or equal sides both measure 28 cm.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p11",
+      "prompt": "ABCD is a rhombus. ∠A = 118°. Find adjacent ∠B, naming the property.",
+      "options": [
+        "∠B = 63°",
+        "∠B = 64°",
+        "∠B = 61°",
+        "∠B = 62°"
+      ],
+      "answer_index": 3,
+      "memo": "Locate ∠A = 118° and adjacent ∠B. Use the property: a rhombus is a parallelogram, so adjacent angles are supplementary. Write 118° + ∠B = 180°. Calculate ∠B = 180° − 118° = 62°. Check: 118° + 62° = 180°.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p12",
+      "prompt": "Trapezium ABCD has AB ∥ CD. ∠A = 121°. Find ∠D on the same transversal AD.",
+      "options": [
+        "∠D = 59°",
+        "∠D = 60°",
+        "∠D = 61°",
+        "∠D = 58°"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the one parallel pair AB ∥ CD and the transversal AD; ∠A = 121°. ∠A and ∠D are co-interior angles. Co-interior angles sum to 180°: 121° + ∠D = 180°. Calculate ∠D = 59°. Check: 121° + 59° = 180°.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p13",
+      "prompt": "Square ABCD has side AB = 31 cm. Find side BC.",
+      "options": [
+        "BC = 30 cm",
+        "BC = 31 cm",
+        "BC = 32 cm",
+        "BC = 33 cm"
+      ],
+      "answer_index": 1,
+      "memo": "Locate the given side AB = 31 cm and the requested side BC. All four sides of a square are equal. Write BC = AB. Calculate BC = 31 cm. Check the marked corresponding or equal sides both measure 31 cm.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p14",
+      "prompt": "Kite ABCD has its adjacent sides AB and AD marked equal. If AB = 32 cm, find AD.",
+      "options": [
+        "AD = 34 cm",
+        "AD = 31 cm",
+        "AD = 32 cm",
+        "AD = 33 cm"
+      ],
+      "answer_index": 2,
+      "memo": "Locate the given side AB = 32 cm and the requested side AD. The given adjacent pair AB and AD is equal by the kite markings. Write AD = AB. Calculate AD = 32 cm. Check the marked corresponding or equal sides both measure 32 cm.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-p15",
+      "prompt": "ABCD is a parallelogram. ∠A = 130°. Find adjacent ∠B, naming the property.",
+      "options": [
+        "∠B = 51°",
+        "∠B = 52°",
+        "∠B = 49°",
+        "∠B = 50°"
+      ],
+      "answer_index": 3,
+      "memo": "Locate ∠A = 130° and adjacent ∠B. Use the property: adjacent angles in a parallelogram are supplementary. Write 130° + ∠B = 180°. Calculate ∠B = 180° − 130° = 50°. Check: 130° + 50° = 180°.",
+      "source": "lesson-03.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-shapes-l03-m16",
+      "prompt": "Rectangle ABCD has side AB = 34 cm. Find opposite side CD.",
+      "options": [
+        "CD = 34 cm",
+        "CD = 35 cm",
+        "CD = 36 cm",
+        "CD = 33 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Locate the given side AB = 34 cm and the requested side CD. Opposite sides of a rectangle are equal. Write CD = AB. Calculate CD = 34 cm. Check the marked corresponding or equal sides both measure 34 cm.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-m17",
+      "prompt": "ABCD is a rhombus. ∠A = 136°. Find adjacent ∠B, naming the property.",
+      "options": [
+        "∠B = 43°",
+        "∠B = 44°",
+        "∠B = 45°",
+        "∠B = 46°"
+      ],
+      "answer_index": 1,
+      "memo": "Locate ∠A = 136° and adjacent ∠B. Use the property: a rhombus is a parallelogram, so adjacent angles are supplementary. Write 136° + ∠B = 180°. Calculate ∠B = 180° − 136° = 44°. Check: 136° + 44° = 180°.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-m18",
+      "prompt": "Trapezium ABCD has AB ∥ CD. ∠A = 139°. Find ∠D on the same transversal AD.",
+      "options": [
+        "∠D = 43°",
+        "∠D = 40°",
+        "∠D = 41°",
+        "∠D = 42°"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the one parallel pair AB ∥ CD and the transversal AD; ∠A = 139°. ∠A and ∠D are co-interior angles. Co-interior angles sum to 180°: 139° + ∠D = 180°. Calculate ∠D = 41°. Check: 139° + 41° = 180°.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-m19",
+      "prompt": "Square ABCD has side AB = 37 cm. Find side BC.",
+      "options": [
+        "BC = 38 cm",
+        "BC = 39 cm",
+        "BC = 36 cm",
+        "BC = 37 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Locate the given side AB = 37 cm and the requested side BC. All four sides of a square are equal. Write BC = AB. Calculate BC = 37 cm. Check the marked corresponding or equal sides both measure 37 cm.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-m20",
+      "prompt": "Kite ABCD has its adjacent sides AB and AD marked equal. If AB = 38 cm, find AD.",
+      "options": [
+        "AD = 38 cm",
+        "AD = 39 cm",
+        "AD = 40 cm",
+        "AD = 37 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Locate the given side AB = 38 cm and the requested side AD. The given adjacent pair AB and AD is equal by the kite markings. Write AD = AB. Calculate AD = 38 cm. Check the marked corresponding or equal sides both measure 38 cm.",
+      "source": "lesson-03.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-shapes-l03-r19",
+      "prompt": "ABCD is a parallelogram. ∠A = 148°. Find adjacent ∠B, naming the property.",
+      "options": [
+        "∠B = 33°",
+        "∠B = 34°",
+        "∠B = 31°",
+        "∠B = 32°"
+      ],
+      "answer_index": 3,
+      "memo": "Locate ∠A = 148° and adjacent ∠B. Use the property: adjacent angles in a parallelogram are supplementary. Write 148° + ∠B = 180°. Calculate ∠B = 180° − 148° = 32°. Check: 148° + 32° = 180°.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-r20",
+      "prompt": "Rectangle ABCD has side AB = 40 cm. Find opposite side CD.",
+      "options": [
+        "CD = 40 cm",
+        "CD = 41 cm",
+        "CD = 42 cm",
+        "CD = 39 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Locate the given side AB = 40 cm and the requested side CD. Opposite sides of a rectangle are equal. Write CD = AB. Calculate CD = 40 cm. Check the marked corresponding or equal sides both measure 40 cm.",
+      "source": "lesson-03.md"
+    },
+    {
+      "id": "g9-shapes-l03-r21",
+      "prompt": "ABCD is a rhombus. ∠A = 154°. Find adjacent ∠B, naming the property.",
+      "options": [
+        "∠B = 25°",
+        "∠B = 26°",
+        "∠B = 27°",
+        "∠B = 28°"
+      ],
+      "answer_index": 1,
+      "memo": "Locate ∠A = 154° and adjacent ∠B. Use the property: a rhombus is a parallelogram, so adjacent angles are supplementary. Write 154° + ∠B = 180°. Calculate ∠B = 180° − 154° = 26°. Check: 154° + 26° = 180°.",
+      "source": "lesson-03.md"
+    }
+  ]
+}

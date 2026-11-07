@@ -127,6 +127,9 @@ for _grade9_function_number in range(1,6):
 for _grade9_expression_number in range(1,10):
     registry.register(f"grade9_expression_{_grade9_expression_number}_step", f"grade9_expression_{_grade9_expression_number}",
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+for _grade9_shapes_number in range(1,9):
+    registry.register(f'grade9_shapes_{_grade9_shapes_number}_step', f'grade9_shapes_{_grade9_shapes_number}',
+        lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 for _grade9_lines_number in range(1,6):
     registry.register(f'grade9_lines_{_grade9_lines_number}_step', f'grade9_lines_{_grade9_lines_number}',
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))

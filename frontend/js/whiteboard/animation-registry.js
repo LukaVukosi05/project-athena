@@ -147,6 +147,7 @@ for(let number=1;number<=9;number++)registerTeachingOperation(`grade9_expression
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade9_equation_${number}_step`);
 for(let number=1;number<=7;number++)registerTeachingOperation(`grade9_graph_${number}_step`);
 for(let number=1;number<=5;number++)registerTeachingOperation(`grade9_lines_${number}_step`);
+for(let number=1;number<=8;number++)registerTeachingOperation(`grade9_shapes_${number}_step`);
 
 ["identify_interval", "substitute_function_value", "calculate_average_rate", "interpret_rate", "read_problem", "select_method", "show_working", "verify_result"].forEach(registerTeachingOperation);
 

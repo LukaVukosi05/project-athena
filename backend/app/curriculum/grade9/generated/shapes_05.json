@@ -1,0 +1,775 @@
+{
+  "source": "lesson-05.md",
+  "worked": [
+    {
+      "id": "g9-shapes-l05-w01",
+      "problem": "AB = DE = 5 cm, AC = DF = 8 cm, and BC = EF = 11 cm. Which condition proves △ABC ≅ △DEF?",
+      "actions": [
+        "Mark AB = DE = 5 cm.",
+        "Mark AC = DF = 8 cm and BC = EF = 11 cm.",
+        "All three corresponding side pairs are equal.",
+        "Therefore △ABC ≅ △DEF by SSS.",
+        "Check the vertex order A↔D, B↔E, C↔F and all three side pairs."
+      ],
+      "answer": "△ABC ≅ △DEF (SSS)",
+      "check": "Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            5,
+            8,
+            11
+          ],
+          "target": 11,
+          "criterion": "SSS"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-shapes-l05-w02",
+      "problem": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 6 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "actions": [
+        "Mark ∠A = ∠D.",
+        "Mark ∠B = ∠E.",
+        "The included corresponding sides AB and DE both measure 6 cm.",
+        "Therefore △ABC ≅ △DEF by ASA.",
+        "Check that the equal side lies between the two marked angles in each triangle."
+      ],
+      "answer": "△ABC ≅ △DEF (ASA)",
+      "check": "Check that the equal side lies between the two marked angles in each triangle.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            6,
+            11,
+            15
+          ],
+          "target": 15,
+          "criterion": "ASA"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-shapes-l05-w03",
+      "problem": "Triangles ABC and DEF have AB = DE = 7 cm, AC = DF = 5 cm and BC = 10 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "actions": [
+        "Pair AB with DE (7 cm) and AC with DF (5 cm).",
+        "The included angles ∠A and ∠D are marked equal.",
+        "Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF.",
+        "The order A↔D, B↔E, C↔F pairs BC with EF: EF = 10 cm.",
+        "Check: BC and EF are corresponding sides, both 10 cm."
+      ],
+      "answer": "EF = 10 cm",
+      "check": "Check: BC and EF are corresponding sides, both 10 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            7,
+            5,
+            10
+          ],
+          "target": 10,
+          "criterion": "SAS"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l05-w04",
+      "problem": "AB = DE = 8 cm, AC = DF = 8 cm, and BC = EF = 14 cm. Which condition proves △ABC ≅ △DEF?",
+      "actions": [
+        "Mark AB = DE = 8 cm.",
+        "Mark AC = DF = 8 cm and BC = EF = 14 cm.",
+        "All three corresponding side pairs are equal.",
+        "Therefore △ABC ≅ △DEF by SSS.",
+        "Check the vertex order A↔D, B↔E, C↔F and all three side pairs."
+      ],
+      "answer": "△ABC ≅ △DEF (SSS)",
+      "check": "Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            8,
+            8,
+            14
+          ],
+          "target": 14,
+          "criterion": "SSS"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l05-w05",
+      "problem": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 9 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "actions": [
+        "Mark ∠A = ∠D.",
+        "Mark ∠B = ∠E.",
+        "The included corresponding sides AB and DE both measure 9 cm.",
+        "Therefore △ABC ≅ △DEF by ASA.",
+        "Check that the equal side lies between the two marked angles in each triangle."
+      ],
+      "answer": "△ABC ≅ △DEF (ASA)",
+      "check": "Check that the equal side lies between the two marked angles in each triangle.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            9,
+            11,
+            18
+          ],
+          "target": 18,
+          "criterion": "ASA"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l05-w06",
+      "problem": "Triangles ABC and DEF have AB = DE = 10 cm, AC = DF = 5 cm and BC = 13 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "actions": [
+        "Pair AB with DE (10 cm) and AC with DF (5 cm).",
+        "The included angles ∠A and ∠D are marked equal.",
+        "Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF.",
+        "The order A↔D, B↔E, C↔F pairs BC with EF: EF = 13 cm.",
+        "Check: BC and EF are corresponding sides, both 13 cm."
+      ],
+      "answer": "EF = 13 cm",
+      "check": "Check: BC and EF are corresponding sides, both 13 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            10,
+            5,
+            13
+          ],
+          "target": 13,
+          "criterion": "SAS"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l05-w07",
+      "problem": "AB = DE = 11 cm, AC = DF = 8 cm, and BC = EF = 17 cm. Which condition proves △ABC ≅ △DEF?",
+      "actions": [
+        "Mark AB = DE = 11 cm.",
+        "Mark AC = DF = 8 cm and BC = EF = 17 cm.",
+        "All three corresponding side pairs are equal.",
+        "Therefore △ABC ≅ △DEF by SSS.",
+        "Check the vertex order A↔D, B↔E, C↔F and all three side pairs."
+      ],
+      "answer": "△ABC ≅ △DEF (SSS)",
+      "check": "Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            11,
+            8,
+            17
+          ],
+          "target": 17,
+          "criterion": "SSS"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l05-w08",
+      "problem": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 12 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "actions": [
+        "Mark ∠A = ∠D.",
+        "Mark ∠B = ∠E.",
+        "The included corresponding sides AB and DE both measure 12 cm.",
+        "Therefore △ABC ≅ △DEF by ASA.",
+        "Check that the equal side lies between the two marked angles in each triangle."
+      ],
+      "answer": "△ABC ≅ △DEF (ASA)",
+      "check": "Check that the equal side lies between the two marked angles in each triangle.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            12,
+            11,
+            21
+          ],
+          "target": 21,
+          "criterion": "ASA"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l05-w09",
+      "problem": "Triangles ABC and DEF have AB = DE = 13 cm, AC = DF = 5 cm and BC = 16 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "actions": [
+        "Pair AB with DE (13 cm) and AC with DF (5 cm).",
+        "The included angles ∠A and ∠D are marked equal.",
+        "Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF.",
+        "The order A↔D, B↔E, C↔F pairs BC with EF: EF = 16 cm.",
+        "Check: BC and EF are corresponding sides, both 16 cm."
+      ],
+      "answer": "EF = 16 cm",
+      "check": "Check: BC and EF are corresponding sides, both 16 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            13,
+            5,
+            16
+          ],
+          "target": 16,
+          "criterion": "SAS"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l05-w10",
+      "problem": "AB = DE = 14 cm, AC = DF = 8 cm, and BC = EF = 20 cm. Which condition proves △ABC ≅ △DEF?",
+      "actions": [
+        "Mark AB = DE = 14 cm.",
+        "Mark AC = DF = 8 cm and BC = EF = 20 cm.",
+        "All three corresponding side pairs are equal.",
+        "Therefore △ABC ≅ △DEF by SSS.",
+        "Check the vertex order A↔D, B↔E, C↔F and all three side pairs."
+      ],
+      "answer": "△ABC ≅ △DEF (SSS)",
+      "check": "Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            14,
+            8,
+            20
+          ],
+          "target": 20,
+          "criterion": "SSS"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l05-w11",
+      "problem": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 15 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "actions": [
+        "Mark ∠A = ∠D.",
+        "Mark ∠B = ∠E.",
+        "The included corresponding sides AB and DE both measure 15 cm.",
+        "Therefore △ABC ≅ △DEF by ASA.",
+        "Check that the equal side lies between the two marked angles in each triangle."
+      ],
+      "answer": "△ABC ≅ △DEF (ASA)",
+      "check": "Check that the equal side lies between the two marked angles in each triangle.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            15,
+            11,
+            24
+          ],
+          "target": 24,
+          "criterion": "ASA"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l05-w12",
+      "problem": "Triangles ABC and DEF have AB = DE = 16 cm, AC = DF = 5 cm and BC = 19 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "actions": [
+        "Pair AB with DE (16 cm) and AC with DF (5 cm).",
+        "The included angles ∠A and ∠D are marked equal.",
+        "Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF.",
+        "The order A↔D, B↔E, C↔F pairs BC with EF: EF = 19 cm.",
+        "Check: BC and EF are corresponding sides, both 19 cm."
+      ],
+      "answer": "EF = 19 cm",
+      "check": "Check: BC and EF are corresponding sides, both 19 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            16,
+            5,
+            19
+          ],
+          "target": 19,
+          "criterion": "SAS"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l05-w13",
+      "problem": "AB = DE = 17 cm, AC = DF = 8 cm, and BC = EF = 23 cm. Which condition proves △ABC ≅ △DEF?",
+      "actions": [
+        "Mark AB = DE = 17 cm.",
+        "Mark AC = DF = 8 cm and BC = EF = 23 cm.",
+        "All three corresponding side pairs are equal.",
+        "Therefore △ABC ≅ △DEF by SSS.",
+        "Check the vertex order A↔D, B↔E, C↔F and all three side pairs."
+      ],
+      "answer": "△ABC ≅ △DEF (SSS)",
+      "check": "Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            17,
+            8,
+            23
+          ],
+          "target": 23,
+          "criterion": "SSS"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-shapes-l05-w14",
+      "problem": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 18 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "actions": [
+        "Mark ∠A = ∠D.",
+        "Mark ∠B = ∠E.",
+        "The included corresponding sides AB and DE both measure 18 cm.",
+        "Therefore △ABC ≅ △DEF by ASA.",
+        "Check that the equal side lies between the two marked angles in each triangle."
+      ],
+      "answer": "△ABC ≅ △DEF (ASA)",
+      "check": "Check that the equal side lies between the two marked angles in each triangle.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            18,
+            11,
+            27
+          ],
+          "target": 27,
+          "criterion": "ASA"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-shapes-l05-w15",
+      "problem": "Triangles ABC and DEF have AB = DE = 19 cm, AC = DF = 5 cm and BC = 22 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "actions": [
+        "Pair AB with DE (19 cm) and AC with DF (5 cm).",
+        "The included angles ∠A and ∠D are marked equal.",
+        "Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF.",
+        "The order A↔D, B↔E, C↔F pairs BC with EF: EF = 22 cm.",
+        "Check: BC and EF are corresponding sides, both 22 cm."
+      ],
+      "answer": "EF = 22 cm",
+      "check": "Check: BC and EF are corresponding sides, both 22 cm.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "pair",
+          "lesson": 5,
+          "model": "congruent",
+          "sides": [
+            19,
+            5,
+            22
+          ],
+          "target": 22,
+          "criterion": "SAS"
+        }
+      },
+      "lesson": 5,
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-shapes-l05-p01",
+      "prompt": "AB = DE = 20 cm, AC = DF = 8 cm, and BC = EF = 26 cm. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "insufficient evidence",
+        "△ABC ≅ △DEF (SSS)",
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (ASA)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark AB = DE = 20 cm. Mark AC = DF = 8 cm and BC = EF = 26 cm. All three corresponding side pairs are equal. Therefore △ABC ≅ △DEF by SSS. Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p02",
+      "prompt": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 21 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "△ABC ≅ △DEF (SSS)",
+        "insufficient evidence",
+        "△ABC ≅ △DEF (ASA)",
+        "△ABC ≅ △DEF (SAS)"
+      ],
+      "answer_index": 2,
+      "memo": "Mark ∠A = ∠D. Mark ∠B = ∠E. The included corresponding sides AB and DE both measure 21 cm. Therefore △ABC ≅ △DEF by ASA. Check that the equal side lies between the two marked angles in each triangle.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p03",
+      "prompt": "Triangles ABC and DEF have AB = DE = 22 cm, AC = DF = 5 cm and BC = 25 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "options": [
+        "EF = 26 cm",
+        "EF = 27 cm",
+        "EF = 24 cm",
+        "EF = 25 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Pair AB with DE (22 cm) and AC with DF (5 cm). The included angles ∠A and ∠D are marked equal. Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF. The order A↔D, B↔E, C↔F pairs BC with EF: EF = 25 cm. Check: BC and EF are corresponding sides, both 25 cm.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p04",
+      "prompt": "AB = DE = 23 cm, AC = DF = 8 cm, and BC = EF = 29 cm. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "△ABC ≅ △DEF (SSS)",
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (ASA)",
+        "insufficient evidence"
+      ],
+      "answer_index": 0,
+      "memo": "Mark AB = DE = 23 cm. Mark AC = DF = 8 cm and BC = EF = 29 cm. All three corresponding side pairs are equal. Therefore △ABC ≅ △DEF by SSS. Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p05",
+      "prompt": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 24 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "insufficient evidence",
+        "△ABC ≅ △DEF (ASA)",
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (SSS)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark ∠A = ∠D. Mark ∠B = ∠E. The included corresponding sides AB and DE both measure 24 cm. Therefore △ABC ≅ △DEF by ASA. Check that the equal side lies between the two marked angles in each triangle.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p06",
+      "prompt": "Triangles ABC and DEF have AB = DE = 25 cm, AC = DF = 5 cm and BC = 28 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "options": [
+        "EF = 30 cm",
+        "EF = 27 cm",
+        "EF = 28 cm",
+        "EF = 29 cm"
+      ],
+      "answer_index": 2,
+      "memo": "Pair AB with DE (25 cm) and AC with DF (5 cm). The included angles ∠A and ∠D are marked equal. Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF. The order A↔D, B↔E, C↔F pairs BC with EF: EF = 28 cm. Check: BC and EF are corresponding sides, both 28 cm.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p07",
+      "prompt": "AB = DE = 26 cm, AC = DF = 8 cm, and BC = EF = 32 cm. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (ASA)",
+        "insufficient evidence",
+        "△ABC ≅ △DEF (SSS)"
+      ],
+      "answer_index": 3,
+      "memo": "Mark AB = DE = 26 cm. Mark AC = DF = 8 cm and BC = EF = 32 cm. All three corresponding side pairs are equal. Therefore △ABC ≅ △DEF by SSS. Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p08",
+      "prompt": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 27 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "△ABC ≅ △DEF (ASA)",
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (SSS)",
+        "insufficient evidence"
+      ],
+      "answer_index": 0,
+      "memo": "Mark ∠A = ∠D. Mark ∠B = ∠E. The included corresponding sides AB and DE both measure 27 cm. Therefore △ABC ≅ △DEF by ASA. Check that the equal side lies between the two marked angles in each triangle.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p09",
+      "prompt": "Triangles ABC and DEF have AB = DE = 28 cm, AC = DF = 5 cm and BC = 31 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "options": [
+        "EF = 30 cm",
+        "EF = 31 cm",
+        "EF = 32 cm",
+        "EF = 33 cm"
+      ],
+      "answer_index": 1,
+      "memo": "Pair AB with DE (28 cm) and AC with DF (5 cm). The included angles ∠A and ∠D are marked equal. Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF. The order A↔D, B↔E, C↔F pairs BC with EF: EF = 31 cm. Check: BC and EF are corresponding sides, both 31 cm.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p10",
+      "prompt": "AB = DE = 29 cm, AC = DF = 8 cm, and BC = EF = 35 cm. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "△ABC ≅ △DEF (ASA)",
+        "insufficient evidence",
+        "△ABC ≅ △DEF (SSS)",
+        "△ABC ≅ △DEF (SAS)"
+      ],
+      "answer_index": 2,
+      "memo": "Mark AB = DE = 29 cm. Mark AC = DF = 8 cm and BC = EF = 35 cm. All three corresponding side pairs are equal. Therefore △ABC ≅ △DEF by SSS. Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p11",
+      "prompt": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 30 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (SSS)",
+        "insufficient evidence",
+        "△ABC ≅ △DEF (ASA)"
+      ],
+      "answer_index": 3,
+      "memo": "Mark ∠A = ∠D. Mark ∠B = ∠E. The included corresponding sides AB and DE both measure 30 cm. Therefore △ABC ≅ △DEF by ASA. Check that the equal side lies between the two marked angles in each triangle.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p12",
+      "prompt": "Triangles ABC and DEF have AB = DE = 31 cm, AC = DF = 5 cm and BC = 34 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "options": [
+        "EF = 34 cm",
+        "EF = 35 cm",
+        "EF = 36 cm",
+        "EF = 33 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Pair AB with DE (31 cm) and AC with DF (5 cm). The included angles ∠A and ∠D are marked equal. Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF. The order A↔D, B↔E, C↔F pairs BC with EF: EF = 34 cm. Check: BC and EF are corresponding sides, both 34 cm.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p13",
+      "prompt": "AB = DE = 32 cm, AC = DF = 8 cm, and BC = EF = 38 cm. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "insufficient evidence",
+        "△ABC ≅ △DEF (SSS)",
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (ASA)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark AB = DE = 32 cm. Mark AC = DF = 8 cm and BC = EF = 38 cm. All three corresponding side pairs are equal. Therefore △ABC ≅ △DEF by SSS. Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p14",
+      "prompt": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 33 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "△ABC ≅ △DEF (SSS)",
+        "insufficient evidence",
+        "△ABC ≅ △DEF (ASA)",
+        "△ABC ≅ △DEF (SAS)"
+      ],
+      "answer_index": 2,
+      "memo": "Mark ∠A = ∠D. Mark ∠B = ∠E. The included corresponding sides AB and DE both measure 33 cm. Therefore △ABC ≅ △DEF by ASA. Check that the equal side lies between the two marked angles in each triangle.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-p15",
+      "prompt": "Triangles ABC and DEF have AB = DE = 34 cm, AC = DF = 5 cm and BC = 37 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "options": [
+        "EF = 38 cm",
+        "EF = 39 cm",
+        "EF = 36 cm",
+        "EF = 37 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Pair AB with DE (34 cm) and AC with DF (5 cm). The included angles ∠A and ∠D are marked equal. Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF. The order A↔D, B↔E, C↔F pairs BC with EF: EF = 37 cm. Check: BC and EF are corresponding sides, both 37 cm.",
+      "source": "lesson-05.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-shapes-l05-m16",
+      "prompt": "AB = DE = 35 cm, AC = DF = 8 cm, and BC = EF = 41 cm. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "△ABC ≅ △DEF (SSS)",
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (ASA)",
+        "insufficient evidence"
+      ],
+      "answer_index": 0,
+      "memo": "Mark AB = DE = 35 cm. Mark AC = DF = 8 cm and BC = EF = 41 cm. All three corresponding side pairs are equal. Therefore △ABC ≅ △DEF by SSS. Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-m17",
+      "prompt": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 36 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "insufficient evidence",
+        "△ABC ≅ △DEF (ASA)",
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (SSS)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark ∠A = ∠D. Mark ∠B = ∠E. The included corresponding sides AB and DE both measure 36 cm. Therefore △ABC ≅ △DEF by ASA. Check that the equal side lies between the two marked angles in each triangle.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-m18",
+      "prompt": "Triangles ABC and DEF have AB = DE = 37 cm, AC = DF = 5 cm and BC = 40 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "options": [
+        "EF = 42 cm",
+        "EF = 39 cm",
+        "EF = 40 cm",
+        "EF = 41 cm"
+      ],
+      "answer_index": 2,
+      "memo": "Pair AB with DE (37 cm) and AC with DF (5 cm). The included angles ∠A and ∠D are marked equal. Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF. The order A↔D, B↔E, C↔F pairs BC with EF: EF = 40 cm. Check: BC and EF are corresponding sides, both 40 cm.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-m19",
+      "prompt": "AB = DE = 38 cm, AC = DF = 8 cm, and BC = EF = 44 cm. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (ASA)",
+        "insufficient evidence",
+        "△ABC ≅ △DEF (SSS)"
+      ],
+      "answer_index": 3,
+      "memo": "Mark AB = DE = 38 cm. Mark AC = DF = 8 cm and BC = EF = 44 cm. All three corresponding side pairs are equal. Therefore △ABC ≅ △DEF by SSS. Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-m20",
+      "prompt": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 39 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "△ABC ≅ △DEF (ASA)",
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (SSS)",
+        "insufficient evidence"
+      ],
+      "answer_index": 0,
+      "memo": "Mark ∠A = ∠D. Mark ∠B = ∠E. The included corresponding sides AB and DE both measure 39 cm. Therefore △ABC ≅ △DEF by ASA. Check that the equal side lies between the two marked angles in each triangle.",
+      "source": "lesson-05.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-shapes-l05-r19",
+      "prompt": "Triangles ABC and DEF have AB = DE = 40 cm, AC = DF = 5 cm and BC = 43 cm. Their included angles ∠A and ∠D are marked equal. Find EF and justify correspondence.",
+      "options": [
+        "EF = 44 cm",
+        "EF = 45 cm",
+        "EF = 42 cm",
+        "EF = 43 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Pair AB with DE (40 cm) and AC with DF (5 cm). The included angles ∠A and ∠D are marked equal. Two side pairs and their included angle establish SAS congruence: △ABC ≅ △DEF. The order A↔D, B↔E, C↔F pairs BC with EF: EF = 43 cm. Check: BC and EF are corresponding sides, both 43 cm.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-r20",
+      "prompt": "AB = DE = 41 cm, AC = DF = 8 cm, and BC = EF = 47 cm. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "△ABC ≅ △DEF (SSS)",
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (ASA)",
+        "insufficient evidence"
+      ],
+      "answer_index": 0,
+      "memo": "Mark AB = DE = 41 cm. Mark AC = DF = 8 cm and BC = EF = 47 cm. All three corresponding side pairs are equal. Therefore △ABC ≅ △DEF by SSS. Check the vertex order A↔D, B↔E, C↔F and all three side pairs.",
+      "source": "lesson-05.md"
+    },
+    {
+      "id": "g9-shapes-l05-r21",
+      "prompt": "∠A = ∠D and ∠B = ∠E are marked equal. AB = DE = 42 cm lies between them. Which condition proves △ABC ≅ △DEF?",
+      "options": [
+        "insufficient evidence",
+        "△ABC ≅ △DEF (ASA)",
+        "△ABC ≅ △DEF (SAS)",
+        "△ABC ≅ △DEF (SSS)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark ∠A = ∠D. Mark ∠B = ∠E. The included corresponding sides AB and DE both measure 42 cm. Therefore △ABC ≅ △DEF by ASA. Check that the equal side lies between the two marked angles in each triangle.",
+      "source": "lesson-05.md"
+    }
+  ]
+}

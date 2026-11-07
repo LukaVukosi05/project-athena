@@ -163,7 +163,13 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                         "secondary", "secondary_category", "primary_stage", "secondary_stage", "factors", "misconception"):
                 scene.pop(key, None)
             if scene.get("visual"):
-                scene["visual"] = {"family":"givens"}
+                if lesson.id.startswith("g9-shapes-"):
+                    givens = dict(scene["visual"]["values"])
+                    givens.pop("target", None)
+                    givens.pop("each", None)
+                    scene["visual"] = {"family":"shapes", "values":givens}
+                else:
+                    scene["visual"] = {"family":"givens"}
             params["scene_json"] = json.dumps(scene, ensure_ascii=False)
             board["semantic_objects"] = [item for item in board["semantic_objects"] if item["id"] in {"problem", "model", "token", "factor-roots"}]
         previews = {item["whiteboard"]["id"]:item["whiteboard"] for item in payload.get("whiteboard_questions", [])}

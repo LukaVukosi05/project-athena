@@ -1,0 +1,700 @@
+{
+  "source": "lesson-07.md",
+  "worked": [
+    {
+      "id": "g9-shapes-l07-w01",
+      "problem": "AB = AC in triangle ABC. ∠A = 32° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 32°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 32° + x + x = 180°.",
+        "2x = 148°, hence x = 74°.",
+        "Check: 32° + 2(74°) = 180°."
+      ],
+      "answer": "x = 74°",
+      "check": "Check: 32° + 2(74°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 32,
+          "target": 74
+        }
+      },
+      "lesson": 7,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-shapes-l07-w02",
+      "problem": "AB = AC in triangle ABC. ∠A = 34° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 34°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 34° + x + x = 180°.",
+        "2x = 146°, hence x = 73°.",
+        "Check: 34° + 2(73°) = 180°."
+      ],
+      "answer": "x = 73°",
+      "check": "Check: 34° + 2(73°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 34,
+          "target": 73
+        }
+      },
+      "lesson": 7,
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-shapes-l07-w03",
+      "problem": "AB = AC in triangle ABC. ∠A = 36° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 36°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 36° + x + x = 180°.",
+        "2x = 144°, hence x = 72°.",
+        "Check: 36° + 2(72°) = 180°."
+      ],
+      "answer": "x = 72°",
+      "check": "Check: 36° + 2(72°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 36,
+          "target": 72
+        }
+      },
+      "lesson": 7,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l07-w04",
+      "problem": "AB = AC in triangle ABC. ∠A = 38° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 38°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 38° + x + x = 180°.",
+        "2x = 142°, hence x = 71°.",
+        "Check: 38° + 2(71°) = 180°."
+      ],
+      "answer": "x = 71°",
+      "check": "Check: 38° + 2(71°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 38,
+          "target": 71
+        }
+      },
+      "lesson": 7,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l07-w05",
+      "problem": "AB = AC in triangle ABC. ∠A = 40° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 40°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 40° + x + x = 180°.",
+        "2x = 140°, hence x = 70°.",
+        "Check: 40° + 2(70°) = 180°."
+      ],
+      "answer": "x = 70°",
+      "check": "Check: 40° + 2(70°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 40,
+          "target": 70
+        }
+      },
+      "lesson": 7,
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-shapes-l07-w06",
+      "problem": "AB = AC in triangle ABC. ∠A = 42° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 42°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 42° + x + x = 180°.",
+        "2x = 138°, hence x = 69°.",
+        "Check: 42° + 2(69°) = 180°."
+      ],
+      "answer": "x = 69°",
+      "check": "Check: 42° + 2(69°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 42,
+          "target": 69
+        }
+      },
+      "lesson": 7,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l07-w07",
+      "problem": "AB = AC in triangle ABC. ∠A = 44° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 44°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 44° + x + x = 180°.",
+        "2x = 136°, hence x = 68°.",
+        "Check: 44° + 2(68°) = 180°."
+      ],
+      "answer": "x = 68°",
+      "check": "Check: 44° + 2(68°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 44,
+          "target": 68
+        }
+      },
+      "lesson": 7,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l07-w08",
+      "problem": "AB = AC in triangle ABC. ∠A = 46° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 46°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 46° + x + x = 180°.",
+        "2x = 134°, hence x = 67°.",
+        "Check: 46° + 2(67°) = 180°."
+      ],
+      "answer": "x = 67°",
+      "check": "Check: 46° + 2(67°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 46,
+          "target": 67
+        }
+      },
+      "lesson": 7,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l07-w09",
+      "problem": "AB = AC in triangle ABC. ∠A = 48° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 48°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 48° + x + x = 180°.",
+        "2x = 132°, hence x = 66°.",
+        "Check: 48° + 2(66°) = 180°."
+      ],
+      "answer": "x = 66°",
+      "check": "Check: 48° + 2(66°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 48,
+          "target": 66
+        }
+      },
+      "lesson": 7,
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-shapes-l07-w10",
+      "problem": "AB = AC in triangle ABC. ∠A = 50° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 50°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 50° + x + x = 180°.",
+        "2x = 130°, hence x = 65°.",
+        "Check: 50° + 2(65°) = 180°."
+      ],
+      "answer": "x = 65°",
+      "check": "Check: 50° + 2(65°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 50,
+          "target": 65
+        }
+      },
+      "lesson": 7,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l07-w11",
+      "problem": "AB = AC in triangle ABC. ∠A = 52° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 52°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 52° + x + x = 180°.",
+        "2x = 128°, hence x = 64°.",
+        "Check: 52° + 2(64°) = 180°."
+      ],
+      "answer": "x = 64°",
+      "check": "Check: 52° + 2(64°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 52,
+          "target": 64
+        }
+      },
+      "lesson": 7,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l07-w12",
+      "problem": "AB = AC in triangle ABC. ∠A = 54° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 54°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 54° + x + x = 180°.",
+        "2x = 126°, hence x = 63°.",
+        "Check: 54° + 2(63°) = 180°."
+      ],
+      "answer": "x = 63°",
+      "check": "Check: 54° + 2(63°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 54,
+          "target": 63
+        }
+      },
+      "lesson": 7,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-shapes-l07-w13",
+      "problem": "AB = AC in triangle ABC. ∠A = 56° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 56°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 56° + x + x = 180°.",
+        "2x = 124°, hence x = 62°.",
+        "Check: 56° + 2(62°) = 180°."
+      ],
+      "answer": "x = 62°",
+      "check": "Check: 56° + 2(62°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 56,
+          "target": 62
+        }
+      },
+      "lesson": 7,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-shapes-l07-w14",
+      "problem": "AB = AC in triangle ABC. ∠A = 58° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 58°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 58° + x + x = 180°.",
+        "2x = 122°, hence x = 61°.",
+        "Check: 58° + 2(61°) = 180°."
+      ],
+      "answer": "x = 61°",
+      "check": "Check: 58° + 2(61°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 58,
+          "target": 61
+        }
+      },
+      "lesson": 7,
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-shapes-l07-w15",
+      "problem": "AB = AC in triangle ABC. ∠A = 60° and ∠B = x. Find x, giving each geometric reason.",
+      "actions": [
+        "Observe AB = AC and the given apex angle ∠A = 60°.",
+        "Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal.",
+        "Triangle angle sum gives 60° + x + x = 180°.",
+        "2x = 120°, hence x = 60°.",
+        "Check: 60° + 2(60°) = 180°."
+      ],
+      "answer": "x = 60°",
+      "check": "Check: 60° + 2(60°) = 180°.",
+      "misconception": "A diagram alone does not prove a property; mark the given equality and state the applicable reason.",
+      "visual": {
+        "family": "shapes",
+        "values": {
+          "kind": "triangle",
+          "lesson": 7,
+          "model": "isosceles",
+          "apex": 60,
+          "target": 60
+        }
+      },
+      "lesson": 7,
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-shapes-l07-p01",
+      "prompt": "AB = AC in triangle ABC. ∠A = 62° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 56°",
+        "x = 59°",
+        "x = 62°",
+        "x = 65°"
+      ],
+      "answer_index": 1,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 62°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 62° + x + x = 180°. 2x = 118°, hence x = 59°. Check: 62° + 2(59°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p02",
+      "prompt": "AB = AC in triangle ABC. ∠A = 64° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 64°",
+        "x = 55°",
+        "x = 58°",
+        "x = 61°"
+      ],
+      "answer_index": 2,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 64°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 64° + x + x = 180°. 2x = 116°, hence x = 58°. Check: 64° + 2(58°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p03",
+      "prompt": "AB = AC in triangle ABC. ∠A = 66° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 60°",
+        "x = 63°",
+        "x = 54°",
+        "x = 57°"
+      ],
+      "answer_index": 3,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 66°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 66° + x + x = 180°. 2x = 114°, hence x = 57°. Check: 66° + 2(57°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p04",
+      "prompt": "AB = AC in triangle ABC. ∠A = 68° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 56°",
+        "x = 59°",
+        "x = 62°",
+        "x = 53°"
+      ],
+      "answer_index": 0,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 68°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 68° + x + x = 180°. 2x = 112°, hence x = 56°. Check: 68° + 2(56°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p05",
+      "prompt": "AB = AC in triangle ABC. ∠A = 70° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 52°",
+        "x = 55°",
+        "x = 58°",
+        "x = 61°"
+      ],
+      "answer_index": 1,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 70°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 70° + x + x = 180°. 2x = 110°, hence x = 55°. Check: 70° + 2(55°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p06",
+      "prompt": "AB = AC in triangle ABC. ∠A = 72° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 60°",
+        "x = 51°",
+        "x = 54°",
+        "x = 57°"
+      ],
+      "answer_index": 2,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 72°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 72° + x + x = 180°. 2x = 108°, hence x = 54°. Check: 72° + 2(54°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p07",
+      "prompt": "AB = AC in triangle ABC. ∠A = 74° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 56°",
+        "x = 59°",
+        "x = 50°",
+        "x = 53°"
+      ],
+      "answer_index": 3,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 74°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 74° + x + x = 180°. 2x = 106°, hence x = 53°. Check: 74° + 2(53°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p08",
+      "prompt": "AB = AC in triangle ABC. ∠A = 76° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 52°",
+        "x = 55°",
+        "x = 58°",
+        "x = 49°"
+      ],
+      "answer_index": 0,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 76°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 76° + x + x = 180°. 2x = 104°, hence x = 52°. Check: 76° + 2(52°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p09",
+      "prompt": "AB = AC in triangle ABC. ∠A = 78° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 48°",
+        "x = 51°",
+        "x = 54°",
+        "x = 57°"
+      ],
+      "answer_index": 1,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 78°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 78° + x + x = 180°. 2x = 102°, hence x = 51°. Check: 78° + 2(51°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p10",
+      "prompt": "AB = AC in triangle ABC. ∠A = 80° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 56°",
+        "x = 47°",
+        "x = 50°",
+        "x = 53°"
+      ],
+      "answer_index": 2,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 80°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 80° + x + x = 180°. 2x = 100°, hence x = 50°. Check: 80° + 2(50°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p11",
+      "prompt": "AB = AC in triangle ABC. ∠A = 82° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 52°",
+        "x = 55°",
+        "x = 46°",
+        "x = 49°"
+      ],
+      "answer_index": 3,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 82°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 82° + x + x = 180°. 2x = 98°, hence x = 49°. Check: 82° + 2(49°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p12",
+      "prompt": "AB = AC in triangle ABC. ∠A = 84° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 48°",
+        "x = 51°",
+        "x = 54°",
+        "x = 45°"
+      ],
+      "answer_index": 0,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 84°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 84° + x + x = 180°. 2x = 96°, hence x = 48°. Check: 84° + 2(48°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p13",
+      "prompt": "AB = AC in triangle ABC. ∠A = 86° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 44°",
+        "x = 47°",
+        "x = 50°",
+        "x = 53°"
+      ],
+      "answer_index": 1,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 86°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 86° + x + x = 180°. 2x = 94°, hence x = 47°. Check: 86° + 2(47°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p14",
+      "prompt": "AB = AC in triangle ABC. ∠A = 88° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 52°",
+        "x = 43°",
+        "x = 46°",
+        "x = 49°"
+      ],
+      "answer_index": 2,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 88°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 88° + x + x = 180°. 2x = 92°, hence x = 46°. Check: 88° + 2(46°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-p15",
+      "prompt": "AB = AC in triangle ABC. ∠A = 90° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 48°",
+        "x = 51°",
+        "x = 42°",
+        "x = 45°"
+      ],
+      "answer_index": 3,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 90°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 90° + x + x = 180°. 2x = 90°, hence x = 45°. Check: 90° + 2(45°) = 180°.",
+      "source": "lesson-07.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-shapes-l07-m16",
+      "prompt": "AB = AC in triangle ABC. ∠A = 92° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 44°",
+        "x = 47°",
+        "x = 50°",
+        "x = 41°"
+      ],
+      "answer_index": 0,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 92°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 92° + x + x = 180°. 2x = 88°, hence x = 44°. Check: 92° + 2(44°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-m17",
+      "prompt": "AB = AC in triangle ABC. ∠A = 94° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 40°",
+        "x = 43°",
+        "x = 46°",
+        "x = 49°"
+      ],
+      "answer_index": 1,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 94°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 94° + x + x = 180°. 2x = 86°, hence x = 43°. Check: 94° + 2(43°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-m18",
+      "prompt": "AB = AC in triangle ABC. ∠A = 96° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 48°",
+        "x = 39°",
+        "x = 42°",
+        "x = 45°"
+      ],
+      "answer_index": 2,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 96°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 96° + x + x = 180°. 2x = 84°, hence x = 42°. Check: 96° + 2(42°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-m19",
+      "prompt": "AB = AC in triangle ABC. ∠A = 98° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 44°",
+        "x = 47°",
+        "x = 38°",
+        "x = 41°"
+      ],
+      "answer_index": 3,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 98°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 98° + x + x = 180°. 2x = 82°, hence x = 41°. Check: 98° + 2(41°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-m20",
+      "prompt": "AB = AC in triangle ABC. ∠A = 100° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 40°",
+        "x = 43°",
+        "x = 46°",
+        "x = 37°"
+      ],
+      "answer_index": 0,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 100°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 100° + x + x = 180°. 2x = 80°, hence x = 40°. Check: 100° + 2(40°) = 180°.",
+      "source": "lesson-07.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-shapes-l07-r19",
+      "prompt": "AB = AC in triangle ABC. ∠A = 102° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 42°",
+        "x = 45°",
+        "x = 36°",
+        "x = 39°"
+      ],
+      "answer_index": 3,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 102°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 102° + x + x = 180°. 2x = 78°, hence x = 39°. Check: 102° + 2(39°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-r20",
+      "prompt": "AB = AC in triangle ABC. ∠A = 104° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 38°",
+        "x = 41°",
+        "x = 44°",
+        "x = 35°"
+      ],
+      "answer_index": 0,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 104°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 104° + x + x = 180°. 2x = 76°, hence x = 38°. Check: 104° + 2(38°) = 180°.",
+      "source": "lesson-07.md"
+    },
+    {
+      "id": "g9-shapes-l07-r21",
+      "prompt": "AB = AC in triangle ABC. ∠A = 106° and ∠B = x. Find x, giving each geometric reason.",
+      "options": [
+        "x = 34°",
+        "x = 37°",
+        "x = 40°",
+        "x = 43°"
+      ],
+      "answer_index": 1,
+      "memo": "Observe AB = AC and the given apex angle ∠A = 106°. Equal sides imply ∠B = ∠C = x, since base angles of an isosceles triangle are equal. Triangle angle sum gives 106° + x + x = 180°. 2x = 74°, hence x = 37°. Check: 106° + 2(37°) = 180°.",
+      "source": "lesson-07.md"
+    }
+  ]
+}

@@ -1435,6 +1435,80 @@
               "source_document": "lesson-05.md"
             }
           ]
+        },
+        {
+          "topic_id": "geometry-of-2d-shapes",
+          "topic_number": 10,
+          "title": "Geometry of 2D Shapes",
+          "paper": null,
+          "expected_lesson_count": 8,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-shapes-01",
+              "position": 1,
+              "title": "Triangle classes and angle sum",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g9-shapes-02",
+              "position": 2,
+              "title": "Exterior angle of a triangle",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g9-shapes-03",
+              "position": 3,
+              "title": "Quadrilateral properties",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g9-shapes-04",
+              "position": 4,
+              "title": "Diagonals and polygon interior angles",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g9-shapes-05",
+              "position": 5,
+              "title": "Congruent triangle conditions",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05.md"
+            },
+            {
+              "lesson_id": "g9-shapes-06",
+              "position": 6,
+              "title": "Similar triangles and scale",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-06.md"
+            },
+            {
+              "lesson_id": "g9-shapes-07",
+              "position": 7,
+              "title": "Unknown sides and angles with reasons",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-07.md"
+            },
+            {
+              "lesson_id": "g9-shapes-08",
+              "position": 8,
+              "title": "Integrated proof and first-error reassessment",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-08.md"
+            }
+          ]
         }
       ]
     },
