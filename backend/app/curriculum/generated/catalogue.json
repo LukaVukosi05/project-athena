@@ -2178,6 +2178,72 @@
               "source_document": "grade10-ag-lesson-06.md"
             }
           ]
+        },
+        {
+          "topic_id": "functions-and-graphs",
+          "topic_number": 6,
+          "title": "Functions and Graphs",
+          "paper": "Paper 1",
+          "expected_lesson_count": 7,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g10-fn-01",
+              "position": 1,
+              "title": "Function rules, tables and plotted input-output pairs",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "grade10-fn-lesson-01.md"
+            },
+            {
+              "lesson_id": "g10-fn-02",
+              "position": 2,
+              "title": "Parent graphs, intercepts, turning points and asymptotes",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-fn-lesson-02.md"
+            },
+            {
+              "lesson_id": "g10-fn-03",
+              "position": 3,
+              "title": "Effects of a and q on algebraic graphs",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-fn-lesson-03.md"
+            },
+            {
+              "lesson_id": "g10-fn-04",
+              "position": 4,
+              "title": "Sine, cosine and tangent from 0° to 360°",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-fn-lesson-04.md"
+            },
+            {
+              "lesson_id": "g10-fn-05",
+              "position": 5,
+              "title": "Amplitude, reflection and vertical shifts in trigonometric graphs",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-fn-lesson-05.md"
+            },
+            {
+              "lesson_id": "g10-fn-06",
+              "position": 6,
+              "title": "Infer algebraic equations from graph features",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-fn-lesson-06.md"
+            },
+            {
+              "lesson_id": "g10-fn-07",
+              "position": 7,
+              "title": "Mixed graph interpretation and first-error repair",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-fn-lesson-07.md"
+            }
+          ]
         }
       ]
     },

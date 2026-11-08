@@ -131,6 +131,9 @@ for _grade10_algebra_number in range(1,7):
 for _grade10_eei_number in range(1,10):
     registry.register(f'grade10_eei_{_grade10_eei_number}_step', f'grade10_eei_{_grade10_eei_number}',
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+for _grade10_fn_number in range(1,8):
+    registry.register(f'grade10_fn_{_grade10_fn_number}_step', f'grade10_fn_{_grade10_fn_number}',
+        lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 for _grade10_ag_number in range(1,7):
     registry.register(f'grade10_ag_{_grade10_ag_number}_step', f'grade10_ag_{_grade10_ag_number}',
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))

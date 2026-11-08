@@ -6,6 +6,7 @@ EEI_LESSONS={n:build_lesson(n,'grade10-exponents-equations-inequalities') for n 
 TRIG_LESSONS={n:build_lesson(n,'grade10-trigonometry') for n in range(1,8)}
 EUC_LESSONS={n:build_lesson(n,'grade10-euclidean-geometry') for n in range(1,7)}
 AG_LESSONS={n:build_lesson(n,'grade10-analytical-geometry') for n in range(1,7)}
+FN_LESSONS={n:build_lesson(n,'grade10-functions-and-graphs') for n in range(1,8)}
 GRADE_10=GradeCurriculum(id='grade-10',grade=10,status=ContentStatus.TEACHER_REVIEW_REQUIRED,
  topics=[Topic(id='algebraic-expressions',product_order=1,title='Algebraic Expressions',official_caps_topic='Algebraic expressions',
  caps_sequence=1,term=1,expected_duration='Six authored lessons awaiting teacher and browser review',
@@ -37,4 +38,10 @@ GRADE_10=GradeCurriculum(id='grade-10',grade=10,status=ContentStatus.TEACHER_REV
  caps_reference='DBE Grade 10 Mathematics ATP, Term 2',paper='Paper 2',
  exam_relevance='Grade 10 Paper 2 coordinate geometry and formal assessment',status=ContentStatus.TEACHER_REVIEW_REQUIRED,
  subtopics=[Subtopic(id='analytical-learning-path',order=1,title='Distance, gradient, midpoint, line relationships and quadrilateral proof',
- prerequisites=[],lessons=[AG_LESSONS[n][0] for n in range(1,7)])])])
+ prerequisites=[],lessons=[AG_LESSONS[n][0] for n in range(1,7)])]),
+ Topic(id='functions-and-graphs',product_order=6,title='Functions and Graphs',official_caps_topic='Functions and graphs including trigonometric functions',
+ caps_sequence=6,term=2,expected_duration='Seven authored lessons awaiting teacher and browser review',
+ caps_reference='DBE Grade 10 Mathematics ATP, Term 2',paper='Paper 1',
+ exam_relevance='Grade 10 Paper 1 functions and graphs and formal assessment',status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+ subtopics=[Subtopic(id='functions-learning-path',order=1,title='Representations, parent curves, transformations, trigonometric graphs and equation inference',
+ prerequisites=[],lessons=[FN_LESSONS[n][0] for n in range(1,8)])])])

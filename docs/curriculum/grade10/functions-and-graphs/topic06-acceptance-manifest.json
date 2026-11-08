@@ -1,0 +1,86 @@
+[
+  {
+    "lesson_id": "g10-fn-01",
+    "source": "grade10-fn-lesson-01.md",
+    "source_sha256": "3097c133ae2903f33ad8f5f5899e0a6067dbf2c5692f131acc95a90e7c899107",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-fn-02",
+    "source": "grade10-fn-lesson-02.md",
+    "source_sha256": "16681294f09d8bbf8e07550ffccd4c4e3b32a0ae0c0a4a7da632741bcac923eb",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-fn-03",
+    "source": "grade10-fn-lesson-03.md",
+    "source_sha256": "51dc32ee3d0d94f5f3f7bb983c6943aa484eb51d21197be14b7b0ae14e150cf5",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-fn-04",
+    "source": "grade10-fn-lesson-04.md",
+    "source_sha256": "25c10985308dda46fa398cf69d699243e1d89cd1b50f059f2f47fbc221ff53fc",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-fn-05",
+    "source": "grade10-fn-lesson-05.md",
+    "source_sha256": "fd845cb29c885357972e7db7f27b2b03e4d69d6aa180c87ffdfd17773bcd8f6c",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-fn-06",
+    "source": "grade10-fn-lesson-06.md",
+    "source_sha256": "02c055bb390567917411a78ea16a2e1a0146aa2a86a85c93721a9cd68e27cb60",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-fn-07",
+    "source": "grade10-fn-lesson-07.md",
+    "source_sha256": "152e1190882d9af11b85cb0a506fa0b989d7c3fb747586507382878b95502636",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

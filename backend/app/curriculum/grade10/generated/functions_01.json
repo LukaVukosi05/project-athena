@@ -1,0 +1,970 @@
+{
+  "source": "grade10-fn-lesson-01.md",
+  "worked": [
+    {
+      "id": "g10-fn-l01-w01",
+      "problem": "The rule is y = 2·x − 4. Complete the table value at x=1 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 2·x − 4 visible and mark input x=1.",
+        "Substitute the input: y=2×(1) − 4.",
+        "Calculate y=-2; add it to the table beside x=1.",
+        "Plot (1; -2) using the x-axis and y-axis scales.",
+        "Answer: (1; -2). Check with another given row such as x=0 → y=-4."
+      ],
+      "answer": "(1; -2)",
+      "check": "Answer: (1; -2). Check with another given row such as x=0 → y=-4.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 2,
+          "q": -4,
+          "base": 3,
+          "given": [
+            [
+              0,
+              -4
+            ],
+            [
+              1,
+              -2
+            ],
+            [
+              1,
+              -2
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": 1,
+          "answer": "(1; -2)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-fn-l01-w02",
+      "problem": "The rule is y = 3·x − 3. Complete the table value at x=4 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 3·x − 3 visible and mark input x=4.",
+        "Substitute the input: y=3×(4) − 3.",
+        "Calculate y=9; add it to the table beside x=4.",
+        "Plot (4; 9) using the x-axis and y-axis scales.",
+        "Answer: (4; 9). Check with another given row such as x=0 → y=-3."
+      ],
+      "answer": "(4; 9)",
+      "check": "Answer: (4; 9). Check with another given row such as x=0 → y=-3.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 3,
+          "q": -3,
+          "base": 2,
+          "given": [
+            [
+              0,
+              -3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              9
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": 4,
+          "answer": "(4; 9)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-fn-l01-w03",
+      "problem": "The rule is y = 4·x − 3. Complete the table value at x=0 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 4·x − 3 visible and mark input x=0.",
+        "Substitute the input: y=4×(0) − 3.",
+        "Calculate y=-3; add it to the table beside x=0.",
+        "Plot (0; -3) using the x-axis and y-axis scales.",
+        "Answer: (0; -3). Check with another given row such as x=0 → y=-3."
+      ],
+      "answer": "(0; -3)",
+      "check": "Answer: (0; -3). Check with another given row such as x=0 → y=-3.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 4,
+          "q": -3,
+          "base": 3,
+          "given": [
+            [
+              0,
+              -3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              -3
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": 0,
+          "answer": "(0; -3)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-fn-l01-w04",
+      "problem": "The rule is y = 1·x − 2. Complete the table value at x=3 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 1·x − 2 visible and mark input x=3.",
+        "Substitute the input: y=1×(3) − 2.",
+        "Calculate y=1; add it to the table beside x=3.",
+        "Plot (3; 1) using the x-axis and y-axis scales.",
+        "Answer: (3; 1). Check with another given row such as x=0 → y=-2."
+      ],
+      "answer": "(3; 1)",
+      "check": "Answer: (3; 1). Check with another given row such as x=0 → y=-2.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 1,
+          "q": -2,
+          "base": 2,
+          "given": [
+            [
+              0,
+              -2
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": 3,
+          "answer": "(3; 1)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-fn-l01-w05",
+      "problem": "The rule is y = 2·x − 2. Complete the table value at x=-1 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 2·x − 2 visible and mark input x=-1.",
+        "Substitute the input: y=2×(-1) − 2.",
+        "Calculate y=-4; add it to the table beside x=-1.",
+        "Plot (-1; -4) using the x-axis and y-axis scales.",
+        "Answer: (-1; -4). Check with another given row such as x=0 → y=-2."
+      ],
+      "answer": "(-1; -4)",
+      "check": "Answer: (-1; -4). Check with another given row such as x=0 → y=-2.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 2,
+          "q": -2,
+          "base": 3,
+          "given": [
+            [
+              0,
+              -2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              -1,
+              -4
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": -1,
+          "answer": "(-1; -4)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-fn-l01-w06",
+      "problem": "The rule is y = 3·x − 1. Complete the table value at x=2 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 3·x − 1 visible and mark input x=2.",
+        "Substitute the input: y=3×(2) − 1.",
+        "Calculate y=5; add it to the table beside x=2.",
+        "Plot (2; 5) using the x-axis and y-axis scales.",
+        "Answer: (2; 5). Check with another given row such as x=0 → y=-1."
+      ],
+      "answer": "(2; 5)",
+      "check": "Answer: (2; 5). Check with another given row such as x=0 → y=-1.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 3,
+          "q": -1,
+          "base": 2,
+          "given": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": 2,
+          "answer": "(2; 5)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-fn-l01-w07",
+      "problem": "The rule is y = 4·x − 1. Complete the table value at x=-2 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 4·x − 1 visible and mark input x=-2.",
+        "Substitute the input: y=4×(-2) − 1.",
+        "Calculate y=-9; add it to the table beside x=-2.",
+        "Plot (-2; -9) using the x-axis and y-axis scales.",
+        "Answer: (-2; -9). Check with another given row such as x=0 → y=-1."
+      ],
+      "answer": "(-2; -9)",
+      "check": "Answer: (-2; -9). Check with another given row such as x=0 → y=-1.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 4,
+          "q": -1,
+          "base": 3,
+          "given": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              -2,
+              -9
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": -2,
+          "answer": "(-2; -9)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-fn-l01-w08",
+      "problem": "The rule is y = 1·x + 0. Complete the table value at x=1 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 1·x + 0 visible and mark input x=1.",
+        "Substitute the input: y=1×(1) + 0.",
+        "Calculate y=1; add it to the table beside x=1.",
+        "Plot (1; 1) using the x-axis and y-axis scales.",
+        "Answer: (1; 1). Check with another given row such as x=0 → y=0."
+      ],
+      "answer": "(1; 1)",
+      "check": "Answer: (1; 1). Check with another given row such as x=0 → y=0.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 1,
+          "q": 0,
+          "base": 2,
+          "given": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": 1,
+          "answer": "(1; 1)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-fn-l01-w09",
+      "problem": "The rule is y = 2·x + 0. Complete the table value at x=4 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 2·x + 0 visible and mark input x=4.",
+        "Substitute the input: y=2×(4) + 0.",
+        "Calculate y=8; add it to the table beside x=4.",
+        "Plot (4; 8) using the x-axis and y-axis scales.",
+        "Answer: (4; 8). Check with another given row such as x=0 → y=0."
+      ],
+      "answer": "(4; 8)",
+      "check": "Answer: (4; 8). Check with another given row such as x=0 → y=0.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 2,
+          "q": 0,
+          "base": 3,
+          "given": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": 4,
+          "answer": "(4; 8)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-fn-l01-w10",
+      "problem": "The rule is y = 3·x + 1. Complete the table value at x=0 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 3·x + 1 visible and mark input x=0.",
+        "Substitute the input: y=3×(0) + 1.",
+        "Calculate y=1; add it to the table beside x=0.",
+        "Plot (0; 1) using the x-axis and y-axis scales.",
+        "Answer: (0; 1). Check with another given row such as x=0 → y=1."
+      ],
+      "answer": "(0; 1)",
+      "check": "Answer: (0; 1). Check with another given row such as x=0 → y=1.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 3,
+          "q": 1,
+          "base": 2,
+          "given": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": 0,
+          "answer": "(0; 1)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-fn-l01-w11",
+      "problem": "The rule is y = 4·x + 1. Complete the table value at x=3 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 4·x + 1 visible and mark input x=3.",
+        "Substitute the input: y=4×(3) + 1.",
+        "Calculate y=13; add it to the table beside x=3.",
+        "Plot (3; 13) using the x-axis and y-axis scales.",
+        "Answer: (3; 13). Check with another given row such as x=0 → y=1."
+      ],
+      "answer": "(3; 13)",
+      "check": "Answer: (3; 13). Check with another given row such as x=0 → y=1.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 4,
+          "q": 1,
+          "base": 3,
+          "given": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              13
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": 3,
+          "answer": "(3; 13)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-fn-l01-w12",
+      "problem": "The rule is y = 1·x + 2. Complete the table value at x=-1 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 1·x + 2 visible and mark input x=-1.",
+        "Substitute the input: y=1×(-1) + 2.",
+        "Calculate y=1; add it to the table beside x=-1.",
+        "Plot (-1; 1) using the x-axis and y-axis scales.",
+        "Answer: (-1; 1). Check with another given row such as x=0 → y=2."
+      ],
+      "answer": "(-1; 1)",
+      "check": "Answer: (-1; 1). Check with another given row such as x=0 → y=2.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 1,
+          "q": 2,
+          "base": 2,
+          "given": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": -1,
+          "answer": "(-1; 1)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-fn-l01-w13",
+      "problem": "The rule is y = 2·x + 2. Complete the table value at x=2 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 2·x + 2 visible and mark input x=2.",
+        "Substitute the input: y=2×(2) + 2.",
+        "Calculate y=6; add it to the table beside x=2.",
+        "Plot (2; 6) using the x-axis and y-axis scales.",
+        "Answer: (2; 6). Check with another given row such as x=0 → y=2."
+      ],
+      "answer": "(2; 6)",
+      "check": "Answer: (2; 6). Check with another given row such as x=0 → y=2.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 2,
+          "q": 2,
+          "base": 3,
+          "given": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": 2,
+          "answer": "(2; 6)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-fn-l01-w14",
+      "problem": "The rule is y = 3·x − 4. Complete the table value at x=-2 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 3·x − 4 visible and mark input x=-2.",
+        "Substitute the input: y=3×(-2) − 4.",
+        "Calculate y=-10; add it to the table beside x=-2.",
+        "Plot (-2; -10) using the x-axis and y-axis scales.",
+        "Answer: (-2; -10). Check with another given row such as x=0 → y=-4."
+      ],
+      "answer": "(-2; -10)",
+      "check": "Answer: (-2; -10). Check with another given row such as x=0 → y=-4.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 3,
+          "q": -4,
+          "base": 2,
+          "given": [
+            [
+              0,
+              -4
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              -2,
+              -10
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": -2,
+          "answer": "(-2; -10)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-fn-l01-w15",
+      "problem": "The rule is y = 4·x − 4. Complete the table value at x=1 and plot the pair.",
+      "actions": [
+        "Keep the rule y = 4·x − 4 visible and mark input x=1.",
+        "Substitute the input: y=4×(1) − 4.",
+        "Calculate y=0; add it to the table beside x=1.",
+        "Plot (1; 0) using the x-axis and y-axis scales.",
+        "Answer: (1; 0). Check with another given row such as x=0 → y=-4."
+      ],
+      "answer": "(1; 0)",
+      "check": "Answer: (1; 0). Check with another given row such as x=0 → y=-4.",
+      "visual": {
+        "family": "grade10_functions",
+        "values": {
+          "lesson": 1,
+          "model": "function_graph",
+          "a": 4,
+          "q": -4,
+          "base": 3,
+          "given": [
+            [
+              0,
+              -4
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "family": "linear",
+          "mode": "table",
+          "target_x": 1,
+          "answer": "(1; 0)"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Keep domain restrictions, original points and the meaning of a and q visible through every graph step.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-fn-l01-p01",
+      "prompt": "The rule is y = 1·x − 3. Complete the table value at x=4 and plot the pair.",
+      "options": [
+        "(4; 0)",
+        "(4; 1)",
+        "(1; 4)",
+        "(4; 2)"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the rule y = 1·x − 3 visible and mark input x=4. Substitute the input: y=1×(4) − 3. Calculate y=1; add it to the table beside x=4. Plot (4; 1) using the x-axis and y-axis scales. Answer: (4; 1). Check with another given row such as x=0 → y=-3.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p02",
+      "prompt": "The rule is y = 2·x − 3. Complete the table value at x=0 and plot the pair.",
+      "options": [
+        "(0; -1)",
+        "(0; -4)",
+        "(0; -3)",
+        "(-3; 0)"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the rule y = 2·x − 3 visible and mark input x=0. Substitute the input: y=2×(0) − 3. Calculate y=-3; add it to the table beside x=0. Plot (0; -3) using the x-axis and y-axis scales. Answer: (0; -3). Check with another given row such as x=0 → y=-3.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p03",
+      "prompt": "The rule is y = 3·x − 2. Complete the table value at x=3 and plot the pair.",
+      "options": [
+        "(7; 3)",
+        "(3; 10)",
+        "(3; 6)",
+        "(3; 7)"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the rule y = 3·x − 2 visible and mark input x=3. Substitute the input: y=3×(3) − 2. Calculate y=7; add it to the table beside x=3. Plot (3; 7) using the x-axis and y-axis scales. Answer: (3; 7). Check with another given row such as x=0 → y=-2.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p04",
+      "prompt": "The rule is y = 4·x − 2. Complete the table value at x=-1 and plot the pair.",
+      "options": [
+        "(-1; -6)",
+        "(-6; -1)",
+        "(-1; -2)",
+        "(-1; -7)"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the rule y = 4·x − 2 visible and mark input x=-1. Substitute the input: y=4×(-1) − 2. Calculate y=-6; add it to the table beside x=-1. Plot (-1; -6) using the x-axis and y-axis scales. Answer: (-1; -6). Check with another given row such as x=0 → y=-2.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p05",
+      "prompt": "The rule is y = 1·x − 1. Complete the table value at x=2 and plot the pair.",
+      "options": [
+        "(2; 0)",
+        "(2; 1)",
+        "(1; 2)",
+        "(2; 2)"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the rule y = 1·x − 1 visible and mark input x=2. Substitute the input: y=1×(2) − 1. Calculate y=1; add it to the table beside x=2. Plot (2; 1) using the x-axis and y-axis scales. Answer: (2; 1). Check with another given row such as x=0 → y=-1.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p06",
+      "prompt": "The rule is y = 2·x − 1. Complete the table value at x=-2 and plot the pair.",
+      "options": [
+        "(-2; -3)",
+        "(-2; -6)",
+        "(-2; -5)",
+        "(-5; -2)"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the rule y = 2·x − 1 visible and mark input x=-2. Substitute the input: y=2×(-2) − 1. Calculate y=-5; add it to the table beside x=-2. Plot (-2; -5) using the x-axis and y-axis scales. Answer: (-2; -5). Check with another given row such as x=0 → y=-1.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p07",
+      "prompt": "The rule is y = 3·x + 0. Complete the table value at x=1 and plot the pair.",
+      "options": [
+        "(3; 1)",
+        "(1; 6)",
+        "(1; 2)",
+        "(1; 3)"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the rule y = 3·x + 0 visible and mark input x=1. Substitute the input: y=3×(1) + 0. Calculate y=3; add it to the table beside x=1. Plot (1; 3) using the x-axis and y-axis scales. Answer: (1; 3). Check with another given row such as x=0 → y=0.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p08",
+      "prompt": "The rule is y = 4·x + 0. Complete the table value at x=4 and plot the pair.",
+      "options": [
+        "(4; 16)",
+        "(16; 4)",
+        "(4; 20)",
+        "(4; 15)"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the rule y = 4·x + 0 visible and mark input x=4. Substitute the input: y=4×(4) + 0. Calculate y=16; add it to the table beside x=4. Plot (4; 16) using the x-axis and y-axis scales. Answer: (4; 16). Check with another given row such as x=0 → y=0.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p09",
+      "prompt": "The rule is y = 1·x + 1. Complete the table value at x=0 and plot the pair.",
+      "options": [
+        "(0; 0)",
+        "(0; 1)",
+        "(1; 0)",
+        "(0; 2)"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the rule y = 1·x + 1 visible and mark input x=0. Substitute the input: y=1×(0) + 1. Calculate y=1; add it to the table beside x=0. Plot (0; 1) using the x-axis and y-axis scales. Answer: (0; 1). Check with another given row such as x=0 → y=1.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p10",
+      "prompt": "The rule is y = 2·x + 1. Complete the table value at x=3 and plot the pair.",
+      "options": [
+        "(3; 9)",
+        "(3; 6)",
+        "(3; 7)",
+        "(7; 3)"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the rule y = 2·x + 1 visible and mark input x=3. Substitute the input: y=2×(3) + 1. Calculate y=7; add it to the table beside x=3. Plot (3; 7) using the x-axis and y-axis scales. Answer: (3; 7). Check with another given row such as x=0 → y=1.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p11",
+      "prompt": "The rule is y = 3·x + 2. Complete the table value at x=-1 and plot the pair.",
+      "options": [
+        "(-1; 2)",
+        "(-1; -2)",
+        "Cannot be determined",
+        "(-1; -1)"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the rule y = 3·x + 2 visible and mark input x=-1. Substitute the input: y=3×(-1) + 2. Calculate y=-1; add it to the table beside x=-1. Plot (-1; -1) using the x-axis and y-axis scales. Answer: (-1; -1). Check with another given row such as x=0 → y=2.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p12",
+      "prompt": "The rule is y = 4·x + 2. Complete the table value at x=2 and plot the pair.",
+      "options": [
+        "(2; 10)",
+        "(10; 2)",
+        "(2; 14)",
+        "(2; 9)"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the rule y = 4·x + 2 visible and mark input x=2. Substitute the input: y=4×(2) + 2. Calculate y=10; add it to the table beside x=2. Plot (2; 10) using the x-axis and y-axis scales. Answer: (2; 10). Check with another given row such as x=0 → y=2.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p13",
+      "prompt": "The rule is y = 1·x − 4. Complete the table value at x=-2 and plot the pair.",
+      "options": [
+        "(-2; -7)",
+        "(-2; -6)",
+        "(-6; -2)",
+        "(-2; -5)"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the rule y = 1·x − 4 visible and mark input x=-2. Substitute the input: y=1×(-2) − 4. Calculate y=-6; add it to the table beside x=-2. Plot (-2; -6) using the x-axis and y-axis scales. Answer: (-2; -6). Check with another given row such as x=0 → y=-4.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p14",
+      "prompt": "The rule is y = 2·x − 4. Complete the table value at x=1 and plot the pair.",
+      "options": [
+        "(1; 0)",
+        "(1; -3)",
+        "(1; -2)",
+        "(-2; 1)"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the rule y = 2·x − 4 visible and mark input x=1. Substitute the input: y=2×(1) − 4. Calculate y=-2; add it to the table beside x=1. Plot (1; -2) using the x-axis and y-axis scales. Answer: (1; -2). Check with another given row such as x=0 → y=-4.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-p15",
+      "prompt": "The rule is y = 3·x − 3. Complete the table value at x=4 and plot the pair.",
+      "options": [
+        "(9; 4)",
+        "(4; 12)",
+        "(4; 8)",
+        "(4; 9)"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the rule y = 3·x − 3 visible and mark input x=4. Substitute the input: y=3×(4) − 3. Calculate y=9; add it to the table beside x=4. Plot (4; 9) using the x-axis and y-axis scales. Answer: (4; 9). Check with another given row such as x=0 → y=-3.",
+      "source": "grade10-fn-lesson-01.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-fn-l01-m16",
+      "prompt": "The rule is y = 3·x − 2. Complete the table value at x=3 and plot the pair.",
+      "options": [
+        "(3; 7)",
+        "(7; 3)",
+        "(3; 10)",
+        "(3; 6)"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the rule y = 3·x − 2 visible and mark input x=3. Substitute the input: y=3×(3) − 2. Calculate y=7; add it to the table beside x=3. Plot (3; 7) using the x-axis and y-axis scales. Answer: (3; 7). Check with another given row such as x=0 → y=-2.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-m17",
+      "prompt": "The rule is y = 4·x − 2. Complete the table value at x=-1 and plot the pair.",
+      "options": [
+        "(-1; -7)",
+        "(-1; -6)",
+        "(-6; -1)",
+        "(-1; -2)"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the rule y = 4·x − 2 visible and mark input x=-1. Substitute the input: y=4×(-1) − 2. Calculate y=-6; add it to the table beside x=-1. Plot (-1; -6) using the x-axis and y-axis scales. Answer: (-1; -6). Check with another given row such as x=0 → y=-2.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-m18",
+      "prompt": "The rule is y = 1·x − 1. Complete the table value at x=2 and plot the pair.",
+      "options": [
+        "(2; 2)",
+        "(2; 0)",
+        "(2; 1)",
+        "(1; 2)"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the rule y = 1·x − 1 visible and mark input x=2. Substitute the input: y=1×(2) − 1. Calculate y=1; add it to the table beside x=2. Plot (2; 1) using the x-axis and y-axis scales. Answer: (2; 1). Check with another given row such as x=0 → y=-1.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-m19",
+      "prompt": "The rule is y = 2·x − 1. Complete the table value at x=-2 and plot the pair.",
+      "options": [
+        "(-5; -2)",
+        "(-2; -3)",
+        "(-2; -6)",
+        "(-2; -5)"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the rule y = 2·x − 1 visible and mark input x=-2. Substitute the input: y=2×(-2) − 1. Calculate y=-5; add it to the table beside x=-2. Plot (-2; -5) using the x-axis and y-axis scales. Answer: (-2; -5). Check with another given row such as x=0 → y=-1.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-m20",
+      "prompt": "The rule is y = 3·x + 0. Complete the table value at x=1 and plot the pair.",
+      "options": [
+        "(1; 3)",
+        "(3; 1)",
+        "(1; 6)",
+        "(1; 2)"
+      ],
+      "answer_index": 0,
+      "memo": "Keep the rule y = 3·x + 0 visible and mark input x=1. Substitute the input: y=3×(1) + 0. Calculate y=3; add it to the table beside x=1. Plot (1; 3) using the x-axis and y-axis scales. Answer: (1; 3). Check with another given row such as x=0 → y=0.",
+      "source": "grade10-fn-lesson-01.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-fn-l01-r21",
+      "prompt": "The rule is y = 3·x + 1. Complete the table value at x=0 and plot the pair.",
+      "options": [
+        "(0; 0)",
+        "(0; 1)",
+        "(1; 0)",
+        "(0; 4)"
+      ],
+      "answer_index": 1,
+      "memo": "Keep the rule y = 3·x + 1 visible and mark input x=0. Substitute the input: y=3×(0) + 1. Calculate y=1; add it to the table beside x=0. Plot (0; 1) using the x-axis and y-axis scales. Answer: (0; 1). Check with another given row such as x=0 → y=1.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-r22",
+      "prompt": "The rule is y = 4·x + 1. Complete the table value at x=3 and plot the pair.",
+      "options": [
+        "(3; 17)",
+        "(3; 12)",
+        "(3; 13)",
+        "(13; 3)"
+      ],
+      "answer_index": 2,
+      "memo": "Keep the rule y = 4·x + 1 visible and mark input x=3. Substitute the input: y=4×(3) + 1. Calculate y=13; add it to the table beside x=3. Plot (3; 13) using the x-axis and y-axis scales. Answer: (3; 13). Check with another given row such as x=0 → y=1.",
+      "source": "grade10-fn-lesson-01.md"
+    },
+    {
+      "id": "g10-fn-l01-r23",
+      "prompt": "The rule is y = 1·x + 2. Complete the table value at x=-1 and plot the pair.",
+      "options": [
+        "(1; -1)",
+        "(-1; 2)",
+        "(-1; 0)",
+        "(-1; 1)"
+      ],
+      "answer_index": 3,
+      "memo": "Keep the rule y = 1·x + 2 visible and mark input x=-1. Substitute the input: y=1×(-1) + 2. Calculate y=1; add it to the table beside x=-1. Plot (-1; 1) using the x-axis and y-axis scales. Answer: (-1; 1). Check with another given row such as x=0 → y=2.",
+      "source": "grade10-fn-lesson-01.md"
+    }
+  ]
+}
