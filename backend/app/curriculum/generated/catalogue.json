@@ -1725,6 +1725,64 @@
               "source_document": "lesson-04.md"
             }
           ]
+        },
+        {
+          "topic_id": "surface-area-and-volume",
+          "topic_number": 15,
+          "title": "Surface Area and Volume",
+          "paper": null,
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-sv-01",
+              "position": 1,
+              "title": "Cube and rectangular prism surface area from nets",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g9-sv-02",
+              "position": 2,
+              "title": "Rectangular prism volume and capacity",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g9-sv-03",
+              "position": 3,
+              "title": "Triangular prism surface area and volume",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g9-sv-04",
+              "position": 4,
+              "title": "Closed cylinders: surface area and volume",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g9-sv-05",
+              "position": 5,
+              "title": "SI conversions and effects of doubling dimensions",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05.md"
+            },
+            {
+              "lesson_id": "g9-sv-06",
+              "position": 6,
+              "title": "Applied measurement, first-error repair and reassessment",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-06.md"
+            }
+          ]
         }
       ]
     },

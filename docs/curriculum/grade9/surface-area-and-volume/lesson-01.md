@@ -1,0 +1,297 @@
+# Grade 9 Topic 15 · Lesson 1: Cube and rectangular prism surface area from nets
+
+Authority: [DBE 2026 Grade 9 Mathematics ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2026%20ATPs/2026_ATP_Mathematics_Grade%209.pdf), Term 4. Original Athena questions.
+
+Status: teacher and browser review required. Show the geometry and a cumulative written solution before revealing an answer.
+
+## g9-sv-l01-w01: A closed cube has edge 4 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "cube", "length": 4, "width": 4, "height": 4, "surface_area": 96}}
+
+1. Label every edge: length 4 cm, width 4 cm, height 4 cm.
+
+2. Two faces each have area 4 × 4 = 16 cm².
+
+3. The other pairs have areas 4 × 4 = 16 cm² and 4 × 4 = 16 cm².
+
+4. Total surface area = 2(16 + 16 + 16) = 96 cm².
+
+5. Check all six faces of the closed cube are counted once.
+
+**Answer:** surface area = 96 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w02: A closed cube has edge 5 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "cube", "length": 5, "width": 5, "height": 5, "surface_area": 150}}
+
+1. Label every edge: length 5 cm, width 5 cm, height 5 cm.
+
+2. Two faces each have area 5 × 5 = 25 cm².
+
+3. The other pairs have areas 5 × 5 = 25 cm² and 5 × 5 = 25 cm².
+
+4. Total surface area = 2(25 + 25 + 25) = 150 cm².
+
+5. Check all six faces of the closed cube are counted once.
+
+**Answer:** surface area = 150 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w03: A closed cube has edge 6 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "cube", "length": 6, "width": 6, "height": 6, "surface_area": 216}}
+
+1. Label every edge: length 6 cm, width 6 cm, height 6 cm.
+
+2. Two faces each have area 6 × 6 = 36 cm².
+
+3. The other pairs have areas 6 × 6 = 36 cm² and 6 × 6 = 36 cm².
+
+4. Total surface area = 2(36 + 36 + 36) = 216 cm².
+
+5. Check all six faces of the closed cube are counted once.
+
+**Answer:** surface area = 216 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w04: A closed cube has edge 7 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "cube", "length": 7, "width": 7, "height": 7, "surface_area": 294}}
+
+1. Label every edge: length 7 cm, width 7 cm, height 7 cm.
+
+2. Two faces each have area 7 × 7 = 49 cm².
+
+3. The other pairs have areas 7 × 7 = 49 cm² and 7 × 7 = 49 cm².
+
+4. Total surface area = 2(49 + 49 + 49) = 294 cm².
+
+5. Check all six faces of the closed cube are counted once.
+
+**Answer:** surface area = 294 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w05: A closed cube has edge 8 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "cube", "length": 8, "width": 8, "height": 8, "surface_area": 384}}
+
+1. Label every edge: length 8 cm, width 8 cm, height 8 cm.
+
+2. Two faces each have area 8 × 8 = 64 cm².
+
+3. The other pairs have areas 8 × 8 = 64 cm² and 8 × 8 = 64 cm².
+
+4. Total surface area = 2(64 + 64 + 64) = 384 cm².
+
+5. Check all six faces of the closed cube are counted once.
+
+**Answer:** surface area = 384 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w06: A closed rectangular prism has length 9 cm, width 2 cm and height 4 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "rectangular prism", "length": 9, "width": 2, "height": 4, "surface_area": 124}}
+
+1. Label every edge: length 9 cm, width 2 cm, height 4 cm.
+
+2. Two faces each have area 9 × 2 = 18 cm².
+
+3. The other pairs have areas 9 × 4 = 36 cm² and 2 × 4 = 8 cm².
+
+4. Total surface area = 2(18 + 36 + 8) = 124 cm².
+
+5. Check all six faces of the closed rectangular prism are counted once.
+
+**Answer:** surface area = 124 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w07: A closed rectangular prism has length 10 cm, width 3 cm and height 5 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "rectangular prism", "length": 10, "width": 3, "height": 5, "surface_area": 190}}
+
+1. Label every edge: length 10 cm, width 3 cm, height 5 cm.
+
+2. Two faces each have area 10 × 3 = 30 cm².
+
+3. The other pairs have areas 10 × 5 = 50 cm² and 3 × 5 = 15 cm².
+
+4. Total surface area = 2(30 + 50 + 15) = 190 cm².
+
+5. Check all six faces of the closed rectangular prism are counted once.
+
+**Answer:** surface area = 190 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w08: A closed rectangular prism has length 11 cm, width 4 cm and height 6 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "rectangular prism", "length": 11, "width": 4, "height": 6, "surface_area": 268}}
+
+1. Label every edge: length 11 cm, width 4 cm, height 6 cm.
+
+2. Two faces each have area 11 × 4 = 44 cm².
+
+3. The other pairs have areas 11 × 6 = 66 cm² and 4 × 6 = 24 cm².
+
+4. Total surface area = 2(44 + 66 + 24) = 268 cm².
+
+5. Check all six faces of the closed rectangular prism are counted once.
+
+**Answer:** surface area = 268 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w09: A closed rectangular prism has length 12 cm, width 5 cm and height 7 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "rectangular prism", "length": 12, "width": 5, "height": 7, "surface_area": 358}}
+
+1. Label every edge: length 12 cm, width 5 cm, height 7 cm.
+
+2. Two faces each have area 12 × 5 = 60 cm².
+
+3. The other pairs have areas 12 × 7 = 84 cm² and 5 × 7 = 35 cm².
+
+4. Total surface area = 2(60 + 84 + 35) = 358 cm².
+
+5. Check all six faces of the closed rectangular prism are counted once.
+
+**Answer:** surface area = 358 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w10: A closed rectangular prism has length 13 cm, width 6 cm and height 3 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "rectangular prism", "length": 13, "width": 6, "height": 3, "surface_area": 270}}
+
+1. Label every edge: length 13 cm, width 6 cm, height 3 cm.
+
+2. Two faces each have area 13 × 6 = 78 cm².
+
+3. The other pairs have areas 13 × 3 = 39 cm² and 6 × 3 = 18 cm².
+
+4. Total surface area = 2(78 + 39 + 18) = 270 cm².
+
+5. Check all six faces of the closed rectangular prism are counted once.
+
+**Answer:** surface area = 270 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w11: A closed rectangular prism has length 14 cm, width 7 cm and height 4 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "rectangular prism", "length": 14, "width": 7, "height": 4, "surface_area": 364}}
+
+1. Label every edge: length 14 cm, width 7 cm, height 4 cm.
+
+2. Two faces each have area 14 × 7 = 98 cm².
+
+3. The other pairs have areas 14 × 4 = 56 cm² and 7 × 4 = 28 cm².
+
+4. Total surface area = 2(98 + 56 + 28) = 364 cm².
+
+5. Check all six faces of the closed rectangular prism are counted once.
+
+**Answer:** surface area = 364 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w12: A closed rectangular prism has length 15 cm, width 2 cm and height 5 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "rectangular prism", "length": 15, "width": 2, "height": 5, "surface_area": 230}}
+
+1. Label every edge: length 15 cm, width 2 cm, height 5 cm.
+
+2. Two faces each have area 15 × 2 = 30 cm².
+
+3. The other pairs have areas 15 × 5 = 75 cm² and 2 × 5 = 10 cm².
+
+4. Total surface area = 2(30 + 75 + 10) = 230 cm².
+
+5. Check all six faces of the closed rectangular prism are counted once.
+
+**Answer:** surface area = 230 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w13: A closed rectangular prism has length 16 cm, width 3 cm and height 6 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "rectangular prism", "length": 16, "width": 3, "height": 6, "surface_area": 324}}
+
+1. Label every edge: length 16 cm, width 3 cm, height 6 cm.
+
+2. Two faces each have area 16 × 3 = 48 cm².
+
+3. The other pairs have areas 16 × 6 = 96 cm² and 3 × 6 = 18 cm².
+
+4. Total surface area = 2(48 + 96 + 18) = 324 cm².
+
+5. Check all six faces of the closed rectangular prism are counted once.
+
+**Answer:** surface area = 324 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w14: A closed rectangular prism has length 17 cm, width 4 cm and height 7 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "rectangular prism", "length": 17, "width": 4, "height": 7, "surface_area": 430}}
+
+1. Label every edge: length 17 cm, width 4 cm, height 7 cm.
+
+2. Two faces each have area 17 × 4 = 68 cm².
+
+3. The other pairs have areas 17 × 7 = 119 cm² and 4 × 7 = 28 cm².
+
+4. Total surface area = 2(68 + 119 + 28) = 430 cm².
+
+5. Check all six faces of the closed rectangular prism are counted once.
+
+**Answer:** surface area = 430 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## g9-sv-l01-w15: A closed rectangular prism has length 18 cm, width 5 cm and height 3 cm. Draw its net and calculate its total surface area.
+
+Visual: {"family": "surface_volume", "values": {"lesson": 1, "model": "box_net", "shape": "rectangular prism", "length": 18, "width": 5, "height": 3, "surface_area": 318}}
+
+1. Label every edge: length 18 cm, width 5 cm, height 3 cm.
+
+2. Two faces each have area 18 × 5 = 90 cm².
+
+3. The other pairs have areas 18 × 3 = 54 cm² and 5 × 3 = 15 cm².
+
+4. Total surface area = 2(90 + 54 + 15) = 318 cm².
+
+5. Check all six faces of the closed rectangular prism are counted once.
+
+**Answer:** surface area = 318 cm². **Misconception:** Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.
+
+## Practice answer key
+
+- g9-sv-l01-p01: A closed cube has edge 19 cm. Draw its net and calculate its total surface area. Options: surface area = 2168 cm² | surface area = 2166 cm² | surface area = 2167 cm² | surface area = 2165 cm². Correct: surface area = 2166 cm². Label every edge: length 19 cm, width 19 cm, height 19 cm. Two faces each have area 19 × 19 = 361 cm². The other pairs have areas 19 × 19 = 361 cm² and 19 × 19 = 361 cm². Total surface area = 2(361 + 361 + 361) = 2166 cm². Check all six faces of the closed cube are counted once.
+
+- g9-sv-l01-p02: A closed cube has edge 20 cm. Draw its net and calculate its total surface area. Options: surface area = 2399 cm² | surface area = 2402 cm² | surface area = 2400 cm² | surface area = 2401 cm². Correct: surface area = 2400 cm². Label every edge: length 20 cm, width 20 cm, height 20 cm. Two faces each have area 20 × 20 = 400 cm². The other pairs have areas 20 × 20 = 400 cm² and 20 × 20 = 400 cm². Total surface area = 2(400 + 400 + 400) = 2400 cm². Check all six faces of the closed cube are counted once.
+
+- g9-sv-l01-p03: A closed cube has edge 21 cm. Draw its net and calculate its total surface area. Options: surface area = 2647 cm² | surface area = 2645 cm² | surface area = 2648 cm² | surface area = 2646 cm². Correct: surface area = 2646 cm². Label every edge: length 21 cm, width 21 cm, height 21 cm. Two faces each have area 21 × 21 = 441 cm². The other pairs have areas 21 × 21 = 441 cm² and 21 × 21 = 441 cm². Total surface area = 2(441 + 441 + 441) = 2646 cm². Check all six faces of the closed cube are counted once.
+
+- g9-sv-l01-p04: A closed cube has edge 22 cm. Draw its net and calculate its total surface area. Options: surface area = 2904 cm² | surface area = 2905 cm² | surface area = 2903 cm² | surface area = 2906 cm². Correct: surface area = 2904 cm². Label every edge: length 22 cm, width 22 cm, height 22 cm. Two faces each have area 22 × 22 = 484 cm². The other pairs have areas 22 × 22 = 484 cm² and 22 × 22 = 484 cm². Total surface area = 2(484 + 484 + 484) = 2904 cm². Check all six faces of the closed cube are counted once.
+
+- g9-sv-l01-p05: A closed cube has edge 23 cm. Draw its net and calculate its total surface area. Options: surface area = 3176 cm² | surface area = 3174 cm² | surface area = 3175 cm² | surface area = 3173 cm². Correct: surface area = 3174 cm². Label every edge: length 23 cm, width 23 cm, height 23 cm. Two faces each have area 23 × 23 = 529 cm². The other pairs have areas 23 × 23 = 529 cm² and 23 × 23 = 529 cm². Total surface area = 2(529 + 529 + 529) = 3174 cm². Check all six faces of the closed cube are counted once.
+
+- g9-sv-l01-p06: A closed rectangular prism has length 24 cm, width 5 cm and height 4 cm. Draw its net and calculate its total surface area. Options: surface area = 471 cm² | surface area = 474 cm² | surface area = 472 cm² | surface area = 473 cm². Correct: surface area = 472 cm². Label every edge: length 24 cm, width 5 cm, height 4 cm. Two faces each have area 24 × 5 = 120 cm². The other pairs have areas 24 × 4 = 96 cm² and 5 × 4 = 20 cm². Total surface area = 2(120 + 96 + 20) = 472 cm². Check all six faces of the closed rectangular prism are counted once.
+
+- g9-sv-l01-p07: A closed rectangular prism has length 25 cm, width 6 cm and height 5 cm. Draw its net and calculate its total surface area. Options: surface area = 611 cm² | surface area = 609 cm² | surface area = 612 cm² | surface area = 610 cm². Correct: surface area = 610 cm². Label every edge: length 25 cm, width 6 cm, height 5 cm. Two faces each have area 25 × 6 = 150 cm². The other pairs have areas 25 × 5 = 125 cm² and 6 × 5 = 30 cm². Total surface area = 2(150 + 125 + 30) = 610 cm². Check all six faces of the closed rectangular prism are counted once.
+
+- g9-sv-l01-p08: A closed rectangular prism has length 26 cm, width 7 cm and height 6 cm. Draw its net and calculate its total surface area. Options: surface area = 760 cm² | surface area = 761 cm² | surface area = 759 cm² | surface area = 762 cm². Correct: surface area = 760 cm². Label every edge: length 26 cm, width 7 cm, height 6 cm. Two faces each have area 26 × 7 = 182 cm². The other pairs have areas 26 × 6 = 156 cm² and 7 × 6 = 42 cm². Total surface area = 2(182 + 156 + 42) = 760 cm². Check all six faces of the closed rectangular prism are counted once.
+
+- g9-sv-l01-p09: A closed rectangular prism has length 27 cm, width 2 cm and height 7 cm. Draw its net and calculate its total surface area. Options: surface area = 516 cm² | surface area = 514 cm² | surface area = 515 cm² | surface area = 513 cm². Correct: surface area = 514 cm². Label every edge: length 27 cm, width 2 cm, height 7 cm. Two faces each have area 27 × 2 = 54 cm². The other pairs have areas 27 × 7 = 189 cm² and 2 × 7 = 14 cm². Total surface area = 2(54 + 189 + 14) = 514 cm². Check all six faces of the closed rectangular prism are counted once.
+
+- g9-sv-l01-p10: A closed rectangular prism has length 28 cm, width 3 cm and height 3 cm. Draw its net and calculate its total surface area. Options: surface area = 353 cm² | surface area = 356 cm² | surface area = 354 cm² | surface area = 355 cm². Correct: surface area = 354 cm². Label every edge: length 28 cm, width 3 cm, height 3 cm. Two faces each have area 28 × 3 = 84 cm². The other pairs have areas 28 × 3 = 84 cm² and 3 × 3 = 9 cm². Total surface area = 2(84 + 84 + 9) = 354 cm². Check all six faces of the closed rectangular prism are counted once.
+
+- g9-sv-l01-p11: A closed rectangular prism has length 29 cm, width 4 cm and height 4 cm. Draw its net and calculate its total surface area. Options: surface area = 497 cm² | surface area = 495 cm² | surface area = 498 cm² | surface area = 496 cm². Correct: surface area = 496 cm². Label every edge: length 29 cm, width 4 cm, height 4 cm. Two faces each have area 29 × 4 = 116 cm². The other pairs have areas 29 × 4 = 116 cm² and 4 × 4 = 16 cm². Total surface area = 2(116 + 116 + 16) = 496 cm². Check all six faces of the closed rectangular prism are counted once.
+
+- g9-sv-l01-p12: A closed rectangular prism has length 30 cm, width 5 cm and height 5 cm. Draw its net and calculate its total surface area. Options: surface area = 650 cm² | surface area = 651 cm² | surface area = 649 cm² | surface area = 652 cm². Correct: surface area = 650 cm². Label every edge: length 30 cm, width 5 cm, height 5 cm. Two faces each have area 30 × 5 = 150 cm². The other pairs have areas 30 × 5 = 150 cm² and 5 × 5 = 25 cm². Total surface area = 2(150 + 150 + 25) = 650 cm². Check all six faces of the closed rectangular prism are counted once.
+
+- g9-sv-l01-p13: A closed rectangular prism has length 31 cm, width 6 cm and height 6 cm. Draw its net and calculate its total surface area. Options: surface area = 818 cm² | surface area = 816 cm² | surface area = 817 cm² | surface area = 815 cm². Correct: surface area = 816 cm². Label every edge: length 31 cm, width 6 cm, height 6 cm. Two faces each have area 31 × 6 = 186 cm². The other pairs have areas 31 × 6 = 186 cm² and 6 × 6 = 36 cm². Total surface area = 2(186 + 186 + 36) = 816 cm². Check all six faces of the closed rectangular prism are counted once.
+
+- g9-sv-l01-p14: A closed rectangular prism has length 32 cm, width 7 cm and height 7 cm. Draw its net and calculate its total surface area. Options: surface area = 993 cm² | surface area = 996 cm² | surface area = 994 cm² | surface area = 995 cm². Correct: surface area = 994 cm². Label every edge: length 32 cm, width 7 cm, height 7 cm. Two faces each have area 32 × 7 = 224 cm². The other pairs have areas 32 × 7 = 224 cm² and 7 × 7 = 49 cm². Total surface area = 2(224 + 224 + 49) = 994 cm². Check all six faces of the closed rectangular prism are counted once.
+
+- g9-sv-l01-p15: A closed rectangular prism has length 33 cm, width 2 cm and height 3 cm. Draw its net and calculate its total surface area. Options: surface area = 343 cm² | surface area = 341 cm² | surface area = 344 cm² | surface area = 342 cm². Correct: surface area = 342 cm². Label every edge: length 33 cm, width 2 cm, height 3 cm. Two faces each have area 33 × 2 = 66 cm². The other pairs have areas 33 × 3 = 99 cm² and 2 × 3 = 6 cm². Total surface area = 2(66 + 99 + 6) = 342 cm². Check all six faces of the closed rectangular prism are counted once.
+
+## Mastery answer key
+
+- g9-sv-l01-m16: A closed cube has edge 49 cm. Draw its net and calculate its total surface area. Options: surface area = 14406 cm² | surface area = 14407 cm² | surface area = 14405 cm² | surface area = 14408 cm². Correct: surface area = 14406 cm². Label every edge: length 49 cm, width 49 cm, height 49 cm. Two faces each have area 49 × 49 = 2401 cm². The other pairs have areas 49 × 49 = 2401 cm² and 49 × 49 = 2401 cm². Total surface area = 2(2401 + 2401 + 2401) = 14406 cm². Check all six faces of the closed cube are counted once.
+
+- g9-sv-l01-m17: A closed cube has edge 50 cm. Draw its net and calculate its total surface area. Options: surface area = 15002 cm² | surface area = 15000 cm² | surface area = 15001 cm² | surface area = 14999 cm². Correct: surface area = 15000 cm². Label every edge: length 50 cm, width 50 cm, height 50 cm. Two faces each have area 50 × 50 = 2500 cm². The other pairs have areas 50 × 50 = 2500 cm² and 50 × 50 = 2500 cm². Total surface area = 2(2500 + 2500 + 2500) = 15000 cm². Check all six faces of the closed cube are counted once.
+
+- g9-sv-l01-m18: A closed cube has edge 51 cm. Draw its net and calculate its total surface area. Options: surface area = 15605 cm² | surface area = 15608 cm² | surface area = 15606 cm² | surface area = 15607 cm². Correct: surface area = 15606 cm². Label every edge: length 51 cm, width 51 cm, height 51 cm. Two faces each have area 51 × 51 = 2601 cm². The other pairs have areas 51 × 51 = 2601 cm² and 51 × 51 = 2601 cm². Total surface area = 2(2601 + 2601 + 2601) = 15606 cm². Check all six faces of the closed cube are counted once.
+
+- g9-sv-l01-m19: A closed cube has edge 52 cm. Draw its net and calculate its total surface area. Options: surface area = 16225 cm² | surface area = 16223 cm² | surface area = 16226 cm² | surface area = 16224 cm². Correct: surface area = 16224 cm². Label every edge: length 52 cm, width 52 cm, height 52 cm. Two faces each have area 52 × 52 = 2704 cm². The other pairs have areas 52 × 52 = 2704 cm² and 52 × 52 = 2704 cm². Total surface area = 2(2704 + 2704 + 2704) = 16224 cm². Check all six faces of the closed cube are counted once.
+
+- g9-sv-l01-m20: A closed cube has edge 53 cm. Draw its net and calculate its total surface area. Options: surface area = 16854 cm² | surface area = 16855 cm² | surface area = 16853 cm² | surface area = 16856 cm². Correct: surface area = 16854 cm². Label every edge: length 53 cm, width 53 cm, height 53 cm. Two faces each have area 53 × 53 = 2809 cm². The other pairs have areas 53 × 53 = 2809 cm² and 53 × 53 = 2809 cm². Total surface area = 2(2809 + 2809 + 2809) = 16854 cm². Check all six faces of the closed cube are counted once.
+
+## Parallel reassessment answer key
+
+- g9-sv-l01-r19: A closed cube has edge 67 cm. Draw its net and calculate its total surface area. Options: surface area = 26935 cm² | surface area = 26933 cm² | surface area = 26936 cm² | surface area = 26934 cm². Correct: surface area = 26934 cm². Label every edge: length 67 cm, width 67 cm, height 67 cm. Two faces each have area 67 × 67 = 4489 cm². The other pairs have areas 67 × 67 = 4489 cm² and 67 × 67 = 4489 cm². Total surface area = 2(4489 + 4489 + 4489) = 26934 cm². Check all six faces of the closed cube are counted once.
+
+- g9-sv-l01-r20: A closed cube has edge 68 cm. Draw its net and calculate its total surface area. Options: surface area = 27744 cm² | surface area = 27745 cm² | surface area = 27743 cm² | surface area = 27746 cm². Correct: surface area = 27744 cm². Label every edge: length 68 cm, width 68 cm, height 68 cm. Two faces each have area 68 × 68 = 4624 cm². The other pairs have areas 68 × 68 = 4624 cm² and 68 × 68 = 4624 cm². Total surface area = 2(4624 + 4624 + 4624) = 27744 cm². Check all six faces of the closed cube are counted once.
+
+- g9-sv-l01-r21: A closed rectangular prism has length 69 cm, width 2 cm and height 4 cm. Draw its net and calculate its total surface area. Options: surface area = 846 cm² | surface area = 844 cm² | surface area = 845 cm² | surface area = 843 cm². Correct: surface area = 844 cm². Label every edge: length 69 cm, width 2 cm, height 4 cm. Two faces each have area 69 × 2 = 138 cm². The other pairs have areas 69 × 4 = 276 cm² and 2 × 4 = 8 cm². Total surface area = 2(138 + 276 + 8) = 844 cm². Check all six faces of the closed rectangular prism are counted once.

@@ -24,7 +24,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5]|g9-solid-l0[1-4])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5]|g9-solid-l0[1-4]|g9-sv-l0[1-6])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -628,6 +628,87 @@ def _grade8_whole_number_board(parameters: dict) -> None:
     else:
         raise ValueError("Unsupported whole-number visual model")
 
+
+def _grade9_surface_board(parameters: dict, number: int) -> None:
+    """Recompute measurements from pictured givens before a visual is accepted."""
+    import json
+    from fractions import Fraction
+    scene=json.loads(parameters['scene_json']);v=scene.get('visual',{}).get('values',{})
+    if (scene.get('id')!=parameters['question_id'] or scene.get('problem')!=parameters['prompt']
+        or scene.get('lesson')!=number or scene.get('visual',{}).get('family')!='surface_volume'
+        or v.get('lesson')!=number or len(scene.get('actions',[]))!=5 or parameters['total_steps']!=5
+        or scene['actions'][-1]!=scene.get('check')):
+        raise ValueError('Measurement source, question and stages disagree')
+    def positive(key):
+        value=v.get(key)
+        if type(value) is not int or not 0<value<10000:raise ValueError(f'Invalid measurement {key}')
+        return value
+    if number==1:
+        L,W,H=(positive(x) for x in ('length','width','height'));area=2*(L*W+L*H+W*H)
+        cube=v.get('shape')=='cube';valid=(v.get('model')=='box_net' and v.get('shape') in ('cube','rectangular prism')
+            and (not cube or L==W==H) and v.get('surface_area')==area)
+        expected=f'surface area = {area} cm²'
+        expected_problem=(f'A closed cube has edge {L} cm.' if cube else f'A closed rectangular prism has length {L} cm, width {W} cm and height {H} cm.')+' Draw its net and calculate its total surface area.'
+    elif number==2:
+        L,W,H=(positive(x) for x in ('length','width','height'));volume=L*W*H;litres=Fraction(volume,1000)
+        valid=(v.get('model')=='box_layers' and v.get('volume')==volume and v.get('capacity_num')==litres.numerator and v.get('capacity_den')==litres.denominator)
+        expected=f'volume = {volume} cm³; capacity = {litres} L'
+        expected_problem=f'A water tank is a rectangular prism with internal length {L} cm, width {W} cm and height {H} cm. Find its volume in cm³ and capacity in litres.'
+    elif number==3:
+        B,T,C,length=(positive(x) for x in ('base','altitude','hypotenuse','length'));triangle=B*T//2;volume=triangle*length;area=2*triangle+(B+T+C)*length
+        valid=(v.get('model')=='tri_prism' and B*T%2==0 and B*B+T*T==C*C and v.get('triangle_area')==triangle and v.get('volume')==volume and v.get('surface_area')==area)
+        expected=f'volume = {volume} cm³; surface area = {area} cm²'
+        expected_problem=f'A right triangular prism has perpendicular triangle sides {B} cm and {T} cm, third side {C} cm, and prism length {length} cm. Find its volume and total surface area.'
+    elif number==4:
+        r,h=(positive(x) for x in ('radius','height'));volume=r*r*h;area=2*r*(r+h)
+        valid=(v.get('model')=='cylinder_net' and v.get('diameter')==2*r and v.get('volume_pi')==volume and v.get('surface_area_pi')==area)
+        expected=f'volume = {volume}π cm³; surface area = {area}π cm²'
+        expected_problem=f'A closed cylinder has radius {r} cm and height {h} cm. Give its volume and total surface area exactly in terms of π.'
+    elif number==5:
+        L,W,H=(positive(x) for x in ('length','width','height'));original=L*W*H;kind=v.get('kind');litres=Fraction(original,1000)
+        valid=(v.get('model')=='scale_convert' and v.get('original')==original and v.get('litres_num')==litres.numerator
+            and v.get('litres_den')==litres.denominator and kind in ('one_axis','all_axes','litres'))
+        if kind=='one_axis':
+            factor=2;expected=f'new volume = {factor*original} cm³; factor = {factor}'
+            expected_problem=f'A rectangular prism measures {L} cm × {W} cm × {H} cm. Only its length is doubled. Find the new volume and the factor of change.'
+        elif kind=='all_axes':
+            factor=8;expected=f'new volume = {factor*original} cm³; factor = {factor}'
+            expected_problem=f'A rectangular prism measures {L} cm × {W} cm × {H} cm. Every dimension is doubled. Find the new volume and the factor of change.'
+        else:
+            factor=1;expected=f'capacity = {litres} L'
+            expected_problem=f'A rectangular tank measures {L} cm × {W} cm × {H} cm inside. Convert its capacity from cm³ to litres.'
+        valid=valid and v.get('factor')==factor and v.get('new_volume')==factor*original
+    else:
+        kind=v.get('kind');H=positive('height');valid=v.get('model')=='applied_error' and kind in ('open_box','triangle','cylinder','double_all','convert')
+        if kind=='cylinder':
+            r=positive('radius');volume=r*r*H
+            valid=valid and v.get('diameter')==2*r and v.get('correct_value')==volume
+            expected=f'first error: used diameter; volume = {volume}π cm³'
+            expected_problem=f'A closed cylinder has diameter {2*r} cm and height {H} cm. A learner squares the diameter as the radius. Find the first error and correct volume in terms of π.'
+        else:
+            L,W=(positive(x) for x in ('length','width'));original=L*W*H
+            if kind=='open_box':
+                area=L*W+2*L*H+2*W*H;valid=valid and v.get('correct_value')==area
+                expected=f'first error: included a top; material area = {area} cm²'
+                expected_problem=f'An open-top rectangular box has length {L} cm, width {W} cm, height {H} cm. A learner includes a top face. Find the first error and the required material area.'
+            elif kind=='triangle':
+                B,T,C=(positive(x) for x in ('base','altitude','hypotenuse'));length=positive('length');area=B*T//2;volume=area*length
+                valid=valid and B*T%2==0 and B*B+T*T==C*C and length==H and v.get('triangle_area')==area and v.get('correct_value')==volume
+                expected=f'first error: omitted ½; volume = {volume} cm³'
+                expected_problem=f'A triangular prism has a right-triangle end with legs {B} cm and {T} cm, and length {length} cm. A learner omits ½. Find the first error and correct volume.'
+            elif kind=='double_all':
+                volume=8*original;valid=valid and v.get('correct_value')==volume
+                expected=f'first error: used factor 2; new volume = {volume} cm³'
+                expected_problem=f'A rectangular prism has dimensions {L} cm × {W} cm × {H} cm. A learner doubles its volume when all dimensions double. Find the first error and new volume.'
+            else:
+                litres=Fraction(original,1000);valid=valid and v.get('correct_value')==original
+                expected=f'first error: divided by 100; capacity = {litres} L'
+                expected_problem=f'A rectangular container measures {L} cm × {W} cm × {H} cm inside. A learner divides cm³ by 100 to obtain litres. Find the first error and correct capacity.'
+            if kind=='convert':
+                litres=Fraction(original,1000)
+                valid=valid and v.get('litres_num')==litres.numerator and v.get('litres_den')==litres.denominator
+    if not valid or scene.get('problem')!=expected_problem or scene.get('answer')!=expected:
+        raise ValueError('Measurement answer or pictured dimensions disagree with question')
 
 def _grade9_whole_board(parameters: dict, family: str) -> None:
     import json
@@ -1406,6 +1487,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'data_{n}'),True)
        for n in range(1,9)},
+    **{("geometry",f"grade9_surface_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade9_surface_board(p,n),True)
+       for n in range(1,7)},
     **{("geometry",f"grade9_solid_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'solid_{n}'),True)

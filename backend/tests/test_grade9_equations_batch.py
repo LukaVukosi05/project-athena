@@ -13,7 +13,7 @@ from app.practice.service import check_answer
 ROOT=Path(__file__).resolve().parents[2]
 
 def test_six_lessons_have_mathematically_correct_independent_banks():
-    assert len(GRADE_9.topics)==14
+    assert len(GRADE_9.topics)==15
     topic=GRADE_9.topics[6]
     assert topic.id=='algebraic-equations' and topic.product_order==7
     assert [lesson.id for lesson in topic.subtopics[0].lessons]==[f'g9-equations-{n:02}' for n in range(1,7)]

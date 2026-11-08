@@ -1,0 +1,74 @@
+[
+  {
+    "lesson_id": "g9-sv-01",
+    "source": "lesson-01.md",
+    "source_sha256": "0b8a94d78b65d33d7cfc563999b47a3cfd16a116d304a61ceee6346975f54a0c",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-sv-02",
+    "source": "lesson-02.md",
+    "source_sha256": "54f3019510043f87b79e9f61da3ab870b15f1ed1fa5e04cabfff7706851a8d11",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-sv-03",
+    "source": "lesson-03.md",
+    "source_sha256": "e91ec82cc3aacfb387b54778c34148c9bc5b7703c5453c880aea8f7dddc4e467",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-sv-04",
+    "source": "lesson-04.md",
+    "source_sha256": "3a28b3660940b8f996eb2b8f44841f1b6765f57b214d59ece8ccaf7e462c8954",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-sv-05",
+    "source": "lesson-05.md",
+    "source_sha256": "49d5043f096b3e6cdf8146c2e7d2406b013cd6ed6f7975ef002724192e4dbd9d",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g9-sv-06",
+    "source": "lesson-06.md",
+    "source_sha256": "021c948af26faaa9545655e2bb89bb3513692feff0945880fa5be03b1a5e32ad",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

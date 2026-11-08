@@ -1,0 +1,730 @@
+{
+  "source": "lesson-04.md",
+  "worked": [
+    {
+      "id": "g9-sv-l04-w01",
+      "problem": "A closed cylinder has radius 3 cm and height 6 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 3 cm, height 6 cm and two circular ends.",
+        "One circular base has area π × 3² = 9π cm².",
+        "Volume = base area × height = 9π × 6 = 54π cm³.",
+        "The curved rectangle has area 2π × 3 × 6; add two bases: total surface area = 54π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 54π cm³; surface area = 54π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 3,
+          "height": 6,
+          "volume_pi": 54,
+          "surface_area_pi": 54,
+          "diameter": 6
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-sv-l04-w02",
+      "problem": "A closed cylinder has radius 4 cm and height 7 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 4 cm, height 7 cm and two circular ends.",
+        "One circular base has area π × 4² = 16π cm².",
+        "Volume = base area × height = 16π × 7 = 112π cm³.",
+        "The curved rectangle has area 2π × 4 × 7; add two bases: total surface area = 88π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 112π cm³; surface area = 88π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 4,
+          "height": 7,
+          "volume_pi": 112,
+          "surface_area_pi": 88,
+          "diameter": 8
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g9-sv-l04-w03",
+      "problem": "A closed cylinder has radius 5 cm and height 8 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 5 cm, height 8 cm and two circular ends.",
+        "One circular base has area π × 5² = 25π cm².",
+        "Volume = base area × height = 25π × 8 = 200π cm³.",
+        "The curved rectangle has area 2π × 5 × 8; add two bases: total surface area = 130π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 200π cm³; surface area = 130π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 5,
+          "height": 8,
+          "volume_pi": 200,
+          "surface_area_pi": 130,
+          "diameter": 10
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-sv-l04-w04",
+      "problem": "A closed cylinder has radius 6 cm and height 9 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 6 cm, height 9 cm and two circular ends.",
+        "One circular base has area π × 6² = 36π cm².",
+        "Volume = base area × height = 36π × 9 = 324π cm³.",
+        "The curved rectangle has area 2π × 6 × 9; add two bases: total surface area = 180π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 324π cm³; surface area = 180π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 6,
+          "height": 9,
+          "volume_pi": 324,
+          "surface_area_pi": 180,
+          "diameter": 12
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-sv-l04-w05",
+      "problem": "A closed cylinder has radius 7 cm and height 10 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 7 cm, height 10 cm and two circular ends.",
+        "One circular base has area π × 7² = 49π cm².",
+        "Volume = base area × height = 49π × 10 = 490π cm³.",
+        "The curved rectangle has area 2π × 7 × 10; add two bases: total surface area = 238π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 490π cm³; surface area = 238π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 7,
+          "height": 10,
+          "volume_pi": 490,
+          "surface_area_pi": 238,
+          "diameter": 14
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g9-sv-l04-w06",
+      "problem": "A closed cylinder has radius 8 cm and height 11 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 8 cm, height 11 cm and two circular ends.",
+        "One circular base has area π × 8² = 64π cm².",
+        "Volume = base area × height = 64π × 11 = 704π cm³.",
+        "The curved rectangle has area 2π × 8 × 11; add two bases: total surface area = 304π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 704π cm³; surface area = 304π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 8,
+          "height": 11,
+          "volume_pi": 704,
+          "surface_area_pi": 304,
+          "diameter": 16
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-sv-l04-w07",
+      "problem": "A closed cylinder has radius 9 cm and height 12 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 9 cm, height 12 cm and two circular ends.",
+        "One circular base has area π × 9² = 81π cm².",
+        "Volume = base area × height = 81π × 12 = 972π cm³.",
+        "The curved rectangle has area 2π × 9 × 12; add two bases: total surface area = 378π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 972π cm³; surface area = 378π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 9,
+          "height": 12,
+          "volume_pi": 972,
+          "surface_area_pi": 378,
+          "diameter": 18
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-sv-l04-w08",
+      "problem": "A closed cylinder has radius 10 cm and height 13 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 10 cm, height 13 cm and two circular ends.",
+        "One circular base has area π × 10² = 100π cm².",
+        "Volume = base area × height = 100π × 13 = 1300π cm³.",
+        "The curved rectangle has area 2π × 10 × 13; add two bases: total surface area = 460π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 1300π cm³; surface area = 460π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 10,
+          "height": 13,
+          "volume_pi": 1300,
+          "surface_area_pi": 460,
+          "diameter": 20
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-sv-l04-w09",
+      "problem": "A closed cylinder has radius 11 cm and height 5 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 11 cm, height 5 cm and two circular ends.",
+        "One circular base has area π × 11² = 121π cm².",
+        "Volume = base area × height = 121π × 5 = 605π cm³.",
+        "The curved rectangle has area 2π × 11 × 5; add two bases: total surface area = 352π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 605π cm³; surface area = 352π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 11,
+          "height": 5,
+          "volume_pi": 605,
+          "surface_area_pi": 352,
+          "diameter": 22
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g9-sv-l04-w10",
+      "problem": "A closed cylinder has radius 12 cm and height 6 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 12 cm, height 6 cm and two circular ends.",
+        "One circular base has area π × 12² = 144π cm².",
+        "Volume = base area × height = 144π × 6 = 864π cm³.",
+        "The curved rectangle has area 2π × 12 × 6; add two bases: total surface area = 432π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 864π cm³; surface area = 432π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 12,
+          "height": 6,
+          "volume_pi": 864,
+          "surface_area_pi": 432,
+          "diameter": 24
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-sv-l04-w11",
+      "problem": "A closed cylinder has radius 13 cm and height 7 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 13 cm, height 7 cm and two circular ends.",
+        "One circular base has area π × 13² = 169π cm².",
+        "Volume = base area × height = 169π × 7 = 1183π cm³.",
+        "The curved rectangle has area 2π × 13 × 7; add two bases: total surface area = 520π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 1183π cm³; surface area = 520π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 13,
+          "height": 7,
+          "volume_pi": 1183,
+          "surface_area_pi": 520,
+          "diameter": 26
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-sv-l04-w12",
+      "problem": "A closed cylinder has radius 14 cm and height 8 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 14 cm, height 8 cm and two circular ends.",
+        "One circular base has area π × 14² = 196π cm².",
+        "Volume = base area × height = 196π × 8 = 1568π cm³.",
+        "The curved rectangle has area 2π × 14 × 8; add two bases: total surface area = 616π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 1568π cm³; surface area = 616π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 14,
+          "height": 8,
+          "volume_pi": 1568,
+          "surface_area_pi": 616,
+          "diameter": 28
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g9-sv-l04-w13",
+      "problem": "A closed cylinder has radius 15 cm and height 9 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 15 cm, height 9 cm and two circular ends.",
+        "One circular base has area π × 15² = 225π cm².",
+        "Volume = base area × height = 225π × 9 = 2025π cm³.",
+        "The curved rectangle has area 2π × 15 × 9; add two bases: total surface area = 720π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 2025π cm³; surface area = 720π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 15,
+          "height": 9,
+          "volume_pi": 2025,
+          "surface_area_pi": 720,
+          "diameter": 30
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-sv-l04-w14",
+      "problem": "A closed cylinder has radius 16 cm and height 10 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 16 cm, height 10 cm and two circular ends.",
+        "One circular base has area π × 16² = 256π cm².",
+        "Volume = base area × height = 256π × 10 = 2560π cm³.",
+        "The curved rectangle has area 2π × 16 × 10; add two bases: total surface area = 832π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 2560π cm³; surface area = 832π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 16,
+          "height": 10,
+          "volume_pi": 2560,
+          "surface_area_pi": 832,
+          "diameter": 32
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g9-sv-l04-w15",
+      "problem": "A closed cylinder has radius 17 cm and height 11 cm. Give its volume and total surface area exactly in terms of π.",
+      "actions": [
+        "Label the radius 17 cm, height 11 cm and two circular ends.",
+        "One circular base has area π × 17² = 289π cm².",
+        "Volume = base area × height = 289π × 11 = 3179π cm³.",
+        "The curved rectangle has area 2π × 17 × 11; add two bases: total surface area = 952π cm².",
+        "Check: both circular ends are included and radius, not diameter, is squared."
+      ],
+      "answer": "volume = 3179π cm³; surface area = 952π cm²",
+      "check": "Check: both circular ends are included and radius, not diameter, is squared.",
+      "visual": {
+        "family": "surface_volume",
+        "values": {
+          "lesson": 4,
+          "model": "cylinder_net",
+          "radius": 17,
+          "height": 11,
+          "volume_pi": 3179,
+          "surface_area_pi": 952,
+          "diameter": 34
+        }
+      },
+      "lesson": 4,
+      "misconception": "Distinguish length, square and cubic units; count each face once, then verify the given radius, height and conversion.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g9-sv-l04-p01",
+      "prompt": "A closed cylinder has radius 18 cm and height 12 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 3900π cm³; surface area = 1080π cm²",
+        "volume = 3888π cm³; surface area = 1080π cm²",
+        "volume = 7776π cm³; surface area = 1080π cm²",
+        "volume = 15552π cm³; surface area = 1080π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Label the radius 18 cm, height 12 cm and two circular ends. One circular base has area π × 18² = 324π cm². Volume = base area × height = 324π × 12 = 3888π cm³. The curved rectangle has area 2π × 18 × 12; add two bases: total surface area = 1080π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p02",
+      "prompt": "A closed cylinder has radius 19 cm and height 13 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 18772π cm³; surface area = 1216π cm²",
+        "volume = 4706π cm³; surface area = 1216π cm²",
+        "volume = 4693π cm³; surface area = 1216π cm²",
+        "volume = 9386π cm³; surface area = 1216π cm²"
+      ],
+      "answer_index": 2,
+      "memo": "Label the radius 19 cm, height 13 cm and two circular ends. One circular base has area π × 19² = 361π cm². Volume = base area × height = 361π × 13 = 4693π cm³. The curved rectangle has area 2π × 19 × 13; add two bases: total surface area = 1216π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p03",
+      "prompt": "A closed cylinder has radius 20 cm and height 5 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 4000π cm³; surface area = 1000π cm²",
+        "volume = 8000π cm³; surface area = 1000π cm²",
+        "volume = 2005π cm³; surface area = 1000π cm²",
+        "volume = 2000π cm³; surface area = 1000π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Label the radius 20 cm, height 5 cm and two circular ends. One circular base has area π × 20² = 400π cm². Volume = base area × height = 400π × 5 = 2000π cm³. The curved rectangle has area 2π × 20 × 5; add two bases: total surface area = 1000π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p04",
+      "prompt": "A closed cylinder has radius 21 cm and height 6 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 2646π cm³; surface area = 1134π cm²",
+        "volume = 5292π cm³; surface area = 1134π cm²",
+        "volume = 10584π cm³; surface area = 1134π cm²",
+        "volume = 2652π cm³; surface area = 1134π cm²"
+      ],
+      "answer_index": 0,
+      "memo": "Label the radius 21 cm, height 6 cm and two circular ends. One circular base has area π × 21² = 441π cm². Volume = base area × height = 441π × 6 = 2646π cm³. The curved rectangle has area 2π × 21 × 6; add two bases: total surface area = 1134π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p05",
+      "prompt": "A closed cylinder has radius 22 cm and height 7 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 3395π cm³; surface area = 1276π cm²",
+        "volume = 3388π cm³; surface area = 1276π cm²",
+        "volume = 6776π cm³; surface area = 1276π cm²",
+        "volume = 13552π cm³; surface area = 1276π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Label the radius 22 cm, height 7 cm and two circular ends. One circular base has area π × 22² = 484π cm². Volume = base area × height = 484π × 7 = 3388π cm³. The curved rectangle has area 2π × 22 × 7; add two bases: total surface area = 1276π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p06",
+      "prompt": "A closed cylinder has radius 23 cm and height 8 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 16928π cm³; surface area = 1426π cm²",
+        "volume = 4240π cm³; surface area = 1426π cm²",
+        "volume = 4232π cm³; surface area = 1426π cm²",
+        "volume = 8464π cm³; surface area = 1426π cm²"
+      ],
+      "answer_index": 2,
+      "memo": "Label the radius 23 cm, height 8 cm and two circular ends. One circular base has area π × 23² = 529π cm². Volume = base area × height = 529π × 8 = 4232π cm³. The curved rectangle has area 2π × 23 × 8; add two bases: total surface area = 1426π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p07",
+      "prompt": "A closed cylinder has radius 24 cm and height 9 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 10368π cm³; surface area = 1584π cm²",
+        "volume = 20736π cm³; surface area = 1584π cm²",
+        "volume = 5193π cm³; surface area = 1584π cm²",
+        "volume = 5184π cm³; surface area = 1584π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Label the radius 24 cm, height 9 cm and two circular ends. One circular base has area π × 24² = 576π cm². Volume = base area × height = 576π × 9 = 5184π cm³. The curved rectangle has area 2π × 24 × 9; add two bases: total surface area = 1584π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p08",
+      "prompt": "A closed cylinder has radius 25 cm and height 10 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 6250π cm³; surface area = 1750π cm²",
+        "volume = 12500π cm³; surface area = 1750π cm²",
+        "volume = 25000π cm³; surface area = 1750π cm²",
+        "volume = 6260π cm³; surface area = 1750π cm²"
+      ],
+      "answer_index": 0,
+      "memo": "Label the radius 25 cm, height 10 cm and two circular ends. One circular base has area π × 25² = 625π cm². Volume = base area × height = 625π × 10 = 6250π cm³. The curved rectangle has area 2π × 25 × 10; add two bases: total surface area = 1750π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p09",
+      "prompt": "A closed cylinder has radius 26 cm and height 11 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 7447π cm³; surface area = 1924π cm²",
+        "volume = 7436π cm³; surface area = 1924π cm²",
+        "volume = 14872π cm³; surface area = 1924π cm²",
+        "volume = 29744π cm³; surface area = 1924π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Label the radius 26 cm, height 11 cm and two circular ends. One circular base has area π × 26² = 676π cm². Volume = base area × height = 676π × 11 = 7436π cm³. The curved rectangle has area 2π × 26 × 11; add two bases: total surface area = 1924π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p10",
+      "prompt": "A closed cylinder has radius 27 cm and height 12 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 34992π cm³; surface area = 2106π cm²",
+        "volume = 8760π cm³; surface area = 2106π cm²",
+        "volume = 8748π cm³; surface area = 2106π cm²",
+        "volume = 17496π cm³; surface area = 2106π cm²"
+      ],
+      "answer_index": 2,
+      "memo": "Label the radius 27 cm, height 12 cm and two circular ends. One circular base has area π × 27² = 729π cm². Volume = base area × height = 729π × 12 = 8748π cm³. The curved rectangle has area 2π × 27 × 12; add two bases: total surface area = 2106π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p11",
+      "prompt": "A closed cylinder has radius 28 cm and height 13 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 20384π cm³; surface area = 2296π cm²",
+        "volume = 40768π cm³; surface area = 2296π cm²",
+        "volume = 10205π cm³; surface area = 2296π cm²",
+        "volume = 10192π cm³; surface area = 2296π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Label the radius 28 cm, height 13 cm and two circular ends. One circular base has area π × 28² = 784π cm². Volume = base area × height = 784π × 13 = 10192π cm³. The curved rectangle has area 2π × 28 × 13; add two bases: total surface area = 2296π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p12",
+      "prompt": "A closed cylinder has radius 29 cm and height 5 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 4205π cm³; surface area = 1972π cm²",
+        "volume = 8410π cm³; surface area = 1972π cm²",
+        "volume = 16820π cm³; surface area = 1972π cm²",
+        "volume = 4210π cm³; surface area = 1972π cm²"
+      ],
+      "answer_index": 0,
+      "memo": "Label the radius 29 cm, height 5 cm and two circular ends. One circular base has area π × 29² = 841π cm². Volume = base area × height = 841π × 5 = 4205π cm³. The curved rectangle has area 2π × 29 × 5; add two bases: total surface area = 1972π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p13",
+      "prompt": "A closed cylinder has radius 30 cm and height 6 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 5406π cm³; surface area = 2160π cm²",
+        "volume = 5400π cm³; surface area = 2160π cm²",
+        "volume = 10800π cm³; surface area = 2160π cm²",
+        "volume = 21600π cm³; surface area = 2160π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Label the radius 30 cm, height 6 cm and two circular ends. One circular base has area π × 30² = 900π cm². Volume = base area × height = 900π × 6 = 5400π cm³. The curved rectangle has area 2π × 30 × 6; add two bases: total surface area = 2160π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p14",
+      "prompt": "A closed cylinder has radius 31 cm and height 7 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 26908π cm³; surface area = 2356π cm²",
+        "volume = 6734π cm³; surface area = 2356π cm²",
+        "volume = 6727π cm³; surface area = 2356π cm²",
+        "volume = 13454π cm³; surface area = 2356π cm²"
+      ],
+      "answer_index": 2,
+      "memo": "Label the radius 31 cm, height 7 cm and two circular ends. One circular base has area π × 31² = 961π cm². Volume = base area × height = 961π × 7 = 6727π cm³. The curved rectangle has area 2π × 31 × 7; add two bases: total surface area = 2356π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-p15",
+      "prompt": "A closed cylinder has radius 32 cm and height 8 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 16384π cm³; surface area = 2560π cm²",
+        "volume = 32768π cm³; surface area = 2560π cm²",
+        "volume = 8200π cm³; surface area = 2560π cm²",
+        "volume = 8192π cm³; surface area = 2560π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Label the radius 32 cm, height 8 cm and two circular ends. One circular base has area π × 32² = 1024π cm². Volume = base area × height = 1024π × 8 = 8192π cm³. The curved rectangle has area 2π × 32 × 8; add two bases: total surface area = 2560π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g9-sv-l04-m16",
+      "prompt": "A closed cylinder has radius 48 cm and height 6 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 13824π cm³; surface area = 5184π cm²",
+        "volume = 27648π cm³; surface area = 5184π cm²",
+        "volume = 55296π cm³; surface area = 5184π cm²",
+        "volume = 13830π cm³; surface area = 5184π cm²"
+      ],
+      "answer_index": 0,
+      "memo": "Label the radius 48 cm, height 6 cm and two circular ends. One circular base has area π × 48² = 2304π cm². Volume = base area × height = 2304π × 6 = 13824π cm³. The curved rectangle has area 2π × 48 × 6; add two bases: total surface area = 5184π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-m17",
+      "prompt": "A closed cylinder has radius 49 cm and height 7 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 16814π cm³; surface area = 5488π cm²",
+        "volume = 16807π cm³; surface area = 5488π cm²",
+        "volume = 33614π cm³; surface area = 5488π cm²",
+        "volume = 67228π cm³; surface area = 5488π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Label the radius 49 cm, height 7 cm and two circular ends. One circular base has area π × 49² = 2401π cm². Volume = base area × height = 2401π × 7 = 16807π cm³. The curved rectangle has area 2π × 49 × 7; add two bases: total surface area = 5488π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-m18",
+      "prompt": "A closed cylinder has radius 50 cm and height 8 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 80000π cm³; surface area = 5800π cm²",
+        "volume = 20008π cm³; surface area = 5800π cm²",
+        "volume = 20000π cm³; surface area = 5800π cm²",
+        "volume = 40000π cm³; surface area = 5800π cm²"
+      ],
+      "answer_index": 2,
+      "memo": "Label the radius 50 cm, height 8 cm and two circular ends. One circular base has area π × 50² = 2500π cm². Volume = base area × height = 2500π × 8 = 20000π cm³. The curved rectangle has area 2π × 50 × 8; add two bases: total surface area = 5800π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-m19",
+      "prompt": "A closed cylinder has radius 51 cm and height 9 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 46818π cm³; surface area = 6120π cm²",
+        "volume = 93636π cm³; surface area = 6120π cm²",
+        "volume = 23418π cm³; surface area = 6120π cm²",
+        "volume = 23409π cm³; surface area = 6120π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Label the radius 51 cm, height 9 cm and two circular ends. One circular base has area π × 51² = 2601π cm². Volume = base area × height = 2601π × 9 = 23409π cm³. The curved rectangle has area 2π × 51 × 9; add two bases: total surface area = 6120π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-m20",
+      "prompt": "A closed cylinder has radius 52 cm and height 10 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 27040π cm³; surface area = 6448π cm²",
+        "volume = 54080π cm³; surface area = 6448π cm²",
+        "volume = 108160π cm³; surface area = 6448π cm²",
+        "volume = 27050π cm³; surface area = 6448π cm²"
+      ],
+      "answer_index": 0,
+      "memo": "Label the radius 52 cm, height 10 cm and two circular ends. One circular base has area π × 52² = 2704π cm². Volume = base area × height = 2704π × 10 = 27040π cm³. The curved rectangle has area 2π × 52 × 10; add two bases: total surface area = 6448π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g9-sv-l04-r19",
+      "prompt": "A closed cylinder has radius 66 cm and height 6 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 52272π cm³; surface area = 9504π cm²",
+        "volume = 104544π cm³; surface area = 9504π cm²",
+        "volume = 26142π cm³; surface area = 9504π cm²",
+        "volume = 26136π cm³; surface area = 9504π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Label the radius 66 cm, height 6 cm and two circular ends. One circular base has area π × 66² = 4356π cm². Volume = base area × height = 4356π × 6 = 26136π cm³. The curved rectangle has area 2π × 66 × 6; add two bases: total surface area = 9504π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-r20",
+      "prompt": "A closed cylinder has radius 67 cm and height 7 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 31423π cm³; surface area = 9916π cm²",
+        "volume = 62846π cm³; surface area = 9916π cm²",
+        "volume = 125692π cm³; surface area = 9916π cm²",
+        "volume = 31430π cm³; surface area = 9916π cm²"
+      ],
+      "answer_index": 0,
+      "memo": "Label the radius 67 cm, height 7 cm and two circular ends. One circular base has area π × 67² = 4489π cm². Volume = base area × height = 4489π × 7 = 31423π cm³. The curved rectangle has area 2π × 67 × 7; add two bases: total surface area = 9916π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    },
+    {
+      "id": "g9-sv-l04-r21",
+      "prompt": "A closed cylinder has radius 68 cm and height 8 cm. Give its volume and total surface area exactly in terms of π.",
+      "options": [
+        "volume = 37000π cm³; surface area = 10336π cm²",
+        "volume = 36992π cm³; surface area = 10336π cm²",
+        "volume = 73984π cm³; surface area = 10336π cm²",
+        "volume = 147968π cm³; surface area = 10336π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Label the radius 68 cm, height 8 cm and two circular ends. One circular base has area π × 68² = 4624π cm². Volume = base area × height = 4624π × 8 = 36992π cm³. The curved rectangle has area 2π × 68 × 8; add two bases: total surface area = 10336π cm². Check: both circular ends are included and radius, not diameter, is squared.",
+      "source": "lesson-04.md"
+    }
+  ]
+}

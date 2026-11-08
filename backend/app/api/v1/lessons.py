@@ -168,6 +168,11 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     givens.pop("target", None)
                     givens.pop("each", None)
                     scene["visual"] = {"family":"shapes", "values":givens}
+                elif lesson.id.startswith("g9-sv-"):
+                    givens=dict(scene["visual"]["values"])
+                    for result_key in ("surface_area","volume","volume_pi","surface_area_pi","triangle_area","capacity_num","capacity_den","original","new_volume","factor","litres_num","litres_den","correct_value"):
+                        givens.pop(result_key,None)
+                    scene["visual"]={"family":"surface_volume","values":givens}
                 elif lesson.id.startswith("g9-solid-"):
                     givens = dict(scene["visual"]["values"])
                     for result_key in ("target","parts","missing","faces","edges","vertices"):
