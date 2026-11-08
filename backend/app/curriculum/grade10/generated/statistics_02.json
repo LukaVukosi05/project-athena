@@ -1,0 +1,1240 @@
+{
+  "source": "grade10-stat-lesson-02.md",
+  "worked": [
+    {
+      "id": "g10-stat-l02-w01",
+      "problem": "A grouped distribution has equal-width intervals 1–11, 11–21, 21–31, 31–41 with respective frequencies [3, 3, 4, 2]. Find the estimated mean.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 12 observations in total.",
+        "Use class midpoints [6, 16, 26, 36] and cumulative frequencies [3, 6, 10, 12].",
+        "Multiply each midpoint by its frequency: [18, 48, 104, 72]; sum=242.",
+        "Estimated mean=242/12=121/6; modal interval has frequency 4; median lies where cumulative frequency reaches 12/2.",
+        "Answer: estimated mean = 121/6. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "121/6",
+      "check": "Answer: estimated mean = 121/6. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            3,
+            5,
+            5,
+            7,
+            9,
+            9,
+            11,
+            13,
+            15,
+            17
+          ],
+          "shift": 1,
+          "scale": 2,
+          "midpoints": [
+            6,
+            16,
+            26,
+            36
+          ],
+          "frequencies": [
+            3,
+            3,
+            4,
+            2
+          ],
+          "lower": [
+            1,
+            11,
+            21,
+            31
+          ],
+          "upper": [
+            11,
+            21,
+            31,
+            41
+          ],
+          "answer": "121/6"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-stat-l02-w02",
+      "problem": "A grouped distribution has equal-width intervals 2–12, 12–22, 22–32, 32–42 with respective frequencies [4, 4, 4, 2]. Find the modal interval.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 14 observations in total.",
+        "Use class midpoints [7, 17, 27, 37] and cumulative frequencies [4, 8, 12, 14].",
+        "Multiply each midpoint by its frequency: [28, 68, 108, 74]; sum=278.",
+        "Estimated mean=278/14=139/7; modal interval has frequency 4; median lies where cumulative frequency reaches 14/2.",
+        "Answer: modal interval = 2–12. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "2–12",
+      "check": "Answer: modal interval = 2–12. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            5,
+            5,
+            8,
+            11,
+            11,
+            14,
+            17,
+            17,
+            20,
+            26
+          ],
+          "shift": 2,
+          "scale": 3,
+          "midpoints": [
+            7,
+            17,
+            27,
+            37
+          ],
+          "frequencies": [
+            4,
+            4,
+            4,
+            2
+          ],
+          "lower": [
+            2,
+            12,
+            22,
+            32
+          ],
+          "upper": [
+            12,
+            22,
+            32,
+            42
+          ],
+          "answer": "2–12"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-stat-l02-w03",
+      "problem": "A grouped distribution has equal-width intervals 3–13, 13–23, 23–33, 33–43 with respective frequencies [2, 4, 5, 2]. Find the median interval.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 13 observations in total.",
+        "Use class midpoints [8, 18, 28, 38] and cumulative frequencies [2, 6, 11, 13].",
+        "Multiply each midpoint by its frequency: [16, 72, 140, 76]; sum=304.",
+        "Estimated mean=304/13=304/13; modal interval has frequency 5; median lies where cumulative frequency reaches 13/2.",
+        "Answer: median interval = 23–33. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "23–33",
+      "check": "Answer: median interval = 23–33. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            4,
+            5,
+            5,
+            6,
+            7,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "shift": 3,
+          "scale": 1,
+          "midpoints": [
+            8,
+            18,
+            28,
+            38
+          ],
+          "frequencies": [
+            2,
+            4,
+            5,
+            2
+          ],
+          "lower": [
+            3,
+            13,
+            23,
+            33
+          ],
+          "upper": [
+            13,
+            23,
+            33,
+            43
+          ],
+          "answer": "23–33"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-stat-l02-w04",
+      "problem": "A grouped distribution has equal-width intervals 4–14, 14–24, 24–34, 34–44 with respective frequencies [3, 5, 5, 3]. Find the estimated mean.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 16 observations in total.",
+        "Use class midpoints [9, 19, 29, 39] and cumulative frequencies [3, 8, 13, 16].",
+        "Multiply each midpoint by its frequency: [27, 95, 145, 117]; sum=384.",
+        "Estimated mean=384/16=24; modal interval has frequency 5; median lies where cumulative frequency reaches 16/2.",
+        "Answer: estimated mean = 24. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "24",
+      "check": "Answer: estimated mean = 24. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            6,
+            6,
+            8,
+            10,
+            10,
+            12,
+            14,
+            14,
+            16,
+            20
+          ],
+          "shift": 4,
+          "scale": 2,
+          "midpoints": [
+            9,
+            19,
+            29,
+            39
+          ],
+          "frequencies": [
+            3,
+            5,
+            5,
+            3
+          ],
+          "lower": [
+            4,
+            14,
+            24,
+            34
+          ],
+          "upper": [
+            14,
+            24,
+            34,
+            44
+          ],
+          "answer": "24"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-stat-l02-w05",
+      "problem": "A grouped distribution has equal-width intervals 5–15, 15–25, 25–35, 35–45 with respective frequencies [4, 5, 5, 3]. Find the modal interval.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 17 observations in total.",
+        "Use class midpoints [10, 20, 30, 40] and cumulative frequencies [4, 9, 14, 17].",
+        "Multiply each midpoint by its frequency: [40, 100, 150, 120]; sum=410.",
+        "Estimated mean=410/17=410/17; modal interval has frequency 5; median lies where cumulative frequency reaches 17/2.",
+        "Answer: modal interval = 15–25. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "15–25",
+      "check": "Answer: modal interval = 15–25. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            8,
+            11,
+            11,
+            14,
+            17,
+            17,
+            20,
+            23,
+            26,
+            29
+          ],
+          "shift": 5,
+          "scale": 3,
+          "midpoints": [
+            10,
+            20,
+            30,
+            40
+          ],
+          "frequencies": [
+            4,
+            5,
+            5,
+            3
+          ],
+          "lower": [
+            5,
+            15,
+            25,
+            35
+          ],
+          "upper": [
+            15,
+            25,
+            35,
+            45
+          ],
+          "answer": "15–25"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-stat-l02-w06",
+      "problem": "A grouped distribution has equal-width intervals 6–16, 16–26, 26–36, 36–46 with respective frequencies [2, 3, 6, 3]. Find the median interval.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 14 observations in total.",
+        "Use class midpoints [11, 21, 31, 41] and cumulative frequencies [2, 5, 11, 14].",
+        "Multiply each midpoint by its frequency: [22, 63, 186, 123]; sum=394.",
+        "Estimated mean=394/14=197/7; modal interval has frequency 6; median lies where cumulative frequency reaches 14/2.",
+        "Answer: median interval = 26–36. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "26–36",
+      "check": "Answer: median interval = 26–36. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            7,
+            7,
+            8,
+            9,
+            9,
+            10,
+            11,
+            11,
+            12,
+            14
+          ],
+          "shift": 6,
+          "scale": 1,
+          "midpoints": [
+            11,
+            21,
+            31,
+            41
+          ],
+          "frequencies": [
+            2,
+            3,
+            6,
+            3
+          ],
+          "lower": [
+            6,
+            16,
+            26,
+            36
+          ],
+          "upper": [
+            16,
+            26,
+            36,
+            46
+          ],
+          "answer": "26–36"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-stat-l02-w07",
+      "problem": "A grouped distribution has equal-width intervals 7–17, 17–27, 27–37, 37–47 with respective frequencies [3, 3, 6, 3]. Find the estimated mean.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 15 observations in total.",
+        "Use class midpoints [12, 22, 32, 42] and cumulative frequencies [3, 6, 12, 15].",
+        "Multiply each midpoint by its frequency: [36, 66, 192, 126]; sum=420.",
+        "Estimated mean=420/15=28; modal interval has frequency 6; median lies where cumulative frequency reaches 15/2.",
+        "Answer: estimated mean = 28. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "28",
+      "check": "Answer: estimated mean = 28. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            9,
+            11,
+            11,
+            13,
+            15,
+            15,
+            17,
+            19,
+            21,
+            23
+          ],
+          "shift": 7,
+          "scale": 2,
+          "midpoints": [
+            12,
+            22,
+            32,
+            42
+          ],
+          "frequencies": [
+            3,
+            3,
+            6,
+            3
+          ],
+          "lower": [
+            7,
+            17,
+            27,
+            37
+          ],
+          "upper": [
+            17,
+            27,
+            37,
+            47
+          ],
+          "answer": "28"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-stat-l02-w08",
+      "problem": "A grouped distribution has equal-width intervals 8–18, 18–28, 28–38, 38–48 with respective frequencies [4, 4, 6, 4]. Find the modal interval.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 18 observations in total.",
+        "Use class midpoints [13, 23, 33, 43] and cumulative frequencies [4, 8, 14, 18].",
+        "Multiply each midpoint by its frequency: [52, 92, 198, 172]; sum=514.",
+        "Estimated mean=514/18=257/9; modal interval has frequency 6; median lies where cumulative frequency reaches 18/2.",
+        "Answer: modal interval = 28–38. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "28–38",
+      "check": "Answer: modal interval = 28–38. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            11,
+            11,
+            14,
+            17,
+            17,
+            20,
+            23,
+            23,
+            26,
+            32
+          ],
+          "shift": 8,
+          "scale": 3,
+          "midpoints": [
+            13,
+            23,
+            33,
+            43
+          ],
+          "frequencies": [
+            4,
+            4,
+            6,
+            4
+          ],
+          "lower": [
+            8,
+            18,
+            28,
+            38
+          ],
+          "upper": [
+            18,
+            28,
+            38,
+            48
+          ],
+          "answer": "28–38"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-stat-l02-w09",
+      "problem": "A grouped distribution has equal-width intervals 9–19, 19–29, 29–39, 39–49 with respective frequencies [2, 4, 4, 4]. Find the median interval.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 14 observations in total.",
+        "Use class midpoints [14, 24, 34, 44] and cumulative frequencies [2, 6, 10, 14].",
+        "Multiply each midpoint by its frequency: [28, 96, 136, 176]; sum=436.",
+        "Estimated mean=436/14=218/7; modal interval has frequency 4; median lies where cumulative frequency reaches 14/2.",
+        "Answer: median interval = 29–39. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "29–39",
+      "check": "Answer: median interval = 29–39. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            10,
+            11,
+            11,
+            12,
+            13,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "shift": 9,
+          "scale": 1,
+          "midpoints": [
+            14,
+            24,
+            34,
+            44
+          ],
+          "frequencies": [
+            2,
+            4,
+            4,
+            4
+          ],
+          "lower": [
+            9,
+            19,
+            29,
+            39
+          ],
+          "upper": [
+            19,
+            29,
+            39,
+            49
+          ],
+          "answer": "29–39"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-stat-l02-w10",
+      "problem": "A grouped distribution has equal-width intervals 10–20, 20–30, 30–40, 40–50 with respective frequencies [3, 5, 4, 4]. Find the estimated mean.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 16 observations in total.",
+        "Use class midpoints [15, 25, 35, 45] and cumulative frequencies [3, 8, 12, 16].",
+        "Multiply each midpoint by its frequency: [45, 125, 140, 180]; sum=490.",
+        "Estimated mean=490/16=245/8; modal interval has frequency 5; median lies where cumulative frequency reaches 16/2.",
+        "Answer: estimated mean = 245/8. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "245/8",
+      "check": "Answer: estimated mean = 245/8. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            12,
+            12,
+            14,
+            16,
+            16,
+            18,
+            20,
+            20,
+            22,
+            26
+          ],
+          "shift": 10,
+          "scale": 2,
+          "midpoints": [
+            15,
+            25,
+            35,
+            45
+          ],
+          "frequencies": [
+            3,
+            5,
+            4,
+            4
+          ],
+          "lower": [
+            10,
+            20,
+            30,
+            40
+          ],
+          "upper": [
+            20,
+            30,
+            40,
+            50
+          ],
+          "answer": "245/8"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-stat-l02-w11",
+      "problem": "A grouped distribution has equal-width intervals 11–21, 21–31, 31–41, 41–51 with respective frequencies [4, 5, 4, 4]. Find the modal interval.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 17 observations in total.",
+        "Use class midpoints [16, 26, 36, 46] and cumulative frequencies [4, 9, 13, 17].",
+        "Multiply each midpoint by its frequency: [64, 130, 144, 184]; sum=522.",
+        "Estimated mean=522/17=522/17; modal interval has frequency 5; median lies where cumulative frequency reaches 17/2.",
+        "Answer: modal interval = 21–31. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "21–31",
+      "check": "Answer: modal interval = 21–31. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            14,
+            17,
+            17,
+            20,
+            23,
+            23,
+            26,
+            29,
+            32,
+            35
+          ],
+          "shift": 11,
+          "scale": 3,
+          "midpoints": [
+            16,
+            26,
+            36,
+            46
+          ],
+          "frequencies": [
+            4,
+            5,
+            4,
+            4
+          ],
+          "lower": [
+            11,
+            21,
+            31,
+            41
+          ],
+          "upper": [
+            21,
+            31,
+            41,
+            51
+          ],
+          "answer": "21–31"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-stat-l02-w12",
+      "problem": "A grouped distribution has equal-width intervals 12–22, 22–32, 32–42, 42–52 with respective frequencies [2, 3, 5, 2]. Find the median interval.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 12 observations in total.",
+        "Use class midpoints [17, 27, 37, 47] and cumulative frequencies [2, 5, 10, 12].",
+        "Multiply each midpoint by its frequency: [34, 81, 185, 94]; sum=394.",
+        "Estimated mean=394/12=197/6; modal interval has frequency 5; median lies where cumulative frequency reaches 12/2.",
+        "Answer: median interval = 32–42. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "32–42",
+      "check": "Answer: median interval = 32–42. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            13,
+            13,
+            14,
+            15,
+            15,
+            16,
+            17,
+            17,
+            18,
+            20
+          ],
+          "shift": 12,
+          "scale": 1,
+          "midpoints": [
+            17,
+            27,
+            37,
+            47
+          ],
+          "frequencies": [
+            2,
+            3,
+            5,
+            2
+          ],
+          "lower": [
+            12,
+            22,
+            32,
+            42
+          ],
+          "upper": [
+            22,
+            32,
+            42,
+            52
+          ],
+          "answer": "32–42"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-stat-l02-w13",
+      "problem": "A grouped distribution has equal-width intervals 0–10, 10–20, 20–30, 30–40 with respective frequencies [3, 3, 5, 2]. Find the estimated mean.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 13 observations in total.",
+        "Use class midpoints [5, 15, 25, 35] and cumulative frequencies [3, 6, 11, 13].",
+        "Multiply each midpoint by its frequency: [15, 45, 125, 70]; sum=255.",
+        "Estimated mean=255/13=255/13; modal interval has frequency 5; median lies where cumulative frequency reaches 13/2.",
+        "Answer: estimated mean = 255/13. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "255/13",
+      "check": "Answer: estimated mean = 255/13. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            2,
+            4,
+            4,
+            6,
+            8,
+            8,
+            10,
+            12,
+            14,
+            16
+          ],
+          "shift": 0,
+          "scale": 2,
+          "midpoints": [
+            5,
+            15,
+            25,
+            35
+          ],
+          "frequencies": [
+            3,
+            3,
+            5,
+            2
+          ],
+          "lower": [
+            0,
+            10,
+            20,
+            30
+          ],
+          "upper": [
+            10,
+            20,
+            30,
+            40
+          ],
+          "answer": "255/13"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-stat-l02-w14",
+      "problem": "A grouped distribution has equal-width intervals 1–11, 11–21, 21–31, 31–41 with respective frequencies [4, 4, 5, 2]. Find the modal interval.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 15 observations in total.",
+        "Use class midpoints [6, 16, 26, 36] and cumulative frequencies [4, 8, 13, 15].",
+        "Multiply each midpoint by its frequency: [24, 64, 130, 72]; sum=290.",
+        "Estimated mean=290/15=58/3; modal interval has frequency 5; median lies where cumulative frequency reaches 15/2.",
+        "Answer: modal interval = 21–31. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "21–31",
+      "check": "Answer: modal interval = 21–31. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            4,
+            4,
+            7,
+            10,
+            10,
+            13,
+            16,
+            16,
+            19,
+            25
+          ],
+          "shift": 1,
+          "scale": 3,
+          "midpoints": [
+            6,
+            16,
+            26,
+            36
+          ],
+          "frequencies": [
+            4,
+            4,
+            5,
+            2
+          ],
+          "lower": [
+            1,
+            11,
+            21,
+            31
+          ],
+          "upper": [
+            11,
+            21,
+            31,
+            41
+          ],
+          "answer": "21–31"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-stat-l02-w15",
+      "problem": "A grouped distribution has equal-width intervals 2–12, 12–22, 22–32, 32–42 with respective frequencies [2, 4, 6, 2]. Find the median interval.",
+      "actions": [
+        "Copy each class interval with its frequency; there are 14 observations in total.",
+        "Use class midpoints [7, 17, 27, 37] and cumulative frequencies [2, 6, 12, 14].",
+        "Multiply each midpoint by its frequency: [14, 68, 162, 74]; sum=318.",
+        "Estimated mean=318/14=159/7; modal interval has frequency 6; median lies where cumulative frequency reaches 14/2.",
+        "Answer: median interval = 22–32. This is an estimate when using class midpoints; no precise raw-data mean is known."
+      ],
+      "answer": "22–32",
+      "check": "Answer: median interval = 22–32. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "visual": {
+        "family": "grade10_statistics",
+        "values": {
+          "lesson": 2,
+          "model": "statistics",
+          "data": [
+            3,
+            4,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "shift": 2,
+          "scale": 1,
+          "midpoints": [
+            7,
+            17,
+            27,
+            37
+          ],
+          "frequencies": [
+            2,
+            4,
+            6,
+            2
+          ],
+          "lower": [
+            2,
+            12,
+            22,
+            32
+          ],
+          "upper": [
+            12,
+            22,
+            32,
+            42
+          ],
+          "answer": "22–32"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Keep the original observations, axis scale and denominators visible; distinguish estimates from exact values.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-stat-l02-p01",
+      "prompt": "A grouped distribution has equal-width intervals 5–15, 15–25, 25–35, 35–45 with respective frequencies [2, 3, 4, 3]. Find the median interval.",
+      "options": [
+        "35–45",
+        "25–35",
+        "83/3",
+        "25"
+      ],
+      "answer_index": 1,
+      "memo": "Copy each class interval with its frequency; there are 12 observations in total. Use class midpoints [10, 20, 30, 40] and cumulative frequencies [2, 5, 9, 12]. Multiply each midpoint by its frequency: [20, 60, 120, 120]; sum=320. Estimated mean=320/12=80/3; modal interval has frequency 4; median lies where cumulative frequency reaches 12/2. Answer: median interval = 25–35. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p02",
+      "prompt": "A grouped distribution has equal-width intervals 6–16, 16–26, 26–36, 36–46 with respective frequencies [3, 3, 4, 3]. Find the estimated mean.",
+      "options": [
+        "26",
+        "36–46",
+        "343/13",
+        "356/13"
+      ],
+      "answer_index": 2,
+      "memo": "Copy each class interval with its frequency; there are 13 observations in total. Use class midpoints [11, 21, 31, 41] and cumulative frequencies [3, 6, 10, 13]. Multiply each midpoint by its frequency: [33, 63, 124, 123]; sum=343. Estimated mean=343/13=343/13; modal interval has frequency 4; median lies where cumulative frequency reaches 13/2. Answer: estimated mean = 343/13. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p03",
+      "prompt": "A grouped distribution has equal-width intervals 7–17, 17–27, 27–37, 37–47 with respective frequencies [4, 4, 4, 4]. Find the modal interval.",
+      "options": [
+        "28",
+        "27",
+        "17–27",
+        "7–17"
+      ],
+      "answer_index": 3,
+      "memo": "Copy each class interval with its frequency; there are 16 observations in total. Use class midpoints [12, 22, 32, 42] and cumulative frequencies [4, 8, 12, 16]. Multiply each midpoint by its frequency: [48, 88, 128, 168]; sum=432. Estimated mean=432/16=27; modal interval has frequency 4; median lies where cumulative frequency reaches 16/2. Answer: modal interval = 7–17. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p04",
+      "prompt": "A grouped distribution has equal-width intervals 8–18, 18–28, 28–38, 38–48 with respective frequencies [2, 4, 5, 4]. Find the median interval.",
+      "options": [
+        "28–38",
+        "94/3",
+        "28",
+        "38–48"
+      ],
+      "answer_index": 0,
+      "memo": "Copy each class interval with its frequency; there are 15 observations in total. Use class midpoints [13, 23, 33, 43] and cumulative frequencies [2, 6, 11, 15]. Multiply each midpoint by its frequency: [26, 92, 165, 172]; sum=455. Estimated mean=455/15=91/3; modal interval has frequency 5; median lies where cumulative frequency reaches 15/2. Answer: median interval = 28–38. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p05",
+      "prompt": "A grouped distribution has equal-width intervals 9–19, 19–29, 29–39, 39–49 with respective frequencies [3, 5, 5, 4]. Find the estimated mean.",
+      "options": [
+        "29–39",
+        "508/17",
+        "525/17",
+        "29"
+      ],
+      "answer_index": 1,
+      "memo": "Copy each class interval with its frequency; there are 17 observations in total. Use class midpoints [14, 24, 34, 44] and cumulative frequencies [3, 8, 13, 17]. Multiply each midpoint by its frequency: [42, 120, 170, 176]; sum=508. Estimated mean=508/17=508/17; modal interval has frequency 5; median lies where cumulative frequency reaches 17/2. Answer: estimated mean = 508/17. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p06",
+      "prompt": "A grouped distribution has equal-width intervals 10–20, 20–30, 30–40, 40–50 with respective frequencies [4, 5, 5, 4]. Find the modal interval.",
+      "options": [
+        "30",
+        "30–40",
+        "20–30",
+        "31"
+      ],
+      "answer_index": 2,
+      "memo": "Copy each class interval with its frequency; there are 18 observations in total. Use class midpoints [15, 25, 35, 45] and cumulative frequencies [4, 9, 14, 18]. Multiply each midpoint by its frequency: [60, 125, 175, 180]; sum=540. Estimated mean=540/18=30; modal interval has frequency 5; median lies where cumulative frequency reaches 18/2. Answer: modal interval = 20–30. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p07",
+      "prompt": "A grouped distribution has equal-width intervals 11–21, 21–31, 31–41, 41–51 with respective frequencies [2, 3, 6, 2]. Find the median interval.",
+      "options": [
+        "431/13",
+        "31",
+        "41–51",
+        "31–41"
+      ],
+      "answer_index": 3,
+      "memo": "Copy each class interval with its frequency; there are 13 observations in total. Use class midpoints [16, 26, 36, 46] and cumulative frequencies [2, 5, 11, 13]. Multiply each midpoint by its frequency: [32, 78, 216, 92]; sum=418. Estimated mean=418/13=418/13; modal interval has frequency 6; median lies where cumulative frequency reaches 13/2. Answer: median interval = 31–41. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p08",
+      "prompt": "A grouped distribution has equal-width intervals 12–22, 22–32, 32–42, 42–52 with respective frequencies [3, 3, 6, 2]. Find the estimated mean.",
+      "options": [
+        "32",
+        "33",
+        "42–52",
+        "No answer can be calculated"
+      ],
+      "answer_index": 0,
+      "memo": "Copy each class interval with its frequency; there are 14 observations in total. Use class midpoints [17, 27, 37, 47] and cumulative frequencies [3, 6, 12, 14]. Multiply each midpoint by its frequency: [51, 81, 222, 94]; sum=448. Estimated mean=448/14=32; modal interval has frequency 6; median lies where cumulative frequency reaches 14/2. Answer: estimated mean = 32. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p09",
+      "prompt": "A grouped distribution has equal-width intervals 0–10, 10–20, 20–30, 30–40 with respective frequencies [4, 4, 6, 2]. Find the modal interval.",
+      "options": [
+        "30–40",
+        "20–30",
+        "79/4",
+        "20"
+      ],
+      "answer_index": 1,
+      "memo": "Copy each class interval with its frequency; there are 16 observations in total. Use class midpoints [5, 15, 25, 35] and cumulative frequencies [4, 8, 14, 16]. Multiply each midpoint by its frequency: [20, 60, 150, 70]; sum=300. Estimated mean=300/16=75/4; modal interval has frequency 6; median lies where cumulative frequency reaches 16/2. Answer: modal interval = 20–30. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p10",
+      "prompt": "A grouped distribution has equal-width intervals 1–11, 11–21, 21–31, 31–41 with respective frequencies [2, 4, 4, 2]. Find the median interval.",
+      "options": [
+        "21",
+        "21–31",
+        "11–21",
+        "22"
+      ],
+      "answer_index": 2,
+      "memo": "Copy each class interval with its frequency; there are 12 observations in total. Use class midpoints [6, 16, 26, 36] and cumulative frequencies [2, 6, 10, 12]. Multiply each midpoint by its frequency: [12, 64, 104, 72]; sum=252. Estimated mean=252/12=21; modal interval has frequency 4; median lies where cumulative frequency reaches 12/2. Answer: median interval = 11–21. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p11",
+      "prompt": "A grouped distribution has equal-width intervals 2–12, 12–22, 22–32, 32–42 with respective frequencies [3, 5, 4, 3]. Find the estimated mean.",
+      "options": [
+        "68/3",
+        "22",
+        "22–32",
+        "65/3"
+      ],
+      "answer_index": 3,
+      "memo": "Copy each class interval with its frequency; there are 15 observations in total. Use class midpoints [7, 17, 27, 37] and cumulative frequencies [3, 8, 12, 15]. Multiply each midpoint by its frequency: [21, 85, 108, 111]; sum=325. Estimated mean=325/15=65/3; modal interval has frequency 5; median lies where cumulative frequency reaches 15/2. Answer: estimated mean = 65/3. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p12",
+      "prompt": "A grouped distribution has equal-width intervals 3–13, 13–23, 23–33, 33–43 with respective frequencies [4, 5, 4, 3]. Find the modal interval.",
+      "options": [
+        "13–23",
+        "91/4",
+        "23",
+        "23–33"
+      ],
+      "answer_index": 0,
+      "memo": "Copy each class interval with its frequency; there are 16 observations in total. Use class midpoints [8, 18, 28, 38] and cumulative frequencies [4, 9, 13, 16]. Multiply each midpoint by its frequency: [32, 90, 112, 114]; sum=348. Estimated mean=348/16=87/4; modal interval has frequency 5; median lies where cumulative frequency reaches 16/2. Answer: modal interval = 13–23. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p13",
+      "prompt": "A grouped distribution has equal-width intervals 4–14, 14–24, 24–34, 34–44 with respective frequencies [2, 3, 5, 3]. Find the median interval.",
+      "options": [
+        "34–44",
+        "24–34",
+        "350/13",
+        "24"
+      ],
+      "answer_index": 1,
+      "memo": "Copy each class interval with its frequency; there are 13 observations in total. Use class midpoints [9, 19, 29, 39] and cumulative frequencies [2, 5, 10, 13]. Multiply each midpoint by its frequency: [18, 57, 145, 117]; sum=337. Estimated mean=337/13=337/13; modal interval has frequency 5; median lies where cumulative frequency reaches 13/2. Answer: median interval = 24–34. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p14",
+      "prompt": "A grouped distribution has equal-width intervals 5–15, 15–25, 25–35, 35–45 with respective frequencies [3, 3, 5, 3]. Find the estimated mean.",
+      "options": [
+        "25",
+        "35–45",
+        "180/7",
+        "187/7"
+      ],
+      "answer_index": 2,
+      "memo": "Copy each class interval with its frequency; there are 14 observations in total. Use class midpoints [10, 20, 30, 40] and cumulative frequencies [3, 6, 11, 14]. Multiply each midpoint by its frequency: [30, 60, 150, 120]; sum=360. Estimated mean=360/14=180/7; modal interval has frequency 5; median lies where cumulative frequency reaches 14/2. Answer: estimated mean = 180/7. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-p15",
+      "prompt": "A grouped distribution has equal-width intervals 6–16, 16–26, 26–36, 36–46 with respective frequencies [4, 4, 5, 4]. Find the modal interval.",
+      "options": [
+        "464/17",
+        "26",
+        "36–46",
+        "26–36"
+      ],
+      "answer_index": 3,
+      "memo": "Copy each class interval with its frequency; there are 17 observations in total. Use class midpoints [11, 21, 31, 41] and cumulative frequencies [4, 8, 13, 17]. Multiply each midpoint by its frequency: [44, 84, 155, 164]; sum=447. Estimated mean=447/17=447/17; modal interval has frequency 5; median lies where cumulative frequency reaches 17/2. Answer: modal interval = 26–36. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-stat-l02-m16",
+      "prompt": "A grouped distribution has equal-width intervals 11–21, 21–31, 31–41, 41–51 with respective frequencies [4, 4, 5, 2]. Find the modal interval.",
+      "options": [
+        "31–41",
+        "91/3",
+        "31",
+        "41–51"
+      ],
+      "answer_index": 0,
+      "memo": "Copy each class interval with its frequency; there are 15 observations in total. Use class midpoints [16, 26, 36, 46] and cumulative frequencies [4, 8, 13, 15]. Multiply each midpoint by its frequency: [64, 104, 180, 92]; sum=440. Estimated mean=440/15=88/3; modal interval has frequency 5; median lies where cumulative frequency reaches 15/2. Answer: modal interval = 31–41. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-m17",
+      "prompt": "A grouped distribution has equal-width intervals 12–22, 22–32, 32–42, 42–52 with respective frequencies [2, 4, 6, 2]. Find the median interval.",
+      "options": [
+        "42–52",
+        "32–42",
+        "236/7",
+        "32"
+      ],
+      "answer_index": 1,
+      "memo": "Copy each class interval with its frequency; there are 14 observations in total. Use class midpoints [17, 27, 37, 47] and cumulative frequencies [2, 6, 12, 14]. Multiply each midpoint by its frequency: [34, 108, 222, 94]; sum=458. Estimated mean=458/14=229/7; modal interval has frequency 6; median lies where cumulative frequency reaches 14/2. Answer: median interval = 32–42. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-m18",
+      "prompt": "A grouped distribution has equal-width intervals 0–10, 10–20, 20–30, 30–40 with respective frequencies [3, 5, 6, 3]. Find the estimated mean.",
+      "options": [
+        "20",
+        "30–40",
+        "345/17",
+        "362/17"
+      ],
+      "answer_index": 2,
+      "memo": "Copy each class interval with its frequency; there are 17 observations in total. Use class midpoints [5, 15, 25, 35] and cumulative frequencies [3, 8, 14, 17]. Multiply each midpoint by its frequency: [15, 75, 150, 105]; sum=345. Estimated mean=345/17=345/17; modal interval has frequency 6; median lies where cumulative frequency reaches 17/2. Answer: estimated mean = 345/17. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-m19",
+      "prompt": "A grouped distribution has equal-width intervals 1–11, 11–21, 21–31, 31–41 with respective frequencies [4, 5, 6, 3]. Find the modal interval.",
+      "options": [
+        "193/9",
+        "21",
+        "31–41",
+        "21–31"
+      ],
+      "answer_index": 3,
+      "memo": "Copy each class interval with its frequency; there are 18 observations in total. Use class midpoints [6, 16, 26, 36] and cumulative frequencies [4, 9, 15, 18]. Multiply each midpoint by its frequency: [24, 80, 156, 108]; sum=368. Estimated mean=368/18=184/9; modal interval has frequency 6; median lies where cumulative frequency reaches 18/2. Answer: modal interval = 21–31. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-m20",
+      "prompt": "A grouped distribution has equal-width intervals 2–12, 12–22, 22–32, 32–42 with respective frequencies [2, 3, 4, 3]. Find the median interval.",
+      "options": [
+        "22–32",
+        "74/3",
+        "22",
+        "32–42"
+      ],
+      "answer_index": 0,
+      "memo": "Copy each class interval with its frequency; there are 12 observations in total. Use class midpoints [7, 17, 27, 37] and cumulative frequencies [2, 5, 9, 12]. Multiply each midpoint by its frequency: [14, 51, 108, 111]; sum=284. Estimated mean=284/12=71/3; modal interval has frequency 4; median lies where cumulative frequency reaches 12/2. Answer: median interval = 22–32. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-stat-l02-r21",
+      "prompt": "A grouped distribution has equal-width intervals 7–17, 17–27, 27–37, 37–47 with respective frequencies [2, 3, 4, 2]. Find the median interval.",
+      "options": [
+        "37–47",
+        "27–37",
+        "313/11",
+        "27"
+      ],
+      "answer_index": 1,
+      "memo": "Copy each class interval with its frequency; there are 11 observations in total. Use class midpoints [12, 22, 32, 42] and cumulative frequencies [2, 5, 9, 11]. Multiply each midpoint by its frequency: [24, 66, 128, 84]; sum=302. Estimated mean=302/11=302/11; modal interval has frequency 4; median lies where cumulative frequency reaches 11/2. Answer: median interval = 27–37. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-r22",
+      "prompt": "A grouped distribution has equal-width intervals 8–18, 18–28, 28–38, 38–48 with respective frequencies [3, 3, 4, 2]. Find the estimated mean.",
+      "options": [
+        "28",
+        "38–48",
+        "163/6",
+        "169/6"
+      ],
+      "answer_index": 2,
+      "memo": "Copy each class interval with its frequency; there are 12 observations in total. Use class midpoints [13, 23, 33, 43] and cumulative frequencies [3, 6, 10, 12]. Multiply each midpoint by its frequency: [39, 69, 132, 86]; sum=326. Estimated mean=326/12=163/6; modal interval has frequency 4; median lies where cumulative frequency reaches 12/2. Answer: estimated mean = 163/6. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    },
+    {
+      "id": "g10-stat-l02-r23",
+      "prompt": "A grouped distribution has equal-width intervals 9–19, 19–29, 29–39, 39–49 with respective frequencies [4, 4, 4, 2]. Find the modal interval.",
+      "options": [
+        "195/7",
+        "29",
+        "19–29",
+        "9–19"
+      ],
+      "answer_index": 3,
+      "memo": "Copy each class interval with its frequency; there are 14 observations in total. Use class midpoints [14, 24, 34, 44] and cumulative frequencies [4, 8, 12, 14]. Multiply each midpoint by its frequency: [56, 96, 136, 88]; sum=376. Estimated mean=376/14=188/7; modal interval has frequency 4; median lies where cumulative frequency reaches 14/2. Answer: modal interval = 9–19. This is an estimate when using class midpoints; no precise raw-data mean is known.",
+      "source": "grade10-stat-lesson-02.md"
+    }
+  ]
+}

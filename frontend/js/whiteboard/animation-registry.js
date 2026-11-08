@@ -151,6 +151,7 @@ for(let number=1;number<=8;number++)registerTeachingOperation(`grade9_shapes_${n
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade10_algebra_${number}_step`);
 for(let number=1;number<=9;number++)registerTeachingOperation(`grade10_eei_${number}_step`);
 for(let number=1;number<=7;number++)registerTeachingOperation(`grade10_fn_${number}_step`);
+for(let number=1;number<=6;number++)registerTeachingOperation(`grade10_stat_${number}_step`);
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade10_ag_${number}_step`);
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade10_euc_${number}_step`);
 for(let number=1;number<=7;number++)registerTeachingOperation(`grade10_trig_${number}_step`);

@@ -1,0 +1,3 @@
+# Grade 10 Topic 7: Statistics
+
+[DBE Grade 10 ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2023%20ATPs/FET%20Content%20Subjects/Grade%2010/1.580%20ATP%202023-24%20Gr%2010%20Maths%20final.pdf) Term 3: centre of raw and grouped data, quartiles, five-number summaries, box plots, histograms and contextual comparisons. The ATP also schedules a short 2D trigonometry block before Statistics, already represented by Topic 3 Lesson 5; revisit its depth in teacher review. Six lessons have 90 worked, 90 four-choice practice, 30 mastery and 18 reassessment questions. Teacher and browser acceptance pending.

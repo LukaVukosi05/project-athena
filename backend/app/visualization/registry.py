@@ -24,7 +24,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5]|g9-solid-l0[1-4]|g9-sv-l0[1-6]|g9-tg-l0[1-7]|g10-aex-l0[1-6]|g10-eei-l0[1-9]|g10-trig-l0[1-7]|g10-euc-l0[1-6]|g10-ag-l0[1-6]|g10-fn-l0[1-7])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5]|g9-solid-l0[1-4]|g9-sv-l0[1-6]|g9-tg-l0[1-7]|g10-aex-l0[1-6]|g10-eei-l0[1-9]|g10-trig-l0[1-7]|g10-euc-l0[1-6]|g10-ag-l0[1-6]|g10-fn-l0[1-7]|g10-stat-l0[1-6])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -628,6 +628,21 @@ def _grade8_whole_number_board(parameters: dict) -> None:
     else:
         raise ValueError("Unsupported whole-number visual model")
 
+
+def _grade10_stat_board(parameters: dict, number: int) -> None:
+    """Validate the authored dataset, answer and visual stages together."""
+    import json
+    from pathlib import Path
+    scene=json.loads(parameters['scene_json']);qid=parameters.get('question_id')
+    if (scene.get('id')!=qid or scene.get('problem')!=parameters.get('prompt')
+        or scene.get('lesson')!=number or len(scene.get('actions',[]))!=parameters.get('total_steps')
+        or len(scene['actions'])!=5 or scene['actions'][-1]!=scene.get('check')
+        or scene.get('visual',{}).get('family')!='grade10_statistics'):
+        raise ValueError('Statistics question, dataset and stages disagree')
+    source=Path(__file__).resolve().parents[1]/'curriculum/grade10/generated'/f'statistics_{number:02}.json'
+    authored=next((q for q in json.loads(source.read_text(encoding='utf-8'))['worked'] if q['id']==qid),None)
+    if scene!=authored or ''.join(scene['answer'].split()) not in ''.join(scene['check'].split()):
+        raise ValueError('Statistics answer, data or stages differ from authored source')
 
 def _grade10_fn_board(parameters: dict, number: int) -> None:
     """Verify function family, coefficients, key features and stages from the authored source."""
@@ -1671,6 +1686,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade10_fn_board(p,n),True)
        for n in range(1,8)},
+    **{("statistics",f"grade10_stat_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade10_stat_board(p,n),True)
+       for n in range(1,7)},
     **{("geometry",f"grade10_ag_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade10_ag_board(p,n),True)
@@ -1840,7 +1859,7 @@ def validate_visualization(board: WhiteboardBlock) -> None:
     _reject_unsafe(parameters)
     definition.validate(parameters)
     problem_lower = board.problem.casefold()
-    if ("five-number summary" in problem_lower and ("construct" in problem_lower or "box plot" in problem_lower)) and instruction.template != "box_plot":
+    if ("five-number summary" in problem_lower and ("construct" in problem_lower or "box plot" in problem_lower)) and instruction.template not in {"box_plot", "grade10_stat_4"}:
         raise ValueError("BOX_PLOT_QUESTION_REQUIRES_STATISTICS_BOX_PLOT")
     if instruction.template == "box_plot":
         expected = [parameters[name] for name in ("minimum", "q1", "median", "q3", "maximum")]

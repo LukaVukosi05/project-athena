@@ -2244,6 +2244,64 @@
               "source_document": "grade10-fn-lesson-07.md"
             }
           ]
+        },
+        {
+          "topic_id": "statistics",
+          "topic_number": 7,
+          "title": "Statistics",
+          "paper": "Paper 2",
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g10-stat-01",
+              "position": 1,
+              "title": "Mean, median and mode in ungrouped data",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "grade10-stat-lesson-01.md"
+            },
+            {
+              "lesson_id": "g10-stat-02",
+              "position": 2,
+              "title": "Grouped frequency tables and estimated mean",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-stat-lesson-02.md"
+            },
+            {
+              "lesson_id": "g10-stat-03",
+              "position": 3,
+              "title": "Quartiles, percentiles, range and interquartile range",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-stat-lesson-03.md"
+            },
+            {
+              "lesson_id": "g10-stat-04",
+              "position": 4,
+              "title": "Five-number summaries and box-and-whisker plots",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-stat-lesson-04.md"
+            },
+            {
+              "lesson_id": "g10-stat-05",
+              "position": 5,
+              "title": "Histograms and frequency comparisons",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-stat-lesson-05.md"
+            },
+            {
+              "lesson_id": "g10-stat-06",
+              "position": 6,
+              "title": "Compare distributions and diagnose misleading claims",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-stat-lesson-06.md"
+            }
+          ]
         }
       ]
     },
