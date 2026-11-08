@@ -1,0 +1,760 @@
+{
+  "source": "grade10-eei-lesson-02.md",
+  "worked": [
+    {
+      "id": "g10-eei-l02-w01",
+      "problem": "Solve x^(1/2) = 3 for real x.",
+      "actions": [
+        "The left side denotes the nonnegative square root of x.",
+        "Square both sides: (√x)² = 3².",
+        "Therefore x = 9.",
+        "Check x is nonnegative, as required for a real square root.",
+        "Answer: x = 9; √9 = 3."
+      ],
+      "answer": "x = 9",
+      "check": "Answer: x = 9; √9 = 3.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 3,
+          "b": 1,
+          "c": 2,
+          "d": 2,
+          "form": "root",
+          "base": 9,
+          "result": "x = 9"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-eei-l02-w02",
+      "problem": "Solve x^(1/3) = 4 for real x.",
+      "actions": [
+        "A one-third exponent is a cube root.",
+        "Cube both sides: (∛x)³ = 4³.",
+        "Therefore x = 64.",
+        "Substitute the candidate into the original cube-root equation.",
+        "Answer: x = 64; ∛64 = 4."
+      ],
+      "answer": "x = 64",
+      "check": "Answer: x = 64; ∛64 = 4.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 4,
+          "b": 2,
+          "c": 2,
+          "d": 3,
+          "form": "cube_root",
+          "base": 64,
+          "result": "x = 64"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-eei-l02-w03",
+      "problem": "Solve x^(1/2) = 5 for real x.",
+      "actions": [
+        "The left side denotes the nonnegative square root of x.",
+        "Square both sides: (√x)² = 5².",
+        "Therefore x = 25.",
+        "Check x is nonnegative, as required for a real square root.",
+        "Answer: x = 25; √25 = 5."
+      ],
+      "answer": "x = 25",
+      "check": "Answer: x = 25; √25 = 5.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 5,
+          "b": 2,
+          "c": 3,
+          "d": 4,
+          "form": "root",
+          "base": 25,
+          "result": "x = 25"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l02-w04",
+      "problem": "Solve x^(1/3) = 6 for real x.",
+      "actions": [
+        "A one-third exponent is a cube root.",
+        "Cube both sides: (∛x)³ = 6³.",
+        "Therefore x = 216.",
+        "Substitute the candidate into the original cube-root equation.",
+        "Answer: x = 216; ∛216 = 6."
+      ],
+      "answer": "x = 216",
+      "check": "Answer: x = 216; ∛216 = 6.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 6,
+          "b": 3,
+          "c": 3,
+          "d": 1,
+          "form": "cube_root",
+          "base": 216,
+          "result": "x = 216"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l02-w05",
+      "problem": "Solve x^(1/2) = 7 for real x.",
+      "actions": [
+        "The left side denotes the nonnegative square root of x.",
+        "Square both sides: (√x)² = 7².",
+        "Therefore x = 49.",
+        "Check x is nonnegative, as required for a real square root.",
+        "Answer: x = 49; √49 = 7."
+      ],
+      "answer": "x = 49",
+      "check": "Answer: x = 49; √49 = 7.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 7,
+          "b": 3,
+          "c": 3,
+          "d": 2,
+          "form": "root",
+          "base": 49,
+          "result": "x = 49"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l02-w06",
+      "problem": "Solve x^(1/3) = 8 for real x.",
+      "actions": [
+        "A one-third exponent is a cube root.",
+        "Cube both sides: (∛x)³ = 8³.",
+        "Therefore x = 512.",
+        "Substitute the candidate into the original cube-root equation.",
+        "Answer: x = 512; ∛512 = 8."
+      ],
+      "answer": "x = 512",
+      "check": "Answer: x = 512; ∛512 = 8.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 8,
+          "b": 4,
+          "c": 4,
+          "d": 3,
+          "form": "cube_root",
+          "base": 512,
+          "result": "x = 512"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l02-w07",
+      "problem": "Solve x^(1/2) = 9 for real x.",
+      "actions": [
+        "The left side denotes the nonnegative square root of x.",
+        "Square both sides: (√x)² = 9².",
+        "Therefore x = 81.",
+        "Check x is nonnegative, as required for a real square root.",
+        "Answer: x = 81; √81 = 9."
+      ],
+      "answer": "x = 81",
+      "check": "Answer: x = 81; √81 = 9.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 9,
+          "b": 4,
+          "c": 4,
+          "d": 4,
+          "form": "root",
+          "base": 81,
+          "result": "x = 81"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l02-w08",
+      "problem": "Solve x^(1/3) = 10 for real x.",
+      "actions": [
+        "A one-third exponent is a cube root.",
+        "Cube both sides: (∛x)³ = 10³.",
+        "Therefore x = 1000.",
+        "Substitute the candidate into the original cube-root equation.",
+        "Answer: x = 1000; ∛1000 = 10."
+      ],
+      "answer": "x = 1000",
+      "check": "Answer: x = 1000; ∛1000 = 10.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 10,
+          "b": 5,
+          "c": 4,
+          "d": 1,
+          "form": "cube_root",
+          "base": 1000,
+          "result": "x = 1000"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l02-w09",
+      "problem": "Solve x^(1/2) = 11 for real x.",
+      "actions": [
+        "The left side denotes the nonnegative square root of x.",
+        "Square both sides: (√x)² = 11².",
+        "Therefore x = 121.",
+        "Check x is nonnegative, as required for a real square root.",
+        "Answer: x = 121; √121 = 11."
+      ],
+      "answer": "x = 121",
+      "check": "Answer: x = 121; √121 = 11.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 11,
+          "b": 5,
+          "c": 5,
+          "d": 2,
+          "form": "root",
+          "base": 121,
+          "result": "x = 121"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l02-w10",
+      "problem": "Solve x^(1/3) = 12 for real x.",
+      "actions": [
+        "A one-third exponent is a cube root.",
+        "Cube both sides: (∛x)³ = 12³.",
+        "Therefore x = 1728.",
+        "Substitute the candidate into the original cube-root equation.",
+        "Answer: x = 1728; ∛1728 = 12."
+      ],
+      "answer": "x = 1728",
+      "check": "Answer: x = 1728; ∛1728 = 12.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 12,
+          "b": 1,
+          "c": 5,
+          "d": 3,
+          "form": "cube_root",
+          "base": 1728,
+          "result": "x = 1728"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l02-w11",
+      "problem": "Solve x^(1/2) = 13 for real x.",
+      "actions": [
+        "The left side denotes the nonnegative square root of x.",
+        "Square both sides: (√x)² = 13².",
+        "Therefore x = 169.",
+        "Check x is nonnegative, as required for a real square root.",
+        "Answer: x = 169; √169 = 13."
+      ],
+      "answer": "x = 169",
+      "check": "Answer: x = 169; √169 = 13.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 13,
+          "b": 1,
+          "c": 5,
+          "d": 4,
+          "form": "root",
+          "base": 169,
+          "result": "x = 169"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l02-w12",
+      "problem": "Solve x^(1/3) = 14 for real x.",
+      "actions": [
+        "A one-third exponent is a cube root.",
+        "Cube both sides: (∛x)³ = 14³.",
+        "Therefore x = 2744.",
+        "Substitute the candidate into the original cube-root equation.",
+        "Answer: x = 2744; ∛2744 = 14."
+      ],
+      "answer": "x = 2744",
+      "check": "Answer: x = 2744; ∛2744 = 14.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 14,
+          "b": 2,
+          "c": 6,
+          "d": 1,
+          "form": "cube_root",
+          "base": 2744,
+          "result": "x = 2744"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l02-w13",
+      "problem": "Solve x^(1/2) = 15 for real x.",
+      "actions": [
+        "The left side denotes the nonnegative square root of x.",
+        "Square both sides: (√x)² = 15².",
+        "Therefore x = 225.",
+        "Check x is nonnegative, as required for a real square root.",
+        "Answer: x = 225; √225 = 15."
+      ],
+      "answer": "x = 225",
+      "check": "Answer: x = 225; √225 = 15.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 15,
+          "b": 2,
+          "c": 6,
+          "d": 2,
+          "form": "root",
+          "base": 225,
+          "result": "x = 225"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-eei-l02-w14",
+      "problem": "Solve x^(1/3) = 16 for real x.",
+      "actions": [
+        "A one-third exponent is a cube root.",
+        "Cube both sides: (∛x)³ = 16³.",
+        "Therefore x = 4096.",
+        "Substitute the candidate into the original cube-root equation.",
+        "Answer: x = 4096; ∛4096 = 16."
+      ],
+      "answer": "x = 4096",
+      "check": "Answer: x = 4096; ∛4096 = 16.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 16,
+          "b": 3,
+          "c": 6,
+          "d": 3,
+          "form": "cube_root",
+          "base": 4096,
+          "result": "x = 4096"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-eei-l02-w15",
+      "problem": "Solve x^(1/2) = 17 for real x.",
+      "actions": [
+        "The left side denotes the nonnegative square root of x.",
+        "Square both sides: (√x)² = 17².",
+        "Therefore x = 289.",
+        "Check x is nonnegative, as required for a real square root.",
+        "Answer: x = 289; √289 = 17."
+      ],
+      "answer": "x = 289",
+      "check": "Answer: x = 289; √289 = 17.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 2,
+          "kind": "rational",
+          "a": 17,
+          "b": 3,
+          "c": 2,
+          "d": 4,
+          "form": "root",
+          "base": 289,
+          "result": "x = 289"
+        }
+      },
+      "lesson": 2,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-eei-l02-p01",
+      "prompt": "Solve x^(1/3) = 18 for real x.",
+      "options": [
+        "x = −5832",
+        "x = 5832",
+        "x = 18",
+        "x = 324"
+      ],
+      "answer_index": 1,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 18³. Therefore x = 5832. Substitute the candidate into the original cube-root equation. Answer: x = 5832; ∛5832 = 18.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p02",
+      "prompt": "Solve x^(1/2) = 19 for real x.",
+      "options": [
+        "x = −361",
+        "x = 362",
+        "x = 361",
+        "x = 19"
+      ],
+      "answer_index": 2,
+      "memo": "The left side denotes the nonnegative square root of x. Square both sides: (√x)² = 19². Therefore x = 361. Check x is nonnegative, as required for a real square root. Answer: x = 361; √361 = 19.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p03",
+      "prompt": "Solve x^(1/3) = 20 for real x.",
+      "options": [
+        "x = 20",
+        "x = 400",
+        "x = −8000",
+        "x = 8000"
+      ],
+      "answer_index": 3,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 20³. Therefore x = 8000. Substitute the candidate into the original cube-root equation. Answer: x = 8000; ∛8000 = 20.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p04",
+      "prompt": "Solve x^(1/2) = 2 for real x.",
+      "options": [
+        "x = 4",
+        "x = 2",
+        "x = −4",
+        "x = 5"
+      ],
+      "answer_index": 0,
+      "memo": "The left side denotes the nonnegative square root of x. Square both sides: (√x)² = 2². Therefore x = 4. Check x is nonnegative, as required for a real square root. Answer: x = 4; √4 = 2.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p05",
+      "prompt": "Solve x^(1/3) = 3 for real x.",
+      "options": [
+        "x = −27",
+        "x = 27",
+        "x = 3",
+        "x = 9"
+      ],
+      "answer_index": 1,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 3³. Therefore x = 27. Substitute the candidate into the original cube-root equation. Answer: x = 27; ∛27 = 3.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p06",
+      "prompt": "Solve x^(1/2) = 4 for real x.",
+      "options": [
+        "x = −16",
+        "x = 17",
+        "x = 16",
+        "x = 4"
+      ],
+      "answer_index": 2,
+      "memo": "The left side denotes the nonnegative square root of x. Square both sides: (√x)² = 4². Therefore x = 16. Check x is nonnegative, as required for a real square root. Answer: x = 16; √16 = 4.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p07",
+      "prompt": "Solve x^(1/3) = 5 for real x.",
+      "options": [
+        "x = 5",
+        "x = 25",
+        "x = −125",
+        "x = 125"
+      ],
+      "answer_index": 3,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 5³. Therefore x = 125. Substitute the candidate into the original cube-root equation. Answer: x = 125; ∛125 = 5.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p08",
+      "prompt": "Solve x^(1/2) = 6 for real x.",
+      "options": [
+        "x = 36",
+        "x = 6",
+        "x = −36",
+        "x = 37"
+      ],
+      "answer_index": 0,
+      "memo": "The left side denotes the nonnegative square root of x. Square both sides: (√x)² = 6². Therefore x = 36. Check x is nonnegative, as required for a real square root. Answer: x = 36; √36 = 6.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p09",
+      "prompt": "Solve x^(1/3) = 7 for real x.",
+      "options": [
+        "x = −343",
+        "x = 343",
+        "x = 7",
+        "x = 49"
+      ],
+      "answer_index": 1,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 7³. Therefore x = 343. Substitute the candidate into the original cube-root equation. Answer: x = 343; ∛343 = 7.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p10",
+      "prompt": "Solve x^(1/2) = 8 for real x.",
+      "options": [
+        "x = −64",
+        "x = 65",
+        "x = 64",
+        "x = 8"
+      ],
+      "answer_index": 2,
+      "memo": "The left side denotes the nonnegative square root of x. Square both sides: (√x)² = 8². Therefore x = 64. Check x is nonnegative, as required for a real square root. Answer: x = 64; √64 = 8.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p11",
+      "prompt": "Solve x^(1/3) = 9 for real x.",
+      "options": [
+        "x = 9",
+        "x = 81",
+        "x = −729",
+        "x = 729"
+      ],
+      "answer_index": 3,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 9³. Therefore x = 729. Substitute the candidate into the original cube-root equation. Answer: x = 729; ∛729 = 9.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p12",
+      "prompt": "Solve x^(1/2) = 10 for real x.",
+      "options": [
+        "x = 100",
+        "x = 10",
+        "x = −100",
+        "x = 101"
+      ],
+      "answer_index": 0,
+      "memo": "The left side denotes the nonnegative square root of x. Square both sides: (√x)² = 10². Therefore x = 100. Check x is nonnegative, as required for a real square root. Answer: x = 100; √100 = 10.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p13",
+      "prompt": "Solve x^(1/3) = 11 for real x.",
+      "options": [
+        "x = −1331",
+        "x = 1331",
+        "x = 11",
+        "x = 121"
+      ],
+      "answer_index": 1,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 11³. Therefore x = 1331. Substitute the candidate into the original cube-root equation. Answer: x = 1331; ∛1331 = 11.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p14",
+      "prompt": "Solve x^(1/2) = 12 for real x.",
+      "options": [
+        "x = −144",
+        "x = 145",
+        "x = 144",
+        "x = 12"
+      ],
+      "answer_index": 2,
+      "memo": "The left side denotes the nonnegative square root of x. Square both sides: (√x)² = 12². Therefore x = 144. Check x is nonnegative, as required for a real square root. Answer: x = 144; √144 = 12.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-p15",
+      "prompt": "Solve x^(1/3) = 13 for real x.",
+      "options": [
+        "x = 13",
+        "x = 169",
+        "x = −2197",
+        "x = 2197"
+      ],
+      "answer_index": 3,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 13³. Therefore x = 2197. Substitute the candidate into the original cube-root equation. Answer: x = 2197; ∛2197 = 13.",
+      "source": "grade10-eei-lesson-02.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-eei-l02-m16",
+      "prompt": "Solve x^(1/3) = 10 for real x.",
+      "options": [
+        "x = 1000",
+        "x = 10",
+        "x = 100",
+        "x = −1000"
+      ],
+      "answer_index": 0,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 10³. Therefore x = 1000. Substitute the candidate into the original cube-root equation. Answer: x = 1000; ∛1000 = 10.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-m17",
+      "prompt": "Solve x^(1/2) = 11 for real x.",
+      "options": [
+        "x = 122",
+        "x = 121",
+        "x = 11",
+        "x = −121"
+      ],
+      "answer_index": 1,
+      "memo": "The left side denotes the nonnegative square root of x. Square both sides: (√x)² = 11². Therefore x = 121. Check x is nonnegative, as required for a real square root. Answer: x = 121; √121 = 11.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-m18",
+      "prompt": "Solve x^(1/3) = 12 for real x.",
+      "options": [
+        "x = 144",
+        "x = −1728",
+        "x = 1728",
+        "x = 12"
+      ],
+      "answer_index": 2,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 12³. Therefore x = 1728. Substitute the candidate into the original cube-root equation. Answer: x = 1728; ∛1728 = 12.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-m19",
+      "prompt": "Solve x^(1/2) = 13 for real x.",
+      "options": [
+        "x = 13",
+        "x = −169",
+        "x = 170",
+        "x = 169"
+      ],
+      "answer_index": 3,
+      "memo": "The left side denotes the nonnegative square root of x. Square both sides: (√x)² = 13². Therefore x = 169. Check x is nonnegative, as required for a real square root. Answer: x = 169; √169 = 13.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-m20",
+      "prompt": "Solve x^(1/3) = 14 for real x.",
+      "options": [
+        "x = 2744",
+        "x = 14",
+        "x = 196",
+        "x = −2744"
+      ],
+      "answer_index": 0,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 14³. Therefore x = 2744. Substitute the candidate into the original cube-root equation. Answer: x = 2744; ∛2744 = 14.",
+      "source": "grade10-eei-lesson-02.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-eei-l02-r21",
+      "prompt": "Solve x^(1/3) = 11 for real x.",
+      "options": [
+        "x = −1331",
+        "x = 1331",
+        "x = 11",
+        "x = 121"
+      ],
+      "answer_index": 1,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 11³. Therefore x = 1331. Substitute the candidate into the original cube-root equation. Answer: x = 1331; ∛1331 = 11.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-r22",
+      "prompt": "Solve x^(1/2) = 12 for real x.",
+      "options": [
+        "x = −144",
+        "x = 145",
+        "x = 144",
+        "x = 12"
+      ],
+      "answer_index": 2,
+      "memo": "The left side denotes the nonnegative square root of x. Square both sides: (√x)² = 12². Therefore x = 144. Check x is nonnegative, as required for a real square root. Answer: x = 144; √144 = 12.",
+      "source": "grade10-eei-lesson-02.md"
+    },
+    {
+      "id": "g10-eei-l02-r23",
+      "prompt": "Solve x^(1/3) = 13 for real x.",
+      "options": [
+        "x = 13",
+        "x = 169",
+        "x = −2197",
+        "x = 2197"
+      ],
+      "answer_index": 3,
+      "memo": "A one-third exponent is a cube root. Cube both sides: (∛x)³ = 13³. Therefore x = 2197. Substitute the candidate into the original cube-root equation. Answer: x = 2197; ∛2197 = 13.",
+      "source": "grade10-eei-lesson-02.md"
+    }
+  ]
+}

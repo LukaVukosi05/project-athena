@@ -1,0 +1,793 @@
+{
+  "source": "grade10-eei-lesson-09.md",
+  "worked": [
+    {
+      "id": "g10-eei-l09-w01",
+      "problem": "Solve x² − 1x − 6 = 0.",
+      "actions": [
+        "Find two numbers with sum -1 and product -6: -3 and 2.",
+        "Factor: (x − 3)(x + 2) = 0.",
+        "A product is zero when at least one factor is zero.",
+        "Solve both branches: x = 3 or x = -2.",
+        "Answer: x = 3 or x = -2. Substitute each value into the original quadratic to obtain zero."
+      ],
+      "answer": "x = 3 or x = -2",
+      "check": "Answer: x = 3 or x = -2. Substitute each value into the original quadratic to obtain zero.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "quadratic",
+          "a": 3,
+          "b": 1,
+          "c": 2,
+          "d": 2,
+          "r": 3,
+          "t": -2,
+          "coefficient": -1,
+          "constant": -6,
+          "form": "two_roots",
+          "result": "x = 3 or x = -2"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-eei-l09-w02",
+      "problem": "Solve simultaneously: x + y = 6 and x − y = 2.",
+      "actions": [
+        "Write both equations in aligned columns: x+y=6 and x−y=2.",
+        "Add the equations: 2x = 8.",
+        "Divide by 2: x = 4.",
+        "Substitute into x+y=6: y=6−4=2.",
+        "Answer: x = 4, y = 2. Check x−y=4−2=2."
+      ],
+      "answer": "x = 4, y = 2",
+      "check": "Answer: x = 4, y = 2. Check x−y=4−2=2.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "simultaneous",
+          "a": 4,
+          "b": 2,
+          "c": 2,
+          "d": 3,
+          "x": 4,
+          "y": 2,
+          "u": 6,
+          "v": 2,
+          "form": "elimination",
+          "result": "x = 4, y = 2"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-eei-l09-w03",
+      "problem": "A trapezium has parallel sides 5 cm and 2 cm. Its area is A cm². Make the height h the subject of A = ½(5+2)h.",
+      "actions": [
+        "Start with A = ½(5+2)h.",
+        "Add the parallel sides: A = (7/2)h.",
+        "Multiply both sides by 2: 2A = 7h.",
+        "Divide both sides by 7: h = 2A/7.",
+        "Answer: h = 2A/7. Substituting into ½(7)h recovers A."
+      ],
+      "answer": "h = 2A/7",
+      "check": "Answer: h = 2A/7. Substituting into ½(7)h recovers A.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "literal",
+          "a": 5,
+          "b": 2,
+          "c": 3,
+          "d": 4,
+          "form": "trapezium",
+          "width": 7,
+          "result": "h = 2A/7"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l09-w04",
+      "problem": "Solve 3 − 3x ≥ -18. Give interval notation and show the solution on a number line.",
+      "actions": [
+        "Subtract 3 from both sides: −3x ≥ −21.",
+        "Divide by −3; reverse ≥ to ≤: x ≤ 7.",
+        "Mark a filled circle at 7 because equality is allowed.",
+        "Shade left and write the interval (−∞, 7].",
+        "Answer: x ≤ 7; (−∞, 7]. Test x=7 in the original and x=8 outside."
+      ],
+      "answer": "x ≤ 7; (−∞, 7]",
+      "check": "Answer: x ≤ 7; (−∞, 7]. Test x=7 in the original and x=8 outside.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "inequality",
+          "a": 6,
+          "b": 3,
+          "c": 3,
+          "d": 1,
+          "bound": 7,
+          "closed": true,
+          "direction": "left",
+          "form": "negative_divisor",
+          "k": 3,
+          "offset": 3,
+          "rhs": -18,
+          "result": "x ≤ 7; (−∞, 7]"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l09-w05",
+      "problem": "Simplify 7x⁰ + x^−2 for x ≠ 0.",
+      "actions": [
+        "The zero exponent applies to x alone and x ≠ 0.",
+        "Write x⁰ = 1, so 7x⁰ = 7.",
+        "Rewrite x^−2 = 1/x².",
+        "Add the two terms without combining unlike powers.",
+        "Answer: 7 + 1/x²; x ≠ 0. At x = 1 both forms equal 8."
+      ],
+      "answer": "7 + 1/x²",
+      "check": "Answer: 7 + 1/x²; x ≠ 0. At x = 1 both forms equal 8.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "exponent",
+          "a": 7,
+          "b": 3,
+          "c": 3,
+          "d": 2,
+          "form": "zero",
+          "result": "7 + 1/x²"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l09-w06",
+      "problem": "Solve x² − 7x + 10 = 0.",
+      "actions": [
+        "Find two numbers with sum -7 and product 10: -2 and -5.",
+        "Factor: (x − 2)(x − 5) = 0.",
+        "A product is zero when at least one factor is zero.",
+        "Solve both branches: x = 2 or x = 5.",
+        "Answer: x = 2 or x = 5. Substitute each value into the original quadratic to obtain zero."
+      ],
+      "answer": "x = 2 or x = 5",
+      "check": "Answer: x = 2 or x = 5. Substitute each value into the original quadratic to obtain zero.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "quadratic",
+          "a": 2,
+          "b": 4,
+          "c": 4,
+          "d": 3,
+          "r": 2,
+          "t": 5,
+          "coefficient": -7,
+          "constant": 10,
+          "form": "two_roots",
+          "result": "x = 2 or x = 5"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l09-w07",
+      "problem": "Solve simultaneously: x + y = 7 and x − y = -1.",
+      "actions": [
+        "Write both equations in aligned columns: x+y=7 and x−y=-1.",
+        "Add the equations: 2x = 6.",
+        "Divide by 2: x = 3.",
+        "Substitute into x+y=7: y=7−3=4.",
+        "Answer: x = 3, y = 4. Check x−y=3−4=-1."
+      ],
+      "answer": "x = 3, y = 4",
+      "check": "Answer: x = 3, y = 4. Check x−y=3−4=-1.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "simultaneous",
+          "a": 3,
+          "b": 4,
+          "c": 4,
+          "d": 4,
+          "x": 3,
+          "y": 4,
+          "u": 7,
+          "v": -1,
+          "form": "elimination",
+          "result": "x = 3, y = 4"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l09-w08",
+      "problem": "In v = u + 10t, make t the subject.",
+      "actions": [
+        "Start with v = u + 10t.",
+        "Subtract u from both sides: v − u = 10t.",
+        "The coefficient of t is 10.",
+        "Divide both sides by 10.",
+        "Answer: t = (v − u)/10; u + 10((v − u)/10) = v."
+      ],
+      "answer": "t = (v − u)/10",
+      "check": "Answer: t = (v − u)/10; u + 10((v − u)/10) = v.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "literal",
+          "a": 10,
+          "b": 5,
+          "c": 4,
+          "d": 1,
+          "form": "motion",
+          "result": "t = (v − u)/10"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l09-w09",
+      "problem": "Solve 2x + 5 > 17. Give interval notation and show the solution on a number line.",
+      "actions": [
+        "Subtract 5 from both sides: 2x > 12.",
+        "Divide by positive 2, preserving >: x > 6.",
+        "Mark an open circle at 6 because equality is excluded.",
+        "Shade right and write the interval (6, ∞).",
+        "Answer: x > 6; (6, ∞). Test x=7 inside and x=6 outside."
+      ],
+      "answer": "x > 6; (6, ∞)",
+      "check": "Answer: x > 6; (6, ∞). Test x=7 inside and x=6 outside.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "inequality",
+          "a": 5,
+          "b": 5,
+          "c": 5,
+          "d": 2,
+          "bound": 6,
+          "closed": false,
+          "direction": "right",
+          "form": "positive_divisor",
+          "k": 2,
+          "offset": 5,
+          "rhs": 17,
+          "result": "x > 6; (6, ∞)"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l09-w10",
+      "problem": "Simplify (x^4y^2)^2/(x^8y^3) for x,y ≠ 0.",
+      "actions": [
+        "Square each factor: (x^4y^2)² = x^8y^4.",
+        "Split the quotient into x^8/x^8 and y^4/y^3.",
+        "Subtract exponents on like bases: x⁰y¹.",
+        "Use x⁰ = 1 because x ≠ 0.",
+        "Answer: y. Substitute x = y = 2 to check both sides."
+      ],
+      "answer": "y",
+      "check": "Answer: y. Substitute x = y = 2 to check both sides.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "exponent",
+          "a": 6,
+          "b": 1,
+          "c": 5,
+          "d": 3,
+          "m": 4,
+          "k": 2,
+          "form": "product",
+          "result": "y"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l09-w11",
+      "problem": "Solve x² − 5x − 14 = 0.",
+      "actions": [
+        "Find two numbers with sum -5 and product -14: -7 and 2.",
+        "Factor: (x − 7)(x + 2) = 0.",
+        "A product is zero when at least one factor is zero.",
+        "Solve both branches: x = 7 or x = -2.",
+        "Answer: x = 7 or x = -2. Substitute each value into the original quadratic to obtain zero."
+      ],
+      "answer": "x = 7 or x = -2",
+      "check": "Answer: x = 7 or x = -2. Substitute each value into the original quadratic to obtain zero.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "quadratic",
+          "a": 7,
+          "b": 1,
+          "c": 5,
+          "d": 4,
+          "r": 7,
+          "t": -2,
+          "coefficient": -5,
+          "constant": -14,
+          "form": "two_roots",
+          "result": "x = 7 or x = -2"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l09-w12",
+      "problem": "Solve simultaneously: x + y = 4 and x − y = 0.",
+      "actions": [
+        "Write both equations in aligned columns: x+y=4 and x−y=0.",
+        "Add the equations: 2x = 4.",
+        "Divide by 2: x = 2.",
+        "Substitute into x+y=4: y=4−2=2.",
+        "Answer: x = 2, y = 2. Check x−y=2−2=0."
+      ],
+      "answer": "x = 2, y = 2",
+      "check": "Answer: x = 2, y = 2. Check x−y=2−2=0.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "simultaneous",
+          "a": 2,
+          "b": 2,
+          "c": 6,
+          "d": 1,
+          "x": 2,
+          "y": 2,
+          "u": 4,
+          "v": 0,
+          "form": "elimination",
+          "result": "x = 2, y = 2"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l09-w13",
+      "problem": "A trapezium has parallel sides 3 cm and 2 cm. Its area is A cm². Make the height h the subject of A = ½(3+2)h.",
+      "actions": [
+        "Start with A = ½(3+2)h.",
+        "Add the parallel sides: A = (5/2)h.",
+        "Multiply both sides by 2: 2A = 5h.",
+        "Divide both sides by 5: h = 2A/5.",
+        "Answer: h = 2A/5. Substituting into ½(5)h recovers A."
+      ],
+      "answer": "h = 2A/5",
+      "check": "Answer: h = 2A/5. Substituting into ½(5)h recovers A.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "literal",
+          "a": 3,
+          "b": 2,
+          "c": 6,
+          "d": 2,
+          "form": "trapezium",
+          "width": 5,
+          "result": "h = 2A/5"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-eei-l09-w14",
+      "problem": "Solve 3 − 4x ≥ -17. Give interval notation and show the solution on a number line.",
+      "actions": [
+        "Subtract 3 from both sides: −4x ≥ −20.",
+        "Divide by −4; reverse ≥ to ≤: x ≤ 5.",
+        "Mark a filled circle at 5 because equality is allowed.",
+        "Shade left and write the interval (−∞, 5].",
+        "Answer: x ≤ 5; (−∞, 5]. Test x=5 in the original and x=6 outside."
+      ],
+      "answer": "x ≤ 5; (−∞, 5]",
+      "check": "Answer: x ≤ 5; (−∞, 5]. Test x=5 in the original and x=6 outside.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "inequality",
+          "a": 4,
+          "b": 3,
+          "c": 6,
+          "d": 3,
+          "bound": 5,
+          "closed": true,
+          "direction": "left",
+          "form": "negative_divisor",
+          "k": 4,
+          "offset": 3,
+          "rhs": -17,
+          "result": "x ≤ 5; (−∞, 5]"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-eei-l09-w15",
+      "problem": "Simplify (x^5 · x^1)/x^7 for x ≠ 0.",
+      "actions": [
+        "Identify the same base x in both numerator factors.",
+        "Add numerator exponents: x^5 · x^1 = x^6.",
+        "Divide like bases: x^6/x^7 = x^−1.",
+        "Rewrite the negative power using x^−1 = 1/x (x ≠ 0).",
+        "Answer: 1/x, x ≠ 0. Multiplying by x gives 1."
+      ],
+      "answer": "1/x",
+      "check": "Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 9,
+          "kind": "exponent",
+          "a": 5,
+          "b": 3,
+          "c": 2,
+          "d": 4,
+          "m": 5,
+          "k": 1,
+          "form": "quotient",
+          "result": "1/x"
+        }
+      },
+      "lesson": 9,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-eei-l09-p01",
+      "prompt": "Solve x² − 11x + 30 = 0.",
+      "options": [
+        "x = −6 or x = 5",
+        "x = 6 or x = 5",
+        "x = 6 only",
+        "x = 5 only"
+      ],
+      "answer_index": 1,
+      "memo": "Find two numbers with sum -11 and product 30: -6 and -5. Factor: (x − 6)(x − 5) = 0. A product is zero when at least one factor is zero. Solve both branches: x = 6 or x = 5. Answer: x = 6 or x = 5. Substitute each value into the original quadratic to obtain zero.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p02",
+      "prompt": "Solve simultaneously: x + y = 11 and x − y = 3.",
+      "options": [
+        "x = 11, y = 3",
+        "x = 7, y = −4",
+        "x = 7, y = 4",
+        "x = 8, y = 3"
+      ],
+      "answer_index": 2,
+      "memo": "Write both equations in aligned columns: x+y=11 and x−y=3. Add the equations: 2x = 14. Divide by 2: x = 7. Substitute into x+y=11: y=11−7=4. Answer: x = 7, y = 4. Check x−y=7−4=3.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p03",
+      "prompt": "In v = u + 20t, make t the subject.",
+      "options": [
+        "t = (v + u)/20",
+        "t = 20(v − u)",
+        "t = (u − v)/20",
+        "t = (v − u)/20"
+      ],
+      "answer_index": 3,
+      "memo": "Start with v = u + 20t. Subtract u from both sides: v − u = 20t. The coefficient of t is 20. Divide both sides by 20. Answer: t = (v − u)/20; u + 20((v − u)/20) = v.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p04",
+      "prompt": "Solve 3x + 5 > 17. Give interval notation and show the solution on a number line.",
+      "options": [
+        "x > 4; (4, ∞)",
+        "x ≥ 4; [4, ∞)",
+        "x < 4; (−∞, 4)",
+        "x > 4; [4, ∞)"
+      ],
+      "answer_index": 0,
+      "memo": "Subtract 5 from both sides: 3x > 12. Divide by positive 3, preserving >: x > 4. Mark an open circle at 4 because equality is excluded. Shade right and write the interval (4, ∞). Answer: x > 4; (4, ∞). Test x=5 inside and x=4 outside.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p05",
+      "prompt": "Simplify 4x⁰ + x^−2 for x ≠ 0.",
+      "options": [
+        "5",
+        "4 + 1/x²",
+        "5/x²",
+        "4 + x²"
+      ],
+      "answer_index": 1,
+      "memo": "The zero exponent applies to x alone and x ≠ 0. Write x⁰ = 1, so 4x⁰ = 4. Rewrite x^−2 = 1/x². Add the two terms without combining unlike powers. Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p06",
+      "prompt": "Solve x² − 3x − 10 = 0.",
+      "options": [
+        "x = -2 only",
+        "x = −5 or x = -2",
+        "x = 5 or x = -2",
+        "x = 5 only"
+      ],
+      "answer_index": 2,
+      "memo": "Find two numbers with sum -3 and product -10: -5 and 2. Factor: (x − 5)(x + 2) = 0. A product is zero when at least one factor is zero. Solve both branches: x = 5 or x = -2. Answer: x = 5 or x = -2. Substitute each value into the original quadratic to obtain zero.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p07",
+      "prompt": "Solve simultaneously: x + y = 8 and x − y = 4.",
+      "options": [
+        "x = 7, y = 1",
+        "x = 8, y = 4",
+        "x = 6, y = −2",
+        "x = 6, y = 2"
+      ],
+      "answer_index": 3,
+      "memo": "Write both equations in aligned columns: x+y=8 and x−y=4. Add the equations: 2x = 12. Divide by 2: x = 6. Substitute into x+y=8: y=8−6=2. Answer: x = 6, y = 2. Check x−y=6−2=4.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p08",
+      "prompt": "A trapezium has parallel sides 7 cm and 2 cm. Its area is A cm². Make the height h the subject of A = ½(7+2)h.",
+      "options": [
+        "h = 2A/9",
+        "h = A/(2·9)",
+        "h = A/9",
+        "h = 9A/2"
+      ],
+      "answer_index": 0,
+      "memo": "Start with A = ½(7+2)h. Add the parallel sides: A = (9/2)h. Multiply both sides by 2: 2A = 9h. Divide both sides by 9: h = 2A/9. Answer: h = 2A/9. Substituting into ½(9)h recovers A.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p09",
+      "prompt": "Solve 3 − 2x ≥ -3. Give interval notation and show the solution on a number line.",
+      "options": [
+        "x ≤ 3; [3, ∞)",
+        "x ≤ 3; (−∞, 3]",
+        "x ≥ 3; [3, ∞)",
+        "x < 3; (−∞, 3)"
+      ],
+      "answer_index": 1,
+      "memo": "Subtract 3 from both sides: −2x ≥ −6. Divide by −2; reverse ≥ to ≤: x ≤ 3. Mark a filled circle at 3 because equality is allowed. Shade left and write the interval (−∞, 3]. Answer: x ≤ 3; (−∞, 3]. Test x=3 in the original and x=4 outside.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p10",
+      "prompt": "Simplify (x^3y^2)^2/(x^6y^3) for x,y ≠ 0.",
+      "options": [
+        "xy",
+        "1/y",
+        "y",
+        "x"
+      ],
+      "answer_index": 2,
+      "memo": "Square each factor: (x^3y^2)² = x^6y^4. Split the quotient into x^6/x^6 and y^4/y^3. Subtract exponents on like bases: x⁰y¹. Use x⁰ = 1 because x ≠ 0. Answer: y. Substitute x = y = 2 to check both sides.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p11",
+      "prompt": "Solve x² − 9x + 20 = 0.",
+      "options": [
+        "x = 4 only",
+        "x = 5 only",
+        "x = −4 or x = 5",
+        "x = 4 or x = 5"
+      ],
+      "answer_index": 3,
+      "memo": "Find two numbers with sum -9 and product 20: -4 and -5. Factor: (x − 4)(x − 5) = 0. A product is zero when at least one factor is zero. Solve both branches: x = 4 or x = 5. Answer: x = 4 or x = 5. Substitute each value into the original quadratic to obtain zero.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p12",
+      "prompt": "Solve simultaneously: x + y = 9 and x − y = 1.",
+      "options": [
+        "x = 5, y = 4",
+        "x = 6, y = 3",
+        "x = 9, y = 1",
+        "x = 5, y = −4"
+      ],
+      "answer_index": 0,
+      "memo": "Write both equations in aligned columns: x+y=9 and x−y=1. Add the equations: 2x = 10. Divide by 2: x = 5. Substitute into x+y=9: y=9−5=4. Answer: x = 5, y = 4. Check x−y=5−4=1.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p13",
+      "prompt": "In v = u + 11t, make t the subject.",
+      "options": [
+        "t = (u − v)/11",
+        "t = (v − u)/11",
+        "t = (v + u)/11",
+        "t = 11(v − u)"
+      ],
+      "answer_index": 1,
+      "memo": "Start with v = u + 11t. Subtract u from both sides: v − u = 11t. The coefficient of t is 11. Divide both sides by 11. Answer: t = (v − u)/11; u + 11((v − u)/11) = v.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p14",
+      "prompt": "Solve 4x + 5 > 37. Give interval notation and show the solution on a number line.",
+      "options": [
+        "x < 8; (−∞, 8)",
+        "x > 8; [8, ∞)",
+        "x > 8; (8, ∞)",
+        "x ≥ 8; [8, ∞)"
+      ],
+      "answer_index": 2,
+      "memo": "Subtract 5 from both sides: 4x > 32. Divide by positive 4, preserving >: x > 8. Mark an open circle at 8 because equality is excluded. Shade right and write the interval (8, ∞). Answer: x > 8; (8, ∞). Test x=9 inside and x=8 outside.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-p15",
+      "prompt": "Simplify (x^4 · x^1)/x^6 for x ≠ 0.",
+      "options": [
+        "x",
+        "0",
+        "1",
+        "1/x"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the same base x in both numerator factors. Add numerator exponents: x^4 · x^1 = x^5. Divide like bases: x^5/x^6 = x^−1. Rewrite the negative power using x^−1 = 1/x (x ≠ 0). Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "source": "grade10-eei-lesson-09.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-eei-l09-m16",
+      "prompt": "Solve x² − 11x + 30 = 0.",
+      "options": [
+        "x = 6 or x = 5",
+        "x = 6 only",
+        "x = 5 only",
+        "x = −6 or x = 5"
+      ],
+      "answer_index": 0,
+      "memo": "Find two numbers with sum -11 and product 30: -6 and -5. Factor: (x − 6)(x − 5) = 0. A product is zero when at least one factor is zero. Solve both branches: x = 6 or x = 5. Answer: x = 6 or x = 5. Substitute each value into the original quadratic to obtain zero.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-m17",
+      "prompt": "Solve simultaneously: x + y = 11 and x − y = 3.",
+      "options": [
+        "x = 7, y = −4",
+        "x = 7, y = 4",
+        "x = 8, y = 3",
+        "x = 11, y = 3"
+      ],
+      "answer_index": 1,
+      "memo": "Write both equations in aligned columns: x+y=11 and x−y=3. Add the equations: 2x = 14. Divide by 2: x = 7. Substitute into x+y=11: y=11−7=4. Answer: x = 7, y = 4. Check x−y=7−4=3.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-m18",
+      "prompt": "In v = u + 12t, make t the subject.",
+      "options": [
+        "t = 12(v − u)",
+        "t = (u − v)/12",
+        "t = (v − u)/12",
+        "t = (v + u)/12"
+      ],
+      "answer_index": 2,
+      "memo": "Start with v = u + 12t. Subtract u from both sides: v − u = 12t. The coefficient of t is 12. Divide both sides by 12. Answer: t = (v − u)/12; u + 12((v − u)/12) = v.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-m19",
+      "prompt": "Solve 3x + 5 > 17. Give interval notation and show the solution on a number line.",
+      "options": [
+        "x ≥ 4; [4, ∞)",
+        "x < 4; (−∞, 4)",
+        "x > 4; [4, ∞)",
+        "x > 4; (4, ∞)"
+      ],
+      "answer_index": 3,
+      "memo": "Subtract 5 from both sides: 3x > 12. Divide by positive 3, preserving >: x > 4. Mark an open circle at 4 because equality is excluded. Shade right and write the interval (4, ∞). Answer: x > 4; (4, ∞). Test x=5 inside and x=4 outside.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-m20",
+      "prompt": "Simplify 4x⁰ + x^−2 for x ≠ 0.",
+      "options": [
+        "4 + 1/x²",
+        "5/x²",
+        "4 + x²",
+        "5"
+      ],
+      "answer_index": 0,
+      "memo": "The zero exponent applies to x alone and x ≠ 0. Write x⁰ = 1, so 4x⁰ = 4. Rewrite x^−2 = 1/x². Add the two terms without combining unlike powers. Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5.",
+      "source": "grade10-eei-lesson-09.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-eei-l09-r21",
+      "prompt": "Solve x² − 7x + 10 = 0.",
+      "options": [
+        "x = −2 or x = 5",
+        "x = 2 or x = 5",
+        "x = 2 only",
+        "x = 5 only"
+      ],
+      "answer_index": 1,
+      "memo": "Find two numbers with sum -7 and product 10: -2 and -5. Factor: (x − 2)(x − 5) = 0. A product is zero when at least one factor is zero. Solve both branches: x = 2 or x = 5. Answer: x = 2 or x = 5. Substitute each value into the original quadratic to obtain zero.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-r22",
+      "prompt": "Solve simultaneously: x + y = 7 and x − y = -1.",
+      "options": [
+        "x = 7, y = -1",
+        "x = 3, y = −4",
+        "x = 3, y = 4",
+        "x = 4, y = 3"
+      ],
+      "answer_index": 2,
+      "memo": "Write both equations in aligned columns: x+y=7 and x−y=-1. Add the equations: 2x = 6. Divide by 2: x = 3. Substitute into x+y=7: y=7−3=4. Answer: x = 3, y = 4. Check x−y=3−4=-1.",
+      "source": "grade10-eei-lesson-09.md"
+    },
+    {
+      "id": "g10-eei-l09-r23",
+      "prompt": "In v = u + 13t, make t the subject.",
+      "options": [
+        "t = (v + u)/13",
+        "t = 13(v − u)",
+        "t = (u − v)/13",
+        "t = (v − u)/13"
+      ],
+      "answer_index": 3,
+      "memo": "Start with v = u + 13t. Subtract u from both sides: v − u = 13t. The coefficient of t is 13. Divide both sides by 13. Answer: t = (v − u)/13; u + 13((v − u)/13) = v.",
+      "source": "grade10-eei-lesson-09.md"
+    }
+  ]
+}

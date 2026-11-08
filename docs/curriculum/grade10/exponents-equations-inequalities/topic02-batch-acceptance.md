@@ -1,0 +1,3 @@
+# Grade 10 Topic 2: Exponents, Equations and Inequalities
+
+[DBE Grade 10 Mathematics ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2023%20ATPs/FET%20Content%20Subjects/Grade%2010/1.580%20ATP%202023-24%20Gr%2010%20Maths%20final.pdf) Term 1 covers integer and rational exponent laws; linear, quadratic, simultaneous and literal equations; applied problems; inequalities, number lines and interval notation. Nine authored lessons contain 135 worked examples, 135 four-choice practice, 45 mastery and 27 reassessments. Source implementation awaits teacher and live browser acceptance. Formula rearrangement is a reusable algebraic procedure illustrated by two formulas; it needs broader teacher review.

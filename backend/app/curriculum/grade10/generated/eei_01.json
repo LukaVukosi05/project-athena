@@ -1,0 +1,765 @@
+{
+  "source": "grade10-eei-lesson-01.md",
+  "worked": [
+    {
+      "id": "g10-eei-l01-w01",
+      "problem": "Simplify (x^3y^2)^2/(x^6y^3) for x,y ≠ 0.",
+      "actions": [
+        "Square each factor: (x^3y^2)² = x^6y^4.",
+        "Split the quotient into x^6/x^6 and y^4/y^3.",
+        "Subtract exponents on like bases: x⁰y¹.",
+        "Use x⁰ = 1 because x ≠ 0.",
+        "Answer: y. Substitute x = y = 2 to check both sides."
+      ],
+      "answer": "y",
+      "check": "Answer: y. Substitute x = y = 2 to check both sides.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 3,
+          "b": 1,
+          "c": 2,
+          "d": 2,
+          "m": 3,
+          "k": 2,
+          "form": "product",
+          "result": "y"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-eei-l01-w02",
+      "problem": "Simplify 4x⁰ + x^−2 for x ≠ 0.",
+      "actions": [
+        "The zero exponent applies to x alone and x ≠ 0.",
+        "Write x⁰ = 1, so 4x⁰ = 4.",
+        "Rewrite x^−2 = 1/x².",
+        "Add the two terms without combining unlike powers.",
+        "Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5."
+      ],
+      "answer": "4 + 1/x²",
+      "check": "Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 4,
+          "b": 2,
+          "c": 2,
+          "d": 3,
+          "form": "zero",
+          "result": "4 + 1/x²"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-eei-l01-w03",
+      "problem": "Simplify (x^5 · x^1)/x^7 for x ≠ 0.",
+      "actions": [
+        "Identify the same base x in both numerator factors.",
+        "Add numerator exponents: x^5 · x^1 = x^6.",
+        "Divide like bases: x^6/x^7 = x^−1.",
+        "Rewrite the negative power using x^−1 = 1/x (x ≠ 0).",
+        "Answer: 1/x, x ≠ 0. Multiplying by x gives 1."
+      ],
+      "answer": "1/x",
+      "check": "Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 5,
+          "b": 2,
+          "c": 3,
+          "d": 4,
+          "m": 5,
+          "k": 1,
+          "form": "quotient",
+          "result": "1/x"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l01-w04",
+      "problem": "Simplify (x^2y^2)^2/(x^4y^3) for x,y ≠ 0.",
+      "actions": [
+        "Square each factor: (x^2y^2)² = x^4y^4.",
+        "Split the quotient into x^4/x^4 and y^4/y^3.",
+        "Subtract exponents on like bases: x⁰y¹.",
+        "Use x⁰ = 1 because x ≠ 0.",
+        "Answer: y. Substitute x = y = 2 to check both sides."
+      ],
+      "answer": "y",
+      "check": "Answer: y. Substitute x = y = 2 to check both sides.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 6,
+          "b": 3,
+          "c": 3,
+          "d": 1,
+          "m": 2,
+          "k": 2,
+          "form": "product",
+          "result": "y"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l01-w05",
+      "problem": "Simplify 7x⁰ + x^−2 for x ≠ 0.",
+      "actions": [
+        "The zero exponent applies to x alone and x ≠ 0.",
+        "Write x⁰ = 1, so 7x⁰ = 7.",
+        "Rewrite x^−2 = 1/x².",
+        "Add the two terms without combining unlike powers.",
+        "Answer: 7 + 1/x²; x ≠ 0. At x = 1 both forms equal 8."
+      ],
+      "answer": "7 + 1/x²",
+      "check": "Answer: 7 + 1/x²; x ≠ 0. At x = 1 both forms equal 8.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 7,
+          "b": 3,
+          "c": 3,
+          "d": 2,
+          "form": "zero",
+          "result": "7 + 1/x²"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l01-w06",
+      "problem": "Simplify (x^4 · x^1)/x^6 for x ≠ 0.",
+      "actions": [
+        "Identify the same base x in both numerator factors.",
+        "Add numerator exponents: x^4 · x^1 = x^5.",
+        "Divide like bases: x^5/x^6 = x^−1.",
+        "Rewrite the negative power using x^−1 = 1/x (x ≠ 0).",
+        "Answer: 1/x, x ≠ 0. Multiplying by x gives 1."
+      ],
+      "answer": "1/x",
+      "check": "Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 2,
+          "b": 4,
+          "c": 4,
+          "d": 3,
+          "m": 4,
+          "k": 1,
+          "form": "quotient",
+          "result": "1/x"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l01-w07",
+      "problem": "Simplify (x^5y^2)^2/(x^10y^3) for x,y ≠ 0.",
+      "actions": [
+        "Square each factor: (x^5y^2)² = x^10y^4.",
+        "Split the quotient into x^10/x^10 and y^4/y^3.",
+        "Subtract exponents on like bases: x⁰y¹.",
+        "Use x⁰ = 1 because x ≠ 0.",
+        "Answer: y. Substitute x = y = 2 to check both sides."
+      ],
+      "answer": "y",
+      "check": "Answer: y. Substitute x = y = 2 to check both sides.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 3,
+          "b": 4,
+          "c": 4,
+          "d": 4,
+          "m": 5,
+          "k": 2,
+          "form": "product",
+          "result": "y"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l01-w08",
+      "problem": "Simplify 4x⁰ + x^−2 for x ≠ 0.",
+      "actions": [
+        "The zero exponent applies to x alone and x ≠ 0.",
+        "Write x⁰ = 1, so 4x⁰ = 4.",
+        "Rewrite x^−2 = 1/x².",
+        "Add the two terms without combining unlike powers.",
+        "Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5."
+      ],
+      "answer": "4 + 1/x²",
+      "check": "Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 4,
+          "b": 5,
+          "c": 4,
+          "d": 1,
+          "form": "zero",
+          "result": "4 + 1/x²"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l01-w09",
+      "problem": "Simplify (x^3 · x^1)/x^5 for x ≠ 0.",
+      "actions": [
+        "Identify the same base x in both numerator factors.",
+        "Add numerator exponents: x^3 · x^1 = x^4.",
+        "Divide like bases: x^4/x^5 = x^−1.",
+        "Rewrite the negative power using x^−1 = 1/x (x ≠ 0).",
+        "Answer: 1/x, x ≠ 0. Multiplying by x gives 1."
+      ],
+      "answer": "1/x",
+      "check": "Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 5,
+          "b": 5,
+          "c": 5,
+          "d": 2,
+          "m": 3,
+          "k": 1,
+          "form": "quotient",
+          "result": "1/x"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l01-w10",
+      "problem": "Simplify (x^4y^2)^2/(x^8y^3) for x,y ≠ 0.",
+      "actions": [
+        "Square each factor: (x^4y^2)² = x^8y^4.",
+        "Split the quotient into x^8/x^8 and y^4/y^3.",
+        "Subtract exponents on like bases: x⁰y¹.",
+        "Use x⁰ = 1 because x ≠ 0.",
+        "Answer: y. Substitute x = y = 2 to check both sides."
+      ],
+      "answer": "y",
+      "check": "Answer: y. Substitute x = y = 2 to check both sides.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 6,
+          "b": 1,
+          "c": 5,
+          "d": 3,
+          "m": 4,
+          "k": 2,
+          "form": "product",
+          "result": "y"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l01-w11",
+      "problem": "Simplify 7x⁰ + x^−2 for x ≠ 0.",
+      "actions": [
+        "The zero exponent applies to x alone and x ≠ 0.",
+        "Write x⁰ = 1, so 7x⁰ = 7.",
+        "Rewrite x^−2 = 1/x².",
+        "Add the two terms without combining unlike powers.",
+        "Answer: 7 + 1/x²; x ≠ 0. At x = 1 both forms equal 8."
+      ],
+      "answer": "7 + 1/x²",
+      "check": "Answer: 7 + 1/x²; x ≠ 0. At x = 1 both forms equal 8.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 7,
+          "b": 1,
+          "c": 5,
+          "d": 4,
+          "form": "zero",
+          "result": "7 + 1/x²"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l01-w12",
+      "problem": "Simplify (x^2 · x^1)/x^4 for x ≠ 0.",
+      "actions": [
+        "Identify the same base x in both numerator factors.",
+        "Add numerator exponents: x^2 · x^1 = x^3.",
+        "Divide like bases: x^3/x^4 = x^−1.",
+        "Rewrite the negative power using x^−1 = 1/x (x ≠ 0).",
+        "Answer: 1/x, x ≠ 0. Multiplying by x gives 1."
+      ],
+      "answer": "1/x",
+      "check": "Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 2,
+          "b": 2,
+          "c": 6,
+          "d": 1,
+          "m": 2,
+          "k": 1,
+          "form": "quotient",
+          "result": "1/x"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l01-w13",
+      "problem": "Simplify (x^3y^2)^2/(x^6y^3) for x,y ≠ 0.",
+      "actions": [
+        "Square each factor: (x^3y^2)² = x^6y^4.",
+        "Split the quotient into x^6/x^6 and y^4/y^3.",
+        "Subtract exponents on like bases: x⁰y¹.",
+        "Use x⁰ = 1 because x ≠ 0.",
+        "Answer: y. Substitute x = y = 2 to check both sides."
+      ],
+      "answer": "y",
+      "check": "Answer: y. Substitute x = y = 2 to check both sides.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 3,
+          "b": 2,
+          "c": 6,
+          "d": 2,
+          "m": 3,
+          "k": 2,
+          "form": "product",
+          "result": "y"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-eei-l01-w14",
+      "problem": "Simplify 4x⁰ + x^−2 for x ≠ 0.",
+      "actions": [
+        "The zero exponent applies to x alone and x ≠ 0.",
+        "Write x⁰ = 1, so 4x⁰ = 4.",
+        "Rewrite x^−2 = 1/x².",
+        "Add the two terms without combining unlike powers.",
+        "Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5."
+      ],
+      "answer": "4 + 1/x²",
+      "check": "Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 4,
+          "b": 3,
+          "c": 6,
+          "d": 3,
+          "form": "zero",
+          "result": "4 + 1/x²"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-eei-l01-w15",
+      "problem": "Simplify (x^5 · x^1)/x^7 for x ≠ 0.",
+      "actions": [
+        "Identify the same base x in both numerator factors.",
+        "Add numerator exponents: x^5 · x^1 = x^6.",
+        "Divide like bases: x^6/x^7 = x^−1.",
+        "Rewrite the negative power using x^−1 = 1/x (x ≠ 0).",
+        "Answer: 1/x, x ≠ 0. Multiplying by x gives 1."
+      ],
+      "answer": "1/x",
+      "check": "Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 1,
+          "kind": "exponent",
+          "a": 5,
+          "b": 3,
+          "c": 2,
+          "d": 4,
+          "m": 5,
+          "k": 1,
+          "form": "quotient",
+          "result": "1/x"
+        }
+      },
+      "lesson": 1,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-eei-l01-p01",
+      "prompt": "Simplify (x^2y^2)^2/(x^4y^3) for x,y ≠ 0.",
+      "options": [
+        "1/y",
+        "y",
+        "x",
+        "xy"
+      ],
+      "answer_index": 1,
+      "memo": "Square each factor: (x^2y^2)² = x^4y^4. Split the quotient into x^4/x^4 and y^4/y^3. Subtract exponents on like bases: x⁰y¹. Use x⁰ = 1 because x ≠ 0. Answer: y. Substitute x = y = 2 to check both sides.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p02",
+      "prompt": "Simplify 7x⁰ + x^−2 for x ≠ 0.",
+      "options": [
+        "7 + x²",
+        "8",
+        "7 + 1/x²",
+        "8/x²"
+      ],
+      "answer_index": 2,
+      "memo": "The zero exponent applies to x alone and x ≠ 0. Write x⁰ = 1, so 7x⁰ = 7. Rewrite x^−2 = 1/x². Add the two terms without combining unlike powers. Answer: 7 + 1/x²; x ≠ 0. At x = 1 both forms equal 8.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p03",
+      "prompt": "Simplify (x^4 · x^1)/x^6 for x ≠ 0.",
+      "options": [
+        "x",
+        "0",
+        "1",
+        "1/x"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the same base x in both numerator factors. Add numerator exponents: x^4 · x^1 = x^5. Divide like bases: x^5/x^6 = x^−1. Rewrite the negative power using x^−1 = 1/x (x ≠ 0). Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p04",
+      "prompt": "Simplify (x^5y^2)^2/(x^10y^3) for x,y ≠ 0.",
+      "options": [
+        "y",
+        "x",
+        "xy",
+        "1/y"
+      ],
+      "answer_index": 0,
+      "memo": "Square each factor: (x^5y^2)² = x^10y^4. Split the quotient into x^10/x^10 and y^4/y^3. Subtract exponents on like bases: x⁰y¹. Use x⁰ = 1 because x ≠ 0. Answer: y. Substitute x = y = 2 to check both sides.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p05",
+      "prompt": "Simplify 4x⁰ + x^−2 for x ≠ 0.",
+      "options": [
+        "5",
+        "4 + 1/x²",
+        "5/x²",
+        "4 + x²"
+      ],
+      "answer_index": 1,
+      "memo": "The zero exponent applies to x alone and x ≠ 0. Write x⁰ = 1, so 4x⁰ = 4. Rewrite x^−2 = 1/x². Add the two terms without combining unlike powers. Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p06",
+      "prompt": "Simplify (x^3 · x^1)/x^5 for x ≠ 0.",
+      "options": [
+        "0",
+        "1",
+        "1/x",
+        "x"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the same base x in both numerator factors. Add numerator exponents: x^3 · x^1 = x^4. Divide like bases: x^4/x^5 = x^−1. Rewrite the negative power using x^−1 = 1/x (x ≠ 0). Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p07",
+      "prompt": "Simplify (x^4y^2)^2/(x^8y^3) for x,y ≠ 0.",
+      "options": [
+        "x",
+        "xy",
+        "1/y",
+        "y"
+      ],
+      "answer_index": 3,
+      "memo": "Square each factor: (x^4y^2)² = x^8y^4. Split the quotient into x^8/x^8 and y^4/y^3. Subtract exponents on like bases: x⁰y¹. Use x⁰ = 1 because x ≠ 0. Answer: y. Substitute x = y = 2 to check both sides.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p08",
+      "prompt": "Simplify 7x⁰ + x^−2 for x ≠ 0.",
+      "options": [
+        "7 + 1/x²",
+        "8/x²",
+        "7 + x²",
+        "8"
+      ],
+      "answer_index": 0,
+      "memo": "The zero exponent applies to x alone and x ≠ 0. Write x⁰ = 1, so 7x⁰ = 7. Rewrite x^−2 = 1/x². Add the two terms without combining unlike powers. Answer: 7 + 1/x²; x ≠ 0. At x = 1 both forms equal 8.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p09",
+      "prompt": "Simplify (x^2 · x^1)/x^4 for x ≠ 0.",
+      "options": [
+        "1",
+        "1/x",
+        "x",
+        "0"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the same base x in both numerator factors. Add numerator exponents: x^2 · x^1 = x^3. Divide like bases: x^3/x^4 = x^−1. Rewrite the negative power using x^−1 = 1/x (x ≠ 0). Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p10",
+      "prompt": "Simplify (x^3y^2)^2/(x^6y^3) for x,y ≠ 0.",
+      "options": [
+        "xy",
+        "1/y",
+        "y",
+        "x"
+      ],
+      "answer_index": 2,
+      "memo": "Square each factor: (x^3y^2)² = x^6y^4. Split the quotient into x^6/x^6 and y^4/y^3. Subtract exponents on like bases: x⁰y¹. Use x⁰ = 1 because x ≠ 0. Answer: y. Substitute x = y = 2 to check both sides.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p11",
+      "prompt": "Simplify 4x⁰ + x^−2 for x ≠ 0.",
+      "options": [
+        "5/x²",
+        "4 + x²",
+        "5",
+        "4 + 1/x²"
+      ],
+      "answer_index": 3,
+      "memo": "The zero exponent applies to x alone and x ≠ 0. Write x⁰ = 1, so 4x⁰ = 4. Rewrite x^−2 = 1/x². Add the two terms without combining unlike powers. Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p12",
+      "prompt": "Simplify (x^5 · x^1)/x^7 for x ≠ 0.",
+      "options": [
+        "1/x",
+        "x",
+        "0",
+        "1"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the same base x in both numerator factors. Add numerator exponents: x^5 · x^1 = x^6. Divide like bases: x^6/x^7 = x^−1. Rewrite the negative power using x^−1 = 1/x (x ≠ 0). Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p13",
+      "prompt": "Simplify (x^2y^2)^2/(x^4y^3) for x,y ≠ 0.",
+      "options": [
+        "1/y",
+        "y",
+        "x",
+        "xy"
+      ],
+      "answer_index": 1,
+      "memo": "Square each factor: (x^2y^2)² = x^4y^4. Split the quotient into x^4/x^4 and y^4/y^3. Subtract exponents on like bases: x⁰y¹. Use x⁰ = 1 because x ≠ 0. Answer: y. Substitute x = y = 2 to check both sides.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p14",
+      "prompt": "Simplify 7x⁰ + x^−2 for x ≠ 0.",
+      "options": [
+        "7 + x²",
+        "8",
+        "7 + 1/x²",
+        "8/x²"
+      ],
+      "answer_index": 2,
+      "memo": "The zero exponent applies to x alone and x ≠ 0. Write x⁰ = 1, so 7x⁰ = 7. Rewrite x^−2 = 1/x². Add the two terms without combining unlike powers. Answer: 7 + 1/x²; x ≠ 0. At x = 1 both forms equal 8.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-p15",
+      "prompt": "Simplify (x^4 · x^1)/x^6 for x ≠ 0.",
+      "options": [
+        "x",
+        "0",
+        "1",
+        "1/x"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the same base x in both numerator factors. Add numerator exponents: x^4 · x^1 = x^5. Divide like bases: x^5/x^6 = x^−1. Rewrite the negative power using x^−1 = 1/x (x ≠ 0). Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "source": "grade10-eei-lesson-01.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-eei-l01-m16",
+      "prompt": "Simplify (x^4y^2)^2/(x^8y^3) for x,y ≠ 0.",
+      "options": [
+        "y",
+        "x",
+        "xy",
+        "1/y"
+      ],
+      "answer_index": 0,
+      "memo": "Square each factor: (x^4y^2)² = x^8y^4. Split the quotient into x^8/x^8 and y^4/y^3. Subtract exponents on like bases: x⁰y¹. Use x⁰ = 1 because x ≠ 0. Answer: y. Substitute x = y = 2 to check both sides.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-m17",
+      "prompt": "Simplify 7x⁰ + x^−2 for x ≠ 0.",
+      "options": [
+        "8",
+        "7 + 1/x²",
+        "8/x²",
+        "7 + x²"
+      ],
+      "answer_index": 1,
+      "memo": "The zero exponent applies to x alone and x ≠ 0. Write x⁰ = 1, so 7x⁰ = 7. Rewrite x^−2 = 1/x². Add the two terms without combining unlike powers. Answer: 7 + 1/x²; x ≠ 0. At x = 1 both forms equal 8.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-m18",
+      "prompt": "Simplify (x^2 · x^1)/x^4 for x ≠ 0.",
+      "options": [
+        "0",
+        "1",
+        "1/x",
+        "x"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the same base x in both numerator factors. Add numerator exponents: x^2 · x^1 = x^3. Divide like bases: x^3/x^4 = x^−1. Rewrite the negative power using x^−1 = 1/x (x ≠ 0). Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-m19",
+      "prompt": "Simplify (x^3y^2)^2/(x^6y^3) for x,y ≠ 0.",
+      "options": [
+        "x",
+        "xy",
+        "1/y",
+        "y"
+      ],
+      "answer_index": 3,
+      "memo": "Square each factor: (x^3y^2)² = x^6y^4. Split the quotient into x^6/x^6 and y^4/y^3. Subtract exponents on like bases: x⁰y¹. Use x⁰ = 1 because x ≠ 0. Answer: y. Substitute x = y = 2 to check both sides.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-m20",
+      "prompt": "Simplify 4x⁰ + x^−2 for x ≠ 0.",
+      "options": [
+        "4 + 1/x²",
+        "5/x²",
+        "4 + x²",
+        "5"
+      ],
+      "answer_index": 0,
+      "memo": "The zero exponent applies to x alone and x ≠ 0. Write x⁰ = 1, so 4x⁰ = 4. Rewrite x^−2 = 1/x². Add the two terms without combining unlike powers. Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5.",
+      "source": "grade10-eei-lesson-01.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-eei-l01-r21",
+      "prompt": "Simplify (x^4 · x^1)/x^6 for x ≠ 0.",
+      "options": [
+        "1",
+        "1/x",
+        "x",
+        "0"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the same base x in both numerator factors. Add numerator exponents: x^4 · x^1 = x^5. Divide like bases: x^5/x^6 = x^−1. Rewrite the negative power using x^−1 = 1/x (x ≠ 0). Answer: 1/x, x ≠ 0. Multiplying by x gives 1.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-r22",
+      "prompt": "Simplify (x^5y^2)^2/(x^10y^3) for x,y ≠ 0.",
+      "options": [
+        "xy",
+        "1/y",
+        "y",
+        "x"
+      ],
+      "answer_index": 2,
+      "memo": "Square each factor: (x^5y^2)² = x^10y^4. Split the quotient into x^10/x^10 and y^4/y^3. Subtract exponents on like bases: x⁰y¹. Use x⁰ = 1 because x ≠ 0. Answer: y. Substitute x = y = 2 to check both sides.",
+      "source": "grade10-eei-lesson-01.md"
+    },
+    {
+      "id": "g10-eei-l01-r23",
+      "prompt": "Simplify 4x⁰ + x^−2 for x ≠ 0.",
+      "options": [
+        "5/x²",
+        "4 + x²",
+        "5",
+        "4 + 1/x²"
+      ],
+      "answer_index": 3,
+      "memo": "The zero exponent applies to x alone and x ≠ 0. Write x⁰ = 1, so 4x⁰ = 4. Rewrite x^−2 = 1/x². Add the two terms without combining unlike powers. Answer: 4 + 1/x²; x ≠ 0. At x = 1 both forms equal 5.",
+      "source": "grade10-eei-lesson-01.md"
+    }
+  ]
+}

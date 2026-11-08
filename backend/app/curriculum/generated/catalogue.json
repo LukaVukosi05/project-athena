@@ -1914,6 +1914,88 @@
               "source_document": "grade10-algebra-lesson-06.md"
             }
           ]
+        },
+        {
+          "topic_id": "exponents-equations-inequalities",
+          "topic_number": 2,
+          "title": "Exponents, Equations and Inequalities",
+          "paper": "Paper 1",
+          "expected_lesson_count": 9,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g10-eei-01",
+              "position": 1,
+              "title": "Exponent laws and zero or negative powers",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "grade10-eei-lesson-01.md"
+            },
+            {
+              "lesson_id": "g10-eei-02",
+              "position": 2,
+              "title": "Fractional exponents and exponential equations",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-eei-lesson-02.md"
+            },
+            {
+              "lesson_id": "g10-eei-03",
+              "position": 3,
+              "title": "Linear equations with brackets and fractions",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-eei-lesson-03.md"
+            },
+            {
+              "lesson_id": "g10-eei-04",
+              "position": 4,
+              "title": "Quadratic equations by factorisation",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-eei-lesson-04.md"
+            },
+            {
+              "lesson_id": "g10-eei-05",
+              "position": 5,
+              "title": "Simultaneous linear equations",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-eei-lesson-05.md"
+            },
+            {
+              "lesson_id": "g10-eei-06",
+              "position": 6,
+              "title": "Word problems: translate, solve and interpret",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-eei-lesson-06.md"
+            },
+            {
+              "lesson_id": "g10-eei-07",
+              "position": 7,
+              "title": "Literal equations and changing the subject",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-eei-lesson-07.md"
+            },
+            {
+              "lesson_id": "g10-eei-08",
+              "position": 8,
+              "title": "Linear inequalities and interval notation",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-eei-lesson-08.md"
+            },
+            {
+              "lesson_id": "g10-eei-09",
+              "position": 9,
+              "title": "Mixed methods, first-error diagnosis and reassessment",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-eei-lesson-09.md"
+            }
+          ]
         }
       ]
     },

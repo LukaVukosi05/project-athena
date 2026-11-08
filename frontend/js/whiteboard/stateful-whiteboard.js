@@ -110,7 +110,7 @@ class StatefulWhiteboard {
     const writtenSteps = this.block.steps.slice(0, this.index + (phase === "result" ? 1 : 0));
     const visualType = this.block.visualization?.type || this.visualSession?.type;
     const graphVisual = visualType === "coordinate_geometry" || visualType === "graphs";
-    const grade9VisualTrace = /^(g9-shapes|g9-area|g9-data|g9-prob|g9-solid|g9-sv|g9-tg|g10-algebra)-/.test(this.block.id || "");
+    const grade9VisualTrace = /^(g9-shapes|g9-area|g9-data|g9-prob|g9-solid|g9-sv|g9-tg|g10-algebra|g10-eei)-/.test(this.block.id || "");
     const showWrittenTrace = visualType === "algebra" || graphVisual || grade9VisualTrace;
     const visualMarkup = `${visualization}${renderer.render(step, phase, { history, hasVisualization:Boolean(this.visualSession) })}`;
     const fractionText = ["grade8_fraction_strips", "grade8_fraction_operations", "grade8_fraction_powers_context"].includes(this.block.visualization?.template) && globalThis.AthenaFractionNotation ? globalThis.AthenaFractionNotation.html : escapeWhiteboardHtml;

@@ -1,0 +1,110 @@
+[
+  {
+    "lesson_id": "g10-eei-01",
+    "source": "grade10-eei-lesson-01.md",
+    "source_sha256": "7c97b606b881382ce7257b53472457ff4484f5157a214454c3dd99185627b613",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-eei-02",
+    "source": "grade10-eei-lesson-02.md",
+    "source_sha256": "ab2ae6de0a1fd7d8d383cf7fef76f751250be8bf06d50aba44abcfcc95cbaab4",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-eei-03",
+    "source": "grade10-eei-lesson-03.md",
+    "source_sha256": "119d966b24e07dd137a55d1cfdd99d0b399c47581b33bf52f5841cadb7f4f926",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-eei-04",
+    "source": "grade10-eei-lesson-04.md",
+    "source_sha256": "fe6a3bc9ea3e3f9a616ece0e3834bfec0c83860511c51d609348df981811a53d",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-eei-05",
+    "source": "grade10-eei-lesson-05.md",
+    "source_sha256": "569a3b9173ecb7feb9ae3d09f215f07a6a89875e26a36561e59325176e5fbdfc",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-eei-06",
+    "source": "grade10-eei-lesson-06.md",
+    "source_sha256": "f341c1a9d1e542e4dbe1ea2665d2a27afc478a7303d669b34c942c5c31f6c738",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-eei-07",
+    "source": "grade10-eei-lesson-07.md",
+    "source_sha256": "602f2cb3c5dea0692eb7b3e0c40eba1c9751f17ae345f1c0ad276b5c1a8e89a7",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-eei-08",
+    "source": "grade10-eei-lesson-08.md",
+    "source_sha256": "610cab71f580938cf1c912424b8edfbde1f0075e007ac08d1cd8d56fd36abdde",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-eei-09",
+    "source": "grade10-eei-lesson-09.md",
+    "source_sha256": "7e7717948d790375c421651c612a2315b8f367c3b58c00727d725c565c15abfc",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

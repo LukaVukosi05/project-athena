@@ -382,5 +382,14 @@
   "statistics:spread_number_line",
   "trigonometry:oblique_triangle",
   "trigonometry:right_triangle",
-  "trigonometry:unit_circle"
+  "trigonometry:unit_circle",
+  "algebra:grade10_eei_1",
+  "algebra:grade10_eei_2",
+  "algebra:grade10_eei_3",
+  "algebra:grade10_eei_4",
+  "algebra:grade10_eei_5",
+  "algebra:grade10_eei_6",
+  "algebra:grade10_eei_7",
+  "algebra:grade10_eei_8",
+  "algebra:grade10_eei_9"
 ]

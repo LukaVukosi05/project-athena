@@ -173,6 +173,13 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     for result_key in ("answer","coefficients","decimal","excluded","lower","upper","first","second","a","b","c","d","t","middle"):
                         givens.pop(result_key,None)
                     scene["visual"]={"family":"grade10_expressions","values":givens}
+                elif lesson.id.startswith("g10-eei-"):
+                    givens=dict(scene["visual"]["values"])
+                    for result_key in ("result","base","target","rhs","r","t","coefficient","constant","x","y","u","v","total","perimeter","width","bound","closed","direction"):
+                        givens.pop(result_key,None)
+                    if givens.get("form")=="purchase":
+                        givens.pop("a",None)
+                    scene["visual"]={"family":"grade10_equations","values":givens}
                 elif lesson.id.startswith("g9-tg-"):
                     givens=dict(scene["visual"]["values"])
                     for result_key in ("image", "original_area", "rule"):

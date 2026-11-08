@@ -149,6 +149,7 @@ for(let number=1;number<=7;number++)registerTeachingOperation(`grade9_graph_${nu
 for(let number=1;number<=5;number++)registerTeachingOperation(`grade9_lines_${number}_step`);
 for(let number=1;number<=8;number++)registerTeachingOperation(`grade9_shapes_${number}_step`);
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade10_algebra_${number}_step`);
+for(let number=1;number<=9;number++)registerTeachingOperation(`grade10_eei_${number}_step`);
 for(let number=1;number<=7;number++)registerTeachingOperation(`grade9_transform_${number}_step`);
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade9_surface_${number}_step`);
 for(let number=1;number<=4;number++)registerTeachingOperation(`grade9_solid_${number}_step`);

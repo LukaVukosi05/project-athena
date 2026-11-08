@@ -1,0 +1,775 @@
+{
+  "source": "grade10-eei-lesson-03.md",
+  "worked": [
+    {
+      "id": "g10-eei-l03-w01",
+      "problem": "Solve 3(x + 1) + 2 = 20.",
+      "actions": [
+        "Expand the left bracket: 3x + 3 + 2 = 20.",
+        "Combine constants: 3x + 5 = 20.",
+        "Subtract 5 from both sides: 3x = 15.",
+        "Divide both sides by 3: x = 5.",
+        "Answer: x = 5. Substitute: 3(5+1)+2 = 20."
+      ],
+      "answer": "x = 5",
+      "check": "Answer: x = 5. Substitute: 3(5+1)+2 = 20.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 3,
+          "b": 1,
+          "c": 2,
+          "d": 2,
+          "target": 5,
+          "rhs": 20,
+          "form": "balance",
+          "result": "x = 5"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-eei-l03-w02",
+      "problem": "Solve 4(x + 2) + 2 = 34.",
+      "actions": [
+        "Expand the left bracket: 4x + 8 + 2 = 34.",
+        "Combine constants: 4x + 10 = 34.",
+        "Subtract 10 from both sides: 4x = 24.",
+        "Divide both sides by 4: x = 6.",
+        "Answer: x = 6. Substitute: 4(6+2)+2 = 34."
+      ],
+      "answer": "x = 6",
+      "check": "Answer: x = 6. Substitute: 4(6+2)+2 = 34.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 4,
+          "b": 2,
+          "c": 2,
+          "d": 3,
+          "target": 6,
+          "rhs": 34,
+          "form": "balance",
+          "result": "x = 6"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-eei-l03-w03",
+      "problem": "Solve 5(x + 2) + 3 = 48.",
+      "actions": [
+        "Expand the left bracket: 5x + 10 + 3 = 48.",
+        "Combine constants: 5x + 13 = 48.",
+        "Subtract 13 from both sides: 5x = 35.",
+        "Divide both sides by 5: x = 7.",
+        "Answer: x = 7. Substitute: 5(7+2)+3 = 48."
+      ],
+      "answer": "x = 7",
+      "check": "Answer: x = 7. Substitute: 5(7+2)+3 = 48.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 5,
+          "b": 2,
+          "c": 3,
+          "d": 4,
+          "target": 7,
+          "rhs": 48,
+          "form": "balance",
+          "result": "x = 7"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l03-w04",
+      "problem": "Solve 6(x + 3) + 3 = 69.",
+      "actions": [
+        "Expand the left bracket: 6x + 18 + 3 = 69.",
+        "Combine constants: 6x + 21 = 69.",
+        "Subtract 21 from both sides: 6x = 48.",
+        "Divide both sides by 6: x = 8.",
+        "Answer: x = 8. Substitute: 6(8+3)+3 = 69."
+      ],
+      "answer": "x = 8",
+      "check": "Answer: x = 8. Substitute: 6(8+3)+3 = 69.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 6,
+          "b": 3,
+          "c": 3,
+          "d": 1,
+          "target": 8,
+          "rhs": 69,
+          "form": "balance",
+          "result": "x = 8"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l03-w05",
+      "problem": "Solve 7(x + 3) + 3 = 87.",
+      "actions": [
+        "Expand the left bracket: 7x + 21 + 3 = 87.",
+        "Combine constants: 7x + 24 = 87.",
+        "Subtract 24 from both sides: 7x = 63.",
+        "Divide both sides by 7: x = 9.",
+        "Answer: x = 9. Substitute: 7(9+3)+3 = 87."
+      ],
+      "answer": "x = 9",
+      "check": "Answer: x = 9. Substitute: 7(9+3)+3 = 87.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 7,
+          "b": 3,
+          "c": 3,
+          "d": 2,
+          "target": 9,
+          "rhs": 87,
+          "form": "balance",
+          "result": "x = 9"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-eei-l03-w06",
+      "problem": "Solve 2(x + 4) + 4 = 20.",
+      "actions": [
+        "Expand the left bracket: 2x + 8 + 4 = 20.",
+        "Combine constants: 2x + 12 = 20.",
+        "Subtract 12 from both sides: 2x = 8.",
+        "Divide both sides by 2: x = 4.",
+        "Answer: x = 4. Substitute: 2(4+4)+4 = 20."
+      ],
+      "answer": "x = 4",
+      "check": "Answer: x = 4. Substitute: 2(4+4)+4 = 20.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 2,
+          "b": 4,
+          "c": 4,
+          "d": 3,
+          "target": 4,
+          "rhs": 20,
+          "form": "balance",
+          "result": "x = 4"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l03-w07",
+      "problem": "Solve 3(x + 4) + 4 = 31.",
+      "actions": [
+        "Expand the left bracket: 3x + 12 + 4 = 31.",
+        "Combine constants: 3x + 16 = 31.",
+        "Subtract 16 from both sides: 3x = 15.",
+        "Divide both sides by 3: x = 5.",
+        "Answer: x = 5. Substitute: 3(5+4)+4 = 31."
+      ],
+      "answer": "x = 5",
+      "check": "Answer: x = 5. Substitute: 3(5+4)+4 = 31.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 3,
+          "b": 4,
+          "c": 4,
+          "d": 4,
+          "target": 5,
+          "rhs": 31,
+          "form": "balance",
+          "result": "x = 5"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l03-w08",
+      "problem": "Solve 4(x + 5) + 4 = 48.",
+      "actions": [
+        "Expand the left bracket: 4x + 20 + 4 = 48.",
+        "Combine constants: 4x + 24 = 48.",
+        "Subtract 24 from both sides: 4x = 24.",
+        "Divide both sides by 4: x = 6.",
+        "Answer: x = 6. Substitute: 4(6+5)+4 = 48."
+      ],
+      "answer": "x = 6",
+      "check": "Answer: x = 6. Substitute: 4(6+5)+4 = 48.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 4,
+          "b": 5,
+          "c": 4,
+          "d": 1,
+          "target": 6,
+          "rhs": 48,
+          "form": "balance",
+          "result": "x = 6"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l03-w09",
+      "problem": "Solve 5(x + 5) + 5 = 65.",
+      "actions": [
+        "Expand the left bracket: 5x + 25 + 5 = 65.",
+        "Combine constants: 5x + 30 = 65.",
+        "Subtract 30 from both sides: 5x = 35.",
+        "Divide both sides by 5: x = 7.",
+        "Answer: x = 7. Substitute: 5(7+5)+5 = 65."
+      ],
+      "answer": "x = 7",
+      "check": "Answer: x = 7. Substitute: 5(7+5)+5 = 65.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 5,
+          "b": 5,
+          "c": 5,
+          "d": 2,
+          "target": 7,
+          "rhs": 65,
+          "form": "balance",
+          "result": "x = 7"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-eei-l03-w10",
+      "problem": "Solve 6(x + 1) + 5 = 59.",
+      "actions": [
+        "Expand the left bracket: 6x + 6 + 5 = 59.",
+        "Combine constants: 6x + 11 = 59.",
+        "Subtract 11 from both sides: 6x = 48.",
+        "Divide both sides by 6: x = 8.",
+        "Answer: x = 8. Substitute: 6(8+1)+5 = 59."
+      ],
+      "answer": "x = 8",
+      "check": "Answer: x = 8. Substitute: 6(8+1)+5 = 59.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 6,
+          "b": 1,
+          "c": 5,
+          "d": 3,
+          "target": 8,
+          "rhs": 59,
+          "form": "balance",
+          "result": "x = 8"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l03-w11",
+      "problem": "Solve 7(x + 1) + 5 = 75.",
+      "actions": [
+        "Expand the left bracket: 7x + 7 + 5 = 75.",
+        "Combine constants: 7x + 12 = 75.",
+        "Subtract 12 from both sides: 7x = 63.",
+        "Divide both sides by 7: x = 9.",
+        "Answer: x = 9. Substitute: 7(9+1)+5 = 75."
+      ],
+      "answer": "x = 9",
+      "check": "Answer: x = 9. Substitute: 7(9+1)+5 = 75.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 7,
+          "b": 1,
+          "c": 5,
+          "d": 4,
+          "target": 9,
+          "rhs": 75,
+          "form": "balance",
+          "result": "x = 9"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l03-w12",
+      "problem": "Solve 2(x + 2) + 6 = 18.",
+      "actions": [
+        "Expand the left bracket: 2x + 4 + 6 = 18.",
+        "Combine constants: 2x + 10 = 18.",
+        "Subtract 10 from both sides: 2x = 8.",
+        "Divide both sides by 2: x = 4.",
+        "Answer: x = 4. Substitute: 2(4+2)+6 = 18."
+      ],
+      "answer": "x = 4",
+      "check": "Answer: x = 4. Substitute: 2(4+2)+6 = 18.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 2,
+          "b": 2,
+          "c": 6,
+          "d": 1,
+          "target": 4,
+          "rhs": 18,
+          "form": "balance",
+          "result": "x = 4"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-eei-l03-w13",
+      "problem": "Solve 3(x + 2) + 6 = 27.",
+      "actions": [
+        "Expand the left bracket: 3x + 6 + 6 = 27.",
+        "Combine constants: 3x + 12 = 27.",
+        "Subtract 12 from both sides: 3x = 15.",
+        "Divide both sides by 3: x = 5.",
+        "Answer: x = 5. Substitute: 3(5+2)+6 = 27."
+      ],
+      "answer": "x = 5",
+      "check": "Answer: x = 5. Substitute: 3(5+2)+6 = 27.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 3,
+          "b": 2,
+          "c": 6,
+          "d": 2,
+          "target": 5,
+          "rhs": 27,
+          "form": "balance",
+          "result": "x = 5"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-eei-l03-w14",
+      "problem": "Solve 4(x + 3) + 6 = 42.",
+      "actions": [
+        "Expand the left bracket: 4x + 12 + 6 = 42.",
+        "Combine constants: 4x + 18 = 42.",
+        "Subtract 18 from both sides: 4x = 24.",
+        "Divide both sides by 4: x = 6.",
+        "Answer: x = 6. Substitute: 4(6+3)+6 = 42."
+      ],
+      "answer": "x = 6",
+      "check": "Answer: x = 6. Substitute: 4(6+3)+6 = 42.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 4,
+          "b": 3,
+          "c": 6,
+          "d": 3,
+          "target": 6,
+          "rhs": 42,
+          "form": "balance",
+          "result": "x = 6"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-eei-l03-w15",
+      "problem": "Solve 5(x + 3) + 2 = 52.",
+      "actions": [
+        "Expand the left bracket: 5x + 15 + 2 = 52.",
+        "Combine constants: 5x + 17 = 52.",
+        "Subtract 17 from both sides: 5x = 35.",
+        "Divide both sides by 5: x = 7.",
+        "Answer: x = 7. Substitute: 5(7+3)+2 = 52."
+      ],
+      "answer": "x = 7",
+      "check": "Answer: x = 7. Substitute: 5(7+3)+2 = 52.",
+      "visual": {
+        "family": "grade10_equations",
+        "values": {
+          "lesson": 3,
+          "kind": "linear",
+          "a": 5,
+          "b": 3,
+          "c": 2,
+          "d": 4,
+          "target": 7,
+          "rhs": 52,
+          "form": "balance",
+          "result": "x = 7"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Check the first sign, branch, equation, unit or domain restriction against the original question.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-eei-l03-p01",
+      "prompt": "Solve 6(x + 4) + 2 = 74.",
+      "options": [
+        "x = 10",
+        "x = 8",
+        "x = 9",
+        "x = 7"
+      ],
+      "answer_index": 1,
+      "memo": "Expand the left bracket: 6x + 24 + 2 = 74. Combine constants: 6x + 26 = 74. Subtract 26 from both sides: 6x = 48. Divide both sides by 6: x = 8. Answer: x = 8. Substitute: 6(8+4)+2 = 74.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p02",
+      "prompt": "Solve 7(x + 4) + 2 = 93.",
+      "options": [
+        "x = 8",
+        "x = 11",
+        "x = 9",
+        "x = 10"
+      ],
+      "answer_index": 2,
+      "memo": "Expand the left bracket: 7x + 28 + 2 = 93. Combine constants: 7x + 30 = 93. Subtract 30 from both sides: 7x = 63. Divide both sides by 7: x = 9. Answer: x = 9. Substitute: 7(9+4)+2 = 93.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p03",
+      "prompt": "Solve 2(x + 5) + 3 = 21.",
+      "options": [
+        "x = 5",
+        "x = 3",
+        "x = 6",
+        "x = 4"
+      ],
+      "answer_index": 3,
+      "memo": "Expand the left bracket: 2x + 10 + 3 = 21. Combine constants: 2x + 13 = 21. Subtract 13 from both sides: 2x = 8. Divide both sides by 2: x = 4. Answer: x = 4. Substitute: 2(4+5)+3 = 21.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p04",
+      "prompt": "Solve 3(x + 5) + 3 = 33.",
+      "options": [
+        "x = 5",
+        "x = 6",
+        "x = 4",
+        "x = 7"
+      ],
+      "answer_index": 0,
+      "memo": "Expand the left bracket: 3x + 15 + 3 = 33. Combine constants: 3x + 18 = 33. Subtract 18 from both sides: 3x = 15. Divide both sides by 3: x = 5. Answer: x = 5. Substitute: 3(5+5)+3 = 33.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p05",
+      "prompt": "Solve 4(x + 1) + 3 = 31.",
+      "options": [
+        "x = 8",
+        "x = 6",
+        "x = 7",
+        "x = 5"
+      ],
+      "answer_index": 1,
+      "memo": "Expand the left bracket: 4x + 4 + 3 = 31. Combine constants: 4x + 7 = 31. Subtract 7 from both sides: 4x = 24. Divide both sides by 4: x = 6. Answer: x = 6. Substitute: 4(6+1)+3 = 31.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p06",
+      "prompt": "Solve 5(x + 1) + 4 = 44.",
+      "options": [
+        "x = 6",
+        "x = 9",
+        "x = 7",
+        "x = 8"
+      ],
+      "answer_index": 2,
+      "memo": "Expand the left bracket: 5x + 5 + 4 = 44. Combine constants: 5x + 9 = 44. Subtract 9 from both sides: 5x = 35. Divide both sides by 5: x = 7. Answer: x = 7. Substitute: 5(7+1)+4 = 44.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p07",
+      "prompt": "Solve 6(x + 2) + 4 = 64.",
+      "options": [
+        "x = 9",
+        "x = 7",
+        "x = 10",
+        "x = 8"
+      ],
+      "answer_index": 3,
+      "memo": "Expand the left bracket: 6x + 12 + 4 = 64. Combine constants: 6x + 16 = 64. Subtract 16 from both sides: 6x = 48. Divide both sides by 6: x = 8. Answer: x = 8. Substitute: 6(8+2)+4 = 64.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p08",
+      "prompt": "Solve 7(x + 2) + 4 = 81.",
+      "options": [
+        "x = 9",
+        "x = 10",
+        "x = 8",
+        "x = 11"
+      ],
+      "answer_index": 0,
+      "memo": "Expand the left bracket: 7x + 14 + 4 = 81. Combine constants: 7x + 18 = 81. Subtract 18 from both sides: 7x = 63. Divide both sides by 7: x = 9. Answer: x = 9. Substitute: 7(9+2)+4 = 81.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p09",
+      "prompt": "Solve 2(x + 3) + 5 = 19.",
+      "options": [
+        "x = 6",
+        "x = 4",
+        "x = 5",
+        "x = 3"
+      ],
+      "answer_index": 1,
+      "memo": "Expand the left bracket: 2x + 6 + 5 = 19. Combine constants: 2x + 11 = 19. Subtract 11 from both sides: 2x = 8. Divide both sides by 2: x = 4. Answer: x = 4. Substitute: 2(4+3)+5 = 19.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p10",
+      "prompt": "Solve 3(x + 3) + 5 = 29.",
+      "options": [
+        "x = 4",
+        "x = 7",
+        "x = 5",
+        "x = 6"
+      ],
+      "answer_index": 2,
+      "memo": "Expand the left bracket: 3x + 9 + 5 = 29. Combine constants: 3x + 14 = 29. Subtract 14 from both sides: 3x = 15. Divide both sides by 3: x = 5. Answer: x = 5. Substitute: 3(5+3)+5 = 29.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p11",
+      "prompt": "Solve 4(x + 4) + 5 = 45.",
+      "options": [
+        "x = 7",
+        "x = 5",
+        "x = 8",
+        "x = 6"
+      ],
+      "answer_index": 3,
+      "memo": "Expand the left bracket: 4x + 16 + 5 = 45. Combine constants: 4x + 21 = 45. Subtract 21 from both sides: 4x = 24. Divide both sides by 4: x = 6. Answer: x = 6. Substitute: 4(6+4)+5 = 45.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p12",
+      "prompt": "Solve 5(x + 4) + 6 = 61.",
+      "options": [
+        "x = 7",
+        "x = 8",
+        "x = 6",
+        "x = 9"
+      ],
+      "answer_index": 0,
+      "memo": "Expand the left bracket: 5x + 20 + 6 = 61. Combine constants: 5x + 26 = 61. Subtract 26 from both sides: 5x = 35. Divide both sides by 5: x = 7. Answer: x = 7. Substitute: 5(7+4)+6 = 61.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p13",
+      "prompt": "Solve 6(x + 5) + 6 = 84.",
+      "options": [
+        "x = 10",
+        "x = 8",
+        "x = 9",
+        "x = 7"
+      ],
+      "answer_index": 1,
+      "memo": "Expand the left bracket: 6x + 30 + 6 = 84. Combine constants: 6x + 36 = 84. Subtract 36 from both sides: 6x = 48. Divide both sides by 6: x = 8. Answer: x = 8. Substitute: 6(8+5)+6 = 84.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p14",
+      "prompt": "Solve 7(x + 5) + 6 = 104.",
+      "options": [
+        "x = 8",
+        "x = 11",
+        "x = 9",
+        "x = 10"
+      ],
+      "answer_index": 2,
+      "memo": "Expand the left bracket: 7x + 35 + 6 = 104. Combine constants: 7x + 41 = 104. Subtract 41 from both sides: 7x = 63. Divide both sides by 7: x = 9. Answer: x = 9. Substitute: 7(9+5)+6 = 104.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-p15",
+      "prompt": "Solve 2(x + 1) + 2 = 12.",
+      "options": [
+        "x = 5",
+        "x = 3",
+        "x = 6",
+        "x = 4"
+      ],
+      "answer_index": 3,
+      "memo": "Expand the left bracket: 2x + 2 + 2 = 12. Combine constants: 2x + 4 = 12. Subtract 4 from both sides: 2x = 8. Divide both sides by 2: x = 4. Answer: x = 4. Substitute: 2(4+1)+2 = 12.",
+      "source": "grade10-eei-lesson-03.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-eei-l03-m16",
+      "prompt": "Solve 6(x + 4) + 2 = 74.",
+      "options": [
+        "x = 8",
+        "x = 9",
+        "x = 7",
+        "x = 10"
+      ],
+      "answer_index": 0,
+      "memo": "Expand the left bracket: 6x + 24 + 2 = 74. Combine constants: 6x + 26 = 74. Subtract 26 from both sides: 6x = 48. Divide both sides by 6: x = 8. Answer: x = 8. Substitute: 6(8+4)+2 = 74.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-m17",
+      "prompt": "Solve 7(x + 4) + 2 = 93.",
+      "options": [
+        "x = 11",
+        "x = 9",
+        "x = 10",
+        "x = 8"
+      ],
+      "answer_index": 1,
+      "memo": "Expand the left bracket: 7x + 28 + 2 = 93. Combine constants: 7x + 30 = 93. Subtract 30 from both sides: 7x = 63. Divide both sides by 7: x = 9. Answer: x = 9. Substitute: 7(9+4)+2 = 93.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-m18",
+      "prompt": "Solve 2(x + 5) + 3 = 21.",
+      "options": [
+        "x = 3",
+        "x = 6",
+        "x = 4",
+        "x = 5"
+      ],
+      "answer_index": 2,
+      "memo": "Expand the left bracket: 2x + 10 + 3 = 21. Combine constants: 2x + 13 = 21. Subtract 13 from both sides: 2x = 8. Divide both sides by 2: x = 4. Answer: x = 4. Substitute: 2(4+5)+3 = 21.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-m19",
+      "prompt": "Solve 3(x + 5) + 3 = 33.",
+      "options": [
+        "x = 6",
+        "x = 4",
+        "x = 7",
+        "x = 5"
+      ],
+      "answer_index": 3,
+      "memo": "Expand the left bracket: 3x + 15 + 3 = 33. Combine constants: 3x + 18 = 33. Subtract 18 from both sides: 3x = 15. Divide both sides by 3: x = 5. Answer: x = 5. Substitute: 3(5+5)+3 = 33.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-m20",
+      "prompt": "Solve 4(x + 1) + 3 = 31.",
+      "options": [
+        "x = 6",
+        "x = 7",
+        "x = 5",
+        "x = 8"
+      ],
+      "answer_index": 0,
+      "memo": "Expand the left bracket: 4x + 4 + 3 = 31. Combine constants: 4x + 7 = 31. Subtract 7 from both sides: 4x = 24. Divide both sides by 4: x = 6. Answer: x = 6. Substitute: 4(6+1)+3 = 31.",
+      "source": "grade10-eei-lesson-03.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-eei-l03-r21",
+      "prompt": "Solve 2(x + 4) + 4 = 20.",
+      "options": [
+        "x = 6",
+        "x = 4",
+        "x = 5",
+        "x = 3"
+      ],
+      "answer_index": 1,
+      "memo": "Expand the left bracket: 2x + 8 + 4 = 20. Combine constants: 2x + 12 = 20. Subtract 12 from both sides: 2x = 8. Divide both sides by 2: x = 4. Answer: x = 4. Substitute: 2(4+4)+4 = 20.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-r22",
+      "prompt": "Solve 3(x + 4) + 4 = 31.",
+      "options": [
+        "x = 4",
+        "x = 7",
+        "x = 5",
+        "x = 6"
+      ],
+      "answer_index": 2,
+      "memo": "Expand the left bracket: 3x + 12 + 4 = 31. Combine constants: 3x + 16 = 31. Subtract 16 from both sides: 3x = 15. Divide both sides by 3: x = 5. Answer: x = 5. Substitute: 3(5+4)+4 = 31.",
+      "source": "grade10-eei-lesson-03.md"
+    },
+    {
+      "id": "g10-eei-l03-r23",
+      "prompt": "Solve 4(x + 5) + 4 = 48.",
+      "options": [
+        "x = 7",
+        "x = 5",
+        "x = 8",
+        "x = 6"
+      ],
+      "answer_index": 3,
+      "memo": "Expand the left bracket: 4x + 20 + 4 = 48. Combine constants: 4x + 24 = 48. Subtract 24 from both sides: 4x = 24. Divide both sides by 4: x = 6. Answer: x = 6. Substitute: 4(6+5)+4 = 48.",
+      "source": "grade10-eei-lesson-03.md"
+    }
+  ]
+}
