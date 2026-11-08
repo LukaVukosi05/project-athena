@@ -1,0 +1,790 @@
+{
+  "source": "grade10-trig-lesson-03.md",
+  "worked": [
+    {
+      "id": "g10-trig-l03-w01",
+      "problem": "Right triangle ABC has opposite side 3 cm, adjacent side 4 cm and angle A acute. Find cosec A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 3 cm and adjacent 4 cm.",
+        "Calculate the hypotenuse √(3²+4²)=5 cm.",
+        "Write sin A as a ratio of the labelled sides.",
+        "Invert that ratio: cosec A = 5/3.",
+        "Answer: cosec A = 5/3. Multiply cosec A by sin A to obtain 1."
+      ],
+      "answer": "cosec A = 5/3",
+      "check": "Answer: cosec A = 5/3. Multiply cosec A by sin A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 3,
+          "adjacent": 4,
+          "hypotenuse": 5,
+          "orientation": "opposite-vertical",
+          "model": "triangle",
+          "fn": "cosec",
+          "numerator": 5,
+          "denominator": 3,
+          "answer": "cosec A = 5/3"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-trig-l03-w02",
+      "problem": "Right triangle ABC has opposite side 5 cm, adjacent side 12 cm and angle A acute. Find sec A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 5 cm and adjacent 12 cm.",
+        "Calculate the hypotenuse √(5²+12²)=13 cm.",
+        "Write cos A as a ratio of the labelled sides.",
+        "Invert that ratio: sec A = 13/12.",
+        "Answer: sec A = 13/12. Multiply sec A by cos A to obtain 1."
+      ],
+      "answer": "sec A = 13/12",
+      "check": "Answer: sec A = 13/12. Multiply sec A by cos A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 5,
+          "adjacent": 12,
+          "hypotenuse": 13,
+          "orientation": "opposite-horizontal",
+          "model": "triangle",
+          "fn": "sec",
+          "numerator": 13,
+          "denominator": 12,
+          "answer": "sec A = 13/12"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-trig-l03-w03",
+      "problem": "Right triangle ABC has opposite side 8 cm, adjacent side 15 cm and angle A acute. Find cot A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 8 cm and adjacent 15 cm.",
+        "Calculate the hypotenuse √(8²+15²)=17 cm.",
+        "Write tan A as a ratio of the labelled sides.",
+        "Invert that ratio: cot A = 15/8.",
+        "Answer: cot A = 15/8. Multiply cot A by tan A to obtain 1."
+      ],
+      "answer": "cot A = 15/8",
+      "check": "Answer: cot A = 15/8. Multiply cot A by tan A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 8,
+          "adjacent": 15,
+          "hypotenuse": 17,
+          "orientation": "opposite-vertical",
+          "model": "triangle",
+          "fn": "cot",
+          "numerator": 15,
+          "denominator": 8,
+          "answer": "cot A = 15/8"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l03-w04",
+      "problem": "Right triangle ABC has opposite side 7 cm, adjacent side 24 cm and angle A acute. Find cosec A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 7 cm and adjacent 24 cm.",
+        "Calculate the hypotenuse √(7²+24²)=25 cm.",
+        "Write sin A as a ratio of the labelled sides.",
+        "Invert that ratio: cosec A = 25/7.",
+        "Answer: cosec A = 25/7. Multiply cosec A by sin A to obtain 1."
+      ],
+      "answer": "cosec A = 25/7",
+      "check": "Answer: cosec A = 25/7. Multiply cosec A by sin A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 7,
+          "adjacent": 24,
+          "hypotenuse": 25,
+          "orientation": "opposite-horizontal",
+          "model": "triangle",
+          "fn": "cosec",
+          "numerator": 25,
+          "denominator": 7,
+          "answer": "cosec A = 25/7"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l03-w05",
+      "problem": "Right triangle ABC has opposite side 20 cm, adjacent side 21 cm and angle A acute. Find sec A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 20 cm and adjacent 21 cm.",
+        "Calculate the hypotenuse √(20²+21²)=29 cm.",
+        "Write cos A as a ratio of the labelled sides.",
+        "Invert that ratio: sec A = 29/21.",
+        "Answer: sec A = 29/21. Multiply sec A by cos A to obtain 1."
+      ],
+      "answer": "sec A = 29/21",
+      "check": "Answer: sec A = 29/21. Multiply sec A by cos A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 20,
+          "adjacent": 21,
+          "hypotenuse": 29,
+          "orientation": "opposite-vertical",
+          "model": "triangle",
+          "fn": "sec",
+          "numerator": 29,
+          "denominator": 21,
+          "answer": "sec A = 29/21"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l03-w06",
+      "problem": "Right triangle ABC has opposite side 6 cm, adjacent side 8 cm and angle A acute. Find cot A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 6 cm and adjacent 8 cm.",
+        "Calculate the hypotenuse √(6²+8²)=10 cm.",
+        "Write tan A as a ratio of the labelled sides.",
+        "Invert that ratio: cot A = 8/6.",
+        "Answer: cot A = 4/3. Multiply cot A by tan A to obtain 1."
+      ],
+      "answer": "cot A = 4/3",
+      "check": "Answer: cot A = 4/3. Multiply cot A by tan A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 6,
+          "adjacent": 8,
+          "hypotenuse": 10,
+          "orientation": "opposite-horizontal",
+          "model": "triangle",
+          "fn": "cot",
+          "numerator": 8,
+          "denominator": 6,
+          "answer": "cot A = 4/3"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l03-w07",
+      "problem": "Right triangle ABC has opposite side 10 cm, adjacent side 24 cm and angle A acute. Find cosec A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 10 cm and adjacent 24 cm.",
+        "Calculate the hypotenuse √(10²+24²)=26 cm.",
+        "Write sin A as a ratio of the labelled sides.",
+        "Invert that ratio: cosec A = 26/10.",
+        "Answer: cosec A = 13/5. Multiply cosec A by sin A to obtain 1."
+      ],
+      "answer": "cosec A = 13/5",
+      "check": "Answer: cosec A = 13/5. Multiply cosec A by sin A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 10,
+          "adjacent": 24,
+          "hypotenuse": 26,
+          "orientation": "opposite-vertical",
+          "model": "triangle",
+          "fn": "cosec",
+          "numerator": 26,
+          "denominator": 10,
+          "answer": "cosec A = 13/5"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l03-w08",
+      "problem": "Right triangle ABC has opposite side 16 cm, adjacent side 30 cm and angle A acute. Find sec A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 16 cm and adjacent 30 cm.",
+        "Calculate the hypotenuse √(16²+30²)=34 cm.",
+        "Write cos A as a ratio of the labelled sides.",
+        "Invert that ratio: sec A = 34/30.",
+        "Answer: sec A = 17/15. Multiply sec A by cos A to obtain 1."
+      ],
+      "answer": "sec A = 17/15",
+      "check": "Answer: sec A = 17/15. Multiply sec A by cos A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 16,
+          "adjacent": 30,
+          "hypotenuse": 34,
+          "orientation": "opposite-horizontal",
+          "model": "triangle",
+          "fn": "sec",
+          "numerator": 34,
+          "denominator": 30,
+          "answer": "sec A = 17/15"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l03-w09",
+      "problem": "Right triangle ABC has opposite side 14 cm, adjacent side 48 cm and angle A acute. Find cot A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 14 cm and adjacent 48 cm.",
+        "Calculate the hypotenuse √(14²+48²)=50 cm.",
+        "Write tan A as a ratio of the labelled sides.",
+        "Invert that ratio: cot A = 48/14.",
+        "Answer: cot A = 24/7. Multiply cot A by tan A to obtain 1."
+      ],
+      "answer": "cot A = 24/7",
+      "check": "Answer: cot A = 24/7. Multiply cot A by tan A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 14,
+          "adjacent": 48,
+          "hypotenuse": 50,
+          "orientation": "opposite-vertical",
+          "model": "triangle",
+          "fn": "cot",
+          "numerator": 48,
+          "denominator": 14,
+          "answer": "cot A = 24/7"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l03-w10",
+      "problem": "Right triangle ABC has opposite side 40 cm, adjacent side 42 cm and angle A acute. Find cosec A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 40 cm and adjacent 42 cm.",
+        "Calculate the hypotenuse √(40²+42²)=58 cm.",
+        "Write sin A as a ratio of the labelled sides.",
+        "Invert that ratio: cosec A = 58/40.",
+        "Answer: cosec A = 29/20. Multiply cosec A by sin A to obtain 1."
+      ],
+      "answer": "cosec A = 29/20",
+      "check": "Answer: cosec A = 29/20. Multiply cosec A by sin A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 40,
+          "adjacent": 42,
+          "hypotenuse": 58,
+          "orientation": "opposite-horizontal",
+          "model": "triangle",
+          "fn": "cosec",
+          "numerator": 58,
+          "denominator": 40,
+          "answer": "cosec A = 29/20"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l03-w11",
+      "problem": "Right triangle ABC has opposite side 9 cm, adjacent side 12 cm and angle A acute. Find sec A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 9 cm and adjacent 12 cm.",
+        "Calculate the hypotenuse √(9²+12²)=15 cm.",
+        "Write cos A as a ratio of the labelled sides.",
+        "Invert that ratio: sec A = 15/12.",
+        "Answer: sec A = 5/4. Multiply sec A by cos A to obtain 1."
+      ],
+      "answer": "sec A = 5/4",
+      "check": "Answer: sec A = 5/4. Multiply sec A by cos A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 9,
+          "adjacent": 12,
+          "hypotenuse": 15,
+          "orientation": "opposite-vertical",
+          "model": "triangle",
+          "fn": "sec",
+          "numerator": 15,
+          "denominator": 12,
+          "answer": "sec A = 5/4"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l03-w12",
+      "problem": "Right triangle ABC has opposite side 15 cm, adjacent side 36 cm and angle A acute. Find cot A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 15 cm and adjacent 36 cm.",
+        "Calculate the hypotenuse √(15²+36²)=39 cm.",
+        "Write tan A as a ratio of the labelled sides.",
+        "Invert that ratio: cot A = 36/15.",
+        "Answer: cot A = 12/5. Multiply cot A by tan A to obtain 1."
+      ],
+      "answer": "cot A = 12/5",
+      "check": "Answer: cot A = 12/5. Multiply cot A by tan A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 15,
+          "adjacent": 36,
+          "hypotenuse": 39,
+          "orientation": "opposite-horizontal",
+          "model": "triangle",
+          "fn": "cot",
+          "numerator": 36,
+          "denominator": 15,
+          "answer": "cot A = 12/5"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l03-w13",
+      "problem": "Right triangle ABC has opposite side 24 cm, adjacent side 45 cm and angle A acute. Find cosec A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 24 cm and adjacent 45 cm.",
+        "Calculate the hypotenuse √(24²+45²)=51 cm.",
+        "Write sin A as a ratio of the labelled sides.",
+        "Invert that ratio: cosec A = 51/24.",
+        "Answer: cosec A = 17/8. Multiply cosec A by sin A to obtain 1."
+      ],
+      "answer": "cosec A = 17/8",
+      "check": "Answer: cosec A = 17/8. Multiply cosec A by sin A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 24,
+          "adjacent": 45,
+          "hypotenuse": 51,
+          "orientation": "opposite-vertical",
+          "model": "triangle",
+          "fn": "cosec",
+          "numerator": 51,
+          "denominator": 24,
+          "answer": "cosec A = 17/8"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-trig-l03-w14",
+      "problem": "Right triangle ABC has opposite side 21 cm, adjacent side 72 cm and angle A acute. Find sec A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 21 cm and adjacent 72 cm.",
+        "Calculate the hypotenuse √(21²+72²)=75 cm.",
+        "Write cos A as a ratio of the labelled sides.",
+        "Invert that ratio: sec A = 75/72.",
+        "Answer: sec A = 25/24. Multiply sec A by cos A to obtain 1."
+      ],
+      "answer": "sec A = 25/24",
+      "check": "Answer: sec A = 25/24. Multiply sec A by cos A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 21,
+          "adjacent": 72,
+          "hypotenuse": 75,
+          "orientation": "opposite-horizontal",
+          "model": "triangle",
+          "fn": "sec",
+          "numerator": 75,
+          "denominator": 72,
+          "answer": "sec A = 25/24"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-trig-l03-w15",
+      "problem": "Right triangle ABC has opposite side 60 cm, adjacent side 63 cm and angle A acute. Find cot A exactly.",
+      "actions": [
+        "Mark the angle A and label opposite 60 cm and adjacent 63 cm.",
+        "Calculate the hypotenuse √(60²+63²)=87 cm.",
+        "Write tan A as a ratio of the labelled sides.",
+        "Invert that ratio: cot A = 63/60.",
+        "Answer: cot A = 21/20. Multiply cot A by tan A to obtain 1."
+      ],
+      "answer": "cot A = 21/20",
+      "check": "Answer: cot A = 21/20. Multiply cot A by tan A to obtain 1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 3,
+          "family": "grade10_trigonometry",
+          "opposite": 60,
+          "adjacent": 63,
+          "hypotenuse": 87,
+          "orientation": "opposite-vertical",
+          "model": "triangle",
+          "fn": "cot",
+          "numerator": 63,
+          "denominator": 60,
+          "answer": "cot A = 21/20"
+        }
+      },
+      "lesson": 3,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-trig-l03-p01",
+      "prompt": "Right triangle ABC has opposite side 12 cm, adjacent side 16 cm and angle A acute. Find cosec A exactly.",
+      "options": [
+        "cosec A = 3/4",
+        "cosec A = 5/3",
+        "cosec A = 3/5",
+        "cosec A = 4/5"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the angle A and label opposite 12 cm and adjacent 16 cm. Calculate the hypotenuse √(12²+16²)=20 cm. Write sin A as a ratio of the labelled sides. Invert that ratio: cosec A = 20/12. Answer: cosec A = 5/3. Multiply cosec A by sin A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p02",
+      "prompt": "Right triangle ABC has opposite side 20 cm, adjacent side 48 cm and angle A acute. Find sec A exactly.",
+      "options": [
+        "sec A = 12/13",
+        "sec A = 5/12",
+        "sec A = 13/12",
+        "sec A = 5/13"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the angle A and label opposite 20 cm and adjacent 48 cm. Calculate the hypotenuse √(20²+48²)=52 cm. Write cos A as a ratio of the labelled sides. Invert that ratio: sec A = 52/48. Answer: sec A = 13/12. Multiply sec A by cos A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p03",
+      "prompt": "Right triangle ABC has opposite side 32 cm, adjacent side 60 cm and angle A acute. Find cot A exactly.",
+      "options": [
+        "cot A = 8/17",
+        "cot A = 15/17",
+        "cot A = 8/15",
+        "cot A = 15/8"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the angle A and label opposite 32 cm and adjacent 60 cm. Calculate the hypotenuse √(32²+60²)=68 cm. Write tan A as a ratio of the labelled sides. Invert that ratio: cot A = 60/32. Answer: cot A = 15/8. Multiply cot A by tan A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p04",
+      "prompt": "Right triangle ABC has opposite side 28 cm, adjacent side 96 cm and angle A acute. Find cosec A exactly.",
+      "options": [
+        "cosec A = 25/7",
+        "cosec A = 7/25",
+        "cosec A = 24/25",
+        "cosec A = 7/24"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the angle A and label opposite 28 cm and adjacent 96 cm. Calculate the hypotenuse √(28²+96²)=100 cm. Write sin A as a ratio of the labelled sides. Invert that ratio: cosec A = 100/28. Answer: cosec A = 25/7. Multiply cosec A by sin A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p05",
+      "prompt": "Right triangle ABC has opposite side 80 cm, adjacent side 84 cm and angle A acute. Find sec A exactly.",
+      "options": [
+        "sec A = 20/21",
+        "sec A = 29/21",
+        "sec A = 20/29",
+        "sec A = 21/29"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the angle A and label opposite 80 cm and adjacent 84 cm. Calculate the hypotenuse √(80²+84²)=116 cm. Write cos A as a ratio of the labelled sides. Invert that ratio: sec A = 116/84. Answer: sec A = 29/21. Multiply sec A by cos A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p06",
+      "prompt": "Right triangle ABC has opposite side 15 cm, adjacent side 20 cm and angle A acute. Find cot A exactly.",
+      "options": [
+        "cot A = 4/5",
+        "cot A = 3/4",
+        "cot A = 4/3",
+        "cot A = 3/5"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the angle A and label opposite 15 cm and adjacent 20 cm. Calculate the hypotenuse √(15²+20²)=25 cm. Write tan A as a ratio of the labelled sides. Invert that ratio: cot A = 20/15. Answer: cot A = 4/3. Multiply cot A by tan A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p07",
+      "prompt": "Right triangle ABC has opposite side 25 cm, adjacent side 60 cm and angle A acute. Find cosec A exactly.",
+      "options": [
+        "cosec A = 5/13",
+        "cosec A = 12/13",
+        "cosec A = 5/12",
+        "cosec A = 13/5"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the angle A and label opposite 25 cm and adjacent 60 cm. Calculate the hypotenuse √(25²+60²)=65 cm. Write sin A as a ratio of the labelled sides. Invert that ratio: cosec A = 65/25. Answer: cosec A = 13/5. Multiply cosec A by sin A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p08",
+      "prompt": "Right triangle ABC has opposite side 40 cm, adjacent side 75 cm and angle A acute. Find sec A exactly.",
+      "options": [
+        "sec A = 17/15",
+        "sec A = 8/17",
+        "sec A = 15/17",
+        "sec A = 8/15"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the angle A and label opposite 40 cm and adjacent 75 cm. Calculate the hypotenuse √(40²+75²)=85 cm. Write cos A as a ratio of the labelled sides. Invert that ratio: sec A = 85/75. Answer: sec A = 17/15. Multiply sec A by cos A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p09",
+      "prompt": "Right triangle ABC has opposite side 35 cm, adjacent side 120 cm and angle A acute. Find cot A exactly.",
+      "options": [
+        "cot A = 7/24",
+        "cot A = 24/7",
+        "cot A = 7/25",
+        "cot A = 24/25"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the angle A and label opposite 35 cm and adjacent 120 cm. Calculate the hypotenuse √(35²+120²)=125 cm. Write tan A as a ratio of the labelled sides. Invert that ratio: cot A = 120/35. Answer: cot A = 24/7. Multiply cot A by tan A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p10",
+      "prompt": "Right triangle ABC has opposite side 100 cm, adjacent side 105 cm and angle A acute. Find cosec A exactly.",
+      "options": [
+        "cosec A = 21/29",
+        "cosec A = 20/21",
+        "cosec A = 29/20",
+        "cosec A = 20/29"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the angle A and label opposite 100 cm and adjacent 105 cm. Calculate the hypotenuse √(100²+105²)=145 cm. Write sin A as a ratio of the labelled sides. Invert that ratio: cosec A = 145/100. Answer: cosec A = 29/20. Multiply cosec A by sin A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p11",
+      "prompt": "Right triangle ABC has opposite side 18 cm, adjacent side 24 cm and angle A acute. Find sec A exactly.",
+      "options": [
+        "sec A = 3/5",
+        "sec A = 4/5",
+        "sec A = 3/4",
+        "sec A = 5/4"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the angle A and label opposite 18 cm and adjacent 24 cm. Calculate the hypotenuse √(18²+24²)=30 cm. Write cos A as a ratio of the labelled sides. Invert that ratio: sec A = 30/24. Answer: sec A = 5/4. Multiply sec A by cos A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p12",
+      "prompt": "Right triangle ABC has opposite side 30 cm, adjacent side 72 cm and angle A acute. Find cot A exactly.",
+      "options": [
+        "cot A = 12/5",
+        "cot A = 5/13",
+        "cot A = 12/13",
+        "cot A = 5/12"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the angle A and label opposite 30 cm and adjacent 72 cm. Calculate the hypotenuse √(30²+72²)=78 cm. Write tan A as a ratio of the labelled sides. Invert that ratio: cot A = 72/30. Answer: cot A = 12/5. Multiply cot A by tan A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p13",
+      "prompt": "Right triangle ABC has opposite side 48 cm, adjacent side 90 cm and angle A acute. Find cosec A exactly.",
+      "options": [
+        "cosec A = 8/15",
+        "cosec A = 17/8",
+        "cosec A = 8/17",
+        "cosec A = 15/17"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the angle A and label opposite 48 cm and adjacent 90 cm. Calculate the hypotenuse √(48²+90²)=102 cm. Write sin A as a ratio of the labelled sides. Invert that ratio: cosec A = 102/48. Answer: cosec A = 17/8. Multiply cosec A by sin A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p14",
+      "prompt": "Right triangle ABC has opposite side 42 cm, adjacent side 144 cm and angle A acute. Find sec A exactly.",
+      "options": [
+        "sec A = 24/25",
+        "sec A = 7/24",
+        "sec A = 25/24",
+        "sec A = 7/25"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the angle A and label opposite 42 cm and adjacent 144 cm. Calculate the hypotenuse √(42²+144²)=150 cm. Write cos A as a ratio of the labelled sides. Invert that ratio: sec A = 150/144. Answer: sec A = 25/24. Multiply sec A by cos A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-p15",
+      "prompt": "Right triangle ABC has opposite side 120 cm, adjacent side 126 cm and angle A acute. Find cot A exactly.",
+      "options": [
+        "cot A = 20/29",
+        "cot A = 21/29",
+        "cot A = 20/21",
+        "cot A = 21/20"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the angle A and label opposite 120 cm and adjacent 126 cm. Calculate the hypotenuse √(120²+126²)=174 cm. Write tan A as a ratio of the labelled sides. Invert that ratio: cot A = 126/120. Answer: cot A = 21/20. Multiply cot A by tan A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-trig-l03-m16",
+      "prompt": "Right triangle ABC has opposite side 30 cm, adjacent side 40 cm and angle A acute. Find cosec A exactly.",
+      "options": [
+        "cosec A = 5/3",
+        "cosec A = 3/5",
+        "cosec A = 4/5",
+        "cosec A = 3/4"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the angle A and label opposite 30 cm and adjacent 40 cm. Calculate the hypotenuse √(30²+40²)=50 cm. Write sin A as a ratio of the labelled sides. Invert that ratio: cosec A = 50/30. Answer: cosec A = 5/3. Multiply cosec A by sin A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-m17",
+      "prompt": "Right triangle ABC has opposite side 50 cm, adjacent side 120 cm and angle A acute. Find sec A exactly.",
+      "options": [
+        "sec A = 5/12",
+        "sec A = 13/12",
+        "sec A = 5/13",
+        "sec A = 12/13"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the angle A and label opposite 50 cm and adjacent 120 cm. Calculate the hypotenuse √(50²+120²)=130 cm. Write cos A as a ratio of the labelled sides. Invert that ratio: sec A = 130/120. Answer: sec A = 13/12. Multiply sec A by cos A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-m18",
+      "prompt": "Right triangle ABC has opposite side 80 cm, adjacent side 150 cm and angle A acute. Find cot A exactly.",
+      "options": [
+        "cot A = 15/17",
+        "cot A = 8/15",
+        "cot A = 15/8",
+        "cot A = 8/17"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the angle A and label opposite 80 cm and adjacent 150 cm. Calculate the hypotenuse √(80²+150²)=170 cm. Write tan A as a ratio of the labelled sides. Invert that ratio: cot A = 150/80. Answer: cot A = 15/8. Multiply cot A by tan A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-m19",
+      "prompt": "Right triangle ABC has opposite side 70 cm, adjacent side 240 cm and angle A acute. Find cosec A exactly.",
+      "options": [
+        "cosec A = 7/25",
+        "cosec A = 24/25",
+        "cosec A = 7/24",
+        "cosec A = 25/7"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the angle A and label opposite 70 cm and adjacent 240 cm. Calculate the hypotenuse √(70²+240²)=250 cm. Write sin A as a ratio of the labelled sides. Invert that ratio: cosec A = 250/70. Answer: cosec A = 25/7. Multiply cosec A by sin A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-m20",
+      "prompt": "Right triangle ABC has opposite side 200 cm, adjacent side 210 cm and angle A acute. Find sec A exactly.",
+      "options": [
+        "sec A = 29/21",
+        "sec A = 20/29",
+        "sec A = 21/29",
+        "sec A = 20/21"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the angle A and label opposite 200 cm and adjacent 210 cm. Calculate the hypotenuse √(200²+210²)=290 cm. Write cos A as a ratio of the labelled sides. Invert that ratio: sec A = 290/210. Answer: sec A = 29/21. Multiply sec A by cos A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-trig-l03-r21",
+      "prompt": "Right triangle ABC has opposite side 42 cm, adjacent side 56 cm and angle A acute. Find cot A exactly.",
+      "options": [
+        "cot A = 3/4",
+        "cot A = 4/3",
+        "cot A = 3/5",
+        "cot A = 4/5"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the angle A and label opposite 42 cm and adjacent 56 cm. Calculate the hypotenuse √(42²+56²)=70 cm. Write tan A as a ratio of the labelled sides. Invert that ratio: cot A = 56/42. Answer: cot A = 4/3. Multiply cot A by tan A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-r22",
+      "prompt": "Right triangle ABC has opposite side 70 cm, adjacent side 168 cm and angle A acute. Find cosec A exactly.",
+      "options": [
+        "cosec A = 12/13",
+        "cosec A = 5/12",
+        "cosec A = 13/5",
+        "cosec A = 5/13"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the angle A and label opposite 70 cm and adjacent 168 cm. Calculate the hypotenuse √(70²+168²)=182 cm. Write sin A as a ratio of the labelled sides. Invert that ratio: cosec A = 182/70. Answer: cosec A = 13/5. Multiply cosec A by sin A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    },
+    {
+      "id": "g10-trig-l03-r23",
+      "prompt": "Right triangle ABC has opposite side 112 cm, adjacent side 210 cm and angle A acute. Find sec A exactly.",
+      "options": [
+        "sec A = 8/17",
+        "sec A = 15/17",
+        "sec A = 8/15",
+        "sec A = 17/15"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the angle A and label opposite 112 cm and adjacent 210 cm. Calculate the hypotenuse √(112²+210²)=238 cm. Write cos A as a ratio of the labelled sides. Invert that ratio: sec A = 238/210. Answer: sec A = 17/15. Multiply sec A by cos A to obtain 1.",
+      "source": "grade10-trig-lesson-03.md"
+    }
+  ]
+}

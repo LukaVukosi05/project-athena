@@ -1996,6 +1996,72 @@
               "source_document": "grade10-eei-lesson-09.md"
             }
           ]
+        },
+        {
+          "topic_id": "trigonometry",
+          "topic_number": 3,
+          "title": "Trigonometry",
+          "paper": "Paper 2",
+          "expected_lesson_count": 7,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g10-trig-01",
+              "position": 1,
+              "title": "Opposite, adjacent and hypotenuse: sine, cosine and tangent",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "grade10-trig-lesson-01.md"
+            },
+            {
+              "lesson_id": "g10-trig-02",
+              "position": 2,
+              "title": "Quadrants and reference angles from 0° to 360°",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-trig-lesson-02.md"
+            },
+            {
+              "lesson_id": "g10-trig-03",
+              "position": 3,
+              "title": "Reciprocal ratios cosec, sec and cot",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-trig-lesson-03.md"
+            },
+            {
+              "lesson_id": "g10-trig-04",
+              "position": 4,
+              "title": "Exact ratios at 0°, 30°, 45°, 60° and 90°",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-trig-lesson-04.md"
+            },
+            {
+              "lesson_id": "g10-trig-05",
+              "position": 5,
+              "title": "Two-dimensional right-triangle applications",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-trig-lesson-05.md"
+            },
+            {
+              "lesson_id": "g10-trig-06",
+              "position": 6,
+              "title": "Solve acute-angle trigonometric equations",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-trig-lesson-06.md"
+            },
+            {
+              "lesson_id": "g10-trig-07",
+              "position": 7,
+              "title": "Coordinate diagrams and signed ratios through 360°",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-trig-lesson-07.md"
+            }
+          ]
         }
       ]
     },

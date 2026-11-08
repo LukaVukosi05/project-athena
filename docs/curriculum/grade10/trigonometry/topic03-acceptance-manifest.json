@@ -1,0 +1,86 @@
+[
+  {
+    "lesson_id": "g10-trig-01",
+    "source": "grade10-trig-lesson-01.md",
+    "source_sha256": "442753f49414ea38e58e508b24e6f58bee88c131e79a4eb2e7a0eaf8067aa5b9",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-trig-02",
+    "source": "grade10-trig-lesson-02.md",
+    "source_sha256": "a42966d928e1d6e797c32e24489e1bd21cfe6f48cb3fafb48e63a14517c219cd",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-trig-03",
+    "source": "grade10-trig-lesson-03.md",
+    "source_sha256": "429cc6adc8dc14530ede9531eba8f1eac54ab9c33ba0c236df8442bac4ab52c5",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-trig-04",
+    "source": "grade10-trig-lesson-04.md",
+    "source_sha256": "59cf23a8b07f184448d524330e94f56a9602d9d68c9ba970d07ed190329ad260",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-trig-05",
+    "source": "grade10-trig-lesson-05.md",
+    "source_sha256": "1e643c011c05ad15df6a28c378a8a600b0eccd4de64b73fc0bd7d5ff1782180c",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-trig-06",
+    "source": "grade10-trig-lesson-06.md",
+    "source_sha256": "7bcf4219244e95a18c54dfff0c797680f6e6fca7fd78bc44249802b8c1de573f",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-trig-07",
+    "source": "grade10-trig-lesson-07.md",
+    "source_sha256": "ad896f49251c728ffca3bb938f22a0fd469d44e75dbb2cdf8f7b9e4d5a61f177",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

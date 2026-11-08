@@ -1,0 +1,790 @@
+{
+  "source": "grade10-trig-lesson-04.md",
+  "worked": [
+    {
+      "id": "g10-trig-l04-w01",
+      "problem": "Derive sin 0° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the unit-circle axis.",
+        "Mark 0° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 0°.",
+        "Use sin = opposite/hypotenuse; here the value is 0.",
+        "Answer: sin 0° = 0. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "sin 0° = 0",
+      "check": "Answer: sin 0° = 0. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 3,
+          "adjacent": 4,
+          "hypotenuse": 5,
+          "orientation": "opposite-vertical",
+          "model": "special",
+          "degree": 0,
+          "fn": "sin",
+          "reference": "unit-circle axis",
+          "answer": "sin 0° = 0"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-trig-l04-w02",
+      "problem": "Derive sin 30° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the 30°-60°-90° triangle with sides 1, √3, 2.",
+        "Mark 30° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 30°.",
+        "Use sin = opposite/hypotenuse; here the value is 1/2.",
+        "Answer: sin 30° = 1/2. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "sin 30° = 1/2",
+      "check": "Answer: sin 30° = 1/2. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 5,
+          "adjacent": 12,
+          "hypotenuse": 13,
+          "orientation": "opposite-horizontal",
+          "model": "special",
+          "degree": 30,
+          "fn": "sin",
+          "reference": "30°-60°-90° triangle with sides 1, √3, 2",
+          "answer": "sin 30° = 1/2"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-trig-l04-w03",
+      "problem": "Derive sin 45° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the 45°-45°-90° triangle with sides 1, 1, √2.",
+        "Mark 45° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 45°.",
+        "Use sin = opposite/hypotenuse; here the value is √2/2.",
+        "Answer: sin 45° = √2/2. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "sin 45° = √2/2",
+      "check": "Answer: sin 45° = √2/2. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 8,
+          "adjacent": 15,
+          "hypotenuse": 17,
+          "orientation": "opposite-vertical",
+          "model": "special",
+          "degree": 45,
+          "fn": "sin",
+          "reference": "45°-45°-90° triangle with sides 1, 1, √2",
+          "answer": "sin 45° = √2/2"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l04-w04",
+      "problem": "Derive sin 60° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the 30°-60°-90° triangle with sides 1, √3, 2.",
+        "Mark 60° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 60°.",
+        "Use sin = opposite/hypotenuse; here the value is √3/2.",
+        "Answer: sin 60° = √3/2. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "sin 60° = √3/2",
+      "check": "Answer: sin 60° = √3/2. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 7,
+          "adjacent": 24,
+          "hypotenuse": 25,
+          "orientation": "opposite-horizontal",
+          "model": "special",
+          "degree": 60,
+          "fn": "sin",
+          "reference": "30°-60°-90° triangle with sides 1, √3, 2",
+          "answer": "sin 60° = √3/2"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l04-w05",
+      "problem": "Derive sin 90° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the unit-circle axis.",
+        "Mark 90° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 90°.",
+        "Use sin = opposite/hypotenuse; here the value is 1.",
+        "Answer: sin 90° = 1. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "sin 90° = 1",
+      "check": "Answer: sin 90° = 1. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 20,
+          "adjacent": 21,
+          "hypotenuse": 29,
+          "orientation": "opposite-vertical",
+          "model": "special",
+          "degree": 90,
+          "fn": "sin",
+          "reference": "unit-circle axis",
+          "answer": "sin 90° = 1"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l04-w06",
+      "problem": "Derive cos 0° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the unit-circle axis.",
+        "Mark 0° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 0°.",
+        "Use cos = adjacent/hypotenuse; here the value is 1.",
+        "Answer: cos 0° = 1. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "cos 0° = 1",
+      "check": "Answer: cos 0° = 1. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 6,
+          "adjacent": 8,
+          "hypotenuse": 10,
+          "orientation": "opposite-horizontal",
+          "model": "special",
+          "degree": 0,
+          "fn": "cos",
+          "reference": "unit-circle axis",
+          "answer": "cos 0° = 1"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l04-w07",
+      "problem": "Derive cos 30° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the 30°-60°-90° triangle with sides 1, √3, 2.",
+        "Mark 30° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 30°.",
+        "Use cos = adjacent/hypotenuse; here the value is √3/2.",
+        "Answer: cos 30° = √3/2. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "cos 30° = √3/2",
+      "check": "Answer: cos 30° = √3/2. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 10,
+          "adjacent": 24,
+          "hypotenuse": 26,
+          "orientation": "opposite-vertical",
+          "model": "special",
+          "degree": 30,
+          "fn": "cos",
+          "reference": "30°-60°-90° triangle with sides 1, √3, 2",
+          "answer": "cos 30° = √3/2"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l04-w08",
+      "problem": "Derive cos 45° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the 45°-45°-90° triangle with sides 1, 1, √2.",
+        "Mark 45° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 45°.",
+        "Use cos = adjacent/hypotenuse; here the value is √2/2.",
+        "Answer: cos 45° = √2/2. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "cos 45° = √2/2",
+      "check": "Answer: cos 45° = √2/2. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 16,
+          "adjacent": 30,
+          "hypotenuse": 34,
+          "orientation": "opposite-horizontal",
+          "model": "special",
+          "degree": 45,
+          "fn": "cos",
+          "reference": "45°-45°-90° triangle with sides 1, 1, √2",
+          "answer": "cos 45° = √2/2"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l04-w09",
+      "problem": "Derive cos 60° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the 30°-60°-90° triangle with sides 1, √3, 2.",
+        "Mark 60° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 60°.",
+        "Use cos = adjacent/hypotenuse; here the value is 1/2.",
+        "Answer: cos 60° = 1/2. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "cos 60° = 1/2",
+      "check": "Answer: cos 60° = 1/2. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 14,
+          "adjacent": 48,
+          "hypotenuse": 50,
+          "orientation": "opposite-vertical",
+          "model": "special",
+          "degree": 60,
+          "fn": "cos",
+          "reference": "30°-60°-90° triangle with sides 1, √3, 2",
+          "answer": "cos 60° = 1/2"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l04-w10",
+      "problem": "Derive cos 90° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the unit-circle axis.",
+        "Mark 90° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 90°.",
+        "Use cos = adjacent/hypotenuse; here the value is 0.",
+        "Answer: cos 90° = 0. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "cos 90° = 0",
+      "check": "Answer: cos 90° = 0. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 40,
+          "adjacent": 42,
+          "hypotenuse": 58,
+          "orientation": "opposite-horizontal",
+          "model": "special",
+          "degree": 90,
+          "fn": "cos",
+          "reference": "unit-circle axis",
+          "answer": "cos 90° = 0"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l04-w11",
+      "problem": "Derive tan 0° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the unit-circle axis.",
+        "Mark 0° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 0°.",
+        "Use tan = opposite/adjacent; here the value is 0.",
+        "Answer: tan 0° = 0. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "tan 0° = 0",
+      "check": "Answer: tan 0° = 0. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 9,
+          "adjacent": 12,
+          "hypotenuse": 15,
+          "orientation": "opposite-vertical",
+          "model": "special",
+          "degree": 0,
+          "fn": "tan",
+          "reference": "unit-circle axis",
+          "answer": "tan 0° = 0"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l04-w12",
+      "problem": "Derive tan 30° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the 30°-60°-90° triangle with sides 1, √3, 2.",
+        "Mark 30° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 30°.",
+        "Use tan = opposite/adjacent; here the value is √3/3.",
+        "Answer: tan 30° = √3/3. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "tan 30° = √3/3",
+      "check": "Answer: tan 30° = √3/3. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 15,
+          "adjacent": 36,
+          "hypotenuse": 39,
+          "orientation": "opposite-horizontal",
+          "model": "special",
+          "degree": 30,
+          "fn": "tan",
+          "reference": "30°-60°-90° triangle with sides 1, √3, 2",
+          "answer": "tan 30° = √3/3"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l04-w13",
+      "problem": "Derive tan 45° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the 45°-45°-90° triangle with sides 1, 1, √2.",
+        "Mark 45° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 45°.",
+        "Use tan = opposite/adjacent; here the value is 1.",
+        "Answer: tan 45° = 1. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "tan 45° = 1",
+      "check": "Answer: tan 45° = 1. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 24,
+          "adjacent": 45,
+          "hypotenuse": 51,
+          "orientation": "opposite-vertical",
+          "model": "special",
+          "degree": 45,
+          "fn": "tan",
+          "reference": "45°-45°-90° triangle with sides 1, 1, √2",
+          "answer": "tan 45° = 1"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-trig-l04-w14",
+      "problem": "Derive tan 60° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the 30°-60°-90° triangle with sides 1, √3, 2.",
+        "Mark 60° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 60°.",
+        "Use tan = opposite/adjacent; here the value is √3.",
+        "Answer: tan 60° = √3. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "tan 60° = √3",
+      "check": "Answer: tan 60° = √3. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 21,
+          "adjacent": 72,
+          "hypotenuse": 75,
+          "orientation": "opposite-horizontal",
+          "model": "special",
+          "degree": 60,
+          "fn": "tan",
+          "reference": "30°-60°-90° triangle with sides 1, √3, 2",
+          "answer": "tan 60° = √3"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-trig-l04-w15",
+      "problem": "Derive tan 90° exactly without a calculator; explain the special triangle or axis.",
+      "actions": [
+        "Draw the unit-circle axis.",
+        "Mark 90° at the appropriate vertex or axis.",
+        "Label opposite, adjacent and hypotenuse relative to 90°.",
+        "Use tan = opposite/adjacent; here the value is undefined.",
+        "Answer: tan 90° = undefined. Check against the labelled special triangle or unit-circle point."
+      ],
+      "answer": "tan 90° = undefined",
+      "check": "Answer: tan 90° = undefined. Check against the labelled special triangle or unit-circle point.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 4,
+          "family": "grade10_trigonometry",
+          "opposite": 60,
+          "adjacent": 63,
+          "hypotenuse": 87,
+          "orientation": "opposite-vertical",
+          "model": "special",
+          "degree": 90,
+          "fn": "tan",
+          "reference": "unit-circle axis",
+          "answer": "tan 90° = undefined"
+        }
+      },
+      "lesson": 4,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-trig-l04-p01",
+      "prompt": "Derive cos 0° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "cos 0° = √2/2",
+        "cos 0° = 1",
+        "cos 0° = 0",
+        "cos 0° = 1/2"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the unit-circle axis. Mark 0° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 0°. Use cos = adjacent/hypotenuse; here the value is 1. Answer: cos 0° = 1. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p02",
+      "prompt": "Derive cos 30° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "cos 30° = 1",
+        "cos 30° = 1/2",
+        "cos 30° = √3/2",
+        "cos 30° = 0"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the 30°-60°-90° triangle with sides 1, √3, 2. Mark 30° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 30°. Use cos = adjacent/hypotenuse; here the value is √3/2. Answer: cos 30° = √3/2. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p03",
+      "prompt": "Derive cos 45° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "cos 45° = 0",
+        "cos 45° = 1",
+        "cos 45° = 1/2",
+        "cos 45° = √2/2"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the 45°-45°-90° triangle with sides 1, 1, √2. Mark 45° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 45°. Use cos = adjacent/hypotenuse; here the value is √2/2. Answer: cos 45° = √2/2. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p04",
+      "prompt": "Derive cos 60° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "cos 60° = 1/2",
+        "cos 60° = 0",
+        "cos 60° = 1",
+        "cos 60° = √2/2"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the 30°-60°-90° triangle with sides 1, √3, 2. Mark 60° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 60°. Use cos = adjacent/hypotenuse; here the value is 1/2. Answer: cos 60° = 1/2. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p05",
+      "prompt": "Derive cos 90° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "cos 90° = √2/2",
+        "cos 90° = 0",
+        "cos 90° = 1",
+        "cos 90° = 1/2"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the unit-circle axis. Mark 90° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 90°. Use cos = adjacent/hypotenuse; here the value is 0. Answer: cos 90° = 0. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p06",
+      "prompt": "Derive tan 0° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "tan 0° = 1/2",
+        "tan 0° = √2/2",
+        "tan 0° = 0",
+        "tan 0° = 1"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the unit-circle axis. Mark 0° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 0°. Use tan = opposite/adjacent; here the value is 0. Answer: tan 0° = 0. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p07",
+      "prompt": "Derive tan 30° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "tan 30° = 0",
+        "tan 30° = 1",
+        "tan 30° = 1/2",
+        "tan 30° = √3/3"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the 30°-60°-90° triangle with sides 1, √3, 2. Mark 30° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 30°. Use tan = opposite/adjacent; here the value is √3/3. Answer: tan 30° = √3/3. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p08",
+      "prompt": "Derive tan 45° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "tan 45° = 1",
+        "tan 45° = 0",
+        "tan 45° = 1/2",
+        "tan 45° = √2/2"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the 45°-45°-90° triangle with sides 1, 1, √2. Mark 45° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 45°. Use tan = opposite/adjacent; here the value is 1. Answer: tan 45° = 1. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p09",
+      "prompt": "Derive tan 60° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "tan 60° = 1/2",
+        "tan 60° = √3",
+        "tan 60° = 0",
+        "tan 60° = 1"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the 30°-60°-90° triangle with sides 1, √3, 2. Mark 60° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 60°. Use tan = opposite/adjacent; here the value is √3. Answer: tan 60° = √3. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p10",
+      "prompt": "Derive tan 90° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "tan 90° = 1",
+        "tan 90° = 1/2",
+        "tan 90° = undefined",
+        "tan 90° = 0"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the unit-circle axis. Mark 90° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 90°. Use tan = opposite/adjacent; here the value is undefined. Answer: tan 90° = undefined. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p11",
+      "prompt": "Derive sin 0° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "sin 0° = 1",
+        "sin 0° = 1/2",
+        "sin 0° = √2/2",
+        "sin 0° = 0"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the unit-circle axis. Mark 0° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 0°. Use sin = opposite/hypotenuse; here the value is 0. Answer: sin 0° = 0. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p12",
+      "prompt": "Derive sin 30° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "sin 30° = 1/2",
+        "sin 30° = 0",
+        "sin 30° = 1",
+        "sin 30° = √2/2"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the 30°-60°-90° triangle with sides 1, √3, 2. Mark 30° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 30°. Use sin = opposite/hypotenuse; here the value is 1/2. Answer: sin 30° = 1/2. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p13",
+      "prompt": "Derive sin 45° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "sin 45° = 1/2",
+        "sin 45° = √2/2",
+        "sin 45° = 0",
+        "sin 45° = 1"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the 45°-45°-90° triangle with sides 1, 1, √2. Mark 45° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 45°. Use sin = opposite/hypotenuse; here the value is √2/2. Answer: sin 45° = √2/2. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p14",
+      "prompt": "Derive sin 60° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "sin 60° = 1",
+        "sin 60° = 1/2",
+        "sin 60° = √3/2",
+        "sin 60° = 0"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the 30°-60°-90° triangle with sides 1, √3, 2. Mark 60° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 60°. Use sin = opposite/hypotenuse; here the value is √3/2. Answer: sin 60° = √3/2. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-p15",
+      "prompt": "Derive sin 90° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "sin 90° = 0",
+        "sin 90° = 1/2",
+        "sin 90° = √2/2",
+        "sin 90° = 1"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the unit-circle axis. Mark 90° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 90°. Use sin = opposite/hypotenuse; here the value is 1. Answer: sin 90° = 1. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-trig-l04-m16",
+      "prompt": "Derive tan 0° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "tan 0° = 0",
+        "tan 0° = 1",
+        "tan 0° = 1/2",
+        "tan 0° = √2/2"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the unit-circle axis. Mark 0° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 0°. Use tan = opposite/adjacent; here the value is 0. Answer: tan 0° = 0. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-m17",
+      "prompt": "Derive tan 30° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "tan 30° = 1/2",
+        "tan 30° = √3/3",
+        "tan 30° = 0",
+        "tan 30° = 1"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the 30°-60°-90° triangle with sides 1, √3, 2. Mark 30° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 30°. Use tan = opposite/adjacent; here the value is √3/3. Answer: tan 30° = √3/3. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-m18",
+      "prompt": "Derive tan 45° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "tan 45° = 1/2",
+        "tan 45° = √2/2",
+        "tan 45° = 1",
+        "tan 45° = 0"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the 45°-45°-90° triangle with sides 1, 1, √2. Mark 45° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 45°. Use tan = opposite/adjacent; here the value is 1. Answer: tan 45° = 1. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-m19",
+      "prompt": "Derive tan 60° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "tan 60° = 0",
+        "tan 60° = 1",
+        "tan 60° = 1/2",
+        "tan 60° = √3"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the 30°-60°-90° triangle with sides 1, √3, 2. Mark 60° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 60°. Use tan = opposite/adjacent; here the value is √3. Answer: tan 60° = √3. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-m20",
+      "prompt": "Derive tan 90° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "tan 90° = undefined",
+        "tan 90° = 0",
+        "tan 90° = 1",
+        "tan 90° = 1/2"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the unit-circle axis. Mark 90° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 90°. Use tan = opposite/adjacent; here the value is undefined. Answer: tan 90° = undefined. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-trig-l04-r21",
+      "prompt": "Derive cos 0° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "cos 0° = √2/2",
+        "cos 0° = 1",
+        "cos 0° = 0",
+        "cos 0° = 1/2"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the unit-circle axis. Mark 0° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 0°. Use cos = adjacent/hypotenuse; here the value is 1. Answer: cos 0° = 1. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-r22",
+      "prompt": "Derive cos 30° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "cos 30° = 1",
+        "cos 30° = 1/2",
+        "cos 30° = √3/2",
+        "cos 30° = 0"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the 30°-60°-90° triangle with sides 1, √3, 2. Mark 30° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 30°. Use cos = adjacent/hypotenuse; here the value is √3/2. Answer: cos 30° = √3/2. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    },
+    {
+      "id": "g10-trig-l04-r23",
+      "prompt": "Derive cos 45° exactly without a calculator; explain the special triangle or axis.",
+      "options": [
+        "cos 45° = 0",
+        "cos 45° = 1",
+        "cos 45° = 1/2",
+        "cos 45° = √2/2"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the 45°-45°-90° triangle with sides 1, 1, √2. Mark 45° at the appropriate vertex or axis. Label opposite, adjacent and hypotenuse relative to 45°. Use cos = adjacent/hypotenuse; here the value is √2/2. Answer: cos 45° = √2/2. Check against the labelled special triangle or unit-circle point.",
+      "source": "grade10-trig-lesson-04.md"
+    }
+  ]
+}

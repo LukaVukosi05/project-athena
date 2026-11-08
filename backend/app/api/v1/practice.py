@@ -20,11 +20,12 @@ from app.curriculum.grade8 import assessment_patterns, assessment_patterns_34, a
 from app.curriculum.grade8 import assessment_straight_lines, assessment_shapes, assessment_pythagoras
 from app.curriculum.grade8 import assessment_straight_lines_chain
 from app.curriculum.grade9 import assessment_whole_numbers as grade9_whole
-from app.curriculum.grade10.assessment import ALGEBRA_BANKS as GRADE10_ALGEBRA_BANKS, EEI_BANKS as GRADE10_EEI_BANKS
+from app.curriculum.grade10.assessment import ALGEBRA_BANKS as GRADE10_ALGEBRA_BANKS, EEI_BANKS as GRADE10_EEI_BANKS, TRIG_BANKS as GRADE10_TRIG_BANKS
 from app.curriculum.grade8 import assessment_graphs_lesson1, assessment_graphs_lesson2, assessment_graphs_lesson3, assessment_graphs_lesson4, assessment_graphs_lesson5, assessment_graphs_lesson6
 from app.curriculum.grade8 import assessment_expressions, assessment_expressions_lesson2, assessment_expressions_lesson3, assessment_expressions_lesson4, assessment_expressions_lesson5, assessment_expressions_lesson6, assessment_expressions_lesson7, assessment_expressions_lesson8, assessment_expressions_lesson9, assessment_expressions_lesson10
 
 ASSESSMENT_BANKS={
+    **{f"g10-trig-{number:02}":GRADE10_TRIG_BANKS[number][1:] for number in range(1,8)},
     **{f"g10-eei-{number:02}":GRADE10_EEI_BANKS[number][1:] for number in range(1,10)},
     **{f"g10-algebra-{number:02}":GRADE10_ALGEBRA_BANKS[number][1:] for number in range(1,7)},
     "g9-whole-numbers-01": (grade9_whole.MASTERY_1,grade9_whole.REASSESSMENT_1,grade9_whole.REPAIRS_1,grade9_whole.RULES_1),

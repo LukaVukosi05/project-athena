@@ -42,7 +42,7 @@ def test_direct_urls_answer_gate_and_grade11_stays_blocked():
  with TestClient(app) as client:
   grade=client.get('/api/v1/curriculum/grades/grade-10');topic=client.get('/api/v1/curriculum/grades/grade-10/topics/algebraic-expressions')
   assert grade.status_code==topic.status_code==200
-  assert len(grade.json()['topics'])==2
+  assert len(grade.json()['topics'])==3
   assert len(topic.json()['subtopics'][0]['lessons'])==6
   assert client.get('/api/v1/curriculum/grades/grade-11').json()['topics']==[]
   for n in range(1,7):

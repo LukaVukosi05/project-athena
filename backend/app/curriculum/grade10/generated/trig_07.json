@@ -1,0 +1,865 @@
+{
+  "source": "grade10-trig-lesson-07.md",
+  "worked": [
+    {
+      "id": "g10-trig-l07-w01",
+      "problem": "A terminal side passes through P(-4, 3). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(-4, 3) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 4 and vertical 3.",
+        "Calculate r=√(-4²+3²)=5.",
+        "Use signed coordinates: sin θ=3/5, cos θ=-4/5, tan θ=3/-4.",
+        "Answer: sin θ = 3/5; cos θ = -4/5; tan θ = -3/4. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = 3/5; cos θ = -4/5; tan θ = -3/4",
+      "check": "Answer: sin θ = 3/5; cos θ = -4/5; tan θ = -3/4. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 3,
+          "adjacent": 4,
+          "hypotenuse": 5,
+          "orientation": "opposite-vertical",
+          "model": "coordinate",
+          "point": [
+            -4,
+            3
+          ],
+          "radius": 5,
+          "sin": "3/5",
+          "cos": "-4/5",
+          "tan": "-3/4",
+          "answer": "sin θ = 3/5; cos θ = -4/5; tan θ = -3/4"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-trig-l07-w02",
+      "problem": "A terminal side passes through P(12, 5). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(12, 5) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 12 and vertical 5.",
+        "Calculate r=√(12²+5²)=13.",
+        "Use signed coordinates: sin θ=5/13, cos θ=12/13, tan θ=5/12.",
+        "Answer: sin θ = 5/13; cos θ = 12/13; tan θ = 5/12. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = 5/13; cos θ = 12/13; tan θ = 5/12",
+      "check": "Answer: sin θ = 5/13; cos θ = 12/13; tan θ = 5/12. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 5,
+          "adjacent": 12,
+          "hypotenuse": 13,
+          "orientation": "opposite-horizontal",
+          "model": "coordinate",
+          "point": [
+            12,
+            5
+          ],
+          "radius": 13,
+          "sin": "5/13",
+          "cos": "12/13",
+          "tan": "5/12",
+          "answer": "sin θ = 5/13; cos θ = 12/13; tan θ = 5/12"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-trig-l07-w03",
+      "problem": "A terminal side passes through P(-15, -8). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(-15, -8) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 15 and vertical 8.",
+        "Calculate r=√(-15²+-8²)=17.",
+        "Use signed coordinates: sin θ=-8/17, cos θ=-15/17, tan θ=-8/-15.",
+        "Answer: sin θ = -8/17; cos θ = -15/17; tan θ = 8/15. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = -8/17; cos θ = -15/17; tan θ = 8/15",
+      "check": "Answer: sin θ = -8/17; cos θ = -15/17; tan θ = 8/15. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 8,
+          "adjacent": 15,
+          "hypotenuse": 17,
+          "orientation": "opposite-vertical",
+          "model": "coordinate",
+          "point": [
+            -15,
+            -8
+          ],
+          "radius": 17,
+          "sin": "-8/17",
+          "cos": "-15/17",
+          "tan": "8/15",
+          "answer": "sin θ = -8/17; cos θ = -15/17; tan θ = 8/15"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l07-w04",
+      "problem": "A terminal side passes through P(24, 7). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(24, 7) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 24 and vertical 7.",
+        "Calculate r=√(24²+7²)=25.",
+        "Use signed coordinates: sin θ=7/25, cos θ=24/25, tan θ=7/24.",
+        "Answer: sin θ = 7/25; cos θ = 24/25; tan θ = 7/24. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = 7/25; cos θ = 24/25; tan θ = 7/24",
+      "check": "Answer: sin θ = 7/25; cos θ = 24/25; tan θ = 7/24. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 7,
+          "adjacent": 24,
+          "hypotenuse": 25,
+          "orientation": "opposite-horizontal",
+          "model": "coordinate",
+          "point": [
+            24,
+            7
+          ],
+          "radius": 25,
+          "sin": "7/25",
+          "cos": "24/25",
+          "tan": "7/24",
+          "answer": "sin θ = 7/25; cos θ = 24/25; tan θ = 7/24"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l07-w05",
+      "problem": "A terminal side passes through P(-21, 20). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(-21, 20) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 21 and vertical 20.",
+        "Calculate r=√(-21²+20²)=29.",
+        "Use signed coordinates: sin θ=20/29, cos θ=-21/29, tan θ=20/-21.",
+        "Answer: sin θ = 20/29; cos θ = -21/29; tan θ = -20/21. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = 20/29; cos θ = -21/29; tan θ = -20/21",
+      "check": "Answer: sin θ = 20/29; cos θ = -21/29; tan θ = -20/21. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 20,
+          "adjacent": 21,
+          "hypotenuse": 29,
+          "orientation": "opposite-vertical",
+          "model": "coordinate",
+          "point": [
+            -21,
+            20
+          ],
+          "radius": 29,
+          "sin": "20/29",
+          "cos": "-21/29",
+          "tan": "-20/21",
+          "answer": "sin θ = 20/29; cos θ = -21/29; tan θ = -20/21"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l07-w06",
+      "problem": "A terminal side passes through P(8, -6). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(8, -6) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 8 and vertical 6.",
+        "Calculate r=√(8²+-6²)=10.",
+        "Use signed coordinates: sin θ=-6/10, cos θ=8/10, tan θ=-6/8.",
+        "Answer: sin θ = -3/5; cos θ = 4/5; tan θ = -3/4. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = -3/5; cos θ = 4/5; tan θ = -3/4",
+      "check": "Answer: sin θ = -3/5; cos θ = 4/5; tan θ = -3/4. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 6,
+          "adjacent": 8,
+          "hypotenuse": 10,
+          "orientation": "opposite-horizontal",
+          "model": "coordinate",
+          "point": [
+            8,
+            -6
+          ],
+          "radius": 10,
+          "sin": "-3/5",
+          "cos": "4/5",
+          "tan": "-3/4",
+          "answer": "sin θ = -3/5; cos θ = 4/5; tan θ = -3/4"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l07-w07",
+      "problem": "A terminal side passes through P(-24, 10). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(-24, 10) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 24 and vertical 10.",
+        "Calculate r=√(-24²+10²)=26.",
+        "Use signed coordinates: sin θ=10/26, cos θ=-24/26, tan θ=10/-24.",
+        "Answer: sin θ = 5/13; cos θ = -12/13; tan θ = -5/12. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = 5/13; cos θ = -12/13; tan θ = -5/12",
+      "check": "Answer: sin θ = 5/13; cos θ = -12/13; tan θ = -5/12. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 10,
+          "adjacent": 24,
+          "hypotenuse": 26,
+          "orientation": "opposite-vertical",
+          "model": "coordinate",
+          "point": [
+            -24,
+            10
+          ],
+          "radius": 26,
+          "sin": "5/13",
+          "cos": "-12/13",
+          "tan": "-5/12",
+          "answer": "sin θ = 5/13; cos θ = -12/13; tan θ = -5/12"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l07-w08",
+      "problem": "A terminal side passes through P(30, 16). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(30, 16) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 30 and vertical 16.",
+        "Calculate r=√(30²+16²)=34.",
+        "Use signed coordinates: sin θ=16/34, cos θ=30/34, tan θ=16/30.",
+        "Answer: sin θ = 8/17; cos θ = 15/17; tan θ = 8/15. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = 8/17; cos θ = 15/17; tan θ = 8/15",
+      "check": "Answer: sin θ = 8/17; cos θ = 15/17; tan θ = 8/15. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 16,
+          "adjacent": 30,
+          "hypotenuse": 34,
+          "orientation": "opposite-horizontal",
+          "model": "coordinate",
+          "point": [
+            30,
+            16
+          ],
+          "radius": 34,
+          "sin": "8/17",
+          "cos": "15/17",
+          "tan": "8/15",
+          "answer": "sin θ = 8/17; cos θ = 15/17; tan θ = 8/15"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l07-w09",
+      "problem": "A terminal side passes through P(-48, -14). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(-48, -14) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 48 and vertical 14.",
+        "Calculate r=√(-48²+-14²)=50.",
+        "Use signed coordinates: sin θ=-14/50, cos θ=-48/50, tan θ=-14/-48.",
+        "Answer: sin θ = -7/25; cos θ = -24/25; tan θ = 7/24. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = -7/25; cos θ = -24/25; tan θ = 7/24",
+      "check": "Answer: sin θ = -7/25; cos θ = -24/25; tan θ = 7/24. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 14,
+          "adjacent": 48,
+          "hypotenuse": 50,
+          "orientation": "opposite-vertical",
+          "model": "coordinate",
+          "point": [
+            -48,
+            -14
+          ],
+          "radius": 50,
+          "sin": "-7/25",
+          "cos": "-24/25",
+          "tan": "7/24",
+          "answer": "sin θ = -7/25; cos θ = -24/25; tan θ = 7/24"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l07-w10",
+      "problem": "A terminal side passes through P(42, 40). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(42, 40) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 42 and vertical 40.",
+        "Calculate r=√(42²+40²)=58.",
+        "Use signed coordinates: sin θ=40/58, cos θ=42/58, tan θ=40/42.",
+        "Answer: sin θ = 20/29; cos θ = 21/29; tan θ = 20/21. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = 20/29; cos θ = 21/29; tan θ = 20/21",
+      "check": "Answer: sin θ = 20/29; cos θ = 21/29; tan θ = 20/21. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 40,
+          "adjacent": 42,
+          "hypotenuse": 58,
+          "orientation": "opposite-horizontal",
+          "model": "coordinate",
+          "point": [
+            42,
+            40
+          ],
+          "radius": 58,
+          "sin": "20/29",
+          "cos": "21/29",
+          "tan": "20/21",
+          "answer": "sin θ = 20/29; cos θ = 21/29; tan θ = 20/21"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l07-w11",
+      "problem": "A terminal side passes through P(-12, 9). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(-12, 9) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 12 and vertical 9.",
+        "Calculate r=√(-12²+9²)=15.",
+        "Use signed coordinates: sin θ=9/15, cos θ=-12/15, tan θ=9/-12.",
+        "Answer: sin θ = 3/5; cos θ = -4/5; tan θ = -3/4. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = 3/5; cos θ = -4/5; tan θ = -3/4",
+      "check": "Answer: sin θ = 3/5; cos θ = -4/5; tan θ = -3/4. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 9,
+          "adjacent": 12,
+          "hypotenuse": 15,
+          "orientation": "opposite-vertical",
+          "model": "coordinate",
+          "point": [
+            -12,
+            9
+          ],
+          "radius": 15,
+          "sin": "3/5",
+          "cos": "-4/5",
+          "tan": "-3/4",
+          "answer": "sin θ = 3/5; cos θ = -4/5; tan θ = -3/4"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l07-w12",
+      "problem": "A terminal side passes through P(36, -15). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(36, -15) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 36 and vertical 15.",
+        "Calculate r=√(36²+-15²)=39.",
+        "Use signed coordinates: sin θ=-15/39, cos θ=36/39, tan θ=-15/36.",
+        "Answer: sin θ = -5/13; cos θ = 12/13; tan θ = -5/12. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = -5/13; cos θ = 12/13; tan θ = -5/12",
+      "check": "Answer: sin θ = -5/13; cos θ = 12/13; tan θ = -5/12. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 15,
+          "adjacent": 36,
+          "hypotenuse": 39,
+          "orientation": "opposite-horizontal",
+          "model": "coordinate",
+          "point": [
+            36,
+            -15
+          ],
+          "radius": 39,
+          "sin": "-5/13",
+          "cos": "12/13",
+          "tan": "-5/12",
+          "answer": "sin θ = -5/13; cos θ = 12/13; tan θ = -5/12"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l07-w13",
+      "problem": "A terminal side passes through P(-45, 24). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(-45, 24) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 45 and vertical 24.",
+        "Calculate r=√(-45²+24²)=51.",
+        "Use signed coordinates: sin θ=24/51, cos θ=-45/51, tan θ=24/-45.",
+        "Answer: sin θ = 8/17; cos θ = -15/17; tan θ = -8/15. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = 8/17; cos θ = -15/17; tan θ = -8/15",
+      "check": "Answer: sin θ = 8/17; cos θ = -15/17; tan θ = -8/15. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 24,
+          "adjacent": 45,
+          "hypotenuse": 51,
+          "orientation": "opposite-vertical",
+          "model": "coordinate",
+          "point": [
+            -45,
+            24
+          ],
+          "radius": 51,
+          "sin": "8/17",
+          "cos": "-15/17",
+          "tan": "-8/15",
+          "answer": "sin θ = 8/17; cos θ = -15/17; tan θ = -8/15"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-trig-l07-w14",
+      "problem": "A terminal side passes through P(72, 21). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(72, 21) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 72 and vertical 21.",
+        "Calculate r=√(72²+21²)=75.",
+        "Use signed coordinates: sin θ=21/75, cos θ=72/75, tan θ=21/72.",
+        "Answer: sin θ = 7/25; cos θ = 24/25; tan θ = 7/24. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = 7/25; cos θ = 24/25; tan θ = 7/24",
+      "check": "Answer: sin θ = 7/25; cos θ = 24/25; tan θ = 7/24. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 21,
+          "adjacent": 72,
+          "hypotenuse": 75,
+          "orientation": "opposite-horizontal",
+          "model": "coordinate",
+          "point": [
+            72,
+            21
+          ],
+          "radius": 75,
+          "sin": "7/25",
+          "cos": "24/25",
+          "tan": "7/24",
+          "answer": "sin θ = 7/25; cos θ = 24/25; tan θ = 7/24"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-trig-l07-w15",
+      "problem": "A terminal side passes through P(-63, -60). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "actions": [
+        "Plot P(-63, -60) on fixed Cartesian axes and join it to O(0,0).",
+        "Construct the reference right triangle with horizontal 63 and vertical 60.",
+        "Calculate r=√(-63²+-60²)=87.",
+        "Use signed coordinates: sin θ=-60/87, cos θ=-63/87, tan θ=-60/-63.",
+        "Answer: sin θ = -20/29; cos θ = -21/29; tan θ = 20/21. Verify tan θ = sin θ / cos θ."
+      ],
+      "answer": "sin θ = -20/29; cos θ = -21/29; tan θ = 20/21",
+      "check": "Answer: sin θ = -20/29; cos θ = -21/29; tan θ = 20/21. Verify tan θ = sin θ / cos θ.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 7,
+          "family": "grade10_trigonometry",
+          "opposite": 60,
+          "adjacent": 63,
+          "hypotenuse": 87,
+          "orientation": "opposite-vertical",
+          "model": "coordinate",
+          "point": [
+            -63,
+            -60
+          ],
+          "radius": 87,
+          "sin": "-20/29",
+          "cos": "-21/29",
+          "tan": "20/21",
+          "answer": "sin θ = -20/29; cos θ = -21/29; tan θ = 20/21"
+        }
+      },
+      "lesson": 7,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-trig-l07-p01",
+      "prompt": "A terminal side passes through P(16, 12). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 3/5; cos θ = 4/5; tan θ = -3/4",
+        "sin θ = 3/5; cos θ = 4/5; tan θ = 3/4",
+        "sin θ = -3/5; cos θ = 4/5; tan θ = 3/4",
+        "sin θ = 3/5; cos θ = -4/5; tan θ = 3/4"
+      ],
+      "answer_index": 1,
+      "memo": "Plot P(16, 12) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 16 and vertical 12. Calculate r=√(16²+12²)=20. Use signed coordinates: sin θ=12/20, cos θ=16/20, tan θ=12/16. Answer: sin θ = 3/5; cos θ = 4/5; tan θ = 3/4. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p02",
+      "prompt": "A terminal side passes through P(-48, 20). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 5/13; cos θ = 12/13; tan θ = -5/12",
+        "sin θ = 5/13; cos θ = -12/13; tan θ = 5/12",
+        "sin θ = 5/13; cos θ = -12/13; tan θ = -5/12",
+        "sin θ = -5/13; cos θ = -12/13; tan θ = -5/12"
+      ],
+      "answer_index": 2,
+      "memo": "Plot P(-48, 20) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 48 and vertical 20. Calculate r=√(-48²+20²)=52. Use signed coordinates: sin θ=20/52, cos θ=-48/52, tan θ=20/-48. Answer: sin θ = 5/13; cos θ = -12/13; tan θ = -5/12. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p03",
+      "prompt": "A terminal side passes through P(60, -32). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 8/17; cos θ = 15/17; tan θ = -8/15",
+        "sin θ = -8/17; cos θ = -15/17; tan θ = -8/15",
+        "sin θ = -8/17; cos θ = 15/17; tan θ = 8/15",
+        "sin θ = -8/17; cos θ = 15/17; tan θ = -8/15"
+      ],
+      "answer_index": 3,
+      "memo": "Plot P(60, -32) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 60 and vertical 32. Calculate r=√(60²+-32²)=68. Use signed coordinates: sin θ=-32/68, cos θ=60/68, tan θ=-32/60. Answer: sin θ = -8/17; cos θ = 15/17; tan θ = -8/15. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p04",
+      "prompt": "A terminal side passes through P(-96, 28). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 7/25; cos θ = -24/25; tan θ = -7/24",
+        "sin θ = -7/25; cos θ = -24/25; tan θ = -7/24",
+        "sin θ = 7/25; cos θ = 24/25; tan θ = -7/24",
+        "sin θ = 7/25; cos θ = -24/25; tan θ = 7/24"
+      ],
+      "answer_index": 0,
+      "memo": "Plot P(-96, 28) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 96 and vertical 28. Calculate r=√(-96²+28²)=100. Use signed coordinates: sin θ=28/100, cos θ=-96/100, tan θ=28/-96. Answer: sin θ = 7/25; cos θ = -24/25; tan θ = -7/24. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p05",
+      "prompt": "A terminal side passes through P(84, 80). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 20/29; cos θ = 21/29; tan θ = -20/21",
+        "sin θ = 20/29; cos θ = 21/29; tan θ = 20/21",
+        "sin θ = -20/29; cos θ = 21/29; tan θ = 20/21",
+        "sin θ = 20/29; cos θ = -21/29; tan θ = 20/21"
+      ],
+      "answer_index": 1,
+      "memo": "Plot P(84, 80) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 84 and vertical 80. Calculate r=√(84²+80²)=116. Use signed coordinates: sin θ=80/116, cos θ=84/116, tan θ=80/84. Answer: sin θ = 20/29; cos θ = 21/29; tan θ = 20/21. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p06",
+      "prompt": "A terminal side passes through P(-20, -15). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = -3/5; cos θ = 4/5; tan θ = 3/4",
+        "sin θ = -3/5; cos θ = -4/5; tan θ = -3/4",
+        "sin θ = -3/5; cos θ = -4/5; tan θ = 3/4",
+        "sin θ = 3/5; cos θ = -4/5; tan θ = 3/4"
+      ],
+      "answer_index": 2,
+      "memo": "Plot P(-20, -15) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 20 and vertical 15. Calculate r=√(-20²+-15²)=25. Use signed coordinates: sin θ=-15/25, cos θ=-20/25, tan θ=-15/-20. Answer: sin θ = -3/5; cos θ = -4/5; tan θ = 3/4. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p07",
+      "prompt": "A terminal side passes through P(60, 25). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = -5/13; cos θ = 12/13; tan θ = 5/12",
+        "sin θ = 5/13; cos θ = -12/13; tan θ = 5/12",
+        "sin θ = 5/13; cos θ = 12/13; tan θ = -5/12",
+        "sin θ = 5/13; cos θ = 12/13; tan θ = 5/12"
+      ],
+      "answer_index": 3,
+      "memo": "Plot P(60, 25) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 60 and vertical 25. Calculate r=√(60²+25²)=65. Use signed coordinates: sin θ=25/65, cos θ=60/65, tan θ=25/60. Answer: sin θ = 5/13; cos θ = 12/13; tan θ = 5/12. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p08",
+      "prompt": "A terminal side passes through P(-75, 40). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 8/17; cos θ = -15/17; tan θ = -8/15",
+        "sin θ = -8/17; cos θ = -15/17; tan θ = -8/15",
+        "sin θ = 8/17; cos θ = 15/17; tan θ = -8/15",
+        "sin θ = 8/17; cos θ = -15/17; tan θ = 8/15"
+      ],
+      "answer_index": 0,
+      "memo": "Plot P(-75, 40) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 75 and vertical 40. Calculate r=√(-75²+40²)=85. Use signed coordinates: sin θ=40/85, cos θ=-75/85, tan θ=40/-75. Answer: sin θ = 8/17; cos θ = -15/17; tan θ = -8/15. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p09",
+      "prompt": "A terminal side passes through P(120, -35). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = -7/25; cos θ = 24/25; tan θ = 7/24",
+        "sin θ = -7/25; cos θ = 24/25; tan θ = -7/24",
+        "sin θ = 7/25; cos θ = 24/25; tan θ = -7/24",
+        "sin θ = -7/25; cos θ = -24/25; tan θ = -7/24"
+      ],
+      "answer_index": 1,
+      "memo": "Plot P(120, -35) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 120 and vertical 35. Calculate r=√(120²+-35²)=125. Use signed coordinates: sin θ=-35/125, cos θ=120/125, tan θ=-35/120. Answer: sin θ = -7/25; cos θ = 24/25; tan θ = -7/24. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p10",
+      "prompt": "A terminal side passes through P(-105, 100). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 20/29; cos θ = 21/29; tan θ = -20/21",
+        "sin θ = 20/29; cos θ = -21/29; tan θ = 20/21",
+        "sin θ = 20/29; cos θ = -21/29; tan θ = -20/21",
+        "sin θ = -20/29; cos θ = -21/29; tan θ = -20/21"
+      ],
+      "answer_index": 2,
+      "memo": "Plot P(-105, 100) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 105 and vertical 100. Calculate r=√(-105²+100²)=145. Use signed coordinates: sin θ=100/145, cos θ=-105/145, tan θ=100/-105. Answer: sin θ = 20/29; cos θ = -21/29; tan θ = -20/21. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p11",
+      "prompt": "A terminal side passes through P(24, 18). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = -3/5; cos θ = 4/5; tan θ = 3/4",
+        "sin θ = 3/5; cos θ = -4/5; tan θ = 3/4",
+        "sin θ = 3/5; cos θ = 4/5; tan θ = -3/4",
+        "sin θ = 3/5; cos θ = 4/5; tan θ = 3/4"
+      ],
+      "answer_index": 3,
+      "memo": "Plot P(24, 18) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 24 and vertical 18. Calculate r=√(24²+18²)=30. Use signed coordinates: sin θ=18/30, cos θ=24/30, tan θ=18/24. Answer: sin θ = 3/5; cos θ = 4/5; tan θ = 3/4. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p12",
+      "prompt": "A terminal side passes through P(-72, -30). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = -5/13; cos θ = -12/13; tan θ = 5/12",
+        "sin θ = 5/13; cos θ = -12/13; tan θ = 5/12",
+        "sin θ = -5/13; cos θ = 12/13; tan θ = 5/12",
+        "sin θ = -5/13; cos θ = -12/13; tan θ = -5/12"
+      ],
+      "answer_index": 0,
+      "memo": "Plot P(-72, -30) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 72 and vertical 30. Calculate r=√(-72²+-30²)=78. Use signed coordinates: sin θ=-30/78, cos θ=-72/78, tan θ=-30/-72. Answer: sin θ = -5/13; cos θ = -12/13; tan θ = 5/12. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p13",
+      "prompt": "A terminal side passes through P(90, 48). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 8/17; cos θ = 15/17; tan θ = -8/15",
+        "sin θ = 8/17; cos θ = 15/17; tan θ = 8/15",
+        "sin θ = -8/17; cos θ = 15/17; tan θ = 8/15",
+        "sin θ = 8/17; cos θ = -15/17; tan θ = 8/15"
+      ],
+      "answer_index": 1,
+      "memo": "Plot P(90, 48) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 90 and vertical 48. Calculate r=√(90²+48²)=102. Use signed coordinates: sin θ=48/102, cos θ=90/102, tan θ=48/90. Answer: sin θ = 8/17; cos θ = 15/17; tan θ = 8/15. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p14",
+      "prompt": "A terminal side passes through P(-144, 42). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 7/25; cos θ = 24/25; tan θ = -7/24",
+        "sin θ = 7/25; cos θ = -24/25; tan θ = 7/24",
+        "sin θ = 7/25; cos θ = -24/25; tan θ = -7/24",
+        "sin θ = -7/25; cos θ = -24/25; tan θ = -7/24"
+      ],
+      "answer_index": 2,
+      "memo": "Plot P(-144, 42) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 144 and vertical 42. Calculate r=√(-144²+42²)=150. Use signed coordinates: sin θ=42/150, cos θ=-144/150, tan θ=42/-144. Answer: sin θ = 7/25; cos θ = -24/25; tan θ = -7/24. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-p15",
+      "prompt": "A terminal side passes through P(126, -120). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 20/29; cos θ = 21/29; tan θ = -20/21",
+        "sin θ = -20/29; cos θ = -21/29; tan θ = -20/21",
+        "sin θ = -20/29; cos θ = 21/29; tan θ = 20/21",
+        "sin θ = -20/29; cos θ = 21/29; tan θ = -20/21"
+      ],
+      "answer_index": 3,
+      "memo": "Plot P(126, -120) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 126 and vertical 120. Calculate r=√(126²+-120²)=174. Use signed coordinates: sin θ=-120/174, cos θ=126/174, tan θ=-120/126. Answer: sin θ = -20/29; cos θ = 21/29; tan θ = -20/21. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-trig-l07-m16",
+      "prompt": "A terminal side passes through P(40, 30). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 3/5; cos θ = 4/5; tan θ = 3/4",
+        "sin θ = -3/5; cos θ = 4/5; tan θ = 3/4",
+        "sin θ = 3/5; cos θ = -4/5; tan θ = 3/4",
+        "sin θ = 3/5; cos θ = 4/5; tan θ = -3/4"
+      ],
+      "answer_index": 0,
+      "memo": "Plot P(40, 30) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 40 and vertical 30. Calculate r=√(40²+30²)=50. Use signed coordinates: sin θ=30/50, cos θ=40/50, tan θ=30/40. Answer: sin θ = 3/5; cos θ = 4/5; tan θ = 3/4. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-m17",
+      "prompt": "A terminal side passes through P(-120, 50). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 5/13; cos θ = -12/13; tan θ = 5/12",
+        "sin θ = 5/13; cos θ = -12/13; tan θ = -5/12",
+        "sin θ = -5/13; cos θ = -12/13; tan θ = -5/12",
+        "sin θ = 5/13; cos θ = 12/13; tan θ = -5/12"
+      ],
+      "answer_index": 1,
+      "memo": "Plot P(-120, 50) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 120 and vertical 50. Calculate r=√(-120²+50²)=130. Use signed coordinates: sin θ=50/130, cos θ=-120/130, tan θ=50/-120. Answer: sin θ = 5/13; cos θ = -12/13; tan θ = -5/12. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-m18",
+      "prompt": "A terminal side passes through P(150, -80). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = -8/17; cos θ = -15/17; tan θ = -8/15",
+        "sin θ = -8/17; cos θ = 15/17; tan θ = 8/15",
+        "sin θ = -8/17; cos θ = 15/17; tan θ = -8/15",
+        "sin θ = 8/17; cos θ = 15/17; tan θ = -8/15"
+      ],
+      "answer_index": 2,
+      "memo": "Plot P(150, -80) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 150 and vertical 80. Calculate r=√(150²+-80²)=170. Use signed coordinates: sin θ=-80/170, cos θ=150/170, tan θ=-80/150. Answer: sin θ = -8/17; cos θ = 15/17; tan θ = -8/15. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-m19",
+      "prompt": "A terminal side passes through P(-240, 70). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = -7/25; cos θ = -24/25; tan θ = -7/24",
+        "sin θ = 7/25; cos θ = 24/25; tan θ = -7/24",
+        "sin θ = 7/25; cos θ = -24/25; tan θ = 7/24",
+        "sin θ = 7/25; cos θ = -24/25; tan θ = -7/24"
+      ],
+      "answer_index": 3,
+      "memo": "Plot P(-240, 70) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 240 and vertical 70. Calculate r=√(-240²+70²)=250. Use signed coordinates: sin θ=70/250, cos θ=-240/250, tan θ=70/-240. Answer: sin θ = 7/25; cos θ = -24/25; tan θ = -7/24. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-m20",
+      "prompt": "A terminal side passes through P(210, 200). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 20/29; cos θ = 21/29; tan θ = 20/21",
+        "sin θ = -20/29; cos θ = 21/29; tan θ = 20/21",
+        "sin θ = 20/29; cos θ = -21/29; tan θ = 20/21",
+        "sin θ = 20/29; cos θ = 21/29; tan θ = -20/21"
+      ],
+      "answer_index": 0,
+      "memo": "Plot P(210, 200) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 210 and vertical 200. Calculate r=√(210²+200²)=290. Use signed coordinates: sin θ=200/290, cos θ=210/290, tan θ=200/210. Answer: sin θ = 20/29; cos θ = 21/29; tan θ = 20/21. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-trig-l07-r21",
+      "prompt": "A terminal side passes through P(56, -42). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = -3/5; cos θ = 4/5; tan θ = 3/4",
+        "sin θ = -3/5; cos θ = 4/5; tan θ = -3/4",
+        "sin θ = 3/5; cos θ = 4/5; tan θ = -3/4",
+        "sin θ = -3/5; cos θ = -4/5; tan θ = -3/4"
+      ],
+      "answer_index": 1,
+      "memo": "Plot P(56, -42) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 56 and vertical 42. Calculate r=√(56²+-42²)=70. Use signed coordinates: sin θ=-42/70, cos θ=56/70, tan θ=-42/56. Answer: sin θ = -3/5; cos θ = 4/5; tan θ = -3/4. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-r22",
+      "prompt": "A terminal side passes through P(-168, 70). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = 5/13; cos θ = 12/13; tan θ = -5/12",
+        "sin θ = 5/13; cos θ = -12/13; tan θ = 5/12",
+        "sin θ = 5/13; cos θ = -12/13; tan θ = -5/12",
+        "sin θ = -5/13; cos θ = -12/13; tan θ = -5/12"
+      ],
+      "answer_index": 2,
+      "memo": "Plot P(-168, 70) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 168 and vertical 70. Calculate r=√(-168²+70²)=182. Use signed coordinates: sin θ=70/182, cos θ=-168/182, tan θ=70/-168. Answer: sin θ = 5/13; cos θ = -12/13; tan θ = -5/12. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    },
+    {
+      "id": "g10-trig-l07-r23",
+      "prompt": "A terminal side passes through P(210, 112). Determine sin θ, cos θ and tan θ exactly, where 0° ≤ θ < 360°.",
+      "options": [
+        "sin θ = -8/17; cos θ = 15/17; tan θ = 8/15",
+        "sin θ = 8/17; cos θ = -15/17; tan θ = 8/15",
+        "sin θ = 8/17; cos θ = 15/17; tan θ = -8/15",
+        "sin θ = 8/17; cos θ = 15/17; tan θ = 8/15"
+      ],
+      "answer_index": 3,
+      "memo": "Plot P(210, 112) on fixed Cartesian axes and join it to O(0,0). Construct the reference right triangle with horizontal 210 and vertical 112. Calculate r=√(210²+112²)=238. Use signed coordinates: sin θ=112/238, cos θ=210/238, tan θ=112/210. Answer: sin θ = 8/17; cos θ = 15/17; tan θ = 8/15. Verify tan θ = sin θ / cos θ.",
+      "source": "grade10-trig-lesson-07.md"
+    }
+  ]
+}

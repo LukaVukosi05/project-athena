@@ -1,0 +1,805 @@
+{
+  "source": "grade10-trig-lesson-06.md",
+  "worked": [
+    {
+      "id": "g10-trig-l06-w01",
+      "problem": "Solve 1sin θ = 1/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 1sin θ = 1/2.",
+        "Divide both sides by 1: sin θ = 1/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching sin θ=1/2 is 30°.",
+        "Answer: θ = 30°. Substitute θ=30°: 1×1/2=1/2."
+      ],
+      "answer": "θ = 30°",
+      "check": "Answer: θ = 30°. Substitute θ=30°: 1×1/2=1/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 3,
+          "adjacent": 4,
+          "hypotenuse": 5,
+          "orientation": "opposite-vertical",
+          "model": "solve",
+          "degree": 30,
+          "fn": "sin",
+          "multiplier": 1,
+          "ratio": "1/2",
+          "answer": "θ = 30°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-trig-l06-w02",
+      "problem": "Solve 1sin θ = √2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 1sin θ = √2/2.",
+        "Divide both sides by 1: sin θ = √2/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching sin θ=√2/2 is 45°.",
+        "Answer: θ = 45°. Substitute θ=45°: 1×√2/2=√2/2."
+      ],
+      "answer": "θ = 45°",
+      "check": "Answer: θ = 45°. Substitute θ=45°: 1×√2/2=√2/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 5,
+          "adjacent": 12,
+          "hypotenuse": 13,
+          "orientation": "opposite-horizontal",
+          "model": "solve",
+          "degree": 45,
+          "fn": "sin",
+          "multiplier": 1,
+          "ratio": "√2/2",
+          "answer": "θ = 45°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-trig-l06-w03",
+      "problem": "Solve 1sin θ = √3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 1sin θ = √3/2.",
+        "Divide both sides by 1: sin θ = √3/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching sin θ=√3/2 is 60°.",
+        "Answer: θ = 60°. Substitute θ=60°: 1×√3/2=√3/2."
+      ],
+      "answer": "θ = 60°",
+      "check": "Answer: θ = 60°. Substitute θ=60°: 1×√3/2=√3/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 8,
+          "adjacent": 15,
+          "hypotenuse": 17,
+          "orientation": "opposite-vertical",
+          "model": "solve",
+          "degree": 60,
+          "fn": "sin",
+          "multiplier": 1,
+          "ratio": "√3/2",
+          "answer": "θ = 60°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l06-w04",
+      "problem": "Solve 1cos θ = √3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 1cos θ = √3/2.",
+        "Divide both sides by 1: cos θ = √3/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching cos θ=√3/2 is 30°.",
+        "Answer: θ = 30°. Substitute θ=30°: 1×√3/2=√3/2."
+      ],
+      "answer": "θ = 30°",
+      "check": "Answer: θ = 30°. Substitute θ=30°: 1×√3/2=√3/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 7,
+          "adjacent": 24,
+          "hypotenuse": 25,
+          "orientation": "opposite-horizontal",
+          "model": "solve",
+          "degree": 30,
+          "fn": "cos",
+          "multiplier": 1,
+          "ratio": "√3/2",
+          "answer": "θ = 30°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l06-w05",
+      "problem": "Solve 1cos θ = √2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 1cos θ = √2/2.",
+        "Divide both sides by 1: cos θ = √2/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching cos θ=√2/2 is 45°.",
+        "Answer: θ = 45°. Substitute θ=45°: 1×√2/2=√2/2."
+      ],
+      "answer": "θ = 45°",
+      "check": "Answer: θ = 45°. Substitute θ=45°: 1×√2/2=√2/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 20,
+          "adjacent": 21,
+          "hypotenuse": 29,
+          "orientation": "opposite-vertical",
+          "model": "solve",
+          "degree": 45,
+          "fn": "cos",
+          "multiplier": 1,
+          "ratio": "√2/2",
+          "answer": "θ = 45°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-trig-l06-w06",
+      "problem": "Solve 1cos θ = 1/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 1cos θ = 1/2.",
+        "Divide both sides by 1: cos θ = 1/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching cos θ=1/2 is 60°.",
+        "Answer: θ = 60°. Substitute θ=60°: 1×1/2=1/2."
+      ],
+      "answer": "θ = 60°",
+      "check": "Answer: θ = 60°. Substitute θ=60°: 1×1/2=1/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 6,
+          "adjacent": 8,
+          "hypotenuse": 10,
+          "orientation": "opposite-horizontal",
+          "model": "solve",
+          "degree": 60,
+          "fn": "cos",
+          "multiplier": 1,
+          "ratio": "1/2",
+          "answer": "θ = 60°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l06-w07",
+      "problem": "Solve 1tan θ = √3/3 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 1tan θ = √3/3.",
+        "Divide both sides by 1: tan θ = √3/3.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching tan θ=√3/3 is 30°.",
+        "Answer: θ = 30°. Substitute θ=30°: 1×√3/3=√3/3."
+      ],
+      "answer": "θ = 30°",
+      "check": "Answer: θ = 30°. Substitute θ=30°: 1×√3/3=√3/3.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 10,
+          "adjacent": 24,
+          "hypotenuse": 26,
+          "orientation": "opposite-vertical",
+          "model": "solve",
+          "degree": 30,
+          "fn": "tan",
+          "multiplier": 1,
+          "ratio": "√3/3",
+          "answer": "θ = 30°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l06-w08",
+      "problem": "Solve 1tan θ = 1 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 1tan θ = 1.",
+        "Divide both sides by 1: tan θ = 1.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching tan θ=1 is 45°.",
+        "Answer: θ = 45°. Substitute θ=45°: 1×1=1."
+      ],
+      "answer": "θ = 45°",
+      "check": "Answer: θ = 45°. Substitute θ=45°: 1×1=1.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 16,
+          "adjacent": 30,
+          "hypotenuse": 34,
+          "orientation": "opposite-horizontal",
+          "model": "solve",
+          "degree": 45,
+          "fn": "tan",
+          "multiplier": 1,
+          "ratio": "1",
+          "answer": "θ = 45°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l06-w09",
+      "problem": "Solve 1tan θ = √3 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 1tan θ = √3.",
+        "Divide both sides by 1: tan θ = √3.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching tan θ=√3 is 60°.",
+        "Answer: θ = 60°. Substitute θ=60°: 1×√3=√3."
+      ],
+      "answer": "θ = 60°",
+      "check": "Answer: θ = 60°. Substitute θ=60°: 1×√3=√3.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 14,
+          "adjacent": 48,
+          "hypotenuse": 50,
+          "orientation": "opposite-vertical",
+          "model": "solve",
+          "degree": 60,
+          "fn": "tan",
+          "multiplier": 1,
+          "ratio": "√3",
+          "answer": "θ = 60°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-trig-l06-w10",
+      "problem": "Solve 2sin θ = 2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 2sin θ = 2/2.",
+        "Divide both sides by 2: sin θ = 1/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching sin θ=1/2 is 30°.",
+        "Answer: θ = 30°. Substitute θ=30°: 2×1/2=2/2."
+      ],
+      "answer": "θ = 30°",
+      "check": "Answer: θ = 30°. Substitute θ=30°: 2×1/2=2/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 40,
+          "adjacent": 42,
+          "hypotenuse": 58,
+          "orientation": "opposite-horizontal",
+          "model": "solve",
+          "degree": 30,
+          "fn": "sin",
+          "multiplier": 2,
+          "ratio": "1/2",
+          "answer": "θ = 30°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l06-w11",
+      "problem": "Solve 2sin θ = 2√2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 2sin θ = 2√2/2.",
+        "Divide both sides by 2: sin θ = √2/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching sin θ=√2/2 is 45°.",
+        "Answer: θ = 45°. Substitute θ=45°: 2×√2/2=2√2/2."
+      ],
+      "answer": "θ = 45°",
+      "check": "Answer: θ = 45°. Substitute θ=45°: 2×√2/2=2√2/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 9,
+          "adjacent": 12,
+          "hypotenuse": 15,
+          "orientation": "opposite-vertical",
+          "model": "solve",
+          "degree": 45,
+          "fn": "sin",
+          "multiplier": 2,
+          "ratio": "√2/2",
+          "answer": "θ = 45°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l06-w12",
+      "problem": "Solve 2sin θ = 2√3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 2sin θ = 2√3/2.",
+        "Divide both sides by 2: sin θ = √3/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching sin θ=√3/2 is 60°.",
+        "Answer: θ = 60°. Substitute θ=60°: 2×√3/2=2√3/2."
+      ],
+      "answer": "θ = 60°",
+      "check": "Answer: θ = 60°. Substitute θ=60°: 2×√3/2=2√3/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 15,
+          "adjacent": 36,
+          "hypotenuse": 39,
+          "orientation": "opposite-horizontal",
+          "model": "solve",
+          "degree": 60,
+          "fn": "sin",
+          "multiplier": 2,
+          "ratio": "√3/2",
+          "answer": "θ = 60°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-trig-l06-w13",
+      "problem": "Solve 2cos θ = 2√3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 2cos θ = 2√3/2.",
+        "Divide both sides by 2: cos θ = √3/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching cos θ=√3/2 is 30°.",
+        "Answer: θ = 30°. Substitute θ=30°: 2×√3/2=2√3/2."
+      ],
+      "answer": "θ = 30°",
+      "check": "Answer: θ = 30°. Substitute θ=30°: 2×√3/2=2√3/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 24,
+          "adjacent": 45,
+          "hypotenuse": 51,
+          "orientation": "opposite-vertical",
+          "model": "solve",
+          "degree": 30,
+          "fn": "cos",
+          "multiplier": 2,
+          "ratio": "√3/2",
+          "answer": "θ = 30°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-trig-l06-w14",
+      "problem": "Solve 2cos θ = 2√2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 2cos θ = 2√2/2.",
+        "Divide both sides by 2: cos θ = √2/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching cos θ=√2/2 is 45°.",
+        "Answer: θ = 45°. Substitute θ=45°: 2×√2/2=2√2/2."
+      ],
+      "answer": "θ = 45°",
+      "check": "Answer: θ = 45°. Substitute θ=45°: 2×√2/2=2√2/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 21,
+          "adjacent": 72,
+          "hypotenuse": 75,
+          "orientation": "opposite-horizontal",
+          "model": "solve",
+          "degree": 45,
+          "fn": "cos",
+          "multiplier": 2,
+          "ratio": "√2/2",
+          "answer": "θ = 45°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-trig-l06-w15",
+      "problem": "Solve 2cos θ = 2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "actions": [
+        "Identify the unknown acute or endpoint angle θ in 2cos θ = 2/2.",
+        "Divide both sides by 2: cos θ = 1/2.",
+        "Compare with the exact special-angle ratios.",
+        "The unique angle in 0° to 90° matching cos θ=1/2 is 60°.",
+        "Answer: θ = 60°. Substitute θ=60°: 2×1/2=2/2."
+      ],
+      "answer": "θ = 60°",
+      "check": "Answer: θ = 60°. Substitute θ=60°: 2×1/2=2/2.",
+      "visual": {
+        "family": "grade10_trigonometry",
+        "values": {
+          "lesson": 6,
+          "family": "grade10_trigonometry",
+          "opposite": 60,
+          "adjacent": 63,
+          "hypotenuse": 87,
+          "orientation": "opposite-vertical",
+          "model": "solve",
+          "degree": 60,
+          "fn": "cos",
+          "multiplier": 2,
+          "ratio": "1/2",
+          "answer": "θ = 60°"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Identify the marked reference angle, keep coordinate signs and test the original condition.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-trig-l06-p01",
+      "prompt": "Solve 2sin θ = 2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 60°",
+        "θ = 30°",
+        "θ = 0°",
+        "θ = 45°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the unknown acute or endpoint angle θ in 2sin θ = 2/2. Divide both sides by 2: sin θ = 1/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching sin θ=1/2 is 30°. Answer: θ = 30°. Substitute θ=30°: 2×1/2=2/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p02",
+      "prompt": "Solve 2sin θ = 2√2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 30°",
+        "θ = 60°",
+        "θ = 45°",
+        "θ = 0°"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the unknown acute or endpoint angle θ in 2sin θ = 2√2/2. Divide both sides by 2: sin θ = √2/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching sin θ=√2/2 is 45°. Answer: θ = 45°. Substitute θ=45°: 2×√2/2=2√2/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p03",
+      "prompt": "Solve 2sin θ = 2√3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 0°",
+        "θ = 30°",
+        "θ = 45°",
+        "θ = 60°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the unknown acute or endpoint angle θ in 2sin θ = 2√3/2. Divide both sides by 2: sin θ = √3/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching sin θ=√3/2 is 60°. Answer: θ = 60°. Substitute θ=60°: 2×√3/2=2√3/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p04",
+      "prompt": "Solve 3cos θ = 3√3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 30°",
+        "θ = 0°",
+        "θ = 45°",
+        "θ = 60°"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the unknown acute or endpoint angle θ in 3cos θ = 3√3/2. Divide both sides by 3: cos θ = √3/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching cos θ=√3/2 is 30°. Answer: θ = 30°. Substitute θ=30°: 3×√3/2=3√3/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p05",
+      "prompt": "Solve 3cos θ = 3√2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 60°",
+        "θ = 45°",
+        "θ = 0°",
+        "θ = 30°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the unknown acute or endpoint angle θ in 3cos θ = 3√2/2. Divide both sides by 3: cos θ = √2/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching cos θ=√2/2 is 45°. Answer: θ = 45°. Substitute θ=45°: 3×√2/2=3√2/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p06",
+      "prompt": "Solve 3cos θ = 3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 30°",
+        "θ = 45°",
+        "θ = 60°",
+        "θ = 0°"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the unknown acute or endpoint angle θ in 3cos θ = 3/2. Divide both sides by 3: cos θ = 1/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching cos θ=1/2 is 60°. Answer: θ = 60°. Substitute θ=60°: 3×1/2=3/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p07",
+      "prompt": "Solve 3tan θ = 3√3/3 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 0°",
+        "θ = 45°",
+        "θ = 60°",
+        "θ = 30°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the unknown acute or endpoint angle θ in 3tan θ = 3√3/3. Divide both sides by 3: tan θ = √3/3. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching tan θ=√3/3 is 30°. Answer: θ = 30°. Substitute θ=30°: 3×√3/3=3√3/3.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p08",
+      "prompt": "Solve 3tan θ = 3 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 45°",
+        "θ = 0°",
+        "θ = 30°",
+        "θ = 60°"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the unknown acute or endpoint angle θ in 3tan θ = 3. Divide both sides by 3: tan θ = 1. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching tan θ=1 is 45°. Answer: θ = 45°. Substitute θ=45°: 3×1=3.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p09",
+      "prompt": "Solve 3tan θ = 3√3 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 45°",
+        "θ = 60°",
+        "θ = 0°",
+        "θ = 30°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the unknown acute or endpoint angle θ in 3tan θ = 3√3. Divide both sides by 3: tan θ = √3. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching tan θ=√3 is 60°. Answer: θ = 60°. Substitute θ=60°: 3×√3=3√3.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p10",
+      "prompt": "Solve 3sin θ = 3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 45°",
+        "θ = 60°",
+        "θ = 30°",
+        "θ = 0°"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the unknown acute or endpoint angle θ in 3sin θ = 3/2. Divide both sides by 3: sin θ = 1/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching sin θ=1/2 is 30°. Answer: θ = 30°. Substitute θ=30°: 3×1/2=3/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p11",
+      "prompt": "Solve 3sin θ = 3√2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 0°",
+        "θ = 30°",
+        "θ = 60°",
+        "θ = 45°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the unknown acute or endpoint angle θ in 3sin θ = 3√2/2. Divide both sides by 3: sin θ = √2/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching sin θ=√2/2 is 45°. Answer: θ = 45°. Substitute θ=45°: 3×√2/2=3√2/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p12",
+      "prompt": "Solve 3sin θ = 3√3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 60°",
+        "θ = 0°",
+        "θ = 30°",
+        "θ = 45°"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the unknown acute or endpoint angle θ in 3sin θ = 3√3/2. Divide both sides by 3: sin θ = √3/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching sin θ=√3/2 is 60°. Answer: θ = 60°. Substitute θ=60°: 3×√3/2=3√3/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p13",
+      "prompt": "Solve 4cos θ = 4√3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 60°",
+        "θ = 30°",
+        "θ = 0°",
+        "θ = 45°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the unknown acute or endpoint angle θ in 4cos θ = 4√3/2. Divide both sides by 4: cos θ = √3/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching cos θ=√3/2 is 30°. Answer: θ = 30°. Substitute θ=30°: 4×√3/2=4√3/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p14",
+      "prompt": "Solve 4cos θ = 4√2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 30°",
+        "θ = 60°",
+        "θ = 45°",
+        "θ = 0°"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the unknown acute or endpoint angle θ in 4cos θ = 4√2/2. Divide both sides by 4: cos θ = √2/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching cos θ=√2/2 is 45°. Answer: θ = 45°. Substitute θ=45°: 4×√2/2=4√2/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-p15",
+      "prompt": "Solve 4cos θ = 4/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 0°",
+        "θ = 30°",
+        "θ = 45°",
+        "θ = 60°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the unknown acute or endpoint angle θ in 4cos θ = 4/2. Divide both sides by 4: cos θ = 1/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching cos θ=1/2 is 60°. Answer: θ = 60°. Substitute θ=60°: 4×1/2=4/2.",
+      "source": "grade10-trig-lesson-06.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-trig-l06-m16",
+      "prompt": "Solve 6tan θ = 6√3/3 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 30°",
+        "θ = 0°",
+        "θ = 45°",
+        "θ = 60°"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the unknown acute or endpoint angle θ in 6tan θ = 6√3/3. Divide both sides by 6: tan θ = √3/3. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching tan θ=√3/3 is 30°. Answer: θ = 30°. Substitute θ=30°: 6×√3/3=6√3/3.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-m17",
+      "prompt": "Solve 6tan θ = 6 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 60°",
+        "θ = 45°",
+        "θ = 0°",
+        "θ = 30°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the unknown acute or endpoint angle θ in 6tan θ = 6. Divide both sides by 6: tan θ = 1. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching tan θ=1 is 45°. Answer: θ = 45°. Substitute θ=45°: 6×1=6.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-m18",
+      "prompt": "Solve 6tan θ = 6√3 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 30°",
+        "θ = 45°",
+        "θ = 60°",
+        "θ = 0°"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the unknown acute or endpoint angle θ in 6tan θ = 6√3. Divide both sides by 6: tan θ = √3. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching tan θ=√3 is 60°. Answer: θ = 60°. Substitute θ=60°: 6×√3=6√3.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-m19",
+      "prompt": "Solve 6sin θ = 6/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 0°",
+        "θ = 45°",
+        "θ = 60°",
+        "θ = 30°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the unknown acute or endpoint angle θ in 6sin θ = 6/2. Divide both sides by 6: sin θ = 1/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching sin θ=1/2 is 30°. Answer: θ = 30°. Substitute θ=30°: 6×1/2=6/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-m20",
+      "prompt": "Solve 6sin θ = 6√2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 45°",
+        "θ = 0°",
+        "θ = 30°",
+        "θ = 60°"
+      ],
+      "answer_index": 0,
+      "memo": "Identify the unknown acute or endpoint angle θ in 6sin θ = 6√2/2. Divide both sides by 6: sin θ = √2/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching sin θ=√2/2 is 45°. Answer: θ = 45°. Substitute θ=45°: 6×√2/2=6√2/2.",
+      "source": "grade10-trig-lesson-06.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-trig-l06-r21",
+      "prompt": "Solve 8sin θ = 8√3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 45°",
+        "θ = 60°",
+        "θ = 0°",
+        "θ = 30°"
+      ],
+      "answer_index": 1,
+      "memo": "Identify the unknown acute or endpoint angle θ in 8sin θ = 8√3/2. Divide both sides by 8: sin θ = √3/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching sin θ=√3/2 is 60°. Answer: θ = 60°. Substitute θ=60°: 8×√3/2=8√3/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-r22",
+      "prompt": "Solve 8cos θ = 8√3/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 45°",
+        "θ = 60°",
+        "θ = 30°",
+        "θ = 0°"
+      ],
+      "answer_index": 2,
+      "memo": "Identify the unknown acute or endpoint angle θ in 8cos θ = 8√3/2. Divide both sides by 8: cos θ = √3/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching cos θ=√3/2 is 30°. Answer: θ = 30°. Substitute θ=30°: 8×√3/2=8√3/2.",
+      "source": "grade10-trig-lesson-06.md"
+    },
+    {
+      "id": "g10-trig-l06-r23",
+      "prompt": "Solve 8cos θ = 8√2/2 for 0° ≤ θ ≤ 90°; give the angle exactly.",
+      "options": [
+        "θ = 0°",
+        "θ = 30°",
+        "θ = 60°",
+        "θ = 45°"
+      ],
+      "answer_index": 3,
+      "memo": "Identify the unknown acute or endpoint angle θ in 8cos θ = 8√2/2. Divide both sides by 8: cos θ = √2/2. Compare with the exact special-angle ratios. The unique angle in 0° to 90° matching cos θ=√2/2 is 45°. Answer: θ = 45°. Substitute θ=45°: 8×√2/2=8√2/2.",
+      "source": "grade10-trig-lesson-06.md"
+    }
+  ]
+}
