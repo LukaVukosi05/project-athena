@@ -136,7 +136,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                 item for item in question["whiteboard"]["semantic_objects"]
                 if item["id"] in {"problem", "stage-01"}
             ]
-    if grade.id == "grade-9":
+    if grade.id in {"grade-9", "grade-10"}:
         import json
         for question in payload.get("whiteboard_questions", []):
             question["total_step_count"] = len(question["whiteboard"]["steps"])
@@ -168,6 +168,11 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     givens.pop("target", None)
                     givens.pop("each", None)
                     scene["visual"] = {"family":"shapes", "values":givens}
+                elif lesson.id.startswith("g10-algebra-"):
+                    givens=dict(scene["visual"]["values"])
+                    for result_key in ("answer","coefficients","decimal","excluded","lower","upper","first","second","a","b","c","d","t","middle"):
+                        givens.pop(result_key,None)
+                    scene["visual"]={"family":"grade10_expressions","values":givens}
                 elif lesson.id.startswith("g9-tg-"):
                     givens=dict(scene["visual"]["values"])
                     for result_key in ("image", "original_area", "rule"):
@@ -233,7 +238,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
 @router.post("/{lesson_id}/questions/{question_id}/reveal")
 def reveal_worked_example(lesson_id: str, question_id: str, user: User | None = Depends(get_optional_user)) -> dict:
     grade, _, _, lesson = _lesson_context(lesson_id)
-    if grade.id not in {"grade-8", "grade-9"}:
+    if grade.id not in {"grade-8", "grade-9", "grade-10"}:
         raise HTTPException(status_code=404, detail="Worked example not found")
     enforce_lesson_access(lesson, user)
     if lesson.id in {"g8-algebraic-equations-10", "g8-algebraic-expressions-10"}:

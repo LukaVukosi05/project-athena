@@ -24,7 +24,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5]|g9-solid-l0[1-4]|g9-sv-l0[1-6]|g9-tg-l0[1-7])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5]|g9-solid-l0[1-4]|g9-sv-l0[1-6]|g9-tg-l0[1-7]|g10-aex-l0[1-6])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -628,6 +628,63 @@ def _grade8_whole_number_board(parameters: dict) -> None:
     else:
         raise ValueError("Unsupported whole-number visual model")
 
+
+def _grade10_algebra_board(parameters: dict, number: int) -> None:
+    """Check that the illustrated factors and numerical results agree with the source."""
+    import json,math
+    scene=json.loads(parameters['scene_json']);v=scene.get('visual',{}).get('values',{})
+    if (scene.get('id')!=parameters['question_id'] or scene.get('problem')!=parameters['prompt']
+        or scene.get('lesson')!=number or scene.get('visual',{}).get('family')!='grade10_expressions'
+        or v.get('lesson')!=number or len(scene.get('actions',[]))!=5
+        or parameters['total_steps']!=5 or scene['actions'][-1]!=scene.get('check')):
+        raise ValueError('Grade 10 algebra source, question and stages disagree')
+    a,b,sign=v.get('a'),v.get('b'),v.get('sign')
+    if any(type(x) is not int or abs(x)>100 or x==0 for x in (a,b,sign)) or sign not in (-1,1):
+        raise ValueError('Invalid algebra parameters')
+    if number in (1,2):
+        rad=v.get('radicand');lo=v.get('lower');hi=v.get('upper')
+        if type(rad) is not int or type(lo) is not int or type(hi) is not int or hi!=lo+1 or not (lo*lo<=rad<hi*hi):
+            raise ValueError('Invalid surd interval')
+        if number==1:
+            if v.get('kind')=='rational' and rad==lo*lo:expected=f'rational; √{rad} = {lo}'
+            elif v.get('kind')=='irrational' and lo*lo<rad<hi*hi:expected=f'irrational; {lo} < √{rad} < {hi}'
+            else:raise ValueError('Incorrect rational classification')
+        else:
+            precision=v.get('precision')
+            if precision not in (1,2) or v.get('decimal')!=f'{math.sqrt(rad):.{precision}f}':raise ValueError('Invalid rounded surd')
+            expected=f'√{rad} ≈ {v["decimal"]}'
+    elif number==3:
+        d,t=v.get('d'),v.get('t');co=v.get('coefficients')
+        if type(d) is not int or type(t) is not int or co!={'3':1,'2':a+d,'1':t+a*d,'0':a*t}:
+            raise ValueError('Invalid expansion coefficients')
+        def term(power,value):
+            core=('x' if abs(value)==1 and power else str(abs(value)))+('²' if power==2 else '³' if power==3 else 'x' if power==1 and abs(value)!=1 else '')
+            return str(abs(value)) if power==0 else core
+        expected=''
+        for power,value in ((3,1),(2,a+d),(1,t+a*d),(0,a*t)):
+            if value:
+                expected+=((' + ' if value>0 else ' − ') if expected else ('−' if value<0 else ''))+term(power,value)
+        if str(co['0']) not in scene['check']:raise ValueError('Expansion check inconsistent')
+    elif number==4:
+        d=v.get('d');co=v.get('coefficients')
+        if type(d) is not int or co!={'2':1,'1':a+d,'0':a*d}:raise ValueError('Invalid factorisation coefficients')
+        expected=f'(x + {a})(x {"+" if d>=0 else "−"} {abs(d)})'
+    elif number==5:
+        cube=v.get('cube');minus=v.get('kind')=='difference'; middle=v.get('middle')
+        if cube!=b**3 or v.get('kind') not in ('sum','difference') or middle!=(b if minus else -b):raise ValueError('Invalid cube identity')
+        first=f'(x {"−" if minus else "+"} {b})';second=f'(x² {"+" if minus else "−"} {b}x + {b*b})';expected=first+second
+    elif number==6:
+        cube=v.get('cube');minus=sign<0;excluded=b if minus else -b
+        first=f'(x {"−" if minus else "+"} {b})';second=f'(x² {"+" if minus else "−"} {b}x + {b*b})'
+        if (cube!=b**3 or v.get('denominator')!=f'(x³ {"−" if minus else "+"} {cube})'
+            or v.get('first')!=first or v.get('second')!=second or v.get('excluded')!=excluded
+            or v.get('kind') not in ('combine','simplify')):raise ValueError('Invalid fraction factor or restriction')
+        operator=v.get('operator','+')
+        if operator not in ('+','−'):raise ValueError('Invalid fraction operation')
+        expected=f'{(1-a if operator=="−" else 1+a) if v["kind"]=="combine" else 1}/{first}; x ≠ {excluded}'
+    else:raise ValueError('Unsupported Grade 10 algebra lesson')
+    if scene.get('answer')!=expected or (expected not in scene['check'] and expected.replace(';', ',') not in scene['check'] and number not in (1,2)):
+        raise ValueError('Algebra answer does not match its question and visual')
 
 def _grade9_transform_board(parameters: dict, number: int) -> None:
     """Reject inconsistent original/image pairs and mismatched source questions."""
@@ -1524,6 +1581,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'data_{n}'),True)
        for n in range(1,9)},
+    **{("algebra",f"grade10_algebra_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade10_algebra_board(p,n),True)
+       for n in range(1,7)},
     **{("geometry",f"grade9_transform_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_transform_board(p,n),True)

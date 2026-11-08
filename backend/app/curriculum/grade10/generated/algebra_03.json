@@ -1,0 +1,835 @@
+{
+  "source": "grade10-algebra-lesson-03.md",
+  "worked": [
+    {
+      "id": "g10-aex-l03-w01",
+      "problem": "Expand and simplify (x + 3)(x² − 1x − 1).",
+      "actions": [
+        "Show the two rows x(x² − 1x − 1) and 3(x² − 1x − 1).",
+        "First row: x³ − 1x² − 1x.",
+        "Second row: 3x² − 3x − 3.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 2, x coefficient -4, constant -3.",
+        "Answer: x³ + 2² − 4x − 3. Check by substituting x = 0 in the product and expanded expression: both give -3."
+      ],
+      "answer": "x³ + 2² − 4x − 3",
+      "check": "Answer: x³ + 2² − 4x − 3. Check by substituting x = 0 in the product and expanded expression: both give -3.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 3,
+          "b": 1,
+          "c": 1,
+          "sign": -1,
+          "d": -1,
+          "t": -1,
+          "coefficients": {
+            "3": 1,
+            "2": 2,
+            "1": -4,
+            "0": -3
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-aex-l03-w02",
+      "problem": "Expand and simplify (x + 4)(x² + 2x + 1).",
+      "actions": [
+        "Show the two rows x(x² + 2x + 1) and 4(x² + 2x + 1).",
+        "First row: x³ + 2x² + 1x.",
+        "Second row: 4x² + 8x + 4.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 6, x coefficient 9, constant 4.",
+        "Answer: x³ + 6² + 9x + 4. Check by substituting x = 0 in the product and expanded expression: both give 4."
+      ],
+      "answer": "x³ + 6² + 9x + 4",
+      "check": "Answer: x³ + 6² + 9x + 4. Check by substituting x = 0 in the product and expanded expression: both give 4.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 4,
+          "b": 2,
+          "c": 1,
+          "sign": 1,
+          "d": 2,
+          "t": 1,
+          "coefficients": {
+            "3": 1,
+            "2": 6,
+            "1": 9,
+            "0": 4
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-aex-l03-w03",
+      "problem": "Expand and simplify (x + 5)(x² − 2x − 2).",
+      "actions": [
+        "Show the two rows x(x² − 2x − 2) and 5(x² − 2x − 2).",
+        "First row: x³ − 2x² − 2x.",
+        "Second row: 5x² − 10x − 10.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 3, x coefficient -12, constant -10.",
+        "Answer: x³ + 3² − 12x − 10. Check by substituting x = 0 in the product and expanded expression: both give -10."
+      ],
+      "answer": "x³ + 3² − 12x − 10",
+      "check": "Answer: x³ + 3² − 12x − 10. Check by substituting x = 0 in the product and expanded expression: both give -10.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 5,
+          "b": 2,
+          "c": 2,
+          "sign": -1,
+          "d": -2,
+          "t": -2,
+          "coefficients": {
+            "3": 1,
+            "2": 3,
+            "1": -12,
+            "0": -10
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-aex-l03-w04",
+      "problem": "Expand and simplify (x + 6)(x² + 3x + 2).",
+      "actions": [
+        "Show the two rows x(x² + 3x + 2) and 6(x² + 3x + 2).",
+        "First row: x³ + 3x² + 2x.",
+        "Second row: 6x² + 18x + 12.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 9, x coefficient 20, constant 12.",
+        "Answer: x³ + 9² + 20x + 12. Check by substituting x = 0 in the product and expanded expression: both give 12."
+      ],
+      "answer": "x³ + 9² + 20x + 12",
+      "check": "Answer: x³ + 9² + 20x + 12. Check by substituting x = 0 in the product and expanded expression: both give 12.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 6,
+          "b": 3,
+          "c": 2,
+          "sign": 1,
+          "d": 3,
+          "t": 2,
+          "coefficients": {
+            "3": 1,
+            "2": 9,
+            "1": 20,
+            "0": 12
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-aex-l03-w05",
+      "problem": "Expand and simplify (x + 7)(x² − 3x − 2).",
+      "actions": [
+        "Show the two rows x(x² − 3x − 2) and 7(x² − 3x − 2).",
+        "First row: x³ − 3x² − 2x.",
+        "Second row: 7x² − 21x − 14.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 4, x coefficient -23, constant -14.",
+        "Answer: x³ + 4² − 23x − 14. Check by substituting x = 0 in the product and expanded expression: both give -14."
+      ],
+      "answer": "x³ + 4² − 23x − 14",
+      "check": "Answer: x³ + 4² − 23x − 14. Check by substituting x = 0 in the product and expanded expression: both give -14.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 7,
+          "b": 3,
+          "c": 2,
+          "sign": -1,
+          "d": -3,
+          "t": -2,
+          "coefficients": {
+            "3": 1,
+            "2": 4,
+            "1": -23,
+            "0": -14
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-aex-l03-w06",
+      "problem": "Expand and simplify (x + 8)(x² + 4x + 3).",
+      "actions": [
+        "Show the two rows x(x² + 4x + 3) and 8(x² + 4x + 3).",
+        "First row: x³ + 4x² + 3x.",
+        "Second row: 8x² + 32x + 24.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 12, x coefficient 35, constant 24.",
+        "Answer: x³ + 12² + 35x + 24. Check by substituting x = 0 in the product and expanded expression: both give 24."
+      ],
+      "answer": "x³ + 12² + 35x + 24",
+      "check": "Answer: x³ + 12² + 35x + 24. Check by substituting x = 0 in the product and expanded expression: both give 24.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 8,
+          "b": 4,
+          "c": 3,
+          "sign": 1,
+          "d": 4,
+          "t": 3,
+          "coefficients": {
+            "3": 1,
+            "2": 12,
+            "1": 35,
+            "0": 24
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-aex-l03-w07",
+      "problem": "Expand and simplify (x + 2)(x² − 4x − 3).",
+      "actions": [
+        "Show the two rows x(x² − 4x − 3) and 2(x² − 4x − 3).",
+        "First row: x³ − 4x² − 3x.",
+        "Second row: 2x² − 8x − 6.",
+        "Collect like powers: x³ coefficient 1, x² coefficient -2, x coefficient -11, constant -6.",
+        "Answer: x³ − 2² − 11x − 6. Check by substituting x = 0 in the product and expanded expression: both give -6."
+      ],
+      "answer": "x³ − 2² − 11x − 6",
+      "check": "Answer: x³ − 2² − 11x − 6. Check by substituting x = 0 in the product and expanded expression: both give -6.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 2,
+          "b": 4,
+          "c": 3,
+          "sign": -1,
+          "d": -4,
+          "t": -3,
+          "coefficients": {
+            "3": 1,
+            "2": -2,
+            "1": -11,
+            "0": -6
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-aex-l03-w08",
+      "problem": "Expand and simplify (x + 3)(x² + 5x + 3).",
+      "actions": [
+        "Show the two rows x(x² + 5x + 3) and 3(x² + 5x + 3).",
+        "First row: x³ + 5x² + 3x.",
+        "Second row: 3x² + 15x + 9.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 8, x coefficient 18, constant 9.",
+        "Answer: x³ + 8² + 18x + 9. Check by substituting x = 0 in the product and expanded expression: both give 9."
+      ],
+      "answer": "x³ + 8² + 18x + 9",
+      "check": "Answer: x³ + 8² + 18x + 9. Check by substituting x = 0 in the product and expanded expression: both give 9.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 3,
+          "b": 5,
+          "c": 3,
+          "sign": 1,
+          "d": 5,
+          "t": 3,
+          "coefficients": {
+            "3": 1,
+            "2": 8,
+            "1": 18,
+            "0": 9
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-aex-l03-w09",
+      "problem": "Expand and simplify (x + 4)(x² − 5x − 4).",
+      "actions": [
+        "Show the two rows x(x² − 5x − 4) and 4(x² − 5x − 4).",
+        "First row: x³ − 5x² − 4x.",
+        "Second row: 4x² − 20x − 16.",
+        "Collect like powers: x³ coefficient 1, x² coefficient -1, x coefficient -24, constant -16.",
+        "Answer: x³ − x² − 24x − 16. Check by substituting x = 0 in the product and expanded expression: both give -16."
+      ],
+      "answer": "x³ − x² − 24x − 16",
+      "check": "Answer: x³ − x² − 24x − 16. Check by substituting x = 0 in the product and expanded expression: both give -16.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 4,
+          "b": 5,
+          "c": 4,
+          "sign": -1,
+          "d": -5,
+          "t": -4,
+          "coefficients": {
+            "3": 1,
+            "2": -1,
+            "1": -24,
+            "0": -16
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-aex-l03-w10",
+      "problem": "Expand and simplify (x + 5)(x² + 6x + 4).",
+      "actions": [
+        "Show the two rows x(x² + 6x + 4) and 5(x² + 6x + 4).",
+        "First row: x³ + 6x² + 4x.",
+        "Second row: 5x² + 30x + 20.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 11, x coefficient 34, constant 20.",
+        "Answer: x³ + 11² + 34x + 20. Check by substituting x = 0 in the product and expanded expression: both give 20."
+      ],
+      "answer": "x³ + 11² + 34x + 20",
+      "check": "Answer: x³ + 11² + 34x + 20. Check by substituting x = 0 in the product and expanded expression: both give 20.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 5,
+          "b": 6,
+          "c": 4,
+          "sign": 1,
+          "d": 6,
+          "t": 4,
+          "coefficients": {
+            "3": 1,
+            "2": 11,
+            "1": 34,
+            "0": 20
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-aex-l03-w11",
+      "problem": "Expand and simplify (x + 6)(x² − 6x − 4).",
+      "actions": [
+        "Show the two rows x(x² − 6x − 4) and 6(x² − 6x − 4).",
+        "First row: x³ − 6x² − 4x.",
+        "Second row: 6x² − 36x − 24.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 0, x coefficient -40, constant -24.",
+        "Answer: x³ − 40x − 24. Check by substituting x = 0 in the product and expanded expression: both give -24."
+      ],
+      "answer": "x³ − 40x − 24",
+      "check": "Answer: x³ − 40x − 24. Check by substituting x = 0 in the product and expanded expression: both give -24.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 6,
+          "b": 6,
+          "c": 4,
+          "sign": -1,
+          "d": -6,
+          "t": -4,
+          "coefficients": {
+            "3": 1,
+            "2": 0,
+            "1": -40,
+            "0": -24
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-aex-l03-w12",
+      "problem": "Expand and simplify (x + 7)(x² + 1x + 5).",
+      "actions": [
+        "Show the two rows x(x² + 1x + 5) and 7(x² + 1x + 5).",
+        "First row: x³ + 1x² + 5x.",
+        "Second row: 7x² + 7x + 35.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 8, x coefficient 12, constant 35.",
+        "Answer: x³ + 8² + 12x + 35. Check by substituting x = 0 in the product and expanded expression: both give 35."
+      ],
+      "answer": "x³ + 8² + 12x + 35",
+      "check": "Answer: x³ + 8² + 12x + 35. Check by substituting x = 0 in the product and expanded expression: both give 35.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 7,
+          "b": 1,
+          "c": 5,
+          "sign": 1,
+          "d": 1,
+          "t": 5,
+          "coefficients": {
+            "3": 1,
+            "2": 8,
+            "1": 12,
+            "0": 35
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-aex-l03-w13",
+      "problem": "Expand and simplify (x + 8)(x² − 1x − 5).",
+      "actions": [
+        "Show the two rows x(x² − 1x − 5) and 8(x² − 1x − 5).",
+        "First row: x³ − 1x² − 5x.",
+        "Second row: 8x² − 8x − 40.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 7, x coefficient -13, constant -40.",
+        "Answer: x³ + 7² − 13x − 40. Check by substituting x = 0 in the product and expanded expression: both give -40."
+      ],
+      "answer": "x³ + 7² − 13x − 40",
+      "check": "Answer: x³ + 7² − 13x − 40. Check by substituting x = 0 in the product and expanded expression: both give -40.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 8,
+          "b": 1,
+          "c": 5,
+          "sign": -1,
+          "d": -1,
+          "t": -5,
+          "coefficients": {
+            "3": 1,
+            "2": 7,
+            "1": -13,
+            "0": -40
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-aex-l03-w14",
+      "problem": "Expand and simplify (x + 2)(x² + 2x + 5).",
+      "actions": [
+        "Show the two rows x(x² + 2x + 5) and 2(x² + 2x + 5).",
+        "First row: x³ + 2x² + 5x.",
+        "Second row: 2x² + 4x + 10.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 4, x coefficient 9, constant 10.",
+        "Answer: x³ + 4² + 9x + 10. Check by substituting x = 0 in the product and expanded expression: both give 10."
+      ],
+      "answer": "x³ + 4² + 9x + 10",
+      "check": "Answer: x³ + 4² + 9x + 10. Check by substituting x = 0 in the product and expanded expression: both give 10.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 2,
+          "b": 2,
+          "c": 5,
+          "sign": 1,
+          "d": 2,
+          "t": 5,
+          "coefficients": {
+            "3": 1,
+            "2": 4,
+            "1": 9,
+            "0": 10
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-aex-l03-w15",
+      "problem": "Expand and simplify (x + 3)(x² − 2x − 1).",
+      "actions": [
+        "Show the two rows x(x² − 2x − 1) and 3(x² − 2x − 1).",
+        "First row: x³ − 2x² − 1x.",
+        "Second row: 3x² − 6x − 3.",
+        "Collect like powers: x³ coefficient 1, x² coefficient 1, x coefficient -7, constant -3.",
+        "Answer: x³ + x² − 7x − 3. Check by substituting x = 0 in the product and expanded expression: both give -3."
+      ],
+      "answer": "x³ + x² − 7x − 3",
+      "check": "Answer: x³ + x² − 7x − 3. Check by substituting x = 0 in the product and expanded expression: both give -3.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 3,
+          "model": "area_expansion",
+          "a": 3,
+          "b": 2,
+          "c": 1,
+          "sign": -1,
+          "d": -2,
+          "t": -1,
+          "coefficients": {
+            "3": 1,
+            "2": 1,
+            "1": -7,
+            "0": -3
+          }
+        }
+      },
+      "lesson": 3,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-aex-l03-p01",
+      "prompt": "Expand and simplify (x + 4)(x² + 3x + 1).",
+      "options": [
+        "x³ + 7² + 15x + 4",
+        "x³ + 7² + 13x + 4",
+        "x³ + 7² + 14x + 4",
+        "x³ + 7² + 12x + 4"
+      ],
+      "answer_index": 1,
+      "memo": "Show the two rows x(x² + 3x + 1) and 4(x² + 3x + 1). First row: x³ + 3x² + 1x. Second row: 4x² + 12x + 4. Collect like powers: x³ coefficient 1, x² coefficient 7, x coefficient 13, constant 4. Answer: x³ + 7² + 13x + 4. Check by substituting x = 0 in the product and expanded expression: both give 4.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p02",
+      "prompt": "Expand and simplify (x + 5)(x² − 3x − 1).",
+      "options": [
+        "x³ + 2² − 17x − 5",
+        "x³ + 2² − 14x − 5",
+        "x³ + 2² − 16x − 5",
+        "x³ + 2² − 15x − 5"
+      ],
+      "answer_index": 2,
+      "memo": "Show the two rows x(x² − 3x − 1) and 5(x² − 3x − 1). First row: x³ − 3x² − 1x. Second row: 5x² − 15x − 5. Collect like powers: x³ coefficient 1, x² coefficient 2, x coefficient -16, constant -5. Answer: x³ + 2² − 16x − 5. Check by substituting x = 0 in the product and expanded expression: both give -5.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p03",
+      "prompt": "Expand and simplify (x + 6)(x² + 4x + 2).",
+      "options": [
+        "x³ + 10² + 27x + 12",
+        "x³ + 10² + 25x + 12",
+        "x³ + 10² + 28x + 12",
+        "x³ + 10² + 26x + 12"
+      ],
+      "answer_index": 3,
+      "memo": "Show the two rows x(x² + 4x + 2) and 6(x² + 4x + 2). First row: x³ + 4x² + 2x. Second row: 6x² + 24x + 12. Collect like powers: x³ coefficient 1, x² coefficient 10, x coefficient 26, constant 12. Answer: x³ + 10² + 26x + 12. Check by substituting x = 0 in the product and expanded expression: both give 12.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p04",
+      "prompt": "Expand and simplify (x + 7)(x² − 4x − 2).",
+      "options": [
+        "x³ + 3² − 30x − 14",
+        "x³ + 3² − 29x − 14",
+        "x³ + 3² − 31x − 14",
+        "x³ + 3² − 28x − 14"
+      ],
+      "answer_index": 0,
+      "memo": "Show the two rows x(x² − 4x − 2) and 7(x² − 4x − 2). First row: x³ − 4x² − 2x. Second row: 7x² − 28x − 14. Collect like powers: x³ coefficient 1, x² coefficient 3, x coefficient -30, constant -14. Answer: x³ + 3² − 30x − 14. Check by substituting x = 0 in the product and expanded expression: both give -14.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p05",
+      "prompt": "Expand and simplify (x + 8)(x² + 5x + 2).",
+      "options": [
+        "x³ + 13² + 44x + 16",
+        "x³ + 13² + 42x + 16",
+        "x³ + 13² + 43x + 16",
+        "x³ + 13² + 41x + 16"
+      ],
+      "answer_index": 1,
+      "memo": "Show the two rows x(x² + 5x + 2) and 8(x² + 5x + 2). First row: x³ + 5x² + 2x. Second row: 8x² + 40x + 16. Collect like powers: x³ coefficient 1, x² coefficient 13, x coefficient 42, constant 16. Answer: x³ + 13² + 42x + 16. Check by substituting x = 0 in the product and expanded expression: both give 16.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p06",
+      "prompt": "Expand and simplify (x + 2)(x² − 5x − 3).",
+      "options": [
+        "x³ − 3² − 14x − 6",
+        "x³ − 3² − 11x − 6",
+        "x³ − 3² − 13x − 6",
+        "x³ − 3² − 12x − 6"
+      ],
+      "answer_index": 2,
+      "memo": "Show the two rows x(x² − 5x − 3) and 2(x² − 5x − 3). First row: x³ − 5x² − 3x. Second row: 2x² − 10x − 6. Collect like powers: x³ coefficient 1, x² coefficient -3, x coefficient -13, constant -6. Answer: x³ − 3² − 13x − 6. Check by substituting x = 0 in the product and expanded expression: both give -6.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p07",
+      "prompt": "Expand and simplify (x + 3)(x² + 6x + 3).",
+      "options": [
+        "x³ + 9² + 22x + 9",
+        "x³ + 9² + 20x + 9",
+        "x³ + 9² + 23x + 9",
+        "x³ + 9² + 21x + 9"
+      ],
+      "answer_index": 3,
+      "memo": "Show the two rows x(x² + 6x + 3) and 3(x² + 6x + 3). First row: x³ + 6x² + 3x. Second row: 3x² + 18x + 9. Collect like powers: x³ coefficient 1, x² coefficient 9, x coefficient 21, constant 9. Answer: x³ + 9² + 21x + 9. Check by substituting x = 0 in the product and expanded expression: both give 9.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p08",
+      "prompt": "Expand and simplify (x + 4)(x² − 6x − 3).",
+      "options": [
+        "x³ − 2² − 27x − 12",
+        "x³ − 2² − 26x − 12",
+        "x³ − 2² − 28x − 12",
+        "x³ − 2² − 25x − 12"
+      ],
+      "answer_index": 0,
+      "memo": "Show the two rows x(x² − 6x − 3) and 4(x² − 6x − 3). First row: x³ − 6x² − 3x. Second row: 4x² − 24x − 12. Collect like powers: x³ coefficient 1, x² coefficient -2, x coefficient -27, constant -12. Answer: x³ − 2² − 27x − 12. Check by substituting x = 0 in the product and expanded expression: both give -12.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p09",
+      "prompt": "Expand and simplify (x + 5)(x² + 1x + 4).",
+      "options": [
+        "x³ + 6² + 11x + 20",
+        "x³ + 6² + 9x + 20",
+        "x³ + 6² + 10x + 20",
+        "x³ + 6² + 8x + 20"
+      ],
+      "answer_index": 1,
+      "memo": "Show the two rows x(x² + 1x + 4) and 5(x² + 1x + 4). First row: x³ + 1x² + 4x. Second row: 5x² + 5x + 20. Collect like powers: x³ coefficient 1, x² coefficient 6, x coefficient 9, constant 20. Answer: x³ + 6² + 9x + 20. Check by substituting x = 0 in the product and expanded expression: both give 20.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p10",
+      "prompt": "Expand and simplify (x + 6)(x² − 1x − 4).",
+      "options": [
+        "x³ + 5² − 11x − 24",
+        "x³ + 5² − 8x − 24",
+        "x³ + 5² − 10x − 24",
+        "x³ + 5² − 9x − 24"
+      ],
+      "answer_index": 2,
+      "memo": "Show the two rows x(x² − 1x − 4) and 6(x² − 1x − 4). First row: x³ − 1x² − 4x. Second row: 6x² − 6x − 24. Collect like powers: x³ coefficient 1, x² coefficient 5, x coefficient -10, constant -24. Answer: x³ + 5² − 10x − 24. Check by substituting x = 0 in the product and expanded expression: both give -24.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p11",
+      "prompt": "Expand and simplify (x + 7)(x² + 2x + 4).",
+      "options": [
+        "x³ + 9² + 19x + 28",
+        "x³ + 9² + 17x + 28",
+        "x³ + 9² + 20x + 28",
+        "x³ + 9² + 18x + 28"
+      ],
+      "answer_index": 3,
+      "memo": "Show the two rows x(x² + 2x + 4) and 7(x² + 2x + 4). First row: x³ + 2x² + 4x. Second row: 7x² + 14x + 28. Collect like powers: x³ coefficient 1, x² coefficient 9, x coefficient 18, constant 28. Answer: x³ + 9² + 18x + 28. Check by substituting x = 0 in the product and expanded expression: both give 28.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p12",
+      "prompt": "Expand and simplify (x + 8)(x² − 2x − 5).",
+      "options": [
+        "x³ + 6² − 21x − 40",
+        "x³ + 6² − 20x − 40",
+        "x³ + 6² − 22x − 40",
+        "x³ + 6² − 19x − 40"
+      ],
+      "answer_index": 0,
+      "memo": "Show the two rows x(x² − 2x − 5) and 8(x² − 2x − 5). First row: x³ − 2x² − 5x. Second row: 8x² − 16x − 40. Collect like powers: x³ coefficient 1, x² coefficient 6, x coefficient -21, constant -40. Answer: x³ + 6² − 21x − 40. Check by substituting x = 0 in the product and expanded expression: both give -40.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p13",
+      "prompt": "Expand and simplify (x + 2)(x² + 3x + 5).",
+      "options": [
+        "x³ + 5² + 13x + 10",
+        "x³ + 5² + 11x + 10",
+        "x³ + 5² + 12x + 10",
+        "x³ + 5² + 10x + 10"
+      ],
+      "answer_index": 1,
+      "memo": "Show the two rows x(x² + 3x + 5) and 2(x² + 3x + 5). First row: x³ + 3x² + 5x. Second row: 2x² + 6x + 10. Collect like powers: x³ coefficient 1, x² coefficient 5, x coefficient 11, constant 10. Answer: x³ + 5² + 11x + 10. Check by substituting x = 0 in the product and expanded expression: both give 10.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p14",
+      "prompt": "Expand and simplify (x + 3)(x² − 3x − 5).",
+      "options": [
+        "x³ − 15x − 15",
+        "x³ − 12x − 15",
+        "x³ − 14x − 15",
+        "x³ − 13x − 15"
+      ],
+      "answer_index": 2,
+      "memo": "Show the two rows x(x² − 3x − 5) and 3(x² − 3x − 5). First row: x³ − 3x² − 5x. Second row: 3x² − 9x − 15. Collect like powers: x³ coefficient 1, x² coefficient 0, x coefficient -14, constant -15. Answer: x³ − 14x − 15. Check by substituting x = 0 in the product and expanded expression: both give -15.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-p15",
+      "prompt": "Expand and simplify (x + 4)(x² + 4x + 1).",
+      "options": [
+        "x³ + 8² + 18x + 4",
+        "x³ + 8² + 16x + 4",
+        "x³ + 8² + 19x + 4",
+        "x³ + 8² + 17x + 4"
+      ],
+      "answer_index": 3,
+      "memo": "Show the two rows x(x² + 4x + 1) and 4(x² + 4x + 1). First row: x³ + 4x² + 1x. Second row: 4x² + 16x + 4. Collect like powers: x³ coefficient 1, x² coefficient 8, x coefficient 17, constant 4. Answer: x³ + 8² + 17x + 4. Check by substituting x = 0 in the product and expanded expression: both give 4.",
+      "source": "grade10-algebra-lesson-03.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-aex-l03-m16",
+      "prompt": "Expand and simplify (x + 6)(x² + 6x + 1).",
+      "options": [
+        "x³ + 12² + 37x + 6",
+        "x³ + 12² + 38x + 6",
+        "x³ + 12² + 36x + 6",
+        "x³ + 12² + 39x + 6"
+      ],
+      "answer_index": 0,
+      "memo": "Show the two rows x(x² + 6x + 1) and 6(x² + 6x + 1). First row: x³ + 6x² + 1x. Second row: 6x² + 36x + 6. Collect like powers: x³ coefficient 1, x² coefficient 12, x coefficient 37, constant 6. Answer: x³ + 12² + 37x + 6. Check by substituting x = 0 in the product and expanded expression: both give 6.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-m17",
+      "prompt": "Expand and simplify (x + 7)(x² − 6x − 1).",
+      "options": [
+        "x³ + x² − 41x − 7",
+        "x³ + x² − 43x − 7",
+        "x³ + x² − 42x − 7",
+        "x³ + x² − 44x − 7"
+      ],
+      "answer_index": 1,
+      "memo": "Show the two rows x(x² − 6x − 1) and 7(x² − 6x − 1). First row: x³ − 6x² − 1x. Second row: 7x² − 42x − 7. Collect like powers: x³ coefficient 1, x² coefficient 1, x coefficient -43, constant -7. Answer: x³ + x² − 43x − 7. Check by substituting x = 0 in the product and expanded expression: both give -7.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-m18",
+      "prompt": "Expand and simplify (x + 8)(x² + 1x + 2).",
+      "options": [
+        "x³ + 9² + 9x + 16",
+        "x³ + 9² + 12x + 16",
+        "x³ + 9² + 10x + 16",
+        "x³ + 9² + 11x + 16"
+      ],
+      "answer_index": 2,
+      "memo": "Show the two rows x(x² + 1x + 2) and 8(x² + 1x + 2). First row: x³ + 1x² + 2x. Second row: 8x² + 8x + 16. Collect like powers: x³ coefficient 1, x² coefficient 9, x coefficient 10, constant 16. Answer: x³ + 9² + 10x + 16. Check by substituting x = 0 in the product and expanded expression: both give 16.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-m19",
+      "prompt": "Expand and simplify (x + 2)(x² − 1x − 2).",
+      "options": [
+        "x³ + x² − 3x − 4",
+        "x³ + x² − 5x − 4",
+        "x³ + x² − 2x − 4",
+        "x³ + x² − 4x − 4"
+      ],
+      "answer_index": 3,
+      "memo": "Show the two rows x(x² − 1x − 2) and 2(x² − 1x − 2). First row: x³ − 1x² − 2x. Second row: 2x² − 2x − 4. Collect like powers: x³ coefficient 1, x² coefficient 1, x coefficient -4, constant -4. Answer: x³ + x² − 4x − 4. Check by substituting x = 0 in the product and expanded expression: both give -4.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-m20",
+      "prompt": "Expand and simplify (x + 3)(x² + 2x + 2).",
+      "options": [
+        "x³ + 5² + 8x + 6",
+        "x³ + 5² + 9x + 6",
+        "x³ + 5² + 7x + 6",
+        "x³ + 5² + 10x + 6"
+      ],
+      "answer_index": 0,
+      "memo": "Show the two rows x(x² + 2x + 2) and 3(x² + 2x + 2). First row: x³ + 2x² + 2x. Second row: 3x² + 6x + 6. Collect like powers: x³ coefficient 1, x² coefficient 5, x coefficient 8, constant 6. Answer: x³ + 5² + 8x + 6. Check by substituting x = 0 in the product and expanded expression: both give 6.",
+      "source": "grade10-algebra-lesson-03.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-aex-l03-r19",
+      "prompt": "Expand and simplify (x + 3)(x² + 3x + 2).",
+      "options": [
+        "x³ + 6² + 12x + 6",
+        "x³ + 6² + 10x + 6",
+        "x³ + 6² + 13x + 6",
+        "x³ + 6² + 11x + 6"
+      ],
+      "answer_index": 3,
+      "memo": "Show the two rows x(x² + 3x + 2) and 3(x² + 3x + 2). First row: x³ + 3x² + 2x. Second row: 3x² + 9x + 6. Collect like powers: x³ coefficient 1, x² coefficient 6, x coefficient 11, constant 6. Answer: x³ + 6² + 11x + 6. Check by substituting x = 0 in the product and expanded expression: both give 6.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-r20",
+      "prompt": "Expand and simplify (x + 4)(x² − 3x − 2).",
+      "options": [
+        "x³ + x² − 14x − 8",
+        "x³ + x² − 13x − 8",
+        "x³ + x² − 15x − 8",
+        "x³ + x² − 12x − 8"
+      ],
+      "answer_index": 0,
+      "memo": "Show the two rows x(x² − 3x − 2) and 4(x² − 3x − 2). First row: x³ − 3x² − 2x. Second row: 4x² − 12x − 8. Collect like powers: x³ coefficient 1, x² coefficient 1, x coefficient -14, constant -8. Answer: x³ + x² − 14x − 8. Check by substituting x = 0 in the product and expanded expression: both give -8.",
+      "source": "grade10-algebra-lesson-03.md"
+    },
+    {
+      "id": "g10-aex-l03-r21",
+      "prompt": "Expand and simplify (x + 5)(x² + 4x + 3).",
+      "options": [
+        "x³ + 9² + 25x + 15",
+        "x³ + 9² + 23x + 15",
+        "x³ + 9² + 24x + 15",
+        "x³ + 9² + 22x + 15"
+      ],
+      "answer_index": 1,
+      "memo": "Show the two rows x(x² + 4x + 3) and 5(x² + 4x + 3). First row: x³ + 4x² + 3x. Second row: 5x² + 20x + 15. Collect like powers: x³ coefficient 1, x² coefficient 9, x coefficient 23, constant 15. Answer: x³ + 9² + 23x + 15. Check by substituting x = 0 in the product and expanded expression: both give 15.",
+      "source": "grade10-algebra-lesson-03.md"
+    }
+  ]
+}

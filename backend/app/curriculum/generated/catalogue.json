@@ -1856,7 +1856,66 @@
       "grade_id": "grade-10",
       "title": "Grade 10 Mathematics",
       "curriculum": "CAPS",
-      "topics": []
+      "topics": [
+        {
+          "topic_id": "algebraic-expressions",
+          "topic_number": 1,
+          "title": "Algebraic Expressions",
+          "paper": "Paper 1",
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g10-algebra-01",
+              "position": 1,
+              "title": "Rational and irrational real numbers",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "grade10-algebra-lesson-01.md"
+            },
+            {
+              "lesson_id": "g10-algebra-02",
+              "position": 2,
+              "title": "Surds, integer bounds and appropriate rounding",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-algebra-lesson-02.md"
+            },
+            {
+              "lesson_id": "g10-algebra-03",
+              "position": 3,
+              "title": "Multiply a binomial by a trinomial",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-algebra-lesson-03.md"
+            },
+            {
+              "lesson_id": "g10-algebra-04",
+              "position": 4,
+              "title": "Factorise trinomials and group in pairs",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-algebra-lesson-04.md"
+            },
+            {
+              "lesson_id": "g10-algebra-05",
+              "position": 5,
+              "title": "Factorise sums and differences of cubes",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-algebra-lesson-05.md"
+            },
+            {
+              "lesson_id": "g10-algebra-06",
+              "position": 6,
+              "title": "Simplify and combine algebraic fractions with cubic denominators",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-algebra-lesson-06.md"
+            }
+          ]
+        }
+      ]
     },
     {
       "grade_id": "grade-11",

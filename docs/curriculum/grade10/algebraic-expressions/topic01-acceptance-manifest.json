@@ -1,0 +1,74 @@
+[
+  {
+    "lesson_id": "g10-algebra-01",
+    "source": "grade10-algebra-lesson-01.md",
+    "source_sha256": "5a6706b97deb5aa3be591d9eff30bee28245dda2187f0267a59ea77a7c4c21fc",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-algebra-02",
+    "source": "grade10-algebra-lesson-02.md",
+    "source_sha256": "4eec6964905ee2a58f6d30ac0efe8639cc8ef2106b3618940e92046748387a2a",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-algebra-03",
+    "source": "grade10-algebra-lesson-03.md",
+    "source_sha256": "f4194c526f49839b30577775d915f0f6d4f0e5c4294c59f47c033fa1ef35ed69",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-algebra-04",
+    "source": "grade10-algebra-lesson-04.md",
+    "source_sha256": "f020a56bc147104fff2872665f05ab3ae8b9110b823a0ffbff5ed1082ddf0a7e",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-algebra-05",
+    "source": "grade10-algebra-lesson-05.md",
+    "source_sha256": "4cd67b4b1c577b47b6daf0ef701b387fbe94d6956598d2ceb42985d1269a9cf1",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-algebra-06",
+    "source": "grade10-algebra-lesson-06.md",
+    "source_sha256": "992972d538cdd85647432e0ad65e28df9372a5329fef5daefcd05a6c9ebe9f3d",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

@@ -1,0 +1,760 @@
+{
+  "source": "grade10-algebra-lesson-05.md",
+  "worked": [
+    {
+      "id": "g10-aex-l05-w01",
+      "problem": "Factorise x³ − 8 completely.",
+      "actions": [
+        "Write 8 = 2³; identify a difference of cubes.",
+        "Use u³ − v³ = (u − v)(u² + uv + v²).",
+        "Substitute u = x, v = 2: (x − 2)(x² + 2x + 4).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x − 2)(x² + 2x + 4). Multiply out to recover x³ − 8."
+      ],
+      "answer": "(x − 2)(x² + 2x + 4)",
+      "check": "Answer: (x − 2)(x² + 2x + 4). Multiply out to recover x³ − 8.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 3,
+          "b": 2,
+          "c": 1,
+          "sign": -1,
+          "cube": 8,
+          "kind": "difference",
+          "middle": 2
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-aex-l05-w02",
+      "problem": "Factorise x³ + 8 completely.",
+      "actions": [
+        "Write 8 = 2³; identify a sum of cubes.",
+        "Use u³ + v³ = (u + v)(u² − uv + v²).",
+        "Substitute u = x, v = 2: (x + 2)(x² − 2x + 4).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x + 2)(x² − 2x + 4). Multiply out to recover x³ + 8."
+      ],
+      "answer": "(x + 2)(x² − 2x + 4)",
+      "check": "Answer: (x + 2)(x² − 2x + 4). Multiply out to recover x³ + 8.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 4,
+          "b": 2,
+          "c": 1,
+          "sign": 1,
+          "cube": 8,
+          "kind": "sum",
+          "middle": -2
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-aex-l05-w03",
+      "problem": "Factorise x³ − 27 completely.",
+      "actions": [
+        "Write 27 = 3³; identify a difference of cubes.",
+        "Use u³ − v³ = (u − v)(u² + uv + v²).",
+        "Substitute u = x, v = 3: (x − 3)(x² + 3x + 9).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x − 3)(x² + 3x + 9). Multiply out to recover x³ − 27."
+      ],
+      "answer": "(x − 3)(x² + 3x + 9)",
+      "check": "Answer: (x − 3)(x² + 3x + 9). Multiply out to recover x³ − 27.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 5,
+          "b": 3,
+          "c": 2,
+          "sign": -1,
+          "cube": 27,
+          "kind": "difference",
+          "middle": 3
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-aex-l05-w04",
+      "problem": "Factorise x³ + 27 completely.",
+      "actions": [
+        "Write 27 = 3³; identify a sum of cubes.",
+        "Use u³ + v³ = (u + v)(u² − uv + v²).",
+        "Substitute u = x, v = 3: (x + 3)(x² − 3x + 9).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x + 3)(x² − 3x + 9). Multiply out to recover x³ + 27."
+      ],
+      "answer": "(x + 3)(x² − 3x + 9)",
+      "check": "Answer: (x + 3)(x² − 3x + 9). Multiply out to recover x³ + 27.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 6,
+          "b": 3,
+          "c": 2,
+          "sign": 1,
+          "cube": 27,
+          "kind": "sum",
+          "middle": -3
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-aex-l05-w05",
+      "problem": "Factorise x³ − 64 completely.",
+      "actions": [
+        "Write 64 = 4³; identify a difference of cubes.",
+        "Use u³ − v³ = (u − v)(u² + uv + v²).",
+        "Substitute u = x, v = 4: (x − 4)(x² + 4x + 16).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x − 4)(x² + 4x + 16). Multiply out to recover x³ − 64."
+      ],
+      "answer": "(x − 4)(x² + 4x + 16)",
+      "check": "Answer: (x − 4)(x² + 4x + 16). Multiply out to recover x³ − 64.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 7,
+          "b": 4,
+          "c": 2,
+          "sign": -1,
+          "cube": 64,
+          "kind": "difference",
+          "middle": 4
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-aex-l05-w06",
+      "problem": "Factorise x³ + 64 completely.",
+      "actions": [
+        "Write 64 = 4³; identify a sum of cubes.",
+        "Use u³ + v³ = (u + v)(u² − uv + v²).",
+        "Substitute u = x, v = 4: (x + 4)(x² − 4x + 16).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x + 4)(x² − 4x + 16). Multiply out to recover x³ + 64."
+      ],
+      "answer": "(x + 4)(x² − 4x + 16)",
+      "check": "Answer: (x + 4)(x² − 4x + 16). Multiply out to recover x³ + 64.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 8,
+          "b": 4,
+          "c": 3,
+          "sign": 1,
+          "cube": 64,
+          "kind": "sum",
+          "middle": -4
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-aex-l05-w07",
+      "problem": "Factorise x³ − 125 completely.",
+      "actions": [
+        "Write 125 = 5³; identify a difference of cubes.",
+        "Use u³ − v³ = (u − v)(u² + uv + v²).",
+        "Substitute u = x, v = 5: (x − 5)(x² + 5x + 25).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x − 5)(x² + 5x + 25). Multiply out to recover x³ − 125."
+      ],
+      "answer": "(x − 5)(x² + 5x + 25)",
+      "check": "Answer: (x − 5)(x² + 5x + 25). Multiply out to recover x³ − 125.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 2,
+          "b": 5,
+          "c": 3,
+          "sign": -1,
+          "cube": 125,
+          "kind": "difference",
+          "middle": 5
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-aex-l05-w08",
+      "problem": "Factorise x³ + 125 completely.",
+      "actions": [
+        "Write 125 = 5³; identify a sum of cubes.",
+        "Use u³ + v³ = (u + v)(u² − uv + v²).",
+        "Substitute u = x, v = 5: (x + 5)(x² − 5x + 25).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x + 5)(x² − 5x + 25). Multiply out to recover x³ + 125."
+      ],
+      "answer": "(x + 5)(x² − 5x + 25)",
+      "check": "Answer: (x + 5)(x² − 5x + 25). Multiply out to recover x³ + 125.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 3,
+          "b": 5,
+          "c": 3,
+          "sign": 1,
+          "cube": 125,
+          "kind": "sum",
+          "middle": -5
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-aex-l05-w09",
+      "problem": "Factorise x³ − 216 completely.",
+      "actions": [
+        "Write 216 = 6³; identify a difference of cubes.",
+        "Use u³ − v³ = (u − v)(u² + uv + v²).",
+        "Substitute u = x, v = 6: (x − 6)(x² + 6x + 36).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x − 6)(x² + 6x + 36). Multiply out to recover x³ − 216."
+      ],
+      "answer": "(x − 6)(x² + 6x + 36)",
+      "check": "Answer: (x − 6)(x² + 6x + 36). Multiply out to recover x³ − 216.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 4,
+          "b": 6,
+          "c": 4,
+          "sign": -1,
+          "cube": 216,
+          "kind": "difference",
+          "middle": 6
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-aex-l05-w10",
+      "problem": "Factorise x³ + 216 completely.",
+      "actions": [
+        "Write 216 = 6³; identify a sum of cubes.",
+        "Use u³ + v³ = (u + v)(u² − uv + v²).",
+        "Substitute u = x, v = 6: (x + 6)(x² − 6x + 36).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x + 6)(x² − 6x + 36). Multiply out to recover x³ + 216."
+      ],
+      "answer": "(x + 6)(x² − 6x + 36)",
+      "check": "Answer: (x + 6)(x² − 6x + 36). Multiply out to recover x³ + 216.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 5,
+          "b": 6,
+          "c": 4,
+          "sign": 1,
+          "cube": 216,
+          "kind": "sum",
+          "middle": -6
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-aex-l05-w11",
+      "problem": "Factorise x³ − 343 completely.",
+      "actions": [
+        "Write 343 = 7³; identify a difference of cubes.",
+        "Use u³ − v³ = (u − v)(u² + uv + v²).",
+        "Substitute u = x, v = 7: (x − 7)(x² + 7x + 49).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x − 7)(x² + 7x + 49). Multiply out to recover x³ − 343."
+      ],
+      "answer": "(x − 7)(x² + 7x + 49)",
+      "check": "Answer: (x − 7)(x² + 7x + 49). Multiply out to recover x³ − 343.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 6,
+          "b": 7,
+          "c": 4,
+          "sign": -1,
+          "cube": 343,
+          "kind": "difference",
+          "middle": 7
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-aex-l05-w12",
+      "problem": "Factorise x³ + 343 completely.",
+      "actions": [
+        "Write 343 = 7³; identify a sum of cubes.",
+        "Use u³ + v³ = (u + v)(u² − uv + v²).",
+        "Substitute u = x, v = 7: (x + 7)(x² − 7x + 49).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x + 7)(x² − 7x + 49). Multiply out to recover x³ + 343."
+      ],
+      "answer": "(x + 7)(x² − 7x + 49)",
+      "check": "Answer: (x + 7)(x² − 7x + 49). Multiply out to recover x³ + 343.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 7,
+          "b": 7,
+          "c": 5,
+          "sign": 1,
+          "cube": 343,
+          "kind": "sum",
+          "middle": -7
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-aex-l05-w13",
+      "problem": "Factorise x³ − 512 completely.",
+      "actions": [
+        "Write 512 = 8³; identify a difference of cubes.",
+        "Use u³ − v³ = (u − v)(u² + uv + v²).",
+        "Substitute u = x, v = 8: (x − 8)(x² + 8x + 64).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x − 8)(x² + 8x + 64). Multiply out to recover x³ − 512."
+      ],
+      "answer": "(x − 8)(x² + 8x + 64)",
+      "check": "Answer: (x − 8)(x² + 8x + 64). Multiply out to recover x³ − 512.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 8,
+          "b": 8,
+          "c": 5,
+          "sign": -1,
+          "cube": 512,
+          "kind": "difference",
+          "middle": 8
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-aex-l05-w14",
+      "problem": "Factorise x³ + 512 completely.",
+      "actions": [
+        "Write 512 = 8³; identify a sum of cubes.",
+        "Use u³ + v³ = (u + v)(u² − uv + v²).",
+        "Substitute u = x, v = 8: (x + 8)(x² − 8x + 64).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x + 8)(x² − 8x + 64). Multiply out to recover x³ + 512."
+      ],
+      "answer": "(x + 8)(x² − 8x + 64)",
+      "check": "Answer: (x + 8)(x² − 8x + 64). Multiply out to recover x³ + 512.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 2,
+          "b": 8,
+          "c": 5,
+          "sign": 1,
+          "cube": 512,
+          "kind": "sum",
+          "middle": -8
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-aex-l05-w15",
+      "problem": "Factorise x³ − 729 completely.",
+      "actions": [
+        "Write 729 = 9³; identify a difference of cubes.",
+        "Use u³ − v³ = (u − v)(u² + uv + v²).",
+        "Substitute u = x, v = 9: (x − 9)(x² + 9x + 81).",
+        "Check the cross terms cancel after multiplying: the x² and x terms sum to zero.",
+        "Answer: (x − 9)(x² + 9x + 81). Multiply out to recover x³ − 729."
+      ],
+      "answer": "(x − 9)(x² + 9x + 81)",
+      "check": "Answer: (x − 9)(x² + 9x + 81). Multiply out to recover x³ − 729.",
+      "visual": {
+        "family": "grade10_expressions",
+        "values": {
+          "lesson": 5,
+          "model": "cube_identity",
+          "a": 3,
+          "b": 9,
+          "c": 1,
+          "sign": -1,
+          "cube": 729,
+          "kind": "difference",
+          "middle": 9
+        }
+      },
+      "lesson": 5,
+      "misconception": "Preserve every sign, factor, restriction and original expression; check the final result by reversing the operation.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-aex-l05-p01",
+      "prompt": "Factorise x³ + 1000 completely.",
+      "options": [
+        "(x + 10)(x² − 12x + 100)",
+        "(x + 10)(x² − 10x + 100)",
+        "(x + 10)(x² − 11x + 100)",
+        "(x + 10)(x² − 9x + 100)"
+      ],
+      "answer_index": 1,
+      "memo": "Write 1000 = 10³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 10: (x + 10)(x² − 10x + 100). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 10)(x² − 10x + 100). Multiply out to recover x³ + 1000.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p02",
+      "prompt": "Factorise x³ − 1000 completely.",
+      "options": [
+        "(x − 10)(x² + 9x + 100)",
+        "(x − 10)(x² + 12x + 100)",
+        "(x − 10)(x² + 10x + 100)",
+        "(x − 10)(x² + 11x + 100)"
+      ],
+      "answer_index": 2,
+      "memo": "Write 1000 = 10³; identify a difference of cubes. Use u³ − v³ = (u − v)(u² + uv + v²). Substitute u = x, v = 10: (x − 10)(x² + 10x + 100). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x − 10)(x² + 10x + 100). Multiply out to recover x³ − 1000.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p03",
+      "prompt": "Factorise x³ + 1331 completely.",
+      "options": [
+        "(x + 11)(x² − 12x + 121)",
+        "(x + 11)(x² − 10x + 121)",
+        "(x + 11)(x² − 13x + 121)",
+        "(x + 11)(x² − 11x + 121)"
+      ],
+      "answer_index": 3,
+      "memo": "Write 1331 = 11³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 11: (x + 11)(x² − 11x + 121). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 11)(x² − 11x + 121). Multiply out to recover x³ + 1331.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p04",
+      "prompt": "Factorise x³ − 1331 completely.",
+      "options": [
+        "(x − 11)(x² + 11x + 121)",
+        "(x − 11)(x² + 12x + 121)",
+        "(x − 11)(x² + 10x + 121)",
+        "(x − 11)(x² + 13x + 121)"
+      ],
+      "answer_index": 0,
+      "memo": "Write 1331 = 11³; identify a difference of cubes. Use u³ − v³ = (u − v)(u² + uv + v²). Substitute u = x, v = 11: (x − 11)(x² + 11x + 121). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x − 11)(x² + 11x + 121). Multiply out to recover x³ − 1331.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p05",
+      "prompt": "Factorise x³ + 1728 completely.",
+      "options": [
+        "(x + 12)(x² − 14x + 144)",
+        "(x + 12)(x² − 12x + 144)",
+        "(x + 12)(x² − 13x + 144)",
+        "(x + 12)(x² − 11x + 144)"
+      ],
+      "answer_index": 1,
+      "memo": "Write 1728 = 12³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 12: (x + 12)(x² − 12x + 144). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 12)(x² − 12x + 144). Multiply out to recover x³ + 1728.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p06",
+      "prompt": "Factorise x³ − 1728 completely.",
+      "options": [
+        "(x − 12)(x² + 11x + 144)",
+        "(x − 12)(x² + 14x + 144)",
+        "(x − 12)(x² + 12x + 144)",
+        "(x − 12)(x² + 13x + 144)"
+      ],
+      "answer_index": 2,
+      "memo": "Write 1728 = 12³; identify a difference of cubes. Use u³ − v³ = (u − v)(u² + uv + v²). Substitute u = x, v = 12: (x − 12)(x² + 12x + 144). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x − 12)(x² + 12x + 144). Multiply out to recover x³ − 1728.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p07",
+      "prompt": "Factorise x³ + 2197 completely.",
+      "options": [
+        "(x + 13)(x² − 14x + 169)",
+        "(x + 13)(x² − 12x + 169)",
+        "(x + 13)(x² − 15x + 169)",
+        "(x + 13)(x² − 13x + 169)"
+      ],
+      "answer_index": 3,
+      "memo": "Write 2197 = 13³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 13: (x + 13)(x² − 13x + 169). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 13)(x² − 13x + 169). Multiply out to recover x³ + 2197.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p08",
+      "prompt": "Factorise x³ − 2197 completely.",
+      "options": [
+        "(x − 13)(x² + 13x + 169)",
+        "(x − 13)(x² + 14x + 169)",
+        "(x − 13)(x² + 12x + 169)",
+        "(x − 13)(x² + 15x + 169)"
+      ],
+      "answer_index": 0,
+      "memo": "Write 2197 = 13³; identify a difference of cubes. Use u³ − v³ = (u − v)(u² + uv + v²). Substitute u = x, v = 13: (x − 13)(x² + 13x + 169). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x − 13)(x² + 13x + 169). Multiply out to recover x³ − 2197.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p09",
+      "prompt": "Factorise x³ + 2744 completely.",
+      "options": [
+        "(x + 14)(x² − 16x + 196)",
+        "(x + 14)(x² − 14x + 196)",
+        "(x + 14)(x² − 15x + 196)",
+        "(x + 14)(x² − 13x + 196)"
+      ],
+      "answer_index": 1,
+      "memo": "Write 2744 = 14³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 14: (x + 14)(x² − 14x + 196). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 14)(x² − 14x + 196). Multiply out to recover x³ + 2744.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p10",
+      "prompt": "Factorise x³ − 2744 completely.",
+      "options": [
+        "(x − 14)(x² + 13x + 196)",
+        "(x − 14)(x² + 16x + 196)",
+        "(x − 14)(x² + 14x + 196)",
+        "(x − 14)(x² + 15x + 196)"
+      ],
+      "answer_index": 2,
+      "memo": "Write 2744 = 14³; identify a difference of cubes. Use u³ − v³ = (u − v)(u² + uv + v²). Substitute u = x, v = 14: (x − 14)(x² + 14x + 196). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x − 14)(x² + 14x + 196). Multiply out to recover x³ − 2744.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p11",
+      "prompt": "Factorise x³ + 3375 completely.",
+      "options": [
+        "(x + 15)(x² − 16x + 225)",
+        "(x + 15)(x² − 14x + 225)",
+        "(x + 15)(x² − 17x + 225)",
+        "(x + 15)(x² − 15x + 225)"
+      ],
+      "answer_index": 3,
+      "memo": "Write 3375 = 15³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 15: (x + 15)(x² − 15x + 225). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 15)(x² − 15x + 225). Multiply out to recover x³ + 3375.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p12",
+      "prompt": "Factorise x³ − 3375 completely.",
+      "options": [
+        "(x − 15)(x² + 15x + 225)",
+        "(x − 15)(x² + 16x + 225)",
+        "(x − 15)(x² + 14x + 225)",
+        "(x − 15)(x² + 17x + 225)"
+      ],
+      "answer_index": 0,
+      "memo": "Write 3375 = 15³; identify a difference of cubes. Use u³ − v³ = (u − v)(u² + uv + v²). Substitute u = x, v = 15: (x − 15)(x² + 15x + 225). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x − 15)(x² + 15x + 225). Multiply out to recover x³ − 3375.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p13",
+      "prompt": "Factorise x³ + 4096 completely.",
+      "options": [
+        "(x + 16)(x² − 18x + 256)",
+        "(x + 16)(x² − 16x + 256)",
+        "(x + 16)(x² − 17x + 256)",
+        "(x + 16)(x² − 15x + 256)"
+      ],
+      "answer_index": 1,
+      "memo": "Write 4096 = 16³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 16: (x + 16)(x² − 16x + 256). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 16)(x² − 16x + 256). Multiply out to recover x³ + 4096.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p14",
+      "prompt": "Factorise x³ − 4096 completely.",
+      "options": [
+        "(x − 16)(x² + 15x + 256)",
+        "(x − 16)(x² + 18x + 256)",
+        "(x − 16)(x² + 16x + 256)",
+        "(x − 16)(x² + 17x + 256)"
+      ],
+      "answer_index": 2,
+      "memo": "Write 4096 = 16³; identify a difference of cubes. Use u³ − v³ = (u − v)(u² + uv + v²). Substitute u = x, v = 16: (x − 16)(x² + 16x + 256). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x − 16)(x² + 16x + 256). Multiply out to recover x³ − 4096.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-p15",
+      "prompt": "Factorise x³ + 4913 completely.",
+      "options": [
+        "(x + 17)(x² − 18x + 289)",
+        "(x + 17)(x² − 16x + 289)",
+        "(x + 17)(x² − 19x + 289)",
+        "(x + 17)(x² − 17x + 289)"
+      ],
+      "answer_index": 3,
+      "memo": "Write 4913 = 17³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 17: (x + 17)(x² − 17x + 289). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 17)(x² − 17x + 289). Multiply out to recover x³ + 4913.",
+      "source": "grade10-algebra-lesson-05.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-aex-l05-m16",
+      "prompt": "Factorise x³ + 5832 completely.",
+      "options": [
+        "(x + 18)(x² − 18x + 324)",
+        "(x + 18)(x² − 19x + 324)",
+        "(x + 18)(x² − 17x + 324)",
+        "(x + 18)(x² − 20x + 324)"
+      ],
+      "answer_index": 0,
+      "memo": "Write 5832 = 18³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 18: (x + 18)(x² − 18x + 324). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 18)(x² − 18x + 324). Multiply out to recover x³ + 5832.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-m17",
+      "prompt": "Factorise x³ − 5832 completely.",
+      "options": [
+        "(x − 18)(x² + 20x + 324)",
+        "(x − 18)(x² + 18x + 324)",
+        "(x − 18)(x² + 19x + 324)",
+        "(x − 18)(x² + 17x + 324)"
+      ],
+      "answer_index": 1,
+      "memo": "Write 5832 = 18³; identify a difference of cubes. Use u³ − v³ = (u − v)(u² + uv + v²). Substitute u = x, v = 18: (x − 18)(x² + 18x + 324). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x − 18)(x² + 18x + 324). Multiply out to recover x³ − 5832.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-m18",
+      "prompt": "Factorise x³ + 6859 completely.",
+      "options": [
+        "(x + 19)(x² − 18x + 361)",
+        "(x + 19)(x² − 21x + 361)",
+        "(x + 19)(x² − 19x + 361)",
+        "(x + 19)(x² − 20x + 361)"
+      ],
+      "answer_index": 2,
+      "memo": "Write 6859 = 19³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 19: (x + 19)(x² − 19x + 361). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 19)(x² − 19x + 361). Multiply out to recover x³ + 6859.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-m19",
+      "prompt": "Factorise x³ − 6859 completely.",
+      "options": [
+        "(x − 19)(x² + 20x + 361)",
+        "(x − 19)(x² + 18x + 361)",
+        "(x − 19)(x² + 21x + 361)",
+        "(x − 19)(x² + 19x + 361)"
+      ],
+      "answer_index": 3,
+      "memo": "Write 6859 = 19³; identify a difference of cubes. Use u³ − v³ = (u − v)(u² + uv + v²). Substitute u = x, v = 19: (x − 19)(x² + 19x + 361). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x − 19)(x² + 19x + 361). Multiply out to recover x³ − 6859.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-m20",
+      "prompt": "Factorise x³ + 8000 completely.",
+      "options": [
+        "(x + 20)(x² − 20x + 400)",
+        "(x + 20)(x² − 21x + 400)",
+        "(x + 20)(x² − 19x + 400)",
+        "(x + 20)(x² − 22x + 400)"
+      ],
+      "answer_index": 0,
+      "memo": "Write 8000 = 20³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 20: (x + 20)(x² − 20x + 400). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 20)(x² − 20x + 400). Multiply out to recover x³ + 8000.",
+      "source": "grade10-algebra-lesson-05.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-aex-l05-r19",
+      "prompt": "Factorise x³ + 19683 completely.",
+      "options": [
+        "(x + 27)(x² − 28x + 729)",
+        "(x + 27)(x² − 26x + 729)",
+        "(x + 27)(x² − 29x + 729)",
+        "(x + 27)(x² − 27x + 729)"
+      ],
+      "answer_index": 3,
+      "memo": "Write 19683 = 27³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 27: (x + 27)(x² − 27x + 729). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 27)(x² − 27x + 729). Multiply out to recover x³ + 19683.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-r20",
+      "prompt": "Factorise x³ − 21952 completely.",
+      "options": [
+        "(x − 28)(x² + 28x + 784)",
+        "(x − 28)(x² + 29x + 784)",
+        "(x − 28)(x² + 27x + 784)",
+        "(x − 28)(x² + 30x + 784)"
+      ],
+      "answer_index": 0,
+      "memo": "Write 21952 = 28³; identify a difference of cubes. Use u³ − v³ = (u − v)(u² + uv + v²). Substitute u = x, v = 28: (x − 28)(x² + 28x + 784). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x − 28)(x² + 28x + 784). Multiply out to recover x³ − 21952.",
+      "source": "grade10-algebra-lesson-05.md"
+    },
+    {
+      "id": "g10-aex-l05-r21",
+      "prompt": "Factorise x³ + 21952 completely.",
+      "options": [
+        "(x + 28)(x² − 30x + 784)",
+        "(x + 28)(x² − 28x + 784)",
+        "(x + 28)(x² − 29x + 784)",
+        "(x + 28)(x² − 27x + 784)"
+      ],
+      "answer_index": 1,
+      "memo": "Write 21952 = 28³; identify a sum of cubes. Use u³ + v³ = (u + v)(u² − uv + v²). Substitute u = x, v = 28: (x + 28)(x² − 28x + 784). Check the cross terms cancel after multiplying: the x² and x terms sum to zero. Answer: (x + 28)(x² − 28x + 784). Multiply out to recover x³ + 21952.",
+      "source": "grade10-algebra-lesson-05.md"
+    }
+  ]
+}
