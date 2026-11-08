@@ -2302,6 +2302,56 @@
               "source_document": "grade10-stat-lesson-06.md"
             }
           ]
+        },
+        {
+          "topic_id": "probability",
+          "topic_number": 8,
+          "title": "Probability",
+          "paper": "Paper 1",
+          "expected_lesson_count": 5,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g10-prob-01",
+              "position": 1,
+              "title": "Relative frequency and theoretical probability",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "grade10-prob-lesson-01.md"
+            },
+            {
+              "lesson_id": "g10-prob-02",
+              "position": 2,
+              "title": "Venn regions and two-event counts",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-prob-lesson-02.md"
+            },
+            {
+              "lesson_id": "g10-prob-03",
+              "position": 3,
+              "title": "Union and intersection of two events",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-prob-lesson-03.md"
+            },
+            {
+              "lesson_id": "g10-prob-04",
+              "position": 4,
+              "title": "Mutually exclusive and complementary events",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-prob-lesson-04.md"
+            },
+            {
+              "lesson_id": "g10-prob-05",
+              "position": 5,
+              "title": "Mixed probability reasoning and first-error repair",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-prob-lesson-05.md"
+            }
+          ]
         }
       ]
     },

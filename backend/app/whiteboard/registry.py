@@ -137,6 +137,9 @@ for _grade10_fn_number in range(1,8):
 for _grade10_stat_number in range(1,7):
     registry.register(f'grade10_stat_{_grade10_stat_number}_step', f'grade10_stat_{_grade10_stat_number}',
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+for _grade10_prob_number in range(1,6):
+    registry.register(f'grade10_prob_{_grade10_prob_number}_step', f'grade10_prob_{_grade10_prob_number}',
+        lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 for _grade10_ag_number in range(1,7):
     registry.register(f'grade10_ag_{_grade10_ag_number}_step', f'grade10_ag_{_grade10_ag_number}',
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))

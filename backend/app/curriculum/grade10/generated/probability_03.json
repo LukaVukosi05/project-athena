@@ -1,0 +1,790 @@
+{
+  "source": "grade10-prob-lesson-03.md",
+  "worked": [
+    {
+      "id": "g10-prob-l03-w01",
+      "problem": "A sample space has 7 outcomes: A-only 3, B-only 3, both 0, neither 1. Find P(A or B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=3, overlap=0, B-only=3, outside=1.",
+        "Calculate |A|=3 and |B|=3; use the common denominator |S|=7.",
+        "|A∪B|=3+3−0=6; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for A or B is 6; divide by 7.",
+        "Answer: P(A or B) = 6/7. All four disjoint regions add to 7."
+      ],
+      "answer": "6/7",
+      "check": "Answer: P(A or B) = 6/7. All four disjoint regions add to 7.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 3,
+          "b_only": 3,
+          "both": 0,
+          "neither": 1,
+          "total": 7,
+          "a": 3,
+          "b": 3,
+          "union": 6,
+          "answer": "6/7"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-prob-l03-w02",
+      "problem": "A sample space has 9 outcomes: A-only 4, B-only 4, both 0, neither 1. Find P(A and B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=4, overlap=0, B-only=4, outside=1.",
+        "Calculate |A|=4 and |B|=4; use the common denominator |S|=9.",
+        "|A∪B|=4+4−0=8; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for A and B is 0; divide by 9.",
+        "Answer: P(A and B) = 0. All four disjoint regions add to 9."
+      ],
+      "answer": "0",
+      "check": "Answer: P(A and B) = 0. All four disjoint regions add to 9.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 4,
+          "b_only": 4,
+          "both": 0,
+          "neither": 1,
+          "total": 9,
+          "a": 4,
+          "b": 4,
+          "union": 8,
+          "answer": "0"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-prob-l03-w03",
+      "problem": "A sample space has 11 outcomes: A-only 5, B-only 4, both 1, neither 1. Find P(neither A nor B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=5, overlap=1, B-only=4, outside=1.",
+        "Calculate |A|=6 and |B|=5; use the common denominator |S|=11.",
+        "|A∪B|=6+5−1=10; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for neither A nor B is 1; divide by 11.",
+        "Answer: P(neither A nor B) = 1/11. All four disjoint regions add to 11."
+      ],
+      "answer": "1/11",
+      "check": "Answer: P(neither A nor B) = 1/11. All four disjoint regions add to 11.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 5,
+          "b_only": 4,
+          "both": 1,
+          "neither": 1,
+          "total": 11,
+          "a": 6,
+          "b": 5,
+          "union": 10,
+          "answer": "1/11"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-prob-l03-w04",
+      "problem": "A sample space has 14 outcomes: A-only 6, B-only 5, both 1, neither 2. Find P(A or B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=6, overlap=1, B-only=5, outside=2.",
+        "Calculate |A|=7 and |B|=6; use the common denominator |S|=14.",
+        "|A∪B|=7+6−1=12; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for A or B is 12; divide by 14.",
+        "Answer: P(A or B) = 6/7. All four disjoint regions add to 14."
+      ],
+      "answer": "6/7",
+      "check": "Answer: P(A or B) = 6/7. All four disjoint regions add to 14.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 6,
+          "b_only": 5,
+          "both": 1,
+          "neither": 2,
+          "total": 14,
+          "a": 7,
+          "b": 6,
+          "union": 12,
+          "answer": "6/7"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-prob-l03-w05",
+      "problem": "A sample space has 15 outcomes: A-only 7, B-only 5, both 1, neither 2. Find P(A and B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=7, overlap=1, B-only=5, outside=2.",
+        "Calculate |A|=8 and |B|=6; use the common denominator |S|=15.",
+        "|A∪B|=8+6−1=13; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for A and B is 1; divide by 15.",
+        "Answer: P(A and B) = 1/15. All four disjoint regions add to 15."
+      ],
+      "answer": "1/15",
+      "check": "Answer: P(A and B) = 1/15. All four disjoint regions add to 15.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 7,
+          "b_only": 5,
+          "both": 1,
+          "neither": 2,
+          "total": 15,
+          "a": 8,
+          "b": 6,
+          "union": 13,
+          "answer": "1/15"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-prob-l03-w06",
+      "problem": "A sample space has 12 outcomes: A-only 2, B-only 6, both 2, neither 2. Find P(neither A nor B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=2, overlap=2, B-only=6, outside=2.",
+        "Calculate |A|=4 and |B|=8; use the common denominator |S|=12.",
+        "|A∪B|=4+8−2=10; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for neither A nor B is 2; divide by 12.",
+        "Answer: P(neither A nor B) = 1/6. All four disjoint regions add to 12."
+      ],
+      "answer": "1/6",
+      "check": "Answer: P(neither A nor B) = 1/6. All four disjoint regions add to 12.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 2,
+          "b_only": 6,
+          "both": 2,
+          "neither": 2,
+          "total": 12,
+          "a": 4,
+          "b": 8,
+          "union": 10,
+          "answer": "1/6"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l03-w07",
+      "problem": "A sample space has 13 outcomes: A-only 3, B-only 6, both 2, neither 2. Find P(A or B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=3, overlap=2, B-only=6, outside=2.",
+        "Calculate |A|=5 and |B|=8; use the common denominator |S|=13.",
+        "|A∪B|=5+8−2=11; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for A or B is 11; divide by 13.",
+        "Answer: P(A or B) = 11/13. All four disjoint regions add to 13."
+      ],
+      "answer": "11/13",
+      "check": "Answer: P(A or B) = 11/13. All four disjoint regions add to 13.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 3,
+          "b_only": 6,
+          "both": 2,
+          "neither": 2,
+          "total": 13,
+          "a": 5,
+          "b": 8,
+          "union": 11,
+          "answer": "11/13"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l03-w08",
+      "problem": "A sample space has 16 outcomes: A-only 4, B-only 7, both 2, neither 3. Find P(A and B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=4, overlap=2, B-only=7, outside=3.",
+        "Calculate |A|=6 and |B|=9; use the common denominator |S|=16.",
+        "|A∪B|=6+9−2=13; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for A and B is 2; divide by 16.",
+        "Answer: P(A and B) = 1/8. All four disjoint regions add to 16."
+      ],
+      "answer": "1/8",
+      "check": "Answer: P(A and B) = 1/8. All four disjoint regions add to 16.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 4,
+          "b_only": 7,
+          "both": 2,
+          "neither": 3,
+          "total": 16,
+          "a": 6,
+          "b": 9,
+          "union": 13,
+          "answer": "1/8"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l03-w09",
+      "problem": "A sample space has 18 outcomes: A-only 5, B-only 7, both 3, neither 3. Find P(neither A nor B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=5, overlap=3, B-only=7, outside=3.",
+        "Calculate |A|=8 and |B|=10; use the common denominator |S|=18.",
+        "|A∪B|=8+10−3=15; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for neither A nor B is 3; divide by 18.",
+        "Answer: P(neither A nor B) = 1/6. All four disjoint regions add to 18."
+      ],
+      "answer": "1/6",
+      "check": "Answer: P(neither A nor B) = 1/6. All four disjoint regions add to 18.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 5,
+          "b_only": 7,
+          "both": 3,
+          "neither": 3,
+          "total": 18,
+          "a": 8,
+          "b": 10,
+          "union": 15,
+          "answer": "1/6"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l03-w10",
+      "problem": "A sample space has 20 outcomes: A-only 6, B-only 8, both 3, neither 3. Find P(A or B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=6, overlap=3, B-only=8, outside=3.",
+        "Calculate |A|=9 and |B|=11; use the common denominator |S|=20.",
+        "|A∪B|=9+11−3=17; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for A or B is 17; divide by 20.",
+        "Answer: P(A or B) = 17/20. All four disjoint regions add to 20."
+      ],
+      "answer": "17/20",
+      "check": "Answer: P(A or B) = 17/20. All four disjoint regions add to 20.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 6,
+          "b_only": 8,
+          "both": 3,
+          "neither": 3,
+          "total": 20,
+          "a": 9,
+          "b": 11,
+          "union": 17,
+          "answer": "17/20"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-prob-l03-w11",
+      "problem": "A sample space has 21 outcomes: A-only 7, B-only 8, both 3, neither 3. Find P(A and B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=7, overlap=3, B-only=8, outside=3.",
+        "Calculate |A|=10 and |B|=11; use the common denominator |S|=21.",
+        "|A∪B|=10+11−3=18; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for A and B is 3; divide by 21.",
+        "Answer: P(A and B) = 1/7. All four disjoint regions add to 21."
+      ],
+      "answer": "1/7",
+      "check": "Answer: P(A and B) = 1/7. All four disjoint regions add to 21.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 7,
+          "b_only": 8,
+          "both": 3,
+          "neither": 3,
+          "total": 21,
+          "a": 10,
+          "b": 11,
+          "union": 18,
+          "answer": "1/7"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-prob-l03-w12",
+      "problem": "A sample space has 13 outcomes: A-only 2, B-only 3, both 4, neither 4. Find P(neither A nor B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=2, overlap=4, B-only=3, outside=4.",
+        "Calculate |A|=6 and |B|=7; use the common denominator |S|=13.",
+        "|A∪B|=6+7−4=9; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for neither A nor B is 4; divide by 13.",
+        "Answer: P(neither A nor B) = 4/13. All four disjoint regions add to 13."
+      ],
+      "answer": "4/13",
+      "check": "Answer: P(neither A nor B) = 4/13. All four disjoint regions add to 13.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 2,
+          "b_only": 3,
+          "both": 4,
+          "neither": 4,
+          "total": 13,
+          "a": 6,
+          "b": 7,
+          "union": 9,
+          "answer": "4/13"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-prob-l03-w13",
+      "problem": "A sample space has 14 outcomes: A-only 3, B-only 3, both 4, neither 4. Find P(A or B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=3, overlap=4, B-only=3, outside=4.",
+        "Calculate |A|=7 and |B|=7; use the common denominator |S|=14.",
+        "|A∪B|=7+7−4=10; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for A or B is 10; divide by 14.",
+        "Answer: P(A or B) = 5/7. All four disjoint regions add to 14."
+      ],
+      "answer": "5/7",
+      "check": "Answer: P(A or B) = 5/7. All four disjoint regions add to 14.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 3,
+          "b_only": 3,
+          "both": 4,
+          "neither": 4,
+          "total": 14,
+          "a": 7,
+          "b": 7,
+          "union": 10,
+          "answer": "5/7"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-prob-l03-w14",
+      "problem": "A sample space has 16 outcomes: A-only 4, B-only 4, both 4, neither 4. Find P(A and B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=4, overlap=4, B-only=4, outside=4.",
+        "Calculate |A|=8 and |B|=8; use the common denominator |S|=16.",
+        "|A∪B|=8+8−4=12; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for A and B is 4; divide by 16.",
+        "Answer: P(A and B) = 1/4. All four disjoint regions add to 16."
+      ],
+      "answer": "1/4",
+      "check": "Answer: P(A and B) = 1/4. All four disjoint regions add to 16.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 4,
+          "b_only": 4,
+          "both": 4,
+          "neither": 4,
+          "total": 16,
+          "a": 8,
+          "b": 8,
+          "union": 12,
+          "answer": "1/4"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-prob-l03-w15",
+      "problem": "A sample space has 13 outcomes: A-only 5, B-only 4, both 0, neither 4. Find P(neither A nor B).",
+      "actions": [
+        "Mark the four disjoint regions A-only=5, overlap=0, B-only=4, outside=4.",
+        "Calculate |A|=5 and |B|=4; use the common denominator |S|=13.",
+        "|A∪B|=5+4−0=9; the overlap was counted twice in |A|+|B|.",
+        "The requested favourable count for neither A nor B is 4; divide by 13.",
+        "Answer: P(neither A nor B) = 4/13. All four disjoint regions add to 13."
+      ],
+      "answer": "4/13",
+      "check": "Answer: P(neither A nor B) = 4/13. All four disjoint regions add to 13.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 3,
+          "model": "venn",
+          "a_only": 5,
+          "b_only": 4,
+          "both": 0,
+          "neither": 4,
+          "total": 13,
+          "a": 5,
+          "b": 4,
+          "union": 9,
+          "answer": "4/13"
+        }
+      },
+      "lesson": 3,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-prob-l03-p01",
+      "prompt": "A sample space has 18 outcomes: A-only 4, B-only 7, both 1, neither 6. Find P(A and B).",
+      "options": [
+        "4/9",
+        "1/18",
+        "13/18",
+        "5/18"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the four disjoint regions A-only=4, overlap=1, B-only=7, outside=6. Calculate |A|=5 and |B|=8; use the common denominator |S|=18. |A∪B|=5+8−1=12; the overlap was counted twice in |A|+|B|. The requested favourable count for A and B is 1; divide by 18. Answer: P(A and B) = 1/18. All four disjoint regions add to 18.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p02",
+      "prompt": "A sample space has 20 outcomes: A-only 5, B-only 7, both 2, neither 6. Find P(neither A nor B).",
+      "options": [
+        "7/20",
+        "9/20",
+        "3/10",
+        "4/5"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the four disjoint regions A-only=5, overlap=2, B-only=7, outside=6. Calculate |A|=7 and |B|=9; use the common denominator |S|=20. |A∪B|=7+9−2=14; the overlap was counted twice in |A|+|B|. The requested favourable count for neither A nor B is 6; divide by 20. Answer: P(neither A nor B) = 3/10. All four disjoint regions add to 20.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p03",
+      "prompt": "A sample space has 22 outcomes: A-only 6, B-only 8, both 2, neither 6. Find P(A or B).",
+      "options": [
+        "9/11",
+        "4/11",
+        "5/11",
+        "8/11"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the four disjoint regions A-only=6, overlap=2, B-only=8, outside=6. Calculate |A|=8 and |B|=10; use the common denominator |S|=22. |A∪B|=8+10−2=16; the overlap was counted twice in |A|+|B|. The requested favourable count for A or B is 16; divide by 22. Answer: P(A or B) = 8/11. All four disjoint regions add to 22.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p04",
+      "prompt": "A sample space has 23 outcomes: A-only 7, B-only 8, both 2, neither 6. Find P(A and B).",
+      "options": [
+        "2/23",
+        "19/23",
+        "9/23",
+        "10/23"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the four disjoint regions A-only=7, overlap=2, B-only=8, outside=6. Calculate |A|=9 and |B|=10; use the common denominator |S|=23. |A∪B|=9+10−2=17; the overlap was counted twice in |A|+|B|. The requested favourable count for A and B is 2; divide by 23. Answer: P(A and B) = 2/23. All four disjoint regions add to 23.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p05",
+      "prompt": "A sample space has 9 outcomes: A-only 2, B-only 3, both 3, neither 1. Find P(neither A nor B).",
+      "options": [
+        "2/3",
+        "1/9",
+        "11/9",
+        "5/9"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the four disjoint regions A-only=2, overlap=3, B-only=3, outside=1. Calculate |A|=5 and |B|=6; use the common denominator |S|=9. |A∪B|=5+6−3=8; the overlap was counted twice in |A|+|B|. The requested favourable count for neither A nor B is 1; divide by 9. Answer: P(neither A nor B) = 1/9. All four disjoint regions add to 9.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p06",
+      "prompt": "A sample space has 10 outcomes: A-only 3, B-only 3, both 3, neither 1. Find P(A or B).",
+      "options": [
+        "3/5",
+        "1/10",
+        "9/10",
+        "6/5"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the four disjoint regions A-only=3, overlap=3, B-only=3, outside=1. Calculate |A|=6 and |B|=6; use the common denominator |S|=10. |A∪B|=6+6−3=9; the overlap was counted twice in |A|+|B|. The requested favourable count for A or B is 9; divide by 10. Answer: P(A or B) = 9/10. All four disjoint regions add to 10.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p07",
+      "prompt": "A sample space has 12 outcomes: A-only 4, B-only 4, both 3, neither 1. Find P(A and B).",
+      "options": [
+        "7/6",
+        "7/12",
+        "3/4",
+        "1/4"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the four disjoint regions A-only=4, overlap=3, B-only=4, outside=1. Calculate |A|=7 and |B|=7; use the common denominator |S|=12. |A∪B|=7+7−3=11; the overlap was counted twice in |A|+|B|. The requested favourable count for A and B is 3; divide by 12. Answer: P(A and B) = 1/4. All four disjoint regions add to 12.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p08",
+      "prompt": "A sample space has 14 outcomes: A-only 5, B-only 4, both 4, neither 1. Find P(neither A nor B).",
+      "options": [
+        "1/14",
+        "17/14",
+        "9/14",
+        "4/7"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the four disjoint regions A-only=5, overlap=4, B-only=4, outside=1. Calculate |A|=9 and |B|=8; use the common denominator |S|=14. |A∪B|=9+8−4=13; the overlap was counted twice in |A|+|B|. The requested favourable count for neither A nor B is 1; divide by 14. Answer: P(neither A nor B) = 1/14. All four disjoint regions add to 14.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p09",
+      "prompt": "A sample space has 17 outcomes: A-only 6, B-only 5, both 4, neither 2. Find P(A or B).",
+      "options": [
+        "9/17",
+        "15/17",
+        "19/17",
+        "10/17"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the four disjoint regions A-only=6, overlap=4, B-only=5, outside=2. Calculate |A|=10 and |B|=9; use the common denominator |S|=17. |A∪B|=10+9−4=15; the overlap was counted twice in |A|+|B|. The requested favourable count for A or B is 15; divide by 17. Answer: P(A or B) = 15/17. All four disjoint regions add to 17.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p10",
+      "prompt": "A sample space has 18 outcomes: A-only 7, B-only 5, both 4, neither 2. Find P(A and B).",
+      "options": [
+        "11/18",
+        "1/2",
+        "2/9",
+        "10/9"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the four disjoint regions A-only=7, overlap=4, B-only=5, outside=2. Calculate |A|=11 and |B|=9; use the common denominator |S|=18. |A∪B|=11+9−4=16; the overlap was counted twice in |A|+|B|. The requested favourable count for A and B is 4; divide by 18. Answer: P(A and B) = 2/9. All four disjoint regions add to 18.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p11",
+      "prompt": "A sample space has 10 outcomes: A-only 2, B-only 6, both 0, neither 2. Find P(neither A nor B).",
+      "options": [
+        "4/5",
+        "3/5",
+        "Cannot determine",
+        "1/5"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the four disjoint regions A-only=2, overlap=0, B-only=6, outside=2. Calculate |A|=2 and |B|=6; use the common denominator |S|=10. |A∪B|=2+6−0=8; the overlap was counted twice in |A|+|B|. The requested favourable count for neither A nor B is 2; divide by 10. Answer: P(neither A nor B) = 1/5. All four disjoint regions add to 10.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p12",
+      "prompt": "A sample space has 11 outcomes: A-only 3, B-only 6, both 0, neither 2. Find P(A or B).",
+      "options": [
+        "9/11",
+        "3/11",
+        "6/11",
+        "2/11"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the four disjoint regions A-only=3, overlap=0, B-only=6, outside=2. Calculate |A|=3 and |B|=6; use the common denominator |S|=11. |A∪B|=3+6−0=9; the overlap was counted twice in |A|+|B|. The requested favourable count for A or B is 9; divide by 11. Answer: P(A or B) = 9/11. All four disjoint regions add to 11.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p13",
+      "prompt": "A sample space has 14 outcomes: A-only 4, B-only 7, both 0, neither 3. Find P(A and B).",
+      "options": [
+        "1/2",
+        "0",
+        "11/14",
+        "2/7"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the four disjoint regions A-only=4, overlap=0, B-only=7, outside=3. Calculate |A|=4 and |B|=7; use the common denominator |S|=14. |A∪B|=4+7−0=11; the overlap was counted twice in |A|+|B|. The requested favourable count for A and B is 0; divide by 14. Answer: P(A and B) = 0. All four disjoint regions add to 14.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p14",
+      "prompt": "A sample space has 16 outcomes: A-only 5, B-only 7, both 1, neither 3. Find P(neither A nor B).",
+      "options": [
+        "3/8",
+        "1/2",
+        "3/16",
+        "7/8"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the four disjoint regions A-only=5, overlap=1, B-only=7, outside=3. Calculate |A|=6 and |B|=8; use the common denominator |S|=16. |A∪B|=6+8−1=13; the overlap was counted twice in |A|+|B|. The requested favourable count for neither A nor B is 3; divide by 16. Answer: P(neither A nor B) = 3/16. All four disjoint regions add to 16.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-p15",
+      "prompt": "A sample space has 18 outcomes: A-only 6, B-only 8, both 1, neither 3. Find P(A or B).",
+      "options": [
+        "8/9",
+        "7/18",
+        "1/2",
+        "5/6"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the four disjoint regions A-only=6, overlap=1, B-only=8, outside=3. Calculate |A|=7 and |B|=9; use the common denominator |S|=18. |A∪B|=7+9−1=15; the overlap was counted twice in |A|+|B|. The requested favourable count for A or B is 15; divide by 18. Answer: P(A or B) = 5/6. All four disjoint regions add to 18.",
+      "source": "grade10-prob-lesson-03.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-prob-l03-m16",
+      "prompt": "A sample space has 13 outcomes: A-only 2, B-only 6, both 3, neither 2. Find P(neither A nor B).",
+      "options": [
+        "2/13",
+        "14/13",
+        "5/13",
+        "9/13"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the four disjoint regions A-only=2, overlap=3, B-only=6, outside=2. Calculate |A|=5 and |B|=9; use the common denominator |S|=13. |A∪B|=5+9−3=11; the overlap was counted twice in |A|+|B|. The requested favourable count for neither A nor B is 2; divide by 13. Answer: P(neither A nor B) = 2/13. All four disjoint regions add to 13.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-m17",
+      "prompt": "A sample space has 14 outcomes: A-only 3, B-only 6, both 3, neither 2. Find P(A or B).",
+      "options": [
+        "9/14",
+        "6/7",
+        "15/14",
+        "3/7"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the four disjoint regions A-only=3, overlap=3, B-only=6, outside=2. Calculate |A|=6 and |B|=9; use the common denominator |S|=14. |A∪B|=6+9−3=12; the overlap was counted twice in |A|+|B|. The requested favourable count for A or B is 12; divide by 14. Answer: P(A or B) = 6/7. All four disjoint regions add to 14.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-m18",
+      "prompt": "A sample space has 17 outcomes: A-only 4, B-only 7, both 3, neither 3. Find P(A and B).",
+      "options": [
+        "7/17",
+        "10/17",
+        "3/17",
+        "1"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the four disjoint regions A-only=4, overlap=3, B-only=7, outside=3. Calculate |A|=7 and |B|=10; use the common denominator |S|=17. |A∪B|=7+10−3=14; the overlap was counted twice in |A|+|B|. The requested favourable count for A and B is 3; divide by 17. Answer: P(A and B) = 3/17. All four disjoint regions add to 17.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-m19",
+      "prompt": "A sample space has 19 outcomes: A-only 5, B-only 7, both 4, neither 3. Find P(neither A nor B).",
+      "options": [
+        "20/19",
+        "9/19",
+        "11/19",
+        "3/19"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the four disjoint regions A-only=5, overlap=4, B-only=7, outside=3. Calculate |A|=9 and |B|=11; use the common denominator |S|=19. |A∪B|=9+11−4=16; the overlap was counted twice in |A|+|B|. The requested favourable count for neither A nor B is 3; divide by 19. Answer: P(neither A nor B) = 3/19. All four disjoint regions add to 19.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-m20",
+      "prompt": "A sample space has 21 outcomes: A-only 6, B-only 8, both 4, neither 3. Find P(A or B).",
+      "options": [
+        "6/7",
+        "22/21",
+        "10/21",
+        "4/7"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the four disjoint regions A-only=6, overlap=4, B-only=8, outside=3. Calculate |A|=10 and |B|=12; use the common denominator |S|=21. |A∪B|=10+12−4=18; the overlap was counted twice in |A|+|B|. The requested favourable count for A or B is 18; divide by 21. Answer: P(A or B) = 6/7. All four disjoint regions add to 21.",
+      "source": "grade10-prob-lesson-03.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-prob-l03-r21",
+      "prompt": "A sample space has 11 outcomes: A-only 2, B-only 6, both 1, neither 2. Find P(neither A nor B).",
+      "options": [
+        "7/11",
+        "2/11",
+        "10/11",
+        "3/11"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the four disjoint regions A-only=2, overlap=1, B-only=6, outside=2. Calculate |A|=3 and |B|=7; use the common denominator |S|=11. |A∪B|=3+7−1=9; the overlap was counted twice in |A|+|B|. The requested favourable count for neither A nor B is 2; divide by 11. Answer: P(neither A nor B) = 2/11. All four disjoint regions add to 11.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-r22",
+      "prompt": "A sample space has 12 outcomes: A-only 3, B-only 6, both 1, neither 2. Find P(A or B).",
+      "options": [
+        "1/3",
+        "7/12",
+        "5/6",
+        "11/12"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the four disjoint regions A-only=3, overlap=1, B-only=6, outside=2. Calculate |A|=4 and |B|=7; use the common denominator |S|=12. |A∪B|=4+7−1=10; the overlap was counted twice in |A|+|B|. The requested favourable count for A or B is 10; divide by 12. Answer: P(A or B) = 5/6. All four disjoint regions add to 12.",
+      "source": "grade10-prob-lesson-03.md"
+    },
+    {
+      "id": "g10-prob-l03-r23",
+      "prompt": "A sample space has 15 outcomes: A-only 4, B-only 7, both 1, neither 3. Find P(A and B).",
+      "options": [
+        "13/15",
+        "1/3",
+        "8/15",
+        "1/15"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the four disjoint regions A-only=4, overlap=1, B-only=7, outside=3. Calculate |A|=5 and |B|=8; use the common denominator |S|=15. |A∪B|=5+8−1=12; the overlap was counted twice in |A|+|B|. The requested favourable count for A and B is 1; divide by 15. Answer: P(A and B) = 1/15. All four disjoint regions add to 15.",
+      "source": "grade10-prob-lesson-03.md"
+    }
+  ]
+}

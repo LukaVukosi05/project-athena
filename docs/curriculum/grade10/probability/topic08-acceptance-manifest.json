@@ -1,0 +1,62 @@
+[
+  {
+    "lesson_id": "g10-prob-01",
+    "source": "grade10-prob-lesson-01.md",
+    "source_sha256": "07763e93e969c07824655409651f17ba4672b3ae49f6557a5cea2b780dba05b5",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-prob-02",
+    "source": "grade10-prob-lesson-02.md",
+    "source_sha256": "1bc73a5b35fb712464d0bedbd25c3bec29a4e21329405b078d4fc791aaf9cb5a",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-prob-03",
+    "source": "grade10-prob-lesson-03.md",
+    "source_sha256": "9f07edcf13b84b5011d58c473fd19744f5142b87e651e2d55a7e548040201d84",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-prob-04",
+    "source": "grade10-prob-lesson-04.md",
+    "source_sha256": "bb41b7f74dc93aaa2a30173b011db43a201b8a404a64e5c6bd44ef26bbfb2466",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-prob-05",
+    "source": "grade10-prob-lesson-05.md",
+    "source_sha256": "2cf1a2b76e3785e2e22f4979ffce5979057108e583f6f5d64971375548827432",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

@@ -1,0 +1,745 @@
+{
+  "source": "grade10-prob-lesson-01.md",
+  "worked": [
+    {
+      "id": "g10-prob-l01-w01",
+      "problem": "A learner records 14 occurrences of even on a fair die in 30 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 14 and number of trials 30 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=14/30=7/15.",
+        "From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2.",
+        "Compare 7/15 and 1/2: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 7/15; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 30."
+      ],
+      "answer": "relative frequency 7/15; theoretical probability 1/2; observed is lower than theoretical",
+      "check": "Answer: relative frequency 7/15; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 30.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 30,
+          "hits": 14,
+          "faces": 6,
+          "favourable": 3,
+          "event": "even on a fair die",
+          "answer": "relative frequency 7/15; theoretical probability 1/2; observed is lower than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-prob-l01-w02",
+      "problem": "A learner records 9 occurrences of two heads in two fair coin tosses in 36 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 9 and number of trials 36 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=9/36=1/4.",
+        "From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4.",
+        "Compare 1/4 and 1/4: the observed relative frequency is equal to the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 1/4; theoretical probability 1/4; observed is equal to theoretical. Observed frequency uses the experimental denominator 36."
+      ],
+      "answer": "relative frequency 1/4; theoretical probability 1/4; observed is equal to theoretical",
+      "check": "Answer: relative frequency 1/4; theoretical probability 1/4; observed is equal to theoretical. Observed frequency uses the experimental denominator 36.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 36,
+          "hits": 9,
+          "faces": 4,
+          "favourable": 1,
+          "event": "two heads in two fair coin tosses",
+          "answer": "relative frequency 1/4; theoretical probability 1/4; observed is equal to theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-prob-l01-w03",
+      "problem": "A learner records 22 occurrences of even on a fair die in 42 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 22 and number of trials 42 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=22/42=11/21.",
+        "From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2.",
+        "Compare 11/21 and 1/2: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 11/21; theoretical probability 1/2; observed is higher than theoretical. Observed frequency uses the experimental denominator 42."
+      ],
+      "answer": "relative frequency 11/21; theoretical probability 1/2; observed is higher than theoretical",
+      "check": "Answer: relative frequency 11/21; theoretical probability 1/2; observed is higher than theoretical. Observed frequency uses the experimental denominator 42.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 42,
+          "hits": 22,
+          "faces": 6,
+          "favourable": 3,
+          "event": "even on a fair die",
+          "answer": "relative frequency 11/21; theoretical probability 1/2; observed is higher than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-prob-l01-w04",
+      "problem": "A learner records 14 occurrences of two heads in two fair coin tosses in 48 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 14 and number of trials 48 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=14/48=7/24.",
+        "From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4.",
+        "Compare 7/24 and 1/4: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 7/24; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 48."
+      ],
+      "answer": "relative frequency 7/24; theoretical probability 1/4; observed is higher than theoretical",
+      "check": "Answer: relative frequency 7/24; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 48.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 48,
+          "hits": 14,
+          "faces": 4,
+          "favourable": 1,
+          "event": "two heads in two fair coin tosses",
+          "answer": "relative frequency 7/24; theoretical probability 1/4; observed is higher than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-prob-l01-w05",
+      "problem": "A learner records 25 occurrences of even on a fair die in 54 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 25 and number of trials 54 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=25/54=25/54.",
+        "From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2.",
+        "Compare 25/54 and 1/2: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 25/54; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 54."
+      ],
+      "answer": "relative frequency 25/54; theoretical probability 1/2; observed is lower than theoretical",
+      "check": "Answer: relative frequency 25/54; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 54.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 54,
+          "hits": 25,
+          "faces": 6,
+          "favourable": 3,
+          "event": "even on a fair die",
+          "answer": "relative frequency 25/54; theoretical probability 1/2; observed is lower than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-prob-l01-w06",
+      "problem": "A learner records 14 occurrences of two heads in two fair coin tosses in 60 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 14 and number of trials 60 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=14/60=7/30.",
+        "From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4.",
+        "Compare 7/30 and 1/4: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 7/30; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 60."
+      ],
+      "answer": "relative frequency 7/30; theoretical probability 1/4; observed is lower than theoretical",
+      "check": "Answer: relative frequency 7/30; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 60.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 60,
+          "hits": 14,
+          "faces": 4,
+          "favourable": 1,
+          "event": "two heads in two fair coin tosses",
+          "answer": "relative frequency 7/30; theoretical probability 1/4; observed is lower than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l01-w07",
+      "problem": "A learner records 12 occurrences of even on a fair die in 24 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 12 and number of trials 24 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=12/24=1/2.",
+        "From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2.",
+        "Compare 1/2 and 1/2: the observed relative frequency is equal to the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 1/2; theoretical probability 1/2; observed is equal to theoretical. Observed frequency uses the experimental denominator 24."
+      ],
+      "answer": "relative frequency 1/2; theoretical probability 1/2; observed is equal to theoretical",
+      "check": "Answer: relative frequency 1/2; theoretical probability 1/2; observed is equal to theoretical. Observed frequency uses the experimental denominator 24.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 24,
+          "hits": 12,
+          "faces": 6,
+          "favourable": 3,
+          "event": "even on a fair die",
+          "answer": "relative frequency 1/2; theoretical probability 1/2; observed is equal to theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l01-w08",
+      "problem": "A learner records 8 occurrences of two heads in two fair coin tosses in 30 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 8 and number of trials 30 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=8/30=4/15.",
+        "From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4.",
+        "Compare 4/15 and 1/4: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 4/15; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 30."
+      ],
+      "answer": "relative frequency 4/15; theoretical probability 1/4; observed is higher than theoretical",
+      "check": "Answer: relative frequency 4/15; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 30.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 30,
+          "hits": 8,
+          "faces": 4,
+          "favourable": 1,
+          "event": "two heads in two fair coin tosses",
+          "answer": "relative frequency 4/15; theoretical probability 1/4; observed is higher than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l01-w09",
+      "problem": "A learner records 20 occurrences of even on a fair die in 36 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 20 and number of trials 36 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=20/36=5/9.",
+        "From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2.",
+        "Compare 5/9 and 1/2: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 5/9; theoretical probability 1/2; observed is higher than theoretical. Observed frequency uses the experimental denominator 36."
+      ],
+      "answer": "relative frequency 5/9; theoretical probability 1/2; observed is higher than theoretical",
+      "check": "Answer: relative frequency 5/9; theoretical probability 1/2; observed is higher than theoretical. Observed frequency uses the experimental denominator 36.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 36,
+          "hits": 20,
+          "faces": 6,
+          "favourable": 3,
+          "event": "even on a fair die",
+          "answer": "relative frequency 5/9; theoretical probability 1/2; observed is higher than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l01-w10",
+      "problem": "A learner records 8 occurrences of two heads in two fair coin tosses in 42 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 8 and number of trials 42 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=8/42=4/21.",
+        "From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4.",
+        "Compare 4/21 and 1/4: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 4/21; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 42."
+      ],
+      "answer": "relative frequency 4/21; theoretical probability 1/4; observed is lower than theoretical",
+      "check": "Answer: relative frequency 4/21; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 42.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 42,
+          "hits": 8,
+          "faces": 4,
+          "favourable": 1,
+          "event": "two heads in two fair coin tosses",
+          "answer": "relative frequency 4/21; theoretical probability 1/4; observed is lower than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-prob-l01-w11",
+      "problem": "A learner records 23 occurrences of even on a fair die in 48 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 23 and number of trials 48 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=23/48=23/48.",
+        "From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2.",
+        "Compare 23/48 and 1/2: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 23/48; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 48."
+      ],
+      "answer": "relative frequency 23/48; theoretical probability 1/2; observed is lower than theoretical",
+      "check": "Answer: relative frequency 23/48; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 48.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 48,
+          "hits": 23,
+          "faces": 6,
+          "favourable": 3,
+          "event": "even on a fair die",
+          "answer": "relative frequency 23/48; theoretical probability 1/2; observed is lower than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-prob-l01-w12",
+      "problem": "A learner records 13 occurrences of two heads in two fair coin tosses in 54 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 13 and number of trials 54 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=13/54=13/54.",
+        "From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4.",
+        "Compare 13/54 and 1/4: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 13/54; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 54."
+      ],
+      "answer": "relative frequency 13/54; theoretical probability 1/4; observed is lower than theoretical",
+      "check": "Answer: relative frequency 13/54; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 54.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 54,
+          "hits": 13,
+          "faces": 4,
+          "favourable": 1,
+          "event": "two heads in two fair coin tosses",
+          "answer": "relative frequency 13/54; theoretical probability 1/4; observed is lower than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-prob-l01-w13",
+      "problem": "A learner records 31 occurrences of even on a fair die in 60 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 31 and number of trials 60 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=31/60=31/60.",
+        "From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2.",
+        "Compare 31/60 and 1/2: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 31/60; theoretical probability 1/2; observed is higher than theoretical. Observed frequency uses the experimental denominator 60."
+      ],
+      "answer": "relative frequency 31/60; theoretical probability 1/2; observed is higher than theoretical",
+      "check": "Answer: relative frequency 31/60; theoretical probability 1/2; observed is higher than theoretical. Observed frequency uses the experimental denominator 60.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 60,
+          "hits": 31,
+          "faces": 6,
+          "favourable": 3,
+          "event": "even on a fair die",
+          "answer": "relative frequency 31/60; theoretical probability 1/2; observed is higher than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-prob-l01-w14",
+      "problem": "A learner records 8 occurrences of two heads in two fair coin tosses in 24 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 8 and number of trials 24 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=8/24=1/3.",
+        "From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4.",
+        "Compare 1/3 and 1/4: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 1/3; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 24."
+      ],
+      "answer": "relative frequency 1/3; theoretical probability 1/4; observed is higher than theoretical",
+      "check": "Answer: relative frequency 1/3; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 24.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 24,
+          "hits": 8,
+          "faces": 4,
+          "favourable": 1,
+          "event": "two heads in two fair coin tosses",
+          "answer": "relative frequency 1/3; theoretical probability 1/4; observed is higher than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-prob-l01-w15",
+      "problem": "A learner records 13 occurrences of even on a fair die in 30 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "actions": [
+        "Write the observed count 13 and number of trials 30 as separate quantities.",
+        "Divide the observed count by trials: relative frequency=13/30=13/30.",
+        "From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2.",
+        "Compare 13/30 and 1/2: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory.",
+        "Answer: relative frequency 13/30; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 30."
+      ],
+      "answer": "relative frequency 13/30; theoretical probability 1/2; observed is lower than theoretical",
+      "check": "Answer: relative frequency 13/30; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 30.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 1,
+          "model": "frequency",
+          "trials": 30,
+          "hits": 13,
+          "faces": 6,
+          "favourable": 3,
+          "event": "even on a fair die",
+          "answer": "relative frequency 13/30; theoretical probability 1/2; observed is lower than theoretical"
+        }
+      },
+      "lesson": 1,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-prob-l01-p01",
+      "prompt": "A learner records 13 occurrences of two heads in two fair coin tosses in 60 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 13/4; theoretical probability 1/4",
+        "relative frequency 13/60; theoretical probability 1/4; observed is lower than theoretical",
+        "relative frequency 60/13; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 13/60"
+      ],
+      "answer_index": 1,
+      "memo": "Write the observed count 13 and number of trials 60 as separate quantities. Divide the observed count by trials: relative frequency=13/60=13/60. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 13/60 and 1/4: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 13/60; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 60.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p02",
+      "prompt": "A learner records 11 occurrences of even on a fair die in 24 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 1/2; theoretical probability 11/24",
+        "relative frequency 11/6; theoretical probability 1/2",
+        "relative frequency 11/24; theoretical probability 1/2; observed is lower than theoretical",
+        "relative frequency 24/11; theoretical probability 1/2"
+      ],
+      "answer_index": 2,
+      "memo": "Write the observed count 11 and number of trials 24 as separate quantities. Divide the observed count by trials: relative frequency=11/24=11/24. From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2. Compare 11/24 and 1/2: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 11/24; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 24.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p03",
+      "prompt": "A learner records 7 occurrences of two heads in two fair coin tosses in 30 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 30/7; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 7/30",
+        "relative frequency 7/4; theoretical probability 1/4",
+        "relative frequency 7/30; theoretical probability 1/4; observed is lower than theoretical"
+      ],
+      "answer_index": 3,
+      "memo": "Write the observed count 7 and number of trials 30 as separate quantities. Divide the observed count by trials: relative frequency=7/30=7/30. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 7/30 and 1/4: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 7/30; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 30.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p04",
+      "prompt": "A learner records 19 occurrences of even on a fair die in 36 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 19/36; theoretical probability 1/2; observed is higher than theoretical",
+        "relative frequency 36/19; theoretical probability 1/2",
+        "relative frequency 1/2; theoretical probability 19/36",
+        "relative frequency 19/6; theoretical probability 1/2"
+      ],
+      "answer_index": 0,
+      "memo": "Write the observed count 19 and number of trials 36 as separate quantities. Divide the observed count by trials: relative frequency=19/36=19/36. From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2. Compare 19/36 and 1/2: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 19/36; theoretical probability 1/2; observed is higher than theoretical. Observed frequency uses the experimental denominator 36.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p05",
+      "prompt": "A learner records 12 occurrences of two heads in two fair coin tosses in 42 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 3; theoretical probability 1/4",
+        "relative frequency 2/7; theoretical probability 1/4; observed is higher than theoretical",
+        "relative frequency 7/2; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 2/7"
+      ],
+      "answer_index": 1,
+      "memo": "Write the observed count 12 and number of trials 42 as separate quantities. Divide the observed count by trials: relative frequency=12/42=2/7. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 2/7 and 1/4: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 2/7; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 42.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p06",
+      "prompt": "A learner records 22 occurrences of even on a fair die in 48 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 1/2; theoretical probability 11/24",
+        "relative frequency 11/3; theoretical probability 1/2",
+        "relative frequency 11/24; theoretical probability 1/2; observed is lower than theoretical",
+        "relative frequency 24/11; theoretical probability 1/2"
+      ],
+      "answer_index": 2,
+      "memo": "Write the observed count 22 and number of trials 48 as separate quantities. Divide the observed count by trials: relative frequency=22/48=11/24. From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2. Compare 11/24 and 1/2: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 11/24; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 48.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p07",
+      "prompt": "A learner records 12 occurrences of two heads in two fair coin tosses in 54 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 9/2; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 2/9",
+        "relative frequency 3; theoretical probability 1/4",
+        "relative frequency 2/9; theoretical probability 1/4; observed is lower than theoretical"
+      ],
+      "answer_index": 3,
+      "memo": "Write the observed count 12 and number of trials 54 as separate quantities. Divide the observed count by trials: relative frequency=12/54=2/9. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 2/9 and 1/4: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 2/9; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 54.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p08",
+      "prompt": "A learner records 30 occurrences of even on a fair die in 60 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 1/2; theoretical probability 1/2; observed is equal to theoretical",
+        "relative frequency 2; theoretical probability 1/2",
+        "relative frequency 1/2; theoretical probability 1/2",
+        "relative frequency 5; theoretical probability 1/2"
+      ],
+      "answer_index": 0,
+      "memo": "Write the observed count 30 and number of trials 60 as separate quantities. Divide the observed count by trials: relative frequency=30/60=1/2. From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2. Compare 1/2 and 1/2: the observed relative frequency is equal to the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 1/2; theoretical probability 1/2; observed is equal to theoretical. Observed frequency uses the experimental denominator 60.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p09",
+      "prompt": "A learner records 7 occurrences of two heads in two fair coin tosses in 24 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 7/4; theoretical probability 1/4",
+        "relative frequency 7/24; theoretical probability 1/4; observed is higher than theoretical",
+        "relative frequency 24/7; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 7/24"
+      ],
+      "answer_index": 1,
+      "memo": "Write the observed count 7 and number of trials 24 as separate quantities. Divide the observed count by trials: relative frequency=7/24=7/24. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 7/24 and 1/4: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 7/24; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 24.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p10",
+      "prompt": "A learner records 17 occurrences of even on a fair die in 30 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 1/2; theoretical probability 17/30",
+        "relative frequency 17/6; theoretical probability 1/2",
+        "relative frequency 17/30; theoretical probability 1/2; observed is higher than theoretical",
+        "relative frequency 30/17; theoretical probability 1/2"
+      ],
+      "answer_index": 2,
+      "memo": "Write the observed count 17 and number of trials 30 as separate quantities. Divide the observed count by trials: relative frequency=17/30=17/30. From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2. Compare 17/30 and 1/2: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 17/30; theoretical probability 1/2; observed is higher than theoretical. Observed frequency uses the experimental denominator 30.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p11",
+      "prompt": "A learner records 7 occurrences of two heads in two fair coin tosses in 36 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 36/7; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 7/36",
+        "relative frequency 7/4; theoretical probability 1/4",
+        "relative frequency 7/36; theoretical probability 1/4; observed is lower than theoretical"
+      ],
+      "answer_index": 3,
+      "memo": "Write the observed count 7 and number of trials 36 as separate quantities. Divide the observed count by trials: relative frequency=7/36=7/36. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 7/36 and 1/4: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 7/36; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 36.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p12",
+      "prompt": "A learner records 20 occurrences of even on a fair die in 42 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 10/21; theoretical probability 1/2; observed is lower than theoretical",
+        "relative frequency 21/10; theoretical probability 1/2",
+        "relative frequency 1/2; theoretical probability 10/21",
+        "relative frequency 10/3; theoretical probability 1/2"
+      ],
+      "answer_index": 0,
+      "memo": "Write the observed count 20 and number of trials 42 as separate quantities. Divide the observed count by trials: relative frequency=20/42=10/21. From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2. Compare 10/21 and 1/2: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 10/21; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 42.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p13",
+      "prompt": "A learner records 12 occurrences of two heads in two fair coin tosses in 48 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 3; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 1/4; observed is equal to theoretical",
+        "relative frequency 4; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 1/4"
+      ],
+      "answer_index": 1,
+      "memo": "Write the observed count 12 and number of trials 48 as separate quantities. Divide the observed count by trials: relative frequency=12/48=1/4. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 1/4 and 1/4: the observed relative frequency is equal to the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 1/4; theoretical probability 1/4; observed is equal to theoretical. Observed frequency uses the experimental denominator 48.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p14",
+      "prompt": "A learner records 28 occurrences of even on a fair die in 54 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 1/2; theoretical probability 14/27",
+        "relative frequency 14/3; theoretical probability 1/2",
+        "relative frequency 14/27; theoretical probability 1/2; observed is higher than theoretical",
+        "relative frequency 27/14; theoretical probability 1/2"
+      ],
+      "answer_index": 2,
+      "memo": "Write the observed count 28 and number of trials 54 as separate quantities. Divide the observed count by trials: relative frequency=28/54=14/27. From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2. Compare 14/27 and 1/2: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 14/27; theoretical probability 1/2; observed is higher than theoretical. Observed frequency uses the experimental denominator 54.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-p15",
+      "prompt": "A learner records 17 occurrences of two heads in two fair coin tosses in 60 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 60/17; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 17/60",
+        "relative frequency 17/4; theoretical probability 1/4",
+        "relative frequency 17/60; theoretical probability 1/4; observed is higher than theoretical"
+      ],
+      "answer_index": 3,
+      "memo": "Write the observed count 17 and number of trials 60 as separate quantities. Divide the observed count by trials: relative frequency=17/60=17/60. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 17/60 and 1/4: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 17/60; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 60.",
+      "source": "grade10-prob-lesson-01.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-prob-l01-m16",
+      "prompt": "A learner records 15 occurrences of two heads in two fair coin tosses in 54 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 5/18; theoretical probability 1/4; observed is higher than theoretical",
+        "relative frequency 18/5; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 5/18",
+        "relative frequency 15/4; theoretical probability 1/4"
+      ],
+      "answer_index": 0,
+      "memo": "Write the observed count 15 and number of trials 54 as separate quantities. Divide the observed count by trials: relative frequency=15/54=5/18. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 5/18 and 1/4: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 5/18; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 54.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-m17",
+      "prompt": "A learner records 28 occurrences of even on a fair die in 60 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 14/3; theoretical probability 1/2",
+        "relative frequency 7/15; theoretical probability 1/2; observed is lower than theoretical",
+        "relative frequency 15/7; theoretical probability 1/2",
+        "relative frequency 1/2; theoretical probability 7/15"
+      ],
+      "answer_index": 1,
+      "memo": "Write the observed count 28 and number of trials 60 as separate quantities. Divide the observed count by trials: relative frequency=28/60=7/15. From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2. Compare 7/15 and 1/2: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 7/15; theoretical probability 1/2; observed is lower than theoretical. Observed frequency uses the experimental denominator 60.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-m18",
+      "prompt": "A learner records 5 occurrences of two heads in two fair coin tosses in 24 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 1/4; theoretical probability 5/24",
+        "relative frequency 5/4; theoretical probability 1/4",
+        "relative frequency 5/24; theoretical probability 1/4; observed is lower than theoretical",
+        "relative frequency 24/5; theoretical probability 1/4"
+      ],
+      "answer_index": 2,
+      "memo": "Write the observed count 5 and number of trials 24 as separate quantities. Divide the observed count by trials: relative frequency=5/24=5/24. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 5/24 and 1/4: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 5/24; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 24.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-m19",
+      "prompt": "A learner records 15 occurrences of even on a fair die in 30 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 2; theoretical probability 1/2",
+        "relative frequency 1/2; theoretical probability 1/2",
+        "relative frequency 5/2; theoretical probability 1/2",
+        "relative frequency 1/2; theoretical probability 1/2; observed is equal to theoretical"
+      ],
+      "answer_index": 3,
+      "memo": "Write the observed count 15 and number of trials 30 as separate quantities. Divide the observed count by trials: relative frequency=15/30=1/2. From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2. Compare 1/2 and 1/2: the observed relative frequency is equal to the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 1/2; theoretical probability 1/2; observed is equal to theoretical. Observed frequency uses the experimental denominator 30.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-m20",
+      "prompt": "A learner records 10 occurrences of two heads in two fair coin tosses in 36 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 5/18; theoretical probability 1/4; observed is higher than theoretical",
+        "relative frequency 18/5; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 5/18",
+        "relative frequency 5/2; theoretical probability 1/4"
+      ],
+      "answer_index": 0,
+      "memo": "Write the observed count 10 and number of trials 36 as separate quantities. Divide the observed count by trials: relative frequency=10/36=5/18. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 5/18 and 1/4: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 5/18; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 36.",
+      "source": "grade10-prob-lesson-01.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-prob-l01-r21",
+      "prompt": "A learner records 8 occurrences of two heads in two fair coin tosses in 30 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 2; theoretical probability 1/4",
+        "relative frequency 4/15; theoretical probability 1/4; observed is higher than theoretical",
+        "relative frequency 15/4; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 4/15"
+      ],
+      "answer_index": 1,
+      "memo": "Write the observed count 8 and number of trials 30 as separate quantities. Divide the observed count by trials: relative frequency=8/30=4/15. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 4/15 and 1/4: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 4/15; theoretical probability 1/4; observed is higher than theoretical. Observed frequency uses the experimental denominator 30.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-r22",
+      "prompt": "A learner records 20 occurrences of even on a fair die in 36 independent trials. The theoretical model has 3 favourable outcomes out of 6. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 1/2; theoretical probability 5/9",
+        "relative frequency 10/3; theoretical probability 1/2",
+        "relative frequency 5/9; theoretical probability 1/2; observed is higher than theoretical",
+        "relative frequency 9/5; theoretical probability 1/2"
+      ],
+      "answer_index": 2,
+      "memo": "Write the observed count 20 and number of trials 36 as separate quantities. Divide the observed count by trials: relative frequency=20/36=5/9. From 6 equally likely outcomes, 3 satisfy the event; theoretical probability=3/6=1/2. Compare 5/9 and 1/2: the observed relative frequency is higher than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 5/9; theoretical probability 1/2; observed is higher than theoretical. Observed frequency uses the experimental denominator 36.",
+      "source": "grade10-prob-lesson-01.md"
+    },
+    {
+      "id": "g10-prob-l01-r23",
+      "prompt": "A learner records 8 occurrences of two heads in two fair coin tosses in 42 independent trials. The theoretical model has 1 favourable outcomes out of 4. Find the observed relative frequency and compare it with the theoretical probability.",
+      "options": [
+        "relative frequency 21/4; theoretical probability 1/4",
+        "relative frequency 1/4; theoretical probability 4/21",
+        "relative frequency 2; theoretical probability 1/4",
+        "relative frequency 4/21; theoretical probability 1/4; observed is lower than theoretical"
+      ],
+      "answer_index": 3,
+      "memo": "Write the observed count 8 and number of trials 42 as separate quantities. Divide the observed count by trials: relative frequency=8/42=4/21. From 4 equally likely outcomes, 1 satisfy the event; theoretical probability=1/4=1/4. Compare 4/21 and 1/4: the observed relative frequency is lower than the theoretical value. A finite experiment may differ from theory. Answer: relative frequency 4/21; theoretical probability 1/4; observed is lower than theoretical. Observed frequency uses the experimental denominator 42.",
+      "source": "grade10-prob-lesson-01.md"
+    }
+  ]
+}

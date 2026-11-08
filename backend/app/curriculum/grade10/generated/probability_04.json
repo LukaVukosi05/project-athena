@@ -1,0 +1,790 @@
+{
+  "source": "grade10-prob-lesson-04.md",
+  "worked": [
+    {
+      "id": "g10-prob-l04-w01",
+      "problem": "Events A and B have A-only=3, B-only=3, intersection=0, outside both=0, in S of size 6. Are A and B complementary?",
+      "actions": [
+        "Place 3 in A-only and 3 in B-only; draw the full universe S=6.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 6 outcomes. Compare it with S=6; the outside region contains 0.",
+        "A and B are complementary because they are disjoint and exhaust S.",
+        "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint and exhaustive",
+      "check": "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 3,
+          "b_only": 3,
+          "both": 0,
+          "neither": 0,
+          "total": 6,
+          "a": 3,
+          "b": 3,
+          "union": 6,
+          "answer": "Yes; disjoint and exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-prob-l04-w02",
+      "problem": "Events A and B have A-only=4, B-only=4, intersection=0, outside both=2, in S of size 10. Are A and B mutually exclusive but not complementary?",
+      "actions": [
+        "Place 4 in A-only and 4 in B-only; draw the full universe S=10.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 8 outcomes. Compare it with S=10; the outside region contains 2.",
+        "They are not complementary: the outside region is nonempty.",
+        "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint but not exhaustive",
+      "check": "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 4,
+          "b_only": 4,
+          "both": 0,
+          "neither": 2,
+          "total": 10,
+          "a": 4,
+          "b": 4,
+          "union": 8,
+          "answer": "Yes; disjoint but not exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-prob-l04-w03",
+      "problem": "Events A and B have A-only=5, B-only=4, intersection=0, outside both=0, in S of size 9. Are A and B complementary?",
+      "actions": [
+        "Place 5 in A-only and 4 in B-only; draw the full universe S=9.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 9 outcomes. Compare it with S=9; the outside region contains 0.",
+        "A and B are complementary because they are disjoint and exhaust S.",
+        "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint and exhaustive",
+      "check": "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 5,
+          "b_only": 4,
+          "both": 0,
+          "neither": 0,
+          "total": 9,
+          "a": 5,
+          "b": 4,
+          "union": 9,
+          "answer": "Yes; disjoint and exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-prob-l04-w04",
+      "problem": "Events A and B have A-only=6, B-only=5, intersection=0, outside both=3, in S of size 14. Are A and B mutually exclusive but not complementary?",
+      "actions": [
+        "Place 6 in A-only and 5 in B-only; draw the full universe S=14.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 11 outcomes. Compare it with S=14; the outside region contains 3.",
+        "They are not complementary: the outside region is nonempty.",
+        "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint but not exhaustive",
+      "check": "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 6,
+          "b_only": 5,
+          "both": 0,
+          "neither": 3,
+          "total": 14,
+          "a": 6,
+          "b": 5,
+          "union": 11,
+          "answer": "Yes; disjoint but not exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-prob-l04-w05",
+      "problem": "Events A and B have A-only=7, B-only=5, intersection=0, outside both=0, in S of size 12. Are A and B complementary?",
+      "actions": [
+        "Place 7 in A-only and 5 in B-only; draw the full universe S=12.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 12 outcomes. Compare it with S=12; the outside region contains 0.",
+        "A and B are complementary because they are disjoint and exhaust S.",
+        "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint and exhaustive",
+      "check": "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 7,
+          "b_only": 5,
+          "both": 0,
+          "neither": 0,
+          "total": 12,
+          "a": 7,
+          "b": 5,
+          "union": 12,
+          "answer": "Yes; disjoint and exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-prob-l04-w06",
+      "problem": "Events A and B have A-only=2, B-only=6, intersection=0, outside both=3, in S of size 11. Are A and B mutually exclusive but not complementary?",
+      "actions": [
+        "Place 2 in A-only and 6 in B-only; draw the full universe S=11.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 8 outcomes. Compare it with S=11; the outside region contains 3.",
+        "They are not complementary: the outside region is nonempty.",
+        "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint but not exhaustive",
+      "check": "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 2,
+          "b_only": 6,
+          "both": 0,
+          "neither": 3,
+          "total": 11,
+          "a": 2,
+          "b": 6,
+          "union": 8,
+          "answer": "Yes; disjoint but not exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l04-w07",
+      "problem": "Events A and B have A-only=3, B-only=6, intersection=0, outside both=0, in S of size 9. Are A and B complementary?",
+      "actions": [
+        "Place 3 in A-only and 6 in B-only; draw the full universe S=9.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 9 outcomes. Compare it with S=9; the outside region contains 0.",
+        "A and B are complementary because they are disjoint and exhaust S.",
+        "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint and exhaustive",
+      "check": "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 3,
+          "b_only": 6,
+          "both": 0,
+          "neither": 0,
+          "total": 9,
+          "a": 3,
+          "b": 6,
+          "union": 9,
+          "answer": "Yes; disjoint and exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l04-w08",
+      "problem": "Events A and B have A-only=4, B-only=7, intersection=0, outside both=4, in S of size 15. Are A and B mutually exclusive but not complementary?",
+      "actions": [
+        "Place 4 in A-only and 7 in B-only; draw the full universe S=15.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 11 outcomes. Compare it with S=15; the outside region contains 4.",
+        "They are not complementary: the outside region is nonempty.",
+        "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint but not exhaustive",
+      "check": "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 4,
+          "b_only": 7,
+          "both": 0,
+          "neither": 4,
+          "total": 15,
+          "a": 4,
+          "b": 7,
+          "union": 11,
+          "answer": "Yes; disjoint but not exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l04-w09",
+      "problem": "Events A and B have A-only=5, B-only=7, intersection=0, outside both=0, in S of size 12. Are A and B complementary?",
+      "actions": [
+        "Place 5 in A-only and 7 in B-only; draw the full universe S=12.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 12 outcomes. Compare it with S=12; the outside region contains 0.",
+        "A and B are complementary because they are disjoint and exhaust S.",
+        "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint and exhaustive",
+      "check": "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 5,
+          "b_only": 7,
+          "both": 0,
+          "neither": 0,
+          "total": 12,
+          "a": 5,
+          "b": 7,
+          "union": 12,
+          "answer": "Yes; disjoint and exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-prob-l04-w10",
+      "problem": "Events A and B have A-only=6, B-only=8, intersection=0, outside both=4, in S of size 18. Are A and B mutually exclusive but not complementary?",
+      "actions": [
+        "Place 6 in A-only and 8 in B-only; draw the full universe S=18.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 14 outcomes. Compare it with S=18; the outside region contains 4.",
+        "They are not complementary: the outside region is nonempty.",
+        "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint but not exhaustive",
+      "check": "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 6,
+          "b_only": 8,
+          "both": 0,
+          "neither": 4,
+          "total": 18,
+          "a": 6,
+          "b": 8,
+          "union": 14,
+          "answer": "Yes; disjoint but not exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-prob-l04-w11",
+      "problem": "Events A and B have A-only=7, B-only=8, intersection=0, outside both=0, in S of size 15. Are A and B complementary?",
+      "actions": [
+        "Place 7 in A-only and 8 in B-only; draw the full universe S=15.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 15 outcomes. Compare it with S=15; the outside region contains 0.",
+        "A and B are complementary because they are disjoint and exhaust S.",
+        "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint and exhaustive",
+      "check": "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 7,
+          "b_only": 8,
+          "both": 0,
+          "neither": 0,
+          "total": 15,
+          "a": 7,
+          "b": 8,
+          "union": 15,
+          "answer": "Yes; disjoint and exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-prob-l04-w12",
+      "problem": "Events A and B have A-only=2, B-only=3, intersection=0, outside both=5, in S of size 10. Are A and B mutually exclusive but not complementary?",
+      "actions": [
+        "Place 2 in A-only and 3 in B-only; draw the full universe S=10.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 5 outcomes. Compare it with S=10; the outside region contains 5.",
+        "They are not complementary: the outside region is nonempty.",
+        "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint but not exhaustive",
+      "check": "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 2,
+          "b_only": 3,
+          "both": 0,
+          "neither": 5,
+          "total": 10,
+          "a": 2,
+          "b": 3,
+          "union": 5,
+          "answer": "Yes; disjoint but not exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-prob-l04-w13",
+      "problem": "Events A and B have A-only=3, B-only=3, intersection=0, outside both=0, in S of size 6. Are A and B complementary?",
+      "actions": [
+        "Place 3 in A-only and 3 in B-only; draw the full universe S=6.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 6 outcomes. Compare it with S=6; the outside region contains 0.",
+        "A and B are complementary because they are disjoint and exhaust S.",
+        "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint and exhaustive",
+      "check": "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 3,
+          "b_only": 3,
+          "both": 0,
+          "neither": 0,
+          "total": 6,
+          "a": 3,
+          "b": 3,
+          "union": 6,
+          "answer": "Yes; disjoint and exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-prob-l04-w14",
+      "problem": "Events A and B have A-only=4, B-only=4, intersection=0, outside both=5, in S of size 13. Are A and B mutually exclusive but not complementary?",
+      "actions": [
+        "Place 4 in A-only and 4 in B-only; draw the full universe S=13.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 8 outcomes. Compare it with S=13; the outside region contains 5.",
+        "They are not complementary: the outside region is nonempty.",
+        "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint but not exhaustive",
+      "check": "Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 4,
+          "b_only": 4,
+          "both": 0,
+          "neither": 5,
+          "total": 13,
+          "a": 4,
+          "b": 4,
+          "union": 8,
+          "answer": "Yes; disjoint but not exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-prob-l04-w15",
+      "problem": "Events A and B have A-only=5, B-only=4, intersection=0, outside both=0, in S of size 9. Are A and B complementary?",
+      "actions": [
+        "Place 5 in A-only and 4 in B-only; draw the full universe S=9.",
+        "The intersection has 0 outcomes, so A and B are mutually exclusive.",
+        "The union has 9 outcomes. Compare it with S=9; the outside region contains 0.",
+        "A and B are complementary because they are disjoint and exhaust S.",
+        "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space."
+      ],
+      "answer": "Yes; disjoint and exhaustive",
+      "check": "Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "visual": {
+        "family": "grade10_probability",
+        "values": {
+          "lesson": 4,
+          "model": "venn",
+          "a_only": 5,
+          "b_only": 4,
+          "both": 0,
+          "neither": 0,
+          "total": 9,
+          "a": 5,
+          "b": 4,
+          "union": 9,
+          "answer": "Yes; disjoint and exhaustive"
+        }
+      },
+      "lesson": 4,
+      "misconception": "The overlap is counted once in a union; complement requires both disjointness and exhaustive coverage.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-prob-l04-p01",
+      "prompt": "Events A and B have A-only=4, B-only=7, intersection=0, outside both=2, in S of size 13. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "No; every event has probability zero",
+        "Yes; disjoint but not exhaustive",
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero"
+      ],
+      "answer_index": 1,
+      "memo": "Place 4 in A-only and 7 in B-only; draw the full universe S=13. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 11 outcomes. Compare it with S=13; the outside region contains 2. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p02",
+      "prompt": "Events A and B have A-only=5, B-only=7, intersection=0, outside both=0, in S of size 12. Are A and B complementary?",
+      "options": [
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint and exhaustive",
+        "Yes; disjoint but not exhaustive"
+      ],
+      "answer_index": 2,
+      "memo": "Place 5 in A-only and 7 in B-only; draw the full universe S=12. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 12 outcomes. Compare it with S=12; the outside region contains 0. A and B are complementary because they are disjoint and exhaust S. Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p03",
+      "prompt": "Events A and B have A-only=6, B-only=8, intersection=0, outside both=2, in S of size 16. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint but not exhaustive"
+      ],
+      "answer_index": 3,
+      "memo": "Place 6 in A-only and 8 in B-only; draw the full universe S=16. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 14 outcomes. Compare it with S=16; the outside region contains 2. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p04",
+      "prompt": "Events A and B have A-only=7, B-only=8, intersection=0, outside both=0, in S of size 15. Are A and B complementary?",
+      "options": [
+        "Yes; disjoint and exhaustive",
+        "Yes; disjoint but not exhaustive",
+        "No; the overlap is nonzero",
+        "No; every event has probability zero"
+      ],
+      "answer_index": 0,
+      "memo": "Place 7 in A-only and 8 in B-only; draw the full universe S=15. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 15 outcomes. Compare it with S=15; the outside region contains 0. A and B are complementary because they are disjoint and exhaust S. Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p05",
+      "prompt": "Events A and B have A-only=2, B-only=3, intersection=0, outside both=3, in S of size 8. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "No; every event has probability zero",
+        "Yes; disjoint but not exhaustive",
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero"
+      ],
+      "answer_index": 1,
+      "memo": "Place 2 in A-only and 3 in B-only; draw the full universe S=8. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 5 outcomes. Compare it with S=8; the outside region contains 3. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p06",
+      "prompt": "Events A and B have A-only=3, B-only=3, intersection=0, outside both=0, in S of size 6. Are A and B complementary?",
+      "options": [
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint and exhaustive",
+        "Yes; disjoint but not exhaustive"
+      ],
+      "answer_index": 2,
+      "memo": "Place 3 in A-only and 3 in B-only; draw the full universe S=6. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 6 outcomes. Compare it with S=6; the outside region contains 0. A and B are complementary because they are disjoint and exhaust S. Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p07",
+      "prompt": "Events A and B have A-only=4, B-only=4, intersection=0, outside both=3, in S of size 11. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint but not exhaustive"
+      ],
+      "answer_index": 3,
+      "memo": "Place 4 in A-only and 4 in B-only; draw the full universe S=11. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 8 outcomes. Compare it with S=11; the outside region contains 3. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p08",
+      "prompt": "Events A and B have A-only=5, B-only=4, intersection=0, outside both=0, in S of size 9. Are A and B complementary?",
+      "options": [
+        "Yes; disjoint and exhaustive",
+        "Yes; disjoint but not exhaustive",
+        "No; the overlap is nonzero",
+        "No; every event has probability zero"
+      ],
+      "answer_index": 0,
+      "memo": "Place 5 in A-only and 4 in B-only; draw the full universe S=9. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 9 outcomes. Compare it with S=9; the outside region contains 0. A and B are complementary because they are disjoint and exhaust S. Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p09",
+      "prompt": "Events A and B have A-only=6, B-only=5, intersection=0, outside both=4, in S of size 15. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "No; every event has probability zero",
+        "Yes; disjoint but not exhaustive",
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero"
+      ],
+      "answer_index": 1,
+      "memo": "Place 6 in A-only and 5 in B-only; draw the full universe S=15. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 11 outcomes. Compare it with S=15; the outside region contains 4. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p10",
+      "prompt": "Events A and B have A-only=7, B-only=5, intersection=0, outside both=0, in S of size 12. Are A and B complementary?",
+      "options": [
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint and exhaustive",
+        "Yes; disjoint but not exhaustive"
+      ],
+      "answer_index": 2,
+      "memo": "Place 7 in A-only and 5 in B-only; draw the full universe S=12. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 12 outcomes. Compare it with S=12; the outside region contains 0. A and B are complementary because they are disjoint and exhaust S. Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p11",
+      "prompt": "Events A and B have A-only=2, B-only=6, intersection=0, outside both=4, in S of size 12. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint but not exhaustive"
+      ],
+      "answer_index": 3,
+      "memo": "Place 2 in A-only and 6 in B-only; draw the full universe S=12. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 8 outcomes. Compare it with S=12; the outside region contains 4. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p12",
+      "prompt": "Events A and B have A-only=3, B-only=6, intersection=0, outside both=0, in S of size 9. Are A and B complementary?",
+      "options": [
+        "Yes; disjoint and exhaustive",
+        "Yes; disjoint but not exhaustive",
+        "No; the overlap is nonzero",
+        "No; every event has probability zero"
+      ],
+      "answer_index": 0,
+      "memo": "Place 3 in A-only and 6 in B-only; draw the full universe S=9. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 9 outcomes. Compare it with S=9; the outside region contains 0. A and B are complementary because they are disjoint and exhaust S. Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p13",
+      "prompt": "Events A and B have A-only=4, B-only=7, intersection=0, outside both=5, in S of size 16. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "No; every event has probability zero",
+        "Yes; disjoint but not exhaustive",
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero"
+      ],
+      "answer_index": 1,
+      "memo": "Place 4 in A-only and 7 in B-only; draw the full universe S=16. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 11 outcomes. Compare it with S=16; the outside region contains 5. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p14",
+      "prompt": "Events A and B have A-only=5, B-only=7, intersection=0, outside both=0, in S of size 12. Are A and B complementary?",
+      "options": [
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint and exhaustive",
+        "Yes; disjoint but not exhaustive"
+      ],
+      "answer_index": 2,
+      "memo": "Place 5 in A-only and 7 in B-only; draw the full universe S=12. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 12 outcomes. Compare it with S=12; the outside region contains 0. A and B are complementary because they are disjoint and exhaust S. Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-p15",
+      "prompt": "Events A and B have A-only=6, B-only=8, intersection=0, outside both=5, in S of size 19. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint but not exhaustive"
+      ],
+      "answer_index": 3,
+      "memo": "Place 6 in A-only and 8 in B-only; draw the full universe S=19. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 14 outcomes. Compare it with S=19; the outside region contains 5. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-prob-l04-m16",
+      "prompt": "Events A and B have A-only=2, B-only=6, intersection=0, outside both=5, in S of size 13. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "Yes; disjoint but not exhaustive",
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero",
+        "No; every event has probability zero"
+      ],
+      "answer_index": 0,
+      "memo": "Place 2 in A-only and 6 in B-only; draw the full universe S=13. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 8 outcomes. Compare it with S=13; the outside region contains 5. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-m17",
+      "prompt": "Events A and B have A-only=3, B-only=6, intersection=0, outside both=0, in S of size 9. Are A and B complementary?",
+      "options": [
+        "No; every event has probability zero",
+        "Yes; disjoint and exhaustive",
+        "Yes; disjoint but not exhaustive",
+        "No; the overlap is nonzero"
+      ],
+      "answer_index": 1,
+      "memo": "Place 3 in A-only and 6 in B-only; draw the full universe S=9. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 9 outcomes. Compare it with S=9; the outside region contains 0. A and B are complementary because they are disjoint and exhaust S. Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-m18",
+      "prompt": "Events A and B have A-only=4, B-only=7, intersection=0, outside both=6, in S of size 17. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint but not exhaustive",
+        "Yes; disjoint and exhaustive"
+      ],
+      "answer_index": 2,
+      "memo": "Place 4 in A-only and 7 in B-only; draw the full universe S=17. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 11 outcomes. Compare it with S=17; the outside region contains 6. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-m19",
+      "prompt": "Events A and B have A-only=5, B-only=7, intersection=0, outside both=0, in S of size 12. Are A and B complementary?",
+      "options": [
+        "Yes; disjoint but not exhaustive",
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint and exhaustive"
+      ],
+      "answer_index": 3,
+      "memo": "Place 5 in A-only and 7 in B-only; draw the full universe S=12. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 12 outcomes. Compare it with S=12; the outside region contains 0. A and B are complementary because they are disjoint and exhaust S. Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-m20",
+      "prompt": "Events A and B have A-only=6, B-only=8, intersection=0, outside both=6, in S of size 20. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "Yes; disjoint but not exhaustive",
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero",
+        "No; every event has probability zero"
+      ],
+      "answer_index": 0,
+      "memo": "Place 6 in A-only and 8 in B-only; draw the full universe S=20. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 14 outcomes. Compare it with S=20; the outside region contains 6. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-prob-l04-r21",
+      "prompt": "Events A and B have A-only=2, B-only=6, intersection=0, outside both=6, in S of size 14. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "No; every event has probability zero",
+        "Yes; disjoint but not exhaustive",
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero"
+      ],
+      "answer_index": 1,
+      "memo": "Place 2 in A-only and 6 in B-only; draw the full universe S=14. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 8 outcomes. Compare it with S=14; the outside region contains 6. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-r22",
+      "prompt": "Events A and B have A-only=3, B-only=6, intersection=0, outside both=0, in S of size 9. Are A and B complementary?",
+      "options": [
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint and exhaustive",
+        "Yes; disjoint but not exhaustive"
+      ],
+      "answer_index": 2,
+      "memo": "Place 3 in A-only and 6 in B-only; draw the full universe S=9. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 9 outcomes. Compare it with S=9; the outside region contains 0. A and B are complementary because they are disjoint and exhaust S. Answer: Yes; disjoint and exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    },
+    {
+      "id": "g10-prob-l04-r23",
+      "prompt": "Events A and B have A-only=4, B-only=7, intersection=0, outside both=2, in S of size 13. Are A and B mutually exclusive but not complementary?",
+      "options": [
+        "Yes; disjoint and exhaustive",
+        "No; the overlap is nonzero",
+        "No; every event has probability zero",
+        "Yes; disjoint but not exhaustive"
+      ],
+      "answer_index": 3,
+      "memo": "Place 4 in A-only and 7 in B-only; draw the full universe S=13. The intersection has 0 outcomes, so A and B are mutually exclusive. The union has 11 outcomes. Compare it with S=13; the outside region contains 2. They are not complementary: the outside region is nonempty. Answer: Yes; disjoint but not exhaustive. Check both disjointness and the entire sample space.",
+      "source": "grade10-prob-lesson-04.md"
+    }
+  ]
+}
