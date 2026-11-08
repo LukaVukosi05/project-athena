@@ -2,7 +2,7 @@
 
 from app.curriculum.grade12.lessons.practice_catalog import PRACTICE_BANKS as GRADE12_BANKS
 from app.curriculum.grade9.assessment_whole_numbers import PRACTICE_1 as GRADE9_WHOLE_1, PRACTICE_2 as GRADE9_WHOLE_2
-from app.curriculum.grade9.assessment_whole_numbers import EXTENDED_BANKS as GRADE9_EXTENDED_BANKS, INTEGER_BANKS as GRADE9_INTEGER_BANKS, EXPONENT_BANKS as GRADE9_EXPONENT_BANKS, PATTERN_BANKS as GRADE9_PATTERN_BANKS, FUNCTION_BANKS as GRADE9_FUNCTION_BANKS, EXPRESSION_BANKS as GRADE9_EXPRESSION_BANKS, EQUATION_BANKS as GRADE9_EQUATION_BANKS, GRAPH_BANKS as GRADE9_GRAPH_BANKS, LINE_BANKS as GRADE9_LINE_BANKS, SHAPE_BANKS as GRADE9_SHAPE_BANKS, AREA_BANKS as GRADE9_AREA_BANKS, DATA_BANKS as GRADE9_DATA_BANKS, PROB_BANKS as GRADE9_PROB_BANKS, SOLID_BANKS as GRADE9_SOLID_BANKS, SURFACE_BANKS as GRADE9_SURFACE_BANKS
+from app.curriculum.grade9.assessment_whole_numbers import EXTENDED_BANKS as GRADE9_EXTENDED_BANKS, INTEGER_BANKS as GRADE9_INTEGER_BANKS, EXPONENT_BANKS as GRADE9_EXPONENT_BANKS, PATTERN_BANKS as GRADE9_PATTERN_BANKS, FUNCTION_BANKS as GRADE9_FUNCTION_BANKS, EXPRESSION_BANKS as GRADE9_EXPRESSION_BANKS, EQUATION_BANKS as GRADE9_EQUATION_BANKS, GRAPH_BANKS as GRADE9_GRAPH_BANKS, LINE_BANKS as GRADE9_LINE_BANKS, SHAPE_BANKS as GRADE9_SHAPE_BANKS, AREA_BANKS as GRADE9_AREA_BANKS, DATA_BANKS as GRADE9_DATA_BANKS, PROB_BANKS as GRADE9_PROB_BANKS, SOLID_BANKS as GRADE9_SOLID_BANKS, SURFACE_BANKS as GRADE9_SURFACE_BANKS, TRANSFORM_BANKS as GRADE9_TRANSFORM_BANKS
 from app.curriculum.grade8.assessment_straight_lines import PRACTICE_1 as LINES_1, PRACTICE_2 as LINES_2
 from app.curriculum.grade8.assessment_straight_lines_chain import PRACTICE_3 as LINES_3, PRACTICE_4 as LINES_4, PRACTICE_5 as LINES_5
 from app.curriculum.grade8 import assessment_shapes, assessment_pythagoras
@@ -74,6 +74,7 @@ PRACTICE_BANKS = {
     **{f"g9-data-{number:02}":GRADE9_DATA_BANKS[number][0] for number in range(1,9)},
     **{f"g9-prob-{number:02}":GRADE9_PROB_BANKS[number][0] for number in range(1,6)},
     **{f"g9-solid-{number:02}":GRADE9_SOLID_BANKS[number][0] for number in range(1,5)},
+    **{f"g9-tg-{number:02}":GRADE9_TRANSFORM_BANKS[number][0] for number in range(1,8)},
     **{f"g9-sv-{number:02}":GRADE9_SURFACE_BANKS[number][0] for number in range(1,7)},
     **{f"g8-pythagoras-{n:02}": assessment_pythagoras.PRACTICE[n] for n in range(1,6)},
     **{f"g8-shapes-{n:02}": assessment_shapes.PRACTICE[n] for n in range(1,6)},

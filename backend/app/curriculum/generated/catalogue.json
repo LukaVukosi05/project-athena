@@ -1783,6 +1783,72 @@
               "source_document": "lesson-06.md"
             }
           ]
+        },
+        {
+          "topic_id": "transformation-geometry",
+          "topic_number": 16,
+          "title": "Transformation Geometry",
+          "paper": null,
+          "expected_lesson_count": 7,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g9-tg-01",
+              "position": 1,
+              "title": "Coordinates and translations across quadrants",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "lesson-01.md"
+            },
+            {
+              "lesson_id": "g9-tg-02",
+              "position": 2,
+              "title": "Reflections in the coordinate axes",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-02.md"
+            },
+            {
+              "lesson_id": "g9-tg-03",
+              "position": 3,
+              "title": "Reflection in the line y = x",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-03.md"
+            },
+            {
+              "lesson_id": "g9-tg-04",
+              "position": 4,
+              "title": "Quarter-turn rotations around a given centre",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-04.md"
+            },
+            {
+              "lesson_id": "g9-tg-05",
+              "position": 5,
+              "title": "Infer a transformation from image coordinates",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-05.md"
+            },
+            {
+              "lesson_id": "g9-tg-06",
+              "position": 6,
+              "title": "Enlargement, reduction, perimeter and area",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-06.md"
+            },
+            {
+              "lesson_id": "g9-tg-07",
+              "position": 7,
+              "title": "Combined transformations and first-error reassessment",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "lesson-07.md"
+            }
+          ]
         }
       ]
     },

@@ -24,7 +24,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5]|g9-solid-l0[1-4]|g9-sv-l0[1-6])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5]|g9-solid-l0[1-4]|g9-sv-l0[1-6]|g9-tg-l0[1-7])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -628,6 +628,43 @@ def _grade8_whole_number_board(parameters: dict) -> None:
     else:
         raise ValueError("Unsupported whole-number visual model")
 
+
+def _grade9_transform_board(parameters: dict, number: int) -> None:
+    """Reject inconsistent original/image pairs and mismatched source questions."""
+    import json
+    scene=json.loads(parameters['scene_json']); visual=scene.get('visual',{});v=visual.get('values',{})
+    if (scene.get('id')!=parameters['question_id'] or scene.get('problem')!=parameters['prompt']
+        or scene.get('lesson')!=number or visual.get('family')!='transformation'
+        or v.get('lesson')!=number or v.get('model')!='coordinate_transform'
+        or len(scene.get('actions',[]))!=5 or parameters['total_steps']!=5
+        or scene['actions'][-1]!=scene.get('check')):
+        raise ValueError('Transformation source, question and stages disagree')
+    original=v.get('original');image=v.get('image');centre=v.get('centre')
+    def pair(point):
+        return isinstance(point,(list,tuple)) and len(point)==2 and all(type(x) in (int,float) and -100<=x<=100 for x in point)
+    if (not isinstance(original,list) or len(original)!=3 or not all(map(pair,original))
+        or not pair(centre) or not isinstance(image,list) or len(image)!=3 or not all(map(pair,image))
+        or len({tuple(p) for p in original})!=3):
+        raise ValueError('Transformation vertices or centre are invalid')
+    kind=v.get('kind');dx=v.get('dx');dy=v.get('dy');k=v.get('factor');cx,cy=centre
+    if kind not in ('translate','reflect_x','reflect_y','reflect_diag','rotate_ccw','rotate_cw','enlarge') or type(dx) is not int or type(dy) is not int or type(k) not in (int,float) or k not in (0.5,1,2):
+        raise ValueError('Unsupported transformation rule')
+    result=[]
+    for x,y in original:
+        if kind=='translate':result.append([x+dx,y+dy])
+        elif kind=='reflect_x':result.append([x,-y])
+        elif kind=='reflect_y':result.append([-x,y])
+        elif kind=='reflect_diag':result.append([y,x])
+        elif kind=='rotate_ccw':result.append([cx-(y-cy),cy+(x-cx)])
+        elif kind=='rotate_cw':result.append([cx+(y-cy),cy-(x-cx)])
+        else:result.append([cx+k*(x-cx),cy+k*(y-cy)])
+    if result!=image or (number==6 and (kind!='enlarge' or v.get('original_area')!=(original[1][0]-original[0][0])*(original[2][1]-original[0][1])/2)):
+        raise ValueError('Transformation image contradicts original coordinates')
+    def fmt(points):return ', '.join(f'{label}({x:g}, {y:g})' for label,(x,y) in zip('ABC',points))
+    shown=fmt(image).replace('A(','A′(').replace('B(','B′(').replace('C(','C′(')
+    expected=(f'{shown}; perimeter factor {k:g}; area factor {k*k:g}' if number==6 else f"{v['rule']}; {shown}" if number in (5,7) else shown)
+    if scene.get('answer')!=expected or shown not in scene['check'] or any(shown in a for a in scene['actions'][:4]):
+        raise ValueError('Transformation answer or verification disagrees with image')
 
 def _grade9_surface_board(parameters: dict, number: int) -> None:
     """Recompute measurements from pictured givens before a visual is accepted."""
@@ -1487,6 +1524,10 @@ CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_whole_board(p,f'data_{n}'),True)
        for n in range(1,9)},
+    **{("geometry",f"grade9_transform_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade9_transform_board(p,n),True)
+       for n in range(1,8)},
     **{("geometry",f"grade9_surface_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade9_surface_board(p,n),True)

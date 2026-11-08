@@ -1,0 +1,3 @@
+# Grade 9 Topic 16: Transformation Geometry
+
+[DBE 2026 Grade 9 Mathematics ATP, Term 4](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2026%20ATPs/2026_ATP_Mathematics_Grade%209.pdf) includes translation across quadrants, reflection in coordinate axes and y=x, rotation around a given centre, identifying an image transformation, and enlargement/reduction with perimeter and area effects. Seven authored lessons contain 105 worked examples, 105 four-choice practice, 35 mastery and 21 reassessments. Teacher mathematical review and desktop/mobile browser acceptance remain required.
