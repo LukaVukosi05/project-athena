@@ -180,6 +180,13 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     if givens.get("form")=="purchase":
                         givens.pop("a",None)
                     scene["visual"]={"family":"grade10_equations","values":givens}
+                elif lesson.id.startswith("g10-ag-"):
+                    givens=dict(scene["visual"]["values"])
+                    for hidden in ("answer","solution_point"):
+                        givens.pop(hidden,None)
+                    if givens.get("model") in {"two_segments","quadrilateral"}:
+                        givens.pop("mode",None)
+                    scene["visual"]={"family":"grade10_analytical","values":givens}
                 elif lesson.id.startswith("g10-euc-"):
                     givens=dict(scene["visual"]["values"])
                     givens.pop("answer",None)

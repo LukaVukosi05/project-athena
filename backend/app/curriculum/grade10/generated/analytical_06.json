@@ -1,0 +1,875 @@
+{
+  "source": "grade10-ag-lesson-06.md",
+  "worked": [
+    {
+      "id": "g10-ag-l06-w01",
+      "problem": "A learner adds the run and rise for A(-4; -1), B(2; -9) and reports AB=14. Identify the first error and find AB.",
+      "actions": [
+        "Plot A(-4; -1) and B(2; -9).",
+        "Build the right triangle with run 6 and rise -8.",
+        "The first error is adding the legs to get a diagonal. Use Pythagoras.",
+        "AB=√(6²+(-8)²)=10 units.",
+        "Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check."
+      ],
+      "answer": "Use Pythagoras, not a sum; AB = 10 units",
+      "check": "Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              -4,
+              -1
+            ],
+            [
+              2,
+              -9
+            ]
+          ],
+          "mode": "distance_check",
+          "dx": 6,
+          "dy": -8,
+          "answer": "Use Pythagoras, not a sum; AB = 10 units"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-ag-l06-w02",
+      "problem": "A learner calls B(7; 8) the midpoint of A(-1; 4) and B(7; 8). Find the first error and correct midpoint.",
+      "actions": [
+        "Plot A(-1; 4) and B(7; 8).",
+        "The learner selected an endpoint, not the half-way position.",
+        "Average x: (-1+7)/2=3.",
+        "Average y: (4+8)/2=6.",
+        "Answer: The endpoint is not the midpoint; M(3; 6). AM and MB have equal directed changes."
+      ],
+      "answer": "The endpoint is not the midpoint; M(3; 6)",
+      "check": "Answer: The endpoint is not the midpoint; M(3; 6). AM and MB have equal directed changes.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              -1,
+              4
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          "mode": "midpoint_check",
+          "solution_point": [
+            3,
+            6
+          ],
+          "answer": "The endpoint is not the midpoint; M(3; 6)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-ag-l06-w03",
+      "problem": "A learner uses run/rise for A(2; -2), B(8; -5). Identify the first error and give the gradient.",
+      "actions": [
+        "Plot the two points A(2; -2) and B(8; -5).",
+        "Mark the run Δx=6 and signed rise Δy=-3.",
+        "The first error is reversing the fraction: the denominator is the run.",
+        "m=(-3)/6=-1/2.",
+        "Answer: Use rise/run; m = -1/2. Reversing both coordinate differences preserves it."
+      ],
+      "answer": "Use rise/run; m = -1/2",
+      "check": "Answer: Use rise/run; m = -1/2. Reversing both coordinate differences preserves it.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              2,
+              -2
+            ],
+            [
+              8,
+              -5
+            ]
+          ],
+          "mode": "gradient_check",
+          "dx": 6,
+          "dy": -3,
+          "answer": "Use rise/run; m = -1/2"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-ag-l06-w04",
+      "problem": "A learner adds the run and rise for A(5; 3), B(11; 11) and reports AB=14. Identify the first error and find AB.",
+      "actions": [
+        "Plot A(5; 3) and B(11; 11).",
+        "Build the right triangle with run 6 and rise 8.",
+        "The first error is adding the legs to get a diagonal. Use Pythagoras.",
+        "AB=√(6²+(8)²)=10 units.",
+        "Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check."
+      ],
+      "answer": "Use Pythagoras, not a sum; AB = 10 units",
+      "check": "Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              5,
+              3
+            ],
+            [
+              11,
+              11
+            ]
+          ],
+          "mode": "distance_check",
+          "dx": 6,
+          "dy": 8,
+          "answer": "Use Pythagoras, not a sum; AB = 10 units"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-ag-l06-w05",
+      "problem": "A learner calls B(-1; -9) the midpoint of A(-5; -3) and B(-1; -9). Find the first error and correct midpoint.",
+      "actions": [
+        "Plot A(-5; -3) and B(-1; -9).",
+        "The learner selected an endpoint, not the half-way position.",
+        "Average x: (-5+-1)/2=-3.",
+        "Average y: (-3+-9)/2=-6.",
+        "Answer: The endpoint is not the midpoint; M(-3; -6). AM and MB have equal directed changes."
+      ],
+      "answer": "The endpoint is not the midpoint; M(-3; -6)",
+      "check": "Answer: The endpoint is not the midpoint; M(-3; -6). AM and MB have equal directed changes.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              -5,
+              -3
+            ],
+            [
+              -1,
+              -9
+            ]
+          ],
+          "mode": "midpoint_check",
+          "solution_point": [
+            -3,
+            -6
+          ],
+          "answer": "The endpoint is not the midpoint; M(-3; -6)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-ag-l06-w06",
+      "problem": "A learner uses run/rise for A(-2; 2), B(2; 7). Identify the first error and give the gradient.",
+      "actions": [
+        "Plot the two points A(-2; 2) and B(2; 7).",
+        "Mark the run Δx=4 and signed rise Δy=5.",
+        "The first error is reversing the fraction: the denominator is the run.",
+        "m=(5)/4=5/4.",
+        "Answer: Use rise/run; m = 5/4. Reversing both coordinate differences preserves it."
+      ],
+      "answer": "Use rise/run; m = 5/4",
+      "check": "Answer: Use rise/run; m = 5/4. Reversing both coordinate differences preserves it.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              -2,
+              2
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "mode": "gradient_check",
+          "dx": 4,
+          "dy": 5,
+          "answer": "Use rise/run; m = 5/4"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-ag-l06-w07",
+      "problem": "A learner adds the run and rise for A(1; -4), B(7; -12) and reports AB=14. Identify the first error and find AB.",
+      "actions": [
+        "Plot A(1; -4) and B(7; -12).",
+        "Build the right triangle with run 6 and rise -8.",
+        "The first error is adding the legs to get a diagonal. Use Pythagoras.",
+        "AB=√(6²+(-8)²)=10 units.",
+        "Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check."
+      ],
+      "answer": "Use Pythagoras, not a sum; AB = 10 units",
+      "check": "Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              1,
+              -4
+            ],
+            [
+              7,
+              -12
+            ]
+          ],
+          "mode": "distance_check",
+          "dx": 6,
+          "dy": -8,
+          "answer": "Use Pythagoras, not a sum; AB = 10 units"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-ag-l06-w08",
+      "problem": "A learner calls B(14; 5) the midpoint of A(4; 1) and B(14; 5). Find the first error and correct midpoint.",
+      "actions": [
+        "Plot A(4; 1) and B(14; 5).",
+        "The learner selected an endpoint, not the half-way position.",
+        "Average x: (4+14)/2=9.",
+        "Average y: (1+5)/2=3.",
+        "Answer: The endpoint is not the midpoint; M(9; 3). AM and MB have equal directed changes."
+      ],
+      "answer": "The endpoint is not the midpoint; M(9; 3)",
+      "check": "Answer: The endpoint is not the midpoint; M(9; 3). AM and MB have equal directed changes.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              4,
+              1
+            ],
+            [
+              14,
+              5
+            ]
+          ],
+          "mode": "midpoint_check",
+          "solution_point": [
+            9,
+            3
+          ],
+          "answer": "The endpoint is not the midpoint; M(9; 3)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-ag-l06-w09",
+      "problem": "A learner uses run/rise for A(-6; -5), B(1; -11). Identify the first error and give the gradient.",
+      "actions": [
+        "Plot the two points A(-6; -5) and B(1; -11).",
+        "Mark the run Δx=7 and signed rise Δy=-6.",
+        "The first error is reversing the fraction: the denominator is the run.",
+        "m=(-6)/7=-6/7.",
+        "Answer: Use rise/run; m = -6/7. Reversing both coordinate differences preserves it."
+      ],
+      "answer": "Use rise/run; m = -6/7",
+      "check": "Answer: Use rise/run; m = -6/7. Reversing both coordinate differences preserves it.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              -6,
+              -5
+            ],
+            [
+              1,
+              -11
+            ]
+          ],
+          "mode": "gradient_check",
+          "dx": 7,
+          "dy": -6,
+          "answer": "Use rise/run; m = -6/7"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-ag-l06-w10",
+      "problem": "A learner adds the run and rise for A(-3; 0), B(3; 8) and reports AB=14. Identify the first error and find AB.",
+      "actions": [
+        "Plot A(-3; 0) and B(3; 8).",
+        "Build the right triangle with run 6 and rise 8.",
+        "The first error is adding the legs to get a diagonal. Use Pythagoras.",
+        "AB=√(6²+(8)²)=10 units.",
+        "Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check."
+      ],
+      "answer": "Use Pythagoras, not a sum; AB = 10 units",
+      "check": "Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              -3,
+              0
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "mode": "distance_check",
+          "dx": 6,
+          "dy": 8,
+          "answer": "Use Pythagoras, not a sum; AB = 10 units"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-ag-l06-w11",
+      "problem": "A learner calls B(6; -12) the midpoint of A(0; -6) and B(6; -12). Find the first error and correct midpoint.",
+      "actions": [
+        "Plot A(0; -6) and B(6; -12).",
+        "The learner selected an endpoint, not the half-way position.",
+        "Average x: (0+6)/2=3.",
+        "Average y: (-6+-12)/2=-9.",
+        "Answer: The endpoint is not the midpoint; M(3; -9). AM and MB have equal directed changes."
+      ],
+      "answer": "The endpoint is not the midpoint; M(3; -9)",
+      "check": "Answer: The endpoint is not the midpoint; M(3; -9). AM and MB have equal directed changes.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              0,
+              -6
+            ],
+            [
+              6,
+              -12
+            ]
+          ],
+          "mode": "midpoint_check",
+          "solution_point": [
+            3,
+            -9
+          ],
+          "answer": "The endpoint is not the midpoint; M(3; -9)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-ag-l06-w12",
+      "problem": "A learner uses run/rise for A(3; -1), B(8; 2). Identify the first error and give the gradient.",
+      "actions": [
+        "Plot the two points A(3; -1) and B(8; 2).",
+        "Mark the run Δx=5 and signed rise Δy=3.",
+        "The first error is reversing the fraction: the denominator is the run.",
+        "m=(3)/5=3/5.",
+        "Answer: Use rise/run; m = 3/5. Reversing both coordinate differences preserves it."
+      ],
+      "answer": "Use rise/run; m = 3/5",
+      "check": "Answer: Use rise/run; m = 3/5. Reversing both coordinate differences preserves it.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              3,
+              -1
+            ],
+            [
+              8,
+              2
+            ]
+          ],
+          "mode": "gradient_check",
+          "dx": 5,
+          "dy": 3,
+          "answer": "Use rise/run; m = 3/5"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-ag-l06-w13",
+      "problem": "A learner adds the run and rise for A(-7; 4), B(-1; -4) and reports AB=14. Identify the first error and find AB.",
+      "actions": [
+        "Plot A(-7; 4) and B(-1; -4).",
+        "Build the right triangle with run 6 and rise -8.",
+        "The first error is adding the legs to get a diagonal. Use Pythagoras.",
+        "AB=√(6²+(-8)²)=10 units.",
+        "Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check."
+      ],
+      "answer": "Use Pythagoras, not a sum; AB = 10 units",
+      "check": "Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              -7,
+              4
+            ],
+            [
+              -1,
+              -4
+            ]
+          ],
+          "mode": "distance_check",
+          "dx": 6,
+          "dy": -8,
+          "answer": "Use Pythagoras, not a sum; AB = 10 units"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-ag-l06-w14",
+      "problem": "A learner calls B(8; 2) the midpoint of A(-4; -2) and B(8; 2). Find the first error and correct midpoint.",
+      "actions": [
+        "Plot A(-4; -2) and B(8; 2).",
+        "The learner selected an endpoint, not the half-way position.",
+        "Average x: (-4+8)/2=2.",
+        "Average y: (-2+2)/2=0.",
+        "Answer: The endpoint is not the midpoint; M(2; 0). AM and MB have equal directed changes."
+      ],
+      "answer": "The endpoint is not the midpoint; M(2; 0)",
+      "check": "Answer: The endpoint is not the midpoint; M(2; 0). AM and MB have equal directed changes.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              -4,
+              -2
+            ],
+            [
+              8,
+              2
+            ]
+          ],
+          "mode": "midpoint_check",
+          "solution_point": [
+            2,
+            0
+          ],
+          "answer": "The endpoint is not the midpoint; M(2; 0)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-ag-l06-w15",
+      "problem": "A learner uses run/rise for A(-1; 3), B(2; -1). Identify the first error and give the gradient.",
+      "actions": [
+        "Plot the two points A(-1; 3) and B(2; -1).",
+        "Mark the run Δx=3 and signed rise Δy=-4.",
+        "The first error is reversing the fraction: the denominator is the run.",
+        "m=(-4)/3=-4/3.",
+        "Answer: Use rise/run; m = -4/3. Reversing both coordinate differences preserves it."
+      ],
+      "answer": "Use rise/run; m = -4/3",
+      "check": "Answer: Use rise/run; m = -4/3. Reversing both coordinate differences preserves it.",
+      "visual": {
+        "family": "grade10_analytical",
+        "values": {
+          "lesson": 6,
+          "model": "segment",
+          "points": [
+            [
+              -1,
+              3
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "mode": "gradient_check",
+          "dx": 3,
+          "dy": -4,
+          "answer": "Use rise/run; m = -4/3"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Keep the coordinates and axis scales visible; derive each conclusion from exact differences.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-ag-l06-p01",
+      "prompt": "A learner adds the run and rise for A(2; -3), B(8; 5) and reports AB=14. Identify the first error and find AB.",
+      "options": [
+        "AB = 11 units",
+        "Use Pythagoras, not a sum; AB = 10 units",
+        "AB = 14 units",
+        "AB = 100 units"
+      ],
+      "answer_index": 1,
+      "memo": "Plot A(2; -3) and B(8; 5). Build the right triangle with run 6 and rise 8. The first error is adding the legs to get a diagonal. Use Pythagoras. AB=√(6²+(8)²)=10 units. Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p02",
+      "prompt": "A learner calls B(13; -4) the midpoint of A(5; 2) and B(13; -4). Find the first error and correct midpoint.",
+      "options": [
+        "M(10; -1)",
+        "M(9; 0)",
+        "The endpoint is not the midpoint; M(9; -1)",
+        "M(13; -4)"
+      ],
+      "answer_index": 2,
+      "memo": "Plot A(5; 2) and B(13; -4). The learner selected an endpoint, not the half-way position. Average x: (5+13)/2=9. Average y: (2+-4)/2=-1. Answer: The endpoint is not the midpoint; M(9; -1). AM and MB have equal directed changes.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p03",
+      "prompt": "A learner uses run/rise for A(-5; -4), B(1; 2). Identify the first error and give the gradient.",
+      "options": [
+        "m = 1",
+        "m = -1",
+        "m = 2",
+        "Use rise/run; m = 1"
+      ],
+      "answer_index": 3,
+      "memo": "Plot the two points A(-5; -4) and B(1; 2). Mark the run Δx=6 and signed rise Δy=6. The first error is reversing the fraction: the denominator is the run. m=(6)/6=1. Answer: Use rise/run; m = 1. Reversing both coordinate differences preserves it.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p04",
+      "prompt": "A learner adds the run and rise for A(-2; 1), B(4; -7) and reports AB=14. Identify the first error and find AB.",
+      "options": [
+        "Use Pythagoras, not a sum; AB = 10 units",
+        "AB = 14 units",
+        "AB = 100 units",
+        "AB = 11 units"
+      ],
+      "answer_index": 0,
+      "memo": "Plot A(-2; 1) and B(4; -7). Build the right triangle with run 6 and rise -8. The first error is adding the legs to get a diagonal. Use Pythagoras. AB=√(6²+(-8)²)=10 units. Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p05",
+      "prompt": "A learner calls B(5; -1) the midpoint of A(1; -5) and B(5; -1). Find the first error and correct midpoint.",
+      "options": [
+        "M(3; -2)",
+        "The endpoint is not the midpoint; M(3; -3)",
+        "M(5; -1)",
+        "M(4; -3)"
+      ],
+      "answer_index": 1,
+      "memo": "Plot A(1; -5) and B(5; -1). The learner selected an endpoint, not the half-way position. Average x: (1+5)/2=3. Average y: (-5+-1)/2=-3. Answer: The endpoint is not the midpoint; M(3; -3). AM and MB have equal directed changes.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p06",
+      "prompt": "A learner uses run/rise for A(4; 0), B(8; -2). Identify the first error and give the gradient.",
+      "options": [
+        "m = 1/2",
+        "Not enough information",
+        "Use rise/run; m = -1/2",
+        "m = -2"
+      ],
+      "answer_index": 2,
+      "memo": "Plot the two points A(4; 0) and B(8; -2). Mark the run Δx=4 and signed rise Δy=-2. The first error is reversing the fraction: the denominator is the run. m=(-2)/4=-1/2. Answer: Use rise/run; m = -1/2. Reversing both coordinate differences preserves it.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p07",
+      "prompt": "A learner adds the run and rise for A(-6; -6), B(0; 2) and reports AB=14. Identify the first error and find AB.",
+      "options": [
+        "AB = 14 units",
+        "AB = 100 units",
+        "AB = 11 units",
+        "Use Pythagoras, not a sum; AB = 10 units"
+      ],
+      "answer_index": 3,
+      "memo": "Plot A(-6; -6) and B(0; 2). Build the right triangle with run 6 and rise 8. The first error is adding the legs to get a diagonal. Use Pythagoras. AB=√(6²+(8)²)=10 units. Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p08",
+      "prompt": "A learner calls B(7; -7) the midpoint of A(-3; -1) and B(7; -7). Find the first error and correct midpoint.",
+      "options": [
+        "The endpoint is not the midpoint; M(2; -4)",
+        "M(7; -7)",
+        "M(3; -4)",
+        "M(2; -3)"
+      ],
+      "answer_index": 0,
+      "memo": "Plot A(-3; -1) and B(7; -7). The learner selected an endpoint, not the half-way position. Average x: (-3+7)/2=2. Average y: (-1+-7)/2=-4. Answer: The endpoint is not the midpoint; M(2; -4). AM and MB have equal directed changes.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p09",
+      "prompt": "A learner uses run/rise for A(0; 4), B(7; 8). Identify the first error and give the gradient.",
+      "options": [
+        "m = 11/7",
+        "Use rise/run; m = 4/7",
+        "m = 7/4",
+        "m = -4/7"
+      ],
+      "answer_index": 1,
+      "memo": "Plot the two points A(0; 4) and B(7; 8). Mark the run Δx=7 and signed rise Δy=4. The first error is reversing the fraction: the denominator is the run. m=(4)/7=4/7. Answer: Use rise/run; m = 4/7. Reversing both coordinate differences preserves it.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p10",
+      "prompt": "A learner adds the run and rise for A(3; -2), B(9; -10) and reports AB=14. Identify the first error and find AB.",
+      "options": [
+        "AB = 100 units",
+        "AB = 11 units",
+        "Use Pythagoras, not a sum; AB = 10 units",
+        "AB = 14 units"
+      ],
+      "answer_index": 2,
+      "memo": "Plot A(3; -2) and B(9; -10). Build the right triangle with run 6 and rise -8. The first error is adding the legs to get a diagonal. Use Pythagoras. AB=√(6²+(-8)²)=10 units. Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p11",
+      "prompt": "A learner calls B(-1; 7) the midpoint of A(-7; 3) and B(-1; 7). Find the first error and correct midpoint.",
+      "options": [
+        "M(-1; 7)",
+        "M(-3; 5)",
+        "M(-4; 6)",
+        "The endpoint is not the midpoint; M(-4; 5)"
+      ],
+      "answer_index": 3,
+      "memo": "Plot A(-7; 3) and B(-1; 7). The learner selected an endpoint, not the half-way position. Average x: (-7+-1)/2=-4. Average y: (3+7)/2=5. Answer: The endpoint is not the midpoint; M(-4; 5). AM and MB have equal directed changes.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p12",
+      "prompt": "A learner uses run/rise for A(-4; -3), B(1; -8). Identify the first error and give the gradient.",
+      "options": [
+        "Use rise/run; m = -1",
+        "m = -1",
+        "m = 1",
+        "m = 0"
+      ],
+      "answer_index": 0,
+      "memo": "Plot the two points A(-4; -3) and B(1; -8). Mark the run Δx=5 and signed rise Δy=-5. The first error is reversing the fraction: the denominator is the run. m=(-5)/5=-1. Answer: Use rise/run; m = -1. Reversing both coordinate differences preserves it.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p13",
+      "prompt": "A learner adds the run and rise for A(-1; 2), B(5; 10) and reports AB=14. Identify the first error and find AB.",
+      "options": [
+        "AB = 11 units",
+        "Use Pythagoras, not a sum; AB = 10 units",
+        "AB = 14 units",
+        "AB = 100 units"
+      ],
+      "answer_index": 1,
+      "memo": "Plot A(-1; 2) and B(5; 10). Build the right triangle with run 6 and rise 8. The first error is adding the legs to get a diagonal. Use Pythagoras. AB=√(6²+(8)²)=10 units. Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p14",
+      "prompt": "A learner calls B(14; -10) the midpoint of A(2; -4) and B(14; -10). Find the first error and correct midpoint.",
+      "options": [
+        "M(9; -7)",
+        "M(8; -6)",
+        "The endpoint is not the midpoint; M(8; -7)",
+        "M(14; -10)"
+      ],
+      "answer_index": 2,
+      "memo": "Plot A(2; -4) and B(14; -10). The learner selected an endpoint, not the half-way position. Average x: (2+14)/2=8. Average y: (-4+-10)/2=-7. Answer: The endpoint is not the midpoint; M(8; -7). AM and MB have equal directed changes.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-p15",
+      "prompt": "A learner uses run/rise for A(5; 1), B(8; 3). Identify the first error and give the gradient.",
+      "options": [
+        "m = 3/2",
+        "m = -2/3",
+        "m = 5/3",
+        "Use rise/run; m = 2/3"
+      ],
+      "answer_index": 3,
+      "memo": "Plot the two points A(5; 1) and B(8; 3). Mark the run Δx=3 and signed rise Δy=2. The first error is reversing the fraction: the denominator is the run. m=(2)/3=2/3. Answer: Use rise/run; m = 2/3. Reversing both coordinate differences preserves it.",
+      "source": "grade10-ag-lesson-06.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-ag-l06-m16",
+      "prompt": "A learner adds the run and rise for A(1; 4), B(7; 12) and reports AB=14. Identify the first error and find AB.",
+      "options": [
+        "Use Pythagoras, not a sum; AB = 10 units",
+        "AB = 14 units",
+        "AB = 100 units",
+        "AB = 11 units"
+      ],
+      "answer_index": 0,
+      "memo": "Plot A(1; 4) and B(7; 12). Build the right triangle with run 6 and rise 8. The first error is adding the legs to get a diagonal. Use Pythagoras. AB=√(6²+(8)²)=10 units. Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-m17",
+      "prompt": "A learner calls B(12; -8) the midpoint of A(4; -2) and B(12; -8). Find the first error and correct midpoint.",
+      "options": [
+        "M(8; -4)",
+        "The endpoint is not the midpoint; M(8; -5)",
+        "M(12; -8)",
+        "M(9; -5)"
+      ],
+      "answer_index": 1,
+      "memo": "Plot A(4; -2) and B(12; -8). The learner selected an endpoint, not the half-way position. Average x: (4+12)/2=8. Average y: (-2+-8)/2=-5. Answer: The endpoint is not the midpoint; M(8; -5). AM and MB have equal directed changes.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-m18",
+      "prompt": "A learner uses run/rise for A(-6; 3), B(0; 9). Identify the first error and give the gradient.",
+      "options": [
+        "m = -1",
+        "m = 2",
+        "Use rise/run; m = 1",
+        "m = 1"
+      ],
+      "answer_index": 2,
+      "memo": "Plot the two points A(-6; 3) and B(0; 9). Mark the run Δx=6 and signed rise Δy=6. The first error is reversing the fraction: the denominator is the run. m=(6)/6=1. Answer: Use rise/run; m = 1. Reversing both coordinate differences preserves it.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-m19",
+      "prompt": "A learner adds the run and rise for A(-3; -3), B(3; -11) and reports AB=14. Identify the first error and find AB.",
+      "options": [
+        "AB = 14 units",
+        "AB = 100 units",
+        "AB = 11 units",
+        "Use Pythagoras, not a sum; AB = 10 units"
+      ],
+      "answer_index": 3,
+      "memo": "Plot A(-3; -3) and B(3; -11). Build the right triangle with run 6 and rise -8. The first error is adding the legs to get a diagonal. Use Pythagoras. AB=√(6²+(-8)²)=10 units. Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-m20",
+      "prompt": "A learner calls B(4; 6) the midpoint of A(0; 2) and B(4; 6). Find the first error and correct midpoint.",
+      "options": [
+        "The endpoint is not the midpoint; M(2; 4)",
+        "M(4; 6)",
+        "M(3; 4)",
+        "M(2; 5)"
+      ],
+      "answer_index": 0,
+      "memo": "Plot A(0; 2) and B(4; 6). The learner selected an endpoint, not the half-way position. Average x: (0+4)/2=2. Average y: (2+6)/2=4. Answer: The endpoint is not the midpoint; M(2; 4). AM and MB have equal directed changes.",
+      "source": "grade10-ag-lesson-06.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-ag-l06-r21",
+      "prompt": "A learner uses run/rise for A(-4; -6), B(0; -1). Identify the first error and give the gradient.",
+      "options": [
+        "m = 9/4",
+        "Use rise/run; m = 5/4",
+        "m = 4/5",
+        "m = -5/4"
+      ],
+      "answer_index": 1,
+      "memo": "Plot the two points A(-4; -6) and B(0; -1). Mark the run Δx=4 and signed rise Δy=5. The first error is reversing the fraction: the denominator is the run. m=(5)/4=5/4. Answer: Use rise/run; m = 5/4. Reversing both coordinate differences preserves it.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-r22",
+      "prompt": "A learner adds the run and rise for A(-1; -1), B(5; -9) and reports AB=14. Identify the first error and find AB.",
+      "options": [
+        "AB = 100 units",
+        "AB = 11 units",
+        "Use Pythagoras, not a sum; AB = 10 units",
+        "AB = 14 units"
+      ],
+      "answer_index": 2,
+      "memo": "Plot A(-1; -1) and B(5; -9). Build the right triangle with run 6 and rise -8. The first error is adding the legs to get a diagonal. Use Pythagoras. AB=√(6²+(-8)²)=10 units. Answer: Use Pythagoras, not a sum; AB = 10 units. Square the diagonal to check.",
+      "source": "grade10-ag-lesson-06.md"
+    },
+    {
+      "id": "g10-ag-l06-r23",
+      "prompt": "A learner calls B(12; 8) the midpoint of A(2; 4) and B(12; 8). Find the first error and correct midpoint.",
+      "options": [
+        "M(12; 8)",
+        "M(8; 6)",
+        "M(7; 7)",
+        "The endpoint is not the midpoint; M(7; 6)"
+      ],
+      "answer_index": 3,
+      "memo": "Plot A(2; 4) and B(12; 8). The learner selected an endpoint, not the half-way position. Average x: (2+12)/2=7. Average y: (4+8)/2=6. Answer: The endpoint is not the midpoint; M(7; 6). AM and MB have equal directed changes.",
+      "source": "grade10-ag-lesson-06.md"
+    }
+  ]
+}

@@ -2120,6 +2120,64 @@
               "source_document": "grade10-euc-lesson-06.md"
             }
           ]
+        },
+        {
+          "topic_id": "analytical-geometry",
+          "topic_number": 5,
+          "title": "Analytical Geometry",
+          "paper": "Paper 2",
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g10-ag-01",
+              "position": 1,
+              "title": "Distance between two points and the right-triangle construction",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "grade10-ag-lesson-01.md"
+            },
+            {
+              "lesson_id": "g10-ag-02",
+              "position": 2,
+              "title": "Midpoint and the missing endpoint",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-ag-lesson-02.md"
+            },
+            {
+              "lesson_id": "g10-ag-03",
+              "position": 3,
+              "title": "Gradient as rise over run",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-ag-lesson-03.md"
+            },
+            {
+              "lesson_id": "g10-ag-04",
+              "position": 4,
+              "title": "Parallel and perpendicular gradients",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-ag-lesson-04.md"
+            },
+            {
+              "lesson_id": "g10-ag-05",
+              "position": 5,
+              "title": "Classify quadrilaterals from coordinates",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-ag-lesson-05.md"
+            },
+            {
+              "lesson_id": "g10-ag-06",
+              "position": 6,
+              "title": "Mixed coordinate proofs and first-error repair",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-ag-lesson-06.md"
+            }
+          ]
         }
       ]
     },

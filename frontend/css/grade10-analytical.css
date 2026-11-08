@@ -1,0 +1,13 @@
+.g10ag-board{display:grid;gap:.5rem;min-width:0;color:#12263c}
+.g10ag-board>p{margin:.25rem 0;overflow-wrap:anywhere}
+.g10ag-model{min-width:0;max-width:100%;border:1px solid #cee0e7;border-radius:12px;background:#f9fcfd;padding:.4rem}
+.g10ag-model svg{display:block;width:100%;height:auto;max-height:350px}
+.g10ag-grid{stroke:#e0eaf0;stroke-width:1}
+.g10ag-axis{stroke:#46677a;stroke-width:2}
+.g10ag-line{stroke:#27556b;stroke-width:3;stroke-linecap:round}
+.g10ag-run{stroke:#15847c;stroke-width:3;stroke-dasharray:6 4}
+.g10ag-rise{stroke:#d47b2a;stroke-width:3;stroke-dasharray:6 4}
+.g10ag-point{fill:#0e7582;stroke:#fff;stroke-width:2}
+.g10ag-label{fill:#173e52;font-size:13px;font-weight:600}
+.g10ag-focus{fill:#087b81;font-size:15px;font-weight:700}
+@media(max-width:600px){.g10ag-model{padding:.1rem}.g10ag-label{font-size:15px}}
