@@ -2062,6 +2062,64 @@
               "source_document": "grade10-trig-lesson-07.md"
             }
           ]
+        },
+        {
+          "topic_id": "euclidean-geometry",
+          "topic_number": 4,
+          "title": "Euclidean Geometry",
+          "paper": "Paper 2",
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g10-euc-01",
+              "position": 1,
+              "title": "Intersecting and parallel line angle reasons",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "grade10-euc-lesson-01.md"
+            },
+            {
+              "lesson_id": "g10-euc-02",
+              "position": 2,
+              "title": "Congruent and similar triangles with matching vertices",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-euc-lesson-02.md"
+            },
+            {
+              "lesson_id": "g10-euc-03",
+              "position": 3,
+              "title": "Properties of kites, parallelograms and trapeziums",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-euc-lesson-03.md"
+            },
+            {
+              "lesson_id": "g10-euc-04",
+              "position": 4,
+              "title": "Rectangle, rhombus and square diagonals and areas",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-euc-lesson-04.md"
+            },
+            {
+              "lesson_id": "g10-euc-05",
+              "position": 5,
+              "title": "The midpoint theorem in triangles",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-euc-lesson-05.md"
+            },
+            {
+              "lesson_id": "g10-euc-06",
+              "position": 6,
+              "title": "Mixed geometric riders and first-error repair",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-euc-lesson-06.md"
+            }
+          ]
         }
       ]
     },

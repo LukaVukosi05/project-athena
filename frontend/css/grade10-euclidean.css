@@ -1,0 +1,9 @@
+.g10e-board{display:grid;gap:.5rem;min-width:0;color:#12263c}
+.g10e-board>p{margin:.25rem 0;overflow-wrap:anywhere}
+.g10e-model{min-width:0;max-width:100%;border:1px solid #cee0e7;border-radius:12px;background:#f8fcfd;padding:.4rem}
+.g10e-model svg{display:block;width:100%;height:auto;max-height:340px}
+.g10e-line,.g10e-shape{fill:none;stroke:#315b72;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.g10e-focus{fill:#087b81;stroke:#087b81;stroke-width:3;font-weight:700}
+.g10e-dash{fill:none;stroke:#087b81;stroke-width:2;stroke-dasharray:7 5}
+.g10e-label{fill:#183c52;font-size:16px;font-weight:600}
+@media(max-width:600px){.g10e-model{padding:.15rem}.g10e-label{font-size:18px}}

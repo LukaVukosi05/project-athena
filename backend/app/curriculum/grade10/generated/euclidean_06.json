@@ -1,0 +1,755 @@
+{
+  "source": "grade10-euc-lesson-06.md",
+  "worked": [
+    {
+      "id": "g10-euc-l06-w01",
+      "problem": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=40°. Find ∠ADE and give a complete reason.",
+      "actions": [
+        "Mark AD=DB and AE=EC in triangle ABC.",
+        "Mark given ∠ABC=40°.",
+        "The midpoint theorem makes DE∥BC.",
+        "Because AB is a transversal, ∠ADE corresponds to ∠ABC.",
+        "Answer: ∠ADE = 40° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram."
+      ],
+      "answer": "∠ADE = 40° (midpoint theorem, corresponding angles)",
+      "check": "Answer: ∠ADE = 40° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 3,
+          "b": 3,
+          "c": 4,
+          "model": "midpoint",
+          "angle": 40,
+          "mode": "midpoint_angle",
+          "answer": "∠ADE = 40° (midpoint theorem, corresponding angles)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-euc-l06-w02",
+      "problem": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=45°. Find ∠ACB and name the angle relationship.",
+      "actions": [
+        "Draw ABCD and mark AD∥BC.",
+        "Draw diagonal AC as the transversal and mark ∠DAC=45°.",
+        "∠DAC and ∠ACB are alternate interior angles.",
+        "Alternate interior angles are equal on parallel lines.",
+        "Answer: ∠ACB = 45° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC."
+      ],
+      "answer": "∠ACB = 45° (alternate interior, AD∥BC)",
+      "check": "Answer: ∠ACB = 45° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 4,
+          "b": 4,
+          "c": 4,
+          "model": "quadrilateral",
+          "shape": "parallelogram",
+          "angle": 45,
+          "mode": "parallel_angle",
+          "answer": "∠ACB = 45° (alternate interior, AD∥BC)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-euc-l06-w03",
+      "problem": "In ΔABC, D and E are midpoints of AB and AC. BC=10 cm. A learner claims DE=10 cm. Find the first error and correct DE.",
+      "actions": [
+        "Draw the original triangle and mark AD=DB, AE=EC.",
+        "Mark BC=10 cm and the learner claim DE=10 cm.",
+        "The first error is treating the mid-segment as the full base: DE must be HALF of BC.",
+        "Replace the wrong step: DE=½×10=5 cm.",
+        "Answer: First error: DE=BC; correct DE=5 cm. Check 2DE=BC."
+      ],
+      "answer": "First error: DE=BC; correct DE=5 cm",
+      "check": "Answer: First error: DE=BC; correct DE=5 cm. Check 2DE=BC.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 5,
+          "b": 4,
+          "c": 5,
+          "model": "midpoint",
+          "bc": 10,
+          "de": 5,
+          "mode": "diagnosis",
+          "answer": "First error: DE=BC; correct DE=5 cm"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-euc-l06-w04",
+      "problem": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=55°. Find ∠ADE and give a complete reason.",
+      "actions": [
+        "Mark AD=DB and AE=EC in triangle ABC.",
+        "Mark given ∠ABC=55°.",
+        "The midpoint theorem makes DE∥BC.",
+        "Because AB is a transversal, ∠ADE corresponds to ∠ABC.",
+        "Answer: ∠ADE = 55° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram."
+      ],
+      "answer": "∠ADE = 55° (midpoint theorem, corresponding angles)",
+      "check": "Answer: ∠ADE = 55° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 6,
+          "b": 5,
+          "c": 5,
+          "model": "midpoint",
+          "angle": 55,
+          "mode": "midpoint_angle",
+          "answer": "∠ADE = 55° (midpoint theorem, corresponding angles)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-euc-l06-w05",
+      "problem": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=60°. Find ∠ACB and name the angle relationship.",
+      "actions": [
+        "Draw ABCD and mark AD∥BC.",
+        "Draw diagonal AC as the transversal and mark ∠DAC=60°.",
+        "∠DAC and ∠ACB are alternate interior angles.",
+        "Alternate interior angles are equal on parallel lines.",
+        "Answer: ∠ACB = 60° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC."
+      ],
+      "answer": "∠ACB = 60° (alternate interior, AD∥BC)",
+      "check": "Answer: ∠ACB = 60° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 7,
+          "b": 5,
+          "c": 5,
+          "model": "quadrilateral",
+          "shape": "parallelogram",
+          "angle": 60,
+          "mode": "parallel_angle",
+          "answer": "∠ACB = 60° (alternate interior, AD∥BC)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-euc-l06-w06",
+      "problem": "In ΔABC, D and E are midpoints of AB and AC. BC=16 cm. A learner claims DE=16 cm. Find the first error and correct DE.",
+      "actions": [
+        "Draw the original triangle and mark AD=DB, AE=EC.",
+        "Mark BC=16 cm and the learner claim DE=16 cm.",
+        "The first error is treating the mid-segment as the full base: DE must be HALF of BC.",
+        "Replace the wrong step: DE=½×16=8 cm.",
+        "Answer: First error: DE=BC; correct DE=8 cm. Check 2DE=BC."
+      ],
+      "answer": "First error: DE=BC; correct DE=8 cm",
+      "check": "Answer: First error: DE=BC; correct DE=8 cm. Check 2DE=BC.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 8,
+          "b": 6,
+          "c": 6,
+          "model": "midpoint",
+          "bc": 16,
+          "de": 8,
+          "mode": "diagnosis",
+          "answer": "First error: DE=BC; correct DE=8 cm"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-euc-l06-w07",
+      "problem": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=70°. Find ∠ADE and give a complete reason.",
+      "actions": [
+        "Mark AD=DB and AE=EC in triangle ABC.",
+        "Mark given ∠ABC=70°.",
+        "The midpoint theorem makes DE∥BC.",
+        "Because AB is a transversal, ∠ADE corresponds to ∠ABC.",
+        "Answer: ∠ADE = 70° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram."
+      ],
+      "answer": "∠ADE = 70° (midpoint theorem, corresponding angles)",
+      "check": "Answer: ∠ADE = 70° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 9,
+          "b": 6,
+          "c": 6,
+          "model": "midpoint",
+          "angle": 70,
+          "mode": "midpoint_angle",
+          "answer": "∠ADE = 70° (midpoint theorem, corresponding angles)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-euc-l06-w08",
+      "problem": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=75°. Find ∠ACB and name the angle relationship.",
+      "actions": [
+        "Draw ABCD and mark AD∥BC.",
+        "Draw diagonal AC as the transversal and mark ∠DAC=75°.",
+        "∠DAC and ∠ACB are alternate interior angles.",
+        "Alternate interior angles are equal on parallel lines.",
+        "Answer: ∠ACB = 75° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC."
+      ],
+      "answer": "∠ACB = 75° (alternate interior, AD∥BC)",
+      "check": "Answer: ∠ACB = 75° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 10,
+          "b": 7,
+          "c": 6,
+          "model": "quadrilateral",
+          "shape": "parallelogram",
+          "angle": 75,
+          "mode": "parallel_angle",
+          "answer": "∠ACB = 75° (alternate interior, AD∥BC)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-euc-l06-w09",
+      "problem": "In ΔABC, D and E are midpoints of AB and AC. BC=22 cm. A learner claims DE=22 cm. Find the first error and correct DE.",
+      "actions": [
+        "Draw the original triangle and mark AD=DB, AE=EC.",
+        "Mark BC=22 cm and the learner claim DE=22 cm.",
+        "The first error is treating the mid-segment as the full base: DE must be HALF of BC.",
+        "Replace the wrong step: DE=½×22=11 cm.",
+        "Answer: First error: DE=BC; correct DE=11 cm. Check 2DE=BC."
+      ],
+      "answer": "First error: DE=BC; correct DE=11 cm",
+      "check": "Answer: First error: DE=BC; correct DE=11 cm. Check 2DE=BC.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 11,
+          "b": 7,
+          "c": 7,
+          "model": "midpoint",
+          "bc": 22,
+          "de": 11,
+          "mode": "diagnosis",
+          "answer": "First error: DE=BC; correct DE=11 cm"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-euc-l06-w10",
+      "problem": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=85°. Find ∠ADE and give a complete reason.",
+      "actions": [
+        "Mark AD=DB and AE=EC in triangle ABC.",
+        "Mark given ∠ABC=85°.",
+        "The midpoint theorem makes DE∥BC.",
+        "Because AB is a transversal, ∠ADE corresponds to ∠ABC.",
+        "Answer: ∠ADE = 85° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram."
+      ],
+      "answer": "∠ADE = 85° (midpoint theorem, corresponding angles)",
+      "check": "Answer: ∠ADE = 85° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 12,
+          "b": 8,
+          "c": 7,
+          "model": "midpoint",
+          "angle": 85,
+          "mode": "midpoint_angle",
+          "answer": "∠ADE = 85° (midpoint theorem, corresponding angles)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-euc-l06-w11",
+      "problem": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=90°. Find ∠ACB and name the angle relationship.",
+      "actions": [
+        "Draw ABCD and mark AD∥BC.",
+        "Draw diagonal AC as the transversal and mark ∠DAC=90°.",
+        "∠DAC and ∠ACB are alternate interior angles.",
+        "Alternate interior angles are equal on parallel lines.",
+        "Answer: ∠ACB = 90° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC."
+      ],
+      "answer": "∠ACB = 90° (alternate interior, AD∥BC)",
+      "check": "Answer: ∠ACB = 90° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 13,
+          "b": 8,
+          "c": 7,
+          "model": "quadrilateral",
+          "shape": "parallelogram",
+          "angle": 90,
+          "mode": "parallel_angle",
+          "answer": "∠ACB = 90° (alternate interior, AD∥BC)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-euc-l06-w12",
+      "problem": "In ΔABC, D and E are midpoints of AB and AC. BC=28 cm. A learner claims DE=28 cm. Find the first error and correct DE.",
+      "actions": [
+        "Draw the original triangle and mark AD=DB, AE=EC.",
+        "Mark BC=28 cm and the learner claim DE=28 cm.",
+        "The first error is treating the mid-segment as the full base: DE must be HALF of BC.",
+        "Replace the wrong step: DE=½×28=14 cm.",
+        "Answer: First error: DE=BC; correct DE=14 cm. Check 2DE=BC."
+      ],
+      "answer": "First error: DE=BC; correct DE=14 cm",
+      "check": "Answer: First error: DE=BC; correct DE=14 cm. Check 2DE=BC.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 14,
+          "b": 9,
+          "c": 8,
+          "model": "midpoint",
+          "bc": 28,
+          "de": 14,
+          "mode": "diagnosis",
+          "answer": "First error: DE=BC; correct DE=14 cm"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-euc-l06-w13",
+      "problem": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=100°. Find ∠ADE and give a complete reason.",
+      "actions": [
+        "Mark AD=DB and AE=EC in triangle ABC.",
+        "Mark given ∠ABC=100°.",
+        "The midpoint theorem makes DE∥BC.",
+        "Because AB is a transversal, ∠ADE corresponds to ∠ABC.",
+        "Answer: ∠ADE = 100° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram."
+      ],
+      "answer": "∠ADE = 100° (midpoint theorem, corresponding angles)",
+      "check": "Answer: ∠ADE = 100° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 2,
+          "b": 9,
+          "c": 8,
+          "model": "midpoint",
+          "angle": 100,
+          "mode": "midpoint_angle",
+          "answer": "∠ADE = 100° (midpoint theorem, corresponding angles)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-euc-l06-w14",
+      "problem": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=105°. Find ∠ACB and name the angle relationship.",
+      "actions": [
+        "Draw ABCD and mark AD∥BC.",
+        "Draw diagonal AC as the transversal and mark ∠DAC=105°.",
+        "∠DAC and ∠ACB are alternate interior angles.",
+        "Alternate interior angles are equal on parallel lines.",
+        "Answer: ∠ACB = 105° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC."
+      ],
+      "answer": "∠ACB = 105° (alternate interior, AD∥BC)",
+      "check": "Answer: ∠ACB = 105° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 3,
+          "b": 10,
+          "c": 8,
+          "model": "quadrilateral",
+          "shape": "parallelogram",
+          "angle": 105,
+          "mode": "parallel_angle",
+          "answer": "∠ACB = 105° (alternate interior, AD∥BC)"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-euc-l06-w15",
+      "problem": "In ΔABC, D and E are midpoints of AB and AC. BC=8 cm. A learner claims DE=8 cm. Find the first error and correct DE.",
+      "actions": [
+        "Draw the original triangle and mark AD=DB, AE=EC.",
+        "Mark BC=8 cm and the learner claim DE=8 cm.",
+        "The first error is treating the mid-segment as the full base: DE must be HALF of BC.",
+        "Replace the wrong step: DE=½×8=4 cm.",
+        "Answer: First error: DE=BC; correct DE=4 cm. Check 2DE=BC."
+      ],
+      "answer": "First error: DE=BC; correct DE=4 cm",
+      "check": "Answer: First error: DE=BC; correct DE=4 cm. Check 2DE=BC.",
+      "visual": {
+        "family": "grade10_euclidean",
+        "values": {
+          "lesson": 6,
+          "a": 4,
+          "b": 10,
+          "c": 9,
+          "model": "midpoint",
+          "bc": 8,
+          "de": 4,
+          "mode": "diagnosis",
+          "answer": "First error: DE=BC; correct DE=4 cm"
+        }
+      },
+      "lesson": 6,
+      "misconception": "Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-euc-l06-p01",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=35°. Find ∠ADE and give a complete reason.",
+      "options": [
+        "∠ADE = 40° (midpoint theorem)",
+        "∠ADE = 35° (midpoint theorem, corresponding angles)",
+        "∠ADE = 145° (co-interior)",
+        "∠ADE = 35° (vertical angles)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark AD=DB and AE=EC in triangle ABC. Mark given ∠ABC=35°. The midpoint theorem makes DE∥BC. Because AB is a transversal, ∠ADE corresponds to ∠ABC. Answer: ∠ADE = 35° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p02",
+      "prompt": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=40°. Find ∠ACB and name the angle relationship.",
+      "options": [
+        "∠ACB = 40° (vertical angles)",
+        "∠ACB = 50° (alternate interior)",
+        "∠ACB = 40° (alternate interior, AD∥BC)",
+        "∠ACB = 140° (co-interior)"
+      ],
+      "answer_index": 2,
+      "memo": "Draw ABCD and mark AD∥BC. Draw diagonal AC as the transversal and mark ∠DAC=40°. ∠DAC and ∠ACB are alternate interior angles. Alternate interior angles are equal on parallel lines. Answer: ∠ACB = 40° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p03",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. BC=14 cm. A learner claims DE=14 cm. Find the first error and correct DE.",
+      "options": [
+        "DE=14 cm (learner correct)",
+        "First error: DE∥BC; correct DE=14 cm",
+        "First error: DE=BC; correct DE=28 cm",
+        "First error: DE=BC; correct DE=7 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the original triangle and mark AD=DB, AE=EC. Mark BC=14 cm and the learner claim DE=14 cm. The first error is treating the mid-segment as the full base: DE must be HALF of BC. Replace the wrong step: DE=½×14=7 cm. Answer: First error: DE=BC; correct DE=7 cm. Check 2DE=BC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p04",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=50°. Find ∠ADE and give a complete reason.",
+      "options": [
+        "∠ADE = 50° (midpoint theorem, corresponding angles)",
+        "∠ADE = 130° (co-interior)",
+        "∠ADE = 50° (vertical angles)",
+        "∠ADE = 55° (midpoint theorem)"
+      ],
+      "answer_index": 0,
+      "memo": "Mark AD=DB and AE=EC in triangle ABC. Mark given ∠ABC=50°. The midpoint theorem makes DE∥BC. Because AB is a transversal, ∠ADE corresponds to ∠ABC. Answer: ∠ADE = 50° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p05",
+      "prompt": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=55°. Find ∠ACB and name the angle relationship.",
+      "options": [
+        "∠ACB = 65° (alternate interior)",
+        "∠ACB = 55° (alternate interior, AD∥BC)",
+        "∠ACB = 125° (co-interior)",
+        "∠ACB = 55° (vertical angles)"
+      ],
+      "answer_index": 1,
+      "memo": "Draw ABCD and mark AD∥BC. Draw diagonal AC as the transversal and mark ∠DAC=55°. ∠DAC and ∠ACB are alternate interior angles. Alternate interior angles are equal on parallel lines. Answer: ∠ACB = 55° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p06",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. BC=20 cm. A learner claims DE=20 cm. Find the first error and correct DE.",
+      "options": [
+        "First error: DE∥BC; correct DE=20 cm",
+        "First error: DE=BC; correct DE=40 cm",
+        "First error: DE=BC; correct DE=10 cm",
+        "DE=20 cm (learner correct)"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the original triangle and mark AD=DB, AE=EC. Mark BC=20 cm and the learner claim DE=20 cm. The first error is treating the mid-segment as the full base: DE must be HALF of BC. Replace the wrong step: DE=½×20=10 cm. Answer: First error: DE=BC; correct DE=10 cm. Check 2DE=BC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p07",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=65°. Find ∠ADE and give a complete reason.",
+      "options": [
+        "∠ADE = 115° (co-interior)",
+        "∠ADE = 65° (vertical angles)",
+        "∠ADE = 70° (midpoint theorem)",
+        "∠ADE = 65° (midpoint theorem, corresponding angles)"
+      ],
+      "answer_index": 3,
+      "memo": "Mark AD=DB and AE=EC in triangle ABC. Mark given ∠ABC=65°. The midpoint theorem makes DE∥BC. Because AB is a transversal, ∠ADE corresponds to ∠ABC. Answer: ∠ADE = 65° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p08",
+      "prompt": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=70°. Find ∠ACB and name the angle relationship.",
+      "options": [
+        "∠ACB = 70° (alternate interior, AD∥BC)",
+        "∠ACB = 110° (co-interior)",
+        "∠ACB = 70° (vertical angles)",
+        "∠ACB = 80° (alternate interior)"
+      ],
+      "answer_index": 0,
+      "memo": "Draw ABCD and mark AD∥BC. Draw diagonal AC as the transversal and mark ∠DAC=70°. ∠DAC and ∠ACB are alternate interior angles. Alternate interior angles are equal on parallel lines. Answer: ∠ACB = 70° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p09",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. BC=26 cm. A learner claims DE=26 cm. Find the first error and correct DE.",
+      "options": [
+        "First error: DE=BC; correct DE=52 cm",
+        "First error: DE=BC; correct DE=13 cm",
+        "DE=26 cm (learner correct)",
+        "First error: DE∥BC; correct DE=26 cm"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the original triangle and mark AD=DB, AE=EC. Mark BC=26 cm and the learner claim DE=26 cm. The first error is treating the mid-segment as the full base: DE must be HALF of BC. Replace the wrong step: DE=½×26=13 cm. Answer: First error: DE=BC; correct DE=13 cm. Check 2DE=BC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p10",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=80°. Find ∠ADE and give a complete reason.",
+      "options": [
+        "∠ADE = 80° (vertical angles)",
+        "∠ADE = 85° (midpoint theorem)",
+        "∠ADE = 80° (midpoint theorem, corresponding angles)",
+        "∠ADE = 100° (co-interior)"
+      ],
+      "answer_index": 2,
+      "memo": "Mark AD=DB and AE=EC in triangle ABC. Mark given ∠ABC=80°. The midpoint theorem makes DE∥BC. Because AB is a transversal, ∠ADE corresponds to ∠ABC. Answer: ∠ADE = 80° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p11",
+      "prompt": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=85°. Find ∠ACB and name the angle relationship.",
+      "options": [
+        "∠ACB = 95° (co-interior)",
+        "∠ACB = 85° (vertical angles)",
+        "∠ACB = 95° (alternate interior)",
+        "∠ACB = 85° (alternate interior, AD∥BC)"
+      ],
+      "answer_index": 3,
+      "memo": "Draw ABCD and mark AD∥BC. Draw diagonal AC as the transversal and mark ∠DAC=85°. ∠DAC and ∠ACB are alternate interior angles. Alternate interior angles are equal on parallel lines. Answer: ∠ACB = 85° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p12",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. BC=6 cm. A learner claims DE=6 cm. Find the first error and correct DE.",
+      "options": [
+        "First error: DE=BC; correct DE=3 cm",
+        "DE=6 cm (learner correct)",
+        "First error: DE∥BC; correct DE=6 cm",
+        "First error: DE=BC; correct DE=12 cm"
+      ],
+      "answer_index": 0,
+      "memo": "Draw the original triangle and mark AD=DB, AE=EC. Mark BC=6 cm and the learner claim DE=6 cm. The first error is treating the mid-segment as the full base: DE must be HALF of BC. Replace the wrong step: DE=½×6=3 cm. Answer: First error: DE=BC; correct DE=3 cm. Check 2DE=BC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p13",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=95°. Find ∠ADE and give a complete reason.",
+      "options": [
+        "∠ADE = 100° (midpoint theorem)",
+        "∠ADE = 95° (midpoint theorem, corresponding angles)",
+        "∠ADE = 85° (co-interior)",
+        "∠ADE = 95° (vertical angles)"
+      ],
+      "answer_index": 1,
+      "memo": "Mark AD=DB and AE=EC in triangle ABC. Mark given ∠ABC=95°. The midpoint theorem makes DE∥BC. Because AB is a transversal, ∠ADE corresponds to ∠ABC. Answer: ∠ADE = 95° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p14",
+      "prompt": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=100°. Find ∠ACB and name the angle relationship.",
+      "options": [
+        "∠ACB = 100° (vertical angles)",
+        "∠ACB = 110° (alternate interior)",
+        "∠ACB = 100° (alternate interior, AD∥BC)",
+        "∠ACB = 80° (co-interior)"
+      ],
+      "answer_index": 2,
+      "memo": "Draw ABCD and mark AD∥BC. Draw diagonal AC as the transversal and mark ∠DAC=100°. ∠DAC and ∠ACB are alternate interior angles. Alternate interior angles are equal on parallel lines. Answer: ∠ACB = 100° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-p15",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. BC=12 cm. A learner claims DE=12 cm. Find the first error and correct DE.",
+      "options": [
+        "DE=12 cm (learner correct)",
+        "First error: DE∥BC; correct DE=12 cm",
+        "First error: DE=BC; correct DE=24 cm",
+        "First error: DE=BC; correct DE=6 cm"
+      ],
+      "answer_index": 3,
+      "memo": "Draw the original triangle and mark AD=DB, AE=EC. Mark BC=12 cm and the learner claim DE=12 cm. The first error is treating the mid-segment as the full base: DE must be HALF of BC. Replace the wrong step: DE=½×12=6 cm. Answer: First error: DE=BC; correct DE=6 cm. Check 2DE=BC.",
+      "source": "grade10-euc-lesson-06.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-euc-l06-m16",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=105°. Find ∠ADE and give a complete reason.",
+      "options": [
+        "∠ADE = 105° (midpoint theorem, corresponding angles)",
+        "∠ADE = 75° (co-interior)",
+        "∠ADE = 105° (vertical angles)",
+        "∠ADE = 110° (midpoint theorem)"
+      ],
+      "answer_index": 0,
+      "memo": "Mark AD=DB and AE=EC in triangle ABC. Mark given ∠ABC=105°. The midpoint theorem makes DE∥BC. Because AB is a transversal, ∠ADE corresponds to ∠ABC. Answer: ∠ADE = 105° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-m17",
+      "prompt": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=110°. Find ∠ACB and name the angle relationship.",
+      "options": [
+        "∠ACB = 120° (alternate interior)",
+        "∠ACB = 110° (alternate interior, AD∥BC)",
+        "∠ACB = 70° (co-interior)",
+        "∠ACB = 110° (vertical angles)"
+      ],
+      "answer_index": 1,
+      "memo": "Draw ABCD and mark AD∥BC. Draw diagonal AC as the transversal and mark ∠DAC=110°. ∠DAC and ∠ACB are alternate interior angles. Alternate interior angles are equal on parallel lines. Answer: ∠ACB = 110° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-m18",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. BC=22 cm. A learner claims DE=22 cm. Find the first error and correct DE.",
+      "options": [
+        "First error: DE∥BC; correct DE=22 cm",
+        "First error: DE=BC; correct DE=44 cm",
+        "First error: DE=BC; correct DE=11 cm",
+        "DE=22 cm (learner correct)"
+      ],
+      "answer_index": 2,
+      "memo": "Draw the original triangle and mark AD=DB, AE=EC. Mark BC=22 cm and the learner claim DE=22 cm. The first error is treating the mid-segment as the full base: DE must be HALF of BC. Replace the wrong step: DE=½×22=11 cm. Answer: First error: DE=BC; correct DE=11 cm. Check 2DE=BC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-m19",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=40°. Find ∠ADE and give a complete reason.",
+      "options": [
+        "∠ADE = 140° (co-interior)",
+        "∠ADE = 40° (vertical angles)",
+        "∠ADE = 45° (midpoint theorem)",
+        "∠ADE = 40° (midpoint theorem, corresponding angles)"
+      ],
+      "answer_index": 3,
+      "memo": "Mark AD=DB and AE=EC in triangle ABC. Mark given ∠ABC=40°. The midpoint theorem makes DE∥BC. Because AB is a transversal, ∠ADE corresponds to ∠ABC. Answer: ∠ADE = 40° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-m20",
+      "prompt": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=45°. Find ∠ACB and name the angle relationship.",
+      "options": [
+        "∠ACB = 45° (alternate interior, AD∥BC)",
+        "∠ACB = 135° (co-interior)",
+        "∠ACB = 45° (vertical angles)",
+        "∠ACB = 55° (alternate interior)"
+      ],
+      "answer_index": 0,
+      "memo": "Draw ABCD and mark AD∥BC. Draw diagonal AC as the transversal and mark ∠DAC=45°. ∠DAC and ∠ACB are alternate interior angles. Alternate interior angles are equal on parallel lines. Answer: ∠ACB = 45° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "source": "grade10-euc-lesson-06.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-euc-l06-r21",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. BC=6 cm. A learner claims DE=6 cm. Find the first error and correct DE.",
+      "options": [
+        "First error: DE=BC; correct DE=12 cm",
+        "First error: DE=BC; correct DE=3 cm",
+        "DE=6 cm (learner correct)",
+        "First error: DE∥BC; correct DE=6 cm"
+      ],
+      "answer_index": 1,
+      "memo": "Draw the original triangle and mark AD=DB, AE=EC. Mark BC=6 cm and the learner claim DE=6 cm. The first error is treating the mid-segment as the full base: DE must be HALF of BC. Replace the wrong step: DE=½×6=3 cm. Answer: First error: DE=BC; correct DE=3 cm. Check 2DE=BC.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-r22",
+      "prompt": "In ΔABC, D and E are midpoints of AB and AC. ∠ABC=50°. Find ∠ADE and give a complete reason.",
+      "options": [
+        "∠ADE = 50° (vertical angles)",
+        "∠ADE = 55° (midpoint theorem)",
+        "∠ADE = 50° (midpoint theorem, corresponding angles)",
+        "∠ADE = 130° (co-interior)"
+      ],
+      "answer_index": 2,
+      "memo": "Mark AD=DB and AE=EC in triangle ABC. Mark given ∠ABC=50°. The midpoint theorem makes DE∥BC. Because AB is a transversal, ∠ADE corresponds to ∠ABC. Answer: ∠ADE = 50° (midpoint theorem, corresponding angles). Mark the equal angle sectors on the diagram.",
+      "source": "grade10-euc-lesson-06.md"
+    },
+    {
+      "id": "g10-euc-l06-r23",
+      "prompt": "ABCD is a parallelogram, diagonal AC is drawn, and ∠DAC=55°. Find ∠ACB and name the angle relationship.",
+      "options": [
+        "∠ACB = 125° (co-interior)",
+        "∠ACB = 55° (vertical angles)",
+        "∠ACB = 65° (alternate interior)",
+        "∠ACB = 55° (alternate interior, AD∥BC)"
+      ],
+      "answer_index": 3,
+      "memo": "Draw ABCD and mark AD∥BC. Draw diagonal AC as the transversal and mark ∠DAC=55°. ∠DAC and ∠ACB are alternate interior angles. Alternate interior angles are equal on parallel lines. Answer: ∠ACB = 55° (alternate interior, AD∥BC). The two angles lie on opposite sides of AC.",
+      "source": "grade10-euc-lesson-06.md"
+    }
+  ]
+}

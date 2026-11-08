@@ -4,6 +4,7 @@ from app.curriculum.grade9.whole_numbers_runtime import build_lesson
 LESSONS={n:build_lesson(n,'grade10-algebraic-expressions') for n in range(1,7)}
 EEI_LESSONS={n:build_lesson(n,'grade10-exponents-equations-inequalities') for n in range(1,10)}
 TRIG_LESSONS={n:build_lesson(n,'grade10-trigonometry') for n in range(1,8)}
+EUC_LESSONS={n:build_lesson(n,'grade10-euclidean-geometry') for n in range(1,7)}
 GRADE_10=GradeCurriculum(id='grade-10',grade=10,status=ContentStatus.TEACHER_REVIEW_REQUIRED,
  topics=[Topic(id='algebraic-expressions',product_order=1,title='Algebraic Expressions',official_caps_topic='Algebraic expressions',
  caps_sequence=1,term=1,expected_duration='Six authored lessons awaiting teacher and browser review',
@@ -23,4 +24,10 @@ GRADE_10=GradeCurriculum(id='grade-10',grade=10,status=ContentStatus.TEACHER_REV
  caps_reference='DBE Grade 10 Mathematics ATP, Term 1',paper='Paper 2',
  exam_relevance='Grade 10 Paper 2 trigonometry and formal assessment',status=ContentStatus.TEACHER_REVIEW_REQUIRED,
  subtopics=[Subtopic(id='trigonometry-learning-path',order=1,title='Right triangles, unit circle, exact ratios and applications',
- prerequisites=[],lessons=[TRIG_LESSONS[n][0] for n in range(1,8)])])])
+ prerequisites=[],lessons=[TRIG_LESSONS[n][0] for n in range(1,8)])]),
+ Topic(id='euclidean-geometry',product_order=4,title='Euclidean Geometry',official_caps_topic='Euclidean geometry',
+ caps_sequence=4,term=2,expected_duration='Six authored lessons awaiting teacher and browser review',
+ caps_reference='DBE Grade 10 Mathematics ATP, Term 2',paper='Paper 2',
+ exam_relevance='Grade 10 Paper 2 geometry and formal assessment',status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+ subtopics=[Subtopic(id='euclidean-learning-path',order=1,title='Angles, congruence, similarity, quadrilaterals, midpoint theorem and riders',
+ prerequisites=[],lessons=[EUC_LESSONS[n][0] for n in range(1,7)])])])

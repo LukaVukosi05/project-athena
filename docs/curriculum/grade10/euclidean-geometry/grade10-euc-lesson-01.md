@@ -1,0 +1,297 @@
+# Grade 10 Topic 4 · Lesson 1: Intersecting and parallel line angle reasons
+
+Authority: [DBE Grade 10 Mathematics ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2023%20ATPs/FET%20Content%20Subjects/Grade%2010/1.580%20ATP%202023-24%20Gr%2010%20Maths%20final.pdf), Term 2 Euclidean Geometry. Original Athena examples.
+
+Status: teacher and browser review required. Keep marked facts and every previous justified step on the board.
+
+## g10-euc-l01-w01: Two straight lines AB and CD intersect at O. ∠AOC=36°. Find x, the vertically opposite angle, and give a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 3, "b": 3, "c": 4, "model": "intersect", "given_angle": 36, "target": "vertically opposite", "result": 36, "answer": "x = 36°"}}
+
+1. Locate ∠AOC=36° and the marked x at intersection O.
+
+2. The relevant relationship is vertically opposite.
+
+3. Write x=36°.
+
+4. Solve: x=36°.
+
+5. Answer: x=36° (vertically opposite angles). Check the full turn around O is 360°.
+
+**Answer:** x = 36°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w02: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 47°. Find x, its co-interior partner, with a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 4, "b": 4, "c": 4, "model": "parallel", "given_angle": 47, "target": "co-interior", "result": 133, "answer": "x = 133°"}}
+
+1. Mark p ∥ q and locate the angle 47° at the first crossing.
+
+2. Trace the transversal to the marked co-interior partner at the second crossing.
+
+3. Use co-interior angles on parallels: x+47°=180°.
+
+4. Solve: x=133°.
+
+5. Answer: x=133° (co-interior, p ∥ q).
+
+**Answer:** x = 133°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w03: Two straight lines AB and CD intersect at O. ∠AOC=58°. Find x, the adjacent on a straight line angle, and give a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 5, "b": 4, "c": 5, "model": "intersect", "given_angle": 58, "target": "adjacent on a straight line", "result": 122, "answer": "x = 122°"}}
+
+1. Locate ∠AOC=58° and the marked x at intersection O.
+
+2. The relevant relationship is adjacent on a straight line.
+
+3. Write x+58°=180° because adjacent angles form a straight line.
+
+4. Solve: x=122°.
+
+5. Answer: x=122° (adjacent on a straight line angles). Check the full turn around O is 360°.
+
+**Answer:** x = 122°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w04: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 69°. Find x, its alternate interior partner, with a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 6, "b": 5, "c": 5, "model": "parallel", "given_angle": 69, "target": "alternate interior", "result": 69, "answer": "x = 69°"}}
+
+1. Mark p ∥ q and locate the angle 69° at the first crossing.
+
+2. Trace the transversal to the marked alternate interior partner at the second crossing.
+
+3. Use alternate angles on parallels: x=69°.
+
+4. Solve: x=69°.
+
+5. Answer: x=69° (alternate interior, p ∥ q).
+
+**Answer:** x = 69°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w05: Two straight lines AB and CD intersect at O. ∠AOC=80°. Find x, the vertically opposite angle, and give a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 7, "b": 5, "c": 5, "model": "intersect", "given_angle": 80, "target": "vertically opposite", "result": 80, "answer": "x = 80°"}}
+
+1. Locate ∠AOC=80° and the marked x at intersection O.
+
+2. The relevant relationship is vertically opposite.
+
+3. Write x=80°.
+
+4. Solve: x=80°.
+
+5. Answer: x=80° (vertically opposite angles). Check the full turn around O is 360°.
+
+**Answer:** x = 80°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w06: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 91°. Find x, its co-interior partner, with a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 8, "b": 6, "c": 6, "model": "parallel", "given_angle": 91, "target": "co-interior", "result": 89, "answer": "x = 89°"}}
+
+1. Mark p ∥ q and locate the angle 91° at the first crossing.
+
+2. Trace the transversal to the marked co-interior partner at the second crossing.
+
+3. Use co-interior angles on parallels: x+91°=180°.
+
+4. Solve: x=89°.
+
+5. Answer: x=89° (co-interior, p ∥ q).
+
+**Answer:** x = 89°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w07: Two straight lines AB and CD intersect at O. ∠AOC=102°. Find x, the adjacent on a straight line angle, and give a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 9, "b": 6, "c": 6, "model": "intersect", "given_angle": 102, "target": "adjacent on a straight line", "result": 78, "answer": "x = 78°"}}
+
+1. Locate ∠AOC=102° and the marked x at intersection O.
+
+2. The relevant relationship is adjacent on a straight line.
+
+3. Write x+102°=180° because adjacent angles form a straight line.
+
+4. Solve: x=78°.
+
+5. Answer: x=78° (adjacent on a straight line angles). Check the full turn around O is 360°.
+
+**Answer:** x = 78°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w08: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 113°. Find x, its alternate interior partner, with a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 10, "b": 7, "c": 6, "model": "parallel", "given_angle": 113, "target": "alternate interior", "result": 113, "answer": "x = 113°"}}
+
+1. Mark p ∥ q and locate the angle 113° at the first crossing.
+
+2. Trace the transversal to the marked alternate interior partner at the second crossing.
+
+3. Use alternate angles on parallels: x=113°.
+
+4. Solve: x=113°.
+
+5. Answer: x=113° (alternate interior, p ∥ q).
+
+**Answer:** x = 113°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w09: Two straight lines AB and CD intersect at O. ∠AOC=124°. Find x, the vertically opposite angle, and give a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 11, "b": 7, "c": 7, "model": "intersect", "given_angle": 124, "target": "vertically opposite", "result": 124, "answer": "x = 124°"}}
+
+1. Locate ∠AOC=124° and the marked x at intersection O.
+
+2. The relevant relationship is vertically opposite.
+
+3. Write x=124°.
+
+4. Solve: x=124°.
+
+5. Answer: x=124° (vertically opposite angles). Check the full turn around O is 360°.
+
+**Answer:** x = 124°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w10: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 135°. Find x, its co-interior partner, with a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 12, "b": 8, "c": 7, "model": "parallel", "given_angle": 135, "target": "co-interior", "result": 45, "answer": "x = 45°"}}
+
+1. Mark p ∥ q and locate the angle 135° at the first crossing.
+
+2. Trace the transversal to the marked co-interior partner at the second crossing.
+
+3. Use co-interior angles on parallels: x+135°=180°.
+
+4. Solve: x=45°.
+
+5. Answer: x=45° (co-interior, p ∥ q).
+
+**Answer:** x = 45°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w11: Two straight lines AB and CD intersect at O. ∠AOC=146°. Find x, the adjacent on a straight line angle, and give a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 13, "b": 8, "c": 7, "model": "intersect", "given_angle": 146, "target": "adjacent on a straight line", "result": 34, "answer": "x = 34°"}}
+
+1. Locate ∠AOC=146° and the marked x at intersection O.
+
+2. The relevant relationship is adjacent on a straight line.
+
+3. Write x+146°=180° because adjacent angles form a straight line.
+
+4. Solve: x=34°.
+
+5. Answer: x=34° (adjacent on a straight line angles). Check the full turn around O is 360°.
+
+**Answer:** x = 34°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w12: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 157°. Find x, its alternate interior partner, with a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 14, "b": 9, "c": 8, "model": "parallel", "given_angle": 157, "target": "alternate interior", "result": 157, "answer": "x = 157°"}}
+
+1. Mark p ∥ q and locate the angle 157° at the first crossing.
+
+2. Trace the transversal to the marked alternate interior partner at the second crossing.
+
+3. Use alternate angles on parallels: x=157°.
+
+4. Solve: x=157°.
+
+5. Answer: x=157° (alternate interior, p ∥ q).
+
+**Answer:** x = 157°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w13: Two straight lines AB and CD intersect at O. ∠AOC=33°. Find x, the vertically opposite angle, and give a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 2, "b": 9, "c": 8, "model": "intersect", "given_angle": 33, "target": "vertically opposite", "result": 33, "answer": "x = 33°"}}
+
+1. Locate ∠AOC=33° and the marked x at intersection O.
+
+2. The relevant relationship is vertically opposite.
+
+3. Write x=33°.
+
+4. Solve: x=33°.
+
+5. Answer: x=33° (vertically opposite angles). Check the full turn around O is 360°.
+
+**Answer:** x = 33°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w14: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 44°. Find x, its co-interior partner, with a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 3, "b": 10, "c": 8, "model": "parallel", "given_angle": 44, "target": "co-interior", "result": 136, "answer": "x = 136°"}}
+
+1. Mark p ∥ q and locate the angle 44° at the first crossing.
+
+2. Trace the transversal to the marked co-interior partner at the second crossing.
+
+3. Use co-interior angles on parallels: x+44°=180°.
+
+4. Solve: x=136°.
+
+5. Answer: x=136° (co-interior, p ∥ q).
+
+**Answer:** x = 136°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## g10-euc-l01-w15: Two straight lines AB and CD intersect at O. ∠AOC=55°. Find x, the adjacent on a straight line angle, and give a reason.
+
+Visual contract: {"family": "grade10_euclidean", "values": {"lesson": 1, "a": 4, "b": 10, "c": 9, "model": "intersect", "given_angle": 55, "target": "adjacent on a straight line", "result": 125, "answer": "x = 125°"}}
+
+1. Locate ∠AOC=55° and the marked x at intersection O.
+
+2. The relevant relationship is adjacent on a straight line.
+
+3. Write x+55°=180° because adjacent angles form a straight line.
+
+4. Solve: x=125°.
+
+5. Answer: x=125° (adjacent on a straight line angles). Check the full turn around O is 360°.
+
+**Answer:** x = 125°. **Misconception:** Use only marked geometric facts, state the theorem, and keep corresponding vertices in order.
+
+## Practice answer key
+
+- g10-euc-l01-p01: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 66°. Find x, its alternate interior partner, with a reason. Options: x = 56° | x = 66° | x = 114° | x = 76°. Correct: x = 66°. Mark p ∥ q and locate the angle 66° at the first crossing. Trace the transversal to the marked alternate interior partner at the second crossing. Use alternate angles on parallels: x=66°. Solve: x=66°. Answer: x=66° (alternate interior, p ∥ q).
+
+- g10-euc-l01-p02: Two straight lines AB and CD intersect at O. ∠AOC=77°. Find x, the vertically opposite angle, and give a reason. Options: x = 87° | x = 67° | x = 77° | x = 103°. Correct: x = 77°. Locate ∠AOC=77° and the marked x at intersection O. The relevant relationship is vertically opposite. Write x=77°. Solve: x=77°. Answer: x=77° (vertically opposite angles). Check the full turn around O is 360°.
+
+- g10-euc-l01-p03: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 88°. Find x, its co-interior partner, with a reason. Options: x = 88° | x = 102° | x = 82° | x = 92°. Correct: x = 92°. Mark p ∥ q and locate the angle 88° at the first crossing. Trace the transversal to the marked co-interior partner at the second crossing. Use co-interior angles on parallels: x+88°=180°. Solve: x=92°. Answer: x=92° (co-interior, p ∥ q).
+
+- g10-euc-l01-p04: Two straight lines AB and CD intersect at O. ∠AOC=99°. Find x, the adjacent on a straight line angle, and give a reason. Options: x = 81° | x = 99° | x = 91° | x = 71°. Correct: x = 81°. Locate ∠AOC=99° and the marked x at intersection O. The relevant relationship is adjacent on a straight line. Write x+99°=180° because adjacent angles form a straight line. Solve: x=81°. Answer: x=81° (adjacent on a straight line angles). Check the full turn around O is 360°.
+
+- g10-euc-l01-p05: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 110°. Find x, its alternate interior partner, with a reason. Options: x = 100° | x = 110° | x = 70° | x = 120°. Correct: x = 110°. Mark p ∥ q and locate the angle 110° at the first crossing. Trace the transversal to the marked alternate interior partner at the second crossing. Use alternate angles on parallels: x=110°. Solve: x=110°. Answer: x=110° (alternate interior, p ∥ q).
+
+- g10-euc-l01-p06: Two straight lines AB and CD intersect at O. ∠AOC=121°. Find x, the vertically opposite angle, and give a reason. Options: x = 131° | x = 111° | x = 121° | x = 59°. Correct: x = 121°. Locate ∠AOC=121° and the marked x at intersection O. The relevant relationship is vertically opposite. Write x=121°. Solve: x=121°. Answer: x=121° (vertically opposite angles). Check the full turn around O is 360°.
+
+- g10-euc-l01-p07: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 132°. Find x, its co-interior partner, with a reason. Options: x = 132° | x = 58° | x = 38° | x = 48°. Correct: x = 48°. Mark p ∥ q and locate the angle 132° at the first crossing. Trace the transversal to the marked co-interior partner at the second crossing. Use co-interior angles on parallels: x+132°=180°. Solve: x=48°. Answer: x=48° (co-interior, p ∥ q).
+
+- g10-euc-l01-p08: Two straight lines AB and CD intersect at O. ∠AOC=143°. Find x, the adjacent on a straight line angle, and give a reason. Options: x = 37° | x = 143° | x = 47° | x = 27°. Correct: x = 37°. Locate ∠AOC=143° and the marked x at intersection O. The relevant relationship is adjacent on a straight line. Write x+143°=180° because adjacent angles form a straight line. Solve: x=37°. Answer: x=37° (adjacent on a straight line angles). Check the full turn around O is 360°.
+
+- g10-euc-l01-p09: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 154°. Find x, its alternate interior partner, with a reason. Options: x = 144° | x = 154° | x = 26° | x = 164°. Correct: x = 154°. Mark p ∥ q and locate the angle 154° at the first crossing. Trace the transversal to the marked alternate interior partner at the second crossing. Use alternate angles on parallels: x=154°. Solve: x=154°. Answer: x=154° (alternate interior, p ∥ q).
+
+- g10-euc-l01-p10: Two straight lines AB and CD intersect at O. ∠AOC=30°. Find x, the vertically opposite angle, and give a reason. Options: x = 40° | x = 20° | x = 30° | x = 150°. Correct: x = 30°. Locate ∠AOC=30° and the marked x at intersection O. The relevant relationship is vertically opposite. Write x=30°. Solve: x=30°. Answer: x=30° (vertically opposite angles). Check the full turn around O is 360°.
+
+- g10-euc-l01-p11: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 41°. Find x, its co-interior partner, with a reason. Options: x = 41° | x = 149° | x = 129° | x = 139°. Correct: x = 139°. Mark p ∥ q and locate the angle 41° at the first crossing. Trace the transversal to the marked co-interior partner at the second crossing. Use co-interior angles on parallels: x+41°=180°. Solve: x=139°. Answer: x=139° (co-interior, p ∥ q).
+
+- g10-euc-l01-p12: Two straight lines AB and CD intersect at O. ∠AOC=52°. Find x, the adjacent on a straight line angle, and give a reason. Options: x = 128° | x = 52° | x = 138° | x = 118°. Correct: x = 128°. Locate ∠AOC=52° and the marked x at intersection O. The relevant relationship is adjacent on a straight line. Write x+52°=180° because adjacent angles form a straight line. Solve: x=128°. Answer: x=128° (adjacent on a straight line angles). Check the full turn around O is 360°.
+
+- g10-euc-l01-p13: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 63°. Find x, its alternate interior partner, with a reason. Options: x = 53° | x = 63° | x = 117° | x = 73°. Correct: x = 63°. Mark p ∥ q and locate the angle 63° at the first crossing. Trace the transversal to the marked alternate interior partner at the second crossing. Use alternate angles on parallels: x=63°. Solve: x=63°. Answer: x=63° (alternate interior, p ∥ q).
+
+- g10-euc-l01-p14: Two straight lines AB and CD intersect at O. ∠AOC=74°. Find x, the vertically opposite angle, and give a reason. Options: x = 84° | x = 64° | x = 74° | x = 106°. Correct: x = 74°. Locate ∠AOC=74° and the marked x at intersection O. The relevant relationship is vertically opposite. Write x=74°. Solve: x=74°. Answer: x=74° (vertically opposite angles). Check the full turn around O is 360°.
+
+- g10-euc-l01-p15: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 85°. Find x, its co-interior partner, with a reason. Options: x = 85° | x = 105° | x = 115° | x = 95°. Correct: x = 95°. Mark p ∥ q and locate the angle 85° at the first crossing. Trace the transversal to the marked co-interior partner at the second crossing. Use co-interior angles on parallels: x+85°=180°. Solve: x=95°. Answer: x=95° (co-interior, p ∥ q).
+
+## Mastery answer key
+
+- g10-euc-l01-m16: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 126°. Find x, its co-interior partner, with a reason. Options: x = 54° | x = 126° | x = 64° | x = 44°. Correct: x = 54°. Mark p ∥ q and locate the angle 126° at the first crossing. Trace the transversal to the marked co-interior partner at the second crossing. Use co-interior angles on parallels: x+126°=180°. Solve: x=54°. Answer: x=54° (co-interior, p ∥ q).
+
+- g10-euc-l01-m17: Two straight lines AB and CD intersect at O. ∠AOC=137°. Find x, the adjacent on a straight line angle, and give a reason. Options: x = 33° | x = 43° | x = 137° | x = 53°. Correct: x = 43°. Locate ∠AOC=137° and the marked x at intersection O. The relevant relationship is adjacent on a straight line. Write x+137°=180° because adjacent angles form a straight line. Solve: x=43°. Answer: x=43° (adjacent on a straight line angles). Check the full turn around O is 360°.
+
+- g10-euc-l01-m18: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 148°. Find x, its alternate interior partner, with a reason. Options: x = 158° | x = 138° | x = 148° | x = 32°. Correct: x = 148°. Mark p ∥ q and locate the angle 148° at the first crossing. Trace the transversal to the marked alternate interior partner at the second crossing. Use alternate angles on parallels: x=148°. Solve: x=148°. Answer: x=148° (alternate interior, p ∥ q).
+
+- g10-euc-l01-m19: Two straight lines AB and CD intersect at O. ∠AOC=159°. Find x, the vertically opposite angle, and give a reason. Options: x = 21° | x = 169° | x = 149° | x = 159°. Correct: x = 159°. Locate ∠AOC=159° and the marked x at intersection O. The relevant relationship is vertically opposite. Write x=159°. Solve: x=159°. Answer: x=159° (vertically opposite angles). Check the full turn around O is 360°.
+
+- g10-euc-l01-m20: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 35°. Find x, its co-interior partner, with a reason. Options: x = 145° | x = 35° | x = 155° | x = 135°. Correct: x = 145°. Mark p ∥ q and locate the angle 35° at the first crossing. Trace the transversal to the marked co-interior partner at the second crossing. Use co-interior angles on parallels: x+35°=180°. Solve: x=145°. Answer: x=145° (co-interior, p ∥ q).
+
+## Parallel reassessment answer key
+
+- g10-euc-l01-r21: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 76°. Find x, its co-interior partner, with a reason. Options: x = 94° | x = 104° | x = 76° | x = 114°. Correct: x = 104°. Mark p ∥ q and locate the angle 76° at the first crossing. Trace the transversal to the marked co-interior partner at the second crossing. Use co-interior angles on parallels: x+76°=180°. Solve: x=104°. Answer: x=104° (co-interior, p ∥ q).
+
+- g10-euc-l01-r22: Two straight lines AB and CD intersect at O. ∠AOC=87°. Find x, the adjacent on a straight line angle, and give a reason. Options: x = 103° | x = 83° | x = 93° | x = 87°. Correct: x = 93°. Locate ∠AOC=87° and the marked x at intersection O. The relevant relationship is adjacent on a straight line. Write x+87°=180° because adjacent angles form a straight line. Solve: x=93°. Answer: x=93° (adjacent on a straight line angles). Check the full turn around O is 360°.
+
+- g10-euc-l01-r23: Parallel lines p ∥ q are cut by transversal t. A marked interior angle is 98°. Find x, its alternate interior partner, with a reason. Options: x = 82° | x = 108° | x = 88° | x = 98°. Correct: x = 98°. Mark p ∥ q and locate the angle 98° at the first crossing. Trace the transversal to the marked alternate interior partner at the second crossing. Use alternate angles on parallels: x=98°. Solve: x=98°. Answer: x=98° (alternate interior, p ∥ q).

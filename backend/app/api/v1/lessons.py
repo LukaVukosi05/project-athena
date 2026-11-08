@@ -180,6 +180,15 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     if givens.get("form")=="purchase":
                         givens.pop("a",None)
                     scene["visual"]={"family":"grade10_equations","values":givens}
+                elif lesson.id.startswith("g10-euc-"):
+                    givens=dict(scene["visual"]["values"])
+                    givens.pop("answer",None)
+                    givens.pop("result",None)
+                    for hidden in ("a","b","c","radicand","solution_bc","solution_de","scale"):
+                        givens.pop(hidden,None)
+                    if givens.get("mode")=="diagnosis":
+                        givens.pop("de",None)
+                    scene["visual"]={"family":"grade10_euclidean","values":givens}
                 elif lesson.id.startswith("g10-trig-"):
                     givens=dict(scene["visual"]["values"])
                     for result_key in ("answer","hypotenuse","numerator","denominator","reference","quadrant","angle","radius","sin","cos","tan","ratio"):
