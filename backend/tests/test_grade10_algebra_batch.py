@@ -44,7 +44,7 @@ def test_direct_urls_answer_gate_and_grade11_topic1_is_visible():
   assert grade.status_code==topic.status_code==200
   assert len(grade.json()['topics'])==10
   assert len(topic.json()['subtopics'][0]['lessons'])==6
-  assert [topic['id'] for topic in client.get('/api/v1/curriculum/grades/grade-11').json()['topics']]==['exponents-and-surds']
+  assert [topic['id'] for topic in client.get('/api/v1/curriculum/grades/grade-11').json()['topics']]==['exponents-and-surds','equations-and-inequalities']
   for n in range(1,7):
    lesson=client.get(f'/api/v1/lessons/g10-algebra-{n:02}')
    assert lesson.status_code==200,lesson.text

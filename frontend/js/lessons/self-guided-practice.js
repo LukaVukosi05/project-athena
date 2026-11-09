@@ -1,7 +1,7 @@
 class SelfGuidedPractice {
   constructor(mount, lessonId, { lessonCount = null } = {}) {
     Object.assign(this, { mount, lessonId, lessonCount, bank: null, sessionId: null, index: 0 });
-    this.mathText = lessonId.startsWith("g11-es-") && typeof AthenaMathNotation !== "undefined" ? AthenaMathNotation.html : escapeWhiteboardHtml;
+    this.mathText = /^g11-(?:es|ei)-/.test(lessonId) && typeof AthenaMathNotation !== "undefined" ? AthenaMathNotation.html : escapeWhiteboardHtml;
     this.states = {}; this.answers = {}; this.solutionCache = {}; this.pendingHint = false;
   }
   async request(path, options = {}) {

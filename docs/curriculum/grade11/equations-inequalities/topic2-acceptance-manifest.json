@@ -1,0 +1,86 @@
+[
+  {
+    "lesson_id": "g11-ei-01",
+    "source": "grade11-ei-lesson-01.md",
+    "source_sha256": "6ceff667d32402ebfbaa8f55e97223119e0e5a8268311ea163bec3a4e4676d71",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-ei-02",
+    "source": "grade11-ei-lesson-02.md",
+    "source_sha256": "d8d29c52b295dbd6e10894edde0bb19dae57a801bc9e4b430d90dd295a0cf320",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-ei-03",
+    "source": "grade11-ei-lesson-03.md",
+    "source_sha256": "bd0aa4bf50217a0ad75f5f1565291b9a9d17092c65fd92c30893c870e8f20879",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-ei-04",
+    "source": "grade11-ei-lesson-04.md",
+    "source_sha256": "88d90d981a90aec98e95a87f2749a104fb25021542e2c5093da8b021a3dd2c28",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-ei-05",
+    "source": "grade11-ei-lesson-05.md",
+    "source_sha256": "9fe623dce24458b97000905d583160639df2bb272ad6f9fdd0f55752e6242487",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-ei-06",
+    "source": "grade11-ei-lesson-06.md",
+    "source_sha256": "b30c2a218bff1b5c156226bd55828a8b665e4e03d918a151b9b1c9fa70d5924f",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-ei-07",
+    "source": "grade11-ei-lesson-07.md",
+    "source_sha256": "2208e3448cbf23df5b7ce5fb1a7579f212709f90421618195308948d3bf06775",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

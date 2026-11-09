@@ -2533,6 +2533,72 @@
               "source_document": "grade11-es-lesson-06.md"
             }
           ]
+        },
+        {
+          "topic_id": "equations-and-inequalities",
+          "topic_number": 2,
+          "title": "Equations and Inequalities",
+          "paper": "Paper 1",
+          "expected_lesson_count": 7,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g11-ei-01",
+              "position": 1,
+              "title": "Complete the square and read the turning point",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-ei-lesson-01.md"
+            },
+            {
+              "lesson_id": "g11-ei-02",
+              "position": 2,
+              "title": "Solve quadratic equations by factorisation",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-ei-lesson-02.md"
+            },
+            {
+              "lesson_id": "g11-ei-03",
+              "position": 3,
+              "title": "Use the quadratic formula for exact roots",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-ei-lesson-03.md"
+            },
+            {
+              "lesson_id": "g11-ei-04",
+              "position": 4,
+              "title": "Solve quadratic inequalities on a graph",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-ei-lesson-04.md"
+            },
+            {
+              "lesson_id": "g11-ei-05",
+              "position": 5,
+              "title": "Solve linear and quadratic equations simultaneously",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-ei-lesson-05.md"
+            },
+            {
+              "lesson_id": "g11-ei-06",
+              "position": 6,
+              "title": "Use the discriminant to classify roots",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-ei-lesson-06.md"
+            },
+            {
+              "lesson_id": "g11-ei-07",
+              "position": 7,
+              "title": "Choose and justify a quadratic method",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-ei-lesson-07.md"
+            }
+          ]
         }
       ]
     },

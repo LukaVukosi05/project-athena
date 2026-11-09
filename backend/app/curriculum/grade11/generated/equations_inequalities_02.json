@@ -1,0 +1,793 @@
+{
+  "source": "grade11-ei-lesson-02.md",
+  "worked": [
+    {
+      "lesson": 2,
+      "problem": "Solve x² + 4x + 3 = 0 by factorisation.",
+      "answer": "x = -3 or x = -1",
+      "actions": [
+        "Find two numbers whose sum is 4 and product is 3. Here they are 3 and 1.",
+        "Split the middle term: x² + 3x + 1x + 3 = 0.",
+        "Factor: (x + 3)(x + 1) = 0.",
+        "Use the zero-product rule: x − (-3) = 0 or x − (-1) = 0.",
+        "Answer: x = -3 or x = -1. Substituting each value into x² + 4x + 3 gives zero."
+      ],
+      "check": "Answer: x = -3 or x = -1. Substituting each value into x² + 4x + 3 gives zero.",
+      "difficulty": "foundation",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": 4,
+          "c": 3
+        }
+      },
+      "id": "g11-ei-l02-w01"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² + 2x = 0 by factorisation.",
+      "answer": "x = -2 or x = 0",
+      "actions": [
+        "Find two numbers whose sum is 2 and product is 0. Here they are 2 and 0.",
+        "Split the middle term: x² + 2x + 0x + 0 = 0.",
+        "Factor: (x + 2)(x − 0) = 0.",
+        "Use the zero-product rule: x − (-2) = 0 or x − (0) = 0.",
+        "Answer: x = -2 or x = 0. Substituting each value into x² + 2x gives zero."
+      ],
+      "check": "Answer: x = -2 or x = 0. Substituting each value into x² + 2x gives zero.",
+      "difficulty": "foundation",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": 2,
+          "c": 0
+        }
+      },
+      "id": "g11-ei-l02-w02"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² − 1x − 2 = 0 by factorisation.",
+      "answer": "x = -1 or x = 2",
+      "actions": [
+        "Find two numbers whose sum is -1 and product is -2. Here they are 1 and -2.",
+        "Split the middle term: x² + 1x − 2x − 2 = 0.",
+        "Factor: (x + 1)(x − 2) = 0.",
+        "Use the zero-product rule: x − (-1) = 0 or x − (2) = 0.",
+        "Answer: x = -1 or x = 2. Substituting each value into x² − 1x − 2 gives zero."
+      ],
+      "check": "Answer: x = -1 or x = 2. Substituting each value into x² − 1x − 2 gives zero.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -1,
+          "c": -2
+        }
+      },
+      "id": "g11-ei-l02-w03"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² − 3x = 0 by factorisation.",
+      "answer": "x = 0 or x = 3",
+      "actions": [
+        "Find two numbers whose sum is -3 and product is 0. Here they are 0 and -3.",
+        "Split the middle term: x² + 0x − 3x + 0 = 0.",
+        "Factor: (x − 0)(x − 3) = 0.",
+        "Use the zero-product rule: x − (0) = 0 or x − (3) = 0.",
+        "Answer: x = 0 or x = 3. Substituting each value into x² − 3x gives zero."
+      ],
+      "check": "Answer: x = 0 or x = 3. Substituting each value into x² − 3x gives zero.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -3,
+          "c": 0
+        }
+      },
+      "id": "g11-ei-l02-w04"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² − 5x + 4 = 0 by factorisation.",
+      "answer": "x = 1 or x = 4",
+      "actions": [
+        "Find two numbers whose sum is -5 and product is 4. Here they are -1 and -4.",
+        "Split the middle term: x² − 1x − 4x + 4 = 0.",
+        "Factor: (x − 1)(x − 4) = 0.",
+        "Use the zero-product rule: x − (1) = 0 or x − (4) = 0.",
+        "Answer: x = 1 or x = 4. Substituting each value into x² − 5x + 4 gives zero."
+      ],
+      "check": "Answer: x = 1 or x = 4. Substituting each value into x² − 5x + 4 gives zero.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -5,
+          "c": 4
+        }
+      },
+      "id": "g11-ei-l02-w05"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² − 8x + 12 = 0 by factorisation.",
+      "answer": "x = 2 or x = 6",
+      "actions": [
+        "Find two numbers whose sum is -8 and product is 12. Here they are -2 and -6.",
+        "Split the middle term: x² − 2x − 6x + 12 = 0.",
+        "Factor: (x − 2)(x − 6) = 0.",
+        "Use the zero-product rule: x − (2) = 0 or x − (6) = 0.",
+        "Answer: x = 2 or x = 6. Substituting each value into x² − 8x + 12 gives zero."
+      ],
+      "check": "Answer: x = 2 or x = 6. Substituting each value into x² − 8x + 12 gives zero.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -8,
+          "c": 12
+        }
+      },
+      "id": "g11-ei-l02-w06"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² + 4x = 0 by factorisation.",
+      "answer": "x = -4 or x = 0",
+      "actions": [
+        "Find two numbers whose sum is 4 and product is 0. Here they are 4 and 0.",
+        "Split the middle term: x² + 4x + 0x + 0 = 0.",
+        "Factor: (x + 4)(x − 0) = 0.",
+        "Use the zero-product rule: x − (-4) = 0 or x − (0) = 0.",
+        "Answer: x = -4 or x = 0. Substituting each value into x² + 4x gives zero."
+      ],
+      "check": "Answer: x = -4 or x = 0. Substituting each value into x² + 4x gives zero.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": 4,
+          "c": 0
+        }
+      },
+      "id": "g11-ei-l02-w07"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² + 2x − 3 = 0 by factorisation.",
+      "answer": "x = -3 or x = 1",
+      "actions": [
+        "Find two numbers whose sum is 2 and product is -3. Here they are 3 and -1.",
+        "Split the middle term: x² + 3x − 1x − 3 = 0.",
+        "Factor: (x + 3)(x − 1) = 0.",
+        "Use the zero-product rule: x − (-3) = 0 or x − (1) = 0.",
+        "Answer: x = -3 or x = 1. Substituting each value into x² + 2x − 3 gives zero."
+      ],
+      "check": "Answer: x = -3 or x = 1. Substituting each value into x² + 2x − 3 gives zero.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": 2,
+          "c": -3
+        }
+      },
+      "id": "g11-ei-l02-w08"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² − 1x − 6 = 0 by factorisation.",
+      "answer": "x = -2 or x = 3",
+      "actions": [
+        "Find two numbers whose sum is -1 and product is -6. Here they are 2 and -3.",
+        "Split the middle term: x² + 2x − 3x − 6 = 0.",
+        "Factor: (x + 2)(x − 3) = 0.",
+        "Use the zero-product rule: x − (-2) = 0 or x − (3) = 0.",
+        "Answer: x = -2 or x = 3. Substituting each value into x² − 1x − 6 gives zero."
+      ],
+      "check": "Answer: x = -2 or x = 3. Substituting each value into x² − 1x − 6 gives zero.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -1,
+          "c": -6
+        }
+      },
+      "id": "g11-ei-l02-w09"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² − 3x − 4 = 0 by factorisation.",
+      "answer": "x = -1 or x = 4",
+      "actions": [
+        "Find two numbers whose sum is -3 and product is -4. Here they are 1 and -4.",
+        "Split the middle term: x² + 1x − 4x − 4 = 0.",
+        "Factor: (x + 1)(x − 4) = 0.",
+        "Use the zero-product rule: x − (-1) = 0 or x − (4) = 0.",
+        "Answer: x = -1 or x = 4. Substituting each value into x² − 3x − 4 gives zero."
+      ],
+      "check": "Answer: x = -1 or x = 4. Substituting each value into x² − 3x − 4 gives zero.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -3,
+          "c": -4
+        }
+      },
+      "id": "g11-ei-l02-w10"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² − 5x = 0 by factorisation.",
+      "answer": "x = 0 or x = 5",
+      "actions": [
+        "Find two numbers whose sum is -5 and product is 0. Here they are 0 and -5.",
+        "Split the middle term: x² + 0x − 5x + 0 = 0.",
+        "Factor: (x − 0)(x − 5) = 0.",
+        "Use the zero-product rule: x − (0) = 0 or x − (5) = 0.",
+        "Answer: x = 0 or x = 5. Substituting each value into x² − 5x gives zero."
+      ],
+      "check": "Answer: x = 0 or x = 5. Substituting each value into x² − 5x gives zero.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -5,
+          "c": 0
+        }
+      },
+      "id": "g11-ei-l02-w11"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² − 8x + 7 = 0 by factorisation.",
+      "answer": "x = 1 or x = 7",
+      "actions": [
+        "Find two numbers whose sum is -8 and product is 7. Here they are -1 and -7.",
+        "Split the middle term: x² − 1x − 7x + 7 = 0.",
+        "Factor: (x − 1)(x − 7) = 0.",
+        "Use the zero-product rule: x − (1) = 0 or x − (7) = 0.",
+        "Answer: x = 1 or x = 7. Substituting each value into x² − 8x + 7 gives zero."
+      ],
+      "check": "Answer: x = 1 or x = 7. Substituting each value into x² − 8x + 7 gives zero.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -8,
+          "c": 7
+        }
+      },
+      "id": "g11-ei-l02-w12"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² − 10x + 16 = 0 by factorisation.",
+      "answer": "x = 2 or x = 8",
+      "actions": [
+        "Find two numbers whose sum is -10 and product is 16. Here they are -2 and -8.",
+        "Split the middle term: x² − 2x − 8x + 16 = 0.",
+        "Factor: (x − 2)(x − 8) = 0.",
+        "Use the zero-product rule: x − (2) = 0 or x − (8) = 0.",
+        "Answer: x = 2 or x = 8. Substituting each value into x² − 10x + 16 gives zero."
+      ],
+      "check": "Answer: x = 2 or x = 8. Substituting each value into x² − 10x + 16 gives zero.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -10,
+          "c": 16
+        }
+      },
+      "id": "g11-ei-l02-w13"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² + 2x − 8 = 0 by factorisation.",
+      "answer": "x = -4 or x = 2",
+      "actions": [
+        "Find two numbers whose sum is 2 and product is -8. Here they are 4 and -2.",
+        "Split the middle term: x² + 4x − 2x − 8 = 0.",
+        "Factor: (x + 4)(x − 2) = 0.",
+        "Use the zero-product rule: x − (-4) = 0 or x − (2) = 0.",
+        "Answer: x = -4 or x = 2. Substituting each value into x² + 2x − 8 gives zero."
+      ],
+      "check": "Answer: x = -4 or x = 2. Substituting each value into x² + 2x − 8 gives zero.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": 2,
+          "c": -8
+        }
+      },
+      "id": "g11-ei-l02-w14"
+    },
+    {
+      "lesson": 2,
+      "problem": "Solve x² − 1x − 12 = 0 by factorisation.",
+      "answer": "x = -3 or x = 4",
+      "actions": [
+        "Find two numbers whose sum is -1 and product is -12. Here they are 3 and -4.",
+        "Split the middle term: x² + 3x − 4x − 12 = 0.",
+        "Factor: (x + 3)(x − 4) = 0.",
+        "Use the zero-product rule: x − (-3) = 0 or x − (4) = 0.",
+        "Answer: x = -3 or x = 4. Substituting each value into x² − 1x − 12 gives zero."
+      ],
+      "check": "Answer: x = -3 or x = 4. Substituting each value into x² − 1x − 12 gives zero.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -1,
+          "c": -12
+        }
+      },
+      "id": "g11-ei-l02-w15"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-ei-l02-p01",
+      "prompt": "Solve x² − 2x − 3 = 0 by factorisation.",
+      "options": [
+        "x = 2",
+        "x = -3",
+        "x = -1 or x = 3",
+        "x = 1 or x = -3"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Find two numbers whose sum is -2 and product is -3. Here they are 1 and -3.",
+        "Split the middle term: x² + 1x − 3x − 3 = 0.",
+        "Factor: (x + 1)(x − 3) = 0.",
+        "Use the zero-product rule: x − (-1) = 0 or x − (3) = 0.",
+        "Answer: x = -1 or x = 3. Substituting each value into x² − 2x − 3 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -2 and product is -3. Here they are 1 and -3. Split the middle term: x² + 1x − 3x − 3 = 0. Factor: (x + 1)(x − 3) = 0. Use the zero-product rule: x − (-1) = 0 or x − (3) = 0. Answer: x = -1 or x = 3. Substituting each value into x² − 2x − 3 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p02",
+      "prompt": "Solve x² − 4x = 0 by factorisation.",
+      "options": [
+        "x = 0",
+        "x = 0 or x = 4",
+        "x = 0 or x = -4",
+        "x = 4"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Find two numbers whose sum is -4 and product is 0. Here they are 0 and -4.",
+        "Split the middle term: x² + 0x − 4x + 0 = 0.",
+        "Factor: (x − 0)(x − 4) = 0.",
+        "Use the zero-product rule: x − (0) = 0 or x − (4) = 0.",
+        "Answer: x = 0 or x = 4. Substituting each value into x² − 4x gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -4 and product is 0. Here they are 0 and -4. Split the middle term: x² + 0x − 4x + 0 = 0. Factor: (x − 0)(x − 4) = 0. Use the zero-product rule: x − (0) = 0 or x − (4) = 0. Answer: x = 0 or x = 4. Substituting each value into x² − 4x gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p03",
+      "prompt": "Solve x² − 6x + 5 = 0 by factorisation.",
+      "options": [
+        "x = 1 or x = 5",
+        "x = -1 or x = -5",
+        "x = 6",
+        "x = 5"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Find two numbers whose sum is -6 and product is 5. Here they are -1 and -5.",
+        "Split the middle term: x² − 1x − 5x + 5 = 0.",
+        "Factor: (x − 1)(x − 5) = 0.",
+        "Use the zero-product rule: x − (1) = 0 or x − (5) = 0.",
+        "Answer: x = 1 or x = 5. Substituting each value into x² − 6x + 5 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -6 and product is 5. Here they are -1 and -5. Split the middle term: x² − 1x − 5x + 5 = 0. Factor: (x − 1)(x − 5) = 0. Use the zero-product rule: x − (1) = 0 or x − (5) = 0. Answer: x = 1 or x = 5. Substituting each value into x² − 6x + 5 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p04",
+      "prompt": "Solve x² − 9x + 14 = 0 by factorisation.",
+      "options": [
+        "x = -2 or x = -7",
+        "x = 9",
+        "x = 14",
+        "x = 2 or x = 7"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Find two numbers whose sum is -9 and product is 14. Here they are -2 and -7.",
+        "Split the middle term: x² − 2x − 7x + 14 = 0.",
+        "Factor: (x − 2)(x − 7) = 0.",
+        "Use the zero-product rule: x − (2) = 0 or x − (7) = 0.",
+        "Answer: x = 2 or x = 7. Substituting each value into x² − 9x + 14 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -9 and product is 14. Here they are -2 and -7. Split the middle term: x² − 2x − 7x + 14 = 0. Factor: (x − 2)(x − 7) = 0. Use the zero-product rule: x − (2) = 0 or x − (7) = 0. Answer: x = 2 or x = 7. Substituting each value into x² − 9x + 14 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p05",
+      "prompt": "Solve x² + 3x − 4 = 0 by factorisation.",
+      "options": [
+        "x = -3",
+        "x = -4",
+        "x = -4 or x = 1",
+        "x = 4 or x = -1"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Find two numbers whose sum is 3 and product is -4. Here they are 4 and -1.",
+        "Split the middle term: x² + 4x − 1x − 4 = 0.",
+        "Factor: (x + 4)(x − 1) = 0.",
+        "Use the zero-product rule: x − (-4) = 0 or x − (1) = 0.",
+        "Answer: x = -4 or x = 1. Substituting each value into x² + 3x − 4 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is 3 and product is -4. Here they are 4 and -1. Split the middle term: x² + 4x − 1x − 4 = 0. Factor: (x + 4)(x − 1) = 0. Use the zero-product rule: x − (-4) = 0 or x − (1) = 0. Answer: x = -4 or x = 1. Substituting each value into x² + 3x − 4 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p06",
+      "prompt": "Solve x² + 1x − 6 = 0 by factorisation.",
+      "options": [
+        "x = -6",
+        "x = -3 or x = 2",
+        "x = 3 or x = -2",
+        "x = -1"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Find two numbers whose sum is 1 and product is -6. Here they are 3 and -2.",
+        "Split the middle term: x² + 3x − 2x − 6 = 0.",
+        "Factor: (x + 3)(x − 2) = 0.",
+        "Use the zero-product rule: x − (-3) = 0 or x − (2) = 0.",
+        "Answer: x = -3 or x = 2. Substituting each value into x² + 1x − 6 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is 1 and product is -6. Here they are 3 and -2. Split the middle term: x² + 3x − 2x − 6 = 0. Factor: (x + 3)(x − 2) = 0. Use the zero-product rule: x − (-3) = 0 or x − (2) = 0. Answer: x = -3 or x = 2. Substituting each value into x² + 1x − 6 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p07",
+      "prompt": "Solve x² − 2x − 8 = 0 by factorisation.",
+      "options": [
+        "x = -2 or x = 4",
+        "x = 2 or x = -4",
+        "x = 2",
+        "x = -8"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Find two numbers whose sum is -2 and product is -8. Here they are 2 and -4.",
+        "Split the middle term: x² + 2x − 4x − 8 = 0.",
+        "Factor: (x + 2)(x − 4) = 0.",
+        "Use the zero-product rule: x − (-2) = 0 or x − (4) = 0.",
+        "Answer: x = -2 or x = 4. Substituting each value into x² − 2x − 8 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -2 and product is -8. Here they are 2 and -4. Split the middle term: x² + 2x − 4x − 8 = 0. Factor: (x + 2)(x − 4) = 0. Use the zero-product rule: x − (-2) = 0 or x − (4) = 0. Answer: x = -2 or x = 4. Substituting each value into x² − 2x − 8 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p08",
+      "prompt": "Solve x² − 4x − 5 = 0 by factorisation.",
+      "options": [
+        "x = 1 or x = -5",
+        "x = 4",
+        "x = -5",
+        "x = -1 or x = 5"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Find two numbers whose sum is -4 and product is -5. Here they are 1 and -5.",
+        "Split the middle term: x² + 1x − 5x − 5 = 0.",
+        "Factor: (x + 1)(x − 5) = 0.",
+        "Use the zero-product rule: x − (-1) = 0 or x − (5) = 0.",
+        "Answer: x = -1 or x = 5. Substituting each value into x² − 4x − 5 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -4 and product is -5. Here they are 1 and -5. Split the middle term: x² + 1x − 5x − 5 = 0. Factor: (x + 1)(x − 5) = 0. Use the zero-product rule: x − (-1) = 0 or x − (5) = 0. Answer: x = -1 or x = 5. Substituting each value into x² − 4x − 5 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p09",
+      "prompt": "Solve x² − 6x = 0 by factorisation.",
+      "options": [
+        "x = 6",
+        "x = 0",
+        "x = 0 or x = 6",
+        "x = 0 or x = -6"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Find two numbers whose sum is -6 and product is 0. Here they are 0 and -6.",
+        "Split the middle term: x² + 0x − 6x + 0 = 0.",
+        "Factor: (x − 0)(x − 6) = 0.",
+        "Use the zero-product rule: x − (0) = 0 or x − (6) = 0.",
+        "Answer: x = 0 or x = 6. Substituting each value into x² − 6x gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -6 and product is 0. Here they are 0 and -6. Split the middle term: x² + 0x − 6x + 0 = 0. Factor: (x − 0)(x − 6) = 0. Use the zero-product rule: x − (0) = 0 or x − (6) = 0. Answer: x = 0 or x = 6. Substituting each value into x² − 6x gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p10",
+      "prompt": "Solve x² − 9x + 8 = 0 by factorisation.",
+      "options": [
+        "x = 8",
+        "x = 1 or x = 8",
+        "x = -1 or x = -8",
+        "x = 9"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Find two numbers whose sum is -9 and product is 8. Here they are -1 and -8.",
+        "Split the middle term: x² − 1x − 8x + 8 = 0.",
+        "Factor: (x − 1)(x − 8) = 0.",
+        "Use the zero-product rule: x − (1) = 0 or x − (8) = 0.",
+        "Answer: x = 1 or x = 8. Substituting each value into x² − 9x + 8 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -9 and product is 8. Here they are -1 and -8. Split the middle term: x² − 1x − 8x + 8 = 0. Factor: (x − 1)(x − 8) = 0. Use the zero-product rule: x − (1) = 0 or x − (8) = 0. Answer: x = 1 or x = 8. Substituting each value into x² − 9x + 8 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p11",
+      "prompt": "Solve x² − 11x + 18 = 0 by factorisation.",
+      "options": [
+        "x = 2 or x = 9",
+        "x = -2 or x = -9",
+        "x = 11",
+        "x = 18"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Find two numbers whose sum is -11 and product is 18. Here they are -2 and -9.",
+        "Split the middle term: x² − 2x − 9x + 18 = 0.",
+        "Factor: (x − 2)(x − 9) = 0.",
+        "Use the zero-product rule: x − (2) = 0 or x − (9) = 0.",
+        "Answer: x = 2 or x = 9. Substituting each value into x² − 11x + 18 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -11 and product is 18. Here they are -2 and -9. Split the middle term: x² − 2x − 9x + 18 = 0. Factor: (x − 2)(x − 9) = 0. Use the zero-product rule: x − (2) = 0 or x − (9) = 0. Answer: x = 2 or x = 9. Substituting each value into x² − 11x + 18 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p12",
+      "prompt": "Solve x² + 1x − 12 = 0 by factorisation.",
+      "options": [
+        "x = 4 or x = -3",
+        "x = -1",
+        "x = -12",
+        "x = -4 or x = 3"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Find two numbers whose sum is 1 and product is -12. Here they are 4 and -3.",
+        "Split the middle term: x² + 4x − 3x − 12 = 0.",
+        "Factor: (x + 4)(x − 3) = 0.",
+        "Use the zero-product rule: x − (-4) = 0 or x − (3) = 0.",
+        "Answer: x = -4 or x = 3. Substituting each value into x² + 1x − 12 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is 1 and product is -12. Here they are 4 and -3. Split the middle term: x² + 4x − 3x − 12 = 0. Factor: (x + 4)(x − 3) = 0. Use the zero-product rule: x − (-4) = 0 or x − (3) = 0. Answer: x = -4 or x = 3. Substituting each value into x² + 1x − 12 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p13",
+      "prompt": "Solve x² + 4x + 3 = 0 by factorisation.",
+      "options": [
+        "x = -4",
+        "x = 3",
+        "x = -3 or x = -1",
+        "x = 3 or x = 1"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Find two numbers whose sum is 4 and product is 3. Here they are 3 and 1.",
+        "Split the middle term: x² + 3x + 1x + 3 = 0.",
+        "Factor: (x + 3)(x + 1) = 0.",
+        "Use the zero-product rule: x − (-3) = 0 or x − (-1) = 0.",
+        "Answer: x = -3 or x = -1. Substituting each value into x² + 4x + 3 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is 4 and product is 3. Here they are 3 and 1. Split the middle term: x² + 3x + 1x + 3 = 0. Factor: (x + 3)(x + 1) = 0. Use the zero-product rule: x − (-3) = 0 or x − (-1) = 0. Answer: x = -3 or x = -1. Substituting each value into x² + 4x + 3 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p14",
+      "prompt": "Solve x² + 2x = 0 by factorisation.",
+      "options": [
+        "x = 0",
+        "x = -2 or x = 0",
+        "x = 2 or x = 0",
+        "x = -2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Find two numbers whose sum is 2 and product is 0. Here they are 2 and 0.",
+        "Split the middle term: x² + 2x + 0x + 0 = 0.",
+        "Factor: (x + 2)(x − 0) = 0.",
+        "Use the zero-product rule: x − (-2) = 0 or x − (0) = 0.",
+        "Answer: x = -2 or x = 0. Substituting each value into x² + 2x gives zero."
+      ],
+      "memo": "Find two numbers whose sum is 2 and product is 0. Here they are 2 and 0. Split the middle term: x² + 2x + 0x + 0 = 0. Factor: (x + 2)(x − 0) = 0. Use the zero-product rule: x − (-2) = 0 or x − (0) = 0. Answer: x = -2 or x = 0. Substituting each value into x² + 2x gives zero."
+    },
+    {
+      "id": "g11-ei-l02-p15",
+      "prompt": "Solve x² − 1 = 0 by factorisation.",
+      "options": [
+        "x = -1 or x = 1",
+        "x = 1 or x = -1",
+        "x = 0",
+        "x = -1"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Find two numbers whose sum is 0 and product is -1. Here they are 1 and -1.",
+        "Split the middle term: x² + 1x − 1x − 1 = 0.",
+        "Factor: (x + 1)(x − 1) = 0.",
+        "Use the zero-product rule: x − (-1) = 0 or x − (1) = 0.",
+        "Answer: x = -1 or x = 1. Substituting each value into x² − 1 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is 0 and product is -1. Here they are 1 and -1. Split the middle term: x² + 1x − 1x − 1 = 0. Factor: (x + 1)(x − 1) = 0. Use the zero-product rule: x − (-1) = 0 or x − (1) = 0. Answer: x = -1 or x = 1. Substituting each value into x² − 1 gives zero."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-ei-l02-m01",
+      "prompt": "Solve x² − 7x + 6 = 0 by factorisation.",
+      "options": [
+        "x = 6",
+        "x = 1 or x = 6",
+        "x = -1 or x = -6",
+        "x = 7"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Find two numbers whose sum is -7 and product is 6. Here they are -1 and -6.",
+        "Split the middle term: x² − 1x − 6x + 6 = 0.",
+        "Factor: (x − 1)(x − 6) = 0.",
+        "Use the zero-product rule: x − (1) = 0 or x − (6) = 0.",
+        "Answer: x = 1 or x = 6. Substituting each value into x² − 7x + 6 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -7 and product is 6. Here they are -1 and -6. Split the middle term: x² − 1x − 6x + 6 = 0. Factor: (x − 1)(x − 6) = 0. Use the zero-product rule: x − (1) = 0 or x − (6) = 0. Answer: x = 1 or x = 6. Substituting each value into x² − 7x + 6 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-m02",
+      "prompt": "Solve x² − 10x + 16 = 0 by factorisation.",
+      "options": [
+        "x = 2 or x = 8",
+        "x = -2 or x = -8",
+        "x = 10",
+        "x = 16"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Find two numbers whose sum is -10 and product is 16. Here they are -2 and -8.",
+        "Split the middle term: x² − 2x − 8x + 16 = 0.",
+        "Factor: (x − 2)(x − 8) = 0.",
+        "Use the zero-product rule: x − (2) = 0 or x − (8) = 0.",
+        "Answer: x = 2 or x = 8. Substituting each value into x² − 10x + 16 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -10 and product is 16. Here they are -2 and -8. Split the middle term: x² − 2x − 8x + 16 = 0. Factor: (x − 2)(x − 8) = 0. Use the zero-product rule: x − (2) = 0 or x − (8) = 0. Answer: x = 2 or x = 8. Substituting each value into x² − 10x + 16 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-m03",
+      "prompt": "Solve x² + 2x − 8 = 0 by factorisation.",
+      "options": [
+        "x = 4 or x = -2",
+        "x = -2",
+        "x = -8",
+        "x = -4 or x = 2"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Find two numbers whose sum is 2 and product is -8. Here they are 4 and -2.",
+        "Split the middle term: x² + 4x − 2x − 8 = 0.",
+        "Factor: (x + 4)(x − 2) = 0.",
+        "Use the zero-product rule: x − (-4) = 0 or x − (2) = 0.",
+        "Answer: x = -4 or x = 2. Substituting each value into x² + 2x − 8 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is 2 and product is -8. Here they are 4 and -2. Split the middle term: x² + 4x − 2x − 8 = 0. Factor: (x + 4)(x − 2) = 0. Use the zero-product rule: x − (-4) = 0 or x − (2) = 0. Answer: x = -4 or x = 2. Substituting each value into x² + 2x − 8 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-m04",
+      "prompt": "Solve x² − 9 = 0 by factorisation.",
+      "options": [
+        "x = 0",
+        "x = -9",
+        "x = -3 or x = 3",
+        "x = 3 or x = -3"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Find two numbers whose sum is 0 and product is -9. Here they are 3 and -3.",
+        "Split the middle term: x² + 3x − 3x − 9 = 0.",
+        "Factor: (x + 3)(x − 3) = 0.",
+        "Use the zero-product rule: x − (-3) = 0 or x − (3) = 0.",
+        "Answer: x = -3 or x = 3. Substituting each value into x² − 9 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is 0 and product is -9. Here they are 3 and -3. Split the middle term: x² + 3x − 3x − 9 = 0. Factor: (x + 3)(x − 3) = 0. Use the zero-product rule: x − (-3) = 0 or x − (3) = 0. Answer: x = -3 or x = 3. Substituting each value into x² − 9 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-m05",
+      "prompt": "Solve x² − 3x − 10 = 0 by factorisation.",
+      "options": [
+        "x = -10",
+        "x = -2 or x = 5",
+        "x = 2 or x = -5",
+        "x = 3"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Find two numbers whose sum is -3 and product is -10. Here they are 2 and -5.",
+        "Split the middle term: x² + 2x − 5x − 10 = 0.",
+        "Factor: (x + 2)(x − 5) = 0.",
+        "Use the zero-product rule: x − (-2) = 0 or x − (5) = 0.",
+        "Answer: x = -2 or x = 5. Substituting each value into x² − 3x − 10 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -3 and product is -10. Here they are 2 and -5. Split the middle term: x² + 2x − 5x − 10 = 0. Factor: (x + 2)(x − 5) = 0. Use the zero-product rule: x − (-2) = 0 or x − (5) = 0. Answer: x = -2 or x = 5. Substituting each value into x² − 3x − 10 gives zero."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-ei-l02-r01",
+      "prompt": "Solve x² + 1x − 12 = 0 by factorisation.",
+      "options": [
+        "x = -4 or x = 3",
+        "x = 4 or x = -3",
+        "x = -1",
+        "x = -12"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Find two numbers whose sum is 1 and product is -12. Here they are 4 and -3.",
+        "Split the middle term: x² + 4x − 3x − 12 = 0.",
+        "Factor: (x + 4)(x − 3) = 0.",
+        "Use the zero-product rule: x − (-4) = 0 or x − (3) = 0.",
+        "Answer: x = -4 or x = 3. Substituting each value into x² + 1x − 12 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is 1 and product is -12. Here they are 4 and -3. Split the middle term: x² + 4x − 3x − 12 = 0. Factor: (x + 4)(x − 3) = 0. Use the zero-product rule: x − (-4) = 0 or x − (3) = 0. Answer: x = -4 or x = 3. Substituting each value into x² + 1x − 12 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-r02",
+      "prompt": "Solve x² − 1x − 12 = 0 by factorisation.",
+      "options": [
+        "x = 3 or x = -4",
+        "x = 1",
+        "x = -12",
+        "x = -3 or x = 4"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Find two numbers whose sum is -1 and product is -12. Here they are 3 and -4.",
+        "Split the middle term: x² + 3x − 4x − 12 = 0.",
+        "Factor: (x + 3)(x − 4) = 0.",
+        "Use the zero-product rule: x − (-3) = 0 or x − (4) = 0.",
+        "Answer: x = -3 or x = 4. Substituting each value into x² − 1x − 12 gives zero."
+      ],
+      "memo": "Find two numbers whose sum is -1 and product is -12. Here they are 3 and -4. Split the middle term: x² + 3x − 4x − 12 = 0. Factor: (x + 3)(x − 4) = 0. Use the zero-product rule: x − (-3) = 0 or x − (4) = 0. Answer: x = -3 or x = 4. Substituting each value into x² − 1x − 12 gives zero."
+    },
+    {
+      "id": "g11-ei-l02-r03",
+      "prompt": "Solve x² + 2x = 0 by factorisation.",
+      "options": [
+        "x = -2",
+        "x = 0",
+        "x = -2 or x = 0",
+        "x = 2 or x = 0"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Find two numbers whose sum is 2 and product is 0. Here they are 2 and 0.",
+        "Split the middle term: x² + 2x + 0x + 0 = 0.",
+        "Factor: (x + 2)(x − 0) = 0.",
+        "Use the zero-product rule: x − (-2) = 0 or x − (0) = 0.",
+        "Answer: x = -2 or x = 0. Substituting each value into x² + 2x gives zero."
+      ],
+      "memo": "Find two numbers whose sum is 2 and product is 0. Here they are 2 and 0. Split the middle term: x² + 2x + 0x + 0 = 0. Factor: (x + 2)(x − 0) = 0. Use the zero-product rule: x − (-2) = 0 or x − (0) = 0. Answer: x = -2 or x = 0. Substituting each value into x² + 2x gives zero."
+    }
+  ]
+}

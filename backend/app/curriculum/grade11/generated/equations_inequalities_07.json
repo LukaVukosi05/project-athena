@@ -1,0 +1,818 @@
+{
+  "source": "grade11-ei-lesson-07.md",
+  "worked": [
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Solve x² + 4x + 3 > 0. Show the interval on a number line.",
+      "answer": "x < -3 or x > -1",
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x + 3)(x + 1) = 0 gives x = -3 or x = -1.",
+        "Mark -3 and -1 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the outside region for > 0. Exclude both zero endpoints.",
+        "Answer: x < -3 or x > -1. A test value in each chosen interval has the requested sign."
+      ],
+      "check": "Answer: x < -3 or x > -1. A test value in each chosen interval has the requested sign.",
+      "difficulty": "foundation",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "inequality",
+          "b": 4,
+          "c": 3,
+          "sign": ">",
+          "r": -3,
+          "s": -1
+        }
+      },
+      "id": "g11-ei-l07-w01"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Find both intersections of y = x² + 2x + 3 and y = 0x + 3.",
+      "answer": "(-2; 3) and (0; 3)",
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² + 2x + 3 = 0x + 3.",
+        "Subtract the line from both sides to preserve equality: x² + 2x = 0.",
+        "Factor (x + 2)(x − 0) = 0, so x = -2 or x = 0.",
+        "Use the straight line y = 0x + 3: y(-2) = 3 and y(0) = 3.",
+        "Answer: (-2; 3) and (0; 3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-2; 3) and (0; 3). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "foundation",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": 2,
+          "c": 3,
+          "m": 0,
+          "d": 3
+        }
+      },
+      "id": "g11-ei-l07-w02"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Solve x² − 1x − 2 = 0 by factorisation.",
+      "answer": "x = -1 or x = 2",
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is -1 and product is -2. Here they are 1 and -2.",
+        "Split the middle term: x² + 1x − 2x − 2 = 0.",
+        "Factor: (x + 1)(x − 2) = 0.",
+        "Use the zero-product rule: x − (-1) = 0 or x − (2) = 0.",
+        "Answer: x = -1 or x = 2. Substituting each value into x² − 1x − 2 gives zero."
+      ],
+      "check": "Answer: x = -1 or x = 2. Substituting each value into x² − 1x − 2 gives zero.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -1,
+          "c": -2
+        }
+      },
+      "id": "g11-ei-l07-w03"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Solve x² − 3x < 0. Show the interval on a number line.",
+      "answer": "0 < x < 3",
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x − 0)(x − 3) = 0 gives x = 0 or x = 3.",
+        "Mark 0 and 3 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the between region for < 0. Exclude both zero endpoints.",
+        "Answer: 0 < x < 3. A test value in each chosen interval has the requested sign."
+      ],
+      "check": "Answer: 0 < x < 3. A test value in each chosen interval has the requested sign.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "inequality",
+          "b": -3,
+          "c": 0,
+          "sign": "<",
+          "r": 0,
+          "s": 3
+        }
+      },
+      "id": "g11-ei-l07-w04"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Find both intersections of y = x² − 7x + 7 and y = -2x + 3.",
+      "answer": "(1; 1) and (4; -5)",
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 7x + 7 = -2x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 5x + 4 = 0.",
+        "Factor (x − 1)(x − 4) = 0, so x = 1 or x = 4.",
+        "Use the straight line y = -2x + 3: y(1) = 1 and y(4) = -5.",
+        "Answer: (1; 1) and (4; -5). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (1; 1) and (4; -5). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": -7,
+          "c": 7,
+          "m": -2,
+          "d": 3
+        }
+      },
+      "id": "g11-ei-l07-w05"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Solve x² − 8x + 12 = 0 by factorisation.",
+      "answer": "x = 2 or x = 6",
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is -8 and product is 12. Here they are -2 and -6.",
+        "Split the middle term: x² − 2x − 6x + 12 = 0.",
+        "Factor: (x − 2)(x − 6) = 0.",
+        "Use the zero-product rule: x − (2) = 0 or x − (6) = 0.",
+        "Answer: x = 2 or x = 6. Substituting each value into x² − 8x + 12 gives zero."
+      ],
+      "check": "Answer: x = 2 or x = 6. Substituting each value into x² − 8x + 12 gives zero.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -8,
+          "c": 12
+        }
+      },
+      "id": "g11-ei-l07-w06"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Solve x² + 4x > 0. Show the interval on a number line.",
+      "answer": "x < -4 or x > 0",
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x + 4)(x − 0) = 0 gives x = -4 or x = 0.",
+        "Mark -4 and 0 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the outside region for > 0. Exclude both zero endpoints.",
+        "Answer: x < -4 or x > 0. A test value in each chosen interval has the requested sign."
+      ],
+      "check": "Answer: x < -4 or x > 0. A test value in each chosen interval has the requested sign.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "inequality",
+          "b": 4,
+          "c": 0,
+          "sign": ">",
+          "r": -4,
+          "s": 0
+        }
+      },
+      "id": "g11-ei-l07-w07"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Find both intersections of y = x² + 3x and y = 1x + 3.",
+      "answer": "(-3; 0) and (1; 4)",
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² + 3x = 1x + 3.",
+        "Subtract the line from both sides to preserve equality: x² + 2x − 3 = 0.",
+        "Factor (x + 3)(x − 1) = 0, so x = -3 or x = 1.",
+        "Use the straight line y = 1x + 3: y(-3) = 0 and y(1) = 4.",
+        "Answer: (-3; 0) and (1; 4). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-3; 0) and (1; 4). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": 3,
+          "c": 0,
+          "m": 1,
+          "d": 3
+        }
+      },
+      "id": "g11-ei-l07-w08"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Solve x² − 1x − 6 = 0 by factorisation.",
+      "answer": "x = -2 or x = 3",
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is -1 and product is -6. Here they are 2 and -3.",
+        "Split the middle term: x² + 2x − 3x − 6 = 0.",
+        "Factor: (x + 2)(x − 3) = 0.",
+        "Use the zero-product rule: x − (-2) = 0 or x − (3) = 0.",
+        "Answer: x = -2 or x = 3. Substituting each value into x² − 1x − 6 gives zero."
+      ],
+      "check": "Answer: x = -2 or x = 3. Substituting each value into x² − 1x − 6 gives zero.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -1,
+          "c": -6
+        }
+      },
+      "id": "g11-ei-l07-w09"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Solve x² − 3x − 4 < 0. Show the interval on a number line.",
+      "answer": "-1 < x < 4",
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x + 1)(x − 4) = 0 gives x = -1 or x = 4.",
+        "Mark -1 and 4 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the between region for < 0. Exclude both zero endpoints.",
+        "Answer: -1 < x < 4. A test value in each chosen interval has the requested sign."
+      ],
+      "check": "Answer: -1 < x < 4. A test value in each chosen interval has the requested sign.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "inequality",
+          "b": -3,
+          "c": -4,
+          "sign": "<",
+          "r": -1,
+          "s": 4
+        }
+      },
+      "id": "g11-ei-l07-w10"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Find both intersections of y = x² − 6x + 3 and y = -1x + 3.",
+      "answer": "(0; 3) and (5; -2)",
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 6x + 3 = -1x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 5x = 0.",
+        "Factor (x − 0)(x − 5) = 0, so x = 0 or x = 5.",
+        "Use the straight line y = -1x + 3: y(0) = 3 and y(5) = -2.",
+        "Answer: (0; 3) and (5; -2). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (0; 3) and (5; -2). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": -6,
+          "c": 3,
+          "m": -1,
+          "d": 3
+        }
+      },
+      "id": "g11-ei-l07-w11"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Solve x² − 8x + 7 = 0 by factorisation.",
+      "answer": "x = 1 or x = 7",
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is -8 and product is 7. Here they are -1 and -7.",
+        "Split the middle term: x² − 1x − 7x + 7 = 0.",
+        "Factor: (x − 1)(x − 7) = 0.",
+        "Use the zero-product rule: x − (1) = 0 or x − (7) = 0.",
+        "Answer: x = 1 or x = 7. Substituting each value into x² − 8x + 7 gives zero."
+      ],
+      "check": "Answer: x = 1 or x = 7. Substituting each value into x² − 8x + 7 gives zero.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -8,
+          "c": 7
+        }
+      },
+      "id": "g11-ei-l07-w12"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Solve x² − 10x + 16 > 0. Show the interval on a number line.",
+      "answer": "x < 2 or x > 8",
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x − 2)(x − 8) = 0 gives x = 2 or x = 8.",
+        "Mark 2 and 8 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the outside region for > 0. Exclude both zero endpoints.",
+        "Answer: x < 2 or x > 8. A test value in each chosen interval has the requested sign."
+      ],
+      "check": "Answer: x < 2 or x > 8. A test value in each chosen interval has the requested sign.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "inequality",
+          "b": -10,
+          "c": 16,
+          "sign": ">",
+          "r": 2,
+          "s": 8
+        }
+      },
+      "id": "g11-ei-l07-w13"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Find both intersections of y = x² + 4x − 5 and y = 2x + 3.",
+      "answer": "(-4; -5) and (2; 7)",
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² + 4x − 5 = 2x + 3.",
+        "Subtract the line from both sides to preserve equality: x² + 2x − 8 = 0.",
+        "Factor (x + 4)(x − 2) = 0, so x = -4 or x = 2.",
+        "Use the straight line y = 2x + 3: y(-4) = -5 and y(2) = 7.",
+        "Answer: (-4; -5) and (2; 7). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-4; -5) and (2; 7). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": 4,
+          "c": -5,
+          "m": 2,
+          "d": 3
+        }
+      },
+      "id": "g11-ei-l07-w14"
+    },
+    {
+      "lesson": 7,
+      "problem": "Choose a method and justify it. Solve x² − 1x − 12 = 0 by factorisation.",
+      "answer": "x = -3 or x = 4",
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is -1 and product is -12. Here they are 3 and -4.",
+        "Split the middle term: x² + 3x − 4x − 12 = 0.",
+        "Factor: (x + 3)(x − 4) = 0.",
+        "Use the zero-product rule: x − (-3) = 0 or x − (4) = 0.",
+        "Answer: x = -3 or x = 4. Substituting each value into x² − 1x − 12 gives zero."
+      ],
+      "check": "Answer: x = -3 or x = 4. Substituting each value into x² − 1x − 12 gives zero.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "roots",
+          "b": -1,
+          "c": -12
+        }
+      },
+      "id": "g11-ei-l07-w15"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-ei-l07-p01",
+      "prompt": "Choose a method and justify it. Solve x² − 2x − 3 = 0 by factorisation.",
+      "options": [
+        "x = 2",
+        "x = -3",
+        "x = -1 or x = 3",
+        "x = 1 or x = -3"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is -2 and product is -3. Here they are 1 and -3.",
+        "Split the middle term: x² + 1x − 3x − 3 = 0.",
+        "Factor: (x + 1)(x − 3) = 0.",
+        "Use the zero-product rule: x − (-1) = 0 or x − (3) = 0.",
+        "Answer: x = -1 or x = 3. Substituting each value into x² − 2x − 3 gives zero."
+      ],
+      "memo": "Select the appropriate quadratic method. Find two numbers whose sum is -2 and product is -3. Here they are 1 and -3. Split the middle term: x² + 1x − 3x − 3 = 0. Factor: (x + 1)(x − 3) = 0. Use the zero-product rule: x − (-1) = 0 or x − (3) = 0. Answer: x = -1 or x = 3. Substituting each value into x² − 2x − 3 gives zero."
+    },
+    {
+      "id": "g11-ei-l07-p02",
+      "prompt": "Choose a method and justify it. Solve x² − 4x > 0. Show the interval on a number line.",
+      "options": [
+        "0 < x < 4",
+        "x < 0 or x > 4",
+        "0 ≤ x ≤ 4",
+        "x = 0 or x = 4"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x − 0)(x − 4) = 0 gives x = 0 or x = 4.",
+        "Mark 0 and 4 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the outside region for > 0. Exclude both zero endpoints.",
+        "Answer: x < 0 or x > 4. A test value in each chosen interval has the requested sign."
+      ],
+      "memo": "Select the appropriate quadratic method. Find the boundary roots: (x − 0)(x − 4) = 0 gives x = 0 or x = 4. Mark 0 and 4 on the number line. The parabola opens upwards. Between the roots the product is negative; outside them it is positive. Select the outside region for > 0. Exclude both zero endpoints. Answer: x < 0 or x > 4. A test value in each chosen interval has the requested sign."
+    },
+    {
+      "id": "g11-ei-l07-p03",
+      "prompt": "Choose a method and justify it. Find both intersections of y = x² − 7x + 8 and y = -1x + 3.",
+      "options": [
+        "(1; 2) and (5; -2)",
+        "(1; -2) and (5; 2)",
+        "x = 1 or x = 5",
+        "(-1; 2) and (-5; -2)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 7x + 8 = -1x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 6x + 5 = 0.",
+        "Factor (x − 1)(x − 5) = 0, so x = 1 or x = 5.",
+        "Use the straight line y = -1x + 3: y(1) = 2 and y(5) = -2.",
+        "Answer: (1; 2) and (5; -2). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 7x + 8 = -1x + 3. Subtract the line from both sides to preserve equality: x² − 6x + 5 = 0. Factor (x − 1)(x − 5) = 0, so x = 1 or x = 5. Use the straight line y = -1x + 3: y(1) = 2 and y(5) = -2. Answer: (1; 2) and (5; -2). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l07-p04",
+      "prompt": "Choose a method and justify it. Solve x² − 9x + 14 = 0 by factorisation.",
+      "options": [
+        "x = -2 or x = -7",
+        "x = 9",
+        "x = 14",
+        "x = 2 or x = 7"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is -9 and product is 14. Here they are -2 and -7.",
+        "Split the middle term: x² − 2x − 7x + 14 = 0.",
+        "Factor: (x − 2)(x − 7) = 0.",
+        "Use the zero-product rule: x − (2) = 0 or x − (7) = 0.",
+        "Answer: x = 2 or x = 7. Substituting each value into x² − 9x + 14 gives zero."
+      ],
+      "memo": "Select the appropriate quadratic method. Find two numbers whose sum is -9 and product is 14. Here they are -2 and -7. Split the middle term: x² − 2x − 7x + 14 = 0. Factor: (x − 2)(x − 7) = 0. Use the zero-product rule: x − (2) = 0 or x − (7) = 0. Answer: x = 2 or x = 7. Substituting each value into x² − 9x + 14 gives zero."
+    },
+    {
+      "id": "g11-ei-l07-p05",
+      "prompt": "Choose a method and justify it. Solve x² + 3x − 4 < 0. Show the interval on a number line.",
+      "options": [
+        "x = -4 or x = 1",
+        "x < -4 or x > 1",
+        "-4 < x < 1",
+        "x ≤ -4 or x ≥ 1"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x + 4)(x − 1) = 0 gives x = -4 or x = 1.",
+        "Mark -4 and 1 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the between region for < 0. Exclude both zero endpoints.",
+        "Answer: -4 < x < 1. A test value in each chosen interval has the requested sign."
+      ],
+      "memo": "Select the appropriate quadratic method. Find the boundary roots: (x + 4)(x − 1) = 0 gives x = -4 or x = 1. Mark -4 and 1 on the number line. The parabola opens upwards. Between the roots the product is negative; outside them it is positive. Select the between region for < 0. Exclude both zero endpoints. Answer: -4 < x < 1. A test value in each chosen interval has the requested sign."
+    },
+    {
+      "id": "g11-ei-l07-p06",
+      "prompt": "Choose a method and justify it. Find both intersections of y = x² + 3x − 3 and y = 2x + 3.",
+      "options": [
+        "(3; -3) and (-2; 7)",
+        "(-3; -3) and (2; 7)",
+        "(-3; 7) and (2; -3)",
+        "x = -3 or x = 2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² + 3x − 3 = 2x + 3.",
+        "Subtract the line from both sides to preserve equality: x² + 1x − 6 = 0.",
+        "Factor (x + 3)(x − 2) = 0, so x = -3 or x = 2.",
+        "Use the straight line y = 2x + 3: y(-3) = -3 and y(2) = 7.",
+        "Answer: (-3; -3) and (2; 7). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "Select the appropriate quadratic method. At an intersection the y-values are equal: x² + 3x − 3 = 2x + 3. Subtract the line from both sides to preserve equality: x² + 1x − 6 = 0. Factor (x + 3)(x − 2) = 0, so x = -3 or x = 2. Use the straight line y = 2x + 3: y(-3) = -3 and y(2) = 7. Answer: (-3; -3) and (2; 7). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l07-p07",
+      "prompt": "Choose a method and justify it. Solve x² − 2x − 8 = 0 by factorisation.",
+      "options": [
+        "x = -2 or x = 4",
+        "x = 2 or x = -4",
+        "x = 2",
+        "x = -8"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is -2 and product is -8. Here they are 2 and -4.",
+        "Split the middle term: x² + 2x − 4x − 8 = 0.",
+        "Factor: (x + 2)(x − 4) = 0.",
+        "Use the zero-product rule: x − (-2) = 0 or x − (4) = 0.",
+        "Answer: x = -2 or x = 4. Substituting each value into x² − 2x − 8 gives zero."
+      ],
+      "memo": "Select the appropriate quadratic method. Find two numbers whose sum is -2 and product is -8. Here they are 2 and -4. Split the middle term: x² + 2x − 4x − 8 = 0. Factor: (x + 2)(x − 4) = 0. Use the zero-product rule: x − (-2) = 0 or x − (4) = 0. Answer: x = -2 or x = 4. Substituting each value into x² − 2x − 8 gives zero."
+    },
+    {
+      "id": "g11-ei-l07-p08",
+      "prompt": "Choose a method and justify it. Solve x² − 4x − 5 > 0. Show the interval on a number line.",
+      "options": [
+        "-1 ≤ x ≤ 5",
+        "x = -1 or x = 5",
+        "-1 < x < 5",
+        "x < -1 or x > 5"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x + 1)(x − 5) = 0 gives x = -1 or x = 5.",
+        "Mark -1 and 5 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the outside region for > 0. Exclude both zero endpoints.",
+        "Answer: x < -1 or x > 5. A test value in each chosen interval has the requested sign."
+      ],
+      "memo": "Select the appropriate quadratic method. Find the boundary roots: (x + 1)(x − 5) = 0 gives x = -1 or x = 5. Mark -1 and 5 on the number line. The parabola opens upwards. Between the roots the product is negative; outside them it is positive. Select the outside region for > 0. Exclude both zero endpoints. Answer: x < -1 or x > 5. A test value in each chosen interval has the requested sign."
+    },
+    {
+      "id": "g11-ei-l07-p09",
+      "prompt": "Choose a method and justify it. Find both intersections of y = x² − 6x + 3 and y = 0x + 3.",
+      "options": [
+        "(0; 3) and (-6; 3)",
+        "(0; 3) and (6; 3) (incorrect 1)",
+        "(0; 3) and (6; 3)",
+        "x = 0 or x = 6"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 6x + 3 = 0x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 6x = 0.",
+        "Factor (x − 0)(x − 6) = 0, so x = 0 or x = 6.",
+        "Use the straight line y = 0x + 3: y(0) = 3 and y(6) = 3.",
+        "Answer: (0; 3) and (6; 3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 6x + 3 = 0x + 3. Subtract the line from both sides to preserve equality: x² − 6x = 0. Factor (x − 0)(x − 6) = 0, so x = 0 or x = 6. Use the straight line y = 0x + 3: y(0) = 3 and y(6) = 3. Answer: (0; 3) and (6; 3). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l07-p10",
+      "prompt": "Choose a method and justify it. Solve x² − 9x + 8 = 0 by factorisation.",
+      "options": [
+        "x = 8",
+        "x = 1 or x = 8",
+        "x = -1 or x = -8",
+        "x = 9"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is -9 and product is 8. Here they are -1 and -8.",
+        "Split the middle term: x² − 1x − 8x + 8 = 0.",
+        "Factor: (x − 1)(x − 8) = 0.",
+        "Use the zero-product rule: x − (1) = 0 or x − (8) = 0.",
+        "Answer: x = 1 or x = 8. Substituting each value into x² − 9x + 8 gives zero."
+      ],
+      "memo": "Select the appropriate quadratic method. Find two numbers whose sum is -9 and product is 8. Here they are -1 and -8. Split the middle term: x² − 1x − 8x + 8 = 0. Factor: (x − 1)(x − 8) = 0. Use the zero-product rule: x − (1) = 0 or x − (8) = 0. Answer: x = 1 or x = 8. Substituting each value into x² − 9x + 8 gives zero."
+    },
+    {
+      "id": "g11-ei-l07-p11",
+      "prompt": "Choose a method and justify it. Solve x² − 11x + 18 < 0. Show the interval on a number line.",
+      "options": [
+        "2 < x < 9",
+        "x ≤ 2 or x ≥ 9",
+        "x = 2 or x = 9",
+        "x < 2 or x > 9"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x − 2)(x − 9) = 0 gives x = 2 or x = 9.",
+        "Mark 2 and 9 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the between region for < 0. Exclude both zero endpoints.",
+        "Answer: 2 < x < 9. A test value in each chosen interval has the requested sign."
+      ],
+      "memo": "Select the appropriate quadratic method. Find the boundary roots: (x − 2)(x − 9) = 0 gives x = 2 or x = 9. Mark 2 and 9 on the number line. The parabola opens upwards. Between the roots the product is negative; outside them it is positive. Select the between region for < 0. Exclude both zero endpoints. Answer: 2 < x < 9. A test value in each chosen interval has the requested sign."
+    },
+    {
+      "id": "g11-ei-l07-p12",
+      "prompt": "Choose a method and justify it. Find both intersections of y = x² − 1x − 9 and y = -2x + 3.",
+      "options": [
+        "(-4; -3) and (3; 11)",
+        "x = -4 or x = 3",
+        "(4; 11) and (-3; -3)",
+        "(-4; 11) and (3; -3)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 1x − 9 = -2x + 3.",
+        "Subtract the line from both sides to preserve equality: x² + 1x − 12 = 0.",
+        "Factor (x + 4)(x − 3) = 0, so x = -4 or x = 3.",
+        "Use the straight line y = -2x + 3: y(-4) = 11 and y(3) = -3.",
+        "Answer: (-4; 11) and (3; -3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 1x − 9 = -2x + 3. Subtract the line from both sides to preserve equality: x² + 1x − 12 = 0. Factor (x + 4)(x − 3) = 0, so x = -4 or x = 3. Use the straight line y = -2x + 3: y(-4) = 11 and y(3) = -3. Answer: (-4; 11) and (3; -3). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l07-p13",
+      "prompt": "Choose a method and justify it. Solve x² + 4x + 3 = 0 by factorisation.",
+      "options": [
+        "x = -4",
+        "x = 3",
+        "x = -3 or x = -1",
+        "x = 3 or x = 1"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is 4 and product is 3. Here they are 3 and 1.",
+        "Split the middle term: x² + 3x + 1x + 3 = 0.",
+        "Factor: (x + 3)(x + 1) = 0.",
+        "Use the zero-product rule: x − (-3) = 0 or x − (-1) = 0.",
+        "Answer: x = -3 or x = -1. Substituting each value into x² + 4x + 3 gives zero."
+      ],
+      "memo": "Select the appropriate quadratic method. Find two numbers whose sum is 4 and product is 3. Here they are 3 and 1. Split the middle term: x² + 3x + 1x + 3 = 0. Factor: (x + 3)(x + 1) = 0. Use the zero-product rule: x − (-3) = 0 or x − (-1) = 0. Answer: x = -3 or x = -1. Substituting each value into x² + 4x + 3 gives zero."
+    },
+    {
+      "id": "g11-ei-l07-p14",
+      "prompt": "Choose a method and justify it. Solve x² + 2x > 0. Show the interval on a number line.",
+      "options": [
+        "-2 < x < 0",
+        "x < -2 or x > 0",
+        "-2 ≤ x ≤ 0",
+        "x = -2 or x = 0"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x + 2)(x − 0) = 0 gives x = -2 or x = 0.",
+        "Mark -2 and 0 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the outside region for > 0. Exclude both zero endpoints.",
+        "Answer: x < -2 or x > 0. A test value in each chosen interval has the requested sign."
+      ],
+      "memo": "Select the appropriate quadratic method. Find the boundary roots: (x + 2)(x − 0) = 0 gives x = -2 or x = 0. Mark -2 and 0 on the number line. The parabola opens upwards. Between the roots the product is negative; outside them it is positive. Select the outside region for > 0. Exclude both zero endpoints. Answer: x < -2 or x > 0. A test value in each chosen interval has the requested sign."
+    },
+    {
+      "id": "g11-ei-l07-p15",
+      "prompt": "Choose a method and justify it. Find both intersections of y = x² + 1x + 2 and y = 1x + 3.",
+      "options": [
+        "(-1; 2) and (1; 4)",
+        "(-1; 4) and (1; 2)",
+        "x = -1 or x = 1",
+        "(1; 2) and (-1; 4)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² + 1x + 2 = 1x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 1 = 0.",
+        "Factor (x + 1)(x − 1) = 0, so x = -1 or x = 1.",
+        "Use the straight line y = 1x + 3: y(-1) = 2 and y(1) = 4.",
+        "Answer: (-1; 2) and (1; 4). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "Select the appropriate quadratic method. At an intersection the y-values are equal: x² + 1x + 2 = 1x + 3. Subtract the line from both sides to preserve equality: x² − 1 = 0. Factor (x + 1)(x − 1) = 0, so x = -1 or x = 1. Use the straight line y = 1x + 3: y(-1) = 2 and y(1) = 4. Answer: (-1; 2) and (1; 4). Substitute both ordered pairs into BOTH original equations."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-ei-l07-m01",
+      "prompt": "Choose a method and justify it. Find both intersections of y = x² − 7x + 9 and y = 0x + 3.",
+      "options": [
+        "(1; 3) and (6; 3) (incorrect 1)",
+        "(1; 3) and (6; 3)",
+        "x = 1 or x = 6",
+        "(-1; 3) and (-6; 3)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 7x + 9 = 0x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 7x + 6 = 0.",
+        "Factor (x − 1)(x − 6) = 0, so x = 1 or x = 6.",
+        "Use the straight line y = 0x + 3: y(1) = 3 and y(6) = 3.",
+        "Answer: (1; 3) and (6; 3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 7x + 9 = 0x + 3. Subtract the line from both sides to preserve equality: x² − 7x + 6 = 0. Factor (x − 1)(x − 6) = 0, so x = 1 or x = 6. Use the straight line y = 0x + 3: y(1) = 3 and y(6) = 3. Answer: (1; 3) and (6; 3). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l07-m02",
+      "prompt": "Choose a method and justify it. Solve x² − 10x + 16 = 0 by factorisation.",
+      "options": [
+        "x = 2 or x = 8",
+        "x = -2 or x = -8",
+        "x = 10",
+        "x = 16"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is -10 and product is 16. Here they are -2 and -8.",
+        "Split the middle term: x² − 2x − 8x + 16 = 0.",
+        "Factor: (x − 2)(x − 8) = 0.",
+        "Use the zero-product rule: x − (2) = 0 or x − (8) = 0.",
+        "Answer: x = 2 or x = 8. Substituting each value into x² − 10x + 16 gives zero."
+      ],
+      "memo": "Select the appropriate quadratic method. Find two numbers whose sum is -10 and product is 16. Here they are -2 and -8. Split the middle term: x² − 2x − 8x + 16 = 0. Factor: (x − 2)(x − 8) = 0. Use the zero-product rule: x − (2) = 0 or x − (8) = 0. Answer: x = 2 or x = 8. Substituting each value into x² − 10x + 16 gives zero."
+    },
+    {
+      "id": "g11-ei-l07-m03",
+      "prompt": "Choose a method and justify it. Solve x² + 2x − 8 > 0. Show the interval on a number line.",
+      "options": [
+        "-4 ≤ x ≤ 2",
+        "x = -4 or x = 2",
+        "-4 < x < 2",
+        "x < -4 or x > 2"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x + 4)(x − 2) = 0 gives x = -4 or x = 2.",
+        "Mark -4 and 2 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the outside region for > 0. Exclude both zero endpoints.",
+        "Answer: x < -4 or x > 2. A test value in each chosen interval has the requested sign."
+      ],
+      "memo": "Select the appropriate quadratic method. Find the boundary roots: (x + 4)(x − 2) = 0 gives x = -4 or x = 2. Mark -4 and 2 on the number line. The parabola opens upwards. Between the roots the product is negative; outside them it is positive. Select the outside region for > 0. Exclude both zero endpoints. Answer: x < -4 or x > 2. A test value in each chosen interval has the requested sign."
+    },
+    {
+      "id": "g11-ei-l07-m04",
+      "prompt": "Choose a method and justify it. Find both intersections of y = x² − 2x − 6 and y = -2x + 3.",
+      "options": [
+        "x = -3 or x = 3",
+        "(3; 9) and (-3; -3)",
+        "(-3; 9) and (3; -3)",
+        "(-3; -3) and (3; 9)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 2x − 6 = -2x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 9 = 0.",
+        "Factor (x + 3)(x − 3) = 0, so x = -3 or x = 3.",
+        "Use the straight line y = -2x + 3: y(-3) = 9 and y(3) = -3.",
+        "Answer: (-3; 9) and (3; -3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 2x − 6 = -2x + 3. Subtract the line from both sides to preserve equality: x² − 9 = 0. Factor (x + 3)(x − 3) = 0, so x = -3 or x = 3. Use the straight line y = -2x + 3: y(-3) = 9 and y(3) = -3. Answer: (-3; 9) and (3; -3). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l07-m05",
+      "prompt": "Choose a method and justify it. Solve x² − 3x − 10 = 0 by factorisation.",
+      "options": [
+        "x = -10",
+        "x = -2 or x = 5",
+        "x = 2 or x = -5",
+        "x = 3"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is -3 and product is -10. Here they are 2 and -5.",
+        "Split the middle term: x² + 2x − 5x − 10 = 0.",
+        "Factor: (x + 2)(x − 5) = 0.",
+        "Use the zero-product rule: x − (-2) = 0 or x − (5) = 0.",
+        "Answer: x = -2 or x = 5. Substituting each value into x² − 3x − 10 gives zero."
+      ],
+      "memo": "Select the appropriate quadratic method. Find two numbers whose sum is -3 and product is -10. Here they are 2 and -5. Split the middle term: x² + 2x − 5x − 10 = 0. Factor: (x + 2)(x − 5) = 0. Use the zero-product rule: x − (-2) = 0 or x − (5) = 0. Answer: x = -2 or x = 5. Substituting each value into x² − 3x − 10 gives zero."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-ei-l07-r01",
+      "prompt": "Choose a method and justify it. Solve x² + 1x − 12 < 0. Show the interval on a number line.",
+      "options": [
+        "-4 < x < 3",
+        "x ≤ -4 or x ≥ 3",
+        "x = -4 or x = 3",
+        "x < -4 or x > 3"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Select the appropriate quadratic method. Find the boundary roots: (x + 4)(x − 3) = 0 gives x = -4 or x = 3.",
+        "Mark -4 and 3 on the number line. The parabola opens upwards.",
+        "Between the roots the product is negative; outside them it is positive.",
+        "Select the between region for < 0. Exclude both zero endpoints.",
+        "Answer: -4 < x < 3. A test value in each chosen interval has the requested sign."
+      ],
+      "memo": "Select the appropriate quadratic method. Find the boundary roots: (x + 4)(x − 3) = 0 gives x = -4 or x = 3. Mark -4 and 3 on the number line. The parabola opens upwards. Between the roots the product is negative; outside them it is positive. Select the between region for < 0. Exclude both zero endpoints. Answer: -4 < x < 3. A test value in each chosen interval has the requested sign."
+    },
+    {
+      "id": "g11-ei-l07-r02",
+      "prompt": "Choose a method and justify it. Find both intersections of y = x² − 2x − 9 and y = -1x + 3.",
+      "options": [
+        "(-3; -1) and (4; 6)",
+        "x = -3 or x = 4",
+        "(3; 6) and (-4; -1)",
+        "(-3; 6) and (4; -1)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 2x − 9 = -1x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 1x − 12 = 0.",
+        "Factor (x + 3)(x − 4) = 0, so x = -3 or x = 4.",
+        "Use the straight line y = -1x + 3: y(-3) = 6 and y(4) = -1.",
+        "Answer: (-3; 6) and (4; -1). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "Select the appropriate quadratic method. At an intersection the y-values are equal: x² − 2x − 9 = -1x + 3. Subtract the line from both sides to preserve equality: x² − 1x − 12 = 0. Factor (x + 3)(x − 4) = 0, so x = -3 or x = 4. Use the straight line y = -1x + 3: y(-3) = 6 and y(4) = -1. Answer: (-3; 6) and (4; -1). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l07-r03",
+      "prompt": "Choose a method and justify it. Solve x² + 2x = 0 by factorisation.",
+      "options": [
+        "x = -2",
+        "x = 0",
+        "x = -2 or x = 0",
+        "x = 2 or x = 0"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Select the appropriate quadratic method. Find two numbers whose sum is 2 and product is 0. Here they are 2 and 0.",
+        "Split the middle term: x² + 2x + 0x + 0 = 0.",
+        "Factor: (x + 2)(x − 0) = 0.",
+        "Use the zero-product rule: x − (-2) = 0 or x − (0) = 0.",
+        "Answer: x = -2 or x = 0. Substituting each value into x² + 2x gives zero."
+      ],
+      "memo": "Select the appropriate quadratic method. Find two numbers whose sum is 2 and product is 0. Here they are 2 and 0. Split the middle term: x² + 2x + 0x + 0 = 0. Factor: (x + 2)(x − 0) = 0. Use the zero-product rule: x − (-2) = 0 or x − (0) = 0. Answer: x = -2 or x = 0. Substituting each value into x² + 2x gives zero."
+    }
+  ]
+}

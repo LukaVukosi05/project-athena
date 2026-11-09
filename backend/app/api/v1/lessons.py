@@ -178,6 +178,11 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     for hidden in ("root","outside","valid","rejected"):
                         givens.pop(hidden,None)
                     scene["visual"]={"family":"grade11_exponents_surds","values":givens}
+                elif lesson.id.startswith("g11-ei-"):
+                    givens=dict(scene["visual"]["values"])
+                    for hidden in ("r","s"):
+                        givens.pop(hidden,None)
+                    scene["visual"]={"family":"grade11_equations","values":givens}
                 elif lesson.id.startswith("g10-eei-"):
                     givens=dict(scene["visual"]["values"])
                     for result_key in ("result","base","target","rhs","r","t","coefficient","constant","x","y","u","v","total","perimeter","width","bound","closed","direction"):

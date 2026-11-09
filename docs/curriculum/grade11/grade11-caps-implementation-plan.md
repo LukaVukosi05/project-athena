@@ -1,8 +1,9 @@
 # Grade 11 Mathematics: source and implementation plan
 
-Status: curriculum plan only. No Grade 11 runtime lesson is registered by this
-document. Do not count an item below as an interactive lesson until the source,
-whiteboard, assessment and browser gates pass.
+Status: Topics 1 and 2 have authored runtime previews, source files, whiteboard
+timelines and assessment banks. They remain teacher-review-required. Browser
+acceptance and teacher approval have not been recorded; do not label them
+published. Topics 3–12 remain plans, not interactive lessons.
 
 ## Authority and scope
 
@@ -52,8 +53,8 @@ multi-step selection and checking, not just larger numbers.
 
 ## Runtime contract for the next batch
 
-1. Keep Grade 11's catalogue empty until at least the first complete topic has
-   actual source questions, registered visual templates and assessment banks.
+1. Register only lessons with actual source questions, visual templates and
+   assessment banks; expose their teacher-review status accurately.
 2. Use stable lesson and question IDs. Every visual parameter derives from its
    question; no single generic surd diagram may stand in for every case.
 3. Show the original expression, current operation and cumulative written

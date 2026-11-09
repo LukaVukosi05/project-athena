@@ -22,10 +22,12 @@ from app.curriculum.grade8 import assessment_straight_lines_chain
 from app.curriculum.grade9 import assessment_whole_numbers as grade9_whole
 from app.curriculum.grade10.assessment import ALGEBRA_BANKS as GRADE10_ALGEBRA_BANKS, EEI_BANKS as GRADE10_EEI_BANKS, TRIG_BANKS as GRADE10_TRIG_BANKS, EUC_BANKS as GRADE10_EUC_BANKS, AG_BANKS as GRADE10_AG_BANKS, FN_BANKS as GRADE10_FN_BANKS, STAT_BANKS as GRADE10_STAT_BANKS, PROB_BANKS as GRADE10_PROB_BANKS, FIN_BANKS as GRADE10_FIN_BANKS, MEAS_BANKS as GRADE10_MEAS_BANKS
 from app.curriculum.grade11.assessment import BANKS as GRADE11_ES_BANKS
+from app.curriculum.grade11.assessment_equations import BANKS as GRADE11_EI_BANKS
 from app.curriculum.grade8 import assessment_graphs_lesson1, assessment_graphs_lesson2, assessment_graphs_lesson3, assessment_graphs_lesson4, assessment_graphs_lesson5, assessment_graphs_lesson6
 from app.curriculum.grade8 import assessment_expressions, assessment_expressions_lesson2, assessment_expressions_lesson3, assessment_expressions_lesson4, assessment_expressions_lesson5, assessment_expressions_lesson6, assessment_expressions_lesson7, assessment_expressions_lesson8, assessment_expressions_lesson9, assessment_expressions_lesson10
 
 ASSESSMENT_BANKS={
+    **{f"g11-ei-{number:02}":GRADE11_EI_BANKS[number][1:] for number in range(1,8)},
     **{f"g11-es-{number:02}":GRADE11_ES_BANKS[number][1:] for number in range(1,7)},
     **{f"g10-fn-{number:02}":GRADE10_FN_BANKS[number][1:] for number in range(1,8)},
     **{f"g10-stat-{number:02}":GRADE10_STAT_BANKS[number][1:] for number in range(1,7)},

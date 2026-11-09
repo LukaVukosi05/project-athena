@@ -1,0 +1,823 @@
+{
+  "source": "grade11-ei-lesson-05.md",
+  "worked": [
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² + 3x + 5 and y = -1x + 2.",
+      "answer": "(-3; 5) and (-1; 3)",
+      "actions": [
+        "At an intersection the y-values are equal: x² + 3x + 5 = -1x + 2.",
+        "Subtract the line from both sides to preserve equality: x² + 4x + 3 = 0.",
+        "Factor (x + 3)(x + 1) = 0, so x = -3 or x = -1.",
+        "Use the straight line y = -1x + 2: y(-3) = 5 and y(-1) = 3.",
+        "Answer: (-3; 5) and (-1; 3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-3; 5) and (-1; 3). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "foundation",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": 3,
+          "c": 5,
+          "m": -1,
+          "d": 2
+        }
+      },
+      "id": "g11-ei-l05-w01"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² + 2x + 3 and y = 0x + 3.",
+      "answer": "(-2; 3) and (0; 3)",
+      "actions": [
+        "At an intersection the y-values are equal: x² + 2x + 3 = 0x + 3.",
+        "Subtract the line from both sides to preserve equality: x² + 2x = 0.",
+        "Factor (x + 2)(x − 0) = 0, so x = -2 or x = 0.",
+        "Use the straight line y = 0x + 3: y(-2) = 3 and y(0) = 3.",
+        "Answer: (-2; 3) and (0; 3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-2; 3) and (0; 3). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "foundation",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": 2,
+          "c": 3,
+          "m": 0,
+          "d": 3
+        }
+      },
+      "id": "g11-ei-l05-w02"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² − 1 and y = 1x + 1.",
+      "answer": "(-1; 0) and (2; 3)",
+      "actions": [
+        "At an intersection the y-values are equal: x² − 1 = 1x + 1.",
+        "Subtract the line from both sides to preserve equality: x² − 1x − 2 = 0.",
+        "Factor (x + 1)(x − 2) = 0, so x = -1 or x = 2.",
+        "Use the straight line y = 1x + 1: y(-1) = 0 and y(2) = 3.",
+        "Answer: (-1; 0) and (2; 3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-1; 0) and (2; 3). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": 0,
+          "c": -1,
+          "m": 1,
+          "d": 1
+        }
+      },
+      "id": "g11-ei-l05-w03"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² − 1x + 2 and y = 2x + 2.",
+      "answer": "(0; 2) and (3; 8)",
+      "actions": [
+        "At an intersection the y-values are equal: x² − 1x + 2 = 2x + 2.",
+        "Subtract the line from both sides to preserve equality: x² − 3x = 0.",
+        "Factor (x − 0)(x − 3) = 0, so x = 0 or x = 3.",
+        "Use the straight line y = 2x + 2: y(0) = 2 and y(3) = 8.",
+        "Answer: (0; 2) and (3; 8). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (0; 2) and (3; 8). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": -1,
+          "c": 2,
+          "m": 2,
+          "d": 2
+        }
+      },
+      "id": "g11-ei-l05-w04"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² − 7x + 7 and y = -2x + 3.",
+      "answer": "(1; 1) and (4; -5)",
+      "actions": [
+        "At an intersection the y-values are equal: x² − 7x + 7 = -2x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 5x + 4 = 0.",
+        "Factor (x − 1)(x − 4) = 0, so x = 1 or x = 4.",
+        "Use the straight line y = -2x + 3: y(1) = 1 and y(4) = -5.",
+        "Answer: (1; 1) and (4; -5). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (1; 1) and (4; -5). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": -7,
+          "c": 7,
+          "m": -2,
+          "d": 3
+        }
+      },
+      "id": "g11-ei-l05-w05"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² − 9x + 13 and y = -1x + 1.",
+      "answer": "(2; -1) and (6; -5)",
+      "actions": [
+        "At an intersection the y-values are equal: x² − 9x + 13 = -1x + 1.",
+        "Subtract the line from both sides to preserve equality: x² − 8x + 12 = 0.",
+        "Factor (x − 2)(x − 6) = 0, so x = 2 or x = 6.",
+        "Use the straight line y = -1x + 1: y(2) = -1 and y(6) = -5.",
+        "Answer: (2; -1) and (6; -5). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (2; -1) and (6; -5). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": -9,
+          "c": 13,
+          "m": -1,
+          "d": 1
+        }
+      },
+      "id": "g11-ei-l05-w06"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² + 4x + 2 and y = 0x + 2.",
+      "answer": "(-4; 2) and (0; 2)",
+      "actions": [
+        "At an intersection the y-values are equal: x² + 4x + 2 = 0x + 2.",
+        "Subtract the line from both sides to preserve equality: x² + 4x = 0.",
+        "Factor (x + 4)(x − 0) = 0, so x = -4 or x = 0.",
+        "Use the straight line y = 0x + 2: y(-4) = 2 and y(0) = 2.",
+        "Answer: (-4; 2) and (0; 2). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-4; 2) and (0; 2). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": 4,
+          "c": 2,
+          "m": 0,
+          "d": 2
+        }
+      },
+      "id": "g11-ei-l05-w07"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² + 3x and y = 1x + 3.",
+      "answer": "(-3; 0) and (1; 4)",
+      "actions": [
+        "At an intersection the y-values are equal: x² + 3x = 1x + 3.",
+        "Subtract the line from both sides to preserve equality: x² + 2x − 3 = 0.",
+        "Factor (x + 3)(x − 1) = 0, so x = -3 or x = 1.",
+        "Use the straight line y = 1x + 3: y(-3) = 0 and y(1) = 4.",
+        "Answer: (-3; 0) and (1; 4). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-3; 0) and (1; 4). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": 3,
+          "c": 0,
+          "m": 1,
+          "d": 3
+        }
+      },
+      "id": "g11-ei-l05-w08"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² + 1x − 5 and y = 2x + 1.",
+      "answer": "(-2; -3) and (3; 7)",
+      "actions": [
+        "At an intersection the y-values are equal: x² + 1x − 5 = 2x + 1.",
+        "Subtract the line from both sides to preserve equality: x² − 1x − 6 = 0.",
+        "Factor (x + 2)(x − 3) = 0, so x = -2 or x = 3.",
+        "Use the straight line y = 2x + 1: y(-2) = -3 and y(3) = 7.",
+        "Answer: (-2; -3) and (3; 7). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-2; -3) and (3; 7). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": 1,
+          "c": -5,
+          "m": 2,
+          "d": 1
+        }
+      },
+      "id": "g11-ei-l05-w09"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² − 5x − 2 and y = -2x + 2.",
+      "answer": "(-1; 4) and (4; -6)",
+      "actions": [
+        "At an intersection the y-values are equal: x² − 5x − 2 = -2x + 2.",
+        "Subtract the line from both sides to preserve equality: x² − 3x − 4 = 0.",
+        "Factor (x + 1)(x − 4) = 0, so x = -1 or x = 4.",
+        "Use the straight line y = -2x + 2: y(-1) = 4 and y(4) = -6.",
+        "Answer: (-1; 4) and (4; -6). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-1; 4) and (4; -6). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": -5,
+          "c": -2,
+          "m": -2,
+          "d": 2
+        }
+      },
+      "id": "g11-ei-l05-w10"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² − 6x + 3 and y = -1x + 3.",
+      "answer": "(0; 3) and (5; -2)",
+      "actions": [
+        "At an intersection the y-values are equal: x² − 6x + 3 = -1x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 5x = 0.",
+        "Factor (x − 0)(x − 5) = 0, so x = 0 or x = 5.",
+        "Use the straight line y = -1x + 3: y(0) = 3 and y(5) = -2.",
+        "Answer: (0; 3) and (5; -2). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (0; 3) and (5; -2). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": -6,
+          "c": 3,
+          "m": -1,
+          "d": 3
+        }
+      },
+      "id": "g11-ei-l05-w11"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² − 8x + 8 and y = 0x + 1.",
+      "answer": "(1; 1) and (7; 1)",
+      "actions": [
+        "At an intersection the y-values are equal: x² − 8x + 8 = 0x + 1.",
+        "Subtract the line from both sides to preserve equality: x² − 8x + 7 = 0.",
+        "Factor (x − 1)(x − 7) = 0, so x = 1 or x = 7.",
+        "Use the straight line y = 0x + 1: y(1) = 1 and y(7) = 1.",
+        "Answer: (1; 1) and (7; 1). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (1; 1) and (7; 1). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": -8,
+          "c": 8,
+          "m": 0,
+          "d": 1
+        }
+      },
+      "id": "g11-ei-l05-w12"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² − 9x + 18 and y = 1x + 2.",
+      "answer": "(2; 4) and (8; 10)",
+      "actions": [
+        "At an intersection the y-values are equal: x² − 9x + 18 = 1x + 2.",
+        "Subtract the line from both sides to preserve equality: x² − 10x + 16 = 0.",
+        "Factor (x − 2)(x − 8) = 0, so x = 2 or x = 8.",
+        "Use the straight line y = 1x + 2: y(2) = 4 and y(8) = 10.",
+        "Answer: (2; 4) and (8; 10). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (2; 4) and (8; 10). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": -9,
+          "c": 18,
+          "m": 1,
+          "d": 2
+        }
+      },
+      "id": "g11-ei-l05-w13"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² + 4x − 5 and y = 2x + 3.",
+      "answer": "(-4; -5) and (2; 7)",
+      "actions": [
+        "At an intersection the y-values are equal: x² + 4x − 5 = 2x + 3.",
+        "Subtract the line from both sides to preserve equality: x² + 2x − 8 = 0.",
+        "Factor (x + 4)(x − 2) = 0, so x = -4 or x = 2.",
+        "Use the straight line y = 2x + 3: y(-4) = -5 and y(2) = 7.",
+        "Answer: (-4; -5) and (2; 7). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-4; -5) and (2; 7). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": 4,
+          "c": -5,
+          "m": 2,
+          "d": 3
+        }
+      },
+      "id": "g11-ei-l05-w14"
+    },
+    {
+      "lesson": 5,
+      "problem": "Find both intersections of y = x² − 3x − 11 and y = -2x + 1.",
+      "answer": "(-3; 7) and (4; -7)",
+      "actions": [
+        "At an intersection the y-values are equal: x² − 3x − 11 = -2x + 1.",
+        "Subtract the line from both sides to preserve equality: x² − 1x − 12 = 0.",
+        "Factor (x + 3)(x − 4) = 0, so x = -3 or x = 4.",
+        "Use the straight line y = -2x + 1: y(-3) = 7 and y(4) = -7.",
+        "Answer: (-3; 7) and (4; -7). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "check": "Answer: (-3; 7) and (4; -7). Substitute both ordered pairs into BOTH original equations.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "intersection",
+          "b": -3,
+          "c": -11,
+          "m": -2,
+          "d": 1
+        }
+      },
+      "id": "g11-ei-l05-w15"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-ei-l05-p01",
+      "prompt": "Find both intersections of y = x² − 2 and y = 2x + 1.",
+      "options": [
+        "x = -1 or x = 3",
+        "(1; -1) and (-3; 7)",
+        "(-1; -1) and (3; 7)",
+        "(-1; 7) and (3; -1)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 2 = 2x + 1.",
+        "Subtract the line from both sides to preserve equality: x² − 2x − 3 = 0.",
+        "Factor (x + 1)(x − 3) = 0, so x = -1 or x = 3.",
+        "Use the straight line y = 2x + 1: y(-1) = -1 and y(3) = 7.",
+        "Answer: (-1; -1) and (3; 7). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 2 = 2x + 1. Subtract the line from both sides to preserve equality: x² − 2x − 3 = 0. Factor (x + 1)(x − 3) = 0, so x = -1 or x = 3. Use the straight line y = 2x + 1: y(-1) = -1 and y(3) = 7. Answer: (-1; -1) and (3; 7). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p02",
+      "prompt": "Find both intersections of y = x² − 6x + 2 and y = -2x + 2.",
+      "options": [
+        "(0; 2) and (-4; -6)",
+        "(0; 2) and (4; -6)",
+        "(0; -6) and (4; 2)",
+        "x = 0 or x = 4"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 6x + 2 = -2x + 2.",
+        "Subtract the line from both sides to preserve equality: x² − 4x = 0.",
+        "Factor (x − 0)(x − 4) = 0, so x = 0 or x = 4.",
+        "Use the straight line y = -2x + 2: y(0) = 2 and y(4) = -6.",
+        "Answer: (0; 2) and (4; -6). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 6x + 2 = -2x + 2. Subtract the line from both sides to preserve equality: x² − 4x = 0. Factor (x − 0)(x − 4) = 0, so x = 0 or x = 4. Use the straight line y = -2x + 2: y(0) = 2 and y(4) = -6. Answer: (0; 2) and (4; -6). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p03",
+      "prompt": "Find both intersections of y = x² − 7x + 8 and y = -1x + 3.",
+      "options": [
+        "(1; 2) and (5; -2)",
+        "(1; -2) and (5; 2)",
+        "x = 1 or x = 5",
+        "(-1; 2) and (-5; -2)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 7x + 8 = -1x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 6x + 5 = 0.",
+        "Factor (x − 1)(x − 5) = 0, so x = 1 or x = 5.",
+        "Use the straight line y = -1x + 3: y(1) = 2 and y(5) = -2.",
+        "Answer: (1; 2) and (5; -2). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 7x + 8 = -1x + 3. Subtract the line from both sides to preserve equality: x² − 6x + 5 = 0. Factor (x − 1)(x − 5) = 0, so x = 1 or x = 5. Use the straight line y = -1x + 3: y(1) = 2 and y(5) = -2. Answer: (1; 2) and (5; -2). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p04",
+      "prompt": "Find both intersections of y = x² − 9x + 15 and y = 0x + 1.",
+      "options": [
+        "x = 2 or x = 7",
+        "(-2; 1) and (-7; 1)",
+        "(2; 1) and (7; 1) (incorrect 1)",
+        "(2; 1) and (7; 1)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 9x + 15 = 0x + 1.",
+        "Subtract the line from both sides to preserve equality: x² − 9x + 14 = 0.",
+        "Factor (x − 2)(x − 7) = 0, so x = 2 or x = 7.",
+        "Use the straight line y = 0x + 1: y(2) = 1 and y(7) = 1.",
+        "Answer: (2; 1) and (7; 1). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 9x + 15 = 0x + 1. Subtract the line from both sides to preserve equality: x² − 9x + 14 = 0. Factor (x − 2)(x − 7) = 0, so x = 2 or x = 7. Use the straight line y = 0x + 1: y(2) = 1 and y(7) = 1. Answer: (2; 1) and (7; 1). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p05",
+      "prompt": "Find both intersections of y = x² + 4x − 2 and y = 1x + 2.",
+      "options": [
+        "x = -4 or x = 1",
+        "(4; -2) and (-1; 3)",
+        "(-4; -2) and (1; 3)",
+        "(-4; 3) and (1; -2)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "At an intersection the y-values are equal: x² + 4x − 2 = 1x + 2.",
+        "Subtract the line from both sides to preserve equality: x² + 3x − 4 = 0.",
+        "Factor (x + 4)(x − 1) = 0, so x = -4 or x = 1.",
+        "Use the straight line y = 1x + 2: y(-4) = -2 and y(1) = 3.",
+        "Answer: (-4; -2) and (1; 3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² + 4x − 2 = 1x + 2. Subtract the line from both sides to preserve equality: x² + 3x − 4 = 0. Factor (x + 4)(x − 1) = 0, so x = -4 or x = 1. Use the straight line y = 1x + 2: y(-4) = -2 and y(1) = 3. Answer: (-4; -2) and (1; 3). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p06",
+      "prompt": "Find both intersections of y = x² + 3x − 3 and y = 2x + 3.",
+      "options": [
+        "(3; -3) and (-2; 7)",
+        "(-3; -3) and (2; 7)",
+        "(-3; 7) and (2; -3)",
+        "x = -3 or x = 2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "At an intersection the y-values are equal: x² + 3x − 3 = 2x + 3.",
+        "Subtract the line from both sides to preserve equality: x² + 1x − 6 = 0.",
+        "Factor (x + 3)(x − 2) = 0, so x = -3 or x = 2.",
+        "Use the straight line y = 2x + 3: y(-3) = -3 and y(2) = 7.",
+        "Answer: (-3; -3) and (2; 7). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² + 3x − 3 = 2x + 3. Subtract the line from both sides to preserve equality: x² + 1x − 6 = 0. Factor (x + 3)(x − 2) = 0, so x = -3 or x = 2. Use the straight line y = 2x + 3: y(-3) = -3 and y(2) = 7. Answer: (-3; -3) and (2; 7). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p07",
+      "prompt": "Find both intersections of y = x² − 4x − 7 and y = -2x + 1.",
+      "options": [
+        "(-2; 5) and (4; -7)",
+        "(-2; -7) and (4; 5)",
+        "x = -2 or x = 4",
+        "(2; 5) and (-4; -7)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 4x − 7 = -2x + 1.",
+        "Subtract the line from both sides to preserve equality: x² − 2x − 8 = 0.",
+        "Factor (x + 2)(x − 4) = 0, so x = -2 or x = 4.",
+        "Use the straight line y = -2x + 1: y(-2) = 5 and y(4) = -7.",
+        "Answer: (-2; 5) and (4; -7). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 4x − 7 = -2x + 1. Subtract the line from both sides to preserve equality: x² − 2x − 8 = 0. Factor (x + 2)(x − 4) = 0, so x = -2 or x = 4. Use the straight line y = -2x + 1: y(-2) = 5 and y(4) = -7. Answer: (-2; 5) and (4; -7). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p08",
+      "prompt": "Find both intersections of y = x² − 5x − 3 and y = -1x + 2.",
+      "options": [
+        "(-1; -3) and (5; 3)",
+        "x = -1 or x = 5",
+        "(1; 3) and (-5; -3)",
+        "(-1; 3) and (5; -3)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 5x − 3 = -1x + 2.",
+        "Subtract the line from both sides to preserve equality: x² − 4x − 5 = 0.",
+        "Factor (x + 1)(x − 5) = 0, so x = -1 or x = 5.",
+        "Use the straight line y = -1x + 2: y(-1) = 3 and y(5) = -3.",
+        "Answer: (-1; 3) and (5; -3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 5x − 3 = -1x + 2. Subtract the line from both sides to preserve equality: x² − 4x − 5 = 0. Factor (x + 1)(x − 5) = 0, so x = -1 or x = 5. Use the straight line y = -1x + 2: y(-1) = 3 and y(5) = -3. Answer: (-1; 3) and (5; -3). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p09",
+      "prompt": "Find both intersections of y = x² − 6x + 3 and y = 0x + 3.",
+      "options": [
+        "(0; 3) and (-6; 3)",
+        "(0; 3) and (6; 3) (incorrect 1)",
+        "(0; 3) and (6; 3)",
+        "x = 0 or x = 6"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 6x + 3 = 0x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 6x = 0.",
+        "Factor (x − 0)(x − 6) = 0, so x = 0 or x = 6.",
+        "Use the straight line y = 0x + 3: y(0) = 3 and y(6) = 3.",
+        "Answer: (0; 3) and (6; 3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 6x + 3 = 0x + 3. Subtract the line from both sides to preserve equality: x² − 6x = 0. Factor (x − 0)(x − 6) = 0, so x = 0 or x = 6. Use the straight line y = 0x + 3: y(0) = 3 and y(6) = 3. Answer: (0; 3) and (6; 3). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p10",
+      "prompt": "Find both intersections of y = x² − 8x + 9 and y = 1x + 1.",
+      "options": [
+        "(-1; 2) and (-8; 9)",
+        "(1; 2) and (8; 9)",
+        "(1; 9) and (8; 2)",
+        "x = 1 or x = 8"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 8x + 9 = 1x + 1.",
+        "Subtract the line from both sides to preserve equality: x² − 9x + 8 = 0.",
+        "Factor (x − 1)(x − 8) = 0, so x = 1 or x = 8.",
+        "Use the straight line y = 1x + 1: y(1) = 2 and y(8) = 9.",
+        "Answer: (1; 2) and (8; 9). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 8x + 9 = 1x + 1. Subtract the line from both sides to preserve equality: x² − 9x + 8 = 0. Factor (x − 1)(x − 8) = 0, so x = 1 or x = 8. Use the straight line y = 1x + 1: y(1) = 2 and y(8) = 9. Answer: (1; 2) and (8; 9). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p11",
+      "prompt": "Find both intersections of y = x² − 9x + 20 and y = 2x + 2.",
+      "options": [
+        "(2; 6) and (9; 20)",
+        "(2; 20) and (9; 6)",
+        "x = 2 or x = 9",
+        "(-2; 6) and (-9; 20)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 9x + 20 = 2x + 2.",
+        "Subtract the line from both sides to preserve equality: x² − 11x + 18 = 0.",
+        "Factor (x − 2)(x − 9) = 0, so x = 2 or x = 9.",
+        "Use the straight line y = 2x + 2: y(2) = 6 and y(9) = 20.",
+        "Answer: (2; 6) and (9; 20). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 9x + 20 = 2x + 2. Subtract the line from both sides to preserve equality: x² − 11x + 18 = 0. Factor (x − 2)(x − 9) = 0, so x = 2 or x = 9. Use the straight line y = 2x + 2: y(2) = 6 and y(9) = 20. Answer: (2; 6) and (9; 20). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p12",
+      "prompt": "Find both intersections of y = x² − 1x − 9 and y = -2x + 3.",
+      "options": [
+        "(-4; -3) and (3; 11)",
+        "x = -4 or x = 3",
+        "(4; 11) and (-3; -3)",
+        "(-4; 11) and (3; -3)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 1x − 9 = -2x + 3.",
+        "Subtract the line from both sides to preserve equality: x² + 1x − 12 = 0.",
+        "Factor (x + 4)(x − 3) = 0, so x = -4 or x = 3.",
+        "Use the straight line y = -2x + 3: y(-4) = 11 and y(3) = -3.",
+        "Answer: (-4; 11) and (3; -3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 1x − 9 = -2x + 3. Subtract the line from both sides to preserve equality: x² + 1x − 12 = 0. Factor (x + 4)(x − 3) = 0, so x = -4 or x = 3. Use the straight line y = -2x + 3: y(-4) = 11 and y(3) = -3. Answer: (-4; 11) and (3; -3). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p13",
+      "prompt": "Find both intersections of y = x² + 3x + 4 and y = -1x + 1.",
+      "options": [
+        "x = -3 or x = -1",
+        "(3; 4) and (1; 2)",
+        "(-3; 4) and (-1; 2)",
+        "(-3; 2) and (-1; 4)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "At an intersection the y-values are equal: x² + 3x + 4 = -1x + 1.",
+        "Subtract the line from both sides to preserve equality: x² + 4x + 3 = 0.",
+        "Factor (x + 3)(x + 1) = 0, so x = -3 or x = -1.",
+        "Use the straight line y = -1x + 1: y(-3) = 4 and y(-1) = 2.",
+        "Answer: (-3; 4) and (-1; 2). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² + 3x + 4 = -1x + 1. Subtract the line from both sides to preserve equality: x² + 4x + 3 = 0. Factor (x + 3)(x + 1) = 0, so x = -3 or x = -1. Use the straight line y = -1x + 1: y(-3) = 4 and y(-1) = 2. Answer: (-3; 4) and (-1; 2). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p14",
+      "prompt": "Find both intersections of y = x² + 2x + 2 and y = 0x + 2.",
+      "options": [
+        "(-2; 2) and (0; 2) (incorrect 1)",
+        "(-2; 2) and (0; 2)",
+        "x = -2 or x = 0",
+        "(2; 2) and (0; 2)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "At an intersection the y-values are equal: x² + 2x + 2 = 0x + 2.",
+        "Subtract the line from both sides to preserve equality: x² + 2x = 0.",
+        "Factor (x + 2)(x − 0) = 0, so x = -2 or x = 0.",
+        "Use the straight line y = 0x + 2: y(-2) = 2 and y(0) = 2.",
+        "Answer: (-2; 2) and (0; 2). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² + 2x + 2 = 0x + 2. Subtract the line from both sides to preserve equality: x² + 2x = 0. Factor (x + 2)(x − 0) = 0, so x = -2 or x = 0. Use the straight line y = 0x + 2: y(-2) = 2 and y(0) = 2. Answer: (-2; 2) and (0; 2). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-p15",
+      "prompt": "Find both intersections of y = x² + 1x + 2 and y = 1x + 3.",
+      "options": [
+        "(-1; 2) and (1; 4)",
+        "(-1; 4) and (1; 2)",
+        "x = -1 or x = 1",
+        "(1; 2) and (-1; 4)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "At an intersection the y-values are equal: x² + 1x + 2 = 1x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 1 = 0.",
+        "Factor (x + 1)(x − 1) = 0, so x = -1 or x = 1.",
+        "Use the straight line y = 1x + 3: y(-1) = 2 and y(1) = 4.",
+        "Answer: (-1; 2) and (1; 4). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² + 1x + 2 = 1x + 3. Subtract the line from both sides to preserve equality: x² − 1 = 0. Factor (x + 1)(x − 1) = 0, so x = -1 or x = 1. Use the straight line y = 1x + 3: y(-1) = 2 and y(1) = 4. Answer: (-1; 2) and (1; 4). Substitute both ordered pairs into BOTH original equations."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-ei-l05-m01",
+      "prompt": "Find both intersections of y = x² − 7x + 9 and y = 0x + 3.",
+      "options": [
+        "(1; 3) and (6; 3) (incorrect 1)",
+        "(1; 3) and (6; 3)",
+        "x = 1 or x = 6",
+        "(-1; 3) and (-6; 3)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 7x + 9 = 0x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 7x + 6 = 0.",
+        "Factor (x − 1)(x − 6) = 0, so x = 1 or x = 6.",
+        "Use the straight line y = 0x + 3: y(1) = 3 and y(6) = 3.",
+        "Answer: (1; 3) and (6; 3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 7x + 9 = 0x + 3. Subtract the line from both sides to preserve equality: x² − 7x + 6 = 0. Factor (x − 1)(x − 6) = 0, so x = 1 or x = 6. Use the straight line y = 0x + 3: y(1) = 3 and y(6) = 3. Answer: (1; 3) and (6; 3). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-m02",
+      "prompt": "Find both intersections of y = x² − 9x + 17 and y = 1x + 1.",
+      "options": [
+        "(2; 3) and (8; 9)",
+        "(2; 9) and (8; 3)",
+        "x = 2 or x = 8",
+        "(-2; 3) and (-8; 9)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 9x + 17 = 1x + 1.",
+        "Subtract the line from both sides to preserve equality: x² − 10x + 16 = 0.",
+        "Factor (x − 2)(x − 8) = 0, so x = 2 or x = 8.",
+        "Use the straight line y = 1x + 1: y(2) = 3 and y(8) = 9.",
+        "Answer: (2; 3) and (8; 9). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 9x + 17 = 1x + 1. Subtract the line from both sides to preserve equality: x² − 10x + 16 = 0. Factor (x − 2)(x − 8) = 0, so x = 2 or x = 8. Use the straight line y = 1x + 1: y(2) = 3 and y(8) = 9. Answer: (2; 3) and (8; 9). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-m03",
+      "prompt": "Find both intersections of y = x² + 4x − 6 and y = 2x + 2.",
+      "options": [
+        "(-4; 6) and (2; -6)",
+        "x = -4 or x = 2",
+        "(4; -6) and (-2; 6)",
+        "(-4; -6) and (2; 6)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "At an intersection the y-values are equal: x² + 4x − 6 = 2x + 2.",
+        "Subtract the line from both sides to preserve equality: x² + 2x − 8 = 0.",
+        "Factor (x + 4)(x − 2) = 0, so x = -4 or x = 2.",
+        "Use the straight line y = 2x + 2: y(-4) = -6 and y(2) = 6.",
+        "Answer: (-4; -6) and (2; 6). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² + 4x − 6 = 2x + 2. Subtract the line from both sides to preserve equality: x² + 2x − 8 = 0. Factor (x + 4)(x − 2) = 0, so x = -4 or x = 2. Use the straight line y = 2x + 2: y(-4) = -6 and y(2) = 6. Answer: (-4; -6) and (2; 6). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-m04",
+      "prompt": "Find both intersections of y = x² − 2x − 6 and y = -2x + 3.",
+      "options": [
+        "x = -3 or x = 3",
+        "(3; 9) and (-3; -3)",
+        "(-3; 9) and (3; -3)",
+        "(-3; -3) and (3; 9)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 2x − 6 = -2x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 9 = 0.",
+        "Factor (x + 3)(x − 3) = 0, so x = -3 or x = 3.",
+        "Use the straight line y = -2x + 3: y(-3) = 9 and y(3) = -3.",
+        "Answer: (-3; 9) and (3; -3). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 2x − 6 = -2x + 3. Subtract the line from both sides to preserve equality: x² − 9 = 0. Factor (x + 3)(x − 3) = 0, so x = -3 or x = 3. Use the straight line y = -2x + 3: y(-3) = 9 and y(3) = -3. Answer: (-3; 9) and (3; -3). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-m05",
+      "prompt": "Find both intersections of y = x² − 4x − 9 and y = -1x + 1.",
+      "options": [
+        "(2; 3) and (-5; -4)",
+        "(-2; 3) and (5; -4)",
+        "(-2; -4) and (5; 3)",
+        "x = -2 or x = 5"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 4x − 9 = -1x + 1.",
+        "Subtract the line from both sides to preserve equality: x² − 3x − 10 = 0.",
+        "Factor (x + 2)(x − 5) = 0, so x = -2 or x = 5.",
+        "Use the straight line y = -1x + 1: y(-2) = 3 and y(5) = -4.",
+        "Answer: (-2; 3) and (5; -4). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 4x − 9 = -1x + 1. Subtract the line from both sides to preserve equality: x² − 3x − 10 = 0. Factor (x + 2)(x − 5) = 0, so x = -2 or x = 5. Use the straight line y = -1x + 1: y(-2) = 3 and y(5) = -4. Answer: (-2; 3) and (5; -4). Substitute both ordered pairs into BOTH original equations."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-ei-l05-r01",
+      "prompt": "Find both intersections of y = x² − 1x − 10 and y = -2x + 2.",
+      "options": [
+        "(-4; 10) and (3; -4)",
+        "(-4; -4) and (3; 10)",
+        "x = -4 or x = 3",
+        "(4; 10) and (-3; -4)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 1x − 10 = -2x + 2.",
+        "Subtract the line from both sides to preserve equality: x² + 1x − 12 = 0.",
+        "Factor (x + 4)(x − 3) = 0, so x = -4 or x = 3.",
+        "Use the straight line y = -2x + 2: y(-4) = 10 and y(3) = -4.",
+        "Answer: (-4; 10) and (3; -4). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 1x − 10 = -2x + 2. Subtract the line from both sides to preserve equality: x² + 1x − 12 = 0. Factor (x + 4)(x − 3) = 0, so x = -4 or x = 3. Use the straight line y = -2x + 2: y(-4) = 10 and y(3) = -4. Answer: (-4; 10) and (3; -4). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-r02",
+      "prompt": "Find both intersections of y = x² − 2x − 9 and y = -1x + 3.",
+      "options": [
+        "(-3; -1) and (4; 6)",
+        "x = -3 or x = 4",
+        "(3; 6) and (-4; -1)",
+        "(-3; 6) and (4; -1)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "At an intersection the y-values are equal: x² − 2x − 9 = -1x + 3.",
+        "Subtract the line from both sides to preserve equality: x² − 1x − 12 = 0.",
+        "Factor (x + 3)(x − 4) = 0, so x = -3 or x = 4.",
+        "Use the straight line y = -1x + 3: y(-3) = 6 and y(4) = -1.",
+        "Answer: (-3; 6) and (4; -1). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² − 2x − 9 = -1x + 3. Subtract the line from both sides to preserve equality: x² − 1x − 12 = 0. Factor (x + 3)(x − 4) = 0, so x = -3 or x = 4. Use the straight line y = -1x + 3: y(-3) = 6 and y(4) = -1. Answer: (-3; 6) and (4; -1). Substitute both ordered pairs into BOTH original equations."
+    },
+    {
+      "id": "g11-ei-l05-r03",
+      "prompt": "Find both intersections of y = x² + 2x + 1 and y = 0x + 1.",
+      "options": [
+        "(2; 1) and (0; 1)",
+        "(-2; 1) and (0; 1) (incorrect 1)",
+        "(-2; 1) and (0; 1)",
+        "x = -2 or x = 0"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "At an intersection the y-values are equal: x² + 2x + 1 = 0x + 1.",
+        "Subtract the line from both sides to preserve equality: x² + 2x = 0.",
+        "Factor (x + 2)(x − 0) = 0, so x = -2 or x = 0.",
+        "Use the straight line y = 0x + 1: y(-2) = 1 and y(0) = 1.",
+        "Answer: (-2; 1) and (0; 1). Substitute both ordered pairs into BOTH original equations."
+      ],
+      "memo": "At an intersection the y-values are equal: x² + 2x + 1 = 0x + 1. Subtract the line from both sides to preserve equality: x² + 2x = 0. Factor (x + 2)(x − 0) = 0, so x = -2 or x = 0. Use the straight line y = 0x + 1: y(-2) = 1 and y(0) = 1. Answer: (-2; 1) and (0; 1). Substitute both ordered pairs into BOTH original equations."
+    }
+  ]
+}

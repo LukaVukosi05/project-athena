@@ -1,0 +1,16 @@
+.g11-ei-board {color:#17344b;width:100%;min-width:0}
+.g11-ei-board>p:first-child {font-weight:650;line-height:1.8}
+.g11-ei-model {width:100%;overflow:hidden}
+.g11-ei-model svg {width:100%;height:auto;max-height:330px;display:block}
+.g11-ei-axis {stroke:#687d91;stroke-width:1.5}
+.g11-ei-label {fill:#123650;font-size:14px;font-weight:600}
+.g11-ei-curve {fill:#127f8b}
+.g11-ei-straight {stroke:#d27a25;stroke-width:2.5}
+.g11-ei-root,.g11-ei-closed {fill:#d27a25}
+.g11-ei-open {fill:white;stroke:#d27a25;stroke-width:2}
+.g11-ei-region {stroke:#d27a25;stroke-width:6;stroke-linecap:round}
+.g11-ei-area {fill:#d5eaf0;stroke:#087d91;stroke-width:2}
+.g11-ei-add {fill:#d2f3e6;stroke:#087d91;stroke-width:2}
+.g11-ei-corner {fill:#ffedbb;stroke:#087d91;stroke-width:2}
+.g11-ei-board [data-object-id="operation"] {color:#175b63}
+.g11-ei-board [data-object-id="verification"] {color:#08664a;font-weight:700}

@@ -1,0 +1,793 @@
+{
+  "source": "grade11-ei-lesson-01.md",
+  "worked": [
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 6x + 6 and state its turning point.",
+      "answer": "(-3; -3)",
+      "actions": [
+        "Half the coefficient of x: 6 ÷ 2 = 3. The square will use (x + 3).",
+        "Square the half-coefficient: (3)² = 9. Add and subtract this amount.",
+        "f(x) = (x + 3)² − 3.",
+        "The square is smallest when x = -3, so the turning point is (-3; -3).",
+        "Answer: (-3; -3). Expand (x + 3)² − 3 to recover x² + 6x + 6."
+      ],
+      "check": "Answer: (-3; -3). Expand (x + 3)² − 3 to recover x² + 6x + 6.",
+      "difficulty": "foundation",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 6,
+          "c": 6
+        }
+      },
+      "id": "g11-ei-l01-w01"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 8x + 14 and state its turning point.",
+      "answer": "(-4; -2)",
+      "actions": [
+        "Half the coefficient of x: 8 ÷ 2 = 4. The square will use (x + 4).",
+        "Square the half-coefficient: (4)² = 16. Add and subtract this amount.",
+        "f(x) = (x + 4)² − 2.",
+        "The square is smallest when x = -4, so the turning point is (-4; -2).",
+        "Answer: (-4; -2). Expand (x + 4)² − 2 to recover x² + 8x + 14."
+      ],
+      "check": "Answer: (-4; -2). Expand (x + 4)² − 2 to recover x² + 8x + 14.",
+      "difficulty": "foundation",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 8,
+          "c": 14
+        }
+      },
+      "id": "g11-ei-l01-w02"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 10x + 24 and state its turning point.",
+      "answer": "(-5; -1)",
+      "actions": [
+        "Half the coefficient of x: 10 ÷ 2 = 5. The square will use (x + 5).",
+        "Square the half-coefficient: (5)² = 25. Add and subtract this amount.",
+        "f(x) = (x + 5)² − 1.",
+        "The square is smallest when x = -5, so the turning point is (-5; -1).",
+        "Answer: (-5; -1). Expand (x + 5)² − 1 to recover x² + 10x + 24."
+      ],
+      "check": "Answer: (-5; -1). Expand (x + 5)² − 1 to recover x² + 10x + 24.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 10,
+          "c": 24
+        }
+      },
+      "id": "g11-ei-l01-w03"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² − 12x + 36 and state its turning point.",
+      "answer": "(6; 0)",
+      "actions": [
+        "Half the coefficient of x: -12 ÷ 2 = -6. The square will use (x − 6).",
+        "Square the half-coefficient: (-6)² = 36. Add and subtract this amount.",
+        "f(x) = (x − 6)² + 0.",
+        "The square is smallest when x = 6, so the turning point is (6; 0).",
+        "Answer: (6; 0). Expand (x − 6)² + 0 to recover x² − 12x + 36."
+      ],
+      "check": "Answer: (6; 0). Expand (x − 6)² + 0 to recover x² − 12x + 36.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": -12,
+          "c": 36
+        }
+      },
+      "id": "g11-ei-l01-w04"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 4x + 5 and state its turning point.",
+      "answer": "(-2; 1)",
+      "actions": [
+        "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2).",
+        "Square the half-coefficient: (2)² = 4. Add and subtract this amount.",
+        "f(x) = (x + 2)² + 1.",
+        "The square is smallest when x = -2, so the turning point is (-2; 1).",
+        "Answer: (-2; 1). Expand (x + 2)² + 1 to recover x² + 4x + 5."
+      ],
+      "check": "Answer: (-2; 1). Expand (x + 2)² + 1 to recover x² + 4x + 5.",
+      "difficulty": "easy",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 4,
+          "c": 5
+        }
+      },
+      "id": "g11-ei-l01-w05"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 6x + 11 and state its turning point.",
+      "answer": "(-3; 2)",
+      "actions": [
+        "Half the coefficient of x: 6 ÷ 2 = 3. The square will use (x + 3).",
+        "Square the half-coefficient: (3)² = 9. Add and subtract this amount.",
+        "f(x) = (x + 3)² + 2.",
+        "The square is smallest when x = -3, so the turning point is (-3; 2).",
+        "Answer: (-3; 2). Expand (x + 3)² + 2 to recover x² + 6x + 11."
+      ],
+      "check": "Answer: (-3; 2). Expand (x + 3)² + 2 to recover x² + 6x + 11.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 6,
+          "c": 11
+        }
+      },
+      "id": "g11-ei-l01-w06"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 8x + 19 and state its turning point.",
+      "answer": "(-4; 3)",
+      "actions": [
+        "Half the coefficient of x: 8 ÷ 2 = 4. The square will use (x + 4).",
+        "Square the half-coefficient: (4)² = 16. Add and subtract this amount.",
+        "f(x) = (x + 4)² + 3.",
+        "The square is smallest when x = -4, so the turning point is (-4; 3).",
+        "Answer: (-4; 3). Expand (x + 4)² + 3 to recover x² + 8x + 19."
+      ],
+      "check": "Answer: (-4; 3). Expand (x + 4)² + 3 to recover x² + 8x + 19.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 8,
+          "c": 19
+        }
+      },
+      "id": "g11-ei-l01-w07"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² − 10x + 29 and state its turning point.",
+      "answer": "(5; 4)",
+      "actions": [
+        "Half the coefficient of x: -10 ÷ 2 = -5. The square will use (x − 5).",
+        "Square the half-coefficient: (-5)² = 25. Add and subtract this amount.",
+        "f(x) = (x − 5)² + 4.",
+        "The square is smallest when x = 5, so the turning point is (5; 4).",
+        "Answer: (5; 4). Expand (x − 5)² + 4 to recover x² − 10x + 29."
+      ],
+      "check": "Answer: (5; 4). Expand (x − 5)² + 4 to recover x² − 10x + 29.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": -10,
+          "c": 29
+        }
+      },
+      "id": "g11-ei-l01-w08"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 12x + 32 and state its turning point.",
+      "answer": "(-6; -4)",
+      "actions": [
+        "Half the coefficient of x: 12 ÷ 2 = 6. The square will use (x + 6).",
+        "Square the half-coefficient: (6)² = 36. Add and subtract this amount.",
+        "f(x) = (x + 6)² − 4.",
+        "The square is smallest when x = -6, so the turning point is (-6; -4).",
+        "Answer: (-6; -4). Expand (x + 6)² − 4 to recover x² + 12x + 32."
+      ],
+      "check": "Answer: (-6; -4). Expand (x + 6)² − 4 to recover x² + 12x + 32.",
+      "difficulty": "standard",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 12,
+          "c": 32
+        }
+      },
+      "id": "g11-ei-l01-w09"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 4x + 1 and state its turning point.",
+      "answer": "(-2; -3)",
+      "actions": [
+        "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2).",
+        "Square the half-coefficient: (2)² = 4. Add and subtract this amount.",
+        "f(x) = (x + 2)² − 3.",
+        "The square is smallest when x = -2, so the turning point is (-2; -3).",
+        "Answer: (-2; -3). Expand (x + 2)² − 3 to recover x² + 4x + 1."
+      ],
+      "check": "Answer: (-2; -3). Expand (x + 2)² − 3 to recover x² + 4x + 1.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 4,
+          "c": 1
+        }
+      },
+      "id": "g11-ei-l01-w10"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 6x + 7 and state its turning point.",
+      "answer": "(-3; -2)",
+      "actions": [
+        "Half the coefficient of x: 6 ÷ 2 = 3. The square will use (x + 3).",
+        "Square the half-coefficient: (3)² = 9. Add and subtract this amount.",
+        "f(x) = (x + 3)² − 2.",
+        "The square is smallest when x = -3, so the turning point is (-3; -2).",
+        "Answer: (-3; -2). Expand (x + 3)² − 2 to recover x² + 6x + 7."
+      ],
+      "check": "Answer: (-3; -2). Expand (x + 3)² − 2 to recover x² + 6x + 7.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 6,
+          "c": 7
+        }
+      },
+      "id": "g11-ei-l01-w11"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² − 8x + 15 and state its turning point.",
+      "answer": "(4; -1)",
+      "actions": [
+        "Half the coefficient of x: -8 ÷ 2 = -4. The square will use (x − 4).",
+        "Square the half-coefficient: (-4)² = 16. Add and subtract this amount.",
+        "f(x) = (x − 4)² − 1.",
+        "The square is smallest when x = 4, so the turning point is (4; -1).",
+        "Answer: (4; -1). Expand (x − 4)² − 1 to recover x² − 8x + 15."
+      ],
+      "check": "Answer: (4; -1). Expand (x − 4)² − 1 to recover x² − 8x + 15.",
+      "difficulty": "intermediate",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": -8,
+          "c": 15
+        }
+      },
+      "id": "g11-ei-l01-w12"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 10x + 25 and state its turning point.",
+      "answer": "(-5; 0)",
+      "actions": [
+        "Half the coefficient of x: 10 ÷ 2 = 5. The square will use (x + 5).",
+        "Square the half-coefficient: (5)² = 25. Add and subtract this amount.",
+        "f(x) = (x + 5)² + 0.",
+        "The square is smallest when x = -5, so the turning point is (-5; 0).",
+        "Answer: (-5; 0). Expand (x + 5)² + 0 to recover x² + 10x + 25."
+      ],
+      "check": "Answer: (-5; 0). Expand (x + 5)² + 0 to recover x² + 10x + 25.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 10,
+          "c": 25
+        }
+      },
+      "id": "g11-ei-l01-w13"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 12x + 37 and state its turning point.",
+      "answer": "(-6; 1)",
+      "actions": [
+        "Half the coefficient of x: 12 ÷ 2 = 6. The square will use (x + 6).",
+        "Square the half-coefficient: (6)² = 36. Add and subtract this amount.",
+        "f(x) = (x + 6)² + 1.",
+        "The square is smallest when x = -6, so the turning point is (-6; 1).",
+        "Answer: (-6; 1). Expand (x + 6)² + 1 to recover x² + 12x + 37."
+      ],
+      "check": "Answer: (-6; 1). Expand (x + 6)² + 1 to recover x² + 12x + 37.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 12,
+          "c": 37
+        }
+      },
+      "id": "g11-ei-l01-w14"
+    },
+    {
+      "lesson": 1,
+      "problem": "Complete the square for f(x) = x² + 4x + 6 and state its turning point.",
+      "answer": "(-2; 2)",
+      "actions": [
+        "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2).",
+        "Square the half-coefficient: (2)² = 4. Add and subtract this amount.",
+        "f(x) = (x + 2)² + 2.",
+        "The square is smallest when x = -2, so the turning point is (-2; 2).",
+        "Answer: (-2; 2). Expand (x + 2)² + 2 to recover x² + 4x + 6."
+      ],
+      "check": "Answer: (-2; 2). Expand (x + 2)² + 2 to recover x² + 4x + 6.",
+      "difficulty": "exam",
+      "visual": {
+        "family": "grade11_equations",
+        "values": {
+          "mode": "square",
+          "b": 4,
+          "c": 6
+        }
+      },
+      "id": "g11-ei-l01-w15"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-ei-l01-p01",
+      "prompt": "Complete the square for f(x) = x² − 12x + 38 and state its turning point.",
+      "options": [
+        "(6; -2)",
+        "(-6; -2)",
+        "(6; 2)",
+        "(-6; 2)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Half the coefficient of x: -12 ÷ 2 = -6. The square will use (x − 6).",
+        "Square the half-coefficient: (-6)² = 36. Add and subtract this amount.",
+        "f(x) = (x − 6)² + 2.",
+        "The square is smallest when x = 6, so the turning point is (6; 2).",
+        "Answer: (6; 2). Expand (x − 6)² + 2 to recover x² − 12x + 38."
+      ],
+      "memo": "Half the coefficient of x: -12 ÷ 2 = -6. The square will use (x − 6). Square the half-coefficient: (-6)² = 36. Add and subtract this amount. f(x) = (x − 6)² + 2. The square is smallest when x = 6, so the turning point is (6; 2). Answer: (6; 2). Expand (x − 6)² + 2 to recover x² − 12x + 38."
+    },
+    {
+      "id": "g11-ei-l01-p02",
+      "prompt": "Complete the square for f(x) = x² + 4x + 7 and state its turning point.",
+      "options": [
+        "(2; -3)",
+        "(-2; 3)",
+        "(2; 3)",
+        "(-2; -3)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2).",
+        "Square the half-coefficient: (2)² = 4. Add and subtract this amount.",
+        "f(x) = (x + 2)² + 3.",
+        "The square is smallest when x = -2, so the turning point is (-2; 3).",
+        "Answer: (-2; 3). Expand (x + 2)² + 3 to recover x² + 4x + 7."
+      ],
+      "memo": "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2). Square the half-coefficient: (2)² = 4. Add and subtract this amount. f(x) = (x + 2)² + 3. The square is smallest when x = -2, so the turning point is (-2; 3). Answer: (-2; 3). Expand (x + 2)² + 3 to recover x² + 4x + 7."
+    },
+    {
+      "id": "g11-ei-l01-p03",
+      "prompt": "Complete the square for f(x) = x² + 6x + 13 and state its turning point.",
+      "options": [
+        "(-3; 4)",
+        "(3; 4)",
+        "(-3; -4)",
+        "(3; -4)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Half the coefficient of x: 6 ÷ 2 = 3. The square will use (x + 3).",
+        "Square the half-coefficient: (3)² = 9. Add and subtract this amount.",
+        "f(x) = (x + 3)² + 4.",
+        "The square is smallest when x = -3, so the turning point is (-3; 4).",
+        "Answer: (-3; 4). Expand (x + 3)² + 4 to recover x² + 6x + 13."
+      ],
+      "memo": "Half the coefficient of x: 6 ÷ 2 = 3. The square will use (x + 3). Square the half-coefficient: (3)² = 9. Add and subtract this amount. f(x) = (x + 3)² + 4. The square is smallest when x = -3, so the turning point is (-3; 4). Answer: (-3; 4). Expand (x + 3)² + 4 to recover x² + 6x + 13."
+    },
+    {
+      "id": "g11-ei-l01-p04",
+      "prompt": "Complete the square for f(x) = x² + 8x + 12 and state its turning point.",
+      "options": [
+        "(4; -4)",
+        "(-4; 4)",
+        "(4; 4)",
+        "(-4; -4)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Half the coefficient of x: 8 ÷ 2 = 4. The square will use (x + 4).",
+        "Square the half-coefficient: (4)² = 16. Add and subtract this amount.",
+        "f(x) = (x + 4)² − 4.",
+        "The square is smallest when x = -4, so the turning point is (-4; -4).",
+        "Answer: (-4; -4). Expand (x + 4)² − 4 to recover x² + 8x + 12."
+      ],
+      "memo": "Half the coefficient of x: 8 ÷ 2 = 4. The square will use (x + 4). Square the half-coefficient: (4)² = 16. Add and subtract this amount. f(x) = (x + 4)² − 4. The square is smallest when x = -4, so the turning point is (-4; -4). Answer: (-4; -4). Expand (x + 4)² − 4 to recover x² + 8x + 12."
+    },
+    {
+      "id": "g11-ei-l01-p05",
+      "prompt": "Complete the square for f(x) = x² − 10x + 22 and state its turning point.",
+      "options": [
+        "(5; 3)",
+        "(-5; 3)",
+        "(5; -3)",
+        "(-5; -3)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Half the coefficient of x: -10 ÷ 2 = -5. The square will use (x − 5).",
+        "Square the half-coefficient: (-5)² = 25. Add and subtract this amount.",
+        "f(x) = (x − 5)² − 3.",
+        "The square is smallest when x = 5, so the turning point is (5; -3).",
+        "Answer: (5; -3). Expand (x − 5)² − 3 to recover x² − 10x + 22."
+      ],
+      "memo": "Half the coefficient of x: -10 ÷ 2 = -5. The square will use (x − 5). Square the half-coefficient: (-5)² = 25. Add and subtract this amount. f(x) = (x − 5)² − 3. The square is smallest when x = 5, so the turning point is (5; -3). Answer: (5; -3). Expand (x − 5)² − 3 to recover x² − 10x + 22."
+    },
+    {
+      "id": "g11-ei-l01-p06",
+      "prompt": "Complete the square for f(x) = x² + 12x + 34 and state its turning point.",
+      "options": [
+        "(6; 2)",
+        "(-6; -2)",
+        "(6; -2)",
+        "(-6; 2)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Half the coefficient of x: 12 ÷ 2 = 6. The square will use (x + 6).",
+        "Square the half-coefficient: (6)² = 36. Add and subtract this amount.",
+        "f(x) = (x + 6)² − 2.",
+        "The square is smallest when x = -6, so the turning point is (-6; -2).",
+        "Answer: (-6; -2). Expand (x + 6)² − 2 to recover x² + 12x + 34."
+      ],
+      "memo": "Half the coefficient of x: 12 ÷ 2 = 6. The square will use (x + 6). Square the half-coefficient: (6)² = 36. Add and subtract this amount. f(x) = (x + 6)² − 2. The square is smallest when x = -6, so the turning point is (-6; -2). Answer: (-6; -2). Expand (x + 6)² − 2 to recover x² + 12x + 34."
+    },
+    {
+      "id": "g11-ei-l01-p07",
+      "prompt": "Complete the square for f(x) = x² + 4x + 3 and state its turning point.",
+      "options": [
+        "(-2; -1)",
+        "(2; -1)",
+        "(-2; 1)",
+        "(2; 1)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2).",
+        "Square the half-coefficient: (2)² = 4. Add and subtract this amount.",
+        "f(x) = (x + 2)² − 1.",
+        "The square is smallest when x = -2, so the turning point is (-2; -1).",
+        "Answer: (-2; -1). Expand (x + 2)² − 1 to recover x² + 4x + 3."
+      ],
+      "memo": "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2). Square the half-coefficient: (2)² = 4. Add and subtract this amount. f(x) = (x + 2)² − 1. The square is smallest when x = -2, so the turning point is (-2; -1). Answer: (-2; -1). Expand (x + 2)² − 1 to recover x² + 4x + 3."
+    },
+    {
+      "id": "g11-ei-l01-p08",
+      "prompt": "Complete the square for f(x) = x² + 6x + 9 and state its turning point.",
+      "options": [
+        "(3; 0)",
+        "(-3; 0) (incorrect 1)",
+        "(-3; 0) (incorrect 2)",
+        "(-3; 0)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Half the coefficient of x: 6 ÷ 2 = 3. The square will use (x + 3).",
+        "Square the half-coefficient: (3)² = 9. Add and subtract this amount.",
+        "f(x) = (x + 3)² + 0.",
+        "The square is smallest when x = -3, so the turning point is (-3; 0).",
+        "Answer: (-3; 0). Expand (x + 3)² + 0 to recover x² + 6x + 9."
+      ],
+      "memo": "Half the coefficient of x: 6 ÷ 2 = 3. The square will use (x + 3). Square the half-coefficient: (3)² = 9. Add and subtract this amount. f(x) = (x + 3)² + 0. The square is smallest when x = -3, so the turning point is (-3; 0). Answer: (-3; 0). Expand (x + 3)² + 0 to recover x² + 6x + 9."
+    },
+    {
+      "id": "g11-ei-l01-p09",
+      "prompt": "Complete the square for f(x) = x² − 8x + 17 and state its turning point.",
+      "options": [
+        "(4; -1)",
+        "(-4; -1)",
+        "(4; 1)",
+        "(-4; 1)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Half the coefficient of x: -8 ÷ 2 = -4. The square will use (x − 4).",
+        "Square the half-coefficient: (-4)² = 16. Add and subtract this amount.",
+        "f(x) = (x − 4)² + 1.",
+        "The square is smallest when x = 4, so the turning point is (4; 1).",
+        "Answer: (4; 1). Expand (x − 4)² + 1 to recover x² − 8x + 17."
+      ],
+      "memo": "Half the coefficient of x: -8 ÷ 2 = -4. The square will use (x − 4). Square the half-coefficient: (-4)² = 16. Add and subtract this amount. f(x) = (x − 4)² + 1. The square is smallest when x = 4, so the turning point is (4; 1). Answer: (4; 1). Expand (x − 4)² + 1 to recover x² − 8x + 17."
+    },
+    {
+      "id": "g11-ei-l01-p10",
+      "prompt": "Complete the square for f(x) = x² + 10x + 27 and state its turning point.",
+      "options": [
+        "(5; -2)",
+        "(-5; 2)",
+        "(5; 2)",
+        "(-5; -2)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Half the coefficient of x: 10 ÷ 2 = 5. The square will use (x + 5).",
+        "Square the half-coefficient: (5)² = 25. Add and subtract this amount.",
+        "f(x) = (x + 5)² + 2.",
+        "The square is smallest when x = -5, so the turning point is (-5; 2).",
+        "Answer: (-5; 2). Expand (x + 5)² + 2 to recover x² + 10x + 27."
+      ],
+      "memo": "Half the coefficient of x: 10 ÷ 2 = 5. The square will use (x + 5). Square the half-coefficient: (5)² = 25. Add and subtract this amount. f(x) = (x + 5)² + 2. The square is smallest when x = -5, so the turning point is (-5; 2). Answer: (-5; 2). Expand (x + 5)² + 2 to recover x² + 10x + 27."
+    },
+    {
+      "id": "g11-ei-l01-p11",
+      "prompt": "Complete the square for f(x) = x² + 12x + 39 and state its turning point.",
+      "options": [
+        "(-6; 3)",
+        "(6; 3)",
+        "(-6; -3)",
+        "(6; -3)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Half the coefficient of x: 12 ÷ 2 = 6. The square will use (x + 6).",
+        "Square the half-coefficient: (6)² = 36. Add and subtract this amount.",
+        "f(x) = (x + 6)² + 3.",
+        "The square is smallest when x = -6, so the turning point is (-6; 3).",
+        "Answer: (-6; 3). Expand (x + 6)² + 3 to recover x² + 12x + 39."
+      ],
+      "memo": "Half the coefficient of x: 12 ÷ 2 = 6. The square will use (x + 6). Square the half-coefficient: (6)² = 36. Add and subtract this amount. f(x) = (x + 6)² + 3. The square is smallest when x = -6, so the turning point is (-6; 3). Answer: (-6; 3). Expand (x + 6)² + 3 to recover x² + 12x + 39."
+    },
+    {
+      "id": "g11-ei-l01-p12",
+      "prompt": "Complete the square for f(x) = x² + 4x + 8 and state its turning point.",
+      "options": [
+        "(2; 4)",
+        "(-2; -4)",
+        "(2; -4)",
+        "(-2; 4)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2).",
+        "Square the half-coefficient: (2)² = 4. Add and subtract this amount.",
+        "f(x) = (x + 2)² + 4.",
+        "The square is smallest when x = -2, so the turning point is (-2; 4).",
+        "Answer: (-2; 4). Expand (x + 2)² + 4 to recover x² + 4x + 8."
+      ],
+      "memo": "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2). Square the half-coefficient: (2)² = 4. Add and subtract this amount. f(x) = (x + 2)² + 4. The square is smallest when x = -2, so the turning point is (-2; 4). Answer: (-2; 4). Expand (x + 2)² + 4 to recover x² + 4x + 8."
+    },
+    {
+      "id": "g11-ei-l01-p13",
+      "prompt": "Complete the square for f(x) = x² − 6x + 5 and state its turning point.",
+      "options": [
+        "(3; 4)",
+        "(-3; 4)",
+        "(3; -4)",
+        "(-3; -4)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Half the coefficient of x: -6 ÷ 2 = -3. The square will use (x − 3).",
+        "Square the half-coefficient: (-3)² = 9. Add and subtract this amount.",
+        "f(x) = (x − 3)² − 4.",
+        "The square is smallest when x = 3, so the turning point is (3; -4).",
+        "Answer: (3; -4). Expand (x − 3)² − 4 to recover x² − 6x + 5."
+      ],
+      "memo": "Half the coefficient of x: -6 ÷ 2 = -3. The square will use (x − 3). Square the half-coefficient: (-3)² = 9. Add and subtract this amount. f(x) = (x − 3)² − 4. The square is smallest when x = 3, so the turning point is (3; -4). Answer: (3; -4). Expand (x − 3)² − 4 to recover x² − 6x + 5."
+    },
+    {
+      "id": "g11-ei-l01-p14",
+      "prompt": "Complete the square for f(x) = x² + 8x + 13 and state its turning point.",
+      "options": [
+        "(4; 3)",
+        "(-4; -3)",
+        "(4; -3)",
+        "(-4; 3)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Half the coefficient of x: 8 ÷ 2 = 4. The square will use (x + 4).",
+        "Square the half-coefficient: (4)² = 16. Add and subtract this amount.",
+        "f(x) = (x + 4)² − 3.",
+        "The square is smallest when x = -4, so the turning point is (-4; -3).",
+        "Answer: (-4; -3). Expand (x + 4)² − 3 to recover x² + 8x + 13."
+      ],
+      "memo": "Half the coefficient of x: 8 ÷ 2 = 4. The square will use (x + 4). Square the half-coefficient: (4)² = 16. Add and subtract this amount. f(x) = (x + 4)² − 3. The square is smallest when x = -4, so the turning point is (-4; -3). Answer: (-4; -3). Expand (x + 4)² − 3 to recover x² + 8x + 13."
+    },
+    {
+      "id": "g11-ei-l01-p15",
+      "prompt": "Complete the square for f(x) = x² + 10x + 23 and state its turning point.",
+      "options": [
+        "(-5; -2)",
+        "(5; -2)",
+        "(-5; 2)",
+        "(5; 2)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Half the coefficient of x: 10 ÷ 2 = 5. The square will use (x + 5).",
+        "Square the half-coefficient: (5)² = 25. Add and subtract this amount.",
+        "f(x) = (x + 5)² − 2.",
+        "The square is smallest when x = -5, so the turning point is (-5; -2).",
+        "Answer: (-5; -2). Expand (x + 5)² − 2 to recover x² + 10x + 23."
+      ],
+      "memo": "Half the coefficient of x: 10 ÷ 2 = 5. The square will use (x + 5). Square the half-coefficient: (5)² = 25. Add and subtract this amount. f(x) = (x + 5)² − 2. The square is smallest when x = -5, so the turning point is (-5; -2). Answer: (-5; -2). Expand (x + 5)² − 2 to recover x² + 10x + 23."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-ei-l01-m01",
+      "prompt": "Complete the square for f(x) = x² + 8x + 14 and state its turning point.",
+      "options": [
+        "(4; 2)",
+        "(-4; -2)",
+        "(4; -2)",
+        "(-4; 2)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Half the coefficient of x: 8 ÷ 2 = 4. The square will use (x + 4).",
+        "Square the half-coefficient: (4)² = 16. Add and subtract this amount.",
+        "f(x) = (x + 4)² − 2.",
+        "The square is smallest when x = -4, so the turning point is (-4; -2).",
+        "Answer: (-4; -2). Expand (x + 4)² − 2 to recover x² + 8x + 14."
+      ],
+      "memo": "Half the coefficient of x: 8 ÷ 2 = 4. The square will use (x + 4). Square the half-coefficient: (4)² = 16. Add and subtract this amount. f(x) = (x + 4)² − 2. The square is smallest when x = -4, so the turning point is (-4; -2). Answer: (-4; -2). Expand (x + 4)² − 2 to recover x² + 8x + 14."
+    },
+    {
+      "id": "g11-ei-l01-m02",
+      "prompt": "Complete the square for f(x) = x² − 10x + 24 and state its turning point.",
+      "options": [
+        "(5; -1)",
+        "(-5; -1)",
+        "(5; 1)",
+        "(-5; 1)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Half the coefficient of x: -10 ÷ 2 = -5. The square will use (x − 5).",
+        "Square the half-coefficient: (-5)² = 25. Add and subtract this amount.",
+        "f(x) = (x − 5)² − 1.",
+        "The square is smallest when x = 5, so the turning point is (5; -1).",
+        "Answer: (5; -1). Expand (x − 5)² − 1 to recover x² − 10x + 24."
+      ],
+      "memo": "Half the coefficient of x: -10 ÷ 2 = -5. The square will use (x − 5). Square the half-coefficient: (-5)² = 25. Add and subtract this amount. f(x) = (x − 5)² − 1. The square is smallest when x = 5, so the turning point is (5; -1). Answer: (5; -1). Expand (x − 5)² − 1 to recover x² − 10x + 24."
+    },
+    {
+      "id": "g11-ei-l01-m03",
+      "prompt": "Complete the square for f(x) = x² + 12x + 36 and state its turning point.",
+      "options": [
+        "(6; 0)",
+        "(-6; 0) (incorrect 1)",
+        "(-6; 0) (incorrect 2)",
+        "(-6; 0)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Half the coefficient of x: 12 ÷ 2 = 6. The square will use (x + 6).",
+        "Square the half-coefficient: (6)² = 36. Add and subtract this amount.",
+        "f(x) = (x + 6)² + 0.",
+        "The square is smallest when x = -6, so the turning point is (-6; 0).",
+        "Answer: (-6; 0). Expand (x + 6)² + 0 to recover x² + 12x + 36."
+      ],
+      "memo": "Half the coefficient of x: 12 ÷ 2 = 6. The square will use (x + 6). Square the half-coefficient: (6)² = 36. Add and subtract this amount. f(x) = (x + 6)² + 0. The square is smallest when x = -6, so the turning point is (-6; 0). Answer: (-6; 0). Expand (x + 6)² + 0 to recover x² + 12x + 36."
+    },
+    {
+      "id": "g11-ei-l01-m04",
+      "prompt": "Complete the square for f(x) = x² + 4x + 5 and state its turning point.",
+      "options": [
+        "(-2; -1)",
+        "(2; -1)",
+        "(-2; 1)",
+        "(2; 1)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2).",
+        "Square the half-coefficient: (2)² = 4. Add and subtract this amount.",
+        "f(x) = (x + 2)² + 1.",
+        "The square is smallest when x = -2, so the turning point is (-2; 1).",
+        "Answer: (-2; 1). Expand (x + 2)² + 1 to recover x² + 4x + 5."
+      ],
+      "memo": "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2). Square the half-coefficient: (2)² = 4. Add and subtract this amount. f(x) = (x + 2)² + 1. The square is smallest when x = -2, so the turning point is (-2; 1). Answer: (-2; 1). Expand (x + 2)² + 1 to recover x² + 4x + 5."
+    },
+    {
+      "id": "g11-ei-l01-m05",
+      "prompt": "Complete the square for f(x) = x² + 6x + 11 and state its turning point.",
+      "options": [
+        "(3; -2)",
+        "(-3; 2)",
+        "(3; 2)",
+        "(-3; -2)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Half the coefficient of x: 6 ÷ 2 = 3. The square will use (x + 3).",
+        "Square the half-coefficient: (3)² = 9. Add and subtract this amount.",
+        "f(x) = (x + 3)² + 2.",
+        "The square is smallest when x = -3, so the turning point is (-3; 2).",
+        "Answer: (-3; 2). Expand (x + 3)² + 2 to recover x² + 6x + 11."
+      ],
+      "memo": "Half the coefficient of x: 6 ÷ 2 = 3. The square will use (x + 3). Square the half-coefficient: (3)² = 9. Add and subtract this amount. f(x) = (x + 3)² + 2. The square is smallest when x = -3, so the turning point is (-3; 2). Answer: (-3; 2). Expand (x + 3)² + 2 to recover x² + 6x + 11."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-ei-l01-r01",
+      "prompt": "Complete the square for f(x) = x² + 4x + 7 and state its turning point.",
+      "options": [
+        "(-2; 3)",
+        "(2; 3)",
+        "(-2; -3)",
+        "(2; -3)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2).",
+        "Square the half-coefficient: (2)² = 4. Add and subtract this amount.",
+        "f(x) = (x + 2)² + 3.",
+        "The square is smallest when x = -2, so the turning point is (-2; 3).",
+        "Answer: (-2; 3). Expand (x + 2)² + 3 to recover x² + 4x + 7."
+      ],
+      "memo": "Half the coefficient of x: 4 ÷ 2 = 2. The square will use (x + 2). Square the half-coefficient: (2)² = 4. Add and subtract this amount. f(x) = (x + 2)² + 3. The square is smallest when x = -2, so the turning point is (-2; 3). Answer: (-2; 3). Expand (x + 2)² + 3 to recover x² + 4x + 7."
+    },
+    {
+      "id": "g11-ei-l01-r02",
+      "prompt": "Complete the square for f(x) = x² + 6x + 13 and state its turning point.",
+      "options": [
+        "(3; 4)",
+        "(-3; -4)",
+        "(3; -4)",
+        "(-3; 4)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Half the coefficient of x: 6 ÷ 2 = 3. The square will use (x + 3).",
+        "Square the half-coefficient: (3)² = 9. Add and subtract this amount.",
+        "f(x) = (x + 3)² + 4.",
+        "The square is smallest when x = -3, so the turning point is (-3; 4).",
+        "Answer: (-3; 4). Expand (x + 3)² + 4 to recover x² + 6x + 13."
+      ],
+      "memo": "Half the coefficient of x: 6 ÷ 2 = 3. The square will use (x + 3). Square the half-coefficient: (3)² = 9. Add and subtract this amount. f(x) = (x + 3)² + 4. The square is smallest when x = -3, so the turning point is (-3; 4). Answer: (-3; 4). Expand (x + 3)² + 4 to recover x² + 6x + 13."
+    },
+    {
+      "id": "g11-ei-l01-r03",
+      "prompt": "Complete the square for f(x) = x² − 8x + 12 and state its turning point.",
+      "options": [
+        "(4; 4)",
+        "(-4; 4)",
+        "(4; -4)",
+        "(-4; -4)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Half the coefficient of x: -8 ÷ 2 = -4. The square will use (x − 4).",
+        "Square the half-coefficient: (-4)² = 16. Add and subtract this amount.",
+        "f(x) = (x − 4)² − 4.",
+        "The square is smallest when x = 4, so the turning point is (4; -4).",
+        "Answer: (4; -4). Expand (x − 4)² − 4 to recover x² − 8x + 12."
+      ],
+      "memo": "Half the coefficient of x: -8 ÷ 2 = -4. The square will use (x − 4). Square the half-coefficient: (-4)² = 16. Add and subtract this amount. f(x) = (x − 4)² − 4. The square is smallest when x = 4, so the turning point is (4; -4). Answer: (4; -4). Expand (x − 4)² − 4 to recover x² − 8x + 12."
+    }
+  ]
+}
