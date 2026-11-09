@@ -1,0 +1,17 @@
+.g11-tr-board {color:#17344b;width:100%;min-width:0}
+.g11-tr-board>p:first-child {font-weight:650;line-height:1.65}
+.g11-tr-model {width:100%;overflow:hidden}
+.g11-tr-model svg {width:100%;max-height:340px;height:auto;display:block}
+.g11-tr-circle {fill:none;stroke:#526c82;stroke-width:2}
+.g11-tr-axis {stroke:#92a4b2;stroke-width:1.4}
+.g11-tr-line {stroke:#537184;stroke-width:3}
+.g11-tr-ray {stroke:#158291;stroke-width:3.4}
+.g11-tr-reference {stroke:#dc8a2b;stroke-width:2.5;stroke-dasharray:5 4}
+.g11-tr-projection {stroke:#11818c;stroke-width:1.7;stroke-dasharray:4 3}
+.g11-tr-dot {fill:#11818c}
+.g11-tr-reference-dot {fill:#dc8a2b}
+.g11-tr-excluded {stroke:#bb4d3d;stroke-width:3}
+.g11-tr-label {fill:#183b51;font-size:14px;font-weight:650}
+.g11-tr-right-angle {fill:none;stroke:#11818c;stroke-width:2}
+.g11-tr-board [data-object-id="operation"] {color:#175b63}
+.g11-tr-board [data-object-id="verification"] {color:#08664a;font-weight:700}

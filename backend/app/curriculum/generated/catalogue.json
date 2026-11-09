@@ -2599,6 +2599,72 @@
               "source_document": "grade11-ei-lesson-07.md"
             }
           ]
+        },
+        {
+          "topic_id": "trigonometry-reduction-and-equations",
+          "topic_number": 3,
+          "title": "Trigonometry: Reduction and Equations",
+          "paper": "Paper 2",
+          "expected_lesson_count": 7,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g11-tr-01",
+              "position": 1,
+              "title": "Derive tangent and the Pythagorean identity",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-tr-lesson-01.md"
+            },
+            {
+              "lesson_id": "g11-tr-02",
+              "position": 2,
+              "title": "Reduce angles around 90 degrees",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-tr-lesson-02.md"
+            },
+            {
+              "lesson_id": "g11-tr-03",
+              "position": 3,
+              "title": "Reduce angles around 180 degrees",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-tr-lesson-03.md"
+            },
+            {
+              "lesson_id": "g11-tr-04",
+              "position": 4,
+              "title": "Reduce 360-degree and negative angles",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-tr-lesson-04.md"
+            },
+            {
+              "lesson_id": "g11-tr-05",
+              "position": 5,
+              "title": "Determine where an identity is defined",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-tr-lesson-05.md"
+            },
+            {
+              "lesson_id": "g11-tr-06",
+              "position": 6,
+              "title": "Write general solutions of trigonometric equations",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-tr-lesson-06.md"
+            },
+            {
+              "lesson_id": "g11-tr-07",
+              "position": 7,
+              "title": "Solve trigonometric equations in an interval",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-tr-lesson-07.md"
+            }
+          ]
         }
       ]
     },

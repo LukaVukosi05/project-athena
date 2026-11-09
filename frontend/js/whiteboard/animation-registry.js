@@ -155,6 +155,7 @@ for(let number=1;number<=6;number++)registerTeachingOperation(`grade10_stat_${nu
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade10_meas_${number}_step`);
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade11_es_${number}_step`);
 for(let number=1;number<=7;number++)registerTeachingOperation(`grade11_ei_${number}_step`);
+for(let number=1;number<=7;number++)registerTeachingOperation(`grade11_tr_${number}_step`);
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade10_fin_${number}_step`);
 for(let number=1;number<=5;number++)registerTeachingOperation(`grade10_prob_${number}_step`);
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade10_ag_${number}_step`);

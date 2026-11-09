@@ -1,0 +1,838 @@
+{
+  "source": "grade11-tr-lesson-07.md",
+  "worked": [
+    {
+      "id": "g11-tr-l07-w01",
+      "lesson": 7,
+      "problem": "Solve sin θ = 1/2 for 0° ≤ θ < 360°.",
+      "answer": "30°, 150°",
+      "actions": [
+        "The exact target 1/2 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 30° and 150°.",
+        "The period of sin is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 30°, 150°.",
+        "Answer: 30°, 150°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 30°, 150°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 30,
+          "function": "sin",
+          "target": "1/2",
+          "sign": 1,
+          "upper": 360
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-tr-l07-w02",
+      "lesson": 7,
+      "problem": "Solve sin θ = √2/2 for 0° ≤ θ < 360°.",
+      "answer": "45°, 135°",
+      "actions": [
+        "The exact target √2/2 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 45° and 135°.",
+        "The period of sin is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 45°, 135°.",
+        "Answer: 45°, 135°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 45°, 135°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 45,
+          "function": "sin",
+          "target": "√2/2",
+          "sign": 1,
+          "upper": 360
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-tr-l07-w03",
+      "lesson": 7,
+      "problem": "Solve sin θ = √3/2 for 0° ≤ θ < 360°.",
+      "answer": "60°, 120°",
+      "actions": [
+        "The exact target √3/2 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 60° and 120°.",
+        "The period of sin is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 120°.",
+        "Answer: 60°, 120°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 60°, 120°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 60,
+          "function": "sin",
+          "target": "√3/2",
+          "sign": 1,
+          "upper": 360
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l07-w04",
+      "lesson": 7,
+      "problem": "Solve cos θ = √3/2 for 0° ≤ θ < 720°.",
+      "answer": "30°, 330°, 390°, 690°",
+      "actions": [
+        "The exact target √3/2 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 30° and 330°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 720°. The retained angles are 30°, 330°, 390°, 690°.",
+        "Answer: 30°, 330°, 390°, 690°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 30°, 330°, 390°, 690°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 30,
+          "function": "cos",
+          "target": "√3/2",
+          "sign": 1,
+          "upper": 720
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l07-w05",
+      "lesson": 7,
+      "problem": "Solve cos θ = √2/2 for 0° ≤ θ < 360°.",
+      "answer": "45°, 315°",
+      "actions": [
+        "The exact target √2/2 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 45° and 315°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 45°, 315°.",
+        "Answer: 45°, 315°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 45°, 315°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 45,
+          "function": "cos",
+          "target": "√2/2",
+          "sign": 1,
+          "upper": 360
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l07-w06",
+      "lesson": 7,
+      "problem": "Solve cos θ = 1/2 for 0° ≤ θ < 360°.",
+      "answer": "60°, 300°",
+      "actions": [
+        "The exact target 1/2 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 60° and 300°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 300°.",
+        "Answer: 60°, 300°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 60°, 300°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 60,
+          "function": "cos",
+          "target": "1/2",
+          "sign": 1,
+          "upper": 360
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l07-w07",
+      "lesson": 7,
+      "problem": "Solve tan θ = √3/3 for 0° ≤ θ < 360°.",
+      "answer": "30°, 210°",
+      "actions": [
+        "The exact target √3/3 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 30° and 210°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 30°, 210°.",
+        "Answer: 30°, 210°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 30°, 210°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 30,
+          "function": "tan",
+          "target": "√3/3",
+          "sign": 1,
+          "upper": 360
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l07-w08",
+      "lesson": 7,
+      "problem": "Solve tan θ = 1 for 0° ≤ θ < 720°.",
+      "answer": "45°, 225°, 405°, 585°",
+      "actions": [
+        "The exact target 1 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 45° and 225°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 720°. The retained angles are 45°, 225°, 405°, 585°.",
+        "Answer: 45°, 225°, 405°, 585°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 45°, 225°, 405°, 585°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 45,
+          "function": "tan",
+          "target": "1",
+          "sign": 1,
+          "upper": 720
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l07-w09",
+      "lesson": 7,
+      "problem": "Solve tan θ = √3 for 0° ≤ θ < 360°.",
+      "answer": "60°, 240°",
+      "actions": [
+        "The exact target √3 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 60° and 240°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 240°.",
+        "Answer: 60°, 240°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 60°, 240°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 60,
+          "function": "tan",
+          "target": "√3",
+          "sign": 1,
+          "upper": 360
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l07-w10",
+      "lesson": 7,
+      "problem": "Solve sin θ = -1/2 for 0° ≤ θ < 360°.",
+      "answer": "210°, 330°",
+      "actions": [
+        "The exact target -1/2 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 210° and 330°.",
+        "The period of sin is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 210°, 330°.",
+        "Answer: 210°, 330°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 210°, 330°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 30,
+          "function": "sin",
+          "target": "-1/2",
+          "sign": -1,
+          "upper": 360
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l07-w11",
+      "lesson": 7,
+      "problem": "Solve sin θ = -√2/2 for 0° ≤ θ < 360°.",
+      "answer": "225°, 315°",
+      "actions": [
+        "The exact target -√2/2 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 225° and 315°.",
+        "The period of sin is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 225°, 315°.",
+        "Answer: 225°, 315°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 225°, 315°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 45,
+          "function": "sin",
+          "target": "-√2/2",
+          "sign": -1,
+          "upper": 360
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l07-w12",
+      "lesson": 7,
+      "problem": "Solve sin θ = -√3/2 for 0° ≤ θ < 720°.",
+      "answer": "240°, 300°, 600°, 660°",
+      "actions": [
+        "The exact target -√3/2 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 240° and 300°.",
+        "The period of sin is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 720°. The retained angles are 240°, 300°, 600°, 660°.",
+        "Answer: 240°, 300°, 600°, 660°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 240°, 300°, 600°, 660°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 60,
+          "function": "sin",
+          "target": "-√3/2",
+          "sign": -1,
+          "upper": 720
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l07-w13",
+      "lesson": 7,
+      "problem": "Solve cos θ = -√3/2 for 0° ≤ θ < 360°.",
+      "answer": "150°, 210°",
+      "actions": [
+        "The exact target -√3/2 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 150° and 210°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 150°, 210°.",
+        "Answer: 150°, 210°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 150°, 210°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 30,
+          "function": "cos",
+          "target": "-√3/2",
+          "sign": -1,
+          "upper": 360
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-tr-l07-w14",
+      "lesson": 7,
+      "problem": "Solve cos θ = -√2/2 for 0° ≤ θ < 360°.",
+      "answer": "135°, 225°",
+      "actions": [
+        "The exact target -√2/2 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 135° and 225°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 135°, 225°.",
+        "Answer: 135°, 225°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 135°, 225°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 45,
+          "function": "cos",
+          "target": "-√2/2",
+          "sign": -1,
+          "upper": 360
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-tr-l07-w15",
+      "lesson": 7,
+      "problem": "Solve cos θ = -1/2 for 0° ≤ θ < 360°.",
+      "answer": "120°, 240°",
+      "actions": [
+        "The exact target -1/2 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 120° and 240°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 120°, 240°.",
+        "Answer: 120°, 240°. Substitute every retained angle and check both interval endpoints."
+      ],
+      "check": "Answer: 120°, 240°. Substitute every retained angle and check both interval endpoints.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "interval",
+          "reference": 60,
+          "function": "cos",
+          "target": "-1/2",
+          "sign": -1,
+          "upper": 360
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-tr-l07-p01",
+      "prompt": "Solve sin θ = √2/2 for 0° ≤ θ < 360°.",
+      "options": [
+        "45°, 135°, 360°",
+        "15°",
+        "45°, 135°",
+        "45°"
+      ],
+      "answer_index": 2,
+      "memo": "The exact target √2/2 has acute reference angle 45°. Use the unit-circle signs to identify the first-revolution candidates 45° and 135°. The period of sin is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 45°, 135°. Answer: 45°, 135°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target √2/2 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 45° and 135°.",
+        "The period of sin is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 45°, 135°.",
+        "Answer: 45°, 135°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p02",
+      "prompt": "Solve cos θ = 1/2 for 0° ≤ θ < 360°.",
+      "options": [
+        "15°",
+        "60°, 300°",
+        "60°",
+        "60°, 300°, 360°"
+      ],
+      "answer_index": 1,
+      "memo": "The exact target 1/2 has acute reference angle 60°. Use the unit-circle signs to identify the first-revolution candidates 60° and 300°. The period of cos is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 300°. Answer: 60°, 300°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target 1/2 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 60° and 300°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 300°.",
+        "Answer: 60°, 300°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p03",
+      "prompt": "Solve cos θ = √3/2 for 0° ≤ θ < 720°.",
+      "options": [
+        "30°, 330°, 390°, 690°",
+        "30°, 330°, 390°",
+        "30°, 330°, 390°, 690°, 720°",
+        "30°"
+      ],
+      "answer_index": 0,
+      "memo": "The exact target √3/2 has acute reference angle 30°. Use the unit-circle signs to identify the first-revolution candidates 30° and 330°. The period of cos is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 720°. The retained angles are 30°, 330°, 390°, 690°. Answer: 30°, 330°, 390°, 690°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target √3/2 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 30° and 330°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 720°. The retained angles are 30°, 330°, 390°, 690°.",
+        "Answer: 30°, 330°, 390°, 690°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p04",
+      "prompt": "Solve cos θ = √2/2 for 0° ≤ θ < 360°.",
+      "options": [
+        "45°",
+        "45°, 315°, 360°",
+        "15°",
+        "45°, 315°"
+      ],
+      "answer_index": 3,
+      "memo": "The exact target √2/2 has acute reference angle 45°. Use the unit-circle signs to identify the first-revolution candidates 45° and 315°. The period of cos is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 45°, 315°. Answer: 45°, 315°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target √2/2 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 45° and 315°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 45°, 315°.",
+        "Answer: 45°, 315°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p05",
+      "prompt": "Solve tan θ = √3 for 0° ≤ θ < 360°.",
+      "options": [
+        "60°, 240°, 360°",
+        "15°",
+        "60°, 240°",
+        "60°"
+      ],
+      "answer_index": 2,
+      "memo": "The exact target √3 has acute reference angle 60°. Use the unit-circle signs to identify the first-revolution candidates 60° and 240°. The period of tan is 180°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 240°. Answer: 60°, 240°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target √3 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 60° and 240°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 240°.",
+        "Answer: 60°, 240°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p06",
+      "prompt": "Solve tan θ = √3/3 for 0° ≤ θ < 360°.",
+      "options": [
+        "15°",
+        "30°, 210°",
+        "30°",
+        "30°, 210°, 360°"
+      ],
+      "answer_index": 1,
+      "memo": "The exact target √3/3 has acute reference angle 30°. Use the unit-circle signs to identify the first-revolution candidates 30° and 210°. The period of tan is 180°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 30°, 210°. Answer: 30°, 210°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target √3/3 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 30° and 210°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 30°, 210°.",
+        "Answer: 30°, 210°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p07",
+      "prompt": "Solve tan θ = 1 for 0° ≤ θ < 720°.",
+      "options": [
+        "45°, 225°, 405°, 585°",
+        "45°, 225°, 405°",
+        "45°, 225°, 405°, 585°, 720°",
+        "45°"
+      ],
+      "answer_index": 0,
+      "memo": "The exact target 1 has acute reference angle 45°. Use the unit-circle signs to identify the first-revolution candidates 45° and 225°. The period of tan is 180°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 720°. The retained angles are 45°, 225°, 405°, 585°. Answer: 45°, 225°, 405°, 585°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target 1 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 45° and 225°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 720°. The retained angles are 45°, 225°, 405°, 585°.",
+        "Answer: 45°, 225°, 405°, 585°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p08",
+      "prompt": "Solve sin θ = √3/2 for 0° ≤ θ < 360°.",
+      "options": [
+        "60°",
+        "60°, 120°, 360°",
+        "15°",
+        "60°, 120°"
+      ],
+      "answer_index": 3,
+      "memo": "The exact target √3/2 has acute reference angle 60°. Use the unit-circle signs to identify the first-revolution candidates 60° and 120°. The period of sin is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 120°. Answer: 60°, 120°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target √3/2 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 60° and 120°.",
+        "The period of sin is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 120°.",
+        "Answer: 60°, 120°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p09",
+      "prompt": "Solve sin θ = -1/2 for 0° ≤ θ < 360°.",
+      "options": [
+        "210°, 330°, 360°",
+        "30°",
+        "210°, 330°",
+        "210°"
+      ],
+      "answer_index": 2,
+      "memo": "The exact target -1/2 has acute reference angle 30°. Use the unit-circle signs to identify the first-revolution candidates 210° and 330°. The period of sin is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 210°, 330°. Answer: 210°, 330°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target -1/2 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 210° and 330°.",
+        "The period of sin is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 210°, 330°.",
+        "Answer: 210°, 330°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p10",
+      "prompt": "Solve sin θ = -√2/2 for 0° ≤ θ < 360°.",
+      "options": [
+        "45°",
+        "225°, 315°",
+        "225°",
+        "225°, 315°, 360°"
+      ],
+      "answer_index": 1,
+      "memo": "The exact target -√2/2 has acute reference angle 45°. Use the unit-circle signs to identify the first-revolution candidates 225° and 315°. The period of sin is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 225°, 315°. Answer: 225°, 315°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target -√2/2 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 225° and 315°.",
+        "The period of sin is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 225°, 315°.",
+        "Answer: 225°, 315°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p11",
+      "prompt": "Solve cos θ = -1/2 for 0° ≤ θ < 720°.",
+      "options": [
+        "120°, 240°, 480°, 600°",
+        "120°, 240°, 480°",
+        "120°, 240°, 480°, 600°, 720°",
+        "60°"
+      ],
+      "answer_index": 0,
+      "memo": "The exact target -1/2 has acute reference angle 60°. Use the unit-circle signs to identify the first-revolution candidates 120° and 240°. The period of cos is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 720°. The retained angles are 120°, 240°, 480°, 600°. Answer: 120°, 240°, 480°, 600°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target -1/2 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 120° and 240°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 720°. The retained angles are 120°, 240°, 480°, 600°.",
+        "Answer: 120°, 240°, 480°, 600°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p12",
+      "prompt": "Solve cos θ = -√3/2 for 0° ≤ θ < 360°.",
+      "options": [
+        "150°",
+        "150°, 210°, 360°",
+        "30°",
+        "150°, 210°"
+      ],
+      "answer_index": 3,
+      "memo": "The exact target -√3/2 has acute reference angle 30°. Use the unit-circle signs to identify the first-revolution candidates 150° and 210°. The period of cos is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 150°, 210°. Answer: 150°, 210°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target -√3/2 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 150° and 210°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 150°, 210°.",
+        "Answer: 150°, 210°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p13",
+      "prompt": "Solve cos θ = -√2/2 for 0° ≤ θ < 360°.",
+      "options": [
+        "135°, 225°, 360°",
+        "45°",
+        "135°, 225°",
+        "135°"
+      ],
+      "answer_index": 2,
+      "memo": "The exact target -√2/2 has acute reference angle 45°. Use the unit-circle signs to identify the first-revolution candidates 135° and 225°. The period of cos is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 135°, 225°. Answer: 135°, 225°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target -√2/2 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 135° and 225°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 135°, 225°.",
+        "Answer: 135°, 225°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p14",
+      "prompt": "Solve tan θ = -√3 for 0° ≤ θ < 360°.",
+      "options": [
+        "60°",
+        "120°, 300°",
+        "120°",
+        "120°, 300°, 360°"
+      ],
+      "answer_index": 1,
+      "memo": "The exact target -√3 has acute reference angle 60°. Use the unit-circle signs to identify the first-revolution candidates 120° and 300°. The period of tan is 180°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 120°, 300°. Answer: 120°, 300°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target -√3 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 120° and 300°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 120°, 300°.",
+        "Answer: 120°, 300°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-p15",
+      "prompt": "Solve tan θ = -√3/3 for 0° ≤ θ < 720°.",
+      "options": [
+        "150°, 330°, 510°, 690°",
+        "150°, 330°, 510°",
+        "150°, 330°, 510°, 690°, 720°",
+        "30°"
+      ],
+      "answer_index": 0,
+      "memo": "The exact target -√3/3 has acute reference angle 30°. Use the unit-circle signs to identify the first-revolution candidates 150° and 330°. The period of tan is 180°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 720°. The retained angles are 150°, 330°, 510°, 690°. Answer: 150°, 330°, 510°, 690°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target -√3/3 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 150° and 330°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 720°. The retained angles are 150°, 330°, 510°, 690°.",
+        "Answer: 150°, 330°, 510°, 690°. Substitute every retained angle and check both interval endpoints."
+      ]
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-tr-l07-m01",
+      "prompt": "Solve cos θ = 1/2 for 0° ≤ θ < 360°.",
+      "options": [
+        "15°",
+        "60°, 300°",
+        "60°",
+        "60°, 300°, 360°"
+      ],
+      "answer_index": 1,
+      "memo": "The exact target 1/2 has acute reference angle 60°. Use the unit-circle signs to identify the first-revolution candidates 60° and 300°. The period of cos is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 300°. Answer: 60°, 300°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target 1/2 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 60° and 300°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 300°.",
+        "Answer: 60°, 300°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-m02",
+      "prompt": "Solve cos θ = √3/2 for 0° ≤ θ < 720°.",
+      "options": [
+        "30°, 330°, 390°, 690°",
+        "30°, 330°, 390°",
+        "30°, 330°, 390°, 690°, 720°",
+        "30°"
+      ],
+      "answer_index": 0,
+      "memo": "The exact target √3/2 has acute reference angle 30°. Use the unit-circle signs to identify the first-revolution candidates 30° and 330°. The period of cos is 360°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 720°. The retained angles are 30°, 330°, 390°, 690°. Answer: 30°, 330°, 390°, 690°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target √3/2 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 30° and 330°.",
+        "The period of cos is 360°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 720°. The retained angles are 30°, 330°, 390°, 690°.",
+        "Answer: 30°, 330°, 390°, 690°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-m03",
+      "prompt": "Solve tan θ = 1 for 0° ≤ θ < 360°.",
+      "options": [
+        "45°",
+        "45°, 225°, 360°",
+        "15°",
+        "45°, 225°"
+      ],
+      "answer_index": 3,
+      "memo": "The exact target 1 has acute reference angle 45°. Use the unit-circle signs to identify the first-revolution candidates 45° and 225°. The period of tan is 180°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 45°, 225°. Answer: 45°, 225°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target 1 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 45° and 225°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 45°, 225°.",
+        "Answer: 45°, 225°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-m04",
+      "prompt": "Solve tan θ = √3 for 0° ≤ θ < 360°.",
+      "options": [
+        "60°, 240°, 360°",
+        "15°",
+        "60°, 240°",
+        "60°"
+      ],
+      "answer_index": 2,
+      "memo": "The exact target √3 has acute reference angle 60°. Use the unit-circle signs to identify the first-revolution candidates 60° and 240°. The period of tan is 180°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 240°. Answer: 60°, 240°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target √3 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 60° and 240°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 240°.",
+        "Answer: 60°, 240°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-m05",
+      "prompt": "Solve tan θ = √3/3 for 0° ≤ θ < 360°.",
+      "options": [
+        "15°",
+        "30°, 210°",
+        "30°",
+        "30°, 210°, 360°"
+      ],
+      "answer_index": 1,
+      "memo": "The exact target √3/3 has acute reference angle 30°. Use the unit-circle signs to identify the first-revolution candidates 30° and 210°. The period of tan is 180°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 30°, 210°. Answer: 30°, 210°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target √3/3 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 30° and 210°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 30°, 210°.",
+        "Answer: 30°, 210°. Substitute every retained angle and check both interval endpoints."
+      ]
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-tr-l07-r01",
+      "prompt": "Solve tan θ = √3/3 for 0° ≤ θ < 720°.",
+      "options": [
+        "30°, 210°, 390°, 570°",
+        "30°, 210°, 390°",
+        "30°, 210°, 390°, 570°, 720°",
+        "30°"
+      ],
+      "answer_index": 0,
+      "memo": "The exact target √3/3 has acute reference angle 30°. Use the unit-circle signs to identify the first-revolution candidates 30° and 210°. The period of tan is 180°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 720°. The retained angles are 30°, 210°, 390°, 570°. Answer: 30°, 210°, 390°, 570°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target √3/3 has acute reference angle 30°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 30° and 210°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 720°. The retained angles are 30°, 210°, 390°, 570°.",
+        "Answer: 30°, 210°, 390°, 570°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-r02",
+      "prompt": "Solve tan θ = 1 for 0° ≤ θ < 360°.",
+      "options": [
+        "45°",
+        "45°, 225°, 360°",
+        "15°",
+        "45°, 225°"
+      ],
+      "answer_index": 3,
+      "memo": "The exact target 1 has acute reference angle 45°. Use the unit-circle signs to identify the first-revolution candidates 45° and 225°. The period of tan is 180°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 45°, 225°. Answer: 45°, 225°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target 1 has acute reference angle 45°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 45° and 225°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 45°, 225°.",
+        "Answer: 45°, 225°. Substitute every retained angle and check both interval endpoints."
+      ]
+    },
+    {
+      "id": "g11-tr-l07-r03",
+      "prompt": "Solve tan θ = √3 for 0° ≤ θ < 360°.",
+      "options": [
+        "60°, 240°, 360°",
+        "15°",
+        "60°, 240°",
+        "60°"
+      ],
+      "answer_index": 2,
+      "memo": "The exact target √3 has acute reference angle 60°. Use the unit-circle signs to identify the first-revolution candidates 60° and 240°. The period of tan is 180°; list equivalent angles before applying the interval. Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 240°. Answer: 60°, 240°. Substitute every retained angle and check both interval endpoints.",
+      "actions": [
+        "The exact target √3 has acute reference angle 60°.",
+        "Use the unit-circle signs to identify the first-revolution candidates 60° and 240°.",
+        "The period of tan is 180°; list equivalent angles before applying the interval.",
+        "Keep only values with 0° ≤ θ < 360°. The retained angles are 60°, 240°.",
+        "Answer: 60°, 240°. Substitute every retained angle and check both interval endpoints."
+      ]
+    }
+  ]
+}

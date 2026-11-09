@@ -1,9 +1,9 @@
 # Grade 11 Mathematics: source and implementation plan
 
-Status: Topics 1 and 2 have authored runtime previews, source files, whiteboard
+Status: Topics 1–3 have authored runtime previews, source files, whiteboard
 timelines and assessment banks. They remain teacher-review-required. Browser
 acceptance and teacher approval have not been recorded; do not label them
-published. Topics 3–12 remain plans, not interactive lessons.
+published. Topics 4–12 remain plans, not interactive lessons.
 
 ## Authority and scope
 

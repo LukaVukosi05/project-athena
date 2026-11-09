@@ -1,0 +1,823 @@
+{
+  "source": "grade11-tr-lesson-01.md",
+  "worked": [
+    {
+      "id": "g11-tr-l01-w01",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 3, adjacent side 4 and hypotenuse 5. Find tan θ from sin θ ÷ cos θ.",
+      "answer": "3/4",
+      "actions": [
+        "Use the given triangle to read sin θ = 3/5.",
+        "The same triangle gives cos θ = 4/5.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (3/5) ÷ (4/5) = 3/4.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 3:4 confirms it."
+      ],
+      "check": "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 3:4 confirms it.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 3,
+          "adjacent": 4,
+          "hypotenuse": 5,
+          "task": "tan"
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-tr-l01-w02",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 5, adjacent side 12 and hypotenuse 13. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "answer": "12/13",
+      "actions": [
+        "Mark the side adjacent to θ as 12 and the hypotenuse as 13.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 12/13.",
+        "The sine ratio is opposite ÷ hypotenuse = 5/13.",
+        "Square both ratios and add: 25/169 + 144/169 = 169/169.",
+        "Answer: cos θ = 12/13. Since 25 + 144 = 169, sin² θ + cos² θ = 1."
+      ],
+      "check": "Answer: cos θ = 12/13. Since 25 + 144 = 169, sin² θ + cos² θ = 1.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 5,
+          "adjacent": 12,
+          "hypotenuse": 13,
+          "task": "cos"
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-tr-l01-w03",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 8, adjacent side 15 and hypotenuse 17. Evaluate sin² θ + cos² θ exactly.",
+      "answer": "1",
+      "actions": [
+        "Write sin θ = 8/17 from the opposite and hypotenuse.",
+        "Write cos θ = 15/17 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 64/289, cos² θ = 225/289.",
+        "Add the numerators: (64 + 225)/289 = 289/289.",
+        "Answer: 1. Pythagoras gives 64 + 225 = 289."
+      ],
+      "check": "Answer: 1. Pythagoras gives 64 + 225 = 289.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 8,
+          "adjacent": 15,
+          "hypotenuse": 17,
+          "task": "identity"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l01-w04",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 6, adjacent side 8 and hypotenuse 10. Find tan θ from sin θ ÷ cos θ.",
+      "answer": "3/4",
+      "actions": [
+        "Use the given triangle to read sin θ = 6/10.",
+        "The same triangle gives cos θ = 8/10.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (6/10) ÷ (8/10) = 6/8.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 6:8 confirms it."
+      ],
+      "check": "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 6:8 confirms it.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 6,
+          "adjacent": 8,
+          "hypotenuse": 10,
+          "task": "tan"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l01-w05",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 10, adjacent side 24 and hypotenuse 26. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "answer": "12/13",
+      "actions": [
+        "Mark the side adjacent to θ as 24 and the hypotenuse as 26.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 24/26.",
+        "The sine ratio is opposite ÷ hypotenuse = 10/26.",
+        "Square both ratios and add: 100/676 + 576/676 = 676/676.",
+        "Answer: cos θ = 12/13. Since 100 + 576 = 676, sin² θ + cos² θ = 1."
+      ],
+      "check": "Answer: cos θ = 12/13. Since 100 + 576 = 676, sin² θ + cos² θ = 1.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 10,
+          "adjacent": 24,
+          "hypotenuse": 26,
+          "task": "cos"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l01-w06",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 16, adjacent side 30 and hypotenuse 34. Evaluate sin² θ + cos² θ exactly.",
+      "answer": "1",
+      "actions": [
+        "Write sin θ = 16/34 from the opposite and hypotenuse.",
+        "Write cos θ = 30/34 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 256/1156, cos² θ = 900/1156.",
+        "Add the numerators: (256 + 900)/1156 = 1156/1156.",
+        "Answer: 1. Pythagoras gives 256 + 900 = 1156."
+      ],
+      "check": "Answer: 1. Pythagoras gives 256 + 900 = 1156.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 16,
+          "adjacent": 30,
+          "hypotenuse": 34,
+          "task": "identity"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l01-w07",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 9, adjacent side 12 and hypotenuse 15. Find tan θ from sin θ ÷ cos θ.",
+      "answer": "3/4",
+      "actions": [
+        "Use the given triangle to read sin θ = 9/15.",
+        "The same triangle gives cos θ = 12/15.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (9/15) ÷ (12/15) = 9/12.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 9:12 confirms it."
+      ],
+      "check": "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 9:12 confirms it.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 9,
+          "adjacent": 12,
+          "hypotenuse": 15,
+          "task": "tan"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l01-w08",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 15, adjacent side 36 and hypotenuse 39. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "answer": "12/13",
+      "actions": [
+        "Mark the side adjacent to θ as 36 and the hypotenuse as 39.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 36/39.",
+        "The sine ratio is opposite ÷ hypotenuse = 15/39.",
+        "Square both ratios and add: 225/1521 + 1296/1521 = 1521/1521.",
+        "Answer: cos θ = 12/13. Since 225 + 1296 = 1521, sin² θ + cos² θ = 1."
+      ],
+      "check": "Answer: cos θ = 12/13. Since 225 + 1296 = 1521, sin² θ + cos² θ = 1.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 15,
+          "adjacent": 36,
+          "hypotenuse": 39,
+          "task": "cos"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l01-w09",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 24, adjacent side 45 and hypotenuse 51. Evaluate sin² θ + cos² θ exactly.",
+      "answer": "1",
+      "actions": [
+        "Write sin θ = 24/51 from the opposite and hypotenuse.",
+        "Write cos θ = 45/51 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 576/2601, cos² θ = 2025/2601.",
+        "Add the numerators: (576 + 2025)/2601 = 2601/2601.",
+        "Answer: 1. Pythagoras gives 576 + 2025 = 2601."
+      ],
+      "check": "Answer: 1. Pythagoras gives 576 + 2025 = 2601.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 24,
+          "adjacent": 45,
+          "hypotenuse": 51,
+          "task": "identity"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l01-w10",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 12, adjacent side 16 and hypotenuse 20. Find tan θ from sin θ ÷ cos θ.",
+      "answer": "3/4",
+      "actions": [
+        "Use the given triangle to read sin θ = 12/20.",
+        "The same triangle gives cos θ = 16/20.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (12/20) ÷ (16/20) = 12/16.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 12:16 confirms it."
+      ],
+      "check": "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 12:16 confirms it.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 12,
+          "adjacent": 16,
+          "hypotenuse": 20,
+          "task": "tan"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l01-w11",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 20, adjacent side 48 and hypotenuse 52. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "answer": "12/13",
+      "actions": [
+        "Mark the side adjacent to θ as 48 and the hypotenuse as 52.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 48/52.",
+        "The sine ratio is opposite ÷ hypotenuse = 20/52.",
+        "Square both ratios and add: 400/2704 + 2304/2704 = 2704/2704.",
+        "Answer: cos θ = 12/13. Since 400 + 2304 = 2704, sin² θ + cos² θ = 1."
+      ],
+      "check": "Answer: cos θ = 12/13. Since 400 + 2304 = 2704, sin² θ + cos² θ = 1.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 20,
+          "adjacent": 48,
+          "hypotenuse": 52,
+          "task": "cos"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l01-w12",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 32, adjacent side 60 and hypotenuse 68. Evaluate sin² θ + cos² θ exactly.",
+      "answer": "1",
+      "actions": [
+        "Write sin θ = 32/68 from the opposite and hypotenuse.",
+        "Write cos θ = 60/68 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 1024/4624, cos² θ = 3600/4624.",
+        "Add the numerators: (1024 + 3600)/4624 = 4624/4624.",
+        "Answer: 1. Pythagoras gives 1024 + 3600 = 4624."
+      ],
+      "check": "Answer: 1. Pythagoras gives 1024 + 3600 = 4624.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 32,
+          "adjacent": 60,
+          "hypotenuse": 68,
+          "task": "identity"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l01-w13",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 15, adjacent side 20 and hypotenuse 25. Find tan θ from sin θ ÷ cos θ.",
+      "answer": "3/4",
+      "actions": [
+        "Use the given triangle to read sin θ = 15/25.",
+        "The same triangle gives cos θ = 20/25.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (15/25) ÷ (20/25) = 15/20.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 15:20 confirms it."
+      ],
+      "check": "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 15:20 confirms it.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 15,
+          "adjacent": 20,
+          "hypotenuse": 25,
+          "task": "tan"
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-tr-l01-w14",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 25, adjacent side 60 and hypotenuse 65. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "answer": "12/13",
+      "actions": [
+        "Mark the side adjacent to θ as 60 and the hypotenuse as 65.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 60/65.",
+        "The sine ratio is opposite ÷ hypotenuse = 25/65.",
+        "Square both ratios and add: 625/4225 + 3600/4225 = 4225/4225.",
+        "Answer: cos θ = 12/13. Since 625 + 3600 = 4225, sin² θ + cos² θ = 1."
+      ],
+      "check": "Answer: cos θ = 12/13. Since 625 + 3600 = 4225, sin² θ + cos² θ = 1.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 25,
+          "adjacent": 60,
+          "hypotenuse": 65,
+          "task": "cos"
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-tr-l01-w15",
+      "lesson": 1,
+      "problem": "A right triangle has opposite side 40, adjacent side 75 and hypotenuse 85. Evaluate sin² θ + cos² θ exactly.",
+      "answer": "1",
+      "actions": [
+        "Write sin θ = 40/85 from the opposite and hypotenuse.",
+        "Write cos θ = 75/85 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 1600/7225, cos² θ = 5625/7225.",
+        "Add the numerators: (1600 + 5625)/7225 = 7225/7225.",
+        "Answer: 1. Pythagoras gives 1600 + 5625 = 7225."
+      ],
+      "check": "Answer: 1. Pythagoras gives 1600 + 5625 = 7225.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "triangle",
+          "opposite": 40,
+          "adjacent": 75,
+          "hypotenuse": 85,
+          "task": "identity"
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-tr-l01-p01",
+      "prompt": "A right triangle has opposite side 5, adjacent side 12 and hypotenuse 13. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "options": [
+        "12/5",
+        "13/12",
+        "12/13",
+        "5/13"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the side adjacent to θ as 12 and the hypotenuse as 13. The cosine ratio is adjacent ÷ hypotenuse = 12/13. The sine ratio is opposite ÷ hypotenuse = 5/13. Square both ratios and add: 25/169 + 144/169 = 169/169. Answer: cos θ = 12/13. Since 25 + 144 = 169, sin² θ + cos² θ = 1.",
+      "actions": [
+        "Mark the side adjacent to θ as 12 and the hypotenuse as 13.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 12/13.",
+        "The sine ratio is opposite ÷ hypotenuse = 5/13.",
+        "Square both ratios and add: 25/169 + 144/169 = 169/169.",
+        "Answer: cos θ = 12/13. Since 25 + 144 = 169, sin² θ + cos² θ = 1."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p02",
+      "prompt": "A right triangle has opposite side 8, adjacent side 15 and hypotenuse 17. Evaluate sin² θ + cos² θ exactly.",
+      "options": [
+        "23/17",
+        "1",
+        "0",
+        "2"
+      ],
+      "answer_index": 1,
+      "memo": "Write sin θ = 8/17 from the opposite and hypotenuse. Write cos θ = 15/17 from the adjacent and hypotenuse. Square each ratio: sin² θ = 64/289, cos² θ = 225/289. Add the numerators: (64 + 225)/289 = 289/289. Answer: 1. Pythagoras gives 64 + 225 = 289.",
+      "actions": [
+        "Write sin θ = 8/17 from the opposite and hypotenuse.",
+        "Write cos θ = 15/17 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 64/289, cos² θ = 225/289.",
+        "Add the numerators: (64 + 225)/289 = 289/289.",
+        "Answer: 1. Pythagoras gives 64 + 225 = 289."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p03",
+      "prompt": "A right triangle has opposite side 6, adjacent side 8 and hypotenuse 10. Find tan θ from sin θ ÷ cos θ.",
+      "options": [
+        "3/4",
+        "4/3",
+        "6/10",
+        "8/10"
+      ],
+      "answer_index": 0,
+      "memo": "Use the given triangle to read sin θ = 6/10. The same triangle gives cos θ = 8/10. Because cos θ is nonzero, tan θ = sin θ ÷ cos θ. Divide the fractions: (6/10) ÷ (8/10) = 6/8. Answer: tan θ = 3/4. The opposite-to-adjacent ratio 6:8 confirms it.",
+      "actions": [
+        "Use the given triangle to read sin θ = 6/10.",
+        "The same triangle gives cos θ = 8/10.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (6/10) ÷ (8/10) = 6/8.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 6:8 confirms it."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p04",
+      "prompt": "A right triangle has opposite side 10, adjacent side 24 and hypotenuse 26. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "options": [
+        "10/26",
+        "24/10",
+        "26/24",
+        "12/13"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the side adjacent to θ as 24 and the hypotenuse as 26. The cosine ratio is adjacent ÷ hypotenuse = 24/26. The sine ratio is opposite ÷ hypotenuse = 10/26. Square both ratios and add: 100/676 + 576/676 = 676/676. Answer: cos θ = 12/13. Since 100 + 576 = 676, sin² θ + cos² θ = 1.",
+      "actions": [
+        "Mark the side adjacent to θ as 24 and the hypotenuse as 26.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 24/26.",
+        "The sine ratio is opposite ÷ hypotenuse = 10/26.",
+        "Square both ratios and add: 100/676 + 576/676 = 676/676.",
+        "Answer: cos θ = 12/13. Since 100 + 576 = 676, sin² θ + cos² θ = 1."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p05",
+      "prompt": "A right triangle has opposite side 16, adjacent side 30 and hypotenuse 34. Evaluate sin² θ + cos² θ exactly.",
+      "options": [
+        "2",
+        "46/34",
+        "1",
+        "0"
+      ],
+      "answer_index": 2,
+      "memo": "Write sin θ = 16/34 from the opposite and hypotenuse. Write cos θ = 30/34 from the adjacent and hypotenuse. Square each ratio: sin² θ = 256/1156, cos² θ = 900/1156. Add the numerators: (256 + 900)/1156 = 1156/1156. Answer: 1. Pythagoras gives 256 + 900 = 1156.",
+      "actions": [
+        "Write sin θ = 16/34 from the opposite and hypotenuse.",
+        "Write cos θ = 30/34 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 256/1156, cos² θ = 900/1156.",
+        "Add the numerators: (256 + 900)/1156 = 1156/1156.",
+        "Answer: 1. Pythagoras gives 256 + 900 = 1156."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p06",
+      "prompt": "A right triangle has opposite side 9, adjacent side 12 and hypotenuse 15. Find tan θ from sin θ ÷ cos θ.",
+      "options": [
+        "12/15",
+        "3/4",
+        "4/3",
+        "9/15"
+      ],
+      "answer_index": 1,
+      "memo": "Use the given triangle to read sin θ = 9/15. The same triangle gives cos θ = 12/15. Because cos θ is nonzero, tan θ = sin θ ÷ cos θ. Divide the fractions: (9/15) ÷ (12/15) = 9/12. Answer: tan θ = 3/4. The opposite-to-adjacent ratio 9:12 confirms it.",
+      "actions": [
+        "Use the given triangle to read sin θ = 9/15.",
+        "The same triangle gives cos θ = 12/15.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (9/15) ÷ (12/15) = 9/12.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 9:12 confirms it."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p07",
+      "prompt": "A right triangle has opposite side 15, adjacent side 36 and hypotenuse 39. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "options": [
+        "12/13",
+        "15/39",
+        "36/15",
+        "39/36"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the side adjacent to θ as 36 and the hypotenuse as 39. The cosine ratio is adjacent ÷ hypotenuse = 36/39. The sine ratio is opposite ÷ hypotenuse = 15/39. Square both ratios and add: 225/1521 + 1296/1521 = 1521/1521. Answer: cos θ = 12/13. Since 225 + 1296 = 1521, sin² θ + cos² θ = 1.",
+      "actions": [
+        "Mark the side adjacent to θ as 36 and the hypotenuse as 39.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 36/39.",
+        "The sine ratio is opposite ÷ hypotenuse = 15/39.",
+        "Square both ratios and add: 225/1521 + 1296/1521 = 1521/1521.",
+        "Answer: cos θ = 12/13. Since 225 + 1296 = 1521, sin² θ + cos² θ = 1."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p08",
+      "prompt": "A right triangle has opposite side 24, adjacent side 45 and hypotenuse 51. Evaluate sin² θ + cos² θ exactly.",
+      "options": [
+        "0",
+        "2",
+        "69/51",
+        "1"
+      ],
+      "answer_index": 3,
+      "memo": "Write sin θ = 24/51 from the opposite and hypotenuse. Write cos θ = 45/51 from the adjacent and hypotenuse. Square each ratio: sin² θ = 576/2601, cos² θ = 2025/2601. Add the numerators: (576 + 2025)/2601 = 2601/2601. Answer: 1. Pythagoras gives 576 + 2025 = 2601.",
+      "actions": [
+        "Write sin θ = 24/51 from the opposite and hypotenuse.",
+        "Write cos θ = 45/51 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 576/2601, cos² θ = 2025/2601.",
+        "Add the numerators: (576 + 2025)/2601 = 2601/2601.",
+        "Answer: 1. Pythagoras gives 576 + 2025 = 2601."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p09",
+      "prompt": "A right triangle has opposite side 12, adjacent side 16 and hypotenuse 20. Find tan θ from sin θ ÷ cos θ.",
+      "options": [
+        "12/20",
+        "16/20",
+        "3/4",
+        "4/3"
+      ],
+      "answer_index": 2,
+      "memo": "Use the given triangle to read sin θ = 12/20. The same triangle gives cos θ = 16/20. Because cos θ is nonzero, tan θ = sin θ ÷ cos θ. Divide the fractions: (12/20) ÷ (16/20) = 12/16. Answer: tan θ = 3/4. The opposite-to-adjacent ratio 12:16 confirms it.",
+      "actions": [
+        "Use the given triangle to read sin θ = 12/20.",
+        "The same triangle gives cos θ = 16/20.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (12/20) ÷ (16/20) = 12/16.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 12:16 confirms it."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p10",
+      "prompt": "A right triangle has opposite side 20, adjacent side 48 and hypotenuse 52. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "options": [
+        "52/48",
+        "12/13",
+        "20/52",
+        "48/20"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the side adjacent to θ as 48 and the hypotenuse as 52. The cosine ratio is adjacent ÷ hypotenuse = 48/52. The sine ratio is opposite ÷ hypotenuse = 20/52. Square both ratios and add: 400/2704 + 2304/2704 = 2704/2704. Answer: cos θ = 12/13. Since 400 + 2304 = 2704, sin² θ + cos² θ = 1.",
+      "actions": [
+        "Mark the side adjacent to θ as 48 and the hypotenuse as 52.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 48/52.",
+        "The sine ratio is opposite ÷ hypotenuse = 20/52.",
+        "Square both ratios and add: 400/2704 + 2304/2704 = 2704/2704.",
+        "Answer: cos θ = 12/13. Since 400 + 2304 = 2704, sin² θ + cos² θ = 1."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p11",
+      "prompt": "A right triangle has opposite side 32, adjacent side 60 and hypotenuse 68. Evaluate sin² θ + cos² θ exactly.",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "92/68"
+      ],
+      "answer_index": 0,
+      "memo": "Write sin θ = 32/68 from the opposite and hypotenuse. Write cos θ = 60/68 from the adjacent and hypotenuse. Square each ratio: sin² θ = 1024/4624, cos² θ = 3600/4624. Add the numerators: (1024 + 3600)/4624 = 4624/4624. Answer: 1. Pythagoras gives 1024 + 3600 = 4624.",
+      "actions": [
+        "Write sin θ = 32/68 from the opposite and hypotenuse.",
+        "Write cos θ = 60/68 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 1024/4624, cos² θ = 3600/4624.",
+        "Add the numerators: (1024 + 3600)/4624 = 4624/4624.",
+        "Answer: 1. Pythagoras gives 1024 + 3600 = 4624."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p12",
+      "prompt": "A right triangle has opposite side 15, adjacent side 20 and hypotenuse 25. Find tan θ from sin θ ÷ cos θ.",
+      "options": [
+        "4/3",
+        "15/25",
+        "20/25",
+        "3/4"
+      ],
+      "answer_index": 3,
+      "memo": "Use the given triangle to read sin θ = 15/25. The same triangle gives cos θ = 20/25. Because cos θ is nonzero, tan θ = sin θ ÷ cos θ. Divide the fractions: (15/25) ÷ (20/25) = 15/20. Answer: tan θ = 3/4. The opposite-to-adjacent ratio 15:20 confirms it.",
+      "actions": [
+        "Use the given triangle to read sin θ = 15/25.",
+        "The same triangle gives cos θ = 20/25.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (15/25) ÷ (20/25) = 15/20.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 15:20 confirms it."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p13",
+      "prompt": "A right triangle has opposite side 25, adjacent side 60 and hypotenuse 65. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "options": [
+        "60/25",
+        "65/60",
+        "12/13",
+        "25/65"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the side adjacent to θ as 60 and the hypotenuse as 65. The cosine ratio is adjacent ÷ hypotenuse = 60/65. The sine ratio is opposite ÷ hypotenuse = 25/65. Square both ratios and add: 625/4225 + 3600/4225 = 4225/4225. Answer: cos θ = 12/13. Since 625 + 3600 = 4225, sin² θ + cos² θ = 1.",
+      "actions": [
+        "Mark the side adjacent to θ as 60 and the hypotenuse as 65.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 60/65.",
+        "The sine ratio is opposite ÷ hypotenuse = 25/65.",
+        "Square both ratios and add: 625/4225 + 3600/4225 = 4225/4225.",
+        "Answer: cos θ = 12/13. Since 625 + 3600 = 4225, sin² θ + cos² θ = 1."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p14",
+      "prompt": "A right triangle has opposite side 40, adjacent side 75 and hypotenuse 85. Evaluate sin² θ + cos² θ exactly.",
+      "options": [
+        "115/85",
+        "1",
+        "0",
+        "2"
+      ],
+      "answer_index": 1,
+      "memo": "Write sin θ = 40/85 from the opposite and hypotenuse. Write cos θ = 75/85 from the adjacent and hypotenuse. Square each ratio: sin² θ = 1600/7225, cos² θ = 5625/7225. Add the numerators: (1600 + 5625)/7225 = 7225/7225. Answer: 1. Pythagoras gives 1600 + 5625 = 7225.",
+      "actions": [
+        "Write sin θ = 40/85 from the opposite and hypotenuse.",
+        "Write cos θ = 75/85 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 1600/7225, cos² θ = 5625/7225.",
+        "Add the numerators: (1600 + 5625)/7225 = 7225/7225.",
+        "Answer: 1. Pythagoras gives 1600 + 5625 = 7225."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-p15",
+      "prompt": "A right triangle has opposite side 18, adjacent side 24 and hypotenuse 30. Find tan θ from sin θ ÷ cos θ.",
+      "options": [
+        "3/4",
+        "4/3",
+        "18/30",
+        "24/30"
+      ],
+      "answer_index": 0,
+      "memo": "Use the given triangle to read sin θ = 18/30. The same triangle gives cos θ = 24/30. Because cos θ is nonzero, tan θ = sin θ ÷ cos θ. Divide the fractions: (18/30) ÷ (24/30) = 18/24. Answer: tan θ = 3/4. The opposite-to-adjacent ratio 18:24 confirms it.",
+      "actions": [
+        "Use the given triangle to read sin θ = 18/30.",
+        "The same triangle gives cos θ = 24/30.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (18/30) ÷ (24/30) = 18/24.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 18:24 confirms it."
+      ]
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-tr-l01-m01",
+      "prompt": "A right triangle has opposite side 8, adjacent side 15 and hypotenuse 17. Evaluate sin² θ + cos² θ exactly.",
+      "options": [
+        "23/17",
+        "1",
+        "0",
+        "2"
+      ],
+      "answer_index": 1,
+      "memo": "Write sin θ = 8/17 from the opposite and hypotenuse. Write cos θ = 15/17 from the adjacent and hypotenuse. Square each ratio: sin² θ = 64/289, cos² θ = 225/289. Add the numerators: (64 + 225)/289 = 289/289. Answer: 1. Pythagoras gives 64 + 225 = 289.",
+      "actions": [
+        "Write sin θ = 8/17 from the opposite and hypotenuse.",
+        "Write cos θ = 15/17 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 64/289, cos² θ = 225/289.",
+        "Add the numerators: (64 + 225)/289 = 289/289.",
+        "Answer: 1. Pythagoras gives 64 + 225 = 289."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-m02",
+      "prompt": "A right triangle has opposite side 6, adjacent side 8 and hypotenuse 10. Find tan θ from sin θ ÷ cos θ.",
+      "options": [
+        "3/4",
+        "4/3",
+        "6/10",
+        "8/10"
+      ],
+      "answer_index": 0,
+      "memo": "Use the given triangle to read sin θ = 6/10. The same triangle gives cos θ = 8/10. Because cos θ is nonzero, tan θ = sin θ ÷ cos θ. Divide the fractions: (6/10) ÷ (8/10) = 6/8. Answer: tan θ = 3/4. The opposite-to-adjacent ratio 6:8 confirms it.",
+      "actions": [
+        "Use the given triangle to read sin θ = 6/10.",
+        "The same triangle gives cos θ = 8/10.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (6/10) ÷ (8/10) = 6/8.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 6:8 confirms it."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-m03",
+      "prompt": "A right triangle has opposite side 10, adjacent side 24 and hypotenuse 26. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "options": [
+        "10/26",
+        "24/10",
+        "26/24",
+        "12/13"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the side adjacent to θ as 24 and the hypotenuse as 26. The cosine ratio is adjacent ÷ hypotenuse = 24/26. The sine ratio is opposite ÷ hypotenuse = 10/26. Square both ratios and add: 100/676 + 576/676 = 676/676. Answer: cos θ = 12/13. Since 100 + 576 = 676, sin² θ + cos² θ = 1.",
+      "actions": [
+        "Mark the side adjacent to θ as 24 and the hypotenuse as 26.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 24/26.",
+        "The sine ratio is opposite ÷ hypotenuse = 10/26.",
+        "Square both ratios and add: 100/676 + 576/676 = 676/676.",
+        "Answer: cos θ = 12/13. Since 100 + 576 = 676, sin² θ + cos² θ = 1."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-m04",
+      "prompt": "A right triangle has opposite side 16, adjacent side 30 and hypotenuse 34. Evaluate sin² θ + cos² θ exactly.",
+      "options": [
+        "2",
+        "46/34",
+        "1",
+        "0"
+      ],
+      "answer_index": 2,
+      "memo": "Write sin θ = 16/34 from the opposite and hypotenuse. Write cos θ = 30/34 from the adjacent and hypotenuse. Square each ratio: sin² θ = 256/1156, cos² θ = 900/1156. Add the numerators: (256 + 900)/1156 = 1156/1156. Answer: 1. Pythagoras gives 256 + 900 = 1156.",
+      "actions": [
+        "Write sin θ = 16/34 from the opposite and hypotenuse.",
+        "Write cos θ = 30/34 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 256/1156, cos² θ = 900/1156.",
+        "Add the numerators: (256 + 900)/1156 = 1156/1156.",
+        "Answer: 1. Pythagoras gives 256 + 900 = 1156."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-m05",
+      "prompt": "A right triangle has opposite side 9, adjacent side 12 and hypotenuse 15. Find tan θ from sin θ ÷ cos θ.",
+      "options": [
+        "12/15",
+        "3/4",
+        "4/3",
+        "9/15"
+      ],
+      "answer_index": 1,
+      "memo": "Use the given triangle to read sin θ = 9/15. The same triangle gives cos θ = 12/15. Because cos θ is nonzero, tan θ = sin θ ÷ cos θ. Divide the fractions: (9/15) ÷ (12/15) = 9/12. Answer: tan θ = 3/4. The opposite-to-adjacent ratio 9:12 confirms it.",
+      "actions": [
+        "Use the given triangle to read sin θ = 9/15.",
+        "The same triangle gives cos θ = 12/15.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (9/15) ÷ (12/15) = 9/12.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 9:12 confirms it."
+      ]
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-tr-l01-r01",
+      "prompt": "A right triangle has opposite side 6, adjacent side 8 and hypotenuse 10. Find tan θ from sin θ ÷ cos θ.",
+      "options": [
+        "3/4",
+        "4/3",
+        "6/10",
+        "8/10"
+      ],
+      "answer_index": 0,
+      "memo": "Use the given triangle to read sin θ = 6/10. The same triangle gives cos θ = 8/10. Because cos θ is nonzero, tan θ = sin θ ÷ cos θ. Divide the fractions: (6/10) ÷ (8/10) = 6/8. Answer: tan θ = 3/4. The opposite-to-adjacent ratio 6:8 confirms it.",
+      "actions": [
+        "Use the given triangle to read sin θ = 6/10.",
+        "The same triangle gives cos θ = 8/10.",
+        "Because cos θ is nonzero, tan θ = sin θ ÷ cos θ.",
+        "Divide the fractions: (6/10) ÷ (8/10) = 6/8.",
+        "Answer: tan θ = 3/4. The opposite-to-adjacent ratio 6:8 confirms it."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-r02",
+      "prompt": "A right triangle has opposite side 10, adjacent side 24 and hypotenuse 26. Find cos θ and verify sin² θ + cos² θ = 1.",
+      "options": [
+        "10/26",
+        "24/10",
+        "26/24",
+        "12/13"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the side adjacent to θ as 24 and the hypotenuse as 26. The cosine ratio is adjacent ÷ hypotenuse = 24/26. The sine ratio is opposite ÷ hypotenuse = 10/26. Square both ratios and add: 100/676 + 576/676 = 676/676. Answer: cos θ = 12/13. Since 100 + 576 = 676, sin² θ + cos² θ = 1.",
+      "actions": [
+        "Mark the side adjacent to θ as 24 and the hypotenuse as 26.",
+        "The cosine ratio is adjacent ÷ hypotenuse = 24/26.",
+        "The sine ratio is opposite ÷ hypotenuse = 10/26.",
+        "Square both ratios and add: 100/676 + 576/676 = 676/676.",
+        "Answer: cos θ = 12/13. Since 100 + 576 = 676, sin² θ + cos² θ = 1."
+      ]
+    },
+    {
+      "id": "g11-tr-l01-r03",
+      "prompt": "A right triangle has opposite side 16, adjacent side 30 and hypotenuse 34. Evaluate sin² θ + cos² θ exactly.",
+      "options": [
+        "2",
+        "46/34",
+        "1",
+        "0"
+      ],
+      "answer_index": 2,
+      "memo": "Write sin θ = 16/34 from the opposite and hypotenuse. Write cos θ = 30/34 from the adjacent and hypotenuse. Square each ratio: sin² θ = 256/1156, cos² θ = 900/1156. Add the numerators: (256 + 900)/1156 = 1156/1156. Answer: 1. Pythagoras gives 256 + 900 = 1156.",
+      "actions": [
+        "Write sin θ = 16/34 from the opposite and hypotenuse.",
+        "Write cos θ = 30/34 from the adjacent and hypotenuse.",
+        "Square each ratio: sin² θ = 256/1156, cos² θ = 900/1156.",
+        "Add the numerators: (256 + 900)/1156 = 1156/1156.",
+        "Answer: 1. Pythagoras gives 256 + 900 = 1156."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,838 @@
+{
+  "source": "grade11-tr-lesson-06.md",
+  "worked": [
+    {
+      "id": "g11-tr-l06-w01",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of sin θ = 1/2.",
+      "answer": "θ = 30° + 360°k or θ = 150° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude 1/2 has reference angle 30°.",
+        "sin is positive in the required quadrants; mark the solutions 30° and 150° in one revolution.",
+        "The period of sin is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 30° + 360°k or θ = 150° + 360°k.",
+        "Answer: θ = 30° + 360°k or θ = 150° + 360°k, k ∈ ℤ. Substitution gives sin θ = 1/2 on every branch."
+      ],
+      "check": "Answer: θ = 30° + 360°k or θ = 150° + 360°k, k ∈ ℤ. Substitution gives sin θ = 1/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 30,
+          "function": "sin",
+          "target": "1/2",
+          "sign": 1,
+          "upper": null
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-tr-l06-w02",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of sin θ = √2/2.",
+      "answer": "θ = 45° + 360°k or θ = 135° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude √2/2 has reference angle 45°.",
+        "sin is positive in the required quadrants; mark the solutions 45° and 135° in one revolution.",
+        "The period of sin is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 45° + 360°k or θ = 135° + 360°k.",
+        "Answer: θ = 45° + 360°k or θ = 135° + 360°k, k ∈ ℤ. Substitution gives sin θ = √2/2 on every branch."
+      ],
+      "check": "Answer: θ = 45° + 360°k or θ = 135° + 360°k, k ∈ ℤ. Substitution gives sin θ = √2/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 45,
+          "function": "sin",
+          "target": "√2/2",
+          "sign": 1,
+          "upper": null
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-tr-l06-w03",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of sin θ = √3/2.",
+      "answer": "θ = 60° + 360°k or θ = 120° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude √3/2 has reference angle 60°.",
+        "sin is positive in the required quadrants; mark the solutions 60° and 120° in one revolution.",
+        "The period of sin is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 60° + 360°k or θ = 120° + 360°k.",
+        "Answer: θ = 60° + 360°k or θ = 120° + 360°k, k ∈ ℤ. Substitution gives sin θ = √3/2 on every branch."
+      ],
+      "check": "Answer: θ = 60° + 360°k or θ = 120° + 360°k, k ∈ ℤ. Substitution gives sin θ = √3/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 60,
+          "function": "sin",
+          "target": "√3/2",
+          "sign": 1,
+          "upper": null
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l06-w04",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of cos θ = √3/2.",
+      "answer": "θ = 30° + 360°k or θ = 330° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude √3/2 has reference angle 30°.",
+        "cos is positive in the required quadrants; mark the solutions 30° and 330° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 30° + 360°k or θ = 330° + 360°k.",
+        "Answer: θ = 30° + 360°k or θ = 330° + 360°k, k ∈ ℤ. Substitution gives cos θ = √3/2 on every branch."
+      ],
+      "check": "Answer: θ = 30° + 360°k or θ = 330° + 360°k, k ∈ ℤ. Substitution gives cos θ = √3/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 30,
+          "function": "cos",
+          "target": "√3/2",
+          "sign": 1,
+          "upper": null
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l06-w05",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of cos θ = √2/2.",
+      "answer": "θ = 45° + 360°k or θ = 315° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude √2/2 has reference angle 45°.",
+        "cos is positive in the required quadrants; mark the solutions 45° and 315° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 45° + 360°k or θ = 315° + 360°k.",
+        "Answer: θ = 45° + 360°k or θ = 315° + 360°k, k ∈ ℤ. Substitution gives cos θ = √2/2 on every branch."
+      ],
+      "check": "Answer: θ = 45° + 360°k or θ = 315° + 360°k, k ∈ ℤ. Substitution gives cos θ = √2/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 45,
+          "function": "cos",
+          "target": "√2/2",
+          "sign": 1,
+          "upper": null
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l06-w06",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of cos θ = 1/2.",
+      "answer": "θ = 60° + 360°k or θ = 300° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude 1/2 has reference angle 60°.",
+        "cos is positive in the required quadrants; mark the solutions 60° and 300° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 60° + 360°k or θ = 300° + 360°k.",
+        "Answer: θ = 60° + 360°k or θ = 300° + 360°k, k ∈ ℤ. Substitution gives cos θ = 1/2 on every branch."
+      ],
+      "check": "Answer: θ = 60° + 360°k or θ = 300° + 360°k, k ∈ ℤ. Substitution gives cos θ = 1/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 60,
+          "function": "cos",
+          "target": "1/2",
+          "sign": 1,
+          "upper": null
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l06-w07",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of tan θ = √3/3.",
+      "answer": "θ = 30° + 180°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude √3/3 has reference angle 30°.",
+        "tan is positive in the required quadrants; mark the solutions 30° and 210° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 30° + 180°k.",
+        "Answer: θ = 30° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3/3 on every branch."
+      ],
+      "check": "Answer: θ = 30° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3/3 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 30,
+          "function": "tan",
+          "target": "√3/3",
+          "sign": 1,
+          "upper": null
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l06-w08",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of tan θ = 1.",
+      "answer": "θ = 45° + 180°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude 1 has reference angle 45°.",
+        "tan is positive in the required quadrants; mark the solutions 45° and 225° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 45° + 180°k.",
+        "Answer: θ = 45° + 180°k, k ∈ ℤ. Substitution gives tan θ = 1 on every branch."
+      ],
+      "check": "Answer: θ = 45° + 180°k, k ∈ ℤ. Substitution gives tan θ = 1 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 45,
+          "function": "tan",
+          "target": "1",
+          "sign": 1,
+          "upper": null
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l06-w09",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of tan θ = √3.",
+      "answer": "θ = 60° + 180°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude √3 has reference angle 60°.",
+        "tan is positive in the required quadrants; mark the solutions 60° and 240° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 60° + 180°k.",
+        "Answer: θ = 60° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3 on every branch."
+      ],
+      "check": "Answer: θ = 60° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 60,
+          "function": "tan",
+          "target": "√3",
+          "sign": 1,
+          "upper": null
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l06-w10",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of sin θ = -1/2.",
+      "answer": "θ = 210° + 360°k or θ = 330° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude 1/2 has reference angle 30°.",
+        "sin is negative in the required quadrants; mark the solutions 210° and 330° in one revolution.",
+        "The period of sin is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 210° + 360°k or θ = 330° + 360°k.",
+        "Answer: θ = 210° + 360°k or θ = 330° + 360°k, k ∈ ℤ. Substitution gives sin θ = -1/2 on every branch."
+      ],
+      "check": "Answer: θ = 210° + 360°k or θ = 330° + 360°k, k ∈ ℤ. Substitution gives sin θ = -1/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 30,
+          "function": "sin",
+          "target": "-1/2",
+          "sign": -1,
+          "upper": null
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l06-w11",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of sin θ = -√2/2.",
+      "answer": "θ = 225° + 360°k or θ = 315° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude √2/2 has reference angle 45°.",
+        "sin is negative in the required quadrants; mark the solutions 225° and 315° in one revolution.",
+        "The period of sin is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 225° + 360°k or θ = 315° + 360°k.",
+        "Answer: θ = 225° + 360°k or θ = 315° + 360°k, k ∈ ℤ. Substitution gives sin θ = -√2/2 on every branch."
+      ],
+      "check": "Answer: θ = 225° + 360°k or θ = 315° + 360°k, k ∈ ℤ. Substitution gives sin θ = -√2/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 45,
+          "function": "sin",
+          "target": "-√2/2",
+          "sign": -1,
+          "upper": null
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l06-w12",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of sin θ = -√3/2.",
+      "answer": "θ = 240° + 360°k or θ = 300° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude √3/2 has reference angle 60°.",
+        "sin is negative in the required quadrants; mark the solutions 240° and 300° in one revolution.",
+        "The period of sin is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 240° + 360°k or θ = 300° + 360°k.",
+        "Answer: θ = 240° + 360°k or θ = 300° + 360°k, k ∈ ℤ. Substitution gives sin θ = -√3/2 on every branch."
+      ],
+      "check": "Answer: θ = 240° + 360°k or θ = 300° + 360°k, k ∈ ℤ. Substitution gives sin θ = -√3/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 60,
+          "function": "sin",
+          "target": "-√3/2",
+          "sign": -1,
+          "upper": null
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l06-w13",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of cos θ = -√3/2.",
+      "answer": "θ = 150° + 360°k or θ = 210° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude √3/2 has reference angle 30°.",
+        "cos is negative in the required quadrants; mark the solutions 150° and 210° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 150° + 360°k or θ = 210° + 360°k.",
+        "Answer: θ = 150° + 360°k or θ = 210° + 360°k, k ∈ ℤ. Substitution gives cos θ = -√3/2 on every branch."
+      ],
+      "check": "Answer: θ = 150° + 360°k or θ = 210° + 360°k, k ∈ ℤ. Substitution gives cos θ = -√3/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 30,
+          "function": "cos",
+          "target": "-√3/2",
+          "sign": -1,
+          "upper": null
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-tr-l06-w14",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of cos θ = -√2/2.",
+      "answer": "θ = 135° + 360°k or θ = 225° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude √2/2 has reference angle 45°.",
+        "cos is negative in the required quadrants; mark the solutions 135° and 225° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 135° + 360°k or θ = 225° + 360°k.",
+        "Answer: θ = 135° + 360°k or θ = 225° + 360°k, k ∈ ℤ. Substitution gives cos θ = -√2/2 on every branch."
+      ],
+      "check": "Answer: θ = 135° + 360°k or θ = 225° + 360°k, k ∈ ℤ. Substitution gives cos θ = -√2/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 45,
+          "function": "cos",
+          "target": "-√2/2",
+          "sign": -1,
+          "upper": null
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-tr-l06-w15",
+      "lesson": 6,
+      "problem": "Give the general solution in degrees of cos θ = -1/2.",
+      "answer": "θ = 120° + 360°k or θ = 240° + 360°k, k ∈ ℤ",
+      "actions": [
+        "The target magnitude 1/2 has reference angle 60°.",
+        "cos is negative in the required quadrants; mark the solutions 120° and 240° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 120° + 360°k or θ = 240° + 360°k.",
+        "Answer: θ = 120° + 360°k or θ = 240° + 360°k, k ∈ ℤ. Substitution gives cos θ = -1/2 on every branch."
+      ],
+      "check": "Answer: θ = 120° + 360°k or θ = 240° + 360°k, k ∈ ℤ. Substitution gives cos θ = -1/2 on every branch.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "general",
+          "reference": 60,
+          "function": "cos",
+          "target": "-1/2",
+          "sign": -1,
+          "upper": null
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-tr-l06-p01",
+      "prompt": "Give the general solution in degrees of sin θ = √2/2.",
+      "options": [
+        "θ = 45° + 360°k, k ∈ ℤ",
+        "θ = 45°, k ∈ ℤ",
+        "θ = 45° + 360°k or θ = 135° + 360°k, k ∈ ℤ",
+        "θ = 45° + 180°k or θ = 135° + 180°k, k ∈ ℤ"
+      ],
+      "answer_index": 2,
+      "memo": "The target magnitude √2/2 has reference angle 45°. sin is positive in the required quadrants; mark the solutions 45° and 135° in one revolution. The period of sin is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 45° + 360°k or θ = 135° + 360°k. Answer: θ = 45° + 360°k or θ = 135° + 360°k, k ∈ ℤ. Substitution gives sin θ = √2/2 on every branch.",
+      "actions": [
+        "The target magnitude √2/2 has reference angle 45°.",
+        "sin is positive in the required quadrants; mark the solutions 45° and 135° in one revolution.",
+        "The period of sin is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 45° + 360°k or θ = 135° + 360°k.",
+        "Answer: θ = 45° + 360°k or θ = 135° + 360°k, k ∈ ℤ. Substitution gives sin θ = √2/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p02",
+      "prompt": "Give the general solution in degrees of cos θ = 1/2.",
+      "options": [
+        "θ = 60°, k ∈ ℤ",
+        "θ = 60° + 360°k or θ = 300° + 360°k, k ∈ ℤ",
+        "θ = 60° + 180°k or θ = 300° + 180°k, k ∈ ℤ",
+        "θ = 60° + 360°k, k ∈ ℤ"
+      ],
+      "answer_index": 1,
+      "memo": "The target magnitude 1/2 has reference angle 60°. cos is positive in the required quadrants; mark the solutions 60° and 300° in one revolution. The period of cos is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 60° + 360°k or θ = 300° + 360°k. Answer: θ = 60° + 360°k or θ = 300° + 360°k, k ∈ ℤ. Substitution gives cos θ = 1/2 on every branch.",
+      "actions": [
+        "The target magnitude 1/2 has reference angle 60°.",
+        "cos is positive in the required quadrants; mark the solutions 60° and 300° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 60° + 360°k or θ = 300° + 360°k.",
+        "Answer: θ = 60° + 360°k or θ = 300° + 360°k, k ∈ ℤ. Substitution gives cos θ = 1/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p03",
+      "prompt": "Give the general solution in degrees of cos θ = √3/2.",
+      "options": [
+        "θ = 30° + 360°k or θ = 330° + 360°k, k ∈ ℤ",
+        "θ = 30° + 180°k or θ = 330° + 180°k, k ∈ ℤ",
+        "θ = 30° + 360°k, k ∈ ℤ",
+        "θ = 30°, k ∈ ℤ"
+      ],
+      "answer_index": 0,
+      "memo": "The target magnitude √3/2 has reference angle 30°. cos is positive in the required quadrants; mark the solutions 30° and 330° in one revolution. The period of cos is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 30° + 360°k or θ = 330° + 360°k. Answer: θ = 30° + 360°k or θ = 330° + 360°k, k ∈ ℤ. Substitution gives cos θ = √3/2 on every branch.",
+      "actions": [
+        "The target magnitude √3/2 has reference angle 30°.",
+        "cos is positive in the required quadrants; mark the solutions 30° and 330° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 30° + 360°k or θ = 330° + 360°k.",
+        "Answer: θ = 30° + 360°k or θ = 330° + 360°k, k ∈ ℤ. Substitution gives cos θ = √3/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p04",
+      "prompt": "Give the general solution in degrees of cos θ = √2/2.",
+      "options": [
+        "θ = 45° + 180°k or θ = 315° + 180°k, k ∈ ℤ",
+        "θ = 45° + 360°k, k ∈ ℤ",
+        "θ = 45°, k ∈ ℤ",
+        "θ = 45° + 360°k or θ = 315° + 360°k, k ∈ ℤ"
+      ],
+      "answer_index": 3,
+      "memo": "The target magnitude √2/2 has reference angle 45°. cos is positive in the required quadrants; mark the solutions 45° and 315° in one revolution. The period of cos is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 45° + 360°k or θ = 315° + 360°k. Answer: θ = 45° + 360°k or θ = 315° + 360°k, k ∈ ℤ. Substitution gives cos θ = √2/2 on every branch.",
+      "actions": [
+        "The target magnitude √2/2 has reference angle 45°.",
+        "cos is positive in the required quadrants; mark the solutions 45° and 315° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 45° + 360°k or θ = 315° + 360°k.",
+        "Answer: θ = 45° + 360°k or θ = 315° + 360°k, k ∈ ℤ. Substitution gives cos θ = √2/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p05",
+      "prompt": "Give the general solution in degrees of tan θ = √3.",
+      "options": [
+        "θ = 60°, k ∈ ℤ",
+        "θ = 30°, k ∈ ℤ",
+        "θ = 60° + 180°k, k ∈ ℤ",
+        "θ = 60° + 360°k, k ∈ ℤ"
+      ],
+      "answer_index": 2,
+      "memo": "The target magnitude √3 has reference angle 60°. tan is positive in the required quadrants; mark the solutions 60° and 240° in one revolution. The period of tan is 180°; translating a solution by one period preserves its value. Write the complete branch: θ = 60° + 180°k. Answer: θ = 60° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3 on every branch.",
+      "actions": [
+        "The target magnitude √3 has reference angle 60°.",
+        "tan is positive in the required quadrants; mark the solutions 60° and 240° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 60° + 180°k.",
+        "Answer: θ = 60° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p06",
+      "prompt": "Give the general solution in degrees of tan θ = √3/3.",
+      "options": [
+        "θ = 60°, k ∈ ℤ",
+        "θ = 30° + 180°k, k ∈ ℤ",
+        "θ = 30° + 360°k, k ∈ ℤ",
+        "θ = 30°, k ∈ ℤ"
+      ],
+      "answer_index": 1,
+      "memo": "The target magnitude √3/3 has reference angle 30°. tan is positive in the required quadrants; mark the solutions 30° and 210° in one revolution. The period of tan is 180°; translating a solution by one period preserves its value. Write the complete branch: θ = 30° + 180°k. Answer: θ = 30° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3/3 on every branch.",
+      "actions": [
+        "The target magnitude √3/3 has reference angle 30°.",
+        "tan is positive in the required quadrants; mark the solutions 30° and 210° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 30° + 180°k.",
+        "Answer: θ = 30° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3/3 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p07",
+      "prompt": "Give the general solution in degrees of tan θ = 1.",
+      "options": [
+        "θ = 45° + 180°k, k ∈ ℤ",
+        "θ = 45° + 360°k, k ∈ ℤ",
+        "θ = 45°, k ∈ ℤ",
+        "θ = 30°, k ∈ ℤ"
+      ],
+      "answer_index": 0,
+      "memo": "The target magnitude 1 has reference angle 45°. tan is positive in the required quadrants; mark the solutions 45° and 225° in one revolution. The period of tan is 180°; translating a solution by one period preserves its value. Write the complete branch: θ = 45° + 180°k. Answer: θ = 45° + 180°k, k ∈ ℤ. Substitution gives tan θ = 1 on every branch.",
+      "actions": [
+        "The target magnitude 1 has reference angle 45°.",
+        "tan is positive in the required quadrants; mark the solutions 45° and 225° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 45° + 180°k.",
+        "Answer: θ = 45° + 180°k, k ∈ ℤ. Substitution gives tan θ = 1 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p08",
+      "prompt": "Give the general solution in degrees of sin θ = √3/2.",
+      "options": [
+        "θ = 60° + 180°k or θ = 120° + 180°k, k ∈ ℤ",
+        "θ = 60° + 360°k, k ∈ ℤ",
+        "θ = 60°, k ∈ ℤ",
+        "θ = 60° + 360°k or θ = 120° + 360°k, k ∈ ℤ"
+      ],
+      "answer_index": 3,
+      "memo": "The target magnitude √3/2 has reference angle 60°. sin is positive in the required quadrants; mark the solutions 60° and 120° in one revolution. The period of sin is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 60° + 360°k or θ = 120° + 360°k. Answer: θ = 60° + 360°k or θ = 120° + 360°k, k ∈ ℤ. Substitution gives sin θ = √3/2 on every branch.",
+      "actions": [
+        "The target magnitude √3/2 has reference angle 60°.",
+        "sin is positive in the required quadrants; mark the solutions 60° and 120° in one revolution.",
+        "The period of sin is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 60° + 360°k or θ = 120° + 360°k.",
+        "Answer: θ = 60° + 360°k or θ = 120° + 360°k, k ∈ ℤ. Substitution gives sin θ = √3/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p09",
+      "prompt": "Give the general solution in degrees of sin θ = -1/2.",
+      "options": [
+        "θ = 30° + 360°k, k ∈ ℤ",
+        "θ = 210°, k ∈ ℤ",
+        "θ = 210° + 360°k or θ = 330° + 360°k, k ∈ ℤ",
+        "θ = 210° + 180°k or θ = 330° + 180°k, k ∈ ℤ"
+      ],
+      "answer_index": 2,
+      "memo": "The target magnitude 1/2 has reference angle 30°. sin is negative in the required quadrants; mark the solutions 210° and 330° in one revolution. The period of sin is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 210° + 360°k or θ = 330° + 360°k. Answer: θ = 210° + 360°k or θ = 330° + 360°k, k ∈ ℤ. Substitution gives sin θ = -1/2 on every branch.",
+      "actions": [
+        "The target magnitude 1/2 has reference angle 30°.",
+        "sin is negative in the required quadrants; mark the solutions 210° and 330° in one revolution.",
+        "The period of sin is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 210° + 360°k or θ = 330° + 360°k.",
+        "Answer: θ = 210° + 360°k or θ = 330° + 360°k, k ∈ ℤ. Substitution gives sin θ = -1/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p10",
+      "prompt": "Give the general solution in degrees of sin θ = -√2/2.",
+      "options": [
+        "θ = 225°, k ∈ ℤ",
+        "θ = 225° + 360°k or θ = 315° + 360°k, k ∈ ℤ",
+        "θ = 225° + 180°k or θ = 315° + 180°k, k ∈ ℤ",
+        "θ = 45° + 360°k, k ∈ ℤ"
+      ],
+      "answer_index": 1,
+      "memo": "The target magnitude √2/2 has reference angle 45°. sin is negative in the required quadrants; mark the solutions 225° and 315° in one revolution. The period of sin is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 225° + 360°k or θ = 315° + 360°k. Answer: θ = 225° + 360°k or θ = 315° + 360°k, k ∈ ℤ. Substitution gives sin θ = -√2/2 on every branch.",
+      "actions": [
+        "The target magnitude √2/2 has reference angle 45°.",
+        "sin is negative in the required quadrants; mark the solutions 225° and 315° in one revolution.",
+        "The period of sin is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 225° + 360°k or θ = 315° + 360°k.",
+        "Answer: θ = 225° + 360°k or θ = 315° + 360°k, k ∈ ℤ. Substitution gives sin θ = -√2/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p11",
+      "prompt": "Give the general solution in degrees of cos θ = -1/2.",
+      "options": [
+        "θ = 120° + 360°k or θ = 240° + 360°k, k ∈ ℤ",
+        "θ = 120° + 180°k or θ = 240° + 180°k, k ∈ ℤ",
+        "θ = 60° + 360°k, k ∈ ℤ",
+        "θ = 120°, k ∈ ℤ"
+      ],
+      "answer_index": 0,
+      "memo": "The target magnitude 1/2 has reference angle 60°. cos is negative in the required quadrants; mark the solutions 120° and 240° in one revolution. The period of cos is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 120° + 360°k or θ = 240° + 360°k. Answer: θ = 120° + 360°k or θ = 240° + 360°k, k ∈ ℤ. Substitution gives cos θ = -1/2 on every branch.",
+      "actions": [
+        "The target magnitude 1/2 has reference angle 60°.",
+        "cos is negative in the required quadrants; mark the solutions 120° and 240° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 120° + 360°k or θ = 240° + 360°k.",
+        "Answer: θ = 120° + 360°k or θ = 240° + 360°k, k ∈ ℤ. Substitution gives cos θ = -1/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p12",
+      "prompt": "Give the general solution in degrees of cos θ = -√3/2.",
+      "options": [
+        "θ = 150° + 180°k or θ = 210° + 180°k, k ∈ ℤ",
+        "θ = 30° + 360°k, k ∈ ℤ",
+        "θ = 150°, k ∈ ℤ",
+        "θ = 150° + 360°k or θ = 210° + 360°k, k ∈ ℤ"
+      ],
+      "answer_index": 3,
+      "memo": "The target magnitude √3/2 has reference angle 30°. cos is negative in the required quadrants; mark the solutions 150° and 210° in one revolution. The period of cos is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 150° + 360°k or θ = 210° + 360°k. Answer: θ = 150° + 360°k or θ = 210° + 360°k, k ∈ ℤ. Substitution gives cos θ = -√3/2 on every branch.",
+      "actions": [
+        "The target magnitude √3/2 has reference angle 30°.",
+        "cos is negative in the required quadrants; mark the solutions 150° and 210° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 150° + 360°k or θ = 210° + 360°k.",
+        "Answer: θ = 150° + 360°k or θ = 210° + 360°k, k ∈ ℤ. Substitution gives cos θ = -√3/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p13",
+      "prompt": "Give the general solution in degrees of cos θ = -√2/2.",
+      "options": [
+        "θ = 45° + 360°k, k ∈ ℤ",
+        "θ = 135°, k ∈ ℤ",
+        "θ = 135° + 360°k or θ = 225° + 360°k, k ∈ ℤ",
+        "θ = 135° + 180°k or θ = 225° + 180°k, k ∈ ℤ"
+      ],
+      "answer_index": 2,
+      "memo": "The target magnitude √2/2 has reference angle 45°. cos is negative in the required quadrants; mark the solutions 135° and 225° in one revolution. The period of cos is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 135° + 360°k or θ = 225° + 360°k. Answer: θ = 135° + 360°k or θ = 225° + 360°k, k ∈ ℤ. Substitution gives cos θ = -√2/2 on every branch.",
+      "actions": [
+        "The target magnitude √2/2 has reference angle 45°.",
+        "cos is negative in the required quadrants; mark the solutions 135° and 225° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 135° + 360°k or θ = 225° + 360°k.",
+        "Answer: θ = 135° + 360°k or θ = 225° + 360°k, k ∈ ℤ. Substitution gives cos θ = -√2/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p14",
+      "prompt": "Give the general solution in degrees of tan θ = -√3.",
+      "options": [
+        "θ = 120°, k ∈ ℤ",
+        "θ = 120° + 180°k, k ∈ ℤ",
+        "θ = 120° + 360°k, k ∈ ℤ",
+        "θ = 60° + 360°k, k ∈ ℤ"
+      ],
+      "answer_index": 1,
+      "memo": "The target magnitude √3 has reference angle 60°. tan is negative in the required quadrants; mark the solutions 120° and 300° in one revolution. The period of tan is 180°; translating a solution by one period preserves its value. Write the complete branch: θ = 120° + 180°k. Answer: θ = 120° + 180°k, k ∈ ℤ. Substitution gives tan θ = -√3 on every branch.",
+      "actions": [
+        "The target magnitude √3 has reference angle 60°.",
+        "tan is negative in the required quadrants; mark the solutions 120° and 300° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 120° + 180°k.",
+        "Answer: θ = 120° + 180°k, k ∈ ℤ. Substitution gives tan θ = -√3 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-p15",
+      "prompt": "Give the general solution in degrees of tan θ = -√3/3.",
+      "options": [
+        "θ = 150° + 180°k, k ∈ ℤ",
+        "θ = 150° + 360°k, k ∈ ℤ",
+        "θ = 30° + 360°k, k ∈ ℤ",
+        "θ = 150°, k ∈ ℤ"
+      ],
+      "answer_index": 0,
+      "memo": "The target magnitude √3/3 has reference angle 30°. tan is negative in the required quadrants; mark the solutions 150° and 330° in one revolution. The period of tan is 180°; translating a solution by one period preserves its value. Write the complete branch: θ = 150° + 180°k. Answer: θ = 150° + 180°k, k ∈ ℤ. Substitution gives tan θ = -√3/3 on every branch.",
+      "actions": [
+        "The target magnitude √3/3 has reference angle 30°.",
+        "tan is negative in the required quadrants; mark the solutions 150° and 330° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 150° + 180°k.",
+        "Answer: θ = 150° + 180°k, k ∈ ℤ. Substitution gives tan θ = -√3/3 on every branch."
+      ]
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-tr-l06-m01",
+      "prompt": "Give the general solution in degrees of cos θ = 1/2.",
+      "options": [
+        "θ = 60°, k ∈ ℤ",
+        "θ = 60° + 360°k or θ = 300° + 360°k, k ∈ ℤ",
+        "θ = 60° + 180°k or θ = 300° + 180°k, k ∈ ℤ",
+        "θ = 60° + 360°k, k ∈ ℤ"
+      ],
+      "answer_index": 1,
+      "memo": "The target magnitude 1/2 has reference angle 60°. cos is positive in the required quadrants; mark the solutions 60° and 300° in one revolution. The period of cos is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 60° + 360°k or θ = 300° + 360°k. Answer: θ = 60° + 360°k or θ = 300° + 360°k, k ∈ ℤ. Substitution gives cos θ = 1/2 on every branch.",
+      "actions": [
+        "The target magnitude 1/2 has reference angle 60°.",
+        "cos is positive in the required quadrants; mark the solutions 60° and 300° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 60° + 360°k or θ = 300° + 360°k.",
+        "Answer: θ = 60° + 360°k or θ = 300° + 360°k, k ∈ ℤ. Substitution gives cos θ = 1/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-m02",
+      "prompt": "Give the general solution in degrees of cos θ = √3/2.",
+      "options": [
+        "θ = 30° + 360°k or θ = 330° + 360°k, k ∈ ℤ",
+        "θ = 30° + 180°k or θ = 330° + 180°k, k ∈ ℤ",
+        "θ = 30° + 360°k, k ∈ ℤ",
+        "θ = 30°, k ∈ ℤ"
+      ],
+      "answer_index": 0,
+      "memo": "The target magnitude √3/2 has reference angle 30°. cos is positive in the required quadrants; mark the solutions 30° and 330° in one revolution. The period of cos is 360°; translating a solution by one period preserves its value. Write the complete branches: θ = 30° + 360°k or θ = 330° + 360°k. Answer: θ = 30° + 360°k or θ = 330° + 360°k, k ∈ ℤ. Substitution gives cos θ = √3/2 on every branch.",
+      "actions": [
+        "The target magnitude √3/2 has reference angle 30°.",
+        "cos is positive in the required quadrants; mark the solutions 30° and 330° in one revolution.",
+        "The period of cos is 360°; translating a solution by one period preserves its value.",
+        "Write the complete branches: θ = 30° + 360°k or θ = 330° + 360°k.",
+        "Answer: θ = 30° + 360°k or θ = 330° + 360°k, k ∈ ℤ. Substitution gives cos θ = √3/2 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-m03",
+      "prompt": "Give the general solution in degrees of tan θ = 1.",
+      "options": [
+        "θ = 45° + 360°k, k ∈ ℤ",
+        "θ = 45°, k ∈ ℤ",
+        "θ = 30°, k ∈ ℤ",
+        "θ = 45° + 180°k, k ∈ ℤ"
+      ],
+      "answer_index": 3,
+      "memo": "The target magnitude 1 has reference angle 45°. tan is positive in the required quadrants; mark the solutions 45° and 225° in one revolution. The period of tan is 180°; translating a solution by one period preserves its value. Write the complete branch: θ = 45° + 180°k. Answer: θ = 45° + 180°k, k ∈ ℤ. Substitution gives tan θ = 1 on every branch.",
+      "actions": [
+        "The target magnitude 1 has reference angle 45°.",
+        "tan is positive in the required quadrants; mark the solutions 45° and 225° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 45° + 180°k.",
+        "Answer: θ = 45° + 180°k, k ∈ ℤ. Substitution gives tan θ = 1 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-m04",
+      "prompt": "Give the general solution in degrees of tan θ = √3.",
+      "options": [
+        "θ = 60°, k ∈ ℤ",
+        "θ = 30°, k ∈ ℤ",
+        "θ = 60° + 180°k, k ∈ ℤ",
+        "θ = 60° + 360°k, k ∈ ℤ"
+      ],
+      "answer_index": 2,
+      "memo": "The target magnitude √3 has reference angle 60°. tan is positive in the required quadrants; mark the solutions 60° and 240° in one revolution. The period of tan is 180°; translating a solution by one period preserves its value. Write the complete branch: θ = 60° + 180°k. Answer: θ = 60° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3 on every branch.",
+      "actions": [
+        "The target magnitude √3 has reference angle 60°.",
+        "tan is positive in the required quadrants; mark the solutions 60° and 240° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 60° + 180°k.",
+        "Answer: θ = 60° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-m05",
+      "prompt": "Give the general solution in degrees of tan θ = √3/3.",
+      "options": [
+        "θ = 60°, k ∈ ℤ",
+        "θ = 30° + 180°k, k ∈ ℤ",
+        "θ = 30° + 360°k, k ∈ ℤ",
+        "θ = 30°, k ∈ ℤ"
+      ],
+      "answer_index": 1,
+      "memo": "The target magnitude √3/3 has reference angle 30°. tan is positive in the required quadrants; mark the solutions 30° and 210° in one revolution. The period of tan is 180°; translating a solution by one period preserves its value. Write the complete branch: θ = 30° + 180°k. Answer: θ = 30° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3/3 on every branch.",
+      "actions": [
+        "The target magnitude √3/3 has reference angle 30°.",
+        "tan is positive in the required quadrants; mark the solutions 30° and 210° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 30° + 180°k.",
+        "Answer: θ = 30° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3/3 on every branch."
+      ]
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-tr-l06-r01",
+      "prompt": "Give the general solution in degrees of tan θ = √3/3.",
+      "options": [
+        "θ = 30° + 180°k, k ∈ ℤ",
+        "θ = 30° + 360°k, k ∈ ℤ",
+        "θ = 30°, k ∈ ℤ",
+        "θ = 60°, k ∈ ℤ"
+      ],
+      "answer_index": 0,
+      "memo": "The target magnitude √3/3 has reference angle 30°. tan is positive in the required quadrants; mark the solutions 30° and 210° in one revolution. The period of tan is 180°; translating a solution by one period preserves its value. Write the complete branch: θ = 30° + 180°k. Answer: θ = 30° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3/3 on every branch.",
+      "actions": [
+        "The target magnitude √3/3 has reference angle 30°.",
+        "tan is positive in the required quadrants; mark the solutions 30° and 210° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 30° + 180°k.",
+        "Answer: θ = 30° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3/3 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-r02",
+      "prompt": "Give the general solution in degrees of tan θ = 1.",
+      "options": [
+        "θ = 45° + 360°k, k ∈ ℤ",
+        "θ = 45°, k ∈ ℤ",
+        "θ = 30°, k ∈ ℤ",
+        "θ = 45° + 180°k, k ∈ ℤ"
+      ],
+      "answer_index": 3,
+      "memo": "The target magnitude 1 has reference angle 45°. tan is positive in the required quadrants; mark the solutions 45° and 225° in one revolution. The period of tan is 180°; translating a solution by one period preserves its value. Write the complete branch: θ = 45° + 180°k. Answer: θ = 45° + 180°k, k ∈ ℤ. Substitution gives tan θ = 1 on every branch.",
+      "actions": [
+        "The target magnitude 1 has reference angle 45°.",
+        "tan is positive in the required quadrants; mark the solutions 45° and 225° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 45° + 180°k.",
+        "Answer: θ = 45° + 180°k, k ∈ ℤ. Substitution gives tan θ = 1 on every branch."
+      ]
+    },
+    {
+      "id": "g11-tr-l06-r03",
+      "prompt": "Give the general solution in degrees of tan θ = √3.",
+      "options": [
+        "θ = 60°, k ∈ ℤ",
+        "θ = 30°, k ∈ ℤ",
+        "θ = 60° + 180°k, k ∈ ℤ",
+        "θ = 60° + 360°k, k ∈ ℤ"
+      ],
+      "answer_index": 2,
+      "memo": "The target magnitude √3 has reference angle 60°. tan is positive in the required quadrants; mark the solutions 60° and 240° in one revolution. The period of tan is 180°; translating a solution by one period preserves its value. Write the complete branch: θ = 60° + 180°k. Answer: θ = 60° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3 on every branch.",
+      "actions": [
+        "The target magnitude √3 has reference angle 60°.",
+        "tan is positive in the required quadrants; mark the solutions 60° and 240° in one revolution.",
+        "The period of tan is 180°; translating a solution by one period preserves its value.",
+        "Write the complete branch: θ = 60° + 180°k.",
+        "Answer: θ = 60° + 180°k, k ∈ ℤ. Substitution gives tan θ = √3 on every branch."
+      ]
+    }
+  ]
+}

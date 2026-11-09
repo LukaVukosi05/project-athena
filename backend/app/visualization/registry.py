@@ -24,7 +24,7 @@ def _reject_unsafe(parameters: dict) -> None:
             # Comparison signs are valid mathematics (for example ``x > 2``).
             # Reject markup-like starts and executable protocols instead of
             # rejecting the mathematical angle-bracket characters themselves.
-            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5]|g9-solid-l0[1-4]|g9-sv-l0[1-6]|g9-tg-l0[1-7]|g10-aex-l0[1-6]|g10-eei-l0[1-9]|g10-trig-l0[1-7]|g10-euc-l0[1-6]|g10-ag-l0[1-6]|g10-fn-l0[1-7]|g10-stat-l0[1-6]|g10-prob-l0[1-5]|g10-fin-l0[1-6]|g10-meas-l0[1-6]|g11-es-l0[1-6]|g11-ei-l0[1-7])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
+            limit = (6000 if key == "scene_json" else 400) if key in {"scene_json", "prompt"} and re.fullmatch(r"(?:g8-graphs-l0[1-6]|g8-patterns-l0[1-6]|g8-whole-l0[1-2]|g8-int-l0[1-6]|g8-frac-l0[1-8]|g8-dec-l0[1-6]|g8-exp-l0[1-6]|g8-fr-l0[4-6]|g8-shapes-0[1-5]|g8-pyth-0[1-5]|g8-lines-0[3-5]|g9-whole-l0[1-8]|g9-int-l0[1-5]|g9-exp-l0[1-6]|g9-pat-l0[1-5]|g9-fn-l0[1-5]|g9-aex-l0[1-9]|g9-eq-l0[1-6]|g9-gr-l0[1-7]|g9-lines-l0[1-5]|g9-shapes-l0[1-8]|g9-area-l0[1-5]|g9-data-l0[1-8]|g9-prob-l0[1-5]|g9-solid-l0[1-4]|g9-sv-l0[1-6]|g9-tg-l0[1-7]|g10-aex-l0[1-6]|g10-eei-l0[1-9]|g10-trig-l0[1-7]|g10-euc-l0[1-6]|g10-ag-l0[1-6]|g10-fn-l0[1-7]|g10-stat-l0[1-6]|g10-prob-l0[1-5]|g10-fin-l0[1-6]|g10-meas-l0[1-6]|g11-es-l0[1-6]|g11-ei-l0[1-7]|g11-tr-l0[1-7])-w(?:0[1-9]|1[0-5])", str(parameters.get("question_id", ""))) else 600 if (key in {"source_data", "initial_state"} or key == "prompt" and str(parameters.get("question_id", "")).startswith(("g8-ae-l09-", "g8-ae-l10-"))) and re.fullmatch(r"g8-ae-l(?:0[1-9]|10)-w\d{2}", str(parameters.get("question_id", ""))) else 160
             if isinstance(item, str) and (len(item) > limit or re.search(r"<\s*/?\s*[A-Za-z!][^>]{0,80}>|javascript:|\beval\b|\bfunction\s*\(", item, re.I)):
                 raise ValueError("Unsafe visualization parameter")
 
@@ -643,6 +643,18 @@ def _grade10_meas_board(parameters: dict, number: int) -> None:
     authored=next((q for q in json.loads(source.read_text(encoding='utf-8'))['worked'] if q['id']==qid),None)
     if scene!=authored or ''.join(scene['answer'].split()) not in ''.join(scene['check'].split()):
         raise ValueError('Measurement surface, volume or units differ from authored source')
+
+def _grade11_tr_board(parameters: dict, number: int) -> None:
+    import json
+    from pathlib import Path
+    scene=json.loads(parameters['scene_json']); qid=parameters.get('question_id')
+    source=Path(__file__).resolve().parents[1]/'curriculum/grade11/generated'/f'trigonometry_{number:02}.json'
+    authored=next((q for q in json.loads(source.read_text(encoding='utf-8'))['worked'] if q['id']==qid),None)
+    if (authored is None or scene!=authored or scene.get('lesson')!=number
+        or scene.get('problem')!=parameters.get('prompt')
+        or scene.get('visual',{}).get('family')!='grade11_trigonometry'
+        or len(scene.get('actions',[]))!=5 or parameters.get('total_steps')!=5):
+        raise ValueError('Grade 11 trigonometry scene differs from authored source')
 
 def _grade11_ei_board(parameters: dict, number: int) -> None:
     import json
@@ -1631,6 +1643,9 @@ def _grade8_relationship_compare(parameters: dict) -> None:
         raise ValueError("Original evidence must be question-specific")
 
 CATALOGUE: dict[tuple[str, str], TemplateDefinition] = {
+    **{("algebra",f"grade11_tr_{n}"): TemplateDefinition(
+        frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
+        lambda p,n=n:_grade11_tr_board(p,n),True) for n in range(1,8)},
     **{("algebra",f"grade11_ei_{n}"): TemplateDefinition(
         frozenset({"scene_json","question_id","prompt","total_steps"}),frozenset(),
         lambda p,n=n:_grade11_ei_board(p,n),True) for n in range(1,8)},

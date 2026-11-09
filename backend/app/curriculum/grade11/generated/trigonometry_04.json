@@ -1,0 +1,823 @@
+{
+  "source": "grade11-tr-lesson-04.md",
+  "worked": [
+    {
+      "id": "g11-tr-l04-w01",
+      "lesson": 4,
+      "problem": "Find the exact value of sin(360 − 30°).",
+      "answer": "-1/2",
+      "actions": [
+        "Read the angle in degrees: 360 − 30° = 330°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 30°.",
+        "The sin ratio is negative in quadrant 4.",
+        "The reference magnitude is sin(30°) = 1/2; apply the quadrant sign.",
+        "Answer: sin(360 − 30°) = -1/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: sin(360 − 30°) = -1/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 330,
+          "reference": 30,
+          "function": "sin",
+          "quadrant": 4
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-tr-l04-w02",
+      "lesson": 4,
+      "problem": "Find the exact value of sin(360 − 45°).",
+      "answer": "-√2/2",
+      "actions": [
+        "Read the angle in degrees: 360 − 45° = 315°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 45°.",
+        "The sin ratio is negative in quadrant 4.",
+        "The reference magnitude is sin(45°) = √2/2; apply the quadrant sign.",
+        "Answer: sin(360 − 45°) = -√2/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: sin(360 − 45°) = -√2/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 315,
+          "reference": 45,
+          "function": "sin",
+          "quadrant": 4
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-tr-l04-w03",
+      "lesson": 4,
+      "problem": "Find the exact value of sin(360 − 60°).",
+      "answer": "-√3/2",
+      "actions": [
+        "Read the angle in degrees: 360 − 60° = 300°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 60°.",
+        "The sin ratio is negative in quadrant 4.",
+        "The reference magnitude is sin(60°) = √3/2; apply the quadrant sign.",
+        "Answer: sin(360 − 60°) = -√3/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: sin(360 − 60°) = -√3/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 300,
+          "reference": 60,
+          "function": "sin",
+          "quadrant": 4
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l04-w04",
+      "lesson": 4,
+      "problem": "Find the exact value of cos(360 − 30°).",
+      "answer": "√3/2",
+      "actions": [
+        "Read the angle in degrees: 360 − 30° = 330°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 30°.",
+        "The cos ratio is positive in quadrant 4.",
+        "The reference magnitude is cos(30°) = √3/2; apply the quadrant sign.",
+        "Answer: cos(360 − 30°) = √3/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: cos(360 − 30°) = √3/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 330,
+          "reference": 30,
+          "function": "cos",
+          "quadrant": 4
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l04-w05",
+      "lesson": 4,
+      "problem": "Find the exact value of cos(360 − 45°).",
+      "answer": "√2/2",
+      "actions": [
+        "Read the angle in degrees: 360 − 45° = 315°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 45°.",
+        "The cos ratio is positive in quadrant 4.",
+        "The reference magnitude is cos(45°) = √2/2; apply the quadrant sign.",
+        "Answer: cos(360 − 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: cos(360 − 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 315,
+          "reference": 45,
+          "function": "cos",
+          "quadrant": 4
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-tr-l04-w06",
+      "lesson": 4,
+      "problem": "Find the exact value of cos(360 − 60°).",
+      "answer": "1/2",
+      "actions": [
+        "Read the angle in degrees: 360 − 60° = 300°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 60°.",
+        "The cos ratio is positive in quadrant 4.",
+        "The reference magnitude is cos(60°) = 1/2; apply the quadrant sign.",
+        "Answer: cos(360 − 60°) = 1/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: cos(360 − 60°) = 1/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 300,
+          "reference": 60,
+          "function": "cos",
+          "quadrant": 4
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l04-w07",
+      "lesson": 4,
+      "problem": "Find the exact value of tan(360 − 30°).",
+      "answer": "-√3/3",
+      "actions": [
+        "Read the angle in degrees: 360 − 30° = 330°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 30°.",
+        "The tan ratio is negative in quadrant 4.",
+        "The reference magnitude is tan(30°) = √3/3; apply the quadrant sign.",
+        "Answer: tan(360 − 30°) = -√3/3. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: tan(360 − 30°) = -√3/3. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 330,
+          "reference": 30,
+          "function": "tan",
+          "quadrant": 4
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l04-w08",
+      "lesson": 4,
+      "problem": "Find the exact value of tan(360 − 45°).",
+      "answer": "-1",
+      "actions": [
+        "Read the angle in degrees: 360 − 45° = 315°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 45°.",
+        "The tan ratio is negative in quadrant 4.",
+        "The reference magnitude is tan(45°) = 1; apply the quadrant sign.",
+        "Answer: tan(360 − 45°) = -1. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: tan(360 − 45°) = -1. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 315,
+          "reference": 45,
+          "function": "tan",
+          "quadrant": 4
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l04-w09",
+      "lesson": 4,
+      "problem": "Find the exact value of tan(360 − 60°).",
+      "answer": "-√3",
+      "actions": [
+        "Read the angle in degrees: 360 − 60° = 300°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 60°.",
+        "The tan ratio is negative in quadrant 4.",
+        "The reference magnitude is tan(60°) = √3; apply the quadrant sign.",
+        "Answer: tan(360 − 60°) = -√3. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: tan(360 − 60°) = -√3. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 300,
+          "reference": 60,
+          "function": "tan",
+          "quadrant": 4
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-tr-l04-w10",
+      "lesson": 4,
+      "problem": "Find the exact value of sin(360 + 30°).",
+      "answer": "1/2",
+      "actions": [
+        "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 30°.",
+        "The sin ratio is positive in quadrant 1.",
+        "The reference magnitude is sin(30°) = 1/2; apply the quadrant sign.",
+        "Answer: sin(360 + 30°) = 1/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: sin(360 + 30°) = 1/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 390,
+          "reference": 30,
+          "function": "sin",
+          "quadrant": 1
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l04-w11",
+      "lesson": 4,
+      "problem": "Find the exact value of sin(360 + 45°).",
+      "answer": "√2/2",
+      "actions": [
+        "Read the angle in degrees: 360 + 45° = 405°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 45°.",
+        "The sin ratio is positive in quadrant 1.",
+        "The reference magnitude is sin(45°) = √2/2; apply the quadrant sign.",
+        "Answer: sin(360 + 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: sin(360 + 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 405,
+          "reference": 45,
+          "function": "sin",
+          "quadrant": 1
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l04-w12",
+      "lesson": 4,
+      "problem": "Find the exact value of sin(360 + 60°).",
+      "answer": "√3/2",
+      "actions": [
+        "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 60°.",
+        "The sin ratio is positive in quadrant 1.",
+        "The reference magnitude is sin(60°) = √3/2; apply the quadrant sign.",
+        "Answer: sin(360 + 60°) = √3/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: sin(360 + 60°) = √3/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 420,
+          "reference": 60,
+          "function": "sin",
+          "quadrant": 1
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-tr-l04-w13",
+      "lesson": 4,
+      "problem": "Find the exact value of cos(360 + 30°).",
+      "answer": "√3/2",
+      "actions": [
+        "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 30°.",
+        "The cos ratio is positive in quadrant 1.",
+        "The reference magnitude is cos(30°) = √3/2; apply the quadrant sign.",
+        "Answer: cos(360 + 30°) = √3/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: cos(360 + 30°) = √3/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 390,
+          "reference": 30,
+          "function": "cos",
+          "quadrant": 1
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-tr-l04-w14",
+      "lesson": 4,
+      "problem": "Find the exact value of cos(360 + 45°).",
+      "answer": "√2/2",
+      "actions": [
+        "Read the angle in degrees: 360 + 45° = 405°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 45°.",
+        "The cos ratio is positive in quadrant 1.",
+        "The reference magnitude is cos(45°) = √2/2; apply the quadrant sign.",
+        "Answer: cos(360 + 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: cos(360 + 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 405,
+          "reference": 45,
+          "function": "cos",
+          "quadrant": 1
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-tr-l04-w15",
+      "lesson": 4,
+      "problem": "Find the exact value of cos(360 + 60°).",
+      "answer": "1/2",
+      "actions": [
+        "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 60°.",
+        "The cos ratio is positive in quadrant 1.",
+        "The reference magnitude is cos(60°) = 1/2; apply the quadrant sign.",
+        "Answer: cos(360 + 60°) = 1/2. Its exact sign and reference ratio agree with the unit circle."
+      ],
+      "check": "Answer: cos(360 + 60°) = 1/2. Its exact sign and reference ratio agree with the unit circle.",
+      "visual": {
+        "family": "grade11_trigonometry",
+        "values": {
+          "mode": "reduction",
+          "theta": 420,
+          "reference": 60,
+          "function": "cos",
+          "quadrant": 1
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-tr-l04-p01",
+      "prompt": "Find the exact value of cos(360 − 45°).",
+      "options": [
+        "1/2",
+        "2/2",
+        "√2/2",
+        "-√2/2"
+      ],
+      "answer_index": 2,
+      "memo": "Read the angle in degrees: 360 − 45° = 315°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 4. The acute reference angle is 45°. The cos ratio is positive in quadrant 4. The reference magnitude is cos(45°) = √2/2; apply the quadrant sign. Answer: cos(360 − 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 − 45° = 315°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 45°.",
+        "The cos ratio is positive in quadrant 4.",
+        "The reference magnitude is cos(45°) = √2/2; apply the quadrant sign.",
+        "Answer: cos(360 − 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p02",
+      "prompt": "Find the exact value of cos(360 − 60°).",
+      "options": [
+        "2/2",
+        "1/2",
+        "-1/2",
+        "√3/2"
+      ],
+      "answer_index": 1,
+      "memo": "Read the angle in degrees: 360 − 60° = 300°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 4. The acute reference angle is 60°. The cos ratio is positive in quadrant 4. The reference magnitude is cos(60°) = 1/2; apply the quadrant sign. Answer: cos(360 − 60°) = 1/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 − 60° = 300°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 60°.",
+        "The cos ratio is positive in quadrant 4.",
+        "The reference magnitude is cos(60°) = 1/2; apply the quadrant sign.",
+        "Answer: cos(360 − 60°) = 1/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p03",
+      "prompt": "Find the exact value of tan(360 − 30°).",
+      "options": [
+        "-√3/3",
+        "√3/3",
+        "-1",
+        "1/2"
+      ],
+      "answer_index": 0,
+      "memo": "Read the angle in degrees: 360 − 30° = 330°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 4. The acute reference angle is 30°. The tan ratio is negative in quadrant 4. The reference magnitude is tan(30°) = √3/3; apply the quadrant sign. Answer: tan(360 − 30°) = -√3/3. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 − 30° = 330°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 30°.",
+        "The tan ratio is negative in quadrant 4.",
+        "The reference magnitude is tan(30°) = √3/3; apply the quadrant sign.",
+        "Answer: tan(360 − 30°) = -√3/3. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p04",
+      "prompt": "Find the exact value of tan(360 − 45°).",
+      "options": [
+        "1",
+        "-√3",
+        "1/2",
+        "-1"
+      ],
+      "answer_index": 3,
+      "memo": "Read the angle in degrees: 360 − 45° = 315°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 4. The acute reference angle is 45°. The tan ratio is negative in quadrant 4. The reference magnitude is tan(45°) = 1; apply the quadrant sign. Answer: tan(360 − 45°) = -1. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 − 45° = 315°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 45°.",
+        "The tan ratio is negative in quadrant 4.",
+        "The reference magnitude is tan(45°) = 1; apply the quadrant sign.",
+        "Answer: tan(360 − 45°) = -1. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p05",
+      "prompt": "Find the exact value of tan(360 − 60°).",
+      "options": [
+        "-√3/3",
+        "1/2",
+        "-√3",
+        "√3"
+      ],
+      "answer_index": 2,
+      "memo": "Read the angle in degrees: 360 − 60° = 300°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 4. The acute reference angle is 60°. The tan ratio is negative in quadrant 4. The reference magnitude is tan(60°) = √3; apply the quadrant sign. Answer: tan(360 − 60°) = -√3. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 − 60° = 300°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 60°.",
+        "The tan ratio is negative in quadrant 4.",
+        "The reference magnitude is tan(60°) = √3; apply the quadrant sign.",
+        "Answer: tan(360 − 60°) = -√3. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p06",
+      "prompt": "Find the exact value of sin(360 − 30°).",
+      "options": [
+        "2/2",
+        "-1/2",
+        "1/2",
+        "-√2/2"
+      ],
+      "answer_index": 1,
+      "memo": "Read the angle in degrees: 360 − 30° = 330°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 4. The acute reference angle is 30°. The sin ratio is negative in quadrant 4. The reference magnitude is sin(30°) = 1/2; apply the quadrant sign. Answer: sin(360 − 30°) = -1/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 − 30° = 330°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 30°.",
+        "The sin ratio is negative in quadrant 4.",
+        "The reference magnitude is sin(30°) = 1/2; apply the quadrant sign.",
+        "Answer: sin(360 − 30°) = -1/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p07",
+      "prompt": "Find the exact value of sin(360 + 45°).",
+      "options": [
+        "√2/2",
+        "-√2/2",
+        "√3/2",
+        "1/2"
+      ],
+      "answer_index": 0,
+      "memo": "Read the angle in degrees: 360 + 45° = 405°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 45°. The sin ratio is positive in quadrant 1. The reference magnitude is sin(45°) = √2/2; apply the quadrant sign. Answer: sin(360 + 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 45° = 405°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 45°.",
+        "The sin ratio is positive in quadrant 1.",
+        "The reference magnitude is sin(45°) = √2/2; apply the quadrant sign.",
+        "Answer: sin(360 + 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p08",
+      "prompt": "Find the exact value of sin(360 + 60°).",
+      "options": [
+        "-√3/2",
+        "1/2",
+        "2/2",
+        "√3/2"
+      ],
+      "answer_index": 3,
+      "memo": "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 60°. The sin ratio is positive in quadrant 1. The reference magnitude is sin(60°) = √3/2; apply the quadrant sign. Answer: sin(360 + 60°) = √3/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 60°.",
+        "The sin ratio is positive in quadrant 1.",
+        "The reference magnitude is sin(60°) = √3/2; apply the quadrant sign.",
+        "Answer: sin(360 + 60°) = √3/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p09",
+      "prompt": "Find the exact value of cos(360 + 30°).",
+      "options": [
+        "√2/2",
+        "1/2",
+        "√3/2",
+        "-√3/2"
+      ],
+      "answer_index": 2,
+      "memo": "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 30°. The cos ratio is positive in quadrant 1. The reference magnitude is cos(30°) = √3/2; apply the quadrant sign. Answer: cos(360 + 30°) = √3/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 30°.",
+        "The cos ratio is positive in quadrant 1.",
+        "The reference magnitude is cos(30°) = √3/2; apply the quadrant sign.",
+        "Answer: cos(360 + 30°) = √3/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p10",
+      "prompt": "Find the exact value of cos(360 + 45°).",
+      "options": [
+        "2/2",
+        "√2/2",
+        "-√2/2",
+        "1/2"
+      ],
+      "answer_index": 1,
+      "memo": "Read the angle in degrees: 360 + 45° = 405°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 45°. The cos ratio is positive in quadrant 1. The reference magnitude is cos(45°) = √2/2; apply the quadrant sign. Answer: cos(360 + 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 45° = 405°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 45°.",
+        "The cos ratio is positive in quadrant 1.",
+        "The reference magnitude is cos(45°) = √2/2; apply the quadrant sign.",
+        "Answer: cos(360 + 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p11",
+      "prompt": "Find the exact value of cos(360 + 60°).",
+      "options": [
+        "1/2",
+        "-1/2",
+        "√3/2",
+        "2/2"
+      ],
+      "answer_index": 0,
+      "memo": "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 60°. The cos ratio is positive in quadrant 1. The reference magnitude is cos(60°) = 1/2; apply the quadrant sign. Answer: cos(360 + 60°) = 1/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 60°.",
+        "The cos ratio is positive in quadrant 1.",
+        "The reference magnitude is cos(60°) = 1/2; apply the quadrant sign.",
+        "Answer: cos(360 + 60°) = 1/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p12",
+      "prompt": "Find the exact value of tan(360 + 30°).",
+      "options": [
+        "-√3/3",
+        "1",
+        "1/2",
+        "√3/3"
+      ],
+      "answer_index": 3,
+      "memo": "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 30°. The tan ratio is positive in quadrant 1. The reference magnitude is tan(30°) = √3/3; apply the quadrant sign. Answer: tan(360 + 30°) = √3/3. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 30°.",
+        "The tan ratio is positive in quadrant 1.",
+        "The reference magnitude is tan(30°) = √3/3; apply the quadrant sign.",
+        "Answer: tan(360 + 30°) = √3/3. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p13",
+      "prompt": "Find the exact value of tan(360 + 45°).",
+      "options": [
+        "√3",
+        "1/2",
+        "1",
+        "-1"
+      ],
+      "answer_index": 2,
+      "memo": "Read the angle in degrees: 360 + 45° = 405°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 45°. The tan ratio is positive in quadrant 1. The reference magnitude is tan(45°) = 1; apply the quadrant sign. Answer: tan(360 + 45°) = 1. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 45° = 405°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 45°.",
+        "The tan ratio is positive in quadrant 1.",
+        "The reference magnitude is tan(45°) = 1; apply the quadrant sign.",
+        "Answer: tan(360 + 45°) = 1. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p14",
+      "prompt": "Find the exact value of tan(360 + 60°).",
+      "options": [
+        "1/2",
+        "√3",
+        "-√3",
+        "√3/3"
+      ],
+      "answer_index": 1,
+      "memo": "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 60°. The tan ratio is positive in quadrant 1. The reference magnitude is tan(60°) = √3; apply the quadrant sign. Answer: tan(360 + 60°) = √3. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 60°.",
+        "The tan ratio is positive in quadrant 1.",
+        "The reference magnitude is tan(60°) = √3; apply the quadrant sign.",
+        "Answer: tan(360 + 60°) = √3. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-p15",
+      "prompt": "Find the exact value of sin(360 + 30°).",
+      "options": [
+        "1/2",
+        "-1/2",
+        "√2/2",
+        "2/2"
+      ],
+      "answer_index": 0,
+      "memo": "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 30°. The sin ratio is positive in quadrant 1. The reference magnitude is sin(30°) = 1/2; apply the quadrant sign. Answer: sin(360 + 30°) = 1/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 30°.",
+        "The sin ratio is positive in quadrant 1.",
+        "The reference magnitude is sin(30°) = 1/2; apply the quadrant sign.",
+        "Answer: sin(360 + 30°) = 1/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-tr-l04-m01",
+      "prompt": "Find the exact value of tan(360 − 60°).",
+      "options": [
+        "1/2",
+        "-√3",
+        "√3",
+        "-√3/3"
+      ],
+      "answer_index": 1,
+      "memo": "Read the angle in degrees: 360 − 60° = 300°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 4. The acute reference angle is 60°. The tan ratio is negative in quadrant 4. The reference magnitude is tan(60°) = √3; apply the quadrant sign. Answer: tan(360 − 60°) = -√3. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 − 60° = 300°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 60°.",
+        "The tan ratio is negative in quadrant 4.",
+        "The reference magnitude is tan(60°) = √3; apply the quadrant sign.",
+        "Answer: tan(360 − 60°) = -√3. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-m02",
+      "prompt": "Find the exact value of sin(360 − 30°).",
+      "options": [
+        "-1/2",
+        "1/2",
+        "-√2/2",
+        "2/2"
+      ],
+      "answer_index": 0,
+      "memo": "Read the angle in degrees: 360 − 30° = 330°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 4. The acute reference angle is 30°. The sin ratio is negative in quadrant 4. The reference magnitude is sin(30°) = 1/2; apply the quadrant sign. Answer: sin(360 − 30°) = -1/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 − 30° = 330°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 30°.",
+        "The sin ratio is negative in quadrant 4.",
+        "The reference magnitude is sin(30°) = 1/2; apply the quadrant sign.",
+        "Answer: sin(360 − 30°) = -1/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-m03",
+      "prompt": "Find the exact value of sin(360 − 45°).",
+      "options": [
+        "√2/2",
+        "-√3/2",
+        "1/2",
+        "-√2/2"
+      ],
+      "answer_index": 3,
+      "memo": "Read the angle in degrees: 360 − 45° = 315°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 4. The acute reference angle is 45°. The sin ratio is negative in quadrant 4. The reference magnitude is sin(45°) = √2/2; apply the quadrant sign. Answer: sin(360 − 45°) = -√2/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 − 45° = 315°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 4. The acute reference angle is 45°.",
+        "The sin ratio is negative in quadrant 4.",
+        "The reference magnitude is sin(45°) = √2/2; apply the quadrant sign.",
+        "Answer: sin(360 − 45°) = -√2/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-m04",
+      "prompt": "Find the exact value of sin(360 + 60°).",
+      "options": [
+        "1/2",
+        "2/2",
+        "√3/2",
+        "-√3/2"
+      ],
+      "answer_index": 2,
+      "memo": "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 60°. The sin ratio is positive in quadrant 1. The reference magnitude is sin(60°) = √3/2; apply the quadrant sign. Answer: sin(360 + 60°) = √3/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 60°.",
+        "The sin ratio is positive in quadrant 1.",
+        "The reference magnitude is sin(60°) = √3/2; apply the quadrant sign.",
+        "Answer: sin(360 + 60°) = √3/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-m05",
+      "prompt": "Find the exact value of cos(360 + 30°).",
+      "options": [
+        "1/2",
+        "√3/2",
+        "-√3/2",
+        "√2/2"
+      ],
+      "answer_index": 1,
+      "memo": "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 30°. The cos ratio is positive in quadrant 1. The reference magnitude is cos(30°) = √3/2; apply the quadrant sign. Answer: cos(360 + 30°) = √3/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 30°.",
+        "The cos ratio is positive in quadrant 1.",
+        "The reference magnitude is cos(30°) = √3/2; apply the quadrant sign.",
+        "Answer: cos(360 + 30°) = √3/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-tr-l04-r01",
+      "prompt": "Find the exact value of cos(360 + 30°).",
+      "options": [
+        "√3/2",
+        "-√3/2",
+        "√2/2",
+        "1/2"
+      ],
+      "answer_index": 0,
+      "memo": "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 30°. The cos ratio is positive in quadrant 1. The reference magnitude is cos(30°) = √3/2; apply the quadrant sign. Answer: cos(360 + 30°) = √3/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 30° = 390°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 30°.",
+        "The cos ratio is positive in quadrant 1.",
+        "The reference magnitude is cos(30°) = √3/2; apply the quadrant sign.",
+        "Answer: cos(360 + 30°) = √3/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-r02",
+      "prompt": "Find the exact value of cos(360 + 45°).",
+      "options": [
+        "-√2/2",
+        "1/2",
+        "2/2",
+        "√2/2"
+      ],
+      "answer_index": 3,
+      "memo": "Read the angle in degrees: 360 + 45° = 405°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 45°. The cos ratio is positive in quadrant 1. The reference magnitude is cos(45°) = √2/2; apply the quadrant sign. Answer: cos(360 + 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 45° = 405°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 45°.",
+        "The cos ratio is positive in quadrant 1.",
+        "The reference magnitude is cos(45°) = √2/2; apply the quadrant sign.",
+        "Answer: cos(360 + 45°) = √2/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    },
+    {
+      "id": "g11-tr-l04-r03",
+      "prompt": "Find the exact value of cos(360 + 60°).",
+      "options": [
+        "√3/2",
+        "2/2",
+        "1/2",
+        "-1/2"
+      ],
+      "answer_index": 2,
+      "memo": "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary. Its terminal arm lies in quadrant 1. The acute reference angle is 60°. The cos ratio is positive in quadrant 1. The reference magnitude is cos(60°) = 1/2; apply the quadrant sign. Answer: cos(360 + 60°) = 1/2. Its exact sign and reference ratio agree with the unit circle.",
+      "actions": [
+        "Read the angle in degrees: 360 + 60° = 420°. Reduce it modulo 360° if necessary.",
+        "Its terminal arm lies in quadrant 1. The acute reference angle is 60°.",
+        "The cos ratio is positive in quadrant 1.",
+        "The reference magnitude is cos(60°) = 1/2; apply the quadrant sign.",
+        "Answer: cos(360 + 60°) = 1/2. Its exact sign and reference ratio agree with the unit circle."
+      ]
+    }
+  ]
+}

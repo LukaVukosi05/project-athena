@@ -1,0 +1,86 @@
+[
+  {
+    "lesson_id": "g11-tr-01",
+    "source": "grade11-tr-lesson-01.md",
+    "source_sha256": "d1d35b7cc5cdc0f1ca8276aed5e2f998950e087b45e30dec6f12dbe37f8a16fa",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-tr-02",
+    "source": "grade11-tr-lesson-02.md",
+    "source_sha256": "4e4117fbab877bf33a9e79ebcdf38c09bcd8f94af8cb99aafbb9e11ac0833b26",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-tr-03",
+    "source": "grade11-tr-lesson-03.md",
+    "source_sha256": "295087c194dda6215a510cebeee3a55e241c0a80ee2c70c6c7c8eebb07a3f9e5",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-tr-04",
+    "source": "grade11-tr-lesson-04.md",
+    "source_sha256": "e73014b4920bd9c32d43e6d4bfe3268c28a79bcb2063b197e9890a9169002871",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-tr-05",
+    "source": "grade11-tr-lesson-05.md",
+    "source_sha256": "a2b42e4b9ec4185998e1af35bdaddf528c81ceb701b1ce46e2ca93c5145b0111",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-tr-06",
+    "source": "grade11-tr-lesson-06.md",
+    "source_sha256": "7fe5bfb09200d950e5cd2a241a8d0331aacdcb3dea02048d807f7b6a93f220bd",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-tr-07",
+    "source": "grade11-tr-lesson-07.md",
+    "source_sha256": "5e4cb1f62f7c3e0efc9908d04af35d08eeea9aa64a5daf53690c67fb1c025324",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]
