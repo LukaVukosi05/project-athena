@@ -1,7 +1,7 @@
 """Grade-neutral server-authoritative practice catalogue."""
 
 from app.curriculum.grade12.lessons.practice_catalog import PRACTICE_BANKS as GRADE12_BANKS
-from app.curriculum.grade10.assessment import ALGEBRA_BANKS as GRADE10_ALGEBRA_BANKS, EEI_BANKS as GRADE10_EEI_BANKS, TRIG_BANKS as GRADE10_TRIG_BANKS, EUC_BANKS as GRADE10_EUC_BANKS, AG_BANKS as GRADE10_AG_BANKS, FN_BANKS as GRADE10_FN_BANKS, STAT_BANKS as GRADE10_STAT_BANKS, PROB_BANKS as GRADE10_PROB_BANKS
+from app.curriculum.grade10.assessment import ALGEBRA_BANKS as GRADE10_ALGEBRA_BANKS, EEI_BANKS as GRADE10_EEI_BANKS, TRIG_BANKS as GRADE10_TRIG_BANKS, EUC_BANKS as GRADE10_EUC_BANKS, AG_BANKS as GRADE10_AG_BANKS, FN_BANKS as GRADE10_FN_BANKS, STAT_BANKS as GRADE10_STAT_BANKS, PROB_BANKS as GRADE10_PROB_BANKS, FIN_BANKS as GRADE10_FIN_BANKS
 from app.curriculum.grade9.assessment_whole_numbers import PRACTICE_1 as GRADE9_WHOLE_1, PRACTICE_2 as GRADE9_WHOLE_2
 from app.curriculum.grade9.assessment_whole_numbers import EXTENDED_BANKS as GRADE9_EXTENDED_BANKS, INTEGER_BANKS as GRADE9_INTEGER_BANKS, EXPONENT_BANKS as GRADE9_EXPONENT_BANKS, PATTERN_BANKS as GRADE9_PATTERN_BANKS, FUNCTION_BANKS as GRADE9_FUNCTION_BANKS, EXPRESSION_BANKS as GRADE9_EXPRESSION_BANKS, EQUATION_BANKS as GRADE9_EQUATION_BANKS, GRAPH_BANKS as GRADE9_GRAPH_BANKS, LINE_BANKS as GRADE9_LINE_BANKS, SHAPE_BANKS as GRADE9_SHAPE_BANKS, AREA_BANKS as GRADE9_AREA_BANKS, DATA_BANKS as GRADE9_DATA_BANKS, PROB_BANKS as GRADE9_PROB_BANKS, SOLID_BANKS as GRADE9_SOLID_BANKS, SURFACE_BANKS as GRADE9_SURFACE_BANKS, TRANSFORM_BANKS as GRADE9_TRANSFORM_BANKS
 from app.curriculum.grade8.assessment_straight_lines import PRACTICE_1 as LINES_1, PRACTICE_2 as LINES_2
@@ -63,6 +63,7 @@ PRACTICE_BANKS = {
     **{f"g10-eei-{number:02}":GRADE10_EEI_BANKS[number][0] for number in range(1,10)},
     **{f"g10-fn-{number:02}":GRADE10_FN_BANKS[number][0] for number in range(1,8)},
     **{f"g10-stat-{number:02}":GRADE10_STAT_BANKS[number][0] for number in range(1,7)},
+    **{f"g10-fin-{number:02}":GRADE10_FIN_BANKS[number][0] for number in range(1,7)},
     **{f"g10-prob-{number:02}":GRADE10_PROB_BANKS[number][0] for number in range(1,6)},
     **{f"g10-ag-{number:02}":GRADE10_AG_BANKS[number][0] for number in range(1,7)},
     **{f"g10-euc-{number:02}":GRADE10_EUC_BANKS[number][0] for number in range(1,7)},

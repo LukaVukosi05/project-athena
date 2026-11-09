@@ -2352,6 +2352,64 @@
               "source_document": "grade10-prob-lesson-05.md"
             }
           ]
+        },
+        {
+          "topic_id": "finance-and-growth",
+          "topic_number": 9,
+          "title": "Finance and Growth",
+          "paper": "Paper 1",
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g10-fin-01",
+              "position": 1,
+              "title": "Simple interest and period conversion",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "grade10-fin-lesson-01.md"
+            },
+            {
+              "lesson_id": "g10-fin-02",
+              "position": 2,
+              "title": "Compound growth and comparison",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-fin-lesson-02.md"
+            },
+            {
+              "lesson_id": "g10-fin-03",
+              "position": 3,
+              "title": "Inflation, depreciation and population",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-fin-lesson-03.md"
+            },
+            {
+              "lesson_id": "g10-fin-04",
+              "position": 4,
+              "title": "Hire purchase and instalments",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-fin-lesson-04.md"
+            },
+            {
+              "lesson_id": "g10-fin-05",
+              "position": 5,
+              "title": "Exchange rates and rate changes",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-fin-lesson-05.md"
+            },
+            {
+              "lesson_id": "g10-fin-06",
+              "position": 6,
+              "title": "Mixed finance methods and first-error repair",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-fin-lesson-06.md"
+            }
+          ]
         }
       ]
     },

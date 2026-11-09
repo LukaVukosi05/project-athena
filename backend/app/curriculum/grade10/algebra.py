@@ -9,6 +9,7 @@ AG_LESSONS={n:build_lesson(n,'grade10-analytical-geometry') for n in range(1,7)}
 FN_LESSONS={n:build_lesson(n,'grade10-functions-and-graphs') for n in range(1,8)}
 STAT_LESSONS={n:build_lesson(n,'grade10-statistics') for n in range(1,7)}
 PROB_LESSONS={n:build_lesson(n,'grade10-probability') for n in range(1,6)}
+FIN_LESSONS={n:build_lesson(n,'grade10-finance-and-growth') for n in range(1,7)}
 GRADE_10=GradeCurriculum(id='grade-10',grade=10,status=ContentStatus.TEACHER_REVIEW_REQUIRED,
  topics=[Topic(id='algebraic-expressions',product_order=1,title='Algebraic Expressions',official_caps_topic='Algebraic expressions',
  caps_sequence=1,term=1,expected_duration='Six authored lessons awaiting teacher and browser review',
@@ -56,4 +57,9 @@ GRADE_10=GradeCurriculum(id='grade-10',grade=10,status=ContentStatus.TEACHER_REV
  expected_duration='Five authored lessons awaiting teacher and browser review',caps_reference='DBE Grade 10 Mathematics ATP, Term 3',paper='Paper 1',
  exam_relevance='Grade 10 Paper 1 probability and formal assessment',status=ContentStatus.TEACHER_REVIEW_REQUIRED,
  subtopics=[Subtopic(id='probability-learning-path',order=1,title='Relative frequency, Venn regions, unions, mutually exclusive and complementary events',
- prerequisites=[],lessons=[PROB_LESSONS[n][0] for n in range(1,6)])])])
+ prerequisites=[],lessons=[PROB_LESSONS[n][0] for n in range(1,6)])]),
+ Topic(id='finance-and-growth',product_order=9,title='Finance and Growth',official_caps_topic='Finance and Growth',caps_sequence=9,term=3,
+ expected_duration='Six authored lessons awaiting teacher and browser review',caps_reference='DBE Grade 10 Mathematics ATP, Term 3',paper='Paper 1',
+ exam_relevance='Grade 10 Paper 1 finance and growth and formal assessment',status=ContentStatus.TEACHER_REVIEW_REQUIRED,
+ subtopics=[Subtopic(id='finance-learning-path',order=1,title='Simple and compound interest, inflation, hire purchase and currency exchange',
+ prerequisites=[],lessons=[FIN_LESSONS[n][0] for n in range(1,7)])])])
