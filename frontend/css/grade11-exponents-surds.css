@@ -1,5 +1,5 @@
 .g11-board { color:#122b42; width:100%; min-width:0; }
-.g11-board>p:first-child { font-weight:650; line-height:1.5; }
+.g11-board>p:first-child { font-weight:650; line-height:1.8; }
 .g11-model { width:100%; max-width:100%; overflow:hidden; }
 .g11-model svg { width:100%; height:auto; max-height:320px; display:block; }
 .g11-card { fill:#eaf5f6; stroke:#17818c; stroke-width:2; }
@@ -8,3 +8,12 @@
 .g11-connector { fill:none; stroke:#17818c; stroke-width:3; }
 .g11-board [data-object-id="operation"] { color:#175b63; }
 .g11-board [data-object-id="verification"] { color:#08664a; font-weight:700; }
+.athena-power { white-space:nowrap; display:inline-block; padding-right:.08em; }
+.athena-power sup { font-size:.72em; vertical-align:super; line-height:1; }
+.athena-power-fraction { display:inline-flex; flex-direction:column; align-items:center; vertical-align:middle; line-height:1.05; font-size:.8em; }
+.athena-power-fraction>span:first-child { border-bottom:1.3px solid currentColor; padding:0 .08em .05em; }
+.athena-power-fraction>span:last-child { padding-top:.05em; }
+.stateful-whiteboard[data-math-notation="powers"] header>strong,
+.stateful-whiteboard[data-math-notation="powers"] .g8-completed-steps strong,
+.self-guided-practice .practice-focus h4:has(.athena-power),
+.mastery-assessment legend:has(.athena-power) { line-height:1.85; }

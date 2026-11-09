@@ -1,6 +1,7 @@
 /* Question-specific exponents and surds stages; preserve earlier mathematical marks. */
 (() => {
   const esc = value => escapeWhiteboardHtml(String(value ?? ""));
+  const math = value => typeof AthenaMathNotation !== "undefined" ? AthenaMathNotation.html(value) : esc(value);
   const text = (id,x,y,value,css="g11-label") =>
     `<text data-object-id="${id}" x="${x}" y="${y}" class="${css}">${esc(value)}</text>`;
   const rect = (id,x,y,w,css="g11-card") =>
@@ -19,7 +20,7 @@
       if(s>=1)out+=text("index",155,91,`root index ${v.index}`);
       if(s>=2)out+=`<path d="M123 88 H135" class="g11-connector"/>`+card("root",220,55,s>=3?String(v.root):"?",100,"g11-card g11-active");
       if(s>=4)out+=card("power",360,55,`power ${v.power}`,110);
-      if(s>=5)out+=text("check",25,205,`Check: ${v.root}^${v.index} = ${v.base}`);
+      if(s>=5)out+=`<text data-object-id="check" x="25" y="205" class="g11-label">Check: ${esc(v.root)}<tspan baseline-shift="super" font-size="12">${esc(v.index)}</tspan><tspan baseline-shift="baseline"> = ${esc(v.base)}</tspan></text>`;
     } else if(n===2) {
       out+=card("first",10,50,`+${v.a}/${v.denominator}`);
       out+=card("second",180,50,`+${v.b}/${v.denominator}`);
@@ -62,12 +63,12 @@
        scene.problem!==parameters.prompt)throw Error("Grade 11 visual belongs to another question");
     const s=stage(state,phase);
     return `<section class="g11-board" data-managed-visibility="true" data-question-id="${esc(scene.id)}">
-      <p data-object-id="problem">${esc(scene.problem)}</p>
+      <p data-object-id="problem">${math(scene.problem)}</p>
       <div class="g11-model" data-object-id="model"><svg viewBox="0 0 500 315" role="img" aria-label="${esc(scene.problem)}">
         <title>Exponents and surds, stage ${s} of 5</title>${diagram(v,n,s)}</svg></div>
-      <p data-object-id="operation">${phase==="operation"?esc(state.working_state):""}</p>
-      <p data-object-id="result">${phase==="result" && s<5?esc(state.after_state):""}</p>
-      <p data-object-id="verification">${phase==="result" && s===5?esc(state.after_state):""}</p>
+      <p data-object-id="operation">${phase==="operation"?math(state.working_state):""}</p>
+      <p data-object-id="result">${phase==="result" && s<5?math(state.after_state):""}</p>
+      <p data-object-id="verification">${phase==="result" && s===5?math(state.after_state):""}</p>
     </section>`;
   }
   for(let n=1;n<=6;n++)AthenaVisualizationRegistry.register("algebra",`grade11_es_${n}`,

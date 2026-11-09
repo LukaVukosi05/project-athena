@@ -31,10 +31,11 @@ def case(n: int, i: int, variant: int = 0) -> dict:
         p = 1 + (s // 2) % 3
         base = k ** q
         value = k ** p
-        problem = f"Evaluate {base}^({p}/{q}) using a positive {q}th root."
+        ordinal = {2:"second",3:"third"}[q]
+        problem = f"Evaluate {base}^({p}/{q}) using the positive {ordinal} root."
         answer = str(value)
         steps = [f"Identify the base {base} and rational exponent {p}/{q}.",
-                 f"The denominator {q} means take the positive {q}th root of {base}.",
+                 f"The denominator {q} means take the positive {ordinal} root of {base}.",
                  f"Because {k}^{q} = {base}, that root is {k}.",
                  f"Raise {k} to the numerator {p}: {k}^{p} = {value}.",
                  f"Answer: {value}. Check: {value}^{q} = {base}^{p}."]

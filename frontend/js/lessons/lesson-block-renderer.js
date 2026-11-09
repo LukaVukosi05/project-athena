@@ -1,7 +1,7 @@
 class LessonBlockRenderer {
   constructor(mount, lesson) { this.mount = mount; this.lesson = lesson; }
   render() {
-    this.fractionText = this.lesson.id?.startsWith("g8-common-fractions-") && globalThis.AthenaFractionNotation ? globalThis.AthenaFractionNotation.html : escapeWhiteboardHtml;
+    this.fractionText = this.lesson.id?.startsWith("g11-es-") && typeof AthenaMathNotation !== "undefined" ? AthenaMathNotation.html : this.lesson.id?.startsWith("g8-common-fractions-") && globalThis.AthenaFractionNotation ? globalThis.AthenaFractionNotation.html : escapeWhiteboardHtml;
     this.mount.innerHTML = `<section class="lesson-introduction card"><h3>Learning objective</h3><p>${this.fractionText(this.lesson.objective)}</p><h4>Why this matters</h4><p>${this.fractionText(this.lesson.why_it_matters)}</p><h4>Intuition first</h4><p>${this.fractionText(this.lesson.intuition)}</p></section><div data-role="blocks"></div>`;
     const blocks = this.mount.querySelector('[data-role="blocks"]');
     let questionSetMounted = false;

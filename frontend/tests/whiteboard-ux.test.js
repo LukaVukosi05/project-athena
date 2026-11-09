@@ -15,7 +15,7 @@ assert(source.includes('queueMicrotask(() => { this.actionLocked = false; })'),"
 assert(source.includes('this.timeline?.destroy()')&&source.includes('this.listeners?.abort()'),"example cleanup");
 assert(source.includes('this.reconstruct("result", "step_complete")'),"previous reconstructs deterministically");
 assert(source.includes('this.reconstruct("operation", "playing", false)'),"replay reconstructs deterministically");
-assert(source.includes('caption.textContent = event?.text'),"manual state reconstruction updates caption");
+assert(source.includes('caption.textContent=content')&&source.includes('caption.innerHTML=AthenaMathNotation.html(content)'),"manual state reconstruction updates caption and exponent notation");
 assert(source.includes('<details class="whiteboard-teaching-notes">'),"teaching notes use disclosure");
 assert(!source.includes('data-action="play"')&&!source.includes('data-action="next"'));
 assert.strictEqual((source.match(/<button[^>]+data-action="primary"/g)||[]).length,1,"one Next control is rendered");

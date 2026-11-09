@@ -129,7 +129,7 @@ class TimelineController {
     else if(event.type==="cancel"){this.reveal(nodes,"cancel");this.stage.querySelectorAll('[data-object-id="cancellation"]').forEach(node=>node.classList.add("is-visible","event-cancel"));this.stage.querySelectorAll(".cancellation-label").forEach(node=>node.classList.add("is-visible","event-cancel"));}
     else if(["show_operation","calculate_difference","calculate_ratio"].includes(event.type))this.showCalculation(event,nodes);
     else if(event.type==="draw_arrow")this.drawArrow(event);
-    else if(event.type==="caption"&&this.captions&&this.caption){this.caption.hidden=false;this.caption.textContent=event.text;}
+    else if(event.type==="caption"&&this.captions&&this.caption){this.caption.hidden=false;if(this.stage.closest?.('[data-math-notation="powers"]')&&typeof AthenaMathNotation!=="undefined")this.caption.innerHTML=AthenaMathNotation.html(event.text);else this.caption.textContent=event.text;}
     else if(event.type==="narration")this.trackNarration(this.narration.speak(event.text,this.speed));
     else if(event.type==="evaluate_expression"){this.reveal(nodes,event.type);nodes.forEach(node=>node.classList.add("is-transforming"));}
     else if(event.type==="introduce_inverse")this.reveal(nodes,event.type);

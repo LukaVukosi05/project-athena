@@ -29,8 +29,8 @@ class StatefulWhiteboard {
   }
 
   mountBoard() {
-    const fractionText = ["grade8_fraction_strips", "grade8_fraction_operations", "grade8_fraction_powers_context"].includes(this.block.visualization?.template) && globalThis.AthenaFractionNotation ? globalThis.AthenaFractionNotation.html : escapeWhiteboardHtml;
-    this.mount.innerHTML = `<section class="stateful-whiteboard" aria-label="Interactive worked example" data-controller-state="${this.status}">
+    const fractionText = /^grade11_es_[1-6]$/.test(this.block.visualization?.template || "") && typeof AthenaMathNotation !== "undefined" ? AthenaMathNotation.html : ["grade8_fraction_strips", "grade8_fraction_operations", "grade8_fraction_powers_context"].includes(this.block.visualization?.template) && globalThis.AthenaFractionNotation ? globalThis.AthenaFractionNotation.html : escapeWhiteboardHtml;
+    this.mount.innerHTML = `<section class="stateful-whiteboard" aria-label="Interactive worked example" data-controller-state="${this.status}" ${/^grade11_es_[1-6]$/.test(this.block.visualization?.template || "") ? 'data-math-notation="powers"' : ""}>
       <header tabindex="-1"><div class="whiteboard-heading-row"><span class="whiteboard-example-title">Worked example ${this.exampleIndex + 1} of ${this.exampleCount}</span><div class="whiteboard-utilities"><button type="button" class="btn btn-ghost whiteboard-icon-button" data-action="mute" aria-label="Mute audio" aria-pressed="false" title="Audio on">${this.speakerIcon(false)}</button><details class="whiteboard-settings"><summary class="btn btn-ghost whiteboard-icon-button" aria-label="More whiteboard settings" title="More settings">⋯</summary><div class="whiteboard-settings-panel"><button type="button" class="btn btn-ghost" data-action="replay">Replay step</button><button type="button" class="btn btn-ghost" data-action="restart">Restart example</button><button type="button" class="btn btn-ghost" data-action="captions" aria-pressed="true">Captions on</button><label class="playback-speed">Playback speed <select data-action="speed" aria-label="Playback speed"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><label class="reduced-motion-setting"><input type="checkbox" data-action="reduced-motion" ${this.reducedMotion ? "checked" : ""}> Reduced motion</label></div></details></div></div><strong>${fractionText(this.block.problem)}</strong><nav class="whiteboard-example-navigation" aria-label="Choose worked example">${Array.from({ length:this.exampleCount }, (_, index) => `<button type="button" class="whiteboard-example-number ${index === this.exampleIndex ? "is-current" : ""}" data-example-index="${index}" aria-label="Example ${index + 1} of ${this.exampleCount}" ${index === this.exampleIndex ? 'aria-current="step"' : ""}>${index + 1}</button>`).join("")}</nav></header>
       <div class="whiteboard-workspace"><div class="whiteboard-stage" role="region" aria-label="Mathematical whiteboard"></div>
       <div class="timeline-caption" data-role="caption" aria-live="polite" aria-atomic="true"></div>
@@ -113,7 +113,7 @@ class StatefulWhiteboard {
     const grade9VisualTrace = /^(g9-shapes|g9-area|g9-data|g9-prob|g9-solid|g9-sv|g9-tg|g10-algebra|g10-eei|g10-trig|g10-euc|g10-ag|g10-fn|g10-stat|g10-prob|g10-fin|g10-meas)-/.test(this.block.id || "");
     const showWrittenTrace = visualType === "algebra" || graphVisual || grade9VisualTrace;
     const visualMarkup = `${visualization}${renderer.render(step, phase, { history, hasVisualization:Boolean(this.visualSession) })}`;
-    const fractionText = ["grade8_fraction_strips", "grade8_fraction_operations", "grade8_fraction_powers_context"].includes(this.block.visualization?.template) && globalThis.AthenaFractionNotation ? globalThis.AthenaFractionNotation.html : escapeWhiteboardHtml;
+    const fractionText = /^grade11_es_[1-6]$/.test(this.block.visualization?.template || "") && typeof AthenaMathNotation !== "undefined" ? AthenaMathNotation.html : ["grade8_fraction_strips", "grade8_fraction_operations", "grade8_fraction_powers_context"].includes(this.block.visualization?.template) && globalThis.AthenaFractionNotation ? globalThis.AthenaFractionNotation.html : escapeWhiteboardHtml;
     const original = this.block.initial_expression === "Read the original question" && this.block.problem
       ? this.block.problem : this.block.initial_expression;
     const trace = `<aside class="g8-completed-steps" role="region" aria-label="Written solution so far"><h3>Written solution so far</h3><p>Original: ${fractionText(original)}</p>${writtenSteps.length ? `<ol>${writtenSteps.map((prior, index) => {
@@ -155,10 +155,13 @@ class StatefulWhiteboard {
     const caption = this.mount.querySelector('[data-role="caption"]');
     const events = step.events || []; const captions = events.filter(event => event.type === "caption");
     const event = phase === "result" ? captions.at(-1) : captions[0] || events.find(item => item.type === "narration");
-    caption.hidden = !this.captionsEnabled; caption.textContent = event?.text || step.explanation?.what || "";
+    caption.hidden = !this.captionsEnabled;
+    const content=event?.text || step.explanation?.what || "";
+    if (this.block.visualization?.template?.startsWith("grade11_es_") && typeof AthenaMathNotation !== "undefined") caption.innerHTML=AthenaMathNotation.html(content);
+    else caption.textContent=content;
   }
   renderTeachingNotes(step) {
-    const note = (title, value) => value ? `<section><h4>${title}</h4><p>${escapeWhiteboardHtml(value)}</p></section>` : "";
+    const note = (title, value) => value ? `<section><h4>${title}</h4><p>${this.block.visualization?.template?.startsWith("grade11_es_") && typeof AthenaMathNotation !== "undefined" ? AthenaMathNotation.html(value) : escapeWhiteboardHtml(value)}</p></section>` : "";
     this.mount.querySelector('[data-role="teaching-notes"]').innerHTML = [
       note("Why this matters", this.teachingNotes.why || step.explanation?.why), note("Purpose", step.explanation?.purpose),
       note("Review", step.explanation?.remember || this.teachingNotes.review), note("Misconception guidance", step.common_mistake),
