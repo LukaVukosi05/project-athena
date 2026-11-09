@@ -1,9 +1,15 @@
 # Grade 11 Mathematics: source and implementation plan
 
-Status: Topics 1–3 have authored runtime previews, source files, whiteboard
+Status: Topics 1–4 have authored runtime previews, source files, whiteboard
 timelines and assessment banks. They remain teacher-review-required. Browser
 acceptance and teacher approval have not been recorded; do not label them
-published. Topics 4–12 remain plans, not interactive lessons.
+published. Topics 5–12 remain plans, not interactive lessons.
+
+Topic 4's eight lessons currently teach numerical circle-theorem applications
+and combined riders. Formal theorem proofs, all available converses, and
+exterior-angle constructions still need their own teacher-authored examples
+before the topic can be described as complete. A teacher must also verify
+diagram geometry, reasons and the full question progression in a live browser.
 
 ## Authority and scope
 

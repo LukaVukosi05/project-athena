@@ -183,6 +183,11 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     for hidden in ("r","s"):
                         givens.pop(hidden,None)
                     scene["visual"]={"family":"grade11_equations","values":givens}
+                elif lesson.id.startswith("g11-euc-"):
+                    givens=dict(scene["visual"]["values"])
+                    for hidden in ("half", "tangent"):
+                        givens.pop(hidden,None)
+                    scene["visual"]={"family":"grade11_euclidean","values":givens}
                 elif lesson.id.startswith("g11-tr-"):
                     givens=dict(scene["visual"]["values"])
                     for hidden in ("excluded",):

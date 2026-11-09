@@ -1,0 +1,19 @@
+.g11-euc-board {color:#17344b;width:100%;min-width:0}
+.g11-euc-board>p:first-child {font-weight:650;line-height:1.65}
+.g11-euc-model {width:100%;overflow:hidden}
+.g11-euc-model svg {width:100%;max-height:335px;height:auto;display:block}
+.g11-euc-circle {fill:none;stroke:#667d90;stroke-width:2}
+.g11-euc-line {stroke:#2e6677;stroke-width:2}
+.g11-euc-radius {stroke:#d18733;stroke-width:2.2}
+.g11-euc-highlight {stroke:#158b8f;stroke-width:3}
+.g11-euc-perpendicular {stroke:#d18733;stroke-width:2.5}
+.g11-euc-tangent {stroke:#bd704b;stroke-width:3}
+.g11-euc-guide {stroke:#607688;stroke-width:1;stroke-dasharray:4 3}
+.g11-euc-point {fill:#103e56}
+.g11-euc-label {fill:#17344b;font-size:15px;font-weight:700}
+.g11-euc-note {fill:#27475d;font-size:15px;font-weight:600}
+.g11-euc-derived {fill:#0b7779;font-size:16px;font-weight:750}
+.g11-euc-right {fill:none;stroke:#bf7145;stroke-width:2}
+.g11-euc-right-circle {fill:none;stroke:#c07a39;stroke-width:2;stroke-dasharray:3 3}
+.g11-euc-board [data-object-id="operation"] {color:#175b63}
+.g11-euc-board [data-object-id="verification"] {color:#08664a;font-weight:700}

@@ -1,0 +1,778 @@
+{
+  "source": "grade11-euc-lesson-03.md",
+  "worked": [
+    {
+      "id": "g11-euc-l03-w01",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 22°, find ∠ADB.",
+      "answer": "22°",
+      "actions": [
+        "Mark the given ∠ACB = 22° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 22° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 22°. The centre angle on the minor arc would be 44°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 22°. The centre angle on the minor arc would be 44°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 22
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-euc-l03-w02",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 24°, find ∠ADB.",
+      "answer": "24°",
+      "actions": [
+        "Mark the given ∠ACB = 24° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 24° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 24°. The centre angle on the minor arc would be 48°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 24°. The centre angle on the minor arc would be 48°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 24
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-euc-l03-w03",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 26°, find ∠ADB.",
+      "answer": "26°",
+      "actions": [
+        "Mark the given ∠ACB = 26° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 26° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 26°. The centre angle on the minor arc would be 52°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 26°. The centre angle on the minor arc would be 52°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 26
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-euc-l03-w04",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 28°, find ∠ADB.",
+      "answer": "28°",
+      "actions": [
+        "Mark the given ∠ACB = 28° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 28° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 28°. The centre angle on the minor arc would be 56°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 28°. The centre angle on the minor arc would be 56°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 28
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-euc-l03-w05",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 30°, find ∠ADB.",
+      "answer": "30°",
+      "actions": [
+        "Mark the given ∠ACB = 30° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 30° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 30°. The centre angle on the minor arc would be 60°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 30°. The centre angle on the minor arc would be 60°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 30
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-euc-l03-w06",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 32°, find ∠ADB.",
+      "answer": "32°",
+      "actions": [
+        "Mark the given ∠ACB = 32° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 32° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 32°. The centre angle on the minor arc would be 64°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 32°. The centre angle on the minor arc would be 64°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 32
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l03-w07",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 34°, find ∠ADB.",
+      "answer": "34°",
+      "actions": [
+        "Mark the given ∠ACB = 34° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 34° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 34°. The centre angle on the minor arc would be 68°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 34°. The centre angle on the minor arc would be 68°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 34
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l03-w08",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 36°, find ∠ADB.",
+      "answer": "36°",
+      "actions": [
+        "Mark the given ∠ACB = 36° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 36° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 36°. The centre angle on the minor arc would be 72°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 36°. The centre angle on the minor arc would be 72°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 36
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l03-w09",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 38°, find ∠ADB.",
+      "answer": "38°",
+      "actions": [
+        "Mark the given ∠ACB = 38° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 38° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 38°. The centre angle on the minor arc would be 76°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 38°. The centre angle on the minor arc would be 76°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 38
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l03-w10",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 40°, find ∠ADB.",
+      "answer": "40°",
+      "actions": [
+        "Mark the given ∠ACB = 40° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 40° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 40°. The centre angle on the minor arc would be 80°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 40°. The centre angle on the minor arc would be 80°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 40
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-euc-l03-w11",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 42°, find ∠ADB.",
+      "answer": "42°",
+      "actions": [
+        "Mark the given ∠ACB = 42° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 42° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 42°. The centre angle on the minor arc would be 84°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 42°. The centre angle on the minor arc would be 84°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 42
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-euc-l03-w12",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 44°, find ∠ADB.",
+      "answer": "44°",
+      "actions": [
+        "Mark the given ∠ACB = 44° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 44° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 44°. The centre angle on the minor arc would be 88°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 44°. The centre angle on the minor arc would be 88°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 44
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-euc-l03-w13",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 46°, find ∠ADB.",
+      "answer": "46°",
+      "actions": [
+        "Mark the given ∠ACB = 46° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 46° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 46°. The centre angle on the minor arc would be 92°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 46°. The centre angle on the minor arc would be 92°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 46
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-euc-l03-w14",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 48°, find ∠ADB.",
+      "answer": "48°",
+      "actions": [
+        "Mark the given ∠ACB = 48° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 48° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 48°. The centre angle on the minor arc would be 96°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 48°. The centre angle on the minor arc would be 96°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 48
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-euc-l03-w15",
+      "lesson": 3,
+      "problem": "Points C and D lie on the same major arc AB. If ∠ACB = 50°, find ∠ADB.",
+      "answer": "50°",
+      "actions": [
+        "Mark the given ∠ACB = 50° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 50° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 50°. The centre angle on the minor arc would be 100°, twice either angle."
+      ],
+      "check": "Answer: ∠ADB = 50°. The centre angle on the minor arc would be 100°, twice either angle.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "same_segment",
+          "inscribed": 50
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-euc-l03-p01",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 36°, find ∠ADB.",
+      "options": [
+        "144°",
+        "69°",
+        "36°",
+        "72°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the given ∠ACB = 36° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 36° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 36°. The centre angle on the minor arc would be 72°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 36° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 36° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 36°. The centre angle on the minor arc would be 72°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p02",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 38°, find ∠ADB.",
+      "options": [
+        "71°",
+        "38°",
+        "76°",
+        "142°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the given ∠ACB = 38° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 38° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 38°. The centre angle on the minor arc would be 76°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 38° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 38° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 38°. The centre angle on the minor arc would be 76°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p03",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 40°, find ∠ADB.",
+      "options": [
+        "40°",
+        "80°",
+        "140°",
+        "70°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the given ∠ACB = 40° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 40° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 40°. The centre angle on the minor arc would be 80°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 40° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 40° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 40°. The centre angle on the minor arc would be 80°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p04",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 42°, find ∠ADB.",
+      "options": [
+        "84°",
+        "138°",
+        "69°",
+        "42°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the given ∠ACB = 42° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 42° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 42°. The centre angle on the minor arc would be 84°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 42° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 42° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 42°. The centre angle on the minor arc would be 84°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p05",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 44°, find ∠ADB.",
+      "options": [
+        "136°",
+        "68°",
+        "44°",
+        "88°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the given ∠ACB = 44° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 44° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 44°. The centre angle on the minor arc would be 88°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 44° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 44° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 44°. The centre angle on the minor arc would be 88°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p06",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 46°, find ∠ADB.",
+      "options": [
+        "67°",
+        "46°",
+        "92°",
+        "134°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the given ∠ACB = 46° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 46° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 46°. The centre angle on the minor arc would be 92°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 46° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 46° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 46°. The centre angle on the minor arc would be 92°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p07",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 48°, find ∠ADB.",
+      "options": [
+        "48°",
+        "96°",
+        "132°",
+        "66°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the given ∠ACB = 48° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 48° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 48°. The centre angle on the minor arc would be 96°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 48° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 48° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 48°. The centre angle on the minor arc would be 96°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p08",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 50°, find ∠ADB.",
+      "options": [
+        "100°",
+        "130°",
+        "65°",
+        "50°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the given ∠ACB = 50° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 50° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 50°. The centre angle on the minor arc would be 100°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 50° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 50° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 50°. The centre angle on the minor arc would be 100°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p09",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 52°, find ∠ADB.",
+      "options": [
+        "128°",
+        "64°",
+        "52°",
+        "104°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the given ∠ACB = 52° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 52° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 52°. The centre angle on the minor arc would be 104°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 52° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 52° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 52°. The centre angle on the minor arc would be 104°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p10",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 54°, find ∠ADB.",
+      "options": [
+        "63°",
+        "54°",
+        "108°",
+        "126°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the given ∠ACB = 54° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 54° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 54°. The centre angle on the minor arc would be 108°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 54° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 54° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 54°. The centre angle on the minor arc would be 108°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p11",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 56°, find ∠ADB.",
+      "options": [
+        "56°",
+        "112°",
+        "124°",
+        "62°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the given ∠ACB = 56° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 56° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 56°. The centre angle on the minor arc would be 112°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 56° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 56° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 56°. The centre angle on the minor arc would be 112°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p12",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 58°, find ∠ADB.",
+      "options": [
+        "116°",
+        "122°",
+        "61°",
+        "58°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the given ∠ACB = 58° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 58° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 58°. The centre angle on the minor arc would be 116°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 58° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 58° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 58°. The centre angle on the minor arc would be 116°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p13",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 60°, find ∠ADB.",
+      "options": [
+        "117°",
+        "118°",
+        "60°",
+        "120°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the given ∠ACB = 60° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 60° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 60°. The centre angle on the minor arc would be 120°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 60° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 60° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 60°. The centre angle on the minor arc would be 120°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p14",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 62°, find ∠ADB.",
+      "options": [
+        "59°",
+        "62°",
+        "124°",
+        "118°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the given ∠ACB = 62° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 62° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 62°. The centre angle on the minor arc would be 124°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 62° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 62° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 62°. The centre angle on the minor arc would be 124°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-p15",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 64°, find ∠ADB.",
+      "options": [
+        "64°",
+        "128°",
+        "116°",
+        "58°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the given ∠ACB = 64° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 64° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 64°. The centre angle on the minor arc would be 128°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 64° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 64° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 64°. The centre angle on the minor arc would be 128°, twice either angle."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-euc-l03-m01",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 50°, find ∠ADB.",
+      "options": [
+        "65°",
+        "50°",
+        "100°",
+        "130°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the given ∠ACB = 50° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 50° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 50°. The centre angle on the minor arc would be 100°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 50° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 50° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 50°. The centre angle on the minor arc would be 100°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-m02",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 52°, find ∠ADB.",
+      "options": [
+        "52°",
+        "104°",
+        "128°",
+        "64°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the given ∠ACB = 52° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 52° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 52°. The centre angle on the minor arc would be 104°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 52° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 52° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 52°. The centre angle on the minor arc would be 104°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-m03",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 54°, find ∠ADB.",
+      "options": [
+        "108°",
+        "126°",
+        "63°",
+        "54°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the given ∠ACB = 54° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 54° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 54°. The centre angle on the minor arc would be 108°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 54° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 54° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 54°. The centre angle on the minor arc would be 108°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-m04",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 56°, find ∠ADB.",
+      "options": [
+        "124°",
+        "62°",
+        "56°",
+        "112°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the given ∠ACB = 56° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 56° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 56°. The centre angle on the minor arc would be 112°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 56° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 56° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 56°. The centre angle on the minor arc would be 112°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-m05",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 58°, find ∠ADB.",
+      "options": [
+        "61°",
+        "58°",
+        "116°",
+        "122°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the given ∠ACB = 58° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 58° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 58°. The centre angle on the minor arc would be 116°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 58° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 58° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 58°. The centre angle on the minor arc would be 116°, twice either angle."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-euc-l03-r01",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 64°, find ∠ADB.",
+      "options": [
+        "64°",
+        "128°",
+        "116°",
+        "58°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the given ∠ACB = 64° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 64° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 64°. The centre angle on the minor arc would be 128°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 64° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 64° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 64°. The centre angle on the minor arc would be 128°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-r02",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 66°, find ∠ADB.",
+      "options": [
+        "132°",
+        "114°",
+        "57°",
+        "66°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the given ∠ACB = 66° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 66° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 66°. The centre angle on the minor arc would be 132°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 66° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 66° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 66°. The centre angle on the minor arc would be 132°, twice either angle."
+    },
+    {
+      "id": "g11-euc-l03-r03",
+      "prompt": "Points C and D lie on the same major arc AB. If ∠ACB = 68°, find ∠ADB.",
+      "options": [
+        "112°",
+        "56°",
+        "68°",
+        "136°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the given ∠ACB = 68° and identify its endpoints A and B.",
+        "∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB.",
+        "Angles in the same segment of a circle are equal.",
+        "Transfer the 68° marking from C to D without changing the intercepted chord.",
+        "Answer: ∠ADB = 68°. The centre angle on the minor arc would be 136°, twice either angle."
+      ],
+      "memo": "Mark the given ∠ACB = 68° and identify its endpoints A and B. ∠ACB and ∠ADB both stand on chord AB, with C and D on the same side of AB. Angles in the same segment of a circle are equal. Transfer the 68° marking from C to D without changing the intercepted chord. Answer: ∠ADB = 68°. The centre angle on the minor arc would be 136°, twice either angle."
+    }
+  ]
+}

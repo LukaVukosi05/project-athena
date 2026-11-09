@@ -1,0 +1,808 @@
+{
+  "source": "grade11-euc-lesson-01.md",
+  "worked": [
+    {
+      "id": "g11-euc-l01-w01",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 5 cm and OM = 4 cm, calculate AB.",
+      "answer": "6 cm",
+      "actions": [
+        "Mark OA = 5 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 5 cm and side OM = 4 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 25 − 16 = 9 cm².",
+        "The positive length AM = 3 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(3) = 6 cm. Check: 3² + 4² = 5²."
+      ],
+      "check": "Answer: AB = 2(3) = 6 cm. Check: 3² + 4² = 5².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 3,
+          "distance": 4,
+          "radius": 5
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-euc-l01-w02",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 13 cm and OM = 12 cm, calculate AB.",
+      "answer": "10 cm",
+      "actions": [
+        "Mark OA = 13 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 13 cm and side OM = 12 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 169 − 144 = 25 cm².",
+        "The positive length AM = 5 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(5) = 10 cm. Check: 5² + 12² = 13²."
+      ],
+      "check": "Answer: AB = 2(5) = 10 cm. Check: 5² + 12² = 13².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 5,
+          "distance": 12,
+          "radius": 13
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-euc-l01-w03",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 17 cm and OM = 15 cm, calculate AB.",
+      "answer": "16 cm",
+      "actions": [
+        "Mark OA = 17 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 17 cm and side OM = 15 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 289 − 225 = 64 cm².",
+        "The positive length AM = 8 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(8) = 16 cm. Check: 8² + 15² = 17²."
+      ],
+      "check": "Answer: AB = 2(8) = 16 cm. Check: 8² + 15² = 17².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 8,
+          "distance": 15,
+          "radius": 17
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-euc-l01-w04",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 10 cm and OM = 8 cm, calculate AB.",
+      "answer": "12 cm",
+      "actions": [
+        "Mark OA = 10 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 10 cm and side OM = 8 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 100 − 64 = 36 cm².",
+        "The positive length AM = 6 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(6) = 12 cm. Check: 6² + 8² = 10²."
+      ],
+      "check": "Answer: AB = 2(6) = 12 cm. Check: 6² + 8² = 10².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 6,
+          "distance": 8,
+          "radius": 10
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-euc-l01-w05",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 26 cm and OM = 24 cm, calculate AB.",
+      "answer": "20 cm",
+      "actions": [
+        "Mark OA = 26 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 26 cm and side OM = 24 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 676 − 576 = 100 cm².",
+        "The positive length AM = 10 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(10) = 20 cm. Check: 10² + 24² = 26²."
+      ],
+      "check": "Answer: AB = 2(10) = 20 cm. Check: 10² + 24² = 26².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 10,
+          "distance": 24,
+          "radius": 26
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-euc-l01-w06",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 34 cm and OM = 30 cm, calculate AB.",
+      "answer": "32 cm",
+      "actions": [
+        "Mark OA = 34 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 34 cm and side OM = 30 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 1156 − 900 = 256 cm².",
+        "The positive length AM = 16 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(16) = 32 cm. Check: 16² + 30² = 34²."
+      ],
+      "check": "Answer: AB = 2(16) = 32 cm. Check: 16² + 30² = 34².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 16,
+          "distance": 30,
+          "radius": 34
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l01-w07",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 15 cm and OM = 12 cm, calculate AB.",
+      "answer": "18 cm",
+      "actions": [
+        "Mark OA = 15 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 15 cm and side OM = 12 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 225 − 144 = 81 cm².",
+        "The positive length AM = 9 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(9) = 18 cm. Check: 9² + 12² = 15²."
+      ],
+      "check": "Answer: AB = 2(9) = 18 cm. Check: 9² + 12² = 15².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 9,
+          "distance": 12,
+          "radius": 15
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l01-w08",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 39 cm and OM = 36 cm, calculate AB.",
+      "answer": "30 cm",
+      "actions": [
+        "Mark OA = 39 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 39 cm and side OM = 36 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 1521 − 1296 = 225 cm².",
+        "The positive length AM = 15 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(15) = 30 cm. Check: 15² + 36² = 39²."
+      ],
+      "check": "Answer: AB = 2(15) = 30 cm. Check: 15² + 36² = 39².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 15,
+          "distance": 36,
+          "radius": 39
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l01-w09",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 51 cm and OM = 45 cm, calculate AB.",
+      "answer": "48 cm",
+      "actions": [
+        "Mark OA = 51 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 51 cm and side OM = 45 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 2601 − 2025 = 576 cm².",
+        "The positive length AM = 24 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(24) = 48 cm. Check: 24² + 45² = 51²."
+      ],
+      "check": "Answer: AB = 2(24) = 48 cm. Check: 24² + 45² = 51².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 24,
+          "distance": 45,
+          "radius": 51
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l01-w10",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 20 cm and OM = 16 cm, calculate AB.",
+      "answer": "24 cm",
+      "actions": [
+        "Mark OA = 20 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 20 cm and side OM = 16 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 400 − 256 = 144 cm².",
+        "The positive length AM = 12 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(12) = 24 cm. Check: 12² + 16² = 20²."
+      ],
+      "check": "Answer: AB = 2(12) = 24 cm. Check: 12² + 16² = 20².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 12,
+          "distance": 16,
+          "radius": 20
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-euc-l01-w11",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 52 cm and OM = 48 cm, calculate AB.",
+      "answer": "40 cm",
+      "actions": [
+        "Mark OA = 52 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 52 cm and side OM = 48 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 2704 − 2304 = 400 cm².",
+        "The positive length AM = 20 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(20) = 40 cm. Check: 20² + 48² = 52²."
+      ],
+      "check": "Answer: AB = 2(20) = 40 cm. Check: 20² + 48² = 52².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 20,
+          "distance": 48,
+          "radius": 52
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-euc-l01-w12",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 68 cm and OM = 60 cm, calculate AB.",
+      "answer": "64 cm",
+      "actions": [
+        "Mark OA = 68 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 68 cm and side OM = 60 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 4624 − 3600 = 1024 cm².",
+        "The positive length AM = 32 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(32) = 64 cm. Check: 32² + 60² = 68²."
+      ],
+      "check": "Answer: AB = 2(32) = 64 cm. Check: 32² + 60² = 68².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 32,
+          "distance": 60,
+          "radius": 68
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-euc-l01-w13",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 25 cm and OM = 20 cm, calculate AB.",
+      "answer": "30 cm",
+      "actions": [
+        "Mark OA = 25 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 25 cm and side OM = 20 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 625 − 400 = 225 cm².",
+        "The positive length AM = 15 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(15) = 30 cm. Check: 15² + 20² = 25²."
+      ],
+      "check": "Answer: AB = 2(15) = 30 cm. Check: 15² + 20² = 25².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 15,
+          "distance": 20,
+          "radius": 25
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-euc-l01-w14",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 65 cm and OM = 60 cm, calculate AB.",
+      "answer": "50 cm",
+      "actions": [
+        "Mark OA = 65 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 65 cm and side OM = 60 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 4225 − 3600 = 625 cm².",
+        "The positive length AM = 25 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(25) = 50 cm. Check: 25² + 60² = 65²."
+      ],
+      "check": "Answer: AB = 2(25) = 50 cm. Check: 25² + 60² = 65².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 25,
+          "distance": 60,
+          "radius": 65
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-euc-l01-w15",
+      "lesson": 1,
+      "problem": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 85 cm and OM = 75 cm, calculate AB.",
+      "answer": "80 cm",
+      "actions": [
+        "Mark OA = 85 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 85 cm and side OM = 75 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 7225 − 5625 = 1600 cm².",
+        "The positive length AM = 40 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(40) = 80 cm. Check: 40² + 75² = 85²."
+      ],
+      "check": "Answer: AB = 2(40) = 80 cm. Check: 40² + 75² = 85².",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "chord",
+          "half": 40,
+          "distance": 75,
+          "radius": 85
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-euc-l01-p01",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 39 cm and OM = 36 cm, calculate AB.",
+      "options": [
+        "39 cm",
+        "72 cm",
+        "30 cm",
+        "15 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark OA = 39 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 39 cm and side OM = 36 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 1521 − 1296 = 225 cm².",
+        "The positive length AM = 15 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(15) = 30 cm. Check: 15² + 36² = 39²."
+      ],
+      "memo": "Mark OA = 39 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 39 cm and side OM = 36 cm. By Pythagoras, AM² = OA² − OM² = 1521 − 1296 = 225 cm². The positive length AM = 15 cm, and the chord has equal halves AM and MB. Answer: AB = 2(15) = 30 cm. Check: 15² + 36² = 39²."
+    },
+    {
+      "id": "g11-euc-l01-p02",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 51 cm and OM = 45 cm, calculate AB.",
+      "options": [
+        "90 cm",
+        "48 cm",
+        "24 cm",
+        "51 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark OA = 51 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 51 cm and side OM = 45 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 2601 − 2025 = 576 cm².",
+        "The positive length AM = 24 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(24) = 48 cm. Check: 24² + 45² = 51²."
+      ],
+      "memo": "Mark OA = 51 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 51 cm and side OM = 45 cm. By Pythagoras, AM² = OA² − OM² = 2601 − 2025 = 576 cm². The positive length AM = 24 cm, and the chord has equal halves AM and MB. Answer: AB = 2(24) = 48 cm. Check: 24² + 45² = 51²."
+    },
+    {
+      "id": "g11-euc-l01-p03",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 20 cm and OM = 16 cm, calculate AB.",
+      "options": [
+        "24 cm",
+        "12 cm",
+        "20 cm",
+        "32 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark OA = 20 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 20 cm and side OM = 16 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 400 − 256 = 144 cm².",
+        "The positive length AM = 12 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(12) = 24 cm. Check: 12² + 16² = 20²."
+      ],
+      "memo": "Mark OA = 20 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 20 cm and side OM = 16 cm. By Pythagoras, AM² = OA² − OM² = 400 − 256 = 144 cm². The positive length AM = 12 cm, and the chord has equal halves AM and MB. Answer: AB = 2(12) = 24 cm. Check: 12² + 16² = 20²."
+    },
+    {
+      "id": "g11-euc-l01-p04",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 52 cm and OM = 48 cm, calculate AB.",
+      "options": [
+        "20 cm",
+        "52 cm",
+        "96 cm",
+        "40 cm"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark OA = 52 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 52 cm and side OM = 48 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 2704 − 2304 = 400 cm².",
+        "The positive length AM = 20 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(20) = 40 cm. Check: 20² + 48² = 52²."
+      ],
+      "memo": "Mark OA = 52 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 52 cm and side OM = 48 cm. By Pythagoras, AM² = OA² − OM² = 2704 − 2304 = 400 cm². The positive length AM = 20 cm, and the chord has equal halves AM and MB. Answer: AB = 2(20) = 40 cm. Check: 20² + 48² = 52²."
+    },
+    {
+      "id": "g11-euc-l01-p05",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 68 cm and OM = 60 cm, calculate AB.",
+      "options": [
+        "68 cm",
+        "120 cm",
+        "64 cm",
+        "32 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark OA = 68 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 68 cm and side OM = 60 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 4624 − 3600 = 1024 cm².",
+        "The positive length AM = 32 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(32) = 64 cm. Check: 32² + 60² = 68²."
+      ],
+      "memo": "Mark OA = 68 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 68 cm and side OM = 60 cm. By Pythagoras, AM² = OA² − OM² = 4624 − 3600 = 1024 cm². The positive length AM = 32 cm, and the chord has equal halves AM and MB. Answer: AB = 2(32) = 64 cm. Check: 32² + 60² = 68²."
+    },
+    {
+      "id": "g11-euc-l01-p06",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 25 cm and OM = 20 cm, calculate AB.",
+      "options": [
+        "40 cm",
+        "30 cm",
+        "15 cm",
+        "25 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark OA = 25 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 25 cm and side OM = 20 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 625 − 400 = 225 cm².",
+        "The positive length AM = 15 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(15) = 30 cm. Check: 15² + 20² = 25²."
+      ],
+      "memo": "Mark OA = 25 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 25 cm and side OM = 20 cm. By Pythagoras, AM² = OA² − OM² = 625 − 400 = 225 cm². The positive length AM = 15 cm, and the chord has equal halves AM and MB. Answer: AB = 2(15) = 30 cm. Check: 15² + 20² = 25²."
+    },
+    {
+      "id": "g11-euc-l01-p07",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 65 cm and OM = 60 cm, calculate AB.",
+      "options": [
+        "50 cm",
+        "25 cm",
+        "65 cm",
+        "120 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark OA = 65 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 65 cm and side OM = 60 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 4225 − 3600 = 625 cm².",
+        "The positive length AM = 25 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(25) = 50 cm. Check: 25² + 60² = 65²."
+      ],
+      "memo": "Mark OA = 65 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 65 cm and side OM = 60 cm. By Pythagoras, AM² = OA² − OM² = 4225 − 3600 = 625 cm². The positive length AM = 25 cm, and the chord has equal halves AM and MB. Answer: AB = 2(25) = 50 cm. Check: 25² + 60² = 65²."
+    },
+    {
+      "id": "g11-euc-l01-p08",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 85 cm and OM = 75 cm, calculate AB.",
+      "options": [
+        "40 cm",
+        "85 cm",
+        "150 cm",
+        "80 cm"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark OA = 85 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 85 cm and side OM = 75 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 7225 − 5625 = 1600 cm².",
+        "The positive length AM = 40 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(40) = 80 cm. Check: 40² + 75² = 85²."
+      ],
+      "memo": "Mark OA = 85 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 85 cm and side OM = 75 cm. By Pythagoras, AM² = OA² − OM² = 7225 − 5625 = 1600 cm². The positive length AM = 40 cm, and the chord has equal halves AM and MB. Answer: AB = 2(40) = 80 cm. Check: 40² + 75² = 85²."
+    },
+    {
+      "id": "g11-euc-l01-p09",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 30 cm and OM = 24 cm, calculate AB.",
+      "options": [
+        "30 cm",
+        "48 cm",
+        "36 cm",
+        "18 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark OA = 30 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 30 cm and side OM = 24 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 900 − 576 = 324 cm².",
+        "The positive length AM = 18 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(18) = 36 cm. Check: 18² + 24² = 30²."
+      ],
+      "memo": "Mark OA = 30 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 30 cm and side OM = 24 cm. By Pythagoras, AM² = OA² − OM² = 900 − 576 = 324 cm². The positive length AM = 18 cm, and the chord has equal halves AM and MB. Answer: AB = 2(18) = 36 cm. Check: 18² + 24² = 30²."
+    },
+    {
+      "id": "g11-euc-l01-p10",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 78 cm and OM = 72 cm, calculate AB.",
+      "options": [
+        "144 cm",
+        "60 cm",
+        "30 cm",
+        "78 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark OA = 78 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 78 cm and side OM = 72 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 6084 − 5184 = 900 cm².",
+        "The positive length AM = 30 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(30) = 60 cm. Check: 30² + 72² = 78²."
+      ],
+      "memo": "Mark OA = 78 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 78 cm and side OM = 72 cm. By Pythagoras, AM² = OA² − OM² = 6084 − 5184 = 900 cm². The positive length AM = 30 cm, and the chord has equal halves AM and MB. Answer: AB = 2(30) = 60 cm. Check: 30² + 72² = 78²."
+    },
+    {
+      "id": "g11-euc-l01-p11",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 102 cm and OM = 90 cm, calculate AB.",
+      "options": [
+        "96 cm",
+        "48 cm",
+        "102 cm",
+        "180 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark OA = 102 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 102 cm and side OM = 90 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 10404 − 8100 = 2304 cm².",
+        "The positive length AM = 48 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(48) = 96 cm. Check: 48² + 90² = 102²."
+      ],
+      "memo": "Mark OA = 102 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 102 cm and side OM = 90 cm. By Pythagoras, AM² = OA² − OM² = 10404 − 8100 = 2304 cm². The positive length AM = 48 cm, and the chord has equal halves AM and MB. Answer: AB = 2(48) = 96 cm. Check: 48² + 90² = 102²."
+    },
+    {
+      "id": "g11-euc-l01-p12",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 35 cm and OM = 28 cm, calculate AB.",
+      "options": [
+        "21 cm",
+        "35 cm",
+        "56 cm",
+        "42 cm"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark OA = 35 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 35 cm and side OM = 28 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 1225 − 784 = 441 cm².",
+        "The positive length AM = 21 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(21) = 42 cm. Check: 21² + 28² = 35²."
+      ],
+      "memo": "Mark OA = 35 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 35 cm and side OM = 28 cm. By Pythagoras, AM² = OA² − OM² = 1225 − 784 = 441 cm². The positive length AM = 21 cm, and the chord has equal halves AM and MB. Answer: AB = 2(21) = 42 cm. Check: 21² + 28² = 35²."
+    },
+    {
+      "id": "g11-euc-l01-p13",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 91 cm and OM = 84 cm, calculate AB.",
+      "options": [
+        "91 cm",
+        "168 cm",
+        "70 cm",
+        "35 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark OA = 91 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 91 cm and side OM = 84 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 8281 − 7056 = 1225 cm².",
+        "The positive length AM = 35 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(35) = 70 cm. Check: 35² + 84² = 91²."
+      ],
+      "memo": "Mark OA = 91 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 91 cm and side OM = 84 cm. By Pythagoras, AM² = OA² − OM² = 8281 − 7056 = 1225 cm². The positive length AM = 35 cm, and the chord has equal halves AM and MB. Answer: AB = 2(35) = 70 cm. Check: 35² + 84² = 91²."
+    },
+    {
+      "id": "g11-euc-l01-p14",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 119 cm and OM = 105 cm, calculate AB.",
+      "options": [
+        "210 cm",
+        "112 cm",
+        "56 cm",
+        "119 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark OA = 119 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 119 cm and side OM = 105 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 14161 − 11025 = 3136 cm².",
+        "The positive length AM = 56 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(56) = 112 cm. Check: 56² + 105² = 119²."
+      ],
+      "memo": "Mark OA = 119 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 119 cm and side OM = 105 cm. By Pythagoras, AM² = OA² − OM² = 14161 − 11025 = 3136 cm². The positive length AM = 56 cm, and the chord has equal halves AM and MB. Answer: AB = 2(56) = 112 cm. Check: 56² + 105² = 119²."
+    },
+    {
+      "id": "g11-euc-l01-p15",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 40 cm and OM = 32 cm, calculate AB.",
+      "options": [
+        "48 cm",
+        "24 cm",
+        "40 cm",
+        "64 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark OA = 40 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 40 cm and side OM = 32 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 1600 − 1024 = 576 cm².",
+        "The positive length AM = 24 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(24) = 48 cm. Check: 24² + 32² = 40²."
+      ],
+      "memo": "Mark OA = 40 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 40 cm and side OM = 32 cm. By Pythagoras, AM² = OA² − OM² = 1600 − 1024 = 576 cm². The positive length AM = 24 cm, and the chord has equal halves AM and MB. Answer: AB = 2(24) = 48 cm. Check: 24² + 32² = 40²."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-euc-l01-m01",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 85 cm and OM = 75 cm, calculate AB.",
+      "options": [
+        "150 cm",
+        "80 cm",
+        "40 cm",
+        "85 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark OA = 85 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 85 cm and side OM = 75 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 7225 − 5625 = 1600 cm².",
+        "The positive length AM = 40 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(40) = 80 cm. Check: 40² + 75² = 85²."
+      ],
+      "memo": "Mark OA = 85 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 85 cm and side OM = 75 cm. By Pythagoras, AM² = OA² − OM² = 7225 − 5625 = 1600 cm². The positive length AM = 40 cm, and the chord has equal halves AM and MB. Answer: AB = 2(40) = 80 cm. Check: 40² + 75² = 85²."
+    },
+    {
+      "id": "g11-euc-l01-m02",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 30 cm and OM = 24 cm, calculate AB.",
+      "options": [
+        "36 cm",
+        "18 cm",
+        "30 cm",
+        "48 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark OA = 30 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 30 cm and side OM = 24 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 900 − 576 = 324 cm².",
+        "The positive length AM = 18 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(18) = 36 cm. Check: 18² + 24² = 30²."
+      ],
+      "memo": "Mark OA = 30 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 30 cm and side OM = 24 cm. By Pythagoras, AM² = OA² − OM² = 900 − 576 = 324 cm². The positive length AM = 18 cm, and the chord has equal halves AM and MB. Answer: AB = 2(18) = 36 cm. Check: 18² + 24² = 30²."
+    },
+    {
+      "id": "g11-euc-l01-m03",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 78 cm and OM = 72 cm, calculate AB.",
+      "options": [
+        "30 cm",
+        "78 cm",
+        "144 cm",
+        "60 cm"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark OA = 78 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 78 cm and side OM = 72 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 6084 − 5184 = 900 cm².",
+        "The positive length AM = 30 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(30) = 60 cm. Check: 30² + 72² = 78²."
+      ],
+      "memo": "Mark OA = 78 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 78 cm and side OM = 72 cm. By Pythagoras, AM² = OA² − OM² = 6084 − 5184 = 900 cm². The positive length AM = 30 cm, and the chord has equal halves AM and MB. Answer: AB = 2(30) = 60 cm. Check: 30² + 72² = 78²."
+    },
+    {
+      "id": "g11-euc-l01-m04",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 102 cm and OM = 90 cm, calculate AB.",
+      "options": [
+        "102 cm",
+        "180 cm",
+        "96 cm",
+        "48 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark OA = 102 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 102 cm and side OM = 90 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 10404 − 8100 = 2304 cm².",
+        "The positive length AM = 48 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(48) = 96 cm. Check: 48² + 90² = 102²."
+      ],
+      "memo": "Mark OA = 102 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 102 cm and side OM = 90 cm. By Pythagoras, AM² = OA² − OM² = 10404 − 8100 = 2304 cm². The positive length AM = 48 cm, and the chord has equal halves AM and MB. Answer: AB = 2(48) = 96 cm. Check: 48² + 90² = 102²."
+    },
+    {
+      "id": "g11-euc-l01-m05",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 35 cm and OM = 28 cm, calculate AB.",
+      "options": [
+        "56 cm",
+        "42 cm",
+        "21 cm",
+        "35 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark OA = 35 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 35 cm and side OM = 28 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 1225 − 784 = 441 cm².",
+        "The positive length AM = 21 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(21) = 42 cm. Check: 21² + 28² = 35²."
+      ],
+      "memo": "Mark OA = 35 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 35 cm and side OM = 28 cm. By Pythagoras, AM² = OA² − OM² = 1225 − 784 = 441 cm². The positive length AM = 21 cm, and the chord has equal halves AM and MB. Answer: AB = 2(21) = 42 cm. Check: 21² + 28² = 35²."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-euc-l01-r01",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 40 cm and OM = 32 cm, calculate AB.",
+      "options": [
+        "48 cm",
+        "24 cm",
+        "40 cm",
+        "64 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark OA = 40 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 40 cm and side OM = 32 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 1600 − 1024 = 576 cm².",
+        "The positive length AM = 24 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(24) = 48 cm. Check: 24² + 32² = 40²."
+      ],
+      "memo": "Mark OA = 40 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 40 cm and side OM = 32 cm. By Pythagoras, AM² = OA² − OM² = 1600 − 1024 = 576 cm². The positive length AM = 24 cm, and the chord has equal halves AM and MB. Answer: AB = 2(24) = 48 cm. Check: 24² + 32² = 40²."
+    },
+    {
+      "id": "g11-euc-l01-r02",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 104 cm and OM = 96 cm, calculate AB.",
+      "options": [
+        "40 cm",
+        "104 cm",
+        "192 cm",
+        "80 cm"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark OA = 104 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 104 cm and side OM = 96 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 10816 − 9216 = 1600 cm².",
+        "The positive length AM = 40 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(40) = 80 cm. Check: 40² + 96² = 104²."
+      ],
+      "memo": "Mark OA = 104 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 104 cm and side OM = 96 cm. By Pythagoras, AM² = OA² − OM² = 10816 − 9216 = 1600 cm². The positive length AM = 40 cm, and the chord has equal halves AM and MB. Answer: AB = 2(40) = 80 cm. Check: 40² + 96² = 104²."
+    },
+    {
+      "id": "g11-euc-l01-r03",
+      "prompt": "In a circle with centre O, OM ⟂ chord AB at M. If OA = 136 cm and OM = 120 cm, calculate AB.",
+      "options": [
+        "136 cm",
+        "240 cm",
+        "128 cm",
+        "64 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark OA = 136 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB.",
+        "Triangle OMA is right-angled at M, with hypotenuse OA = 136 cm and side OM = 120 cm.",
+        "By Pythagoras, AM² = OA² − OM² = 18496 − 14400 = 4096 cm².",
+        "The positive length AM = 64 cm, and the chord has equal halves AM and MB.",
+        "Answer: AB = 2(64) = 128 cm. Check: 64² + 120² = 136²."
+      ],
+      "memo": "Mark OA = 136 cm as a radius. Because OM is perpendicular to chord AB, M bisects AB. Triangle OMA is right-angled at M, with hypotenuse OA = 136 cm and side OM = 120 cm. By Pythagoras, AM² = OA² − OM² = 18496 − 14400 = 4096 cm². The positive length AM = 64 cm, and the chord has equal halves AM and MB. Answer: AB = 2(64) = 128 cm. Check: 64² + 120² = 136²."
+    }
+  ]
+}

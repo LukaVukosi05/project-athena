@@ -236,3 +236,7 @@ for _shape_template in ("triangle_sides","triangle_sum","equal_triangle","quad_c
 
 for _pyth_family in ("square_areas","hypotenuse","missing_leg","converse","application"):
     registry.register(f"grade8_{_pyth_family}_stage", f"grade8_pythagoras_{_pyth_family}", lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+
+for _grade11_euc_number in range(1,9):
+    registry.register(f"grade11_euc_{_grade11_euc_number}_step", f"grade11_euc_{_grade11_euc_number}",
+        lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))

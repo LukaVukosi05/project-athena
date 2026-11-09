@@ -1,0 +1,778 @@
+{
+  "source": "grade11-euc-lesson-06.md",
+  "worked": [
+    {
+      "id": "g11-euc-l06-w01",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 32° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "32°",
+      "actions": [
+        "Mark the 32° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 32°.",
+        "Answer: ∠ACB = 32°. Its intercepted minor arc AB has centre angle 64°."
+      ],
+      "check": "Answer: ∠ACB = 32°. Its intercepted minor arc AB has centre angle 64°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 32
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-euc-l06-w02",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 34° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "34°",
+      "actions": [
+        "Mark the 34° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 34°.",
+        "Answer: ∠ACB = 34°. Its intercepted minor arc AB has centre angle 68°."
+      ],
+      "check": "Answer: ∠ACB = 34°. Its intercepted minor arc AB has centre angle 68°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 34
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-euc-l06-w03",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 36° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "36°",
+      "actions": [
+        "Mark the 36° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 36°.",
+        "Answer: ∠ACB = 36°. Its intercepted minor arc AB has centre angle 72°."
+      ],
+      "check": "Answer: ∠ACB = 36°. Its intercepted minor arc AB has centre angle 72°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 36
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-euc-l06-w04",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 38° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "38°",
+      "actions": [
+        "Mark the 38° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 38°.",
+        "Answer: ∠ACB = 38°. Its intercepted minor arc AB has centre angle 76°."
+      ],
+      "check": "Answer: ∠ACB = 38°. Its intercepted minor arc AB has centre angle 76°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 38
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-euc-l06-w05",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 40° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "40°",
+      "actions": [
+        "Mark the 40° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 40°.",
+        "Answer: ∠ACB = 40°. Its intercepted minor arc AB has centre angle 80°."
+      ],
+      "check": "Answer: ∠ACB = 40°. Its intercepted minor arc AB has centre angle 80°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 40
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-euc-l06-w06",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 42° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "42°",
+      "actions": [
+        "Mark the 42° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 42°.",
+        "Answer: ∠ACB = 42°. Its intercepted minor arc AB has centre angle 84°."
+      ],
+      "check": "Answer: ∠ACB = 42°. Its intercepted minor arc AB has centre angle 84°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 42
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l06-w07",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 44° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "44°",
+      "actions": [
+        "Mark the 44° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 44°.",
+        "Answer: ∠ACB = 44°. Its intercepted minor arc AB has centre angle 88°."
+      ],
+      "check": "Answer: ∠ACB = 44°. Its intercepted minor arc AB has centre angle 88°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 44
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l06-w08",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 46° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "46°",
+      "actions": [
+        "Mark the 46° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 46°.",
+        "Answer: ∠ACB = 46°. Its intercepted minor arc AB has centre angle 92°."
+      ],
+      "check": "Answer: ∠ACB = 46°. Its intercepted minor arc AB has centre angle 92°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 46
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l06-w09",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 48° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "48°",
+      "actions": [
+        "Mark the 48° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 48°.",
+        "Answer: ∠ACB = 48°. Its intercepted minor arc AB has centre angle 96°."
+      ],
+      "check": "Answer: ∠ACB = 48°. Its intercepted minor arc AB has centre angle 96°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 48
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-euc-l06-w10",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 50° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "50°",
+      "actions": [
+        "Mark the 50° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 50°.",
+        "Answer: ∠ACB = 50°. Its intercepted minor arc AB has centre angle 100°."
+      ],
+      "check": "Answer: ∠ACB = 50°. Its intercepted minor arc AB has centre angle 100°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 50
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-euc-l06-w11",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 52° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "52°",
+      "actions": [
+        "Mark the 52° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 52°.",
+        "Answer: ∠ACB = 52°. Its intercepted minor arc AB has centre angle 104°."
+      ],
+      "check": "Answer: ∠ACB = 52°. Its intercepted minor arc AB has centre angle 104°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 52
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-euc-l06-w12",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 54° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "54°",
+      "actions": [
+        "Mark the 54° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 54°.",
+        "Answer: ∠ACB = 54°. Its intercepted minor arc AB has centre angle 108°."
+      ],
+      "check": "Answer: ∠ACB = 54°. Its intercepted minor arc AB has centre angle 108°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 54
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-euc-l06-w13",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 56° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "56°",
+      "actions": [
+        "Mark the 56° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 56°.",
+        "Answer: ∠ACB = 56°. Its intercepted minor arc AB has centre angle 112°."
+      ],
+      "check": "Answer: ∠ACB = 56°. Its intercepted minor arc AB has centre angle 112°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 56
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-euc-l06-w14",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 58° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "58°",
+      "actions": [
+        "Mark the 58° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 58°.",
+        "Answer: ∠ACB = 58°. Its intercepted minor arc AB has centre angle 116°."
+      ],
+      "check": "Answer: ∠ACB = 58°. Its intercepted minor arc AB has centre angle 116°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 58
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-euc-l06-w15",
+      "lesson": 6,
+      "problem": "A tangent at A forms an angle of 60° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "answer": "60°",
+      "actions": [
+        "Mark the 60° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 60°.",
+        "Answer: ∠ACB = 60°. Its intercepted minor arc AB has centre angle 120°."
+      ],
+      "check": "Answer: ∠ACB = 60°. Its intercepted minor arc AB has centre angle 120°.",
+      "visual": {
+        "family": "grade11_euclidean",
+        "values": {
+          "mode": "tangent_chord",
+          "given": 60
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-euc-l06-p01",
+      "prompt": "A tangent at A forms an angle of 46° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "134°",
+        "44°",
+        "46°",
+        "92°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the 46° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 46°.",
+        "Answer: ∠ACB = 46°. Its intercepted minor arc AB has centre angle 92°."
+      ],
+      "memo": "Mark the 46° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 46°. Answer: ∠ACB = 46°. Its intercepted minor arc AB has centre angle 92°."
+    },
+    {
+      "id": "g11-euc-l06-p02",
+      "prompt": "A tangent at A forms an angle of 48° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "42°",
+        "48°",
+        "96°",
+        "132°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the 48° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 48°.",
+        "Answer: ∠ACB = 48°. Its intercepted minor arc AB has centre angle 96°."
+      ],
+      "memo": "Mark the 48° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 48°. Answer: ∠ACB = 48°. Its intercepted minor arc AB has centre angle 96°."
+    },
+    {
+      "id": "g11-euc-l06-p03",
+      "prompt": "A tangent at A forms an angle of 50° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "50°",
+        "100°",
+        "130°",
+        "40°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the 50° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 50°.",
+        "Answer: ∠ACB = 50°. Its intercepted minor arc AB has centre angle 100°."
+      ],
+      "memo": "Mark the 50° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 50°. Answer: ∠ACB = 50°. Its intercepted minor arc AB has centre angle 100°."
+    },
+    {
+      "id": "g11-euc-l06-p04",
+      "prompt": "A tangent at A forms an angle of 52° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "104°",
+        "128°",
+        "38°",
+        "52°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the 52° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 52°.",
+        "Answer: ∠ACB = 52°. Its intercepted minor arc AB has centre angle 104°."
+      ],
+      "memo": "Mark the 52° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 52°. Answer: ∠ACB = 52°. Its intercepted minor arc AB has centre angle 104°."
+    },
+    {
+      "id": "g11-euc-l06-p05",
+      "prompt": "A tangent at A forms an angle of 54° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "126°",
+        "36°",
+        "54°",
+        "108°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the 54° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 54°.",
+        "Answer: ∠ACB = 54°. Its intercepted minor arc AB has centre angle 108°."
+      ],
+      "memo": "Mark the 54° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 54°. Answer: ∠ACB = 54°. Its intercepted minor arc AB has centre angle 108°."
+    },
+    {
+      "id": "g11-euc-l06-p06",
+      "prompt": "A tangent at A forms an angle of 56° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "34°",
+        "56°",
+        "112°",
+        "124°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the 56° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 56°.",
+        "Answer: ∠ACB = 56°. Its intercepted minor arc AB has centre angle 112°."
+      ],
+      "memo": "Mark the 56° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 56°. Answer: ∠ACB = 56°. Its intercepted minor arc AB has centre angle 112°."
+    },
+    {
+      "id": "g11-euc-l06-p07",
+      "prompt": "A tangent at A forms an angle of 58° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "58°",
+        "116°",
+        "122°",
+        "32°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the 58° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 58°.",
+        "Answer: ∠ACB = 58°. Its intercepted minor arc AB has centre angle 116°."
+      ],
+      "memo": "Mark the 58° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 58°. Answer: ∠ACB = 58°. Its intercepted minor arc AB has centre angle 116°."
+    },
+    {
+      "id": "g11-euc-l06-p08",
+      "prompt": "A tangent at A forms an angle of 60° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "120°",
+        "30°",
+        "97°",
+        "60°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the 60° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 60°.",
+        "Answer: ∠ACB = 60°. Its intercepted minor arc AB has centre angle 120°."
+      ],
+      "memo": "Mark the 60° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 60°. Answer: ∠ACB = 60°. Its intercepted minor arc AB has centre angle 120°."
+    },
+    {
+      "id": "g11-euc-l06-p09",
+      "prompt": "A tangent at A forms an angle of 62° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "118°",
+        "28°",
+        "62°",
+        "124°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the 62° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 62°.",
+        "Answer: ∠ACB = 62°. Its intercepted minor arc AB has centre angle 124°."
+      ],
+      "memo": "Mark the 62° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 62°. Answer: ∠ACB = 62°. Its intercepted minor arc AB has centre angle 124°."
+    },
+    {
+      "id": "g11-euc-l06-p10",
+      "prompt": "A tangent at A forms an angle of 64° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "26°",
+        "64°",
+        "128°",
+        "116°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the 64° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 64°.",
+        "Answer: ∠ACB = 64°. Its intercepted minor arc AB has centre angle 128°."
+      ],
+      "memo": "Mark the 64° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 64°. Answer: ∠ACB = 64°. Its intercepted minor arc AB has centre angle 128°."
+    },
+    {
+      "id": "g11-euc-l06-p11",
+      "prompt": "A tangent at A forms an angle of 66° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "66°",
+        "132°",
+        "114°",
+        "24°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the 66° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 66°.",
+        "Answer: ∠ACB = 66°. Its intercepted minor arc AB has centre angle 132°."
+      ],
+      "memo": "Mark the 66° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 66°. Answer: ∠ACB = 66°. Its intercepted minor arc AB has centre angle 132°."
+    },
+    {
+      "id": "g11-euc-l06-p12",
+      "prompt": "A tangent at A forms an angle of 68° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "136°",
+        "112°",
+        "22°",
+        "68°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the 68° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 68°.",
+        "Answer: ∠ACB = 68°. Its intercepted minor arc AB has centre angle 136°."
+      ],
+      "memo": "Mark the 68° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 68°. Answer: ∠ACB = 68°. Its intercepted minor arc AB has centre angle 136°."
+    },
+    {
+      "id": "g11-euc-l06-p13",
+      "prompt": "A tangent at A forms an angle of 70° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "110°",
+        "20°",
+        "70°",
+        "140°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the 70° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 70°.",
+        "Answer: ∠ACB = 70°. Its intercepted minor arc AB has centre angle 140°."
+      ],
+      "memo": "Mark the 70° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 70°. Answer: ∠ACB = 70°. Its intercepted minor arc AB has centre angle 140°."
+    },
+    {
+      "id": "g11-euc-l06-p14",
+      "prompt": "A tangent at A forms an angle of 72° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "18°",
+        "72°",
+        "144°",
+        "108°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the 72° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 72°.",
+        "Answer: ∠ACB = 72°. Its intercepted minor arc AB has centre angle 144°."
+      ],
+      "memo": "Mark the 72° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 72°. Answer: ∠ACB = 72°. Its intercepted minor arc AB has centre angle 144°."
+    },
+    {
+      "id": "g11-euc-l06-p15",
+      "prompt": "A tangent at A forms an angle of 74° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "74°",
+        "148°",
+        "106°",
+        "16°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the 74° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 74°.",
+        "Answer: ∠ACB = 74°. Its intercepted minor arc AB has centre angle 148°."
+      ],
+      "memo": "Mark the 74° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 74°. Answer: ∠ACB = 74°. Its intercepted minor arc AB has centre angle 148°."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-euc-l06-m01",
+      "prompt": "A tangent at A forms an angle of 60° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "97°",
+        "60°",
+        "120°",
+        "30°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the 60° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 60°.",
+        "Answer: ∠ACB = 60°. Its intercepted minor arc AB has centre angle 120°."
+      ],
+      "memo": "Mark the 60° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 60°. Answer: ∠ACB = 60°. Its intercepted minor arc AB has centre angle 120°."
+    },
+    {
+      "id": "g11-euc-l06-m02",
+      "prompt": "A tangent at A forms an angle of 62° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "62°",
+        "124°",
+        "118°",
+        "28°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the 62° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 62°.",
+        "Answer: ∠ACB = 62°. Its intercepted minor arc AB has centre angle 124°."
+      ],
+      "memo": "Mark the 62° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 62°. Answer: ∠ACB = 62°. Its intercepted minor arc AB has centre angle 124°."
+    },
+    {
+      "id": "g11-euc-l06-m03",
+      "prompt": "A tangent at A forms an angle of 64° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "128°",
+        "116°",
+        "26°",
+        "64°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the 64° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 64°.",
+        "Answer: ∠ACB = 64°. Its intercepted minor arc AB has centre angle 128°."
+      ],
+      "memo": "Mark the 64° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 64°. Answer: ∠ACB = 64°. Its intercepted minor arc AB has centre angle 128°."
+    },
+    {
+      "id": "g11-euc-l06-m04",
+      "prompt": "A tangent at A forms an angle of 66° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "114°",
+        "24°",
+        "66°",
+        "132°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the 66° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 66°.",
+        "Answer: ∠ACB = 66°. Its intercepted minor arc AB has centre angle 132°."
+      ],
+      "memo": "Mark the 66° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 66°. Answer: ∠ACB = 66°. Its intercepted minor arc AB has centre angle 132°."
+    },
+    {
+      "id": "g11-euc-l06-m05",
+      "prompt": "A tangent at A forms an angle of 68° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "22°",
+        "68°",
+        "136°",
+        "112°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the 68° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 68°.",
+        "Answer: ∠ACB = 68°. Its intercepted minor arc AB has centre angle 136°."
+      ],
+      "memo": "Mark the 68° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 68°. Answer: ∠ACB = 68°. Its intercepted minor arc AB has centre angle 136°."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-euc-l06-r01",
+      "prompt": "A tangent at A forms an angle of 74° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "74°",
+        "148°",
+        "106°",
+        "16°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the 74° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 74°.",
+        "Answer: ∠ACB = 74°. Its intercepted minor arc AB has centre angle 148°."
+      ],
+      "memo": "Mark the 74° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 74°. Answer: ∠ACB = 74°. Its intercepted minor arc AB has centre angle 148°."
+    },
+    {
+      "id": "g11-euc-l06-r02",
+      "prompt": "A tangent at A forms an angle of 76° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "152°",
+        "104°",
+        "14°",
+        "76°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the 76° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 76°.",
+        "Answer: ∠ACB = 76°. Its intercepted minor arc AB has centre angle 152°."
+      ],
+      "memo": "Mark the 76° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 76°. Answer: ∠ACB = 76°. Its intercepted minor arc AB has centre angle 152°."
+    },
+    {
+      "id": "g11-euc-l06-r03",
+      "prompt": "A tangent at A forms an angle of 78° with chord AB. C lies on the major arc AB. Find ∠ACB.",
+      "options": [
+        "102°",
+        "12°",
+        "78°",
+        "156°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the 78° angle between the tangent ray at A and chord AB.",
+        "Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent.",
+        "By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle.",
+        "Thus ∠ACB has the same measure as the marked angle at A: 78°.",
+        "Answer: ∠ACB = 78°. Its intercepted minor arc AB has centre angle 156°."
+      ],
+      "memo": "Mark the 78° angle between the tangent ray at A and chord AB. Join C to A and B. Angle ACB subtends chord AB on the alternate side of the tangent. By the tangent–chord theorem, the angle in the alternate segment equals the tangent–chord angle. Thus ∠ACB has the same measure as the marked angle at A: 78°. Answer: ∠ACB = 78°. Its intercepted minor arc AB has centre angle 156°."
+    }
+  ]
+}

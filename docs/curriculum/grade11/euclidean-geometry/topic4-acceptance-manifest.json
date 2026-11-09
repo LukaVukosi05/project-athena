@@ -1,0 +1,98 @@
+[
+  {
+    "lesson_id": "g11-euc-01",
+    "source": "grade11-euc-lesson-01.md",
+    "source_sha256": "eae6524acf6f63c186195a91d3e854dd6ca5fead7ecbf5da859f44206fa7ea85",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-euc-02",
+    "source": "grade11-euc-lesson-02.md",
+    "source_sha256": "a57304ad8a8d666320ece58ba1f4b0a8ea678ac179ef348e1318ec08f79bcad6",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-euc-03",
+    "source": "grade11-euc-lesson-03.md",
+    "source_sha256": "f38686a86d7d90976e5c9c56ce430de9720cf7e7e7ccb93546b6b77b993dbd64",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-euc-04",
+    "source": "grade11-euc-lesson-04.md",
+    "source_sha256": "e884032d36324c187dd8d9693b14d8007c2e89cf37a61c30d31c739722ff81fd",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-euc-05",
+    "source": "grade11-euc-lesson-05.md",
+    "source_sha256": "6800dc48684858694a42d696a14189ebaddd427dfb30b4b4f8f5e278655e58ed",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-euc-06",
+    "source": "grade11-euc-lesson-06.md",
+    "source_sha256": "19e23a869e64e6b3d345c71f0264a3fac9ce52b3f36055470a184d01192e75f6",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-euc-07",
+    "source": "grade11-euc-lesson-07.md",
+    "source_sha256": "2a63ed66e4fdd2e47373634fe8e65c6fde9e45d180d8c1467b88e7d112e41ceb",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-euc-08",
+    "source": "grade11-euc-lesson-08.md",
+    "source_sha256": "9104266c5b0916384662dfe3d5b1eaee1e1216214e56aa72458c039141f5f700",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

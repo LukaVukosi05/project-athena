@@ -244,3 +244,5 @@ function renderGraphSpec(spec, step, phase) {
 }
 
 ["square_areas","hypotenuse","missing_leg","converse","application"].forEach(family => registerTeachingOperation(`grade8_${family}_stage`, "fraction_model_stage"));
+
+for(let number=1;number<=8;number++)registerTeachingOperation(`grade11_euc_${number}_step`);
