@@ -136,7 +136,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                 item for item in question["whiteboard"]["semantic_objects"]
                 if item["id"] in {"problem", "stage-01"}
             ]
-    if grade.id in {"grade-9", "grade-10"}:
+    if grade.id in {"grade-9", "grade-10", "grade-11"}:
         import json
         for question in payload.get("whiteboard_questions", []):
             question["total_step_count"] = len(question["whiteboard"]["steps"])
@@ -173,6 +173,11 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     for result_key in ("answer","coefficients","decimal","excluded","lower","upper","first","second","a","b","c","d","t","middle"):
                         givens.pop(result_key,None)
                     scene["visual"]={"family":"grade10_expressions","values":givens}
+                elif lesson.id.startswith("g11-es-"):
+                    givens=dict(scene["visual"]["values"])
+                    for hidden in ("root","outside","valid","rejected"):
+                        givens.pop(hidden,None)
+                    scene["visual"]={"family":"grade11_exponents_surds","values":givens}
                 elif lesson.id.startswith("g10-eei-"):
                     givens=dict(scene["visual"]["values"])
                     for result_key in ("result","base","target","rhs","r","t","coefficient","constant","x","y","u","v","total","perimeter","width","bound","closed","direction"):
@@ -301,7 +306,7 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
 @router.post("/{lesson_id}/questions/{question_id}/reveal")
 def reveal_worked_example(lesson_id: str, question_id: str, user: User | None = Depends(get_optional_user)) -> dict:
     grade, _, _, lesson = _lesson_context(lesson_id)
-    if grade.id not in {"grade-8", "grade-9", "grade-10"}:
+    if grade.id not in {"grade-8", "grade-9", "grade-10", "grade-11"}:
         raise HTTPException(status_code=404, detail="Worked example not found")
     enforce_lesson_access(lesson, user)
     if lesson.id in {"g8-algebraic-equations-10", "g8-algebraic-expressions-10"}:

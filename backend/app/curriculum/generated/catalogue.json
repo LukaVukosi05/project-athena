@@ -2475,7 +2475,66 @@
       "grade_id": "grade-11",
       "title": "Grade 11 Mathematics",
       "curriculum": "CAPS",
-      "topics": []
+      "topics": [
+        {
+          "topic_id": "exponents-and-surds",
+          "topic_number": 1,
+          "title": "Exponents and Surds",
+          "paper": "Paper 1",
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g11-es-01",
+              "position": 1,
+              "title": "Rational exponents and positive roots",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-es-lesson-01.md"
+            },
+            {
+              "lesson_id": "g11-es-02",
+              "position": 2,
+              "title": "Exponent laws with rational powers",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-es-lesson-02.md"
+            },
+            {
+              "lesson_id": "g11-es-03",
+              "position": 3,
+              "title": "Simplifying surds by square factors",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-es-lesson-03.md"
+            },
+            {
+              "lesson_id": "g11-es-04",
+              "position": 4,
+              "title": "Combining like surds after simplification",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-es-lesson-04.md"
+            },
+            {
+              "lesson_id": "g11-es-05",
+              "position": 5,
+              "title": "Dividing and rationalising surds",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-es-lesson-05.md"
+            },
+            {
+              "lesson_id": "g11-es-06",
+              "position": 6,
+              "title": "Surd equations and extraneous roots",
+              "status": "verified",
+              "duration_minutes": 75,
+              "source_document": "grade11-es-lesson-06.md"
+            }
+          ]
+        }
+      ]
     },
     {
       "grade_id": "grade-12",

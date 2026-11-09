@@ -1,0 +1,868 @@
+{
+  "source": "grade11-es-lesson-04.md",
+  "worked": [
+    {
+      "id": "g11-es-l04-w01",
+      "lesson": 4,
+      "problem": "Simplify 3√12 + 1√3.",
+      "answer": "7√3",
+      "actions": [
+        "Find the square factor 4 in 12.",
+        "Rewrite √12 = 2√3.",
+        "Multiply the first coefficient: 3 × 2 = 6.",
+        "Combine like surds: 6√3 + 1√3 = 7√3.",
+        "Answer: 7√3. Both terms share √3; estimate to check the sign."
+      ],
+      "check": "Answer: 7√3. Both terms share √3; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 3,
+          "b": 1,
+          "factor": 2,
+          "radicand": 3,
+          "subtract": false,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-es-l04-w02",
+      "lesson": 4,
+      "problem": "Simplify 4√20 + 2√5.",
+      "answer": "10√5",
+      "actions": [
+        "Find the square factor 4 in 20.",
+        "Rewrite √20 = 2√5.",
+        "Multiply the first coefficient: 4 × 2 = 8.",
+        "Combine like surds: 8√5 + 2√5 = 10√5.",
+        "Answer: 10√5. Both terms share √5; estimate to check the sign."
+      ],
+      "check": "Answer: 10√5. Both terms share √5; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 4,
+          "b": 2,
+          "factor": 2,
+          "radicand": 5,
+          "subtract": false,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-es-l04-w03",
+      "lesson": 4,
+      "problem": "Simplify 5√54 − 2√6.",
+      "answer": "13√6",
+      "actions": [
+        "Find the square factor 9 in 54.",
+        "Rewrite √54 = 3√6.",
+        "Multiply the first coefficient: 5 × 3 = 15.",
+        "Combine like surds: 15√6 − 2√6 = 13√6.",
+        "Answer: 13√6. Both terms share √6; estimate to check the sign."
+      ],
+      "check": "Answer: 13√6. Both terms share √6; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 5,
+          "b": 2,
+          "factor": 3,
+          "radicand": 6,
+          "subtract": true,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-es-l04-w04",
+      "lesson": 4,
+      "problem": "Simplify 6√63 + 3√7.",
+      "answer": "21√7",
+      "actions": [
+        "Find the square factor 9 in 63.",
+        "Rewrite √63 = 3√7.",
+        "Multiply the first coefficient: 6 × 3 = 18.",
+        "Combine like surds: 18√7 + 3√7 = 21√7.",
+        "Answer: 21√7. Both terms share √7; estimate to check the sign."
+      ],
+      "check": "Answer: 21√7. Both terms share √7; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 6,
+          "b": 3,
+          "factor": 3,
+          "radicand": 7,
+          "subtract": false,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-es-l04-w05",
+      "lesson": 4,
+      "problem": "Simplify 7√90 + 3√10.",
+      "answer": "24√10",
+      "actions": [
+        "Find the square factor 9 in 90.",
+        "Rewrite √90 = 3√10.",
+        "Multiply the first coefficient: 7 × 3 = 21.",
+        "Combine like surds: 21√10 + 3√10 = 24√10.",
+        "Answer: 24√10. Both terms share √10; estimate to check the sign."
+      ],
+      "check": "Answer: 24√10. Both terms share √10; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 7,
+          "b": 3,
+          "factor": 3,
+          "radicand": 10,
+          "subtract": false,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-es-l04-w06",
+      "lesson": 4,
+      "problem": "Simplify 2√176 − 4√11.",
+      "answer": "4√11",
+      "actions": [
+        "Find the square factor 16 in 176.",
+        "Rewrite √176 = 4√11.",
+        "Multiply the first coefficient: 2 × 4 = 8.",
+        "Combine like surds: 8√11 − 4√11 = 4√11.",
+        "Answer: 4√11. Both terms share √11; estimate to check the sign."
+      ],
+      "check": "Answer: 4√11. Both terms share √11; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 2,
+          "b": 4,
+          "factor": 4,
+          "radicand": 11,
+          "subtract": true,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-es-l04-w07",
+      "lesson": 4,
+      "problem": "Simplify 3√32 + 4√2.",
+      "answer": "16√2",
+      "actions": [
+        "Find the square factor 16 in 32.",
+        "Rewrite √32 = 4√2.",
+        "Multiply the first coefficient: 3 × 4 = 12.",
+        "Combine like surds: 12√2 + 4√2 = 16√2.",
+        "Answer: 16√2. Both terms share √2; estimate to check the sign."
+      ],
+      "check": "Answer: 16√2. Both terms share √2; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 3,
+          "b": 4,
+          "factor": 4,
+          "radicand": 2,
+          "subtract": false,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-es-l04-w08",
+      "lesson": 4,
+      "problem": "Simplify 4√48 + 1√3.",
+      "answer": "17√3",
+      "actions": [
+        "Find the square factor 16 in 48.",
+        "Rewrite √48 = 4√3.",
+        "Multiply the first coefficient: 4 × 4 = 16.",
+        "Combine like surds: 16√3 + 1√3 = 17√3.",
+        "Answer: 17√3. Both terms share √3; estimate to check the sign."
+      ],
+      "check": "Answer: 17√3. Both terms share √3; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 4,
+          "b": 1,
+          "factor": 4,
+          "radicand": 3,
+          "subtract": false,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-es-l04-w09",
+      "lesson": 4,
+      "problem": "Simplify 5√125 − 1√5.",
+      "answer": "24√5",
+      "actions": [
+        "Find the square factor 25 in 125.",
+        "Rewrite √125 = 5√5.",
+        "Multiply the first coefficient: 5 × 5 = 25.",
+        "Combine like surds: 25√5 − 1√5 = 24√5.",
+        "Answer: 24√5. Both terms share √5; estimate to check the sign."
+      ],
+      "check": "Answer: 24√5. Both terms share √5; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 5,
+          "b": 1,
+          "factor": 5,
+          "radicand": 5,
+          "subtract": true,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-es-l04-w10",
+      "lesson": 4,
+      "problem": "Simplify 6√150 + 2√6.",
+      "answer": "32√6",
+      "actions": [
+        "Find the square factor 25 in 150.",
+        "Rewrite √150 = 5√6.",
+        "Multiply the first coefficient: 6 × 5 = 30.",
+        "Combine like surds: 30√6 + 2√6 = 32√6.",
+        "Answer: 32√6. Both terms share √6; estimate to check the sign."
+      ],
+      "check": "Answer: 32√6. Both terms share √6; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 6,
+          "b": 2,
+          "factor": 5,
+          "radicand": 6,
+          "subtract": false,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-es-l04-w11",
+      "lesson": 4,
+      "problem": "Simplify 7√175 + 2√7.",
+      "answer": "37√7",
+      "actions": [
+        "Find the square factor 25 in 175.",
+        "Rewrite √175 = 5√7.",
+        "Multiply the first coefficient: 7 × 5 = 35.",
+        "Combine like surds: 35√7 + 2√7 = 37√7.",
+        "Answer: 37√7. Both terms share √7; estimate to check the sign."
+      ],
+      "check": "Answer: 37√7. Both terms share √7; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 7,
+          "b": 2,
+          "factor": 5,
+          "radicand": 7,
+          "subtract": false,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-es-l04-w12",
+      "lesson": 4,
+      "problem": "Simplify 2√40 − 3√10.",
+      "answer": "1√10",
+      "actions": [
+        "Find the square factor 4 in 40.",
+        "Rewrite √40 = 2√10.",
+        "Multiply the first coefficient: 2 × 2 = 4.",
+        "Combine like surds: 4√10 − 3√10 = 1√10.",
+        "Answer: 1√10. Both terms share √10; estimate to check the sign."
+      ],
+      "check": "Answer: 1√10. Both terms share √10; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 2,
+          "b": 3,
+          "factor": 2,
+          "radicand": 10,
+          "subtract": true,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-es-l04-w13",
+      "lesson": 4,
+      "problem": "Simplify 3√44 + 3√11.",
+      "answer": "9√11",
+      "actions": [
+        "Find the square factor 4 in 44.",
+        "Rewrite √44 = 2√11.",
+        "Multiply the first coefficient: 3 × 2 = 6.",
+        "Combine like surds: 6√11 + 3√11 = 9√11.",
+        "Answer: 9√11. Both terms share √11; estimate to check the sign."
+      ],
+      "check": "Answer: 9√11. Both terms share √11; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 3,
+          "b": 3,
+          "factor": 2,
+          "radicand": 11,
+          "subtract": false,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-es-l04-w14",
+      "lesson": 4,
+      "problem": "Simplify 4√8 + 4√2.",
+      "answer": "12√2",
+      "actions": [
+        "Find the square factor 4 in 8.",
+        "Rewrite √8 = 2√2.",
+        "Multiply the first coefficient: 4 × 2 = 8.",
+        "Combine like surds: 8√2 + 4√2 = 12√2.",
+        "Answer: 12√2. Both terms share √2; estimate to check the sign."
+      ],
+      "check": "Answer: 12√2. Both terms share √2; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 4,
+          "b": 4,
+          "factor": 2,
+          "radicand": 2,
+          "subtract": false,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-es-l04-w15",
+      "lesson": 4,
+      "problem": "Simplify 5√27 − 4√3.",
+      "answer": "11√3",
+      "actions": [
+        "Find the square factor 9 in 27.",
+        "Rewrite √27 = 3√3.",
+        "Multiply the first coefficient: 5 × 3 = 15.",
+        "Combine like surds: 15√3 − 4√3 = 11√3.",
+        "Answer: 11√3. Both terms share √3; estimate to check the sign."
+      ],
+      "check": "Answer: 11√3. Both terms share √3; estimate to check the sign.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "like_surds",
+          "a": 5,
+          "b": 4,
+          "factor": 3,
+          "radicand": 3,
+          "subtract": true,
+          "lesson": 4
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-es-l04-p01",
+      "prompt": "Simplify 4√176 + 3√11.",
+      "options": [
+        "7√11",
+        "19√11",
+        "13√11",
+        "19√22"
+      ],
+      "answer_index": 1,
+      "memo": "Find the square factor 16 in 176. Rewrite √176 = 4√11. Multiply the first coefficient: 4 × 4 = 16. Combine like surds: 16√11 + 3√11 = 19√11. Answer: 19√11. Both terms share √11; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 16 in 176.",
+        "Rewrite √176 = 4√11.",
+        "Multiply the first coefficient: 4 × 4 = 16.",
+        "Combine like surds: 16√11 + 3√11 = 19√11.",
+        "Answer: 19√11. Both terms share √11; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p02",
+      "prompt": "Simplify 5√50 − 3√2.",
+      "options": [
+        "22√4",
+        "8√2",
+        "22√2",
+        "28√2"
+      ],
+      "answer_index": 2,
+      "memo": "Find the square factor 25 in 50. Rewrite √50 = 5√2. Multiply the first coefficient: 5 × 5 = 25. Combine like surds: 25√2 − 3√2 = 22√2. Answer: 22√2. Both terms share √2; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 25 in 50.",
+        "Rewrite √50 = 5√2.",
+        "Multiply the first coefficient: 5 × 5 = 25.",
+        "Combine like surds: 25√2 − 3√2 = 22√2.",
+        "Answer: 22√2. Both terms share √2; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p03",
+      "prompt": "Simplify 6√75 + 4√3.",
+      "options": [
+        "26√3",
+        "34√6",
+        "10√3",
+        "34√3"
+      ],
+      "answer_index": 3,
+      "memo": "Find the square factor 25 in 75. Rewrite √75 = 5√3. Multiply the first coefficient: 6 × 5 = 30. Combine like surds: 30√3 + 4√3 = 34√3. Answer: 34√3. Both terms share √3; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 25 in 75.",
+        "Rewrite √75 = 5√3.",
+        "Multiply the first coefficient: 6 × 5 = 30.",
+        "Combine like surds: 30√3 + 4√3 = 34√3.",
+        "Answer: 34√3. Both terms share √3; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p04",
+      "prompt": "Simplify 7√125 + 4√5.",
+      "options": [
+        "39√5",
+        "31√5",
+        "39√10",
+        "11√5"
+      ],
+      "answer_index": 0,
+      "memo": "Find the square factor 25 in 125. Rewrite √125 = 5√5. Multiply the first coefficient: 7 × 5 = 35. Combine like surds: 35√5 + 4√5 = 39√5. Answer: 39√5. Both terms share √5; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 25 in 125.",
+        "Rewrite √125 = 5√5.",
+        "Multiply the first coefficient: 7 × 5 = 35.",
+        "Combine like surds: 35√5 + 4√5 = 39√5.",
+        "Answer: 39√5. Both terms share √5; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p05",
+      "prompt": "Simplify 2√24 − 1√6.",
+      "options": [
+        "4√6",
+        "3√6",
+        "5√6",
+        "3√12"
+      ],
+      "answer_index": 1,
+      "memo": "Find the square factor 4 in 24. Rewrite √24 = 2√6. Multiply the first coefficient: 2 × 2 = 4. Combine like surds: 4√6 − 1√6 = 3√6. Answer: 3√6. Both terms share √6; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 4 in 24.",
+        "Rewrite √24 = 2√6.",
+        "Multiply the first coefficient: 2 × 2 = 4.",
+        "Combine like surds: 4√6 − 1√6 = 3√6.",
+        "Answer: 3√6. Both terms share √6; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p06",
+      "prompt": "Simplify 3√28 + 1√7.",
+      "options": [
+        "7√14",
+        "4√7",
+        "7√7",
+        "5√7"
+      ],
+      "answer_index": 2,
+      "memo": "Find the square factor 4 in 28. Rewrite √28 = 2√7. Multiply the first coefficient: 3 × 2 = 6. Combine like surds: 6√7 + 1√7 = 7√7. Answer: 7√7. Both terms share √7; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 4 in 28.",
+        "Rewrite √28 = 2√7.",
+        "Multiply the first coefficient: 3 × 2 = 6.",
+        "Combine like surds: 6√7 + 1√7 = 7√7.",
+        "Answer: 7√7. Both terms share √7; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p07",
+      "prompt": "Simplify 4√40 + 2√10.",
+      "options": [
+        "6√10",
+        "10√20",
+        "11√10",
+        "10√10"
+      ],
+      "answer_index": 3,
+      "memo": "Find the square factor 4 in 40. Rewrite √40 = 2√10. Multiply the first coefficient: 4 × 2 = 8. Combine like surds: 8√10 + 2√10 = 10√10. Answer: 10√10. Both terms share √10; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 4 in 40.",
+        "Rewrite √40 = 2√10.",
+        "Multiply the first coefficient: 4 × 2 = 8.",
+        "Combine like surds: 8√10 + 2√10 = 10√10.",
+        "Answer: 10√10. Both terms share √10; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p08",
+      "prompt": "Simplify 5√99 − 2√11.",
+      "options": [
+        "13√11",
+        "17√11",
+        "13√22",
+        "7√11"
+      ],
+      "answer_index": 0,
+      "memo": "Find the square factor 9 in 99. Rewrite √99 = 3√11. Multiply the first coefficient: 5 × 3 = 15. Combine like surds: 15√11 − 2√11 = 13√11. Answer: 13√11. Both terms share √11; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 9 in 99.",
+        "Rewrite √99 = 3√11.",
+        "Multiply the first coefficient: 5 × 3 = 15.",
+        "Combine like surds: 15√11 − 2√11 = 13√11.",
+        "Answer: 13√11. Both terms share √11; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p09",
+      "prompt": "Simplify 6√18 + 3√2.",
+      "options": [
+        "9√2",
+        "21√2",
+        "15√2",
+        "21√4"
+      ],
+      "answer_index": 1,
+      "memo": "Find the square factor 9 in 18. Rewrite √18 = 3√2. Multiply the first coefficient: 6 × 3 = 18. Combine like surds: 18√2 + 3√2 = 21√2. Answer: 21√2. Both terms share √2; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 9 in 18.",
+        "Rewrite √18 = 3√2.",
+        "Multiply the first coefficient: 6 × 3 = 18.",
+        "Combine like surds: 18√2 + 3√2 = 21√2.",
+        "Answer: 21√2. Both terms share √2; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p10",
+      "prompt": "Simplify 7√27 + 3√3.",
+      "options": [
+        "24√6",
+        "10√3",
+        "24√3",
+        "18√3"
+      ],
+      "answer_index": 2,
+      "memo": "Find the square factor 9 in 27. Rewrite √27 = 3√3. Multiply the first coefficient: 7 × 3 = 21. Combine like surds: 21√3 + 3√3 = 24√3. Answer: 24√3. Both terms share √3; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 9 in 27.",
+        "Rewrite √27 = 3√3.",
+        "Multiply the first coefficient: 7 × 3 = 21.",
+        "Combine like surds: 21√3 + 3√3 = 24√3.",
+        "Answer: 24√3. Both terms share √3; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p11",
+      "prompt": "Simplify 2√80 − 4√5.",
+      "options": [
+        "12√5",
+        "4√10",
+        "6√5",
+        "4√5"
+      ],
+      "answer_index": 3,
+      "memo": "Find the square factor 16 in 80. Rewrite √80 = 4√5. Multiply the first coefficient: 2 × 4 = 8. Combine like surds: 8√5 − 4√5 = 4√5. Answer: 4√5. Both terms share √5; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 16 in 80.",
+        "Rewrite √80 = 4√5.",
+        "Multiply the first coefficient: 2 × 4 = 8.",
+        "Combine like surds: 8√5 − 4√5 = 4√5.",
+        "Answer: 4√5. Both terms share √5; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p12",
+      "prompt": "Simplify 3√96 + 4√6.",
+      "options": [
+        "16√6",
+        "8√6",
+        "16√12",
+        "7√6"
+      ],
+      "answer_index": 0,
+      "memo": "Find the square factor 16 in 96. Rewrite √96 = 4√6. Multiply the first coefficient: 3 × 4 = 12. Combine like surds: 12√6 + 4√6 = 16√6. Answer: 16√6. Both terms share √6; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 16 in 96.",
+        "Rewrite √96 = 4√6.",
+        "Multiply the first coefficient: 3 × 4 = 12.",
+        "Combine like surds: 12√6 + 4√6 = 16√6.",
+        "Answer: 16√6. Both terms share √6; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p13",
+      "prompt": "Simplify 4√112 + 1√7.",
+      "options": [
+        "5√7",
+        "17√7",
+        "15√7",
+        "17√14"
+      ],
+      "answer_index": 1,
+      "memo": "Find the square factor 16 in 112. Rewrite √112 = 4√7. Multiply the first coefficient: 4 × 4 = 16. Combine like surds: 16√7 + 1√7 = 17√7. Answer: 17√7. Both terms share √7; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 16 in 112.",
+        "Rewrite √112 = 4√7.",
+        "Multiply the first coefficient: 4 × 4 = 16.",
+        "Combine like surds: 16√7 + 1√7 = 17√7.",
+        "Answer: 17√7. Both terms share √7; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p14",
+      "prompt": "Simplify 5√250 − 1√10.",
+      "options": [
+        "24√20",
+        "6√10",
+        "24√10",
+        "26√10"
+      ],
+      "answer_index": 2,
+      "memo": "Find the square factor 25 in 250. Rewrite √250 = 5√10. Multiply the first coefficient: 5 × 5 = 25. Combine like surds: 25√10 − 1√10 = 24√10. Answer: 24√10. Both terms share √10; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 25 in 250.",
+        "Rewrite √250 = 5√10.",
+        "Multiply the first coefficient: 5 × 5 = 25.",
+        "Combine like surds: 25√10 − 1√10 = 24√10.",
+        "Answer: 24√10. Both terms share √10; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-p15",
+      "prompt": "Simplify 6√275 + 2√11.",
+      "options": [
+        "28√11",
+        "32√22",
+        "8√11",
+        "32√11"
+      ],
+      "answer_index": 3,
+      "memo": "Find the square factor 25 in 275. Rewrite √275 = 5√11. Multiply the first coefficient: 6 × 5 = 30. Combine like surds: 30√11 + 2√11 = 32√11. Answer: 32√11. Both terms share √11; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 25 in 275.",
+        "Rewrite √275 = 5√11.",
+        "Multiply the first coefficient: 6 × 5 = 30.",
+        "Combine like surds: 30√11 + 2√11 = 32√11.",
+        "Answer: 32√11. Both terms share √11; estimate to check the sign."
+      ]
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-es-l04-m16",
+      "prompt": "Simplify 2√160 − 4√10.",
+      "options": [
+        "4√10",
+        "12√10",
+        "4√20",
+        "6√10"
+      ],
+      "answer_index": 0,
+      "memo": "Find the square factor 16 in 160. Rewrite √160 = 4√10. Multiply the first coefficient: 2 × 4 = 8. Combine like surds: 8√10 − 4√10 = 4√10. Answer: 4√10. Both terms share √10; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 16 in 160.",
+        "Rewrite √160 = 4√10.",
+        "Multiply the first coefficient: 2 × 4 = 8.",
+        "Combine like surds: 8√10 − 4√10 = 4√10.",
+        "Answer: 4√10. Both terms share √10; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-m17",
+      "prompt": "Simplify 3√176 + 4√11.",
+      "options": [
+        "7√11",
+        "16√11",
+        "8√11",
+        "16√22"
+      ],
+      "answer_index": 1,
+      "memo": "Find the square factor 16 in 176. Rewrite √176 = 4√11. Multiply the first coefficient: 3 × 4 = 12. Combine like surds: 12√11 + 4√11 = 16√11. Answer: 16√11. Both terms share √11; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 16 in 176.",
+        "Rewrite √176 = 4√11.",
+        "Multiply the first coefficient: 3 × 4 = 12.",
+        "Combine like surds: 12√11 + 4√11 = 16√11.",
+        "Answer: 16√11. Both terms share √11; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-m18",
+      "prompt": "Simplify 4√32 + 1√2.",
+      "options": [
+        "17√4",
+        "5√2",
+        "17√2",
+        "15√2"
+      ],
+      "answer_index": 2,
+      "memo": "Find the square factor 16 in 32. Rewrite √32 = 4√2. Multiply the first coefficient: 4 × 4 = 16. Combine like surds: 16√2 + 1√2 = 17√2. Answer: 17√2. Both terms share √2; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 16 in 32.",
+        "Rewrite √32 = 4√2.",
+        "Multiply the first coefficient: 4 × 4 = 16.",
+        "Combine like surds: 16√2 + 1√2 = 17√2.",
+        "Answer: 17√2. Both terms share √2; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-m19",
+      "prompt": "Simplify 5√75 − 1√3.",
+      "options": [
+        "26√3",
+        "24√6",
+        "6√3",
+        "24√3"
+      ],
+      "answer_index": 3,
+      "memo": "Find the square factor 25 in 75. Rewrite √75 = 5√3. Multiply the first coefficient: 5 × 5 = 25. Combine like surds: 25√3 − 1√3 = 24√3. Answer: 24√3. Both terms share √3; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 25 in 75.",
+        "Rewrite √75 = 5√3.",
+        "Multiply the first coefficient: 5 × 5 = 25.",
+        "Combine like surds: 25√3 − 1√3 = 24√3.",
+        "Answer: 24√3. Both terms share √3; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-m20",
+      "prompt": "Simplify 6√125 + 2√5.",
+      "options": [
+        "32√5",
+        "28√5",
+        "32√10",
+        "8√5"
+      ],
+      "answer_index": 0,
+      "memo": "Find the square factor 25 in 125. Rewrite √125 = 5√5. Multiply the first coefficient: 6 × 5 = 30. Combine like surds: 30√5 + 2√5 = 32√5. Answer: 32√5. Both terms share √5; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 25 in 125.",
+        "Rewrite √125 = 5√5.",
+        "Multiply the first coefficient: 6 × 5 = 30.",
+        "Combine like surds: 30√5 + 2√5 = 32√5.",
+        "Answer: 32√5. Both terms share √5; estimate to check the sign."
+      ]
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-es-l04-r21",
+      "prompt": "Simplify 2√48 − 4√3.",
+      "options": [
+        "6√3",
+        "4√3",
+        "12√3",
+        "4√6"
+      ],
+      "answer_index": 1,
+      "memo": "Find the square factor 16 in 48. Rewrite √48 = 4√3. Multiply the first coefficient: 2 × 4 = 8. Combine like surds: 8√3 − 4√3 = 4√3. Answer: 4√3. Both terms share √3; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 16 in 48.",
+        "Rewrite √48 = 4√3.",
+        "Multiply the first coefficient: 2 × 4 = 8.",
+        "Combine like surds: 8√3 − 4√3 = 4√3.",
+        "Answer: 4√3. Both terms share √3; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-r22",
+      "prompt": "Simplify 3√80 + 4√5.",
+      "options": [
+        "16√10",
+        "7√5",
+        "16√5",
+        "8√5"
+      ],
+      "answer_index": 2,
+      "memo": "Find the square factor 16 in 80. Rewrite √80 = 4√5. Multiply the first coefficient: 3 × 4 = 12. Combine like surds: 12√5 + 4√5 = 16√5. Answer: 16√5. Both terms share √5; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 16 in 80.",
+        "Rewrite √80 = 4√5.",
+        "Multiply the first coefficient: 3 × 4 = 12.",
+        "Combine like surds: 12√5 + 4√5 = 16√5.",
+        "Answer: 16√5. Both terms share √5; estimate to check the sign."
+      ]
+    },
+    {
+      "id": "g11-es-l04-r23",
+      "prompt": "Simplify 4√96 + 1√6.",
+      "options": [
+        "15√6",
+        "17√12",
+        "5√6",
+        "17√6"
+      ],
+      "answer_index": 3,
+      "memo": "Find the square factor 16 in 96. Rewrite √96 = 4√6. Multiply the first coefficient: 4 × 4 = 16. Combine like surds: 16√6 + 1√6 = 17√6. Answer: 17√6. Both terms share √6; estimate to check the sign.",
+      "actions": [
+        "Find the square factor 16 in 96.",
+        "Rewrite √96 = 4√6.",
+        "Multiply the first coefficient: 4 × 4 = 16.",
+        "Combine like surds: 16√6 + 1√6 = 17√6.",
+        "Answer: 17√6. Both terms share √6; estimate to check the sign."
+      ]
+    }
+  ]
+}

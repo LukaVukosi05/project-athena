@@ -7,6 +7,7 @@ from app.curriculum.grade12 import GRADE_12
 from app.curriculum.grade8 import GRADE_8
 from app.curriculum.grade9 import GRADE_9
 from app.curriculum.grade10 import GRADE_10
+from app.curriculum.grade11 import GRADE_11
 from app.curriculum.grade_shells import SOURCE_BLOCKED_GRADES
 from app.curriculum.schemas import GradeCurriculum, Lesson, Subtopic, Topic
 
@@ -17,7 +18,7 @@ LESSON_ID_ALIASES = {
 
 
 class CurriculumRepository:
-    def __init__(self, grades: tuple[GradeCurriculum, ...] = (GRADE_8, GRADE_9, GRADE_10, *SOURCE_BLOCKED_GRADES, GRADE_12)):
+    def __init__(self, grades: tuple[GradeCurriculum, ...] = (GRADE_8, GRADE_9, GRADE_10, GRADE_11, *SOURCE_BLOCKED_GRADES, GRADE_12)):
         self._grades = {grade.id: grade for grade in grades}
         generated_path = Path(__file__).with_name("generated") / "catalogue.json"
         if not generated_path.exists():

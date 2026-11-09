@@ -1,0 +1,74 @@
+[
+  {
+    "lesson_id": "g11-es-01",
+    "source": "grade11-es-lesson-01.md",
+    "source_sha256": "33b5afafaabc5efe7d97d9ca853c2b13d8fa5e5dfbecd80938f25122d77b45cd",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-es-02",
+    "source": "grade11-es-lesson-02.md",
+    "source_sha256": "dde80f69d874c47a8644197ce84198174499b8097e3b2a3c4b595890ec979ff6",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-es-03",
+    "source": "grade11-es-lesson-03.md",
+    "source_sha256": "83a9b4b8b224139a6540428571e5457e865334a9106902a7c8c5b98451805cf8",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-es-04",
+    "source": "grade11-es-lesson-04.md",
+    "source_sha256": "257fdb82c601b453de14eeea66c23ef96c0d9478db2c29902f5d461233aabe90",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-es-05",
+    "source": "grade11-es-lesson-05.md",
+    "source_sha256": "fa5c6d5328ad0f22739b2711a706e42064dafe9f387bfa7481de740a8e211564",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-es-06",
+    "source": "grade11-es-lesson-06.md",
+    "source_sha256": "e9224bd9e3ad0b7a4aa97b3755e2e2d43bfdc201046f0cbac0368376e9b880f5",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

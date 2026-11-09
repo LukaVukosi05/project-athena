@@ -1,0 +1,10 @@
+.g11-board { color:#122b42; width:100%; min-width:0; }
+.g11-board>p:first-child { font-weight:650; line-height:1.5; }
+.g11-model { width:100%; max-width:100%; overflow:hidden; }
+.g11-model svg { width:100%; height:auto; max-height:320px; display:block; }
+.g11-card { fill:#eaf5f6; stroke:#17818c; stroke-width:2; }
+.g11-active { fill:#caeaf0; }
+.g11-label { fill:#123650; font-size:18px; font-weight:650; }
+.g11-connector { fill:none; stroke:#17818c; stroke-width:3; }
+.g11-board [data-object-id="operation"] { color:#175b63; }
+.g11-board [data-object-id="verification"] { color:#08664a; font-weight:700; }

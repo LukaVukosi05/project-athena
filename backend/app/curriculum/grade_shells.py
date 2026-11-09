@@ -3,7 +3,4 @@
 from app.curriculum.schemas import ContentStatus, GradeCurriculum
 
 
-SOURCE_BLOCKED_GRADES = tuple(
-    GradeCurriculum(id=f"grade-{grade}", grade=grade, status=ContentStatus.COMING_SOON, topics=[])
-    for grade in range(11, 12)
-)
+SOURCE_BLOCKED_GRADES: tuple[GradeCurriculum, ...] = ()

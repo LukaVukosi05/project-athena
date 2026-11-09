@@ -1,0 +1,853 @@
+{
+  "source": "grade11-es-lesson-03.md",
+  "worked": [
+    {
+      "id": "g11-es-l03-w01",
+      "lesson": 3,
+      "problem": "Simplify √27 exactly.",
+      "answer": "3√3",
+      "actions": [
+        "Find a square factor of 27: 9 × 3.",
+        "Split the radical: √27 = √9 × √3.",
+        "The principal square root of 9 is 3, not a negative number.",
+        "Keep the nonsquare factor 3 inside the radical.",
+        "Answer: 3√3. Check by squaring: (3√3)² = 27."
+      ],
+      "check": "Answer: 3√3. Check by squaring: (3√3)² = 27.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 27,
+          "square": 9,
+          "remainder": 3,
+          "outside": 3,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-es-l03-w02",
+      "lesson": 3,
+      "problem": "Simplify √80 exactly.",
+      "answer": "4√5",
+      "actions": [
+        "Find a square factor of 80: 16 × 5.",
+        "Split the radical: √80 = √16 × √5.",
+        "The principal square root of 16 is 4, not a negative number.",
+        "Keep the nonsquare factor 5 inside the radical.",
+        "Answer: 4√5. Check by squaring: (4√5)² = 80."
+      ],
+      "check": "Answer: 4√5. Check by squaring: (4√5)² = 80.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 80,
+          "square": 16,
+          "remainder": 5,
+          "outside": 4,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-es-l03-w03",
+      "lesson": 3,
+      "problem": "Simplify √150 exactly.",
+      "answer": "5√6",
+      "actions": [
+        "Find a square factor of 150: 25 × 6.",
+        "Split the radical: √150 = √25 × √6.",
+        "The principal square root of 25 is 5, not a negative number.",
+        "Keep the nonsquare factor 6 inside the radical.",
+        "Answer: 5√6. Check by squaring: (5√6)² = 150."
+      ],
+      "check": "Answer: 5√6. Check by squaring: (5√6)² = 150.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 150,
+          "square": 25,
+          "remainder": 6,
+          "outside": 5,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-es-l03-w04",
+      "lesson": 3,
+      "problem": "Simplify √252 exactly.",
+      "answer": "6√7",
+      "actions": [
+        "Find a square factor of 252: 36 × 7.",
+        "Split the radical: √252 = √36 × √7.",
+        "The principal square root of 36 is 6, not a negative number.",
+        "Keep the nonsquare factor 7 inside the radical.",
+        "Answer: 6√7. Check by squaring: (6√7)² = 252."
+      ],
+      "check": "Answer: 6√7. Check by squaring: (6√7)² = 252.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 252,
+          "square": 36,
+          "remainder": 7,
+          "outside": 6,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-es-l03-w05",
+      "lesson": 3,
+      "problem": "Simplify √490 exactly.",
+      "answer": "7√10",
+      "actions": [
+        "Find a square factor of 490: 49 × 10.",
+        "Split the radical: √490 = √49 × √10.",
+        "The principal square root of 49 is 7, not a negative number.",
+        "Keep the nonsquare factor 10 inside the radical.",
+        "Answer: 7√10. Check by squaring: (7√10)² = 490."
+      ],
+      "check": "Answer: 7√10. Check by squaring: (7√10)² = 490.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 490,
+          "square": 49,
+          "remainder": 10,
+          "outside": 7,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-es-l03-w06",
+      "lesson": 3,
+      "problem": "Simplify √704 exactly.",
+      "answer": "8√11",
+      "actions": [
+        "Find a square factor of 704: 64 × 11.",
+        "Split the radical: √704 = √64 × √11.",
+        "The principal square root of 64 is 8, not a negative number.",
+        "Keep the nonsquare factor 11 inside the radical.",
+        "Answer: 8√11. Check by squaring: (8√11)² = 704."
+      ],
+      "check": "Answer: 8√11. Check by squaring: (8√11)² = 704.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 704,
+          "square": 64,
+          "remainder": 11,
+          "outside": 8,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-es-l03-w07",
+      "lesson": 3,
+      "problem": "Simplify √162 exactly.",
+      "answer": "9√2",
+      "actions": [
+        "Find a square factor of 162: 81 × 2.",
+        "Split the radical: √162 = √81 × √2.",
+        "The principal square root of 81 is 9, not a negative number.",
+        "Keep the nonsquare factor 2 inside the radical.",
+        "Answer: 9√2. Check by squaring: (9√2)² = 162."
+      ],
+      "check": "Answer: 9√2. Check by squaring: (9√2)² = 162.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 162,
+          "square": 81,
+          "remainder": 2,
+          "outside": 9,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-es-l03-w08",
+      "lesson": 3,
+      "problem": "Simplify √12 exactly.",
+      "answer": "2√3",
+      "actions": [
+        "Find a square factor of 12: 4 × 3.",
+        "Split the radical: √12 = √4 × √3.",
+        "The principal square root of 4 is 2, not a negative number.",
+        "Keep the nonsquare factor 3 inside the radical.",
+        "Answer: 2√3. Check by squaring: (2√3)² = 12."
+      ],
+      "check": "Answer: 2√3. Check by squaring: (2√3)² = 12.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 12,
+          "square": 4,
+          "remainder": 3,
+          "outside": 2,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-es-l03-w09",
+      "lesson": 3,
+      "problem": "Simplify √45 exactly.",
+      "answer": "3√5",
+      "actions": [
+        "Find a square factor of 45: 9 × 5.",
+        "Split the radical: √45 = √9 × √5.",
+        "The principal square root of 9 is 3, not a negative number.",
+        "Keep the nonsquare factor 5 inside the radical.",
+        "Answer: 3√5. Check by squaring: (3√5)² = 45."
+      ],
+      "check": "Answer: 3√5. Check by squaring: (3√5)² = 45.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 45,
+          "square": 9,
+          "remainder": 5,
+          "outside": 3,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-es-l03-w10",
+      "lesson": 3,
+      "problem": "Simplify √96 exactly.",
+      "answer": "4√6",
+      "actions": [
+        "Find a square factor of 96: 16 × 6.",
+        "Split the radical: √96 = √16 × √6.",
+        "The principal square root of 16 is 4, not a negative number.",
+        "Keep the nonsquare factor 6 inside the radical.",
+        "Answer: 4√6. Check by squaring: (4√6)² = 96."
+      ],
+      "check": "Answer: 4√6. Check by squaring: (4√6)² = 96.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 96,
+          "square": 16,
+          "remainder": 6,
+          "outside": 4,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-es-l03-w11",
+      "lesson": 3,
+      "problem": "Simplify √175 exactly.",
+      "answer": "5√7",
+      "actions": [
+        "Find a square factor of 175: 25 × 7.",
+        "Split the radical: √175 = √25 × √7.",
+        "The principal square root of 25 is 5, not a negative number.",
+        "Keep the nonsquare factor 7 inside the radical.",
+        "Answer: 5√7. Check by squaring: (5√7)² = 175."
+      ],
+      "check": "Answer: 5√7. Check by squaring: (5√7)² = 175.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 175,
+          "square": 25,
+          "remainder": 7,
+          "outside": 5,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-es-l03-w12",
+      "lesson": 3,
+      "problem": "Simplify √360 exactly.",
+      "answer": "6√10",
+      "actions": [
+        "Find a square factor of 360: 36 × 10.",
+        "Split the radical: √360 = √36 × √10.",
+        "The principal square root of 36 is 6, not a negative number.",
+        "Keep the nonsquare factor 10 inside the radical.",
+        "Answer: 6√10. Check by squaring: (6√10)² = 360."
+      ],
+      "check": "Answer: 6√10. Check by squaring: (6√10)² = 360.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 360,
+          "square": 36,
+          "remainder": 10,
+          "outside": 6,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-es-l03-w13",
+      "lesson": 3,
+      "problem": "Simplify √539 exactly.",
+      "answer": "7√11",
+      "actions": [
+        "Find a square factor of 539: 49 × 11.",
+        "Split the radical: √539 = √49 × √11.",
+        "The principal square root of 49 is 7, not a negative number.",
+        "Keep the nonsquare factor 11 inside the radical.",
+        "Answer: 7√11. Check by squaring: (7√11)² = 539."
+      ],
+      "check": "Answer: 7√11. Check by squaring: (7√11)² = 539.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 539,
+          "square": 49,
+          "remainder": 11,
+          "outside": 7,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-es-l03-w14",
+      "lesson": 3,
+      "problem": "Simplify √128 exactly.",
+      "answer": "8√2",
+      "actions": [
+        "Find a square factor of 128: 64 × 2.",
+        "Split the radical: √128 = √64 × √2.",
+        "The principal square root of 64 is 8, not a negative number.",
+        "Keep the nonsquare factor 2 inside the radical.",
+        "Answer: 8√2. Check by squaring: (8√2)² = 128."
+      ],
+      "check": "Answer: 8√2. Check by squaring: (8√2)² = 128.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 128,
+          "square": 64,
+          "remainder": 2,
+          "outside": 8,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-es-l03-w15",
+      "lesson": 3,
+      "problem": "Simplify √243 exactly.",
+      "answer": "9√3",
+      "actions": [
+        "Find a square factor of 243: 81 × 3.",
+        "Split the radical: √243 = √81 × √3.",
+        "The principal square root of 81 is 9, not a negative number.",
+        "Keep the nonsquare factor 3 inside the radical.",
+        "Answer: 9√3. Check by squaring: (9√3)² = 243."
+      ],
+      "check": "Answer: 9√3. Check by squaring: (9√3)² = 243.",
+      "visual": {
+        "family": "grade11_exponents_surds",
+        "values": {
+          "family": "surd_pairs",
+          "radicand": 243,
+          "square": 81,
+          "remainder": 3,
+          "outside": 9,
+          "lesson": 3
+        }
+      },
+      "misconception": "Apply a root, exponent or surd rule to every factor and check in the original.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-es-l03-p01",
+      "prompt": "Simplify √396 exactly.",
+      "options": [
+        "396",
+        "6√11",
+        "66√11",
+        "6√66"
+      ],
+      "answer_index": 1,
+      "memo": "Find a square factor of 396: 36 × 11. Split the radical: √396 = √36 × √11. The principal square root of 36 is 6, not a negative number. Keep the nonsquare factor 11 inside the radical. Answer: 6√11. Check by squaring: (6√11)² = 396.",
+      "actions": [
+        "Find a square factor of 396: 36 × 11.",
+        "Split the radical: √396 = √36 × √11.",
+        "The principal square root of 36 is 6, not a negative number.",
+        "Keep the nonsquare factor 11 inside the radical.",
+        "Answer: 6√11. Check by squaring: (6√11)² = 396."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p02",
+      "prompt": "Simplify √98 exactly.",
+      "options": [
+        "7√14",
+        "98",
+        "7√2",
+        "14√2"
+      ],
+      "answer_index": 2,
+      "memo": "Find a square factor of 98: 49 × 2. Split the radical: √98 = √49 × √2. The principal square root of 49 is 7, not a negative number. Keep the nonsquare factor 2 inside the radical. Answer: 7√2. Check by squaring: (7√2)² = 98.",
+      "actions": [
+        "Find a square factor of 98: 49 × 2.",
+        "Split the radical: √98 = √49 × √2.",
+        "The principal square root of 49 is 7, not a negative number.",
+        "Keep the nonsquare factor 2 inside the radical.",
+        "Answer: 7√2. Check by squaring: (7√2)² = 98."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p03",
+      "prompt": "Simplify √192 exactly.",
+      "options": [
+        "24√3",
+        "8√24",
+        "192",
+        "8√3"
+      ],
+      "answer_index": 3,
+      "memo": "Find a square factor of 192: 64 × 3. Split the radical: √192 = √64 × √3. The principal square root of 64 is 8, not a negative number. Keep the nonsquare factor 3 inside the radical. Answer: 8√3. Check by squaring: (8√3)² = 192.",
+      "actions": [
+        "Find a square factor of 192: 64 × 3.",
+        "Split the radical: √192 = √64 × √3.",
+        "The principal square root of 64 is 8, not a negative number.",
+        "Keep the nonsquare factor 3 inside the radical.",
+        "Answer: 8√3. Check by squaring: (8√3)² = 192."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p04",
+      "prompt": "Simplify √405 exactly.",
+      "options": [
+        "9√5",
+        "45√5",
+        "9√45",
+        "405"
+      ],
+      "answer_index": 0,
+      "memo": "Find a square factor of 405: 81 × 5. Split the radical: √405 = √81 × √5. The principal square root of 81 is 9, not a negative number. Keep the nonsquare factor 5 inside the radical. Answer: 9√5. Check by squaring: (9√5)² = 405.",
+      "actions": [
+        "Find a square factor of 405: 81 × 5.",
+        "Split the radical: √405 = √81 × √5.",
+        "The principal square root of 81 is 9, not a negative number.",
+        "Keep the nonsquare factor 5 inside the radical.",
+        "Answer: 9√5. Check by squaring: (9√5)² = 405."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p05",
+      "prompt": "Simplify √24 exactly.",
+      "options": [
+        "24",
+        "2√6",
+        "12√6",
+        "2√12"
+      ],
+      "answer_index": 1,
+      "memo": "Find a square factor of 24: 4 × 6. Split the radical: √24 = √4 × √6. The principal square root of 4 is 2, not a negative number. Keep the nonsquare factor 6 inside the radical. Answer: 2√6. Check by squaring: (2√6)² = 24.",
+      "actions": [
+        "Find a square factor of 24: 4 × 6.",
+        "Split the radical: √24 = √4 × √6.",
+        "The principal square root of 4 is 2, not a negative number.",
+        "Keep the nonsquare factor 6 inside the radical.",
+        "Answer: 2√6. Check by squaring: (2√6)² = 24."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p06",
+      "prompt": "Simplify √63 exactly.",
+      "options": [
+        "3√21",
+        "63",
+        "3√7",
+        "21√7"
+      ],
+      "answer_index": 2,
+      "memo": "Find a square factor of 63: 9 × 7. Split the radical: √63 = √9 × √7. The principal square root of 9 is 3, not a negative number. Keep the nonsquare factor 7 inside the radical. Answer: 3√7. Check by squaring: (3√7)² = 63.",
+      "actions": [
+        "Find a square factor of 63: 9 × 7.",
+        "Split the radical: √63 = √9 × √7.",
+        "The principal square root of 9 is 3, not a negative number.",
+        "Keep the nonsquare factor 7 inside the radical.",
+        "Answer: 3√7. Check by squaring: (3√7)² = 63."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p07",
+      "prompt": "Simplify √160 exactly.",
+      "options": [
+        "40√10",
+        "4√40",
+        "160",
+        "4√10"
+      ],
+      "answer_index": 3,
+      "memo": "Find a square factor of 160: 16 × 10. Split the radical: √160 = √16 × √10. The principal square root of 16 is 4, not a negative number. Keep the nonsquare factor 10 inside the radical. Answer: 4√10. Check by squaring: (4√10)² = 160.",
+      "actions": [
+        "Find a square factor of 160: 16 × 10.",
+        "Split the radical: √160 = √16 × √10.",
+        "The principal square root of 16 is 4, not a negative number.",
+        "Keep the nonsquare factor 10 inside the radical.",
+        "Answer: 4√10. Check by squaring: (4√10)² = 160."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p08",
+      "prompt": "Simplify √275 exactly.",
+      "options": [
+        "5√11",
+        "55√11",
+        "5√55",
+        "275"
+      ],
+      "answer_index": 0,
+      "memo": "Find a square factor of 275: 25 × 11. Split the radical: √275 = √25 × √11. The principal square root of 25 is 5, not a negative number. Keep the nonsquare factor 11 inside the radical. Answer: 5√11. Check by squaring: (5√11)² = 275.",
+      "actions": [
+        "Find a square factor of 275: 25 × 11.",
+        "Split the radical: √275 = √25 × √11.",
+        "The principal square root of 25 is 5, not a negative number.",
+        "Keep the nonsquare factor 11 inside the radical.",
+        "Answer: 5√11. Check by squaring: (5√11)² = 275."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p09",
+      "prompt": "Simplify √72 exactly.",
+      "options": [
+        "72",
+        "6√2",
+        "12√2",
+        "6√12"
+      ],
+      "answer_index": 1,
+      "memo": "Find a square factor of 72: 36 × 2. Split the radical: √72 = √36 × √2. The principal square root of 36 is 6, not a negative number. Keep the nonsquare factor 2 inside the radical. Answer: 6√2. Check by squaring: (6√2)² = 72.",
+      "actions": [
+        "Find a square factor of 72: 36 × 2.",
+        "Split the radical: √72 = √36 × √2.",
+        "The principal square root of 36 is 6, not a negative number.",
+        "Keep the nonsquare factor 2 inside the radical.",
+        "Answer: 6√2. Check by squaring: (6√2)² = 72."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p10",
+      "prompt": "Simplify √147 exactly.",
+      "options": [
+        "7√21",
+        "147",
+        "7√3",
+        "21√3"
+      ],
+      "answer_index": 2,
+      "memo": "Find a square factor of 147: 49 × 3. Split the radical: √147 = √49 × √3. The principal square root of 49 is 7, not a negative number. Keep the nonsquare factor 3 inside the radical. Answer: 7√3. Check by squaring: (7√3)² = 147.",
+      "actions": [
+        "Find a square factor of 147: 49 × 3.",
+        "Split the radical: √147 = √49 × √3.",
+        "The principal square root of 49 is 7, not a negative number.",
+        "Keep the nonsquare factor 3 inside the radical.",
+        "Answer: 7√3. Check by squaring: (7√3)² = 147."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p11",
+      "prompt": "Simplify √320 exactly.",
+      "options": [
+        "40√5",
+        "8√40",
+        "320",
+        "8√5"
+      ],
+      "answer_index": 3,
+      "memo": "Find a square factor of 320: 64 × 5. Split the radical: √320 = √64 × √5. The principal square root of 64 is 8, not a negative number. Keep the nonsquare factor 5 inside the radical. Answer: 8√5. Check by squaring: (8√5)² = 320.",
+      "actions": [
+        "Find a square factor of 320: 64 × 5.",
+        "Split the radical: √320 = √64 × √5.",
+        "The principal square root of 64 is 8, not a negative number.",
+        "Keep the nonsquare factor 5 inside the radical.",
+        "Answer: 8√5. Check by squaring: (8√5)² = 320."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p12",
+      "prompt": "Simplify √486 exactly.",
+      "options": [
+        "9√6",
+        "54√6",
+        "9√54",
+        "486"
+      ],
+      "answer_index": 0,
+      "memo": "Find a square factor of 486: 81 × 6. Split the radical: √486 = √81 × √6. The principal square root of 81 is 9, not a negative number. Keep the nonsquare factor 6 inside the radical. Answer: 9√6. Check by squaring: (9√6)² = 486.",
+      "actions": [
+        "Find a square factor of 486: 81 × 6.",
+        "Split the radical: √486 = √81 × √6.",
+        "The principal square root of 81 is 9, not a negative number.",
+        "Keep the nonsquare factor 6 inside the radical.",
+        "Answer: 9√6. Check by squaring: (9√6)² = 486."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p13",
+      "prompt": "Simplify √28 exactly.",
+      "options": [
+        "28",
+        "2√7",
+        "14√7",
+        "2√14"
+      ],
+      "answer_index": 1,
+      "memo": "Find a square factor of 28: 4 × 7. Split the radical: √28 = √4 × √7. The principal square root of 4 is 2, not a negative number. Keep the nonsquare factor 7 inside the radical. Answer: 2√7. Check by squaring: (2√7)² = 28.",
+      "actions": [
+        "Find a square factor of 28: 4 × 7.",
+        "Split the radical: √28 = √4 × √7.",
+        "The principal square root of 4 is 2, not a negative number.",
+        "Keep the nonsquare factor 7 inside the radical.",
+        "Answer: 2√7. Check by squaring: (2√7)² = 28."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p14",
+      "prompt": "Simplify √90 exactly.",
+      "options": [
+        "3√30",
+        "90",
+        "3√10",
+        "30√10"
+      ],
+      "answer_index": 2,
+      "memo": "Find a square factor of 90: 9 × 10. Split the radical: √90 = √9 × √10. The principal square root of 9 is 3, not a negative number. Keep the nonsquare factor 10 inside the radical. Answer: 3√10. Check by squaring: (3√10)² = 90.",
+      "actions": [
+        "Find a square factor of 90: 9 × 10.",
+        "Split the radical: √90 = √9 × √10.",
+        "The principal square root of 9 is 3, not a negative number.",
+        "Keep the nonsquare factor 10 inside the radical.",
+        "Answer: 3√10. Check by squaring: (3√10)² = 90."
+      ]
+    },
+    {
+      "id": "g11-es-l03-p15",
+      "prompt": "Simplify √176 exactly.",
+      "options": [
+        "44√11",
+        "4√44",
+        "176",
+        "4√11"
+      ],
+      "answer_index": 3,
+      "memo": "Find a square factor of 176: 16 × 11. Split the radical: √176 = √16 × √11. The principal square root of 16 is 4, not a negative number. Keep the nonsquare factor 11 inside the radical. Answer: 4√11. Check by squaring: (4√11)² = 176.",
+      "actions": [
+        "Find a square factor of 176: 16 × 11.",
+        "Split the radical: √176 = √16 × √11.",
+        "The principal square root of 16 is 4, not a negative number.",
+        "Keep the nonsquare factor 11 inside the radical.",
+        "Answer: 4√11. Check by squaring: (4√11)² = 176."
+      ]
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-es-l03-m16",
+      "prompt": "Simplify √640 exactly.",
+      "options": [
+        "8√10",
+        "80√10",
+        "8√80",
+        "640"
+      ],
+      "answer_index": 0,
+      "memo": "Find a square factor of 640: 64 × 10. Split the radical: √640 = √64 × √10. The principal square root of 64 is 8, not a negative number. Keep the nonsquare factor 10 inside the radical. Answer: 8√10. Check by squaring: (8√10)² = 640.",
+      "actions": [
+        "Find a square factor of 640: 64 × 10.",
+        "Split the radical: √640 = √64 × √10.",
+        "The principal square root of 64 is 8, not a negative number.",
+        "Keep the nonsquare factor 10 inside the radical.",
+        "Answer: 8√10. Check by squaring: (8√10)² = 640."
+      ]
+    },
+    {
+      "id": "g11-es-l03-m17",
+      "prompt": "Simplify √891 exactly.",
+      "options": [
+        "891",
+        "9√11",
+        "99√11",
+        "9√99"
+      ],
+      "answer_index": 1,
+      "memo": "Find a square factor of 891: 81 × 11. Split the radical: √891 = √81 × √11. The principal square root of 81 is 9, not a negative number. Keep the nonsquare factor 11 inside the radical. Answer: 9√11. Check by squaring: (9√11)² = 891.",
+      "actions": [
+        "Find a square factor of 891: 81 × 11.",
+        "Split the radical: √891 = √81 × √11.",
+        "The principal square root of 81 is 9, not a negative number.",
+        "Keep the nonsquare factor 11 inside the radical.",
+        "Answer: 9√11. Check by squaring: (9√11)² = 891."
+      ]
+    },
+    {
+      "id": "g11-es-l03-m18",
+      "prompt": "Simplify √8 exactly.",
+      "options": [
+        "2√4",
+        "8",
+        "2√2",
+        "4√2"
+      ],
+      "answer_index": 2,
+      "memo": "Find a square factor of 8: 4 × 2. Split the radical: √8 = √4 × √2. The principal square root of 4 is 2, not a negative number. Keep the nonsquare factor 2 inside the radical. Answer: 2√2. Check by squaring: (2√2)² = 8.",
+      "actions": [
+        "Find a square factor of 8: 4 × 2.",
+        "Split the radical: √8 = √4 × √2.",
+        "The principal square root of 4 is 2, not a negative number.",
+        "Keep the nonsquare factor 2 inside the radical.",
+        "Answer: 2√2. Check by squaring: (2√2)² = 8."
+      ]
+    },
+    {
+      "id": "g11-es-l03-m19",
+      "prompt": "Simplify √27 exactly.",
+      "options": [
+        "9√3",
+        "3√9",
+        "27",
+        "3√3"
+      ],
+      "answer_index": 3,
+      "memo": "Find a square factor of 27: 9 × 3. Split the radical: √27 = √9 × √3. The principal square root of 9 is 3, not a negative number. Keep the nonsquare factor 3 inside the radical. Answer: 3√3. Check by squaring: (3√3)² = 27.",
+      "actions": [
+        "Find a square factor of 27: 9 × 3.",
+        "Split the radical: √27 = √9 × √3.",
+        "The principal square root of 9 is 3, not a negative number.",
+        "Keep the nonsquare factor 3 inside the radical.",
+        "Answer: 3√3. Check by squaring: (3√3)² = 27."
+      ]
+    },
+    {
+      "id": "g11-es-l03-m20",
+      "prompt": "Simplify √80 exactly.",
+      "options": [
+        "4√5",
+        "20√5",
+        "4√20",
+        "80"
+      ],
+      "answer_index": 0,
+      "memo": "Find a square factor of 80: 16 × 5. Split the radical: √80 = √16 × √5. The principal square root of 16 is 4, not a negative number. Keep the nonsquare factor 5 inside the radical. Answer: 4√5. Check by squaring: (4√5)² = 80.",
+      "actions": [
+        "Find a square factor of 80: 16 × 5.",
+        "Split the radical: √80 = √16 × √5.",
+        "The principal square root of 16 is 4, not a negative number.",
+        "Keep the nonsquare factor 5 inside the radical.",
+        "Answer: 4√5. Check by squaring: (4√5)² = 80."
+      ]
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-es-l03-r21",
+      "prompt": "Simplify √192 exactly.",
+      "options": [
+        "192",
+        "8√3",
+        "24√3",
+        "8√24"
+      ],
+      "answer_index": 1,
+      "memo": "Find a square factor of 192: 64 × 3. Split the radical: √192 = √64 × √3. The principal square root of 64 is 8, not a negative number. Keep the nonsquare factor 3 inside the radical. Answer: 8√3. Check by squaring: (8√3)² = 192.",
+      "actions": [
+        "Find a square factor of 192: 64 × 3.",
+        "Split the radical: √192 = √64 × √3.",
+        "The principal square root of 64 is 8, not a negative number.",
+        "Keep the nonsquare factor 3 inside the radical.",
+        "Answer: 8√3. Check by squaring: (8√3)² = 192."
+      ]
+    },
+    {
+      "id": "g11-es-l03-r22",
+      "prompt": "Simplify √405 exactly.",
+      "options": [
+        "9√45",
+        "405",
+        "9√5",
+        "45√5"
+      ],
+      "answer_index": 2,
+      "memo": "Find a square factor of 405: 81 × 5. Split the radical: √405 = √81 × √5. The principal square root of 81 is 9, not a negative number. Keep the nonsquare factor 5 inside the radical. Answer: 9√5. Check by squaring: (9√5)² = 405.",
+      "actions": [
+        "Find a square factor of 405: 81 × 5.",
+        "Split the radical: √405 = √81 × √5.",
+        "The principal square root of 81 is 9, not a negative number.",
+        "Keep the nonsquare factor 5 inside the radical.",
+        "Answer: 9√5. Check by squaring: (9√5)² = 405."
+      ]
+    },
+    {
+      "id": "g11-es-l03-r23",
+      "prompt": "Simplify √24 exactly.",
+      "options": [
+        "12√6",
+        "2√12",
+        "24",
+        "2√6"
+      ],
+      "answer_index": 3,
+      "memo": "Find a square factor of 24: 4 × 6. Split the radical: √24 = √4 × √6. The principal square root of 4 is 2, not a negative number. Keep the nonsquare factor 6 inside the radical. Answer: 2√6. Check by squaring: (2√6)² = 24.",
+      "actions": [
+        "Find a square factor of 24: 4 × 6.",
+        "Split the radical: √24 = √4 × √6.",
+        "The principal square root of 4 is 2, not a negative number.",
+        "Keep the nonsquare factor 6 inside the radical.",
+        "Answer: 2√6. Check by squaring: (2√6)² = 24."
+      ]
+    }
+  ]
+}

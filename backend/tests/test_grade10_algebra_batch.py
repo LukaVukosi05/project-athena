@@ -38,13 +38,13 @@ def test_real_numbers_and_algebraic_fractions_cover_both_cases():
  assert {'+','−'}=={q['visual']['values'].get('operator') for q in fractions if q['visual']['values']['kind']=='combine'}
  assert all('x ≠' in q['answer'] for q in fractions)
 
-def test_direct_urls_answer_gate_and_grade11_stays_blocked():
+def test_direct_urls_answer_gate_and_grade11_topic1_is_visible():
  with TestClient(app) as client:
   grade=client.get('/api/v1/curriculum/grades/grade-10');topic=client.get('/api/v1/curriculum/grades/grade-10/topics/algebraic-expressions')
   assert grade.status_code==topic.status_code==200
   assert len(grade.json()['topics'])==10
   assert len(topic.json()['subtopics'][0]['lessons'])==6
-  assert client.get('/api/v1/curriculum/grades/grade-11').json()['topics']==[]
+  assert [topic['id'] for topic in client.get('/api/v1/curriculum/grades/grade-11').json()['topics']]==['exponents-and-surds']
   for n in range(1,7):
    lesson=client.get(f'/api/v1/lessons/g10-algebra-{n:02}')
    assert lesson.status_code==200,lesson.text
