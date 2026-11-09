@@ -1,0 +1,715 @@
+{
+  "source": "grade10-meas-lesson-04.md",
+  "worked": [
+    {
+      "id": "g10-meas-l04-w01",
+      "lesson": 4,
+      "problem": "A solid sphere has radius 6 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 6 cm.",
+        "Choose the full-sphere volume formula: 4/3πr³.",
+        "Volume = 4/3π(6)³=288π cm³.",
+        "Sphere area = 4πr² = 144π cm²; it has no flat base.",
+        "Answer: volume 288π cm³; total exposed surface area 144π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 288π cm³; total exposed surface area 144π cm²",
+      "check": "Answer: volume 288π cm³; total exposed surface area 144π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "sphere",
+          "r": 6,
+          "volume": 288,
+          "surface": 144,
+          "lesson": 4,
+          "answer": "volume 288π cm³; total exposed surface area 144π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-meas-l04-w02",
+      "lesson": 4,
+      "problem": "A solid hemisphere with its flat circular base exposed has radius 9 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 9 cm.",
+        "Choose the half-sphere volume formula: 2/3πr³.",
+        "Volume = 2/3π(9)³=486π cm³.",
+        "Curved hemisphere area = 2πr² = 162π cm²; add the exposed flat disc 81π cm².",
+        "Answer: volume 486π cm³; total exposed surface area 243π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 486π cm³; total exposed surface area 243π cm²",
+      "check": "Answer: volume 486π cm³; total exposed surface area 243π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "hemisphere",
+          "r": 9,
+          "volume": 486,
+          "surface": 243,
+          "lesson": 4,
+          "answer": "volume 486π cm³; total exposed surface area 243π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g10-meas-l04-w03",
+      "lesson": 4,
+      "problem": "A solid sphere has radius 12 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 12 cm.",
+        "Choose the full-sphere volume formula: 4/3πr³.",
+        "Volume = 4/3π(12)³=2304π cm³.",
+        "Sphere area = 4πr² = 576π cm²; it has no flat base.",
+        "Answer: volume 2304π cm³; total exposed surface area 576π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 2304π cm³; total exposed surface area 576π cm²",
+      "check": "Answer: volume 2304π cm³; total exposed surface area 576π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "sphere",
+          "r": 12,
+          "volume": 2304,
+          "surface": 576,
+          "lesson": 4,
+          "answer": "volume 2304π cm³; total exposed surface area 576π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-meas-l04-w04",
+      "lesson": 4,
+      "problem": "A solid hemisphere with its flat circular base exposed has radius 15 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 15 cm.",
+        "Choose the half-sphere volume formula: 2/3πr³.",
+        "Volume = 2/3π(15)³=2250π cm³.",
+        "Curved hemisphere area = 2πr² = 450π cm²; add the exposed flat disc 225π cm².",
+        "Answer: volume 2250π cm³; total exposed surface area 675π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 2250π cm³; total exposed surface area 675π cm²",
+      "check": "Answer: volume 2250π cm³; total exposed surface area 675π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "hemisphere",
+          "r": 15,
+          "volume": 2250,
+          "surface": 675,
+          "lesson": 4,
+          "answer": "volume 2250π cm³; total exposed surface area 675π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-meas-l04-w05",
+      "lesson": 4,
+      "problem": "A solid sphere has radius 18 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 18 cm.",
+        "Choose the full-sphere volume formula: 4/3πr³.",
+        "Volume = 4/3π(18)³=7776π cm³.",
+        "Sphere area = 4πr² = 1296π cm²; it has no flat base.",
+        "Answer: volume 7776π cm³; total exposed surface area 1296π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 7776π cm³; total exposed surface area 1296π cm²",
+      "check": "Answer: volume 7776π cm³; total exposed surface area 1296π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "sphere",
+          "r": 18,
+          "volume": 7776,
+          "surface": 1296,
+          "lesson": 4,
+          "answer": "volume 7776π cm³; total exposed surface area 1296π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g10-meas-l04-w06",
+      "lesson": 4,
+      "problem": "A solid hemisphere with its flat circular base exposed has radius 21 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 21 cm.",
+        "Choose the half-sphere volume formula: 2/3πr³.",
+        "Volume = 2/3π(21)³=6174π cm³.",
+        "Curved hemisphere area = 2πr² = 882π cm²; add the exposed flat disc 441π cm².",
+        "Answer: volume 6174π cm³; total exposed surface area 1323π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 6174π cm³; total exposed surface area 1323π cm²",
+      "check": "Answer: volume 6174π cm³; total exposed surface area 1323π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "hemisphere",
+          "r": 21,
+          "volume": 6174,
+          "surface": 1323,
+          "lesson": 4,
+          "answer": "volume 6174π cm³; total exposed surface area 1323π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-meas-l04-w07",
+      "lesson": 4,
+      "problem": "A solid sphere has radius 24 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 24 cm.",
+        "Choose the full-sphere volume formula: 4/3πr³.",
+        "Volume = 4/3π(24)³=18432π cm³.",
+        "Sphere area = 4πr² = 2304π cm²; it has no flat base.",
+        "Answer: volume 18432π cm³; total exposed surface area 2304π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 18432π cm³; total exposed surface area 2304π cm²",
+      "check": "Answer: volume 18432π cm³; total exposed surface area 2304π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "sphere",
+          "r": 24,
+          "volume": 18432,
+          "surface": 2304,
+          "lesson": 4,
+          "answer": "volume 18432π cm³; total exposed surface area 2304π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-meas-l04-w08",
+      "lesson": 4,
+      "problem": "A solid hemisphere with its flat circular base exposed has radius 27 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 27 cm.",
+        "Choose the half-sphere volume formula: 2/3πr³.",
+        "Volume = 2/3π(27)³=13122π cm³.",
+        "Curved hemisphere area = 2πr² = 1458π cm²; add the exposed flat disc 729π cm².",
+        "Answer: volume 13122π cm³; total exposed surface area 2187π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 13122π cm³; total exposed surface area 2187π cm²",
+      "check": "Answer: volume 13122π cm³; total exposed surface area 2187π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "hemisphere",
+          "r": 27,
+          "volume": 13122,
+          "surface": 2187,
+          "lesson": 4,
+          "answer": "volume 13122π cm³; total exposed surface area 2187π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-meas-l04-w09",
+      "lesson": 4,
+      "problem": "A solid sphere has radius 3 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 3 cm.",
+        "Choose the full-sphere volume formula: 4/3πr³.",
+        "Volume = 4/3π(3)³=36π cm³.",
+        "Sphere area = 4πr² = 36π cm²; it has no flat base.",
+        "Answer: volume 36π cm³; total exposed surface area 36π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 36π cm³; total exposed surface area 36π cm²",
+      "check": "Answer: volume 36π cm³; total exposed surface area 36π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "sphere",
+          "r": 3,
+          "volume": 36,
+          "surface": 36,
+          "lesson": 4,
+          "answer": "volume 36π cm³; total exposed surface area 36π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "standard"
+    },
+    {
+      "id": "g10-meas-l04-w10",
+      "lesson": 4,
+      "problem": "A solid hemisphere with its flat circular base exposed has radius 6 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 6 cm.",
+        "Choose the half-sphere volume formula: 2/3πr³.",
+        "Volume = 2/3π(6)³=144π cm³.",
+        "Curved hemisphere area = 2πr² = 72π cm²; add the exposed flat disc 36π cm².",
+        "Answer: volume 144π cm³; total exposed surface area 108π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 144π cm³; total exposed surface area 108π cm²",
+      "check": "Answer: volume 144π cm³; total exposed surface area 108π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "hemisphere",
+          "r": 6,
+          "volume": 144,
+          "surface": 108,
+          "lesson": 4,
+          "answer": "volume 144π cm³; total exposed surface area 108π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-meas-l04-w11",
+      "lesson": 4,
+      "problem": "A solid sphere has radius 9 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 9 cm.",
+        "Choose the full-sphere volume formula: 4/3πr³.",
+        "Volume = 4/3π(9)³=972π cm³.",
+        "Sphere area = 4πr² = 324π cm²; it has no flat base.",
+        "Answer: volume 972π cm³; total exposed surface area 324π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 972π cm³; total exposed surface area 324π cm²",
+      "check": "Answer: volume 972π cm³; total exposed surface area 324π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "sphere",
+          "r": 9,
+          "volume": 972,
+          "surface": 324,
+          "lesson": 4,
+          "answer": "volume 972π cm³; total exposed surface area 324π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-meas-l04-w12",
+      "lesson": 4,
+      "problem": "A solid hemisphere with its flat circular base exposed has radius 12 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 12 cm.",
+        "Choose the half-sphere volume formula: 2/3πr³.",
+        "Volume = 2/3π(12)³=1152π cm³.",
+        "Curved hemisphere area = 2πr² = 288π cm²; add the exposed flat disc 144π cm².",
+        "Answer: volume 1152π cm³; total exposed surface area 432π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 1152π cm³; total exposed surface area 432π cm²",
+      "check": "Answer: volume 1152π cm³; total exposed surface area 432π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "hemisphere",
+          "r": 12,
+          "volume": 1152,
+          "surface": 432,
+          "lesson": 4,
+          "answer": "volume 1152π cm³; total exposed surface area 432π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g10-meas-l04-w13",
+      "lesson": 4,
+      "problem": "A solid sphere has radius 15 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 15 cm.",
+        "Choose the full-sphere volume formula: 4/3πr³.",
+        "Volume = 4/3π(15)³=4500π cm³.",
+        "Sphere area = 4πr² = 900π cm²; it has no flat base.",
+        "Answer: volume 4500π cm³; total exposed surface area 900π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 4500π cm³; total exposed surface area 900π cm²",
+      "check": "Answer: volume 4500π cm³; total exposed surface area 900π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "sphere",
+          "r": 15,
+          "volume": 4500,
+          "surface": 900,
+          "lesson": 4,
+          "answer": "volume 4500π cm³; total exposed surface area 900π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-meas-l04-w14",
+      "lesson": 4,
+      "problem": "A solid hemisphere with its flat circular base exposed has radius 18 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 18 cm.",
+        "Choose the half-sphere volume formula: 2/3πr³.",
+        "Volume = 2/3π(18)³=3888π cm³.",
+        "Curved hemisphere area = 2πr² = 648π cm²; add the exposed flat disc 324π cm².",
+        "Answer: volume 3888π cm³; total exposed surface area 972π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 3888π cm³; total exposed surface area 972π cm²",
+      "check": "Answer: volume 3888π cm³; total exposed surface area 972π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "hemisphere",
+          "r": 18,
+          "volume": 3888,
+          "surface": 972,
+          "lesson": 4,
+          "answer": "volume 3888π cm³; total exposed surface area 972π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "exam"
+    },
+    {
+      "id": "g10-meas-l04-w15",
+      "lesson": 4,
+      "problem": "A solid sphere has radius 21 cm. Find its volume and total exposed surface area in terms of π.",
+      "actions": [
+        "Mark the radius from centre to surface: 21 cm.",
+        "Choose the full-sphere volume formula: 4/3πr³.",
+        "Volume = 4/3π(21)³=12348π cm³.",
+        "Sphere area = 4πr² = 1764π cm²; it has no flat base.",
+        "Answer: volume 12348π cm³; total exposed surface area 1764π cm². Compare squared area units with cubed volume units."
+      ],
+      "answer": "volume 12348π cm³; total exposed surface area 1764π cm²",
+      "check": "Answer: volume 12348π cm³; total exposed surface area 1764π cm². Compare squared area units with cubed volume units.",
+      "visual": {
+        "family": "grade10_measurement",
+        "values": {
+          "shape": "sphere",
+          "r": 21,
+          "volume": 12348,
+          "surface": 1764,
+          "lesson": 4,
+          "answer": "volume 12348π cm³; total exposed surface area 1764π cm²"
+        }
+      },
+      "misconception": "Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.",
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g10-meas-l04-p01",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 12 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 432π cm³; total exposed surface area 1152π cm²",
+        "volume 1152π cm³; total exposed surface area 432π cm²",
+        "volume 1152π cm³; total exposed surface area 288π cm²",
+        "volume 2304π cm³; total exposed surface area 432π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the radius from centre to surface: 12 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(12)³=1152π cm³. Curved hemisphere area = 2πr² = 288π cm²; add the exposed flat disc 144π cm². Answer: volume 1152π cm³; total exposed surface area 432π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p02",
+      "prompt": "A solid sphere has radius 15 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 9000π cm³; total exposed surface area 900π cm²",
+        "volume 900π cm³; total exposed surface area 4500π cm²",
+        "volume 4500π cm³; total exposed surface area 900π cm²",
+        "volume 4500π cm³; total exposed surface area 450π cm²"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the radius from centre to surface: 15 cm. Choose the full-sphere volume formula: 4/3πr³. Volume = 4/3π(15)³=4500π cm³. Sphere area = 4πr² = 900π cm²; it has no flat base. Answer: volume 4500π cm³; total exposed surface area 900π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p03",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 18 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 3888π cm³; total exposed surface area 648π cm²",
+        "volume 7776π cm³; total exposed surface area 972π cm²",
+        "volume 972π cm³; total exposed surface area 3888π cm²",
+        "volume 3888π cm³; total exposed surface area 972π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the radius from centre to surface: 18 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(18)³=3888π cm³. Curved hemisphere area = 2πr² = 648π cm²; add the exposed flat disc 324π cm². Answer: volume 3888π cm³; total exposed surface area 972π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p04",
+      "prompt": "A solid sphere has radius 21 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 12348π cm³; total exposed surface area 1764π cm²",
+        "volume 12348π cm³; total exposed surface area 882π cm²",
+        "volume 24696π cm³; total exposed surface area 1764π cm²",
+        "volume 1764π cm³; total exposed surface area 12348π cm²"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the radius from centre to surface: 21 cm. Choose the full-sphere volume formula: 4/3πr³. Volume = 4/3π(21)³=12348π cm³. Sphere area = 4πr² = 1764π cm²; it has no flat base. Answer: volume 12348π cm³; total exposed surface area 1764π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p05",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 24 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 1728π cm³; total exposed surface area 9216π cm²",
+        "volume 9216π cm³; total exposed surface area 1728π cm²",
+        "volume 9216π cm³; total exposed surface area 1152π cm²",
+        "volume 18432π cm³; total exposed surface area 1728π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the radius from centre to surface: 24 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(24)³=9216π cm³. Curved hemisphere area = 2πr² = 1152π cm²; add the exposed flat disc 576π cm². Answer: volume 9216π cm³; total exposed surface area 1728π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p06",
+      "prompt": "A solid sphere has radius 27 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 52488π cm³; total exposed surface area 2916π cm²",
+        "volume 2916π cm³; total exposed surface area 26244π cm²",
+        "volume 26244π cm³; total exposed surface area 2916π cm²",
+        "volume 26244π cm³; total exposed surface area 1458π cm²"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the radius from centre to surface: 27 cm. Choose the full-sphere volume formula: 4/3πr³. Volume = 4/3π(27)³=26244π cm³. Sphere area = 4πr² = 2916π cm²; it has no flat base. Answer: volume 26244π cm³; total exposed surface area 2916π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p07",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 3 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 18π cm³; total exposed surface area 18π cm²",
+        "volume 36π cm³; total exposed surface area 27π cm²",
+        "volume 27π cm³; total exposed surface area 18π cm²",
+        "volume 18π cm³; total exposed surface area 27π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the radius from centre to surface: 3 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(3)³=18π cm³. Curved hemisphere area = 2πr² = 18π cm²; add the exposed flat disc 9π cm². Answer: volume 18π cm³; total exposed surface area 27π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p08",
+      "prompt": "A solid sphere has radius 6 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 288π cm³; total exposed surface area 144π cm²",
+        "volume 288π cm³; total exposed surface area 72π cm²",
+        "volume 576π cm³; total exposed surface area 144π cm²",
+        "volume 144π cm³; total exposed surface area 288π cm²"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the radius from centre to surface: 6 cm. Choose the full-sphere volume formula: 4/3πr³. Volume = 4/3π(6)³=288π cm³. Sphere area = 4πr² = 144π cm²; it has no flat base. Answer: volume 288π cm³; total exposed surface area 144π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p09",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 9 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 243π cm³; total exposed surface area 486π cm²",
+        "volume 486π cm³; total exposed surface area 243π cm²",
+        "volume 486π cm³; total exposed surface area 162π cm²",
+        "volume 972π cm³; total exposed surface area 243π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the radius from centre to surface: 9 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(9)³=486π cm³. Curved hemisphere area = 2πr² = 162π cm²; add the exposed flat disc 81π cm². Answer: volume 486π cm³; total exposed surface area 243π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p10",
+      "prompt": "A solid sphere has radius 12 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 4608π cm³; total exposed surface area 576π cm²",
+        "volume 576π cm³; total exposed surface area 2304π cm²",
+        "volume 2304π cm³; total exposed surface area 576π cm²",
+        "volume 2304π cm³; total exposed surface area 288π cm²"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the radius from centre to surface: 12 cm. Choose the full-sphere volume formula: 4/3πr³. Volume = 4/3π(12)³=2304π cm³. Sphere area = 4πr² = 576π cm²; it has no flat base. Answer: volume 2304π cm³; total exposed surface area 576π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p11",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 15 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 2250π cm³; total exposed surface area 450π cm²",
+        "volume 4500π cm³; total exposed surface area 675π cm²",
+        "volume 675π cm³; total exposed surface area 2250π cm²",
+        "volume 2250π cm³; total exposed surface area 675π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the radius from centre to surface: 15 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(15)³=2250π cm³. Curved hemisphere area = 2πr² = 450π cm²; add the exposed flat disc 225π cm². Answer: volume 2250π cm³; total exposed surface area 675π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p12",
+      "prompt": "A solid sphere has radius 18 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 7776π cm³; total exposed surface area 1296π cm²",
+        "volume 7776π cm³; total exposed surface area 648π cm²",
+        "volume 15552π cm³; total exposed surface area 1296π cm²",
+        "volume 1296π cm³; total exposed surface area 7776π cm²"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the radius from centre to surface: 18 cm. Choose the full-sphere volume formula: 4/3πr³. Volume = 4/3π(18)³=7776π cm³. Sphere area = 4πr² = 1296π cm²; it has no flat base. Answer: volume 7776π cm³; total exposed surface area 1296π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p13",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 21 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 1323π cm³; total exposed surface area 6174π cm²",
+        "volume 6174π cm³; total exposed surface area 1323π cm²",
+        "volume 6174π cm³; total exposed surface area 882π cm²",
+        "volume 12348π cm³; total exposed surface area 1323π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the radius from centre to surface: 21 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(21)³=6174π cm³. Curved hemisphere area = 2πr² = 882π cm²; add the exposed flat disc 441π cm². Answer: volume 6174π cm³; total exposed surface area 1323π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p14",
+      "prompt": "A solid sphere has radius 24 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 36864π cm³; total exposed surface area 2304π cm²",
+        "volume 2304π cm³; total exposed surface area 18432π cm²",
+        "volume 18432π cm³; total exposed surface area 2304π cm²",
+        "volume 18432π cm³; total exposed surface area 1152π cm²"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the radius from centre to surface: 24 cm. Choose the full-sphere volume formula: 4/3πr³. Volume = 4/3π(24)³=18432π cm³. Sphere area = 4πr² = 2304π cm²; it has no flat base. Answer: volume 18432π cm³; total exposed surface area 2304π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-p15",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 27 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 13122π cm³; total exposed surface area 1458π cm²",
+        "volume 26244π cm³; total exposed surface area 2187π cm²",
+        "volume 2187π cm³; total exposed surface area 13122π cm²",
+        "volume 13122π cm³; total exposed surface area 2187π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the radius from centre to surface: 27 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(27)³=13122π cm³. Curved hemisphere area = 2πr² = 1458π cm²; add the exposed flat disc 729π cm². Answer: volume 13122π cm³; total exposed surface area 2187π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g10-meas-l04-m16",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 9 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 486π cm³; total exposed surface area 243π cm²",
+        "volume 486π cm³; total exposed surface area 162π cm²",
+        "volume 972π cm³; total exposed surface area 243π cm²",
+        "volume 243π cm³; total exposed surface area 486π cm²"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the radius from centre to surface: 9 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(9)³=486π cm³. Curved hemisphere area = 2πr² = 162π cm²; add the exposed flat disc 81π cm². Answer: volume 486π cm³; total exposed surface area 243π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-m17",
+      "prompt": "A solid sphere has radius 12 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 576π cm³; total exposed surface area 2304π cm²",
+        "volume 2304π cm³; total exposed surface area 576π cm²",
+        "volume 2304π cm³; total exposed surface area 288π cm²",
+        "volume 4608π cm³; total exposed surface area 576π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the radius from centre to surface: 12 cm. Choose the full-sphere volume formula: 4/3πr³. Volume = 4/3π(12)³=2304π cm³. Sphere area = 4πr² = 576π cm²; it has no flat base. Answer: volume 2304π cm³; total exposed surface area 576π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-m18",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 15 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 4500π cm³; total exposed surface area 675π cm²",
+        "volume 675π cm³; total exposed surface area 2250π cm²",
+        "volume 2250π cm³; total exposed surface area 675π cm²",
+        "volume 2250π cm³; total exposed surface area 450π cm²"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the radius from centre to surface: 15 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(15)³=2250π cm³. Curved hemisphere area = 2πr² = 450π cm²; add the exposed flat disc 225π cm². Answer: volume 2250π cm³; total exposed surface area 675π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-m19",
+      "prompt": "A solid sphere has radius 18 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 7776π cm³; total exposed surface area 648π cm²",
+        "volume 15552π cm³; total exposed surface area 1296π cm²",
+        "volume 1296π cm³; total exposed surface area 7776π cm²",
+        "volume 7776π cm³; total exposed surface area 1296π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the radius from centre to surface: 18 cm. Choose the full-sphere volume formula: 4/3πr³. Volume = 4/3π(18)³=7776π cm³. Sphere area = 4πr² = 1296π cm²; it has no flat base. Answer: volume 7776π cm³; total exposed surface area 1296π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-m20",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 21 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 6174π cm³; total exposed surface area 1323π cm²",
+        "volume 6174π cm³; total exposed surface area 882π cm²",
+        "volume 12348π cm³; total exposed surface area 1323π cm²",
+        "volume 1323π cm³; total exposed surface area 6174π cm²"
+      ],
+      "answer_index": 0,
+      "memo": "Mark the radius from centre to surface: 21 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(21)³=6174π cm³. Curved hemisphere area = 2πr² = 882π cm²; add the exposed flat disc 441π cm². Answer: volume 6174π cm³; total exposed surface area 1323π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g10-meas-l04-r21",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 3 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 27π cm³; total exposed surface area 18π cm²",
+        "volume 18π cm³; total exposed surface area 27π cm²",
+        "volume 18π cm³; total exposed surface area 18π cm²",
+        "volume 36π cm³; total exposed surface area 27π cm²"
+      ],
+      "answer_index": 1,
+      "memo": "Mark the radius from centre to surface: 3 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(3)³=18π cm³. Curved hemisphere area = 2πr² = 18π cm²; add the exposed flat disc 9π cm². Answer: volume 18π cm³; total exposed surface area 27π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-r22",
+      "prompt": "A solid sphere has radius 6 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 576π cm³; total exposed surface area 144π cm²",
+        "volume 144π cm³; total exposed surface area 288π cm²",
+        "volume 288π cm³; total exposed surface area 144π cm²",
+        "volume 288π cm³; total exposed surface area 72π cm²"
+      ],
+      "answer_index": 2,
+      "memo": "Mark the radius from centre to surface: 6 cm. Choose the full-sphere volume formula: 4/3πr³. Volume = 4/3π(6)³=288π cm³. Sphere area = 4πr² = 144π cm²; it has no flat base. Answer: volume 288π cm³; total exposed surface area 144π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    },
+    {
+      "id": "g10-meas-l04-r23",
+      "prompt": "A solid hemisphere with its flat circular base exposed has radius 9 cm. Find its volume and total exposed surface area in terms of π.",
+      "options": [
+        "volume 486π cm³; total exposed surface area 162π cm²",
+        "volume 972π cm³; total exposed surface area 243π cm²",
+        "volume 243π cm³; total exposed surface area 486π cm²",
+        "volume 486π cm³; total exposed surface area 243π cm²"
+      ],
+      "answer_index": 3,
+      "memo": "Mark the radius from centre to surface: 9 cm. Choose the half-sphere volume formula: 2/3πr³. Volume = 2/3π(9)³=486π cm³. Curved hemisphere area = 2πr² = 162π cm²; add the exposed flat disc 81π cm². Answer: volume 486π cm³; total exposed surface area 243π cm². Compare squared area units with cubed volume units.",
+      "source": "grade10-meas-lesson-04.md"
+    }
+  ]
+}

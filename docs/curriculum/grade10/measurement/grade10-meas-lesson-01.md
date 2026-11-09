@@ -1,0 +1,297 @@
+# Grade 10 Topic 10 · Lesson 1: Right prisms: volume and surface area
+
+Authority: [DBE Grade 10 ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2023%20ATPs/FET%20Content%20Subjects/Grade%2010/1.580%20ATP%202023-24%20Gr%2010%20Maths%20final.pdf), Term 4 Measurement. Original Athena examples.
+
+Status: teacher and browser review required. All dimensions and exposed surfaces are question-specific.
+
+## g10-meas-l01-w01: A sealed rectangular prism measures 4 cm by 4 cm by 5 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 4, "b": 4, "h": 5, "volume": 80, "surface": 112, "lesson": 1, "answer": "volume 80 cm³; total surface area 112 cm²"}}
+
+1. Mark length 4 cm, width 4 cm and height 5 cm on the same prism.
+
+2. The base has area 4×4=16 cm².
+
+3. Volume = base area × height = 16×5=80 cm³.
+
+4. Pairs of faces have areas 16, 20 and 20 cm², so total surface area = 2(16+20+20)=112 cm².
+
+5. Answer: volume 80 cm³; total surface area 112 cm². Confirm there are six outside faces.
+
+**Answer:** volume 80 cm³; total surface area 112 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w02: A sealed rectangular prism measures 5 cm by 5 cm by 5 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 5, "b": 5, "h": 5, "volume": 125, "surface": 150, "lesson": 1, "answer": "volume 125 cm³; total surface area 150 cm²"}}
+
+1. Mark length 5 cm, width 5 cm and height 5 cm on the same prism.
+
+2. The base has area 5×5=25 cm².
+
+3. Volume = base area × height = 25×5=125 cm³.
+
+4. Pairs of faces have areas 25, 25 and 25 cm², so total surface area = 2(25+25+25)=150 cm².
+
+5. Answer: volume 125 cm³; total surface area 150 cm². Confirm there are six outside faces.
+
+**Answer:** volume 125 cm³; total surface area 150 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w03: A sealed rectangular prism measures 6 cm by 5 cm by 6 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 6, "b": 5, "h": 6, "volume": 180, "surface": 192, "lesson": 1, "answer": "volume 180 cm³; total surface area 192 cm²"}}
+
+1. Mark length 6 cm, width 5 cm and height 6 cm on the same prism.
+
+2. The base has area 6×5=30 cm².
+
+3. Volume = base area × height = 30×6=180 cm³.
+
+4. Pairs of faces have areas 30, 36 and 30 cm², so total surface area = 2(30+36+30)=192 cm².
+
+5. Answer: volume 180 cm³; total surface area 192 cm². Confirm there are six outside faces.
+
+**Answer:** volume 180 cm³; total surface area 192 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w04: A sealed rectangular prism measures 7 cm by 6 cm by 6 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 7, "b": 6, "h": 6, "volume": 252, "surface": 240, "lesson": 1, "answer": "volume 252 cm³; total surface area 240 cm²"}}
+
+1. Mark length 7 cm, width 6 cm and height 6 cm on the same prism.
+
+2. The base has area 7×6=42 cm².
+
+3. Volume = base area × height = 42×6=252 cm³.
+
+4. Pairs of faces have areas 42, 42 and 36 cm², so total surface area = 2(42+42+36)=240 cm².
+
+5. Answer: volume 252 cm³; total surface area 240 cm². Confirm there are six outside faces.
+
+**Answer:** volume 252 cm³; total surface area 240 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w05: A sealed rectangular prism measures 8 cm by 6 cm by 6 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 8, "b": 6, "h": 6, "volume": 288, "surface": 264, "lesson": 1, "answer": "volume 288 cm³; total surface area 264 cm²"}}
+
+1. Mark length 8 cm, width 6 cm and height 6 cm on the same prism.
+
+2. The base has area 8×6=48 cm².
+
+3. Volume = base area × height = 48×6=288 cm³.
+
+4. Pairs of faces have areas 48, 48 and 36 cm², so total surface area = 2(48+48+36)=264 cm².
+
+5. Answer: volume 288 cm³; total surface area 264 cm². Confirm there are six outside faces.
+
+**Answer:** volume 288 cm³; total surface area 264 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w06: A sealed rectangular prism measures 9 cm by 7 cm by 7 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 9, "b": 7, "h": 7, "volume": 441, "surface": 350, "lesson": 1, "answer": "volume 441 cm³; total surface area 350 cm²"}}
+
+1. Mark length 9 cm, width 7 cm and height 7 cm on the same prism.
+
+2. The base has area 9×7=63 cm².
+
+3. Volume = base area × height = 63×7=441 cm³.
+
+4. Pairs of faces have areas 63, 63 and 49 cm², so total surface area = 2(63+63+49)=350 cm².
+
+5. Answer: volume 441 cm³; total surface area 350 cm². Confirm there are six outside faces.
+
+**Answer:** volume 441 cm³; total surface area 350 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w07: A sealed rectangular prism measures 3 cm by 7 cm by 7 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 3, "b": 7, "h": 7, "volume": 147, "surface": 182, "lesson": 1, "answer": "volume 147 cm³; total surface area 182 cm²"}}
+
+1. Mark length 3 cm, width 7 cm and height 7 cm on the same prism.
+
+2. The base has area 3×7=21 cm².
+
+3. Volume = base area × height = 21×7=147 cm³.
+
+4. Pairs of faces have areas 21, 21 and 49 cm², so total surface area = 2(21+21+49)=182 cm².
+
+5. Answer: volume 147 cm³; total surface area 182 cm². Confirm there are six outside faces.
+
+**Answer:** volume 147 cm³; total surface area 182 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w08: A sealed rectangular prism measures 4 cm by 8 cm by 7 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 4, "b": 8, "h": 7, "volume": 224, "surface": 232, "lesson": 1, "answer": "volume 224 cm³; total surface area 232 cm²"}}
+
+1. Mark length 4 cm, width 8 cm and height 7 cm on the same prism.
+
+2. The base has area 4×8=32 cm².
+
+3. Volume = base area × height = 32×7=224 cm³.
+
+4. Pairs of faces have areas 32, 28 and 56 cm², so total surface area = 2(32+28+56)=232 cm².
+
+5. Answer: volume 224 cm³; total surface area 232 cm². Confirm there are six outside faces.
+
+**Answer:** volume 224 cm³; total surface area 232 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w09: A sealed rectangular prism measures 5 cm by 8 cm by 8 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 5, "b": 8, "h": 8, "volume": 320, "surface": 288, "lesson": 1, "answer": "volume 320 cm³; total surface area 288 cm²"}}
+
+1. Mark length 5 cm, width 8 cm and height 8 cm on the same prism.
+
+2. The base has area 5×8=40 cm².
+
+3. Volume = base area × height = 40×8=320 cm³.
+
+4. Pairs of faces have areas 40, 40 and 64 cm², so total surface area = 2(40+40+64)=288 cm².
+
+5. Answer: volume 320 cm³; total surface area 288 cm². Confirm there are six outside faces.
+
+**Answer:** volume 320 cm³; total surface area 288 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w10: A sealed rectangular prism measures 6 cm by 9 cm by 8 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 6, "b": 9, "h": 8, "volume": 432, "surface": 348, "lesson": 1, "answer": "volume 432 cm³; total surface area 348 cm²"}}
+
+1. Mark length 6 cm, width 9 cm and height 8 cm on the same prism.
+
+2. The base has area 6×9=54 cm².
+
+3. Volume = base area × height = 54×8=432 cm³.
+
+4. Pairs of faces have areas 54, 48 and 72 cm², so total surface area = 2(54+48+72)=348 cm².
+
+5. Answer: volume 432 cm³; total surface area 348 cm². Confirm there are six outside faces.
+
+**Answer:** volume 432 cm³; total surface area 348 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w11: A sealed rectangular prism measures 7 cm by 9 cm by 8 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 7, "b": 9, "h": 8, "volume": 504, "surface": 382, "lesson": 1, "answer": "volume 504 cm³; total surface area 382 cm²"}}
+
+1. Mark length 7 cm, width 9 cm and height 8 cm on the same prism.
+
+2. The base has area 7×9=63 cm².
+
+3. Volume = base area × height = 63×8=504 cm³.
+
+4. Pairs of faces have areas 63, 56 and 72 cm², so total surface area = 2(63+56+72)=382 cm².
+
+5. Answer: volume 504 cm³; total surface area 382 cm². Confirm there are six outside faces.
+
+**Answer:** volume 504 cm³; total surface area 382 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w12: A sealed rectangular prism measures 8 cm by 10 cm by 9 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 8, "b": 10, "h": 9, "volume": 720, "surface": 484, "lesson": 1, "answer": "volume 720 cm³; total surface area 484 cm²"}}
+
+1. Mark length 8 cm, width 10 cm and height 9 cm on the same prism.
+
+2. The base has area 8×10=80 cm².
+
+3. Volume = base area × height = 80×9=720 cm³.
+
+4. Pairs of faces have areas 80, 72 and 90 cm², so total surface area = 2(80+72+90)=484 cm².
+
+5. Answer: volume 720 cm³; total surface area 484 cm². Confirm there are six outside faces.
+
+**Answer:** volume 720 cm³; total surface area 484 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w13: A sealed rectangular prism measures 9 cm by 10 cm by 9 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 9, "b": 10, "h": 9, "volume": 810, "surface": 522, "lesson": 1, "answer": "volume 810 cm³; total surface area 522 cm²"}}
+
+1. Mark length 9 cm, width 10 cm and height 9 cm on the same prism.
+
+2. The base has area 9×10=90 cm².
+
+3. Volume = base area × height = 90×9=810 cm³.
+
+4. Pairs of faces have areas 90, 81 and 90 cm², so total surface area = 2(90+81+90)=522 cm².
+
+5. Answer: volume 810 cm³; total surface area 522 cm². Confirm there are six outside faces.
+
+**Answer:** volume 810 cm³; total surface area 522 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w14: A sealed rectangular prism measures 3 cm by 11 cm by 9 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 3, "b": 11, "h": 9, "volume": 297, "surface": 318, "lesson": 1, "answer": "volume 297 cm³; total surface area 318 cm²"}}
+
+1. Mark length 3 cm, width 11 cm and height 9 cm on the same prism.
+
+2. The base has area 3×11=33 cm².
+
+3. Volume = base area × height = 33×9=297 cm³.
+
+4. Pairs of faces have areas 33, 27 and 99 cm², so total surface area = 2(33+27+99)=318 cm².
+
+5. Answer: volume 297 cm³; total surface area 318 cm². Confirm there are six outside faces.
+
+**Answer:** volume 297 cm³; total surface area 318 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## g10-meas-l01-w15: A sealed rectangular prism measures 4 cm by 11 cm by 10 cm. Calculate its volume and total surface area.
+
+Visual contract: {"family": "grade10_measurement", "values": {"shape": "prism", "a": 4, "b": 11, "h": 10, "volume": 440, "surface": 388, "lesson": 1, "answer": "volume 440 cm³; total surface area 388 cm²"}}
+
+1. Mark length 4 cm, width 11 cm and height 10 cm on the same prism.
+
+2. The base has area 4×11=44 cm².
+
+3. Volume = base area × height = 44×10=440 cm³.
+
+4. Pairs of faces have areas 44, 40 and 110 cm², so total surface area = 2(44+40+110)=388 cm².
+
+5. Answer: volume 440 cm³; total surface area 388 cm². Confirm there are six outside faces.
+
+**Answer:** volume 440 cm³; total surface area 388 cm². **Misconception:** Distinguish perpendicular height from slant, exposed faces from internal joins, and area units from volume units.
+
+## Practice answer key
+
+- g10-meas-l01-p01: A sealed rectangular prism measures 5 cm by 11 cm by 6 cm. Calculate its volume and total surface area. Options: volume 22 cm³; total surface area 302 cm² | volume 330 cm³; total surface area 302 cm² | volume 302 cm³; total surface area 330 cm² | volume 330 cm³; total surface area 151 cm². Correct: volume 330 cm³; total surface area 302 cm². Mark length 5 cm, width 11 cm and height 6 cm on the same prism. The base has area 5×11=55 cm². Volume = base area × height = 55×6=330 cm³. Pairs of faces have areas 55, 30 and 66 cm², so total surface area = 2(55+30+66)=302 cm². Answer: volume 330 cm³; total surface area 302 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p02: A sealed rectangular prism measures 6 cm by 11 cm by 6 cm. Calculate its volume and total surface area. Options: volume 396 cm³; total surface area 168 cm² | volume 23 cm³; total surface area 336 cm² | volume 396 cm³; total surface area 336 cm² | volume 336 cm³; total surface area 396 cm². Correct: volume 396 cm³; total surface area 336 cm². Mark length 6 cm, width 11 cm and height 6 cm on the same prism. The base has area 6×11=66 cm². Volume = base area × height = 66×6=396 cm³. Pairs of faces have areas 66, 36 and 66 cm², so total surface area = 2(66+36+66)=336 cm². Answer: volume 396 cm³; total surface area 336 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p03: A sealed rectangular prism measures 7 cm by 4 cm by 6 cm. Calculate its volume and total surface area. Options: volume 188 cm³; total surface area 168 cm² | volume 168 cm³; total surface area 94 cm² | volume 17 cm³; total surface area 188 cm² | volume 168 cm³; total surface area 188 cm². Correct: volume 168 cm³; total surface area 188 cm². Mark length 7 cm, width 4 cm and height 6 cm on the same prism. The base has area 7×4=28 cm². Volume = base area × height = 28×6=168 cm³. Pairs of faces have areas 28, 42 and 24 cm², so total surface area = 2(28+42+24)=188 cm². Answer: volume 168 cm³; total surface area 188 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p04: A sealed rectangular prism measures 8 cm by 4 cm by 7 cm. Calculate its volume and total surface area. Options: volume 224 cm³; total surface area 232 cm² | volume 232 cm³; total surface area 224 cm² | volume 224 cm³; total surface area 116 cm² | volume 19 cm³; total surface area 232 cm². Correct: volume 224 cm³; total surface area 232 cm². Mark length 8 cm, width 4 cm and height 7 cm on the same prism. The base has area 8×4=32 cm². Volume = base area × height = 32×7=224 cm³. Pairs of faces have areas 32, 56 and 28 cm², so total surface area = 2(32+56+28)=232 cm². Answer: volume 224 cm³; total surface area 232 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p05: A sealed rectangular prism measures 9 cm by 5 cm by 7 cm. Calculate its volume and total surface area. Options: volume 21 cm³; total surface area 286 cm² | volume 315 cm³; total surface area 286 cm² | volume 286 cm³; total surface area 315 cm² | volume 315 cm³; total surface area 143 cm². Correct: volume 315 cm³; total surface area 286 cm². Mark length 9 cm, width 5 cm and height 7 cm on the same prism. The base has area 9×5=45 cm². Volume = base area × height = 45×7=315 cm³. Pairs of faces have areas 45, 63 and 35 cm², so total surface area = 2(45+63+35)=286 cm². Answer: volume 315 cm³; total surface area 286 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p06: A sealed rectangular prism measures 3 cm by 5 cm by 7 cm. Calculate its volume and total surface area. Options: volume 105 cm³; total surface area 71 cm² | volume 15 cm³; total surface area 142 cm² | volume 105 cm³; total surface area 142 cm² | volume 142 cm³; total surface area 105 cm². Correct: volume 105 cm³; total surface area 142 cm². Mark length 3 cm, width 5 cm and height 7 cm on the same prism. The base has area 3×5=15 cm². Volume = base area × height = 15×7=105 cm³. Pairs of faces have areas 15, 21 and 35 cm², so total surface area = 2(15+21+35)=142 cm². Answer: volume 105 cm³; total surface area 142 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p07: A sealed rectangular prism measures 4 cm by 6 cm by 8 cm. Calculate its volume and total surface area. Options: volume 208 cm³; total surface area 192 cm² | volume 192 cm³; total surface area 104 cm² | volume 18 cm³; total surface area 208 cm² | volume 192 cm³; total surface area 208 cm². Correct: volume 192 cm³; total surface area 208 cm². Mark length 4 cm, width 6 cm and height 8 cm on the same prism. The base has area 4×6=24 cm². Volume = base area × height = 24×8=192 cm³. Pairs of faces have areas 24, 32 and 48 cm², so total surface area = 2(24+32+48)=208 cm². Answer: volume 192 cm³; total surface area 208 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p08: A sealed rectangular prism measures 5 cm by 6 cm by 8 cm. Calculate its volume and total surface area. Options: volume 240 cm³; total surface area 236 cm² | volume 236 cm³; total surface area 240 cm² | volume 240 cm³; total surface area 118 cm² | volume 19 cm³; total surface area 236 cm². Correct: volume 240 cm³; total surface area 236 cm². Mark length 5 cm, width 6 cm and height 8 cm on the same prism. The base has area 5×6=30 cm². Volume = base area × height = 30×8=240 cm³. Pairs of faces have areas 30, 40 and 48 cm², so total surface area = 2(30+40+48)=236 cm². Answer: volume 240 cm³; total surface area 236 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p09: A sealed rectangular prism measures 6 cm by 7 cm by 8 cm. Calculate its volume and total surface area. Options: volume 21 cm³; total surface area 292 cm² | volume 336 cm³; total surface area 292 cm² | volume 292 cm³; total surface area 336 cm² | volume 336 cm³; total surface area 146 cm². Correct: volume 336 cm³; total surface area 292 cm². Mark length 6 cm, width 7 cm and height 8 cm on the same prism. The base has area 6×7=42 cm². Volume = base area × height = 42×8=336 cm³. Pairs of faces have areas 42, 48 and 56 cm², so total surface area = 2(42+48+56)=292 cm². Answer: volume 336 cm³; total surface area 292 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p10: A sealed rectangular prism measures 7 cm by 7 cm by 9 cm. Calculate its volume and total surface area. Options: volume 441 cm³; total surface area 175 cm² | volume 23 cm³; total surface area 350 cm² | volume 441 cm³; total surface area 350 cm² | volume 350 cm³; total surface area 441 cm². Correct: volume 441 cm³; total surface area 350 cm². Mark length 7 cm, width 7 cm and height 9 cm on the same prism. The base has area 7×7=49 cm². Volume = base area × height = 49×9=441 cm³. Pairs of faces have areas 49, 63 and 63 cm², so total surface area = 2(49+63+63)=350 cm². Answer: volume 441 cm³; total surface area 350 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p11: A sealed rectangular prism measures 8 cm by 8 cm by 9 cm. Calculate its volume and total surface area. Options: volume 416 cm³; total surface area 576 cm² | volume 576 cm³; total surface area 208 cm² | volume 25 cm³; total surface area 416 cm² | volume 576 cm³; total surface area 416 cm². Correct: volume 576 cm³; total surface area 416 cm². Mark length 8 cm, width 8 cm and height 9 cm on the same prism. The base has area 8×8=64 cm². Volume = base area × height = 64×9=576 cm³. Pairs of faces have areas 64, 72 and 72 cm², so total surface area = 2(64+72+72)=416 cm². Answer: volume 576 cm³; total surface area 416 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p12: A sealed rectangular prism measures 9 cm by 8 cm by 9 cm. Calculate its volume and total surface area. Options: volume 648 cm³; total surface area 450 cm² | volume 450 cm³; total surface area 648 cm² | volume 648 cm³; total surface area 225 cm² | volume 26 cm³; total surface area 450 cm². Correct: volume 648 cm³; total surface area 450 cm². Mark length 9 cm, width 8 cm and height 9 cm on the same prism. The base has area 9×8=72 cm². Volume = base area × height = 72×9=648 cm³. Pairs of faces have areas 72, 81 and 72 cm², so total surface area = 2(72+81+72)=450 cm². Answer: volume 648 cm³; total surface area 450 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p13: A sealed rectangular prism measures 3 cm by 9 cm by 10 cm. Calculate its volume and total surface area. Options: volume 22 cm³; total surface area 294 cm² | volume 270 cm³; total surface area 294 cm² | volume 294 cm³; total surface area 270 cm² | volume 270 cm³; total surface area 147 cm². Correct: volume 270 cm³; total surface area 294 cm². Mark length 3 cm, width 9 cm and height 10 cm on the same prism. The base has area 3×9=27 cm². Volume = base area × height = 27×10=270 cm³. Pairs of faces have areas 27, 30 and 90 cm², so total surface area = 2(27+30+90)=294 cm². Answer: volume 270 cm³; total surface area 294 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p14: A sealed rectangular prism measures 4 cm by 9 cm by 10 cm. Calculate its volume and total surface area. Options: volume 360 cm³; total surface area 166 cm² | volume 23 cm³; total surface area 332 cm² | volume 360 cm³; total surface area 332 cm² | volume 332 cm³; total surface area 360 cm². Correct: volume 360 cm³; total surface area 332 cm². Mark length 4 cm, width 9 cm and height 10 cm on the same prism. The base has area 4×9=36 cm². Volume = base area × height = 36×10=360 cm³. Pairs of faces have areas 36, 40 and 90 cm², so total surface area = 2(36+40+90)=332 cm². Answer: volume 360 cm³; total surface area 332 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-p15: A sealed rectangular prism measures 5 cm by 10 cm by 10 cm. Calculate its volume and total surface area. Options: volume 400 cm³; total surface area 500 cm² | volume 500 cm³; total surface area 200 cm² | volume 25 cm³; total surface area 400 cm² | volume 500 cm³; total surface area 400 cm². Correct: volume 500 cm³; total surface area 400 cm². Mark length 5 cm, width 10 cm and height 10 cm on the same prism. The base has area 5×10=50 cm². Volume = base area × height = 50×10=500 cm³. Pairs of faces have areas 50, 50 and 100 cm², so total surface area = 2(50+50+100)=400 cm². Answer: volume 500 cm³; total surface area 400 cm². Confirm there are six outside faces.
+
+## Mastery answer key
+
+- g10-meas-l01-m16: A sealed rectangular prism measures 7 cm by 9 cm by 11 cm. Calculate its volume and total surface area. Options: volume 693 cm³; total surface area 478 cm² | volume 478 cm³; total surface area 693 cm² | volume 693 cm³; total surface area 239 cm² | volume 27 cm³; total surface area 478 cm². Correct: volume 693 cm³; total surface area 478 cm². Mark length 7 cm, width 9 cm and height 11 cm on the same prism. The base has area 7×9=63 cm². Volume = base area × height = 63×11=693 cm³. Pairs of faces have areas 63, 77 and 99 cm², so total surface area = 2(63+77+99)=478 cm². Answer: volume 693 cm³; total surface area 478 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-m17: A sealed rectangular prism measures 8 cm by 9 cm by 12 cm. Calculate its volume and total surface area. Options: volume 29 cm³; total surface area 552 cm² | volume 864 cm³; total surface area 552 cm² | volume 552 cm³; total surface area 864 cm² | volume 864 cm³; total surface area 276 cm². Correct: volume 864 cm³; total surface area 552 cm². Mark length 8 cm, width 9 cm and height 12 cm on the same prism. The base has area 8×9=72 cm². Volume = base area × height = 72×12=864 cm³. Pairs of faces have areas 72, 96 and 108 cm², so total surface area = 2(72+96+108)=552 cm². Answer: volume 864 cm³; total surface area 552 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-m18: A sealed rectangular prism measures 9 cm by 10 cm by 12 cm. Calculate its volume and total surface area. Options: volume 1080 cm³; total surface area 318 cm² | volume 31 cm³; total surface area 636 cm² | volume 1080 cm³; total surface area 636 cm² | volume 636 cm³; total surface area 1080 cm². Correct: volume 1080 cm³; total surface area 636 cm². Mark length 9 cm, width 10 cm and height 12 cm on the same prism. The base has area 9×10=90 cm². Volume = base area × height = 90×12=1080 cm³. Pairs of faces have areas 90, 108 and 120 cm², so total surface area = 2(90+108+120)=636 cm². Answer: volume 1080 cm³; total surface area 636 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-m19: A sealed rectangular prism measures 3 cm by 10 cm by 12 cm. Calculate its volume and total surface area. Options: volume 372 cm³; total surface area 360 cm² | volume 360 cm³; total surface area 186 cm² | volume 25 cm³; total surface area 372 cm² | volume 360 cm³; total surface area 372 cm². Correct: volume 360 cm³; total surface area 372 cm². Mark length 3 cm, width 10 cm and height 12 cm on the same prism. The base has area 3×10=30 cm². Volume = base area × height = 30×12=360 cm³. Pairs of faces have areas 30, 36 and 120 cm², so total surface area = 2(30+36+120)=372 cm². Answer: volume 360 cm³; total surface area 372 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-m20: A sealed rectangular prism measures 4 cm by 11 cm by 13 cm. Calculate its volume and total surface area. Options: volume 572 cm³; total surface area 478 cm² | volume 478 cm³; total surface area 572 cm² | volume 572 cm³; total surface area 239 cm² | volume 28 cm³; total surface area 478 cm². Correct: volume 572 cm³; total surface area 478 cm². Mark length 4 cm, width 11 cm and height 13 cm on the same prism. The base has area 4×11=44 cm². Volume = base area × height = 44×13=572 cm³. Pairs of faces have areas 44, 52 and 143 cm², so total surface area = 2(44+52+143)=478 cm². Answer: volume 572 cm³; total surface area 478 cm². Confirm there are six outside faces.
+
+## Parallel reassessment answer key
+
+- g10-meas-l01-r21: A sealed rectangular prism measures 6 cm by 10 cm by 5 cm. Calculate its volume and total surface area. Options: volume 21 cm³; total surface area 280 cm² | volume 300 cm³; total surface area 280 cm² | volume 280 cm³; total surface area 300 cm² | volume 300 cm³; total surface area 140 cm². Correct: volume 300 cm³; total surface area 280 cm². Mark length 6 cm, width 10 cm and height 5 cm on the same prism. The base has area 6×10=60 cm². Volume = base area × height = 60×5=300 cm³. Pairs of faces have areas 60, 30 and 50 cm², so total surface area = 2(60+30+50)=280 cm². Answer: volume 300 cm³; total surface area 280 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-r22: A sealed rectangular prism measures 7 cm by 10 cm by 5 cm. Calculate its volume and total surface area. Options: volume 350 cm³; total surface area 155 cm² | volume 22 cm³; total surface area 310 cm² | volume 350 cm³; total surface area 310 cm² | volume 310 cm³; total surface area 350 cm². Correct: volume 350 cm³; total surface area 310 cm². Mark length 7 cm, width 10 cm and height 5 cm on the same prism. The base has area 7×10=70 cm². Volume = base area × height = 70×5=350 cm³. Pairs of faces have areas 70, 35 and 50 cm², so total surface area = 2(70+35+50)=310 cm². Answer: volume 350 cm³; total surface area 310 cm². Confirm there are six outside faces.
+
+- g10-meas-l01-r23: A sealed rectangular prism measures 8 cm by 11 cm by 5 cm. Calculate its volume and total surface area. Options: volume 366 cm³; total surface area 440 cm² | volume 440 cm³; total surface area 183 cm² | volume 24 cm³; total surface area 366 cm² | volume 440 cm³; total surface area 366 cm². Correct: volume 440 cm³; total surface area 366 cm². Mark length 8 cm, width 11 cm and height 5 cm on the same prism. The base has area 8×11=88 cm². Volume = base area × height = 88×5=440 cm³. Pairs of faces have areas 88, 40 and 55 cm², so total surface area = 2(88+40+55)=366 cm². Answer: volume 440 cm³; total surface area 366 cm². Confirm there are six outside faces.

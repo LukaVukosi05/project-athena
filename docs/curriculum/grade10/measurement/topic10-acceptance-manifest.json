@@ -1,0 +1,74 @@
+[
+  {
+    "lesson_id": "g10-meas-01",
+    "source": "grade10-meas-lesson-01.md",
+    "source_sha256": "0e84983b6b5373103eb80e4b13cb43b135a051ef34b4502ef948284c4347ea2a",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-meas-02",
+    "source": "grade10-meas-lesson-02.md",
+    "source_sha256": "d3eb4b5fe5e5914f50fb87247d1c4ea3fe35424605799464c2d21b5eeee6ace0",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-meas-03",
+    "source": "grade10-meas-lesson-03.md",
+    "source_sha256": "c45c4835a4425145210e9bbdb5918b34b204572feab68e327dd414a4f27916cc",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-meas-04",
+    "source": "grade10-meas-lesson-04.md",
+    "source_sha256": "bb24fe7df81a5e5b22cd2b24437da37073188c2642c44955ea3e34100fb041ec",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-meas-05",
+    "source": "grade10-meas-lesson-05.md",
+    "source_sha256": "b685c2ef2356f511db1df2b4808362c98ded258335d69a5f8d9c869fb100fdc5",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g10-meas-06",
+    "source": "grade10-meas-lesson-06.md",
+    "source_sha256": "ba28791aa9d516148bf24cb1e8e76cd81d016c0e8bc2f0afdafb69f6d2b38a35",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

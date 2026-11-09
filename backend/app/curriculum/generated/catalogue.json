@@ -2410,6 +2410,64 @@
               "source_document": "grade10-fin-lesson-06.md"
             }
           ]
+        },
+        {
+          "topic_id": "measurement",
+          "topic_number": 10,
+          "title": "Measurement",
+          "paper": "Paper 2",
+          "expected_lesson_count": 6,
+          "status": "teacher_review_required",
+          "lessons": [
+            {
+              "lesson_id": "g10-meas-01",
+              "position": 1,
+              "title": "Right prisms: volume and surface area",
+              "status": "verified",
+              "duration_minutes": 70,
+              "source_document": "grade10-meas-lesson-01.md"
+            },
+            {
+              "lesson_id": "g10-meas-02",
+              "position": 2,
+              "title": "Cylinders and exposed surfaces",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-meas-lesson-02.md"
+            },
+            {
+              "lesson_id": "g10-meas-03",
+              "position": 3,
+              "title": "Scaling dimensions, surface and volume",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-meas-lesson-03.md"
+            },
+            {
+              "lesson_id": "g10-meas-04",
+              "position": 4,
+              "title": "Spheres and hemispheres",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-meas-lesson-04.md"
+            },
+            {
+              "lesson_id": "g10-meas-05",
+              "position": 5,
+              "title": "Right pyramids and cones",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-meas-lesson-05.md"
+            },
+            {
+              "lesson_id": "g10-meas-06",
+              "position": 6,
+              "title": "Composite solids and first-error repair",
+              "status": "verified",
+              "duration_minutes": 80,
+              "source_document": "grade10-meas-lesson-06.md"
+            }
+          ]
         }
       ]
     },
