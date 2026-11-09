@@ -201,7 +201,7 @@ def build_lesson(number,topic='whole-numbers'):
             LessonBlock(type='mistake',title='First error to avoid',content='Check the exact expression and the chosen mathematical rule.'),
             LessonBlock(type='practice',title='Work in your book, then choose',content='Choose one of four answers after working independently.',data={'practice_bank_id':lesson_id}),
             LessonBlock(type='summary',title='Check the original',content='Verify the result against the question, including units.')],
-        whiteboard_questions=questions,mastery_threshold=.8,paper=('Paper 2' if grade10_ag or grade10_euc or grade10_trig else 'Paper 1') if grade10 else None,source_document=source.name,
+        whiteboard_questions=questions,mastery_threshold=.8,paper=('Paper 2' if grade10_ag or grade10_euc or grade10_trig or grade10_stat or grade10_meas else 'Paper 1') if grade10 else None,source_document=source.name,
         source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),assessment_contract={
             'worked_example_count':15,'practice_count':15,'mastery_question_count':5,
             'parallel_reassessment_count':3,'answer_hidden_before_submission':True,

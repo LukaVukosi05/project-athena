@@ -15,6 +15,7 @@ def test_source_and_shapes():
  assert not [e for e in validate_curriculum([GRADE_10]) if e.grade_id=='grade-10']
  manifest=json.loads((ROOT/'docs/curriculum/grade10/measurement/topic10-acceptance-manifest.json').read_text())
  for n,(lesson,data) in MEAS_LESSONS.items():
+  assert lesson.paper=='Paper 2'
   practice,mastery,reassessment,_,_=MEAS_BANKS[n]
   assert (len(data['worked']),len(practice),len(mastery),len(reassessment))==(15,15,5,3)
   assert all(len(q.whiteboard.steps)==5 for q in lesson.whiteboard_questions)
