@@ -1,0 +1,808 @@
+{
+  "source": "grade11-fn-lesson-07.md",
+  "worked": [
+    {
+      "id": "g11-fn-l07-w01",
+      "lesson": 7,
+      "problem": "For y = sin(x − 30°), describe the horizontal translation of the parent graph.",
+      "answer": "30° right",
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 30° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 30°.",
+        "Translate every corresponding point 30° right; keep amplitude and period unchanged.",
+        "Answer: 30° right. Check the shifted input equals zero at x = 30°."
+      ],
+      "check": "Answer: 30° right. Check the shifted input equals zero at x = 30°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "sin",
+          "p": -30,
+          "shift": 30
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l07-w02",
+      "lesson": 7,
+      "problem": "For y = cos(x + 180°), describe the horizontal translation of the parent graph.",
+      "answer": "180° left",
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 180° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -180°.",
+        "Translate every corresponding point 180° left; keep amplitude and period unchanged.",
+        "Answer: 180° left. Check the shifted input equals zero at x = -180°."
+      ],
+      "check": "Answer: 180° left. Check the shifted input equals zero at x = -180°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "cos",
+          "p": 180,
+          "shift": -180
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l07-w03",
+      "lesson": 7,
+      "problem": "For y = tan(x − 120°), describe the horizontal translation of the parent graph.",
+      "answer": "120° right",
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 120° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 120°.",
+        "Translate every corresponding point 120° right; keep amplitude and period unchanged.",
+        "Answer: 120° right. Check the shifted input equals zero at x = 120°."
+      ],
+      "check": "Answer: 120° right. Check the shifted input equals zero at x = 120°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "tan",
+          "p": -120,
+          "shift": 120
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l07-w04",
+      "lesson": 7,
+      "problem": "For y = sin(x + 90°), describe the horizontal translation of the parent graph.",
+      "answer": "90° left",
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 90° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -90°.",
+        "Translate every corresponding point 90° left; keep amplitude and period unchanged.",
+        "Answer: 90° left. Check the shifted input equals zero at x = -90°."
+      ],
+      "check": "Answer: 90° left. Check the shifted input equals zero at x = -90°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "sin",
+          "p": 90,
+          "shift": -90
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l07-w05",
+      "lesson": 7,
+      "problem": "For y = cos(x − 210°), describe the horizontal translation of the parent graph.",
+      "answer": "210° right",
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 210° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 210°.",
+        "Translate every corresponding point 210° right; keep amplitude and period unchanged.",
+        "Answer: 210° right. Check the shifted input equals zero at x = 210°."
+      ],
+      "check": "Answer: 210° right. Check the shifted input equals zero at x = 210°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "cos",
+          "p": -210,
+          "shift": 210
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l07-w06",
+      "lesson": 7,
+      "problem": "For y = tan(x + 270°), describe the horizontal translation of the parent graph.",
+      "answer": "270° left",
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 270° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -270°.",
+        "Translate every corresponding point 270° left; keep amplitude and period unchanged.",
+        "Answer: 270° left. Check the shifted input equals zero at x = -270°."
+      ],
+      "check": "Answer: 270° left. Check the shifted input equals zero at x = -270°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "tan",
+          "p": 270,
+          "shift": -270
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l07-w07",
+      "lesson": 7,
+      "problem": "For y = sin(x + 210°), describe the horizontal translation of the parent graph.",
+      "answer": "210° left",
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 210° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -210°.",
+        "Translate every corresponding point 210° left; keep amplitude and period unchanged.",
+        "Answer: 210° left. Check the shifted input equals zero at x = -210°."
+      ],
+      "check": "Answer: 210° left. Check the shifted input equals zero at x = -210°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "sin",
+          "p": 210,
+          "shift": -210
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l07-w08",
+      "lesson": 7,
+      "problem": "For y = cos(x − 90°), describe the horizontal translation of the parent graph.",
+      "answer": "90° right",
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 90° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 90°.",
+        "Translate every corresponding point 90° right; keep amplitude and period unchanged.",
+        "Answer: 90° right. Check the shifted input equals zero at x = 90°."
+      ],
+      "check": "Answer: 90° right. Check the shifted input equals zero at x = 90°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "cos",
+          "p": -90,
+          "shift": 90
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l07-w09",
+      "lesson": 7,
+      "problem": "For y = tan(x + 120°), describe the horizontal translation of the parent graph.",
+      "answer": "120° left",
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 120° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -120°.",
+        "Translate every corresponding point 120° left; keep amplitude and period unchanged.",
+        "Answer: 120° left. Check the shifted input equals zero at x = -120°."
+      ],
+      "check": "Answer: 120° left. Check the shifted input equals zero at x = -120°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "tan",
+          "p": 120,
+          "shift": -120
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l07-w10",
+      "lesson": 7,
+      "problem": "For y = sin(x − 180°), describe the horizontal translation of the parent graph.",
+      "answer": "180° right",
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 180° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 180°.",
+        "Translate every corresponding point 180° right; keep amplitude and period unchanged.",
+        "Answer: 180° right. Check the shifted input equals zero at x = 180°."
+      ],
+      "check": "Answer: 180° right. Check the shifted input equals zero at x = 180°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "sin",
+          "p": -180,
+          "shift": 180
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l07-w11",
+      "lesson": 7,
+      "problem": "For y = cos(x + 30°), describe the horizontal translation of the parent graph.",
+      "answer": "30° left",
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 30° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -30°.",
+        "Translate every corresponding point 30° left; keep amplitude and period unchanged.",
+        "Answer: 30° left. Check the shifted input equals zero at x = -30°."
+      ],
+      "check": "Answer: 30° left. Check the shifted input equals zero at x = -30°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "cos",
+          "p": 30,
+          "shift": -30
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l07-w12",
+      "lesson": 7,
+      "problem": "For y = tan(x + 240°), describe the horizontal translation of the parent graph.",
+      "answer": "240° left",
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 240° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -240°.",
+        "Translate every corresponding point 240° left; keep amplitude and period unchanged.",
+        "Answer: 240° left. Check the shifted input equals zero at x = -240°."
+      ],
+      "check": "Answer: 240° left. Check the shifted input equals zero at x = -240°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "tan",
+          "p": 240,
+          "shift": -240
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l07-w13",
+      "lesson": 7,
+      "problem": "For y = sin(x − 60°), describe the horizontal translation of the parent graph.",
+      "answer": "60° right",
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 60° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 60°.",
+        "Translate every corresponding point 60° right; keep amplitude and period unchanged.",
+        "Answer: 60° right. Check the shifted input equals zero at x = 60°."
+      ],
+      "check": "Answer: 60° right. Check the shifted input equals zero at x = 60°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "sin",
+          "p": -60,
+          "shift": 60
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l07-w14",
+      "lesson": 7,
+      "problem": "For y = cos(x + 150°), describe the horizontal translation of the parent graph.",
+      "answer": "150° left",
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 150° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -150°.",
+        "Translate every corresponding point 150° left; keep amplitude and period unchanged.",
+        "Answer: 150° left. Check the shifted input equals zero at x = -150°."
+      ],
+      "check": "Answer: 150° left. Check the shifted input equals zero at x = -150°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "cos",
+          "p": 150,
+          "shift": -150
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l07-w15",
+      "lesson": 7,
+      "problem": "For y = tan(x − 150°), describe the horizontal translation of the parent graph.",
+      "answer": "150° right",
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 150° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 150°.",
+        "Translate every corresponding point 150° right; keep amplitude and period unchanged.",
+        "Answer: 150° right. Check the shifted input equals zero at x = 150°."
+      ],
+      "check": "Answer: 150° right. Check the shifted input equals zero at x = 150°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_shift",
+          "fn": "tan",
+          "p": -150,
+          "shift": 150
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-fn-l07-p01",
+      "prompt": "For y = sin(x + 60°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "90° left",
+        "60 units up",
+        "60° left",
+        "60° right"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 60° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -60°.",
+        "Translate every corresponding point 60° left; keep amplitude and period unchanged.",
+        "Answer: 60° left. Check the shifted input equals zero at x = -60°."
+      ],
+      "memo": "Sketch the parent sin curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 60° = 0. Therefore the reference point moves from x = 0° to x = -60°. Translate every corresponding point 60° left; keep amplitude and period unchanged. Answer: 60° left. Check the shifted input equals zero at x = -60°."
+    },
+    {
+      "id": "g11-fn-l07-p02",
+      "prompt": "For y = cos(x − 240°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "240 units up",
+        "240° right",
+        "240° left",
+        "270° right"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 240° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 240°.",
+        "Translate every corresponding point 240° right; keep amplitude and period unchanged.",
+        "Answer: 240° right. Check the shifted input equals zero at x = 240°."
+      ],
+      "memo": "Sketch the parent cos curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x − 240° = 0. Therefore the reference point moves from x = 0° to x = 240°. Translate every corresponding point 240° right; keep amplitude and period unchanged. Answer: 240° right. Check the shifted input equals zero at x = 240°."
+    },
+    {
+      "id": "g11-fn-l07-p03",
+      "prompt": "For y = tan(x − 30°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "30° right",
+        "30° left",
+        "60° right",
+        "30 units up"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 30° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 30°.",
+        "Translate every corresponding point 30° right; keep amplitude and period unchanged.",
+        "Answer: 30° right. Check the shifted input equals zero at x = 30°."
+      ],
+      "memo": "Sketch the parent tan curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x − 30° = 0. Therefore the reference point moves from x = 0° to x = 30°. Translate every corresponding point 30° right; keep amplitude and period unchanged. Answer: 30° right. Check the shifted input equals zero at x = 30°."
+    },
+    {
+      "id": "g11-fn-l07-p04",
+      "prompt": "For y = sin(x + 180°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "180° right",
+        "210° left",
+        "180 units up",
+        "180° left"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 180° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -180°.",
+        "Translate every corresponding point 180° left; keep amplitude and period unchanged.",
+        "Answer: 180° left. Check the shifted input equals zero at x = -180°."
+      ],
+      "memo": "Sketch the parent sin curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 180° = 0. Therefore the reference point moves from x = 0° to x = -180°. Translate every corresponding point 180° left; keep amplitude and period unchanged. Answer: 180° left. Check the shifted input equals zero at x = -180°."
+    },
+    {
+      "id": "g11-fn-l07-p05",
+      "prompt": "For y = cos(x − 120°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "150° right",
+        "120 units up",
+        "120° right",
+        "120° left"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 120° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 120°.",
+        "Translate every corresponding point 120° right; keep amplitude and period unchanged.",
+        "Answer: 120° right. Check the shifted input equals zero at x = 120°."
+      ],
+      "memo": "Sketch the parent cos curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x − 120° = 0. Therefore the reference point moves from x = 0° to x = 120°. Translate every corresponding point 120° right; keep amplitude and period unchanged. Answer: 120° right. Check the shifted input equals zero at x = 120°."
+    },
+    {
+      "id": "g11-fn-l07-p06",
+      "prompt": "For y = tan(x + 90°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "90 units up",
+        "90° left",
+        "90° right",
+        "120° left"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 90° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -90°.",
+        "Translate every corresponding point 90° left; keep amplitude and period unchanged.",
+        "Answer: 90° left. Check the shifted input equals zero at x = -90°."
+      ],
+      "memo": "Sketch the parent tan curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 90° = 0. Therefore the reference point moves from x = 0° to x = -90°. Translate every corresponding point 90° left; keep amplitude and period unchanged. Answer: 90° left. Check the shifted input equals zero at x = -90°."
+    },
+    {
+      "id": "g11-fn-l07-p07",
+      "prompt": "For y = sin(x − 210°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "210° right",
+        "210° left",
+        "240° right",
+        "210 units up"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 210° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 210°.",
+        "Translate every corresponding point 210° right; keep amplitude and period unchanged.",
+        "Answer: 210° right. Check the shifted input equals zero at x = 210°."
+      ],
+      "memo": "Sketch the parent sin curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x − 210° = 0. Therefore the reference point moves from x = 0° to x = 210°. Translate every corresponding point 210° right; keep amplitude and period unchanged. Answer: 210° right. Check the shifted input equals zero at x = 210°."
+    },
+    {
+      "id": "g11-fn-l07-p08",
+      "prompt": "For y = cos(x + 270°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "270° right",
+        "300° left",
+        "270 units up",
+        "270° left"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 270° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -270°.",
+        "Translate every corresponding point 270° left; keep amplitude and period unchanged.",
+        "Answer: 270° left. Check the shifted input equals zero at x = -270°."
+      ],
+      "memo": "Sketch the parent cos curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 270° = 0. Therefore the reference point moves from x = 0° to x = -270°. Translate every corresponding point 270° left; keep amplitude and period unchanged. Answer: 270° left. Check the shifted input equals zero at x = -270°."
+    },
+    {
+      "id": "g11-fn-l07-p09",
+      "prompt": "For y = tan(x + 210°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "240° left",
+        "210 units up",
+        "210° left",
+        "210° right"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 210° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -210°.",
+        "Translate every corresponding point 210° left; keep amplitude and period unchanged.",
+        "Answer: 210° left. Check the shifted input equals zero at x = -210°."
+      ],
+      "memo": "Sketch the parent tan curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 210° = 0. Therefore the reference point moves from x = 0° to x = -210°. Translate every corresponding point 210° left; keep amplitude and period unchanged. Answer: 210° left. Check the shifted input equals zero at x = -210°."
+    },
+    {
+      "id": "g11-fn-l07-p10",
+      "prompt": "For y = sin(x − 90°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "90 units up",
+        "90° right",
+        "90° left",
+        "120° right"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 90° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 90°.",
+        "Translate every corresponding point 90° right; keep amplitude and period unchanged.",
+        "Answer: 90° right. Check the shifted input equals zero at x = 90°."
+      ],
+      "memo": "Sketch the parent sin curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x − 90° = 0. Therefore the reference point moves from x = 0° to x = 90°. Translate every corresponding point 90° right; keep amplitude and period unchanged. Answer: 90° right. Check the shifted input equals zero at x = 90°."
+    },
+    {
+      "id": "g11-fn-l07-p11",
+      "prompt": "For y = cos(x + 120°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "120° left",
+        "120° right",
+        "150° left",
+        "120 units up"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 120° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -120°.",
+        "Translate every corresponding point 120° left; keep amplitude and period unchanged.",
+        "Answer: 120° left. Check the shifted input equals zero at x = -120°."
+      ],
+      "memo": "Sketch the parent cos curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 120° = 0. Therefore the reference point moves from x = 0° to x = -120°. Translate every corresponding point 120° left; keep amplitude and period unchanged. Answer: 120° left. Check the shifted input equals zero at x = -120°."
+    },
+    {
+      "id": "g11-fn-l07-p12",
+      "prompt": "For y = tan(x − 180°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "180° left",
+        "210° right",
+        "180 units up",
+        "180° right"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 180° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 180°.",
+        "Translate every corresponding point 180° right; keep amplitude and period unchanged.",
+        "Answer: 180° right. Check the shifted input equals zero at x = 180°."
+      ],
+      "memo": "Sketch the parent tan curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x − 180° = 0. Therefore the reference point moves from x = 0° to x = 180°. Translate every corresponding point 180° right; keep amplitude and period unchanged. Answer: 180° right. Check the shifted input equals zero at x = 180°."
+    },
+    {
+      "id": "g11-fn-l07-p13",
+      "prompt": "For y = sin(x + 30°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "60° left",
+        "30 units up",
+        "30° left",
+        "30° right"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 30° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -30°.",
+        "Translate every corresponding point 30° left; keep amplitude and period unchanged.",
+        "Answer: 30° left. Check the shifted input equals zero at x = -30°."
+      ],
+      "memo": "Sketch the parent sin curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 30° = 0. Therefore the reference point moves from x = 0° to x = -30°. Translate every corresponding point 30° left; keep amplitude and period unchanged. Answer: 30° left. Check the shifted input equals zero at x = -30°."
+    },
+    {
+      "id": "g11-fn-l07-p14",
+      "prompt": "For y = cos(x + 240°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "240 units up",
+        "240° left",
+        "240° right",
+        "270° left"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 240° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -240°.",
+        "Translate every corresponding point 240° left; keep amplitude and period unchanged.",
+        "Answer: 240° left. Check the shifted input equals zero at x = -240°."
+      ],
+      "memo": "Sketch the parent cos curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 240° = 0. Therefore the reference point moves from x = 0° to x = -240°. Translate every corresponding point 240° left; keep amplitude and period unchanged. Answer: 240° left. Check the shifted input equals zero at x = -240°."
+    },
+    {
+      "id": "g11-fn-l07-p15",
+      "prompt": "For y = tan(x − 60°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "60° right",
+        "60° left",
+        "90° right",
+        "60 units up"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 60° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 60°.",
+        "Translate every corresponding point 60° right; keep amplitude and period unchanged.",
+        "Answer: 60° right. Check the shifted input equals zero at x = 60°."
+      ],
+      "memo": "Sketch the parent tan curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x − 60° = 0. Therefore the reference point moves from x = 0° to x = 60°. Translate every corresponding point 60° right; keep amplitude and period unchanged. Answer: 60° right. Check the shifted input equals zero at x = 60°."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-fn-l07-m01",
+      "prompt": "For y = sin(x + 150°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "150 units up",
+        "150° left",
+        "150° right",
+        "180° left"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 150° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -150°.",
+        "Translate every corresponding point 150° left; keep amplitude and period unchanged.",
+        "Answer: 150° left. Check the shifted input equals zero at x = -150°."
+      ],
+      "memo": "Sketch the parent sin curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 150° = 0. Therefore the reference point moves from x = 0° to x = -150°. Translate every corresponding point 150° left; keep amplitude and period unchanged. Answer: 150° left. Check the shifted input equals zero at x = -150°."
+    },
+    {
+      "id": "g11-fn-l07-m02",
+      "prompt": "For y = cos(x − 150°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "150° right",
+        "150° left",
+        "180° right",
+        "150 units up"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 150° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 150°.",
+        "Translate every corresponding point 150° right; keep amplitude and period unchanged.",
+        "Answer: 150° right. Check the shifted input equals zero at x = 150°."
+      ],
+      "memo": "Sketch the parent cos curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x − 150° = 0. Therefore the reference point moves from x = 0° to x = 150°. Translate every corresponding point 150° right; keep amplitude and period unchanged. Answer: 150° right. Check the shifted input equals zero at x = 150°."
+    },
+    {
+      "id": "g11-fn-l07-m03",
+      "prompt": "For y = tan(x + 60°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "60° right",
+        "90° left",
+        "60 units up",
+        "60° left"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 60° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -60°.",
+        "Translate every corresponding point 60° left; keep amplitude and period unchanged.",
+        "Answer: 60° left. Check the shifted input equals zero at x = -60°."
+      ],
+      "memo": "Sketch the parent tan curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 60° = 0. Therefore the reference point moves from x = 0° to x = -60°. Translate every corresponding point 60° left; keep amplitude and period unchanged. Answer: 60° left. Check the shifted input equals zero at x = -60°."
+    },
+    {
+      "id": "g11-fn-l07-m04",
+      "prompt": "For y = sin(x − 240°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "270° right",
+        "240 units up",
+        "240° right",
+        "240° left"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 240° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 240°.",
+        "Translate every corresponding point 240° right; keep amplitude and period unchanged.",
+        "Answer: 240° right. Check the shifted input equals zero at x = 240°."
+      ],
+      "memo": "Sketch the parent sin curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x − 240° = 0. Therefore the reference point moves from x = 0° to x = 240°. Translate every corresponding point 240° right; keep amplitude and period unchanged. Answer: 240° right. Check the shifted input equals zero at x = 240°."
+    },
+    {
+      "id": "g11-fn-l07-m05",
+      "prompt": "For y = cos(x − 30°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "30 units up",
+        "30° right",
+        "30° left",
+        "60° right"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 30° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 30°.",
+        "Translate every corresponding point 30° right; keep amplitude and period unchanged.",
+        "Answer: 30° right. Check the shifted input equals zero at x = 30°."
+      ],
+      "memo": "Sketch the parent cos curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x − 30° = 0. Therefore the reference point moves from x = 0° to x = 30°. Translate every corresponding point 30° right; keep amplitude and period unchanged. Answer: 30° right. Check the shifted input equals zero at x = 30°."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-fn-l07-r01",
+      "prompt": "For y = sin(x + 240°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "240° left",
+        "240° right",
+        "270° left",
+        "240 units up"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Sketch the parent sin curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 240° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -240°.",
+        "Translate every corresponding point 240° left; keep amplitude and period unchanged.",
+        "Answer: 240° left. Check the shifted input equals zero at x = -240°."
+      ],
+      "memo": "Sketch the parent sin curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 240° = 0. Therefore the reference point moves from x = 0° to x = -240°. Translate every corresponding point 240° left; keep amplitude and period unchanged. Answer: 240° left. Check the shifted input equals zero at x = -240°."
+    },
+    {
+      "id": "g11-fn-l07-r02",
+      "prompt": "For y = cos(x − 60°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "60° left",
+        "90° right",
+        "60 units up",
+        "60° right"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Sketch the parent cos curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x − 60° = 0.",
+        "Therefore the reference point moves from x = 0° to x = 60°.",
+        "Translate every corresponding point 60° right; keep amplitude and period unchanged.",
+        "Answer: 60° right. Check the shifted input equals zero at x = 60°."
+      ],
+      "memo": "Sketch the parent cos curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x − 60° = 0. Therefore the reference point moves from x = 0° to x = 60°. Translate every corresponding point 60° right; keep amplitude and period unchanged. Answer: 60° right. Check the shifted input equals zero at x = 60°."
+    },
+    {
+      "id": "g11-fn-l07-r03",
+      "prompt": "For y = tan(x + 150°), describe the horizontal translation of the parent graph.",
+      "options": [
+        "180° left",
+        "150 units up",
+        "150° left",
+        "150° right"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Sketch the parent tan curve on axes covering −360° to 360°.",
+        "Find the input that replaces parent x = 0: x + 150° = 0.",
+        "Therefore the reference point moves from x = 0° to x = -150°.",
+        "Translate every corresponding point 150° left; keep amplitude and period unchanged.",
+        "Answer: 150° left. Check the shifted input equals zero at x = -150°."
+      ],
+      "memo": "Sketch the parent tan curve on axes covering −360° to 360°. Find the input that replaces parent x = 0: x + 150° = 0. Therefore the reference point moves from x = 0° to x = -150°. Translate every corresponding point 150° left; keep amplitude and period unchanged. Answer: 150° left. Check the shifted input equals zero at x = -150°."
+    }
+  ]
+}

@@ -1,0 +1,838 @@
+{
+  "source": "grade11-fn-lesson-02.md",
+  "worked": [
+    {
+      "id": "g11-fn-l02-w01",
+      "lesson": 2,
+      "problem": "For f(x) = 2/(x − 2) − 1, state both asymptotes.",
+      "answer": "x = 2; y = -1",
+      "actions": [
+        "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 2 = 0, so x = 2 is excluded.",
+        "Draw the vertical asymptote x = 2; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = 2; y = -1. Check: the denominator vanishes at x = 2 and f(x) approaches -1 for large |x|."
+      ],
+      "check": "Answer: x = 2; y = -1. Check: the denominator vanishes at x = 2 and f(x) approaches -1 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": 2,
+          "p": -2,
+          "q": -1,
+          "vertical": 2,
+          "horizontal": -1
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l02-w02",
+      "lesson": 2,
+      "problem": "For f(x) = -2/(x + 0) + 2, state both asymptotes.",
+      "answer": "x = 0; y = 2",
+      "actions": [
+        "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 0 = 0, so x = 0 is excluded.",
+        "Draw the vertical asymptote x = 0; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = 0; y = 2. Check: the denominator vanishes at x = 0 and f(x) approaches 2 for large |x|."
+      ],
+      "check": "Answer: x = 0; y = 2. Check: the denominator vanishes at x = 0 and f(x) approaches 2 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": -2,
+          "p": 0,
+          "q": 2,
+          "vertical": 0,
+          "horizontal": 2
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l02-w03",
+      "lesson": 2,
+      "problem": "For f(x) = 3/(x + 2) − 4, state both asymptotes.",
+      "answer": "x = -2; y = -4",
+      "actions": [
+        "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 2 = 0, so x = -2 is excluded.",
+        "Draw the vertical asymptote x = -2; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = -2; y = -4. Check: the denominator vanishes at x = -2 and f(x) approaches -4 for large |x|."
+      ],
+      "check": "Answer: x = -2; y = -4. Check: the denominator vanishes at x = -2 and f(x) approaches -4 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": 3,
+          "p": 2,
+          "q": -4,
+          "vertical": -2,
+          "horizontal": -4
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l02-w04",
+      "lesson": 2,
+      "problem": "For f(x) = -3/(x + 4) − 1, state both asymptotes.",
+      "answer": "x = -4; y = -1",
+      "actions": [
+        "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 4 = 0, so x = -4 is excluded.",
+        "Draw the vertical asymptote x = -4; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = -4; y = -1. Check: the denominator vanishes at x = -4 and f(x) approaches -1 for large |x|."
+      ],
+      "check": "Answer: x = -4; y = -1. Check: the denominator vanishes at x = -4 and f(x) approaches -1 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": -3,
+          "p": 4,
+          "q": -1,
+          "vertical": -4,
+          "horizontal": -1
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l02-w05",
+      "lesson": 2,
+      "problem": "For f(x) = 2/(x − 3) + 2, state both asymptotes.",
+      "answer": "x = 3; y = 2",
+      "actions": [
+        "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 3 = 0, so x = 3 is excluded.",
+        "Draw the vertical asymptote x = 3; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = 3; y = 2. Check: the denominator vanishes at x = 3 and f(x) approaches 2 for large |x|."
+      ],
+      "check": "Answer: x = 3; y = 2. Check: the denominator vanishes at x = 3 and f(x) approaches 2 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": 2,
+          "p": -3,
+          "q": 2,
+          "vertical": 3,
+          "horizontal": 2
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l02-w06",
+      "lesson": 2,
+      "problem": "For f(x) = -2/(x − 1) − 4, state both asymptotes.",
+      "answer": "x = 1; y = -4",
+      "actions": [
+        "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 1 = 0, so x = 1 is excluded.",
+        "Draw the vertical asymptote x = 1; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = 1; y = -4. Check: the denominator vanishes at x = 1 and f(x) approaches -4 for large |x|."
+      ],
+      "check": "Answer: x = 1; y = -4. Check: the denominator vanishes at x = 1 and f(x) approaches -4 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": -2,
+          "p": -1,
+          "q": -4,
+          "vertical": 1,
+          "horizontal": -4
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l02-w07",
+      "lesson": 2,
+      "problem": "For f(x) = 3/(x + 1) − 1, state both asymptotes.",
+      "answer": "x = -1; y = -1",
+      "actions": [
+        "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 1 = 0, so x = -1 is excluded.",
+        "Draw the vertical asymptote x = -1; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = -1; y = -1. Check: the denominator vanishes at x = -1 and f(x) approaches -1 for large |x|."
+      ],
+      "check": "Answer: x = -1; y = -1. Check: the denominator vanishes at x = -1 and f(x) approaches -1 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": 3,
+          "p": 1,
+          "q": -1,
+          "vertical": -1,
+          "horizontal": -1
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l02-w08",
+      "lesson": 2,
+      "problem": "For f(x) = -3/(x + 3) + 2, state both asymptotes.",
+      "answer": "x = -3; y = 2",
+      "actions": [
+        "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 3 = 0, so x = -3 is excluded.",
+        "Draw the vertical asymptote x = -3; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = -3; y = 2. Check: the denominator vanishes at x = -3 and f(x) approaches 2 for large |x|."
+      ],
+      "check": "Answer: x = -3; y = 2. Check: the denominator vanishes at x = -3 and f(x) approaches 2 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": -3,
+          "p": 3,
+          "q": 2,
+          "vertical": -3,
+          "horizontal": 2
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l02-w09",
+      "lesson": 2,
+      "problem": "For f(x) = 2/(x − 4) − 4, state both asymptotes.",
+      "answer": "x = 4; y = -4",
+      "actions": [
+        "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 4 = 0, so x = 4 is excluded.",
+        "Draw the vertical asymptote x = 4; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = 4; y = -4. Check: the denominator vanishes at x = 4 and f(x) approaches -4 for large |x|."
+      ],
+      "check": "Answer: x = 4; y = -4. Check: the denominator vanishes at x = 4 and f(x) approaches -4 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": 2,
+          "p": -4,
+          "q": -4,
+          "vertical": 4,
+          "horizontal": -4
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l02-w10",
+      "lesson": 2,
+      "problem": "For f(x) = -2/(x − 2) − 1, state both asymptotes.",
+      "answer": "x = 2; y = -1",
+      "actions": [
+        "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 2 = 0, so x = 2 is excluded.",
+        "Draw the vertical asymptote x = 2; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = 2; y = -1. Check: the denominator vanishes at x = 2 and f(x) approaches -1 for large |x|."
+      ],
+      "check": "Answer: x = 2; y = -1. Check: the denominator vanishes at x = 2 and f(x) approaches -1 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": -2,
+          "p": -2,
+          "q": -1,
+          "vertical": 2,
+          "horizontal": -1
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l02-w11",
+      "lesson": 2,
+      "problem": "For f(x) = 3/(x + 0) + 2, state both asymptotes.",
+      "answer": "x = 0; y = 2",
+      "actions": [
+        "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 0 = 0, so x = 0 is excluded.",
+        "Draw the vertical asymptote x = 0; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = 0; y = 2. Check: the denominator vanishes at x = 0 and f(x) approaches 2 for large |x|."
+      ],
+      "check": "Answer: x = 0; y = 2. Check: the denominator vanishes at x = 0 and f(x) approaches 2 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": 3,
+          "p": 0,
+          "q": 2,
+          "vertical": 0,
+          "horizontal": 2
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l02-w12",
+      "lesson": 2,
+      "problem": "For f(x) = -3/(x + 2) − 4, state both asymptotes.",
+      "answer": "x = -2; y = -4",
+      "actions": [
+        "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 2 = 0, so x = -2 is excluded.",
+        "Draw the vertical asymptote x = -2; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = -2; y = -4. Check: the denominator vanishes at x = -2 and f(x) approaches -4 for large |x|."
+      ],
+      "check": "Answer: x = -2; y = -4. Check: the denominator vanishes at x = -2 and f(x) approaches -4 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": -3,
+          "p": 2,
+          "q": -4,
+          "vertical": -2,
+          "horizontal": -4
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l02-w13",
+      "lesson": 2,
+      "problem": "For f(x) = 2/(x + 4) − 1, state both asymptotes.",
+      "answer": "x = -4; y = -1",
+      "actions": [
+        "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 4 = 0, so x = -4 is excluded.",
+        "Draw the vertical asymptote x = -4; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = -4; y = -1. Check: the denominator vanishes at x = -4 and f(x) approaches -1 for large |x|."
+      ],
+      "check": "Answer: x = -4; y = -1. Check: the denominator vanishes at x = -4 and f(x) approaches -1 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": 2,
+          "p": 4,
+          "q": -1,
+          "vertical": -4,
+          "horizontal": -1
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l02-w14",
+      "lesson": 2,
+      "problem": "For f(x) = -2/(x − 3) + 2, state both asymptotes.",
+      "answer": "x = 3; y = 2",
+      "actions": [
+        "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 3 = 0, so x = 3 is excluded.",
+        "Draw the vertical asymptote x = 3; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = 3; y = 2. Check: the denominator vanishes at x = 3 and f(x) approaches 2 for large |x|."
+      ],
+      "check": "Answer: x = 3; y = 2. Check: the denominator vanishes at x = 3 and f(x) approaches 2 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": -2,
+          "p": -3,
+          "q": 2,
+          "vertical": 3,
+          "horizontal": 2
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l02-w15",
+      "lesson": 2,
+      "problem": "For f(x) = 3/(x − 1) − 4, state both asymptotes.",
+      "answer": "x = 1; y = -4",
+      "actions": [
+        "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 1 = 0, so x = 1 is excluded.",
+        "Draw the vertical asymptote x = 1; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = 1; y = -4. Check: the denominator vanishes at x = 1 and f(x) approaches -4 for large |x|."
+      ],
+      "check": "Answer: x = 1; y = -4. Check: the denominator vanishes at x = 1 and f(x) approaches -4 for large |x|.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "hyperbola",
+          "a": 3,
+          "p": -1,
+          "q": -4,
+          "vertical": 1,
+          "horizontal": -4
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-fn-l02-p01",
+      "prompt": "For f(x) = -3/(x + 1) − 1, state both asymptotes.",
+      "options": [
+        "x = -1; y = 1",
+        "x = 1; y = 1",
+        "x = -1; y = -1",
+        "x = 1; y = -1"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 1 = 0, so x = -1 is excluded.",
+        "Draw the vertical asymptote x = -1; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = -1; y = -1. Check: the denominator vanishes at x = -1 and f(x) approaches -1 for large |x|."
+      ],
+      "memo": "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 1 = 0, so x = -1 is excluded. Draw the vertical asymptote x = -1; translate the two branches around it. The vertical shift − 1 moves the horizontal asymptote to y = -1. Answer: x = -1; y = -1. Check: the denominator vanishes at x = -1 and f(x) approaches -1 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p02",
+      "prompt": "For f(x) = 2/(x + 3) + 2, state both asymptotes.",
+      "options": [
+        "x = 3; y = -2",
+        "x = -3; y = 2",
+        "x = 3; y = 2",
+        "x = -3; y = -2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 3 = 0, so x = -3 is excluded.",
+        "Draw the vertical asymptote x = -3; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = -3; y = 2. Check: the denominator vanishes at x = -3 and f(x) approaches 2 for large |x|."
+      ],
+      "memo": "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 3 = 0, so x = -3 is excluded. Draw the vertical asymptote x = -3; translate the two branches around it. The vertical shift + 2 moves the horizontal asymptote to y = 2. Answer: x = -3; y = 2. Check: the denominator vanishes at x = -3 and f(x) approaches 2 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p03",
+      "prompt": "For f(x) = -2/(x − 4) − 4, state both asymptotes.",
+      "options": [
+        "x = 4; y = -4",
+        "x = -4; y = -4",
+        "x = 4; y = 4",
+        "x = -4; y = 4"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 4 = 0, so x = 4 is excluded.",
+        "Draw the vertical asymptote x = 4; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = 4; y = -4. Check: the denominator vanishes at x = 4 and f(x) approaches -4 for large |x|."
+      ],
+      "memo": "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x − 4 = 0, so x = 4 is excluded. Draw the vertical asymptote x = 4; translate the two branches around it. The vertical shift − 4 moves the horizontal asymptote to y = -4. Answer: x = 4; y = -4. Check: the denominator vanishes at x = 4 and f(x) approaches -4 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p04",
+      "prompt": "For f(x) = 3/(x − 2) − 1, state both asymptotes.",
+      "options": [
+        "x = -2; y = -1",
+        "x = 2; y = 1",
+        "x = -2; y = 1",
+        "x = 2; y = -1"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 2 = 0, so x = 2 is excluded.",
+        "Draw the vertical asymptote x = 2; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = 2; y = -1. Check: the denominator vanishes at x = 2 and f(x) approaches -1 for large |x|."
+      ],
+      "memo": "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x − 2 = 0, so x = 2 is excluded. Draw the vertical asymptote x = 2; translate the two branches around it. The vertical shift − 1 moves the horizontal asymptote to y = -1. Answer: x = 2; y = -1. Check: the denominator vanishes at x = 2 and f(x) approaches -1 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p05",
+      "prompt": "For f(x) = -3/(x + 0) + 2, state both asymptotes.",
+      "options": [
+        "x = 1; y = 2",
+        "x = 2; y = 2",
+        "x = 0; y = 2",
+        "x = 0; y = -2"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 0 = 0, so x = 0 is excluded.",
+        "Draw the vertical asymptote x = 0; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = 0; y = 2. Check: the denominator vanishes at x = 0 and f(x) approaches 2 for large |x|."
+      ],
+      "memo": "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 0 = 0, so x = 0 is excluded. Draw the vertical asymptote x = 0; translate the two branches around it. The vertical shift + 2 moves the horizontal asymptote to y = 2. Answer: x = 0; y = 2. Check: the denominator vanishes at x = 0 and f(x) approaches 2 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p06",
+      "prompt": "For f(x) = 2/(x + 2) − 4, state both asymptotes.",
+      "options": [
+        "x = 2; y = 4",
+        "x = -2; y = -4",
+        "x = 2; y = -4",
+        "x = -2; y = 4"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 2 = 0, so x = -2 is excluded.",
+        "Draw the vertical asymptote x = -2; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = -2; y = -4. Check: the denominator vanishes at x = -2 and f(x) approaches -4 for large |x|."
+      ],
+      "memo": "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 2 = 0, so x = -2 is excluded. Draw the vertical asymptote x = -2; translate the two branches around it. The vertical shift − 4 moves the horizontal asymptote to y = -4. Answer: x = -2; y = -4. Check: the denominator vanishes at x = -2 and f(x) approaches -4 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p07",
+      "prompt": "For f(x) = -2/(x + 4) − 1, state both asymptotes.",
+      "options": [
+        "x = -4; y = -1",
+        "x = 4; y = -1",
+        "x = -4; y = 1",
+        "x = 4; y = 1"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 4 = 0, so x = -4 is excluded.",
+        "Draw the vertical asymptote x = -4; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = -4; y = -1. Check: the denominator vanishes at x = -4 and f(x) approaches -1 for large |x|."
+      ],
+      "memo": "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 4 = 0, so x = -4 is excluded. Draw the vertical asymptote x = -4; translate the two branches around it. The vertical shift − 1 moves the horizontal asymptote to y = -1. Answer: x = -4; y = -1. Check: the denominator vanishes at x = -4 and f(x) approaches -1 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p08",
+      "prompt": "For f(x) = 3/(x − 3) + 2, state both asymptotes.",
+      "options": [
+        "x = -3; y = 2",
+        "x = 3; y = -2",
+        "x = -3; y = -2",
+        "x = 3; y = 2"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 3 = 0, so x = 3 is excluded.",
+        "Draw the vertical asymptote x = 3; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = 3; y = 2. Check: the denominator vanishes at x = 3 and f(x) approaches 2 for large |x|."
+      ],
+      "memo": "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x − 3 = 0, so x = 3 is excluded. Draw the vertical asymptote x = 3; translate the two branches around it. The vertical shift + 2 moves the horizontal asymptote to y = 2. Answer: x = 3; y = 2. Check: the denominator vanishes at x = 3 and f(x) approaches 2 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p09",
+      "prompt": "For f(x) = -3/(x − 1) − 4, state both asymptotes.",
+      "options": [
+        "x = 1; y = 4",
+        "x = -1; y = 4",
+        "x = 1; y = -4",
+        "x = -1; y = -4"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 1 = 0, so x = 1 is excluded.",
+        "Draw the vertical asymptote x = 1; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = 1; y = -4. Check: the denominator vanishes at x = 1 and f(x) approaches -4 for large |x|."
+      ],
+      "memo": "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x − 1 = 0, so x = 1 is excluded. Draw the vertical asymptote x = 1; translate the two branches around it. The vertical shift − 4 moves the horizontal asymptote to y = -4. Answer: x = 1; y = -4. Check: the denominator vanishes at x = 1 and f(x) approaches -4 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p10",
+      "prompt": "For f(x) = 2/(x + 1) − 1, state both asymptotes.",
+      "options": [
+        "x = 1; y = 1",
+        "x = -1; y = -1",
+        "x = 1; y = -1",
+        "x = -1; y = 1"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 1 = 0, so x = -1 is excluded.",
+        "Draw the vertical asymptote x = -1; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = -1; y = -1. Check: the denominator vanishes at x = -1 and f(x) approaches -1 for large |x|."
+      ],
+      "memo": "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 1 = 0, so x = -1 is excluded. Draw the vertical asymptote x = -1; translate the two branches around it. The vertical shift − 1 moves the horizontal asymptote to y = -1. Answer: x = -1; y = -1. Check: the denominator vanishes at x = -1 and f(x) approaches -1 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p11",
+      "prompt": "For f(x) = -2/(x + 3) + 2, state both asymptotes.",
+      "options": [
+        "x = -3; y = 2",
+        "x = 3; y = 2",
+        "x = -3; y = -2",
+        "x = 3; y = -2"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 3 = 0, so x = -3 is excluded.",
+        "Draw the vertical asymptote x = -3; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = -3; y = 2. Check: the denominator vanishes at x = -3 and f(x) approaches 2 for large |x|."
+      ],
+      "memo": "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 3 = 0, so x = -3 is excluded. Draw the vertical asymptote x = -3; translate the two branches around it. The vertical shift + 2 moves the horizontal asymptote to y = 2. Answer: x = -3; y = 2. Check: the denominator vanishes at x = -3 and f(x) approaches 2 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p12",
+      "prompt": "For f(x) = 3/(x − 4) − 4, state both asymptotes.",
+      "options": [
+        "x = -4; y = -4",
+        "x = 4; y = 4",
+        "x = -4; y = 4",
+        "x = 4; y = -4"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 4 = 0, so x = 4 is excluded.",
+        "Draw the vertical asymptote x = 4; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = 4; y = -4. Check: the denominator vanishes at x = 4 and f(x) approaches -4 for large |x|."
+      ],
+      "memo": "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x − 4 = 0, so x = 4 is excluded. Draw the vertical asymptote x = 4; translate the two branches around it. The vertical shift − 4 moves the horizontal asymptote to y = -4. Answer: x = 4; y = -4. Check: the denominator vanishes at x = 4 and f(x) approaches -4 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p13",
+      "prompt": "For f(x) = -3/(x − 2) − 1, state both asymptotes.",
+      "options": [
+        "x = 2; y = 1",
+        "x = -2; y = 1",
+        "x = 2; y = -1",
+        "x = -2; y = -1"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 2 = 0, so x = 2 is excluded.",
+        "Draw the vertical asymptote x = 2; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = 2; y = -1. Check: the denominator vanishes at x = 2 and f(x) approaches -1 for large |x|."
+      ],
+      "memo": "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x − 2 = 0, so x = 2 is excluded. Draw the vertical asymptote x = 2; translate the two branches around it. The vertical shift − 1 moves the horizontal asymptote to y = -1. Answer: x = 2; y = -1. Check: the denominator vanishes at x = 2 and f(x) approaches -1 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p14",
+      "prompt": "For f(x) = 2/(x + 0) + 2, state both asymptotes.",
+      "options": [
+        "x = 2; y = 2",
+        "x = 0; y = 2",
+        "x = 0; y = -2",
+        "x = 1; y = 2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 0 = 0, so x = 0 is excluded.",
+        "Draw the vertical asymptote x = 0; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = 0; y = 2. Check: the denominator vanishes at x = 0 and f(x) approaches 2 for large |x|."
+      ],
+      "memo": "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 0 = 0, so x = 0 is excluded. Draw the vertical asymptote x = 0; translate the two branches around it. The vertical shift + 2 moves the horizontal asymptote to y = 2. Answer: x = 0; y = 2. Check: the denominator vanishes at x = 0 and f(x) approaches 2 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-p15",
+      "prompt": "For f(x) = -2/(x + 2) − 4, state both asymptotes.",
+      "options": [
+        "x = -2; y = -4",
+        "x = 2; y = -4",
+        "x = -2; y = 4",
+        "x = 2; y = 4"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 2 = 0, so x = -2 is excluded.",
+        "Draw the vertical asymptote x = -2; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = -2; y = -4. Check: the denominator vanishes at x = -2 and f(x) approaches -4 for large |x|."
+      ],
+      "memo": "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 2 = 0, so x = -2 is excluded. Draw the vertical asymptote x = -2; translate the two branches around it. The vertical shift − 4 moves the horizontal asymptote to y = -4. Answer: x = -2; y = -4. Check: the denominator vanishes at x = -2 and f(x) approaches -4 for large |x|."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-fn-l02-m01",
+      "prompt": "For f(x) = 3/(x + 4) − 1, state both asymptotes.",
+      "options": [
+        "x = 4; y = 1",
+        "x = -4; y = -1",
+        "x = 4; y = -1",
+        "x = -4; y = 1"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 4 = 0, so x = -4 is excluded.",
+        "Draw the vertical asymptote x = -4; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = -4; y = -1. Check: the denominator vanishes at x = -4 and f(x) approaches -1 for large |x|."
+      ],
+      "memo": "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 4 = 0, so x = -4 is excluded. Draw the vertical asymptote x = -4; translate the two branches around it. The vertical shift − 1 moves the horizontal asymptote to y = -1. Answer: x = -4; y = -1. Check: the denominator vanishes at x = -4 and f(x) approaches -1 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-m02",
+      "prompt": "For f(x) = -3/(x − 3) + 2, state both asymptotes.",
+      "options": [
+        "x = 3; y = 2",
+        "x = -3; y = 2",
+        "x = 3; y = -2",
+        "x = -3; y = -2"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 3 = 0, so x = 3 is excluded.",
+        "Draw the vertical asymptote x = 3; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = 3; y = 2. Check: the denominator vanishes at x = 3 and f(x) approaches 2 for large |x|."
+      ],
+      "memo": "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x − 3 = 0, so x = 3 is excluded. Draw the vertical asymptote x = 3; translate the two branches around it. The vertical shift + 2 moves the horizontal asymptote to y = 2. Answer: x = 3; y = 2. Check: the denominator vanishes at x = 3 and f(x) approaches 2 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-m03",
+      "prompt": "For f(x) = 2/(x − 1) − 4, state both asymptotes.",
+      "options": [
+        "x = -1; y = -4",
+        "x = 1; y = 4",
+        "x = -1; y = 4",
+        "x = 1; y = -4"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 1 = 0, so x = 1 is excluded.",
+        "Draw the vertical asymptote x = 1; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = 1; y = -4. Check: the denominator vanishes at x = 1 and f(x) approaches -4 for large |x|."
+      ],
+      "memo": "Start with y = 2/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x − 1 = 0, so x = 1 is excluded. Draw the vertical asymptote x = 1; translate the two branches around it. The vertical shift − 4 moves the horizontal asymptote to y = -4. Answer: x = 1; y = -4. Check: the denominator vanishes at x = 1 and f(x) approaches -4 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-m04",
+      "prompt": "For f(x) = -2/(x + 1) − 1, state both asymptotes.",
+      "options": [
+        "x = -1; y = 1",
+        "x = 1; y = 1",
+        "x = -1; y = -1",
+        "x = 1; y = -1"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 1 = 0, so x = -1 is excluded.",
+        "Draw the vertical asymptote x = -1; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = -1; y = -1. Check: the denominator vanishes at x = -1 and f(x) approaches -1 for large |x|."
+      ],
+      "memo": "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 1 = 0, so x = -1 is excluded. Draw the vertical asymptote x = -1; translate the two branches around it. The vertical shift − 1 moves the horizontal asymptote to y = -1. Answer: x = -1; y = -1. Check: the denominator vanishes at x = -1 and f(x) approaches -1 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-m05",
+      "prompt": "For f(x) = 3/(x + 3) + 2, state both asymptotes.",
+      "options": [
+        "x = 3; y = -2",
+        "x = -3; y = 2",
+        "x = 3; y = 2",
+        "x = -3; y = -2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 3 = 0, so x = -3 is excluded.",
+        "Draw the vertical asymptote x = -3; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = -3; y = 2. Check: the denominator vanishes at x = -3 and f(x) approaches 2 for large |x|."
+      ],
+      "memo": "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 3 = 0, so x = -3 is excluded. Draw the vertical asymptote x = -3; translate the two branches around it. The vertical shift + 2 moves the horizontal asymptote to y = 2. Answer: x = -3; y = 2. Check: the denominator vanishes at x = -3 and f(x) approaches 2 for large |x|."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-fn-l02-r01",
+      "prompt": "For f(x) = -2/(x − 2) − 1, state both asymptotes.",
+      "options": [
+        "x = 2; y = -1",
+        "x = -2; y = -1",
+        "x = 2; y = 1",
+        "x = -2; y = 1"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x − 2 = 0, so x = 2 is excluded.",
+        "Draw the vertical asymptote x = 2; translate the two branches around it.",
+        "The vertical shift − 1 moves the horizontal asymptote to y = -1.",
+        "Answer: x = 2; y = -1. Check: the denominator vanishes at x = 2 and f(x) approaches -1 for large |x|."
+      ],
+      "memo": "Start with y = -2/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x − 2 = 0, so x = 2 is excluded. Draw the vertical asymptote x = 2; translate the two branches around it. The vertical shift − 1 moves the horizontal asymptote to y = -1. Answer: x = 2; y = -1. Check: the denominator vanishes at x = 2 and f(x) approaches -1 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-r02",
+      "prompt": "For f(x) = 3/(x + 0) + 2, state both asymptotes.",
+      "options": [
+        "x = 0; y = -2",
+        "x = 1; y = 2",
+        "x = 2; y = 2",
+        "x = 0; y = 2"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 0 = 0, so x = 0 is excluded.",
+        "Draw the vertical asymptote x = 0; translate the two branches around it.",
+        "The vertical shift + 2 moves the horizontal asymptote to y = 2.",
+        "Answer: x = 0; y = 2. Check: the denominator vanishes at x = 0 and f(x) approaches 2 for large |x|."
+      ],
+      "memo": "Start with y = 3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 0 = 0, so x = 0 is excluded. Draw the vertical asymptote x = 0; translate the two branches around it. The vertical shift + 2 moves the horizontal asymptote to y = 2. Answer: x = 0; y = 2. Check: the denominator vanishes at x = 0 and f(x) approaches 2 for large |x|."
+    },
+    {
+      "id": "g11-fn-l02-r03",
+      "prompt": "For f(x) = -3/(x + 2) − 4, state both asymptotes.",
+      "options": [
+        "x = -2; y = 4",
+        "x = 2; y = 4",
+        "x = -2; y = -4",
+        "x = 2; y = -4"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0.",
+        "Set the denominator to zero: x + 2 = 0, so x = -2 is excluded.",
+        "Draw the vertical asymptote x = -2; translate the two branches around it.",
+        "The vertical shift − 4 moves the horizontal asymptote to y = -4.",
+        "Answer: x = -2; y = -4. Check: the denominator vanishes at x = -2 and f(x) approaches -4 for large |x|."
+      ],
+      "memo": "Start with y = -3/x, which is undefined at x = 0 and approaches y = 0. Set the denominator to zero: x + 2 = 0, so x = -2 is excluded. Draw the vertical asymptote x = -2; translate the two branches around it. The vertical shift − 4 moves the horizontal asymptote to y = -4. Answer: x = -2; y = -4. Check: the denominator vanishes at x = -2 and f(x) approaches -4 for large |x|."
+    }
+  ]
+}

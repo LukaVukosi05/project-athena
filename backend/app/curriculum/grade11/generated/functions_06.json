@@ -1,0 +1,808 @@
+{
+  "source": "grade11-fn-lesson-06.md",
+  "worked": [
+    {
+      "id": "g11-fn-l06-w01",
+      "lesson": 6,
+      "problem": "For y = sin(1x), determine the period in degrees.",
+      "answer": "period = 360°",
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(1x) takes 360° ÷ 1 = 360°.",
+        "Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+      ],
+      "check": "Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "sin",
+          "k": 1,
+          "period": 360
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l06-w02",
+      "lesson": 6,
+      "problem": "For y = cos(1x), determine the period in degrees.",
+      "answer": "period = 360°",
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(1x) takes 360° ÷ 1 = 360°.",
+        "Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+      ],
+      "check": "Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "cos",
+          "k": 1,
+          "period": 360
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l06-w03",
+      "lesson": 6,
+      "problem": "For y = tan(1x), determine the period in degrees.",
+      "answer": "period = 180°",
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(1x) takes 180° ÷ 1 = 180°.",
+        "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+      ],
+      "check": "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "tan",
+          "k": 1,
+          "period": 180
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l06-w04",
+      "lesson": 6,
+      "problem": "For y = sin(2x), determine the period in degrees.",
+      "answer": "period = 180°",
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 2 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(2x) takes 360° ÷ 2 = 180°.",
+        "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+      ],
+      "check": "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "sin",
+          "k": 2,
+          "period": 180
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l06-w05",
+      "lesson": 6,
+      "problem": "For y = cos(2x), determine the period in degrees.",
+      "answer": "period = 180°",
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 2 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(2x) takes 360° ÷ 2 = 180°.",
+        "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+      ],
+      "check": "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "cos",
+          "k": 2,
+          "period": 180
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l06-w06",
+      "lesson": 6,
+      "problem": "For y = tan(2x), determine the period in degrees.",
+      "answer": "period = 90°",
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 2 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(2x) takes 180° ÷ 2 = 90°.",
+        "Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°."
+      ],
+      "check": "Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "tan",
+          "k": 2,
+          "period": 90
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l06-w07",
+      "lesson": 6,
+      "problem": "For y = sin(3x), determine the period in degrees.",
+      "answer": "period = 120°",
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 3 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(3x) takes 360° ÷ 3 = 120°.",
+        "Answer: period = 120°. Check the transformed graph repeats after a horizontal shift of 120°."
+      ],
+      "check": "Answer: period = 120°. Check the transformed graph repeats after a horizontal shift of 120°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "sin",
+          "k": 3,
+          "period": 120
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l06-w08",
+      "lesson": 6,
+      "problem": "For y = cos(3x), determine the period in degrees.",
+      "answer": "period = 120°",
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 3 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(3x) takes 360° ÷ 3 = 120°.",
+        "Answer: period = 120°. Check the transformed graph repeats after a horizontal shift of 120°."
+      ],
+      "check": "Answer: period = 120°. Check the transformed graph repeats after a horizontal shift of 120°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "cos",
+          "k": 3,
+          "period": 120
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l06-w09",
+      "lesson": 6,
+      "problem": "For y = tan(3x), determine the period in degrees.",
+      "answer": "period = 60°",
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 3 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(3x) takes 180° ÷ 3 = 60°.",
+        "Answer: period = 60°. Check the transformed graph repeats after a horizontal shift of 60°."
+      ],
+      "check": "Answer: period = 60°. Check the transformed graph repeats after a horizontal shift of 60°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "tan",
+          "k": 3,
+          "period": 60
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l06-w10",
+      "lesson": 6,
+      "problem": "For y = sin(4x), determine the period in degrees.",
+      "answer": "period = 90°",
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 4 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(4x) takes 360° ÷ 4 = 90°.",
+        "Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°."
+      ],
+      "check": "Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "sin",
+          "k": 4,
+          "period": 90
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l06-w11",
+      "lesson": 6,
+      "problem": "For y = cos(4x), determine the period in degrees.",
+      "answer": "period = 90°",
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 4 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(4x) takes 360° ÷ 4 = 90°.",
+        "Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°."
+      ],
+      "check": "Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "cos",
+          "k": 4,
+          "period": 90
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l06-w12",
+      "lesson": 6,
+      "problem": "For y = tan(4x), determine the period in degrees.",
+      "answer": "period = 45°",
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 4 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(4x) takes 180° ÷ 4 = 45°.",
+        "Answer: period = 45°. Check the transformed graph repeats after a horizontal shift of 45°."
+      ],
+      "check": "Answer: period = 45°. Check the transformed graph repeats after a horizontal shift of 45°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "tan",
+          "k": 4,
+          "period": 45
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l06-w13",
+      "lesson": 6,
+      "problem": "For y = sin(5x), determine the period in degrees.",
+      "answer": "period = 72°",
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 5 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(5x) takes 360° ÷ 5 = 72°.",
+        "Answer: period = 72°. Check the transformed graph repeats after a horizontal shift of 72°."
+      ],
+      "check": "Answer: period = 72°. Check the transformed graph repeats after a horizontal shift of 72°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "sin",
+          "k": 5,
+          "period": 72
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l06-w14",
+      "lesson": 6,
+      "problem": "For y = cos(5x), determine the period in degrees.",
+      "answer": "period = 72°",
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 5 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(5x) takes 360° ÷ 5 = 72°.",
+        "Answer: period = 72°. Check the transformed graph repeats after a horizontal shift of 72°."
+      ],
+      "check": "Answer: period = 72°. Check the transformed graph repeats after a horizontal shift of 72°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "cos",
+          "k": 5,
+          "period": 72
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l06-w15",
+      "lesson": 6,
+      "problem": "For y = tan(5x), determine the period in degrees.",
+      "answer": "period = 36°",
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 5 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(5x) takes 180° ÷ 5 = 36°.",
+        "Answer: period = 36°. Check the transformed graph repeats after a horizontal shift of 36°."
+      ],
+      "check": "Answer: period = 36°. Check the transformed graph repeats after a horizontal shift of 36°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_frequency",
+          "fn": "tan",
+          "k": 5,
+          "period": 36
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-fn-l06-p01",
+      "prompt": "For y = sin(1x), determine the period in degrees.",
+      "options": [
+        "period = 390°",
+        "period = 420°",
+        "period = 360°",
+        "period = 180°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(1x) takes 360° ÷ 1 = 360°.",
+        "Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+      ],
+      "memo": "Start with the parent y = sin x; its period is 360°. The factor k = 1 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = sin(1x) takes 360° ÷ 1 = 360°. Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+    },
+    {
+      "id": "g11-fn-l06-p02",
+      "prompt": "For y = cos(1x), determine the period in degrees.",
+      "options": [
+        "period = 420°",
+        "period = 360°",
+        "period = 180°",
+        "period = 390°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(1x) takes 360° ÷ 1 = 360°.",
+        "Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+      ],
+      "memo": "Start with the parent y = cos x; its period is 360°. The factor k = 1 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = cos(1x) takes 360° ÷ 1 = 360°. Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+    },
+    {
+      "id": "g11-fn-l06-p03",
+      "prompt": "For y = tan(1x), determine the period in degrees.",
+      "options": [
+        "period = 180°",
+        "period = 90°",
+        "period = 210°",
+        "period = 240°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(1x) takes 180° ÷ 1 = 180°.",
+        "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+      ],
+      "memo": "Start with the parent y = tan x; its period is 180°. The factor k = 1 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = tan(1x) takes 180° ÷ 1 = 180°. Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+    },
+    {
+      "id": "g11-fn-l06-p04",
+      "prompt": "For y = sin(2x), determine the period in degrees.",
+      "options": [
+        "period = 720°",
+        "period = 360°",
+        "period = 210°",
+        "period = 180°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 2 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(2x) takes 360° ÷ 2 = 180°.",
+        "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+      ],
+      "memo": "Start with the parent y = sin x; its period is 360°. The factor k = 2 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = sin(2x) takes 360° ÷ 2 = 180°. Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+    },
+    {
+      "id": "g11-fn-l06-p05",
+      "prompt": "For y = cos(2x), determine the period in degrees.",
+      "options": [
+        "period = 360°",
+        "period = 210°",
+        "period = 180°",
+        "period = 720°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 2 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(2x) takes 360° ÷ 2 = 180°.",
+        "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+      ],
+      "memo": "Start with the parent y = cos x; its period is 360°. The factor k = 2 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = cos(2x) takes 360° ÷ 2 = 180°. Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+    },
+    {
+      "id": "g11-fn-l06-p06",
+      "prompt": "For y = tan(2x), determine the period in degrees.",
+      "options": [
+        "period = 120°",
+        "period = 90°",
+        "period = 360°",
+        "period = 180°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 2 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(2x) takes 180° ÷ 2 = 90°.",
+        "Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°."
+      ],
+      "memo": "Start with the parent y = tan x; its period is 180°. The factor k = 2 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = tan(2x) takes 180° ÷ 2 = 90°. Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°."
+    },
+    {
+      "id": "g11-fn-l06-p07",
+      "prompt": "For y = sin(3x), determine the period in degrees.",
+      "options": [
+        "period = 120°",
+        "period = 1080°",
+        "period = 360°",
+        "period = 150°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 3 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(3x) takes 360° ÷ 3 = 120°.",
+        "Answer: period = 120°. Check the transformed graph repeats after a horizontal shift of 120°."
+      ],
+      "memo": "Start with the parent y = sin x; its period is 360°. The factor k = 3 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = sin(3x) takes 360° ÷ 3 = 120°. Answer: period = 120°. Check the transformed graph repeats after a horizontal shift of 120°."
+    },
+    {
+      "id": "g11-fn-l06-p08",
+      "prompt": "For y = cos(3x), determine the period in degrees.",
+      "options": [
+        "period = 1080°",
+        "period = 360°",
+        "period = 150°",
+        "period = 120°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 3 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(3x) takes 360° ÷ 3 = 120°.",
+        "Answer: period = 120°. Check the transformed graph repeats after a horizontal shift of 120°."
+      ],
+      "memo": "Start with the parent y = cos x; its period is 360°. The factor k = 3 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = cos(3x) takes 360° ÷ 3 = 120°. Answer: period = 120°. Check the transformed graph repeats after a horizontal shift of 120°."
+    },
+    {
+      "id": "g11-fn-l06-p09",
+      "prompt": "For y = tan(3x), determine the period in degrees.",
+      "options": [
+        "period = 180°",
+        "period = 90°",
+        "period = 60°",
+        "period = 540°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 3 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(3x) takes 180° ÷ 3 = 60°.",
+        "Answer: period = 60°. Check the transformed graph repeats after a horizontal shift of 60°."
+      ],
+      "memo": "Start with the parent y = tan x; its period is 180°. The factor k = 3 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = tan(3x) takes 180° ÷ 3 = 60°. Answer: period = 60°. Check the transformed graph repeats after a horizontal shift of 60°."
+    },
+    {
+      "id": "g11-fn-l06-p10",
+      "prompt": "For y = sin(4x), determine the period in degrees.",
+      "options": [
+        "period = 120°",
+        "period = 90°",
+        "period = 1440°",
+        "period = 360°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 4 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(4x) takes 360° ÷ 4 = 90°.",
+        "Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°."
+      ],
+      "memo": "Start with the parent y = sin x; its period is 360°. The factor k = 4 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = sin(4x) takes 360° ÷ 4 = 90°. Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°."
+    },
+    {
+      "id": "g11-fn-l06-p11",
+      "prompt": "For y = cos(4x), determine the period in degrees.",
+      "options": [
+        "period = 90°",
+        "period = 1440°",
+        "period = 360°",
+        "period = 120°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 4 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(4x) takes 360° ÷ 4 = 90°.",
+        "Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°."
+      ],
+      "memo": "Start with the parent y = cos x; its period is 360°. The factor k = 4 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = cos(4x) takes 360° ÷ 4 = 90°. Answer: period = 90°. Check the transformed graph repeats after a horizontal shift of 90°."
+    },
+    {
+      "id": "g11-fn-l06-p12",
+      "prompt": "For y = tan(4x), determine the period in degrees.",
+      "options": [
+        "period = 720°",
+        "period = 180°",
+        "period = 75°",
+        "period = 45°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 4 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(4x) takes 180° ÷ 4 = 45°.",
+        "Answer: period = 45°. Check the transformed graph repeats after a horizontal shift of 45°."
+      ],
+      "memo": "Start with the parent y = tan x; its period is 180°. The factor k = 4 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = tan(4x) takes 180° ÷ 4 = 45°. Answer: period = 45°. Check the transformed graph repeats after a horizontal shift of 45°."
+    },
+    {
+      "id": "g11-fn-l06-p13",
+      "prompt": "For y = sin(5x), determine the period in degrees.",
+      "options": [
+        "period = 360°",
+        "period = 102°",
+        "period = 72°",
+        "period = 1800°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 5 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(5x) takes 360° ÷ 5 = 72°.",
+        "Answer: period = 72°. Check the transformed graph repeats after a horizontal shift of 72°."
+      ],
+      "memo": "Start with the parent y = sin x; its period is 360°. The factor k = 5 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = sin(5x) takes 360° ÷ 5 = 72°. Answer: period = 72°. Check the transformed graph repeats after a horizontal shift of 72°."
+    },
+    {
+      "id": "g11-fn-l06-p14",
+      "prompt": "For y = cos(5x), determine the period in degrees.",
+      "options": [
+        "period = 102°",
+        "period = 72°",
+        "period = 1800°",
+        "period = 360°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 5 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(5x) takes 360° ÷ 5 = 72°.",
+        "Answer: period = 72°. Check the transformed graph repeats after a horizontal shift of 72°."
+      ],
+      "memo": "Start with the parent y = cos x; its period is 360°. The factor k = 5 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = cos(5x) takes 360° ÷ 5 = 72°. Answer: period = 72°. Check the transformed graph repeats after a horizontal shift of 72°."
+    },
+    {
+      "id": "g11-fn-l06-p15",
+      "prompt": "For y = tan(5x), determine the period in degrees.",
+      "options": [
+        "period = 36°",
+        "period = 900°",
+        "period = 180°",
+        "period = 66°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 5 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(5x) takes 180° ÷ 5 = 36°.",
+        "Answer: period = 36°. Check the transformed graph repeats after a horizontal shift of 36°."
+      ],
+      "memo": "Start with the parent y = tan x; its period is 180°. The factor k = 5 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = tan(5x) takes 180° ÷ 5 = 36°. Answer: period = 36°. Check the transformed graph repeats after a horizontal shift of 36°."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-fn-l06-m01",
+      "prompt": "For y = sin(1x), determine the period in degrees.",
+      "options": [
+        "period = 420°",
+        "period = 360°",
+        "period = 180°",
+        "period = 390°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(1x) takes 360° ÷ 1 = 360°.",
+        "Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+      ],
+      "memo": "Start with the parent y = sin x; its period is 360°. The factor k = 1 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = sin(1x) takes 360° ÷ 1 = 360°. Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+    },
+    {
+      "id": "g11-fn-l06-m02",
+      "prompt": "For y = cos(1x), determine the period in degrees.",
+      "options": [
+        "period = 360°",
+        "period = 180°",
+        "period = 390°",
+        "period = 420°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(1x) takes 360° ÷ 1 = 360°.",
+        "Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+      ],
+      "memo": "Start with the parent y = cos x; its period is 360°. The factor k = 1 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = cos(1x) takes 360° ÷ 1 = 360°. Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+    },
+    {
+      "id": "g11-fn-l06-m03",
+      "prompt": "For y = tan(1x), determine the period in degrees.",
+      "options": [
+        "period = 90°",
+        "period = 210°",
+        "period = 240°",
+        "period = 180°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(1x) takes 180° ÷ 1 = 180°.",
+        "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+      ],
+      "memo": "Start with the parent y = tan x; its period is 180°. The factor k = 1 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = tan(1x) takes 180° ÷ 1 = 180°. Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+    },
+    {
+      "id": "g11-fn-l06-m04",
+      "prompt": "For y = sin(2x), determine the period in degrees.",
+      "options": [
+        "period = 360°",
+        "period = 210°",
+        "period = 180°",
+        "period = 720°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 2 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(2x) takes 360° ÷ 2 = 180°.",
+        "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+      ],
+      "memo": "Start with the parent y = sin x; its period is 360°. The factor k = 2 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = sin(2x) takes 360° ÷ 2 = 180°. Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+    },
+    {
+      "id": "g11-fn-l06-m05",
+      "prompt": "For y = cos(2x), determine the period in degrees.",
+      "options": [
+        "period = 210°",
+        "period = 180°",
+        "period = 720°",
+        "period = 360°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 2 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(2x) takes 360° ÷ 2 = 180°.",
+        "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+      ],
+      "memo": "Start with the parent y = cos x; its period is 360°. The factor k = 2 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = cos(2x) takes 360° ÷ 2 = 180°. Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-fn-l06-r01",
+      "prompt": "For y = sin(1x), determine the period in degrees.",
+      "options": [
+        "period = 360°",
+        "period = 180°",
+        "period = 390°",
+        "period = 420°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent y = sin x; its period is 360°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = sin(1x) takes 360° ÷ 1 = 360°.",
+        "Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+      ],
+      "memo": "Start with the parent y = sin x; its period is 360°. The factor k = 1 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = sin(1x) takes 360° ÷ 1 = 360°. Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+    },
+    {
+      "id": "g11-fn-l06-r02",
+      "prompt": "For y = cos(1x), determine the period in degrees.",
+      "options": [
+        "period = 180°",
+        "period = 390°",
+        "period = 420°",
+        "period = 360°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with the parent y = cos x; its period is 360°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = cos(1x) takes 360° ÷ 1 = 360°.",
+        "Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+      ],
+      "memo": "Start with the parent y = cos x; its period is 360°. The factor k = 1 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = cos(1x) takes 360° ÷ 1 = 360°. Answer: period = 360°. Check the transformed graph repeats after a horizontal shift of 360°."
+    },
+    {
+      "id": "g11-fn-l06-r03",
+      "prompt": "For y = tan(1x), determine the period in degrees.",
+      "options": [
+        "period = 210°",
+        "period = 240°",
+        "period = 180°",
+        "period = 90°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent y = tan x; its period is 180°.",
+        "The factor k = 1 changes how rapidly the input angle is traversed.",
+        "Plot the parent and transformed graphs together over −360° to 360°.",
+        "One cycle of y = tan(1x) takes 180° ÷ 1 = 180°.",
+        "Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+      ],
+      "memo": "Start with the parent y = tan x; its period is 180°. The factor k = 1 changes how rapidly the input angle is traversed. Plot the parent and transformed graphs together over −360° to 360°. One cycle of y = tan(1x) takes 180° ÷ 1 = 180°. Answer: period = 180°. Check the transformed graph repeats after a horizontal shift of 180°."
+    }
+  ]
+}

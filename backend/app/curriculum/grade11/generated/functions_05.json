@@ -1,0 +1,808 @@
+{
+  "source": "grade11-fn-lesson-05.md",
+  "worked": [
+    {
+      "id": "g11-fn-l05-w01",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = sin θ to find sin(-150°).",
+      "answer": "sin(-150°) = −1/2",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = -150° on the axis; a full 360° turn gives equivalent angle 210°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(-150°) = −1/2.",
+        "Answer: sin(-150°) = −1/2. Check the quadrant sign and the periodic value at 210°."
+      ],
+      "check": "Answer: sin(-150°) = −1/2. Check the quadrant sign and the periodic value at 210°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "sin",
+          "theta": -150,
+          "result": "−1/2"
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l05-w02",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = cos θ to find cos(0°).",
+      "answer": "cos(0°) = 1",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = 0° on the axis; a full 360° turn gives equivalent angle 0°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(0°) = 1.",
+        "Answer: cos(0°) = 1. Check the quadrant sign and the periodic value at 0°."
+      ],
+      "check": "Answer: cos(0°) = 1. Check the quadrant sign and the periodic value at 0°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "cos",
+          "theta": 0,
+          "result": "1"
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l05-w03",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = tan θ to find tan(150°).",
+      "answer": "tan(150°) = −√3/3",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = 150° on the axis; a full 360° turn gives equivalent angle 150°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(150°) = −√3/3.",
+        "Answer: tan(150°) = −√3/3. Check the quadrant sign and the periodic value at 150°."
+      ],
+      "check": "Answer: tan(150°) = −√3/3. Check the quadrant sign and the periodic value at 150°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "tan",
+          "theta": 150,
+          "result": "−√3/3"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l05-w04",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = sin θ to find sin(315°).",
+      "answer": "sin(315°) = −√2/2",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = 315° on the axis; a full 360° turn gives equivalent angle 315°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(315°) = −√2/2.",
+        "Answer: sin(315°) = −√2/2. Check the quadrant sign and the periodic value at 315°."
+      ],
+      "check": "Answer: sin(315°) = −√2/2. Check the quadrant sign and the periodic value at 315°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "sin",
+          "theta": 315,
+          "result": "−√2/2"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l05-w05",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = cos θ to find cos(-210°).",
+      "answer": "cos(-210°) = −√3/2",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = -210° on the axis; a full 360° turn gives equivalent angle 150°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(-210°) = −√3/2.",
+        "Answer: cos(-210°) = −√3/2. Check the quadrant sign and the periodic value at 150°."
+      ],
+      "check": "Answer: cos(-210°) = −√3/2. Check the quadrant sign and the periodic value at 150°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "cos",
+          "theta": -210,
+          "result": "−√3/2"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l05-w06",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = tan θ to find tan(-45°).",
+      "answer": "tan(-45°) = −1",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = -45° on the axis; a full 360° turn gives equivalent angle 315°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(-45°) = −1.",
+        "Answer: tan(-45°) = −1. Check the quadrant sign and the periodic value at 315°."
+      ],
+      "check": "Answer: tan(-45°) = −1. Check the quadrant sign and the periodic value at 315°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "tan",
+          "theta": -45,
+          "result": "−1"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l05-w07",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = sin θ to find sin(120°).",
+      "answer": "sin(120°) = √3/2",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = 120° on the axis; a full 360° turn gives equivalent angle 120°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(120°) = √3/2.",
+        "Answer: sin(120°) = √3/2. Check the quadrant sign and the periodic value at 120°."
+      ],
+      "check": "Answer: sin(120°) = √3/2. Check the quadrant sign and the periodic value at 120°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "sin",
+          "theta": 120,
+          "result": "√3/2"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l05-w08",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = cos θ to find cos(270°).",
+      "answer": "cos(270°) = 0",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = 270° on the axis; a full 360° turn gives equivalent angle 270°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(270°) = 0.",
+        "Answer: cos(270°) = 0. Check the quadrant sign and the periodic value at 270°."
+      ],
+      "check": "Answer: cos(270°) = 0. Check the quadrant sign and the periodic value at 270°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "cos",
+          "theta": 270,
+          "result": "0"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l05-w09",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = tan θ to find tan(-240°).",
+      "answer": "tan(-240°) = −√3",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = -240° on the axis; a full 360° turn gives equivalent angle 120°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(-240°) = −√3.",
+        "Answer: tan(-240°) = −√3. Check the quadrant sign and the periodic value at 120°."
+      ],
+      "check": "Answer: tan(-240°) = −√3. Check the quadrant sign and the periodic value at 120°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "tan",
+          "theta": -240,
+          "result": "−√3"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l05-w10",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = sin θ to find sin(-90°).",
+      "answer": "sin(-90°) = −1",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = -90° on the axis; a full 360° turn gives equivalent angle 270°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(-90°) = −1.",
+        "Answer: sin(-90°) = −1. Check the quadrant sign and the periodic value at 270°."
+      ],
+      "check": "Answer: sin(-90°) = −1. Check the quadrant sign and the periodic value at 270°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "sin",
+          "theta": -90,
+          "result": "−1"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l05-w11",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = cos θ to find cos(60°).",
+      "answer": "cos(60°) = 1/2",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = 60° on the axis; a full 360° turn gives equivalent angle 60°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(60°) = 1/2.",
+        "Answer: cos(60°) = 1/2. Check the quadrant sign and the periodic value at 60°."
+      ],
+      "check": "Answer: cos(60°) = 1/2. Check the quadrant sign and the periodic value at 60°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "cos",
+          "theta": 60,
+          "result": "1/2"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l05-w12",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = tan θ to find tan(225°).",
+      "answer": "tan(225°) = 1",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = 225° on the axis; a full 360° turn gives equivalent angle 225°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(225°) = 1.",
+        "Answer: tan(225°) = 1. Check the quadrant sign and the periodic value at 225°."
+      ],
+      "check": "Answer: tan(225°) = 1. Check the quadrant sign and the periodic value at 225°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "tan",
+          "theta": 225,
+          "result": "1"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l05-w13",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = sin θ to find sin(-300°).",
+      "answer": "sin(-300°) = √3/2",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = -300° on the axis; a full 360° turn gives equivalent angle 60°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(-300°) = √3/2.",
+        "Answer: sin(-300°) = √3/2. Check the quadrant sign and the periodic value at 60°."
+      ],
+      "check": "Answer: sin(-300°) = √3/2. Check the quadrant sign and the periodic value at 60°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "sin",
+          "theta": -300,
+          "result": "√3/2"
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l05-w14",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = cos θ to find cos(-135°).",
+      "answer": "cos(-135°) = −√2/2",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = -135° on the axis; a full 360° turn gives equivalent angle 225°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(-135°) = −√2/2.",
+        "Answer: cos(-135°) = −√2/2. Check the quadrant sign and the periodic value at 225°."
+      ],
+      "check": "Answer: cos(-135°) = −√2/2. Check the quadrant sign and the periodic value at 225°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "cos",
+          "theta": -135,
+          "result": "−√2/2"
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l05-w15",
+      "lesson": 5,
+      "problem": "Use a point-by-point sketch of y = tan θ to find tan(30°).",
+      "answer": "tan(30°) = √3/3",
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = 30° on the axis; a full 360° turn gives equivalent angle 30°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(30°) = √3/3.",
+        "Answer: tan(30°) = √3/3. Check the quadrant sign and the periodic value at 30°."
+      ],
+      "check": "Answer: tan(30°) = √3/3. Check the quadrant sign and the periodic value at 30°.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_point",
+          "fn": "tan",
+          "theta": 30,
+          "result": "√3/3"
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-fn-l05-p01",
+      "prompt": "Use a point-by-point sketch of y = sin θ to find sin(180°).",
+      "options": [
+        "sin(180°) = −0",
+        "sin(180°) = 1/2",
+        "sin(180°) = 0",
+        "sin(180°) = 1"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = 180° on the axis; a full 360° turn gives equivalent angle 180°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(180°) = 0.",
+        "Answer: sin(180°) = 0. Check the quadrant sign and the periodic value at 180°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent sin curve. Locate θ = 180° on the axis; a full 360° turn gives equivalent angle 180°. Trace vertically to the sin curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: sin(180°) = 0. Answer: sin(180°) = 0. Check the quadrant sign and the periodic value at 180°."
+    },
+    {
+      "id": "g11-fn-l05-p02",
+      "prompt": "Use a point-by-point sketch of y = cos θ to find cos(330°).",
+      "options": [
+        "cos(330°) = 1/2",
+        "cos(330°) = √3/2",
+        "cos(330°) = 0",
+        "cos(330°) = −√3/2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = 330° on the axis; a full 360° turn gives equivalent angle 330°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(330°) = √3/2.",
+        "Answer: cos(330°) = √3/2. Check the quadrant sign and the periodic value at 330°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent cos curve. Locate θ = 330° on the axis; a full 360° turn gives equivalent angle 330°. Trace vertically to the cos curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: cos(330°) = √3/2. Answer: cos(330°) = √3/2. Check the quadrant sign and the periodic value at 330°."
+    },
+    {
+      "id": "g11-fn-l05-p03",
+      "prompt": "Use a point-by-point sketch of y = tan θ to find tan(-180°).",
+      "options": [
+        "tan(-180°) = 0",
+        "tan(-180°) = 1",
+        "tan(-180°) = −0",
+        "tan(-180°) = 1/2"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = -180° on the axis; a full 360° turn gives equivalent angle 180°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(-180°) = 0.",
+        "Answer: tan(-180°) = 0. Check the quadrant sign and the periodic value at 180°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent tan curve. Locate θ = -180° on the axis; a full 360° turn gives equivalent angle 180°. Trace vertically to the tan curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: tan(-180°) = 0. Answer: tan(-180°) = 0. Check the quadrant sign and the periodic value at 180°."
+    },
+    {
+      "id": "g11-fn-l05-p04",
+      "prompt": "Use a point-by-point sketch of y = sin θ to find sin(-30°).",
+      "options": [
+        "sin(-30°) = 0",
+        "sin(-30°) = 1/2",
+        "sin(-30°) = √2/2",
+        "sin(-30°) = −1/2"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = -30° on the axis; a full 360° turn gives equivalent angle 330°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(-30°) = −1/2.",
+        "Answer: sin(-30°) = −1/2. Check the quadrant sign and the periodic value at 330°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent sin curve. Locate θ = -30° on the axis; a full 360° turn gives equivalent angle 330°. Trace vertically to the sin curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: sin(-30°) = −1/2. Answer: sin(-30°) = −1/2. Check the quadrant sign and the periodic value at 330°."
+    },
+    {
+      "id": "g11-fn-l05-p05",
+      "prompt": "Use a point-by-point sketch of y = cos θ to find cos(135°).",
+      "options": [
+        "cos(135°) = √2/2",
+        "cos(135°) = 1/2",
+        "cos(135°) = −√2/2",
+        "cos(135°) = 0"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = 135° on the axis; a full 360° turn gives equivalent angle 135°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(135°) = −√2/2.",
+        "Answer: cos(135°) = −√2/2. Check the quadrant sign and the periodic value at 135°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent cos curve. Locate θ = 135° on the axis; a full 360° turn gives equivalent angle 135°. Trace vertically to the cos curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: cos(135°) = −√2/2. Answer: cos(135°) = −√2/2. Check the quadrant sign and the periodic value at 135°."
+    },
+    {
+      "id": "g11-fn-l05-p06",
+      "prompt": "Use a point-by-point sketch of y = tan θ to find tan(300°).",
+      "options": [
+        "tan(300°) = 1/2",
+        "tan(300°) = −√3",
+        "tan(300°) = 0",
+        "tan(300°) = √3"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = 300° on the axis; a full 360° turn gives equivalent angle 300°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(300°) = −√3.",
+        "Answer: tan(300°) = −√3. Check the quadrant sign and the periodic value at 300°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent tan curve. Locate θ = 300° on the axis; a full 360° turn gives equivalent angle 300°. Trace vertically to the tan curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: tan(300°) = −√3. Answer: tan(300°) = −√3. Check the quadrant sign and the periodic value at 300°."
+    },
+    {
+      "id": "g11-fn-l05-p07",
+      "prompt": "Use a point-by-point sketch of y = sin θ to find sin(-225°).",
+      "options": [
+        "sin(-225°) = √2/2",
+        "sin(-225°) = 0",
+        "sin(-225°) = −√2/2",
+        "sin(-225°) = 1/2"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = -225° on the axis; a full 360° turn gives equivalent angle 135°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(-225°) = √2/2.",
+        "Answer: sin(-225°) = √2/2. Check the quadrant sign and the periodic value at 135°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent sin curve. Locate θ = -225° on the axis; a full 360° turn gives equivalent angle 135°. Trace vertically to the sin curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: sin(-225°) = √2/2. Answer: sin(-225°) = √2/2. Check the quadrant sign and the periodic value at 135°."
+    },
+    {
+      "id": "g11-fn-l05-p08",
+      "prompt": "Use a point-by-point sketch of y = cos θ to find cos(-60°).",
+      "options": [
+        "cos(-60°) = 0",
+        "cos(-60°) = −1/2",
+        "cos(-60°) = √3/2",
+        "cos(-60°) = 1/2"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = -60° on the axis; a full 360° turn gives equivalent angle 300°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(-60°) = 1/2.",
+        "Answer: cos(-60°) = 1/2. Check the quadrant sign and the periodic value at 300°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent cos curve. Locate θ = -60° on the axis; a full 360° turn gives equivalent angle 300°. Trace vertically to the cos curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: cos(-60°) = 1/2. Answer: cos(-60°) = 1/2. Check the quadrant sign and the periodic value at 300°."
+    },
+    {
+      "id": "g11-fn-l05-p09",
+      "prompt": "Use a point-by-point sketch of y = tan θ to find tan(120°).",
+      "options": [
+        "tan(120°) = √3",
+        "tan(120°) = 1/2",
+        "tan(120°) = −√3",
+        "tan(120°) = 0"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = 120° on the axis; a full 360° turn gives equivalent angle 120°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(120°) = −√3.",
+        "Answer: tan(120°) = −√3. Check the quadrant sign and the periodic value at 120°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent tan curve. Locate θ = 120° on the axis; a full 360° turn gives equivalent angle 120°. Trace vertically to the tan curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: tan(120°) = −√3. Answer: tan(120°) = −√3. Check the quadrant sign and the periodic value at 120°."
+    },
+    {
+      "id": "g11-fn-l05-p10",
+      "prompt": "Use a point-by-point sketch of y = sin θ to find sin(240°).",
+      "options": [
+        "sin(240°) = 1/2",
+        "sin(240°) = −√3/2",
+        "sin(240°) = 0",
+        "sin(240°) = √3/2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = 240° on the axis; a full 360° turn gives equivalent angle 240°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(240°) = −√3/2.",
+        "Answer: sin(240°) = −√3/2. Check the quadrant sign and the periodic value at 240°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent sin curve. Locate θ = 240° on the axis; a full 360° turn gives equivalent angle 240°. Trace vertically to the sin curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: sin(240°) = −√3/2. Answer: sin(240°) = −√3/2. Check the quadrant sign and the periodic value at 240°."
+    },
+    {
+      "id": "g11-fn-l05-p11",
+      "prompt": "Use a point-by-point sketch of y = cos θ to find cos(-270°).",
+      "options": [
+        "cos(-270°) = 0",
+        "cos(-270°) = 1",
+        "cos(-270°) = −0",
+        "cos(-270°) = 1/2"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = -270° on the axis; a full 360° turn gives equivalent angle 90°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(-270°) = 0.",
+        "Answer: cos(-270°) = 0. Check the quadrant sign and the periodic value at 90°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent cos curve. Locate θ = -270° on the axis; a full 360° turn gives equivalent angle 90°. Trace vertically to the cos curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: cos(-270°) = 0. Answer: cos(-270°) = 0. Check the quadrant sign and the periodic value at 90°."
+    },
+    {
+      "id": "g11-fn-l05-p12",
+      "prompt": "Use a point-by-point sketch of y = tan θ to find tan(-120°).",
+      "options": [
+        "tan(-120°) = 0",
+        "tan(-120°) = −√3",
+        "tan(-120°) = 1/2",
+        "tan(-120°) = √3"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = -120° on the axis; a full 360° turn gives equivalent angle 240°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(-120°) = √3.",
+        "Answer: tan(-120°) = √3. Check the quadrant sign and the periodic value at 240°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent tan curve. Locate θ = -120° on the axis; a full 360° turn gives equivalent angle 240°. Trace vertically to the tan curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: tan(-120°) = √3. Answer: tan(-120°) = √3. Check the quadrant sign and the periodic value at 240°."
+    },
+    {
+      "id": "g11-fn-l05-p13",
+      "prompt": "Use a point-by-point sketch of y = sin θ to find sin(45°).",
+      "options": [
+        "sin(45°) = −√2/2",
+        "sin(45°) = 1/2",
+        "sin(45°) = √2/2",
+        "sin(45°) = 0"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = 45° on the axis; a full 360° turn gives equivalent angle 45°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(45°) = √2/2.",
+        "Answer: sin(45°) = √2/2. Check the quadrant sign and the periodic value at 45°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent sin curve. Locate θ = 45° on the axis; a full 360° turn gives equivalent angle 45°. Trace vertically to the sin curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: sin(45°) = √2/2. Answer: sin(45°) = √2/2. Check the quadrant sign and the periodic value at 45°."
+    },
+    {
+      "id": "g11-fn-l05-p14",
+      "prompt": "Use a point-by-point sketch of y = cos θ to find cos(210°).",
+      "options": [
+        "cos(210°) = 1/2",
+        "cos(210°) = −√3/2",
+        "cos(210°) = 0",
+        "cos(210°) = √3/2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = 210° on the axis; a full 360° turn gives equivalent angle 210°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(210°) = −√3/2.",
+        "Answer: cos(210°) = −√3/2. Check the quadrant sign and the periodic value at 210°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent cos curve. Locate θ = 210° on the axis; a full 360° turn gives equivalent angle 210°. Trace vertically to the cos curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: cos(210°) = −√3/2. Answer: cos(210°) = −√3/2. Check the quadrant sign and the periodic value at 210°."
+    },
+    {
+      "id": "g11-fn-l05-p15",
+      "prompt": "Use a point-by-point sketch of y = tan θ to find tan(-330°).",
+      "options": [
+        "tan(-330°) = √3/3",
+        "tan(-330°) = 0",
+        "tan(-330°) = −√3/3",
+        "tan(-330°) = 1/2"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = -330° on the axis; a full 360° turn gives equivalent angle 30°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(-330°) = √3/3.",
+        "Answer: tan(-330°) = √3/3. Check the quadrant sign and the periodic value at 30°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent tan curve. Locate θ = -330° on the axis; a full 360° turn gives equivalent angle 30°. Trace vertically to the tan curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: tan(-330°) = √3/3. Answer: tan(-330°) = √3/3. Check the quadrant sign and the periodic value at 30°."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-fn-l05-m01",
+      "prompt": "Use a point-by-point sketch of y = sin θ to find sin(-150°).",
+      "options": [
+        "sin(-150°) = √2/2",
+        "sin(-150°) = −1/2",
+        "sin(-150°) = 0",
+        "sin(-150°) = 1/2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = -150° on the axis; a full 360° turn gives equivalent angle 210°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(-150°) = −1/2.",
+        "Answer: sin(-150°) = −1/2. Check the quadrant sign and the periodic value at 210°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent sin curve. Locate θ = -150° on the axis; a full 360° turn gives equivalent angle 210°. Trace vertically to the sin curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: sin(-150°) = −1/2. Answer: sin(-150°) = −1/2. Check the quadrant sign and the periodic value at 210°."
+    },
+    {
+      "id": "g11-fn-l05-m02",
+      "prompt": "Use a point-by-point sketch of y = cos θ to find cos(0°).",
+      "options": [
+        "cos(0°) = 1",
+        "cos(0°) = 0",
+        "cos(0°) = −1",
+        "cos(0°) = 1/2"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = 0° on the axis; a full 360° turn gives equivalent angle 0°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(0°) = 1.",
+        "Answer: cos(0°) = 1. Check the quadrant sign and the periodic value at 0°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent cos curve. Locate θ = 0° on the axis; a full 360° turn gives equivalent angle 0°. Trace vertically to the cos curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: cos(0°) = 1. Answer: cos(0°) = 1. Check the quadrant sign and the periodic value at 0°."
+    },
+    {
+      "id": "g11-fn-l05-m03",
+      "prompt": "Use a point-by-point sketch of y = tan θ to find tan(150°).",
+      "options": [
+        "tan(150°) = 0",
+        "tan(150°) = √3/3",
+        "tan(150°) = 1/2",
+        "tan(150°) = −√3/3"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = 150° on the axis; a full 360° turn gives equivalent angle 150°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(150°) = −√3/3.",
+        "Answer: tan(150°) = −√3/3. Check the quadrant sign and the periodic value at 150°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent tan curve. Locate θ = 150° on the axis; a full 360° turn gives equivalent angle 150°. Trace vertically to the tan curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: tan(150°) = −√3/3. Answer: tan(150°) = −√3/3. Check the quadrant sign and the periodic value at 150°."
+    },
+    {
+      "id": "g11-fn-l05-m04",
+      "prompt": "Use a point-by-point sketch of y = sin θ to find sin(315°).",
+      "options": [
+        "sin(315°) = √2/2",
+        "sin(315°) = 1/2",
+        "sin(315°) = −√2/2",
+        "sin(315°) = 0"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = 315° on the axis; a full 360° turn gives equivalent angle 315°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(315°) = −√2/2.",
+        "Answer: sin(315°) = −√2/2. Check the quadrant sign and the periodic value at 315°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent sin curve. Locate θ = 315° on the axis; a full 360° turn gives equivalent angle 315°. Trace vertically to the sin curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: sin(315°) = −√2/2. Answer: sin(315°) = −√2/2. Check the quadrant sign and the periodic value at 315°."
+    },
+    {
+      "id": "g11-fn-l05-m05",
+      "prompt": "Use a point-by-point sketch of y = cos θ to find cos(-210°).",
+      "options": [
+        "cos(-210°) = 1/2",
+        "cos(-210°) = −√3/2",
+        "cos(-210°) = 0",
+        "cos(-210°) = √3/2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = -210° on the axis; a full 360° turn gives equivalent angle 150°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(-210°) = −√3/2.",
+        "Answer: cos(-210°) = −√3/2. Check the quadrant sign and the periodic value at 150°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent cos curve. Locate θ = -210° on the axis; a full 360° turn gives equivalent angle 150°. Trace vertically to the cos curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: cos(-210°) = −√3/2. Answer: cos(-210°) = −√3/2. Check the quadrant sign and the periodic value at 150°."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-fn-l05-r01",
+      "prompt": "Use a point-by-point sketch of y = sin θ to find sin(180°).",
+      "options": [
+        "sin(180°) = 0",
+        "sin(180°) = 1",
+        "sin(180°) = −0",
+        "sin(180°) = 1/2"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent sin curve.",
+        "Locate θ = 180° on the axis; a full 360° turn gives equivalent angle 180°.",
+        "Trace vertically to the sin curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: sin(180°) = 0.",
+        "Answer: sin(180°) = 0. Check the quadrant sign and the periodic value at 180°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent sin curve. Locate θ = 180° on the axis; a full 360° turn gives equivalent angle 180°. Trace vertically to the sin curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: sin(180°) = 0. Answer: sin(180°) = 0. Check the quadrant sign and the periodic value at 180°."
+    },
+    {
+      "id": "g11-fn-l05-r02",
+      "prompt": "Use a point-by-point sketch of y = cos θ to find cos(330°).",
+      "options": [
+        "cos(330°) = 0",
+        "cos(330°) = −√3/2",
+        "cos(330°) = 1/2",
+        "cos(330°) = √3/2"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent cos curve.",
+        "Locate θ = 330° on the axis; a full 360° turn gives equivalent angle 330°.",
+        "Trace vertically to the cos curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: cos(330°) = √3/2.",
+        "Answer: cos(330°) = √3/2. Check the quadrant sign and the periodic value at 330°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent cos curve. Locate θ = 330° on the axis; a full 360° turn gives equivalent angle 330°. Trace vertically to the cos curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: cos(330°) = √3/2. Answer: cos(330°) = √3/2. Check the quadrant sign and the periodic value at 330°."
+    },
+    {
+      "id": "g11-fn-l05-r03",
+      "prompt": "Use a point-by-point sketch of y = tan θ to find tan(-180°).",
+      "options": [
+        "tan(-180°) = −0",
+        "tan(-180°) = 1/2",
+        "tan(-180°) = 0",
+        "tan(-180°) = 1"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Mark the horizontal angle axis from −360° to 360° and the parent tan curve.",
+        "Locate θ = -180° on the axis; a full 360° turn gives equivalent angle 180°.",
+        "Trace vertically to the tan curve, respecting its sign and any undefined tangent positions.",
+        "Read the ordinate from the exact special angle: tan(-180°) = 0.",
+        "Answer: tan(-180°) = 0. Check the quadrant sign and the periodic value at 180°."
+      ],
+      "memo": "Mark the horizontal angle axis from −360° to 360° and the parent tan curve. Locate θ = -180° on the axis; a full 360° turn gives equivalent angle 180°. Trace vertically to the tan curve, respecting its sign and any undefined tangent positions. Read the ordinate from the exact special angle: tan(-180°) = 0. Answer: tan(-180°) = 0. Check the quadrant sign and the periodic value at 180°."
+    }
+  ]
+}

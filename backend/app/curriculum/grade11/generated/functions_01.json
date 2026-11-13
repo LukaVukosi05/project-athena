@@ -1,0 +1,868 @@
+{
+  "source": "grade11-fn-lesson-01.md",
+  "worked": [
+    {
+      "id": "g11-fn-l01-w01",
+      "lesson": 1,
+      "problem": "For f(x) = 1(x − 1)² + 0, find the turning point and identify its graph.",
+      "answer": "(1, 0)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The + 0 term shifts the graph vertically to the turning point (1, 0).",
+        "The coefficient 1 makes the parabola open up; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, 0). Check: f(1) = 0, with symmetric points at x = 0 and x = 2."
+      ],
+      "check": "Answer: turning point (1, 0). Check: f(1) = 0, with symmetric points at x = 0 and x = 2.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": 1,
+          "p": -1,
+          "q": 0,
+          "vertex": [
+            1,
+            0
+          ]
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l01-w02",
+      "lesson": 1,
+      "problem": "For f(x) = -1(x + 2)² + 5, find the turning point and identify its graph.",
+      "answer": "(-2, 5)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The + 5 term shifts the graph vertically to the turning point (-2, 5).",
+        "The coefficient -1 makes the parabola open down; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, 5). Check: f(-2) = 5, with symmetric points at x = -3 and x = -1."
+      ],
+      "check": "Answer: turning point (-2, 5). Check: f(-2) = 5, with symmetric points at x = -3 and x = -1.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": -1,
+          "p": 2,
+          "q": 5,
+          "vertex": [
+            -2,
+            5
+          ]
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l01-w03",
+      "lesson": 1,
+      "problem": "For f(x) = 2(x − 4)² − 1, find the turning point and identify its graph.",
+      "answer": "(4, -1)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The − 1 term shifts the graph vertically to the turning point (4, -1).",
+        "The coefficient 2 makes the parabola open up; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, -1). Check: f(4) = -1, with symmetric points at x = 3 and x = 5."
+      ],
+      "check": "Answer: turning point (4, -1). Check: f(4) = -1, with symmetric points at x = 3 and x = 5.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": 2,
+          "p": -4,
+          "q": -1,
+          "vertex": [
+            4,
+            -1
+          ]
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l01-w04",
+      "lesson": 1,
+      "problem": "For f(x) = -2(x − 1)² + 4, find the turning point and identify its graph.",
+      "answer": "(1, 4)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The + 4 term shifts the graph vertically to the turning point (1, 4).",
+        "The coefficient -2 makes the parabola open down; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, 4). Check: f(1) = 4, with symmetric points at x = 0 and x = 2."
+      ],
+      "check": "Answer: turning point (1, 4). Check: f(1) = 4, with symmetric points at x = 0 and x = 2.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": -2,
+          "p": -1,
+          "q": 4,
+          "vertex": [
+            1,
+            4
+          ]
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l01-w05",
+      "lesson": 1,
+      "problem": "For f(x) = 1(x + 2)² − 2, find the turning point and identify its graph.",
+      "answer": "(-2, -2)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The − 2 term shifts the graph vertically to the turning point (-2, -2).",
+        "The coefficient 1 makes the parabola open up; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, -2). Check: f(-2) = -2, with symmetric points at x = -3 and x = -1."
+      ],
+      "check": "Answer: turning point (-2, -2). Check: f(-2) = -2, with symmetric points at x = -3 and x = -1.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": 1,
+          "p": 2,
+          "q": -2,
+          "vertex": [
+            -2,
+            -2
+          ]
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l01-w06",
+      "lesson": 1,
+      "problem": "For f(x) = -1(x − 4)² + 3, find the turning point and identify its graph.",
+      "answer": "(4, 3)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The + 3 term shifts the graph vertically to the turning point (4, 3).",
+        "The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, 3). Check: f(4) = 3, with symmetric points at x = 3 and x = 5."
+      ],
+      "check": "Answer: turning point (4, 3). Check: f(4) = 3, with symmetric points at x = 3 and x = 5.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": -1,
+          "p": -4,
+          "q": 3,
+          "vertex": [
+            4,
+            3
+          ]
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l01-w07",
+      "lesson": 1,
+      "problem": "For f(x) = 2(x − 1)² − 3, find the turning point and identify its graph.",
+      "answer": "(1, -3)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The − 3 term shifts the graph vertically to the turning point (1, -3).",
+        "The coefficient 2 makes the parabola open up; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, -3). Check: f(1) = -3, with symmetric points at x = 0 and x = 2."
+      ],
+      "check": "Answer: turning point (1, -3). Check: f(1) = -3, with symmetric points at x = 0 and x = 2.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": 2,
+          "p": -1,
+          "q": -3,
+          "vertex": [
+            1,
+            -3
+          ]
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l01-w08",
+      "lesson": 1,
+      "problem": "For f(x) = -2(x + 2)² + 2, find the turning point and identify its graph.",
+      "answer": "(-2, 2)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The + 2 term shifts the graph vertically to the turning point (-2, 2).",
+        "The coefficient -2 makes the parabola open down; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, 2). Check: f(-2) = 2, with symmetric points at x = -3 and x = -1."
+      ],
+      "check": "Answer: turning point (-2, 2). Check: f(-2) = 2, with symmetric points at x = -3 and x = -1.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": -2,
+          "p": 2,
+          "q": 2,
+          "vertex": [
+            -2,
+            2
+          ]
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l01-w09",
+      "lesson": 1,
+      "problem": "For f(x) = 1(x − 4)² − 4, find the turning point and identify its graph.",
+      "answer": "(4, -4)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The − 4 term shifts the graph vertically to the turning point (4, -4).",
+        "The coefficient 1 makes the parabola open up; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, -4). Check: f(4) = -4, with symmetric points at x = 3 and x = 5."
+      ],
+      "check": "Answer: turning point (4, -4). Check: f(4) = -4, with symmetric points at x = 3 and x = 5.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": 1,
+          "p": -4,
+          "q": -4,
+          "vertex": [
+            4,
+            -4
+          ]
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l01-w10",
+      "lesson": 1,
+      "problem": "For f(x) = -1(x − 1)² + 1, find the turning point and identify its graph.",
+      "answer": "(1, 1)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The + 1 term shifts the graph vertically to the turning point (1, 1).",
+        "The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, 1). Check: f(1) = 1, with symmetric points at x = 0 and x = 2."
+      ],
+      "check": "Answer: turning point (1, 1). Check: f(1) = 1, with symmetric points at x = 0 and x = 2.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": -1,
+          "p": -1,
+          "q": 1,
+          "vertex": [
+            1,
+            1
+          ]
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l01-w11",
+      "lesson": 1,
+      "problem": "For f(x) = 2(x + 2)² − 5, find the turning point and identify its graph.",
+      "answer": "(-2, -5)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The − 5 term shifts the graph vertically to the turning point (-2, -5).",
+        "The coefficient 2 makes the parabola open up; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, -5). Check: f(-2) = -5, with symmetric points at x = -3 and x = -1."
+      ],
+      "check": "Answer: turning point (-2, -5). Check: f(-2) = -5, with symmetric points at x = -3 and x = -1.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": 2,
+          "p": 2,
+          "q": -5,
+          "vertex": [
+            -2,
+            -5
+          ]
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l01-w12",
+      "lesson": 1,
+      "problem": "For f(x) = -2(x − 4)² + 0, find the turning point and identify its graph.",
+      "answer": "(4, 0)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The + 0 term shifts the graph vertically to the turning point (4, 0).",
+        "The coefficient -2 makes the parabola open down; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, 0). Check: f(4) = 0, with symmetric points at x = 3 and x = 5."
+      ],
+      "check": "Answer: turning point (4, 0). Check: f(4) = 0, with symmetric points at x = 3 and x = 5.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": -2,
+          "p": -4,
+          "q": 0,
+          "vertex": [
+            4,
+            0
+          ]
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l01-w13",
+      "lesson": 1,
+      "problem": "For f(x) = 1(x − 1)² + 5, find the turning point and identify its graph.",
+      "answer": "(1, 5)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The + 5 term shifts the graph vertically to the turning point (1, 5).",
+        "The coefficient 1 makes the parabola open up; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, 5). Check: f(1) = 5, with symmetric points at x = 0 and x = 2."
+      ],
+      "check": "Answer: turning point (1, 5). Check: f(1) = 5, with symmetric points at x = 0 and x = 2.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": 1,
+          "p": -1,
+          "q": 5,
+          "vertex": [
+            1,
+            5
+          ]
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l01-w14",
+      "lesson": 1,
+      "problem": "For f(x) = -1(x + 2)² − 1, find the turning point and identify its graph.",
+      "answer": "(-2, -1)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The − 1 term shifts the graph vertically to the turning point (-2, -1).",
+        "The coefficient -1 makes the parabola open down; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, -1). Check: f(-2) = -1, with symmetric points at x = -3 and x = -1."
+      ],
+      "check": "Answer: turning point (-2, -1). Check: f(-2) = -1, with symmetric points at x = -3 and x = -1.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": -1,
+          "p": 2,
+          "q": -1,
+          "vertex": [
+            -2,
+            -1
+          ]
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l01-w15",
+      "lesson": 1,
+      "problem": "For f(x) = 2(x − 4)² + 4, find the turning point and identify its graph.",
+      "answer": "(4, 4)",
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The + 4 term shifts the graph vertically to the turning point (4, 4).",
+        "The coefficient 2 makes the parabola open up; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, 4). Check: f(4) = 4, with symmetric points at x = 3 and x = 5."
+      ],
+      "check": "Answer: turning point (4, 4). Check: f(4) = 4, with symmetric points at x = 3 and x = 5.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "quadratic",
+          "a": 2,
+          "p": -4,
+          "q": 4,
+          "vertex": [
+            4,
+            4
+          ]
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-fn-l01-p01",
+      "prompt": "For f(x) = -2(x − 1)² − 2, find the turning point and identify its graph.",
+      "options": [
+        "(1, 2)",
+        "(-1, 2)",
+        "(1, -2)",
+        "(-1, -2)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The − 2 term shifts the graph vertically to the turning point (1, -2).",
+        "The coefficient -2 makes the parabola open down; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, -2). Check: f(1) = -2, with symmetric points at x = 0 and x = 2."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 1 moves the graph 1 units right. The − 2 term shifts the graph vertically to the turning point (1, -2). The coefficient -2 makes the parabola open down; plot points one unit to either side of x = 1. Answer: turning point (1, -2). Check: f(1) = -2, with symmetric points at x = 0 and x = 2."
+    },
+    {
+      "id": "g11-fn-l01-p02",
+      "prompt": "For f(x) = 1(x + 2)² + 3, find the turning point and identify its graph.",
+      "options": [
+        "(2, -3)",
+        "(-2, 3)",
+        "(2, 3)",
+        "(-2, -3)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The + 3 term shifts the graph vertically to the turning point (-2, 3).",
+        "The coefficient 1 makes the parabola open up; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, 3). Check: f(-2) = 3, with symmetric points at x = -3 and x = -1."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x + 2 moves the graph 2 units left. The + 3 term shifts the graph vertically to the turning point (-2, 3). The coefficient 1 makes the parabola open up; plot points one unit to either side of x = -2. Answer: turning point (-2, 3). Check: f(-2) = 3, with symmetric points at x = -3 and x = -1."
+    },
+    {
+      "id": "g11-fn-l01-p03",
+      "prompt": "For f(x) = -1(x − 4)² − 3, find the turning point and identify its graph.",
+      "options": [
+        "(4, -3)",
+        "(-4, -3)",
+        "(4, 3)",
+        "(-4, 3)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The − 3 term shifts the graph vertically to the turning point (4, -3).",
+        "The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, -3). Check: f(4) = -3, with symmetric points at x = 3 and x = 5."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 4 moves the graph 4 units right. The − 3 term shifts the graph vertically to the turning point (4, -3). The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 4. Answer: turning point (4, -3). Check: f(4) = -3, with symmetric points at x = 3 and x = 5."
+    },
+    {
+      "id": "g11-fn-l01-p04",
+      "prompt": "For f(x) = 2(x − 1)² + 2, find the turning point and identify its graph.",
+      "options": [
+        "(-1, 2)",
+        "(1, -2)",
+        "(-1, -2)",
+        "(1, 2)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The + 2 term shifts the graph vertically to the turning point (1, 2).",
+        "The coefficient 2 makes the parabola open up; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, 2). Check: f(1) = 2, with symmetric points at x = 0 and x = 2."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 1 moves the graph 1 units right. The + 2 term shifts the graph vertically to the turning point (1, 2). The coefficient 2 makes the parabola open up; plot points one unit to either side of x = 1. Answer: turning point (1, 2). Check: f(1) = 2, with symmetric points at x = 0 and x = 2."
+    },
+    {
+      "id": "g11-fn-l01-p05",
+      "prompt": "For f(x) = -2(x + 2)² − 4, find the turning point and identify its graph.",
+      "options": [
+        "(-2, 4)",
+        "(2, 4)",
+        "(-2, -4)",
+        "(2, -4)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The − 4 term shifts the graph vertically to the turning point (-2, -4).",
+        "The coefficient -2 makes the parabola open down; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, -4). Check: f(-2) = -4, with symmetric points at x = -3 and x = -1."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x + 2 moves the graph 2 units left. The − 4 term shifts the graph vertically to the turning point (-2, -4). The coefficient -2 makes the parabola open down; plot points one unit to either side of x = -2. Answer: turning point (-2, -4). Check: f(-2) = -4, with symmetric points at x = -3 and x = -1."
+    },
+    {
+      "id": "g11-fn-l01-p06",
+      "prompt": "For f(x) = 1(x − 4)² + 1, find the turning point and identify its graph.",
+      "options": [
+        "(-4, -1)",
+        "(4, 1)",
+        "(-4, 1)",
+        "(4, -1)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The + 1 term shifts the graph vertically to the turning point (4, 1).",
+        "The coefficient 1 makes the parabola open up; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, 1). Check: f(4) = 1, with symmetric points at x = 3 and x = 5."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 4 moves the graph 4 units right. The + 1 term shifts the graph vertically to the turning point (4, 1). The coefficient 1 makes the parabola open up; plot points one unit to either side of x = 4. Answer: turning point (4, 1). Check: f(4) = 1, with symmetric points at x = 3 and x = 5."
+    },
+    {
+      "id": "g11-fn-l01-p07",
+      "prompt": "For f(x) = -1(x − 1)² − 5, find the turning point and identify its graph.",
+      "options": [
+        "(1, -5)",
+        "(-1, -5)",
+        "(1, 5)",
+        "(-1, 5)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The − 5 term shifts the graph vertically to the turning point (1, -5).",
+        "The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, -5). Check: f(1) = -5, with symmetric points at x = 0 and x = 2."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 1 moves the graph 1 units right. The − 5 term shifts the graph vertically to the turning point (1, -5). The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 1. Answer: turning point (1, -5). Check: f(1) = -5, with symmetric points at x = 0 and x = 2."
+    },
+    {
+      "id": "g11-fn-l01-p08",
+      "prompt": "For f(x) = 2(x + 2)² + 0, find the turning point and identify its graph.",
+      "options": [
+        "(2, 0)",
+        "(-2, 1)",
+        "(-2, 2)",
+        "(-2, 0)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The + 0 term shifts the graph vertically to the turning point (-2, 0).",
+        "The coefficient 2 makes the parabola open up; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, 0). Check: f(-2) = 0, with symmetric points at x = -3 and x = -1."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x + 2 moves the graph 2 units left. The + 0 term shifts the graph vertically to the turning point (-2, 0). The coefficient 2 makes the parabola open up; plot points one unit to either side of x = -2. Answer: turning point (-2, 0). Check: f(-2) = 0, with symmetric points at x = -3 and x = -1."
+    },
+    {
+      "id": "g11-fn-l01-p09",
+      "prompt": "For f(x) = -2(x − 4)² + 5, find the turning point and identify its graph.",
+      "options": [
+        "(4, -5)",
+        "(-4, -5)",
+        "(4, 5)",
+        "(-4, 5)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The + 5 term shifts the graph vertically to the turning point (4, 5).",
+        "The coefficient -2 makes the parabola open down; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, 5). Check: f(4) = 5, with symmetric points at x = 3 and x = 5."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 4 moves the graph 4 units right. The + 5 term shifts the graph vertically to the turning point (4, 5). The coefficient -2 makes the parabola open down; plot points one unit to either side of x = 4. Answer: turning point (4, 5). Check: f(4) = 5, with symmetric points at x = 3 and x = 5."
+    },
+    {
+      "id": "g11-fn-l01-p10",
+      "prompt": "For f(x) = 1(x − 1)² − 1, find the turning point and identify its graph.",
+      "options": [
+        "(-1, 1)",
+        "(1, -1)",
+        "(-1, -1)",
+        "(1, 1)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The − 1 term shifts the graph vertically to the turning point (1, -1).",
+        "The coefficient 1 makes the parabola open up; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, -1). Check: f(1) = -1, with symmetric points at x = 0 and x = 2."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 1 moves the graph 1 units right. The − 1 term shifts the graph vertically to the turning point (1, -1). The coefficient 1 makes the parabola open up; plot points one unit to either side of x = 1. Answer: turning point (1, -1). Check: f(1) = -1, with symmetric points at x = 0 and x = 2."
+    },
+    {
+      "id": "g11-fn-l01-p11",
+      "prompt": "For f(x) = -1(x + 2)² + 4, find the turning point and identify its graph.",
+      "options": [
+        "(-2, 4)",
+        "(2, 4)",
+        "(-2, -4)",
+        "(2, -4)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The + 4 term shifts the graph vertically to the turning point (-2, 4).",
+        "The coefficient -1 makes the parabola open down; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, 4). Check: f(-2) = 4, with symmetric points at x = -3 and x = -1."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x + 2 moves the graph 2 units left. The + 4 term shifts the graph vertically to the turning point (-2, 4). The coefficient -1 makes the parabola open down; plot points one unit to either side of x = -2. Answer: turning point (-2, 4). Check: f(-2) = 4, with symmetric points at x = -3 and x = -1."
+    },
+    {
+      "id": "g11-fn-l01-p12",
+      "prompt": "For f(x) = 2(x − 4)² − 2, find the turning point and identify its graph.",
+      "options": [
+        "(-4, -2)",
+        "(4, 2)",
+        "(-4, 2)",
+        "(4, -2)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The − 2 term shifts the graph vertically to the turning point (4, -2).",
+        "The coefficient 2 makes the parabola open up; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, -2). Check: f(4) = -2, with symmetric points at x = 3 and x = 5."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 4 moves the graph 4 units right. The − 2 term shifts the graph vertically to the turning point (4, -2). The coefficient 2 makes the parabola open up; plot points one unit to either side of x = 4. Answer: turning point (4, -2). Check: f(4) = -2, with symmetric points at x = 3 and x = 5."
+    },
+    {
+      "id": "g11-fn-l01-p13",
+      "prompt": "For f(x) = -2(x − 1)² + 3, find the turning point and identify its graph.",
+      "options": [
+        "(1, -3)",
+        "(-1, -3)",
+        "(1, 3)",
+        "(-1, 3)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The + 3 term shifts the graph vertically to the turning point (1, 3).",
+        "The coefficient -2 makes the parabola open down; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, 3). Check: f(1) = 3, with symmetric points at x = 0 and x = 2."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 1 moves the graph 1 units right. The + 3 term shifts the graph vertically to the turning point (1, 3). The coefficient -2 makes the parabola open down; plot points one unit to either side of x = 1. Answer: turning point (1, 3). Check: f(1) = 3, with symmetric points at x = 0 and x = 2."
+    },
+    {
+      "id": "g11-fn-l01-p14",
+      "prompt": "For f(x) = 1(x + 2)² − 3, find the turning point and identify its graph.",
+      "options": [
+        "(2, 3)",
+        "(-2, -3)",
+        "(2, -3)",
+        "(-2, 3)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The − 3 term shifts the graph vertically to the turning point (-2, -3).",
+        "The coefficient 1 makes the parabola open up; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, -3). Check: f(-2) = -3, with symmetric points at x = -3 and x = -1."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x + 2 moves the graph 2 units left. The − 3 term shifts the graph vertically to the turning point (-2, -3). The coefficient 1 makes the parabola open up; plot points one unit to either side of x = -2. Answer: turning point (-2, -3). Check: f(-2) = -3, with symmetric points at x = -3 and x = -1."
+    },
+    {
+      "id": "g11-fn-l01-p15",
+      "prompt": "For f(x) = -1(x − 4)² + 2, find the turning point and identify its graph.",
+      "options": [
+        "(4, 2)",
+        "(-4, 2)",
+        "(4, -2)",
+        "(-4, -2)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The + 2 term shifts the graph vertically to the turning point (4, 2).",
+        "The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, 2). Check: f(4) = 2, with symmetric points at x = 3 and x = 5."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 4 moves the graph 4 units right. The + 2 term shifts the graph vertically to the turning point (4, 2). The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 4. Answer: turning point (4, 2). Check: f(4) = 2, with symmetric points at x = 3 and x = 5."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-fn-l01-m01",
+      "prompt": "For f(x) = 2(x − 1)² − 4, find the turning point and identify its graph.",
+      "options": [
+        "(-1, 4)",
+        "(1, -4)",
+        "(-1, -4)",
+        "(1, 4)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The − 4 term shifts the graph vertically to the turning point (1, -4).",
+        "The coefficient 2 makes the parabola open up; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, -4). Check: f(1) = -4, with symmetric points at x = 0 and x = 2."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 1 moves the graph 1 units right. The − 4 term shifts the graph vertically to the turning point (1, -4). The coefficient 2 makes the parabola open up; plot points one unit to either side of x = 1. Answer: turning point (1, -4). Check: f(1) = -4, with symmetric points at x = 0 and x = 2."
+    },
+    {
+      "id": "g11-fn-l01-m02",
+      "prompt": "For f(x) = -2(x + 2)² + 1, find the turning point and identify its graph.",
+      "options": [
+        "(-2, 1)",
+        "(2, 1)",
+        "(-2, -1)",
+        "(2, -1)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The + 1 term shifts the graph vertically to the turning point (-2, 1).",
+        "The coefficient -2 makes the parabola open down; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, 1). Check: f(-2) = 1, with symmetric points at x = -3 and x = -1."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x + 2 moves the graph 2 units left. The + 1 term shifts the graph vertically to the turning point (-2, 1). The coefficient -2 makes the parabola open down; plot points one unit to either side of x = -2. Answer: turning point (-2, 1). Check: f(-2) = 1, with symmetric points at x = -3 and x = -1."
+    },
+    {
+      "id": "g11-fn-l01-m03",
+      "prompt": "For f(x) = 1(x − 4)² − 5, find the turning point and identify its graph.",
+      "options": [
+        "(-4, -5)",
+        "(4, 5)",
+        "(-4, 5)",
+        "(4, -5)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The − 5 term shifts the graph vertically to the turning point (4, -5).",
+        "The coefficient 1 makes the parabola open up; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, -5). Check: f(4) = -5, with symmetric points at x = 3 and x = 5."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 4 moves the graph 4 units right. The − 5 term shifts the graph vertically to the turning point (4, -5). The coefficient 1 makes the parabola open up; plot points one unit to either side of x = 4. Answer: turning point (4, -5). Check: f(4) = -5, with symmetric points at x = 3 and x = 5."
+    },
+    {
+      "id": "g11-fn-l01-m04",
+      "prompt": "For f(x) = -1(x − 1)² + 0, find the turning point and identify its graph.",
+      "options": [
+        "(1, 1)",
+        "(1, 2)",
+        "(1, 0)",
+        "(-1, 0)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The + 0 term shifts the graph vertically to the turning point (1, 0).",
+        "The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, 0). Check: f(1) = 0, with symmetric points at x = 0 and x = 2."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 1 moves the graph 1 units right. The + 0 term shifts the graph vertically to the turning point (1, 0). The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 1. Answer: turning point (1, 0). Check: f(1) = 0, with symmetric points at x = 0 and x = 2."
+    },
+    {
+      "id": "g11-fn-l01-m05",
+      "prompt": "For f(x) = 2(x + 2)² + 5, find the turning point and identify its graph.",
+      "options": [
+        "(2, -5)",
+        "(-2, 5)",
+        "(2, 5)",
+        "(-2, -5)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The + 5 term shifts the graph vertically to the turning point (-2, 5).",
+        "The coefficient 2 makes the parabola open up; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, 5). Check: f(-2) = 5, with symmetric points at x = -3 and x = -1."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x + 2 moves the graph 2 units left. The + 5 term shifts the graph vertically to the turning point (-2, 5). The coefficient 2 makes the parabola open up; plot points one unit to either side of x = -2. Answer: turning point (-2, 5). Check: f(-2) = 5, with symmetric points at x = -3 and x = -1."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-fn-l01-r01",
+      "prompt": "For f(x) = -1(x − 1)² + 5, find the turning point and identify its graph.",
+      "options": [
+        "(1, 5)",
+        "(-1, 5)",
+        "(1, -5)",
+        "(-1, -5)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 1 moves the graph 1 units right.",
+        "The + 5 term shifts the graph vertically to the turning point (1, 5).",
+        "The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 1.",
+        "Answer: turning point (1, 5). Check: f(1) = 5, with symmetric points at x = 0 and x = 2."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 1 moves the graph 1 units right. The + 5 term shifts the graph vertically to the turning point (1, 5). The coefficient -1 makes the parabola open down; plot points one unit to either side of x = 1. Answer: turning point (1, 5). Check: f(1) = 5, with symmetric points at x = 0 and x = 2."
+    },
+    {
+      "id": "g11-fn-l01-r02",
+      "prompt": "For f(x) = 2(x + 2)² − 1, find the turning point and identify its graph.",
+      "options": [
+        "(2, -1)",
+        "(-2, 1)",
+        "(2, 1)",
+        "(-2, -1)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x + 2 moves the graph 2 units left.",
+        "The − 1 term shifts the graph vertically to the turning point (-2, -1).",
+        "The coefficient 2 makes the parabola open up; plot points one unit to either side of x = -2.",
+        "Answer: turning point (-2, -1). Check: f(-2) = -1, with symmetric points at x = -3 and x = -1."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x + 2 moves the graph 2 units left. The − 1 term shifts the graph vertically to the turning point (-2, -1). The coefficient 2 makes the parabola open up; plot points one unit to either side of x = -2. Answer: turning point (-2, -1). Check: f(-2) = -1, with symmetric points at x = -3 and x = -1."
+    },
+    {
+      "id": "g11-fn-l01-r03",
+      "prompt": "For f(x) = -2(x − 4)² + 4, find the turning point and identify its graph.",
+      "options": [
+        "(4, -4)",
+        "(-4, -4)",
+        "(4, 4)",
+        "(-4, 4)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with the parent parabola y = x² and mark its turning point (0, 0).",
+        "The bracket x − 4 moves the graph 4 units right.",
+        "The + 4 term shifts the graph vertically to the turning point (4, 4).",
+        "The coefficient -2 makes the parabola open down; plot points one unit to either side of x = 4.",
+        "Answer: turning point (4, 4). Check: f(4) = 4, with symmetric points at x = 3 and x = 5."
+      ],
+      "memo": "Start with the parent parabola y = x² and mark its turning point (0, 0). The bracket x − 4 moves the graph 4 units right. The + 4 term shifts the graph vertically to the turning point (4, 4). The coefficient -2 makes the parabola open down; plot points one unit to either side of x = 4. Answer: turning point (4, 4). Check: f(4) = 4, with symmetric points at x = 3 and x = 5."
+    }
+  ]
+}

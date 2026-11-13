@@ -1,0 +1,823 @@
+{
+  "source": "grade11-fn-lesson-08.md",
+  "worked": [
+    {
+      "id": "g11-fn-l08-w01",
+      "lesson": 8,
+      "problem": "For y = -3sin(2x), find its amplitude and period in degrees.",
+      "answer": "amplitude = 3; period = 180°",
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "check": "Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "sin",
+          "a": -3,
+          "k": 2,
+          "period": 180
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l08-w02",
+      "lesson": 8,
+      "problem": "For y = -3cos(3x), find its amplitude and period in degrees.",
+      "answer": "amplitude = 3; period = 120°",
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "check": "Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "cos",
+          "a": -3,
+          "k": 3,
+          "period": 120
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l08-w03",
+      "lesson": 8,
+      "problem": "For y = -3tan(1x), find its vertical scale and period in degrees.",
+      "answer": "vertical scale = 3; period = 180°",
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The vertical scale is 3 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "check": "Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "tan",
+          "a": -3,
+          "k": 1,
+          "period": 180
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l08-w04",
+      "lesson": 8,
+      "problem": "For y = -2sin(2x), find its amplitude and period in degrees.",
+      "answer": "amplitude = 2; period = 180°",
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative.",
+        "The amplitude is 2 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "check": "Answer: amplitude = 2; period = 180°. Check consecutive corresponding features are 180° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "sin",
+          "a": -2,
+          "k": 2,
+          "period": 180
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l08-w05",
+      "lesson": 8,
+      "problem": "For y = -2cos(3x), find its amplitude and period in degrees.",
+      "answer": "amplitude = 2; period = 120°",
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative.",
+        "The amplitude is 2 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 2; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "check": "Answer: amplitude = 2; period = 120°. Check consecutive corresponding features are 120° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "cos",
+          "a": -2,
+          "k": 3,
+          "period": 120
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l08-w06",
+      "lesson": 8,
+      "problem": "For y = -2tan(1x), find its vertical scale and period in degrees.",
+      "answer": "vertical scale = 2; period = 180°",
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative.",
+        "The vertical scale is 2 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "check": "Answer: vertical scale = 2; period = 180°. Check consecutive corresponding features are 180° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "tan",
+          "a": -2,
+          "k": 1,
+          "period": 180
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l08-w07",
+      "lesson": 8,
+      "problem": "For y = -1sin(2x), find its amplitude and period in degrees.",
+      "answer": "amplitude = 1; period = 180°",
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient -1 outside multiplies each ordinate by -1, including a reflection if negative.",
+        "The amplitude is 1 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 1; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "check": "Answer: amplitude = 1; period = 180°. Check consecutive corresponding features are 180° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "sin",
+          "a": -1,
+          "k": 2,
+          "period": 180
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l08-w08",
+      "lesson": 8,
+      "problem": "For y = -1cos(3x), find its amplitude and period in degrees.",
+      "answer": "amplitude = 1; period = 120°",
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient -1 outside multiplies each ordinate by -1, including a reflection if negative.",
+        "The amplitude is 1 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 1; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "check": "Answer: amplitude = 1; period = 120°. Check consecutive corresponding features are 120° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "cos",
+          "a": -1,
+          "k": 3,
+          "period": 120
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l08-w09",
+      "lesson": 8,
+      "problem": "For y = -1tan(1x), find its vertical scale and period in degrees.",
+      "answer": "vertical scale = 1; period = 180°",
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient -1 outside multiplies each ordinate by -1, including a reflection if negative.",
+        "The vertical scale is 1 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 1; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "check": "Answer: vertical scale = 1; period = 180°. Check consecutive corresponding features are 180° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "tan",
+          "a": -1,
+          "k": 1,
+          "period": 180
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l08-w10",
+      "lesson": 8,
+      "problem": "For y = 2sin(2x), find its amplitude and period in degrees.",
+      "answer": "amplitude = 2; period = 180°",
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient 2 outside multiplies each ordinate by 2, including a reflection if negative.",
+        "The amplitude is 2 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "check": "Answer: amplitude = 2; period = 180°. Check consecutive corresponding features are 180° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "sin",
+          "a": 2,
+          "k": 2,
+          "period": 180
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l08-w11",
+      "lesson": 8,
+      "problem": "For y = 2cos(3x), find its amplitude and period in degrees.",
+      "answer": "amplitude = 2; period = 120°",
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient 2 outside multiplies each ordinate by 2, including a reflection if negative.",
+        "The amplitude is 2 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 2; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "check": "Answer: amplitude = 2; period = 120°. Check consecutive corresponding features are 120° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "cos",
+          "a": 2,
+          "k": 3,
+          "period": 120
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l08-w12",
+      "lesson": 8,
+      "problem": "For y = 2tan(1x), find its vertical scale and period in degrees.",
+      "answer": "vertical scale = 2; period = 180°",
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient 2 outside multiplies each ordinate by 2, including a reflection if negative.",
+        "The vertical scale is 2 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "check": "Answer: vertical scale = 2; period = 180°. Check consecutive corresponding features are 180° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "tan",
+          "a": 2,
+          "k": 1,
+          "period": 180
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l08-w13",
+      "lesson": 8,
+      "problem": "For y = 3sin(2x), find its amplitude and period in degrees.",
+      "answer": "amplitude = 3; period = 180°",
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient 3 outside multiplies each ordinate by 3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "check": "Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "sin",
+          "a": 3,
+          "k": 2,
+          "period": 180
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l08-w14",
+      "lesson": 8,
+      "problem": "For y = 3cos(3x), find its amplitude and period in degrees.",
+      "answer": "amplitude = 3; period = 120°",
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient 3 outside multiplies each ordinate by 3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "check": "Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "cos",
+          "a": 3,
+          "k": 3,
+          "period": 120
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l08-w15",
+      "lesson": 8,
+      "problem": "For y = 3tan(1x), find its vertical scale and period in degrees.",
+      "answer": "vertical scale = 3; period = 180°",
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient 3 outside multiplies each ordinate by 3, including a reflection if negative.",
+        "The vertical scale is 3 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "check": "Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "trig_two",
+          "fn": "tan",
+          "a": 3,
+          "k": 1,
+          "period": 180
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-fn-l08-p01",
+      "prompt": "For y = -3sin(2x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 2; period = 180°",
+        "amplitude = 4; period = 180°",
+        "amplitude = 3; period = 180°",
+        "amplitude = 3; period = 720°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = sin x and mark its original cycle 360°. The factor 2 inside the function divides the cycle width by 2. The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative. The amplitude is 3 and the cycle width is 360/2 = 180°. Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-p02",
+      "prompt": "For y = -3cos(3x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 5; period = 120°",
+        "amplitude = 3; period = 120°",
+        "amplitude = 3; period = 1080°",
+        "amplitude = 4; period = 120°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "memo": "Start with y = cos x and mark its original cycle 360°. The factor 3 inside the function divides the cycle width by 3. The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative. The amplitude is 3 and the cycle width is 360/3 = 120°. Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart."
+    },
+    {
+      "id": "g11-fn-l08-p03",
+      "prompt": "For y = -3tan(1x), find its vertical scale and period in degrees.",
+      "options": [
+        "vertical scale = 3; period = 180°",
+        "vertical scale = 1; period = 180°",
+        "vertical scale = 4; period = 180°",
+        "vertical scale = 5; period = 180°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The vertical scale is 3 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = tan x and mark its original cycle 180°. The factor 1 inside the function divides the cycle width by 1. The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative. The vertical scale is 3 and the cycle width is 180/1 = 180°. Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-p04",
+      "prompt": "For y = -2sin(2x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 2; period = 720°",
+        "amplitude = 3; period = 180°",
+        "amplitude = 4; period = 180°",
+        "amplitude = 2; period = 180°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative.",
+        "The amplitude is 2 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = sin x and mark its original cycle 360°. The factor 2 inside the function divides the cycle width by 2. The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative. The amplitude is 2 and the cycle width is 360/2 = 180°. Answer: amplitude = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-p05",
+      "prompt": "For y = -2cos(3x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 3; period = 120°",
+        "amplitude = 4; period = 120°",
+        "amplitude = 2; period = 120°",
+        "amplitude = 2; period = 1080°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative.",
+        "The amplitude is 2 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 2; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "memo": "Start with y = cos x and mark its original cycle 360°. The factor 3 inside the function divides the cycle width by 3. The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative. The amplitude is 2 and the cycle width is 360/3 = 120°. Answer: amplitude = 2; period = 120°. Check consecutive corresponding features are 120° apart."
+    },
+    {
+      "id": "g11-fn-l08-p06",
+      "prompt": "For y = -2tan(1x), find its vertical scale and period in degrees.",
+      "options": [
+        "vertical scale = 4; period = 180°",
+        "vertical scale = 2; period = 180°",
+        "vertical scale = 1; period = 180°",
+        "vertical scale = 3; period = 180°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative.",
+        "The vertical scale is 2 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = tan x and mark its original cycle 180°. The factor 1 inside the function divides the cycle width by 1. The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative. The vertical scale is 2 and the cycle width is 180/1 = 180°. Answer: vertical scale = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-p07",
+      "prompt": "For y = -1sin(2x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 1; period = 180°",
+        "amplitude = 1; period = 720°",
+        "amplitude = 2; period = 180°",
+        "amplitude = 3; period = 180°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient -1 outside multiplies each ordinate by -1, including a reflection if negative.",
+        "The amplitude is 1 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 1; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = sin x and mark its original cycle 360°. The factor 2 inside the function divides the cycle width by 2. The coefficient -1 outside multiplies each ordinate by -1, including a reflection if negative. The amplitude is 1 and the cycle width is 360/2 = 180°. Answer: amplitude = 1; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-p08",
+      "prompt": "For y = -1cos(3x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 1; period = 1080°",
+        "amplitude = 3; period = 120°",
+        "amplitude = 2; period = 120°",
+        "amplitude = 1; period = 120°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient -1 outside multiplies each ordinate by -1, including a reflection if negative.",
+        "The amplitude is 1 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 1; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "memo": "Start with y = cos x and mark its original cycle 360°. The factor 3 inside the function divides the cycle width by 3. The coefficient -1 outside multiplies each ordinate by -1, including a reflection if negative. The amplitude is 1 and the cycle width is 360/3 = 120°. Answer: amplitude = 1; period = 120°. Check consecutive corresponding features are 120° apart."
+    },
+    {
+      "id": "g11-fn-l08-p09",
+      "prompt": "For y = -1tan(1x), find its vertical scale and period in degrees.",
+      "options": [
+        "vertical scale = 3; period = 180°",
+        "vertical scale = 4; period = 180°",
+        "vertical scale = 1; period = 180°",
+        "vertical scale = 2; period = 180°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient -1 outside multiplies each ordinate by -1, including a reflection if negative.",
+        "The vertical scale is 1 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 1; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = tan x and mark its original cycle 180°. The factor 1 inside the function divides the cycle width by 1. The coefficient -1 outside multiplies each ordinate by -1, including a reflection if negative. The vertical scale is 1 and the cycle width is 180/1 = 180°. Answer: vertical scale = 1; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-p10",
+      "prompt": "For y = 2sin(2x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 4; period = 180°",
+        "amplitude = 2; period = 180°",
+        "amplitude = 2; period = 720°",
+        "amplitude = 3; period = 180°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient 2 outside multiplies each ordinate by 2, including a reflection if negative.",
+        "The amplitude is 2 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = sin x and mark its original cycle 360°. The factor 2 inside the function divides the cycle width by 2. The coefficient 2 outside multiplies each ordinate by 2, including a reflection if negative. The amplitude is 2 and the cycle width is 360/2 = 180°. Answer: amplitude = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-p11",
+      "prompt": "For y = 2cos(3x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 2; period = 120°",
+        "amplitude = 2; period = 1080°",
+        "amplitude = 3; period = 120°",
+        "amplitude = 4; period = 120°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient 2 outside multiplies each ordinate by 2, including a reflection if negative.",
+        "The amplitude is 2 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 2; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "memo": "Start with y = cos x and mark its original cycle 360°. The factor 3 inside the function divides the cycle width by 3. The coefficient 2 outside multiplies each ordinate by 2, including a reflection if negative. The amplitude is 2 and the cycle width is 360/3 = 120°. Answer: amplitude = 2; period = 120°. Check consecutive corresponding features are 120° apart."
+    },
+    {
+      "id": "g11-fn-l08-p12",
+      "prompt": "For y = 2tan(1x), find its vertical scale and period in degrees.",
+      "options": [
+        "vertical scale = 1; period = 180°",
+        "vertical scale = 3; period = 180°",
+        "vertical scale = 4; period = 180°",
+        "vertical scale = 2; period = 180°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient 2 outside multiplies each ordinate by 2, including a reflection if negative.",
+        "The vertical scale is 2 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = tan x and mark its original cycle 180°. The factor 1 inside the function divides the cycle width by 1. The coefficient 2 outside multiplies each ordinate by 2, including a reflection if negative. The vertical scale is 2 and the cycle width is 180/1 = 180°. Answer: vertical scale = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-p13",
+      "prompt": "For y = 3sin(2x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 2; period = 180°",
+        "amplitude = 4; period = 180°",
+        "amplitude = 3; period = 180°",
+        "amplitude = 3; period = 720°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient 3 outside multiplies each ordinate by 3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = sin x and mark its original cycle 360°. The factor 2 inside the function divides the cycle width by 2. The coefficient 3 outside multiplies each ordinate by 3, including a reflection if negative. The amplitude is 3 and the cycle width is 360/2 = 180°. Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-p14",
+      "prompt": "For y = 3cos(3x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 5; period = 120°",
+        "amplitude = 3; period = 120°",
+        "amplitude = 3; period = 1080°",
+        "amplitude = 4; period = 120°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient 3 outside multiplies each ordinate by 3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "memo": "Start with y = cos x and mark its original cycle 360°. The factor 3 inside the function divides the cycle width by 3. The coefficient 3 outside multiplies each ordinate by 3, including a reflection if negative. The amplitude is 3 and the cycle width is 360/3 = 120°. Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart."
+    },
+    {
+      "id": "g11-fn-l08-p15",
+      "prompt": "For y = 3tan(1x), find its vertical scale and period in degrees.",
+      "options": [
+        "vertical scale = 3; period = 180°",
+        "vertical scale = 1; period = 180°",
+        "vertical scale = 4; period = 180°",
+        "vertical scale = 5; period = 180°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient 3 outside multiplies each ordinate by 3, including a reflection if negative.",
+        "The vertical scale is 3 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = tan x and mark its original cycle 180°. The factor 1 inside the function divides the cycle width by 1. The coefficient 3 outside multiplies each ordinate by 3, including a reflection if negative. The vertical scale is 3 and the cycle width is 180/1 = 180°. Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-fn-l08-m01",
+      "prompt": "For y = -3sin(2x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 4; period = 180°",
+        "amplitude = 3; period = 180°",
+        "amplitude = 3; period = 720°",
+        "amplitude = 2; period = 180°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = sin x and mark its original cycle 360°. The factor 2 inside the function divides the cycle width by 2. The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative. The amplitude is 3 and the cycle width is 360/2 = 180°. Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-m02",
+      "prompt": "For y = -3cos(3x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 3; period = 120°",
+        "amplitude = 3; period = 1080°",
+        "amplitude = 4; period = 120°",
+        "amplitude = 5; period = 120°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "memo": "Start with y = cos x and mark its original cycle 360°. The factor 3 inside the function divides the cycle width by 3. The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative. The amplitude is 3 and the cycle width is 360/3 = 120°. Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart."
+    },
+    {
+      "id": "g11-fn-l08-m03",
+      "prompt": "For y = -3tan(1x), find its vertical scale and period in degrees.",
+      "options": [
+        "vertical scale = 1; period = 180°",
+        "vertical scale = 4; period = 180°",
+        "vertical scale = 5; period = 180°",
+        "vertical scale = 3; period = 180°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The vertical scale is 3 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = tan x and mark its original cycle 180°. The factor 1 inside the function divides the cycle width by 1. The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative. The vertical scale is 3 and the cycle width is 180/1 = 180°. Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-m04",
+      "prompt": "For y = -2sin(2x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 3; period = 180°",
+        "amplitude = 4; period = 180°",
+        "amplitude = 2; period = 180°",
+        "amplitude = 2; period = 720°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative.",
+        "The amplitude is 2 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = sin x and mark its original cycle 360°. The factor 2 inside the function divides the cycle width by 2. The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative. The amplitude is 2 and the cycle width is 360/2 = 180°. Answer: amplitude = 2; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-m05",
+      "prompt": "For y = -2cos(3x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 4; period = 120°",
+        "amplitude = 2; period = 120°",
+        "amplitude = 2; period = 1080°",
+        "amplitude = 3; period = 120°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative.",
+        "The amplitude is 2 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 2; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "memo": "Start with y = cos x and mark its original cycle 360°. The factor 3 inside the function divides the cycle width by 3. The coefficient -2 outside multiplies each ordinate by -2, including a reflection if negative. The amplitude is 2 and the cycle width is 360/3 = 120°. Answer: amplitude = 2; period = 120°. Check consecutive corresponding features are 120° apart."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-fn-l08-r01",
+      "prompt": "For y = -3sin(2x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 3; period = 180°",
+        "amplitude = 3; period = 720°",
+        "amplitude = 2; period = 180°",
+        "amplitude = 4; period = 180°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with y = sin x and mark its original cycle 360°.",
+        "The factor 2 inside the function divides the cycle width by 2.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/2 = 180°.",
+        "Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = sin x and mark its original cycle 360°. The factor 2 inside the function divides the cycle width by 2. The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative. The amplitude is 3 and the cycle width is 360/2 = 180°. Answer: amplitude = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+    },
+    {
+      "id": "g11-fn-l08-r02",
+      "prompt": "For y = -3cos(3x), find its amplitude and period in degrees.",
+      "options": [
+        "amplitude = 3; period = 1080°",
+        "amplitude = 4; period = 120°",
+        "amplitude = 5; period = 120°",
+        "amplitude = 3; period = 120°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with y = cos x and mark its original cycle 360°.",
+        "The factor 3 inside the function divides the cycle width by 3.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The amplitude is 3 and the cycle width is 360/3 = 120°.",
+        "Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart."
+      ],
+      "memo": "Start with y = cos x and mark its original cycle 360°. The factor 3 inside the function divides the cycle width by 3. The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative. The amplitude is 3 and the cycle width is 360/3 = 120°. Answer: amplitude = 3; period = 120°. Check consecutive corresponding features are 120° apart."
+    },
+    {
+      "id": "g11-fn-l08-r03",
+      "prompt": "For y = -3tan(1x), find its vertical scale and period in degrees.",
+      "options": [
+        "vertical scale = 4; period = 180°",
+        "vertical scale = 5; period = 180°",
+        "vertical scale = 3; period = 180°",
+        "vertical scale = 1; period = 180°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with y = tan x and mark its original cycle 180°.",
+        "The factor 1 inside the function divides the cycle width by 1.",
+        "The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative.",
+        "The vertical scale is 3 and the cycle width is 180/1 = 180°.",
+        "Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+      ],
+      "memo": "Start with y = tan x and mark its original cycle 180°. The factor 1 inside the function divides the cycle width by 1. The coefficient -3 outside multiplies each ordinate by -3, including a reflection if negative. The vertical scale is 3 and the cycle width is 180/1 = 180°. Answer: vertical scale = 3; period = 180°. Check consecutive corresponding features are 180° apart."
+    }
+  ]
+}

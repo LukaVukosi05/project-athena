@@ -248,3 +248,5 @@ function renderGraphSpec(spec, step, phase) {
 for(let number=1;number<=8;number++)registerTeachingOperation(`grade11_euc_${number}_step`);
 
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade11_ag_${number}_step`);
+
+for(let number=1;number<=8;number++)registerTeachingOperation(`grade11_fn_${number}_step`);

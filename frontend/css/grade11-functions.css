@@ -1,0 +1,15 @@
+.g11-fn-board {color:#17344b;width:100%;min-width:0}
+.g11-fn-board>p:first-child {font-weight:650;line-height:1.6}
+.g11-fn-model {width:100%;overflow:hidden}
+.g11-fn-model svg {width:100%;max-height:380px;height:auto;display:block}
+.g11-fn-model text {fill:#17344b;font-size:12px}
+.g11-fn-axis {stroke:#648393;stroke-width:1.4}
+.g11-fn-parent {fill:none;stroke:#96aeb5;stroke-width:1.7;stroke-dasharray:5 4}
+.g11-fn-curve {fill:none;stroke:#087e8a;stroke-width:2.8}
+.g11-fn-guide {stroke:#c07b36;stroke-width:1.6;stroke-dasharray:4 3}
+.g11-fn-asymptote,.g11-fn-period {stroke:#be7134;stroke-width:1.7;stroke-dasharray:6 4}
+.g11-fn-secant {stroke:#ca683a;stroke-width:2.4}
+.g11-fn-point {fill:#c66a30}
+.g11-fn-label,.g11-fn-note {font-weight:700}
+.g11-fn-board [data-object-id="operation"] {color:#175b63}
+.g11-fn-board [data-object-id="verification"] {color:#08664a;font-weight:700}

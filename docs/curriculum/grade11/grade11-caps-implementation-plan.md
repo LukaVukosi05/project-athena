@@ -1,9 +1,15 @@
 # Grade 11 Mathematics: source and implementation plan
 
-Status: Topics 1–5 have authored runtime previews, source files, whiteboard
+Status: Topics 1–6 have authored runtime previews, source files, whiteboard
 timelines and assessment banks. They remain teacher-review-required. Browser
 acceptance and teacher approval have not been recorded; do not label them
-published. Topics 6–12 remain plans, not interactive lessons.
+published. Topics 7–12 remain plans, not interactive lessons.
+
+Topic 6 uses four Paper 1 algebraic graph lessons and four Paper 2
+trigonometric graph lessons. Each has staged, question-specific plots, source
+questions and assessments. The graph sampling, tangent asymptotes, exact-value
+notations and difficulty progression still require live browser and teacher
+acceptance before publication.
 
 Topic 5 has six original coordinate lessons with plotted points, staged
 constructions and assessment banks. Mathematical correctness is checked by

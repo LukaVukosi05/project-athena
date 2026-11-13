@@ -244,3 +244,7 @@ for _grade11_euc_number in range(1,9):
 for _grade11_ag_number in range(1,7):
     registry.register(f"grade11_ag_{_grade11_ag_number}_step", f"grade11_ag_{_grade11_ag_number}",
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+
+for _grade11_fn_number in range(1,9):
+    registry.register(f"grade11_fn_{_grade11_fn_number}_step", f"grade11_fn_{_grade11_fn_number}",
+        lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))

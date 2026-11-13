@@ -1,0 +1,853 @@
+{
+  "source": "grade11-fn-lesson-03.md",
+  "worked": [
+    {
+      "id": "g11-fn-l03-w01",
+      "lesson": 3,
+      "problem": "On f(x) = 1·3^(x − 1) + 2, find the point where x = 2.",
+      "answer": "(2, 5)",
+      "actions": [
+        "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 3¹ = 3; multiply by 1 to obtain 3.",
+        "Apply the vertical shift + 2: f(2) = 3 + 2 = 5.",
+        "Answer: (2, 5). Check: substituting x = 2 into the original function gives 5."
+      ],
+      "check": "Answer: (2, 5). Check: substituting x = 2 into the original function gives 5.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": 1,
+          "b": 3,
+          "p": -1,
+          "q": 2,
+          "target_x": 2,
+          "target_y": 5
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l03-w02",
+      "lesson": 3,
+      "problem": "On f(x) = 2·4^(x + 2) + 0, find the point where x = -1.",
+      "answer": "(-1, 8)",
+      "actions": [
+        "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 4¹ = 4; multiply by 2 to obtain 8.",
+        "Apply the vertical shift + 0: f(-1) = 8 + 0 = 8.",
+        "Answer: (-1, 8). Check: substituting x = -1 into the original function gives 8."
+      ],
+      "check": "Answer: (-1, 8). Check: substituting x = -1 into the original function gives 8.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": 2,
+          "b": 4,
+          "p": 2,
+          "q": 0,
+          "target_x": -1,
+          "target_y": 8
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-fn-l03-w03",
+      "lesson": 3,
+      "problem": "On f(x) = -1·5^(x − 4) − 2, find the point where x = 5.",
+      "answer": "(5, -7)",
+      "actions": [
+        "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 5¹ = 5; multiply by -1 to obtain -5.",
+        "Apply the vertical shift − 2: f(5) = -5 − 2 = -7.",
+        "Answer: (5, -7). Check: substituting x = 5 into the original function gives -7."
+      ],
+      "check": "Answer: (5, -7). Check: substituting x = 5 into the original function gives -7.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": -1,
+          "b": 5,
+          "p": -4,
+          "q": -2,
+          "target_x": 5,
+          "target_y": -7
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l03-w04",
+      "lesson": 3,
+      "problem": "On f(x) = 1·2^(x − 1) + 3, find the point where x = 2.",
+      "answer": "(2, 5)",
+      "actions": [
+        "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 2¹ = 2; multiply by 1 to obtain 2.",
+        "Apply the vertical shift + 3: f(2) = 2 + 3 = 5.",
+        "Answer: (2, 5). Check: substituting x = 2 into the original function gives 5."
+      ],
+      "check": "Answer: (2, 5). Check: substituting x = 2 into the original function gives 5.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": 1,
+          "b": 2,
+          "p": -1,
+          "q": 3,
+          "target_x": 2,
+          "target_y": 5
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l03-w05",
+      "lesson": 3,
+      "problem": "On f(x) = 2·3^(x + 2) + 1, find the point where x = -1.",
+      "answer": "(-1, 7)",
+      "actions": [
+        "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 3¹ = 3; multiply by 2 to obtain 6.",
+        "Apply the vertical shift + 1: f(-1) = 6 + 1 = 7.",
+        "Answer: (-1, 7). Check: substituting x = -1 into the original function gives 7."
+      ],
+      "check": "Answer: (-1, 7). Check: substituting x = -1 into the original function gives 7.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": 2,
+          "b": 3,
+          "p": 2,
+          "q": 1,
+          "target_x": -1,
+          "target_y": 7
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-fn-l03-w06",
+      "lesson": 3,
+      "problem": "On f(x) = -1·4^(x − 4) − 1, find the point where x = 5.",
+      "answer": "(5, -5)",
+      "actions": [
+        "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 4¹ = 4; multiply by -1 to obtain -4.",
+        "Apply the vertical shift − 1: f(5) = -4 − 1 = -5.",
+        "Answer: (5, -5). Check: substituting x = 5 into the original function gives -5."
+      ],
+      "check": "Answer: (5, -5). Check: substituting x = 5 into the original function gives -5.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": -1,
+          "b": 4,
+          "p": -4,
+          "q": -1,
+          "target_x": 5,
+          "target_y": -5
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l03-w07",
+      "lesson": 3,
+      "problem": "On f(x) = 1·5^(x − 1) − 3, find the point where x = 2.",
+      "answer": "(2, 2)",
+      "actions": [
+        "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 5¹ = 5; multiply by 1 to obtain 5.",
+        "Apply the vertical shift − 3: f(2) = 5 − 3 = 2.",
+        "Answer: (2, 2). Check: substituting x = 2 into the original function gives 2."
+      ],
+      "check": "Answer: (2, 2). Check: substituting x = 2 into the original function gives 2.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": 1,
+          "b": 5,
+          "p": -1,
+          "q": -3,
+          "target_x": 2,
+          "target_y": 2
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l03-w08",
+      "lesson": 3,
+      "problem": "On f(x) = 2·2^(x + 2) + 2, find the point where x = -1.",
+      "answer": "(-1, 6)",
+      "actions": [
+        "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 2¹ = 2; multiply by 2 to obtain 4.",
+        "Apply the vertical shift + 2: f(-1) = 4 + 2 = 6.",
+        "Answer: (-1, 6). Check: substituting x = -1 into the original function gives 6."
+      ],
+      "check": "Answer: (-1, 6). Check: substituting x = -1 into the original function gives 6.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": 2,
+          "b": 2,
+          "p": 2,
+          "q": 2,
+          "target_x": -1,
+          "target_y": 6
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l03-w09",
+      "lesson": 3,
+      "problem": "On f(x) = -1·3^(x − 4) + 0, find the point where x = 5.",
+      "answer": "(5, -3)",
+      "actions": [
+        "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 3¹ = 3; multiply by -1 to obtain -3.",
+        "Apply the vertical shift + 0: f(5) = -3 + 0 = -3.",
+        "Answer: (5, -3). Check: substituting x = 5 into the original function gives -3."
+      ],
+      "check": "Answer: (5, -3). Check: substituting x = 5 into the original function gives -3.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": -1,
+          "b": 3,
+          "p": -4,
+          "q": 0,
+          "target_x": 5,
+          "target_y": -3
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-fn-l03-w10",
+      "lesson": 3,
+      "problem": "On f(x) = 1·4^(x − 1) − 2, find the point where x = 2.",
+      "answer": "(2, 2)",
+      "actions": [
+        "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 4¹ = 4; multiply by 1 to obtain 4.",
+        "Apply the vertical shift − 2: f(2) = 4 − 2 = 2.",
+        "Answer: (2, 2). Check: substituting x = 2 into the original function gives 2."
+      ],
+      "check": "Answer: (2, 2). Check: substituting x = 2 into the original function gives 2.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": 1,
+          "b": 4,
+          "p": -1,
+          "q": -2,
+          "target_x": 2,
+          "target_y": 2
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l03-w11",
+      "lesson": 3,
+      "problem": "On f(x) = 2·5^(x + 2) + 3, find the point where x = -1.",
+      "answer": "(-1, 13)",
+      "actions": [
+        "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 5¹ = 5; multiply by 2 to obtain 10.",
+        "Apply the vertical shift + 3: f(-1) = 10 + 3 = 13.",
+        "Answer: (-1, 13). Check: substituting x = -1 into the original function gives 13."
+      ],
+      "check": "Answer: (-1, 13). Check: substituting x = -1 into the original function gives 13.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": 2,
+          "b": 5,
+          "p": 2,
+          "q": 3,
+          "target_x": -1,
+          "target_y": 13
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l03-w12",
+      "lesson": 3,
+      "problem": "On f(x) = -1·2^(x − 4) + 1, find the point where x = 5.",
+      "answer": "(5, -1)",
+      "actions": [
+        "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 2¹ = 2; multiply by -1 to obtain -2.",
+        "Apply the vertical shift + 1: f(5) = -2 + 1 = -1.",
+        "Answer: (5, -1). Check: substituting x = 5 into the original function gives -1."
+      ],
+      "check": "Answer: (5, -1). Check: substituting x = 5 into the original function gives -1.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": -1,
+          "b": 2,
+          "p": -4,
+          "q": 1,
+          "target_x": 5,
+          "target_y": -1
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-fn-l03-w13",
+      "lesson": 3,
+      "problem": "On f(x) = 1·3^(x − 1) − 1, find the point where x = 2.",
+      "answer": "(2, 2)",
+      "actions": [
+        "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 3¹ = 3; multiply by 1 to obtain 3.",
+        "Apply the vertical shift − 1: f(2) = 3 − 1 = 2.",
+        "Answer: (2, 2). Check: substituting x = 2 into the original function gives 2."
+      ],
+      "check": "Answer: (2, 2). Check: substituting x = 2 into the original function gives 2.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": 1,
+          "b": 3,
+          "p": -1,
+          "q": -1,
+          "target_x": 2,
+          "target_y": 2
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l03-w14",
+      "lesson": 3,
+      "problem": "On f(x) = 2·4^(x + 2) − 3, find the point where x = -1.",
+      "answer": "(-1, 5)",
+      "actions": [
+        "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 4¹ = 4; multiply by 2 to obtain 8.",
+        "Apply the vertical shift − 3: f(-1) = 8 − 3 = 5.",
+        "Answer: (-1, 5). Check: substituting x = -1 into the original function gives 5."
+      ],
+      "check": "Answer: (-1, 5). Check: substituting x = -1 into the original function gives 5.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": 2,
+          "b": 4,
+          "p": 2,
+          "q": -3,
+          "target_x": -1,
+          "target_y": 5
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-fn-l03-w15",
+      "lesson": 3,
+      "problem": "On f(x) = -1·5^(x − 4) + 2, find the point where x = 5.",
+      "answer": "(5, -3)",
+      "actions": [
+        "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 5¹ = 5; multiply by -1 to obtain -5.",
+        "Apply the vertical shift + 2: f(5) = -5 + 2 = -3.",
+        "Answer: (5, -3). Check: substituting x = 5 into the original function gives -3."
+      ],
+      "check": "Answer: (5, -3). Check: substituting x = 5 into the original function gives -3.",
+      "visual": {
+        "family": "grade11_functions",
+        "values": {
+          "mode": "exponential",
+          "a": -1,
+          "b": 5,
+          "p": -4,
+          "q": 2,
+          "target_x": 5,
+          "target_y": -3
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-fn-l03-p01",
+      "prompt": "On f(x) = 1·2^(x − 1) + 0, find the point where x = 2.",
+      "options": [
+        "(-2, 2)",
+        "(2, 3)",
+        "(2, 2)",
+        "(2, 1)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 2¹ = 2; multiply by 1 to obtain 2.",
+        "Apply the vertical shift + 0: f(2) = 2 + 0 = 2.",
+        "Answer: (2, 2). Check: substituting x = 2 into the original function gives 2."
+      ],
+      "memo": "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 2, calculate the exponent: x − 1 = 1. The exponential value is 2¹ = 2; multiply by 1 to obtain 2. Apply the vertical shift + 0: f(2) = 2 + 0 = 2. Answer: (2, 2). Check: substituting x = 2 into the original function gives 2."
+    },
+    {
+      "id": "g11-fn-l03-p02",
+      "prompt": "On f(x) = 2·3^(x + 2) − 2, find the point where x = -1.",
+      "options": [
+        "(1, 4)",
+        "(-1, 4)",
+        "(-1, 0)",
+        "(-1, 8)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 3¹ = 3; multiply by 2 to obtain 6.",
+        "Apply the vertical shift − 2: f(-1) = 6 − 2 = 4.",
+        "Answer: (-1, 4). Check: substituting x = -1 into the original function gives 4."
+      ],
+      "memo": "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0. For x = -1, calculate the exponent: x + 2 = 1. The exponential value is 3¹ = 3; multiply by 2 to obtain 6. Apply the vertical shift − 2: f(-1) = 6 − 2 = 4. Answer: (-1, 4). Check: substituting x = -1 into the original function gives 4."
+    },
+    {
+      "id": "g11-fn-l03-p03",
+      "prompt": "On f(x) = -1·4^(x − 4) + 3, find the point where x = 5.",
+      "options": [
+        "(5, -1)",
+        "(5, 2)",
+        "(5, -7)",
+        "(-5, -1)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 4¹ = 4; multiply by -1 to obtain -4.",
+        "Apply the vertical shift + 3: f(5) = -4 + 3 = -1.",
+        "Answer: (5, -1). Check: substituting x = 5 into the original function gives -1."
+      ],
+      "memo": "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 5, calculate the exponent: x − 4 = 1. The exponential value is 4¹ = 4; multiply by -1 to obtain -4. Apply the vertical shift + 3: f(5) = -4 + 3 = -1. Answer: (5, -1). Check: substituting x = 5 into the original function gives -1."
+    },
+    {
+      "id": "g11-fn-l03-p04",
+      "prompt": "On f(x) = 1·5^(x − 1) + 1, find the point where x = 2.",
+      "options": [
+        "(2, 2)",
+        "(2, 4)",
+        "(-2, 6)",
+        "(2, 6)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 5¹ = 5; multiply by 1 to obtain 5.",
+        "Apply the vertical shift + 1: f(2) = 5 + 1 = 6.",
+        "Answer: (2, 6). Check: substituting x = 2 into the original function gives 6."
+      ],
+      "memo": "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 2, calculate the exponent: x − 1 = 1. The exponential value is 5¹ = 5; multiply by 1 to obtain 5. Apply the vertical shift + 1: f(2) = 5 + 1 = 6. Answer: (2, 6). Check: substituting x = 2 into the original function gives 6."
+    },
+    {
+      "id": "g11-fn-l03-p05",
+      "prompt": "On f(x) = 2·2^(x + 2) − 1, find the point where x = -1.",
+      "options": [
+        "(-1, 5)",
+        "(1, 3)",
+        "(-1, 3)",
+        "(-1, 1)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 2¹ = 2; multiply by 2 to obtain 4.",
+        "Apply the vertical shift − 1: f(-1) = 4 − 1 = 3.",
+        "Answer: (-1, 3). Check: substituting x = -1 into the original function gives 3."
+      ],
+      "memo": "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0. For x = -1, calculate the exponent: x + 2 = 1. The exponential value is 2¹ = 2; multiply by 2 to obtain 4. Apply the vertical shift − 1: f(-1) = 4 − 1 = 3. Answer: (-1, 3). Check: substituting x = -1 into the original function gives 3."
+    },
+    {
+      "id": "g11-fn-l03-p06",
+      "prompt": "On f(x) = -1·3^(x − 4) − 3, find the point where x = 5.",
+      "options": [
+        "(-5, -6)",
+        "(5, -6)",
+        "(5, -4)",
+        "(5, 0)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 3¹ = 3; multiply by -1 to obtain -3.",
+        "Apply the vertical shift − 3: f(5) = -3 − 3 = -6.",
+        "Answer: (5, -6). Check: substituting x = 5 into the original function gives -6."
+      ],
+      "memo": "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 5, calculate the exponent: x − 4 = 1. The exponential value is 3¹ = 3; multiply by -1 to obtain -3. Apply the vertical shift − 3: f(5) = -3 − 3 = -6. Answer: (5, -6). Check: substituting x = 5 into the original function gives -6."
+    },
+    {
+      "id": "g11-fn-l03-p07",
+      "prompt": "On f(x) = 1·4^(x − 1) + 2, find the point where x = 2.",
+      "options": [
+        "(2, 6)",
+        "(2, 3)",
+        "(2, 2)",
+        "(-2, 6)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 4¹ = 4; multiply by 1 to obtain 4.",
+        "Apply the vertical shift + 2: f(2) = 4 + 2 = 6.",
+        "Answer: (2, 6). Check: substituting x = 2 into the original function gives 6."
+      ],
+      "memo": "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 2, calculate the exponent: x − 1 = 1. The exponential value is 4¹ = 4; multiply by 1 to obtain 4. Apply the vertical shift + 2: f(2) = 4 + 2 = 6. Answer: (2, 6). Check: substituting x = 2 into the original function gives 6."
+    },
+    {
+      "id": "g11-fn-l03-p08",
+      "prompt": "On f(x) = 2·5^(x + 2) + 0, find the point where x = -1.",
+      "options": [
+        "(-1, 2)",
+        "(1, 10)",
+        "(-1, 11)",
+        "(-1, 10)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 5¹ = 5; multiply by 2 to obtain 10.",
+        "Apply the vertical shift + 0: f(-1) = 10 + 0 = 10.",
+        "Answer: (-1, 10). Check: substituting x = -1 into the original function gives 10."
+      ],
+      "memo": "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0. For x = -1, calculate the exponent: x + 2 = 1. The exponential value is 5¹ = 5; multiply by 2 to obtain 10. Apply the vertical shift + 0: f(-1) = 10 + 0 = 10. Answer: (-1, 10). Check: substituting x = -1 into the original function gives 10."
+    },
+    {
+      "id": "g11-fn-l03-p09",
+      "prompt": "On f(x) = -1·2^(x − 4) − 2, find the point where x = 5.",
+      "options": [
+        "(5, 0)",
+        "(-5, -4)",
+        "(5, -4)",
+        "(5, -3)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 2¹ = 2; multiply by -1 to obtain -2.",
+        "Apply the vertical shift − 2: f(5) = -2 − 2 = -4.",
+        "Answer: (5, -4). Check: substituting x = 5 into the original function gives -4."
+      ],
+      "memo": "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 5, calculate the exponent: x − 4 = 1. The exponential value is 2¹ = 2; multiply by -1 to obtain -2. Apply the vertical shift − 2: f(5) = -2 − 2 = -4. Answer: (5, -4). Check: substituting x = 5 into the original function gives -4."
+    },
+    {
+      "id": "g11-fn-l03-p10",
+      "prompt": "On f(x) = 1·3^(x − 1) + 3, find the point where x = 2.",
+      "options": [
+        "(-2, 6)",
+        "(2, 6)",
+        "(2, 4)",
+        "(2, 0)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 3¹ = 3; multiply by 1 to obtain 3.",
+        "Apply the vertical shift + 3: f(2) = 3 + 3 = 6.",
+        "Answer: (2, 6). Check: substituting x = 2 into the original function gives 6."
+      ],
+      "memo": "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 2, calculate the exponent: x − 1 = 1. The exponential value is 3¹ = 3; multiply by 1 to obtain 3. Apply the vertical shift + 3: f(2) = 3 + 3 = 6. Answer: (2, 6). Check: substituting x = 2 into the original function gives 6."
+    },
+    {
+      "id": "g11-fn-l03-p11",
+      "prompt": "On f(x) = 2·4^(x + 2) + 1, find the point where x = -1.",
+      "options": [
+        "(-1, 9)",
+        "(-1, 3)",
+        "(-1, 7)",
+        "(1, 9)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 4¹ = 4; multiply by 2 to obtain 8.",
+        "Apply the vertical shift + 1: f(-1) = 8 + 1 = 9.",
+        "Answer: (-1, 9). Check: substituting x = -1 into the original function gives 9."
+      ],
+      "memo": "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0. For x = -1, calculate the exponent: x + 2 = 1. The exponential value is 4¹ = 4; multiply by 2 to obtain 8. Apply the vertical shift + 1: f(-1) = 8 + 1 = 9. Answer: (-1, 9). Check: substituting x = -1 into the original function gives 9."
+    },
+    {
+      "id": "g11-fn-l03-p12",
+      "prompt": "On f(x) = -1·5^(x − 4) − 1, find the point where x = 5.",
+      "options": [
+        "(5, -2)",
+        "(5, -4)",
+        "(-5, -6)",
+        "(5, -6)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 5¹ = 5; multiply by -1 to obtain -5.",
+        "Apply the vertical shift − 1: f(5) = -5 − 1 = -6.",
+        "Answer: (5, -6). Check: substituting x = 5 into the original function gives -6."
+      ],
+      "memo": "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 5, calculate the exponent: x − 4 = 1. The exponential value is 5¹ = 5; multiply by -1 to obtain -5. Apply the vertical shift − 1: f(5) = -5 − 1 = -6. Answer: (5, -6). Check: substituting x = 5 into the original function gives -6."
+    },
+    {
+      "id": "g11-fn-l03-p13",
+      "prompt": "On f(x) = 1·2^(x − 1) − 3, find the point where x = 2.",
+      "options": [
+        "(2, 5)",
+        "(-2, -1)",
+        "(2, -1)",
+        "(2, -2)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 2¹ = 2; multiply by 1 to obtain 2.",
+        "Apply the vertical shift − 3: f(2) = 2 − 3 = -1.",
+        "Answer: (2, -1). Check: substituting x = 2 into the original function gives -1."
+      ],
+      "memo": "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 2, calculate the exponent: x − 1 = 1. The exponential value is 2¹ = 2; multiply by 1 to obtain 2. Apply the vertical shift − 3: f(2) = 2 − 3 = -1. Answer: (2, -1). Check: substituting x = 2 into the original function gives -1."
+    },
+    {
+      "id": "g11-fn-l03-p14",
+      "prompt": "On f(x) = 2·3^(x + 2) + 2, find the point where x = -1.",
+      "options": [
+        "(-1, 9)",
+        "(-1, 8)",
+        "(-1, 4)",
+        "(1, 8)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 3¹ = 3; multiply by 2 to obtain 6.",
+        "Apply the vertical shift + 2: f(-1) = 6 + 2 = 8.",
+        "Answer: (-1, 8). Check: substituting x = -1 into the original function gives 8."
+      ],
+      "memo": "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0. For x = -1, calculate the exponent: x + 2 = 1. The exponential value is 3¹ = 3; multiply by 2 to obtain 6. Apply the vertical shift + 2: f(-1) = 6 + 2 = 8. Answer: (-1, 8). Check: substituting x = -1 into the original function gives 8."
+    },
+    {
+      "id": "g11-fn-l03-p15",
+      "prompt": "On f(x) = -1·4^(x − 4) + 0, find the point where x = 5.",
+      "options": [
+        "(5, -4)",
+        "(5, -1)",
+        "(-5, -4)",
+        "(5, -3)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 4¹ = 4; multiply by -1 to obtain -4.",
+        "Apply the vertical shift + 0: f(5) = -4 + 0 = -4.",
+        "Answer: (5, -4). Check: substituting x = 5 into the original function gives -4."
+      ],
+      "memo": "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 5, calculate the exponent: x − 4 = 1. The exponential value is 4¹ = 4; multiply by -1 to obtain -4. Apply the vertical shift + 0: f(5) = -4 + 0 = -4. Answer: (5, -4). Check: substituting x = 5 into the original function gives -4."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-fn-l03-m01",
+      "prompt": "On f(x) = 1·5^(x − 1) − 2, find the point where x = 2.",
+      "options": [
+        "(-2, 3)",
+        "(2, 3)",
+        "(2, -1)",
+        "(2, 7)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 5¹ = 5; multiply by 1 to obtain 5.",
+        "Apply the vertical shift − 2: f(2) = 5 − 2 = 3.",
+        "Answer: (2, 3). Check: substituting x = 2 into the original function gives 3."
+      ],
+      "memo": "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 2, calculate the exponent: x − 1 = 1. The exponential value is 5¹ = 5; multiply by 1 to obtain 5. Apply the vertical shift − 2: f(2) = 5 − 2 = 3. Answer: (2, 3). Check: substituting x = 2 into the original function gives 3."
+    },
+    {
+      "id": "g11-fn-l03-m02",
+      "prompt": "On f(x) = 2·2^(x + 2) + 3, find the point where x = -1.",
+      "options": [
+        "(-1, 7)",
+        "(-1, 5)",
+        "(-1, 1)",
+        "(1, 7)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 2¹ = 2; multiply by 2 to obtain 4.",
+        "Apply the vertical shift + 3: f(-1) = 4 + 3 = 7.",
+        "Answer: (-1, 7). Check: substituting x = -1 into the original function gives 7."
+      ],
+      "memo": "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0. For x = -1, calculate the exponent: x + 2 = 1. The exponential value is 2¹ = 2; multiply by 2 to obtain 4. Apply the vertical shift + 3: f(-1) = 4 + 3 = 7. Answer: (-1, 7). Check: substituting x = -1 into the original function gives 7."
+    },
+    {
+      "id": "g11-fn-l03-m03",
+      "prompt": "On f(x) = -1·3^(x − 4) + 1, find the point where x = 5.",
+      "options": [
+        "(5, 0)",
+        "(5, -4)",
+        "(-5, -2)",
+        "(5, -2)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 3¹ = 3; multiply by -1 to obtain -3.",
+        "Apply the vertical shift + 1: f(5) = -3 + 1 = -2.",
+        "Answer: (5, -2). Check: substituting x = 5 into the original function gives -2."
+      ],
+      "memo": "Start with b^x for base b = 3 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 5, calculate the exponent: x − 4 = 1. The exponential value is 3¹ = 3; multiply by -1 to obtain -3. Apply the vertical shift + 1: f(5) = -3 + 1 = -2. Answer: (5, -2). Check: substituting x = 5 into the original function gives -2."
+    },
+    {
+      "id": "g11-fn-l03-m04",
+      "prompt": "On f(x) = 1·4^(x − 1) − 1, find the point where x = 2.",
+      "options": [
+        "(2, 5)",
+        "(-2, 3)",
+        "(2, 3)",
+        "(2, 0)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 4¹ = 4; multiply by 1 to obtain 4.",
+        "Apply the vertical shift − 1: f(2) = 4 − 1 = 3.",
+        "Answer: (2, 3). Check: substituting x = 2 into the original function gives 3."
+      ],
+      "memo": "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 2, calculate the exponent: x − 1 = 1. The exponential value is 4¹ = 4; multiply by 1 to obtain 4. Apply the vertical shift − 1: f(2) = 4 − 1 = 3. Answer: (2, 3). Check: substituting x = 2 into the original function gives 3."
+    },
+    {
+      "id": "g11-fn-l03-m05",
+      "prompt": "On f(x) = 2·5^(x + 2) − 3, find the point where x = -1.",
+      "options": [
+        "(1, 7)",
+        "(-1, 7)",
+        "(-1, -1)",
+        "(-1, 13)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 5¹ = 5; multiply by 2 to obtain 10.",
+        "Apply the vertical shift − 3: f(-1) = 10 − 3 = 7.",
+        "Answer: (-1, 7). Check: substituting x = -1 into the original function gives 7."
+      ],
+      "memo": "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0. For x = -1, calculate the exponent: x + 2 = 1. The exponential value is 5¹ = 5; multiply by 2 to obtain 10. Apply the vertical shift − 3: f(-1) = 10 − 3 = 7. Answer: (-1, 7). Check: substituting x = -1 into the original function gives 7."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-fn-l03-r01",
+      "prompt": "On f(x) = 1·4^(x − 1) + 3, find the point where x = 2.",
+      "options": [
+        "(2, 7)",
+        "(2, 4)",
+        "(2, 1)",
+        "(-2, 7)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 2, calculate the exponent: x − 1 = 1.",
+        "The exponential value is 4¹ = 4; multiply by 1 to obtain 4.",
+        "Apply the vertical shift + 3: f(2) = 4 + 3 = 7.",
+        "Answer: (2, 7). Check: substituting x = 2 into the original function gives 7."
+      ],
+      "memo": "Start with b^x for base b = 4 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 2, calculate the exponent: x − 1 = 1. The exponential value is 4¹ = 4; multiply by 1 to obtain 4. Apply the vertical shift + 3: f(2) = 4 + 3 = 7. Answer: (2, 7). Check: substituting x = 2 into the original function gives 7."
+    },
+    {
+      "id": "g11-fn-l03-r02",
+      "prompt": "On f(x) = 2·5^(x + 2) + 1, find the point where x = -1.",
+      "options": [
+        "(-1, 3)",
+        "(-1, 9)",
+        "(1, 11)",
+        "(-1, 11)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = -1, calculate the exponent: x + 2 = 1.",
+        "The exponential value is 5¹ = 5; multiply by 2 to obtain 10.",
+        "Apply the vertical shift + 1: f(-1) = 10 + 1 = 11.",
+        "Answer: (-1, 11). Check: substituting x = -1 into the original function gives 11."
+      ],
+      "memo": "Start with b^x for base b = 5 > 0, b ≠ 1; mark its value 1 at x = 0. For x = -1, calculate the exponent: x + 2 = 1. The exponential value is 5¹ = 5; multiply by 2 to obtain 10. Apply the vertical shift + 1: f(-1) = 10 + 1 = 11. Answer: (-1, 11). Check: substituting x = -1 into the original function gives 11."
+    },
+    {
+      "id": "g11-fn-l03-r03",
+      "prompt": "On f(x) = -1·2^(x − 4) − 1, find the point where x = 5.",
+      "options": [
+        "(5, -1)",
+        "(-5, -3)",
+        "(5, -3)",
+        "(5, -2)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0.",
+        "For x = 5, calculate the exponent: x − 4 = 1.",
+        "The exponential value is 2¹ = 2; multiply by -1 to obtain -2.",
+        "Apply the vertical shift − 1: f(5) = -2 − 1 = -3.",
+        "Answer: (5, -3). Check: substituting x = 5 into the original function gives -3."
+      ],
+      "memo": "Start with b^x for base b = 2 > 0, b ≠ 1; mark its value 1 at x = 0. For x = 5, calculate the exponent: x − 4 = 1. The exponential value is 2¹ = 2; multiply by -1 to obtain -2. Apply the vertical shift − 1: f(5) = -2 − 1 = -3. Answer: (5, -3). Check: substituting x = 5 into the original function gives -3."
+    }
+  ]
+}
