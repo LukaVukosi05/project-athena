@@ -1,0 +1,50 @@
+[
+  {
+    "lesson_id": "g11-meas-01",
+    "source": "grade11-meas-lesson-01.md",
+    "source_sha256": "635b58e64f9e6ea47e4109d1550eacbe581eec9e98765c970ac1475c3348fe31",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-meas-02",
+    "source": "grade11-meas-lesson-02.md",
+    "source_sha256": "7c32cb3525e7bf0a45827ebf7613a9d6c764e4066bcb392799522b2682c13ba0",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-meas-03",
+    "source": "grade11-meas-lesson-03.md",
+    "source_sha256": "4a6e3ec86406619e133c921009ac7038647674fb8dcd7e6b516cb47f050d0b7f",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-meas-04",
+    "source": "grade11-meas-lesson-04.md",
+    "source_sha256": "24f595f520e156d55170ed955c9f564c35b376e021700a43af59a336c557564b",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

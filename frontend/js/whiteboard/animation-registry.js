@@ -255,3 +255,4 @@ for(let number=1;number<=7;number++)registerTeachingOperation(`grade11_stat_${nu
 for(let number=1;number<=7;number++)registerTeachingOperation(`grade11_prob_${number}_step`);
 for(let number=1;number<=6;number++)registerTeachingOperation(`grade11_fin_${number}_step`);
 for(let number=1;number<=5;number++)registerTeachingOperation(`grade11_pat_${number}_step`);
+for(let number=1;number<=4;number++)registerTeachingOperation(`grade11_meas_${number}_step`);

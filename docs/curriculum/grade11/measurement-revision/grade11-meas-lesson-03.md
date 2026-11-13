@@ -1,0 +1,299 @@
+# Grade 11 Measurement Revision, Lesson 3: Spheres and right cones
+
+[DBE ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2023%20ATPs/FET%20Content%20Subjects/Grade%2011/1.590%20ATP%202023-24%20Gr%2011%20Maths%20final.pdf) and [Mathematics CAPS](https://www.education.gov.za/Portals/0/CD/National%20Curriculum%20Statements%20and%20Vocational/CAPS%20FET%20_%20MATHEMATICS%20_%20GR%2010-12%20_%20Web_1133.pdf).
+
+This is an Athena revision path, not a separate newly prescribed CAPS topic. Original questions; teacher and live browser acceptance required.
+
+All dimensions are centimetres. Exact π answers are retained. Closed bases and hidden joins are labelled per question.
+
+## g11-meas-l03-w01: A sphere has radius 3 cm. Find its volume and exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "sphere", "r": 3}}`
+
+1. Mark radius 3 cm from the centre of the sphere to its surface.
+
+2. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary.
+
+3. Volume = (4/3)π(3)³ = 36π cm³.
+
+4. Exposed surface area = 4π(3)² = 36π cm².
+
+5. Answer: V = 36π cm³; exposed SA = 36π cm². Check the volume uses a cube and the surface area uses a square.
+
+Answer: V = 36π cm³; exposed SA = 36π cm². Check: Answer: V = 36π cm³; exposed SA = 36π cm². Check the volume uses a cube and the surface area uses a square.
+
+## g11-meas-l03-w02: A closed right cone has radius 4 cm and perpendicular height 3 cm. Find its slant height, volume and total exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "cone", "r": 4, "h": 3}}`
+
+1. Draw the right cone. Mark base radius 4 cm and perpendicular height 3 cm from apex to centre.
+
+2. Use a right triangle to find the slant height: √(4² + 3²) = 5 cm. This is the curved-side length.
+
+3. Volume = (1/3)π(4)²(3) = 16π cm³.
+
+4. Exposed surface area = π(4)(5) + π(4)² = 36π cm², including the closed base.
+
+5. Answer: V = 16π cm³; exposed SA = 36π cm²; slant height = 5 cm. Check the perpendicular height was used for volume.
+
+Answer: V = 16π cm³; exposed SA = 36π cm². Check: Answer: V = 16π cm³; exposed SA = 36π cm²; slant height = 5 cm. Check the perpendicular height was used for volume.
+
+## g11-meas-l03-w03: A sphere has radius 5 cm. Find its volume and exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "sphere", "r": 5}}`
+
+1. Mark radius 5 cm from the centre of the sphere to its surface.
+
+2. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary.
+
+3. Volume = (4/3)π(5)³ = (500/3)π cm³.
+
+4. Exposed surface area = 4π(5)² = 100π cm².
+
+5. Answer: V = (500/3)π cm³; exposed SA = 100π cm². Check the volume uses a cube and the surface area uses a square.
+
+Answer: V = (500/3)π cm³; exposed SA = 100π cm². Check: Answer: V = (500/3)π cm³; exposed SA = 100π cm². Check the volume uses a cube and the surface area uses a square.
+
+## g11-meas-l03-w04: A closed right cone has radius 5 cm and perpendicular height 12 cm. Find its slant height, volume and total exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "cone", "r": 5, "h": 12}}`
+
+1. Draw the right cone. Mark base radius 5 cm and perpendicular height 12 cm from apex to centre.
+
+2. Use a right triangle to find the slant height: √(5² + 12²) = 13 cm. This is the curved-side length.
+
+3. Volume = (1/3)π(5)²(12) = 100π cm³.
+
+4. Exposed surface area = π(5)(13) + π(5)² = 90π cm², including the closed base.
+
+5. Answer: V = 100π cm³; exposed SA = 90π cm²; slant height = 13 cm. Check the perpendicular height was used for volume.
+
+Answer: V = 100π cm³; exposed SA = 90π cm². Check: Answer: V = 100π cm³; exposed SA = 90π cm²; slant height = 13 cm. Check the perpendicular height was used for volume.
+
+## g11-meas-l03-w05: A sphere has radius 7 cm. Find its volume and exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "sphere", "r": 7}}`
+
+1. Mark radius 7 cm from the centre of the sphere to its surface.
+
+2. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary.
+
+3. Volume = (4/3)π(7)³ = (1372/3)π cm³.
+
+4. Exposed surface area = 4π(7)² = 196π cm².
+
+5. Answer: V = (1372/3)π cm³; exposed SA = 196π cm². Check the volume uses a cube and the surface area uses a square.
+
+Answer: V = (1372/3)π cm³; exposed SA = 196π cm². Check: Answer: V = (1372/3)π cm³; exposed SA = 196π cm². Check the volume uses a cube and the surface area uses a square.
+
+## g11-meas-l03-w06: A closed right cone has radius 6 cm and perpendicular height 8 cm. Find its slant height, volume and total exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "cone", "r": 6, "h": 8}}`
+
+1. Draw the right cone. Mark base radius 6 cm and perpendicular height 8 cm from apex to centre.
+
+2. Use a right triangle to find the slant height: √(6² + 8²) = 10 cm. This is the curved-side length.
+
+3. Volume = (1/3)π(6)²(8) = 96π cm³.
+
+4. Exposed surface area = π(6)(10) + π(6)² = 96π cm², including the closed base.
+
+5. Answer: V = 96π cm³; exposed SA = 96π cm²; slant height = 10 cm. Check the perpendicular height was used for volume.
+
+Answer: V = 96π cm³; exposed SA = 96π cm². Check: Answer: V = 96π cm³; exposed SA = 96π cm²; slant height = 10 cm. Check the perpendicular height was used for volume.
+
+## g11-meas-l03-w07: A sphere has radius 9 cm. Find its volume and exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "sphere", "r": 9}}`
+
+1. Mark radius 9 cm from the centre of the sphere to its surface.
+
+2. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary.
+
+3. Volume = (4/3)π(9)³ = 972π cm³.
+
+4. Exposed surface area = 4π(9)² = 324π cm².
+
+5. Answer: V = 972π cm³; exposed SA = 324π cm². Check the volume uses a cube and the surface area uses a square.
+
+Answer: V = 972π cm³; exposed SA = 324π cm². Check: Answer: V = 972π cm³; exposed SA = 324π cm². Check the volume uses a cube and the surface area uses a square.
+
+## g11-meas-l03-w08: A closed right cone has radius 8 cm and perpendicular height 15 cm. Find its slant height, volume and total exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "cone", "r": 8, "h": 15}}`
+
+1. Draw the right cone. Mark base radius 8 cm and perpendicular height 15 cm from apex to centre.
+
+2. Use a right triangle to find the slant height: √(8² + 15²) = 17 cm. This is the curved-side length.
+
+3. Volume = (1/3)π(8)²(15) = 320π cm³.
+
+4. Exposed surface area = π(8)(17) + π(8)² = 200π cm², including the closed base.
+
+5. Answer: V = 320π cm³; exposed SA = 200π cm²; slant height = 17 cm. Check the perpendicular height was used for volume.
+
+Answer: V = 320π cm³; exposed SA = 200π cm². Check: Answer: V = 320π cm³; exposed SA = 200π cm²; slant height = 17 cm. Check the perpendicular height was used for volume.
+
+## g11-meas-l03-w09: A sphere has radius 11 cm. Find its volume and exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "sphere", "r": 11}}`
+
+1. Mark radius 11 cm from the centre of the sphere to its surface.
+
+2. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary.
+
+3. Volume = (4/3)π(11)³ = (5324/3)π cm³.
+
+4. Exposed surface area = 4π(11)² = 484π cm².
+
+5. Answer: V = (5324/3)π cm³; exposed SA = 484π cm². Check the volume uses a cube and the surface area uses a square.
+
+Answer: V = (5324/3)π cm³; exposed SA = 484π cm². Check: Answer: V = (5324/3)π cm³; exposed SA = 484π cm². Check the volume uses a cube and the surface area uses a square.
+
+## g11-meas-l03-w10: A closed right cone has radius 9 cm and perpendicular height 12 cm. Find its slant height, volume and total exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "cone", "r": 9, "h": 12}}`
+
+1. Draw the right cone. Mark base radius 9 cm and perpendicular height 12 cm from apex to centre.
+
+2. Use a right triangle to find the slant height: √(9² + 12²) = 15 cm. This is the curved-side length.
+
+3. Volume = (1/3)π(9)²(12) = 324π cm³.
+
+4. Exposed surface area = π(9)(15) + π(9)² = 216π cm², including the closed base.
+
+5. Answer: V = 324π cm³; exposed SA = 216π cm²; slant height = 15 cm. Check the perpendicular height was used for volume.
+
+Answer: V = 324π cm³; exposed SA = 216π cm². Check: Answer: V = 324π cm³; exposed SA = 216π cm²; slant height = 15 cm. Check the perpendicular height was used for volume.
+
+## g11-meas-l03-w11: A sphere has radius 13 cm. Find its volume and exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "sphere", "r": 13}}`
+
+1. Mark radius 13 cm from the centre of the sphere to its surface.
+
+2. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary.
+
+3. Volume = (4/3)π(13)³ = (8788/3)π cm³.
+
+4. Exposed surface area = 4π(13)² = 676π cm².
+
+5. Answer: V = (8788/3)π cm³; exposed SA = 676π cm². Check the volume uses a cube and the surface area uses a square.
+
+Answer: V = (8788/3)π cm³; exposed SA = 676π cm². Check: Answer: V = (8788/3)π cm³; exposed SA = 676π cm². Check the volume uses a cube and the surface area uses a square.
+
+## g11-meas-l03-w12: A closed right cone has radius 12 cm and perpendicular height 9 cm. Find its slant height, volume and total exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "cone", "r": 12, "h": 9}}`
+
+1. Draw the right cone. Mark base radius 12 cm and perpendicular height 9 cm from apex to centre.
+
+2. Use a right triangle to find the slant height: √(12² + 9²) = 15 cm. This is the curved-side length.
+
+3. Volume = (1/3)π(12)²(9) = 432π cm³.
+
+4. Exposed surface area = π(12)(15) + π(12)² = 324π cm², including the closed base.
+
+5. Answer: V = 432π cm³; exposed SA = 324π cm²; slant height = 15 cm. Check the perpendicular height was used for volume.
+
+Answer: V = 432π cm³; exposed SA = 324π cm². Check: Answer: V = 432π cm³; exposed SA = 324π cm²; slant height = 15 cm. Check the perpendicular height was used for volume.
+
+## g11-meas-l03-w13: A sphere has radius 15 cm. Find its volume and exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "sphere", "r": 15}}`
+
+1. Mark radius 15 cm from the centre of the sphere to its surface.
+
+2. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary.
+
+3. Volume = (4/3)π(15)³ = 4500π cm³.
+
+4. Exposed surface area = 4π(15)² = 900π cm².
+
+5. Answer: V = 4500π cm³; exposed SA = 900π cm². Check the volume uses a cube and the surface area uses a square.
+
+Answer: V = 4500π cm³; exposed SA = 900π cm². Check: Answer: V = 4500π cm³; exposed SA = 900π cm². Check the volume uses a cube and the surface area uses a square.
+
+## g11-meas-l03-w14: A closed right cone has radius 15 cm and perpendicular height 36 cm. Find its slant height, volume and total exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "cone", "r": 15, "h": 36}}`
+
+1. Draw the right cone. Mark base radius 15 cm and perpendicular height 36 cm from apex to centre.
+
+2. Use a right triangle to find the slant height: √(15² + 36²) = 39 cm. This is the curved-side length.
+
+3. Volume = (1/3)π(15)²(36) = 2700π cm³.
+
+4. Exposed surface area = π(15)(39) + π(15)² = 810π cm², including the closed base.
+
+5. Answer: V = 2700π cm³; exposed SA = 810π cm²; slant height = 39 cm. Check the perpendicular height was used for volume.
+
+Answer: V = 2700π cm³; exposed SA = 810π cm². Check: Answer: V = 2700π cm³; exposed SA = 810π cm²; slant height = 39 cm. Check the perpendicular height was used for volume.
+
+## g11-meas-l03-w15: A sphere has radius 17 cm. Find its volume and exposed surface area in terms of π.
+
+Question-specific visual givens: `{"family": "grade11_measurement", "values": {"mode": "sphere", "r": 17}}`
+
+1. Mark radius 17 cm from the centre of the sphere to its surface.
+
+2. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary.
+
+3. Volume = (4/3)π(17)³ = (19652/3)π cm³.
+
+4. Exposed surface area = 4π(17)² = 1156π cm².
+
+5. Answer: V = (19652/3)π cm³; exposed SA = 1156π cm². Check the volume uses a cube and the surface area uses a square.
+
+Answer: V = (19652/3)π cm³; exposed SA = 1156π cm². Check: Answer: V = (19652/3)π cm³; exposed SA = 1156π cm². Check the volume uses a cube and the surface area uses a square.
+
+## Practice key
+
+- g11-meas-l03-p01: A closed right cone has radius 18 cm and perpendicular height 24 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 2592π cm³; exposed SA = 540π cm² | V = 7776π cm³; exposed SA = 540π cm² | V = 2592π cm³; exposed SA = 864π cm² | V = 7776π cm³; exposed SA = 864π cm². Correct: V = 2592π cm³; exposed SA = 864π cm². Draw the right cone. Mark base radius 18 cm and perpendicular height 24 cm from apex to centre. Use a right triangle to find the slant height: √(18² + 24²) = 30 cm. This is the curved-side length. Volume = (1/3)π(18)²(24) = 2592π cm³. Exposed surface area = π(18)(30) + π(18)² = 864π cm², including the closed base. Answer: V = 2592π cm³; exposed SA = 864π cm²; slant height = 30 cm. Check the perpendicular height was used for volume.
+
+- g11-meas-l03-p02: A sphere has radius 19 cm. Find its volume and exposed surface area in terms of π. Options: V = (1444/3)π cm³; exposed SA = 27436π cm² | V = (27436/3)π cm³; exposed SA = 1444π cm² | V = (1444/3)π cm³; exposed SA = 1444π cm² | V = (27436/3)π cm³; exposed SA = 27436π cm². Correct: V = (27436/3)π cm³; exposed SA = 1444π cm². Mark radius 19 cm from the centre of the sphere to its surface. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary. Volume = (4/3)π(19)³ = (27436/3)π cm³. Exposed surface area = 4π(19)² = 1444π cm². Answer: V = (27436/3)π cm³; exposed SA = 1444π cm². Check the volume uses a cube and the surface area uses a square.
+
+- g11-meas-l03-p03: A closed right cone has radius 24 cm and perpendicular height 45 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 8640π cm³; exposed SA = 1800π cm² | V = 25920π cm³; exposed SA = 1800π cm² | V = 8640π cm³; exposed SA = 1224π cm² | V = 25920π cm³; exposed SA = 1224π cm². Correct: V = 8640π cm³; exposed SA = 1800π cm². Draw the right cone. Mark base radius 24 cm and perpendicular height 45 cm from apex to centre. Use a right triangle to find the slant height: √(24² + 45²) = 51 cm. This is the curved-side length. Volume = (1/3)π(24)²(45) = 8640π cm³. Exposed surface area = π(24)(51) + π(24)² = 1800π cm², including the closed base. Answer: V = 8640π cm³; exposed SA = 1800π cm²; slant height = 51 cm. Check the perpendicular height was used for volume.
+
+- g11-meas-l03-p04: A sphere has radius 21 cm. Find its volume and exposed surface area in terms of π. Options: V = 588π cm³; exposed SA = 1764π cm² | V = 12348π cm³; exposed SA = 37044π cm² | V = 588π cm³; exposed SA = 37044π cm² | V = 12348π cm³; exposed SA = 1764π cm². Correct: V = 12348π cm³; exposed SA = 1764π cm². Mark radius 21 cm from the centre of the sphere to its surface. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary. Volume = (4/3)π(21)³ = 12348π cm³. Exposed surface area = 4π(21)² = 1764π cm². Answer: V = 12348π cm³; exposed SA = 1764π cm². Check the volume uses a cube and the surface area uses a square.
+
+- g11-meas-l03-p05: A closed right cone has radius 15 cm and perpendicular height 20 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 1500π cm³; exposed SA = 375π cm² | V = 4500π cm³; exposed SA = 375π cm² | V = 1500π cm³; exposed SA = 600π cm² | V = 4500π cm³; exposed SA = 600π cm². Correct: V = 1500π cm³; exposed SA = 600π cm². Draw the right cone. Mark base radius 15 cm and perpendicular height 20 cm from apex to centre. Use a right triangle to find the slant height: √(15² + 20²) = 25 cm. This is the curved-side length. Volume = (1/3)π(15)²(20) = 1500π cm³. Exposed surface area = π(15)(25) + π(15)² = 600π cm², including the closed base. Answer: V = 1500π cm³; exposed SA = 600π cm²; slant height = 25 cm. Check the perpendicular height was used for volume.
+
+- g11-meas-l03-p06: A sphere has radius 23 cm. Find its volume and exposed surface area in terms of π. Options: V = (2116/3)π cm³; exposed SA = 48668π cm² | V = (48668/3)π cm³; exposed SA = 2116π cm² | V = (2116/3)π cm³; exposed SA = 2116π cm² | V = (48668/3)π cm³; exposed SA = 48668π cm². Correct: V = (48668/3)π cm³; exposed SA = 2116π cm². Mark radius 23 cm from the centre of the sphere to its surface. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary. Volume = (4/3)π(23)³ = (48668/3)π cm³. Exposed surface area = 4π(23)² = 2116π cm². Answer: V = (48668/3)π cm³; exposed SA = 2116π cm². Check the volume uses a cube and the surface area uses a square.
+
+- g11-meas-l03-p07: A closed right cone has radius 20 cm and perpendicular height 15 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 2000π cm³; exposed SA = 900π cm² | V = 6000π cm³; exposed SA = 900π cm² | V = 2000π cm³; exposed SA = 500π cm² | V = 6000π cm³; exposed SA = 500π cm². Correct: V = 2000π cm³; exposed SA = 900π cm². Draw the right cone. Mark base radius 20 cm and perpendicular height 15 cm from apex to centre. Use a right triangle to find the slant height: √(20² + 15²) = 25 cm. This is the curved-side length. Volume = (1/3)π(20)²(15) = 2000π cm³. Exposed surface area = π(20)(25) + π(20)² = 900π cm², including the closed base. Answer: V = 2000π cm³; exposed SA = 900π cm²; slant height = 25 cm. Check the perpendicular height was used for volume.
+
+- g11-meas-l03-p08: A sphere has radius 25 cm. Find its volume and exposed surface area in terms of π. Options: V = (2500/3)π cm³; exposed SA = 2500π cm² | V = (62500/3)π cm³; exposed SA = 62500π cm² | V = (2500/3)π cm³; exposed SA = 62500π cm² | V = (62500/3)π cm³; exposed SA = 2500π cm². Correct: V = (62500/3)π cm³; exposed SA = 2500π cm². Mark radius 25 cm from the centre of the sphere to its surface. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary. Volume = (4/3)π(25)³ = (62500/3)π cm³. Exposed surface area = 4π(25)² = 2500π cm². Answer: V = (62500/3)π cm³; exposed SA = 2500π cm². Check the volume uses a cube and the surface area uses a square.
+
+- g11-meas-l03-p09: A closed right cone has radius 25 cm and perpendicular height 60 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 12500π cm³; exposed SA = 1625π cm² | V = 37500π cm³; exposed SA = 1625π cm² | V = 12500π cm³; exposed SA = 2250π cm² | V = 37500π cm³; exposed SA = 2250π cm². Correct: V = 12500π cm³; exposed SA = 2250π cm². Draw the right cone. Mark base radius 25 cm and perpendicular height 60 cm from apex to centre. Use a right triangle to find the slant height: √(25² + 60²) = 65 cm. This is the curved-side length. Volume = (1/3)π(25)²(60) = 12500π cm³. Exposed surface area = π(25)(65) + π(25)² = 2250π cm², including the closed base. Answer: V = 12500π cm³; exposed SA = 2250π cm²; slant height = 65 cm. Check the perpendicular height was used for volume.
+
+- g11-meas-l03-p10: A sphere has radius 27 cm. Find its volume and exposed surface area in terms of π. Options: V = 972π cm³; exposed SA = 78732π cm² | V = 26244π cm³; exposed SA = 2916π cm² | V = 972π cm³; exposed SA = 2916π cm² | V = 26244π cm³; exposed SA = 78732π cm². Correct: V = 26244π cm³; exposed SA = 2916π cm². Mark radius 27 cm from the centre of the sphere to its surface. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary. Volume = (4/3)π(27)³ = 26244π cm³. Exposed surface area = 4π(27)² = 2916π cm². Answer: V = 26244π cm³; exposed SA = 2916π cm². Check the volume uses a cube and the surface area uses a square.
+
+- g11-meas-l03-p11: A closed right cone has radius 30 cm and perpendicular height 40 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 12000π cm³; exposed SA = 2400π cm² | V = 36000π cm³; exposed SA = 2400π cm² | V = 12000π cm³; exposed SA = 1500π cm² | V = 36000π cm³; exposed SA = 1500π cm². Correct: V = 12000π cm³; exposed SA = 2400π cm². Draw the right cone. Mark base radius 30 cm and perpendicular height 40 cm from apex to centre. Use a right triangle to find the slant height: √(30² + 40²) = 50 cm. This is the curved-side length. Volume = (1/3)π(30)²(40) = 12000π cm³. Exposed surface area = π(30)(50) + π(30)² = 2400π cm², including the closed base. Answer: V = 12000π cm³; exposed SA = 2400π cm²; slant height = 50 cm. Check the perpendicular height was used for volume.
+
+- g11-meas-l03-p12: A sphere has radius 29 cm. Find its volume and exposed surface area in terms of π. Options: V = (3364/3)π cm³; exposed SA = 3364π cm² | V = (97556/3)π cm³; exposed SA = 97556π cm² | V = (3364/3)π cm³; exposed SA = 97556π cm² | V = (97556/3)π cm³; exposed SA = 3364π cm². Correct: V = (97556/3)π cm³; exposed SA = 3364π cm². Mark radius 29 cm from the centre of the sphere to its surface. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary. Volume = (4/3)π(29)³ = (97556/3)π cm³. Exposed surface area = 4π(29)² = 3364π cm². Answer: V = (97556/3)π cm³; exposed SA = 3364π cm². Check the volume uses a cube and the surface area uses a square.
+
+- g11-meas-l03-p13: A closed right cone has radius 40 cm and perpendicular height 75 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 40000π cm³; exposed SA = 3400π cm² | V = 120000π cm³; exposed SA = 3400π cm² | V = 40000π cm³; exposed SA = 5000π cm² | V = 120000π cm³; exposed SA = 5000π cm². Correct: V = 40000π cm³; exposed SA = 5000π cm². Draw the right cone. Mark base radius 40 cm and perpendicular height 75 cm from apex to centre. Use a right triangle to find the slant height: √(40² + 75²) = 85 cm. This is the curved-side length. Volume = (1/3)π(40)²(75) = 40000π cm³. Exposed surface area = π(40)(85) + π(40)² = 5000π cm², including the closed base. Answer: V = 40000π cm³; exposed SA = 5000π cm²; slant height = 85 cm. Check the perpendicular height was used for volume.
+
+- g11-meas-l03-p14: A sphere has radius 31 cm. Find its volume and exposed surface area in terms of π. Options: V = (3844/3)π cm³; exposed SA = 119164π cm² | V = (119164/3)π cm³; exposed SA = 3844π cm² | V = (3844/3)π cm³; exposed SA = 3844π cm² | V = (119164/3)π cm³; exposed SA = 119164π cm². Correct: V = (119164/3)π cm³; exposed SA = 3844π cm². Mark radius 31 cm from the centre of the sphere to its surface. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary. Volume = (4/3)π(31)³ = (119164/3)π cm³. Exposed surface area = 4π(31)² = 3844π cm². Answer: V = (119164/3)π cm³; exposed SA = 3844π cm². Check the volume uses a cube and the surface area uses a square.
+
+- g11-meas-l03-p15: A closed right cone has radius 21 cm and perpendicular height 28 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 4116π cm³; exposed SA = 1176π cm² | V = 12348π cm³; exposed SA = 1176π cm² | V = 4116π cm³; exposed SA = 735π cm² | V = 12348π cm³; exposed SA = 735π cm². Correct: V = 4116π cm³; exposed SA = 1176π cm². Draw the right cone. Mark base radius 21 cm and perpendicular height 28 cm from apex to centre. Use a right triangle to find the slant height: √(21² + 28²) = 35 cm. This is the curved-side length. Volume = (1/3)π(21)²(28) = 4116π cm³. Exposed surface area = π(21)(35) + π(21)² = 1176π cm², including the closed base. Answer: V = 4116π cm³; exposed SA = 1176π cm²; slant height = 35 cm. Check the perpendicular height was used for volume.
+
+## Mastery key
+
+- g11-meas-l03-m01: A sphere has radius 33 cm. Find its volume and exposed surface area in terms of π. Options: V = 1452π cm³; exposed SA = 143748π cm² | V = 47916π cm³; exposed SA = 4356π cm² | V = 1452π cm³; exposed SA = 4356π cm² | V = 47916π cm³; exposed SA = 143748π cm². Correct: V = 47916π cm³; exposed SA = 4356π cm². Mark radius 33 cm from the centre of the sphere to its surface. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary. Volume = (4/3)π(33)³ = 47916π cm³. Exposed surface area = 4π(33)² = 4356π cm². Answer: V = 47916π cm³; exposed SA = 4356π cm². Check the volume uses a cube and the surface area uses a square.
+
+- g11-meas-l03-m02: A closed right cone has radius 28 cm and perpendicular height 21 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 5488π cm³; exposed SA = 1764π cm² | V = 16464π cm³; exposed SA = 1764π cm² | V = 5488π cm³; exposed SA = 980π cm² | V = 16464π cm³; exposed SA = 980π cm². Correct: V = 5488π cm³; exposed SA = 1764π cm². Draw the right cone. Mark base radius 28 cm and perpendicular height 21 cm from apex to centre. Use a right triangle to find the slant height: √(28² + 21²) = 35 cm. This is the curved-side length. Volume = (1/3)π(28)²(21) = 5488π cm³. Exposed surface area = π(28)(35) + π(28)² = 1764π cm², including the closed base. Answer: V = 5488π cm³; exposed SA = 1764π cm²; slant height = 35 cm. Check the perpendicular height was used for volume.
+
+- g11-meas-l03-m03: A sphere has radius 35 cm. Find its volume and exposed surface area in terms of π. Options: V = (4900/3)π cm³; exposed SA = 4900π cm² | V = (171500/3)π cm³; exposed SA = 171500π cm² | V = (4900/3)π cm³; exposed SA = 171500π cm² | V = (171500/3)π cm³; exposed SA = 4900π cm². Correct: V = (171500/3)π cm³; exposed SA = 4900π cm². Mark radius 35 cm from the centre of the sphere to its surface. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary. Volume = (4/3)π(35)³ = (171500/3)π cm³. Exposed surface area = 4π(35)² = 4900π cm². Answer: V = (171500/3)π cm³; exposed SA = 4900π cm². Check the volume uses a cube and the surface area uses a square.
+
+- g11-meas-l03-m04: A closed right cone has radius 35 cm and perpendicular height 84 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 34300π cm³; exposed SA = 3185π cm² | V = 102900π cm³; exposed SA = 3185π cm² | V = 34300π cm³; exposed SA = 4410π cm² | V = 102900π cm³; exposed SA = 4410π cm². Correct: V = 34300π cm³; exposed SA = 4410π cm². Draw the right cone. Mark base radius 35 cm and perpendicular height 84 cm from apex to centre. Use a right triangle to find the slant height: √(35² + 84²) = 91 cm. This is the curved-side length. Volume = (1/3)π(35)²(84) = 34300π cm³. Exposed surface area = π(35)(91) + π(35)² = 4410π cm², including the closed base. Answer: V = 34300π cm³; exposed SA = 4410π cm²; slant height = 91 cm. Check the perpendicular height was used for volume.
+
+- g11-meas-l03-m05: A sphere has radius 37 cm. Find its volume and exposed surface area in terms of π. Options: V = (5476/3)π cm³; exposed SA = 202612π cm² | V = (202612/3)π cm³; exposed SA = 5476π cm² | V = (5476/3)π cm³; exposed SA = 5476π cm² | V = (202612/3)π cm³; exposed SA = 202612π cm². Correct: V = (202612/3)π cm³; exposed SA = 5476π cm². Mark radius 37 cm from the centre of the sphere to its surface. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary. Volume = (4/3)π(37)³ = (202612/3)π cm³. Exposed surface area = 4π(37)² = 5476π cm². Answer: V = (202612/3)π cm³; exposed SA = 5476π cm². Check the volume uses a cube and the surface area uses a square.
+
+## Reassessment key
+
+- g11-meas-l03-r01: A closed right cone has radius 54 cm and perpendicular height 72 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 69984π cm³; exposed SA = 7776π cm² | V = 209952π cm³; exposed SA = 7776π cm² | V = 69984π cm³; exposed SA = 4860π cm² | V = 209952π cm³; exposed SA = 4860π cm². Correct: V = 69984π cm³; exposed SA = 7776π cm². Draw the right cone. Mark base radius 54 cm and perpendicular height 72 cm from apex to centre. Use a right triangle to find the slant height: √(54² + 72²) = 90 cm. This is the curved-side length. Volume = (1/3)π(54)²(72) = 69984π cm³. Exposed surface area = π(54)(90) + π(54)² = 7776π cm², including the closed base. Answer: V = 69984π cm³; exposed SA = 7776π cm²; slant height = 90 cm. Check the perpendicular height was used for volume.
+
+- g11-meas-l03-r02: A sphere has radius 49 cm. Find its volume and exposed surface area in terms of π. Options: V = (9604/3)π cm³; exposed SA = 9604π cm² | V = (470596/3)π cm³; exposed SA = 470596π cm² | V = (9604/3)π cm³; exposed SA = 470596π cm² | V = (470596/3)π cm³; exposed SA = 9604π cm². Correct: V = (470596/3)π cm³; exposed SA = 9604π cm². Mark radius 49 cm from the centre of the sphere to its surface. Use V = (4/3)πr³ and SA = 4πr². The surface is one continuous exposed boundary. Volume = (4/3)π(49)³ = (470596/3)π cm³. Exposed surface area = 4π(49)² = 9604π cm². Answer: V = (470596/3)π cm³; exposed SA = 9604π cm². Check the volume uses a cube and the surface area uses a square.
+
+- g11-meas-l03-r03: A closed right cone has radius 72 cm and perpendicular height 135 cm. Find its slant height, volume and total exposed surface area in terms of π. Options: V = 233280π cm³; exposed SA = 11016π cm² | V = 699840π cm³; exposed SA = 11016π cm² | V = 233280π cm³; exposed SA = 16200π cm² | V = 699840π cm³; exposed SA = 16200π cm². Correct: V = 233280π cm³; exposed SA = 16200π cm². Draw the right cone. Mark base radius 72 cm and perpendicular height 135 cm from apex to centre. Use a right triangle to find the slant height: √(72² + 135²) = 153 cm. This is the curved-side length. Volume = (1/3)π(72)²(135) = 233280π cm³. Exposed surface area = π(72)(153) + π(72)² = 16200π cm², including the closed base. Answer: V = 233280π cm³; exposed SA = 16200π cm²; slant height = 153 cm. Check the perpendicular height was used for volume.

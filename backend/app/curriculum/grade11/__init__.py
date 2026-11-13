@@ -9,6 +9,7 @@ from .statistics import TOPIC as STATISTICS_TOPIC
 from .probability import TOPIC as PROBABILITY_TOPIC
 from .finance import TOPIC as FINANCE_TOPIC
 from .patterns import TOPIC as PATTERNS_TOPIC
+from .measurement_review import TOPIC as MEASUREMENT_REVIEW_TOPIC
 
 GRADE_11.topics.append(EQUATIONS_INEQUALITIES_TOPIC)
 GRADE_11.topics.append(TRIGONOMETRY_TOPIC)
@@ -20,3 +21,4 @@ GRADE_11.topics.append(STATISTICS_TOPIC)
 GRADE_11.topics.append(PROBABILITY_TOPIC)
 GRADE_11.topics.append(FINANCE_TOPIC)
 GRADE_11.topics.append(PATTERNS_TOPIC)
+GRADE_11.topics.append(MEASUREMENT_REVIEW_TOPIC)

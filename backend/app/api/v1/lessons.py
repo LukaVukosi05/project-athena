@@ -183,6 +183,8 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     for hidden in ("r","s"):
                         givens.pop(hidden,None)
                     scene["visual"]={"family":"grade11_equations","values":givens}
+                elif lesson.id.startswith("g11-meas-"):
+                    scene["visual"]={"family":"grade11_measurement","values":dict(scene["visual"]["values"])}
                 elif lesson.id.startswith("g11-pat-"):
                     givens=dict(scene["visual"]["values"])
                     givens.pop("target",None)

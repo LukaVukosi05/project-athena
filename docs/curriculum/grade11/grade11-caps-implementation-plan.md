@@ -1,9 +1,11 @@
 # Grade 11 Mathematics: source and implementation plan
 
-Status: Topics 1–11 have authored runtime previews, source files, whiteboard
+Status: Topics 1–12 have authored runtime previews, source files, whiteboard
 timelines and assessment banks. They remain teacher-review-required. Browser
 acceptance and teacher approval have not been recorded; do not label them
-published. Topic 12 remains a plan, not interactive lessons.
+published. No additional topic is planned. Topic 12 is an Athena measurement revision path, not a separately prescribed new CAPS topic.
+
+Topic 12 contains four measurement review lessons on prisms and cylinders, dimension scaling, spheres and cones, and composite exposed surfaces. The 2023/24 ATP explicitly schedules this revision. Teacher and browser acceptance are pending.
 
 Topic 11 has five quadratic pattern lessons with original number sequences, a staged difference table, a figural tile model, position solving and first-error repair. Teacher review must verify the task range, especially negative second differences, and mobile browser acceptance remains outstanding.
 
@@ -59,7 +61,7 @@ counts below are Athena authoring decisions. Paper labels follow the ATP's
 | 9 | Probability | 3 | 1 | 7 | Venn regions, two/three-event counts, dependent trees and contingency tables |
 | 10 | Finance, growth and decay | 3 | 1 | 6 | Amount timelines, compounding-period comparisons and rate conversions |
 | 11 | Quadratic number patterns | 4 | 1 | 5 | Figural growth, first/second-difference tables and term-position plots |
-| 12 | Measurement revision and integration | 4 | 2 | 4 | Solid nets, exposed surfaces, dimension scaling and composite solids |
+| 12 | Measurement revision and integration (Athena review path) | 4 | 2 | 4 | Solid nets, exposed surfaces, dimension scaling and composite solids |
 
 The ATP's separate Term 4 algebra and trigonometry revision should be attached
 as reassessment and recovery paths to Topics 1–3, rather than counted as invented

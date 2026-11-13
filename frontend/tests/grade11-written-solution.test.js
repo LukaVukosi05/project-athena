@@ -11,7 +11,7 @@ global.matchMedia = () => ({ matches:false });
 global.CSS = { escape:value => value };
 vm.runInThisContext(fs.readFileSync(path.join(__dirname, "../js/whiteboard/stateful-whiteboard.js"), "utf8"));
 
-for (const [topic, type] of [["fn", "function_graph"], ["rules", "trigonometry"], ["stat", "statistics"], ["prob", "statistics"], ["fin", "finance"], ["pat", "algebra"]]) {
+for (const [topic, type] of [["fn", "function_graph"], ["rules", "trigonometry"], ["stat", "statistics"], ["prob", "statistics"], ["fin", "finance"], ["pat", "algebra"], ["meas", "geometry"]]) {
   test(`Grade 11 ${topic} keeps the growing written solution beside its visual`, () => {
     const stage = {
       dataset:{}, innerHTML:"", scrollTarget:{ scrollTop:0, scrollHeight:100 }, setAttribute(){},

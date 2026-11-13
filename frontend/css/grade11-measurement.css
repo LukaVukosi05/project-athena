@@ -1,0 +1,18 @@
+.g11-meas-board{width:100%;min-width:0;color:#17344b}
+.g11-meas-board>p:first-child{font-weight:650;line-height:1.55}
+.g11-meas-model{width:100%;min-width:0;overflow:hidden}
+.g11-meas-model svg{display:block;width:100%;height:auto;max-height:350px}
+.g11-meas-model text{fill:#17344b;font:14px Inter,Arial,sans-serif}
+.g11-meas-front{fill:#d8edf0;stroke:#087e8a;stroke-width:2}
+.g11-meas-top{fill:#e8f5f5;stroke:#087e8a;stroke-width:2}
+.g11-meas-side{fill:#bddfe3;stroke:#087e8a;stroke-width:2}
+.g11-meas-face{fill:#e8f5f5;stroke:#087e8a;stroke-width:2}
+.g11-meas-back{fill:none;stroke:#7396a2;stroke-width:1.5;stroke-dasharray:5 4}
+.g11-meas-join{fill:none;stroke:#ae6726;stroke-dasharray:6 4;stroke-width:2}
+.g11-meas-outline,.g11-meas-cap{fill:none;stroke:#087e8a;stroke-width:2.5}
+.g11-meas-height{stroke:#ae6726;stroke-dasharray:5 3;stroke-width:2}
+.g11-meas-radius{stroke:#087e8a;stroke-width:2}
+.g11-meas-scaled-outline{fill:none;stroke:#ae6726;stroke-width:2.5;stroke-dasharray:7 4}
+.g11-meas-sketch-note{fill:#526e78!important;font-size:11px!important}
+.g11-meas-reason{fill:#08664a!important;font-weight:700!important}
+.g11-meas-board [data-object-id="verification"]{color:#08664a;font-weight:700}
