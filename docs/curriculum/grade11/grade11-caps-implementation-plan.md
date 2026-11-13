@@ -1,9 +1,11 @@
 # Grade 11 Mathematics: source and implementation plan
 
-Status: Topics 1–7 have authored runtime previews, source files, whiteboard
+Status: Topics 1–8 have authored runtime previews, source files, whiteboard
 timelines and assessment banks. They remain teacher-review-required. Browser
 acceptance and teacher approval have not been recorded; do not label them
-published. Topics 8–12 remain plans, not interactive lessons.
+published. Topics 9–12 remain plans, not interactive lessons.
+
+Topic 8 now has seven authored Statistics lessons with individual data sets, diagrams and assessments. The 2023/24 ATP explicitly lists central tendency, quartiles, histograms, frequency polygons, ogives, ungrouped standard deviation, skew and outliers. The seventh lesson adds CAPS bivariate scatterplots and model choice. The paper label is Paper 2. Teacher and desktop/mobile browser acceptance remain outstanding.
 
 Topic 7 now contains five original triangle-rule lessons with 75 worked examples, 75 practice, 25 mastery and 15 reassessment items. Proofs, live diagrams, angle labels and the alternate sine branch require teacher and browser acceptance.
 

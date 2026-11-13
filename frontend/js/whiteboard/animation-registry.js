@@ -251,3 +251,4 @@ for(let number=1;number<=6;number++)registerTeachingOperation(`grade11_ag_${numb
 
 for(let number=1;number<=8;number++)registerTeachingOperation(`grade11_fn_${number}_step`);
 for(let number=1;number<=5;number++)registerTeachingOperation(`grade11_rules_${number}_step`);
+for(let number=1;number<=7;number++)registerTeachingOperation(`grade11_stat_${number}_step`);

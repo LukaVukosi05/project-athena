@@ -1,0 +1,913 @@
+{
+  "source": "grade11-stat-lesson-03.md",
+  "worked": [
+    {
+      "id": "g11-stat-l03-w01",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 5≤x<15 through 45≤x<55. Frequencies in order: [4, 7, 13, 7, 5]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 25≤x<35",
+      "actions": [
+        "The class boundaries [5, 15, 25, 35, 45, 55] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [4, 7, 13, 7, 5].",
+        "Mark the midpoint of each bar top at [10, 20, 30, 40, 50].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13."
+      ],
+      "check": "Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 5,
+          "width": 10,
+          "frequencies": [
+            4,
+            7,
+            13,
+            7,
+            5
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-stat-l03-w02",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 10≤x<20 through 50≤x<60. Frequencies in order: [5, 9, 10, 8, 4]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 30≤x<40",
+      "actions": [
+        "The class boundaries [10, 20, 30, 40, 50, 60] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [5, 9, 10, 8, 4].",
+        "Mark the midpoint of each bar top at [15, 25, 35, 45, 55].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10."
+      ],
+      "check": "Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 10,
+          "width": 10,
+          "frequencies": [
+            5,
+            9,
+            10,
+            8,
+            4
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-stat-l03-w03",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 15≤x<25 through 55≤x<65. Frequencies in order: [6, 6, 13, 9, 3]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 35≤x<45",
+      "actions": [
+        "The class boundaries [15, 25, 35, 45, 55, 65] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [6, 6, 13, 9, 3].",
+        "Mark the midpoint of each bar top at [20, 30, 40, 50, 60].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13."
+      ],
+      "check": "Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 15,
+          "width": 10,
+          "frequencies": [
+            6,
+            6,
+            13,
+            9,
+            3
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-stat-l03-w04",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 20≤x<30 through 60≤x<70. Frequencies in order: [3, 8, 10, 6, 2]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 40≤x<50",
+      "actions": [
+        "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [3, 8, 10, 6, 2].",
+        "Mark the midpoint of each bar top at [25, 35, 45, 55, 65].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+      ],
+      "check": "Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 20,
+          "width": 10,
+          "frequencies": [
+            3,
+            8,
+            10,
+            6,
+            2
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-stat-l03-w05",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 25≤x<35 through 65≤x<75. Frequencies in order: [4, 5, 13, 7, 5]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 45≤x<55",
+      "actions": [
+        "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [4, 5, 13, 7, 5].",
+        "Mark the midpoint of each bar top at [30, 40, 50, 60, 70].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+      ],
+      "check": "Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 25,
+          "width": 10,
+          "frequencies": [
+            4,
+            5,
+            13,
+            7,
+            5
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-stat-l03-w06",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 0≤x<10 through 40≤x<50. Frequencies in order: [5, 7, 10, 8, 4]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 20≤x<30",
+      "actions": [
+        "The class boundaries [0, 10, 20, 30, 40, 50] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [5, 7, 10, 8, 4].",
+        "Mark the midpoint of each bar top at [5, 15, 25, 35, 45].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10."
+      ],
+      "check": "Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 0,
+          "width": 10,
+          "frequencies": [
+            5,
+            7,
+            10,
+            8,
+            4
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-stat-l03-w07",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 5≤x<15 through 45≤x<55. Frequencies in order: [6, 9, 13, 9, 3]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 25≤x<35",
+      "actions": [
+        "The class boundaries [5, 15, 25, 35, 45, 55] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [6, 9, 13, 9, 3].",
+        "Mark the midpoint of each bar top at [10, 20, 30, 40, 50].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13."
+      ],
+      "check": "Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 5,
+          "width": 10,
+          "frequencies": [
+            6,
+            9,
+            13,
+            9,
+            3
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-stat-l03-w08",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 10≤x<20 through 50≤x<60. Frequencies in order: [3, 6, 10, 6, 2]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 30≤x<40",
+      "actions": [
+        "The class boundaries [10, 20, 30, 40, 50, 60] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [3, 6, 10, 6, 2].",
+        "Mark the midpoint of each bar top at [15, 25, 35, 45, 55].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10."
+      ],
+      "check": "Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 10,
+          "width": 10,
+          "frequencies": [
+            3,
+            6,
+            10,
+            6,
+            2
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-stat-l03-w09",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 15≤x<25 through 55≤x<65. Frequencies in order: [4, 8, 13, 7, 5]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 35≤x<45",
+      "actions": [
+        "The class boundaries [15, 25, 35, 45, 55, 65] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [4, 8, 13, 7, 5].",
+        "Mark the midpoint of each bar top at [20, 30, 40, 50, 60].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13."
+      ],
+      "check": "Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 15,
+          "width": 10,
+          "frequencies": [
+            4,
+            8,
+            13,
+            7,
+            5
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-stat-l03-w10",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 20≤x<30 through 60≤x<70. Frequencies in order: [5, 5, 10, 8, 4]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 40≤x<50",
+      "actions": [
+        "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [5, 5, 10, 8, 4].",
+        "Mark the midpoint of each bar top at [25, 35, 45, 55, 65].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+      ],
+      "check": "Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 20,
+          "width": 10,
+          "frequencies": [
+            5,
+            5,
+            10,
+            8,
+            4
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-stat-l03-w11",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 25≤x<35 through 65≤x<75. Frequencies in order: [6, 7, 13, 9, 3]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 45≤x<55",
+      "actions": [
+        "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [6, 7, 13, 9, 3].",
+        "Mark the midpoint of each bar top at [30, 40, 50, 60, 70].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+      ],
+      "check": "Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 25,
+          "width": 10,
+          "frequencies": [
+            6,
+            7,
+            13,
+            9,
+            3
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-stat-l03-w12",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 0≤x<10 through 40≤x<50. Frequencies in order: [3, 9, 10, 6, 2]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 20≤x<30",
+      "actions": [
+        "The class boundaries [0, 10, 20, 30, 40, 50] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [3, 9, 10, 6, 2].",
+        "Mark the midpoint of each bar top at [5, 15, 25, 35, 45].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10."
+      ],
+      "check": "Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 0,
+          "width": 10,
+          "frequencies": [
+            3,
+            9,
+            10,
+            6,
+            2
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-stat-l03-w13",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 5≤x<15 through 45≤x<55. Frequencies in order: [4, 6, 13, 7, 5]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 25≤x<35",
+      "actions": [
+        "The class boundaries [5, 15, 25, 35, 45, 55] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [4, 6, 13, 7, 5].",
+        "Mark the midpoint of each bar top at [10, 20, 30, 40, 50].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13."
+      ],
+      "check": "Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 5,
+          "width": 10,
+          "frequencies": [
+            4,
+            6,
+            13,
+            7,
+            5
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-stat-l03-w14",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 10≤x<20 through 50≤x<60. Frequencies in order: [5, 8, 10, 8, 4]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 30≤x<40",
+      "actions": [
+        "The class boundaries [10, 20, 30, 40, 50, 60] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [5, 8, 10, 8, 4].",
+        "Mark the midpoint of each bar top at [15, 25, 35, 45, 55].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10."
+      ],
+      "check": "Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 10,
+          "width": 10,
+          "frequencies": [
+            5,
+            8,
+            10,
+            8,
+            4
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-stat-l03-w15",
+      "lesson": 3,
+      "problem": "A grouped survey uses equal-width intervals from 15≤x<25 through 55≤x<65. Frequencies in order: [6, 5, 13, 9, 3]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "answer": "Modal interval = 35≤x<45",
+      "actions": [
+        "The class boundaries [15, 25, 35, 45, 55, 65] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [6, 5, 13, 9, 3].",
+        "Mark the midpoint of each bar top at [20, 30, 40, 50, 60].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13."
+      ],
+      "check": "Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "histogram",
+          "start": 15,
+          "width": 10,
+          "frequencies": [
+            6,
+            5,
+            13,
+            9,
+            3
+          ],
+          "peak": 2
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-stat-l03-p01",
+      "prompt": "A grouped survey uses equal-width intervals from 20≤x<30 through 60≤x<70. Frequencies in order: [3, 7, 10, 6, 2]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 50≤x<60",
+        "Modal interval = 30≤x<40",
+        "Modal interval = 40≤x<50",
+        "Modal interval = 20≤x<30"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [3, 7, 10, 6, 2].",
+        "Mark the midpoint of each bar top at [25, 35, 45, 55, 65].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [3, 7, 10, 6, 2]. Mark the midpoint of each bar top at [25, 35, 45, 55, 65]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+    },
+    {
+      "id": "g11-stat-l03-p02",
+      "prompt": "A grouped survey uses equal-width intervals from 25≤x<35 through 65≤x<75. Frequencies in order: [4, 9, 13, 7, 5]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 35≤x<45",
+        "Modal interval = 45≤x<55",
+        "Modal interval = 25≤x<35",
+        "Modal interval = 55≤x<65"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [4, 9, 13, 7, 5].",
+        "Mark the midpoint of each bar top at [30, 40, 50, 60, 70].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+      ],
+      "memo": "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [4, 9, 13, 7, 5]. Mark the midpoint of each bar top at [30, 40, 50, 60, 70]. Join the midpoint points to form the frequency polygon; the largest frequency is 13. Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+    },
+    {
+      "id": "g11-stat-l03-p03",
+      "prompt": "A grouped survey uses equal-width intervals from 0≤x<10 through 40≤x<50. Frequencies in order: [5, 6, 10, 8, 4]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 20≤x<30",
+        "Modal interval = 0≤x<10",
+        "Modal interval = 30≤x<40",
+        "Modal interval = 10≤x<20"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "The class boundaries [0, 10, 20, 30, 40, 50] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [5, 6, 10, 8, 4].",
+        "Mark the midpoint of each bar top at [5, 15, 25, 35, 45].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [0, 10, 20, 30, 40, 50] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [5, 6, 10, 8, 4]. Mark the midpoint of each bar top at [5, 15, 25, 35, 45]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10."
+    },
+    {
+      "id": "g11-stat-l03-p04",
+      "prompt": "A grouped survey uses equal-width intervals from 5≤x<15 through 45≤x<55. Frequencies in order: [6, 8, 13, 9, 3]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 5≤x<15",
+        "Modal interval = 35≤x<45",
+        "Modal interval = 15≤x<25",
+        "Modal interval = 25≤x<35"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "The class boundaries [5, 15, 25, 35, 45, 55] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [6, 8, 13, 9, 3].",
+        "Mark the midpoint of each bar top at [10, 20, 30, 40, 50].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13."
+      ],
+      "memo": "The class boundaries [5, 15, 25, 35, 45, 55] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [6, 8, 13, 9, 3]. Mark the midpoint of each bar top at [10, 20, 30, 40, 50]. Join the midpoint points to form the frequency polygon; the largest frequency is 13. Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13."
+    },
+    {
+      "id": "g11-stat-l03-p05",
+      "prompt": "A grouped survey uses equal-width intervals from 10≤x<20 through 50≤x<60. Frequencies in order: [3, 5, 10, 6, 2]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 40≤x<50",
+        "Modal interval = 20≤x<30",
+        "Modal interval = 30≤x<40",
+        "Modal interval = 10≤x<20"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "The class boundaries [10, 20, 30, 40, 50, 60] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [3, 5, 10, 6, 2].",
+        "Mark the midpoint of each bar top at [15, 25, 35, 45, 55].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [10, 20, 30, 40, 50, 60] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [3, 5, 10, 6, 2]. Mark the midpoint of each bar top at [15, 25, 35, 45, 55]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10."
+    },
+    {
+      "id": "g11-stat-l03-p06",
+      "prompt": "A grouped survey uses equal-width intervals from 15≤x<25 through 55≤x<65. Frequencies in order: [4, 7, 13, 7, 5]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 25≤x<35",
+        "Modal interval = 35≤x<45",
+        "Modal interval = 15≤x<25",
+        "Modal interval = 45≤x<55"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "The class boundaries [15, 25, 35, 45, 55, 65] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [4, 7, 13, 7, 5].",
+        "Mark the midpoint of each bar top at [20, 30, 40, 50, 60].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13."
+      ],
+      "memo": "The class boundaries [15, 25, 35, 45, 55, 65] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [4, 7, 13, 7, 5]. Mark the midpoint of each bar top at [20, 30, 40, 50, 60]. Join the midpoint points to form the frequency polygon; the largest frequency is 13. Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13."
+    },
+    {
+      "id": "g11-stat-l03-p07",
+      "prompt": "A grouped survey uses equal-width intervals from 20≤x<30 through 60≤x<70. Frequencies in order: [5, 9, 10, 8, 4]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 40≤x<50",
+        "Modal interval = 20≤x<30",
+        "Modal interval = 50≤x<60",
+        "Modal interval = 30≤x<40"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [5, 9, 10, 8, 4].",
+        "Mark the midpoint of each bar top at [25, 35, 45, 55, 65].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [5, 9, 10, 8, 4]. Mark the midpoint of each bar top at [25, 35, 45, 55, 65]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+    },
+    {
+      "id": "g11-stat-l03-p08",
+      "prompt": "A grouped survey uses equal-width intervals from 25≤x<35 through 65≤x<75. Frequencies in order: [6, 6, 13, 9, 3]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 25≤x<35",
+        "Modal interval = 55≤x<65",
+        "Modal interval = 35≤x<45",
+        "Modal interval = 45≤x<55"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [6, 6, 13, 9, 3].",
+        "Mark the midpoint of each bar top at [30, 40, 50, 60, 70].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+      ],
+      "memo": "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [6, 6, 13, 9, 3]. Mark the midpoint of each bar top at [30, 40, 50, 60, 70]. Join the midpoint points to form the frequency polygon; the largest frequency is 13. Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+    },
+    {
+      "id": "g11-stat-l03-p09",
+      "prompt": "A grouped survey uses equal-width intervals from 0≤x<10 through 40≤x<50. Frequencies in order: [3, 8, 10, 6, 2]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 30≤x<40",
+        "Modal interval = 10≤x<20",
+        "Modal interval = 20≤x<30",
+        "Modal interval = 0≤x<10"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "The class boundaries [0, 10, 20, 30, 40, 50] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [3, 8, 10, 6, 2].",
+        "Mark the midpoint of each bar top at [5, 15, 25, 35, 45].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [0, 10, 20, 30, 40, 50] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [3, 8, 10, 6, 2]. Mark the midpoint of each bar top at [5, 15, 25, 35, 45]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10."
+    },
+    {
+      "id": "g11-stat-l03-p10",
+      "prompt": "A grouped survey uses equal-width intervals from 5≤x<15 through 45≤x<55. Frequencies in order: [4, 5, 13, 7, 5]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 15≤x<25",
+        "Modal interval = 25≤x<35",
+        "Modal interval = 5≤x<15",
+        "Modal interval = 35≤x<45"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "The class boundaries [5, 15, 25, 35, 45, 55] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [4, 5, 13, 7, 5].",
+        "Mark the midpoint of each bar top at [10, 20, 30, 40, 50].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13."
+      ],
+      "memo": "The class boundaries [5, 15, 25, 35, 45, 55] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [4, 5, 13, 7, 5]. Mark the midpoint of each bar top at [10, 20, 30, 40, 50]. Join the midpoint points to form the frequency polygon; the largest frequency is 13. Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13."
+    },
+    {
+      "id": "g11-stat-l03-p11",
+      "prompt": "A grouped survey uses equal-width intervals from 10≤x<20 through 50≤x<60. Frequencies in order: [5, 7, 10, 8, 4]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 30≤x<40",
+        "Modal interval = 10≤x<20",
+        "Modal interval = 40≤x<50",
+        "Modal interval = 20≤x<30"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "The class boundaries [10, 20, 30, 40, 50, 60] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [5, 7, 10, 8, 4].",
+        "Mark the midpoint of each bar top at [15, 25, 35, 45, 55].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [10, 20, 30, 40, 50, 60] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [5, 7, 10, 8, 4]. Mark the midpoint of each bar top at [15, 25, 35, 45, 55]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10."
+    },
+    {
+      "id": "g11-stat-l03-p12",
+      "prompt": "A grouped survey uses equal-width intervals from 15≤x<25 through 55≤x<65. Frequencies in order: [6, 9, 13, 9, 3]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 15≤x<25",
+        "Modal interval = 45≤x<55",
+        "Modal interval = 25≤x<35",
+        "Modal interval = 35≤x<45"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "The class boundaries [15, 25, 35, 45, 55, 65] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [6, 9, 13, 9, 3].",
+        "Mark the midpoint of each bar top at [20, 30, 40, 50, 60].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13."
+      ],
+      "memo": "The class boundaries [15, 25, 35, 45, 55, 65] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [6, 9, 13, 9, 3]. Mark the midpoint of each bar top at [20, 30, 40, 50, 60]. Join the midpoint points to form the frequency polygon; the largest frequency is 13. Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13."
+    },
+    {
+      "id": "g11-stat-l03-p13",
+      "prompt": "A grouped survey uses equal-width intervals from 20≤x<30 through 60≤x<70. Frequencies in order: [3, 6, 10, 6, 2]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 50≤x<60",
+        "Modal interval = 30≤x<40",
+        "Modal interval = 40≤x<50",
+        "Modal interval = 20≤x<30"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [3, 6, 10, 6, 2].",
+        "Mark the midpoint of each bar top at [25, 35, 45, 55, 65].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [3, 6, 10, 6, 2]. Mark the midpoint of each bar top at [25, 35, 45, 55, 65]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+    },
+    {
+      "id": "g11-stat-l03-p14",
+      "prompt": "A grouped survey uses equal-width intervals from 25≤x<35 through 65≤x<75. Frequencies in order: [4, 8, 13, 7, 5]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 35≤x<45",
+        "Modal interval = 45≤x<55",
+        "Modal interval = 25≤x<35",
+        "Modal interval = 55≤x<65"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [4, 8, 13, 7, 5].",
+        "Mark the midpoint of each bar top at [30, 40, 50, 60, 70].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+      ],
+      "memo": "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [4, 8, 13, 7, 5]. Mark the midpoint of each bar top at [30, 40, 50, 60, 70]. Join the midpoint points to form the frequency polygon; the largest frequency is 13. Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+    },
+    {
+      "id": "g11-stat-l03-p15",
+      "prompt": "A grouped survey uses equal-width intervals from 0≤x<10 through 40≤x<50. Frequencies in order: [5, 5, 10, 8, 4]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 20≤x<30",
+        "Modal interval = 0≤x<10",
+        "Modal interval = 30≤x<40",
+        "Modal interval = 10≤x<20"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "The class boundaries [0, 10, 20, 30, 40, 50] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [5, 5, 10, 8, 4].",
+        "Mark the midpoint of each bar top at [5, 15, 25, 35, 45].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [0, 10, 20, 30, 40, 50] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [5, 5, 10, 8, 4]. Mark the midpoint of each bar top at [5, 15, 25, 35, 45]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-stat-l03-m01",
+      "prompt": "A grouped survey uses equal-width intervals from 5≤x<15 through 45≤x<55. Frequencies in order: [6, 7, 13, 9, 3]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 15≤x<25",
+        "Modal interval = 25≤x<35",
+        "Modal interval = 5≤x<15",
+        "Modal interval = 35≤x<45"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "The class boundaries [5, 15, 25, 35, 45, 55] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [6, 7, 13, 9, 3].",
+        "Mark the midpoint of each bar top at [10, 20, 30, 40, 50].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13."
+      ],
+      "memo": "The class boundaries [5, 15, 25, 35, 45, 55] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [6, 7, 13, 9, 3]. Mark the midpoint of each bar top at [10, 20, 30, 40, 50]. Join the midpoint points to form the frequency polygon; the largest frequency is 13. Answer: Modal interval = 25≤x<35, because its bar and polygon peak have frequency 13."
+    },
+    {
+      "id": "g11-stat-l03-m02",
+      "prompt": "A grouped survey uses equal-width intervals from 10≤x<20 through 50≤x<60. Frequencies in order: [3, 9, 10, 6, 2]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 30≤x<40",
+        "Modal interval = 10≤x<20",
+        "Modal interval = 40≤x<50",
+        "Modal interval = 20≤x<30"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "The class boundaries [10, 20, 30, 40, 50, 60] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [3, 9, 10, 6, 2].",
+        "Mark the midpoint of each bar top at [15, 25, 35, 45, 55].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [10, 20, 30, 40, 50, 60] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [3, 9, 10, 6, 2]. Mark the midpoint of each bar top at [15, 25, 35, 45, 55]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 30≤x<40, because its bar and polygon peak have frequency 10."
+    },
+    {
+      "id": "g11-stat-l03-m03",
+      "prompt": "A grouped survey uses equal-width intervals from 15≤x<25 through 55≤x<65. Frequencies in order: [4, 6, 13, 7, 5]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 15≤x<25",
+        "Modal interval = 45≤x<55",
+        "Modal interval = 25≤x<35",
+        "Modal interval = 35≤x<45"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "The class boundaries [15, 25, 35, 45, 55, 65] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [4, 6, 13, 7, 5].",
+        "Mark the midpoint of each bar top at [20, 30, 40, 50, 60].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13."
+      ],
+      "memo": "The class boundaries [15, 25, 35, 45, 55, 65] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [4, 6, 13, 7, 5]. Mark the midpoint of each bar top at [20, 30, 40, 50, 60]. Join the midpoint points to form the frequency polygon; the largest frequency is 13. Answer: Modal interval = 35≤x<45, because its bar and polygon peak have frequency 13."
+    },
+    {
+      "id": "g11-stat-l03-m04",
+      "prompt": "A grouped survey uses equal-width intervals from 20≤x<30 through 60≤x<70. Frequencies in order: [5, 8, 10, 8, 4]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 50≤x<60",
+        "Modal interval = 30≤x<40",
+        "Modal interval = 40≤x<50",
+        "Modal interval = 20≤x<30"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [5, 8, 10, 8, 4].",
+        "Mark the midpoint of each bar top at [25, 35, 45, 55, 65].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [5, 8, 10, 8, 4]. Mark the midpoint of each bar top at [25, 35, 45, 55, 65]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+    },
+    {
+      "id": "g11-stat-l03-m05",
+      "prompt": "A grouped survey uses equal-width intervals from 25≤x<35 through 65≤x<75. Frequencies in order: [6, 5, 13, 9, 3]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 35≤x<45",
+        "Modal interval = 45≤x<55",
+        "Modal interval = 25≤x<35",
+        "Modal interval = 55≤x<65"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [6, 5, 13, 9, 3].",
+        "Mark the midpoint of each bar top at [30, 40, 50, 60, 70].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+      ],
+      "memo": "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [6, 5, 13, 9, 3]. Mark the midpoint of each bar top at [30, 40, 50, 60, 70]. Join the midpoint points to form the frequency polygon; the largest frequency is 13. Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-stat-l03-r01",
+      "prompt": "A grouped survey uses equal-width intervals from 20≤x<30 through 60≤x<70. Frequencies in order: [5, 7, 10, 8, 4]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 40≤x<50",
+        "Modal interval = 20≤x<30",
+        "Modal interval = 50≤x<60",
+        "Modal interval = 30≤x<40"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [5, 7, 10, 8, 4].",
+        "Mark the midpoint of each bar top at [25, 35, 45, 55, 65].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [20, 30, 40, 50, 60, 70] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [5, 7, 10, 8, 4]. Mark the midpoint of each bar top at [25, 35, 45, 55, 65]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 40≤x<50, because its bar and polygon peak have frequency 10."
+    },
+    {
+      "id": "g11-stat-l03-r02",
+      "prompt": "A grouped survey uses equal-width intervals from 25≤x<35 through 65≤x<75. Frequencies in order: [6, 9, 13, 9, 3]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 25≤x<35",
+        "Modal interval = 55≤x<65",
+        "Modal interval = 35≤x<45",
+        "Modal interval = 45≤x<55"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [6, 9, 13, 9, 3].",
+        "Mark the midpoint of each bar top at [30, 40, 50, 60, 70].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 13.",
+        "Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+      ],
+      "memo": "The class boundaries [25, 35, 45, 55, 65, 75] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [6, 9, 13, 9, 3]. Mark the midpoint of each bar top at [30, 40, 50, 60, 70]. Join the midpoint points to form the frequency polygon; the largest frequency is 13. Answer: Modal interval = 45≤x<55, because its bar and polygon peak have frequency 13."
+    },
+    {
+      "id": "g11-stat-l03-r03",
+      "prompt": "A grouped survey uses equal-width intervals from 0≤x<10 through 40≤x<50. Frequencies in order: [3, 6, 10, 6, 2]. Draw a histogram and frequency polygon; identify the modal interval.",
+      "options": [
+        "Modal interval = 30≤x<40",
+        "Modal interval = 10≤x<20",
+        "Modal interval = 20≤x<30",
+        "Modal interval = 0≤x<10"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "The class boundaries [0, 10, 20, 30, 40, 50] define the horizontal positions; each frequency determines a bar height.",
+        "Draw five touching histogram bars of width 10, heights [3, 6, 10, 6, 2].",
+        "Mark the midpoint of each bar top at [5, 15, 25, 35, 45].",
+        "Join the midpoint points to form the frequency polygon; the largest frequency is 10.",
+        "Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10."
+      ],
+      "memo": "The class boundaries [0, 10, 20, 30, 40, 50] define the horizontal positions; each frequency determines a bar height. Draw five touching histogram bars of width 10, heights [3, 6, 10, 6, 2]. Mark the midpoint of each bar top at [5, 15, 25, 35, 45]. Join the midpoint points to form the frequency polygon; the largest frequency is 10. Answer: Modal interval = 20≤x<30, because its bar and polygon peak have frequency 10."
+    }
+  ]
+}

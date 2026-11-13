@@ -1,0 +1,86 @@
+[
+  {
+    "lesson_id": "g11-stat-01",
+    "source": "grade11-stat-lesson-01.md",
+    "source_sha256": "d9094352cd611374979d6bfa5d7a7e17b68294a1ea4d9a7f19a2c117aaa8ffe8",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-stat-02",
+    "source": "grade11-stat-lesson-02.md",
+    "source_sha256": "04c7a9b8ea79dd4efb5c436e2afcb06368777d418c5403b3c8cbf531dc3aa7dd",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-stat-03",
+    "source": "grade11-stat-lesson-03.md",
+    "source_sha256": "dfabab56bcfebea0a16492189e9ea1cdc49d31162ab7f60b22efc054723e0b6e",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-stat-04",
+    "source": "grade11-stat-lesson-04.md",
+    "source_sha256": "33a15fb2a4da63d520d05f2a5c76f3d4bf64425072462f3e0d08b4c12bdedcc4",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-stat-05",
+    "source": "grade11-stat-lesson-05.md",
+    "source_sha256": "bce4c68fb1089b0c1e7b663beb3811d45a4fed5c53a14e084a323a25f0e3b838",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-stat-06",
+    "source": "grade11-stat-lesson-06.md",
+    "source_sha256": "4ffc0409a81c37e1d7d958339353b8d6267084159b570e4a1666491bdc5438c1",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-stat-07",
+    "source": "grade11-stat-lesson-07.md",
+    "source_sha256": "fba0f3a86218f580a386838ecb1e5c0879f3eac5f46197a273df3363276b0014",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

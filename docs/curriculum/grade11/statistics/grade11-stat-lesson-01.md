@@ -1,0 +1,299 @@
+# Grade 11 Topic 8, Lesson 1: Mean and central tendency in grouped and ungrouped data
+
+Scope: [DBE Grade 11 ATP, Term 3](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2023%20ATPs/FET%20Content%20Subjects/Grade%2011/1.590%20ATP%202023-24%20Gr%2011%20Maths%20final.pdf). Scatterplots additionally follow [Mathematics CAPS](https://www.education.gov.za/Portals/0/CD/National%20Curriculum%20Statements%20and%20Vocational/CAPS%20FET%20_%20MATHEMATICS%20_%20GR%2010-12%20_%20Web_1133.pdf).
+
+Original Athena questions; teacher review and live browser acceptance are still required.
+
+Convention: quartiles use medians of the lower/upper halves, excluding the median of an odd-sized set. Variance uses population N (the complete observed set). Grouped mean is an estimate from class midpoints.
+
+## g11-stat-l01-w01: The seven daily study times (minutes) are 9, 12, 12, 16, 19, 21, 24. Find the mean to two decimals.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "ungrouped", "data": [9, 12, 12, 16, 19, 21, 24], "sum": 113, "mean": 16.142857142857142}}`
+
+1. Arrange the seven given times and count n = 7.
+
+2. Add every value: Σx = 113 minutes.
+
+3. Use mean = Σx/n = 113/7.
+
+4. Divide: mean = 16.14 minutes.
+
+5. Answer: Mean = 16.14. Check the mean lies between 9 and 24 minutes.
+
+Answer: Mean = 16.14. Check: Answer: Mean = 16.14. Check the mean lies between 9 and 24 minutes.
+
+## g11-stat-l01-w02: The seven daily study times (minutes) are 10, 13, 13, 17, 20, 22, 25. Find the mean to two decimals.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "ungrouped", "data": [10, 13, 13, 17, 20, 22, 25], "sum": 120, "mean": 17.142857142857142}}`
+
+1. Arrange the seven given times and count n = 7.
+
+2. Add every value: Σx = 120 minutes.
+
+3. Use mean = Σx/n = 120/7.
+
+4. Divide: mean = 17.14 minutes.
+
+5. Answer: Mean = 17.14. Check the mean lies between 10 and 25 minutes.
+
+Answer: Mean = 17.14. Check: Answer: Mean = 17.14. Check the mean lies between 10 and 25 minutes.
+
+## g11-stat-l01-w03: The seven daily study times (minutes) are 11, 14, 14, 18, 21, 23, 26. Find the mean to two decimals.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "ungrouped", "data": [11, 14, 14, 18, 21, 23, 26], "sum": 127, "mean": 18.142857142857142}}`
+
+1. Arrange the seven given times and count n = 7.
+
+2. Add every value: Σx = 127 minutes.
+
+3. Use mean = Σx/n = 127/7.
+
+4. Divide: mean = 18.14 minutes.
+
+5. Answer: Mean = 18.14. Check the mean lies between 11 and 26 minutes.
+
+Answer: Mean = 18.14. Check: Answer: Mean = 18.14. Check the mean lies between 11 and 26 minutes.
+
+## g11-stat-l01-w04: A frequency table for test scores has intervals 30≤x<40: 4, 40≤x<50: 5, 50≤x<60: 10, 60≤x<70: 6, 70≤x<80: 2. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 30, "width": 10, "frequencies": [4, 5, 10, 6, 2], "midpoints": [35, 45, 55, 65, 75], "total": 27, "weighted": 1455, "mean": 53.888888888888886}}`
+
+1. Copy the five 10-wide classes and their frequencies [4, 5, 10, 6, 2]; total N = 27.
+
+2. Mark each class midpoint: [35, 45, 55, 65, 75].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1455.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1455/27 = 53.89.
+
+5. Answer: Estimated mean = 53.89. The result lies within the interval 30 to 80; grouped values give an estimate.
+
+Answer: Estimated mean = 53.89. Check: Answer: Estimated mean = 53.89. The result lies within the interval 30 to 80; grouped values give an estimate.
+
+## g11-stat-l01-w05: A frequency table for travel times has intervals 10≤x<20: 5, 20≤x<30: 7, 30≤x<40: 8, 40≤x<50: 7, 50≤x<60: 5. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 10, "width": 10, "frequencies": [5, 7, 8, 7, 5], "midpoints": [15, 25, 35, 45, 55], "total": 32, "weighted": 1120, "mean": 35.0}}`
+
+1. Copy the five 10-wide classes and their frequencies [5, 7, 8, 7, 5]; total N = 32.
+
+2. Mark each class midpoint: [15, 25, 35, 45, 55].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1120.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1120/32 = 35.00.
+
+5. Answer: Estimated mean = 35.00. The result lies within the interval 10 to 60; grouped values give an estimate.
+
+Answer: Estimated mean = 35.00. Check: Answer: Estimated mean = 35.00. The result lies within the interval 10 to 60; grouped values give an estimate.
+
+## g11-stat-l01-w06: A frequency table for test scores has intervals 15≤x<25: 3, 25≤x<35: 5, 35≤x<45: 11, 45≤x<55: 8, 55≤x<65: 4. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 15, "width": 10, "frequencies": [3, 5, 11, 8, 4], "midpoints": [20, 30, 40, 50, 60], "total": 31, "weighted": 1290, "mean": 41.61290322580645}}`
+
+1. Copy the five 10-wide classes and their frequencies [3, 5, 11, 8, 4]; total N = 31.
+
+2. Mark each class midpoint: [20, 30, 40, 50, 60].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1290.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1290/31 = 41.61.
+
+5. Answer: Estimated mean = 41.61. The result lies within the interval 15 to 65; grouped values give an estimate.
+
+Answer: Estimated mean = 41.61. Check: Answer: Estimated mean = 41.61. The result lies within the interval 15 to 65; grouped values give an estimate.
+
+## g11-stat-l01-w07: A frequency table for travel times has intervals 20≤x<30: 4, 30≤x<40: 7, 40≤x<50: 9, 50≤x<60: 9, 60≤x<70: 3. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 20, "width": 10, "frequencies": [4, 7, 9, 9, 3], "midpoints": [25, 35, 45, 55, 65], "total": 32, "weighted": 1440, "mean": 45.0}}`
+
+1. Copy the five 10-wide classes and their frequencies [4, 7, 9, 9, 3]; total N = 32.
+
+2. Mark each class midpoint: [25, 35, 45, 55, 65].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1440.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1440/32 = 45.00.
+
+5. Answer: Estimated mean = 45.00. The result lies within the interval 20 to 70; grouped values give an estimate.
+
+Answer: Estimated mean = 45.00. Check: Answer: Estimated mean = 45.00. The result lies within the interval 20 to 70; grouped values give an estimate.
+
+## g11-stat-l01-w08: A frequency table for test scores has intervals 25≤x<35: 5, 35≤x<45: 5, 45≤x<55: 12, 55≤x<65: 6, 65≤x<75: 2. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 25, "width": 10, "frequencies": [5, 5, 12, 6, 2], "midpoints": [30, 40, 50, 60, 70], "total": 30, "weighted": 1450, "mean": 48.333333333333336}}`
+
+1. Copy the five 10-wide classes and their frequencies [5, 5, 12, 6, 2]; total N = 30.
+
+2. Mark each class midpoint: [30, 40, 50, 60, 70].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1450.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1450/30 = 48.33.
+
+5. Answer: Estimated mean = 48.33. The result lies within the interval 25 to 75; grouped values give an estimate.
+
+Answer: Estimated mean = 48.33. Check: Answer: Estimated mean = 48.33. The result lies within the interval 25 to 75; grouped values give an estimate.
+
+## g11-stat-l01-w09: A frequency table for travel times has intervals 30≤x<40: 3, 40≤x<50: 7, 50≤x<60: 10, 60≤x<70: 7, 70≤x<80: 5. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 30, "width": 10, "frequencies": [3, 7, 10, 7, 5], "midpoints": [35, 45, 55, 65, 75], "total": 32, "weighted": 1800, "mean": 56.25}}`
+
+1. Copy the five 10-wide classes and their frequencies [3, 7, 10, 7, 5]; total N = 32.
+
+2. Mark each class midpoint: [35, 45, 55, 65, 75].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1800.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1800/32 = 56.25.
+
+5. Answer: Estimated mean = 56.25. The result lies within the interval 30 to 80; grouped values give an estimate.
+
+Answer: Estimated mean = 56.25. Check: Answer: Estimated mean = 56.25. The result lies within the interval 30 to 80; grouped values give an estimate.
+
+## g11-stat-l01-w10: A frequency table for test scores has intervals 10≤x<20: 4, 20≤x<30: 5, 30≤x<40: 8, 40≤x<50: 8, 50≤x<60: 4. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 10, "width": 10, "frequencies": [4, 5, 8, 8, 4], "midpoints": [15, 25, 35, 45, 55], "total": 29, "weighted": 1045, "mean": 36.03448275862069}}`
+
+1. Copy the five 10-wide classes and their frequencies [4, 5, 8, 8, 4]; total N = 29.
+
+2. Mark each class midpoint: [15, 25, 35, 45, 55].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1045.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1045/29 = 36.03.
+
+5. Answer: Estimated mean = 36.03. The result lies within the interval 10 to 60; grouped values give an estimate.
+
+Answer: Estimated mean = 36.03. Check: Answer: Estimated mean = 36.03. The result lies within the interval 10 to 60; grouped values give an estimate.
+
+## g11-stat-l01-w11: A frequency table for travel times has intervals 15≤x<25: 5, 25≤x<35: 7, 35≤x<45: 11, 45≤x<55: 9, 55≤x<65: 3. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 15, "width": 10, "frequencies": [5, 7, 11, 9, 3], "midpoints": [20, 30, 40, 50, 60], "total": 35, "weighted": 1380, "mean": 39.42857142857143}}`
+
+1. Copy the five 10-wide classes and their frequencies [5, 7, 11, 9, 3]; total N = 35.
+
+2. Mark each class midpoint: [20, 30, 40, 50, 60].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1380.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1380/35 = 39.43.
+
+5. Answer: Estimated mean = 39.43. The result lies within the interval 15 to 65; grouped values give an estimate.
+
+Answer: Estimated mean = 39.43. Check: Answer: Estimated mean = 39.43. The result lies within the interval 15 to 65; grouped values give an estimate.
+
+## g11-stat-l01-w12: A frequency table for test scores has intervals 20≤x<30: 3, 30≤x<40: 5, 40≤x<50: 9, 50≤x<60: 6, 60≤x<70: 2. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 20, "width": 10, "frequencies": [3, 5, 9, 6, 2], "midpoints": [25, 35, 45, 55, 65], "total": 25, "weighted": 1115, "mean": 44.6}}`
+
+1. Copy the five 10-wide classes and their frequencies [3, 5, 9, 6, 2]; total N = 25.
+
+2. Mark each class midpoint: [25, 35, 45, 55, 65].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1115.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1115/25 = 44.60.
+
+5. Answer: Estimated mean = 44.60. The result lies within the interval 20 to 70; grouped values give an estimate.
+
+Answer: Estimated mean = 44.60. Check: Answer: Estimated mean = 44.60. The result lies within the interval 20 to 70; grouped values give an estimate.
+
+## g11-stat-l01-w13: A frequency table for travel times has intervals 25≤x<35: 4, 35≤x<45: 7, 45≤x<55: 12, 55≤x<65: 7, 65≤x<75: 5. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 25, "width": 10, "frequencies": [4, 7, 12, 7, 5], "midpoints": [30, 40, 50, 60, 70], "total": 35, "weighted": 1770, "mean": 50.57142857142857}}`
+
+1. Copy the five 10-wide classes and their frequencies [4, 7, 12, 7, 5]; total N = 35.
+
+2. Mark each class midpoint: [30, 40, 50, 60, 70].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1770.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1770/35 = 50.57.
+
+5. Answer: Estimated mean = 50.57. The result lies within the interval 25 to 75; grouped values give an estimate.
+
+Answer: Estimated mean = 50.57. Check: Answer: Estimated mean = 50.57. The result lies within the interval 25 to 75; grouped values give an estimate.
+
+## g11-stat-l01-w14: A frequency table for test scores has intervals 30≤x<40: 5, 40≤x<50: 5, 50≤x<60: 10, 60≤x<70: 8, 70≤x<80: 4. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 30, "width": 10, "frequencies": [5, 5, 10, 8, 4], "midpoints": [35, 45, 55, 65, 75], "total": 32, "weighted": 1770, "mean": 55.3125}}`
+
+1. Copy the five 10-wide classes and their frequencies [5, 5, 10, 8, 4]; total N = 32.
+
+2. Mark each class midpoint: [35, 45, 55, 65, 75].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1770.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1770/32 = 55.31.
+
+5. Answer: Estimated mean = 55.31. The result lies within the interval 30 to 80; grouped values give an estimate.
+
+Answer: Estimated mean = 55.31. Check: Answer: Estimated mean = 55.31. The result lies within the interval 30 to 80; grouped values give an estimate.
+
+## g11-stat-l01-w15: A frequency table for travel times has intervals 10≤x<20: 3, 20≤x<30: 7, 30≤x<40: 8, 40≤x<50: 9, 50≤x<60: 3. Estimate the mean to two decimals using class midpoints.
+
+Visual values: `{"family": "grade11_statistics", "values": {"mode": "grouped", "start": 10, "width": 10, "frequencies": [3, 7, 8, 9, 3], "midpoints": [15, 25, 35, 45, 55], "total": 30, "weighted": 1070, "mean": 35.666666666666664}}`
+
+1. Copy the five 10-wide classes and their frequencies [3, 7, 8, 9, 3]; total N = 30.
+
+2. Mark each class midpoint: [15, 25, 35, 45, 55].
+
+3. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1070.
+
+4. Estimate x̄ = Σ(fm)/Σf = 1070/30 = 35.67.
+
+5. Answer: Estimated mean = 35.67. The result lies within the interval 10 to 60; grouped values give an estimate.
+
+Answer: Estimated mean = 35.67. Check: Answer: Estimated mean = 35.67. The result lies within the interval 10 to 60; grouped values give an estimate.
+
+## Practice answer key
+
+- g11-stat-l01-p01: A frequency table for test scores has intervals 15≤x<25: 4, 25≤x<35: 5, 35≤x<45: 11, 45≤x<55: 6, 55≤x<65: 2. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 33.03 | Estimated mean = 43.93 | Estimated mean = 38.93 | Estimated mean = 40.43. Correct: Estimated mean = 38.93. Copy the five 10-wide classes and their frequencies [4, 5, 11, 6, 2]; total N = 28. Mark each class midpoint: [20, 30, 40, 50, 60]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1090. Estimate x̄ = Σ(fm)/Σf = 1090/28 = 38.93. Answer: Estimated mean = 38.93. The result lies within the interval 15 to 65; grouped values give an estimate.
+
+- g11-stat-l01-p02: A frequency table for travel times has intervals 20≤x<30: 5, 30≤x<40: 7, 40≤x<50: 9, 50≤x<60: 7, 60≤x<70: 5. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 50.00 | Estimated mean = 45.00 | Estimated mean = 46.50 | Estimated mean = 39.08. Correct: Estimated mean = 45.00. Copy the five 10-wide classes and their frequencies [5, 7, 9, 7, 5]; total N = 33. Mark each class midpoint: [25, 35, 45, 55, 65]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1485. Estimate x̄ = Σ(fm)/Σf = 1485/33 = 45.00. Answer: Estimated mean = 45.00. The result lies within the interval 20 to 70; grouped values give an estimate.
+
+- g11-stat-l01-p03: A frequency table for test scores has intervals 25≤x<35: 3, 35≤x<45: 5, 45≤x<55: 12, 55≤x<65: 8, 65≤x<75: 4. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 51.56 | Estimated mean = 53.06 | Estimated mean = 44.59 | Estimated mean = 56.56. Correct: Estimated mean = 51.56. Copy the five 10-wide classes and their frequencies [3, 5, 12, 8, 4]; total N = 32. Mark each class midpoint: [30, 40, 50, 60, 70]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1650. Estimate x̄ = Σ(fm)/Σf = 1650/32 = 51.56. Answer: Estimated mean = 51.56. The result lies within the interval 25 to 75; grouped values give an estimate.
+
+- g11-stat-l01-p04: A frequency table for travel times has intervals 30≤x<40: 4, 40≤x<50: 7, 50≤x<60: 10, 60≤x<70: 9, 70≤x<80: 3. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 56.50 | Estimated mean = 47.76 | Estimated mean = 60.00 | Estimated mean = 55.00. Correct: Estimated mean = 55.00. Copy the five 10-wide classes and their frequencies [4, 7, 10, 9, 3]; total N = 33. Mark each class midpoint: [35, 45, 55, 65, 75]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1815. Estimate x̄ = Σ(fm)/Σf = 1815/33 = 55.00. Answer: Estimated mean = 55.00. The result lies within the interval 30 to 80; grouped values give an estimate.
+
+- g11-stat-l01-p05: A frequency table for test scores has intervals 10≤x<20: 5, 20≤x<30: 5, 30≤x<40: 8, 40≤x<50: 6, 50≤x<60: 2. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 27.74 | Estimated mean = 38.08 | Estimated mean = 33.08 | Estimated mean = 34.58. Correct: Estimated mean = 33.08. Copy the five 10-wide classes and their frequencies [5, 5, 8, 6, 2]; total N = 26. Mark each class midpoint: [15, 25, 35, 45, 55]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 860. Estimate x̄ = Σ(fm)/Σf = 860/26 = 33.08. Answer: Estimated mean = 33.08. The result lies within the interval 10 to 60; grouped values give an estimate.
+
+- g11-stat-l01-p06: A frequency table for travel times has intervals 15≤x<25: 3, 25≤x<35: 7, 35≤x<45: 11, 45≤x<55: 7, 55≤x<65: 5. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 46.21 | Estimated mean = 41.21 | Estimated mean = 42.71 | Estimated mean = 35.79. Correct: Estimated mean = 41.21. Copy the five 10-wide classes and their frequencies [3, 7, 11, 7, 5]; total N = 33. Mark each class midpoint: [20, 30, 40, 50, 60]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1360. Estimate x̄ = Σ(fm)/Σf = 1360/33 = 41.21. Answer: Estimated mean = 41.21. The result lies within the interval 15 to 65; grouped values give an estimate.
+
+- g11-stat-l01-p07: A frequency table for test scores has intervals 20≤x<30: 4, 30≤x<40: 5, 40≤x<50: 9, 50≤x<60: 8, 60≤x<70: 4. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 46.00 | Estimated mean = 47.50 | Estimated mean = 39.43 | Estimated mean = 51.00. Correct: Estimated mean = 46.00. Copy the five 10-wide classes and their frequencies [4, 5, 9, 8, 4]; total N = 30. Mark each class midpoint: [25, 35, 45, 55, 65]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1380. Estimate x̄ = Σ(fm)/Σf = 1380/30 = 46.00. Answer: Estimated mean = 46.00. The result lies within the interval 20 to 70; grouped values give an estimate.
+
+- g11-stat-l01-p08: A frequency table for travel times has intervals 25≤x<35: 5, 35≤x<45: 7, 45≤x<55: 12, 55≤x<65: 9, 65≤x<75: 3. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 50.94 | Estimated mean = 43.41 | Estimated mean = 54.44 | Estimated mean = 49.44. Correct: Estimated mean = 49.44. Copy the five 10-wide classes and their frequencies [5, 7, 12, 9, 3]; total N = 36. Mark each class midpoint: [30, 40, 50, 60, 70]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1780. Estimate x̄ = Σ(fm)/Σf = 1780/36 = 49.44. Answer: Estimated mean = 49.44. The result lies within the interval 25 to 75; grouped values give an estimate.
+
+- g11-stat-l01-p09: A frequency table for test scores has intervals 30≤x<40: 3, 40≤x<50: 5, 50≤x<60: 10, 60≤x<70: 6, 70≤x<80: 2. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 45.81 | Estimated mean = 59.62 | Estimated mean = 54.62 | Estimated mean = 56.12. Correct: Estimated mean = 54.62. Copy the five 10-wide classes and their frequencies [3, 5, 10, 6, 2]; total N = 26. Mark each class midpoint: [35, 45, 55, 65, 75]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1420. Estimate x̄ = Σ(fm)/Σf = 1420/26 = 54.62. Answer: Estimated mean = 54.62. The result lies within the interval 30 to 80; grouped values give an estimate.
+
+- g11-stat-l01-p10: A frequency table for travel times has intervals 10≤x<20: 4, 20≤x<30: 7, 30≤x<40: 8, 40≤x<50: 7, 50≤x<60: 5. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 40.65 | Estimated mean = 35.65 | Estimated mean = 37.15 | Estimated mean = 30.69. Correct: Estimated mean = 35.65. Copy the five 10-wide classes and their frequencies [4, 7, 8, 7, 5]; total N = 31. Mark each class midpoint: [15, 25, 35, 45, 55]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1105. Estimate x̄ = Σ(fm)/Σf = 1105/31 = 35.65. Answer: Estimated mean = 35.65. The result lies within the interval 10 to 60; grouped values give an estimate.
+
+- g11-stat-l01-p11: A frequency table for test scores has intervals 15≤x<25: 5, 25≤x<35: 5, 35≤x<45: 11, 45≤x<55: 8, 55≤x<65: 4. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 40.30 | Estimated mean = 41.80 | Estimated mean = 35.00 | Estimated mean = 45.30. Correct: Estimated mean = 40.30. Copy the five 10-wide classes and their frequencies [5, 5, 11, 8, 4]; total N = 33. Mark each class midpoint: [20, 30, 40, 50, 60]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1330. Estimate x̄ = Σ(fm)/Σf = 1330/33 = 40.30. Answer: Estimated mean = 40.30. The result lies within the interval 15 to 65; grouped values give an estimate.
+
+- g11-stat-l01-p12: A frequency table for travel times has intervals 20≤x<30: 3, 30≤x<40: 7, 40≤x<50: 9, 50≤x<60: 9, 60≤x<70: 3. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 47.15 | Estimated mean = 39.31 | Estimated mean = 50.65 | Estimated mean = 45.65. Correct: Estimated mean = 45.65. Copy the five 10-wide classes and their frequencies [3, 7, 9, 9, 3]; total N = 31. Mark each class midpoint: [25, 35, 45, 55, 65]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1415. Estimate x̄ = Σ(fm)/Σf = 1415/31 = 45.65. Answer: Estimated mean = 45.65. The result lies within the interval 20 to 70; grouped values give an estimate.
+
+- g11-stat-l01-p13: A frequency table for test scores has intervals 25≤x<35: 4, 35≤x<45: 5, 45≤x<55: 12, 55≤x<65: 6, 65≤x<75: 2. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 41.76 | Estimated mean = 53.97 | Estimated mean = 48.97 | Estimated mean = 50.47. Correct: Estimated mean = 48.97. Copy the five 10-wide classes and their frequencies [4, 5, 12, 6, 2]; total N = 29. Mark each class midpoint: [30, 40, 50, 60, 70]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1420. Estimate x̄ = Σ(fm)/Σf = 1420/29 = 48.97. Answer: Estimated mean = 48.97. The result lies within the interval 25 to 75; grouped values give an estimate.
+
+- g11-stat-l01-p14: A frequency table for travel times has intervals 30≤x<40: 5, 40≤x<50: 7, 50≤x<60: 10, 60≤x<70: 7, 70≤x<80: 5. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 60.00 | Estimated mean = 55.00 | Estimated mean = 56.50 | Estimated mean = 47.95. Correct: Estimated mean = 55.00. Copy the five 10-wide classes and their frequencies [5, 7, 10, 7, 5]; total N = 34. Mark each class midpoint: [35, 45, 55, 65, 75]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1870. Estimate x̄ = Σ(fm)/Σf = 1870/34 = 55.00. Answer: Estimated mean = 55.00. The result lies within the interval 30 to 80; grouped values give an estimate.
+
+- g11-stat-l01-p15: A frequency table for test scores has intervals 10≤x<20: 3, 20≤x<30: 5, 30≤x<40: 8, 40≤x<50: 8, 50≤x<60: 4. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 36.79 | Estimated mean = 38.29 | Estimated mean = 31.21 | Estimated mean = 41.79. Correct: Estimated mean = 36.79. Copy the five 10-wide classes and their frequencies [3, 5, 8, 8, 4]; total N = 28. Mark each class midpoint: [15, 25, 35, 45, 55]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1030. Estimate x̄ = Σ(fm)/Σf = 1030/28 = 36.79. Answer: Estimated mean = 36.79. The result lies within the interval 10 to 60; grouped values give an estimate.
+
+## Mastery answer key
+
+- g11-stat-l01-m01: A frequency table for travel times has intervals 15≤x<25: 4, 25≤x<35: 7, 35≤x<45: 11, 45≤x<55: 9, 55≤x<65: 3. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 45.00 | Estimated mean = 40.00 | Estimated mean = 41.50 | Estimated mean = 34.87. Correct: Estimated mean = 40.00. Copy the five 10-wide classes and their frequencies [4, 7, 11, 9, 3]; total N = 34. Mark each class midpoint: [20, 30, 40, 50, 60]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1360. Estimate x̄ = Σ(fm)/Σf = 1360/34 = 40.00. Answer: Estimated mean = 40.00. The result lies within the interval 15 to 65; grouped values give an estimate.
+
+- g11-stat-l01-m02: A frequency table for test scores has intervals 20≤x<30: 5, 30≤x<40: 5, 40≤x<50: 9, 50≤x<60: 6, 60≤x<70: 2. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 43.15 | Estimated mean = 44.65 | Estimated mean = 36.41 | Estimated mean = 48.15. Correct: Estimated mean = 43.15. Copy the five 10-wide classes and their frequencies [5, 5, 9, 6, 2]; total N = 27. Mark each class midpoint: [25, 35, 45, 55, 65]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1165. Estimate x̄ = Σ(fm)/Σf = 1165/27 = 43.15. Answer: Estimated mean = 43.15. The result lies within the interval 20 to 70; grouped values give an estimate.
+
+- g11-stat-l01-m03: A frequency table for travel times has intervals 25≤x<35: 3, 35≤x<45: 7, 45≤x<55: 12, 55≤x<65: 7, 65≤x<75: 5. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 52.68 | Estimated mean = 44.62 | Estimated mean = 56.18 | Estimated mean = 51.18. Correct: Estimated mean = 51.18. Copy the five 10-wide classes and their frequencies [3, 7, 12, 7, 5]; total N = 34. Mark each class midpoint: [30, 40, 50, 60, 70]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1740. Estimate x̄ = Σ(fm)/Σf = 1740/34 = 51.18. Answer: Estimated mean = 51.18. The result lies within the interval 25 to 75; grouped values give an estimate.
+
+- g11-stat-l01-m04: A frequency table for test scores has intervals 30≤x<40: 4, 40≤x<50: 5, 50≤x<60: 10, 60≤x<70: 8, 70≤x<80: 4. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 48.19 | Estimated mean = 60.97 | Estimated mean = 55.97 | Estimated mean = 57.47. Correct: Estimated mean = 55.97. Copy the five 10-wide classes and their frequencies [4, 5, 10, 8, 4]; total N = 31. Mark each class midpoint: [35, 45, 55, 65, 75]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1735. Estimate x̄ = Σ(fm)/Σf = 1735/31 = 55.97. Answer: Estimated mean = 55.97. The result lies within the interval 30 to 80; grouped values give an estimate.
+
+- g11-stat-l01-m05: A frequency table for travel times has intervals 10≤x<20: 5, 20≤x<30: 7, 30≤x<40: 8, 40≤x<50: 9, 50≤x<60: 3. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 39.38 | Estimated mean = 34.38 | Estimated mean = 35.88 | Estimated mean = 29.73. Correct: Estimated mean = 34.38. Copy the five 10-wide classes and their frequencies [5, 7, 8, 9, 3]; total N = 32. Mark each class midpoint: [15, 25, 35, 45, 55]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1100. Estimate x̄ = Σ(fm)/Σf = 1100/32 = 34.38. Answer: Estimated mean = 34.38. The result lies within the interval 10 to 60; grouped values give an estimate.
+
+## Reassessment answer key
+
+- g11-stat-l01-r01: A frequency table for test scores has intervals 15≤x<25: 4, 25≤x<35: 5, 35≤x<45: 11, 45≤x<55: 8, 55≤x<65: 4. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 40.94 | Estimated mean = 42.44 | Estimated mean = 35.41 | Estimated mean = 45.94. Correct: Estimated mean = 40.94. Copy the five 10-wide classes and their frequencies [4, 5, 11, 8, 4]; total N = 32. Mark each class midpoint: [20, 30, 40, 50, 60]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1310. Estimate x̄ = Σ(fm)/Σf = 1310/32 = 40.94. Answer: Estimated mean = 40.94. The result lies within the interval 15 to 65; grouped values give an estimate.
+
+- g11-stat-l01-r02: A frequency table for travel times has intervals 20≤x<30: 5, 30≤x<40: 7, 40≤x<50: 9, 50≤x<60: 9, 60≤x<70: 3. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 45.89 | Estimated mean = 38.55 | Estimated mean = 49.39 | Estimated mean = 44.39. Correct: Estimated mean = 44.39. Copy the five 10-wide classes and their frequencies [5, 7, 9, 9, 3]; total N = 33. Mark each class midpoint: [25, 35, 45, 55, 65]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1465. Estimate x̄ = Σ(fm)/Σf = 1465/33 = 44.39. Answer: Estimated mean = 44.39. The result lies within the interval 20 to 70; grouped values give an estimate.
+
+- g11-stat-l01-r03: A frequency table for test scores has intervals 25≤x<35: 3, 35≤x<45: 5, 45≤x<55: 12, 55≤x<65: 6, 65≤x<75: 2. Estimate the mean to two decimals using class midpoints. Options: Estimated mean = 42.12 | Estimated mean = 54.64 | Estimated mean = 49.64 | Estimated mean = 51.14. Correct: Estimated mean = 49.64. Copy the five 10-wide classes and their frequencies [3, 5, 12, 6, 2]; total N = 28. Mark each class midpoint: [30, 40, 50, 60, 70]. Multiply midpoint × frequency in each class and sum: Σ(fm) = 1390. Estimate x̄ = Σ(fm)/Σf = 1390/28 = 49.64. Answer: Estimated mean = 49.64. The result lies within the interval 25 to 75; grouped values give an estimate.

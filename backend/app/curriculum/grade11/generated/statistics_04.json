@@ -1,0 +1,1048 @@
+{
+  "source": "grade11-stat-lesson-04.md",
+  "worked": [
+    {
+      "id": "g11-stat-l04-w01",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [10, 20, 30, 40, 50, 60] and frequencies [3, 6, 10, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 30≤x<40",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 10.",
+        "Add the frequencies successively: cumulative counts [0, 3, 9, 19, 25, 31].",
+        "Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points.",
+        "N = 31; the median observation is at position 16, between cumulative counts 9 and 19.",
+        "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 10,
+          "width": 10,
+          "frequencies": [
+            3,
+            6,
+            10,
+            6,
+            6
+          ],
+          "cumulative": [
+            0,
+            3,
+            9,
+            19,
+            25,
+            31
+          ],
+          "total": 31,
+          "median_class": 2
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-stat-l04-w02",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [20, 30, 40, 50, 60, 70] and frequencies [4, 8, 7, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 40≤x<50",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 20.",
+        "Add the frequencies successively: cumulative counts [0, 4, 12, 19, 25, 31].",
+        "Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points.",
+        "N = 31; the median observation is at position 16, between cumulative counts 12 and 19.",
+        "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 20,
+          "width": 10,
+          "frequencies": [
+            4,
+            8,
+            7,
+            6,
+            6
+          ],
+          "cumulative": [
+            0,
+            4,
+            12,
+            19,
+            25,
+            31
+          ],
+          "total": 31,
+          "median_class": 2
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-stat-l04-w03",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [30, 40, 50, 60, 70, 80] and frequencies [5, 5, 10, 6, 5]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 50≤x<60",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 30.",
+        "Add the frequencies successively: cumulative counts [0, 5, 10, 20, 26, 31].",
+        "Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points.",
+        "N = 31; the median observation is at position 16, between cumulative counts 10 and 20.",
+        "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 30,
+          "width": 10,
+          "frequencies": [
+            5,
+            5,
+            10,
+            6,
+            5
+          ],
+          "cumulative": [
+            0,
+            5,
+            10,
+            20,
+            26,
+            31
+          ],
+          "total": 31,
+          "median_class": 2
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-stat-l04-w04",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [0, 10, 20, 30, 40, 50] and frequencies [2, 7, 7, 6, 3]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 20≤x<30",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 0.",
+        "Add the frequencies successively: cumulative counts [0, 2, 9, 16, 22, 25].",
+        "Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points.",
+        "N = 25; the median observation is at position 13, between cumulative counts 9 and 16.",
+        "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 0,
+          "width": 10,
+          "frequencies": [
+            2,
+            7,
+            7,
+            6,
+            3
+          ],
+          "cumulative": [
+            0,
+            2,
+            9,
+            16,
+            22,
+            25
+          ],
+          "total": 25,
+          "median_class": 2
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-stat-l04-w05",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [10, 20, 30, 40, 50, 60] and frequencies [3, 4, 10, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 30≤x<40",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 10.",
+        "Add the frequencies successively: cumulative counts [0, 3, 7, 17, 23, 29].",
+        "Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points.",
+        "N = 29; the median observation is at position 15, between cumulative counts 7 and 17.",
+        "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 10,
+          "width": 10,
+          "frequencies": [
+            3,
+            4,
+            10,
+            6,
+            6
+          ],
+          "cumulative": [
+            0,
+            3,
+            7,
+            17,
+            23,
+            29
+          ],
+          "total": 29,
+          "median_class": 2
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-stat-l04-w06",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [20, 30, 40, 50, 60, 70] and frequencies [4, 6, 7, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 40≤x<50",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 20.",
+        "Add the frequencies successively: cumulative counts [0, 4, 10, 17, 23, 29].",
+        "Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points.",
+        "N = 29; the median observation is at position 15, between cumulative counts 10 and 17.",
+        "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 20,
+          "width": 10,
+          "frequencies": [
+            4,
+            6,
+            7,
+            6,
+            6
+          ],
+          "cumulative": [
+            0,
+            4,
+            10,
+            17,
+            23,
+            29
+          ],
+          "total": 29,
+          "median_class": 2
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-stat-l04-w07",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [30, 40, 50, 60, 70, 80] and frequencies [5, 8, 10, 6, 4]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 50≤x<60",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 30.",
+        "Add the frequencies successively: cumulative counts [0, 5, 13, 23, 29, 33].",
+        "Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points.",
+        "N = 33; the median observation is at position 17, between cumulative counts 13 and 23.",
+        "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 30,
+          "width": 10,
+          "frequencies": [
+            5,
+            8,
+            10,
+            6,
+            4
+          ],
+          "cumulative": [
+            0,
+            5,
+            13,
+            23,
+            29,
+            33
+          ],
+          "total": 33,
+          "median_class": 2
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-stat-l04-w08",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [0, 10, 20, 30, 40, 50] and frequencies [2, 5, 7, 6, 3]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 20≤x<30",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 0.",
+        "Add the frequencies successively: cumulative counts [0, 2, 7, 14, 20, 23].",
+        "Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points.",
+        "N = 23; the median observation is at position 12, between cumulative counts 7 and 14.",
+        "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 0,
+          "width": 10,
+          "frequencies": [
+            2,
+            5,
+            7,
+            6,
+            3
+          ],
+          "cumulative": [
+            0,
+            2,
+            7,
+            14,
+            20,
+            23
+          ],
+          "total": 23,
+          "median_class": 2
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-stat-l04-w09",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [10, 20, 30, 40, 50, 60] and frequencies [3, 7, 10, 6, 7]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 30≤x<40",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 10.",
+        "Add the frequencies successively: cumulative counts [0, 3, 10, 20, 26, 33].",
+        "Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points.",
+        "N = 33; the median observation is at position 17, between cumulative counts 10 and 20.",
+        "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 10,
+          "width": 10,
+          "frequencies": [
+            3,
+            7,
+            10,
+            6,
+            7
+          ],
+          "cumulative": [
+            0,
+            3,
+            10,
+            20,
+            26,
+            33
+          ],
+          "total": 33,
+          "median_class": 2
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-stat-l04-w10",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [20, 30, 40, 50, 60, 70] and frequencies [4, 4, 7, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 40≤x<50",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 20.",
+        "Add the frequencies successively: cumulative counts [0, 4, 8, 15, 21, 27].",
+        "Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points.",
+        "N = 27; the median observation is at position 14, between cumulative counts 8 and 15.",
+        "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 20,
+          "width": 10,
+          "frequencies": [
+            4,
+            4,
+            7,
+            6,
+            6
+          ],
+          "cumulative": [
+            0,
+            4,
+            8,
+            15,
+            21,
+            27
+          ],
+          "total": 27,
+          "median_class": 2
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-stat-l04-w11",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [30, 40, 50, 60, 70, 80] and frequencies [5, 6, 10, 6, 4]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 50≤x<60",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 30.",
+        "Add the frequencies successively: cumulative counts [0, 5, 11, 21, 27, 31].",
+        "Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points.",
+        "N = 31; the median observation is at position 16, between cumulative counts 11 and 21.",
+        "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 30,
+          "width": 10,
+          "frequencies": [
+            5,
+            6,
+            10,
+            6,
+            4
+          ],
+          "cumulative": [
+            0,
+            5,
+            11,
+            21,
+            27,
+            31
+          ],
+          "total": 31,
+          "median_class": 2
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-stat-l04-w12",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [0, 10, 20, 30, 40, 50] and frequencies [2, 8, 7, 6, 4]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 20≤x<30",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 0.",
+        "Add the frequencies successively: cumulative counts [0, 2, 10, 17, 23, 27].",
+        "Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points.",
+        "N = 27; the median observation is at position 14, between cumulative counts 10 and 17.",
+        "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 0,
+          "width": 10,
+          "frequencies": [
+            2,
+            8,
+            7,
+            6,
+            4
+          ],
+          "cumulative": [
+            0,
+            2,
+            10,
+            17,
+            23,
+            27
+          ],
+          "total": 27,
+          "median_class": 2
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-stat-l04-w13",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [10, 20, 30, 40, 50, 60] and frequencies [3, 5, 10, 6, 7]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 30≤x<40",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 10.",
+        "Add the frequencies successively: cumulative counts [0, 3, 8, 18, 24, 31].",
+        "Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points.",
+        "N = 31; the median observation is at position 16, between cumulative counts 8 and 18.",
+        "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 10,
+          "width": 10,
+          "frequencies": [
+            3,
+            5,
+            10,
+            6,
+            7
+          ],
+          "cumulative": [
+            0,
+            3,
+            8,
+            18,
+            24,
+            31
+          ],
+          "total": 31,
+          "median_class": 2
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-stat-l04-w14",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [20, 30, 40, 50, 60, 70] and frequencies [4, 7, 7, 6, 5]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 40≤x<50",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 20.",
+        "Add the frequencies successively: cumulative counts [0, 4, 11, 18, 24, 29].",
+        "Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points.",
+        "N = 29; the median observation is at position 15, between cumulative counts 11 and 18.",
+        "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 20,
+          "width": 10,
+          "frequencies": [
+            4,
+            7,
+            7,
+            6,
+            5
+          ],
+          "cumulative": [
+            0,
+            4,
+            11,
+            18,
+            24,
+            29
+          ],
+          "total": 29,
+          "median_class": 2
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-stat-l04-w15",
+      "lesson": 4,
+      "problem": "A grouped distribution has class boundaries [30, 40, 50, 60, 70, 80] and frequencies [5, 4, 10, 6, 4]. Draw its less-than ogive and find the class containing the median observation.",
+      "answer": "Median class = 50≤x<60",
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 30.",
+        "Add the frequencies successively: cumulative counts [0, 5, 9, 19, 25, 29].",
+        "Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points.",
+        "N = 29; the median observation is at position 15, between cumulative counts 9 and 19.",
+        "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "check": "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint.",
+      "visual": {
+        "family": "grade11_statistics",
+        "values": {
+          "mode": "ogive",
+          "start": 30,
+          "width": 10,
+          "frequencies": [
+            5,
+            4,
+            10,
+            6,
+            4
+          ],
+          "cumulative": [
+            0,
+            5,
+            9,
+            19,
+            25,
+            29
+          ],
+          "total": 29,
+          "median_class": 2
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-stat-l04-p01",
+      "prompt": "A grouped distribution has class boundaries [0, 10, 20, 30, 40, 50] and frequencies [2, 6, 7, 6, 4]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 30≤x<40",
+        "Median class = 10≤x<20",
+        "Median class = 20≤x<30",
+        "Median class = 0≤x<10"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 0.",
+        "Add the frequencies successively: cumulative counts [0, 2, 8, 15, 21, 25].",
+        "Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points.",
+        "N = 25; the median observation is at position 13, between cumulative counts 8 and 15.",
+        "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 0. Add the frequencies successively: cumulative counts [0, 2, 8, 15, 21, 25]. Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points. N = 25; the median observation is at position 13, between cumulative counts 8 and 15. Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p02",
+      "prompt": "A grouped distribution has class boundaries [10, 20, 30, 40, 50, 60] and frequencies [3, 8, 10, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 20≤x<30",
+        "Median class = 30≤x<40",
+        "Median class = 10≤x<20",
+        "Median class = 40≤x<50"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 10.",
+        "Add the frequencies successively: cumulative counts [0, 3, 11, 21, 27, 33].",
+        "Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points.",
+        "N = 33; the median observation is at position 17, between cumulative counts 11 and 21.",
+        "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 10. Add the frequencies successively: cumulative counts [0, 3, 11, 21, 27, 33]. Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points. N = 33; the median observation is at position 17, between cumulative counts 11 and 21. Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p03",
+      "prompt": "A grouped distribution has class boundaries [20, 30, 40, 50, 60, 70] and frequencies [4, 5, 7, 6, 5]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 40≤x<50",
+        "Median class = 20≤x<30",
+        "Median class = 50≤x<60",
+        "Median class = 30≤x<40"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 20.",
+        "Add the frequencies successively: cumulative counts [0, 4, 9, 16, 22, 27].",
+        "Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points.",
+        "N = 27; the median observation is at position 14, between cumulative counts 9 and 16.",
+        "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 20. Add the frequencies successively: cumulative counts [0, 4, 9, 16, 22, 27]. Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points. N = 27; the median observation is at position 14, between cumulative counts 9 and 16. Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p04",
+      "prompt": "A grouped distribution has class boundaries [30, 40, 50, 60, 70, 80] and frequencies [5, 7, 10, 6, 5]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 30≤x<40",
+        "Median class = 60≤x<70",
+        "Median class = 40≤x<50",
+        "Median class = 50≤x<60"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 30.",
+        "Add the frequencies successively: cumulative counts [0, 5, 12, 22, 28, 33].",
+        "Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points.",
+        "N = 33; the median observation is at position 17, between cumulative counts 12 and 22.",
+        "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 30. Add the frequencies successively: cumulative counts [0, 5, 12, 22, 28, 33]. Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points. N = 33; the median observation is at position 17, between cumulative counts 12 and 22. Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p05",
+      "prompt": "A grouped distribution has class boundaries [0, 10, 20, 30, 40, 50] and frequencies [2, 4, 7, 6, 4]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 30≤x<40",
+        "Median class = 10≤x<20",
+        "Median class = 20≤x<30",
+        "Median class = 0≤x<10"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 0.",
+        "Add the frequencies successively: cumulative counts [0, 2, 6, 13, 19, 23].",
+        "Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points.",
+        "N = 23; the median observation is at position 12, between cumulative counts 6 and 13.",
+        "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 0. Add the frequencies successively: cumulative counts [0, 2, 6, 13, 19, 23]. Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points. N = 23; the median observation is at position 12, between cumulative counts 6 and 13. Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p06",
+      "prompt": "A grouped distribution has class boundaries [10, 20, 30, 40, 50, 60] and frequencies [3, 6, 10, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 20≤x<30",
+        "Median class = 30≤x<40",
+        "Median class = 10≤x<20",
+        "Median class = 40≤x<50"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 10.",
+        "Add the frequencies successively: cumulative counts [0, 3, 9, 19, 25, 31].",
+        "Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points.",
+        "N = 31; the median observation is at position 16, between cumulative counts 9 and 19.",
+        "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 10. Add the frequencies successively: cumulative counts [0, 3, 9, 19, 25, 31]. Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points. N = 31; the median observation is at position 16, between cumulative counts 9 and 19. Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p07",
+      "prompt": "A grouped distribution has class boundaries [20, 30, 40, 50, 60, 70] and frequencies [4, 8, 7, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 40≤x<50",
+        "Median class = 20≤x<30",
+        "Median class = 50≤x<60",
+        "Median class = 30≤x<40"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 20.",
+        "Add the frequencies successively: cumulative counts [0, 4, 12, 19, 25, 31].",
+        "Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points.",
+        "N = 31; the median observation is at position 16, between cumulative counts 12 and 19.",
+        "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 20. Add the frequencies successively: cumulative counts [0, 4, 12, 19, 25, 31]. Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points. N = 31; the median observation is at position 16, between cumulative counts 12 and 19. Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p08",
+      "prompt": "A grouped distribution has class boundaries [30, 40, 50, 60, 70, 80] and frequencies [5, 5, 10, 6, 5]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 30≤x<40",
+        "Median class = 60≤x<70",
+        "Median class = 40≤x<50",
+        "Median class = 50≤x<60"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 30.",
+        "Add the frequencies successively: cumulative counts [0, 5, 10, 20, 26, 31].",
+        "Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points.",
+        "N = 31; the median observation is at position 16, between cumulative counts 10 and 20.",
+        "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 30. Add the frequencies successively: cumulative counts [0, 5, 10, 20, 26, 31]. Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points. N = 31; the median observation is at position 16, between cumulative counts 10 and 20. Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p09",
+      "prompt": "A grouped distribution has class boundaries [0, 10, 20, 30, 40, 50] and frequencies [2, 7, 7, 6, 3]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 30≤x<40",
+        "Median class = 10≤x<20",
+        "Median class = 20≤x<30",
+        "Median class = 0≤x<10"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 0.",
+        "Add the frequencies successively: cumulative counts [0, 2, 9, 16, 22, 25].",
+        "Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points.",
+        "N = 25; the median observation is at position 13, between cumulative counts 9 and 16.",
+        "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 0. Add the frequencies successively: cumulative counts [0, 2, 9, 16, 22, 25]. Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points. N = 25; the median observation is at position 13, between cumulative counts 9 and 16. Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p10",
+      "prompt": "A grouped distribution has class boundaries [10, 20, 30, 40, 50, 60] and frequencies [3, 4, 10, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 20≤x<30",
+        "Median class = 30≤x<40",
+        "Median class = 10≤x<20",
+        "Median class = 40≤x<50"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 10.",
+        "Add the frequencies successively: cumulative counts [0, 3, 7, 17, 23, 29].",
+        "Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points.",
+        "N = 29; the median observation is at position 15, between cumulative counts 7 and 17.",
+        "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 10. Add the frequencies successively: cumulative counts [0, 3, 7, 17, 23, 29]. Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points. N = 29; the median observation is at position 15, between cumulative counts 7 and 17. Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p11",
+      "prompt": "A grouped distribution has class boundaries [20, 30, 40, 50, 60, 70] and frequencies [4, 6, 7, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 40≤x<50",
+        "Median class = 20≤x<30",
+        "Median class = 50≤x<60",
+        "Median class = 30≤x<40"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 20.",
+        "Add the frequencies successively: cumulative counts [0, 4, 10, 17, 23, 29].",
+        "Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points.",
+        "N = 29; the median observation is at position 15, between cumulative counts 10 and 17.",
+        "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 20. Add the frequencies successively: cumulative counts [0, 4, 10, 17, 23, 29]. Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points. N = 29; the median observation is at position 15, between cumulative counts 10 and 17. Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p12",
+      "prompt": "A grouped distribution has class boundaries [30, 40, 50, 60, 70, 80] and frequencies [5, 8, 10, 6, 4]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 30≤x<40",
+        "Median class = 60≤x<70",
+        "Median class = 40≤x<50",
+        "Median class = 50≤x<60"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 30.",
+        "Add the frequencies successively: cumulative counts [0, 5, 13, 23, 29, 33].",
+        "Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points.",
+        "N = 33; the median observation is at position 17, between cumulative counts 13 and 23.",
+        "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 30. Add the frequencies successively: cumulative counts [0, 5, 13, 23, 29, 33]. Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points. N = 33; the median observation is at position 17, between cumulative counts 13 and 23. Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p13",
+      "prompt": "A grouped distribution has class boundaries [0, 10, 20, 30, 40, 50] and frequencies [2, 5, 7, 6, 3]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 30≤x<40",
+        "Median class = 10≤x<20",
+        "Median class = 20≤x<30",
+        "Median class = 0≤x<10"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 0.",
+        "Add the frequencies successively: cumulative counts [0, 2, 7, 14, 20, 23].",
+        "Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points.",
+        "N = 23; the median observation is at position 12, between cumulative counts 7 and 14.",
+        "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 0. Add the frequencies successively: cumulative counts [0, 2, 7, 14, 20, 23]. Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points. N = 23; the median observation is at position 12, between cumulative counts 7 and 14. Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p14",
+      "prompt": "A grouped distribution has class boundaries [10, 20, 30, 40, 50, 60] and frequencies [3, 7, 10, 6, 7]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 20≤x<30",
+        "Median class = 30≤x<40",
+        "Median class = 10≤x<20",
+        "Median class = 40≤x<50"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 10.",
+        "Add the frequencies successively: cumulative counts [0, 3, 10, 20, 26, 33].",
+        "Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points.",
+        "N = 33; the median observation is at position 17, between cumulative counts 10 and 20.",
+        "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 10. Add the frequencies successively: cumulative counts [0, 3, 10, 20, 26, 33]. Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points. N = 33; the median observation is at position 17, between cumulative counts 10 and 20. Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-p15",
+      "prompt": "A grouped distribution has class boundaries [20, 30, 40, 50, 60, 70] and frequencies [4, 4, 7, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 40≤x<50",
+        "Median class = 20≤x<30",
+        "Median class = 50≤x<60",
+        "Median class = 30≤x<40"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 20.",
+        "Add the frequencies successively: cumulative counts [0, 4, 8, 15, 21, 27].",
+        "Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points.",
+        "N = 27; the median observation is at position 14, between cumulative counts 8 and 15.",
+        "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 20. Add the frequencies successively: cumulative counts [0, 4, 8, 15, 21, 27]. Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points. N = 27; the median observation is at position 14, between cumulative counts 8 and 15. Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-stat-l04-m01",
+      "prompt": "A grouped distribution has class boundaries [30, 40, 50, 60, 70, 80] and frequencies [5, 6, 10, 6, 4]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 40≤x<50",
+        "Median class = 50≤x<60",
+        "Median class = 30≤x<40",
+        "Median class = 60≤x<70"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 30.",
+        "Add the frequencies successively: cumulative counts [0, 5, 11, 21, 27, 31].",
+        "Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points.",
+        "N = 31; the median observation is at position 16, between cumulative counts 11 and 21.",
+        "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 30. Add the frequencies successively: cumulative counts [0, 5, 11, 21, 27, 31]. Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points. N = 31; the median observation is at position 16, between cumulative counts 11 and 21. Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-m02",
+      "prompt": "A grouped distribution has class boundaries [0, 10, 20, 30, 40, 50] and frequencies [2, 8, 7, 6, 4]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 20≤x<30",
+        "Median class = 0≤x<10",
+        "Median class = 30≤x<40",
+        "Median class = 10≤x<20"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 0.",
+        "Add the frequencies successively: cumulative counts [0, 2, 10, 17, 23, 27].",
+        "Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points.",
+        "N = 27; the median observation is at position 14, between cumulative counts 10 and 17.",
+        "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 0. Add the frequencies successively: cumulative counts [0, 2, 10, 17, 23, 27]. Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points. N = 27; the median observation is at position 14, between cumulative counts 10 and 17. Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-m03",
+      "prompt": "A grouped distribution has class boundaries [10, 20, 30, 40, 50, 60] and frequencies [3, 5, 10, 6, 7]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 10≤x<20",
+        "Median class = 40≤x<50",
+        "Median class = 20≤x<30",
+        "Median class = 30≤x<40"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 10.",
+        "Add the frequencies successively: cumulative counts [0, 3, 8, 18, 24, 31].",
+        "Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points.",
+        "N = 31; the median observation is at position 16, between cumulative counts 8 and 18.",
+        "Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 10. Add the frequencies successively: cumulative counts [0, 3, 8, 18, 24, 31]. Plot cumulative count against upper boundaries [10, 20, 30, 40, 50, 60], then join adjacent points. N = 31; the median observation is at position 16, between cumulative counts 8 and 18. Answer: Median class = 30≤x<40. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-m04",
+      "prompt": "A grouped distribution has class boundaries [20, 30, 40, 50, 60, 70] and frequencies [4, 7, 7, 6, 5]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 50≤x<60",
+        "Median class = 30≤x<40",
+        "Median class = 40≤x<50",
+        "Median class = 20≤x<30"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 20.",
+        "Add the frequencies successively: cumulative counts [0, 4, 11, 18, 24, 29].",
+        "Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points.",
+        "N = 29; the median observation is at position 15, between cumulative counts 11 and 18.",
+        "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 20. Add the frequencies successively: cumulative counts [0, 4, 11, 18, 24, 29]. Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points. N = 29; the median observation is at position 15, between cumulative counts 11 and 18. Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-m05",
+      "prompt": "A grouped distribution has class boundaries [30, 40, 50, 60, 70, 80] and frequencies [5, 4, 10, 6, 4]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 40≤x<50",
+        "Median class = 50≤x<60",
+        "Median class = 30≤x<40",
+        "Median class = 60≤x<70"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 30.",
+        "Add the frequencies successively: cumulative counts [0, 5, 9, 19, 25, 29].",
+        "Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points.",
+        "N = 29; the median observation is at position 15, between cumulative counts 9 and 19.",
+        "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 30. Add the frequencies successively: cumulative counts [0, 5, 9, 19, 25, 29]. Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points. N = 29; the median observation is at position 15, between cumulative counts 9 and 19. Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-stat-l04-r01",
+      "prompt": "A grouped distribution has class boundaries [20, 30, 40, 50, 60, 70] and frequencies [4, 6, 7, 6, 6]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 40≤x<50",
+        "Median class = 20≤x<30",
+        "Median class = 50≤x<60",
+        "Median class = 30≤x<40"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 20.",
+        "Add the frequencies successively: cumulative counts [0, 4, 10, 17, 23, 29].",
+        "Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points.",
+        "N = 29; the median observation is at position 15, between cumulative counts 10 and 17.",
+        "Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 20. Add the frequencies successively: cumulative counts [0, 4, 10, 17, 23, 29]. Plot cumulative count against upper boundaries [20, 30, 40, 50, 60, 70], then join adjacent points. N = 29; the median observation is at position 15, between cumulative counts 10 and 17. Answer: Median class = 40≤x<50. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-r02",
+      "prompt": "A grouped distribution has class boundaries [30, 40, 50, 60, 70, 80] and frequencies [5, 8, 10, 6, 4]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 30≤x<40",
+        "Median class = 60≤x<70",
+        "Median class = 40≤x<50",
+        "Median class = 50≤x<60"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 30.",
+        "Add the frequencies successively: cumulative counts [0, 5, 13, 23, 29, 33].",
+        "Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points.",
+        "N = 33; the median observation is at position 17, between cumulative counts 13 and 23.",
+        "Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 30. Add the frequencies successively: cumulative counts [0, 5, 13, 23, 29, 33]. Plot cumulative count against upper boundaries [30, 40, 50, 60, 70, 80], then join adjacent points. N = 33; the median observation is at position 17, between cumulative counts 13 and 23. Answer: Median class = 50≤x<60. Read the upper boundary at each cumulative value, not the midpoint."
+    },
+    {
+      "id": "g11-stat-l04-r03",
+      "prompt": "A grouped distribution has class boundaries [0, 10, 20, 30, 40, 50] and frequencies [2, 5, 7, 6, 3]. Draw its less-than ogive and find the class containing the median observation.",
+      "options": [
+        "Median class = 30≤x<40",
+        "Median class = 10≤x<20",
+        "Median class = 20≤x<30",
+        "Median class = 0≤x<10"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Start cumulative count 0 at the first lower boundary 0.",
+        "Add the frequencies successively: cumulative counts [0, 2, 7, 14, 20, 23].",
+        "Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points.",
+        "N = 23; the median observation is at position 12, between cumulative counts 7 and 14.",
+        "Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+      ],
+      "memo": "Start cumulative count 0 at the first lower boundary 0. Add the frequencies successively: cumulative counts [0, 2, 7, 14, 20, 23]. Plot cumulative count against upper boundaries [0, 10, 20, 30, 40, 50], then join adjacent points. N = 23; the median observation is at position 12, between cumulative counts 7 and 14. Answer: Median class = 20≤x<30. Read the upper boundary at each cumulative value, not the midpoint."
+    }
+  ]
+}
