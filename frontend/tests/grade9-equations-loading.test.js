@@ -10,7 +10,7 @@ const context=vm.createContext({});
 vm.runInContext(source,context);
 
 test('all 90 Grade 9 Topic 7 examples resolve their actual whiteboard operation',()=>{
-  assert.match(page,/animation-registry\.js\?v=math-whiteboard-v18/);
+  assert.match(page,/animation-registry\.js\?v=math-whiteboard-v19/);
   assert.match(page,/grade9-equation-renderers\.js/);
   for(let lesson=1;lesson<=6;lesson++){
     const data=JSON.parse(fs.readFileSync(path.join(root,'backend/app/curriculum/grade9/generated',

@@ -183,6 +183,8 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     for hidden in ("r","s"):
                         givens.pop(hidden,None)
                     scene["visual"]={"family":"grade11_equations","values":givens}
+                elif lesson.id.startswith("g11-prob-"):
+                    scene["visual"]={"family":"grade11_probability","values":dict(scene["visual"]["values"])}
                 elif lesson.id.startswith("g11-stat-"):
                     givens=dict(scene["visual"]["values"])
                     for hidden in ("mean","sum","weighted","five","iqr","peak","cumulative","total","median_class","squares","variance","sd","upper_fence","model","first_differences","second_differences"):

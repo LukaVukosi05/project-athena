@@ -30,7 +30,7 @@ test('area, signs, zero groups, powers and two-area comparison use question data
 test('the lesson page loads the product renderer and every authored product resolves without fallback',()=>{
  const html=fs.readFileSync(path.join(root,'frontend/lesson.html'),'utf8');
  assert.match(html,/js\/visualization\/algebra\/grade8-products-renderers\.js\?v=g8-ex-l03-v2/);
- assert.match(html,/js\/whiteboard\/animation-registry\.js\?v=math-whiteboard-v18/);
+ assert.match(html,/js\/whiteboard\/animation-registry\.js\?v=math-whiteboard-v19/);
  for(const q of questions){
   const block={representation:'visual',id:`${q.id}-board`,visualization:{type:'algebra',template:q.model.family,parameters:{prompt:q.q,question_id:q.id,model_tokens:q.model.tokens,model_lanes:q.model.lanes,model_scene:q.model.scene,total_steps:4}}};
   const session=AthenaVisualizationResolver.resolve(block,{lesson_id:'g8-algebraic-expressions-03',question_id:q.id});

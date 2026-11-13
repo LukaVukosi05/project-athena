@@ -1,0 +1,299 @@
+# Grade 11 Topic 9, Lesson 5: Tree diagrams with and without replacement
+
+Curriculum: [DBE Grade 11 ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2023%20ATPs/FET%20Content%20Subjects/Grade%2011/1.590%20ATP%202023-24%20Gr%2011%20Maths%20final.pdf) and [Mathematics CAPS](https://www.education.gov.za/Portals/0/CD/National%20Curriculum%20Statements%20and%20Vocational/CAPS%20FET%20_%20MATHEMATICS%20_%20GR%2010-12%20_%20Web_1133.pdf).
+
+Original Athena questions and worked steps; teacher review and live browser acceptance required.
+
+Fraction probabilities are exact and simplified. The tree distinguishes replacement from no replacement.
+
+## g11-prob-l05-w01: A bag holds 4 red and 6 blue counters. Draw two without replacement. Find the probability of one of each.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 4, "blue": 6, "replacement": false, "target": "one of each"}}`
+
+1. The first branches are red 4/10 and blue 6/10.
+
+2. After a red first: P(red second) = 3/9; P(blue second) = 6/9.
+
+3. After a blue first: P(red second) = 4/9; P(blue second) = 5/9.
+
+4. Multiply each required branch: RR=2/15, RB=4/15, BR=4/15.
+
+5. Answer: P(one of each) = 8/15. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(one of each) = 8/15. Check: Answer: P(one of each) = 8/15. The second draw has one fewer counter; add disjoint branches only.
+
+## g11-prob-l05-w02: A bag holds 5 red and 8 blue counters. Draw two without replacement. Find the probability of at least one red.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 5, "blue": 8, "replacement": false, "target": "at least one red"}}`
+
+1. The first branches are red 5/13 and blue 8/13.
+
+2. After a red first: P(red second) = 4/12; P(blue second) = 8/12.
+
+3. After a blue first: P(red second) = 5/12; P(blue second) = 7/12.
+
+4. Multiply each required branch: RR=5/39, RB=10/39, BR=10/39.
+
+5. Answer: P(at least one red) = 25/39. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(at least one red) = 25/39. Check: Answer: P(at least one red) = 25/39. The second draw has one fewer counter; add disjoint branches only.
+
+## g11-prob-l05-w03: A bag holds 6 red and 4 blue counters. Draw two without replacement. Find the probability of two red.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 6, "blue": 4, "replacement": false, "target": "two red"}}`
+
+1. The first branches are red 6/10 and blue 4/10.
+
+2. After a red first: P(red second) = 5/9; P(blue second) = 4/9.
+
+3. After a blue first: P(red second) = 6/9; P(blue second) = 3/9.
+
+4. Multiply each required branch: RR=1/3, RB=4/15, BR=4/15.
+
+5. Answer: P(two red) = 1/3. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(two red) = 1/3. Check: Answer: P(two red) = 1/3. The second draw has one fewer counter; add disjoint branches only.
+
+## g11-prob-l05-w04: A bag holds 7 red and 6 blue counters. Draw two with replacement. Find the probability of one of each.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 7, "blue": 6, "replacement": true, "target": "one of each"}}`
+
+1. The first branches are red 7/13 and blue 6/13.
+
+2. After a red first: P(red second) = 7/13; P(blue second) = 6/13.
+
+3. After a blue first: P(red second) = 7/13; P(blue second) = 6/13.
+
+4. Multiply each required branch: RR=49/169, RB=42/169, BR=42/169.
+
+5. Answer: P(one of each) = 84/169. Replacement restores the starting total; add disjoint branches only.
+
+Answer: P(one of each) = 84/169. Check: Answer: P(one of each) = 84/169. Replacement restores the starting total; add disjoint branches only.
+
+## g11-prob-l05-w05: A bag holds 8 red and 8 blue counters. Draw two without replacement. Find the probability of at least one red.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 8, "blue": 8, "replacement": false, "target": "at least one red"}}`
+
+1. The first branches are red 8/16 and blue 8/16.
+
+2. After a red first: P(red second) = 7/15; P(blue second) = 8/15.
+
+3. After a blue first: P(red second) = 8/15; P(blue second) = 7/15.
+
+4. Multiply each required branch: RR=7/30, RB=4/15, BR=4/15.
+
+5. Answer: P(at least one red) = 23/30. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(at least one red) = 23/30. Check: Answer: P(at least one red) = 23/30. The second draw has one fewer counter; add disjoint branches only.
+
+## g11-prob-l05-w06: A bag holds 9 red and 4 blue counters. Draw two without replacement. Find the probability of two red.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 9, "blue": 4, "replacement": false, "target": "two red"}}`
+
+1. The first branches are red 9/13 and blue 4/13.
+
+2. After a red first: P(red second) = 8/12; P(blue second) = 4/12.
+
+3. After a blue first: P(red second) = 9/12; P(blue second) = 3/12.
+
+4. Multiply each required branch: RR=6/13, RB=3/13, BR=3/13.
+
+5. Answer: P(two red) = 6/13. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(two red) = 6/13. Check: Answer: P(two red) = 6/13. The second draw has one fewer counter; add disjoint branches only.
+
+## g11-prob-l05-w07: A bag holds 10 red and 6 blue counters. Draw two without replacement. Find the probability of one of each.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 10, "blue": 6, "replacement": false, "target": "one of each"}}`
+
+1. The first branches are red 10/16 and blue 6/16.
+
+2. After a red first: P(red second) = 9/15; P(blue second) = 6/15.
+
+3. After a blue first: P(red second) = 10/15; P(blue second) = 5/15.
+
+4. Multiply each required branch: RR=3/8, RB=1/4, BR=1/4.
+
+5. Answer: P(one of each) = 1/2. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(one of each) = 1/2. Check: Answer: P(one of each) = 1/2. The second draw has one fewer counter; add disjoint branches only.
+
+## g11-prob-l05-w08: A bag holds 11 red and 8 blue counters. Draw two with replacement. Find the probability of at least one red.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 11, "blue": 8, "replacement": true, "target": "at least one red"}}`
+
+1. The first branches are red 11/19 and blue 8/19.
+
+2. After a red first: P(red second) = 11/19; P(blue second) = 8/19.
+
+3. After a blue first: P(red second) = 11/19; P(blue second) = 8/19.
+
+4. Multiply each required branch: RR=121/361, RB=88/361, BR=88/361.
+
+5. Answer: P(at least one red) = 297/361. Replacement restores the starting total; add disjoint branches only.
+
+Answer: P(at least one red) = 297/361. Check: Answer: P(at least one red) = 297/361. Replacement restores the starting total; add disjoint branches only.
+
+## g11-prob-l05-w09: A bag holds 12 red and 4 blue counters. Draw two without replacement. Find the probability of two red.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 12, "blue": 4, "replacement": false, "target": "two red"}}`
+
+1. The first branches are red 12/16 and blue 4/16.
+
+2. After a red first: P(red second) = 11/15; P(blue second) = 4/15.
+
+3. After a blue first: P(red second) = 12/15; P(blue second) = 3/15.
+
+4. Multiply each required branch: RR=11/20, RB=1/5, BR=1/5.
+
+5. Answer: P(two red) = 11/20. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(two red) = 11/20. Check: Answer: P(two red) = 11/20. The second draw has one fewer counter; add disjoint branches only.
+
+## g11-prob-l05-w10: A bag holds 13 red and 6 blue counters. Draw two without replacement. Find the probability of one of each.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 13, "blue": 6, "replacement": false, "target": "one of each"}}`
+
+1. The first branches are red 13/19 and blue 6/19.
+
+2. After a red first: P(red second) = 12/18; P(blue second) = 6/18.
+
+3. After a blue first: P(red second) = 13/18; P(blue second) = 5/18.
+
+4. Multiply each required branch: RR=26/57, RB=13/57, BR=13/57.
+
+5. Answer: P(one of each) = 26/57. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(one of each) = 26/57. Check: Answer: P(one of each) = 26/57. The second draw has one fewer counter; add disjoint branches only.
+
+## g11-prob-l05-w11: A bag holds 14 red and 8 blue counters. Draw two without replacement. Find the probability of at least one red.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 14, "blue": 8, "replacement": false, "target": "at least one red"}}`
+
+1. The first branches are red 14/22 and blue 8/22.
+
+2. After a red first: P(red second) = 13/21; P(blue second) = 8/21.
+
+3. After a blue first: P(red second) = 14/21; P(blue second) = 7/21.
+
+4. Multiply each required branch: RR=13/33, RB=8/33, BR=8/33.
+
+5. Answer: P(at least one red) = 29/33. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(at least one red) = 29/33. Check: Answer: P(at least one red) = 29/33. The second draw has one fewer counter; add disjoint branches only.
+
+## g11-prob-l05-w12: A bag holds 15 red and 4 blue counters. Draw two with replacement. Find the probability of two red.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 15, "blue": 4, "replacement": true, "target": "two red"}}`
+
+1. The first branches are red 15/19 and blue 4/19.
+
+2. After a red first: P(red second) = 15/19; P(blue second) = 4/19.
+
+3. After a blue first: P(red second) = 15/19; P(blue second) = 4/19.
+
+4. Multiply each required branch: RR=225/361, RB=60/361, BR=60/361.
+
+5. Answer: P(two red) = 225/361. Replacement restores the starting total; add disjoint branches only.
+
+Answer: P(two red) = 225/361. Check: Answer: P(two red) = 225/361. Replacement restores the starting total; add disjoint branches only.
+
+## g11-prob-l05-w13: A bag holds 16 red and 6 blue counters. Draw two without replacement. Find the probability of one of each.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 16, "blue": 6, "replacement": false, "target": "one of each"}}`
+
+1. The first branches are red 16/22 and blue 6/22.
+
+2. After a red first: P(red second) = 15/21; P(blue second) = 6/21.
+
+3. After a blue first: P(red second) = 16/21; P(blue second) = 5/21.
+
+4. Multiply each required branch: RR=40/77, RB=16/77, BR=16/77.
+
+5. Answer: P(one of each) = 32/77. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(one of each) = 32/77. Check: Answer: P(one of each) = 32/77. The second draw has one fewer counter; add disjoint branches only.
+
+## g11-prob-l05-w14: A bag holds 17 red and 8 blue counters. Draw two without replacement. Find the probability of at least one red.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 17, "blue": 8, "replacement": false, "target": "at least one red"}}`
+
+1. The first branches are red 17/25 and blue 8/25.
+
+2. After a red first: P(red second) = 16/24; P(blue second) = 8/24.
+
+3. After a blue first: P(red second) = 17/24; P(blue second) = 7/24.
+
+4. Multiply each required branch: RR=34/75, RB=17/75, BR=17/75.
+
+5. Answer: P(at least one red) = 68/75. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(at least one red) = 68/75. Check: Answer: P(at least one red) = 68/75. The second draw has one fewer counter; add disjoint branches only.
+
+## g11-prob-l05-w15: A bag holds 18 red and 4 blue counters. Draw two without replacement. Find the probability of two red.
+
+Question-specific visual values: `{"family": "grade11_probability", "values": {"mode": "tree", "red": 18, "blue": 4, "replacement": false, "target": "two red"}}`
+
+1. The first branches are red 18/22 and blue 4/22.
+
+2. After a red first: P(red second) = 17/21; P(blue second) = 4/21.
+
+3. After a blue first: P(red second) = 18/21; P(blue second) = 3/21.
+
+4. Multiply each required branch: RR=51/77, RB=12/77, BR=12/77.
+
+5. Answer: P(two red) = 51/77. The second draw has one fewer counter; add disjoint branches only.
+
+Answer: P(two red) = 51/77. Check: Answer: P(two red) = 51/77. The second draw has one fewer counter; add disjoint branches only.
+
+## Practice key
+
+- g11-prob-l05-p01: A bag holds 19 red and 6 blue counters. Draw two with replacement. Find the probability of one of each. Options: P(one of each) = 114/625 | P(one of each) = 1949/5000 | P(one of each) = 228/625 | P(one of each) = 361/625. Correct: P(one of each) = 228/625. The first branches are red 19/25 and blue 6/25. After a red first: P(red second) = 19/25; P(blue second) = 6/25. After a blue first: P(red second) = 19/25; P(blue second) = 6/25. Multiply each required branch: RR=361/625, RB=114/625, BR=114/625. Answer: P(one of each) = 228/625. Replacement restores the starting total; add disjoint branches only.
+
+- g11-prob-l05-p02: A bag holds 20 red and 8 blue counters. Draw two without replacement. Find the probability of at least one red. Options: P(at least one red) = 1027/1080 | P(at least one red) = 25/27 | P(at least one red) = 95/189 | P(at least one red) = 40/189. Correct: P(at least one red) = 25/27. The first branches are red 20/28 and blue 8/28. After a red first: P(red second) = 19/27; P(blue second) = 8/27. After a blue first: P(red second) = 20/27; P(blue second) = 7/27. Multiply each required branch: RR=95/189, RB=40/189, BR=40/189. Answer: P(at least one red) = 25/27. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-p03: A bag holds 21 red and 4 blue counters. Draw two without replacement. Find the probability of two red. Options: P(two red) = 7/10 | P(two red) = 7/50 | P(two red) = 29/40 | P(two red) = 27/40. Correct: P(two red) = 7/10. The first branches are red 21/25 and blue 4/25. After a red first: P(red second) = 20/24; P(blue second) = 4/24. After a blue first: P(red second) = 21/24; P(blue second) = 3/24. Multiply each required branch: RR=7/10, RB=7/50, BR=7/50. Answer: P(two red) = 7/10. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-p04: A bag holds 22 red and 6 blue counters. Draw two without replacement. Find the probability of one of each. Options: P(one of each) = 11/18 | P(one of each) = 11/63 | P(one of each) = 943/2520 | P(one of each) = 22/63. Correct: P(one of each) = 22/63. The first branches are red 22/28 and blue 6/28. After a red first: P(red second) = 21/27; P(blue second) = 6/27. After a blue first: P(red second) = 22/27; P(blue second) = 5/27. Multiply each required branch: RR=11/18, RB=11/63, BR=11/63. Answer: P(one of each) = 22/63. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-p05: A bag holds 23 red and 8 blue counters. Draw two with replacement. Find the probability of at least one red. Options: P(at least one red) = 184/961 | P(at least one red) = 36841/38440 | P(at least one red) = 897/961 | P(at least one red) = 529/961. Correct: P(at least one red) = 897/961. The first branches are red 23/31 and blue 8/31. After a red first: P(red second) = 23/31; P(blue second) = 8/31. After a blue first: P(red second) = 23/31; P(blue second) = 8/31. Multiply each required branch: RR=529/961, RB=184/961, BR=184/961. Answer: P(at least one red) = 897/961. Replacement restores the starting total; add disjoint branches only.
+
+- g11-prob-l05-p06: A bag holds 24 red and 4 blue counters. Draw two without replacement. Find the probability of two red. Options: P(two red) = 1777/2520 | P(two red) = 46/63 | P(two red) = 8/63 | P(two red) = 1903/2520. Correct: P(two red) = 46/63. The first branches are red 24/28 and blue 4/28. After a red first: P(red second) = 23/27; P(blue second) = 4/27. After a blue first: P(red second) = 24/27; P(blue second) = 3/27. Multiply each required branch: RR=46/63, RB=8/63, BR=8/63. Answer: P(two red) = 46/63. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-p07: A bag holds 25 red and 6 blue counters. Draw two without replacement. Find the probability of one of each. Options: P(one of each) = 10/31 | P(one of each) = 20/31 | P(one of each) = 5/31 | P(one of each) = 431/1240. Correct: P(one of each) = 10/31. The first branches are red 25/31 and blue 6/31. After a red first: P(red second) = 24/30; P(blue second) = 6/30. After a blue first: P(red second) = 25/30; P(blue second) = 5/30. Multiply each required branch: RR=20/31, RB=5/31, BR=5/31. Answer: P(one of each) = 10/31. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-p08: A bag holds 26 red and 8 blue counters. Draw two without replacement. Find the probability of at least one red. Options: P(at least one red) = 325/561 | P(at least one red) = 104/561 | P(at least one red) = 21881/22440 | P(at least one red) = 533/561. Correct: P(at least one red) = 533/561. The first branches are red 26/34 and blue 8/34. After a red first: P(red second) = 25/33; P(blue second) = 8/33. After a blue first: P(red second) = 26/33; P(blue second) = 7/33. Multiply each required branch: RR=325/561, RB=104/561, BR=104/561. Answer: P(at least one red) = 533/561. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-p09: A bag holds 27 red and 4 blue counters. Draw two with replacement. Find the probability of two red. Options: P(two red) = 30121/38440 | P(two red) = 28199/38440 | P(two red) = 729/961 | P(two red) = 108/961. Correct: P(two red) = 729/961. The first branches are red 27/31 and blue 4/31. After a red first: P(red second) = 27/31; P(blue second) = 4/31. After a blue first: P(red second) = 27/31; P(blue second) = 4/31. Multiply each required branch: RR=729/961, RB=108/961, BR=108/961. Answer: P(two red) = 729/961. Replacement restores the starting total; add disjoint branches only.
+
+- g11-prob-l05-p10: A bag holds 28 red and 6 blue counters. Draw two without replacement. Find the probability of one of each. Options: P(one of each) = 2427/7480 | P(one of each) = 56/187 | P(one of each) = 126/187 | P(one of each) = 28/187. Correct: P(one of each) = 56/187. The first branches are red 28/34 and blue 6/34. After a red first: P(red second) = 27/33; P(blue second) = 6/33. After a blue first: P(red second) = 28/33; P(blue second) = 5/33. Multiply each required branch: RR=126/187, RB=28/187, BR=28/187. Answer: P(one of each) = 56/187. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-p11: A bag holds 29 red and 8 blue counters. Draw two without replacement. Find the probability of at least one red. Options: P(at least one red) = 319/333 | P(at least one red) = 203/333 | P(at least one red) = 58/333 | P(at least one red) = 13093/13320. Correct: P(at least one red) = 319/333. The first branches are red 29/37 and blue 8/37. After a red first: P(red second) = 28/36; P(blue second) = 8/36. After a blue first: P(red second) = 29/36; P(blue second) = 7/36. Multiply each required branch: RR=203/333, RB=58/333, BR=58/333. Answer: P(at least one red) = 319/333. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-p12: A bag holds 30 red and 4 blue counters. Draw two without replacement. Find the probability of two red. Options: P(two red) = 20/187 | P(two red) = 5987/7480 | P(two red) = 5613/7480 | P(two red) = 145/187. Correct: P(two red) = 145/187. The first branches are red 30/34 and blue 4/34. After a red first: P(red second) = 29/33; P(blue second) = 4/33. After a blue first: P(red second) = 30/33; P(blue second) = 3/33. Multiply each required branch: RR=145/187, RB=20/187, BR=20/187. Answer: P(two red) = 145/187. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-p13: A bag holds 31 red and 6 blue counters. Draw two with replacement. Find the probability of one of each. Options: P(one of each) = 186/1369 | P(one of each) = 16249/54760 | P(one of each) = 372/1369 | P(one of each) = 961/1369. Correct: P(one of each) = 372/1369. The first branches are red 31/37 and blue 6/37. After a red first: P(red second) = 31/37; P(blue second) = 6/37. After a blue first: P(red second) = 31/37; P(blue second) = 6/37. Multiply each required branch: RR=961/1369, RB=186/1369, BR=186/1369. Answer: P(one of each) = 372/1369. Replacement restores the starting total; add disjoint branches only.
+
+- g11-prob-l05-p14: A bag holds 32 red and 8 blue counters. Draw two without replacement. Find the probability of at least one red. Options: P(at least one red) = 1543/1560 | P(at least one red) = 188/195 | P(at least one red) = 124/195 | P(at least one red) = 32/195. Correct: P(at least one red) = 188/195. The first branches are red 32/40 and blue 8/40. After a red first: P(red second) = 31/39; P(blue second) = 8/39. After a blue first: P(red second) = 32/39; P(blue second) = 7/39. Multiply each required branch: RR=124/195, RB=32/195, BR=32/195. Answer: P(at least one red) = 188/195. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-p15: A bag holds 33 red and 4 blue counters. Draw two without replacement. Find the probability of two red. Options: P(two red) = 88/111 | P(two red) = 11/111 | P(two red) = 3631/4440 | P(two red) = 3409/4440. Correct: P(two red) = 88/111. The first branches are red 33/37 and blue 4/37. After a red first: P(red second) = 32/36; P(blue second) = 4/36. After a blue first: P(red second) = 33/36; P(blue second) = 3/36. Multiply each required branch: RR=88/111, RB=11/111, BR=11/111. Answer: P(two red) = 88/111. The second draw has one fewer counter; add disjoint branches only.
+
+## Mastery key
+
+- g11-prob-l05-m01: A bag holds 34 red and 6 blue counters. Draw two without replacement. Find the probability of one of each. Options: P(one of each) = 149/520 | P(one of each) = 17/65 | P(one of each) = 187/260 | P(one of each) = 17/130. Correct: P(one of each) = 17/65. The first branches are red 34/40 and blue 6/40. After a red first: P(red second) = 33/39; P(blue second) = 6/39. After a blue first: P(red second) = 34/39; P(blue second) = 5/39. Multiply each required branch: RR=187/260, RB=17/130, BR=17/130. Answer: P(one of each) = 17/65. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-m02: A bag holds 35 red and 8 blue counters. Draw two with replacement. Find the probability of at least one red. Options: P(at least one red) = 1785/1849 | P(at least one red) = 1225/1849 | P(at least one red) = 280/1849 | P(at least one red) = 73249/73960. Correct: P(at least one red) = 1785/1849. The first branches are red 35/43 and blue 8/43. After a red first: P(red second) = 35/43; P(blue second) = 8/43. After a blue first: P(red second) = 35/43; P(blue second) = 8/43. Multiply each required branch: RR=1225/1849, RB=280/1849, BR=280/1849. Answer: P(at least one red) = 1785/1849. Replacement restores the starting total; add disjoint branches only.
+
+- g11-prob-l05-m03: A bag holds 36 red and 4 blue counters. Draw two without replacement. Find the probability of two red. Options: P(two red) = 6/65 | P(two red) = 433/520 | P(two red) = 407/520 | P(two red) = 21/26. Correct: P(two red) = 21/26. The first branches are red 36/40 and blue 4/40. After a red first: P(red second) = 35/39; P(blue second) = 4/39. After a blue first: P(red second) = 36/39; P(blue second) = 3/39. Multiply each required branch: RR=21/26, RB=6/65, BR=6/65. Answer: P(two red) = 21/26. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-m04: A bag holds 37 red and 6 blue counters. Draw two without replacement. Find the probability of one of each. Options: P(one of each) = 37/301 | P(one of each) = 3261/12040 | P(one of each) = 74/301 | P(one of each) = 222/301. Correct: P(one of each) = 74/301. The first branches are red 37/43 and blue 6/43. After a red first: P(red second) = 36/42; P(blue second) = 6/42. After a blue first: P(red second) = 37/42; P(blue second) = 5/42. Multiply each required branch: RR=222/301, RB=37/301, BR=37/301. Answer: P(one of each) = 74/301. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-m05: A bag holds 38 red and 8 blue counters. Draw two without replacement. Find the probability of at least one red. Options: P(at least one red) = 8263/8280 | P(at least one red) = 1007/1035 | P(at least one red) = 703/1035 | P(at least one red) = 152/1035. Correct: P(at least one red) = 1007/1035. The first branches are red 38/46 and blue 8/46. After a red first: P(red second) = 37/45; P(blue second) = 8/45. After a blue first: P(red second) = 38/45; P(blue second) = 7/45. Multiply each required branch: RR=703/1035, RB=152/1035, BR=152/1035. Answer: P(at least one red) = 1007/1035. The second draw has one fewer counter; add disjoint branches only.
+
+## Reassessment key
+
+- g11-prob-l05-r01: A bag holds 49 red and 6 blue counters. Draw two without replacement. Find the probability of one of each. Options: P(one of each) = 98/495 | P(one of each) = 392/495 | P(one of each) = 49/495 | P(one of each) = 883/3960. Correct: P(one of each) = 98/495. The first branches are red 49/55 and blue 6/55. After a red first: P(red second) = 48/54; P(blue second) = 6/54. After a blue first: P(red second) = 49/54; P(blue second) = 5/54. Multiply each required branch: RR=392/495, RB=49/495, BR=49/495. Answer: P(one of each) = 98/495. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-r02: A bag holds 50 red and 8 blue counters. Draw two without replacement. Find the probability of at least one red. Options: P(at least one red) = 1225/1653 | P(at least one red) = 200/1653 | P(at least one red) = 63347/66120 | P(at least one red) = 1625/1653. Correct: P(at least one red) = 1625/1653. The first branches are red 50/58 and blue 8/58. After a red first: P(red second) = 49/57; P(blue second) = 8/57. After a blue first: P(red second) = 50/57; P(blue second) = 7/57. Multiply each required branch: RR=1225/1653, RB=200/1653, BR=200/1653. Answer: P(at least one red) = 1625/1653. The second draw has one fewer counter; add disjoint branches only.
+
+- g11-prob-l05-r03: A bag holds 51 red and 4 blue counters. Draw two with replacement. Find the probability of two red. Options: P(two red) = 21413/24200 | P(two red) = 20203/24200 | P(two red) = 2601/3025 | P(two red) = 204/3025. Correct: P(two red) = 2601/3025. The first branches are red 51/55 and blue 4/55. After a red first: P(red second) = 51/55; P(blue second) = 4/55. After a blue first: P(red second) = 51/55; P(blue second) = 4/55. Multiply each required branch: RR=2601/3025, RB=204/3025, BR=204/3025. Answer: P(two red) = 2601/3025. Replacement restores the starting total; add disjoint branches only.

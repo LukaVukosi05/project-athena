@@ -35,7 +35,7 @@ def test_public_preview_reveal_and_private_assessment():
     with TestClient(app) as client:
         page=client.get('/lesson.html')
         assert 'grade8-distribution-renderers.js?v=g8-ex-l04-v1' in page.text
-        assert 'math-whiteboard-v18' in page.text
+        assert 'math-whiteboard-v19' in page.text
         lesson=client.get('/api/v1/lessons/g8-algebraic-expressions-04')
         assert lesson.status_code==200,lesson.text
         questions=lesson.json()['whiteboard_questions']

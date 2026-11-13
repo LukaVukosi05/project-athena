@@ -29,6 +29,7 @@ from app.curriculum.grade11.assessment_analytical import BANKS as GRADE11_AG_BAN
 from app.curriculum.grade11.assessment_functions import BANKS as GRADE11_FN_BANKS
 from app.curriculum.grade11.assessment_triangle_rules import BANKS as GRADE11_RULES_BANKS
 from app.curriculum.grade11.assessment_statistics import BANKS as GRADE11_STAT_BANKS
+from app.curriculum.grade11.assessment_probability import BANKS as GRADE11_PROB_BANKS
 from app.curriculum.grade8 import assessment_graphs_lesson1, assessment_graphs_lesson2, assessment_graphs_lesson3, assessment_graphs_lesson4, assessment_graphs_lesson5, assessment_graphs_lesson6
 from app.curriculum.grade8 import assessment_expressions, assessment_expressions_lesson2, assessment_expressions_lesson3, assessment_expressions_lesson4, assessment_expressions_lesson5, assessment_expressions_lesson6, assessment_expressions_lesson7, assessment_expressions_lesson8, assessment_expressions_lesson9, assessment_expressions_lesson10
 
@@ -36,6 +37,7 @@ ASSESSMENT_BANKS={
     **{f"g11-fn-{number:02}":GRADE11_FN_BANKS[number][1:] for number in range(1,9)},
     **{f"g11-rules-{number:02}":GRADE11_RULES_BANKS[number][1:] for number in range(1,6)},
     **{f"g11-stat-{number:02}":GRADE11_STAT_BANKS[number][1:] for number in range(1,8)},
+    **{f"g11-prob-{number:02}":GRADE11_PROB_BANKS[number][1:] for number in range(1,8)},
     **{f"g11-ag-{number:02}":GRADE11_AG_BANKS[number][1:] for number in range(1,7)},
     **{f"g11-euc-{number:02}":GRADE11_EUC_BANKS[number][1:] for number in range(1,9)},
     **{f"g11-tr-{number:02}":GRADE11_TR_BANKS[number][1:] for number in range(1,8)},

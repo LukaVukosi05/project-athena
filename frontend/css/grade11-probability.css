@@ -1,0 +1,16 @@
+.g11-prob-board{width:100%;min-width:0;color:#17344b}
+.g11-prob-board>p:first-child{font-weight:650;line-height:1.6}
+.g11-prob-model{width:100%;min-width:0;overflow:hidden}
+.g11-prob-model svg{display:block;width:100%;height:auto;max-height:365px}
+.g11-prob-model text{fill:#17344b;font-size:13px}
+.g11-prob-model .g11-prob-working{fill:#126975;font-size:12px}
+.g11-prob-model .g11-prob-answer{fill:#08664a;font-size:12px;font-weight:700}
+.g11-prob-universe{fill:#f5f9fa;stroke:#819ca7;stroke-width:2}
+.g11-prob-circle{fill:#b8e3e05a;stroke:#087e8a;stroke-width:2}
+.g11-prob-region,.g11-prob-cell{font-weight:700}
+.g11-prob-branch{stroke:#087e8a;stroke-width:2}
+.g11-prob-grid rect,.g11-prob-grid line{fill:none;stroke:#819ca7;stroke-width:1.3}
+.g11-prob-red{fill:#be654e;stroke:#8b3928}
+.g11-prob-blue{fill:#5e90b0;stroke:#245b78}
+.g11-prob-board [data-object-id="operation"]{color:#175b63}
+.g11-prob-board [data-object-id="verification"]{color:#08664a;font-weight:700}

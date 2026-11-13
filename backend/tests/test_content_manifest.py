@@ -13,7 +13,7 @@ def test_grades_eight_to_twelve_are_registered_from_available_sources():
     assert [topic.id for topic in grades[0].topics] == ["algebraic-equations", "algebraic-expressions", "functions-relationships", "graphs", "numeric-geometric-patterns", "whole-numbers", "integers", "common-fractions", "decimal-fractions", "exponents", "geometry-of-straight-lines", "geometry-of-2d-shapes", "theorem-of-pythagoras"]
     assert [topic.id for topic in grades[1].topics] == ["whole-numbers", "integers", "exponents", "numeric-geometric-patterns", "functions-relationships", "algebraic-expressions", "algebraic-equations", "graphs", "geometry-of-straight-lines", "geometry-of-2d-shapes", "area-and-perimeter", "data-handling", "probability", "geometry-of-3d-objects", "surface-area-and-volume", "transformation-geometry"]
     assert [topic.id for topic in grades[2].topics] == ["algebraic-expressions", "exponents-equations-inequalities", "trigonometry", "euclidean-geometry", "analytical-geometry", "functions-and-graphs", "statistics", "probability", "finance-and-growth", "measurement"]
-    assert [topic.id for topic in grades[3].topics] == ["exponents-and-surds", "equations-and-inequalities", "trigonometry-reduction-and-equations", "euclidean-geometry", "analytical-geometry", "functions-graphs", "trigonometry-sine-cosine-area-rules", "statistics-data-handling"]
+    assert [topic.id for topic in grades[3].topics] == ["exponents-and-surds", "equations-and-inequalities", "trigonometry-reduction-and-equations", "euclidean-geometry", "analytical-geometry", "functions-graphs", "trigonometry-sine-cosine-area-rules", "statistics-data-handling", "probability"]
     assert len(grades[-1].topics) == 7
 
 
@@ -21,8 +21,8 @@ def test_manifest_uses_the_six_required_readiness_states_and_stable_ids():
     manifest = manifest_for(curriculum_repository.list_grades())
     assert manifest["states"] == [state.value for state in ReadinessState]
     lessons = [lesson for grade in manifest["grades"] for topic in grade["topics"] for lesson in topic["lessons"]]
-    assert len(lessons) == 426
-    assert len({lesson["id"] for lesson in lessons}) == 426
+    assert len(lessons) == 433
+    assert len({lesson["id"] for lesson in lessons}) == 433
     assert {lesson["readiness"] for lesson in lessons} <= set(ReadinessState)
     grade8 = curriculum_repository.get_grade("grade-8")
     released_grade8 = sum(item.release_approved for topic in grade8.topics for subtopic in topic.subtopics for item in subtopic.lessons)

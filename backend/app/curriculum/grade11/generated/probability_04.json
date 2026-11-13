@@ -1,0 +1,898 @@
+{
+  "source": "grade11-prob-lesson-04.md",
+  "worked": [
+    {
+      "id": "g11-prob-l04-w01",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 4, B only 6, C only 6, AB only 4, AC only 4, BC only 2, ABC 2 and neither 3. Find P(at least two).",
+      "answer": "P(at least two) = 12/31",
+      "actions": [
+        "Draw three labelled intersecting sets and put 2 in the triple overlap first.",
+        "Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=4, B=6, C=6, then put 3 outside all sets.",
+        "Add all eight disjoint regions to get 31; the regions for at least two total 12.",
+        "Answer: P(at least two) = 12/31. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(at least two) = 12/31. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 4,
+          "bonly": 6,
+          "conly": 6,
+          "ab": 4,
+          "ac": 4,
+          "bc": 2,
+          "abc": 2,
+          "outside": 3,
+          "target": "at least two"
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-prob-l04-w02",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 5, B only 8, C only 3, AB only 6, AC only 2, BC only 2, ABC 3 and neither 4. Find P(A or B or C).",
+      "answer": "P(A or B or C) = 29/33",
+      "actions": [
+        "Draw three labelled intersecting sets and put 3 in the triple overlap first.",
+        "Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=5, B=8, C=3, then put 4 outside all sets.",
+        "Add all eight disjoint regions to get 33; the regions for A or B or C total 29.",
+        "Answer: P(A or B or C) = 29/33. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(A or B or C) = 29/33. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 5,
+          "bonly": 8,
+          "conly": 3,
+          "ab": 6,
+          "ac": 2,
+          "bc": 2,
+          "abc": 3,
+          "outside": 4,
+          "target": "A or B or C"
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-prob-l04-w03",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 6, B only 4, C only 6, AB only 3, AC only 5, BC only 2, ABC 4 and neither 5. Find P(exactly one).",
+      "answer": "P(exactly one) = 16/35",
+      "actions": [
+        "Draw three labelled intersecting sets and put 4 in the triple overlap first.",
+        "Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=6, B=4, C=6, then put 5 outside all sets.",
+        "Add all eight disjoint regions to get 35; the regions for exactly one total 16.",
+        "Answer: P(exactly one) = 16/35. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(exactly one) = 16/35. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 6,
+          "bonly": 4,
+          "conly": 6,
+          "ab": 3,
+          "ac": 5,
+          "bc": 2,
+          "abc": 4,
+          "outside": 5,
+          "target": "exactly one"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-prob-l04-w04",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 7, B only 6, C only 3, AB only 5, AC only 3, BC only 2, ABC 1 and neither 6. Find P(at least two).",
+      "answer": "P(at least two) = 1/3",
+      "actions": [
+        "Draw three labelled intersecting sets and put 1 in the triple overlap first.",
+        "Fill the pair-only regions AB=5, AC=3, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=7, B=6, C=3, then put 6 outside all sets.",
+        "Add all eight disjoint regions to get 33; the regions for at least two total 11.",
+        "Answer: P(at least two) = 1/3. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(at least two) = 1/3. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 7,
+          "bonly": 6,
+          "conly": 3,
+          "ab": 5,
+          "ac": 3,
+          "bc": 2,
+          "abc": 1,
+          "outside": 6,
+          "target": "at least two"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-prob-l04-w05",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 8, B only 8, C only 6, AB only 2, AC only 1, BC only 2, ABC 2 and neither 7. Find P(A or B or C).",
+      "answer": "P(A or B or C) = 29/36",
+      "actions": [
+        "Draw three labelled intersecting sets and put 2 in the triple overlap first.",
+        "Fill the pair-only regions AB=2, AC=1, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=8, B=8, C=6, then put 7 outside all sets.",
+        "Add all eight disjoint regions to get 36; the regions for A or B or C total 29.",
+        "Answer: P(A or B or C) = 29/36. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(A or B or C) = 29/36. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 8,
+          "bonly": 8,
+          "conly": 6,
+          "ab": 2,
+          "ac": 1,
+          "bc": 2,
+          "abc": 2,
+          "outside": 7,
+          "target": "A or B or C"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-prob-l04-w06",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 9, B only 4, C only 3, AB only 4, AC only 4, BC only 2, ABC 3 and neither 2. Find P(exactly one).",
+      "answer": "P(exactly one) = 16/31",
+      "actions": [
+        "Draw three labelled intersecting sets and put 3 in the triple overlap first.",
+        "Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=9, B=4, C=3, then put 2 outside all sets.",
+        "Add all eight disjoint regions to get 31; the regions for exactly one total 16.",
+        "Answer: P(exactly one) = 16/31. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(exactly one) = 16/31. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 9,
+          "bonly": 4,
+          "conly": 3,
+          "ab": 4,
+          "ac": 4,
+          "bc": 2,
+          "abc": 3,
+          "outside": 2,
+          "target": "exactly one"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-prob-l04-w07",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 3, B only 6, C only 6, AB only 6, AC only 2, BC only 2, ABC 4 and neither 3. Find P(at least two).",
+      "answer": "P(at least two) = 7/16",
+      "actions": [
+        "Draw three labelled intersecting sets and put 4 in the triple overlap first.",
+        "Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=3, B=6, C=6, then put 3 outside all sets.",
+        "Add all eight disjoint regions to get 32; the regions for at least two total 14.",
+        "Answer: P(at least two) = 7/16. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(at least two) = 7/16. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 3,
+          "bonly": 6,
+          "conly": 6,
+          "ab": 6,
+          "ac": 2,
+          "bc": 2,
+          "abc": 4,
+          "outside": 3,
+          "target": "at least two"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-prob-l04-w08",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 4, B only 8, C only 3, AB only 3, AC only 5, BC only 2, ABC 1 and neither 4. Find P(A or B or C).",
+      "answer": "P(A or B or C) = 13/15",
+      "actions": [
+        "Draw three labelled intersecting sets and put 1 in the triple overlap first.",
+        "Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=4, B=8, C=3, then put 4 outside all sets.",
+        "Add all eight disjoint regions to get 30; the regions for A or B or C total 26.",
+        "Answer: P(A or B or C) = 13/15. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(A or B or C) = 13/15. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 4,
+          "bonly": 8,
+          "conly": 3,
+          "ab": 3,
+          "ac": 5,
+          "bc": 2,
+          "abc": 1,
+          "outside": 4,
+          "target": "A or B or C"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-prob-l04-w09",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 5, B only 4, C only 6, AB only 5, AC only 3, BC only 2, ABC 2 and neither 5. Find P(exactly one).",
+      "answer": "P(exactly one) = 15/32",
+      "actions": [
+        "Draw three labelled intersecting sets and put 2 in the triple overlap first.",
+        "Fill the pair-only regions AB=5, AC=3, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=5, B=4, C=6, then put 5 outside all sets.",
+        "Add all eight disjoint regions to get 32; the regions for exactly one total 15.",
+        "Answer: P(exactly one) = 15/32. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(exactly one) = 15/32. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 5,
+          "bonly": 4,
+          "conly": 6,
+          "ab": 5,
+          "ac": 3,
+          "bc": 2,
+          "abc": 2,
+          "outside": 5,
+          "target": "exactly one"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-prob-l04-w10",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 6, B only 6, C only 3, AB only 2, AC only 1, BC only 2, ABC 3 and neither 6. Find P(at least two).",
+      "answer": "P(at least two) = 8/29",
+      "actions": [
+        "Draw three labelled intersecting sets and put 3 in the triple overlap first.",
+        "Fill the pair-only regions AB=2, AC=1, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=6, B=6, C=3, then put 6 outside all sets.",
+        "Add all eight disjoint regions to get 29; the regions for at least two total 8.",
+        "Answer: P(at least two) = 8/29. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(at least two) = 8/29. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 6,
+          "bonly": 6,
+          "conly": 3,
+          "ab": 2,
+          "ac": 1,
+          "bc": 2,
+          "abc": 3,
+          "outside": 6,
+          "target": "at least two"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-prob-l04-w11",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 7, B only 8, C only 6, AB only 4, AC only 4, BC only 2, ABC 4 and neither 7. Find P(A or B or C).",
+      "answer": "P(A or B or C) = 5/6",
+      "actions": [
+        "Draw three labelled intersecting sets and put 4 in the triple overlap first.",
+        "Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=7, B=8, C=6, then put 7 outside all sets.",
+        "Add all eight disjoint regions to get 42; the regions for A or B or C total 35.",
+        "Answer: P(A or B or C) = 5/6. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(A or B or C) = 5/6. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 7,
+          "bonly": 8,
+          "conly": 6,
+          "ab": 4,
+          "ac": 4,
+          "bc": 2,
+          "abc": 4,
+          "outside": 7,
+          "target": "A or B or C"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-prob-l04-w12",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 8, B only 4, C only 3, AB only 6, AC only 2, BC only 2, ABC 1 and neither 2. Find P(exactly one).",
+      "answer": "P(exactly one) = 15/28",
+      "actions": [
+        "Draw three labelled intersecting sets and put 1 in the triple overlap first.",
+        "Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=8, B=4, C=3, then put 2 outside all sets.",
+        "Add all eight disjoint regions to get 28; the regions for exactly one total 15.",
+        "Answer: P(exactly one) = 15/28. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(exactly one) = 15/28. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 8,
+          "bonly": 4,
+          "conly": 3,
+          "ab": 6,
+          "ac": 2,
+          "bc": 2,
+          "abc": 1,
+          "outside": 2,
+          "target": "exactly one"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-prob-l04-w13",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 9, B only 6, C only 6, AB only 3, AC only 5, BC only 2, ABC 2 and neither 3. Find P(at least two).",
+      "answer": "P(at least two) = 1/3",
+      "actions": [
+        "Draw three labelled intersecting sets and put 2 in the triple overlap first.",
+        "Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=9, B=6, C=6, then put 3 outside all sets.",
+        "Add all eight disjoint regions to get 36; the regions for at least two total 12.",
+        "Answer: P(at least two) = 1/3. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(at least two) = 1/3. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 9,
+          "bonly": 6,
+          "conly": 6,
+          "ab": 3,
+          "ac": 5,
+          "bc": 2,
+          "abc": 2,
+          "outside": 3,
+          "target": "at least two"
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-prob-l04-w14",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 3, B only 8, C only 3, AB only 5, AC only 3, BC only 2, ABC 3 and neither 4. Find P(A or B or C).",
+      "answer": "P(A or B or C) = 27/31",
+      "actions": [
+        "Draw three labelled intersecting sets and put 3 in the triple overlap first.",
+        "Fill the pair-only regions AB=5, AC=3, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=3, B=8, C=3, then put 4 outside all sets.",
+        "Add all eight disjoint regions to get 31; the regions for A or B or C total 27.",
+        "Answer: P(A or B or C) = 27/31. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(A or B or C) = 27/31. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 3,
+          "bonly": 8,
+          "conly": 3,
+          "ab": 5,
+          "ac": 3,
+          "bc": 2,
+          "abc": 3,
+          "outside": 4,
+          "target": "A or B or C"
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-prob-l04-w15",
+      "lesson": 4,
+      "problem": "A three-set survey has regions A only 4, B only 4, C only 6, AB only 2, AC only 1, BC only 2, ABC 4 and neither 5. Find P(exactly one).",
+      "answer": "P(exactly one) = 1/2",
+      "actions": [
+        "Draw three labelled intersecting sets and put 4 in the triple overlap first.",
+        "Fill the pair-only regions AB=2, AC=1, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=4, B=4, C=6, then put 5 outside all sets.",
+        "Add all eight disjoint regions to get 28; the regions for exactly one total 14.",
+        "Answer: P(exactly one) = 1/2. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "check": "Answer: P(exactly one) = 1/2. Each counted outcome occupies exactly one disjoint region.",
+      "visual": {
+        "family": "grade11_probability",
+        "values": {
+          "mode": "venn3",
+          "aonly": 4,
+          "bonly": 4,
+          "conly": 6,
+          "ab": 2,
+          "ac": 1,
+          "bc": 2,
+          "abc": 4,
+          "outside": 5,
+          "target": "exactly one"
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-prob-l04-p01",
+      "prompt": "A three-set survey has regions A only 5, B only 6, C only 3, AB only 4, AC only 4, BC only 2, ABC 1 and neither 6. Find P(at least two).",
+      "options": [
+        "P(at least two) = 20/31",
+        "P(at least two) = 10/31",
+        "P(at least two) = 11/31",
+        "P(at least two) = 12/31"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw three labelled intersecting sets and put 1 in the triple overlap first.",
+        "Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=5, B=6, C=3, then put 6 outside all sets.",
+        "Add all eight disjoint regions to get 31; the regions for at least two total 11.",
+        "Answer: P(at least two) = 11/31. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 1 in the triple overlap first. Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap. Fill single-only regions A=5, B=6, C=3, then put 6 outside all sets. Add all eight disjoint regions to get 31; the regions for at least two total 11. Answer: P(at least two) = 11/31. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p02",
+      "prompt": "A three-set survey has regions A only 6, B only 8, C only 6, AB only 6, AC only 2, BC only 2, ABC 2 and neither 7. Find P(A or B or C).",
+      "options": [
+        "P(A or B or C) = 10/13",
+        "P(A or B or C) = 32/39",
+        "P(A or B or C) = 34/39",
+        "P(A or B or C) = 7/39"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw three labelled intersecting sets and put 2 in the triple overlap first.",
+        "Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=6, B=8, C=6, then put 7 outside all sets.",
+        "Add all eight disjoint regions to get 39; the regions for A or B or C total 32.",
+        "Answer: P(A or B or C) = 32/39. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 2 in the triple overlap first. Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap. Fill single-only regions A=6, B=8, C=6, then put 7 outside all sets. Add all eight disjoint regions to get 39; the regions for A or B or C total 32. Answer: P(A or B or C) = 32/39. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p03",
+      "prompt": "A three-set survey has regions A only 7, B only 4, C only 3, AB only 3, AC only 5, BC only 2, ABC 3 and neither 2. Find P(exactly one).",
+      "options": [
+        "P(exactly one) = 14/29",
+        "P(exactly one) = 17/29",
+        "P(exactly one) = 15/29",
+        "P(exactly one) = 11/29"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw three labelled intersecting sets and put 3 in the triple overlap first.",
+        "Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=7, B=4, C=3, then put 2 outside all sets.",
+        "Add all eight disjoint regions to get 29; the regions for exactly one total 14.",
+        "Answer: P(exactly one) = 14/29. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 3 in the triple overlap first. Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap. Fill single-only regions A=7, B=4, C=3, then put 2 outside all sets. Add all eight disjoint regions to get 29; the regions for exactly one total 14. Answer: P(exactly one) = 14/29. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p04",
+      "prompt": "A three-set survey has regions A only 8, B only 6, C only 6, AB only 5, AC only 3, BC only 2, ABC 4 and neither 3. Find P(at least two).",
+      "options": [
+        "P(at least two) = 18/37",
+        "P(at least two) = 23/37",
+        "P(at least two) = 10/37",
+        "P(at least two) = 14/37"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Draw three labelled intersecting sets and put 4 in the triple overlap first.",
+        "Fill the pair-only regions AB=5, AC=3, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=8, B=6, C=6, then put 3 outside all sets.",
+        "Add all eight disjoint regions to get 37; the regions for at least two total 14.",
+        "Answer: P(at least two) = 14/37. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 4 in the triple overlap first. Fill the pair-only regions AB=5, AC=3, BC=2; keep these separate from the triple overlap. Fill single-only regions A=8, B=6, C=6, then put 3 outside all sets. Add all eight disjoint regions to get 37; the regions for at least two total 14. Answer: P(at least two) = 14/37. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p05",
+      "prompt": "A three-set survey has regions A only 9, B only 8, C only 3, AB only 2, AC only 1, BC only 2, ABC 1 and neither 4. Find P(A or B or C).",
+      "options": [
+        "P(A or B or C) = 2/15",
+        "P(A or B or C) = 5/6",
+        "P(A or B or C) = 13/15",
+        "P(A or B or C) = 9/10"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw three labelled intersecting sets and put 1 in the triple overlap first.",
+        "Fill the pair-only regions AB=2, AC=1, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=9, B=8, C=3, then put 4 outside all sets.",
+        "Add all eight disjoint regions to get 30; the regions for A or B or C total 26.",
+        "Answer: P(A or B or C) = 13/15. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 1 in the triple overlap first. Fill the pair-only regions AB=2, AC=1, BC=2; keep these separate from the triple overlap. Fill single-only regions A=9, B=8, C=3, then put 4 outside all sets. Add all eight disjoint regions to get 30; the regions for A or B or C total 26. Answer: P(A or B or C) = 13/15. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p06",
+      "prompt": "A three-set survey has regions A only 3, B only 4, C only 6, AB only 4, AC only 4, BC only 2, ABC 2 and neither 5. Find P(exactly one).",
+      "options": [
+        "P(exactly one) = 11/30",
+        "P(exactly one) = 13/30",
+        "P(exactly one) = 1/2",
+        "P(exactly one) = 17/30"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw three labelled intersecting sets and put 2 in the triple overlap first.",
+        "Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=3, B=4, C=6, then put 5 outside all sets.",
+        "Add all eight disjoint regions to get 30; the regions for exactly one total 13.",
+        "Answer: P(exactly one) = 13/30. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 2 in the triple overlap first. Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap. Fill single-only regions A=3, B=4, C=6, then put 5 outside all sets. Add all eight disjoint regions to get 30; the regions for exactly one total 13. Answer: P(exactly one) = 13/30. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p07",
+      "prompt": "A three-set survey has regions A only 4, B only 6, C only 3, AB only 6, AC only 2, BC only 2, ABC 3 and neither 6. Find P(at least two).",
+      "options": [
+        "P(at least two) = 13/32",
+        "P(at least two) = 1/2",
+        "P(at least two) = 19/32",
+        "P(at least two) = 5/16"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw three labelled intersecting sets and put 3 in the triple overlap first.",
+        "Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=4, B=6, C=3, then put 6 outside all sets.",
+        "Add all eight disjoint regions to get 32; the regions for at least two total 13.",
+        "Answer: P(at least two) = 13/32. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 3 in the triple overlap first. Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap. Fill single-only regions A=4, B=6, C=3, then put 6 outside all sets. Add all eight disjoint regions to get 32; the regions for at least two total 13. Answer: P(at least two) = 13/32. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p08",
+      "prompt": "A three-set survey has regions A only 5, B only 8, C only 6, AB only 3, AC only 5, BC only 2, ABC 4 and neither 7. Find P(A or B or C).",
+      "options": [
+        "P(A or B or C) = 37/40",
+        "P(A or B or C) = 7/40",
+        "P(A or B or C) = 29/40",
+        "P(A or B or C) = 33/40"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Draw three labelled intersecting sets and put 4 in the triple overlap first.",
+        "Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=5, B=8, C=6, then put 7 outside all sets.",
+        "Add all eight disjoint regions to get 40; the regions for A or B or C total 33.",
+        "Answer: P(A or B or C) = 33/40. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 4 in the triple overlap first. Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap. Fill single-only regions A=5, B=8, C=6, then put 7 outside all sets. Add all eight disjoint regions to get 40; the regions for A or B or C total 33. Answer: P(A or B or C) = 33/40. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p09",
+      "prompt": "A three-set survey has regions A only 6, B only 4, C only 3, AB only 5, AC only 3, BC only 2, ABC 1 and neither 2. Find P(exactly one).",
+      "options": [
+        "P(exactly one) = 6/13",
+        "P(exactly one) = 21/40",
+        "P(exactly one) = 1/2",
+        "P(exactly one) = 7/13"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw three labelled intersecting sets and put 1 in the triple overlap first.",
+        "Fill the pair-only regions AB=5, AC=3, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=6, B=4, C=3, then put 2 outside all sets.",
+        "Add all eight disjoint regions to get 26; the regions for exactly one total 13.",
+        "Answer: P(exactly one) = 1/2. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 1 in the triple overlap first. Fill the pair-only regions AB=5, AC=3, BC=2; keep these separate from the triple overlap. Fill single-only regions A=6, B=4, C=3, then put 2 outside all sets. Add all eight disjoint regions to get 26; the regions for exactly one total 13. Answer: P(exactly one) = 1/2. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p10",
+      "prompt": "A three-set survey has regions A only 7, B only 6, C only 6, AB only 2, AC only 1, BC only 2, ABC 2 and neither 3. Find P(at least two).",
+      "options": [
+        "P(at least two) = 5/29",
+        "P(at least two) = 7/29",
+        "P(at least two) = 9/29",
+        "P(at least two) = 22/29"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw three labelled intersecting sets and put 2 in the triple overlap first.",
+        "Fill the pair-only regions AB=2, AC=1, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=7, B=6, C=6, then put 3 outside all sets.",
+        "Add all eight disjoint regions to get 29; the regions for at least two total 7.",
+        "Answer: P(at least two) = 7/29. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 2 in the triple overlap first. Fill the pair-only regions AB=2, AC=1, BC=2; keep these separate from the triple overlap. Fill single-only regions A=7, B=6, C=6, then put 3 outside all sets. Add all eight disjoint regions to get 29; the regions for at least two total 7. Answer: P(at least two) = 7/29. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p11",
+      "prompt": "A three-set survey has regions A only 8, B only 8, C only 3, AB only 4, AC only 4, BC only 2, ABC 3 and neither 4. Find P(A or B or C).",
+      "options": [
+        "P(A or B or C) = 8/9",
+        "P(A or B or C) = 35/36",
+        "P(A or B or C) = 1/9",
+        "P(A or B or C) = 29/36"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw three labelled intersecting sets and put 3 in the triple overlap first.",
+        "Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=8, B=8, C=3, then put 4 outside all sets.",
+        "Add all eight disjoint regions to get 36; the regions for A or B or C total 32.",
+        "Answer: P(A or B or C) = 8/9. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 3 in the triple overlap first. Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap. Fill single-only regions A=8, B=8, C=3, then put 4 outside all sets. Add all eight disjoint regions to get 36; the regions for A or B or C total 32. Answer: P(A or B or C) = 8/9. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p12",
+      "prompt": "A three-set survey has regions A only 9, B only 4, C only 6, AB only 6, AC only 2, BC only 2, ABC 4 and neither 5. Find P(exactly one).",
+      "options": [
+        "P(exactly one) = 23/38",
+        "P(exactly one) = 15/38",
+        "P(exactly one) = 21/40",
+        "P(exactly one) = 1/2"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Draw three labelled intersecting sets and put 4 in the triple overlap first.",
+        "Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=9, B=4, C=6, then put 5 outside all sets.",
+        "Add all eight disjoint regions to get 38; the regions for exactly one total 19.",
+        "Answer: P(exactly one) = 1/2. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 4 in the triple overlap first. Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap. Fill single-only regions A=9, B=4, C=6, then put 5 outside all sets. Add all eight disjoint regions to get 38; the regions for exactly one total 19. Answer: P(exactly one) = 1/2. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p13",
+      "prompt": "A three-set survey has regions A only 3, B only 6, C only 3, AB only 3, AC only 5, BC only 2, ABC 1 and neither 6. Find P(at least two).",
+      "options": [
+        "P(at least two) = 18/29",
+        "P(at least two) = 10/29",
+        "P(at least two) = 11/29",
+        "P(at least two) = 12/29"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw three labelled intersecting sets and put 1 in the triple overlap first.",
+        "Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=3, B=6, C=3, then put 6 outside all sets.",
+        "Add all eight disjoint regions to get 29; the regions for at least two total 11.",
+        "Answer: P(at least two) = 11/29. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 1 in the triple overlap first. Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap. Fill single-only regions A=3, B=6, C=3, then put 6 outside all sets. Add all eight disjoint regions to get 29; the regions for at least two total 11. Answer: P(at least two) = 11/29. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p14",
+      "prompt": "A three-set survey has regions A only 4, B only 8, C only 6, AB only 5, AC only 3, BC only 2, ABC 2 and neither 7. Find P(A or B or C).",
+      "options": [
+        "P(A or B or C) = 28/37",
+        "P(A or B or C) = 30/37",
+        "P(A or B or C) = 32/37",
+        "P(A or B or C) = 7/37"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw three labelled intersecting sets and put 2 in the triple overlap first.",
+        "Fill the pair-only regions AB=5, AC=3, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=4, B=8, C=6, then put 7 outside all sets.",
+        "Add all eight disjoint regions to get 37; the regions for A or B or C total 30.",
+        "Answer: P(A or B or C) = 30/37. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 2 in the triple overlap first. Fill the pair-only regions AB=5, AC=3, BC=2; keep these separate from the triple overlap. Fill single-only regions A=4, B=8, C=6, then put 7 outside all sets. Add all eight disjoint regions to get 37; the regions for A or B or C total 30. Answer: P(A or B or C) = 30/37. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-p15",
+      "prompt": "A three-set survey has regions A only 5, B only 4, C only 3, AB only 2, AC only 1, BC only 2, ABC 3 and neither 2. Find P(exactly one).",
+      "options": [
+        "P(exactly one) = 6/11",
+        "P(exactly one) = 15/22",
+        "P(exactly one) = 5/11",
+        "P(exactly one) = 9/22"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw three labelled intersecting sets and put 3 in the triple overlap first.",
+        "Fill the pair-only regions AB=2, AC=1, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=5, B=4, C=3, then put 2 outside all sets.",
+        "Add all eight disjoint regions to get 22; the regions for exactly one total 12.",
+        "Answer: P(exactly one) = 6/11. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 3 in the triple overlap first. Fill the pair-only regions AB=2, AC=1, BC=2; keep these separate from the triple overlap. Fill single-only regions A=5, B=4, C=3, then put 2 outside all sets. Add all eight disjoint regions to get 22; the regions for exactly one total 12. Answer: P(exactly one) = 6/11. Each counted outcome occupies exactly one disjoint region."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-prob-l04-m01",
+      "prompt": "A three-set survey has regions A only 6, B only 6, C only 6, AB only 4, AC only 4, BC only 2, ABC 4 and neither 3. Find P(at least two).",
+      "options": [
+        "P(at least two) = 2/7",
+        "P(at least two) = 2/5",
+        "P(at least two) = 18/35",
+        "P(at least two) = 3/5"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw three labelled intersecting sets and put 4 in the triple overlap first.",
+        "Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=6, B=6, C=6, then put 3 outside all sets.",
+        "Add all eight disjoint regions to get 35; the regions for at least two total 14.",
+        "Answer: P(at least two) = 2/5. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 4 in the triple overlap first. Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap. Fill single-only regions A=6, B=6, C=6, then put 3 outside all sets. Add all eight disjoint regions to get 35; the regions for at least two total 14. Answer: P(at least two) = 2/5. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-m02",
+      "prompt": "A three-set survey has regions A only 7, B only 8, C only 3, AB only 6, AC only 2, BC only 2, ABC 1 and neither 4. Find P(A or B or C).",
+      "options": [
+        "P(A or B or C) = 29/33",
+        "P(A or B or C) = 10/11",
+        "P(A or B or C) = 4/33",
+        "P(A or B or C) = 28/33"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw three labelled intersecting sets and put 1 in the triple overlap first.",
+        "Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=7, B=8, C=3, then put 4 outside all sets.",
+        "Add all eight disjoint regions to get 33; the regions for A or B or C total 29.",
+        "Answer: P(A or B or C) = 29/33. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 1 in the triple overlap first. Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap. Fill single-only regions A=7, B=8, C=3, then put 4 outside all sets. Add all eight disjoint regions to get 33; the regions for A or B or C total 29. Answer: P(A or B or C) = 29/33. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-m03",
+      "prompt": "A three-set survey has regions A only 8, B only 4, C only 6, AB only 3, AC only 5, BC only 2, ABC 2 and neither 5. Find P(exactly one).",
+      "options": [
+        "P(exactly one) = 4/7",
+        "P(exactly one) = 17/35",
+        "P(exactly one) = 16/35",
+        "P(exactly one) = 18/35"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Draw three labelled intersecting sets and put 2 in the triple overlap first.",
+        "Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=8, B=4, C=6, then put 5 outside all sets.",
+        "Add all eight disjoint regions to get 35; the regions for exactly one total 18.",
+        "Answer: P(exactly one) = 18/35. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 2 in the triple overlap first. Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap. Fill single-only regions A=8, B=4, C=6, then put 5 outside all sets. Add all eight disjoint regions to get 35; the regions for exactly one total 18. Answer: P(exactly one) = 18/35. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-m04",
+      "prompt": "A three-set survey has regions A only 9, B only 6, C only 3, AB only 5, AC only 3, BC only 2, ABC 3 and neither 6. Find P(at least two).",
+      "options": [
+        "P(at least two) = 24/37",
+        "P(at least two) = 10/37",
+        "P(at least two) = 13/37",
+        "P(at least two) = 16/37"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw three labelled intersecting sets and put 3 in the triple overlap first.",
+        "Fill the pair-only regions AB=5, AC=3, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=9, B=6, C=3, then put 6 outside all sets.",
+        "Add all eight disjoint regions to get 37; the regions for at least two total 13.",
+        "Answer: P(at least two) = 13/37. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 3 in the triple overlap first. Fill the pair-only regions AB=5, AC=3, BC=2; keep these separate from the triple overlap. Fill single-only regions A=9, B=6, C=3, then put 6 outside all sets. Add all eight disjoint regions to get 37; the regions for at least two total 13. Answer: P(at least two) = 13/37. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-m05",
+      "prompt": "A three-set survey has regions A only 3, B only 8, C only 6, AB only 2, AC only 1, BC only 2, ABC 4 and neither 7. Find P(A or B or C).",
+      "options": [
+        "P(A or B or C) = 2/3",
+        "P(A or B or C) = 26/33",
+        "P(A or B or C) = 10/11",
+        "P(A or B or C) = 7/33"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw three labelled intersecting sets and put 4 in the triple overlap first.",
+        "Fill the pair-only regions AB=2, AC=1, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=3, B=8, C=6, then put 7 outside all sets.",
+        "Add all eight disjoint regions to get 33; the regions for A or B or C total 26.",
+        "Answer: P(A or B or C) = 26/33. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 4 in the triple overlap first. Fill the pair-only regions AB=2, AC=1, BC=2; keep these separate from the triple overlap. Fill single-only regions A=3, B=8, C=6, then put 7 outside all sets. Add all eight disjoint regions to get 33; the regions for A or B or C total 26. Answer: P(A or B or C) = 26/33. Each counted outcome occupies exactly one disjoint region."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-prob-l04-r01",
+      "prompt": "A three-set survey has regions A only 7, B only 6, C only 3, AB only 4, AC only 4, BC only 2, ABC 3 and neither 6. Find P(at least two).",
+      "options": [
+        "P(at least two) = 13/35",
+        "P(at least two) = 16/35",
+        "P(at least two) = 22/35",
+        "P(at least two) = 2/7"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw three labelled intersecting sets and put 3 in the triple overlap first.",
+        "Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=7, B=6, C=3, then put 6 outside all sets.",
+        "Add all eight disjoint regions to get 35; the regions for at least two total 13.",
+        "Answer: P(at least two) = 13/35. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 3 in the triple overlap first. Fill the pair-only regions AB=4, AC=4, BC=2; keep these separate from the triple overlap. Fill single-only regions A=7, B=6, C=3, then put 6 outside all sets. Add all eight disjoint regions to get 35; the regions for at least two total 13. Answer: P(at least two) = 13/35. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-r02",
+      "prompt": "A three-set survey has regions A only 8, B only 8, C only 6, AB only 6, AC only 2, BC only 2, ABC 4 and neither 7. Find P(A or B or C).",
+      "options": [
+        "P(A or B or C) = 40/43",
+        "P(A or B or C) = 7/43",
+        "P(A or B or C) = 32/43",
+        "P(A or B or C) = 36/43"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Draw three labelled intersecting sets and put 4 in the triple overlap first.",
+        "Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=8, B=8, C=6, then put 7 outside all sets.",
+        "Add all eight disjoint regions to get 43; the regions for A or B or C total 36.",
+        "Answer: P(A or B or C) = 36/43. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 4 in the triple overlap first. Fill the pair-only regions AB=6, AC=2, BC=2; keep these separate from the triple overlap. Fill single-only regions A=8, B=8, C=6, then put 7 outside all sets. Add all eight disjoint regions to get 43; the regions for A or B or C total 36. Answer: P(A or B or C) = 36/43. Each counted outcome occupies exactly one disjoint region."
+    },
+    {
+      "id": "g11-prob-l04-r03",
+      "prompt": "A three-set survey has regions A only 9, B only 4, C only 3, AB only 3, AC only 5, BC only 2, ABC 1 and neither 2. Find P(exactly one).",
+      "options": [
+        "P(exactly one) = 13/29",
+        "P(exactly one) = 15/29",
+        "P(exactly one) = 16/29",
+        "P(exactly one) = 17/29"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw three labelled intersecting sets and put 1 in the triple overlap first.",
+        "Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap.",
+        "Fill single-only regions A=9, B=4, C=3, then put 2 outside all sets.",
+        "Add all eight disjoint regions to get 29; the regions for exactly one total 16.",
+        "Answer: P(exactly one) = 16/29. Each counted outcome occupies exactly one disjoint region."
+      ],
+      "memo": "Draw three labelled intersecting sets and put 1 in the triple overlap first. Fill the pair-only regions AB=3, AC=5, BC=2; keep these separate from the triple overlap. Fill single-only regions A=9, B=4, C=3, then put 2 outside all sets. Add all eight disjoint regions to get 29; the regions for exactly one total 16. Answer: P(exactly one) = 16/29. Each counted outcome occupies exactly one disjoint region."
+    }
+  ]
+}

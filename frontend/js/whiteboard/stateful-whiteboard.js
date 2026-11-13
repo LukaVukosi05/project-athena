@@ -110,7 +110,7 @@ class StatefulWhiteboard {
     const writtenSteps = this.block.steps.slice(0, this.index + (phase === "result" ? 1 : 0));
     const visualType = this.block.visualization?.type || this.visualSession?.type;
     const graphVisual = visualType === "coordinate_geometry" || visualType === "graphs";
-    const contextualVisualTrace = /^(g9-shapes|g9-area|g9-data|g9-prob|g9-solid|g9-sv|g9-tg|g10-algebra|g10-eei|g10-trig|g10-euc|g10-ag|g10-fn|g10-stat|g10-prob|g10-fin|g10-meas|g11-fn|g11-rules|g11-stat)-/.test(this.block.id || "");
+    const contextualVisualTrace = /^(g9-shapes|g9-area|g9-data|g9-prob|g9-solid|g9-sv|g9-tg|g10-algebra|g10-eei|g10-trig|g10-euc|g10-ag|g10-fn|g10-stat|g10-prob|g10-fin|g10-meas|g11-fn|g11-rules|g11-stat|g11-prob)-/.test(this.block.id || "");
     const showWrittenTrace = visualType === "algebra" || graphVisual || contextualVisualTrace;
     const visualMarkup = `${visualization}${renderer.render(step, phase, { history, hasVisualization:Boolean(this.visualSession) })}`;
     const fractionText = /^grade11_(?:es_[1-6]|ei_[1-7]|tr_[1-7]|euc_[1-8]|ag_[1-6]|fn_[1-8])$/.test(this.block.visualization?.template || "") && typeof AthenaMathNotation !== "undefined" ? AthenaMathNotation.html : ["grade8_fraction_strips", "grade8_fraction_operations", "grade8_fraction_powers_context"].includes(this.block.visualization?.template) && globalThis.AthenaFractionNotation ? globalThis.AthenaFractionNotation.html : escapeWhiteboardHtml;
