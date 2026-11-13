@@ -8,6 +8,7 @@ from .triangle_rules import TOPIC as TRIANGLE_RULES_TOPIC
 from .statistics import TOPIC as STATISTICS_TOPIC
 from .probability import TOPIC as PROBABILITY_TOPIC
 from .finance import TOPIC as FINANCE_TOPIC
+from .patterns import TOPIC as PATTERNS_TOPIC
 
 GRADE_11.topics.append(EQUATIONS_INEQUALITIES_TOPIC)
 GRADE_11.topics.append(TRIGONOMETRY_TOPIC)
@@ -18,3 +19,4 @@ GRADE_11.topics.append(TRIANGLE_RULES_TOPIC)
 GRADE_11.topics.append(STATISTICS_TOPIC)
 GRADE_11.topics.append(PROBABILITY_TOPIC)
 GRADE_11.topics.append(FINANCE_TOPIC)
+GRADE_11.topics.append(PATTERNS_TOPIC)

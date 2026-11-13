@@ -1,0 +1,928 @@
+{
+  "source": "grade11-pat-lesson-04.md",
+  "worked": [
+    {
+      "id": "g11-pat-l04-w01",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 8?",
+      "answer": "T8 = 81 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 8, multiply 8 rows by 10 columns, then add 1: 8(10) + 1 = 81.",
+        "Answer: T8 = 81 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "check": "Answer: T8 = 81 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            4,
+            9,
+            16,
+            25,
+            36
+          ],
+          "target": 8,
+          "rows": 3,
+          "columns_offset": 2,
+          "extra": 1
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-pat-l04-w02",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 9?",
+      "answer": "T9 = 110 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 9, multiply 9 rows by 12 columns, then add 2: 9(12) + 2 = 110.",
+        "Answer: T9 = 110 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "check": "Answer: T9 = 110 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            6,
+            12,
+            20,
+            30,
+            42
+          ],
+          "target": 9,
+          "rows": 3,
+          "columns_offset": 3,
+          "extra": 2
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-pat-l04-w03",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 10?",
+      "answer": "T10 = 110 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 10, multiply 10 rows by 11 columns, then add 0: 10(11) + 0 = 110.",
+        "Answer: T10 = 110 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "check": "Answer: T10 = 110 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            2,
+            6,
+            12,
+            20,
+            30
+          ],
+          "target": 10,
+          "rows": 3,
+          "columns_offset": 1,
+          "extra": 0
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-pat-l04-w04",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 11?",
+      "answer": "T11 = 144 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 11, multiply 11 rows by 13 columns, then add 1: 11(13) + 1 = 144.",
+        "Answer: T11 = 144 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "check": "Answer: T11 = 144 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            4,
+            9,
+            16,
+            25,
+            36
+          ],
+          "target": 11,
+          "rows": 3,
+          "columns_offset": 2,
+          "extra": 1
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-pat-l04-w05",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 12?",
+      "answer": "T12 = 182 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 12, multiply 12 rows by 15 columns, then add 2: 12(15) + 2 = 182.",
+        "Answer: T12 = 182 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "check": "Answer: T12 = 182 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            6,
+            12,
+            20,
+            30,
+            42
+          ],
+          "target": 12,
+          "rows": 3,
+          "columns_offset": 3,
+          "extra": 2
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-pat-l04-w06",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 13?",
+      "answer": "T13 = 182 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 13, multiply 13 rows by 14 columns, then add 0: 13(14) + 0 = 182.",
+        "Answer: T13 = 182 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "check": "Answer: T13 = 182 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            2,
+            6,
+            12,
+            20,
+            30
+          ],
+          "target": 13,
+          "rows": 3,
+          "columns_offset": 1,
+          "extra": 0
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-pat-l04-w07",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 14?",
+      "answer": "T14 = 225 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 14, multiply 14 rows by 16 columns, then add 1: 14(16) + 1 = 225.",
+        "Answer: T14 = 225 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "check": "Answer: T14 = 225 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            4,
+            9,
+            16,
+            25,
+            36
+          ],
+          "target": 14,
+          "rows": 3,
+          "columns_offset": 2,
+          "extra": 1
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-pat-l04-w08",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 15?",
+      "answer": "T15 = 272 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 15, multiply 15 rows by 18 columns, then add 2: 15(18) + 2 = 272.",
+        "Answer: T15 = 272 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "check": "Answer: T15 = 272 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            6,
+            12,
+            20,
+            30,
+            42
+          ],
+          "target": 15,
+          "rows": 3,
+          "columns_offset": 3,
+          "extra": 2
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-pat-l04-w09",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 16?",
+      "answer": "T16 = 272 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 16, multiply 16 rows by 17 columns, then add 0: 16(17) + 0 = 272.",
+        "Answer: T16 = 272 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "check": "Answer: T16 = 272 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            2,
+            6,
+            12,
+            20,
+            30
+          ],
+          "target": 16,
+          "rows": 3,
+          "columns_offset": 1,
+          "extra": 0
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-pat-l04-w10",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 17?",
+      "answer": "T17 = 324 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 17, multiply 17 rows by 19 columns, then add 1: 17(19) + 1 = 324.",
+        "Answer: T17 = 324 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "check": "Answer: T17 = 324 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            4,
+            9,
+            16,
+            25,
+            36
+          ],
+          "target": 17,
+          "rows": 3,
+          "columns_offset": 2,
+          "extra": 1
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-pat-l04-w11",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 7?",
+      "answer": "T7 = 72 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 7, multiply 7 rows by 10 columns, then add 2: 7(10) + 2 = 72.",
+        "Answer: T7 = 72 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "check": "Answer: T7 = 72 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            6,
+            12,
+            20,
+            30,
+            42
+          ],
+          "target": 7,
+          "rows": 3,
+          "columns_offset": 3,
+          "extra": 2
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-pat-l04-w12",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 8?",
+      "answer": "T8 = 72 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 8, multiply 8 rows by 9 columns, then add 0: 8(9) + 0 = 72.",
+        "Answer: T8 = 72 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "check": "Answer: T8 = 72 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            2,
+            6,
+            12,
+            20,
+            30
+          ],
+          "target": 8,
+          "rows": 3,
+          "columns_offset": 1,
+          "extra": 0
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-pat-l04-w13",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 9?",
+      "answer": "T9 = 100 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 9, multiply 9 rows by 11 columns, then add 1: 9(11) + 1 = 100.",
+        "Answer: T9 = 100 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "check": "Answer: T9 = 100 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            4,
+            9,
+            16,
+            25,
+            36
+          ],
+          "target": 9,
+          "rows": 3,
+          "columns_offset": 2,
+          "extra": 1
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-pat-l04-w14",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 10?",
+      "answer": "T10 = 132 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 10, multiply 10 rows by 13 columns, then add 2: 10(13) + 2 = 132.",
+        "Answer: T10 = 132 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "check": "Answer: T10 = 132 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            6,
+            12,
+            20,
+            30,
+            42
+          ],
+          "target": 10,
+          "rows": 3,
+          "columns_offset": 3,
+          "extra": 2
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-pat-l04-w15",
+      "lesson": 4,
+      "problem": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 11?",
+      "answer": "T11 = 132 tiles",
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 11, multiply 11 rows by 12 columns, then add 0: 11(12) + 0 = 132.",
+        "Answer: T11 = 132 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "check": "Answer: T11 = 132 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12.",
+      "visual": {
+        "family": "grade11_patterns",
+        "values": {
+          "mode": "figural",
+          "terms": [
+            2,
+            6,
+            12,
+            20,
+            30
+          ],
+          "target": 11,
+          "rows": 3,
+          "columns_offset": 1,
+          "extra": 0
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-pat-l04-p01",
+      "prompt": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 12?",
+      "options": [
+        "T12 = 163 tiles",
+        "T12 = 181 tiles",
+        "T12 = 169 tiles",
+        "T12 = 167 tiles"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 12, multiply 12 rows by 14 columns, then add 1: 12(14) + 1 = 169.",
+        "Answer: T12 = 169 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time. Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36. The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2. For Figure 12, multiply 12 rows by 14 columns, then add 1: 12(14) + 1 = 169. Answer: T12 = 169 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+    },
+    {
+      "id": "g11-pat-l04-p02",
+      "prompt": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 13?",
+      "options": [
+        "T13 = 223 tiles",
+        "T13 = 210 tiles",
+        "T13 = 207 tiles",
+        "T13 = 202 tiles"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 13, multiply 13 rows by 16 columns, then add 2: 13(16) + 2 = 210.",
+        "Answer: T13 = 210 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time. Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42. The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2. For Figure 13, multiply 13 rows by 16 columns, then add 2: 13(16) + 2 = 210. Answer: T13 = 210 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+    },
+    {
+      "id": "g11-pat-l04-p03",
+      "prompt": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 14?",
+      "options": [
+        "T14 = 210 tiles",
+        "T14 = 209 tiles",
+        "T14 = 206 tiles",
+        "T14 = 224 tiles"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 14, multiply 14 rows by 15 columns, then add 0: 14(15) + 0 = 210.",
+        "Answer: T14 = 210 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time. Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30. The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2. For Figure 14, multiply 14 rows by 15 columns, then add 0: 14(15) + 0 = 210. Answer: T14 = 210 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+    },
+    {
+      "id": "g11-pat-l04-p04",
+      "prompt": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 15?",
+      "options": [
+        "T15 = 254 tiles",
+        "T15 = 250 tiles",
+        "T15 = 271 tiles",
+        "T15 = 256 tiles"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 15, multiply 15 rows by 17 columns, then add 1: 15(17) + 1 = 256.",
+        "Answer: T15 = 256 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time. Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36. The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2. For Figure 15, multiply 15 rows by 17 columns, then add 1: 15(17) + 1 = 256. Answer: T15 = 256 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+    },
+    {
+      "id": "g11-pat-l04-p05",
+      "prompt": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 16?",
+      "options": [
+        "T16 = 298 tiles",
+        "T16 = 322 tiles",
+        "T16 = 306 tiles",
+        "T16 = 303 tiles"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 16, multiply 16 rows by 19 columns, then add 2: 16(19) + 2 = 306.",
+        "Answer: T16 = 306 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time. Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42. The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2. For Figure 16, multiply 16 rows by 19 columns, then add 2: 16(19) + 2 = 306. Answer: T16 = 306 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+    },
+    {
+      "id": "g11-pat-l04-p06",
+      "prompt": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 17?",
+      "options": [
+        "T17 = 323 tiles",
+        "T17 = 306 tiles",
+        "T17 = 305 tiles",
+        "T17 = 302 tiles"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 17, multiply 17 rows by 18 columns, then add 0: 17(18) + 0 = 306.",
+        "Answer: T17 = 306 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time. Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30. The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2. For Figure 17, multiply 17 rows by 18 columns, then add 0: 17(18) + 0 = 306. Answer: T17 = 306 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+    },
+    {
+      "id": "g11-pat-l04-p07",
+      "prompt": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 7?",
+      "options": [
+        "T7 = 64 tiles",
+        "T7 = 62 tiles",
+        "T7 = 58 tiles",
+        "T7 = 71 tiles"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 7, multiply 7 rows by 9 columns, then add 1: 7(9) + 1 = 64.",
+        "Answer: T7 = 64 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time. Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36. The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2. For Figure 7, multiply 7 rows by 9 columns, then add 1: 7(9) + 1 = 64. Answer: T7 = 64 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+    },
+    {
+      "id": "g11-pat-l04-p08",
+      "prompt": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 8?",
+      "options": [
+        "T8 = 87 tiles",
+        "T8 = 82 tiles",
+        "T8 = 98 tiles",
+        "T8 = 90 tiles"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 8, multiply 8 rows by 11 columns, then add 2: 8(11) + 2 = 90.",
+        "Answer: T8 = 90 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time. Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42. The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2. For Figure 8, multiply 8 rows by 11 columns, then add 2: 8(11) + 2 = 90. Answer: T8 = 90 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+    },
+    {
+      "id": "g11-pat-l04-p09",
+      "prompt": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 9?",
+      "options": [
+        "T9 = 86 tiles",
+        "T9 = 99 tiles",
+        "T9 = 90 tiles",
+        "T9 = 89 tiles"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 9, multiply 9 rows by 10 columns, then add 0: 9(10) + 0 = 90.",
+        "Answer: T9 = 90 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time. Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30. The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2. For Figure 9, multiply 9 rows by 10 columns, then add 0: 9(10) + 0 = 90. Answer: T9 = 90 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+    },
+    {
+      "id": "g11-pat-l04-p10",
+      "prompt": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 10?",
+      "options": [
+        "T10 = 131 tiles",
+        "T10 = 121 tiles",
+        "T10 = 119 tiles",
+        "T10 = 115 tiles"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 10, multiply 10 rows by 12 columns, then add 1: 10(12) + 1 = 121.",
+        "Answer: T10 = 121 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time. Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36. The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2. For Figure 10, multiply 10 rows by 12 columns, then add 1: 10(12) + 1 = 121. Answer: T10 = 121 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+    },
+    {
+      "id": "g11-pat-l04-p11",
+      "prompt": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 11?",
+      "options": [
+        "T11 = 156 tiles",
+        "T11 = 153 tiles",
+        "T11 = 148 tiles",
+        "T11 = 167 tiles"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 11, multiply 11 rows by 14 columns, then add 2: 11(14) + 2 = 156.",
+        "Answer: T11 = 156 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time. Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42. The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2. For Figure 11, multiply 11 rows by 14 columns, then add 2: 11(14) + 2 = 156. Answer: T11 = 156 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+    },
+    {
+      "id": "g11-pat-l04-p12",
+      "prompt": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 12?",
+      "options": [
+        "T12 = 155 tiles",
+        "T12 = 152 tiles",
+        "T12 = 168 tiles",
+        "T12 = 156 tiles"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 12, multiply 12 rows by 13 columns, then add 0: 12(13) + 0 = 156.",
+        "Answer: T12 = 156 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time. Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30. The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2. For Figure 12, multiply 12 rows by 13 columns, then add 0: 12(13) + 0 = 156. Answer: T12 = 156 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+    },
+    {
+      "id": "g11-pat-l04-p13",
+      "prompt": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 13?",
+      "options": [
+        "T13 = 190 tiles",
+        "T13 = 209 tiles",
+        "T13 = 196 tiles",
+        "T13 = 194 tiles"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 13, multiply 13 rows by 15 columns, then add 1: 13(15) + 1 = 196.",
+        "Answer: T13 = 196 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time. Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36. The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2. For Figure 13, multiply 13 rows by 15 columns, then add 1: 13(15) + 1 = 196. Answer: T13 = 196 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+    },
+    {
+      "id": "g11-pat-l04-p14",
+      "prompt": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 14?",
+      "options": [
+        "T14 = 254 tiles",
+        "T14 = 240 tiles",
+        "T14 = 237 tiles",
+        "T14 = 232 tiles"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 14, multiply 14 rows by 17 columns, then add 2: 14(17) + 2 = 240.",
+        "Answer: T14 = 240 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time. Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42. The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2. For Figure 14, multiply 14 rows by 17 columns, then add 2: 14(17) + 2 = 240. Answer: T14 = 240 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+    },
+    {
+      "id": "g11-pat-l04-p15",
+      "prompt": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 15?",
+      "options": [
+        "T15 = 240 tiles",
+        "T15 = 239 tiles",
+        "T15 = 236 tiles",
+        "T15 = 255 tiles"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 15, multiply 15 rows by 16 columns, then add 0: 15(16) + 0 = 240.",
+        "Answer: T15 = 240 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time. Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30. The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2. For Figure 15, multiply 15 rows by 16 columns, then add 0: 15(16) + 0 = 240. Answer: T15 = 240 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-pat-l04-m01",
+      "prompt": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 16?",
+      "options": [
+        "T16 = 305 tiles",
+        "T16 = 289 tiles",
+        "T16 = 287 tiles",
+        "T16 = 283 tiles"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 16, multiply 16 rows by 18 columns, then add 1: 16(18) + 1 = 289.",
+        "Answer: T16 = 289 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time. Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36. The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2. For Figure 16, multiply 16 rows by 18 columns, then add 1: 16(18) + 1 = 289. Answer: T16 = 289 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+    },
+    {
+      "id": "g11-pat-l04-m02",
+      "prompt": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 17?",
+      "options": [
+        "T17 = 342 tiles",
+        "T17 = 339 tiles",
+        "T17 = 334 tiles",
+        "T17 = 359 tiles"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 17, multiply 17 rows by 20 columns, then add 2: 17(20) + 2 = 342.",
+        "Answer: T17 = 342 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time. Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42. The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2. For Figure 17, multiply 17 rows by 20 columns, then add 2: 17(20) + 2 = 342. Answer: T17 = 342 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+    },
+    {
+      "id": "g11-pat-l04-m03",
+      "prompt": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 7?",
+      "options": [
+        "T7 = 55 tiles",
+        "T7 = 52 tiles",
+        "T7 = 63 tiles",
+        "T7 = 56 tiles"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 7, multiply 7 rows by 8 columns, then add 0: 7(8) + 0 = 56.",
+        "Answer: T7 = 56 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time. Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30. The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2. For Figure 7, multiply 7 rows by 8 columns, then add 0: 7(8) + 0 = 56. Answer: T7 = 56 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+    },
+    {
+      "id": "g11-pat-l04-m04",
+      "prompt": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 8?",
+      "options": [
+        "T8 = 75 tiles",
+        "T8 = 89 tiles",
+        "T8 = 81 tiles",
+        "T8 = 79 tiles"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 8, multiply 8 rows by 10 columns, then add 1: 8(10) + 1 = 81.",
+        "Answer: T8 = 81 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time. Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36. The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2. For Figure 8, multiply 8 rows by 10 columns, then add 1: 8(10) + 1 = 81. Answer: T8 = 81 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+    },
+    {
+      "id": "g11-pat-l04-m05",
+      "prompt": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 9?",
+      "options": [
+        "T9 = 119 tiles",
+        "T9 = 110 tiles",
+        "T9 = 107 tiles",
+        "T9 = 102 tiles"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 9, multiply 9 rows by 12 columns, then add 2: 9(12) + 2 = 110.",
+        "Answer: T9 = 110 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time. Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42. The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2. For Figure 9, multiply 9 rows by 12 columns, then add 2: 9(12) + 2 = 110. Answer: T9 = 110 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-pat-l04-r01",
+      "prompt": "Figure n is an n-row rectangle with n + 2 tiles per row, plus 1 separate fixed tiles. Figures 1, 2 and 3 have 4, 9 and 16 tiles. How many tiles are in Figure 9?",
+      "options": [
+        "T9 = 100 tiles",
+        "T9 = 98 tiles",
+        "T9 = 94 tiles",
+        "T9 = 109 tiles"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time.",
+        "Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36.",
+        "The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2.",
+        "For Figure 9, multiply 9 rows by 11 columns, then add 1: 9(11) + 1 = 100.",
+        "Answer: T9 = 100 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 2 columns, then add the same 1 fixed tiles each time. Count Figure 1 = 4, Figure 2 = 9, Figure 3 = 16; extending gives 4, 9, 16, 25, 36. The rectangle has n(n + 2) tiles; with the fixed 1, the rule is Tₙ = n² + 2n + 1. Its constant second difference is 2. For Figure 9, multiply 9 rows by 11 columns, then add 1: 9(11) + 1 = 100. Answer: T9 = 100 tiles. Check Figure 3 by the same construction: 3(5) + 1 = 16."
+    },
+    {
+      "id": "g11-pat-l04-r02",
+      "prompt": "Figure n is an n-row rectangle with n + 3 tiles per row, plus 2 separate fixed tiles. Figures 1, 2 and 3 have 6, 12 and 20 tiles. How many tiles are in Figure 10?",
+      "options": [
+        "T10 = 129 tiles",
+        "T10 = 124 tiles",
+        "T10 = 142 tiles",
+        "T10 = 132 tiles"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time.",
+        "Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42.",
+        "The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2.",
+        "For Figure 10, multiply 10 rows by 13 columns, then add 2: 10(13) + 2 = 132.",
+        "Answer: T10 = 132 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 3 columns, then add the same 2 fixed tiles each time. Count Figure 1 = 6, Figure 2 = 12, Figure 3 = 20; extending gives 6, 12, 20, 30, 42. The rectangle has n(n + 3) tiles; with the fixed 2, the rule is Tₙ = n² + 3n + 2. Its constant second difference is 2. For Figure 10, multiply 10 rows by 13 columns, then add 2: 10(13) + 2 = 132. Answer: T10 = 132 tiles. Check Figure 3 by the same construction: 3(6) + 2 = 20."
+    },
+    {
+      "id": "g11-pat-l04-r03",
+      "prompt": "Figure n is an n-row rectangle with n + 1 tiles per row, plus 0 separate fixed tiles. Figures 1, 2 and 3 have 2, 6 and 12 tiles. How many tiles are in Figure 11?",
+      "options": [
+        "T11 = 128 tiles",
+        "T11 = 143 tiles",
+        "T11 = 132 tiles",
+        "T11 = 131 tiles"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time.",
+        "Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30.",
+        "The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2.",
+        "For Figure 11, multiply 11 rows by 12 columns, then add 0: 11(12) + 0 = 132.",
+        "Answer: T11 = 132 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+      ],
+      "memo": "Draw Figures 1–3: use n rows and n + 1 columns, then add the same 0 fixed tiles each time. Count Figure 1 = 2, Figure 2 = 6, Figure 3 = 12; extending gives 2, 6, 12, 20, 30. The rectangle has n(n + 1) tiles; with the fixed 0, the rule is Tₙ = n² + 1n + 0. Its constant second difference is 2. For Figure 11, multiply 11 rows by 12 columns, then add 0: 11(12) + 0 = 132. Answer: T11 = 132 tiles. Check Figure 3 by the same construction: 3(4) + 0 = 12."
+    }
+  ]
+}

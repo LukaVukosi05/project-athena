@@ -1,0 +1,13 @@
+.g11-pat-board{color:#18394b;width:100%;min-width:0}
+.g11-pat-board>p:first-child{font-weight:650;line-height:1.55}
+.g11-pat-model{width:100%;min-width:0;overflow:hidden}
+.g11-pat-model svg{display:block;width:100%;height:auto;max-height:325px}
+.g11-pat-model text{fill:#17344b;font:14px Inter,Arial,sans-serif}
+.g11-pat-model .g11-pat-label{font-size:13px;font-weight:700}
+.g11-pat-cell{fill:#f2f8f9;stroke:#84aab4}
+.g11-pat-diff{fill:#087e8a!important;font-weight:700!important}
+.g11-pat-second,.g11-pat-coeff{fill:#99510c!important;font-weight:700!important}
+.g11-pat-rule,.g11-pat-check{fill:#08664a!important;font-weight:700!important}
+.g11-pat-tile{fill:#087e8a}.g11-pat-extra{fill:#e3903c}
+.g11-pat-count{font-size:12px!important}
+@media(max-width:540px){.g11-pat-model text{font-size:13px}}

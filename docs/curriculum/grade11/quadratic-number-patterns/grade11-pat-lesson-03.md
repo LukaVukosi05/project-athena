@@ -1,0 +1,297 @@
+# Grade 11 Topic 11, Lesson 3: Find a term position from its value
+
+[DBE ATP](https://www.education.gov.za/Portals/0/Documents/Recovery%20plan%20page/2023%20ATPs/FET%20Content%20Subjects/Grade%2011/1.590%20ATP%202023-24%20Gr%2011%20Maths%20final.pdf) and [Mathematics CAPS](https://www.education.gov.za/Portals/0/CD/National%20Curriculum%20Statements%20and%20Vocational/CAPS%20FET%20_%20MATHEMATICS%20_%20GR%2010-12%20_%20Web_1133.pdf).
+
+Original Athena questions. Teacher and live browser review required. Term positions begin at n = 1.
+
+## g11-pat-l03-w01: The quadratic sequence begins 17, 25, 37, 53, 73, … . At which positive integer position does the value 157 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [17, 25, 37, 53, 73], "target": 8}}`
+
+1. Write T₁ to T₅: 17, 25, 37, 53, 73. Their first differences are 8, 12, 16, 20.
+
+2. Second differences are 4, 4, 4, so a = 4/2 = 2.
+
+3. Use T₂ − T₁ = 3a + b = 8 to obtain b = 2; then T₁ = a + b + c = 17 gives c = 13. Thus Tₙ = 2n² + 2n + 13.
+
+4. Rearrange 2n² + (2)n + (13) = 157: (n − 8)(2n + 18) = 0. Thus n = 8 or n = −18/2; reject the negative position.
+
+5. Answer: n = 8. For n ≥ 1, consecutive increments are positive; T₍7₎ = 125 < 157, so this is the only positive position.
+
+Answer: n = 8. Check: Answer: n = 8. For n ≥ 1, consecutive increments are positive; T₍7₎ = 125 < 157, so this is the only positive position.
+
+## g11-pat-l03-w02: The quadratic sequence begins 20, 32, 50, 74, 104, … . At which positive integer position does the value 284 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [20, 32, 50, 74, 104], "target": 9}}`
+
+1. Write T₁ to T₅: 20, 32, 50, 74, 104. Their first differences are 12, 18, 24, 30.
+
+2. Second differences are 6, 6, 6, so a = 6/2 = 3.
+
+3. Use T₂ − T₁ = 3a + b = 12 to obtain b = 3; then T₁ = a + b + c = 20 gives c = 14. Thus Tₙ = 3n² + 3n + 14.
+
+4. Rearrange 3n² + (3)n + (14) = 284: (n − 9)(3n + 30) = 0. Thus n = 9 or n = −30/3; reject the negative position.
+
+5. Answer: n = 9. For n ≥ 1, consecutive increments are positive; T₍8₎ = 230 < 284, so this is the only positive position.
+
+Answer: n = 9. Check: Answer: n = 9. For n ≥ 1, consecutive increments are positive; T₍8₎ = 230 < 284, so this is the only positive position.
+
+## g11-pat-l03-w03: The quadratic sequence begins 20, 27, 36, 47, 60, … . At which positive integer position does the value 155 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [20, 27, 36, 47, 60], "target": 10}}`
+
+1. Write T₁ to T₅: 20, 27, 36, 47, 60. Their first differences are 7, 9, 11, 13.
+
+2. Second differences are 2, 2, 2, so a = 2/2 = 1.
+
+3. Use T₂ − T₁ = 3a + b = 7 to obtain b = 4; then T₁ = a + b + c = 20 gives c = 15. Thus Tₙ = n² + 4n + 15.
+
+4. Rearrange 1n² + (4)n + (15) = 155: (n − 10)(1n + 14) = 0. Thus n = 10 or n = −14/1; reject the negative position.
+
+5. Answer: n = 10. For n ≥ 1, consecutive increments are positive; T₍9₎ = 132 < 155, so this is the only positive position.
+
+Answer: n = 10. Check: Answer: n = 10. For n ≥ 1, consecutive increments are positive; T₍9₎ = 132 < 155, so this is the only positive position.
+
+## g11-pat-l03-w04: The quadratic sequence begins 23, 34, 49, 68, 91, … . At which positive integer position does the value 313 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [23, 34, 49, 68, 91], "target": 11}}`
+
+1. Write T₁ to T₅: 23, 34, 49, 68, 91. Their first differences are 11, 15, 19, 23.
+
+2. Second differences are 4, 4, 4, so a = 4/2 = 2.
+
+3. Use T₂ − T₁ = 3a + b = 11 to obtain b = 5; then T₁ = a + b + c = 23 gives c = 16. Thus Tₙ = 2n² + 5n + 16.
+
+4. Rearrange 2n² + (5)n + (16) = 313: (n − 11)(2n + 27) = 0. Thus n = 11 or n = −27/2; reject the negative position.
+
+5. Answer: n = 11. For n ≥ 1, consecutive increments are positive; T₍10₎ = 266 < 313, so this is the only positive position.
+
+Answer: n = 11. Check: Answer: n = 11. For n ≥ 1, consecutive increments are positive; T₍10₎ = 266 < 313, so this is the only positive position.
+
+## g11-pat-l03-w05: The quadratic sequence begins 26, 41, 62, 89, 122, … . At which positive integer position does the value 521 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [26, 41, 62, 89, 122], "target": 12}}`
+
+1. Write T₁ to T₅: 26, 41, 62, 89, 122. Their first differences are 15, 21, 27, 33.
+
+2. Second differences are 6, 6, 6, so a = 6/2 = 3.
+
+3. Use T₂ − T₁ = 3a + b = 15 to obtain b = 6; then T₁ = a + b + c = 26 gives c = 17. Thus Tₙ = 3n² + 6n + 17.
+
+4. Rearrange 3n² + (6)n + (17) = 521: (n − 12)(3n + 42) = 0. Thus n = 12 or n = −42/3; reject the negative position.
+
+5. Answer: n = 12. For n ≥ 1, consecutive increments are positive; T₍11₎ = 446 < 521, so this is the only positive position.
+
+Answer: n = 12. Check: Answer: n = 12. For n ≥ 1, consecutive increments are positive; T₍11₎ = 446 < 521, so this is the only positive position.
+
+## g11-pat-l03-w06: The quadratic sequence begins 20, 24, 30, 38, 48, … . At which positive integer position does the value 200 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [20, 24, 30, 38, 48], "target": 13}}`
+
+1. Write T₁ to T₅: 20, 24, 30, 38, 48. Their first differences are 4, 6, 8, 10.
+
+2. Second differences are 2, 2, 2, so a = 2/2 = 1.
+
+3. Use T₂ − T₁ = 3a + b = 4 to obtain b = 1; then T₁ = a + b + c = 20 gives c = 18. Thus Tₙ = n² + n + 18.
+
+4. Rearrange 1n² + (1)n + (18) = 200: (n − 13)(1n + 14) = 0. Thus n = 13 or n = −14/1; reject the negative position.
+
+5. Answer: n = 13. For n ≥ 1, consecutive increments are positive; T₍12₎ = 174 < 200, so this is the only positive position.
+
+Answer: n = 13. Check: Answer: n = 13. For n ≥ 1, consecutive increments are positive; T₍12₎ = 174 < 200, so this is the only positive position.
+
+## g11-pat-l03-w07: The quadratic sequence begins 23, 31, 43, 59, 79, … . At which positive integer position does the value 439 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [23, 31, 43, 59, 79], "target": 14}}`
+
+1. Write T₁ to T₅: 23, 31, 43, 59, 79. Their first differences are 8, 12, 16, 20.
+
+2. Second differences are 4, 4, 4, so a = 4/2 = 2.
+
+3. Use T₂ − T₁ = 3a + b = 8 to obtain b = 2; then T₁ = a + b + c = 23 gives c = 19. Thus Tₙ = 2n² + 2n + 19.
+
+4. Rearrange 2n² + (2)n + (19) = 439: (n − 14)(2n + 30) = 0. Thus n = 14 or n = −30/2; reject the negative position.
+
+5. Answer: n = 14. For n ≥ 1, consecutive increments are positive; T₍13₎ = 383 < 439, so this is the only positive position.
+
+Answer: n = 14. Check: Answer: n = 14. For n ≥ 1, consecutive increments are positive; T₍13₎ = 383 < 439, so this is the only positive position.
+
+## g11-pat-l03-w08: The quadratic sequence begins 26, 38, 56, 80, 110, … . At which positive integer position does the value 740 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [26, 38, 56, 80, 110], "target": 15}}`
+
+1. Write T₁ to T₅: 26, 38, 56, 80, 110. Their first differences are 12, 18, 24, 30.
+
+2. Second differences are 6, 6, 6, so a = 6/2 = 3.
+
+3. Use T₂ − T₁ = 3a + b = 12 to obtain b = 3; then T₁ = a + b + c = 26 gives c = 20. Thus Tₙ = 3n² + 3n + 20.
+
+4. Rearrange 3n² + (3)n + (20) = 740: (n − 15)(3n + 48) = 0. Thus n = 15 or n = −48/3; reject the negative position.
+
+5. Answer: n = 15. For n ≥ 1, consecutive increments are positive; T₍14₎ = 650 < 740, so this is the only positive position.
+
+Answer: n = 15. Check: Answer: n = 15. For n ≥ 1, consecutive increments are positive; T₍14₎ = 650 < 740, so this is the only positive position.
+
+## g11-pat-l03-w09: The quadratic sequence begins 26, 33, 42, 53, 66, … . At which positive integer position does the value 341 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [26, 33, 42, 53, 66], "target": 16}}`
+
+1. Write T₁ to T₅: 26, 33, 42, 53, 66. Their first differences are 7, 9, 11, 13.
+
+2. Second differences are 2, 2, 2, so a = 2/2 = 1.
+
+3. Use T₂ − T₁ = 3a + b = 7 to obtain b = 4; then T₁ = a + b + c = 26 gives c = 21. Thus Tₙ = n² + 4n + 21.
+
+4. Rearrange 1n² + (4)n + (21) = 341: (n − 16)(1n + 20) = 0. Thus n = 16 or n = −20/1; reject the negative position.
+
+5. Answer: n = 16. For n ≥ 1, consecutive increments are positive; T₍15₎ = 306 < 341, so this is the only positive position.
+
+Answer: n = 16. Check: Answer: n = 16. For n ≥ 1, consecutive increments are positive; T₍15₎ = 306 < 341, so this is the only positive position.
+
+## g11-pat-l03-w10: The quadratic sequence begins 29, 40, 55, 74, 97, … . At which positive integer position does the value 685 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [29, 40, 55, 74, 97], "target": 17}}`
+
+1. Write T₁ to T₅: 29, 40, 55, 74, 97. Their first differences are 11, 15, 19, 23.
+
+2. Second differences are 4, 4, 4, so a = 4/2 = 2.
+
+3. Use T₂ − T₁ = 3a + b = 11 to obtain b = 5; then T₁ = a + b + c = 29 gives c = 22. Thus Tₙ = 2n² + 5n + 22.
+
+4. Rearrange 2n² + (5)n + (22) = 685: (n − 17)(2n + 39) = 0. Thus n = 17 or n = −39/2; reject the negative position.
+
+5. Answer: n = 17. For n ≥ 1, consecutive increments are positive; T₍16₎ = 614 < 685, so this is the only positive position.
+
+Answer: n = 17. Check: Answer: n = 17. For n ≥ 1, consecutive increments are positive; T₍16₎ = 614 < 685, so this is the only positive position.
+
+## g11-pat-l03-w11: The quadratic sequence begins 21, 36, 57, 84, 117, … . At which positive integer position does the value 201 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [21, 36, 57, 84, 117], "target": 7}}`
+
+1. Write T₁ to T₅: 21, 36, 57, 84, 117. Their first differences are 15, 21, 27, 33.
+
+2. Second differences are 6, 6, 6, so a = 6/2 = 3.
+
+3. Use T₂ − T₁ = 3a + b = 15 to obtain b = 6; then T₁ = a + b + c = 21 gives c = 12. Thus Tₙ = 3n² + 6n + 12.
+
+4. Rearrange 3n² + (6)n + (12) = 201: (n − 7)(3n + 27) = 0. Thus n = 7 or n = −27/3; reject the negative position.
+
+5. Answer: n = 7. For n ≥ 1, consecutive increments are positive; T₍6₎ = 156 < 201, so this is the only positive position.
+
+Answer: n = 7. Check: Answer: n = 7. For n ≥ 1, consecutive increments are positive; T₍6₎ = 156 < 201, so this is the only positive position.
+
+## g11-pat-l03-w12: The quadratic sequence begins 15, 19, 25, 33, 43, … . At which positive integer position does the value 85 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [15, 19, 25, 33, 43], "target": 8}}`
+
+1. Write T₁ to T₅: 15, 19, 25, 33, 43. Their first differences are 4, 6, 8, 10.
+
+2. Second differences are 2, 2, 2, so a = 2/2 = 1.
+
+3. Use T₂ − T₁ = 3a + b = 4 to obtain b = 1; then T₁ = a + b + c = 15 gives c = 13. Thus Tₙ = n² + n + 13.
+
+4. Rearrange 1n² + (1)n + (13) = 85: (n − 8)(1n + 9) = 0. Thus n = 8 or n = −9/1; reject the negative position.
+
+5. Answer: n = 8. For n ≥ 1, consecutive increments are positive; T₍7₎ = 69 < 85, so this is the only positive position.
+
+Answer: n = 8. Check: Answer: n = 8. For n ≥ 1, consecutive increments are positive; T₍7₎ = 69 < 85, so this is the only positive position.
+
+## g11-pat-l03-w13: The quadratic sequence begins 18, 26, 38, 54, 74, … . At which positive integer position does the value 194 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [18, 26, 38, 54, 74], "target": 9}}`
+
+1. Write T₁ to T₅: 18, 26, 38, 54, 74. Their first differences are 8, 12, 16, 20.
+
+2. Second differences are 4, 4, 4, so a = 4/2 = 2.
+
+3. Use T₂ − T₁ = 3a + b = 8 to obtain b = 2; then T₁ = a + b + c = 18 gives c = 14. Thus Tₙ = 2n² + 2n + 14.
+
+4. Rearrange 2n² + (2)n + (14) = 194: (n − 9)(2n + 20) = 0. Thus n = 9 or n = −20/2; reject the negative position.
+
+5. Answer: n = 9. For n ≥ 1, consecutive increments are positive; T₍8₎ = 158 < 194, so this is the only positive position.
+
+Answer: n = 9. Check: Answer: n = 9. For n ≥ 1, consecutive increments are positive; T₍8₎ = 158 < 194, so this is the only positive position.
+
+## g11-pat-l03-w14: The quadratic sequence begins 21, 33, 51, 75, 105, … . At which positive integer position does the value 345 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [21, 33, 51, 75, 105], "target": 10}}`
+
+1. Write T₁ to T₅: 21, 33, 51, 75, 105. Their first differences are 12, 18, 24, 30.
+
+2. Second differences are 6, 6, 6, so a = 6/2 = 3.
+
+3. Use T₂ − T₁ = 3a + b = 12 to obtain b = 3; then T₁ = a + b + c = 21 gives c = 15. Thus Tₙ = 3n² + 3n + 15.
+
+4. Rearrange 3n² + (3)n + (15) = 345: (n − 10)(3n + 33) = 0. Thus n = 10 or n = −33/3; reject the negative position.
+
+5. Answer: n = 10. For n ≥ 1, consecutive increments are positive; T₍9₎ = 285 < 345, so this is the only positive position.
+
+Answer: n = 10. Check: Answer: n = 10. For n ≥ 1, consecutive increments are positive; T₍9₎ = 285 < 345, so this is the only positive position.
+
+## g11-pat-l03-w15: The quadratic sequence begins 21, 28, 37, 48, 61, … . At which positive integer position does the value 181 occur? Show that your position is valid.
+
+Visual givens: `{"family": "grade11_patterns", "values": {"mode": "position", "terms": [21, 28, 37, 48, 61], "target": 11}}`
+
+1. Write T₁ to T₅: 21, 28, 37, 48, 61. Their first differences are 7, 9, 11, 13.
+
+2. Second differences are 2, 2, 2, so a = 2/2 = 1.
+
+3. Use T₂ − T₁ = 3a + b = 7 to obtain b = 4; then T₁ = a + b + c = 21 gives c = 16. Thus Tₙ = n² + 4n + 16.
+
+4. Rearrange 1n² + (4)n + (16) = 181: (n − 11)(1n + 15) = 0. Thus n = 11 or n = −15/1; reject the negative position.
+
+5. Answer: n = 11. For n ≥ 1, consecutive increments are positive; T₍10₎ = 156 < 181, so this is the only positive position.
+
+Answer: n = 11. Check: Answer: n = 11. For n ≥ 1, consecutive increments are positive; T₍10₎ = 156 < 181, so this is the only positive position.
+
+## Practice key
+
+- g11-pat-l03-p01: The quadratic sequence begins 24, 35, 50, 69, 92, … . At which positive integer position does the value 365 occur? Show that your position is valid. Options: n = 11 | n = 13 | n = 12 | n = 10. Correct: n = 12. Write T₁ to T₅: 24, 35, 50, 69, 92. Their first differences are 11, 15, 19, 23. Second differences are 4, 4, 4, so a = 4/2 = 2. Use T₂ − T₁ = 3a + b = 11 to obtain b = 5; then T₁ = a + b + c = 24 gives c = 17. Thus Tₙ = 2n² + 5n + 17. Rearrange 2n² + (5)n + (17) = 365: (n − 12)(2n + 29) = 0. Thus n = 12 or n = −29/2; reject the negative position. Answer: n = 12. For n ≥ 1, consecutive increments are positive; T₍11₎ = 314 < 365, so this is the only positive position.
+
+- g11-pat-l03-p02: The quadratic sequence begins 27, 42, 63, 90, 123, … . At which positive integer position does the value 603 occur? Show that your position is valid. Options: n = 14 | n = 13 | n = 11 | n = 12. Correct: n = 13. Write T₁ to T₅: 27, 42, 63, 90, 123. Their first differences are 15, 21, 27, 33. Second differences are 6, 6, 6, so a = 6/2 = 3. Use T₂ − T₁ = 3a + b = 15 to obtain b = 6; then T₁ = a + b + c = 27 gives c = 18. Thus Tₙ = 3n² + 6n + 18. Rearrange 3n² + (6)n + (18) = 603: (n − 13)(3n + 45) = 0. Thus n = 13 or n = −45/3; reject the negative position. Answer: n = 13. For n ≥ 1, consecutive increments are positive; T₍12₎ = 522 < 603, so this is the only positive position.
+
+- g11-pat-l03-p03: The quadratic sequence begins 21, 25, 31, 39, 49, … . At which positive integer position does the value 229 occur? Show that your position is valid. Options: n = 14 | n = 12 | n = 13 | n = 15. Correct: n = 14. Write T₁ to T₅: 21, 25, 31, 39, 49. Their first differences are 4, 6, 8, 10. Second differences are 2, 2, 2, so a = 2/2 = 1. Use T₂ − T₁ = 3a + b = 4 to obtain b = 1; then T₁ = a + b + c = 21 gives c = 19. Thus Tₙ = n² + n + 19. Rearrange 1n² + (1)n + (19) = 229: (n − 14)(1n + 15) = 0. Thus n = 14 or n = −15/1; reject the negative position. Answer: n = 14. For n ≥ 1, consecutive increments are positive; T₍13₎ = 201 < 229, so this is the only positive position.
+
+- g11-pat-l03-p04: The quadratic sequence begins 24, 32, 44, 60, 80, … . At which positive integer position does the value 500 occur? Show that your position is valid. Options: n = 13 | n = 14 | n = 16 | n = 15. Correct: n = 15. Write T₁ to T₅: 24, 32, 44, 60, 80. Their first differences are 8, 12, 16, 20. Second differences are 4, 4, 4, so a = 4/2 = 2. Use T₂ − T₁ = 3a + b = 8 to obtain b = 2; then T₁ = a + b + c = 24 gives c = 20. Thus Tₙ = 2n² + 2n + 20. Rearrange 2n² + (2)n + (20) = 500: (n − 15)(2n + 32) = 0. Thus n = 15 or n = −32/2; reject the negative position. Answer: n = 15. For n ≥ 1, consecutive increments are positive; T₍14₎ = 440 < 500, so this is the only positive position.
+
+- g11-pat-l03-p05: The quadratic sequence begins 27, 39, 57, 81, 111, … . At which positive integer position does the value 837 occur? Show that your position is valid. Options: n = 15 | n = 17 | n = 16 | n = 14. Correct: n = 16. Write T₁ to T₅: 27, 39, 57, 81, 111. Their first differences are 12, 18, 24, 30. Second differences are 6, 6, 6, so a = 6/2 = 3. Use T₂ − T₁ = 3a + b = 12 to obtain b = 3; then T₁ = a + b + c = 27 gives c = 21. Thus Tₙ = 3n² + 3n + 21. Rearrange 3n² + (3)n + (21) = 837: (n − 16)(3n + 51) = 0. Thus n = 16 or n = −51/3; reject the negative position. Answer: n = 16. For n ≥ 1, consecutive increments are positive; T₍15₎ = 741 < 837, so this is the only positive position.
+
+- g11-pat-l03-p06: The quadratic sequence begins 27, 34, 43, 54, 67, … . At which positive integer position does the value 379 occur? Show that your position is valid. Options: n = 18 | n = 17 | n = 15 | n = 16. Correct: n = 17. Write T₁ to T₅: 27, 34, 43, 54, 67. Their first differences are 7, 9, 11, 13. Second differences are 2, 2, 2, so a = 2/2 = 1. Use T₂ − T₁ = 3a + b = 7 to obtain b = 4; then T₁ = a + b + c = 27 gives c = 22. Thus Tₙ = n² + 4n + 22. Rearrange 1n² + (4)n + (22) = 379: (n − 17)(1n + 21) = 0. Thus n = 17 or n = −21/1; reject the negative position. Answer: n = 17. For n ≥ 1, consecutive increments are positive; T₍16₎ = 342 < 379, so this is the only positive position.
+
+- g11-pat-l03-p07: The quadratic sequence begins 19, 30, 45, 64, 87, … . At which positive integer position does the value 145 occur? Show that your position is valid. Options: n = 7 | n = 5 | n = 6 | n = 8. Correct: n = 7. Write T₁ to T₅: 19, 30, 45, 64, 87. Their first differences are 11, 15, 19, 23. Second differences are 4, 4, 4, so a = 4/2 = 2. Use T₂ − T₁ = 3a + b = 11 to obtain b = 5; then T₁ = a + b + c = 19 gives c = 12. Thus Tₙ = 2n² + 5n + 12. Rearrange 2n² + (5)n + (12) = 145: (n − 7)(2n + 19) = 0. Thus n = 7 or n = −19/2; reject the negative position. Answer: n = 7. For n ≥ 1, consecutive increments are positive; T₍6₎ = 114 < 145, so this is the only positive position.
+
+- g11-pat-l03-p08: The quadratic sequence begins 22, 37, 58, 85, 118, … . At which positive integer position does the value 253 occur? Show that your position is valid. Options: n = 6 | n = 7 | n = 9 | n = 8. Correct: n = 8. Write T₁ to T₅: 22, 37, 58, 85, 118. Their first differences are 15, 21, 27, 33. Second differences are 6, 6, 6, so a = 6/2 = 3. Use T₂ − T₁ = 3a + b = 15 to obtain b = 6; then T₁ = a + b + c = 22 gives c = 13. Thus Tₙ = 3n² + 6n + 13. Rearrange 3n² + (6)n + (13) = 253: (n − 8)(3n + 30) = 0. Thus n = 8 or n = −30/3; reject the negative position. Answer: n = 8. For n ≥ 1, consecutive increments are positive; T₍7₎ = 202 < 253, so this is the only positive position.
+
+- g11-pat-l03-p09: The quadratic sequence begins 16, 20, 26, 34, 44, … . At which positive integer position does the value 104 occur? Show that your position is valid. Options: n = 8 | n = 10 | n = 9 | n = 7. Correct: n = 9. Write T₁ to T₅: 16, 20, 26, 34, 44. Their first differences are 4, 6, 8, 10. Second differences are 2, 2, 2, so a = 2/2 = 1. Use T₂ − T₁ = 3a + b = 4 to obtain b = 1; then T₁ = a + b + c = 16 gives c = 14. Thus Tₙ = n² + n + 14. Rearrange 1n² + (1)n + (14) = 104: (n − 9)(1n + 10) = 0. Thus n = 9 or n = −10/1; reject the negative position. Answer: n = 9. For n ≥ 1, consecutive increments are positive; T₍8₎ = 86 < 104, so this is the only positive position.
+
+- g11-pat-l03-p10: The quadratic sequence begins 19, 27, 39, 55, 75, … . At which positive integer position does the value 235 occur? Show that your position is valid. Options: n = 11 | n = 10 | n = 8 | n = 9. Correct: n = 10. Write T₁ to T₅: 19, 27, 39, 55, 75. Their first differences are 8, 12, 16, 20. Second differences are 4, 4, 4, so a = 4/2 = 2. Use T₂ − T₁ = 3a + b = 8 to obtain b = 2; then T₁ = a + b + c = 19 gives c = 15. Thus Tₙ = 2n² + 2n + 15. Rearrange 2n² + (2)n + (15) = 235: (n − 10)(2n + 22) = 0. Thus n = 10 or n = −22/2; reject the negative position. Answer: n = 10. For n ≥ 1, consecutive increments are positive; T₍9₎ = 195 < 235, so this is the only positive position.
+
+- g11-pat-l03-p11: The quadratic sequence begins 22, 34, 52, 76, 106, … . At which positive integer position does the value 412 occur? Show that your position is valid. Options: n = 11 | n = 9 | n = 10 | n = 12. Correct: n = 11. Write T₁ to T₅: 22, 34, 52, 76, 106. Their first differences are 12, 18, 24, 30. Second differences are 6, 6, 6, so a = 6/2 = 3. Use T₂ − T₁ = 3a + b = 12 to obtain b = 3; then T₁ = a + b + c = 22 gives c = 16. Thus Tₙ = 3n² + 3n + 16. Rearrange 3n² + (3)n + (16) = 412: (n − 11)(3n + 36) = 0. Thus n = 11 or n = −36/3; reject the negative position. Answer: n = 11. For n ≥ 1, consecutive increments are positive; T₍10₎ = 346 < 412, so this is the only positive position.
+
+- g11-pat-l03-p12: The quadratic sequence begins 22, 29, 38, 49, 62, … . At which positive integer position does the value 209 occur? Show that your position is valid. Options: n = 10 | n = 11 | n = 13 | n = 12. Correct: n = 12. Write T₁ to T₅: 22, 29, 38, 49, 62. Their first differences are 7, 9, 11, 13. Second differences are 2, 2, 2, so a = 2/2 = 1. Use T₂ − T₁ = 3a + b = 7 to obtain b = 4; then T₁ = a + b + c = 22 gives c = 17. Thus Tₙ = n² + 4n + 17. Rearrange 1n² + (4)n + (17) = 209: (n − 12)(1n + 16) = 0. Thus n = 12 or n = −16/1; reject the negative position. Answer: n = 12. For n ≥ 1, consecutive increments are positive; T₍11₎ = 182 < 209, so this is the only positive position.
+
+- g11-pat-l03-p13: The quadratic sequence begins 25, 36, 51, 70, 93, … . At which positive integer position does the value 421 occur? Show that your position is valid. Options: n = 12 | n = 14 | n = 13 | n = 11. Correct: n = 13. Write T₁ to T₅: 25, 36, 51, 70, 93. Their first differences are 11, 15, 19, 23. Second differences are 4, 4, 4, so a = 4/2 = 2. Use T₂ − T₁ = 3a + b = 11 to obtain b = 5; then T₁ = a + b + c = 25 gives c = 18. Thus Tₙ = 2n² + 5n + 18. Rearrange 2n² + (5)n + (18) = 421: (n − 13)(2n + 31) = 0. Thus n = 13 or n = −31/2; reject the negative position. Answer: n = 13. For n ≥ 1, consecutive increments are positive; T₍12₎ = 366 < 421, so this is the only positive position.
+
+- g11-pat-l03-p14: The quadratic sequence begins 28, 43, 64, 91, 124, … . At which positive integer position does the value 691 occur? Show that your position is valid. Options: n = 15 | n = 14 | n = 12 | n = 13. Correct: n = 14. Write T₁ to T₅: 28, 43, 64, 91, 124. Their first differences are 15, 21, 27, 33. Second differences are 6, 6, 6, so a = 6/2 = 3. Use T₂ − T₁ = 3a + b = 15 to obtain b = 6; then T₁ = a + b + c = 28 gives c = 19. Thus Tₙ = 3n² + 6n + 19. Rearrange 3n² + (6)n + (19) = 691: (n − 14)(3n + 48) = 0. Thus n = 14 or n = −48/3; reject the negative position. Answer: n = 14. For n ≥ 1, consecutive increments are positive; T₍13₎ = 604 < 691, so this is the only positive position.
+
+- g11-pat-l03-p15: The quadratic sequence begins 22, 26, 32, 40, 50, … . At which positive integer position does the value 260 occur? Show that your position is valid. Options: n = 15 | n = 13 | n = 14 | n = 16. Correct: n = 15. Write T₁ to T₅: 22, 26, 32, 40, 50. Their first differences are 4, 6, 8, 10. Second differences are 2, 2, 2, so a = 2/2 = 1. Use T₂ − T₁ = 3a + b = 4 to obtain b = 1; then T₁ = a + b + c = 22 gives c = 20. Thus Tₙ = n² + n + 20. Rearrange 1n² + (1)n + (20) = 260: (n − 15)(1n + 16) = 0. Thus n = 15 or n = −16/1; reject the negative position. Answer: n = 15. For n ≥ 1, consecutive increments are positive; T₍14₎ = 230 < 260, so this is the only positive position.
+
+## Mastery key
+
+- g11-pat-l03-m01: The quadratic sequence begins 25, 33, 45, 61, 81, … . At which positive integer position does the value 565 occur? Show that your position is valid. Options: n = 17 | n = 16 | n = 14 | n = 15. Correct: n = 16. Write T₁ to T₅: 25, 33, 45, 61, 81. Their first differences are 8, 12, 16, 20. Second differences are 4, 4, 4, so a = 4/2 = 2. Use T₂ − T₁ = 3a + b = 8 to obtain b = 2; then T₁ = a + b + c = 25 gives c = 21. Thus Tₙ = 2n² + 2n + 21. Rearrange 2n² + (2)n + (21) = 565: (n − 16)(2n + 34) = 0. Thus n = 16 or n = −34/2; reject the negative position. Answer: n = 16. For n ≥ 1, consecutive increments are positive; T₍15₎ = 501 < 565, so this is the only positive position.
+
+- g11-pat-l03-m02: The quadratic sequence begins 28, 40, 58, 82, 112, … . At which positive integer position does the value 940 occur? Show that your position is valid. Options: n = 17 | n = 15 | n = 16 | n = 18. Correct: n = 17. Write T₁ to T₅: 28, 40, 58, 82, 112. Their first differences are 12, 18, 24, 30. Second differences are 6, 6, 6, so a = 6/2 = 3. Use T₂ − T₁ = 3a + b = 12 to obtain b = 3; then T₁ = a + b + c = 28 gives c = 22. Thus Tₙ = 3n² + 3n + 22. Rearrange 3n² + (3)n + (22) = 940: (n − 17)(3n + 54) = 0. Thus n = 17 or n = −54/3; reject the negative position. Answer: n = 17. For n ≥ 1, consecutive increments are positive; T₍16₎ = 838 < 940, so this is the only positive position.
+
+- g11-pat-l03-m03: The quadratic sequence begins 17, 24, 33, 44, 57, … . At which positive integer position does the value 89 occur? Show that your position is valid. Options: n = 5 | n = 6 | n = 8 | n = 7. Correct: n = 7. Write T₁ to T₅: 17, 24, 33, 44, 57. Their first differences are 7, 9, 11, 13. Second differences are 2, 2, 2, so a = 2/2 = 1. Use T₂ − T₁ = 3a + b = 7 to obtain b = 4; then T₁ = a + b + c = 17 gives c = 12. Thus Tₙ = n² + 4n + 12. Rearrange 1n² + (4)n + (12) = 89: (n − 7)(1n + 11) = 0. Thus n = 7 or n = −11/1; reject the negative position. Answer: n = 7. For n ≥ 1, consecutive increments are positive; T₍6₎ = 72 < 89, so this is the only positive position.
+
+- g11-pat-l03-m04: The quadratic sequence begins 20, 31, 46, 65, 88, … . At which positive integer position does the value 181 occur? Show that your position is valid. Options: n = 7 | n = 9 | n = 8 | n = 6. Correct: n = 8. Write T₁ to T₅: 20, 31, 46, 65, 88. Their first differences are 11, 15, 19, 23. Second differences are 4, 4, 4, so a = 4/2 = 2. Use T₂ − T₁ = 3a + b = 11 to obtain b = 5; then T₁ = a + b + c = 20 gives c = 13. Thus Tₙ = 2n² + 5n + 13. Rearrange 2n² + (5)n + (13) = 181: (n − 8)(2n + 21) = 0. Thus n = 8 or n = −21/2; reject the negative position. Answer: n = 8. For n ≥ 1, consecutive increments are positive; T₍7₎ = 146 < 181, so this is the only positive position.
+
+- g11-pat-l03-m05: The quadratic sequence begins 23, 38, 59, 86, 119, … . At which positive integer position does the value 311 occur? Show that your position is valid. Options: n = 10 | n = 9 | n = 7 | n = 8. Correct: n = 9. Write T₁ to T₅: 23, 38, 59, 86, 119. Their first differences are 15, 21, 27, 33. Second differences are 6, 6, 6, so a = 6/2 = 3. Use T₂ − T₁ = 3a + b = 15 to obtain b = 6; then T₁ = a + b + c = 23 gives c = 14. Thus Tₙ = 3n² + 6n + 14. Rearrange 3n² + (6)n + (14) = 311: (n − 9)(3n + 33) = 0. Thus n = 9 or n = −33/3; reject the negative position. Answer: n = 9. For n ≥ 1, consecutive increments are positive; T₍8₎ = 254 < 311, so this is the only positive position.
+
+## Reassessment key
+
+- g11-pat-l03-r01: The quadratic sequence begins 21, 32, 47, 66, 89, … . At which positive integer position does the value 221 occur? Show that your position is valid. Options: n = 9 | n = 7 | n = 8 | n = 10. Correct: n = 9. Write T₁ to T₅: 21, 32, 47, 66, 89. Their first differences are 11, 15, 19, 23. Second differences are 4, 4, 4, so a = 4/2 = 2. Use T₂ − T₁ = 3a + b = 11 to obtain b = 5; then T₁ = a + b + c = 21 gives c = 14. Thus Tₙ = 2n² + 5n + 14. Rearrange 2n² + (5)n + (14) = 221: (n − 9)(2n + 23) = 0. Thus n = 9 or n = −23/2; reject the negative position. Answer: n = 9. For n ≥ 1, consecutive increments are positive; T₍8₎ = 182 < 221, so this is the only positive position.
+
+- g11-pat-l03-r02: The quadratic sequence begins 24, 39, 60, 87, 120, … . At which positive integer position does the value 375 occur? Show that your position is valid. Options: n = 8 | n = 9 | n = 11 | n = 10. Correct: n = 10. Write T₁ to T₅: 24, 39, 60, 87, 120. Their first differences are 15, 21, 27, 33. Second differences are 6, 6, 6, so a = 6/2 = 3. Use T₂ − T₁ = 3a + b = 15 to obtain b = 6; then T₁ = a + b + c = 24 gives c = 15. Thus Tₙ = 3n² + 6n + 15. Rearrange 3n² + (6)n + (15) = 375: (n − 10)(3n + 36) = 0. Thus n = 10 or n = −36/3; reject the negative position. Answer: n = 10. For n ≥ 1, consecutive increments are positive; T₍9₎ = 312 < 375, so this is the only positive position.
+
+- g11-pat-l03-r03: The quadratic sequence begins 18, 22, 28, 36, 46, … . At which positive integer position does the value 148 occur? Show that your position is valid. Options: n = 10 | n = 12 | n = 11 | n = 9. Correct: n = 11. Write T₁ to T₅: 18, 22, 28, 36, 46. Their first differences are 4, 6, 8, 10. Second differences are 2, 2, 2, so a = 2/2 = 1. Use T₂ − T₁ = 3a + b = 4 to obtain b = 1; then T₁ = a + b + c = 18 gives c = 16. Thus Tₙ = n² + n + 16. Rearrange 1n² + (1)n + (16) = 148: (n − 11)(1n + 12) = 0. Thus n = 11 or n = −12/1; reject the negative position. Answer: n = 11. For n ≥ 1, consecutive increments are positive; T₍10₎ = 126 < 148, so this is the only positive position.

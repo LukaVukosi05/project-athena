@@ -253,6 +253,10 @@ for _grade11_prob_number in range(1,8):
     registry.register(f"grade11_prob_{_grade11_prob_number}_step", f"grade11_prob_{_grade11_prob_number}",
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
 
+for _grade11_pat_number in range(1,6):
+    registry.register(f"grade11_pat_{_grade11_pat_number}_step", f"grade11_pat_{_grade11_pat_number}",
+        lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+
 for _grade11_fin_number in range(1,7):
     registry.register(f"grade11_fin_{_grade11_fin_number}_step", f"grade11_fin_{_grade11_fin_number}",
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))

@@ -1,0 +1,62 @@
+[
+  {
+    "lesson_id": "g11-pat-01",
+    "source": "grade11-pat-lesson-01.md",
+    "source_sha256": "40abcfa20c87467d949f71688fb7381ecbce391ea5c27fb6854efb4ba961fe40",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-pat-02",
+    "source": "grade11-pat-lesson-02.md",
+    "source_sha256": "554783f445cb8110550b6cf3b6716280c79c09b5b95b2b6ee02b0ef448750c1c",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-pat-03",
+    "source": "grade11-pat-lesson-03.md",
+    "source_sha256": "48a33c4094ddde871f2fb73f7146f2da23dd740ca45fef55f39eafb6d31dfb05",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-pat-04",
+    "source": "grade11-pat-lesson-04.md",
+    "source_sha256": "d16ddaa4fb43890a1e26944b5762bf0f6ea7778d50e105674709f08f9034426f",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-pat-05",
+    "source": "grade11-pat-lesson-05.md",
+    "source_sha256": "2f52b5d961a2d578919230d9c5fe709ad75059cbca203bcbe42e0717577a2c2d",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]
