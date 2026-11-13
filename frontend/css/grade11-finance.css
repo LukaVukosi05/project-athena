@@ -1,0 +1,15 @@
+.g11-fin-board{color:#17344b;width:100%;min-width:0}
+.g11-fin-board>p:first-child{font-weight:650;line-height:1.6}
+.g11-fin-model{width:100%;min-width:0;overflow:hidden}
+.g11-fin-model svg{display:block;width:100%;height:auto;max-height:375px}
+.g11-fin-model text{fill:#17344b;font-size:12px}
+.g11-fin-given{font-size:14px!important;font-weight:700}
+.g11-fin-axis,.g11-fin-tick{stroke:#7396a2;stroke-width:2}
+.g11-fin-point{fill:#087e8a}
+.g11-fin-amount,.g11-fin-method{fill:#126975!important;font-weight:600}
+.g11-fin-check{fill:#08664a!important;font-weight:700}
+.g11-fin-card{fill:#f4f9fa;stroke:#087e8a;stroke-width:1.5}
+.g11-fin-number{fill:#087e8a!important;font-weight:700}
+.g11-fin-card-text{font:12px Inter,Arial,sans-serif;color:#17344b;line-height:1.25;overflow-wrap:anywhere}
+.g11-fin-board [data-object-id="operation"]{color:#175b63}
+.g11-fin-board [data-object-id="verification"]{color:#08664a;font-weight:700}

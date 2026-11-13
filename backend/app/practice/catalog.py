@@ -11,6 +11,7 @@ from app.curriculum.grade11.assessment_functions import BANKS as GRADE11_FN_BANK
 from app.curriculum.grade11.assessment_triangle_rules import BANKS as GRADE11_RULES_BANKS
 from app.curriculum.grade11.assessment_statistics import BANKS as GRADE11_STAT_BANKS
 from app.curriculum.grade11.assessment_probability import BANKS as GRADE11_PROB_BANKS
+from app.curriculum.grade11.assessment_finance import BANKS as GRADE11_FIN_BANKS
 from app.curriculum.grade9.assessment_whole_numbers import PRACTICE_1 as GRADE9_WHOLE_1, PRACTICE_2 as GRADE9_WHOLE_2
 from app.curriculum.grade9.assessment_whole_numbers import EXTENDED_BANKS as GRADE9_EXTENDED_BANKS, INTEGER_BANKS as GRADE9_INTEGER_BANKS, EXPONENT_BANKS as GRADE9_EXPONENT_BANKS, PATTERN_BANKS as GRADE9_PATTERN_BANKS, FUNCTION_BANKS as GRADE9_FUNCTION_BANKS, EXPRESSION_BANKS as GRADE9_EXPRESSION_BANKS, EQUATION_BANKS as GRADE9_EQUATION_BANKS, GRAPH_BANKS as GRADE9_GRAPH_BANKS, LINE_BANKS as GRADE9_LINE_BANKS, SHAPE_BANKS as GRADE9_SHAPE_BANKS, AREA_BANKS as GRADE9_AREA_BANKS, DATA_BANKS as GRADE9_DATA_BANKS, PROB_BANKS as GRADE9_PROB_BANKS, SOLID_BANKS as GRADE9_SOLID_BANKS, SURFACE_BANKS as GRADE9_SURFACE_BANKS, TRANSFORM_BANKS as GRADE9_TRANSFORM_BANKS
 from app.curriculum.grade8.assessment_straight_lines import PRACTICE_1 as LINES_1, PRACTICE_2 as LINES_2
@@ -72,6 +73,7 @@ PRACTICE_BANKS = {
     **{f"g11-rules-{number:02}":GRADE11_RULES_BANKS[number][0] for number in range(1,6)},
     **{f"g11-stat-{number:02}":GRADE11_STAT_BANKS[number][0] for number in range(1,8)},
     **{f"g11-prob-{number:02}":GRADE11_PROB_BANKS[number][0] for number in range(1,8)},
+    **{f"g11-fin-{number:02}":GRADE11_FIN_BANKS[number][0] for number in range(1,7)},
     **{f"g11-ag-{number:02}":GRADE11_AG_BANKS[number][0] for number in range(1,7)},
     **{f"g11-euc-{number:02}":GRADE11_EUC_BANKS[number][0] for number in range(1,9)},
     **{f"g11-tr-{number:02}":GRADE11_TR_BANKS[number][0] for number in range(1,8)},

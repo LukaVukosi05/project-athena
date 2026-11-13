@@ -1,9 +1,11 @@
 # Grade 11 Mathematics: source and implementation plan
 
-Status: Topics 1–9 have authored runtime previews, source files, whiteboard
+Status: Topics 1–10 have authored runtime previews, source files, whiteboard
 timelines and assessment banks. They remain teacher-review-required. Browser
 acceptance and teacher approval have not been recorded; do not label them
-published. Topics 10–12 remain plans, not interactive lessons.
+published. Topics 11–12 remain plans, not interactive lessons.
+
+Topic 10 has six finance lessons with original questions and staged amount, exchange and rate models. Rounding, quote direction, hire-purchase conventions and final verification require teacher and browser acceptance.
 
 Topic 9 has seven original Probability lessons covering relative frequency,
 two- and three-event Venn diagrams, independent events, dependent draws,

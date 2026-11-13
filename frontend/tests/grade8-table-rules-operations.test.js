@@ -10,7 +10,7 @@ const source=fs.readFileSync(path.join(root,'frontend/js/whiteboard/animation-re
 const lesson=JSON.parse(fs.readFileSync(path.join(root,'backend/app/curriculum/grade8/generated/functions_relationships_03.json'),'utf8'));
 
 test('the served page requests a fresh registry that resolves every Lesson 3 operation',()=>{
-  assert.match(page,/js\/whiteboard\/animation-registry\.js\?v=math-whiteboard-v19/);
+  assert.match(page,/js\/whiteboard\/animation-registry\.js\?v=math-whiteboard-v20/);
   const context=vm.createContext({});
   vm.runInContext(source,context);
   for(const question of lesson.worked_examples){

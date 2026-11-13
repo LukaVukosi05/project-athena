@@ -2,7 +2,7 @@ const assert=require("assert"),fs=require("fs"),vm=require("vm"),path=require("p
 vm.runInThisContext(fs.readFileSync(path.join(__dirname,"../js/whiteboard/animation-registry.js"),"utf8"));
 
 const lessonPage=fs.readFileSync(path.join(__dirname,"../lesson.html"),"utf8");
-assert(lessonPage.includes('js/whiteboard/animation-registry.js?v=math-whiteboard-v19'),"Lesson page must request the registry version containing table-rule operations");
+assert(lessonPage.includes('js/whiteboard/animation-registry.js?v=math-whiteboard-v20'),"Lesson page must request the registry version containing table-rule operations");
 for (const template of ["factor_array","sign_grid","area_product","power_stack","area_comparison"]) {
   const operation=`${template}_step`;
   const renderer=AthenaWhiteboardRegistry.resolve(operation);
