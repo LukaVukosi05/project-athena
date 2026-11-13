@@ -183,6 +183,13 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     for hidden in ("r","s"):
                         givens.pop(hidden,None)
                     scene["visual"]={"family":"grade11_equations","values":givens}
+                elif lesson.id.startswith("g11-ag-"):
+                    givens=dict(scene["visual"]["values"])
+                    for hidden in ("length", "m", "c", "target_m", "base_m", "theta", "dx", "dy"):
+                        givens.pop(hidden,None)
+                    if givens.get("mode")=="midpoint":
+                        givens.pop("b" if givens.get("missing") else "mid",None)
+                    scene["visual"]={"family":"grade11_analytical","values":givens}
                 elif lesson.id.startswith("g11-euc-"):
                     givens=dict(scene["visual"]["values"])
                     for hidden in ("half", "tangent"):

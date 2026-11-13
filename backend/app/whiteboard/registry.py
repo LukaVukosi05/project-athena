@@ -240,3 +240,7 @@ for _pyth_family in ("square_areas","hypotenuse","missing_leg","converse","appli
 for _grade11_euc_number in range(1,9):
     registry.register(f"grade11_euc_{_grade11_euc_number}_step", f"grade11_euc_{_grade11_euc_number}",
         lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))
+
+for _grade11_ag_number in range(1,7):
+    registry.register(f"grade11_ag_{_grade11_ag_number}_step", f"grade11_ag_{_grade11_ag_number}",
+        lambda step: bool(step.events and step.visualization_state and step.before_expression != step.after_expression))

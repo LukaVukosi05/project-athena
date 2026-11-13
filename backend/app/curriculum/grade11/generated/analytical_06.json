@@ -1,0 +1,853 @@
+{
+  "source": "grade11-ag-lesson-06.md",
+  "worked": [
+    {
+      "id": "g11-ag-l06-w01",
+      "lesson": 6,
+      "problem": "A line through P(-3, -1) has gradient m = √3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 30°",
+      "actions": [
+        "Plot P(-3, -1) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3/3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 30°, giving θ = 30° in the required interval.",
+        "Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            -3,
+            -1
+          ],
+          "theta": 30,
+          "m": "√3/3"
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-ag-l06-w02",
+      "lesson": 6,
+      "problem": "A line through P(0, 4) has gradient m = 1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 45°",
+      "actions": [
+        "Plot P(0, 4) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = 1. The sign places the line in the acute inclination sector.",
+        "The reference angle is 45°, giving θ = 45° in the required interval.",
+        "Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            0,
+            4
+          ],
+          "theta": 45,
+          "m": "1"
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-ag-l06-w03",
+      "lesson": 6,
+      "problem": "A line through P(3, -4) has gradient m = √3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 60°",
+      "actions": [
+        "Plot P(3, -4) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 60°, giving θ = 60° in the required interval.",
+        "Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            3,
+            -4
+          ],
+          "theta": 60,
+          "m": "√3"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-ag-l06-w04",
+      "lesson": 6,
+      "problem": "A line through P(6, 1) has gradient m = −√3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 120°",
+      "actions": [
+        "Plot P(6, 1) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 60°, giving θ = 120° in the required interval.",
+        "Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            6,
+            1
+          ],
+          "theta": 120,
+          "m": "−√3"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-ag-l06-w05",
+      "lesson": 6,
+      "problem": "A line through P(-4, 6) has gradient m = −1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 135°",
+      "actions": [
+        "Plot P(-4, 6) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −1. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 45°, giving θ = 135° in the required interval.",
+        "Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            -4,
+            6
+          ],
+          "theta": 135,
+          "m": "−1"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-ag-l06-w06",
+      "lesson": 6,
+      "problem": "A line through P(-1, -2) has gradient m = −√3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 150°",
+      "actions": [
+        "Plot P(-1, -2) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3/3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 30°, giving θ = 150° in the required interval.",
+        "Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            -1,
+            -2
+          ],
+          "theta": 150,
+          "m": "−√3/3"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l06-w07",
+      "lesson": 6,
+      "problem": "A line through P(2, 3) has gradient m = √3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 30°",
+      "actions": [
+        "Plot P(2, 3) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3/3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 30°, giving θ = 30° in the required interval.",
+        "Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            2,
+            3
+          ],
+          "theta": 30,
+          "m": "√3/3"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l06-w08",
+      "lesson": 6,
+      "problem": "A line through P(5, -5) has gradient m = 1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 45°",
+      "actions": [
+        "Plot P(5, -5) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = 1. The sign places the line in the acute inclination sector.",
+        "The reference angle is 45°, giving θ = 45° in the required interval.",
+        "Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            5,
+            -5
+          ],
+          "theta": 45,
+          "m": "1"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l06-w09",
+      "lesson": 6,
+      "problem": "A line through P(-5, 0) has gradient m = √3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 60°",
+      "actions": [
+        "Plot P(-5, 0) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 60°, giving θ = 60° in the required interval.",
+        "Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            -5,
+            0
+          ],
+          "theta": 60,
+          "m": "√3"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l06-w10",
+      "lesson": 6,
+      "problem": "A line through P(-2, 5) has gradient m = −√3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 120°",
+      "actions": [
+        "Plot P(-2, 5) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 60°, giving θ = 120° in the required interval.",
+        "Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            -2,
+            5
+          ],
+          "theta": 120,
+          "m": "−√3"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-ag-l06-w11",
+      "lesson": 6,
+      "problem": "A line through P(1, -3) has gradient m = −1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 135°",
+      "actions": [
+        "Plot P(1, -3) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −1. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 45°, giving θ = 135° in the required interval.",
+        "Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            1,
+            -3
+          ],
+          "theta": 135,
+          "m": "−1"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-ag-l06-w12",
+      "lesson": 6,
+      "problem": "A line through P(4, 2) has gradient m = −√3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 150°",
+      "actions": [
+        "Plot P(4, 2) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3/3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 30°, giving θ = 150° in the required interval.",
+        "Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            4,
+            2
+          ],
+          "theta": 150,
+          "m": "−√3/3"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-ag-l06-w13",
+      "lesson": 6,
+      "problem": "A line through P(-6, -6) has gradient m = √3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 30°",
+      "actions": [
+        "Plot P(-6, -6) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3/3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 30°, giving θ = 30° in the required interval.",
+        "Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            -6,
+            -6
+          ],
+          "theta": 30,
+          "m": "√3/3"
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-ag-l06-w14",
+      "lesson": 6,
+      "problem": "A line through P(-3, -1) has gradient m = 1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 45°",
+      "actions": [
+        "Plot P(-3, -1) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = 1. The sign places the line in the acute inclination sector.",
+        "The reference angle is 45°, giving θ = 45° in the required interval.",
+        "Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            -3,
+            -1
+          ],
+          "theta": 45,
+          "m": "1"
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-ag-l06-w15",
+      "lesson": 6,
+      "problem": "A line through P(0, 4) has gradient m = √3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "answer": "θ = 60°",
+      "actions": [
+        "Plot P(0, 4) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 60°, giving θ = 60° in the required interval.",
+        "Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction."
+      ],
+      "check": "Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "inclination",
+          "p": [
+            0,
+            4
+          ],
+          "theta": 60,
+          "m": "√3"
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-ag-l06-p01",
+      "prompt": "A line through P(3, -4) has gradient m = −√3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 240°",
+        "θ = 90°",
+        "θ = 120°",
+        "θ = 60°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot P(3, -4) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 60°, giving θ = 120° in the required interval.",
+        "Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(3, -4) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector. The reference angle is 60°, giving θ = 120° in the required interval. Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p02",
+      "prompt": "A line through P(6, 1) has gradient m = −1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 90°",
+        "θ = 135°",
+        "θ = 45°",
+        "θ = 225°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot P(6, 1) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −1. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 45°, giving θ = 135° in the required interval.",
+        "Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(6, 1) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −1. The sign places the line in the obtuse inclination sector. The reference angle is 45°, giving θ = 135° in the required interval. Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p03",
+      "prompt": "A line through P(-4, 6) has gradient m = −√3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 150°",
+        "θ = 30°",
+        "θ = 210°",
+        "θ = 90°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot P(-4, 6) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3/3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 30°, giving θ = 150° in the required interval.",
+        "Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(-4, 6) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −√3/3. The sign places the line in the obtuse inclination sector. The reference angle is 30°, giving θ = 150° in the required interval. Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p04",
+      "prompt": "A line through P(-1, -2) has gradient m = √3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 150°",
+        "θ = 330°",
+        "θ = 90°",
+        "θ = 30°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot P(-1, -2) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3/3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 30°, giving θ = 30° in the required interval.",
+        "Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(-1, -2) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = √3/3. The sign places the line in the acute inclination sector. The reference angle is 30°, giving θ = 30° in the required interval. Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p05",
+      "prompt": "A line through P(2, 3) has gradient m = 1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 315°",
+        "θ = 90°",
+        "θ = 45°",
+        "θ = 135°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot P(2, 3) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = 1. The sign places the line in the acute inclination sector.",
+        "The reference angle is 45°, giving θ = 45° in the required interval.",
+        "Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(2, 3) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = 1. The sign places the line in the acute inclination sector. The reference angle is 45°, giving θ = 45° in the required interval. Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p06",
+      "prompt": "A line through P(5, -5) has gradient m = √3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 90°",
+        "θ = 60°",
+        "θ = 120°",
+        "θ = 300°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot P(5, -5) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 60°, giving θ = 60° in the required interval.",
+        "Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(5, -5) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = √3. The sign places the line in the acute inclination sector. The reference angle is 60°, giving θ = 60° in the required interval. Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p07",
+      "prompt": "A line through P(-5, 0) has gradient m = −√3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 120°",
+        "θ = 60°",
+        "θ = 240°",
+        "θ = 90°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot P(-5, 0) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 60°, giving θ = 120° in the required interval.",
+        "Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(-5, 0) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector. The reference angle is 60°, giving θ = 120° in the required interval. Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p08",
+      "prompt": "A line through P(-2, 5) has gradient m = −1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 45°",
+        "θ = 225°",
+        "θ = 90°",
+        "θ = 135°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot P(-2, 5) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −1. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 45°, giving θ = 135° in the required interval.",
+        "Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(-2, 5) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −1. The sign places the line in the obtuse inclination sector. The reference angle is 45°, giving θ = 135° in the required interval. Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p09",
+      "prompt": "A line through P(1, -3) has gradient m = −√3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 210°",
+        "θ = 90°",
+        "θ = 150°",
+        "θ = 30°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot P(1, -3) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3/3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 30°, giving θ = 150° in the required interval.",
+        "Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(1, -3) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −√3/3. The sign places the line in the obtuse inclination sector. The reference angle is 30°, giving θ = 150° in the required interval. Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p10",
+      "prompt": "A line through P(4, 2) has gradient m = √3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 90°",
+        "θ = 30°",
+        "θ = 150°",
+        "θ = 330°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot P(4, 2) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3/3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 30°, giving θ = 30° in the required interval.",
+        "Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(4, 2) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = √3/3. The sign places the line in the acute inclination sector. The reference angle is 30°, giving θ = 30° in the required interval. Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p11",
+      "prompt": "A line through P(-6, -6) has gradient m = 1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 45°",
+        "θ = 135°",
+        "θ = 315°",
+        "θ = 90°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot P(-6, -6) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = 1. The sign places the line in the acute inclination sector.",
+        "The reference angle is 45°, giving θ = 45° in the required interval.",
+        "Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(-6, -6) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = 1. The sign places the line in the acute inclination sector. The reference angle is 45°, giving θ = 45° in the required interval. Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p12",
+      "prompt": "A line through P(-3, -1) has gradient m = √3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 120°",
+        "θ = 300°",
+        "θ = 90°",
+        "θ = 60°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot P(-3, -1) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 60°, giving θ = 60° in the required interval.",
+        "Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(-3, -1) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = √3. The sign places the line in the acute inclination sector. The reference angle is 60°, giving θ = 60° in the required interval. Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p13",
+      "prompt": "A line through P(0, 4) has gradient m = −√3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 240°",
+        "θ = 90°",
+        "θ = 120°",
+        "θ = 60°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot P(0, 4) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 60°, giving θ = 120° in the required interval.",
+        "Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(0, 4) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector. The reference angle is 60°, giving θ = 120° in the required interval. Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p14",
+      "prompt": "A line through P(3, -4) has gradient m = −1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 90°",
+        "θ = 135°",
+        "θ = 45°",
+        "θ = 225°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot P(3, -4) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −1. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 45°, giving θ = 135° in the required interval.",
+        "Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(3, -4) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −1. The sign places the line in the obtuse inclination sector. The reference angle is 45°, giving θ = 135° in the required interval. Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-p15",
+      "prompt": "A line through P(6, 1) has gradient m = −√3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 150°",
+        "θ = 30°",
+        "θ = 210°",
+        "θ = 90°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot P(6, 1) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3/3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 30°, giving θ = 150° in the required interval.",
+        "Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(6, 1) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −√3/3. The sign places the line in the obtuse inclination sector. The reference angle is 30°, giving θ = 150° in the required interval. Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-ag-l06-m01",
+      "prompt": "A line through P(-4, 6) has gradient m = √3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 90°",
+        "θ = 30°",
+        "θ = 150°",
+        "θ = 330°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot P(-4, 6) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3/3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 30°, giving θ = 30° in the required interval.",
+        "Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(-4, 6) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = √3/3. The sign places the line in the acute inclination sector. The reference angle is 30°, giving θ = 30° in the required interval. Answer: θ = 30°. Check: tan(30°) = √3/3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-m02",
+      "prompt": "A line through P(-1, -2) has gradient m = 1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 45°",
+        "θ = 135°",
+        "θ = 315°",
+        "θ = 90°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot P(-1, -2) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = 1. The sign places the line in the acute inclination sector.",
+        "The reference angle is 45°, giving θ = 45° in the required interval.",
+        "Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(-1, -2) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = 1. The sign places the line in the acute inclination sector. The reference angle is 45°, giving θ = 45° in the required interval. Answer: θ = 45°. Check: tan(45°) = 1 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-m03",
+      "prompt": "A line through P(2, 3) has gradient m = √3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 120°",
+        "θ = 300°",
+        "θ = 90°",
+        "θ = 60°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot P(2, 3) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = √3. The sign places the line in the acute inclination sector.",
+        "The reference angle is 60°, giving θ = 60° in the required interval.",
+        "Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(2, 3) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = √3. The sign places the line in the acute inclination sector. The reference angle is 60°, giving θ = 60° in the required interval. Answer: θ = 60°. Check: tan(60°) = √3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-m04",
+      "prompt": "A line through P(5, -5) has gradient m = −√3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 240°",
+        "θ = 90°",
+        "θ = 120°",
+        "θ = 60°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot P(5, -5) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 60°, giving θ = 120° in the required interval.",
+        "Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(5, -5) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector. The reference angle is 60°, giving θ = 120° in the required interval. Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-m05",
+      "prompt": "A line through P(-5, 0) has gradient m = −1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 90°",
+        "θ = 135°",
+        "θ = 45°",
+        "θ = 225°"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot P(-5, 0) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −1. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 45°, giving θ = 135° in the required interval.",
+        "Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(-5, 0) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −1. The sign places the line in the obtuse inclination sector. The reference angle is 45°, giving θ = 135° in the required interval. Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-ag-l06-r01",
+      "prompt": "A line through P(2, 3) has gradient m = −√3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 120°",
+        "θ = 60°",
+        "θ = 240°",
+        "θ = 90°"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot P(2, 3) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 60°, giving θ = 120° in the required interval.",
+        "Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(2, 3) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −√3. The sign places the line in the obtuse inclination sector. The reference angle is 60°, giving θ = 120° in the required interval. Answer: θ = 120°. Check: tan(120°) = −√3 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-r02",
+      "prompt": "A line through P(5, -5) has gradient m = −1. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 45°",
+        "θ = 225°",
+        "θ = 90°",
+        "θ = 135°"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot P(5, -5) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −1. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 45°, giving θ = 135° in the required interval.",
+        "Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(5, -5) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −1. The sign places the line in the obtuse inclination sector. The reference angle is 45°, giving θ = 135° in the required interval. Answer: θ = 135°. Check: tan(135°) = −1 and the plotted line has the matching direction."
+    },
+    {
+      "id": "g11-ag-l06-r03",
+      "prompt": "A line through P(-5, 0) has gradient m = −√3/3. Determine its inclination θ, 0° ≤ θ < 180°.",
+      "options": [
+        "θ = 210°",
+        "θ = 90°",
+        "θ = 150°",
+        "θ = 30°"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot P(-5, 0) and a horizontal positive x-direction through it.",
+        "Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°.",
+        "Use m = tan θ = −√3/3. The sign places the line in the obtuse inclination sector.",
+        "The reference angle is 30°, giving θ = 150° in the required interval.",
+        "Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction."
+      ],
+      "memo": "Plot P(-5, 0) and a horizontal positive x-direction through it. Inclination θ is measured anticlockwise from the positive x-direction, with 0° ≤ θ < 180°. Use m = tan θ = −√3/3. The sign places the line in the obtuse inclination sector. The reference angle is 30°, giving θ = 150° in the required interval. Answer: θ = 150°. Check: tan(150°) = −√3/3 and the plotted line has the matching direction."
+    }
+  ]
+}

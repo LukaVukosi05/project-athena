@@ -1,9 +1,15 @@
 # Grade 11 Mathematics: source and implementation plan
 
-Status: Topics 1–4 have authored runtime previews, source files, whiteboard
+Status: Topics 1–5 have authored runtime previews, source files, whiteboard
 timelines and assessment banks. They remain teacher-review-required. Browser
 acceptance and teacher approval have not been recorded; do not label them
-published. Topics 5–12 remain plans, not interactive lessons.
+published. Topics 6–12 remain plans, not interactive lessons.
+
+Topic 5 has six original coordinate lessons with plotted points, staged
+constructions and assessment banks. Mathematical correctness is checked by
+independent coordinate arithmetic. Actual desktop/mobile browser acceptance
+and teacher review are still required. The lesson progression should be
+checked against real Grade 11 assessment papers before release.
 
 Topic 4's eight lessons currently teach numerical circle-theorem applications
 and combined riders. Formal theorem proofs, all available converses, and

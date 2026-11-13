@@ -1,0 +1,958 @@
+{
+  "source": "grade11-ag-lesson-03.md",
+  "worked": [
+    {
+      "id": "g11-ag-l03-w01",
+      "lesson": 3,
+      "problem": "Find the midpoint M of A(-3, -1) and B(0, 3).",
+      "answer": "M(-3/2, 1)",
+      "actions": [
+        "Plot endpoints A(-3, -1) and B(0, 3).",
+        "Add the x-coordinates: -3 + (0) = -3.",
+        "Add the y-coordinates: -1 + (3) = 2.",
+        "Divide each sum by 2: M = (-3/2, 2/2).",
+        "Answer: M(-3/2, 1). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "check": "Answer: M(-3/2, 1). Check: the horizontal and vertical offsets from A to M each equal those from M to B.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            -3,
+            -1
+          ],
+          "b": [
+            0,
+            3
+          ],
+          "mid": [
+            "-3/2",
+            "1"
+          ],
+          "missing": false
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-ag-l03-w02",
+      "lesson": 3,
+      "problem": "A(0, 4) and M(2, 7) are an endpoint and midpoint of AB. Find B.",
+      "answer": "B(4, 10)",
+      "actions": [
+        "Plot A(0, 4) and midpoint M(2, 7); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(2) − (0) = 4.",
+        "Solve By = 2(7) − (4) = 10.",
+        "Answer: B(4, 10). Check: midpoint of A(0, 4) and B(4, 10) is M(2, 7)."
+      ],
+      "check": "Answer: B(4, 10). Check: midpoint of A(0, 4) and B(4, 10) is M(2, 7).",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            0,
+            4
+          ],
+          "b": [
+            4,
+            10
+          ],
+          "mid": [
+            "2",
+            "7"
+          ],
+          "missing": true
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-ag-l03-w03",
+      "lesson": 3,
+      "problem": "Find the midpoint M of A(3, -4) and B(8, -12).",
+      "answer": "M(11/2, -8)",
+      "actions": [
+        "Plot endpoints A(3, -4) and B(8, -12).",
+        "Add the x-coordinates: 3 + (8) = 11.",
+        "Add the y-coordinates: -4 + (-12) = -16.",
+        "Divide each sum by 2: M = (11/2, -16/2).",
+        "Answer: M(11/2, -8). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "check": "Answer: M(11/2, -8). Check: the horizontal and vertical offsets from A to M each equal those from M to B.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            3,
+            -4
+          ],
+          "b": [
+            8,
+            -12
+          ],
+          "mid": [
+            "11/2",
+            "-8"
+          ],
+          "missing": false
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-ag-l03-w04",
+      "lesson": 3,
+      "problem": "A(6, 1) and M(7, 5/2) are an endpoint and midpoint of AB. Find B.",
+      "answer": "B(8, 4)",
+      "actions": [
+        "Plot A(6, 1) and midpoint M(7, 5/2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(7) − (6) = 8.",
+        "Solve By = 2(5/2) − (1) = 4.",
+        "Answer: B(8, 4). Check: midpoint of A(6, 1) and B(8, 4) is M(7, 5/2)."
+      ],
+      "check": "Answer: B(8, 4). Check: midpoint of A(6, 1) and B(8, 4) is M(7, 5/2).",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            6,
+            1
+          ],
+          "b": [
+            8,
+            4
+          ],
+          "mid": [
+            "7",
+            "5/2"
+          ],
+          "missing": true
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-ag-l03-w05",
+      "lesson": 3,
+      "problem": "Find the midpoint M of A(-4, 6) and B(-1, 11).",
+      "answer": "M(-5/2, 17/2)",
+      "actions": [
+        "Plot endpoints A(-4, 6) and B(-1, 11).",
+        "Add the x-coordinates: -4 + (-1) = -5.",
+        "Add the y-coordinates: 6 + (11) = 17.",
+        "Divide each sum by 2: M = (-5/2, 17/2).",
+        "Answer: M(-5/2, 17/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "check": "Answer: M(-5/2, 17/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            -4,
+            6
+          ],
+          "b": [
+            -1,
+            11
+          ],
+          "mid": [
+            "-5/2",
+            "17/2"
+          ],
+          "missing": false
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-ag-l03-w06",
+      "lesson": 3,
+      "problem": "A(-1, -2) and M(1, -11/2) are an endpoint and midpoint of AB. Find B.",
+      "answer": "B(3, -9)",
+      "actions": [
+        "Plot A(-1, -2) and midpoint M(1, -11/2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(1) − (-1) = 3.",
+        "Solve By = 2(-11/2) − (-2) = -9.",
+        "Answer: B(3, -9). Check: midpoint of A(-1, -2) and B(3, -9) is M(1, -11/2)."
+      ],
+      "check": "Answer: B(3, -9). Check: midpoint of A(-1, -2) and B(3, -9) is M(1, -11/2).",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            -1,
+            -2
+          ],
+          "b": [
+            3,
+            -9
+          ],
+          "mid": [
+            "1",
+            "-11/2"
+          ],
+          "missing": true
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l03-w07",
+      "lesson": 3,
+      "problem": "Find the midpoint M of A(2, 3) and B(7, 5).",
+      "answer": "M(9/2, 4)",
+      "actions": [
+        "Plot endpoints A(2, 3) and B(7, 5).",
+        "Add the x-coordinates: 2 + (7) = 9.",
+        "Add the y-coordinates: 3 + (5) = 8.",
+        "Divide each sum by 2: M = (9/2, 8/2).",
+        "Answer: M(9/2, 4). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "check": "Answer: M(9/2, 4). Check: the horizontal and vertical offsets from A to M each equal those from M to B.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            2,
+            3
+          ],
+          "b": [
+            7,
+            5
+          ],
+          "mid": [
+            "9/2",
+            "4"
+          ],
+          "missing": false
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l03-w08",
+      "lesson": 3,
+      "problem": "A(5, -5) and M(6, -3) are an endpoint and midpoint of AB. Find B.",
+      "answer": "B(7, -1)",
+      "actions": [
+        "Plot A(5, -5) and midpoint M(6, -3); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(6) − (5) = 7.",
+        "Solve By = 2(-3) − (-5) = -1.",
+        "Answer: B(7, -1). Check: midpoint of A(5, -5) and B(7, -1) is M(6, -3)."
+      ],
+      "check": "Answer: B(7, -1). Check: midpoint of A(5, -5) and B(7, -1) is M(6, -3).",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            5,
+            -5
+          ],
+          "b": [
+            7,
+            -1
+          ],
+          "mid": [
+            "6",
+            "-3"
+          ],
+          "missing": true
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l03-w09",
+      "lesson": 3,
+      "problem": "Find the midpoint M of A(-5, 0) and B(-2, -6).",
+      "answer": "M(-7/2, -3)",
+      "actions": [
+        "Plot endpoints A(-5, 0) and B(-2, -6).",
+        "Add the x-coordinates: -5 + (-2) = -7.",
+        "Add the y-coordinates: 0 + (-6) = -6.",
+        "Divide each sum by 2: M = (-7/2, -6/2).",
+        "Answer: M(-7/2, -3). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "check": "Answer: M(-7/2, -3). Check: the horizontal and vertical offsets from A to M each equal those from M to B.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            -5,
+            0
+          ],
+          "b": [
+            -2,
+            -6
+          ],
+          "mid": [
+            "-7/2",
+            "-3"
+          ],
+          "missing": false
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l03-w10",
+      "lesson": 3,
+      "problem": "A(-2, 5) and M(0, 9) are an endpoint and midpoint of AB. Find B.",
+      "answer": "B(2, 13)",
+      "actions": [
+        "Plot A(-2, 5) and midpoint M(0, 9); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(0) − (-2) = 2.",
+        "Solve By = 2(9) − (5) = 13.",
+        "Answer: B(2, 13). Check: midpoint of A(-2, 5) and B(2, 13) is M(0, 9)."
+      ],
+      "check": "Answer: B(2, 13). Check: midpoint of A(-2, 5) and B(2, 13) is M(0, 9).",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            -2,
+            5
+          ],
+          "b": [
+            2,
+            13
+          ],
+          "mid": [
+            "0",
+            "9"
+          ],
+          "missing": true
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-ag-l03-w11",
+      "lesson": 3,
+      "problem": "Find the midpoint M of A(1, -3) and B(6, 0).",
+      "answer": "M(7/2, -3/2)",
+      "actions": [
+        "Plot endpoints A(1, -3) and B(6, 0).",
+        "Add the x-coordinates: 1 + (6) = 7.",
+        "Add the y-coordinates: -3 + (0) = -3.",
+        "Divide each sum by 2: M = (7/2, -3/2).",
+        "Answer: M(7/2, -3/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "check": "Answer: M(7/2, -3/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            1,
+            -3
+          ],
+          "b": [
+            6,
+            0
+          ],
+          "mid": [
+            "7/2",
+            "-3/2"
+          ],
+          "missing": false
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-ag-l03-w12",
+      "lesson": 3,
+      "problem": "A(4, 2) and M(5, -1/2) are an endpoint and midpoint of AB. Find B.",
+      "answer": "B(6, -3)",
+      "actions": [
+        "Plot A(4, 2) and midpoint M(5, -1/2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(5) − (4) = 6.",
+        "Solve By = 2(-1/2) − (2) = -3.",
+        "Answer: B(6, -3). Check: midpoint of A(4, 2) and B(6, -3) is M(5, -1/2)."
+      ],
+      "check": "Answer: B(6, -3). Check: midpoint of A(4, 2) and B(6, -3) is M(5, -1/2).",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            4,
+            2
+          ],
+          "b": [
+            6,
+            -3
+          ],
+          "mid": [
+            "5",
+            "-1/2"
+          ],
+          "missing": true
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-ag-l03-w13",
+      "lesson": 3,
+      "problem": "Find the midpoint M of A(-6, -6) and B(-3, 1).",
+      "answer": "M(-9/2, -5/2)",
+      "actions": [
+        "Plot endpoints A(-6, -6) and B(-3, 1).",
+        "Add the x-coordinates: -6 + (-3) = -9.",
+        "Add the y-coordinates: -6 + (1) = -5.",
+        "Divide each sum by 2: M = (-9/2, -5/2).",
+        "Answer: M(-9/2, -5/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "check": "Answer: M(-9/2, -5/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            -6,
+            -6
+          ],
+          "b": [
+            -3,
+            1
+          ],
+          "mid": [
+            "-9/2",
+            "-5/2"
+          ],
+          "missing": false
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-ag-l03-w14",
+      "lesson": 3,
+      "problem": "A(-3, -1) and M(-1, 0) are an endpoint and midpoint of AB. Find B.",
+      "answer": "B(1, 1)",
+      "actions": [
+        "Plot A(-3, -1) and midpoint M(-1, 0); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(-1) − (-3) = 1.",
+        "Solve By = 2(0) − (-1) = 1.",
+        "Answer: B(1, 1). Check: midpoint of A(-3, -1) and B(1, 1) is M(-1, 0)."
+      ],
+      "check": "Answer: B(1, 1). Check: midpoint of A(-3, -1) and B(1, 1) is M(-1, 0).",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            -3,
+            -1
+          ],
+          "b": [
+            1,
+            1
+          ],
+          "mid": [
+            "-1",
+            "0"
+          ],
+          "missing": true
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-ag-l03-w15",
+      "lesson": 3,
+      "problem": "Find the midpoint M of A(0, 4) and B(5, 0).",
+      "answer": "M(5/2, 2)",
+      "actions": [
+        "Plot endpoints A(0, 4) and B(5, 0).",
+        "Add the x-coordinates: 0 + (5) = 5.",
+        "Add the y-coordinates: 4 + (0) = 4.",
+        "Divide each sum by 2: M = (5/2, 4/2).",
+        "Answer: M(5/2, 2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "check": "Answer: M(5/2, 2). Check: the horizontal and vertical offsets from A to M each equal those from M to B.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "midpoint",
+          "a": [
+            0,
+            4
+          ],
+          "b": [
+            5,
+            0
+          ],
+          "mid": [
+            "5/2",
+            "2"
+          ],
+          "missing": false
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-ag-l03-p01",
+      "prompt": "A(3, -4) and M(4, -1) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(2, 5)",
+        "B(8, -2)",
+        "B(5, 2)",
+        "B(4, -1)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot A(3, -4) and midpoint M(4, -1); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(4) − (3) = 5.",
+        "Solve By = 2(-1) − (-4) = 2.",
+        "Answer: B(5, 2). Check: midpoint of A(3, -4) and B(5, 2) is M(4, -1)."
+      ],
+      "memo": "Plot A(3, -4) and midpoint M(4, -1); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(4) − (3) = 5. Solve By = 2(-1) − (-4) = 2. Answer: B(5, 2). Check: midpoint of A(3, -4) and B(5, 2) is M(4, -1)."
+    },
+    {
+      "id": "g11-ag-l03-p02",
+      "prompt": "Find the midpoint M of A(6, 1) and B(9, 9).",
+      "options": [
+        "M(6, 1)",
+        "M(15/2, 5)",
+        "M(15, 10)",
+        "M(5, 15/2)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot endpoints A(6, 1) and B(9, 9).",
+        "Add the x-coordinates: 6 + (9) = 15.",
+        "Add the y-coordinates: 1 + (9) = 10.",
+        "Divide each sum by 2: M = (15/2, 10/2).",
+        "Answer: M(15/2, 5). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "memo": "Plot endpoints A(6, 1) and B(9, 9). Add the x-coordinates: 6 + (9) = 15. Add the y-coordinates: 1 + (9) = 10. Divide each sum by 2: M = (15/2, 10/2). Answer: M(15/2, 5). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+    },
+    {
+      "id": "g11-ag-l03-p03",
+      "prompt": "A(-4, 6) and M(-2, 9/2) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(0, 3)",
+        "B(-2, 9/2)",
+        "B(3, 0)",
+        "B(-4, 9)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot A(-4, 6) and midpoint M(-2, 9/2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(-2) − (-4) = 0.",
+        "Solve By = 2(9/2) − (6) = 3.",
+        "Answer: B(0, 3). Check: midpoint of A(-4, 6) and B(0, 3) is M(-2, 9/2)."
+      ],
+      "memo": "Plot A(-4, 6) and midpoint M(-2, 9/2); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(-2) − (-4) = 0. Solve By = 2(9/2) − (6) = 3. Answer: B(0, 3). Check: midpoint of A(-4, 6) and B(0, 3) is M(-2, 9/2)."
+    },
+    {
+      "id": "g11-ag-l03-p04",
+      "prompt": "Find the midpoint M of A(-1, -2) and B(4, 3).",
+      "options": [
+        "M(3, 1)",
+        "M(1/2, 3/2)",
+        "M(-1, -2)",
+        "M(3/2, 1/2)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot endpoints A(-1, -2) and B(4, 3).",
+        "Add the x-coordinates: -1 + (4) = 3.",
+        "Add the y-coordinates: -2 + (3) = 1.",
+        "Divide each sum by 2: M = (3/2, 1/2).",
+        "Answer: M(3/2, 1/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "memo": "Plot endpoints A(-1, -2) and B(4, 3). Add the x-coordinates: -1 + (4) = 3. Add the y-coordinates: -2 + (3) = 1. Divide each sum by 2: M = (3/2, 1/2). Answer: M(3/2, 1/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+    },
+    {
+      "id": "g11-ag-l03-p05",
+      "prompt": "A(2, 3) and M(3, 13/2) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(10, 4)",
+        "B(6, 13)",
+        "B(4, 10)",
+        "B(3, 13/2)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot A(2, 3) and midpoint M(3, 13/2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(3) − (2) = 4.",
+        "Solve By = 2(13/2) − (3) = 10.",
+        "Answer: B(4, 10). Check: midpoint of A(2, 3) and B(4, 10) is M(3, 13/2)."
+      ],
+      "memo": "Plot A(2, 3) and midpoint M(3, 13/2); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(3) − (2) = 4. Solve By = 2(13/2) − (3) = 10. Answer: B(4, 10). Check: midpoint of A(2, 3) and B(4, 10) is M(3, 13/2)."
+    },
+    {
+      "id": "g11-ag-l03-p06",
+      "prompt": "Find the midpoint M of A(5, -5) and B(8, -7).",
+      "options": [
+        "M(5, -5)",
+        "M(13/2, -6)",
+        "M(13, -12)",
+        "M(-6, 13/2)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot endpoints A(5, -5) and B(8, -7).",
+        "Add the x-coordinates: 5 + (8) = 13.",
+        "Add the y-coordinates: -5 + (-7) = -12.",
+        "Divide each sum by 2: M = (13/2, -12/2).",
+        "Answer: M(13/2, -6). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "memo": "Plot endpoints A(5, -5) and B(8, -7). Add the x-coordinates: 5 + (8) = 13. Add the y-coordinates: -5 + (-7) = -12. Divide each sum by 2: M = (13/2, -12/2). Answer: M(13/2, -6). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+    },
+    {
+      "id": "g11-ag-l03-p07",
+      "prompt": "A(-5, 0) and M(-3, 2) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(-1, 4)",
+        "B(-3, 2)",
+        "B(4, -1)",
+        "B(-6, 4)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot A(-5, 0) and midpoint M(-3, 2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(-3) − (-5) = -1.",
+        "Solve By = 2(2) − (0) = 4.",
+        "Answer: B(-1, 4). Check: midpoint of A(-5, 0) and B(-1, 4) is M(-3, 2)."
+      ],
+      "memo": "Plot A(-5, 0) and midpoint M(-3, 2); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(-3) − (-5) = -1. Solve By = 2(2) − (0) = 4. Answer: B(-1, 4). Check: midpoint of A(-5, 0) and B(-1, 4) is M(-3, 2)."
+    },
+    {
+      "id": "g11-ag-l03-p08",
+      "prompt": "Find the midpoint M of A(-2, 5) and B(3, 11).",
+      "options": [
+        "M(1, 16)",
+        "M(8, 1/2)",
+        "M(-2, 5)",
+        "M(1/2, 8)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot endpoints A(-2, 5) and B(3, 11).",
+        "Add the x-coordinates: -2 + (3) = 1.",
+        "Add the y-coordinates: 5 + (11) = 16.",
+        "Divide each sum by 2: M = (1/2, 16/2).",
+        "Answer: M(1/2, 8). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "memo": "Plot endpoints A(-2, 5) and B(3, 11). Add the x-coordinates: -2 + (3) = 1. Add the y-coordinates: 5 + (11) = 16. Divide each sum by 2: M = (1/2, 16/2). Answer: M(1/2, 8). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+    },
+    {
+      "id": "g11-ag-l03-p09",
+      "prompt": "A(1, -3) and M(2, -7) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(-11, 3)",
+        "B(4, -14)",
+        "B(3, -11)",
+        "B(2, -7)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot A(1, -3) and midpoint M(2, -7); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(2) − (1) = 3.",
+        "Solve By = 2(-7) − (-3) = -11.",
+        "Answer: B(3, -11). Check: midpoint of A(1, -3) and B(3, -11) is M(2, -7)."
+      ],
+      "memo": "Plot A(1, -3) and midpoint M(2, -7); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(2) − (1) = 3. Solve By = 2(-7) − (-3) = -11. Answer: B(3, -11). Check: midpoint of A(1, -3) and B(3, -11) is M(2, -7)."
+    },
+    {
+      "id": "g11-ag-l03-p10",
+      "prompt": "Find the midpoint M of A(4, 2) and B(7, 5).",
+      "options": [
+        "M(4, 2)",
+        "M(11/2, 7/2)",
+        "M(11, 7)",
+        "M(7/2, 11/2)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot endpoints A(4, 2) and B(7, 5).",
+        "Add the x-coordinates: 4 + (7) = 11.",
+        "Add the y-coordinates: 2 + (5) = 7.",
+        "Divide each sum by 2: M = (11/2, 7/2).",
+        "Answer: M(11/2, 7/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "memo": "Plot endpoints A(4, 2) and B(7, 5). Add the x-coordinates: 4 + (7) = 11. Add the y-coordinates: 2 + (5) = 7. Divide each sum by 2: M = (11/2, 7/2). Answer: M(11/2, 7/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+    },
+    {
+      "id": "g11-ag-l03-p11",
+      "prompt": "A(-6, -6) and M(-4, -7/2) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(-2, -1)",
+        "B(-4, -7/2)",
+        "B(-1, -2)",
+        "B(-8, -7)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot A(-6, -6) and midpoint M(-4, -7/2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(-4) − (-6) = -2.",
+        "Solve By = 2(-7/2) − (-6) = -1.",
+        "Answer: B(-2, -1). Check: midpoint of A(-6, -6) and B(-2, -1) is M(-4, -7/2)."
+      ],
+      "memo": "Plot A(-6, -6) and midpoint M(-4, -7/2); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(-4) − (-6) = -2. Solve By = 2(-7/2) − (-6) = -1. Answer: B(-2, -1). Check: midpoint of A(-6, -6) and B(-2, -1) is M(-4, -7/2)."
+    },
+    {
+      "id": "g11-ag-l03-p12",
+      "prompt": "Find the midpoint M of A(-3, -1) and B(2, -8).",
+      "options": [
+        "M(-1, -9)",
+        "M(-9/2, -1/2)",
+        "M(-3, -1)",
+        "M(-1/2, -9/2)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot endpoints A(-3, -1) and B(2, -8).",
+        "Add the x-coordinates: -3 + (2) = -1.",
+        "Add the y-coordinates: -1 + (-8) = -9.",
+        "Divide each sum by 2: M = (-1/2, -9/2).",
+        "Answer: M(-1/2, -9/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "memo": "Plot endpoints A(-3, -1) and B(2, -8). Add the x-coordinates: -3 + (2) = -1. Add the y-coordinates: -1 + (-8) = -9. Divide each sum by 2: M = (-1/2, -9/2). Answer: M(-1/2, -9/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+    },
+    {
+      "id": "g11-ag-l03-p13",
+      "prompt": "A(0, 4) and M(1, 5) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(6, 2)",
+        "B(2, 10)",
+        "B(2, 6)",
+        "B(1, 5)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot A(0, 4) and midpoint M(1, 5); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(1) − (0) = 2.",
+        "Solve By = 2(5) − (4) = 6.",
+        "Answer: B(2, 6). Check: midpoint of A(0, 4) and B(2, 6) is M(1, 5)."
+      ],
+      "memo": "Plot A(0, 4) and midpoint M(1, 5); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(1) − (0) = 2. Solve By = 2(5) − (4) = 6. Answer: B(2, 6). Check: midpoint of A(0, 4) and B(2, 6) is M(1, 5)."
+    },
+    {
+      "id": "g11-ag-l03-p14",
+      "prompt": "Find the midpoint M of A(3, -4) and B(6, 0).",
+      "options": [
+        "M(3, -4)",
+        "M(9/2, -2)",
+        "M(9, -4)",
+        "M(-2, 9/2)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot endpoints A(3, -4) and B(6, 0).",
+        "Add the x-coordinates: 3 + (6) = 9.",
+        "Add the y-coordinates: -4 + (0) = -4.",
+        "Divide each sum by 2: M = (9/2, -4/2).",
+        "Answer: M(9/2, -2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "memo": "Plot endpoints A(3, -4) and B(6, 0). Add the x-coordinates: 3 + (6) = 9. Add the y-coordinates: -4 + (0) = -4. Divide each sum by 2: M = (9/2, -4/2). Answer: M(9/2, -2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+    },
+    {
+      "id": "g11-ag-l03-p15",
+      "prompt": "A(6, 1) and M(8, -2) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(10, -5)",
+        "B(8, -2)",
+        "B(-5, 10)",
+        "B(16, -4)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot A(6, 1) and midpoint M(8, -2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(8) − (6) = 10.",
+        "Solve By = 2(-2) − (1) = -5.",
+        "Answer: B(10, -5). Check: midpoint of A(6, 1) and B(10, -5) is M(8, -2)."
+      ],
+      "memo": "Plot A(6, 1) and midpoint M(8, -2); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(8) − (6) = 10. Solve By = 2(-2) − (1) = -5. Answer: B(10, -5). Check: midpoint of A(6, 1) and B(10, -5) is M(8, -2)."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-ag-l03-m01",
+      "prompt": "Find the midpoint M of A(-4, 6) and B(1, 14).",
+      "options": [
+        "M(-4, 6)",
+        "M(-3/2, 10)",
+        "M(-3, 20)",
+        "M(10, -3/2)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot endpoints A(-4, 6) and B(1, 14).",
+        "Add the x-coordinates: -4 + (1) = -3.",
+        "Add the y-coordinates: 6 + (14) = 20.",
+        "Divide each sum by 2: M = (-3/2, 20/2).",
+        "Answer: M(-3/2, 10). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "memo": "Plot endpoints A(-4, 6) and B(1, 14). Add the x-coordinates: -4 + (1) = -3. Add the y-coordinates: 6 + (14) = 20. Divide each sum by 2: M = (-3/2, 20/2). Answer: M(-3/2, 10). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+    },
+    {
+      "id": "g11-ag-l03-m02",
+      "prompt": "A(-1, -2) and M(0, -1/2) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(1, 1)",
+        "B(0, -1/2)",
+        "B(0, -1)",
+        "B(3, 1)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot A(-1, -2) and midpoint M(0, -1/2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(0) − (-1) = 1.",
+        "Solve By = 2(-1/2) − (-2) = 1.",
+        "Answer: B(1, 1). Check: midpoint of A(-1, -2) and B(1, 1) is M(0, -1/2)."
+      ],
+      "memo": "Plot A(-1, -2) and midpoint M(0, -1/2); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(0) − (-1) = 1. Solve By = 2(-1/2) − (-2) = 1. Answer: B(1, 1). Check: midpoint of A(-1, -2) and B(1, 1) is M(0, -1/2)."
+    },
+    {
+      "id": "g11-ag-l03-m03",
+      "prompt": "Find the midpoint M of A(2, 3) and B(5, -2).",
+      "options": [
+        "M(7, 1)",
+        "M(1/2, 7/2)",
+        "M(2, 3)",
+        "M(7/2, 1/2)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot endpoints A(2, 3) and B(5, -2).",
+        "Add the x-coordinates: 2 + (5) = 7.",
+        "Add the y-coordinates: 3 + (-2) = 1.",
+        "Divide each sum by 2: M = (7/2, 1/2).",
+        "Answer: M(7/2, 1/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "memo": "Plot endpoints A(2, 3) and B(5, -2). Add the x-coordinates: 2 + (5) = 7. Add the y-coordinates: 3 + (-2) = 1. Divide each sum by 2: M = (7/2, 1/2). Answer: M(7/2, 1/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+    },
+    {
+      "id": "g11-ag-l03-m04",
+      "prompt": "A(5, -5) and M(7, -3/2) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(2, 9)",
+        "B(14, -3)",
+        "B(9, 2)",
+        "B(7, -3/2)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot A(5, -5) and midpoint M(7, -3/2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(7) − (5) = 9.",
+        "Solve By = 2(-3/2) − (-5) = 2.",
+        "Answer: B(9, 2). Check: midpoint of A(5, -5) and B(9, 2) is M(7, -3/2)."
+      ],
+      "memo": "Plot A(5, -5) and midpoint M(7, -3/2); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(7) − (5) = 9. Solve By = 2(-3/2) − (-5) = 2. Answer: B(9, 2). Check: midpoint of A(5, -5) and B(9, 2) is M(7, -3/2)."
+    },
+    {
+      "id": "g11-ag-l03-m05",
+      "prompt": "Find the midpoint M of A(-5, 0) and B(0, 2).",
+      "options": [
+        "M(-5, 0)",
+        "M(-5/2, 1)",
+        "M(-5, 2)",
+        "M(1, -5/2)"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot endpoints A(-5, 0) and B(0, 2).",
+        "Add the x-coordinates: -5 + (0) = -5.",
+        "Add the y-coordinates: 0 + (2) = 2.",
+        "Divide each sum by 2: M = (-5/2, 2/2).",
+        "Answer: M(-5/2, 1). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "memo": "Plot endpoints A(-5, 0) and B(0, 2). Add the x-coordinates: -5 + (0) = -5. Add the y-coordinates: 0 + (2) = 2. Divide each sum by 2: M = (-5/2, 2/2). Answer: M(-5/2, 1). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-ag-l03-r01",
+      "prompt": "A(2, 3) and M(4, 9/2) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(6, 6)",
+        "B(4, 9/2)",
+        "B(8, 9)",
+        "B(8, 6)"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot A(2, 3) and midpoint M(4, 9/2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(4) − (2) = 6.",
+        "Solve By = 2(9/2) − (3) = 6.",
+        "Answer: B(6, 6). Check: midpoint of A(2, 3) and B(6, 6) is M(4, 9/2)."
+      ],
+      "memo": "Plot A(2, 3) and midpoint M(4, 9/2); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(4) − (2) = 6. Solve By = 2(9/2) − (3) = 6. Answer: B(6, 6). Check: midpoint of A(2, 3) and B(6, 6) is M(4, 9/2)."
+    },
+    {
+      "id": "g11-ag-l03-r02",
+      "prompt": "Find the midpoint M of A(5, -5) and B(10, 0).",
+      "options": [
+        "M(15, -5)",
+        "M(-5/2, 15/2)",
+        "M(5, -5)",
+        "M(15/2, -5/2)"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot endpoints A(5, -5) and B(10, 0).",
+        "Add the x-coordinates: 5 + (10) = 15.",
+        "Add the y-coordinates: -5 + (0) = -5.",
+        "Divide each sum by 2: M = (15/2, -5/2).",
+        "Answer: M(15/2, -5/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+      ],
+      "memo": "Plot endpoints A(5, -5) and B(10, 0). Add the x-coordinates: 5 + (10) = 15. Add the y-coordinates: -5 + (0) = -5. Divide each sum by 2: M = (15/2, -5/2). Answer: M(15/2, -5/2). Check: the horizontal and vertical offsets from A to M each equal those from M to B."
+    },
+    {
+      "id": "g11-ag-l03-r03",
+      "prompt": "A(-5, 0) and M(-4, -7/2) are an endpoint and midpoint of AB. Find B.",
+      "options": [
+        "B(-7, -3)",
+        "B(-8, -7)",
+        "B(-3, -7)",
+        "B(-4, -7/2)"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot A(-5, 0) and midpoint M(-4, -7/2); leave B unknown.",
+        "The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2.",
+        "Solve Bx = 2(-4) − (-5) = -3.",
+        "Solve By = 2(-7/2) − (0) = -7.",
+        "Answer: B(-3, -7). Check: midpoint of A(-5, 0) and B(-3, -7) is M(-4, -7/2)."
+      ],
+      "memo": "Plot A(-5, 0) and midpoint M(-4, -7/2); leave B unknown. The midpoint formula gives Mx = (Ax + Bx)/2 and My = (Ay + By)/2. Solve Bx = 2(-4) − (-5) = -3. Solve By = 2(-7/2) − (0) = -7. Answer: B(-3, -7). Check: midpoint of A(-5, 0) and B(-3, -7) is M(-4, -7/2)."
+    }
+  ]
+}

@@ -25,10 +25,12 @@ from app.curriculum.grade11.assessment import BANKS as GRADE11_ES_BANKS
 from app.curriculum.grade11.assessment_equations import BANKS as GRADE11_EI_BANKS
 from app.curriculum.grade11.assessment_trigonometry import BANKS as GRADE11_TR_BANKS
 from app.curriculum.grade11.assessment_euclidean import BANKS as GRADE11_EUC_BANKS
+from app.curriculum.grade11.assessment_analytical import BANKS as GRADE11_AG_BANKS
 from app.curriculum.grade8 import assessment_graphs_lesson1, assessment_graphs_lesson2, assessment_graphs_lesson3, assessment_graphs_lesson4, assessment_graphs_lesson5, assessment_graphs_lesson6
 from app.curriculum.grade8 import assessment_expressions, assessment_expressions_lesson2, assessment_expressions_lesson3, assessment_expressions_lesson4, assessment_expressions_lesson5, assessment_expressions_lesson6, assessment_expressions_lesson7, assessment_expressions_lesson8, assessment_expressions_lesson9, assessment_expressions_lesson10
 
 ASSESSMENT_BANKS={
+    **{f"g11-ag-{number:02}":GRADE11_AG_BANKS[number][1:] for number in range(1,7)},
     **{f"g11-euc-{number:02}":GRADE11_EUC_BANKS[number][1:] for number in range(1,9)},
     **{f"g11-tr-{number:02}":GRADE11_TR_BANKS[number][1:] for number in range(1,8)},
     **{f"g11-ei-{number:02}":GRADE11_EI_BANKS[number][1:] for number in range(1,8)},

@@ -1,0 +1,913 @@
+{
+  "source": "grade11-ag-lesson-04.md",
+  "worked": [
+    {
+      "id": "g11-ag-l04-w01",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(-3, -1) and B(0, 3) in y = mx + c form.",
+      "answer": "y = 4/3x + 3",
+      "actions": [
+        "Plot the two given points A(-3, -1) and B(0, 3).",
+        "Find the rise 4 and run 3; m = 4/3 = 4/3.",
+        "Substitute A into y = mx + c: -1 = (4/3)(-3) + c.",
+        "Solve for c: c = -1 − (4/3)(-3) = 3.",
+        "Answer: y = 4/3x + 3. Check: replacing x with 0 gives y = 3."
+      ],
+      "check": "Answer: y = 4/3x + 3. Check: replacing x with 0 gives y = 3.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            -3,
+            -1
+          ],
+          "b": [
+            0,
+            3
+          ],
+          "m": "4/3",
+          "c": "3"
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-ag-l04-w02",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(0, 4) and B(4, 10) in y = mx + c form.",
+      "answer": "y = 3/2x + 4",
+      "actions": [
+        "Plot the two given points A(0, 4) and B(4, 10).",
+        "Find the rise 6 and run 4; m = 6/4 = 3/2.",
+        "Substitute A into y = mx + c: 4 = (3/2)(0) + c.",
+        "Solve for c: c = 4 − (3/2)(0) = 4.",
+        "Answer: y = 3/2x + 4. Check: replacing x with 4 gives y = 10."
+      ],
+      "check": "Answer: y = 3/2x + 4. Check: replacing x with 4 gives y = 10.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            0,
+            4
+          ],
+          "b": [
+            4,
+            10
+          ],
+          "m": "3/2",
+          "c": "4"
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-ag-l04-w03",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(3, -4) and B(8, -12) in y = mx + c form.",
+      "answer": "y = -8/5x + 4/5",
+      "actions": [
+        "Plot the two given points A(3, -4) and B(8, -12).",
+        "Find the rise -8 and run 5; m = -8/5 = -8/5.",
+        "Substitute A into y = mx + c: -4 = (-8/5)(3) + c.",
+        "Solve for c: c = -4 − (-8/5)(3) = 4/5.",
+        "Answer: y = -8/5x + 4/5. Check: replacing x with 8 gives y = -12."
+      ],
+      "check": "Answer: y = -8/5x + 4/5. Check: replacing x with 8 gives y = -12.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            3,
+            -4
+          ],
+          "b": [
+            8,
+            -12
+          ],
+          "m": "-8/5",
+          "c": "4/5"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-ag-l04-w04",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(6, 1) and B(8, 4) in y = mx + c form.",
+      "answer": "y = 3/2x − 8",
+      "actions": [
+        "Plot the two given points A(6, 1) and B(8, 4).",
+        "Find the rise 3 and run 2; m = 3/2 = 3/2.",
+        "Substitute A into y = mx + c: 1 = (3/2)(6) + c.",
+        "Solve for c: c = 1 − (3/2)(6) = -8.",
+        "Answer: y = 3/2x − 8. Check: replacing x with 8 gives y = 4."
+      ],
+      "check": "Answer: y = 3/2x − 8. Check: replacing x with 8 gives y = 4.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            6,
+            1
+          ],
+          "b": [
+            8,
+            4
+          ],
+          "m": "3/2",
+          "c": "-8"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-ag-l04-w05",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(-4, 6) and B(-1, 11) in y = mx + c form.",
+      "answer": "y = 5/3x + 38/3",
+      "actions": [
+        "Plot the two given points A(-4, 6) and B(-1, 11).",
+        "Find the rise 5 and run 3; m = 5/3 = 5/3.",
+        "Substitute A into y = mx + c: 6 = (5/3)(-4) + c.",
+        "Solve for c: c = 6 − (5/3)(-4) = 38/3.",
+        "Answer: y = 5/3x + 38/3. Check: replacing x with -1 gives y = 11."
+      ],
+      "check": "Answer: y = 5/3x + 38/3. Check: replacing x with -1 gives y = 11.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            -4,
+            6
+          ],
+          "b": [
+            -1,
+            11
+          ],
+          "m": "5/3",
+          "c": "38/3"
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-ag-l04-w06",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(-1, -2) and B(3, -9) in y = mx + c form.",
+      "answer": "y = -7/4x − 15/4",
+      "actions": [
+        "Plot the two given points A(-1, -2) and B(3, -9).",
+        "Find the rise -7 and run 4; m = -7/4 = -7/4.",
+        "Substitute A into y = mx + c: -2 = (-7/4)(-1) + c.",
+        "Solve for c: c = -2 − (-7/4)(-1) = -15/4.",
+        "Answer: y = -7/4x − 15/4. Check: replacing x with 3 gives y = -9."
+      ],
+      "check": "Answer: y = -7/4x − 15/4. Check: replacing x with 3 gives y = -9.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            -1,
+            -2
+          ],
+          "b": [
+            3,
+            -9
+          ],
+          "m": "-7/4",
+          "c": "-15/4"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l04-w07",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(2, 3) and B(7, 5) in y = mx + c form.",
+      "answer": "y = 2/5x + 11/5",
+      "actions": [
+        "Plot the two given points A(2, 3) and B(7, 5).",
+        "Find the rise 2 and run 5; m = 2/5 = 2/5.",
+        "Substitute A into y = mx + c: 3 = (2/5)(2) + c.",
+        "Solve for c: c = 3 − (2/5)(2) = 11/5.",
+        "Answer: y = 2/5x + 11/5. Check: replacing x with 7 gives y = 5."
+      ],
+      "check": "Answer: y = 2/5x + 11/5. Check: replacing x with 7 gives y = 5.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            2,
+            3
+          ],
+          "b": [
+            7,
+            5
+          ],
+          "m": "2/5",
+          "c": "11/5"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l04-w08",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(5, -5) and B(7, -1) in y = mx + c form.",
+      "answer": "y = 2x − 15",
+      "actions": [
+        "Plot the two given points A(5, -5) and B(7, -1).",
+        "Find the rise 4 and run 2; m = 4/2 = 2.",
+        "Substitute A into y = mx + c: -5 = (2)(5) + c.",
+        "Solve for c: c = -5 − (2)(5) = -15.",
+        "Answer: y = 2x − 15. Check: replacing x with 7 gives y = -1."
+      ],
+      "check": "Answer: y = 2x − 15. Check: replacing x with 7 gives y = -1.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            5,
+            -5
+          ],
+          "b": [
+            7,
+            -1
+          ],
+          "m": "2",
+          "c": "-15"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l04-w09",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(-5, 0) and B(-2, -6) in y = mx + c form.",
+      "answer": "y = -2x − 10",
+      "actions": [
+        "Plot the two given points A(-5, 0) and B(-2, -6).",
+        "Find the rise -6 and run 3; m = -6/3 = -2.",
+        "Substitute A into y = mx + c: 0 = (-2)(-5) + c.",
+        "Solve for c: c = 0 − (-2)(-5) = -10.",
+        "Answer: y = -2x − 10. Check: replacing x with -2 gives y = -6."
+      ],
+      "check": "Answer: y = -2x − 10. Check: replacing x with -2 gives y = -6.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            -5,
+            0
+          ],
+          "b": [
+            -2,
+            -6
+          ],
+          "m": "-2",
+          "c": "-10"
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-ag-l04-w10",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(-2, 5) and B(2, 13) in y = mx + c form.",
+      "answer": "y = 2x + 9",
+      "actions": [
+        "Plot the two given points A(-2, 5) and B(2, 13).",
+        "Find the rise 8 and run 4; m = 8/4 = 2.",
+        "Substitute A into y = mx + c: 5 = (2)(-2) + c.",
+        "Solve for c: c = 5 − (2)(-2) = 9.",
+        "Answer: y = 2x + 9. Check: replacing x with 2 gives y = 13."
+      ],
+      "check": "Answer: y = 2x + 9. Check: replacing x with 2 gives y = 13.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            -2,
+            5
+          ],
+          "b": [
+            2,
+            13
+          ],
+          "m": "2",
+          "c": "9"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-ag-l04-w11",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(1, -3) and B(6, 0) in y = mx + c form.",
+      "answer": "y = 3/5x − 18/5",
+      "actions": [
+        "Plot the two given points A(1, -3) and B(6, 0).",
+        "Find the rise 3 and run 5; m = 3/5 = 3/5.",
+        "Substitute A into y = mx + c: -3 = (3/5)(1) + c.",
+        "Solve for c: c = -3 − (3/5)(1) = -18/5.",
+        "Answer: y = 3/5x − 18/5. Check: replacing x with 6 gives y = 0."
+      ],
+      "check": "Answer: y = 3/5x − 18/5. Check: replacing x with 6 gives y = 0.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            1,
+            -3
+          ],
+          "b": [
+            6,
+            0
+          ],
+          "m": "3/5",
+          "c": "-18/5"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-ag-l04-w12",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(4, 2) and B(6, -3) in y = mx + c form.",
+      "answer": "y = -5/2x + 12",
+      "actions": [
+        "Plot the two given points A(4, 2) and B(6, -3).",
+        "Find the rise -5 and run 2; m = -5/2 = -5/2.",
+        "Substitute A into y = mx + c: 2 = (-5/2)(4) + c.",
+        "Solve for c: c = 2 − (-5/2)(4) = 12.",
+        "Answer: y = -5/2x + 12. Check: replacing x with 6 gives y = -3."
+      ],
+      "check": "Answer: y = -5/2x + 12. Check: replacing x with 6 gives y = -3.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            4,
+            2
+          ],
+          "b": [
+            6,
+            -3
+          ],
+          "m": "-5/2",
+          "c": "12"
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-ag-l04-w13",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(-6, -6) and B(-3, 1) in y = mx + c form.",
+      "answer": "y = 7/3x + 8",
+      "actions": [
+        "Plot the two given points A(-6, -6) and B(-3, 1).",
+        "Find the rise 7 and run 3; m = 7/3 = 7/3.",
+        "Substitute A into y = mx + c: -6 = (7/3)(-6) + c.",
+        "Solve for c: c = -6 − (7/3)(-6) = 8.",
+        "Answer: y = 7/3x + 8. Check: replacing x with -3 gives y = 1."
+      ],
+      "check": "Answer: y = 7/3x + 8. Check: replacing x with -3 gives y = 1.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            -6,
+            -6
+          ],
+          "b": [
+            -3,
+            1
+          ],
+          "m": "7/3",
+          "c": "8"
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-ag-l04-w14",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(-3, -1) and B(1, 1) in y = mx + c form.",
+      "answer": "y = 1/2x + 1/2",
+      "actions": [
+        "Plot the two given points A(-3, -1) and B(1, 1).",
+        "Find the rise 2 and run 4; m = 2/4 = 1/2.",
+        "Substitute A into y = mx + c: -1 = (1/2)(-3) + c.",
+        "Solve for c: c = -1 − (1/2)(-3) = 1/2.",
+        "Answer: y = 1/2x + 1/2. Check: replacing x with 1 gives y = 1."
+      ],
+      "check": "Answer: y = 1/2x + 1/2. Check: replacing x with 1 gives y = 1.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            -3,
+            -1
+          ],
+          "b": [
+            1,
+            1
+          ],
+          "m": "1/2",
+          "c": "1/2"
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-ag-l04-w15",
+      "lesson": 4,
+      "problem": "Determine the equation of line AB through A(0, 4) and B(5, 0) in y = mx + c form.",
+      "answer": "y = -4/5x + 4",
+      "actions": [
+        "Plot the two given points A(0, 4) and B(5, 0).",
+        "Find the rise -4 and run 5; m = -4/5 = -4/5.",
+        "Substitute A into y = mx + c: 4 = (-4/5)(0) + c.",
+        "Solve for c: c = 4 − (-4/5)(0) = 4.",
+        "Answer: y = -4/5x + 4. Check: replacing x with 5 gives y = 0."
+      ],
+      "check": "Answer: y = -4/5x + 4. Check: replacing x with 5 gives y = 0.",
+      "visual": {
+        "family": "grade11_analytical",
+        "values": {
+          "mode": "equation",
+          "a": [
+            0,
+            4
+          ],
+          "b": [
+            5,
+            0
+          ],
+          "m": "-4/5",
+          "c": "4"
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-ag-l04-p01",
+      "prompt": "Determine the equation of line AB through A(3, -4) and B(5, 2) in y = mx + c form.",
+      "options": [
+        "y = 3x − 4",
+        "y = 1/3x − 13",
+        "y = 3x − 13",
+        "y = -3x − 13"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot the two given points A(3, -4) and B(5, 2).",
+        "Find the rise 6 and run 2; m = 6/2 = 3.",
+        "Substitute A into y = mx + c: -4 = (3)(3) + c.",
+        "Solve for c: c = -4 − (3)(3) = -13.",
+        "Answer: y = 3x − 13. Check: replacing x with 5 gives y = 2."
+      ],
+      "memo": "Plot the two given points A(3, -4) and B(5, 2). Find the rise 6 and run 2; m = 6/2 = 3. Substitute A into y = mx + c: -4 = (3)(3) + c. Solve for c: c = -4 − (3)(3) = -13. Answer: y = 3x − 13. Check: replacing x with 5 gives y = 2."
+    },
+    {
+      "id": "g11-ag-l04-p02",
+      "prompt": "Determine the equation of line AB through A(6, 1) and B(9, 9) in y = mx + c form.",
+      "options": [
+        "y = 3/8x − 15",
+        "y = 8/3x − 15",
+        "y = -8/3x − 15",
+        "y = 8/3x + 1"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot the two given points A(6, 1) and B(9, 9).",
+        "Find the rise 8 and run 3; m = 8/3 = 8/3.",
+        "Substitute A into y = mx + c: 1 = (8/3)(6) + c.",
+        "Solve for c: c = 1 − (8/3)(6) = -15.",
+        "Answer: y = 8/3x − 15. Check: replacing x with 9 gives y = 9."
+      ],
+      "memo": "Plot the two given points A(6, 1) and B(9, 9). Find the rise 8 and run 3; m = 8/3 = 8/3. Substitute A into y = mx + c: 1 = (8/3)(6) + c. Solve for c: c = 1 − (8/3)(6) = -15. Answer: y = 8/3x − 15. Check: replacing x with 9 gives y = 9."
+    },
+    {
+      "id": "g11-ag-l04-p03",
+      "prompt": "Determine the equation of line AB through A(-4, 6) and B(0, 3) in y = mx + c form.",
+      "options": [
+        "y = -3/4x + 3",
+        "y = 3/4x + 3",
+        "y = -3/4x + 6",
+        "y = -4/3x + 3"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot the two given points A(-4, 6) and B(0, 3).",
+        "Find the rise -3 and run 4; m = -3/4 = -3/4.",
+        "Substitute A into y = mx + c: 6 = (-3/4)(-4) + c.",
+        "Solve for c: c = 6 − (-3/4)(-4) = 3.",
+        "Answer: y = -3/4x + 3. Check: replacing x with 0 gives y = 3."
+      ],
+      "memo": "Plot the two given points A(-4, 6) and B(0, 3). Find the rise -3 and run 4; m = -3/4 = -3/4. Substitute A into y = mx + c: 6 = (-3/4)(-4) + c. Solve for c: c = 6 − (-3/4)(-4) = 3. Answer: y = -3/4x + 3. Check: replacing x with 0 gives y = 3."
+    },
+    {
+      "id": "g11-ag-l04-p04",
+      "prompt": "Determine the equation of line AB through A(-1, -2) and B(4, 3) in y = mx + c form.",
+      "options": [
+        "y = -1x − 1",
+        "y = 1x − 2",
+        "y = 1x + 1",
+        "y = 1x − 1"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot the two given points A(-1, -2) and B(4, 3).",
+        "Find the rise 5 and run 5; m = 5/5 = 1.",
+        "Substitute A into y = mx + c: -2 = (1)(-1) + c.",
+        "Solve for c: c = -2 − (1)(-1) = -1.",
+        "Answer: y = 1x − 1. Check: replacing x with 4 gives y = 3."
+      ],
+      "memo": "Plot the two given points A(-1, -2) and B(4, 3). Find the rise 5 and run 5; m = 5/5 = 1. Substitute A into y = mx + c: -2 = (1)(-1) + c. Solve for c: c = -2 − (1)(-1) = -1. Answer: y = 1x − 1. Check: replacing x with 4 gives y = 3."
+    },
+    {
+      "id": "g11-ag-l04-p05",
+      "prompt": "Determine the equation of line AB through A(2, 3) and B(4, 10) in y = mx + c form.",
+      "options": [
+        "y = 7/2x + 3",
+        "y = 2/7x − 4",
+        "y = 7/2x − 4",
+        "y = -7/2x − 4"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot the two given points A(2, 3) and B(4, 10).",
+        "Find the rise 7 and run 2; m = 7/2 = 7/2.",
+        "Substitute A into y = mx + c: 3 = (7/2)(2) + c.",
+        "Solve for c: c = 3 − (7/2)(2) = -4.",
+        "Answer: y = 7/2x − 4. Check: replacing x with 4 gives y = 10."
+      ],
+      "memo": "Plot the two given points A(2, 3) and B(4, 10). Find the rise 7 and run 2; m = 7/2 = 7/2. Substitute A into y = mx + c: 3 = (7/2)(2) + c. Solve for c: c = 3 − (7/2)(2) = -4. Answer: y = 7/2x − 4. Check: replacing x with 4 gives y = 10."
+    },
+    {
+      "id": "g11-ag-l04-p06",
+      "prompt": "Determine the equation of line AB through A(5, -5) and B(8, -7) in y = mx + c form.",
+      "options": [
+        "y = -3/2x − 5/3",
+        "y = -2/3x − 5/3",
+        "y = 2/3x − 5/3",
+        "y = -2/3x − 5"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot the two given points A(5, -5) and B(8, -7).",
+        "Find the rise -2 and run 3; m = -2/3 = -2/3.",
+        "Substitute A into y = mx + c: -5 = (-2/3)(5) + c.",
+        "Solve for c: c = -5 − (-2/3)(5) = -5/3.",
+        "Answer: y = -2/3x − 5/3. Check: replacing x with 8 gives y = -7."
+      ],
+      "memo": "Plot the two given points A(5, -5) and B(8, -7). Find the rise -2 and run 3; m = -2/3 = -2/3. Substitute A into y = mx + c: -5 = (-2/3)(5) + c. Solve for c: c = -5 − (-2/3)(5) = -5/3. Answer: y = -2/3x − 5/3. Check: replacing x with 8 gives y = -7."
+    },
+    {
+      "id": "g11-ag-l04-p07",
+      "prompt": "Determine the equation of line AB through A(-5, 0) and B(-1, 4) in y = mx + c form.",
+      "options": [
+        "y = 1x + 5",
+        "y = -1x + 5",
+        "y = 1x + 0",
+        "y = 1x + 7"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot the two given points A(-5, 0) and B(-1, 4).",
+        "Find the rise 4 and run 4; m = 4/4 = 1.",
+        "Substitute A into y = mx + c: 0 = (1)(-5) + c.",
+        "Solve for c: c = 0 − (1)(-5) = 5.",
+        "Answer: y = 1x + 5. Check: replacing x with -1 gives y = 4."
+      ],
+      "memo": "Plot the two given points A(-5, 0) and B(-1, 4). Find the rise 4 and run 4; m = 4/4 = 1. Substitute A into y = mx + c: 0 = (1)(-5) + c. Solve for c: c = 0 − (1)(-5) = 5. Answer: y = 1x + 5. Check: replacing x with -1 gives y = 4."
+    },
+    {
+      "id": "g11-ag-l04-p08",
+      "prompt": "Determine the equation of line AB through A(-2, 5) and B(3, 11) in y = mx + c form.",
+      "options": [
+        "y = -6/5x + 37/5",
+        "y = 6/5x + 5",
+        "y = 5/6x + 37/5",
+        "y = 6/5x + 37/5"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot the two given points A(-2, 5) and B(3, 11).",
+        "Find the rise 6 and run 5; m = 6/5 = 6/5.",
+        "Substitute A into y = mx + c: 5 = (6/5)(-2) + c.",
+        "Solve for c: c = 5 − (6/5)(-2) = 37/5.",
+        "Answer: y = 6/5x + 37/5. Check: replacing x with 3 gives y = 11."
+      ],
+      "memo": "Plot the two given points A(-2, 5) and B(3, 11). Find the rise 6 and run 5; m = 6/5 = 6/5. Substitute A into y = mx + c: 5 = (6/5)(-2) + c. Solve for c: c = 5 − (6/5)(-2) = 37/5. Answer: y = 6/5x + 37/5. Check: replacing x with 3 gives y = 11."
+    },
+    {
+      "id": "g11-ag-l04-p09",
+      "prompt": "Determine the equation of line AB through A(1, -3) and B(3, -11) in y = mx + c form.",
+      "options": [
+        "y = -4x − 3",
+        "y = -1/4x + 1",
+        "y = -4x + 1",
+        "y = 4x + 1"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot the two given points A(1, -3) and B(3, -11).",
+        "Find the rise -8 and run 2; m = -8/2 = -4.",
+        "Substitute A into y = mx + c: -3 = (-4)(1) + c.",
+        "Solve for c: c = -3 − (-4)(1) = 1.",
+        "Answer: y = -4x + 1. Check: replacing x with 3 gives y = -11."
+      ],
+      "memo": "Plot the two given points A(1, -3) and B(3, -11). Find the rise -8 and run 2; m = -8/2 = -4. Substitute A into y = mx + c: -3 = (-4)(1) + c. Solve for c: c = -3 − (-4)(1) = 1. Answer: y = -4x + 1. Check: replacing x with 3 gives y = -11."
+    },
+    {
+      "id": "g11-ag-l04-p10",
+      "prompt": "Determine the equation of line AB through A(4, 2) and B(7, 5) in y = mx + c form.",
+      "options": [
+        "y = 1x + 0",
+        "y = 1x − 2",
+        "y = -1x − 2",
+        "y = 1x + 2"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot the two given points A(4, 2) and B(7, 5).",
+        "Find the rise 3 and run 3; m = 3/3 = 1.",
+        "Substitute A into y = mx + c: 2 = (1)(4) + c.",
+        "Solve for c: c = 2 − (1)(4) = -2.",
+        "Answer: y = 1x − 2. Check: replacing x with 7 gives y = 5."
+      ],
+      "memo": "Plot the two given points A(4, 2) and B(7, 5). Find the rise 3 and run 3; m = 3/3 = 1. Substitute A into y = mx + c: 2 = (1)(4) + c. Solve for c: c = 2 − (1)(4) = -2. Answer: y = 1x − 2. Check: replacing x with 7 gives y = 5."
+    },
+    {
+      "id": "g11-ag-l04-p11",
+      "prompt": "Determine the equation of line AB through A(-6, -6) and B(-2, -1) in y = mx + c form.",
+      "options": [
+        "y = 5/4x + 3/2",
+        "y = -5/4x + 3/2",
+        "y = 5/4x − 6",
+        "y = 4/5x + 3/2"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot the two given points A(-6, -6) and B(-2, -1).",
+        "Find the rise 5 and run 4; m = 5/4 = 5/4.",
+        "Substitute A into y = mx + c: -6 = (5/4)(-6) + c.",
+        "Solve for c: c = -6 − (5/4)(-6) = 3/2.",
+        "Answer: y = 5/4x + 3/2. Check: replacing x with -2 gives y = -1."
+      ],
+      "memo": "Plot the two given points A(-6, -6) and B(-2, -1). Find the rise 5 and run 4; m = 5/4 = 5/4. Substitute A into y = mx + c: -6 = (5/4)(-6) + c. Solve for c: c = -6 − (5/4)(-6) = 3/2. Answer: y = 5/4x + 3/2. Check: replacing x with -2 gives y = -1."
+    },
+    {
+      "id": "g11-ag-l04-p12",
+      "prompt": "Determine the equation of line AB through A(-3, -1) and B(2, -8) in y = mx + c form.",
+      "options": [
+        "y = 7/5x − 26/5",
+        "y = -7/5x − 1",
+        "y = -5/7x − 26/5",
+        "y = -7/5x − 26/5"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot the two given points A(-3, -1) and B(2, -8).",
+        "Find the rise -7 and run 5; m = -7/5 = -7/5.",
+        "Substitute A into y = mx + c: -1 = (-7/5)(-3) + c.",
+        "Solve for c: c = -1 − (-7/5)(-3) = -26/5.",
+        "Answer: y = -7/5x − 26/5. Check: replacing x with 2 gives y = -8."
+      ],
+      "memo": "Plot the two given points A(-3, -1) and B(2, -8). Find the rise -7 and run 5; m = -7/5 = -7/5. Substitute A into y = mx + c: -1 = (-7/5)(-3) + c. Solve for c: c = -1 − (-7/5)(-3) = -26/5. Answer: y = -7/5x − 26/5. Check: replacing x with 2 gives y = -8."
+    },
+    {
+      "id": "g11-ag-l04-p13",
+      "prompt": "Determine the equation of line AB through A(0, 4) and B(2, 6) in y = mx + c form.",
+      "options": [
+        "y = 1x + 6",
+        "y = 1x + 7",
+        "y = 1x + 4",
+        "y = -1x + 4"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot the two given points A(0, 4) and B(2, 6).",
+        "Find the rise 2 and run 2; m = 2/2 = 1.",
+        "Substitute A into y = mx + c: 4 = (1)(0) + c.",
+        "Solve for c: c = 4 − (1)(0) = 4.",
+        "Answer: y = 1x + 4. Check: replacing x with 2 gives y = 6."
+      ],
+      "memo": "Plot the two given points A(0, 4) and B(2, 6). Find the rise 2 and run 2; m = 2/2 = 1. Substitute A into y = mx + c: 4 = (1)(0) + c. Solve for c: c = 4 − (1)(0) = 4. Answer: y = 1x + 4. Check: replacing x with 2 gives y = 6."
+    },
+    {
+      "id": "g11-ag-l04-p14",
+      "prompt": "Determine the equation of line AB through A(3, -4) and B(6, 0) in y = mx + c form.",
+      "options": [
+        "y = 3/4x − 8",
+        "y = 4/3x − 8",
+        "y = -4/3x − 8",
+        "y = 4/3x − 4"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot the two given points A(3, -4) and B(6, 0).",
+        "Find the rise 4 and run 3; m = 4/3 = 4/3.",
+        "Substitute A into y = mx + c: -4 = (4/3)(3) + c.",
+        "Solve for c: c = -4 − (4/3)(3) = -8.",
+        "Answer: y = 4/3x − 8. Check: replacing x with 6 gives y = 0."
+      ],
+      "memo": "Plot the two given points A(3, -4) and B(6, 0). Find the rise 4 and run 3; m = 4/3 = 4/3. Substitute A into y = mx + c: -4 = (4/3)(3) + c. Solve for c: c = -4 − (4/3)(3) = -8. Answer: y = 4/3x − 8. Check: replacing x with 6 gives y = 0."
+    },
+    {
+      "id": "g11-ag-l04-p15",
+      "prompt": "Determine the equation of line AB through A(6, 1) and B(10, -5) in y = mx + c form.",
+      "options": [
+        "y = -3/2x + 10",
+        "y = 3/2x + 10",
+        "y = -3/2x + 1",
+        "y = -2/3x + 10"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot the two given points A(6, 1) and B(10, -5).",
+        "Find the rise -6 and run 4; m = -6/4 = -3/2.",
+        "Substitute A into y = mx + c: 1 = (-3/2)(6) + c.",
+        "Solve for c: c = 1 − (-3/2)(6) = 10.",
+        "Answer: y = -3/2x + 10. Check: replacing x with 10 gives y = -5."
+      ],
+      "memo": "Plot the two given points A(6, 1) and B(10, -5). Find the rise -6 and run 4; m = -6/4 = -3/2. Substitute A into y = mx + c: 1 = (-3/2)(6) + c. Solve for c: c = 1 − (-3/2)(6) = 10. Answer: y = -3/2x + 10. Check: replacing x with 10 gives y = -5."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-ag-l04-m01",
+      "prompt": "Determine the equation of line AB through A(-4, 6) and B(1, 14) in y = mx + c form.",
+      "options": [
+        "y = 5/8x + 62/5",
+        "y = 8/5x + 62/5",
+        "y = -8/5x + 62/5",
+        "y = 8/5x + 6"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot the two given points A(-4, 6) and B(1, 14).",
+        "Find the rise 8 and run 5; m = 8/5 = 8/5.",
+        "Substitute A into y = mx + c: 6 = (8/5)(-4) + c.",
+        "Solve for c: c = 6 − (8/5)(-4) = 62/5.",
+        "Answer: y = 8/5x + 62/5. Check: replacing x with 1 gives y = 14."
+      ],
+      "memo": "Plot the two given points A(-4, 6) and B(1, 14). Find the rise 8 and run 5; m = 8/5 = 8/5. Substitute A into y = mx + c: 6 = (8/5)(-4) + c. Solve for c: c = 6 − (8/5)(-4) = 62/5. Answer: y = 8/5x + 62/5. Check: replacing x with 1 gives y = 14."
+    },
+    {
+      "id": "g11-ag-l04-m02",
+      "prompt": "Determine the equation of line AB through A(-1, -2) and B(1, 1) in y = mx + c form.",
+      "options": [
+        "y = 3/2x − 1/2",
+        "y = -3/2x − 1/2",
+        "y = 3/2x − 2",
+        "y = 2/3x − 1/2"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot the two given points A(-1, -2) and B(1, 1).",
+        "Find the rise 3 and run 2; m = 3/2 = 3/2.",
+        "Substitute A into y = mx + c: -2 = (3/2)(-1) + c.",
+        "Solve for c: c = -2 − (3/2)(-1) = -1/2.",
+        "Answer: y = 3/2x − 1/2. Check: replacing x with 1 gives y = 1."
+      ],
+      "memo": "Plot the two given points A(-1, -2) and B(1, 1). Find the rise 3 and run 2; m = 3/2 = 3/2. Substitute A into y = mx + c: -2 = (3/2)(-1) + c. Solve for c: c = -2 − (3/2)(-1) = -1/2. Answer: y = 3/2x − 1/2. Check: replacing x with 1 gives y = 1."
+    },
+    {
+      "id": "g11-ag-l04-m03",
+      "prompt": "Determine the equation of line AB through A(2, 3) and B(5, -2) in y = mx + c form.",
+      "options": [
+        "y = 5/3x + 19/3",
+        "y = -5/3x + 3",
+        "y = -3/5x + 19/3",
+        "y = -5/3x + 19/3"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot the two given points A(2, 3) and B(5, -2).",
+        "Find the rise -5 and run 3; m = -5/3 = -5/3.",
+        "Substitute A into y = mx + c: 3 = (-5/3)(2) + c.",
+        "Solve for c: c = 3 − (-5/3)(2) = 19/3.",
+        "Answer: y = -5/3x + 19/3. Check: replacing x with 5 gives y = -2."
+      ],
+      "memo": "Plot the two given points A(2, 3) and B(5, -2). Find the rise -5 and run 3; m = -5/3 = -5/3. Substitute A into y = mx + c: 3 = (-5/3)(2) + c. Solve for c: c = 3 − (-5/3)(2) = 19/3. Answer: y = -5/3x + 19/3. Check: replacing x with 5 gives y = -2."
+    },
+    {
+      "id": "g11-ag-l04-m04",
+      "prompt": "Determine the equation of line AB through A(5, -5) and B(9, 2) in y = mx + c form.",
+      "options": [
+        "y = 7/4x − 5",
+        "y = 4/7x − 55/4",
+        "y = 7/4x − 55/4",
+        "y = -7/4x − 55/4"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot the two given points A(5, -5) and B(9, 2).",
+        "Find the rise 7 and run 4; m = 7/4 = 7/4.",
+        "Substitute A into y = mx + c: -5 = (7/4)(5) + c.",
+        "Solve for c: c = -5 − (7/4)(5) = -55/4.",
+        "Answer: y = 7/4x − 55/4. Check: replacing x with 9 gives y = 2."
+      ],
+      "memo": "Plot the two given points A(5, -5) and B(9, 2). Find the rise 7 and run 4; m = 7/4 = 7/4. Substitute A into y = mx + c: -5 = (7/4)(5) + c. Solve for c: c = -5 − (7/4)(5) = -55/4. Answer: y = 7/4x − 55/4. Check: replacing x with 9 gives y = 2."
+    },
+    {
+      "id": "g11-ag-l04-m05",
+      "prompt": "Determine the equation of line AB through A(-5, 0) and B(0, 2) in y = mx + c form.",
+      "options": [
+        "y = 5/2x + 2",
+        "y = 2/5x + 2",
+        "y = -2/5x + 2",
+        "y = 2/5x + 0"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Plot the two given points A(-5, 0) and B(0, 2).",
+        "Find the rise 2 and run 5; m = 2/5 = 2/5.",
+        "Substitute A into y = mx + c: 0 = (2/5)(-5) + c.",
+        "Solve for c: c = 0 − (2/5)(-5) = 2.",
+        "Answer: y = 2/5x + 2. Check: replacing x with 0 gives y = 2."
+      ],
+      "memo": "Plot the two given points A(-5, 0) and B(0, 2). Find the rise 2 and run 5; m = 2/5 = 2/5. Substitute A into y = mx + c: 0 = (2/5)(-5) + c. Solve for c: c = 0 − (2/5)(-5) = 2. Answer: y = 2/5x + 2. Check: replacing x with 0 gives y = 2."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-ag-l04-r01",
+      "prompt": "Determine the equation of line AB through A(2, 3) and B(6, 6) in y = mx + c form.",
+      "options": [
+        "y = 3/4x + 3/2",
+        "y = -3/4x + 3/2",
+        "y = 3/4x + 3",
+        "y = 4/3x + 3/2"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Plot the two given points A(2, 3) and B(6, 6).",
+        "Find the rise 3 and run 4; m = 3/4 = 3/4.",
+        "Substitute A into y = mx + c: 3 = (3/4)(2) + c.",
+        "Solve for c: c = 3 − (3/4)(2) = 3/2.",
+        "Answer: y = 3/4x + 3/2. Check: replacing x with 6 gives y = 6."
+      ],
+      "memo": "Plot the two given points A(2, 3) and B(6, 6). Find the rise 3 and run 4; m = 3/4 = 3/4. Substitute A into y = mx + c: 3 = (3/4)(2) + c. Solve for c: c = 3 − (3/4)(2) = 3/2. Answer: y = 3/4x + 3/2. Check: replacing x with 6 gives y = 6."
+    },
+    {
+      "id": "g11-ag-l04-r02",
+      "prompt": "Determine the equation of line AB through A(5, -5) and B(10, 0) in y = mx + c form.",
+      "options": [
+        "y = -1x − 10",
+        "y = 1x − 5",
+        "y = 1x − 8",
+        "y = 1x − 10"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Plot the two given points A(5, -5) and B(10, 0).",
+        "Find the rise 5 and run 5; m = 5/5 = 1.",
+        "Substitute A into y = mx + c: -5 = (1)(5) + c.",
+        "Solve for c: c = -5 − (1)(5) = -10.",
+        "Answer: y = 1x − 10. Check: replacing x with 10 gives y = 0."
+      ],
+      "memo": "Plot the two given points A(5, -5) and B(10, 0). Find the rise 5 and run 5; m = 5/5 = 1. Substitute A into y = mx + c: -5 = (1)(5) + c. Solve for c: c = -5 − (1)(5) = -10. Answer: y = 1x − 10. Check: replacing x with 10 gives y = 0."
+    },
+    {
+      "id": "g11-ag-l04-r03",
+      "prompt": "Determine the equation of line AB through A(-5, 0) and B(-3, -7) in y = mx + c form.",
+      "options": [
+        "y = -7/2x + 0",
+        "y = -2/7x − 35/2",
+        "y = -7/2x − 35/2",
+        "y = 7/2x − 35/2"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Plot the two given points A(-5, 0) and B(-3, -7).",
+        "Find the rise -7 and run 2; m = -7/2 = -7/2.",
+        "Substitute A into y = mx + c: 0 = (-7/2)(-5) + c.",
+        "Solve for c: c = 0 − (-7/2)(-5) = -35/2.",
+        "Answer: y = -7/2x − 35/2. Check: replacing x with -3 gives y = -7."
+      ],
+      "memo": "Plot the two given points A(-5, 0) and B(-3, -7). Find the rise -7 and run 2; m = -7/2 = -7/2. Substitute A into y = mx + c: 0 = (-7/2)(-5) + c. Solve for c: c = 0 − (-7/2)(-5) = -35/2. Answer: y = -7/2x − 35/2. Check: replacing x with -3 gives y = -7."
+    }
+  ]
+}

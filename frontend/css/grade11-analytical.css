@@ -1,0 +1,15 @@
+.g11-ag-board {color:#17344b;width:100%;min-width:0}
+.g11-ag-board>p:first-child {font-weight:650;line-height:1.65}
+.g11-ag-model {width:100%;overflow:hidden}
+.g11-ag-model svg {width:100%;max-height:370px;height:auto;display:block}
+.g11-ag-model text {fill:#17344b;font-size:12px}
+.g11-ag-axis {stroke:#6c8696;stroke-width:1.5}
+.g11-ag-point {fill:#126a79}
+.g11-ag-midpoint {fill:#db8c3c}
+.g11-ag-label {font-weight:650}
+.g11-ag-segment {stroke:#176c7b;stroke-width:2.7}
+.g11-ag-guide {stroke:#d48138;stroke-width:2;stroke-dasharray:5 4}
+.g11-ag-derived {stroke:#168586;stroke-width:2.8}
+.g11-ag-note {font-weight:700;fill:#0c666d!important}
+.g11-ag-board [data-object-id="operation"] {color:#175b63}
+.g11-ag-board [data-object-id="verification"] {color:#08664a;font-weight:700}
