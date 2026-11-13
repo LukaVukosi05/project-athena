@@ -482,5 +482,10 @@
   "statistics:spread_number_line",
   "trigonometry:oblique_triangle",
   "trigonometry:right_triangle",
-  "trigonometry:unit_circle"
+  "trigonometry:unit_circle",
+  "trigonometry:grade11_rules_1",
+  "trigonometry:grade11_rules_2",
+  "trigonometry:grade11_rules_3",
+  "trigonometry:grade11_rules_4",
+  "trigonometry:grade11_rules_5"
 ]

@@ -1,0 +1,62 @@
+[
+  {
+    "lesson_id": "g11-rules-01",
+    "source": "grade11-rules-lesson-01.md",
+    "source_sha256": "0f8daffa9e59e05bb18e85c2fb8a3d867502cfaf0f4f6efaea4ff46518c6430d",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-rules-02",
+    "source": "grade11-rules-lesson-02.md",
+    "source_sha256": "2c1c1130f184d3435a794ae01abc9d70097082f42dfe118a905ac816aee88eb4",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-rules-03",
+    "source": "grade11-rules-lesson-03.md",
+    "source_sha256": "cb505a0f3c3290762ce2ef2ca1db2b8a0cd881633cc69ca2e4030282472486cd",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-rules-04",
+    "source": "grade11-rules-lesson-04.md",
+    "source_sha256": "9875195e400ce1e56d683385c4a024cb8e0637ae200145df0ece693b67b7ccb9",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  },
+  {
+    "lesson_id": "g11-rules-05",
+    "source": "grade11-rules-lesson-05.md",
+    "source_sha256": "4e522ab0f0cb26f3912a828edd1fed3661af906e60ef586bb493c946957e0f29",
+    "worked": 15,
+    "practice": 15,
+    "mastery": 5,
+    "reassessment": 3,
+    "status": "teacher_review_required",
+    "teacher_approved": false,
+    "browser_accepted": false
+  }
+]

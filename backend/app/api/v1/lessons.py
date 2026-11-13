@@ -183,6 +183,14 @@ def get_lesson(lesson_id: str, user: User | None = Depends(get_optional_user)) -
                     for hidden in ("r","s"):
                         givens.pop(hidden,None)
                     scene["visual"]={"family":"grade11_equations","values":givens}
+                elif lesson.id.startswith("g11-rules-"):
+                    givens=dict(scene["visual"]["values"])
+                    for hidden in ("B1","B2","area"):
+                        givens.pop(hidden,None)
+                    if givens.get("mode")=="sine_side":givens.pop("b",None)
+                    if givens.get("mode")=="cosine_side":givens.pop("a",None)
+                    if givens.get("mode")=="cosine_angle":givens.pop("A",None)
+                    scene["visual"]={"family":"grade11_triangle_rules","values":givens}
                 elif lesson.id.startswith("g11-fn-"):
                     givens=dict(scene["visual"]["values"])
                     for hidden in ("vertex", "vertical", "horizontal", "target_y", "y0", "y1", "slope", "result", "period", "shift"):

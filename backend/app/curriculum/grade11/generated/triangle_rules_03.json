@@ -1,0 +1,819 @@
+{
+  "source": "grade11-rules-lesson-03.md",
+  "worked": [
+    {
+      "id": "g11-rules-l03-w01",
+      "lesson": 3,
+      "problem": "In ΔABC, place A at the origin and AB = c on the horizontal axis. Derive a² = b² + c² − 2bc cos A.",
+      "answer": "a² = b² + c² − 2bc cos A",
+      "actions": [
+        "Draw AC = b making angle A with AB = c; lower perpendicular CD to AB.",
+        "The horizontal projection AD = b cos A, so DB = c − b cos A.",
+        "The vertical height CD = b sin A. Use Pythagoras: a² = (c − b cos A)² + (b sin A)².",
+        "Expand and combine b²(cos² A + sin² A) = b².",
+        "Answer: a² = b² + c² − 2bc cos A. Check A = 90° reduces to Pythagoras."
+      ],
+      "check": "Answer: a² = b² + c² − 2bc cos A. Check A = 90° reduces to Pythagoras.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "proof_cosine"
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-rules-l03-w02",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 7 cm and c = 11 cm enclose angle A = 60°. Find a to two decimals.",
+      "answer": "a = 9.64 cm",
+      "actions": [
+        "Label sides b = AC = 7 cm and c = AB = 11 cm with included angle A = 60°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 49 + 121 − 154 cos(60°).",
+        "Take the positive root: a = √(170 − 154 cos(60°)) = 9.64 cm.",
+        "Answer: a = 9.64 cm. Check the unrounded length is between |7 − 11| and 18."
+      ],
+      "check": "Answer: a = 9.64 cm. Check the unrounded length is between |7 − 11| and 18.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 60,
+          "a": 9.643650760992955,
+          "b": 7,
+          "c": 11
+        }
+      },
+      "difficulty": "foundation"
+    },
+    {
+      "id": "g11-rules-l03-w03",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 8 cm and c = 13 cm enclose angle A = 75°. Find a to two decimals.",
+      "answer": "a = 13.39 cm",
+      "actions": [
+        "Label sides b = AC = 8 cm and c = AB = 13 cm with included angle A = 75°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 64 + 169 − 208 cos(75°).",
+        "Take the positive root: a = √(233 − 208 cos(75°)) = 13.39 cm.",
+        "Answer: a = 13.39 cm. Check the unrounded length is between |8 − 13| and 21."
+      ],
+      "check": "Answer: a = 13.39 cm. Check the unrounded length is between |8 − 13| and 21.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 75,
+          "a": 13.385276934702386,
+          "b": 8,
+          "c": 13
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-rules-l03-w04",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 9 cm and c = 15 cm enclose angle A = 100°. Find a to two decimals.",
+      "answer": "a = 18.79 cm",
+      "actions": [
+        "Label sides b = AC = 9 cm and c = AB = 15 cm with included angle A = 100°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 81 + 225 − 270 cos(100°).",
+        "Take the positive root: a = √(306 − 270 cos(100°)) = 18.79 cm.",
+        "Answer: a = 18.79 cm. Check the unrounded length is between |9 − 15| and 24."
+      ],
+      "check": "Answer: a = 18.79 cm. Check the unrounded length is between |9 − 15| and 24.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 100,
+          "a": 18.785233774698444,
+          "b": 9,
+          "c": 15
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-rules-l03-w05",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 10 cm and c = 17 cm enclose angle A = 120°. Find a to two decimals.",
+      "answer": "a = 23.64 cm",
+      "actions": [
+        "Label sides b = AC = 10 cm and c = AB = 17 cm with included angle A = 120°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 100 + 289 − 340 cos(120°).",
+        "Take the positive root: a = √(389 − 340 cos(120°)) = 23.64 cm.",
+        "Answer: a = 23.64 cm. Check the unrounded length is between |10 − 17| and 27."
+      ],
+      "check": "Answer: a = 23.64 cm. Check the unrounded length is between |10 − 17| and 27.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 120,
+          "a": 23.643180835073775,
+          "b": 10,
+          "c": 17
+        }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "g11-rules-l03-w06",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 11 cm and c = 8 cm enclose angle A = 45°. Find a to two decimals.",
+      "answer": "a = 7.78 cm",
+      "actions": [
+        "Label sides b = AC = 11 cm and c = AB = 8 cm with included angle A = 45°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 121 + 64 − 176 cos(45°).",
+        "Take the positive root: a = √(185 − 176 cos(45°)) = 7.78 cm.",
+        "Answer: a = 7.78 cm. Check the unrounded length is between |11 − 8| and 19."
+      ],
+      "check": "Answer: a = 7.78 cm. Check the unrounded length is between |11 − 8| and 19.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 45,
+          "a": 7.781337064487544,
+          "b": 11,
+          "c": 8
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-rules-l03-w07",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 12 cm and c = 10 cm enclose angle A = 60°. Find a to two decimals.",
+      "answer": "a = 11.14 cm",
+      "actions": [
+        "Label sides b = AC = 12 cm and c = AB = 10 cm with included angle A = 60°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 144 + 100 − 240 cos(60°).",
+        "Take the positive root: a = √(244 − 240 cos(60°)) = 11.14 cm.",
+        "Answer: a = 11.14 cm. Check the unrounded length is between |12 − 10| and 22."
+      ],
+      "check": "Answer: a = 11.14 cm. Check the unrounded length is between |12 − 10| and 22.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 60,
+          "a": 11.135528725660043,
+          "b": 12,
+          "c": 10
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-rules-l03-w08",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 13 cm and c = 12 cm enclose angle A = 75°. Find a to two decimals.",
+      "answer": "a = 15.24 cm",
+      "actions": [
+        "Label sides b = AC = 13 cm and c = AB = 12 cm with included angle A = 75°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 169 + 144 − 312 cos(75°).",
+        "Take the positive root: a = √(313 − 312 cos(75°)) = 15.24 cm.",
+        "Answer: a = 15.24 cm. Check the unrounded length is between |13 − 12| and 25."
+      ],
+      "check": "Answer: a = 15.24 cm. Check the unrounded length is between |13 − 12| and 25.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 75,
+          "a": 15.239700060303468,
+          "b": 13,
+          "c": 12
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-rules-l03-w09",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 14 cm and c = 14 cm enclose angle A = 100°. Find a to two decimals.",
+      "answer": "a = 21.45 cm",
+      "actions": [
+        "Label sides b = AC = 14 cm and c = AB = 14 cm with included angle A = 100°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 196 + 196 − 392 cos(100°).",
+        "Take the positive root: a = √(392 − 392 cos(100°)) = 21.45 cm.",
+        "Answer: a = 21.45 cm. Check the unrounded length is between |14 − 14| and 28."
+      ],
+      "check": "Answer: a = 21.45 cm. Check the unrounded length is between |14 − 14| and 28.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 100,
+          "a": 21.449244407331385,
+          "b": 14,
+          "c": 14
+        }
+      },
+      "difficulty": "standard"
+    },
+    {
+      "id": "g11-rules-l03-w10",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 5 cm and c = 16 cm enclose angle A = 120°. Find a to two decimals.",
+      "answer": "a = 19.00 cm",
+      "actions": [
+        "Label sides b = AC = 5 cm and c = AB = 16 cm with included angle A = 120°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 25 + 256 − 160 cos(120°).",
+        "Take the positive root: a = √(281 − 160 cos(120°)) = 19.00 cm.",
+        "Answer: a = 19.00 cm. Check the unrounded length is between |5 − 16| and 21."
+      ],
+      "check": "Answer: a = 19.00 cm. Check the unrounded length is between |5 − 16| and 21.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 120,
+          "a": 19.0,
+          "b": 5,
+          "c": 16
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-rules-l03-w11",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 6 cm and c = 7 cm enclose angle A = 45°. Find a to two decimals.",
+      "answer": "a = 5.06 cm",
+      "actions": [
+        "Label sides b = AC = 6 cm and c = AB = 7 cm with included angle A = 45°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 36 + 49 − 84 cos(45°).",
+        "Take the positive root: a = √(85 − 84 cos(45°)) = 5.06 cm.",
+        "Answer: a = 5.06 cm. Check the unrounded length is between |6 − 7| and 13."
+      ],
+      "check": "Answer: a = 5.06 cm. Check the unrounded length is between |6 − 7| and 13.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 45,
+          "a": 5.0599437131582805,
+          "b": 6,
+          "c": 7
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-rules-l03-w12",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 7 cm and c = 9 cm enclose angle A = 60°. Find a to two decimals.",
+      "answer": "a = 8.19 cm",
+      "actions": [
+        "Label sides b = AC = 7 cm and c = AB = 9 cm with included angle A = 60°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 49 + 81 − 126 cos(60°).",
+        "Take the positive root: a = √(130 − 126 cos(60°)) = 8.19 cm.",
+        "Answer: a = 8.19 cm. Check the unrounded length is between |7 − 9| and 16."
+      ],
+      "check": "Answer: a = 8.19 cm. Check the unrounded length is between |7 − 9| and 16.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 60,
+          "a": 8.185352771872449,
+          "b": 7,
+          "c": 9
+        }
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "g11-rules-l03-w13",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 8 cm and c = 11 cm enclose angle A = 75°. Find a to two decimals.",
+      "answer": "a = 11.81 cm",
+      "actions": [
+        "Label sides b = AC = 8 cm and c = AB = 11 cm with included angle A = 75°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 64 + 121 − 176 cos(75°).",
+        "Take the positive root: a = √(185 − 176 cos(75°)) = 11.81 cm.",
+        "Answer: a = 11.81 cm. Check the unrounded length is between |8 − 11| and 19."
+      ],
+      "check": "Answer: a = 11.81 cm. Check the unrounded length is between |8 − 11| and 19.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 75,
+          "a": 11.80880383705125,
+          "b": 8,
+          "c": 11
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-rules-l03-w14",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 9 cm and c = 13 cm enclose angle A = 100°. Find a to two decimals.",
+      "answer": "a = 17.05 cm",
+      "actions": [
+        "Label sides b = AC = 9 cm and c = AB = 13 cm with included angle A = 100°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 81 + 169 − 234 cos(100°).",
+        "Take the positive root: a = √(250 − 234 cos(100°)) = 17.05 cm.",
+        "Answer: a = 17.05 cm. Check the unrounded length is between |9 − 13| and 22."
+      ],
+      "check": "Answer: a = 17.05 cm. Check the unrounded length is between |9 − 13| and 22.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 100,
+          "a": 17.047981510256918,
+          "b": 9,
+          "c": 13
+        }
+      },
+      "difficulty": "exam"
+    },
+    {
+      "id": "g11-rules-l03-w15",
+      "lesson": 3,
+      "problem": "In ΔABC, b = 10 cm and c = 15 cm enclose angle A = 120°. Find a to two decimals.",
+      "answer": "a = 21.79 cm",
+      "actions": [
+        "Label sides b = AC = 10 cm and c = AB = 15 cm with included angle A = 120°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 100 + 225 − 300 cos(120°).",
+        "Take the positive root: a = √(325 − 300 cos(120°)) = 21.79 cm.",
+        "Answer: a = 21.79 cm. Check the unrounded length is between |10 − 15| and 25."
+      ],
+      "check": "Answer: a = 21.79 cm. Check the unrounded length is between |10 − 15| and 25.",
+      "visual": {
+        "family": "grade11_triangle_rules",
+        "values": {
+          "mode": "cosine_side",
+          "A": 120,
+          "a": 21.794494717703365,
+          "b": 10,
+          "c": 15
+        }
+      },
+      "difficulty": "exam"
+    }
+  ],
+  "practice": [
+    {
+      "id": "g11-rules-l03-p01",
+      "prompt": "In ΔABC, b = 11 cm and c = 17 cm enclose angle A = 45°. Find a to two decimals.",
+      "options": [
+        "a = 25.97 cm",
+        "a = 13.06 cm",
+        "a = 12.06 cm",
+        "a = 20.25 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Label sides b = AC = 11 cm and c = AB = 17 cm with included angle A = 45°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 121 + 289 − 374 cos(45°).",
+        "Take the positive root: a = √(410 − 374 cos(45°)) = 12.06 cm.",
+        "Answer: a = 12.06 cm. Check the unrounded length is between |11 − 17| and 28."
+      ],
+      "memo": "Label sides b = AC = 11 cm and c = AB = 17 cm with included angle A = 45°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 121 + 289 − 374 cos(45°). Take the positive root: a = √(410 − 374 cos(45°)) = 12.06 cm. Answer: a = 12.06 cm. Check the unrounded length is between |11 − 17| and 28."
+    },
+    {
+      "id": "g11-rules-l03-p02",
+      "prompt": "In ΔABC, b = 12 cm and c = 8 cm enclose angle A = 60°. Find a to two decimals.",
+      "options": [
+        "a = 11.58 cm",
+        "a = 10.58 cm",
+        "a = 14.42 cm",
+        "a = 17.44 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Label sides b = AC = 12 cm and c = AB = 8 cm with included angle A = 60°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 144 + 64 − 192 cos(60°).",
+        "Take the positive root: a = √(208 − 192 cos(60°)) = 10.58 cm.",
+        "Answer: a = 10.58 cm. Check the unrounded length is between |12 − 8| and 20."
+      ],
+      "memo": "Label sides b = AC = 12 cm and c = AB = 8 cm with included angle A = 60°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 144 + 64 − 192 cos(60°). Take the positive root: a = √(208 − 192 cos(60°)) = 10.58 cm. Answer: a = 10.58 cm. Check the unrounded length is between |12 − 8| and 20."
+    },
+    {
+      "id": "g11-rules-l03-p03",
+      "prompt": "In ΔABC, b = 13 cm and c = 10 cm enclose angle A = 75°. Find a to two decimals.",
+      "options": [
+        "a = 14.20 cm",
+        "a = 16.40 cm",
+        "a = 18.34 cm",
+        "a = 15.20 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Label sides b = AC = 13 cm and c = AB = 10 cm with included angle A = 75°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 169 + 100 − 260 cos(75°).",
+        "Take the positive root: a = √(269 − 260 cos(75°)) = 14.20 cm.",
+        "Answer: a = 14.20 cm. Check the unrounded length is between |13 − 10| and 23."
+      ],
+      "memo": "Label sides b = AC = 13 cm and c = AB = 10 cm with included angle A = 75°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 169 + 100 − 260 cos(75°). Take the positive root: a = √(269 − 260 cos(75°)) = 14.20 cm. Answer: a = 14.20 cm. Check the unrounded length is between |13 − 10| and 23."
+    },
+    {
+      "id": "g11-rules-l03-p04",
+      "prompt": "In ΔABC, b = 14 cm and c = 12 cm enclose angle A = 100°. Find a to two decimals.",
+      "options": [
+        "a = 18.44 cm",
+        "a = 16.78 cm",
+        "a = 20.96 cm",
+        "a = 19.96 cm"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Label sides b = AC = 14 cm and c = AB = 12 cm with included angle A = 100°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 196 + 144 − 336 cos(100°).",
+        "Take the positive root: a = √(340 − 336 cos(100°)) = 19.96 cm.",
+        "Answer: a = 19.96 cm. Check the unrounded length is between |14 − 12| and 26."
+      ],
+      "memo": "Label sides b = AC = 14 cm and c = AB = 12 cm with included angle A = 100°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 196 + 144 − 336 cos(100°). Take the positive root: a = √(340 − 336 cos(100°)) = 19.96 cm. Answer: a = 19.96 cm. Check the unrounded length is between |14 − 12| and 26."
+    },
+    {
+      "id": "g11-rules-l03-p05",
+      "prompt": "In ΔABC, b = 5 cm and c = 14 cm enclose angle A = 120°. Find a to two decimals.",
+      "options": [
+        "a = 12.29 cm",
+        "a = 18.06 cm",
+        "a = 17.06 cm",
+        "a = 14.87 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Label sides b = AC = 5 cm and c = AB = 14 cm with included angle A = 120°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 25 + 196 − 140 cos(120°).",
+        "Take the positive root: a = √(221 − 140 cos(120°)) = 17.06 cm.",
+        "Answer: a = 17.06 cm. Check the unrounded length is between |5 − 14| and 19."
+      ],
+      "memo": "Label sides b = AC = 5 cm and c = AB = 14 cm with included angle A = 120°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 25 + 196 − 140 cos(120°). Take the positive root: a = √(221 − 140 cos(120°)) = 17.06 cm. Answer: a = 17.06 cm. Check the unrounded length is between |5 − 14| and 19."
+    },
+    {
+      "id": "g11-rules-l03-p06",
+      "prompt": "In ΔABC, b = 6 cm and c = 16 cm enclose angle A = 45°. Find a to two decimals.",
+      "options": [
+        "a = 13.50 cm",
+        "a = 12.50 cm",
+        "a = 17.09 cm",
+        "a = 20.68 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Label sides b = AC = 6 cm and c = AB = 16 cm with included angle A = 45°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 36 + 256 − 192 cos(45°).",
+        "Take the positive root: a = √(292 − 192 cos(45°)) = 12.50 cm.",
+        "Answer: a = 12.50 cm. Check the unrounded length is between |6 − 16| and 22."
+      ],
+      "memo": "Label sides b = AC = 6 cm and c = AB = 16 cm with included angle A = 45°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 36 + 256 − 192 cos(45°). Take the positive root: a = √(292 − 192 cos(45°)) = 12.50 cm. Answer: a = 12.50 cm. Check the unrounded length is between |6 − 16| and 22."
+    },
+    {
+      "id": "g11-rules-l03-p07",
+      "prompt": "In ΔABC, b = 7 cm and c = 7 cm enclose angle A = 60°. Find a to two decimals.",
+      "options": [
+        "a = 7.00 cm",
+        "a = 9.90 cm",
+        "a = 12.12 cm",
+        "a = 8.00 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Label sides b = AC = 7 cm and c = AB = 7 cm with included angle A = 60°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 49 + 49 − 98 cos(60°).",
+        "Take the positive root: a = √(98 − 98 cos(60°)) = 7.00 cm.",
+        "Answer: a = 7.00 cm. Check the unrounded length is between |7 − 7| and 14."
+      ],
+      "memo": "Label sides b = AC = 7 cm and c = AB = 7 cm with included angle A = 60°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 49 + 49 − 98 cos(60°). Take the positive root: a = √(98 − 98 cos(60°)) = 7.00 cm. Answer: a = 7.00 cm. Check the unrounded length is between |7 − 7| and 14."
+    },
+    {
+      "id": "g11-rules-l03-p08",
+      "prompt": "In ΔABC, b = 8 cm and c = 9 cm enclose angle A = 75°. Find a to two decimals.",
+      "options": [
+        "a = 12.04 cm",
+        "a = 13.50 cm",
+        "a = 11.38 cm",
+        "a = 10.38 cm"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Label sides b = AC = 8 cm and c = AB = 9 cm with included angle A = 75°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 64 + 81 − 144 cos(75°).",
+        "Take the positive root: a = √(145 − 144 cos(75°)) = 10.38 cm.",
+        "Answer: a = 10.38 cm. Check the unrounded length is between |8 − 9| and 17."
+      ],
+      "memo": "Label sides b = AC = 8 cm and c = AB = 9 cm with included angle A = 75°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 64 + 81 − 144 cos(75°). Take the positive root: a = √(145 − 144 cos(75°)) = 10.38 cm. Answer: a = 10.38 cm. Check the unrounded length is between |8 − 9| and 17."
+    },
+    {
+      "id": "g11-rules-l03-p09",
+      "prompt": "In ΔABC, b = 9 cm and c = 11 cm enclose angle A = 100°. Find a to two decimals.",
+      "options": [
+        "a = 12.95 cm",
+        "a = 16.37 cm",
+        "a = 15.37 cm",
+        "a = 14.21 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Label sides b = AC = 9 cm and c = AB = 11 cm with included angle A = 100°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 81 + 121 − 198 cos(100°).",
+        "Take the positive root: a = √(202 − 198 cos(100°)) = 15.37 cm.",
+        "Answer: a = 15.37 cm. Check the unrounded length is between |9 − 11| and 20."
+      ],
+      "memo": "Label sides b = AC = 9 cm and c = AB = 11 cm with included angle A = 100°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 81 + 121 − 198 cos(100°). Take the positive root: a = √(202 − 198 cos(100°)) = 15.37 cm. Answer: a = 15.37 cm. Check the unrounded length is between |9 − 11| and 20."
+    },
+    {
+      "id": "g11-rules-l03-p10",
+      "prompt": "In ΔABC, b = 10 cm and c = 13 cm enclose angle A = 120°. Find a to two decimals.",
+      "options": [
+        "a = 20.97 cm",
+        "a = 19.97 cm",
+        "a = 16.40 cm",
+        "a = 11.79 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Label sides b = AC = 10 cm and c = AB = 13 cm with included angle A = 120°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 100 + 169 − 260 cos(120°).",
+        "Take the positive root: a = √(269 − 260 cos(120°)) = 19.97 cm.",
+        "Answer: a = 19.97 cm. Check the unrounded length is between |10 − 13| and 23."
+      ],
+      "memo": "Label sides b = AC = 10 cm and c = AB = 13 cm with included angle A = 120°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 100 + 169 − 260 cos(120°). Take the positive root: a = √(269 − 260 cos(120°)) = 19.97 cm. Answer: a = 19.97 cm. Check the unrounded length is between |10 − 13| and 23."
+    },
+    {
+      "id": "g11-rules-l03-p11",
+      "prompt": "In ΔABC, b = 11 cm and c = 15 cm enclose angle A = 45°. Find a to two decimals.",
+      "options": [
+        "a = 10.61 cm",
+        "a = 18.60 cm",
+        "a = 24.07 cm",
+        "a = 11.61 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Label sides b = AC = 11 cm and c = AB = 15 cm with included angle A = 45°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 121 + 225 − 330 cos(45°).",
+        "Take the positive root: a = √(346 − 330 cos(45°)) = 10.61 cm.",
+        "Answer: a = 10.61 cm. Check the unrounded length is between |11 − 15| and 26."
+      ],
+      "memo": "Label sides b = AC = 11 cm and c = AB = 15 cm with included angle A = 45°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 121 + 225 − 330 cos(45°). Take the positive root: a = √(346 − 330 cos(45°)) = 10.61 cm. Answer: a = 10.61 cm. Check the unrounded length is between |11 − 15| and 26."
+    },
+    {
+      "id": "g11-rules-l03-p12",
+      "prompt": "In ΔABC, b = 12 cm and c = 17 cm enclose angle A = 60°. Find a to two decimals.",
+      "options": [
+        "a = 20.81 cm",
+        "a = 25.24 cm",
+        "a = 16.13 cm",
+        "a = 15.13 cm"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Label sides b = AC = 12 cm and c = AB = 17 cm with included angle A = 60°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 144 + 289 − 408 cos(60°).",
+        "Take the positive root: a = √(433 − 408 cos(60°)) = 15.13 cm.",
+        "Answer: a = 15.13 cm. Check the unrounded length is between |12 − 17| and 29."
+      ],
+      "memo": "Label sides b = AC = 12 cm and c = AB = 17 cm with included angle A = 60°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 144 + 289 − 408 cos(60°). Take the positive root: a = √(433 − 408 cos(60°)) = 15.13 cm. Answer: a = 15.13 cm. Check the unrounded length is between |12 − 17| and 29."
+    },
+    {
+      "id": "g11-rules-l03-p13",
+      "prompt": "In ΔABC, b = 13 cm and c = 8 cm enclose angle A = 75°. Find a to two decimals.",
+      "options": [
+        "a = 16.94 cm",
+        "a = 14.39 cm",
+        "a = 13.39 cm",
+        "a = 15.26 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Label sides b = AC = 13 cm and c = AB = 8 cm with included angle A = 75°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 169 + 64 − 208 cos(75°).",
+        "Take the positive root: a = √(233 − 208 cos(75°)) = 13.39 cm.",
+        "Answer: a = 13.39 cm. Check the unrounded length is between |13 − 8| and 21."
+      ],
+      "memo": "Label sides b = AC = 13 cm and c = AB = 8 cm with included angle A = 75°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 169 + 64 − 208 cos(75°). Take the positive root: a = √(233 − 208 cos(75°)) = 13.39 cm. Answer: a = 13.39 cm. Check the unrounded length is between |13 − 8| and 21."
+    },
+    {
+      "id": "g11-rules-l03-p14",
+      "prompt": "In ΔABC, b = 14 cm and c = 10 cm enclose angle A = 100°. Find a to two decimals.",
+      "options": [
+        "a = 19.56 cm",
+        "a = 18.56 cm",
+        "a = 17.20 cm",
+        "a = 15.73 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Label sides b = AC = 14 cm and c = AB = 10 cm with included angle A = 100°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 196 + 100 − 280 cos(100°).",
+        "Take the positive root: a = √(296 − 280 cos(100°)) = 18.56 cm.",
+        "Answer: a = 18.56 cm. Check the unrounded length is between |14 − 10| and 24."
+      ],
+      "memo": "Label sides b = AC = 14 cm and c = AB = 10 cm with included angle A = 100°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 196 + 100 − 280 cos(100°). Take the positive root: a = √(296 − 280 cos(100°)) = 18.56 cm. Answer: a = 18.56 cm. Check the unrounded length is between |14 − 10| and 24."
+    },
+    {
+      "id": "g11-rules-l03-p15",
+      "prompt": "In ΔABC, b = 5 cm and c = 12 cm enclose angle A = 120°. Find a to two decimals.",
+      "options": [
+        "a = 15.13 cm",
+        "a = 13.00 cm",
+        "a = 10.44 cm",
+        "a = 16.13 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Label sides b = AC = 5 cm and c = AB = 12 cm with included angle A = 120°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 25 + 144 − 120 cos(120°).",
+        "Take the positive root: a = √(169 − 120 cos(120°)) = 15.13 cm.",
+        "Answer: a = 15.13 cm. Check the unrounded length is between |5 − 12| and 17."
+      ],
+      "memo": "Label sides b = AC = 5 cm and c = AB = 12 cm with included angle A = 120°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 25 + 144 − 120 cos(120°). Take the positive root: a = √(169 − 120 cos(120°)) = 15.13 cm. Answer: a = 15.13 cm. Check the unrounded length is between |5 − 12| and 17."
+    }
+  ],
+  "mastery": [
+    {
+      "id": "g11-rules-l03-m01",
+      "prompt": "In ΔABC, b = 6 cm and c = 14 cm enclose angle A = 45°. Find a to two decimals.",
+      "options": [
+        "a = 11.64 cm",
+        "a = 10.64 cm",
+        "a = 15.23 cm",
+        "a = 18.73 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Label sides b = AC = 6 cm and c = AB = 14 cm with included angle A = 45°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 36 + 196 − 168 cos(45°).",
+        "Take the positive root: a = √(232 − 168 cos(45°)) = 10.64 cm.",
+        "Answer: a = 10.64 cm. Check the unrounded length is between |6 − 14| and 20."
+      ],
+      "memo": "Label sides b = AC = 6 cm and c = AB = 14 cm with included angle A = 45°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 36 + 196 − 168 cos(45°). Take the positive root: a = √(232 − 168 cos(45°)) = 10.64 cm. Answer: a = 10.64 cm. Check the unrounded length is between |6 − 14| and 20."
+    },
+    {
+      "id": "g11-rules-l03-m02",
+      "prompt": "In ΔABC, b = 7 cm and c = 16 cm enclose angle A = 60°. Find a to two decimals.",
+      "options": [
+        "a = 13.89 cm",
+        "a = 17.46 cm",
+        "a = 20.42 cm",
+        "a = 14.89 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Label sides b = AC = 7 cm and c = AB = 16 cm with included angle A = 60°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 49 + 256 − 224 cos(60°).",
+        "Take the positive root: a = √(305 − 224 cos(60°)) = 13.89 cm.",
+        "Answer: a = 13.89 cm. Check the unrounded length is between |7 − 16| and 23."
+      ],
+      "memo": "Label sides b = AC = 7 cm and c = AB = 16 cm with included angle A = 60°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 49 + 256 − 224 cos(60°). Take the positive root: a = √(305 − 224 cos(60°)) = 13.89 cm. Answer: a = 13.89 cm. Check the unrounded length is between |7 − 16| and 23."
+    },
+    {
+      "id": "g11-rules-l03-m03",
+      "prompt": "In ΔABC, b = 8 cm and c = 7 cm enclose angle A = 75°. Find a to two decimals.",
+      "options": [
+        "a = 10.63 cm",
+        "a = 11.92 cm",
+        "a = 10.17 cm",
+        "a = 9.17 cm"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Label sides b = AC = 8 cm and c = AB = 7 cm with included angle A = 75°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 64 + 49 − 112 cos(75°).",
+        "Take the positive root: a = √(113 − 112 cos(75°)) = 9.17 cm.",
+        "Answer: a = 9.17 cm. Check the unrounded length is between |8 − 7| and 15."
+      ],
+      "memo": "Label sides b = AC = 8 cm and c = AB = 7 cm with included angle A = 75°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 64 + 49 − 112 cos(75°). Take the positive root: a = √(113 − 112 cos(75°)) = 9.17 cm. Answer: a = 9.17 cm. Check the unrounded length is between |8 − 7| and 15."
+    },
+    {
+      "id": "g11-rules-l03-m04",
+      "prompt": "In ΔABC, b = 9 cm and c = 9 cm enclose angle A = 100°. Find a to two decimals.",
+      "options": [
+        "a = 11.57 cm",
+        "a = 14.79 cm",
+        "a = 13.79 cm",
+        "a = 12.73 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Label sides b = AC = 9 cm and c = AB = 9 cm with included angle A = 100°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 81 + 81 − 162 cos(100°).",
+        "Take the positive root: a = √(162 − 162 cos(100°)) = 13.79 cm.",
+        "Answer: a = 13.79 cm. Check the unrounded length is between |9 − 9| and 18."
+      ],
+      "memo": "Label sides b = AC = 9 cm and c = AB = 9 cm with included angle A = 100°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 81 + 81 − 162 cos(100°). Take the positive root: a = √(162 − 162 cos(100°)) = 13.79 cm. Answer: a = 13.79 cm. Check the unrounded length is between |9 − 9| and 18."
+    },
+    {
+      "id": "g11-rules-l03-m05",
+      "prompt": "In ΔABC, b = 10 cm and c = 11 cm enclose angle A = 120°. Find a to two decimals.",
+      "options": [
+        "a = 19.19 cm",
+        "a = 18.19 cm",
+        "a = 14.87 cm",
+        "a = 10.54 cm"
+      ],
+      "answer_index": 1,
+      "actions": [
+        "Label sides b = AC = 10 cm and c = AB = 11 cm with included angle A = 120°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 100 + 121 − 220 cos(120°).",
+        "Take the positive root: a = √(221 − 220 cos(120°)) = 18.19 cm.",
+        "Answer: a = 18.19 cm. Check the unrounded length is between |10 − 11| and 21."
+      ],
+      "memo": "Label sides b = AC = 10 cm and c = AB = 11 cm with included angle A = 120°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 100 + 121 − 220 cos(120°). Take the positive root: a = √(221 − 220 cos(120°)) = 18.19 cm. Answer: a = 18.19 cm. Check the unrounded length is between |10 − 11| and 21."
+    }
+  ],
+  "reassessment": [
+    {
+      "id": "g11-rules-l03-r01",
+      "prompt": "In ΔABC, b = 11 cm and c = 11 cm enclose angle A = 45°. Find a to two decimals.",
+      "options": [
+        "a = 8.42 cm",
+        "a = 15.56 cm",
+        "a = 20.33 cm",
+        "a = 9.42 cm"
+      ],
+      "answer_index": 0,
+      "actions": [
+        "Label sides b = AC = 11 cm and c = AB = 11 cm with included angle A = 45°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 121 + 121 − 242 cos(45°).",
+        "Take the positive root: a = √(242 − 242 cos(45°)) = 8.42 cm.",
+        "Answer: a = 8.42 cm. Check the unrounded length is between |11 − 11| and 22."
+      ],
+      "memo": "Label sides b = AC = 11 cm and c = AB = 11 cm with included angle A = 45°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 121 + 121 − 242 cos(45°). Take the positive root: a = √(242 − 242 cos(45°)) = 8.42 cm. Answer: a = 8.42 cm. Check the unrounded length is between |11 − 11| and 22."
+    },
+    {
+      "id": "g11-rules-l03-r02",
+      "prompt": "In ΔABC, b = 12 cm and c = 13 cm enclose angle A = 60°. Find a to two decimals.",
+      "options": [
+        "a = 17.69 cm",
+        "a = 21.66 cm",
+        "a = 13.53 cm",
+        "a = 12.53 cm"
+      ],
+      "answer_index": 3,
+      "actions": [
+        "Label sides b = AC = 12 cm and c = AB = 13 cm with included angle A = 60°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 144 + 169 − 312 cos(60°).",
+        "Take the positive root: a = √(313 − 312 cos(60°)) = 12.53 cm.",
+        "Answer: a = 12.53 cm. Check the unrounded length is between |12 − 13| and 25."
+      ],
+      "memo": "Label sides b = AC = 12 cm and c = AB = 13 cm with included angle A = 60°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 144 + 169 − 312 cos(60°). Take the positive root: a = √(313 − 312 cos(60°)) = 12.53 cm. Answer: a = 12.53 cm. Check the unrounded length is between |12 − 13| and 25."
+    },
+    {
+      "id": "g11-rules-l03-r03",
+      "prompt": "In ΔABC, b = 13 cm and c = 15 cm enclose angle A = 75°. Find a to two decimals.",
+      "options": [
+        "a = 22.25 cm",
+        "a = 18.12 cm",
+        "a = 17.12 cm",
+        "a = 19.85 cm"
+      ],
+      "answer_index": 2,
+      "actions": [
+        "Label sides b = AC = 13 cm and c = AB = 15 cm with included angle A = 75°.",
+        "Drop a perpendicular from C to AB to see why the cosine rule uses the included angle.",
+        "Write a² = b² + c² − 2bc cos A = 169 + 225 − 390 cos(75°).",
+        "Take the positive root: a = √(394 − 390 cos(75°)) = 17.12 cm.",
+        "Answer: a = 17.12 cm. Check the unrounded length is between |13 − 15| and 28."
+      ],
+      "memo": "Label sides b = AC = 13 cm and c = AB = 15 cm with included angle A = 75°. Drop a perpendicular from C to AB to see why the cosine rule uses the included angle. Write a² = b² + c² − 2bc cos A = 169 + 225 − 390 cos(75°). Take the positive root: a = √(394 − 390 cos(75°)) = 17.12 cm. Answer: a = 17.12 cm. Check the unrounded length is between |13 − 15| and 28."
+    }
+  ]
+}

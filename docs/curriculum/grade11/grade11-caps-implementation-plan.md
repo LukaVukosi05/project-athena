@@ -1,9 +1,11 @@
 # Grade 11 Mathematics: source and implementation plan
 
-Status: Topics 1–6 have authored runtime previews, source files, whiteboard
+Status: Topics 1–7 have authored runtime previews, source files, whiteboard
 timelines and assessment banks. They remain teacher-review-required. Browser
 acceptance and teacher approval have not been recorded; do not label them
-published. Topics 7–12 remain plans, not interactive lessons.
+published. Topics 8–12 remain plans, not interactive lessons.
+
+Topic 7 now contains five original triangle-rule lessons with 75 worked examples, 75 practice, 25 mastery and 15 reassessment items. Proofs, live diagrams, angle labels and the alternate sine branch require teacher and browser acceptance.
 
 Topic 6 uses four Paper 1 algebraic graph lessons and four Paper 2
 trigonometric graph lessons. Each has staged, question-specific plots, source

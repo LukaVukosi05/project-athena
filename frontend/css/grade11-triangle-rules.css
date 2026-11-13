@@ -1,0 +1,14 @@
+.g11-rules-board {color:#17344b;width:100%;min-width:0}
+.g11-rules-board>p:first-child {font-weight:650;line-height:1.6}
+.g11-rules-model {width:100%;overflow:hidden}
+.g11-rules-model svg {width:100%;max-height:345px;height:auto;display:block}
+.g11-rules-model text {fill:#17344b;font-size:12px;font-weight:650}
+.g11-rules-side {stroke:#087e8a;stroke-width:2.7;fill:none}
+.g11-rules-altitude {stroke:#cc763a;stroke-width:1.8;stroke-dasharray:5 4}
+.g11-rules-angle-mark {stroke:#cc763a;stroke-width:1.5;fill:none;stroke-dasharray:3 3}
+.g11-rules-branch {opacity:.5;transform:translate(120px,-32px)}
+.g11-rules-branch .g11-rules-side {stroke:#b15d33}
+.g11-rules-model .g11-rules-rule {font-size:10px;fill:#175b63}
+.g11-rules-model .g11-rules-answer {font-size:15px;fill:#08664a}
+.g11-rules-board [data-object-id="operation"] {color:#175b63}
+.g11-rules-board [data-object-id="verification"] {color:#08664a;font-weight:700}
