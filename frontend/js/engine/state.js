@@ -1,14 +1,8 @@
-/* ============================================================
-   STATE — mock auth + progress store (Phase 1 only)
-   ------------------------------------------------------------
-   Stands in for the real backend session + progress API (see
-   backend/app/api/v1/auth.py and backend/app/db/models/progress.py).
-   Kept in localStorage under one namespaced key. When the
-   backend exists, only this file's internals change — its
-   public shape (AthenaState.*) should stay the same so pages
-   don't need to be rewritten.
-   ============================================================ */
+/* Shared learner state and renewable browser authentication. */
 const STORAGE_KEY = "athena_v1_state";
+const ACCESS_KEY = "athena_access_token";
+let memoryAccessToken = null;
+let renewal = null;
 // Entitlement overrides are enforced by the backend. Never make the browser
 // an independent source of truth for a development or production paywall.
 const ATHENA_UNLOCK_ALL_LESSONS = false;
@@ -95,15 +89,23 @@ const AthenaState = {
       role: user.role,
       isPremium: user.is_premium
     };
-    state.accessToken = session.access_token;
+    memoryAccessToken = session.access_token;
+    try { sessionStorage.setItem(ACCESS_KEY, session.access_token); } catch (_) {}
+    state.accessToken = null; // Long-lived browser credentials remain HttpOnly.
     state.isPremium = user.is_premium;
     saveState(state);
     return state;
   },
 
-  accessToken() { return this.get().accessToken || null; },
+  accessToken() {
+    if (memoryAccessToken) return memoryAccessToken;
+    try { if (sessionStorage.getItem(ACCESS_KEY)) return sessionStorage.getItem(ACCESS_KEY); } catch (_) {}
+    return this.get().accessToken || null; // One-time compatibility with existing sessions.
+  },
 
   clearSession() {
+    memoryAccessToken = null;
+    try { sessionStorage.removeItem(ACCESS_KEY); } catch (_) {}
     saveState({ user: null, accessToken: null, isPremium: false,
       completedLessons: [], quizAttempts: {} });
   },
@@ -127,37 +129,78 @@ const AthenaAuth = {
     return session.user;
   },
 
-  async login({ email, password }) {
+  async login({ email, password, rememberMe = false }) {
     const session = await this.request("/api/v1/auth/login", {
       method: "POST",
-      body: JSON.stringify({ email, password })
+      body: JSON.stringify({ email, password, remember_me: rememberMe })
     });
     AthenaState.setSession(session);
     return session.user;
   },
 
+  async renewSession() {
+    if (!renewal) renewal = (async () => {
+      const response = await fetch("/api/v1/auth/refresh", { method: "POST", credentials: "same-origin" });
+      if (response.status === 401) { AthenaState.clearSession(); return null; }
+      if (!response.ok) { const error = new Error("We couldn't reconnect. Your sign-in has been kept. Please retry."); error.status = response.status; throw error; }
+      const session = await response.json();
+      AthenaState.setSession(session);
+      return session.user;
+    })().finally(() => { renewal = null; });
+    return renewal;
+  },
+
+  async fetch(path, options = {}) {
+    const local = new URL(path, location.href);
+    if (local.origin !== location.origin) throw new Error("Account requests must stay on Athena.");
+    if (!AthenaState.accessToken() && AthenaState.get().user) await this.renewSession();
+    const send = () => fetch(path, { ...options, credentials: "same-origin", headers: {
+      ...(AthenaState.accessToken() ? { Authorization: `Bearer ${AthenaState.accessToken()}` } : {}),
+      ...(options.headers || {})
+    }});
+    let response = await send();
+    if (response.status === 401 && !/\/(login|signup|refresh|logout|providers)$/.test(local.pathname)) {
+      const user = await this.renewSession();
+      if (user) {
+        const headers = {...(options.headers || {}), Authorization: `Bearer ${AthenaState.accessToken()}`};
+        response = await fetch(path, {...options, credentials:"same-origin", headers});
+      }
+    }
+    return response;
+  },
+
   async restoreSession() {
-    const token = AthenaState.accessToken();
-    if (!token) return null;
+    if (!AthenaState.accessToken()) return this.renewSession();
     try {
-      const user = await this.request("/api/v1/auth/me", {
-        headers: { Authorization: `Bearer ${token}` }
-      });
-      AthenaState.setSession({ access_token: token, user });
+      const user = await this.request("/api/v1/auth/me");
+      AthenaState.setSession({ access_token: AthenaState.accessToken(), user });
       return user;
     } catch (error) {
-      AthenaState.clearSession();
-      return null;
+      if (error.status === 401) { AthenaState.clearSession(); return null; }
+      throw error; // A network/server failure is not a sign-out.
     }
   },
 
+  safeNext(value) {
+    if (!value || !value.startsWith("/") || value.startsWith("//") || value.includes("\\") || /[\u0000-\u001f]/.test(value)) return "/dashboard.html";
+    const target = new URL(value, location.origin);
+    return target.origin === location.origin ? target.pathname + target.search + target.hash : "/dashboard.html";
+  },
+
   async requireSession() {
-    const user = await this.restoreSession();
-    if (!user) {
-      location.href = `login.html?next=${encodeURIComponent(location.pathname + location.search)}`;
+    try {
+      const user = await this.restoreSession();
+      if (!user) location.href = `login.html?next=${encodeURIComponent(location.pathname + location.search)}`;
+      return user;
+    } catch (error) {
+      const main = document.querySelector("main");
+      if (main) {
+        const notice = document.createElement("p"); notice.className = "card"; notice.setAttribute("role", "alert");
+        notice.textContent = "We couldn't reconnect. Your sign-in has been kept. Refresh this page to try again.";
+        main.prepend(notice);
+      }
       return null;
     }
-    return user;
   },
 
   async updateProfile(changes) {
@@ -172,13 +215,15 @@ const AthenaAuth = {
     return user;
   },
 
-  logout() {
+  async logout() {
+    await this.request("/api/v1/auth/logout", {method:"POST"});
     AthenaState.clearSession();
     location.href = "login.html";
   },
 
   async request(path, options = {}) {
-    const response = await fetch(path, {
+    const response = await (/(login|signup|logout|providers)$/.test(path) ? fetch : this.fetch.bind(this))(path, {
+      credentials: "same-origin",
       ...options,
       headers: {
         "Content-Type": "application/json",
@@ -187,8 +232,22 @@ const AthenaAuth = {
     });
     if (!response.ok) {
       const payload = await response.json().catch(() => ({}));
-      throw new Error(payload.detail || "Something went wrong. Please try again.");
+      const error = new Error(typeof payload.detail === "string" ? payload.detail : "Check your details and try again.");
+      error.status = response.status;
+      throw error;
     }
     return response.json();
   }
 };
+
+
+window.addEventListener("storage", event => {
+  if (event.key !== STORAGE_KEY) return;
+  let previous, current;
+  try { previous=JSON.parse(event.oldValue || "null"); current=JSON.parse(event.newValue || "null"); } catch (_) {}
+  if (!current?.user || previous?.user?.email !== current.user.email) {
+    memoryAccessToken = null;
+    try { sessionStorage.removeItem(ACCESS_KEY); } catch (_) {}
+    // Another tab signed out or changed account; never send that tab's old bearer.
+  }
+});

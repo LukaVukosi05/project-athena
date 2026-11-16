@@ -18,6 +18,7 @@ class SignUpRequest(BaseModel):
 
 
 class LoginRequest(BaseModel):
+    remember_me: bool = False
     email: EmailStr
     password: str = Field(min_length=1, max_length=128)
 

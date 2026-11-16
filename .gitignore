@@ -34,3 +34,10 @@ artifacts/
 playwright-report/
 test-results/
 /*.png
+
+# Local data stays outside source control
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3

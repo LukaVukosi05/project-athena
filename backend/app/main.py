@@ -6,6 +6,8 @@ from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.gzip import GZipMiddleware
+from starlette.middleware.sessions import SessionMiddleware
+from app.api.v1.social_auth import router as social_auth_router
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy import text
 
@@ -15,7 +17,10 @@ from app.api.v1.lessons import router as lessons_router
 from app.api.v1.practice import router as practice_router
 from app.core.config import get_settings
 from app.db.database import Base, engine
-from app.db.models import PracticeSession, User  # noqa: F401 - registers models before table creation
+from app.db.models import (
+    PracticeSession,
+    User,
+)  # noqa: F401 - registers models before table creation
 from app.curriculum.content_manifest import readiness_for
 from app.curriculum.repository import curriculum_repository
 
@@ -38,7 +43,10 @@ async def lifespan(_: FastAPI):
         for lesson in subtopic.lessons
     ]
     published = sum(readiness_for(lesson).value == "published" for lesson in lessons)
-    roadmap = sum(readiness_for(lesson).value in {"roadmap", "specified", "anchored"} for lesson in lessons)
+    roadmap = sum(
+        readiness_for(lesson).value in {"roadmap", "specified", "anchored"}
+        for lesson in lessons
+    )
     print(
         "Curriculum loaded: "
         f"{diagnostics['grades']} grades, {diagnostics['topics']} topics, "
@@ -66,7 +74,16 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PATCH", "OPTIONS"],
     allow_headers=["Authorization", "Content-Type"],
 )
+app.add_middleware(
+    SessionMiddleware,
+    secret_key=settings.jwt_secret,
+    session_cookie="athena_oauth",
+    max_age=600,
+    same_site="none" if settings.cookie_secure else "lax",
+    https_only=settings.cookie_secure,
+)
 app.add_middleware(GZipMiddleware, minimum_size=1_000, compresslevel=5)
+app.include_router(social_auth_router, prefix="/api/v1/auth", tags=["auth"])
 app.include_router(auth_router, prefix="/api/v1/auth", tags=["auth"])
 app.include_router(curriculum_router, prefix="/api/v1/curriculum", tags=["curriculum"])
 app.include_router(lessons_router, prefix="/api/v1/lessons", tags=["lessons"])
@@ -80,7 +97,13 @@ async def disable_development_asset_cache(request, call_next):
     # HTML must always be revalidated: its versioned script URLs are the
     # handoff between the current curriculum API and the matching UI code.
     path = request.url.path
-    if path == "/" or path.endswith(".html") or (settings.environment == "development" and path.endswith((".js", ".css"))):
+    if path.startswith("/api/v1/auth/"):
+        response.headers["Cache-Control"] = "no-store"
+    if (
+        path == "/"
+        or path.endswith(".html")
+        or (settings.environment == "development" and path.endswith((".js", ".css")))
+    ):
         response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate"
         response.headers["Pragma"] = "no-cache"
         response.headers["Expires"] = "0"

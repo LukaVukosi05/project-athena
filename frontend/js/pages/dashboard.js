@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 async function loadGrade(gradeId, state) {
-  const url = `/api/v1/curriculum/grades/${encodeURIComponent(gradeId)}`, response = await fetch(url, { headers: AthenaState.accessToken() ? { Authorization: `Bearer ${AthenaState.accessToken()}` } : {} });
+  const url = `/api/v1/curriculum/grades/${encodeURIComponent(gradeId)}`, response = await AthenaAuth.fetch(url, { headers: AthenaState.accessToken() ? { Authorization: `Bearer ${AthenaState.accessToken()}` } : {} });
   if (!response.ok) { document.getElementById("topics-list").innerHTML = `<div class="card" role="alert"><strong>Curriculum could not be loaded.</strong><p>Request: ${escapeDashboardHtml(url)} · Status: ${response.status}</p></div>`; return; }
   const grade = await response.json(), usable = grade.topics.reduce((sum, topic) => sum + (topic.interactive_lesson_count || 0), 0), complete = state.completedLessons.filter(id => id.startsWith(`g${grade.grade}-`)).length, progress = usable ? Math.min(100, Math.round(complete / usable * 100)) : 0;
   document.getElementById("grade-label").textContent = `Grade ${grade.grade} Mathematics`;

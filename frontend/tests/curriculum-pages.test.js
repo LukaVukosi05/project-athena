@@ -16,7 +16,7 @@ const topics = [
 ];
 const context = {
   document: { addEventListener: (_name, callback) => { ready = callback; }, getElementById: element },
-  AthenaAuth: { requireSession: async () => ({ id: 1 }) },
+  AthenaAuth: { fetch: (...args) => context.fetch(...args), requireSession: async () => ({ id: 1 }) },
   AthenaState: { get: () => ({ user: { firstName: "Test" }, completedLessons: [], isPremium: false }), accessToken: () => null },
   renderNav: () => {},
   fetch: async () => ({ ok: true, json: async () => ({ topics }) }),

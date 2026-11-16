@@ -1,41 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Welcome back — Project Athena</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign in — Project Athena</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/tokens.css" />
-<link rel="stylesheet" href="css/base.css" />
-<link rel="stylesheet" href="css/components.css" />
-<link rel="stylesheet" href="css/pages.css" />
+<link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/pages.css">
+<link rel="stylesheet" href="css/auth.css?v=auth-session-v1">
 </head>
-<body>
+<body class="signin-page">
 <div id="nav-mount"></div>
-
-<main class="container">
-  <div class="card auth-shell">
-    <h2 style="text-align:center;">Welcome back</h2>
-    <form id="login-form">
-      <div class="field"><label for="email">Email</label><input id="email" type="email" required /></div>
-      <div class="field">
-        <label for="password">Password</label>
-        <input id="password" type="password" required />
+<main class="signin-layout">
+  <section class="signin-story" aria-labelledby="story-title">
+    <p class="signin-kicker"><span></span> ONE STEP AT A TIME</p>
+    <h2 id="story-title">Maths can<br>make sense.</h2>
+    <p class="signin-story-copy">A calm space to learn, practise and build confidence. Your next step starts here.</p>
+    <div class="signin-board" aria-label="An example of breaking an equation into small steps">
+      <div class="signin-board-top"><span>A SMALL STEP FORWARD</span><span aria-hidden="true">↗</span></div>
+      <p class="signin-equation">x + 5 = 12</p>
+      <div class="signin-working"><span>Subtract 5 from both sides</span><span aria-hidden="true">−5</span></div>
+      <p class="signin-answer">x = 7 <span aria-hidden="true">✓</span></p>
+      <p class="signin-board-note">Understand the step. Build the confidence.</p>
+    </div>
+    <p class="signin-audience">For Grade 8–12 learners and the people supporting them.</p>
+    <div class="signin-story-footer"><span>See each step</span><span>Practise at your pace</span></div>
+  </section>
+  <section class="signin-panel" aria-labelledby="signin-title">
+    <div class="signin-form-wrap">
+      <p class="eyebrow">WELCOME BACK</p>
+      <h1 id="signin-title">Let's pick up<br>from here.</h1>
+      <p class="signin-intro">Sign in to continue your maths journey.</p>
+      <div class="signin-providers" aria-label="Other ways to sign in">
+        <button type="button" class="signin-provider" data-provider="google" disabled aria-describedby="provider-note">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5Z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6C44.4 38.02 46.98 31.88 46.98 24.55Z"/><path fill="#FBBC05" d="M10.53 28.59A14.4 14.4 0 0 1 9.75 24c0-1.6.27-3.14.78-4.59l-7.98-6.19A23.87 23.87 0 0 0 0 24c0 3.87.93 7.53 2.56 10.78l7.97-6.19Z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.9-5.8l-7.73-6c-2.15 1.45-4.92 2.3-8.17 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48Z"/></svg>
+          Continue with Google
+        </button>
+        <button type="button" class="signin-provider signin-provider-apple" data-provider="apple" disabled aria-describedby="provider-note">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.05 12.54c.03 3.1 2.72 4.13 2.75 4.15-.02.07-.43 1.47-1.42 2.92-.86 1.25-1.75 2.5-3.15 2.53-1.37.03-1.81-.81-3.38-.81-1.56 0-2.05.78-3.35.84-1.35.05-2.38-1.36-3.25-2.6-1.77-2.56-3.12-7.23-1.3-10.39a5.05 5.05 0 0 1 4.3-2.59c1.35-.03 2.62.91 3.44.91.82 0 2.36-1.12 3.98-.95.68.03 2.59.28 3.82 2.08-.1.06-2.47 1.44-2.44 3.91ZM14.47 4.86c.72-.87 1.2-2.08 1.07-3.29-1.04.04-2.31.69-3.06 1.56-.67.77-1.26 2-1.1 3.18 1.16.09 2.35-.59 3.09-1.45Z"/></svg>
+          Continue with Apple
+        </button>
       </div>
-      <p style="text-align:right;margin-top:-8px;"><a href="forgot-password.html" style="font-size:var(--fs-xs);">Forgot password?</a></p>
-      <button class="btn btn-primary btn-block" type="submit">Sign in</button>
-      <p id="login-feedback" role="status" aria-live="polite"></p>
-    </form>
-    <div class="divider">or</div>
-    <a class="btn btn-ghost btn-block" href="verify.html">Email verification help</a>
-    <p style="text-align:center;margin-top:var(--space-5);font-size:var(--fs-sm);">Don't have an account? <a href="signup.html">Create account</a></p>
-  </div>
+      <p id="provider-note" class="signin-small" role="status">Checking sign-in options…</p>
+      <div class="signin-divider"><span>or use your email</span></div>
+      <form id="login-form">
+        <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="username" inputmode="email" autocapitalize="none" spellcheck="false" placeholder="you@example.com" required></div>
+        <div class="field"><label for="password">Password</label><div class="signin-password"><input id="password" name="password" type="password" autocomplete="current-password" required><button id="toggle-password" type="button" aria-controls="password" aria-pressed="false">Show</button></div></div>
+        <div class="signin-options"><label class="signin-remember"><input id="remember-me" type="checkbox"> Stay signed in for 30 days</label><a href="forgot-password.html">Forgot password?</a></div>
+        <p class="signin-small">Using a shared device? Leave this unticked and sign out when you're done.</p>
+        <button class="btn btn-primary signin-submit" type="submit">Sign in <span aria-hidden="true">→</span></button>
+        <p id="login-feedback" class="signin-feedback" role="status" aria-live="polite" tabindex="-1"></p>
+      </form>
+      <p class="signin-create">New to Athena? <a href="signup.html">Create an account</a></p>
+      <p class="signin-small signin-reassurance">Your Google or Apple password stays with your provider.</p>
+    </div>
+  </section>
 </main>
-
-<script src="js/engine/html.js?v=shared-html-v1"></script><script src="js/engine/state.js?v=auth-v2"></script>
-<script src="js/engine/navigation.js?v=auth-v2"></script>
-<script>document.addEventListener("DOMContentLoaded", () => renderNav(""));</script>
-<script src="js/pages/login.js?v=auth-v2"></script>
-</body>
-</html>
+<script src="js/engine/html.js?v=shared-html-v1"></script><script src="js/engine/state.js?v=session-v3"></script>
+<script src="js/engine/navigation.js?v=shell-v1"></script><script src="js/pages/login.js?v=session-v3"></script>
+</body></html>

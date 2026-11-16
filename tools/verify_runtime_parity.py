@@ -20,6 +20,11 @@ def main():
     parser.add_argument(
         "--baseline", default="a393b6c7b3ff883fc16c5f5c9922f5a0be660fe9"
     )
+    parser.add_argument(
+        "--content-only",
+        action="store_true",
+        help="Allow intentional API schema changes; compare curriculum payloads only",
+    )
     parser.add_argument("--snapshot", type=Path, help=argparse.SUPPRESS)
     args = parser.parse_args()
     if args.snapshot:
@@ -58,6 +63,9 @@ def main():
                 )
             before = json.loads((temporary / "baseline.json").read_text())
             after = json.loads((temporary / "current.json").read_text())
+            if args.content_only:
+                before.pop("routes", None)
+                after.pop("routes", None)
             if before != after:
                 for group in before:
                     if before[group] != after[group]:
@@ -71,9 +79,7 @@ def main():
                         else:
                             print(f"Changed {group}")
                 raise SystemExit("Runtime parity FAILED")
-            print(
-                "Runtime parity PASSED: API schema, all lesson entries, worked reveals and banks are identical."
-            )
+            print("Runtime parity PASSED: all selected outputs are identical.")
         finally:
             subprocess.run(
                 ["git", "worktree", "remove", "--force", str(baseline)],

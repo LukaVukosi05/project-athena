@@ -6,7 +6,7 @@ class SelfGuidedPractice {
   }
   async request(path, options = {}) {
     const token = typeof AthenaState !== "undefined" ? AthenaState.accessToken() : null;
-    const response = await fetch(path, { ...options, headers: { "Content-Type": "application/json", ...(token ? { Authorization: `Bearer ${token}` } : {}) } });
+    const response = await AthenaAuth.fetch(path, { ...options, headers: { "Content-Type": "application/json", ...(token ? { Authorization: `Bearer ${token}` } : {}) } });
     if (!response.ok) throw new Error((await response.json().catch(() => ({}))).detail || "Practice request failed.");
     return response.json();
   }

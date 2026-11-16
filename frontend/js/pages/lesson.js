@@ -13,7 +13,7 @@ async function renderStructuredLesson(lessonId) {
   const root = document.getElementById("lesson-root");
   try {
     const token = AthenaState.accessToken();
-    const response = await fetch(`/api/v1/lessons/${encodeURIComponent(lessonId)}`, { headers: token ? { Authorization: `Bearer ${token}` } : {} });
+    const response = await AthenaAuth.fetch(`/api/v1/lessons/${encodeURIComponent(lessonId)}`, { headers: token ? { Authorization: `Bearer ${token}` } : {} });
     if (!response.ok) throw new Error(response.status === 401 ? "Please sign in to access this lesson." : response.status === 403 ? "An active subscription is required." : response.status === 409 ? "This lesson is source-authored but not verified for use yet." : "Lesson could not be loaded.");
     const lesson = await response.json();
     document.title = `${lesson.title} — Project Athena`;
