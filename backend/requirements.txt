@@ -1,9 +1,8 @@
 
 
 # ============================================================
-# Phase 1 target dependency set — NOT yet installed/used.
-# Pin exact versions once the backend build actually starts;
-# left unpinned here since this is a planning scaffold.
+# Application runtime dependencies.
+# Test and developer tools are declared in requirements-dev.txt.
 # ============================================================
 
 # --- Web framework ---
@@ -22,6 +21,8 @@ python-multipart              # form/file parsing (e.g. OCR image uploads)
 
 # --- Validation ---
 pydantic               # request/response schemas across app/api/v1/*
+pydantic-settings      # ATHENA_ environment configuration
+email-validator        # EmailStr validation in auth request schemas
 
 # --- AI / ML (Phase 4+, added when the AI Tutor phase starts) ---
 # httpx                 # calling open-source model APIs / premium fallback

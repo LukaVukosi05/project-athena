@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# Regression suites and local development checks
+pytest
+httpx
+sympy
+black

@@ -10,4 +10,3 @@ function renderNav(activeLabel) {
   const menu=document.getElementById("nav-menu-toggle");menu.onclick=()=>{const open=mount.querySelector(".topnav").classList.toggle("is-open");menu.setAttribute("aria-expanded",String(open));};
 }
 function linkFor(label){return {"Learn":"dashboard.html","Practice":"dashboard.html#practice","Past Papers":"past-papers.html","Progress":"progress.html","Account":"account.html"}[label]||"#";}
-function escapeHtml(str){return String(str).replace(/[&<>"']/g,s=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[s]));}

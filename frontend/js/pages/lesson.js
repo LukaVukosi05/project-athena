@@ -34,7 +34,3 @@ async function renderStructuredLesson(lessonId) {
     root.innerHTML = `<div class="card"><strong>We couldn't load this lesson.</strong><p>${escapeHtml(error.message)}</p></div>`;
   }
 }
-
-function escapeHtml(value) {
-  return String(value).replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
-}

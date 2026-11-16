@@ -1,45 +1,26 @@
-# Backend — not yet implemented (Phase 1 = frontend only)
+# Athena backend
 
-This directory is a scaffold, not working code. Per the brief's
-Phase 1 ("Build: Web frontend, Authentication, Grade selection,
-Curriculum database... No advanced AI yet") and the engineering
-principle in section 65 ("never integrate an unfamiliar tool
-directly — experiment, proof of concept, benchmark, wrapper,
-tests, then production integration"), the backend is built
-AFTER the frontend UX is validated, not alongside it.
+Working FastAPI backend serving the frontend and `/api/v1/auth`, `/curriculum`,
+`/lessons` and `/practice`. Start from the [root README](../README.md).
 
-Every file below contains only:
-- a module docstring explaining what will live there
-- the intended imports / responsibilities
-- placeholder function or class signatures with `# TODO` bodies
+Run `python -m uvicorn app.main:app --reload` from this directory after installing
+`requirements-dev.txt` and configuring `.env`. `ATHENA_JWT_SECRET` is required.
+`ATHENA_DATABASE_URL` defaults to local SQLite. Development startup creates tables;
+production migration and deployment work must be assessed separately.
 
-Nothing here runs yet. When Phase 1 → Phase 2 begins:
-1. `pip install -r requirements.txt`
-2. Fill in `core/config.py` and `db/database.py` first (everything
-   else depends on them)
-3. Build `api/v1/auth.py` + `db/models/user.py` next, since the
-   frontend's `state.js` mock needs a real session to replace it
-4. Only then move to curriculum, lessons, quizzes, and finally AI
+Lesson access is enforced in `app/lessons/access.py`. For local content QA only,
+`ATHENA_UNLOCK_ALL_LESSONS=true` allows lesson rendering without premium accounts.
+Production configuration rejects that override. Never use it to validate access
+control; the access tests explicitly turn it off.
 
-Stack (per brief section 64 and the product's open-source-first
-philosophy): Python 3.12, FastAPI, PostgreSQL (via SQLAlchemy),
-Supabase-style auth, open-source AI models with premium APIs as
-a fallback.
+Routes delegate payload construction to `app/lessons/` and bank/scoring/session
+work to `app/practice/`. `app/api/v1/practice.py` composes topic diagnostics,
+question sessions and assessments in the established route order. Its historical
+`ASSESSMENT_BANKS` and `_score_assessment` imports remain available for callers.
 
-## Current backend foundation
+Register Grade 8–11 lessons once in `app/practice/banks/gradeN.py`; the public
+practice and private assessment catalogues are projections of that registration.
+Grade 12 retains its existing practice-only catalogue. Existing curriculum and
+frontend asset paths stay stable.
 
-The backend now has a safe, independently testable application
-foundation. It does not yet replace any frontend behaviour.
-
-1. Create and activate a Python 3.12 virtual environment.
-2. Run `pip install -r requirements.txt`.
-3. Copy `.env.example` to `.env` and replace
-   `ATHENA_JWT_SECRET` with a long random value.
-4. Run `uvicorn app.main:app --reload` from this directory.
-5. Open `http://127.0.0.1:8000/health`; it should return an
-   `ok` status. Interactive API documentation is at `/docs`.
-
-The default local database is SQLite so this layer can be validated
-without infrastructure. Set `ATHENA_DATABASE_URL` to a PostgreSQL
-connection URL before deploying. The next increment will add the
-User model and real authentication endpoints.
+See [development guide](../docs/development.md) for tests and behavior parity.

@@ -10,6 +10,11 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from app.curriculum.grade8.gold_pack_runtime import (
+    SEMANTIC_ANIMATION_OPERATIONS,
+    visual_parameters,
+    whiteboard_question,
+)
 from app.curriculum.schemas import (
     AccessLevel,
     ContentStatus,
@@ -23,7 +28,6 @@ from app.curriculum.schemas import (
     VisualizationInstruction,
     VisualizationState,
     WhiteboardBlock,
-    WhiteboardQuestion,
 )
 from app.curriculum.grade8.additive_timelines import STAGES
 
@@ -35,27 +39,6 @@ SOURCE_SHA256 = SOURCE_DATA["source_sha256"]
 RENDERER_TEMPLATES = frozenset(
     item["renderer"] for item in SOURCE_DATA["worked_examples"]
 )
-
-SEMANTIC_ANIMATION_OPERATIONS = frozenset({
-    "focus_object", "evaluate_expression", "introduce_inverse",
-    "apply_to_both_sides", "cancel_inverse_pair", "simplify_expression",
-    "substitute_value", "replace_unknown", "reverse_equality",
-    "compare_both_sides", "tilt_balance", "restore_balance",
-    "mark_incorrect_step", "repair_incorrect_step", "verify_original",
-    "show_conclusion",
-})
-
-
-def _parameters(item: dict) -> dict:
-    """Keep the exact author data while giving every renderer its own values."""
-    return {
-        "prompt": item["prompt"],
-        "source_data": item["question_data"],
-        "initial_state": item["initial_state"],
-        "family": item["renderer"].split(":", 1)[1],
-        "question_id": item["id"],
-        "total_steps":len(STAGES[item["number"]]),
-    }
 
 
 def _board(item: dict) -> WhiteboardBlock:
@@ -227,30 +210,18 @@ def _board(item: dict) -> WhiteboardBlock:
         problem=item["prompt"],
         initial_expression=plan[0]["before"],
         steps=steps,
-        visualization=VisualizationInstruction(type="algebra", template=family, parameters=_parameters(item)),
+        visualization=VisualizationInstruction(
+            type="algebra", template=family, parameters=visual_parameters(
+                item, total_steps=len(STAGES[item["number"]]),
+            ),
+        ),
         semantic_objects=semantic_objects,
     )
 
 
-def _question(item: dict) -> WhiteboardQuestion:
-    difficulty = "advanced" if item["difficulty"] == "challenge" else item["difficulty"]
-    return WhiteboardQuestion(
-        id=item["id"],
-        order=item["number"],
-        difficulty=difficulty,
-        is_core_example=item["number"] == 1,
-        guidance_level="high" if item["number"] <= 5 else "moderate" if item["number"] <= 10 else "reduced",
-        whiteboard=_board(item),
-        cognitive_level=item["cognitive_level"],
-        marks=item["marks"],
-        answer=item["answer"],
-        full_memo=item["memo"],
-        misconception_tags=item["misconception_tags"],
-        expected_evidence=item["verification"],
-    )
-
-
-WHITEBOARD_QUESTIONS = [_question(item) for item in SOURCE_DATA["worked_examples"]]
+WHITEBOARD_QUESTIONS = [
+    whiteboard_question(item, _board(item)) for item in SOURCE_DATA["worked_examples"]
+]
 
 LESSON_3 = Lesson(
     id=SOURCE_DATA["id"],

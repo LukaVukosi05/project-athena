@@ -96,7 +96,3 @@ class QuizEngine {
     this.mountEl.querySelector('[data-action="ok"]').onclick = () => this.onComplete({ score, passed, correct, total });
   }
 }
-
-function escapeHtml(str) {
-  return String(str).replace(/[&<>"']/g, s => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[s]));
-}
