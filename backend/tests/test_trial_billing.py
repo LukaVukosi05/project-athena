@@ -153,3 +153,41 @@ def test_offer_and_test_clock(billing):
     )
     client.headers.pop("Authorization")
     assert client.get("/api/v1/payments/status").status_code == 401
+
+
+def test_signin_membership_decision_uses_server_access_state(billing):
+    client, engine, _ = billing
+    assert client.get("/api/v1/payments/status").json()["has_access"] is False
+    authorise(client)
+    assert client.get("/api/v1/payments/status").json()["has_access"] is True
+    client.post("/api/v1/payments/cancel")
+    assert client.get("/api/v1/payments/status").json()["has_access"] is True
+    client.post("/api/v1/payments/test/advance")
+    assert client.get("/api/v1/payments/status").json()["has_access"] is False
+    client.headers["Authorization"] = "Bearer " + create_access_token(2)
+    with Session(engine) as db:
+        db.get(User, 2).is_premium = True
+        db.commit()
+    assert client.get("/api/v1/payments/status").json()["has_access"] is True
+
+
+def test_old_and_unsafe_auth_destinations_fall_back_to_agreed_landing():
+    from app.auth.sessions import safe_next
+
+    for value in (
+        None,
+        "/dashboard.html",
+        "/dashboard.html?grade=grade-9",
+        "//other.example",
+        "https://other.example",
+    ):
+        assert safe_next(value) == "/index.html"
+    assert safe_next("/lesson.html?lesson=g11-es-01") == "/lesson.html?lesson=g11-es-01"
+
+
+def test_preview_access_does_not_become_production_membership(billing, monkeypatch):
+    client, _, _ = billing
+    authorise(client)
+    assert client.get("/api/v1/payments/status").json()["has_access"] is True
+    monkeypatch.setattr(get_settings(), "environment", "production")
+    assert client.get("/api/v1/payments/status").json()["has_access"] is False

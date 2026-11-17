@@ -30,9 +30,11 @@ def safe_next(value: str | None) -> str:
         or "\\" in value
         or any(ord(c) < 32 for c in value)
     ):
-        return "/dashboard.html"
+        return "/index.html"
+    if urlsplit(value).path == "/dashboard.html":
+        return "/index.html"
     parsed = urlsplit(value)
-    return value if not parsed.scheme and not parsed.netloc else "/dashboard.html"
+    return value if not parsed.scheme and not parsed.netloc else "/index.html"
 
 
 def token_hash(value: str) -> str:

@@ -182,9 +182,22 @@ const AthenaAuth = {
   },
 
   safeNext(value) {
-    if (!value || !value.startsWith("/") || value.startsWith("//") || value.includes("\\") || /[\u0000-\u001f]/.test(value)) return "/dashboard.html";
+    if (!value || !value.startsWith("/") || value.startsWith("//") || value.includes("\\") || /[\u0000-\u001f]/.test(value)) return "/index.html";
     const target = new URL(value, location.origin);
-    return target.origin === location.origin ? target.pathname + target.search + target.hash : "/dashboard.html";
+    if (target.pathname === "/dashboard.html") return "/index.html";
+    return target.origin === location.origin ? target.pathname + target.search + target.hash : "/index.html";
+  },
+
+  async afterSignIn(requested) {
+    const destination = this.safeNext(requested);
+    const onward = destination.startsWith("/checkout.html") ? "/index.html" : destination;
+    try {
+      const status = await this.request("/api/v1/payments/status");
+      if (status.has_access) return onward;
+    } catch (_) {
+      // Keep the sign-in. The offer page can retry a membership lookup safely.
+    }
+    return "/checkout.html?next=" + encodeURIComponent(onward);
   },
 
   async requireSession() {

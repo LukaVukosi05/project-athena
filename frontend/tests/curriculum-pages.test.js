@@ -1,49 +1,13 @@
-const assert = require("assert");
-const fs = require("fs");
-const vm = require("vm");
-const path = require("path");
-
-const elements = new Map();
-function element(id) {
-  if (!elements.has(id)) elements.set(id, { id, innerHTML: "", textContent: "", style: {}, href: "" });
-  return elements.get(id);
-}
-
-let ready;
-const topics = [
-  { id: "sequences-series", title: "Sequences and Series", product_order: 1, paper: "Paper 1", subtopic_count: 1 },
-  { id: "functions-graphs", title: "Functions and Graphs", product_order: 2, paper: "Paper 1", subtopic_count: 1, status: "teacher_review_required" },
-];
-const context = {
-  document: { addEventListener: (_name, callback) => { ready = callback; }, getElementById: element },
-  AthenaAuth: { fetch: (...args) => context.fetch(...args), requireSession: async () => ({ id: 1 }) },
-  AthenaState: { get: () => ({ user: { firstName: "Test" }, completedLessons: [], isPremium: false }), accessToken: () => null },
-  renderNav: () => {},
-  fetch: async () => ({ ok: true, json: async () => ({ topics }) }),
-  location: { search: "" },
-  URLSearchParams,
-  console,
-  Date,
-  encodeURIComponent,
-};
-vm.createContext(context);
-vm.runInContext(fs.readFileSync(path.join(__dirname, "../js/pages/dashboard.js"), "utf8"), context);
-
-(async () => {
-  await ready();
-  const html = element("topics-list").innerHTML;
-  assert(html.includes("Sequences and Series"));
-  assert(html.includes("Functions and Graphs"));
-  assert(html.includes("topic=functions-graphs"));
-  assert(html.includes('topic-row__index">1'));
-  assert(html.includes('topic-row__index">2'));
-
-  elements.clear();
-  context.fetch = async () => ({ ok: false, status: 503 });
-  await ready();
-  const error = element("topics-list").innerHTML;
-  assert(error.toLowerCase().includes("curriculum could not be loaded"));
-  assert(error.includes("Status: 503"));
-  assert(!error.includes("Sequences and Series"));
-  console.log("backend-authoritative curriculum page flow passed");
-})().catch(error => { console.error(error); process.exitCode = 1; });
+const assert=require('assert'),fs=require('fs'),vm=require('vm');
+const host={innerHTML:''};let ready;
+const grades=[{id:'grade-8',grade:8,curriculum:'CAPS',availability:'available',topic_count:13,expected_lesson_count:81,published_interactive_lesson_count:10,interactive_lesson_count:81},{id:'grade-11',grade:11,curriculum:'CAPS',availability:'available',topic_count:12,expected_lesson_count:76,published_interactive_lesson_count:0,interactive_lesson_count:76}];
+const c={document:{addEventListener:(_n,f)=>ready=f,getElementById:()=>host},AthenaAuth:{restoreSession:async()=>null},renderNav(){},fetch:async()=>({ok:true,json:async()=>grades}),encodeURIComponent};
+vm.createContext(c);vm.runInContext(fs.readFileSync(__dirname+'/../js/pages/landing.js','utf8'),c);
+(async()=>{await ready();assert(host.innerHTML.includes('Grade 8'));assert(host.innerHTML.includes('grade=grade-11'));assert(host.innerHTML.includes('76'));c.fetch=async()=>({ok:false,status:503});await ready();assert(host.innerHTML.includes('Curriculum could not be loaded'));assert(!host.innerHTML.includes('grade=grade-11'));console.log('Landing catalogue uses current backend grades and replaces stale results on failure');})().catch(e=>{console.error(e);process.exitCode=1;});
+// Signed-in active members get a useful onward action instead of a second trial.
+(async()=>{
+ const nodes=new Map(); const n=id=>{if(!nodes.has(id))nodes.set(id,{innerHTML:'',textContent:'',href:''});return nodes.get(id);};let init;
+ const signed={document:{addEventListener:(_n,f)=>init=f,getElementById:n},AthenaAuth:{restoreSession:async()=>({grade:'grade-9'}),request:async()=>({has_access:true})},AthenaOffer:{setAccess(){}},renderNav(){},fetch:async()=>({ok:true,json:async()=>grades}),encodeURIComponent};
+ vm.createContext(signed);vm.runInContext(fs.readFileSync(__dirname+'/../js/pages/landing.js','utf8'),signed);await init();
+ assert.equal(n('landing-primary-cta').textContent,'Continue learning');assert.equal(n('landing-primary-cta').href,'grade.html?grade=grade-9');assert.equal(n('landing-account-link').href,'account.html');
+})().catch(e=>{console.error(e);process.exitCode=1;});

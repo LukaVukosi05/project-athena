@@ -1,51 +1,61 @@
+/* Customer membership flow. Provider simulation remains behind a disclosed preview. */
 const TrialCheckout = {
   plan: null, user: null, busy: false,
-  date(value) { return new Date(value).toLocaleString('en-ZA', {dateStyle:'long', timeStyle:'short',timeZone:'Africa/Johannesburg'}) + ' SAST'; },
+  date(value) { return new Date(value).toLocaleString('en-ZA', {dateStyle:'long',timeStyle:'short',timeZone:'Africa/Johannesburg'}) + ' SAST'; },
+  destination() { const next=AthenaAuth.safeNext(new URLSearchParams(location.search).get('next')); return next.startsWith('/checkout.html') ? '/index.html' : next; },
   async init() {
     renderNav('Account');
-    document.getElementById('trial-form').onsubmit = event => { event.preventDefault(); this.authorise(); };
+    document.getElementById('trial-form').onsubmit = event => { event.preventDefault(); this.beginPayment(); };
+    document.getElementById('preview-activate').onclick = () => this.authorise();
+    document.getElementById('preview-back').onclick = () => { document.getElementById('payment-preview').hidden=true; document.getElementById('trial-form').hidden=false; };
     try {
       this.plan = await AthenaOffer.load();
-      document.getElementById('checkout-benefits').innerHTML = AthenaOffer.benefits(this.plan);
+      document.getElementById('checkout-benefits').innerHTML = AthenaOffer.proof(this.plan);
       this.user = await AthenaAuth.restoreSession(); renderNav('Account');
       document.getElementById('checkout-availability').textContent = this.plan.test_checkout_enabled
-        ? 'Try the complete trial journey with a simulated payment method. Nothing is charged.'
-        : 'You can review the offer. Test checkout is disabled and live payments are not connected.';
+        ? 'Payment preview · No card details or money collected.'
+        : 'Payment setup is not available yet. You can still explore Athena.';
       if (this.user) await this.refresh();
       else document.getElementById('trial-form').hidden = !this.plan.test_checkout_enabled;
     } catch(error) { this.feedback(error.message); }
   },
-  feedback(text) { const node = document.getElementById('checkout-feedback'); node.textContent = text; node.focus(); },
+  feedback(text) { const node=document.getElementById('checkout-feedback'); node.textContent=text; node.focus(); },
+  async beginPayment() {
+    if (this.busy || !document.getElementById('trial-form').reportValidity()) return;
+    try {
+      if (!this.user) { this.user=await AthenaAuth.requireSession(); if (!this.user) return; }
+      document.getElementById('trial-form').hidden=true;
+      document.getElementById('payment-preview').hidden=false;
+      document.getElementById('preview-activate').focus();
+    } catch(error) { this.feedback(error.message); }
+  },
   async refresh() {
     const status = await AthenaAuth.request('/api/v1/payments/status');
     document.getElementById('trial-form').hidden = status.status !== 'not_started' || !this.plan.test_checkout_enabled;
-    const receipt = document.getElementById('trial-receipt'); receipt.hidden = status.status === 'not_started';
+    document.getElementById('payment-preview').hidden=true;
+    const receipt=document.getElementById('trial-receipt'); receipt.hidden=status.status==='not_started';
     if (receipt.hidden) return;
-    const canceled = Boolean(status.canceled_at);
-    receipt.innerHTML = `<span class="badge">Test subscription</span><h3>${canceled ? 'Subscription canceled' : status.first_charge_at ? 'First payment simulated' : status.status === 'trialing' ? 'Your 14-day test trial has started' : 'Your test trial has ended'}</h3><dl class="trial-dates"><dt>Payment method authorised</dt><dd>${this.date(status.authorised_at)}</dd><dt>Trial ends / first payment due</dt><dd>${this.date(status.trial_ends_at)}</dd><dt>Recurring price</dt><dd>R149/month</dd><dt>Real amount charged</dt><dd>R0 — test mode</dd>${status.first_charge_at ? `<dt>Simulated first payment</dt><dd>R149 on ${this.date(status.first_charge_at)}</dd>` : ''}</dl><p>${canceled ? 'No further payments will be simulated. Trial or paid-period access lasts until ' + this.date(status.access_until) + '.' : 'Cancel before the first payment to pay nothing. The trial cannot restart on this account.'}</p><details><summary>Confirmation and reminder previews</summary><ul>${(status.notifications || []).map(n=>`<li>${n.kind === 'confirmation' ? 'Subscription confirmation' : 'Trial-ending reminder'}: ${this.date(n.due_at)}. Preview only; email not sent.</li>`).join('')}</ul><p>Agreement version: ${escapeHtml(status.terms_version)}</p></details>${this.plan.test_checkout_enabled ? `<div class="trial-actions">${!canceled ? '<button class="btn btn-secondary" data-trial-action="cancel">Cancel subscription</button>' : ''}</div><details class="trial-simulator"><summary>Developer test controls — no real payments</summary><p>The test clock affects this account’s test subscription only.</p><button class="btn btn-ghost" data-trial-action="test/first-charge" ${canceled || status.first_charge_at ? 'disabled' : ''}>Simulate first R149 payment</button><button class="btn btn-ghost" data-trial-action="test/advance" ${status.test_clock_at || status.first_charge_at ? 'disabled' : ''}>Advance test clock to trial end</button></details>` : ''}<p><a href="practice.html">Go to practice</a> · <a href="account.html">Back to Account</a></p>`;
-    receipt.querySelectorAll('[data-trial-action]').forEach(button => button.onclick = () => this.action(button.dataset.trialAction));
+    const canceled=Boolean(status.canceled_at);
+    receipt.innerHTML=`<div class="membership-confirmation"><span class="membership-trial-badge">Access preview</span><h3>${canceled ? 'Your preview is canceled.' : status.has_test_access ? 'Your next maths step is ready.' : 'Your access preview has ended.'}</h3><p>No payment agreement or charge was made.</p><dl class="trial-dates"><dt>Preview began</dt><dd>${this.date(status.authorised_at)}</dd><dt>Preview period ends</dt><dd>${this.date(status.access_until)}</dd><dt>Planned membership price</dt><dd>R149/month after 14 free days</dd></dl><p>${canceled ? 'No further payment actions are scheduled.' : 'A live trial will begin only after payment-method authorisation. No reminder email is sent for this preview.'}</p><a class="btn btn-primary membership-cta" href="${escapeHtml(this.destination())}">Continue to Athena <span aria-hidden="true">→</span></a>${!canceled && this.plan.test_checkout_enabled ? '<button class="btn btn-ghost" type="button" data-trial-action="cancel">Cancel access preview</button>' : ''}</div>`;
+    receipt.querySelector('[data-trial-action="cancel"]')?.addEventListener('click',()=>this.cancel());
   },
   async authorise() {
-    if (this.busy) return;
-    if (!document.getElementById('trial-form').reportValidity()) return;
-    this.busy = true; const button=document.querySelector('#trial-form button[type="submit"]'); button.disabled = true;
+    if (this.busy || !document.getElementById('adult-payer').checked || !document.getElementById('trial-consent').checked) return;
+    this.busy=true; const button=document.getElementById('preview-activate'); button.disabled=true;
     try {
-      if (!this.user) { this.user = await AthenaAuth.requireSession(); if (!this.user) return; }
-      await AthenaAuth.request('/api/v1/payments/test/authorise', {method:'POST',body:JSON.stringify({
-        consent:document.getElementById('trial-consent').checked, adult_payer:document.getElementById('adult-payer').checked,
-        terms_version:this.plan.terms_version,outcome:document.querySelector('input[name="outcome"]:checked').value
-      })});
-      await this.refresh(); this.feedback('Test payment method authorised. Your trial dates are saved. No real charge was made.');
+      if (!this.user) return;
+      await AthenaAuth.request('/api/v1/payments/test/authorise',{method:'POST',body:JSON.stringify({consent:true,adult_payer:true,terms_version:this.plan.terms_version,outcome:'approved'})});
+      await this.refresh(); this.feedback('Your access preview is ready. Continue to Athena when you are ready.');
     } catch(error) { this.feedback(error.message); }
-    finally { this.busy = false; button.disabled = false; }
+    finally { this.busy=false; button.disabled=false; }
   },
-  async action(path) {
+  async cancel() {
     if (this.busy) return; this.busy=true;
     try {
-      await AthenaAuth.request('/api/v1/payments/' + path, {method:'POST'});
-      await this.refresh(); this.feedback(path === 'cancel' ? 'Subscription canceled. No further simulated payments.' : 'Test action saved. No real money moved.');
+      await AthenaAuth.request('/api/v1/payments/cancel',{method:'POST'});
+      await this.refresh(); this.feedback('Your access preview has been canceled. No charge was made.');
     } catch(error) { this.feedback(error.message); }
     finally { this.busy=false; }
   }
 };
-document.addEventListener('DOMContentLoaded', () => TrialCheckout.init());
+document.addEventListener('DOMContentLoaded',()=>TrialCheckout.init());

@@ -45,6 +45,29 @@ test('concurrent renewal is deduplicated and an invalid cookie clears the sessio
 
 test('next destination cannot leave Athena',()=>{
  const page=browser(()=>{});
- for(const url of ['//evil.example','https://evil.example','/\\evil.example','/\nevil'])assert.equal(page.auth.safeNext(url),'/dashboard.html');
+ for(const url of ['//evil.example','https://evil.example','/\\evil.example','/\nevil'])assert.equal(page.auth.safeNext(url),'/index.html');
  assert.equal(page.auth.safeNext('/lesson.html?lesson=g8-algebraic-equations-01'),'/lesson.html?lesson=g8-algebraic-equations-01');
+});
+
+test('sign-in routes new members to the offer and active members to the agreed home',async()=>{
+ const fresh=browser(async()=>response(200,{has_access:false}));
+ assert.equal(await fresh.auth.afterSignIn(null),'/checkout.html?next=%2Findex.html');
+ assert.equal(await fresh.auth.afterSignIn('/dashboard.html'),'/checkout.html?next=%2Findex.html');
+ assert.equal(await fresh.auth.afterSignIn('/lesson.html?lesson=g11-es-01'),'/checkout.html?next=%2Flesson.html%3Flesson%3Dg11-es-01');
+ const active=browser(async()=>response(200,{has_access:true}));
+ assert.equal(await active.auth.afterSignIn(null),'/index.html');
+ assert.equal(await active.auth.afterSignIn('/checkout.html'),'/index.html');
+ assert.equal(await active.auth.afterSignIn('/dashboard.html'),'/index.html');
+ const offline=browser(async()=>{throw new Error('offline');});
+ offline.state.setSession({access_token:'kept',user});
+ assert.equal(await offline.auth.afterSignIn(null),'/checkout.html?next=%2Findex.html');
+ assert.equal(offline.state.accessToken(),'kept');
+});
+
+test('every successful email and social sign-in path uses the membership decision',()=>{
+ for(const file of ['login.js','signup.js','oauth-onboarding.js']){
+  const source=fs.readFileSync(path.join(__dirname,'../js/pages',file),'utf8');
+  assert(source.includes('AthenaAuth.afterSignIn('),file);
+  assert(!source.includes('location.href = "dashboard.html"'),file);
+ }
 });

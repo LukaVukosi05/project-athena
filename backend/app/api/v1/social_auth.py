@@ -35,7 +35,7 @@ def providers():
 async def start(
     provider: Provider,
     request: Request,
-    next: str = "/dashboard.html",
+    next: str = "/index.html",
     remember: bool = False,
 ):
     if not available_providers()[provider]:

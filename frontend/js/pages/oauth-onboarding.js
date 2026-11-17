@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     try{
       const response=await AthenaAuth.fetch("/api/v1/auth/oauth/complete",{method:"POST",headers:{"Content-Type":"application/json","X-CSRF-Token":pending.csrf},body:JSON.stringify({first_name:document.getElementById("first-name").value.trim(),grade:document.getElementById("grade").value,curriculum_mode:document.getElementById("curriculum").value})});
       const session=await response.json();if(!response.ok)throw new Error(typeof session.detail==="string"?session.detail:"Check your details and try again.");
-      AthenaState.setSession(session);location.assign(AthenaAuth.safeNext(response.headers.get("X-Athena-Next")));
+      AthenaState.setSession(session);location.assign(await AthenaAuth.afterSignIn(response.headers.get("X-Athena-Next")));
     }catch(error){feedback.textContent=error.message;button.disabled=false;}
   };
 });

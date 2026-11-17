@@ -1,8 +1,9 @@
 const assert=require("assert"),fs=require("fs"),path=require("path");
 const root=path.join(__dirname,"..");
 const read=name=>fs.readFileSync(path.join(root,name),"utf8");
-const pages=["index.html","practice.html","checkout.html","login.html","signup.html","dashboard.html","grade.html","topic.html","lesson.html","progress.html","account.html","past-papers.html"];
+const pages=["index.html","practice.html","checkout.html","login.html","signup.html","grade.html","topic.html","lesson.html","progress.html","account.html","past-papers.html"];
 for(const page of pages){const html=read(page);assert(html.includes('id="nav-mount"'),`${page} must use the shared shell`);assert(html.includes("navigation.js"),`${page} must load shared navigation`);}
+assert(read("dashboard.html").includes("url=index.html"));
 const tokens=read("css/tokens.css"),components=read("css/components.css"),pageCss=read("css/pages.css");
 for(const token of ["--athena-navy: #18324a","--athena-teal: #167d87","--athena-gold: #d7a62c","--athena-background: #f5f8fa"]){assert(tokens.includes(token));}
 assert(components.includes("min-height:44px"));

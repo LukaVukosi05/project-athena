@@ -52,8 +52,17 @@ def subscription_status(
     notices = db.scalars(
         select(BillingNotification).where(BillingNotification.user_id == user.id)
     ).all()
+    summary = service.subscription_summary(row)
     return {
-        **service.subscription_summary(row),
+        **summary,
+        "has_access": bool(
+            user.is_premium
+            or (
+                get_settings().environment.casefold() == "development"
+                and get_settings().billing_test_mode
+                and summary.get("has_test_access", False)
+            )
+        ),
         "notifications": [
             {
                 "kind": n.kind,

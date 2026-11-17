@@ -107,3 +107,12 @@ explicit simulation notice and landing CTA destination. The authenticated
 trial lifecycle was verified through API and frontend controller tests.
 Mobile viewport rendering, Windows PowerShell execution, real provider
 authorisation and real email delivery remain to be tested.
+
+## Customer flow revision
+
+The membership research and current routing are documented in
+../ux/MEMBERSHIP_RESEARCH_AND_FLOW_2026-11-17.md. The customer interface no
+longer exposes developer time controls or scenario radios. Automated billing
+tests still exercise early-payment refusal, expiry, cancellation and duplicate
+submissions. Preview access is recognised for navigation only when development
+billing preview is enabled; it cannot grant production membership.

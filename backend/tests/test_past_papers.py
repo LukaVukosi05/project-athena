@@ -11,8 +11,9 @@ def test_past_paper_content_api_is_inactive_during_curriculum_reset():
 def test_development_frontend_assets_are_not_cached_and_use_backend_catalogue():
     with TestClient(app) as client:
         dashboard = client.get("/dashboard.html")
-        script = client.get("/js/pages/dashboard.js")
+        script = client.get("/js/pages/landing.js")
     assert "no-store" in dashboard.headers["cache-control"]
     assert "no-store" in script.headers["cache-control"]
-    assert "/api/v1/curriculum/grades/" in script.text
-    assert "Paper 1" in script.text and "Paper 2" in script.text
+    assert "/api/v1/curriculum/grades" in script.text
+    assert "url=index.html" in dashboard.text
+    assert "landing-catalogue" in script.text
