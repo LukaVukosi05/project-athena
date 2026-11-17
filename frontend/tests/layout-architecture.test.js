@@ -1,14 +1,14 @@
 const assert=require("assert"),fs=require("fs"),path=require("path");
 const root=path.join(__dirname,"..");
 const read=name=>fs.readFileSync(path.join(root,name),"utf8");
-const pages=["index.html","login.html","signup.html","dashboard.html","grade.html","topic.html","lesson.html","progress.html","account.html","past-papers.html"];
+const pages=["welcome.html","practice.html","login.html","signup.html","dashboard.html","grade.html","topic.html","lesson.html","progress.html","account.html","past-papers.html"];
 for(const page of pages){const html=read(page);assert(html.includes('id="nav-mount"'),`${page} must use the shared shell`);assert(html.includes("navigation.js"),`${page} must load shared navigation`);}
 const tokens=read("css/tokens.css"),components=read("css/components.css"),pageCss=read("css/pages.css");
 for(const token of ["--athena-navy: #18324a","--athena-teal: #167d87","--athena-gold: #d7a62c","--athena-background: #f5f8fa"]){assert(tokens.includes(token));}
 assert(components.includes("min-height:44px"));
 assert(components.includes(".nav-menu-toggle")&&components.includes("@media (max-width: 860px)"));
 assert(pageCss.includes("@media(max-width:720px)")&&pageCss.includes(".lesson-layout"));
-const landing=read("index.html");assert(landing.includes("Understand every step. Recover every mark."));assert(landing.includes("CAPS-aligned Mathematics for Grades 8–12"));
+const landing=read("welcome.html");assert(landing.includes("Understand every step. Recover every mark."));assert(landing.includes("CAPS-aligned Mathematics for Grades 8–12"));
 for(const principle of ["See every step","Fix the first mistake","Track real improvement"])assert(landing.includes(principle));
 assert(landing.includes("Choose your grade")&&landing.includes("Inside every usable lesson"));
 const landingSource=read("js/pages/landing.js");

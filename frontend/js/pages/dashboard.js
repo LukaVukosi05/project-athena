@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   const authenticatedUser = await AthenaAuth.requireSession();
   if (!authenticatedUser) return;
   renderNav("Learn");
-  const state = AthenaState.get(), selected = state.user?.grade || "grade-12", picker = document.getElementById("dashboard-grade");
+  const state = AthenaState.get(), requested = new URLSearchParams(location.search).get("grade"), selected = /^grade-(8|9|10|11|12)$/.test(requested || "") ? requested : state.user?.grade || "grade-12", picker = document.getElementById("dashboard-grade");
   picker.value = selected;
-  picker.onchange = () => { location.href = `grade.html?grade=${encodeURIComponent(picker.value)}`; };
+  picker.onchange = () => { location.href = `dashboard.html?grade=${encodeURIComponent(picker.value)}`; };
   const greeting = typeof greetingWord === "function" ? greetingWord() : "Welcome";
   document.getElementById("greeting").textContent = `${greeting}, ${state.user.firstName}`;
   await loadGrade(selected, state);
@@ -14,6 +14,8 @@ async function loadGrade(gradeId, state) {
   const url = `/api/v1/curriculum/grades/${encodeURIComponent(gradeId)}`, response = await AthenaAuth.fetch(url, { headers: AthenaState.accessToken() ? { Authorization: `Bearer ${AthenaState.accessToken()}` } : {} });
   if (!response.ok) { document.getElementById("topics-list").innerHTML = `<div class="card" role="alert"><strong>Curriculum could not be loaded.</strong><p>Request: ${escapeDashboardHtml(url)} · Status: ${response.status}</p></div>`; return; }
   const grade = await response.json(), usable = grade.topics.reduce((sum, topic) => sum + (topic.interactive_lesson_count || 0), 0), complete = state.completedLessons.filter(id => id.startsWith(`g${grade.grade}-`)).length, progress = usable ? Math.min(100, Math.round(complete / usable * 100)) : 0;
+  const practiceLink = document.getElementById("dashboard-practice-link");
+  if (practiceLink) practiceLink.href = `practice.html?grade=${encodeURIComponent(gradeId)}`;
   document.getElementById("grade-label").textContent = `Grade ${grade.grade} Mathematics`;
   document.getElementById("progress-pct").textContent = `${progress}%`;
   document.getElementById("progress-fill").style.width = `${progress}%`;

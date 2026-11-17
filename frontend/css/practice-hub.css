@@ -1,0 +1,10 @@
+.practice-hub{max-width:1120px}.practice-hub h1{max-width:820px;font-size:clamp(2rem,5vw,3rem)}
+.practice-intro{max-width:760px;color:var(--color-text-secondary)}
+.practice-filters{display:grid;grid-template-columns:minmax(140px,1fr) minmax(220px,3fr);gap:var(--space-5);margin-block:var(--space-6) var(--space-4)}
+.practice-filters label{display:grid;gap:var(--space-2);font-weight:700}.practice-filters select{width:100%;min-height:48px;padding:12px;background:var(--color-card);border:1px solid var(--color-border);border-radius:var(--radius-sm);font:inherit;color:var(--color-text)}
+#practice-status{color:var(--color-text-secondary)}.practice-lesson-list{display:grid;gap:var(--space-3)}
+.practice-lesson-row{display:flex;align-items:center;justify-content:space-between;gap:var(--space-5);padding:var(--space-5)}
+.practice-lesson-row h3{font-family:var(--font-body);font-size:var(--fs-md);margin:0 0 var(--space-2)}.practice-lesson-row p{margin:0;color:var(--color-text-secondary);font-size:var(--fs-sm)}.practice-lesson-row .btn{flex-shrink:0}
+.practice-workspace-heading{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);margin-top:var(--space-7)}
+.practice-workspace-heading h2{margin-bottom:0}.practice-hub [hidden]{display:none!important}.practice-hub .self-guided-practice{margin-top:var(--space-5)}
+@media(max-width:600px){.practice-filters{grid-template-columns:1fr;gap:var(--space-4)}.practice-lesson-row,.practice-workspace-heading{align-items:stretch;flex-direction:column}.practice-lesson-row .btn{width:100%}.practice-hub .section-heading{align-items:start;gap:var(--space-3);flex-direction:column}}

@@ -11,7 +11,10 @@ from app.api.v1.practice_assessments import router as assessments_router
 from app.practice.assessment_catalog import ASSESSMENT_BANKS  # noqa: F401
 from app.practice.assessment_scoring import _score_assessment  # noqa: F401
 
+from app.api.v1.practice_catalogue import router as catalogue_router
+
 router = APIRouter()
+router.include_router(catalogue_router)
 router.include_router(diagnostics_router)
 router.include_router(questions_router)
 router.include_router(assessments_router)

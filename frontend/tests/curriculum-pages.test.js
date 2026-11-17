@@ -20,6 +20,8 @@ const context = {
   AthenaState: { get: () => ({ user: { firstName: "Test" }, completedLessons: [], isPremium: false }), accessToken: () => null },
   renderNav: () => {},
   fetch: async () => ({ ok: true, json: async () => ({ topics }) }),
+  location: { search: "" },
+  URLSearchParams,
   console,
   Date,
   encodeURIComponent,
