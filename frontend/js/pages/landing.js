@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded",async()=>{
-  try { await AthenaAuth.restoreSession(); } catch (_) {}renderNav("");
+  try { await AthenaAuth.restoreSession(); } catch (_) {}renderNav("Learn");
   const root=document.getElementById("landing-catalogue");
   try{
     const url="/api/v1/curriculum/grades",response=await fetch(url);

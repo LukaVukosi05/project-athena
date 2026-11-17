@@ -6,8 +6,8 @@ the launcher and unlock setting are not changed by this UI patch.
 
 ## Behaviour
 
-- The logo and Learn both link to dashboard.html. index.html redirects there.
-- The previous public introduction is retained at welcome.html.
+- The logo and Learn both link to index.html, the public introduction shown at the start of the reference video.
+- welcome.html redirects to index.html; the learner dashboard remains at dashboard.html.
 - Switching grade on the dashboard keeps the dashboard layout.
 - Practice opens practice.html, with grade, topic, and lesson selection.
 - One practice set appears at a time; Choose another lesson returns to the list.
@@ -44,4 +44,4 @@ or database migration is modified.
 Stop the server, apply from the repository root with git apply --check first,
 then restart tools/run_auth_test.ps1 and use Ctrl+F5 in the browser.
 Visit http://127.0.0.1:8000/ and the Practice tab. Confirm the logo and Learn
-return to the same dashboard, then try a grade, topic and lesson practice set.
+return to the same introduction page, then try a grade, topic and lesson practice set.

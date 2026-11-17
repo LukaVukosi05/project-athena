@@ -23,7 +23,10 @@ const catalogue=(grade,id)=>({grade,topics:[{id:'topic',title:'A <topic>',lesson
  assert(hub.catalogue.grade===12);assert(node('practice-workspace').hidden);
  context.AthenaAuth.fetch=async()=>({ok:false});await hub.loadGrade();assert(node('practice-status').textContent.includes('could not be loaded'));
  const navContext={};vm.createContext(navContext);vm.runInContext(read('js/engine/navigation.js'),navContext);
- assert(navContext.linkFor('Learn')==='dashboard.html');assert(navContext.linkFor('Practice')==='practice.html');assert(read('js/engine/navigation.js').includes('href="dashboard.html" class="topnav__logo"'));
- assert(read('index.html').includes('url=dashboard.html'));
+ assert(navContext.linkFor('Learn')==='index.html');assert(navContext.linkFor('Practice')==='practice.html');assert(read('js/engine/navigation.js').includes('href="index.html" class="topnav__logo"'));
+ assert(read('index.html').includes('Understand every step. Recover every mark.'));
+ assert(!read('index.html').includes('url=dashboard.html'));
+ assert(!read('index.html').includes('id="greeting"'));
+ assert(read('js/pages/landing.js').includes('renderNav("Learn")'));
  console.log('Practice hub: authored sets, mixed choices, empty banks, session launch, grade race, retry and navigation passed');
 })().catch(e=>{console.error(e);process.exitCode=1;});
