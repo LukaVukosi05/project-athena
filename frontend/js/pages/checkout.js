@@ -1,7 +1,6 @@
 /* Customer membership flow. Provider simulation remains behind a disclosed preview. */
 const TrialCheckout = {
   plan: null, user: null, busy: false,
-  date(value) { return new Date(value).toLocaleString('en-ZA', {dateStyle:'long',timeStyle:'short',timeZone:'Africa/Johannesburg'}) + ' SAST'; },
   destination() { const next=AthenaAuth.safeNext(new URLSearchParams(location.search).get('next')); return next.startsWith('/checkout.html') ? '/index.html' : next; },
   async init() {
     renderNav('Account');
@@ -10,7 +9,6 @@ const TrialCheckout = {
     document.getElementById('preview-back').onclick = () => { document.getElementById('payment-preview').hidden=true; document.getElementById('trial-form').hidden=false; };
     try {
       this.plan = await AthenaOffer.load();
-      document.getElementById('checkout-benefits').innerHTML = AthenaOffer.proof(this.plan);
       this.user = await AthenaAuth.restoreSession(); renderNav('Account');
       document.getElementById('checkout-availability').textContent = this.plan.test_checkout_enabled
         ? 'Payment preview · No card details or money collected.'
@@ -36,7 +34,7 @@ const TrialCheckout = {
     const receipt=document.getElementById('trial-receipt'); receipt.hidden=status.status==='not_started';
     if (receipt.hidden) return;
     const canceled=Boolean(status.canceled_at);
-    receipt.innerHTML=`<div class="membership-confirmation"><span class="membership-trial-badge">Access preview</span><h3>${canceled ? 'Your preview is canceled.' : status.has_test_access ? 'Your next maths step is ready.' : 'Your access preview has ended.'}</h3><p>No payment agreement or charge was made.</p><dl class="trial-dates"><dt>Preview began</dt><dd>${this.date(status.authorised_at)}</dd><dt>Preview period ends</dt><dd>${this.date(status.access_until)}</dd><dt>Planned membership price</dt><dd>R149/month after 14 free days</dd></dl><p>${canceled ? 'No further payment actions are scheduled.' : 'A live trial will begin only after payment-method authorisation. No reminder email is sent for this preview.'}</p><a class="btn btn-primary membership-cta" href="${escapeHtml(this.destination())}">Continue to Athena <span aria-hidden="true">→</span></a>${!canceled && this.plan.test_checkout_enabled ? '<button class="btn btn-ghost" type="button" data-trial-action="cancel">Cancel access preview</button>' : ''}</div>`;
+    receipt.innerHTML=`<div class="membership-confirmation"><h3>${canceled ? 'Your access is canceled.' : status.has_test_access ? 'Your access is ready.' : 'Your access period has ended.'}</h3><a class="btn btn-primary membership-cta" href="${escapeHtml(this.destination())}">Continue to Athena <span aria-hidden="true">→</span></a>${!canceled && this.plan.test_checkout_enabled ? '<button class="btn btn-ghost" type="button" data-trial-action="cancel">Cancel access preview</button>' : ''}</div>`;
     receipt.querySelector('[data-trial-action="cancel"]')?.addEventListener('click',()=>this.cancel());
   },
   async authorise() {
@@ -45,7 +43,7 @@ const TrialCheckout = {
     try {
       if (!this.user) return;
       await AthenaAuth.request('/api/v1/payments/test/authorise',{method:'POST',body:JSON.stringify({consent:true,adult_payer:true,terms_version:this.plan.terms_version,outcome:'approved'})});
-      await this.refresh(); this.feedback('Your access preview is ready. Continue to Athena when you are ready.');
+      location.assign(this.destination());
     } catch(error) { this.feedback(error.message); }
     finally { this.busy=false; button.disabled=false; }
   },

@@ -16,9 +16,6 @@ const AthenaOffer = {
   benefits(plan) {
     return `<ul class="trial-benefits"><li><strong>${plan.interactive_lessons} interactive maths lessons</strong> across Grades 8–12</li><li><strong>${plan.topics} CAPS topics</strong> to revisit throughout the school year</li><li><strong>${plan.practice_questions.toLocaleString()} practice questions</strong> with feedback and hints</li><li>Step-by-step worked examples to understand the method</li><li>Multiple-choice and written-answer practice at your own pace</li></ul>`;
   },
-  proof(plan) {
-    return `<div class="membership-stats"><div><strong>${plan.interactive_lessons}</strong><span>interactive lessons</span></div><div><strong>${plan.topics}</strong><span>CAPS maths topics</span></div><div><strong>${plan.practice_questions.toLocaleString()}</strong><span>practice questions</span></div></div><p class="trial-small">Grade 8–12 Mathematics · Learn, practise and revisit at your pace.</p>`;
-  },
   async mount() {
     for (const host of document.querySelectorAll('[data-trial-offer]')) {
       try {
