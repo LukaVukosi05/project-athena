@@ -1,5 +1,5 @@
 function renderNav(activeLabel) {
-  const links = ["Learn", "Practice", "Past Papers", "Progress", "Account"];
+  const links = ["Learn", "Practice", "Past Papers", "Account"];
   const state = AthenaState.get(), user = state.user, mount = document.getElementById("nav-mount");
   if (!mount) return;
   mount.innerHTML = `<nav class="topnav"><div class="topnav__inner">
@@ -9,4 +9,4 @@ function renderNav(activeLabel) {
   </div></nav>`;
   const menu=document.getElementById("nav-menu-toggle");menu.onclick=()=>{const open=mount.querySelector(".topnav").classList.toggle("is-open");menu.setAttribute("aria-expanded",String(open));};
 }
-function linkFor(label){return {"Learn":"index.html","Practice":"practice.html","Past Papers":"past-papers.html","Progress":"progress.html","Account":"account.html"}[label]||"#";}
+function linkFor(label){return {"Learn":"index.html","Practice":"practice.html","Past Papers":"past-papers.html","Account":"account.html"}[label]||"#";}
