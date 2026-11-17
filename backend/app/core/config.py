@@ -33,6 +33,7 @@ class Settings(BaseSettings):
     apple_private_key: str = ""
     allowed_origins: list[str] = ["http://localhost:8080"]
     unlock_all_lessons: bool = False
+    billing_test_mode: bool = False
 
     @field_validator("allowed_origins", mode="before")
     @classmethod
@@ -43,6 +44,8 @@ class Settings(BaseSettings):
 
     @model_validator(mode="after")
     def prevent_production_unlock_override(self):
+        if self.environment.casefold() != "development" and self.billing_test_mode:
+            raise ValueError("Billing test mode is only available in development")
         if self.environment.casefold() == "production" and self.unlock_all_lessons:
             raise ValueError(
                 "ATHENA_UNLOCK_ALL_LESSONS cannot be enabled in production"

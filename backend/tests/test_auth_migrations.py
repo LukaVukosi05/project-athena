@@ -35,7 +35,7 @@ def test_new_database_and_safe_existing_database_adoption(tmp_path):
     with sqlite3.connect(fresh) as db:
         assert (
             db.execute("SELECT version_num FROM alembic_version").fetchone()[0]
-            == "0002_auth_sessions"
+            == "0003_trial_subscriptions"
         )
         assert {
             "users",
@@ -76,3 +76,52 @@ def test_new_database_and_safe_existing_database_adoption(tmp_path):
             )
     assert migrate(old).returncode == 0
     engine.dispose()
+
+
+def test_versioned_auth_database_upgrades_without_losing_existing_rows(tmp_path):
+    path = tmp_path / "versioned.db"
+    environment = dict(
+        os.environ,
+        ATHENA_DATABASE_URL="sqlite:///" + path.as_posix(),
+        ATHENA_JWT_SECRET="migration-test-only",
+        ATHENA_ENVIRONMENT="development",
+        PYTHONPATH=str(ROOT / "backend"),
+    )
+    result = subprocess.run(
+        [
+            sys.executable,
+            "-m",
+            "alembic",
+            "-c",
+            str(ROOT / "backend/alembic.ini"),
+            "upgrade",
+            "0002_auth_sessions",
+        ],
+        env=environment,
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert result.returncode == 0, result.stderr
+    with sqlite3.connect(path) as db:
+        db.execute(
+            "INSERT INTO users (id,first_name,email,hashed_password,grade,curriculum_mode,role,is_premium) VALUES (1,'Keep','keep@example.invalid','keep-hash','grade-11','CAPS','learner',0)"
+        )
+        db.execute(
+            "INSERT INTO auth_sessions (token_hash,user_id,expires_at) VALUES ('keep-session',1,'2030-01-01')"
+        )
+    result = migrate(path)
+    assert result.returncode == 0, result.stderr
+    with sqlite3.connect(path) as db:
+        assert (
+            db.execute("SELECT hashed_password FROM users").fetchone()[0] == "keep-hash"
+        )
+        assert (
+            db.execute("SELECT token_hash FROM auth_sessions").fetchone()[0]
+            == "keep-session"
+        )
+        assert (
+            db.execute("SELECT version_num FROM alembic_version").fetchone()[0]
+            == "0003_trial_subscriptions"
+        )
+        assert db.execute("SELECT COUNT(*) FROM trial_subscriptions").fetchone()[0] == 0

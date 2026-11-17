@@ -35,10 +35,12 @@ def main():
             )
         expected = {"users", "practice_sessions"}
         auth = {"auth_sessions", "external_identities"}
+        billing = {"trial_subscriptions", "billing_notifications"}
         if (
             not expected <= names
-            or names - expected - auth
+            or names - expected - auth - billing
             or (names & auth and not auth <= names)
+            or (names & billing and not (billing | auth) <= names)
         ):
             raise SystemExit("Unrecognised/partial schema. No adoption performed.")
         for name in names:
@@ -111,7 +113,12 @@ def main():
             assert destination.execute("PRAGMA integrity_check").fetchone()[0] == "ok"
         print(f"Validated SQLite backup: {backup}")
         command.stamp(
-            config, "0002_auth_sessions" if auth <= names else "0001_existing_core"
+            config,
+            (
+                "0003_trial_subscriptions"
+                if billing <= names
+                else "0002_auth_sessions" if auth <= names else "0001_existing_core"
+            ),
         )
     command.upgrade(config, "head")
     print("Database schema is at the latest revision. No learner records were deleted.")

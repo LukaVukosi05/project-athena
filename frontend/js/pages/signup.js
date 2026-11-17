@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
       finish.textContent = "Creating account...";
       try {
         await AthenaAuth.signup(answers);
-        location.href = "dashboard.html";
+        location.href = AthenaAuth.safeNext(new URLSearchParams(location.search).get("next"));
       } catch (error) {
         alert(error.message);
         finish.disabled = false;

@@ -11,6 +11,7 @@ from app.api.v1.social_auth import router as social_auth_router
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy import text
 
+from app.api.v1.payments import router as payments_router
 from app.api.v1.auth import router as auth_router
 from app.api.v1.curriculum import router as curriculum_router
 from app.api.v1.lessons import router as lessons_router
@@ -84,6 +85,7 @@ app.add_middleware(
 )
 app.add_middleware(GZipMiddleware, minimum_size=1_000, compresslevel=5)
 app.include_router(social_auth_router, prefix="/api/v1/auth", tags=["auth"])
+app.include_router(payments_router, prefix="/api/v1/payments", tags=["payments"])
 app.include_router(auth_router, prefix="/api/v1/auth", tags=["auth"])
 app.include_router(curriculum_router, prefix="/api/v1/curriculum", tags=["curriculum"])
 app.include_router(lessons_router, prefix="/api/v1/lessons", tags=["lessons"])

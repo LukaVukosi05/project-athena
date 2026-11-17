@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   renderNav("");
   const form = document.getElementById("login-form"), feedback = document.getElementById("login-feedback");
   const params = new URLSearchParams(location.search), next = AthenaAuth.safeNext(params.get("next"));
+  const signup = document.querySelector('a[href="signup.html"]');
+  if (signup) signup.href = `signup.html?next=${encodeURIComponent(next)}`;
   const errorMessages = {verification:"We couldn't verify that sign-in. Please try again or use email.", existing_account:"An email account already exists. Sign in with your email and password. Account linking is not available in this test build."};
   if (params.has("oauth_error")) feedback.textContent = errorMessages[params.get("oauth_error")] || "Sign-in was not completed. Please try again.";
   document.getElementById("toggle-password").onclick = event => {

@@ -2,6 +2,7 @@
 $ErrorActionPreference = 'Stop'
 $AthenaRoot = Split-Path -Parent $PSScriptRoot
 $AthenaBackend = Join-Path $AthenaRoot 'backend'
+$env:ATHENA_BILLING_TEST_MODE = 'true'
 $AthenaSecretFile = Join-Path $AthenaBackend '.env.auth-test-secret'
 if (!(Test-Path $AthenaSecretFile)) {
     $AthenaSecret = & python -c "import secrets; print(secrets.token_urlsafe(48))"
