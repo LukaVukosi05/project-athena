@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Practice — Project Athena</title>
-<link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/pages.css"><link rel="stylesheet" href="css/practice.css"><link rel="stylesheet" href="css/practice-hub.css">
+<link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css?v=shared-footer-v1"><link rel="stylesheet" href="css/pages.css"><link rel="stylesheet" href="css/practice.css"><link rel="stylesheet" href="css/practice-hub.css">
 </head><body><div id="nav-mount"></div>
 <main class="container section practice-hub"><header><p class="eyebrow">Independent practice</p><h1>Build confidence, one lesson at a time.</h1><p class="practice-intro">Choose your grade and topic, then practise a lesson. Multiple-choice and written-answer questions use the same hints, feedback and worked solutions as your lessons.</p></header>
 <form class="card practice-filters" aria-label="Choose practice" onsubmit="return false">
@@ -10,7 +10,7 @@
 <p id="practice-status" role="status">Loading practice…</p>
 <section id="practice-library" aria-labelledby="practice-topic-title"><div class="section-heading"><div><p class="eyebrow">Lesson practice</p><h2 id="practice-topic-title" tabindex="-1">Choose a topic</h2></div><span id="practice-count"></span></div><div id="practice-lessons" class="practice-lesson-list"></div></section>
 <section id="practice-workspace" hidden aria-labelledby="practice-lesson-title"><div class="practice-workspace-heading"><div><p class="eyebrow">Your practice session</p><h2 id="practice-lesson-title" tabindex="-1"></h2></div><a id="practice-teaching-link" class="btn btn-ghost" href="dashboard.html">Review lesson</a></div><button id="practice-back" class="btn btn-secondary" type="button">← Choose another lesson</button><div id="practice-question-root"></div></section>
-</main><footer class="site-footer"><div class="container">Project Athena · Practise at your own pace.</div></footer>
+</main><footer id="site-footer" class="site-footer"></footer>
 <script src="js/engine/html.js"></script><script src="js/engine/state.js?v=auth-flow-v4"></script><script src="js/engine/navigation.js?v=nav-four-tabs-v4"></script><script src="js/math/math-notation.js?v=g11-math-v1"></script>
 <script>function escapeWhiteboardHtml(value) { return escapeHtml(value); }</script>
-<script src="js/lessons/worked-solution.js"></script><script src="js/lessons/self-guided-practice.js?v=practice-v1"></script><script src="js/pages/practice.js?v=practice-hub-v2"></script></body></html>
+<script src="js/lessons/worked-solution.js"></script><script src="js/lessons/self-guided-practice.js?v=practice-v1"></script><script src="js/pages/practice.js?v=practice-hub-v2"></script><script src="js/engine/footer.js?v=shared-footer-v1"></script></body></html>
